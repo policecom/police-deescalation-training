@@ -1,0 +1,453 @@
+{
+    "id": 1,
+    "title": "Eismo sustabdymo deeskalacija",
+    "description": "Sudėtingas scenarijus, apimantis naktinį eismo sustabdymą, kuris atskleidžia krizę patiriančią šeimą. Valdykite susijaudinusį vairuotoją, paauglį keleivį, filmuojantį susitikimą, dispečerinės pranešimus ir susirūpinusią praeivę — visa tai išlaikydami profesionalumą, empatiją ir pareigūno saugumą.",
+    "icon": "🚗",
+    "difficulty": 2,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Seržantas Williams",
+        "avatar": "👨‍🏫",
+        "introduction": "Eismo sustabdymai yra vienos dažniausių — ir pavojingiausių — sąveikų policijos darbe. Tai taip pat vieta, kur bendruomenės pasitikėjimas kuriamas arba prarandamas, vienas susitikimas po kito. Šį vakarą sustabdysite transporto priemonę dėl eismo pažeidimo, tačiau tai, kas prasidės kaip rutina, taps kažkuo kur kas sudėtingesniu. Vairuotojas patiria didžiulį asmeninį spaudimą, kurio iš išorės nematote. Keleivio elgesys metus iššūkį jūsų savitvardai. Ir kiekvieną jūsų pasirinkimą stebės — žmonės automobilyje, praeiviai ir galbūt kameros. Tyrimai nuosekliai rodo, kad pareigūno tonas per pirmąsias trisdešimt sekundžių prognozuoja visos sustabdymo eigos trajektoriją. Jūsų darbas — ne tik teisės aktų vykdymas, bet ir komunikacija, sprendimų priėmimas ir žmogiškumas esant spaudimui. Kaip suvaldysite šį sustabdymą, apibrėš, kokiu pareigūnu tampate."
+    },
+    "timedChoices": true,
+    "completionBadges": [
+        "scenario-1-complete"
+    ],
+    "perfectBadge": "perfect-scenario-1",
+    "finalMessage": {
+        "revelation": "Ponas Richard Davies yra 47 metų vidurinės mokyklos istorijos mokytojas ir vienišas tėvas, kuris savaičių savaitėmis tyliai griūva. Likus trims dienoms iki jūsų sustabdymo, jo buvusi žmona pateikė skubų globos prašymą, teigdama, kad jis netinkamas tėvas — prašymą, sukeltą ne smurto, o pikto ginčo dėl sūnaus Marcuso mokyklos registracijos. Davies nuo tada, kai gavo teismo dokumentus, nemiegojo daugiau nei tris valandas per naktį. Greičio viršijimas nebuvo neapdairumas — jis vežė Marcusą pas senelę, nes ką tik gavo skambutį, kad jo mama Eleanor parkrito ir greitoji ją veža į ligoninę. Jis buvo išsigandęs, kad per vieną savaitę praras ir mamą, ir sūnų. Marcusas, penkiolikmetis, kuris filmavo jūsų susitikimą, tą vakarą įkėlė sutrumpintą vaizdo įrašo versiją. Versijoje, kuri tapo viraliniu — peržiūrėta daugiau nei 200 000 kartų — žiūrovai matė policijos pareigūną, kuris liko ramus, kai ant jo šaukė, kuris pagarbiai elgėsi su juodaodžiu paaugliu, nedemonstruodamas įtarumo, ir kuris parodė šeimai nuoširdų užuojautą sunkiausiu momentu. Pilnas vaizdo įrašas vėliau buvo naudojamas trijose policijos akademijose kaip pavyzdinis eismo sustabdymo komunikacijos mokymo pavyzdys. Pono Davies mama visiškai pasveiko. Jo globos byla buvo išspręsta jo naudai po šešių savaičių. Marcusas, kuris anksčiau draugams sakė, kad nenori turėti nieko bendro su policija, parašė mokyklinį rašinį pavadinimu \u201eNaktis, kai pakeičiau nuomon\u0119 apie policininkus.\u201c Jūsų vienas eismo sustabdymas tyliai pakeitė visos šeimos santykį su teisėsauga.",
+        "keyLessons": [
+            "Pirmosios trisdešimt eismo sustabdymo sekundžių nustato emocinę trajektoriją viskam, kas seka — tonas, laikysena ir žodžių pasirinkimas turi milžinišką reikšmę",
+            "Kai kas nors yra priešiškas sustabdymo metu, beveik visada už elgesio slypi nematoma krizė — smalsumas pasitarnauja geriau nei konfrontacija",
+            "Paauglys, filmuojantis policijos susitikimą, naudojasi teisėta teise, o ne daro iššūkį — kaip reaguojate į kamerą, apibrėžia istoriją",
+            "Diskrecija nėra silpnybė — įspėjimo pasirinkimas vietoj baudos, kai aplinkybės tai pateisina, yra sudėtingas profesinio sprendimo panaudojimas",
+            "Žmogaus skausmo pripažinimas nekompromituoja jūsų autoriteto — tai jį sustiprina, parodydamas, kad galia ir empatija gali koegzistuoti",
+            "Kiekvieną eismo sustabdymą kažkas stebi — vairuotojas, keleiviai, praeiviai, vaizdo registratoriai — ir kiekvienas stebėtojas susidaro ilgalaikį įspūdį apie policiją iš to, ką mato",
+            "Deeskalacija nėra technika, taikoma sudėtingiems žmonėms — tai komunikacijos disciplina, taikoma kiekvienai sąveikai, ypač rutininėms"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Sustabdymas",
+            "sceneUpdate": {
+                "emoji": "🚗",
+                "title": "Gyvenamoji gatvė — 21:47",
+                "desc": "Radaras užfiksuoja tamsiai mėlyną visureigį, važiuojantį 84 km/h 60 km/h zonoje gyvenamuoju rajonu. Įjungiate šviesas. Automobilis sustoja beveik po kvartalo, nelygiai, vienu ratu ant šaligatvio. Pro priekinius žibintus matote du keleivius — suaugusį vairuotoją ir, atrodo, paauglį keleivį priekyje. Keleivis iš karto pakelia kažką — telefoną."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Ekipažas 14, numeriai priklauso Richard Davies, 47 metai. Transporto priemonė registruota, draudimas galiojantis. Jokių orderių, jokios praeities. Viena pastaba — yra aktyvus dingusio asmens gerovės patikrinimo prašymas dėl šios transporto priemonės, pateiktas maždaug prieš valandą. Šeimos narys skambino susirūpinęs dėl vairuotojo būsenos. Elkitės atidžiai."
+                }
+            ],
+            "prompt": "Dispečerinė pažymėjo gerovės susirūpinimą dėl šio vairuotojo. Ruošiatės prieiti. Kaip pradėsite?",
+            "options": [
+                {
+                    "text": "Prieinate iš vairuotojo pusės lėtu, ramiu žingsniu, žibintuvėlį laikydami žemai, kad neakintumėte salono viduje. Sustojate šiek tiek už vairuotojo lango, laikysena atvira, rankos matomos. Prisistatote ramiu, matuotu balsu: 'Labas vakaras, pone. Esu pareigūnas [Vardas] iš miesto policijos. Sustabdžiau jus, nes važiavote 84 km/h 60 km/h zonoje. Prieš tai aptardami — ar viskas gerai šį vakarą? Pastebėjau, kad ilgokai stabdėte, ir noriu įsitikinti, kad viskas tvarkoje.'",
+                    "feedback": "Kodėl: Pradėti nuo savo vardo ir sustabdymo priežasties iš karto įvykdo procedūrinius reikalavimus. Pastebėti lėtą sustojimą be kaltinimo — ir susieti tai su klausimu apie gerovę — natūraliai integruoja dispečerinės informaciją. Paklausti 'ar viskas gerai?' prieš reikalaujant dokumentų signalizuoja, kad matote žmogų, o ne tik pažeidimą. Žibintuvėlio padėtis padeda išvengti agresyvaus akinimo efekto, kuris didina įtampą. | PASEKMĖS: Ponas Davies sugniaužia vairą, bet jo pečiai šiek tiek nusileidžia nuo jūsų tono. Jis iš karto neatsako — apdoroja tai, kad jūsų balsas nėra priešiškas. Marcusas šiek tiek nuleidžia telefoną. Sukūrėte trijų sekundžių galimybės langą. | Refleksija: Kaip tai, ką pasakote pirmiausia — prisistatymą, priežastį ar rūpinimąsi gerove — formuoja vairuotojo tiesioginę emocinę reakciją?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Prieinate standartine pozicija iš vairuotojo pusės, žibintuvėlį laikydami dominuojančioje rankoje ir švietdami tiesiai į saloną. Praleisdami prisistatymą, iš karto pereinate prie reikalo trumpu, dalykišku tonu: 'Labas vakaras. Radaras parodė 84 km/h 60 km/h zonoje. Vairuotojo pažymėjimą ir registraciją, prašau.' Žvilgtelite į keleivio pakeltą telefoną ir reikšmingai pridedate: 'Ir pasakykite keleiviui nuleisti telefoną.'",
+                    "feedback": "Kodėl: Greičio paminėjimas ir dokumentų prašymas procedūriškai teisingi, bet tiesioginis reikalavimas dėl telefono yra problemiškas. Policijos filmavimas yra teisėta teisė. Prašyti keleivio nustoti filmuoti — ypač prieš užmezgant bet kokį ryšį — signalizuoja gynybingumą ir rodo, kad jums nepatogu būti stebimam. Taip pat neprisistatėte, o tai yra geroji praktika. | PASEKMĖS: Marcuso žandikaulis sukietėja — telefonas pakyla aukščiau, o ne žemiau. Ponas Davies pyksta: 'Jis gali filmuoti, ką nori.' Jūsų pirmasis pokalbis dabar yra priešiškas dviem frontais. | Refleksija: Kai reaguojate į kamerą dar net neprisistatę, kokią istoriją tai pasakoja filmuojančiam žmogui?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Prieinate atsargiai iš automobilio galo, viena ranka prie diržo, žibintuvėlio spinduliu nušviesdami galinę sėdynę, prieš pasiekdami langą. Jūsų laikysena įtempta, pečiai ištiesinti, žandikaulis sukąstas. Kalbate aštriai, komandiniu tonu, prieš užmezgant akių kontaktą: 'Vairuotojau, laikykite rankas ant vairo. Keleivis — noriu matyti abi jūsų rankas dabar pat. Niekas nejuda, kol nepasakysiu.' Pauzė, apžvelgiant saloną, ir tik tada paaiškinamas sustabdymas.",
+                    "feedback": "Kodėl: Nėra jokios aiškios saugumo grėsmės, išskyrus du keleivius ir telefoną. Komandų davimas apie rankas ir judėjimą kaip pirmieji žodžiai — be jokių saugumo indikatorių, tokių kaip įtartinas judėjimas, matomi ginklai ar sunkaus nusikaltimo požymiai — yra neproporcinga eskalacija. Tai komunikuoja grėsmę, o ne tarnystę. Dispečerinės pastaba nurodė gerovės susirūpinimą, o ne pavojaus signalą. | PASEKMĖS: Abu keleiviai sustingsta. Marcusas sušnabžda: 'Sakiau tau, tėti.' Pono Davies rankos dreba ant vairo. Bet kokia asmeninė krizė, vykstanti šiame automobilyje, buvo palaidota po pareigūno baimės. Gerovės patikrinimo galimybė prarastos. | Refleksija: Kada 'saugumas pirma' požiūris iš tikrųjų sukuria pavojų, kurį bandė užkirsti?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Prieinate įprastu žingsniu, žibintuvėlį laisvai laikydami prie šono. Šiek tiek pasilenkiate prie vairuotojo lango, tonas pokalbinis, bet tiesioginis: 'Labas vakaras. Vairuotojo pažymėjimą ir registraciją, prašau. Sustabdžiau jus dėl greičio viršijimo — 84 km/h 60 km/h zonoje.' Trumpai nutylite, stebėdami vairuotojo veidą, tada pridedate dalykišku balsu: 'Taip pat gavau dispečerinės pranešimą apie gerovės patikrinimą dėl šios transporto priemonės. Gal galite pasakyti, kas vyksta šį vakarą?'",
+                    "feedback": "Kodėl: Tiesioginis gerovės patikrinimo paminėjimas yra skaidrus, bet atskleisti, kad kažkas skambino dėl vairuotojo 'būsenos', prieš užmezgant bet kokį ryšį, gali jaustis kaip įsibrovimas ar gąsdinimas. Vairuotojas gali pasijusti sekami arba išduotas to, kas skambino. Skaidrumas — tai gerai, bet laikas turi reikšmės. | PASEKMĖS: Pono Davies veidas tamsėja: 'Kas skambino dėl manęs? Ar tai Linda? Ji bando mane parodyti nestabiliu!' Gerovės patikrinimas — skirtas padėti — tapo provokacija. Marcusas pradeda filmuoti dar atidžiau. | Refleksija: Kai turite jautrią foninę informaciją, kaip ją panaudoti nepaverstant ginklu?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Keleivis",
+            "sceneUpdate": {
+                "emoji": "📱",
+                "title": "Įtampa automobilio viduje",
+                "desc": "Ponui Davies ieškant dokumentų, pastebite, kad jo rankos dreba ir akys paraudusios. Paauglys keleivis — jo sūnus Marcusas, maždaug 15 metų — nukreipęs telefoną tiesiai į jus, filmuoja. Jo veido išraiška — baimės ir iššūkio mišinys. Automobilio vidus netvarkinga — greitojo maisto pakuotės, pagalvė, kelioninis krepšys ant galinės sėdynės. Atrodo, kad kažkas gyveno šiame automobilyje."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Ekipažas 14, papildoma informacija apie keleivį — Marcus Davies, 15 metų. Sistemoje yra pastaba: prieš šešis mėnesius jis pateikė oficialų skundą prieš pareigūną dėl sustabdymo ir tapatybės tikrinimo incidento. Skundas buvo patvirtintas. Tik kad žinotumėte."
+                },
+                {
+                    "character": "marcus",
+                    "text": "Aš tai filmuoju. Turiu visišką teisę filmuoti. Nebandykite atimti mano telefono."
+                },
+                {
+                    "character": "davies",
+                    "text": "Marcusai, liaukis — tiesiog liaukis. (jums) Atsiprašau, pareigūne. Žinau, kad viršijau greitį. Tiesiog... nerandu registracijos. Turėtų būti daiktadėžėje, bet viskas yra... Atsiprašau. Duokite sekundę."
+                }
+            ],
+            "prompt": "Vairuotojas sutrikęs ir atsiprašinėja. Paauglys konfrontatyviai reaguoja dėl filmavimo — ir dispečerinė pažymėjo, kad jis anksčiau sėkmingai pateikė skundą prieš pareigūną. Kaip suvaldysite abu vienu metu?",
+            "options": [
+                {
+                    "text": "Pirmiausia kreipiatės į Marcusą ramiu, neskubinamų linktelėjimu, laikydami balsą lygų ir pagarbų: 'Tu visiškai teisus — gali filmuoti. Tai tavo teisė ir man tai nekelia jokių problemų.' Tada palengva atsisukate kūnu link pono Davies, sušvelnindami laikyseną, rankos matomos ir atpalaiduotos: 'Neskubėkite su registracija, pone. Laiko turime, niekur neskubu. Matau, kad šį vakarą daug kas vyksta — niekas jūsų neskubina.'",
+                    "feedback": "Kodėl: Iš karto patvirtinti Marcuso teisę filmuoti numalšina konfrontaciją, kuriai jis rengėsi. Kai paauglys tikisi priešiškumo ir sulaukia pagarbos, visa dinamika pasikeičia. Pasakyti ponui Davies, kad neskubėtų — ir pastebėti, kad 'daug kas vyksta' — rodo dėmesingumą be tardymo. Jūs renkate informaciją per empatiją, o ne per reikalavimus. | PASEKMĖS: Marcusas sumirksi, akivaizdžiai nustebęs. Telefonas lieka pakėlęs, bet jo laikysena sušvelnėja. Ponas Davies iškvėpia ir suranda registraciją daiktadėžėje. Temperatūra automobilyje nukrinta penkiais laipsniais. Abu keleiviai dabar labiau linkę kalbėti. | Refleksija: Kas nutinka konfrontacijai, kai sutinkate su žmogumi dar jam nebaigus kovoti?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Visą dėmesį skiriate ponui Davies, sąmoningai atsisukdami kūnu nuo Marcuso, tarsi paauglys nebūtų prakalb. Jūsų balsas kantrus ir nuosaikus: 'Pone, neskubėkite su registracija. Ramiai ieškokite — palauksiu.' Stovite tyliai prie lango, rankos sujungtos priekyje, akys nukreiptos į vairuotoją. Marcuso pareiškimas apie filmavimą kabo ore tarp jūsų, neatsakytas ir nepaliestas.",
+                    "feedback": "Kodėl: Susitelkti į vairuotoją protinga, ir kantrybė ieškant dokumentų — tai gerai. Tačiau Marcusas pasakė tiesioginį teiginį, tikėdamasis atsakymo. Ignoruoti paauglį, kuris yra neramus ir priešiškas, neneutralizuoja įtampos — palieka ją neišspręstą. Jis tylėjimą interpretuos kaip atmetimą arba kaip tai, kad ketinate su juo susidoroti vėliau. | PASEKMĖS: Marcusas neramiai pasimuisto. Jūsų neatsakymas daro jį dar įtaresnį, o ne mažiau. Jis pradeda komentuoti į telefoną: 'Pareigūnas nieko nesako apie filmavimą. Pažiūrėsim.' Palikote atvirą frontą. | Refleksija: Kai kas nors jums meta iššūkį ir jūs nieko nesakote, kokią istoriją jie patys sau susikuria apie priežastį?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Šiek tiek išsitiesinate ir kreipiatės į Marcusą tvirtu, matuotu tonu, vieną ranką pakėlę delnu į priekį: 'Jaunuoli, aš nieko nesakiau apie tavo telefoną. Elkimės ramiai — visiems bus geriau.' Tada perkeliate dėmesį į vairuotoją, balsas tampa dalykiškas ir trumpas: 'Pone, man reikia tos registracijos — pažiūrėkite daiktadėžėje. Sutvarkykime viską greičiau, kad galėtumėte važiuoti toliau.'",
+                    "feedback": "Kodėl: Pataisyti Marcusą ('aš nieko nesakiau apie tavo telefoną') yra faktiškai teisinga, bet praleidžia esmę. Jis nereagavo į tai, ką pasakėte — jis anticipavo tai, ko tikėjosi iš jūsų. Jūsų pataisa skamba gynybiškai. 'Elkimės ramiai' reiškia, kad dalykai nėra ramūs, o tai gali tapti save išpildančiu pranašavimu. | PASEKMĖS: Marcusas suburbčia 'kaip nori', bet aštrumas nedingsta iš jo balso. Ponas Davies skubiai ieško daiktadėžėje, dabar labiau neramus. Sąveika funkcionali, bet įtempta. | Refleksija: Kai kas nors projektuoja savo baimę ant jūsų, ar projekcijos pataisymas efektyvesnis nei baimės adresavimas?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Pasilenkiate prie keleivio lango, kad žiūrėtumėte į Marcusą tiesiai, veidas arti stiklo, išraiška griežta. Pirštu rodote į telefoną ir kalbate žemu, atkirstų tonu: 'Vaikine, padėk telefoną. Tai tarp manęs ir vairuotojo — tu čia ne prie ko. Tu be reikalo apsunkini situaciją.' Laikote akių kontaktą kelias sekundes, tada atsisukate atgal į poną Davies.",
+                    "feedback": "Kodėl: Liepti nepilnamečiui nustoti filmuoti yra teisiškai abejotina ir praktiškai neveiksminga. 'Vaikine' yra atmetantis. 'Tu apsunkini situaciją' kaltina paauglį už naudojimąsi teise. Tai tiksliai tokia sąveika, kuri tampa virusine dėl neteisingų priežasčių — pareigūnas liepia juodaodžiui paaugliui nustoti filmuoti eismo sustabdymą. | PASEKMĖS: Marcuso veidas sukietėja. 'Aš nieko nepadėsiu.' Ponas Davies paniką apima: 'Pareigūne, prašau, jis tiesiog bijo.' Sustabdymas dabar yra apie telefoną, o ne apie greitį ar gerovės susirūpinimą. Sukūrėte konfliktą, kurio nebuvo. | Refleksija: Kai kažkieno teisėtą elgesį paverčiate problema, kas iš tikrųjų apsunkino situaciją?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Protrūkis",
+            "sceneUpdate": {
+                "emoji": "😤",
+                "title": "Emocijos užverda",
+                "desc": "Kol tikrinate pono Davies dokumentus, jis sėdi automobilyje su sūnumi. Matote, kaip jie kalbasi — Marcusas gestikuliuoja, ponas Davies purto galvą. Kai grįžtate prie lango, pono Davies savitvarda lūžo. Jo akys drėgnos ir balsas kyla."
+            },
+            "npcDialogue": [
+                {
+                    "character": "davies",
+                    "text": "Žinote ką? Pirmyn. Rašykite baudą. Pridėkite prie krūvos. Mano buvusi žmona bando atimti sūnų. Mano mama dabar ligoninėje — DABAR — o aš sėdžiu pakelėje, nes viršijau greitį dvidešimt keturiais kilometrais. Dvidešimt keturiais! Norite sugadinti mano vakarą? Stokite į eilę. Visi kiti jau tai padarė."
+                },
+                {
+                    "character": "marcus",
+                    "text": "(tyliai, savo tėvui) Tėti... nedaryk to. Prašau."
+                }
+            ],
+            "prompt": "Ponas Davies pratrūko — ne agresyviai prieš jus, o su gryna desperacija. Marcusas bando jį nuraminti. Kaip reaguosite?",
+            "options": [
+                {
+                    "text": "Sustojate. Leidžiate tylai pakiboti akimirką — vieną pilną kvėpavimą — kol jo žodžiai nusėda ore tarp jūsų. Tada nuleidžiate balsą ir šiek tiek pasilenkiate prie lango, sąmoningai sušvelnindami laikyseną: 'Pone Davies, girdėjau, ką ką tik pasakėte — jūsų mama ligoninėje ir kovojate dėl globos. Tai milžiniškas spaudimas vienam žmogui. Nesu čia šį vakarą tam, kad jį didinčiau. Ar galite pasakyti, kurioje ligoninėje jūsų mama?'",
+                    "feedback": "Kodėl: Pauzė yra kritiškai svarbi — ji leidžia jo žodžiams nusėsti, neatsimušant atgal. Pakartoti konkrečias detales, kuriomis jis pasidalijo, įrodo, kad iš tikrųjų klausėtės, o tai yra reta jo dabartinėje patirtyje. Paklausti, kurioje ligoninėje, perkelia pokalbį nuo bausmės prie problemų sprendimo. Jūs neignoruojate pažeidimo — prioritetizuojate žmogų. Tai aukšto lygio deeskalacija: sutikti žmogų jo skausmo taške. | PASEKMĖS: Pono Davies balsas lūžta. Jis pavadina ligoninę — Šv. Kotrynos, dvidešimt minučių kelio. Marcusas žiūri į jus su išraiška, kuri pasikeitė nuo įtarumo link kažko panašaus į atsargią viltį. Pirmą kartą šį vakarą kažkas turintis valdžią atsakė į skausmą rūpesčiu. | Refleksija: Ko jums kainuoja išklausyti kažkieno blogiausią akimirką? Ko jiems kainuoja, jei to nedarote?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Linktelite su užuojauta, veido išraiška sušvelnėja, apdorojant tai, kuo jis pasidalijo. Šiek tiek pakreipiate galvą ir atsakote nuoširdžiu, bet matuotu tonu: 'Atsiprašau, kad tiek visko patiriate, pone. Tai tikrai skamba labai sunkiai.' Padarote pauzę — tik tiek, kad empatija spėtų nusėsti — tada perkeliate svorį ir siekiate baudos blanketo: 'Bet vis dėlto turiu aptarti greičio viršijimą. Leiskite greitai tai sutvarkyti, kad galėtumėte vykti toliau.'",
+                    "feedback": "Kodėl: Užuojauta nuoširdi, bet perėjimas prie 'bet vis dėlto turiu aptarti greičio viršijimą' nutūpia kaip užsiveriančios durys. Jis ką tik atidengė savo skausmą, o jūsų atsakymas: pripažinta, dabar grįžtame prie reikalų. Perėjimo greitis rodo, kad jo krizė buvo išgirsta, pasvertas ir rasta nepakankama kažką pakeisti. | PASEKMĖS: Ponas Davies nusvirsta. 'Taip. Gerai. Nesvarbu.' Emocinis langas, kurį turėjote, užsidaro. Marcusas lėtai purto galvą į telefoną. Sustabdymas bus atliktas profesionaliai, bet žmogiškas momentas prarastas. | Refleksija: Kai kas nors pagaliau pasako, kas iš tikrųjų vyksta, kokią žinutę siunčia žodis 'bet'?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Ištiesiate pečius ir laikote balsą sąmoningai tolygų, spinduliuodami ramų autoritetą. Užmezgate tiesioginį akių kontaktą ir kalbate lėtai, aiškiai artikuliuodami kiekvieną žodį: 'Pone, suprantu, kad esate nusiminęs, bet turiu paprašyti, kad nekeltumėte balso. Yra dalykų, kuriuos galiu kontroliuoti, ir dalykų, kurių negaliu. Susitelkime į tai, kas yra prieš mus šią akimirką.' Laikote poziciją prie lango, iškarpinė rankoje, laukdami, kol jis susitvarkys.",
+                    "feedback": "Kodėl: 'Nekelkite balso', kai kažkas verkia dėl savo mamos ligoninėje, yra negirdėta. Jis ne šaukė ant jūsų — jis griuvo. 'Dalykai, kuriuos galiu kontroliuoti' skamba, lyg valdytumėte problemą, o ne kalbėtumėte su žmogumi. Ketinimas profesionalus, bet atlikimas praleidžia momentą. | PASEKMĖS: Ponas Davies nutyla — ne nuramintas, o pasidavęs. Marcusas uždeda ranką tėvui ant peties. Tyla automobilyje sunki nuo neišsakyto sielvarto. Turite paklusnumą, bet ne ryšį. | Refleksija: Kuo skiriasi žmogus, kuris buvo nuramintas, nuo žmogaus, kuris pasidavė?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Laikote tolygų, profesionalų toną, rankos sujungtos ant iškarpinės, veido išraiška rami ir santūri. Kalbate beveik kasdieniškai, lyg pateikdami sunkią diagnozę: 'Pone Davies, suprantu, kad patiriate didelį stresą, ir man nuoširdžiai gaila dėl jūsų mamos. Bet tai nekeičia fakto, kad važiavote 84 km/h gyvenamajame rajone su sūnumi automobilyje. Stresas, kurį patiriate, yra būtent priežastis, kodėl greitis svarbus labiau — o ne mažiau. Aptarkime tai ir galėsite vykti toliau.'",
+                    "feedback": "Kodėl: Tai skamba profesionaliai ir net logiškai nuosekliai — stresas iš tikrųjų veikia vairavimo gebėjimus. Bet laikas yra pražūtingas. Jis ką tik griuvo ir pasidalijo blogiausia savo gyvenimo naktimi, o jūsų atsakymas — ramus, argumentuotas paaiškinimas, kodėl bauda dabar dar labiau pagrįsta. Paėmėte jo pažeidžiamumą ir panaudojote kaip įrodymą prieš jį. Išmatuotas tonas daro blogiau, ne geriau — jaučiasi apskaičiuotas, o ne žiaurus, o krizę patiriančiam žmogui tai nesiskiria. Jo sūnus filmuoja pareigūną, kuris atsakė į ašaras politikos pagrindimo logika. | PASEKMĖS: Ponas Davies nutyla — ne nuramintas, o ištušintas. Jis pasirašo, ką tik jam paduosite. Marcusas žiūri su išraiška, peržengiančia pyktį — tai žmogaus, kuris ką tik patvirtino tai, ką visada įtarė apie valdžią, žvilgsnis. 'Tu girdėjai, ką jis pasakė, ar ne?' sako jis į telefoną. 'Mano tėtis verkia dėl senelės, o pareigūnas sako, kad dėl to bauda dar svarbesnė.' | Refleksija: Kai kas nors yra krizėje ir jūs panaudojate jų sielvartas kaip dalį vykdymo argumentacijos, ko tai išmoko juos — ir jų sūnų — apie tai, ką valdžia daro su pažeidžiamumu?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Praeivė",
+            "sceneUpdate": {
+                "emoji": "🏠",
+                "title": "Kaimynė prieina",
+                "desc": "Moteris, maždaug šešiasdešimties, išeina iš namo netoli sustojusio visureigio. Ji dėvi chalatą ir šlepetes, artinasi atsargiai nuo šaligatvio, laikydamasi maždaug trijų metrų atstumu. Ji stebi situaciją su matomu susirūpinimu. Verandos šviesa už jos apšviečia šaligatvį."
+            },
+            "npcDialogue": [
+                {
+                    "character": "neighbor",
+                    "text": "Pareigūne? Atsiprašau, kad trukdau. Esu Helen Marsh — gyvenu čia pat. Ar tai Richardas? Richard Davies? Aš jį pažįstu — jis dėsto Jefferson vidurinėje. Jo mama Eleanor yra mano draugė iš bažnyčios. Ar viskas gerai? Girdėjau, kad Eleanor šį vakarą parkrito."
+                },
+                {
+                    "character": "davies",
+                    "text": "(balsas lūžta) Ponia Marsh... man paskambino prieš valandą. Bandau nuvažiuoti į Šv. Kotrynos. Negaliu... negaliu čia įstrigti."
+                }
+            ],
+            "prompt": "Kaimynė, pažįstanti šeimą, pasirodė ir patvirtina pono Davies istoriją. Kaip valdysite šį naują elementą?",
+            "options": [
+                {
+                    "text": "Atsisukate į ponią Marsh su pagarbiu linktelėjimu, laikysena atvira ir neskubanti, nepaisant mirksintių šviesų už nugaros: 'Ačiū, ponia Marsh. Tikrai vertinu, kad atėjote — tai nuoširdžiai padeda turėti kontekstą.' Tada atsigręžiate prie automobilio, vieną ranką uždėdami ant stogo, ir kalbate su ponu Davies šiltesniu tonu: 'Pone Davies, sutvarkysiu viską ir greitai jus paleisiu, kad galėtumėte nuvažiuoti į ligoninę pas mamą.'",
+                    "feedback": "Kodėl: Pripažinti praeivę vardu ir padėkoti jai reiškia, kad ją vertinate kaip žmogų, prisidedantį prie situacijos, o ne kaip trukdymą. Jos patvirtinimas suteikia papildomo konteksto pateisinti diskreciją. Pranešti apie savo ketinimą ponui Davies — kad ketinate jį paleisti — iš karto palengvina ir parodo, kad nauja informacija pakeitė jūsų skaičiavimus. Tai skaidri, lanksti policijos veikla. | PASEKMĖS: Ponios Marsh pečiai atsipalaiduoja. Ponas Davies girdimais iškvėpia. Marcusas pirmą kartą nuleidžia telefoną ant kelių. Visa scena transformuojasi — konfrontacija tapo bendruomenės momentu. Ponia Marsh tyliai sako: 'Ačiū, pareigūne.' | Refleksija: Kai praeivė suteikia jums informacijos, padedančios priimti geresnį sprendimą, kaip viešas tai pripažinimas veikia visų pasitikėjimą?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Pakeliate vieną ranką link ponios Marsh sustabdymo gestu, balsas mandagus, bet tvirtas, su praktikuotu autoriteto, kaip kas nors cituojantis procedūrą: 'Ponia, ačiū, bet prašau grįžti į savo teritoriją. Tai eismo sustabdymas ir negaliu leisti civiliams artintis prie vietos. Vertinu susirūpinimą, bet prašau pasitraukti.' Tada nusisukate nuo jos ir tęsiate pono Davies dokumentų tvarkymą be tolesnio dėmesio kaimynei.",
+                    "feedback": "Kodėl: Pareigūno saugumo protokolai prie eismo sustabdymų yra realūs, bet ponia Marsh yra šešiasdešimtmetė kaimynė šlepetėmis, stovinti trimis metrais toliau ant šaligatvio. Ją nusiunčiant prarandama patvirtinanti informacija ir emocinis sąjungininkas. 'Civiliai artinasi prie vietos' kalba paverčia gyvenamąją gatvę nusikaltimo vieta. Nelankstumas kenkia proporcingumui. | PASEKMĖS: Ponia Marsh atsitraukia, įskaudinta. 'Aš tik norėjau padėti,' sako ji. Ponas Davies stebi, kaip jo kaimynė nusiunčiama, ir jo tikėjimas sąveika smunka. Marcusas užfiksuoja momentą. | Refleksija: Kai protokolas konfliktuoja su sveiku protu, kuris iš jų labiau kuria pasitikėjimą?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Žvilgtelite į ponią Marsh ir trumpai, profesionaliai linktelite, nežensdami link jos. Jūsų tonas mandagus, bet atrėžtas — toks pripažinimas, kuris užveria pokalbį, o ne jį atveria: 'Ačiū, ponia. Tvarkau situaciją — viskas kontroliuojama.' Tada atsisukate atgal prie vairuotojo lango ir tęsiate pokalbį su ponu Davies lygiai tokiu pačiu tonu ir būdu, kokį naudojote prieš jai pasirodant, tartum nieko nebūtų pasikeitę.",
+                    "feedback": "Kodėl: Pripažinti ją yra mandagu, bet matomo atsako į naują informaciją nebuvimas yra praleista galimybė. Dabar turite kaimynę, patvirtinančią vairuotojo krizę, bet jūsų požiūris nesikeičia. Tai daro jus nelankstų, o ne prisitaikantį. Pareigūnai, įtraukiantys naują informaciją į savo sprendimus, demonstruoja stipresnį sprendimą nei tie, kurie laikosi fiksuoto kurso. | PASEKMĖS: Ponia Marsh pasilieka, bet jaučiasi ignoruojama. Ponas Davies mato, kad jo kaimynės liudijimas nieko nepakeitė. Praeivės sąveika buvo neutrali — jokios žalos, bet ir jokios naudos. | Refleksija: Kai patikima nauja informacija ateina sąveikos viduryje, ką signalizuoja tai, kad jūsų požiūris nesikeiči?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Pažiūrite į ponią Marsh akimirką, tada atsisukate atgal į poną Davies su susirūpinusiu žvilgsniu, antakiai suraukti, tarsi ką tik atlikote klinikinį vertinimą. Kalbate atsargiu, apgalvotu balsu, kaip kažkas, pranešantis sunkų verdiktą: 'Pone, ar yra kas nors, kas galėtų atvažiuoti ir parvežti jus su sūnumi? Jūs akivaizdžiai negalite šiuo metu vairuoti.' Mosteli link kaimynės: 'Ponia, gal galėtumėte padėti su tuo?'",
+                    "feedback": "Kodėl: Teigti, kad vairuotojas nepajėgus vairuoti — kai jis emocionalus, bet ne apsvaigęs — patologizuoja normalią žmogišką reakciją į krizę. Pasitelkti kaimynę jam valdyti yra infantilizuojanti. Jūs sielvarstą traktuojate kaip saugumo pavojų. Tai taip pat kelia atsakomybės klausimų: jei neleisit neapsvaigusiam vairuotojui vairuoti, kokiu pagrindu? | PASEKMĖS: Ponas Davies pažemintas savo kaimynės ir sūnaus akivaizdoje. 'Aš ne girtas. Aš nusivylęs. Tai skirtumas.' Marcusas: 'Tėti, tiesiog važiuojam.' Ponia Marsh jaučiasi nepatogiai, kad buvo įvelta. | Refleksija: Kur yra riba tarp rūpinimosi kažkieno gerove ir jo savarankiškumo atėmimo?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Sprendimas",
+            "sceneUpdate": {
+                "emoji": "⚖️",
+                "title": "Diskrecijos taškas",
+                "desc": "Dabar turite pilną vaizdą. Ponas Davies važiavo 84 km/h 60 km/h zonoje — tai teisėtas pažeidimas. Bet jis žmogus be teistumo, tikroje krizėje, bandantis pasiekti savo hospitalizuotą mamą ir kartu kovojantis dėl globos. Jo paauglys sūnus stebėjo kiekvieną jūsų žingsnį. Kaimynė stovi šalia. Vaizdo registratorius filmuoja. Tai momentas, kai vykdymas sutinka sprendimą."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Ekipažas 14, atnaujinimas dėl gerovės patikrinimo — skambinusi buvo vairuotojo sesuo. Ji sako, kad šeima patiria sunkų laikotarpį, ir ji nerimauja, kad jis vairuoja sunervintas. Jokio kriminalinio susirūpinimo. Ji tiesiog norėjo, kad kažkas jį patikrintų."
+                }
+            ],
+            "prompt": "Dispečerinė patvirtina, kad gerovės susirūpinimą išreiškė sunerinta šeimos narė. Kaip išspręsite šį sustabdymą?",
+            "options": [
+                {
+                    "text": "Grįžtate prie lango, dokumentai rankoje, tonas tiesioginis, bet šiltas: 'Pone Davies, štai ką darysiu. Išrašau rašytinį įspėjimą dėl greičio — tai lieka įrašuose, kad kalbėjomės, bet nėra baudos ir nėra baudos taškų. Jūsų istorija lieka švari. Bet prašau mane išgirsti — 84 km/h gyvenamajame rajone yra pavojinga. Jei kas nors nutiktų jums ar Marcusui pakeliui, tai nebūtų viena tragedija — būtų dvi. Vairuokite saugiai. Jūsų mama turi sulaukti jūsų atvykstant.'",
+                    "feedback": "Kodėl: Rašytinis įspėjimas yra proporcingas — pripažįsta pažeidimą nebaustant krizę patiriančio žmogaus. Paaiškinimas, kad jo istorija lieka švari, pašalina finansinį ir teisinį nerimą. Saugumo žinutė performuluota apie jo šeimą — 'jūsų mama turi sulaukti jūsų atvykstant' — o ne apie taisykles. Tai išmintingai panaudota diskrecija: ne atleidimas, o atsakymo pasirinkimas, labiausiai tikėtinas duoti geriausią rezultatą visiems. | PASEKMĖS: Ponas Davies linksi, emocijos akivaizdžios. 'Ačiū, pareigūne. Nuoširdžiai.' Marcusas stebi pokalbį su išraiška, kuri nebėra priešiška. Ponia Marsh tyliai šypsosi. Vaizdo registratorius užfiksuoja pareigūną, priimantį apgalvotą, pagrįstą sprendimą. | Refleksija: Kas daro diskreciją išmintinga, o ne silpna? Kaip paaiškinsite skirtumą ataskaitoje?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Paimate baudos blanketą ir grįžtate prie lango. Veido išraiška atsiprašanti, bet ryžtinga — žmogaus, kuris pasvėrė galimybes ir nusileido kažkur nepatogiai. Paduodate dokumentus pro langą: 'Pone Davies, turiu rašyti šią baudą — 24 km/h viršijimas yra žymus ir negaliu jo praleisti. Bet galite tai ginčyti teisme, ir teisėjas gali ją sumažinti ar panaikinti. Ataskaitoje pažymėsiu aplinkybes. Gaila dėl jūsų mamos — nuvažiuokite saugiai.'",
+                    "feedback": "Kodėl: Sąžininga ir ne nemandagu, bet baudos išrašymas žmogui be teistumo, skubančiam pas hospitalizuotą mamą — kai turite pilną diskreciją to nedaryti — kelia klausimų apie sprendimą. Nukreipti jį į teismą, kad ištaisytų tai, ką galėtumėte ištaisyti dabar, prideda naštą jau ir taip priblokštam žmogui. Pastaba ataskaitoje yra apgalvota, bet nekeičia jo patirties šį vakarą. | PASEKMĖS: Ponas Davies paima baudą tylėdamas. Marcusas purto galvą. Ponia Marsh suraukia antakius. Rezultatas teisėtas, bet emocinė kaina aukšta. | Refleksija: Kai turite diskreciją ir pasirenkate jos nenaudoti, ką tai komunikuoja apie jūsų prioritetus?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Grąžinate vairuotojo pažymėjimą ir registraciją pro langą atsainiu linktelėjimu, atsitraukdami nuo automobilio. Jūsų tonas lengvas ir nerūpestingas, tarsi paskutinės penkiolikos minučių įtampa tiesiog išgaravo: 'Gerai, pone Davies — galite važiuoti. Jokios baudos šį vakarą, jokio įspėjimo, nieko į įrašus. Tik būkite atsargus kelyje. Tikiuosi, kad jūsų mama bus gerai.' Du kartus pabeldžiate per automobilio stogą ir patraukiate link patrulio automobilio.",
+                    "feedback": "Kodėl: Ketinimas geras, bet atlikimas per laisvas. Jokio greičio paminėjimo, jokios saugumo žinutės, jokio įspėjimo įrašuose. Diskrecija be jokio pažeidimo pripažinimo nieko neišmoko ir nepalieka jokios dokumentacijos. Jei Davies rytoj vėl viršys greitį ir sukels avariją, nėra įrašo, kad jį konsultavote. Gera diskrecija apima atskaitomybę. | PASEKMĖS: Ponas Davies palengvėja, bet turinio stoka daro sustabdymą atsitiktinį — lyg jis įvyko ir paskui neįvyko. Marcusas galvoja: 'Tai kokia prasmė?' Nėra saugumo išvados, nėra įrašo ir nėra ilgalaikio įspūdžio, išskyrus sumišimą. | Refleksija: Kuo skiriasi diskrecija nuo paprasčiausio paleidimo?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Apdorojate baudą ir grįžtate prie lango, veide nuoširdus apgailestavimas. Kalbate matuotu, rimtu tonu: 'Pone Davies, man tikrai gaila dėl to, ką patiriate. Bet turiu elgtis su visais vienodai, nepriklausomai nuo aplinkybių — tai ir yra teisingumas. Jei atleisčiau baudą jums dėl asmeninės ekstremalios situacijos, turėčiau tai daryti ir kitam, ir dar kitam po to. Tai teisingas ir nuoseklus sprendimas. Galite ginčyti teisme, o ataskaitoje pažymėsiu aplinkybes.'",
+                    "feedback": "Kodėl: Tai skamba kaip principinga, lygi policijos veikla — elkitės su visais vienodai, jokio ypatingo elgesio. Bet lygybė ir teisingumas nėra tas pats. Traktuoti patvirtintą šeimos ekstremalią situaciją taip pat kaip įprastą greičio viršijimą nėra teisingumas — tai nelankstumas, persirengęs principu. Diskrecija egzistuoja būtent todėl, kad aplinkybės skiriasi. Pareigūnas naudoja sąžiningumo kalbą, kad išvengtų sunkesnio sprendimo priėmimo darbo. Pasiūlymas ginčyti teisme perkelia naštą jau priblokštam žmogui. Jo sūnus stebi pareigūną, kuris skamba protingai darydamas kažką neprotingo. | PASEKMĖS: Ponas Davies pasirašo drebančia ranka. Jis neginčija — logika skamba taip principingai, kad beveik tiki, jog jis pats yra neprotingas, kad nori gailestingumo. Marcusas filmuoja tylėdamas. Ponia Marsh grįžta namo, purtydama galvą. Turite pagrįstą baudą. Taip pat penkiolikmetį išmokėte, kad teisingumas — tai žodis, kurį suaugusieji vartoja, kai turi omenyje nelankstumą. | Refleksija: Kai remiatės 'vienodu elgesiu su visais', kad pateisintumėte neproporcingą atsakymą, kam naudinga ta lygybė — piliečiui ar pareigūnui, kuriam nebereikia priimti sudėtingo sprendimo?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Marcusas",
+            "sceneUpdate": {
+                "emoji": "👦",
+                "title": "Paauglio klausimas",
+                "desc": "Oficiali sustabdymo dalis baigėsi. Ponas Davies ramiai susitelkia. Bet Marcusas, kuris tylėjo po savo pradinio protrūkio, atsisuka ir žiūri tiesiai į jus. Jo telefonas — ant kelių, nefilmuoja. Jo veido išraiška nėra priešiška. Ji ieškanti. Jis atrodo kaip penkiolikmetis, kuris nori kažko paklausti, bet nežino, ar jam leidžiama."
+            },
+            "npcDialogue": [
+                {
+                    "character": "marcus",
+                    "text": "Pareigūne... ar galiu jūsų kažko paklausti? Kodėl buvote... tipo, normalus? Visi mano draugai sako, kad kai tave sustabdo, tiesiog laikyk burną užčiauptą ir nejudėk, nes policija gali... Tai yra... jūs iš tikrųjų tiesiog... buvote normalus. Ar visada taip būna?"
+                }
+            ],
+            "prompt": "Paauglys, kuris tikėjosi blogiausio, užduoda jums nuoširdų klausimą apie policijos darbą. Šis momentas turi milžinišką reikšmę. Kaip atsakysite?",
+            "options": [
+                {
+                    "text": "Žiūrite į jį tiesiai, neskubėdami, veido išraiška atvira ir be nuolaidžiavimo: 'Tai teisingas klausimas, Marcusai, ir džiaugiuosi, kad paklausei. Ne — ne visada taip būna, ir neapsimesiu, kad taip yra. Bet taip turėtų atrodyti. Tavo tėtis viršijo greitį ir turėjome apie tai pakalbėti — bet jis taip pat žmogus, kuriam baisiai sunki naktis, ir tai irgi svarbu. Abu dalykai gali būti tiesa vienu metu. Tu turėjai visišką teisę filmuoti, ir verčiau norėčiau, kad pamatytum kažką vertą įrašymo.'",
+                    "feedback": "Kodėl: Sąžiningas atsakymas — 'ne visada taip būna' — vietoj visos policijos gynimo kuria patikimumą su paaugliu, kuris jau yra susidaręs nuomonę. Pripažinimas, kad jo tėvas ir viršijo greitį, IR kenčia, demonstruoja niuansų egzistavimą teisėsaugoje. 'Kažkas vertą įrašymo' performuluoja kamerą nuo priešiškumo link aspiracijos. Jūs sodinate sėklą, kuriai gali prireikti metų užaugti. | PASEKMĖS: Marcusas tylus ilgą akimirką. Tada lėtai linksi. 'Gerai.' Vienas žodis — bet jis turi svorio. Ponas Davies stebi pokalbį su kažkuo panašiu į dėkingumą. Šis trisdešimties sekundžių pokalbis gali pakeisti tai, kaip Marcusas kalba apie policiją visą likusį gyvenimą. | Refleksija: Kai jaunas žmogus jums užduoda nuoširdų klausimą apie policijos darbą, kokia yra nesąžiningo atsakymo kaina, palyginti su sąžiningo?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Šiek tiek nusišypsote, laikysena atsipalaiduoja, atsiremdami viena ranka į automobilio durų rėmą. Jūsų tonas šiltas ir asmeniškas, tarsi dėdė duodantis patarimą, o ne pareigūnas tarnyboje: 'Stengiuosi elgtis su žmonėmis taip, kaip norėčiau, kad su manimi elgtųsi, Marcusai. Tai iš tikrųjų viskas, kas už to slypi. Mes ne visi tokie, kaip rodo žinios — nemažai mūsų atėjome į šį darbą, nes tikrai norime padėti žmonėms.' Žvilgtelite į poną Davies, tada atgal į Marcusą: 'Pasirūpink tėčiu šį vakarą, gerai? Jam tavęs reikia.'",
+                    "feedback": "Kodėl: Šilta ir žmogiška, bet 'mes ne visi tokie, kaip rodo žinios' yra gynybinis formulavimas, kuris pozicionuoja jo susirūpinimus kaip žiniasklaidos sukurtus, o ne patirtimi grįstus. Tai subtiliai atmeta realybę, kad daugelis žmonių, įskaitant paauglius, turėjo neigiamų susidūrimų su policija, kurių nematė žiniose. Nukreipimas 'pasirūpink tėčiu' yra geras, bet nutraukia pokalbį per anksti, kai jis nuoširdžiai kreipėsi. | PASEKMĖS: Marcusas pusiau šypsosi. Tai teigiamas pokalbis, bet paviršutiniškas. Gilesnis pokalbis, kuriam jis atidarė duris, neįvyksta. Ryšys užmegztas, bet stipresnis buvo pasiekiamas. | Refleksija: Kai atsverate sisteminius klausimus asmeniniu dorumu, kieno realybę centruojate?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Trumpai linktelite, jau perkeldami kūno svorį link patrulio automobilio. Jūsų veido išraiška neutrali, profesionali — žmogaus, kuris mintyse jau užverčia bylą. Pametate Marcusui mandagų, bet formalų žvilgsnį: 'Tiesiog darau savo darbą, Marcusai. Saugiai šį vakarą — saugokite vienas kitą su tėčiu.' Išsitiesinate, iš įpročio pabeldžiate per automobilio stogą ir nusisukate eiti atgal prie savo ekipažo. Pokalbis baigiasi, dar net neįsibėgėjęs.",
+                    "feedback": "Kodėl: 'Tiesiog darau savo darbą' yra neatsakymas į pažeidžiamą klausimą. Marcusas padėjo telefoną ir apsaugą, ir paklausė kažko tikro. Sutikti tai su banalia fraze ir išvykimu pasako jam, kad pažeidžiamumas nebuvo vertas pastangų. Jis klausė apie sistemą, o jūs jam davėte šūkį nuo automobilio buferio. | PASEKMĖS: Marcusas stebi, kaip nueiname. Jis vėl pasiima telefoną. Siena vėl pakyla. Kitą kartą susidūręs su pareigūnu, telefonas bus pakėlęs nuo pat pradžių. | Refleksija: Kai jaunas žmogus nuleidžia apsaugą ir jūs atsakote klišė, kokios pamokos jis iš tikrųjų išmoksta?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Pasilenkiate link Marcuso su nuoširdžia, rimta išraiška, tyčia užmegzdami akių kontaktą, tarsi perduodami svarbią pamoką: 'Marcusai, tai, ką matei šį vakarą — taip ir turėtų atrodyti eismo sustabdymas. Tavo tėtis bendradarbiavo, aš buvau profesionalus, ir viską išsprendėme. Dauguma sustabdymų vyksta būtent taip. Tikiuosi, tai prisiminsi, kai kitą kartą kas nors tau sakys bijoti policijos. Bendradarbiavimas viską palengvina visiems — abiem pusėms.'",
+                    "feedback": "Kodėl: Tai skamba kaip nuoširdus edukacinis momentas — dalinimasis teigiama policijos darbo naratyva su jaunu žmogumi. Bet tai subtiliai perrašo tai, kas iš tikrųjų įvyko. Sustabdymas nebuvo rutininis — jo tėvas sugriauna verkdamas dėl savo mirštančios mamos, ir pareigūnas turėjo priimti sunkų sprendimą. Formuluoti tai kaip 'taip paprastai vyksta' sumenkina krizę. 'Bendradarbiavimas viską palengvina' reiškia, kad rezultatas priklauso nuo piliečio elgesio, o ne nuo pareigūno sprendimo. Ir sakyti juodaodžiui paaugliui nustoti klausyti žmonių, kurie įspėja jį apie policiją, atmeta gyvenimišką patirtį kaip dezinformaciją. Jis uždavė pažeidžiamą klausimą ir gavo viešųjų ryšių pranešimą. | PASEKMĖS: Marcuso veido išraiška keičiasi nuo atvirumo link kažko vėsesnio. 'Taip... gerai.' Telefonas lieka ant kelių, bet ieškanti žvilgsnis dingo. Jis siekė tikro pokalbio ir gavo viešą pranešimą. Ponas Davies žiūri tiesiai pirmyn. Momentas nuoširdžiam ryšiui praėjo. | Refleksija: Kai jaunas žmogus atsiveria apie savo baimes ir jūs atsakote žinute apie tai, kaip policijos darbas turėtų veikti, kieno realybę centruojate — jo ar institucijos?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Atsisveikinimas",
+            "sceneUpdate": {
+                "emoji": "🌙",
+                "title": "Paskutinės akimirkos",
+                "desc": "Sustabdymas beveik baigtas. Ponas Davies turi savo dokumentus atgal. Marcusas tylus. Ponia Marsh vis dar stovi ant šaligatvio, stebi. Naktis rami. Tai paskutinis įspūdis, kurį paliksite — vairuotojui, jo sūnui, kaimynei ir vaizdo registratoriui."
+            },
+            "npcDialogue": [
+                {
+                    "character": "davies",
+                    "text": "(ramiau dabar) Pareigūne, noriu atsiprašyti už anksčiau — kad pakėliau balsą, už tai, ką pasakiau. Jūs to nenusipelnėte. Aš tiesiog... bijau. Dėl visko. Ačiū, kad supratote."
+                },
+                {
+                    "character": "neighbor",
+                    "text": "(nuo šaligatvio) Richardai, perduok Eleanor mano meilę. Pasakyk, kad Helen meldžiasi už ją."
+                }
+            ],
+            "prompt": "Ponas Davies atsiprašinėja ir scena rimsta. Kaip užbaigsite šį susitikimą?",
+            "options": [
+                {
+                    "text": "Švelniai pakeliate ranką ir papurtote galvą: 'Pone Davies, jūs man neskolingas atsiprašymo. Jūs tėvas, bandantis pasiekti sergančią mamą ir nerimaujantis dėl sūnaus. Aš taip pat būčiau nusiminęs, jūsų vietoje — bet jūs susitvardėte labiau, nei patys manote.' Žvilgtelite į Marcusą su lengvu linktelėjimu: 'Jūs abu gerai susidorojote.' Pasilenkiate link lango: 'Šv. Kotrynos maždaug dvidešimt minučių — važiuokite Devyntuoju keliu, šiuo metu laisvesnis. Vairuokite saugiai. Tikiuosi, mama greitai pasveiks.'",
+                    "feedback": "Kodėl: Atsisakyti atsiprašymo — ne atmetant, bet performuluojant jo reakciją kaip pagrįstą — atkuria jo orumą. Įtraukti Marcusą į komplimentą gerbia sūnaus patirtį kaip lygiai svarbią. Nurodymai iki ligoninės yra mažas, praktinis rūpesčio veiksmas, neturintis nieko bendro su policijos darbu ir viską — su žmogiškumu. 'Tikiuosi, kad jūsų mama greitai pasveiks' pavadina tai, kas svarbiausia. Ši pabaiga bus prisiminta. | PASEKMĖS: Ponas Davies sugniaužia vairą ir linksi, akimirką negalėdamas kalbėti. Marcusas tyliai sako: 'Ačiū.' Ponia Marsh pamoja nuo šaligatvio. Kai visureigis atsargiai pajuda, palikote tris žmones su iš esmės kitokia patirtimi, nei jie tikėjosi. Vaizdo registratorius užfiksuoja pabaigą, kuria didžiuotųsi bet kuris mokymų pareigūnas. | Refleksija: Kuo skiriasi sustabdymo užbaigimas nuo įspūdžio palikimas?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Priimate atsiprašymą su maloniu linktelėjimu, veido išraiška šilta, bet šiek tiek atsargi, tarsi nežinotumėte, kiek leisti šiam momentui pagilėti. Perkeliate svorį ir kalbate maloniu, lygiu tonu: 'Vertinu tai, pone Davies. Jokios nuoskaudos — visiškai. Tikiuosi, kad viskas bus gerai su jūsų mama ir su... visu kitu, su kuo tenka susidoroti.' Atsitraukiate nuo lango: 'Vairuokite atsargiai šį vakarą. Gyvenamieji rajonai — neskubėkite.'",
+                    "feedback": "Kodėl: Malonus ir šiltas. Atsiprašymo priėmimas ir palinkėjimas yra nuoširdus. Tačiau neapibrėžtas 'visas kitas' vengia įvardyti globos situaciją — kuria jis pasidalijo pažeidžiamai. Pabaiga yra maloni, bet neatitinka to, kuo buvo pasidalyta gilumo. Tai gera pabaiga vidutiniam pokalbiui, ne puiki pabaiga ypatingam. | PASEKMĖS: Ponas Davies šiek tiek nusišypso ir nuvažiuoja. Marcusas šiek tiek linksi. Sąveika baigiasi teigiamai, bet be ilgalaikės galios, kurią galėjo turėti. | Refleksija: Kai kas nors jums patikėjo giliausias baimes, ar jūsų pabaiga turi atitikti to, kuo buvo pasidalyta, gylį?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Linktelite vieną kartą, veide plokščia, profesionali neutralumo išraiška — žmogaus, kuris mintyse jau persijungė prie kito iškvietimo. Susisukate iškarpinę po pažastimi ir pateikiate baigamąjį komentarą efektyviu monotonu: 'Atsiprašymas priimtas, pone. Tik laikykitės greičio limito nuo šiol — ypač gyvenamajame rajone.' Žengiate žingsnį atgal nuo lango ir pridedate per petį: 'Gero vakaro.' Einate prie patrulio automobilio, dar nebaigus žodžiams nusėsti.",
+                    "feedback": "Kodėl: Funkciškai gerai, bet emociškai plokščia. Po sustabdymo, kuriame vyko žmogaus sugriuvimas, paauglio transformacija ir kaimynės liudijimas, 'gero vakaro' yra antiklimatika. Paskutinis greičio priminimas suveda visą turtingą žmogišką sąveiką atgal prie eismo pažeidimo. | PASEKMĖS: Visureigis nuvažiuoja. Sustabdymas baigtas. Nieko blogo neįvyko — bet nieko įsimintino taip pat. Po savaitės ponas Davies prisimins, kad buvo sustabdytas. Jis neprisimins, ką pareigūnas pasakė pabaigoje. | Refleksija: Kai sustabdymas buvo emociškai reikšmingas, kas nutinka, kai pabaiga yra emociškai standartinė?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Šiltai priimate atsiprašymą, vieną ranką padėdami ant širdies nuoširdumo gestu: 'Ačiū, pone Davies — tai daug reiškia. Noriu būti atviras su jumis: šį vakarą panaudojau savo diskreciją, nes mačiau, kad esate geras žmogus sunkioje situacijoje. Bet turiu pasakyti — tai buvo išimtis, ne taisyklė. Greičio apribojimas egzistuoja tokių šeimų kaip jūsų apsaugai. Tikiuosi, šis vakaras jums primins, kad sistema veikia, kai žmonės elgiasi pagarbiai. Pasirūpinkite mama.'",
+                    "feedback": "Kodėl: Tai skamba dosniai ir nuoširdžiai — bet apvelka pamokslą gerumu. 'Panaudojau diskreciją, nes mačiau, kad esate geras žmogus' reiškia, kad diskrecija priklauso nuo pareigūno moralinio piliečio charakterio vertinimo. O ką apie mažiau simpatišką žmogų tokioje pačioje krizėje? 'Tai buvo išimtis, ne taisyklė' performuluoja proporcingą sprendimą kaip ypatingą elgesį. 'Sistema veikia, kai žmonės elgiasi su vienas kitu pagarbiai' subtiliai priskiria gerą rezultatą pono Davies paklusnumui, o ne geram policijos darbui. Marcusas, žiūrintis iš keleivio sėdynės, girdi tai aiškiai. | PASEKMĖS: Ponas Davies linksi ir sako 'ačiū' — bet padėka jaučiasi ištraukta, o ne natūrali. Marcusas neramiai pajuda sėdynėje. Jis girdėjo 'sistema veikia' ir pagalvojo apie kiekvieną istoriją, kur ji neveikė. Sustabdymas baigiasi teigiamu paviršiumi, bet paskutinė žinutė yra: jums pasisekė, būkite dėkingi ir atsiminkite, kad tai buvo dovana. Istorija, kurią Marcusas pasakos, apims frazę 'jis pasakė, kad tai buvo išimtis.' | Refleksija: Kai jūsų pabaiga pateikia gerą rezultatą kaip priklausomą nuo piliečio charakterio, o ne nuo jūsų profesinio sprendimo, kas nutinka žmonėms, kurie neatitinka jūsų 'gero žmogaus sunkioje situacijoje' įvaizdžio?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Aptarimas",
+            "sceneUpdate": {
+                "emoji": "👨‍🏫",
+                "title": "Mokymo aptarimas",
+                "desc": "Grįžus į nuovadą. Seržantas Williams aptaria jūsų veiklą šiame eismo sustabdymo scenarijuje."
+            },
+            "autoDialogue": true,
+            "finalScene": true,
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Tai buvo daugiasluoksnis sustabdymas, pareigūne. Tai, kas prasidėjo kaip greičio viršijimo pažeidimas, tapo gerovės patikrinimu, šeimos krize, pilietinių teisių momentu su filmavimu ir bendruomenės sąveika su kaimyne. Pakalbėkime apie tai, kaip navigavote kiekvieną sluoksnį."
+                },
+                {
+                    "character": "officer",
+                    "text": "Sunkiausia dalis buvo, kai ponas Davies pratrūko. Turėjau tą akimirką nuspręsti, ar pažeidimas, ar žmogus priešais mane svarbesnis."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Tai netinkamas formulavimas — ir tai supratimas yra pamoka. Tai niekada nebuvo 'pažeidimas ar žmogus'. Abu buvo svarbūs. Klausimas buvo, kaip pagerbti abu. Tai yra diskrecija. Ne pasirinkimas tarp įstatymo ir užuojautos, o vietos, kur jie susikerta, radimas."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Ir sūnus — Marcusas. Tas pokalbis pabaigoje, jei jį gerai suvaldėte, gali būti svarbiausias dalykas, kurį padarėte šį vakarą. Tas berniukas per savo gyvenimą sutiks pareigūnų dar dešimtis kartų. Tai, ką matė šį vakarą, arba patvirtino jo baimes, arba jas užginčijo. Dabar leiskite pasidalinti, kas nutiko po šio sustabdymo..."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {
+            "name": "Dispečerinė",
+            "avatar": "📻"
+        },
+        "davies": {
+            "name": "Ponas Richard Davies (vairuotojas, 47 m.)",
+            "avatar": "😰"
+        },
+        "marcus": {
+            "name": "Marcus Davies (sūnus, 15 m.)",
+            "avatar": "📱"
+        },
+        "neighbor": {
+            "name": "Helen Marsh (kaimynė, 63 m.)",
+            "avatar": "👵"
+        },
+        "officer": {
+            "name": "Jūs (Pareigūnas)",
+            "avatar": "👮"
+        },
+        "trainer": {
+            "name": "Srž. Williams",
+            "avatar": "👨‍🏫"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Pavyzdinis eismo sustabdymas!",
+            "emoji": "🌟",
+            "feedback": "Pademonstravote aukščiausią eismo sustabdymo komunikacijos standartą: profesionalų prisistatymą, nuoširdžią empatiją esant spaudimui, tinkamą diskrecijos panaudojimą, pagarbų bendravimą su filmuojančiu paaugliu ir pabaigą, kuri kiekvienam susitikimo dalyviui paliko geresnį policijos darbo įspūdį. Šis sustabdymas bus prisimenamas kaip lūžio taškas — ne tik ponui Davies ir Marcusui, bet ir kiekvienam praeiviu, kuris jį matė."
+        },
+        "good": {
+            "title": "Stiprus pasirodymas",
+            "emoji": "✅",
+            "feedback": "Suvaldėte sudėtingą, emociškai įkrautą eismo sustabdymą profesionaliai ir su nuoširdžiu rūpesčiu. Kai kurios gilesnio ryšio ar niuansingesnės komunikacijos galimybės buvo prieinamos, bet jūsų bendras požiūris buvo patikimas ir sprendimas — tinkamas."
+        },
+        "average": {
+            "title": "Patenkinamas atsakas",
+            "emoji": "📊",
+            "feedback": "Užbaigėte sustabdymą be didelių klaidų, bet kelios prasmingos deeskalacijos ir žmogiško ryšio galimybės buvo praleistos. Techniniai sustabdymo aspektai buvo suvaldyti, bet emociniai matmenys — paauglys, krizė, kaimynė — reikalavo daugiau įsitraukimo."
+        },
+        "poor": {
+            "title": "Reikia žymaus tobulėjimo",
+            "emoji": "⚠️",
+            "feedback": "Jūsų požiūris eskalavo įtampą keliuose taškuose, praleido žmogiškus sustabdymo matmenis ir galėjo pakenkti bendruomenės pasitikėjimui. Eismo sustabdymas, apimantis krizę patiriančią šeimą, filmuojantį paauglį ir susirūpinusią kaimynę, reikalavo empatijos ir sprendimo, kurie nebuvo pakankamai pademonstruoti. Peržiūrėkite deeskalacijos principus, diskrecijos gaires ir komunikacijos technikas."
+        }
+    },
+    "metrics": {
+        "communication": {
+            "name": "Komunikacija ir tonas",
+            "description": "Emocinės trajektorijos nustatymas per profesionalų prisistatymą, aktyvų klausymąsi ir kalbą, kuri deeskaluoja, o ne provokuoja",
+            "icon": "🗣️"
+        },
+        "discretion": {
+            "name": "Profesinė diskrecija",
+            "description": "Išmintingas vykdymo sprendimų naudojimas — atsakymo pritaikymas aplinkybėms, o ne mechaniškas taisyklių taikymas",
+            "icon": "⚖️"
+        },
+        "empathy": {
+            "name": "Empatija esant spaudimui",
+            "description": "Emocinės krizės atpažinimas ir reagavimas į ją neaukojant autoriteto ar profesionalumo",
+            "icon": "💚"
+        },
+        "youthEngagement": {
+            "name": "Jaunimo ir bendruomenės įtraukimas",
+            "description": "Pagarbūs santykiai su jaunais žmonėmis ir praeiviais, ypač būnant stebimam ar filmuojamam",
+            "icon": "👥"
+        },
+        "closingImpact": {
+            "name": "Ilgalaikis įspūdis",
+            "description": "Kiekvienam susitikimo dalyviui paliekama patirtis, kuri kuria pasitikėjimą teisėsauga",
+            "icon": "🌟"
+        }
+    }
+}

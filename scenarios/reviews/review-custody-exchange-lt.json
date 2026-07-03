@@ -1,0 +1,786 @@
+{
+    "scenarioId": "custody-exchange",
+    "reviewVersion": "v1",
+    "title": "Gili analiz\u0117 \u2014 Gin\u010das d\u0117l vaiko perdavimo",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Atvykimas ir \u012fvertinimas",
+            "criticalSkills": [
+                "Pradinis po\u017ei\u016bris ir tono nustatymas",
+                "Matomas neutralumas nuo pirmo kontakto",
+                "Vaiko emocin\u0117s \u012ftakos suvokimas"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Prieinate ramiai i\u0161 kampo, u\u017emezgate akies kontakt\u0105 su abiem t\u0117vais ir tvirtu, bet valdomu tonu sakote: \u201eLabas. A\u0161 pareig\u016bnas [vardas]. Matau, kad tai \u012ftampa situacija. I\u0161spr\u0119skime \u2014 bet pirmiausia pra\u0161au abiej\u0173 \u017eingsn\u012f atgal.\u201c",
+                    "strengths": [
+                        "Profesionalus prisistatymas nustato autoritet\u0105 be agresijos",
+                        "Streso pripa\u017einimas vienodai patvirtina abi puses",
+                        "Art\u0117jimas i\u0161 kampo yra ma\u017eiau konfrontacinis nei tiesiai",
+                        "Ai\u0161ki kryptis (\u201e\u017eingsn\u012f atgal\u201c) be grasm\u0117s",
+                        "Ramus tonas modeliuoja elges\u012f, kurio norite matyti i\u0161 j\u0173"
+                    ],
+                    "consequences": "Abu t\u0117vai jau\u010diasi pripa\u017einti. Valdomas tonas kontrastuoja su j\u0173 r\u0117kimu ir sukuria nat\u016bral\u0173 deeskalavimo efekt\u0105. Vaikas mato rami\u0105 suaugus\u012fj\u012f.",
+                    "trainingFocus": "Kaip norimos emocin\u0117s b\u016bsenos \u201emodeliavimas\u201c kitiems veikia deeskalavimo praktikoje?"
+                },
+                "partially_positive": {
+                    "choiceText": "Einate tiesiai tarp t\u0117v\u0173 ir tvirtai paskelbiate: \u201ePolicija. Pra\u0161au abiej\u0173 nustoti ir i\u0161 karto atsitraukti vienas nuo kito.\u201c",
+                    "adequate": [
+                        "I\u0161 karto nustato autoritet\u0105",
+                        "Sukuria fizin\u012f atskyrim\u0105 tarp t\u0117v\u0173"
+                    ],
+                    "missed": [
+                        "Jokio prisistatymo ar ry\u0161io k\u016brimo",
+                        "\u012esakyminis tonas gali i\u0161g\u0105sdinti jau i\u0161sigandus\u012f vaik\u0105",
+                        "Gali sukelti prie\u0161i\u0161k\u0105 reakcij\u0105 i\u0161 suerzint\u0173 suaugusi\u0173j\u0173",
+                        "Nustato prie\u0161i\u0161k\u0105 ton\u0105 visai interakcijai"
+                    ],
+                    "improvement": "Kaip j\u016bs\u0173 \u012f\u017eanginis tonas nustato visos interakcijos trajektorij\u0105? Kokius prisistatymo ir empatijos elementus galima prid\u0117ti neprarandant autoriteto?",
+                    "consequences": "Paklusnumas tik\u0117tinas, bet su nepasitenkinimu. Abu t\u0117vai gali jus suvokti kaip agresyvius, o ne padedant\u010dius, tod\u0117l bendradarbiavimas tolesniuose \u017eingsniuose bus sunkesnis."
+                },
+                "neutral": {
+                    "choiceText": "Pirmiausia prieinate prie mokyklos apsaugos darbuotojo ir gaunate informacij\u0105 apie tai, kas nutiko, prie\u0161 kreipdamiesi \u012f bet kur\u012f i\u0161 t\u0117v\u0173.",
+                    "adequate": [
+                        "Informacijos rinkimas prie\u0161 veiksm\u0105 takti\u0161kai tinkamas"
+                    ],
+                    "missed": [
+                        "Vykstanti konfrontacija \u0161alia vaiko reikalauja neatid\u0117liotino \u012fsiki\u0161imo",
+                        "Kiekviena t\u0117v\u0173 konflikto sekund\u0117, kuri\u0105 vaikas mato, kenkia",
+                        "T\u0117vai gali j\u016bs\u0173 delsim\u0105 suvokti kaip abejingum\u0105"
+                    ],
+                    "improvement": "Kada situacijos skubumas pranoksta kontekstin\u0117s informacijos vert\u0119? Kaip \u012fvertinate neatid\u0117liotino \u012fsiki\u0161imo poreik\u012f?",
+                    "consequences": "T\u0117vai toliau gin\u010dijasi, kol j\u016bs informuojat\u0117s. Vaikas lieka \u012fstrig\u0119s vykstan\u010dio konflikto viduryje."
+                },
+                "negative": {
+                    "choiceText": "Pirmiausia prieinate prie motinos automobilio, kad su\u017einotum\u0117te jos pus\u0119 \u2014 ji ar\u010diausiai vaiko ir gali tur\u0117ti svarbaus konteksto apie situacij\u0105.",
+                    "risks": [
+                        "Skamba kaip protingas informacijos rinkimas, bet pirmiausia eiti prie vieno t\u0117vo signalizuoja \u0161ali\u0161kum\u0105 dar nei \u017eod\u017eio nepasakius abiem pus\u0117ms",
+                        "T\u0117vas mato, kaip einate pro j\u012f prie motinos automobilio \u2014 kiekviena ten praleista sekund\u0117 sustiprina jo \u012fsitikinimus, kad sistema palankesn\u0117 motinoms",
+                        "J\u016bs\u0173 neutralumas pa\u017eeistas dar neprasid\u0117jus interakcijai"
+                    ],
+                    "consequences": "T\u0117vas tampa labiau suerzintas ir konfrontaci\u0161kas, suvokdamas, kad j\u016bs palaikote motin\u0105 nuo pirmos akimirkos. Dinamika nesubalansuota prie\u0161 prad\u0117dami esminius pokalbius.",
+                    "trainingFocus": "Kaip suteikti pirmenybę informacijos rinkimui i\u0161laikant matom\u0105 ne\u0161ali\u0161kum\u0105 visoms stebin\u010diosioms \u0161alims? Kada \u201eprotingas pirmas \u017eingsnis\u201c signalizuoja \u0161ali\u0161kum\u0105?"
+                }
+            },
+            "keyLearningPoints": [
+                "Pirmos 30 sekundi\u0173 nustato emocin\u012f ton\u0105 visai intervencijai",
+                "Matomas neutralumas \u2014 nekreiptis pirmiausia \u012f nei vien\u0105 \u0161al\u012f \u2014 yra kritinis gin\u010duose",
+                "Ramus buvimas natraliai deeskaluoja: \u017emon\u0117s atspindi autoriteto emocin\u0119 b\u016bsen\u0105",
+                "Profesionalus prisistatymas sukuria pagarbos strukt\u016br\u0105, kuri riboja tolesnio elgesio galimybes"
+            ]
+        },
+        "2": {
+            "stageName": "T\u0117v\u0173 atskyrimas",
+            "criticalSkills": [
+                "Fizinis konfliktuojan\u010di\u0173 \u0161ali\u0173 atskyrimas",
+                "Vienalaiki\u0173 reikalavim\u0173 valdymas",
+                "Skaidraus proceso nustatymas"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Suprantu, kad abu d\u0117l to jau\u010diat\u0117s stipriai. Kalb\u0117siu su kiekvienu atskirai, kad supras\u010diau vis\u0105 situacij\u0105. Pone, ar gal\u0117tum\u0117te trumpam palaukti prie mano automobilio? Ponia, likite \u010dia, pra\u0161au. B\u016bsiu teisingas abiem.",
+                    "strengths": [
+                        "Fizinis atskyrimas sustabdo vaidinam\u0105 gin\u010d\u0105",
+                        "Leid\u017eia kiekvienam kalb\u0117ti atvirai be auditorijos",
+                        "Teisingumo pa\u017eadas palaiko pasitik\u0117jim\u0105 i\u0161 abiej\u0173 pusi\u0173",
+                        "Vaiko vietos i\u0161laikymas vengia papildomo trikdymo",
+                        "T\u0117vo atitraukimas nuo automobilio takti\u0161kai tinkamas \u2014 jokios glob\u0117jimo pirmenybės"
+                    ],
+                    "consequences": "Abu t\u0117vai jau\u010diasi i\u0161girsti. Vaidinamas konfliktas nutr\u016bksta. Sukuriate erdv\u0119 tikram dialogui, o ne prie\u0161i\u0161kai pozavimui.",
+                    "trainingFocus": "Kod\u0117l kalb\u0117jimas su kiekviena \u0161alimi atskirai da\u017enai vaisingesnis nei grupin\u0117 mediacija auk\u0161to konflikto situacijose?"
+                },
+                "partially_positive": {
+                    "choiceText": "Pra\u0161au abiej\u0173 pra\u0161nekinti tyliau \u2014 \u010dia vaikas, kuris visk\u0105 girdi. Pasitraukime nuo automobilio ir pakalbėkime ramiai.",
+                    "adequate": [
+                        "Geras vaiko kontakto su konfliktu suvokimas",
+                        "Pra\u0161ymas pritildyti prot\u012finas"
+                    ],
+                    "missed": [
+                        "Pra\u0161yti abiej\u0173 \u0161ali\u0173 jud\u0117ti kartu j\u0173 neatskiriant tik perkelia ginč\u0105",
+                        "G\u0117dos pagrindo paklusnumas (\u201ej\u016bs\u0173 vaikas jus girdi\u201c) laikinas, ne strukt\u016brinis",
+                        "Nenustatytas joks procesas ar laiko planas"
+                    ],
+                    "improvement": "Koks skirtumas tarp konflikto sustabdymo ir deeskalavimo? Kaip fizinis atskyrimas i\u0161 esmės kei\u010dia dinamik\u0105?",
+                    "consequences": "Trumpa r\u0117kimo pauz\u0117, bet be fizinio atskyrimo ginčas per kelias minutes atsinaujins."
+                },
+                "neutral": {
+                    "choiceText": "Pirmiausia parodykite t\u0105 teismo nutart\u012f. I\u0161spr\u0119sime pagal tai, k\u0105 sako dokumentai.",
+                    "adequate": [
+                        "Fokusuotis \u012f teisin\u012f dokument\u0105 atrodo logi\u0161ka ir efektyvu"
+                    ],
+                    "missed": [
+                        "Nutarties per\u017ei\u016br\u0117jimas prie\u0161 abu t\u0117vus kvie\u010dia prie\u0161i\u0161k\u0105 interpretacij\u0105",
+                        "Emocin\u0117 temperat\u016bra neadresuota",
+                        "\u0160alys neatskirtos",
+                        "Formuluojant kaip \u201edokument\u0173\u201c problem\u0105 ignoruojami \u017emogi\u0161ki aspektai"
+                    ],
+                    "improvement": "Ar glob\u0117jimo gin\u010das pirmiausia teisin\u0117, ar emocin\u0117 problema? K\u0105 reikia i\u0161spr\u0119sti pirmiausia, kol galima prasm\u0117ingai aptarti dokumentus?",
+                    "consequences": "T\u0117vas jau\u010diasi patvirtintas, ta\u010diau motina \u2014 ignoruota. Abu gali prad\u0117ti ginčytis d\u0117l to, k\u0105 dokumentas \u201eti\u0161krai rei\u0161kia\u201c."
+                },
+                "negative": {
+                    "choiceText": "Ponia, ar vaikas tikrai serga? Ar turite medicinin\u0117s dokumentacijos tai patvirtinti?",
+                    "risks": [
+                        "I\u0161 karto kvestionuoti vienos \u0161alies teigin\u012f signalizuoja abejon\u0119 ir quasi-tiriamojo pozicij\u0105",
+                        "Jokio ry\u0161io nesukurta, \u0161alys neatskirtos, situacijos \u012fvertinimas neatliktas",
+                        "T\u0117vas jau\u010diasi patvirtintas, o motina \u2014 apkaltinta \u2014 dinamika tampa nesubalansuota"
+                    ],
+                    "consequences": "Motina tampa gynybi\u0161ka ir prie\u0161i\u0161ka jums. Konfliktas intensyvja su jumis \u012ftrauktais kaip suvokiamu prie\u0161ininku.",
+                    "trainingFocus": "Kaip seka, kuria adresuojate r\u016bpes\u010dius, vieikia abiej\u0173 \u0161ali\u0173 j\u016bs\u0173 neutralumo suvokimą?"
+                }
+            },
+            "keyLearningPoints": [
+                "Fizinis atskyrimas \u2014 vienas efektyviausiu pirmuj\u0173 \u017eingsni\u0173 bet kuriame dviej\u0173 \u0161ali\u0173 gin\u010de",
+                "\u017dmon\u0117s ginčijasi kitaip, kai turi auditorij\u0105, palyginti su kalbant privačiai",
+                "Skaidraus proceso paskelbimas (\u201eKalb\u0117siu su kiekvienu\u201c) ma\u017eina nerim\u0105 d\u0117l teisingumo",
+                "Eili\u0161kumas, kuriuo kreipiat\u0117s \u012f \u0161alis, siun\u010dia galingus nei\u0161sakytus signalus apie \u0161ali\u0161kum\u0105"
+            ]
+        },
+        "3": {
+            "stageName": "Teismo nutartis",
+            "criticalSkills": [
+                "L\u016bkes\u010di\u0173 valdymas d\u0117l policijos \u012fgaliojim\u0173 civilin\u0117se bylose",
+                "Teisin\u0117s pad\u0117ties pripa\u017einimas netampant vykdymo agentu",
+                "Empatijos ir proceso skaidrumo balansavimas"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "A\u010di\u016b, kad parod\u0117te, Markai. A\u0161 tai vertinu rimtai \u2014 teismo nutartis turi tikr\u0105 svor\u012f. Reikia i\u0161klausyti ir Iev\u0105, kad supras\u010diau jos r\u016bpes\u010dius, o tada dirbsiu su abiem, kad \u0161iandien i\u0161spr\u0119stume. Mano tikslas \u2014 u\u017etikrinti, kad Jacobas gal\u0117t\u0173 laik\u0105 su jumis praleisti kuo skland\u017eiau.",
+                    "strengths": [
+                        "Vartoja Marko vard\u0105 kuriant asmeninius santykius",
+                        "Ai\u0161kiai pripa\u017e\u012fsta teismo nutarties teisin\u0119 gali\u0105",
+                        "Skaidriai paai\u0161kina proces\u0105 \u2014 kalb\u0117sis su abiem pus\u0117ms \u2014 tad tai neatrodo kaip vilkinimas",
+                        "Formuluoja tiksl\u0105 apie teismo numatyt\u0105 rezultat\u0105 (laikas su Jacobu)",
+                        "\u201eKuo skland\u017eiau\u201c signalizuoja, kad b\u016bdas svarbus, ne tik rezultatas"
+                    ],
+                    "consequences": "Markas jau\u010diasi gerbiamas, teisi\u0161kai patvirtintas ir tikras, kad pareig\u016bnas dirba link perdavimo. Jis nori palaukti, kol pakalbsite su Ieva.",
+                    "trainingFocus": "Kaip norimo rezultato \u012fvardijimas anksti padeda abiem pus\u0117ms suderinti l\u016bkes\u010dius?"
+                },
+                "partially_positive": {
+                    "choiceText": "Suprantu j\u016bs\u0173 frustractij\u0105 ir matau, kad tai teismo nutartis. Ta\u010diau negaliu nieko are\u0161tuoti d\u0117l civilinio glob\u0117jimo klausimo. Mano vaidmuo \u010dia \u2014 pad\u0117ti abiem pus\u0117ms pasiekti sprendim\u0105. Leiskite i\u0161klausyti ir jos pus\u0119.",
+                    "adequate": [
+                        "Teisingai ai\u0161kina policijos ribas",
+                        "Nustato realius l\u016bkes\u010dius d\u0117l are\u0161to",
+                        "Pripa\u017e\u012fsta teismo nutart\u012f"
+                    ],
+                    "missed": [
+                        "Plok\u0161\u010dias parei\u0161kimas apie negal\u0117jim\u0105 are\u0161tuoti gali skamb\u0117ti atstumian\u010diai \u017emogui, patirian\u010diam sisteming\u0105 trukdym\u0105",
+                        "Nepripa\u017e\u012fstama emocin\u0117 patirtis u\u017e frustracijos",
+                        "\u201eLeiskite i\u0161klausyti jos pus\u0119\u201c be ankstesn\u0117s emocin\u0117s validacijos sukuria atstum\u0105"
+                    ],
+                    "improvement": "Kaip subalansuoti l\u016bkes\u010di\u0173 valdym\u0105 su kieno nors emocin\u0117s patirties pripa\u017einimu? Ar galite komunikuoti ribojimus ne privers\u010dami jaustis nei\u0161girstam?",
+                    "consequences": "Markas jau\u010diasi proced\u016bri\u0161kai informuotas, ta\u010diau asmeniškai nei\u0161girstas. Bendradarbiauja, bet jo pagrindin\u0117 frustracija d\u0117l trukdymo modelio i\u0161lieka."
+                },
+                "neutral": {
+                    "choiceText": "Matau, kad tai galiojanti teismo nutartis. Leiskite atid\u017eiai per\u017ei\u016br\u0117ti tiksli\u0105s s\u0105lygas, kol pakalbsiu su j\u016bs\u0173 buvusia \u017emona apie situacij\u0105.",
+                    "adequate": [
+                        "Dokumento pripa\u017einimas tinkamas",
+                        "Noras suprasti s\u0105lygas protingas"
+                    ],
+                    "missed": [
+                        "Sukuria teisin\u0119, biurokratin\u0119 atmosfer\u0105, o ne \u017emogi\u0161k\u0105 ry\u0161\u012f",
+                        "Markui reikia empatijos ir veiksm\u0173, o ne teisinio per\u017ei\u016br\u0117jimo",
+                        "\u201eJ\u016bs\u0173 buvusi \u017emona\u201c suma\u017eina Iev\u0105 iki prie\u0161i\u0161ko vaidmens, u\u017euot vartotos jos vardo"
+                    ],
+                    "improvement": "Kaip j\u016bs\u0173 kalbos pasirinkimas formuoja, ar tai teisin\u0117 kova, ar t\u0117vyst\u0117s situacija? Koks vard\u0173 ir vaidmen\u0173 vartojimo poveikis?",
+                    "consequences": "T\u0117vas jau\u010diasi, kad vilkinate. Teisin\u0117 formuluot\u0117 laiko interakcij\u0105 konflikto re\u017eime, u\u017euot perkeldama link sprendimo."
+                },
+                "negative": {
+                    "choiceText": "Patvirtinate jo frustractij\u0105 d\u0117l grafiko pakeitim\u0173, kad sukurtum\u0117te ry\u0161\u012f prie\u0161 aptardami perdavim\u0105: \u201eMatau, kad tai pasikartojantis modelis, Markai. Tai turi b\u016bti nepaprastai frustruojanti \u2014 kovoti d\u0117l laiko, kuris jums jau buvo suteiktas teismo. Pakalbsiu su ja apie grafiko gerbim\u0105.\u201c",
+                    "risks": [
+                        "Skamba kaip empati\u0161kas aktyvus klausymasis, bet i\u0161 tikr\u0173j\u0173 perima jo pasakojim\u0105 be savaranki\u0161ko \u012fvertinimo",
+                        "\u201eModelio\u201c patvirtinimas prie\u0161 i\u0161klausant kit\u0105 pus\u0119 pavir\u0161ina empatij\u0105 \u012f \u0161ali\u0161kum\u0105",
+                        "\u201ePakalbsiu su ja apie grafiko gerbim\u0105\u201c pozicionuoja motin\u0105 kaip problem\u0105, o jus \u2014 kaip jo advokat\u0105",
+                        "J\u016bs\u0173 kaip neutralios \u0161alies patikimumas prarastas prie\u0161 kalbant su motina"
+                    ],
+                    "consequences": "Motina i\u0161 karto pajus, kad stojate vienos pus\u0117s, kai prieisite. Konfrontacija eskaluoja su jumis sutapatintais su t\u0117vo versija. Subalansuotas sprendimas tampa beveik ne\u012fmanomas.",
+                    "trainingFocus": "Kur yra riba tarp kieno nors emocin\u0117s patirties pripa\u017einimo ir j\u0173 \u012fvyki\u0173 versijos pri\u0117mimo kaip fakto? Kaip empatija tampa \u0161ali\u0161kumu?"
+                }
+            },
+            "keyLearningPoints": [
+                "Policija n\u0117ra privat\u016bs vykdymo agentai \u2014 sprendimo palengvinimas yra vaidmuo, o ne laim\u0117tojo parinkimas",
+                "Teismo nutartis yra diskusijos prad\u017eios ta\u0161kas, o ne automatinis vis\u0173 kit\u0173 r\u016bpes\u010di\u0173 perra\u0161ymas",
+                "Vard\u0173 vartojimas vietoj prie\u0161i\u0161k\u0173 etike\u010di\u0173 (\u201ej\u016bs\u0173 buvusi \u017emona\u201c) i\u0161laiko bendradarbiaujant\u012f ton\u0105",
+                "Norimo rezultato \u012fvardijimas anksti (\u201eJacobas laiko su jumis\u201c) kuria suderinimą, o ne prie\u0161prie\u0161\u0105"
+            ]
+        },
+        "4": {
+            "stageName": "Motinos pozi\u0161ja",
+            "criticalSkills": [
+                "Aktyvus klausymasis su emocine validacija",
+                "Empatijos ir s\u0105\u017einingo bendravimo balansavimas",
+                "Neutralumo i\u0161laikymas klausant vienos \u0161alies r\u016bpes\u010di\u0173"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Gird\u017eiu, kaip labai jums r\u016bpi Jacobas, Ieva. Jo sveikata yra svarbi. Ar galite papasakoti daugiau apie jo simptomus \u2014 ar buvo pas gydytoj\u0105? Taip pat turiu b\u016bti atviras su jumis: Markas turi teismo nutart\u012f \u0161iam savaitgaliui, ir tai yra dalykas, \u012f kur\u012f turiu atsi\u017evelgti.",
+                    "strengths": [
+                        "Pripa\u017e\u012fsta emocijas ir vartoja jos vard\u0105 asmeniniam ry\u0161iui",
+                        "Atviri klausimai apie sveikat\u0105 suteikia jai erdv\u0117s b\u016bti i\u0161girstai",
+                        "Skaidriai perteikia teisin\u0119 realyb\u0119, u\u017euot leisdamas kurti klaidingas viltis",
+                        "Balansuoja empatij\u0105 su s\u0105\u017einingumu \u2014 ji ne\u0117ra u\u017epuolama blog\u0173 \u017eini\u0173 v\u0117liau",
+                        "Klausimas apie gydytojo vizit\u0105 renka informacij\u0105 be apklausos"
+                    ],
+                    "consequences": "Ieva jau\u010diasi i\u0161girsta ir gerbiama. Ji gali apsiverkti, bet ma\u017eiau tik\u0117tina, kad taps konfrontaci\u0161ka. S\u0105\u017einingas teismo nutarties pateikimas paruošia j\u0105 tiktinam rezultatui.",
+                    "trainingFocus": "Kod\u0117l anksti pasakytas s\u0105\u017einingumas geresnis nei atid\u0117tos blogos \u017einios? Kaip skaidrumas kuria pasitik\u0117jim\u0105 net kai \u017einut\u0117 nemaloni?"
+                },
+                "partially_positive": {
+                    "choiceText": "Noriu \u012fsitikinti, kad Jacobui viskas gerai. Leiskite greitai pa\u017ei\u016br\u0117ti, kaip jis jau\u010diasi. Jei jis tikrai serga, gal galime aptarti galimybes \u2014 bet tur\u0117\u010diau jus informuoti, kad Markas turi galiojančia teismo nutart\u012f.",
+                    "adequate": [
+                        "Rodo r\u016bpest\u012f vaiku",
+                        "Proaktyvus pasi\u016blymas \u012fvertinti situacij\u0105",
+                        "Pripa\u017e\u012fsta teismo nutart\u012f"
+                    ],
+                    "missed": [
+                        "Pareig\u016bnas, atliekantis neformali\u0105 sveikatos patikr\u0105, per\u017eengia profesin\u012f vaidmen\u012f",
+                        "Jei pasakysite, kad vaikas \u201eatrodo sveikas\u201c, motina jausis nepripa\u017einta",
+                        "Jei pasakysite, kad vaikas \u201eatrodo sergantis\u201c, t\u0117vas teigs \u0161ali\u0161kum\u0105",
+                        "Atsidursite nepavyd\u0117tinoje pad\u0117tyje kaip m\u0117g\u0117ji\u0161kas medicinos vertintojas"
+                    ],
+                    "improvement": "Kaip parodyti r\u016bpest\u012f vaiko sveikata neperžengiand profesinio vaidmens? Kuo skiriasi r\u016bpestis ir diagnozavimas?",
+                    "consequences": "Abu t\u0117vai gin\u010dys j\u016bs\u0173 \u012fvertinim\u0105, nepriklausomai nuo jo krypties. Nety\u010dia tapote medicinos autoritetu."
+                },
+                "neutral": {
+                    "choiceText": "Ar turite gydytojo pa\u017eym\u0105 ar bet kok\u012f medicinin\u012f \u012frodyma, kad Jacobas per daug serga, kad eit\u0173 su t\u0117vu?",
+                    "adequate": [
+                        "Tinkamas proced\u016brinis klausimas",
+                        "Renkama svarbi dokumentacija"
+                    ],
+                    "missed": [
+                        "Prad\u0117ti nuo \u012frodymo reikalavimo jau\u010diasi kaltinant ir kliniki\u0161kai",
+                        "Dauguma t\u0117v\u0173 nepasir\u016bpina medicinine dokumentacija glob\u0117jimo perdavimo metu",
+                        "Jokios emocin\u0117s validacijos prie\u0161 proced\u016brin\u012f klausim\u0105",
+                        "Traktuoja interakcij\u0105 kaip \u012frodymu grindžiam\u0105 pratim\u0105, o ne \u017emogi\u0161k\u0105 pokalb\u012f"
+                    ],
+                    "improvement": "Koks skirtumas tarp informacijos rinkimo ir apklausos? Kaip empatijos-tada-klausim\u0173 seka kei\u010dia atsakym\u0105?",
+                    "consequences": "Ieva jau\u010diasi apklausiama, o ne i\u0161girsta. Ji tampa gynybi\u0161ka: \u201eTad ir j\u016bs man netikite?\u201c Emocin\u0117 siena pakyla."
+                },
+                "negative": {
+                    "choiceText": "Suprantu j\u016bs\u0173 r\u016bpest\u012f, bet teismo nutartis sako, kad jis \u0161\u012f savaitgal\u012f eina su t\u0117\u010diu. Jei neturite medicinin\u0117s dokumentacijos, a\u0161 tikrai nieko negaliu padaryti.",
+                    "risks": [
+                        "Atstumiantis tikr\u0105 motinos susir\u016bpinim\u0105",
+                        "Stand\u017eiai teisin\u0117 formuluot\u0117 be jokios empatijos",
+                        "\u201eNieko negaliu padaryti\u201c yra ir netikslu, ir atšaldanti \u2014 galimybi\u0173 yra",
+                        "Gali sukelti kovos ar b\u0117gimo reakcij\u0105 \u2014 fizin\u012f atsisakym\u0105 ar bandym\u0105 nuva\u017eiuoti"
+                    ],
+                    "consequences": "Ieva gali fizi\u0161kai atsisakyti i\u0161leisti Jacob\u0105 i\u0161 automobilio, pabandyti nuva\u017eiuoti arba emoci\u0161kai suirti \u2014 visa tai dramati\u0161kai pablogina situacij\u0105 Jacobui.",
+                    "trainingFocus": "Kai kas nors pasako \u201enieko negaliu padaryti\u201c, k\u0105 kitas \u017emogus i\u0161 tikr\u0173j\u0173 i\u0161girsta? Kokie alternatyv\u016bs sprendimai egzistuoja net ribotose situacijose?"
+                }
+            },
+            "keyLearningPoints": [
+                "Pirma pripa\u017einkite emocijas, tada pateikite nemaloui\u0105 teisin\u0119 realyb\u0119",
+                "Atviri klausimai (\u201epapasakokite daugiau\u201c) duoda geresn\u0119 informacij\u0105 nei \u012frodymo reikalavimai",
+                "Anksti pasakytas s\u0105\u017einingumas apsaugo nuo atid\u0117t\u0173 blog\u0173 \u017eini\u0173 \u017ealos \u2014 \u017emon\u0117s geriau susidoroja su sunkia tiesa, kai pasiruoš\u0119",
+                "Likite savo profesin\u0117je rol\u0117je \u2014 netapkite m\u0117g\u0117ji\u0161ku gydytoju, advokatu ar terapeutu"
+            ]
+        },
+        "5": {
+            "stageName": "Vaikas prabyla",
+            "criticalSkills": [
+                "Vaikui pritaikyta komunikacija",
+                "Vaiko kalt\u0117s glob\u0117jimo gin\u010duose atpa\u017einimas ir adresavimas",
+                "Am\u017eiui tinkamos emocin\u0117s paramos teikimas"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Priklaupiate iki Jacobo akiu lygio ir \u0161velniai sakote: \u201eEi, Jacobai, \u017einau, kad tai tikrai sunku. Noriu, kad \u017einotum \u2014 niekas i\u0161 to n\u0117ra tavo kalt\u0117, gerai? Tavo mama ir t\u0117tis tave abu labai myli. Suaugusieji tai i\u0161spr\u0119s. Ar yra k\u0105 nors, k\u0105 nori man pasakyti?\u201c",
+                    "strengths": [
+                        "Nusileisti iki vaiko fizinio lygio ma\u017eina baugim\u0105 ir kuria pasitik\u0117jim\u0105",
+                        "Tiesioginis kalt\u0117s adresavimas (\u201eniekas n\u0117ra tavo kalt\u0117\u201c) taiko pagrindin\u0119 emocin\u0119 \u017eaizd\u0105 glob\u0117jimo gin\u010duose",
+                        "Abiej\u0173 t\u0117v\u0173 meil\u0117s patvirtinimas neleid\u017eia vaikui rinktis pus\u0117s",
+                        "Atviras kvietimas kalb\u0117ti suteikia jam erdv\u0119 be \u012fpareigojimo lojalumo pasirinkimui",
+                        "\u0160is momentas da\u017enai tampa emociniu l\u016b\u017eio ta\u0161ku abiem stebitiems t\u0117vams"
+                    ],
+                    "consequences": "Jacobas jau\u010diasi matomas ir i\u0161girstas ramaus autoriteto. Jo nerimas matomai suma\u017e\u0117ja. Abu t\u0117vai, jei girdi, primena, kas i\u0161 ties\u0173 svarbu.",
+                    "trainingFocus": "Kaip tiesioginis vaiko nei\u0161sakytos kalt\u0117s adresavimas kei\u010dia \u0161eimos gin\u010do dinamik\u0105? Kod\u0117l fizin\u0117 pad\u0117tis su vaikais tokia svarbi?"
+                },
+                "partially_positive": {
+                    "choiceText": "\u0160iltai nusi\u0161ypsote ir sakote: \u201eNesijaudink, drauge. Viskas bus gerai. Tavo t\u0117vams tiesiog reikia kelias dalykus aptarti, gerai?\u201c",
+                    "adequate": [
+                        "Gerai sumanyta ir \u0161ilta tono",
+                        "Bando suteikti nuraminim\u0105"
+                    ],
+                    "missed": [
+                        "\u201eViskas bus gerai\u201c gali jaustis kaip tu\u0161\u010dias pa\u017eadas \u2014 vaikai nepaprastai suvokia nesincerum\u0105",
+                        "Neadresuoja jo i\u0161reik\u0161to noro, kad pe\u0161tyn\u0117s liaut\u0173si",
+                        "Neadresuoja jo jausmo b\u016bti \u012fstrigusiam",
+                        "Kalt\u0117 \u2014 pagrindin\u0117 problema \u2014 lieka visi\u0161kai nei\u0161sakyta"
+                    ],
+                    "improvement": "Kada nuraminimas padeda, o kada jis numojia rankomis nuo tikros baim\u0117s? Kaip suderinti \u017eod\u017eius su tuo, k\u0105 vaikas i\u0161 tikr\u0173j\u0173 i\u0161reisk\u0117?",
+                    "consequences": "Jacobas gali mandagiai link\u0117ti, bet jo nerimas lieka nepakitęs. Praleista galimyb\u0117 suteikti prasm\u0117s turintę emocinę param\u0105."
+                },
+                "neutral": {
+                    "choiceText": "Trumpai pripa\u017e\u012fstate Jacob\u0105 \u2014 \u201eKiek dar, gerai, drauge?\u201c \u2014 tada atgal \u012f Iev\u0105: \u201eTikrai dabar turime tai i\u0161spręsti. Ar galite sugalvoti b\u016bd\u0105, kaip \u0161iandien tai \u012fgyvendinti?\u201c",
+                    "adequate": [
+                        "Trumpas pripa\u017einimas geriau nei vaik\u0105 ignoruoti"
+                    ],
+                    "missed": [
+                        "Atstumiantis tikram emociniam momentui \u2014 vaikas \u012fd\u0117jo dr\u0105sos pasisakyti",
+                        "Dviej\u0173 sekundi\u0173 atsakymas signalizuoja, kad jo jausmai suaugusiesiems nesvarb\u016bs",
+                        "Momentinis gr\u012f\u017eimas prie logistikos sustiprina vaiko nematomumo jausm\u0105",
+                        "Sprendimo na\u0161ta tenka visiškai motinai"
+                    ],
+                    "improvement": "Kai vaikas prabyla kriz\u0117s metu, k\u0105 j\u016bs\u0173 reakcija j\u012f moko apie jo balso vertę? Kiek laiko i\u0161 tikr\u0173j\u0173 reikia prasmingam pripa\u017einimui?",
+                    "consequences": "Jacobas atsitraukia, jausdamasis ignoruojamas. Ma\u017eiau tik\u0117tina, kad vl reik\u0161 savo jausmus. Kritinis ry\u0161io langas u\u017esidaro."
+                },
+                "negative": {
+                    "choiceText": "Naudojate Jacobo pasakym\u0105 kaip katalizatori\u0173 paspartinti sprendim\u0105 \u2014 atsisukate \u012f abu t\u0117vus: \u201eGird\u0117jote j\u012f. Greitai i\u0161spr\u0119skime tai, kad Jacobas gal\u0117t\u0173 testi savo vakar\u0105. Ieva, teismo nutartis ai\u0161ki. Markai, \u012fkurdinkime Jacob\u0105 j\u016bs\u0173 automobilyje. Kuo grei\u010diau i\u0161spr\u0119sime, tuo ma\u017eiau jis tur\u0117s matyti.\u201c",
+                    "risks": [
+                        "Skamba kaip prakti\u0161kas vaiko-centri\u0161kas efektyvumas, bet naudoja Jacobo pa\u017eid\u017eiam\u0105 akimirk\u0105 kaip \u012frank\u012f procesui paspartinti",
+                        "Vaikas prakalbo ie\u0161kodamas paguodos ir nuraminimo; vietoj to jo \u017eod\u017eiai panaudoti spausti suaugusiesiems",
+                        "Jacobas i\u0161moksta, kad pasisakymas veda prie buvimo ignoruojamam, kol suaugusieji daro tai, k\u0105 vis tiek buvo keting\u0119",
+                        "Ieva jau\u010diasi perva\u017eiuota d\u0117l tempo, o jos sveikatos r\u016bpes\u010diai lieka neadresuoti"
+                    ],
+                    "consequences": "Jacobo nerimas gilinmas \u2014 jis i\u0161rei\u0161k\u0117 jausm\u0105, o gavo logistikos plan\u0105. \u201eEfektyvus\u201c sprendimas tra\u017eus, nes nei vieno pagrindini\u0173 r\u016bpes\u010di\u0173 neadresuoja.",
+                    "trainingFocus": "Kai vaiko emocin\u0117 akimirka panaudojama kaip prie\u017eastis skub\u0117ti u\u017euot pristabdyti, ko vaikas i\u0161moksta apie jausm\u0173 i\u0161rai\u0161kos vertę? Kokia efektyvumo prie\u0161 empatij\u0105 kaina?"
+                }
+            },
+            "keyLearningPoints": [
+                "Vaikai glob\u0117jimo gin\u010duose ne\u0161a did\u017eiul\u0119 kalt\u0119 \u2014 jiems reikia ai\u0161kiai i\u0161girsti, kad tai ne j\u0173 kalt\u0117",
+                "Fizin\u0117 pad\u0117tis vaiko aki\u0173 lygyje yra viena galingiausiu ry\u0161io k\u016brimo priemoni\u0173",
+                "Vaikas, kuris kriz\u0117s metu prabyla, rodo pasitik\u0117jim\u0105 \u2014 kaip atsakote, nulemia, ar tas pasitik\u0117jimas i\u0161liks",
+                "Viskas, k\u0105 sakote ir darote vaiko akivaizdoje, tampa dalimi jo supratimo apie konflikt\u0105 ir autoritet\u0105"
+            ]
+        },
+        "6": {
+            "stageName": "T\u0117vo ultimatumas",
+            "criticalSkills": [
+                "Gr\u0117smi\u0173 deeskalavimas be atsakom\u0173j\u0173 gr\u0117smi\u0173",
+                "Pasekmi\u0173 pateikimas kaip savo interes\u0173 apsauga, o ne bausm\u0117",
+                "Ry\u0161io i\u0161laikymas tiesioginio \u0161ali\u0161kumo kaltinimo metu"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Markai, nei j\u016bs\u0173, nei teismo nutarties nepamr\u0161au \u2014 vertinu tai rimtai ir esu j\u016bs\u0173 pus\u0117je, kad \u0161is perdavimas \u012fvykt\u0173 \u0161iandien. Reik\u0117jo i\u0161klausyti abi puses, tai standartin\u0117 proced\u016bra bet kuriam pareig\u016bnui. \u0160tai kur esame dabar: pakalbejau su Ieva ir dirbu, kad Jacobas atsidutu pas jus. Bet jei j\u012f pagriebsite, tai sukurs policijos reikal\u0105, kurio dabar n\u0117ra, ir tai gali pakenkti j\u016bs\u0173 glob\u0117jimo pozicijai. Padarykime tai teisingai.",
+                    "strengths": [
+                        "Tiesiogiai adresuoja pagrindin\u012f r\u016bpest\u012f \u2014 kad jis pamir\u0161tas ir j\u016bs \u0161ali\u0161ki",
+                        "Be i\u0161lyg\u0173 patvirtina jo pozicijos teisin\u0119 galią",
+                        "Skaidriai paai\u0161kina proces\u0105 \u2014 standartin\u0117 proced\u016bra, ne favoritizmas",
+                        "\u012esp\u0117jimas d\u0117l fizinio veiksmo pateiktas kaip jo interes\u0173 apsauga, o ne kaip gr\u0117sm\u0117",
+                        "\u201eTeisingai\u201c atitinka jo teisingumo ir teis\u0117tumo jausm\u0105"
+                    ],
+                    "consequences": "Marko pyktis gerokai nusl\u016bgsta. Jis jau\u010diasi i\u0161girstas, gerbiamas ir tikras, kad perdavimas \u012fvyks. Pad\u0117jo telefon\u0105.",
+                    "trainingFocus": "Kaip pasekmi\u0173 pateikimas kaip savo interes\u0173 apsauga, o ne gr\u0117sme, kei\u010dia \u017emogaus nor\u0105 bendradarbiauti?"
+                },
+                "partially_positive": {
+                    "choiceText": "Markai, suprantu j\u016bs\u0173 frustraci\u0105 ir gerbiu j\u016bs\u0173 teisinius reikalavimus. Bet grasinimas paimti Jacob\u0105 j\u0117ga nepad\u0117s j\u016bs\u0173 bylai. Raskime sprendim\u0105, kuris visiems bus naudingas.",
+                    "adequate": [
+                        "Pripa\u017e\u012fsta frustraci\u0105 ir gerbia teisines teises",
+                        "Nustato rib\u0105 d\u0117l j\u0117gos",
+                        "Si\u016blo dirbti link sprendimo"
+                    ],
+                    "missed": [
+                        "\u201eNepad\u0117s j\u016bs\u0173 bylai\u201c i\u0161laiko teisin\u0119 ir prie\u0161i\u0161k\u0105 formuluotę",
+                        "\u201eVisiems naudingas\u201c gali jaustis kaip jo teis\u0117to reikalavimo susilpninimas",
+                        "Tiesiogiai neadresuoja \u0161ali\u0161kumo kaltinimo",
+                        "Nepaai\u0161kina, k\u0105 dar\u0117te, ir nepateikia progreso atnaujinimo"
+                    ],
+                    "improvement": "Kaip nustatyti ribas nenaudojant kalbos, kuri laiko \u017emogų prie\u0161i\u0161kame re\u017eime? Kai kas nors kaltina \u0161ali\u0161kumu \u2014 ignoruoti ar adresuoti tiesiogiai?",
+                    "consequences": "Markas sustoja, bet jo pagrindin\u0117 frustracija d\u0117l suvokiamo \u0161ali\u0161kumo lieka. Bendradarbiauja nenoriai ir lieka \u012ftariai."
+                },
+                "neutral": {
+                    "choiceText": "Pone, turite nusiraminti. A\u0161 \u010dia darau savo darb\u0105. Jei norite skambinti advokatui, pra\u0161om, bet vaiko j\u0117ga paimti negalite.",
+                    "adequate": [
+                        "Nustato b\u016btin\u0105 rib\u0105 d\u0117l j\u0117gos",
+                        "Pripa\u017e\u012fsta jo teis\u0119 \u012f teisin\u0119 atstovavim\u0105"
+                    ],
+                    "missed": [
+                        "\u201eTurite nusiraminti\u201c viena kontraproduktyviausiu frazi\u0173 deeskalavime \u2014 atmečia emocijas ir u\u017euomina iracionalum\u0105",
+                        "Da\u017enai sukelia prie\u0161ing\u0105 norimam efektui",
+                        "Jokios empatijos, paaiškinimo ar progreso atnaujinimo",
+                        "Neadresuoja \u0161ali\u0161kumo kaltinimo"
+                    ],
+                    "improvement": "Kod\u0117l \u201enusiraminkite\u201c beveik niekada neveda prie raminimosi? Kokios alternatyvios fraz\u0117s pasiekia t\u0105 pat\u012f tiksl\u0105 be invalidavimo?",
+                    "consequences": "Markas eskaluoja toliau: \u201eNesakykite man nusiraminti!\u201c Situacija pras\u0117ja. Ry\u0161ys prarandamas ir fizin\u0117 konfrontacija tampa tik\u0117tinesnė."
+                },
+                "negative": {
+                    "choiceText": "Jei priartsite prie to automobilio ar bandysite paimti vaik\u0105, tur\u0117siu fizi\u0161kai \u012fsiki\u0161ti. Atsitraukite prie mano automobilio tuoj pat.",
+                    "risks": [
+                        "Grynai represinis atsakas \u012f \u017eodin\u0119 eskaliacij\u0105",
+                        "Per\u0161okimas prie numanomos fizin\u0117s konfrontacijos, kai Markas kol kas tik \u017eod\u017eiu eskaluoja",
+                        "Visi\u0161kai ignoruoja jo emocin\u0119 b\u016bsen\u0105, teis\u0117t\u0105 teisin\u0119 pozicij\u0105 ir baim\u0119 prarasti laik\u0105 su s\u016bnumi",
+                        "Paverčia \u0161eimos gin\u010d\u0105 \u012f policijos konfrontacij\u0105"
+                    ],
+                    "consequences": "Markas arba atsitraukia nenoriai, arba fizi\u0161kai i\u0161\u0161aukia. Bet kuriuo atveju Jacobas mato, kaip jo t\u0117vui grasina policijos pareig\u016bnas. Vaiko trauma gilinma.",
+                    "trainingFocus": "Kuriuo momentu \u017eodin\u0117 gr\u0117sm\u0117 pateisina fizinio vykdymo atsaką, ir kokios per anksto \u0161okimo pasekm\u0117s?"
+                }
+            },
+            "keyLearningPoints": [
+                "\u201eNusiraminkite\u201c visuose tyrimuose nustatoma kaip viena ma\u017eiausiai veiksmuing\u0173 frazi\u0173 deeskalavime",
+                "Pasekmi\u0173 pateikimas kaip kieno nors savo interes\u0173 apsauga yra gerokai veiksmingesnis nei gr\u0117sm\u0117s",
+                "Kai kaltinate \u0161ali\u0161kumu \u2014 adresuokite tiesiogiai ir skaidriai, o ne ignoruokite ar ginkites",
+                "Progreso atnaujinimas (\u201e\u0161tai kur dabar esame\u201c) ma\u017eina nerim\u0105, kylant\u012f i\u0161 pamir\u0161tumo jausmo"
+            ]
+        },
+        "7": {
+            "stageName": "Sprendimo palengvinimas",
+            "criticalSkills": [
+                "K\u016brybi\u0161kas problem\u0173 sprendimas laiko spaudimo s\u0105lygomis",
+                "Laim\u0117jimo/pralaim\u0117jimo dinamikos pavertimas bendradarbiaujan\u010diais sprendimais",
+                "Abiem pus\u0117ms konstruktyvios rol\u0117s suteikimas sprendime"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "\u0160tai k\u0105 si\u016blau. Ieva, gird\u017eiu j\u016bs\u0173 r\u016bpes\u010dius d\u0117l Jacobo sveikatos \u2014 ar gal\u0117tum\u0117te u\u017era\u0161yti jo simptomus, vaistus ir dozavim\u0105 bei pediatro telefono numer\u012f Markui? Markai, ar sutiktum\u0117te informuoti Iev\u0105 apie tai, kaip Jacobas jau\u010diasi \u0161\u012f vakar\u0105 \u2014 gal trump\u0105 \u017einut\u0119 ir nuotrauk\u0105? Taip Jacobas praleis laik\u0105 su t\u0117vu, kaip numato teismo nutartis, ir abu \u017einosite, kad juo r\u016bpinamasi. Jacobai, tavo mama duos t\u0117\u010diui vis\u0105 informacij\u0105 apie tavo vaistus, tad \u0161\u012f savaitgal\u012f tavimi bus gerai pasir\u016bpinta.",
+                    "strengths": [
+                        "Adresuoja motinos tikr\u0105 sveikatos r\u016bpest\u012f konkrečiu sprendimu",
+                        "Gerbia t\u0117vo teisines teises \u2014 perdavimas \u012fvyksta",
+                        "Suteikia abiem t\u0117vams aktyvi\u0105 ir ori\u0105 rol\u0119 sprendime",
+                        "Paverčia konflikt\u0105 i\u0161 laim\u0117jimo/pralaim\u0117jimo \u012f bendradarbiaujan\u010di\u0105 t\u0117vyst\u0119",
+                        "Tiesioginis vaiko nuraminimas rodo jam, kad suaugusieji rado sprendim\u0105 kartu",
+                        "Konkret\u016bs, \u012fgyvendinami \u017eingsniai daro tai \u012fgyvendinamu, o ne neapibrėžtu"
+                    ],
+                    "consequences": "Ieva sutinka \u2014 medicinin\u0117s informacijos u\u017era\u0161ymas suteikia jai kontrol\u0117s ir prasm\u0117s jausm\u0105. Markas sutinka siusti atnaujinimus \u2014 nedidelis nuolaidumas, kuris jam nieko nekainuoja. Jacobas mato t\u0117vus bendradarbiaujant. Perdavimas vyksta skland\u017eiai.",
+                    "trainingFocus": "Kaip konstruktyvios u\u017eduoties suteikimas abiem pus\u0117ms nukreipia j\u0173 energij\u0105 nuo konflikto link bendradarbiavimo?"
+                },
+                "partially_positive": {
+                    "choiceText": "Markas turi teismo nutart\u012f, tod\u0117l perdavimas tur\u0117t\u0173 \u012fvykti \u0161iandien. Bet Ieva, o jei Markas sutikt\u0173 nuveiti Jacob\u0105 pas gydytoj\u0105, jei savaitgal\u012f simptomai pablog\u0117t\u0173? Markai, ar tai tikt\u0173 jums?",
+                    "adequate": [
+                        "Bando kompromis\u0105",
+                        "Adresuoja motinos i\u0161sakyt\u0105 sveikatos r\u016bpest\u012f"
+                    ],
+                    "missed": [
+                        "Netie\u0161iogiai s\u0105lygojant teismo nutartimi nurodyt\u0105 perdavim\u0105 papildomomis s\u0105lygomis per\u017eengiate savo vaidmen\u012f",
+                        "Jei Markas atsisakys \u2014 suk\u016br\u0117te nauj\u0105 konflikto ta\u0161k\u0105",
+                        "Jei Markas sutiks d\u0117l spaudimo, gali to nepa\u017eintami",
+                        "\u012esita\u017e\u0117te kaip pernegociavuojantis glob\u0117jimo s\u0105lygas \u2014 teismo vaidmuo"
+                    ],
+                    "improvement": "Kur riba tarp sprendimo palengvinimo ir teismo nutarties pernegociavimo? Kaip si\u016blyti sprendimus, kurie sustiprina nutart\u012f, o ne modifikuoja?",
+                    "consequences": "Markas gali nenoriai sutikti arba atsisakyti i\u0161 principo. Precedentas gali skatinti labiau trukdant\u012f elges\u012f b\u016bsimuose perdavimuose."
+                },
+                "neutral": {
+                    "choiceText": "Teismo nutartis sako, kad Jacobas \u0161\u012f savaitgal\u012f eina su t\u0117vu. Ieva, rekomenduoju j\u0105 vykdyti. Jei manote, kad ji tur\u0117t\u0173 b\u016bti pakeista, pirmadien\u012f galite pateikti pra\u0161ym\u0105 teismui.",
+                    "adequate": [
+                        "Teisi\u0161kai teisinga ir proced\u016bri\u0161kai tinkama",
+                        "Pateikia informacij\u0105 apie teisines galimybes"
+                    ],
+                    "missed": [
+                        "Tiesmukas nurodymas \u201evykdyti\u201c jau\u010diasi priverstinai, o ne palengvinančiai",
+                        "Nuoroda \u012f teismo veiksm\u0105 pirmadien\u012f toli nuo esamos emocin\u0117s realyb\u0117s",
+                        "N\u0117ra plano vaiko per\u0117jimui ar sveikatos poreikiams",
+                        "Tiltas b\u016bsimiems perdavimams nepastatytas \u2014 kitas bus toks pat blogas"
+                    ],
+                    "improvement": "Ar \u201es\u0117kmingas\u201c perdavimas yra tas, kai vaikas fizi\u0161kai pereina, ar tas, kai vaikas jau\u010diasi saugus per\u0117jimo metu? Kaip atrodo tvarus sprendimas?",
+                    "consequences": "Ieva nenoriai perduoda Jacob\u0105. Perdavimas \u012fvyksta, bet blogai \u2014 Jacobas suvokia motinos \u012ftamp\u0105. Jokio pagerinimo b\u016bsimiems perdavimams."
+                },
+                "negative": {
+                    "choiceText": "Klausykite, suprantu, kad tai sunku abiem, bet negaliu nieko priversti \u010dia \u2014 tai civilinis reikalas. Turite tai i\u0161spr\u0119sti tarpusavyje arba gr\u012f\u017eti \u012f teism\u0105. Padariau visk\u0105, k\u0105 gal\u0117jau.",
+                    "risks": [
+                        "Atsakomyb\u0117s atsisakymas kritiniu momentu",
+                        "\u012etemptas vaikas yra vietoje \u2014 pasitraukimas yra pareigos nevykdymas",
+                        "\u201ePadariau visk\u0105, k\u0105 galiu\u201c signalizuoja, kad baig\u0117te investuoti pastangas",
+                        "Abu t\u0117vai jau\u010diasi palikti vienintel\u0117s neutralios \u0161alies"
+                    ],
+                    "consequences": "Ginčas i\u0161 naujo u\u017esidega, kai tik pasitraukiate. Mokyklos apsaugos darbuotojas per dvidešimt minu\u010di\u0173 v\u0117l skambina 112. Jacobas patirs dar vien\u0105 t\u0117v\u0173 konflikto rat\u0105. J\u016bs\u0173 intervencija nieko nepasiek\u0117.",
+                    "trainingFocus": "Koks skirtumas tarp \u201enegaliu nieko priversti\u201c ir \u201enegaliu visai padėti\u201c? Kokie k\u016brybi\u0161ki sprendimai egzistuoja net civilini\u0173 byl\u0173 ribose?"
+                }
+            },
+            "keyLearningPoints": [
+                "K\u016brybi\u0161ki sprendimai, suteikiantys abiem pus\u0117ms konstruktyvi\u0105 rol\u0119, paveria prie\u0161i\u0161k\u0105 dinamik\u0105 \u012f bendradarbiavim\u0105",
+                "Geriausi sprendimai adresuoja pagrindin\u012f r\u016bpest\u012f (sveikatos nerim\u0105) gerbdami teisin\u0119 sistem\u0105 (teismo nutart\u012f)",
+                "Vaiko nuraminimas, kad suaugusieji rado sprendim\u0105 kartu \u2014 vienas galingiausiu gijimo moment\u0173, kur\u012f galite sukurti",
+                "Policija, kuri pasitraukia i\u0161 nei\u0161sprest\u0173 glob\u0117jimo gin\u010d\u0173, neapsaugo nuo konflikto \u2014 garantuoja jo pasikartojim\u0105"
+            ]
+        },
+        "8": {
+            "stageName": "Ap\u017evalga ir atskleidimas",
+            "criticalSkills": ["Refleksija", "Pasirinkimu susiejimas su rezultatais", "Neutralios mediacijos ir vaiko-centri\u0161kos praktikos \u012ftvirtinimas"],
+            "choiceAnalysis": {
+                "positive": {},
+                "partially_positive": {},
+                "neutral": {},
+                "negative": {}
+            },
+            "keyLearningPoints": [
+                "Naudokite ap\u017evalg\u0105, kad \u012ftvirtintum\u0117te, kas veik\u0117: matomas neutralumas, \u0161ali\u0173 atskyrimas ir vaiko patirties \u012fvertinimas.",
+                "Apmasykite, kaip kiekvienas pasirinkimas paveik\u0117 abu t\u0117vus ir vaik\u0105; glob\u0117jimo perdavimus prisimena visi trys."
+            ]
+        }
+    },
+    "comprehensiveMetrics": {
+        "impartialityNeutrality": {
+            "description": "Matomo teisingumo abiem pus\u0117ms i\u0161laikymas nepalankstant vieno t\u0117vo pozicijai",
+            "indicators": {
+                "excellent": [
+                    "Lygus laikas ir empatija abiem pus\u0117ms",
+                    "Joks po\u017ei\u016bris, kalba ar veiksmas, signalizuojantis favoritizm\u0105",
+                    "Skaidr\u016bs proceso paai\u0161kinimai abiem pus\u0117ms",
+                    "Abu t\u0117vai jau\u010diasi i\u0161girsti ir gerbiami nepriklausomai nuo rezultato"
+                ],
+                "poor": [
+                    "I\u0161 karto palaikyti vien\u0105 pus\u0119 pagal tai, kas kalba pirmas ar turi dokumentus",
+                    "Kalba, patvirtinanti vien\u0105 t\u0117v\u0105 ir atmetanti kit\u0105",
+                    "Fizin\u0117 pad\u0117tis, signalizuojanti s\u0105jung\u0105 su viena puse",
+                    "Veikti kaip privatus vykdymo agentas, o ne neutralus tarpininkas"
+                ]
+            }
+        },
+        "communicationEffectiveness": {
+            "description": "Bendra \u017eodin\u0117s ir ne\u017eodin\u0117s komunikacijos kokyb\u0117 su visomis \u0161alimis, \u012fskaitant vaik\u0105",
+            "indicators": {
+                "excellent": [
+                    "Aktyvus klausymasis su kiekviena \u0161alimi atskirai",
+                    "Tinkamas tonas, pritaikytas kiekvieno emocin\u0117i b\u016bsenai",
+                    "Vard\u0173 vartojimas ry\u0161io k\u016brimui ir prie\u0161i\u0161kos formuluot\u0117s ma\u017einimui",
+                    "Skaidri proceso komunikacija \u2014 ai\u0161kinimas, k\u0105 darote ir kod\u0117l"
+                ],
+                "poor": [
+                    "Kontraproduktyviu frazi\u0173 vartojimas (\u201enusiraminkite\u201c, \u201enieko negaliu padaryti\u201c)",
+                    "Teisin\u0117 ar biurokratin\u0117 kalba emoci\u0161kai \u012fkrautais momentais",
+                    "Vienos \u0161alies i\u0161sakyt\u0173 r\u016bpes\u010di\u0173 ignoravimas ar atmetimas",
+                    "Nepritaikytas komunikacijos stilius vaikui"
+                ]
+            }
+        },
+        "emotionalIntelligence": {
+            "description": "Geb\u0117jimas atpa\u017einti ir reaguoti \u012f vis\u0173 \u0161ali\u0173, \u012fskaitant vaik\u0105, emocijas",
+            "indicators": {
+                "excellent": [
+                    "Tikslus pagrindini\u0173 baimi\u0173 atpa\u017einimas \u2014 t\u0117vo baim\u0117 prarasti prieig\u0105, motinos baim\u0117 d\u0117l vaiko sveikatos",
+                    "Emocij\u0173 pripa\u017einimas net kai negalite patenkinti pra\u0161ym\u0173",
+                    "Sav\u0173 emocini\u0173 reakcij\u0173 valdymas tiesioginio \u0161ali\u0161kumo kaltinimo metu",
+                    "Deeskalavimas per emocin\u012f pripa\u017einim\u0105 prie\u0161 proced\u016brin\u012f veiksm\u0105"
+                ],
+                "poor": [
+                    "Emocini\u0173 r\u016bpes\u010di\u0173 atmetimas kaip nesusijusi\u0173 su \u201eteisiniam reikalu\u201c",
+                    "Atsakymas \u012f asmeninius puolimus kontraagresija ar atsitraukimu",
+                    "Vaiko kalt\u0117s ir nerimo neatpa\u017einimas kaip reikalaujantis tiesioginio d\u0117mesio",
+                    "Eskalavimas per emocin\u0119 invalidacij\u0105 ar g\u0117dinim\u0105"
+                ]
+            }
+        },
+        "proceduralLegalAwareness": {
+            "description": "Policijos ribojim\u0173 civilin\u0117se bylose supratimas ir atitinkamas l\u016bkes\u010di\u0173 valdymas",
+            "indicators": {
+                "excellent": [
+                    "Ai\u0161kus supratimas, kad policija n\u0117ra privat\u016bs vykdymo agentai civilin\u0117se glob\u0117jimo bylose",
+                    "Tinkamas l\u016bkes\u010di\u0173 valdymas apie tai, k\u0105 policija gali ir negali",
+                    "Pripa\u017einimas, kad teismo nutartys suteikia gaires, bet neelminuoja sprendimo poreikio",
+                    "K\u016brybi\u0161kas problem\u0173 sprendimas proced\u016brini\u0173 rib\u0173 viduje"
+                ],
+                "poor": [
+                    "Vienpu\u0161is vienos \u0161alies teismo nutarties interpretacijos vykdymas",
+                    "Pa\u017ead\u0173, vir\u0161ijan\u010di\u0173 policijos \u012fgaliojimus (are\u0161tas civilin\u0117ms byloms)",
+                    "Visos atsakomyb\u0117s atsisakymas, nes \u201ecivilin\u0117 byla\u201c",
+                    "Teismo nutarties s\u0105lyg\u0173 pernegociavimas vietoj palengvinimo"
+                ]
+            }
+        },
+        "childCenteredApproach": {
+            "description": "Vaiko emocinio saugumo prioritetizavimas, kontakto su konfliktu ir kalt\u0117s jausmo ma\u017einimas",
+            "indicators": {
+                "excellent": [
+                    "Tiesiogin\u0117 komunikacija su vaiku jo fiziniu lygiu",
+                    "Ai\u0161kiai adresuojant vaiko kalt\u0119 (\u201etu ne kaltas\u201c)",
+                    "\u012etraukiant vaik\u0105 \u012f sprendimo paskelb, kad matyt\u0173 bendradarbiavim\u0105",
+                    "U\u017etikrinant skland\u0173 vaiko per\u0117jim\u0105, o ne tik kad glob\u0117jimas \u201eperduodamas\u201c"
+                ],
+                "poor": [
+                    "Vaiko visi\u0161kai ignoravimas derantis su t\u0117vais",
+                    "Vaiko nerimo naudojimas kaip svertas prie\u0161 vien\u0105 t\u0117v\u0105",
+                    "Sprendimai d\u0117l vaiko ne\u012fvertinant vaiko patirties",
+                    "Leidimas vaikui matyti eskaluojant\u012f konflikt\u0105 be intervencijos"
+                ]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "biasSignaling": {
+            "pattern": "Veiksmai ar kalba, signalizuojantys favoritizm\u0105 vienam t\u0117vui",
+            "examples": [
+                "Pirmiausia priart\u0117ti prie vieno t\u0117vo automobilio",
+                "I\u0161 karto abejoti vienos \u0161alies teiginiais nei\u0161girdus kitos",
+                "Veikti kaip vykdymo agentas \u0161aliai su dokumentais",
+                "Reik\u0161mingai daugiau laiko praleisti su viena puse"
+            ],
+            "impact": "Suvoktas \u0161ali\u0161kumas sunaikina pasitik\u0117jim\u0105 su nukentjusia puse, eskaluoja konflikt\u0105 ir da\u017enai pablogina b\u016bsimus perdavimus",
+            "correction": "Praktikuokite matom\u0105 neutralum\u0105: lygus laikas, lygi empatija, lygi pagarba. Skaidriai paskelbkite savo proces\u0105, kad abi pus\u0117s supras\u0173 sek\u0105."
+        },
+        "escalation": {
+            "pattern": "Atsakymai, didinantys \u012ftamp\u0105 u\u017euot j\u0105 ma\u017einę",
+            "examples": [
+                "Sakyti kam nors \u201enusiraminkite\u201c",
+                "Grasinti fizine intervencija d\u0117l \u017eodin\u0117s agresijos",
+                "Naudoti priverstan\u010di\u0105 kalb\u0105 (\u201epakluskite\u201c, \u201etur\u0117siu \u012fsiki\u0161ti\u201c)",
+                "Atme\u010diant teis\u0117tus r\u016bpes\u010dius \u201enieko negaliu padaryti\u201c"
+            ],
+            "impact": "Kiekviena eskalacija apsunkina sprendim\u0105, didina fizin\u0117s konfrontacijos rizik\u0105 ir gilina vaiko traum\u0105",
+            "correction": "Pakeiskite \u012fsakymus prašymais, gr\u0117smes \u2014 savo interes\u0173 formuluote, atmetimus \u2014 pripa\u017einimais. Praktikuokite fraz\u0119: \u201eSuprantu, kad tai frustruoja. \u0160tai k\u0105 galiu padaryti.\u201c"
+        },
+        "childNeglect": {
+            "pattern": "Nesugeb\u0117jimas atpa\u017einti ar adresuoti vaiko emocini\u0173 poreiki\u0173",
+            "examples": [
+                "Ignoruoti vaik\u0105 derantis su t\u0117vais",
+                "Trumpas, atstumiantis pripa\u017einimas (\u201elaikykis, drauge\u201c)",
+                "Vaiko nerimo naudojimas kaip svertas prie\u0161 t\u0117v\u0105",
+                "Nesugeb\u0117jimas adresuoti kalt\u0117s (\u201eniekas n\u0117ra tavo kalt\u0117\u201c)"
+            ],
+            "impact": "Vaikai internalizuoja glob\u0117jimo konflikt\u0105 kaip savo kalt\u0119. Praleista galimyb\u0117 suteikti nuraminim\u0105 i\u0161 patikimo autoriteto gali pagilinti ilgalaik\u0119 psichologin\u0119 \u017eal\u0105.",
+            "correction": "Visada \u012ftraukite vaik\u0105 \u012f savo s\u0105moningumo lauk\u0105. Kai vaikas prabyla \u2014 suteikite piln\u0105 d\u0117mes\u012f. Pasilenkite iki jo lygio. \u012evardinkite, k\u0105 jis gali jausti. Ai\u0161kiai adresuokite kalt\u0119."
+        },
+        "legalRigidity": {
+            "pattern": "Per didelis pasikliavimas teisin\u0117mis strukt\u016bromis be \u017emogi\u0161ko ry\u0161io",
+            "examples": [
+                "Suma\u017einti situacij\u0105 iki \u201ek\u0105 sako dokumentai\u201c",
+                "Reikalauti medicinin\u0117s dokumentacijos prie\u0161 pripa\u017e\u012fstant r\u016bpest\u012f",
+                "Nurodyti t\u0117vui \u201epaklusti\u201c be empatijos",
+                "Cituoti teismo proced\u016bras vietoj \u012fsitraukimo"
+            ],
+            "impact": "Techni\u0161kai teisinga, bet emoci\u0161kai destruktyvu. Paklusnumas pasiektas stand\u017eiai sukuria nepasitenkimim\u0105 ir garantuoja b\u016bsimus konfliktus.",
+            "correction": "Prad\u0117kite nuo empatijos, tada procesas. \u012estatymas suteikia strukt\u016br\u0105; j\u016bs\u0173 \u017emogi\u0161kumas \u2014 tilt\u0105 \u012f bendradarbiavim\u0105."
+        },
+        "abdication": {
+            "pattern": "Pasitraukimas i\u0161 situacijos, kai ji tampa sud\u0117tinga",
+            "examples": [
+                "\u201eTai civilin\u0117 byla, i\u0161spr\u0119skite patys\u201c",
+                "\u201ePadariau visk\u0105, k\u0105 galėjau\u201c",
+                "Palikti viet\u0105 su nei\u0161spręstu konfliktu",
+                "Vis\u0105 atsakomyb\u0119 perleisti vienai pusei"
+            ],
+            "impact": "Pasitraukimas i\u0161 nei\u0161spresto glob\u0117jimo gin\u010do su \u012ftemptu vaiku neapsaugo nuo \u017ealos \u2014 garantuoja jos pasikartojim\u0105. Abu t\u0117vai praranda pasitik\u0117jim\u0105 policija kaip i\u0161tekliu.",
+            "correction": "K\u016brybi\u0161kas problem\u0173 sprendimas visada \u012fmanomas. Net civilin\u0117se bylose galite palengvinti komunikacij\u0105, pasi\u016blyti praktinius sprendimus ir u\u017etikrinti, kad vaiko per\u0117jimas b\u016bt\u0173 tvarkomas r\u016bpestingai."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Puikus pasirodymas. Parod\u0117te i\u0161skirtin\u012f neutralum\u0105, emocin\u012f intelekt\u0105 ir k\u016brybi\u0161k\u0105 problem\u0173 sprendim\u0105 intensyvaus spaudimo metu. J\u016bs\u0173 geb\u0117jimas pripa\u017einti abu t\u0117vus ir kartu centruoti vaiko emocin\u0119 gerov\u0119 \u2014 b\u016btent tai, ko reikalauja glob\u0117jimo gin\u010dai. Bendradarbiaujantis sprendimas, kur\u012f palengvinote \u2014 medicinin\u0117s informacijos mainai, atnaujinum\u0173 \u012fsipareigojimai \u2014 paverčia vienkart\u0119 intervencij\u0105 \u0161ablonu sveikesniems b\u016bsimiems perdavimams. Svarbiausia \u2014 Jacobas mat\u0117 suaugusiuosius dirbancius kartu, o ne besipe\u0161ant\u010dius. Tas momentas gali b\u016bti stipriausias, k\u0105 \u0161iandien padar\u0117te.",
+            "mostlyPositive": "Stiprus bendras pasirodymas su puikiais mediacijos \u012fg\u016bd\u017eiais. I\u0161laik\u0117te ger\u0105 neutralum\u0105 ir parod\u0117te tikr\u0105 empatij\u0105 visoms pus\u0117ms. Pagrindin\u0117 stipryb\u0117: [SPECIFIC_STRENGTH]. Augimo sritis: [SPECIFIC_IMPROVEMENT]. J\u016bs\u0173 po\u017ei\u016bris pad\u0117jo abiem t\u0117vams matyti u\u017e konflikto rib\u0173 ir sutelkti d\u0117mes\u012f \u012f Jacobo gerov\u0119 \u2014 tai efektyvios glob\u0117jimo intervencijos esm\u0117.",
+            "mixed": "Kai kuriuos aspektus tvark\u0117te gerai, bet praleidote kritines galimybes. Stipryb\u0117s apim\u0117 [SPECIFIC_STRENGTHS]. Ta\u010diau [SPECIFIC_WEAKNESSES] reikalauja d\u0117mesio. Glob\u0117jimo gin\u010dai reikalauja vienu metu balansuoti teisin\u012f suvokim\u0105, emocin\u012f intelekt\u0105, ne\u0161ali\u0161kum\u0105 ir vaiko-centri\u0161k\u0105 m\u0105stym\u0105. Per\u017ei\u016br\u0117kite [TRAINING_AREAS], kad sustiprintum\u0117te sritis, kuriose atsakas buvo silpnas.",
+            "mostlyNegative": "\u0160is scenarijus atskeid\u0117 reik\u0161ming\u0173 spraug\u0173 glob\u0117jimo mediacijos \u012fg\u016bd\u017eiuose. Nors j\u016bs [MINOR_POSITIVE], dauguma pasirinkim\u0173 arba signalizavo \u0161ali\u0161kum\u0105, eskalavo \u012ftamp\u0105, arba ne\u012fvertino vaiko emocini\u0173 poreiki\u0173. Konkre\u010diai: [MAJOR_FAILURES]. Glob\u0117jimo gin\u010duose suvokiamas pareig\u016bno netesingumas da\u017enai pablogina b\u016bsimus perdavimus, kurdamas eskaluojan\u010dio konflikto cikl\u0105. Rekomenduojamas skubus mokymas: [CRITICAL_TRAINING].",
+            "allNegative": "J\u016bs\u0173 po\u017ei\u016bris \u0161iame scenarijuje buvo keliantis susir\u016bpinimą. Nuoseklus \u0161ali\u0161kumas vienai pusei, eskalacija vietoj deeskalacijos ir nesugeb\u0117jimas adresuoti vaiko nerimo gal\u0117t\u0173 tur\u0117ti ilgalaiki\u0173 pasekmi\u0173 \u0161eimai. B\u016btinas korekcinis mokymas: neutrali mediacija, empatija grindžiama komunikacija, vaikui jautri intervencija ir policijos ribojim\u0173 civilin\u0117se bylose supratimas. Prisiminkite: glob\u0117jimo gin\u010duose vaikas visada stebi ir mokosi i\u0161 kiekvieno suaugusiojo kambaryje \u2014 \u012fskaitant jus."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Labas. A\u0161 pareig\u016bnas [vardas]. Matau, kad tai \u012ftampa situacija. I\u0161spr\u0119skime \u2014 bet pirmiausia pra\u0161au abiej\u0173 \u017eingsn\u012f atgal.",
+            "Suprantu, kad abu d\u0117l to jau\u010diat\u0117s stipriai. Kalb\u0117siu su kiekvienu atskirai, kad supras\u010diau vis\u0105 situacij\u0105.",
+            "A\u010di\u016b, kad parod\u0117te, Markai. A\u0161 tai vertinu rimtai \u2014 teismo nutartis turi tikr\u0105 svor\u012f.",
+            "Gird\u017eiu, kaip labai jums r\u016bpi Jacobas, Ieva. Jo sveikata yra svarbi.",
+            "Ei, Jacobai, \u017einau, kad tai tikrai sunku. Noriu, kad \u017einotum \u2014 niekas i\u0161 to n\u0117ra tavo kalt\u0117, gerai?",
+            "Nei j\u016bs\u0173, nei teismo nutarties nepamr\u0161au \u2014 vertinu tai rimtai ir esu j\u016bs\u0173 pus\u0117je, kad \u0161is perdavimas \u012fvykt\u0173 \u0161iandien.",
+            "Ieva, ar gal\u0117tum\u0117te u\u017era\u0161yti jo simptomus, vaistus ir dozavim\u0105 bei pediatro telefono numer\u012f Markui?"
+        ],
+        "poorPhrases": [
+            "Matau, kad tai pasikartojantis modelis, Markai. Pakalbsiu su ja apie grafiko gerbim\u0105.",
+            "Ar turite gydytojo pa\u017eym\u0105 ar medicinin\u012f \u012frodyma?",
+            "Gird\u0117jote j\u012f. Greitai i\u0161spr\u0119skime tai, kad Jacobas gal\u0117t\u0173 t\u0119sti savo vakar\u0105.",
+            "Turite nusiraminti. A\u0161 \u010dia darau savo darb\u0105.",
+            "Jei priartsite prie to automobilio ar bandysite paimti vaik\u0105, tur\u0117siu fizi\u0161kai \u012fsiki\u0161ti.",
+            "Negaliu nieko priversti \u010dia \u2014 tai civilinis reikalas. Padariau visk\u0105, k\u0105 gal\u0117jau.",
+            "Jei neturite medicinin\u0117s dokumentacijos, a\u0161 tikrai nieko negaliu padaryti."
+        ],
+        "analysisCriteria": {
+            "neutrality": "Ar fraz\u0117 i\u0161laik\u0117 matom\u0105 ne\u0161ali\u0161kum\u0105 tarp abiej\u0173 \u0161ali\u0173?",
+            "empathy": "Ar fraz\u0117 pripa\u017eino emocijas prie\u0161 adresuodama proced\u016brinius r\u016bpes\u010dius?",
+            "childAwareness": "Ar fraz\u0117 \u012fvertin\u0117 vaiko emocin\u012f poveik\u012f ir gerov\u0119?",
+            "clarity": "Ar fraz\u0117 skaidriai perteik\u0117 proces\u0105 ir l\u016bkes\u010dius?",
+            "effectiveness": "Ar fraz\u0117 nukreip\u0117 situacij\u0105 link sprendimo, o ne eskaliacijos?",
+            "creativity": "Ar fraz\u0117 pasi\u016bl\u0117 bendradarbiaujančius sprendimus, o ne laim\u0117jimo/pralaim\u0117jimo rezultatus?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "J\u016bs\u0173 pradinis po\u017ei\u016bris nustato emocin\u012f ton\u0105 visai glob\u0117jimo perdavimo intervencijai \u2014 ramus buvimas deeskaluoja, \u012fsakyminis \u2014 sukuria pasiprie\u0161inim\u0105",
+        "2": "Fizinis konfliktuojan\u010di\u0173 t\u0117v\u0173 atskyrimas yra vienas efektyviausiu strukt\u016brini\u0173 deeskalavimo b\u016bd\u0173 glob\u0117jimo gin\u010duose",
+        "3": "Policija n\u0117ra privatus vykdymo agentas \u2014 teismo nutartis yra strukt\u016bra, o ne ginklas vienai \u0161aliai",
+        "4": "T\u0117vo emocinio r\u016bpes\u010dio pripa\u017einimas prie\u0161 pateikiant teisin\u0119 realyb\u0119 kuria pasitik\u0117jim\u0105 net kai atsakymas nemalonus",
+        "5": "Vaikai glob\u0117jimo gin\u010duose ne\u0161a did\u017eiul\u0119 kalt\u0119 \u2014 jiems reikia ai\u0161kiai ir tiesiogiai i\u0161girsti, kad konfliktas n\u0117ra j\u0173 kalt\u0117",
+        "6": "\u201eNusiraminkite\u201c deeskalavimo tyrimuose nuosekliai nustatoma kaip kontraproduktyvus \u2014 r\u0117muokite pasekmes kaip savo interes\u0173 apsaug\u0105, o ne gr\u0117smes",
+        "7": "K\u016brybi\u0161ki sprendimai, suteikiantys abiem t\u0117vams konstruktyvi\u0105 rol\u0119, paverčia prie\u0161i\u0161k\u0105 dinamik\u0105 bendradarbiaujančia t\u0117vyste"
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": [
+                "I\u0161pl\u0117stin\u0117 \u0161eimos mediacija ir glob\u0117jimo gin\u010d\u0173 sprendimas",
+                "Kit\u0173 mokymas vaikui jautrioje policijos intervencijoje",
+                "Specializuotos \u0161eimos kriz\u0117s intervencijos komandos vadovavimas"
+            ],
+            "good": [
+                "I\u0161pl\u0117stin\u0117s neutralios mediacijos technikos auk\u0161to konflikto \u0161eimoms",
+                "Vaik\u0173 psichologija glob\u0117jimo ir skyrybų situacijose",
+                "K\u016brybi\u0161kas problem\u0173 sprendimas civilin\u0117se-teisin\u0117se policijos situacijose"
+            ],
+            "average": [
+                "Pagrindiniai glob\u0117jimo gin\u010d\u0173 intervencijos protokolai",
+                "Aktyvaus klausymo ir emocin\u0117s validacijos \u012fg\u016bd\u017eiai",
+                "Policijos ribojim\u0173 civilin\u0117se bylose supratimas"
+            ],
+            "poor": [
+                "Privalomas deeskalavimo ir neutralumo mokymas",
+                "Vaikui jautrios komunikacijos seminaras",
+                "Empatijos ir emocinio intelekto ugdymas",
+                "Civilin\u0117 ir baud\u017eiamoji byla: policijos vaidmens ribos"
+            ]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {
+                "title": "Bendras pasirodymo ap\u017evalga",
+                "content": [
+                    "Balas",
+                    "Pasirodymo lygis",
+                    "Pagrindin\u0117s stipryb\u0117s",
+                    "Kritin\u0117s silpnyb\u0117s"
+                ]
+            },
+            {
+                "title": "Etap\u0173 analiz\u0117",
+                "content": [
+                    "Pasirinkimas kiekviename etape",
+                    "Poveikis visoms trims \u0161alims (t\u0117vui, motinai, vaikui)",
+                    "Alternatyv\u016bs po\u017ei\u016briai ir j\u0173 pasekm\u0117s",
+                    "Pagrindin\u0117s mokymosi temos"
+                ]
+            },
+            {
+                "title": "Neutralumo \u012fvertinimas",
+                "content": [
+                    "Nustatyti \u0161ali\u0161kumo signalai",
+                    "Empatijos balansas tarp \u0161ali\u0173",
+                    "Proceso skaidrumo \u012fvertinimas"
+                ]
+            },
+            {
+                "title": "Vaiko-centri\u0161kas \u012fvertinimas",
+                "content": [
+                    "Tiesiogin\u0117 s\u0105veika su vaiku",
+                    "Kalt\u0117s pripa\u017einimas",
+                    "Emocin\u0117 sauga per\u0117jimo metu",
+                    "Sveiko konflikto sprendimo modeliavimas"
+                ]
+            },
+            {
+                "title": "Komunikacijos efektyvumas",
+                "content": [
+                    "Geriausi dialog\u0173 momentai",
+                    "Naudotos kontraproduktyvios fraz\u0117s",
+                    "Emocin\u0117s validacijos kokyb\u0117",
+                    "Proceso skaidrumas"
+                ]
+            },
+            {
+                "title": "Ra\u0161t\u0173 analiz\u0117",
+                "content": [
+                    "Nuoseklios stipryb\u0117s etapuose",
+                    "Pasikartojančios klaidos",
+                    "Sprendim\u0173 tendencijos (pvz., pagal nutylejim\u0105 autoritetas prieš empatij\u0105)"
+                ]
+            },
+            {
+                "title": "Profesinis tobulėjimas",
+                "content": [
+                    "Skub\u016bs mokym\u0173 poreikiai",
+                    "Ilgalaik\u0117s \u012fg\u016bd\u017ei\u0173 pl\u0117tros prioritetai",
+                    "Rekomenduojami i\u0161tekliai ir seminarai"
+                ]
+            },
+            {
+                "title": "Praktinis taikymas",
+                "content": [
+                    "Kaip tai verčiasi \u012f glob\u0117jimo perdavimus lauke",
+                    "Bendradarbiavimas su \u0161eimos teismais ir socialin\u0117mis tarnybomis",
+                    "Bendruomen\u0117s pasitik\u0117jimo k\u016brimas kokybi\u0161ka \u0161eimos intervencija"
+                ]
+            }
+        ]
+    }
+}

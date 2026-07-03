@@ -1,0 +1,427 @@
+{
+    "scenarioId": "4",
+    "reviewVersion": "2.0",
+    "title": "Mental Health Crisis — Performance Analysis",
+
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Arrival Assessment",
+            "criticalSkills": ["Scene observation before engagement", "Identifying medical context clues", "Resisting tactical framing for non-threatening situations", "Managing approach distance"],
+            "learningObjective": "Assess a mental health crisis scene through observation rather than action, identifying critical indicators such as a hospital wristband, non-aggressive posture, and environmental context before speaking to anyone.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Stop about five meters away. Take thirty seconds to observe: note Elena's body language, the hospital wristband, her clothing, the distance from the entrance. Make calm eye contact with David and Mrs. Walsh to acknowledge them without rushing to anyone.",
+                    "strengths": ["CIT-aligned observation-before-engagement approach reveals critical information before a word is spoken", "Maintaining five meters of distance communicates safety rather than threat to someone in crisis", "Noticing the hospital wristband reframes the entire encounter from suspicious behavior to medical context", "Calm eye contact with David and Mrs. Walsh acknowledges both parties without prioritizing either", "Thirty seconds of patience prevents minutes of correcting a fear response caused by rushing in"],
+                    "consequences": "You notice the wristband, her non-aggressive posture, and that she flinches at sudden sounds. David sees you assessing calmly. Mrs. Walsh looks relieved. You have critical context before saying a single word.",
+                    "trainingFocus": "How does thirty seconds of observation change your entire approach to a mental health call? What details does stillness reveal that action would miss?"
+                },
+                "partially_positive": {
+                    "choiceText": "Approach Elena directly and introduce yourself. She's the one who needs help — get to her quickly before the situation changes.",
+                    "adequate": ["Good instinct to prioritize the person in need over the complainant", "Intent to help is genuine and empathy-driven"],
+                    "missed": ["No scene assessment means missing the hospital wristband and other critical context", "Rapid approach to a person in mental health crisis can trigger fight-or-flight", "Moving quickly communicates urgency, which a frightened person reads as threat", "Haven't identified potential triggers before engaging"],
+                    "improvement": "Channel the impulse to help into deliberate observation first. CIT training teaches that the fastest way to help someone in crisis is to slow down — assess the scene, notice medical indicators, and approach at a pace that communicates calm, not urgency."
+                },
+                "neutral": {
+                    "choiceText": "Walk directly to David first — he called, so get his account of what happened before approaching Elena.",
+                    "adequate": ["Logical to gather context from the caller before engaging", "Seeking information before acting shows procedural discipline"],
+                    "missed": ["Elena watches you walk to the man who called police on her — optics of taking sides", "No independent scene assessment means relying on David's framing", "Elena's anxiety escalates as two authority figures confer about her", "Mrs. Walsh's potentially more useful observations go ungathered"],
+                    "improvement": "A brief observation period before engaging anyone preserves neutrality. The person in crisis is reading who you talk to first as a signal of why you are here — approaching the complainant tells her you are here because of a complaint, not because someone needs care.",
+                    "consequences": "You get David's perspective but Elena sees two authority figures conferring about her. She pulls her knees tighter and starts rocking faster. The approach signals investigation, not care."
+                },
+                "negative": {
+                    "choiceText": "Radio for backup immediately — you don't know what she's on or what she might do. Secure the area and keep bystanders back until a second unit arrives.",
+                    "risks": ["No indicators of danger whatsoever — no weapon, no aggression, no threats", "Calling backup and securing a perimeter treats a mental health crisis as a tactical situation", "Communicates to everyone present that you see this woman as a threat", "Additional units arriving dramatically escalates fear in someone already terrified", "Dispatcher already indicated no weapons and no threats — backup is disproportionate"],
+                    "consequences": "Elena sees you speaking urgently into your radio. A second patrol car arrives. Two more officers approach. Elena is surrounded by uniforms, begins to hyperventilate and cry. Mrs. Walsh protests. A passerby starts filming. The situation has escalated from a woman sitting on the pavement to a multi-officer response.",
+                    "betterApproach": "Observe calmly from a safe distance. There are no threat indicators. A single officer with patience and CIT training is the right resource — additional units create the crisis they were called to prevent."
+                }
+            },
+            "keyLearningPoints": ["Thirty seconds of observation reveals more than ten minutes of correcting a bad first approach", "A hospital wristband, non-aggressive posture, and self-soothing behavior are critical context clues that reframe the entire encounter", "Dispatch framing — 'acting strangely, maybe on something' — can prejudice your approach if you don't verify independently", "In mental health calls, who you approach first and how fast you move communicates more than your words"]
+        },
+        "2": {
+            "stageName": "First Contact",
+            "criticalSkills": ["Addressing stated fears directly", "Physical positioning to reduce power imbalance", "Tone calibration for crisis communication", "Building trust through specificity rather than generic reassurance"],
+            "learningObjective": "Make first verbal contact with a person in acute mental health crisis in a way that directly addresses their expressed fear, reduces the power imbalance, and creates a foundation for trust.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Lower yourself to her eye level slowly, keep hands visible, speak softly: 'My name is Officer [name]. I'm not here to take you anywhere. Nobody is going to touch you or make you go anywhere you don't want to go. I can see you're having a really hard time. Can you tell me your name?'",
+                    "strengths": ["Lowering to eye level physically reduces the power imbalance — you are no longer looming over a seated person", "Visible hands signal no physical threat", "Directly addressing her stated fear — 'not here to take you anywhere' — targets the specific terror she expressed", "Asking her name begins to restore her identity beyond 'the person on the pavement'", "Soft tone matches the emotional register she needs, not the procedural register of policing"],
+                    "consequences": "Elena's breathing slows slightly. After a long pause she shares her name. A fragile thread of trust forms. She hasn't run. She hasn't screamed. That is progress.",
+                    "trainingFocus": "Why is directly addressing the person's stated fear more effective than general reassurance? How does your physical position relative to a person in crisis change their willingness to engage?"
+                },
+                "partially_positive": {
+                    "choiceText": "Stay standing but soften your tone: 'Ma'am, I'm Officer [name]. I got a call about someone needing help outside the pharmacy. Are you okay? Do you need medical assistance?'",
+                    "adequate": ["Polite and professional tone", "Identifying yourself by name is appropriate"],
+                    "missed": ["Standing over someone sitting on the ground maintains a power dynamic that feels threatening", "'I got a call' reminds her that someone reported her — she is a subject, not a person receiving care", "'Do you need medical assistance?' is a clinical yes-or-no question that doesn't address her emotional state", "Her explicit fear of being taken back to the hospital is not acknowledged"],
+                    "improvement": "Lower to her eye level to communicate equality rather than authority. Replace clinical questions with responses that address her stated fear. She told you she doesn't want to go back — acknowledge that before asking anything else."
+                },
+                "neutral": {
+                    "choiceText": "Kneel nearby and say gently: 'Hey, it's okay. You're safe. I promise nothing bad is going to happen. Let's just talk, okay? Everything is going to be fine.'",
+                    "adequate": ["Kneeling shows good physical positioning instinct", "Gentle tone is appropriate for the situation"],
+                    "missed": ["Making promises you cannot guarantee — 'nothing bad is going to happen' — can backfire with someone who has heard these words before traumatic experiences", "Generic reassurance without addressing her specific fear feels hollow", "She said she doesn't want to go back to the hospital — that fear has not been acknowledged", "'Everything is going to be fine' is the kind of phrase that preceded broken promises in her past"],
+                    "improvement": "Replace generic comfort with specific acknowledgment. Instead of 'everything will be fine,' try 'I'm not here to take you anywhere you don't want to go.' Address the fear she actually expressed, not the fear you assume.",
+                    "consequences": "Elena looks at you with suspicion: 'That's what they said at the hospital.' Your reassurance reminded her of broken promises. Trust hasn't formed."
+                },
+                "negative": {
+                    "choiceText": "Maintain distance but speak firmly: 'Ma'am, I need you to calm down. I'm Officer [name] and I'm here because there's been a complaint. Can you stand up so we can talk? What's the situation with the hospital wristband?'",
+                    "risks": ["'Calm down' is one of the least effective phrases in crisis intervention — it invalidates the person's emotional state", "Asking her to stand up is a command that increases the power differential", "Mentioning the complaint frames her as the problem", "Pointing out the wristband before any rapport feels like interrogation", "Research consistently shows that telling someone to 'calm down' has the opposite effect"],
+                    "consequences": "Elena flinches at the word 'complaint.' She covers the wristband with her other hand, ashamed. 'I'm not crazy. I just — leave me alone!' She stands abruptly and backs away. The situation has escalated.",
+                    "betterApproach": "Lower yourself to her level, keep your voice soft, and directly address the fear she has expressed. Lead with what you will not do — 'I'm not here to take you anywhere' — before asking her anything."
+                }
+            },
+            "keyLearningPoints": ["The first words you say to a person in crisis set the trajectory for everything that follows", "Addressing the specific fear someone has stated is more powerful than any generic reassurance", "Physical positioning communicates safety or threat before any words — looming over someone on the ground is an act of power, not care", "Telling someone to 'calm down' in a mental health crisis reliably produces the opposite effect"]
+        },
+        "3": {
+            "stageName": "Gathering Information",
+            "criticalSkills": ["Managing competing stakeholder perspectives", "Turning bystanders into information sources", "Validating concerns without taking sides", "Protecting the person in crisis from shame"],
+            "learningObjective": "Balance the demands of a business owner who wants the person removed with the observations of a protective bystander, while Elena listens to everything and draws conclusions about why you are here.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Address both directly. To David: 'I understand this is affecting your business, and I appreciate you calling — I'm going to work on this. Can you give me a few minutes?' To Mrs. Walsh: 'Thank you for watching out for her. That's really valuable. Did she say anything else that might help me understand her situation?'",
+                    "strengths": ["Validates both parties without choosing sides in front of Elena", "Asking David for time manages his expectation without dismissing his concern", "Thanking Mrs. Walsh turns a bystander into a resource with potentially critical information", "Elena sees you treating her situation as one that deserves understanding, not just removal", "Gathering information from someone who spent time with Elena before you arrived is tactically smart"],
+                    "consequences": "David nods reluctantly. Mrs. Walsh shares that Elena mentioned being scared of a nurse and keeps looking at the pharmacy sign like she recognizes it. Elena watches someone gathering information to help her, not arrest her. Her posture softens.",
+                    "trainingFocus": "How does turning bystanders into information sources change the dynamic from enforcement to care? Why does who you listen to in front of the person in crisis matter?"
+                },
+                "partially_positive": {
+                    "choiceText": "Focus on David since he's the caller: 'Has she threatened anyone or done anything aggressive? Has she tried to enter the pharmacy or block the door physically?'",
+                    "adequate": ["Good diagnostic questions that establish whether there is an actual safety or access issue", "Separating enforceable harm from subjective discomfort is sound police work"],
+                    "missed": ["Focusing exclusively on the caller while Elena listens creates a complaint-driven dynamic", "Mrs. Walsh's observations — potentially more useful — go ungathered", "Elena sees the officer prioritizing the business owner's account", "A protective bystander who has been with Elena for thirty minutes is a better information source than you are using"],
+                    "improvement": "After getting David's account, actively seek Mrs. Walsh's observations. She has spent more time with Elena than anyone present and may hold key information about Elena's state, statements, and needs."
+                },
+                "neutral": {
+                    "choiceText": "Tell David: 'I'll take care of it. Give me some space to work.' Then turn your full attention back to Elena, ignoring Mrs. Walsh.",
+                    "adequate": ["Returning to Elena is the right instinct — she is the person who needs help", "Asking for space from David reduces pressure on the interaction"],
+                    "missed": ["'I'll take care of it' sets an undefined expectation that David will fill with his own assumptions", "David may escalate if his concern feels unacknowledged — calling a supervisor or confronting Elena himself", "Mrs. Walsh has critical information from her time with Elena that is now lost", "Dismissing both parties costs you information and allies"],
+                    "improvement": "Spend thirty seconds acknowledging both David and Mrs. Walsh before returning to Elena. A brief validation of David's concern and a question to Mrs. Walsh could provide critical context that changes your entire approach.",
+                    "consequences": "David retreats but mutters about calling the district manager. Mrs. Walsh looks hurt and leaves. You've lost an ally who could have helped you understand Elena's state. You're now alone with less information."
+                },
+                "negative": {
+                    "choiceText": "Tell Elena directly: 'Elena, the pharmacy worker says you've been here since this morning and you're making customers uncomfortable. I need to understand what's going on. Why did you leave the hospital?'",
+                    "risks": ["Relaying the complaint directly to Elena shames her — 'you're making people uncomfortable' tells a vulnerable person she is a problem", "Demanding to know why she left the hospital invades her medical privacy in a public setting", "This approach prioritizes information extraction over trust-building", "Elena hears that the officer's primary concern is the complaint, not her wellbeing"],
+                    "consequences": "Elena's face crumbles. 'I'm making people uncomfortable? I'm sorry. I'm sorry. I'll go.' She starts to stand, disoriented and ashamed. Mrs. Walsh intervenes. The situation destabilizes.",
+                    "betterApproach": "Never relay a complaint directly to the person in crisis. Manage the complainant and the bystander separately, gather information from both, and return to Elena with care — not with other people's grievances."
+                }
+            },
+            "keyLearningPoints": ["When a person in crisis can hear who you listen to and what they say, every word shapes whether they see you as helper or enforcer", "Bystanders who have spent time with the person are information resources — dismissing them costs you intelligence and allies", "Relaying a complaint directly to a person in mental health crisis causes shame and destabilization", "Managing competing stakeholders requires validating each without choosing sides in front of the vulnerable person"]
+        },
+        "4": {
+            "stageName": "Building Rapport",
+            "criticalSkills": ["Active listening with specific validation", "Restoring agency through choice", "Resisting the urge to problem-solve before the person is ready", "Reframing shame into understanding"],
+            "learningObjective": "Deepen trust with Elena as she reveals the medication change, frightening hallucinations, and flight from the hospital, using validation and choice to sustain the fragile connection.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Listen fully, then respond: 'Elena, thank you for telling me that. A medication change causing voices sounds really frightening — I can understand why you felt you had to leave. You mentioned your sister Sofia. Would you like to call her? I can help with that if you want, or you can do it yourself — whatever feels right to you.'",
+                    "strengths": ["Validates the specific experience — 'a medication change causing voices sounds really frightening' — showing you listened and believe her", "Reframes her hospital departure from shameful flight to understandable response", "Offering a choice about how to contact Sofia — 'I can help or you can do it yourself' — restores agency", "Every choice offered rebuilds the sense of control the crisis stripped away", "'Whatever feels right to you' is language calibrated to someone who has lost all sense of control"],
+                    "consequences": "Elena's eyes well with tears of relief: 'You believe me? About the medication?' She pulls out her phone and asks you to stay while she calls Sofia. A genuine human connection has formed.",
+                    "trainingFocus": "Why is restoring a person's sense of choice the most powerful tool in crisis de-escalation? What does believing someone's account of their experience communicate?"
+                },
+                "partially_positive": {
+                    "choiceText": "Nod and say: 'That sounds really tough, Elena. Let me call someone for you — we can get your sister here and maybe talk to the hospital about your medication. Sound good?'",
+                    "adequate": ["Empathetic tone and genuine concern", "Action-oriented approach that moves toward resolution"],
+                    "missed": ["'Let me call someone for you' takes over rather than offering choice — you are deciding, not she", "Mentioning the hospital may spike her fear — she just fled from there", "Making plans on her behalf mirrors the loss of control she experienced at the hospital", "Moving to solutions before Elena is ready can shut down the trust that was building"],
+                    "improvement": "Let Elena lead. Offer options rather than taking over. Instead of 'let me call someone for you,' ask 'would you like to call her, or would you like me to?' Avoid mentioning the hospital until Elena brings it up — she will when she is ready."
+                },
+                "neutral": {
+                    "choiceText": "Say: 'Okay, Elena. That helps me understand. Can you tell me the name of the hospital and your doctor? I should let them know where you are so they don't worry.'",
+                    "adequate": ["Acknowledging that her information helps you understand shows you are listening", "Concern for the hospital's awareness of her whereabouts is well-intentioned"],
+                    "missed": ["Asking for hospital details and saying you'll inform them translates to: 'The officer will tell the hospital where I am so they can come get me'", "You've shifted from conversation partner to hospital liaison — exactly the role she fears", "The fragile trust that was building collapses under institutional language", "From Elena's perspective, you just became the person who will bring the hospital to her"],
+                    "improvement": "Do not offer to contact the institution the person fled from until they explicitly ask or agree. Focus on what Elena wants — she mentioned Sofia. Follow her lead, not your procedural instincts.",
+                    "consequences": "Elena's fragile openness collapses: 'No! Don't call them. I told you I'm not going back!' She stands up, agitated, scanning for an exit. Significant ground has been lost."
+                },
+                "negative": {
+                    "choiceText": "Say: 'Elena, I hear you. But here's the thing — you left the hospital without being discharged, and that's a concern. For your safety, I think the best thing is to get you back so the doctors can sort out the medication issue. I can drive you there.'",
+                    "risks": ["You have told a frightened woman who begged you not to take her back that you think the best thing is to take her back", "Even framed as concern, this confirms her worst fear: police are here to return her", "'For your safety' is a phrase that has preceded countless involuntary actions against people in crisis", "Offering to drive her ignores her lack of consent entirely", "CIT training emphasizes involuntary transport should be reserved for imminent danger — Elena does not meet that threshold"],
+                    "consequences": "Elena panics: 'You lied! You said you weren't going to take me anywhere!' Mrs. Walsh shouts. David comes to the door. Multiple passersby stop. The trust built through careful work is shattered.",
+                    "betterApproach": "Separate what someone needs clinically from what they need in this moment to feel safe enough to accept help. Elena needs medication adjustment — but she will only accept it voluntarily if she trusts you. Breaking that trust to push a clinical outcome destroys both."
+                }
+            },
+            "keyLearningPoints": ["Believing someone's account of their experience — 'you believe me about the medication?' — is one of the most powerful trust-building acts in crisis intervention", "Offering choices rather than making decisions for someone restores the agency that a mental health crisis strips away", "Mentioning the institution someone fled from before they are ready can collapse fragile trust instantly", "The difference between what someone needs clinically and what they need emotionally in this moment is the central tension of crisis intervention"]
+        },
+        "5": {
+            "stageName": "The Sister Arrives",
+            "criticalSkills": ["De-escalating a panicked family member", "Preventing emotional re-escalation", "Using small tasks to re-engage rational thinking", "Protecting the calm you have built"],
+            "learningObjective": "Manage the arrival of Elena's sister Sofia, who is panicked and defensive, in a way that stabilizes Sofia before she interacts with Elena and prevents the family reunion from undoing the calm you have built.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Speak to Sofia calmly but clearly: 'Sofia — take a breath. Elena is not under arrest. No one is being arrested. She and I have been talking, and she's doing really well. I know you've been through a lot this morning. Can you park your car safely, and then come join us? Elena has been asking about you.'",
+                    "strengths": ["Sofia needs her own de-escalation — her panic is genuine but will re-escalate Elena if unchecked", "'Take a breath' is directive but caring — giving her something to do physically", "'Elena is not under arrest' directly addresses Sofia's stated fear", "'She's doing really well' reframes Elena from victim to person with agency", "Asking Sofia to park gives her a small task that re-engages rational thinking and buys thirty seconds of calm", "'Elena has been asking about you' gives Sofia purpose and reassurance"],
+                    "consequences": "Sofia inhales, nods, parks the car. When she returns, her pace is slower. Elena reaches out a hand. The sisters hold each other. A family reunion replaces a crisis escalation.",
+                    "trainingFocus": "Why does a small practical task — like parking a car — help someone transition from panic to functional presence? How does stabilizing a family member protect the progress you've made with the person in crisis?"
+                },
+                "partially_positive": {
+                    "choiceText": "Address Sofia immediately: 'You must be Sofia. I'm glad you're here. Elena mentioned you. She's okay — we've just been talking. Come over, she'll be happy to see you.'",
+                    "adequate": ["Warm and welcoming — validates Sofia's presence and connection to Elena", "Identifying Sofia by name and referencing Elena's words shows attentiveness"],
+                    "missed": ["Sofia's emotional state has not been managed before bringing her to Elena", "Sofia is still in panic mode — crying, frantic, voice raised", "Bringing panicked Sofia directly to fragile Elena risks emotional flooding that undoes your careful work", "No cooling-off mechanism before the reunion"],
+                    "improvement": "Insert a brief stabilization step before allowing contact. Ask Sofia to park her car, take a breath, or simply pause for ten seconds. The small delay transitions her from panic to presence and protects the calm you've built with Elena."
+                },
+                "neutral": {
+                    "choiceText": "Step toward Sofia and lower your voice: 'Ma'am, I need you to calm down. I understand you're upset, but I need to ask you some questions about Elena's medical situation — what medication she's on, when she was discharged, who her doctor is.'",
+                    "adequate": ["Attempting to manage Sofia's emotional state shows awareness that her panic is a factor", "Medical questions could yield useful information"],
+                    "missed": ["'Calm down' dismisses Sofia's emotions just as it would Elena's", "Immediately launching into medical questions treats Sofia as an information source rather than a terrified family member", "Elena hears you requesting her private medical details from her sister in public", "Elena is talked about, not talked to — she becomes a subject rather than a participant"],
+                    "improvement": "Address Sofia's emotional state before extracting information. Reassure her that Elena is safe and not in legal trouble. Medical questions can come later — in this moment, Sofia needs to hear that her sister is okay, and Elena needs to not hear her private medical history discussed in public.",
+                    "consequences": "Sofia provides information through tears, but Elena watches with growing distress: 'Stop talking about me like I'm not here!' The dynamic shifts to authority figures discussing a subject, with Elena sidelined."
+                },
+                "negative": {
+                    "choiceText": "Hold up a hand to Sofia: 'Ma'am, I need you to stop right there. This is an active situation and I need you to stay back until I've finished my assessment. I'll bring you over when it's appropriate.'",
+                    "risks": ["Blocking a sister from reaching her terrified sibling is functionally cruel when there is no safety reason", "Elena has been asking for Sofia — denying this reunion serves no one", "'Active situation' and 'stay back' are tactical language for a family moment", "The crowd sees a police officer preventing a crying woman from reaching her sister", "Every relationship built with Elena, Mrs. Walsh, and bystanders fractures instantly"],
+                    "consequences": "Sofia erupts: 'That's my sister! You can't keep me from her!' Elena shouts 'Sofia!' and stands up, agitated. Mrs. Walsh protests loudly. Every relationship you built collapses.",
+                    "betterApproach": "When there is no safety reason to keep a family member away, facilitate the reunion — but manage the family member's emotional state first. A ten-second pause for Sofia to breathe protects Elena without denying her the person she has been asking for."
+                }
+            },
+            "keyLearningPoints": ["Family members arriving in crisis need their own de-escalation — their panic can re-escalate the person you have calmed", "A small practical task like parking a car transitions someone from panic to functional thinking in seconds", "Discussing a person's private medical information in front of them and in public makes them a subject rather than a participant", "When there is no safety reason to block a family reunion, doing so is experienced as cruelty — by the family and by every bystander watching"]
+        },
+        "6": {
+            "stageName": "Connecting to Support",
+            "criticalSkills": ["Offering structured choices in a care plan", "Distinguishing ER from inpatient care to address specific fears", "Knowledge of non-hospital crisis alternatives", "Keeping the person at the center of their own care"],
+            "learningObjective": "Facilitate a voluntary care plan that addresses Elena's real medical needs while respecting her refusal to return to the inpatient ward, using structured choices and knowledge of available crisis resources.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Speak to both of them: 'Elena, the fact that you know the medication needs to be addressed tells me a lot — that takes real strength. Here are some options, and you get to choose: Sofia can call Dr. Reeves right now to report the side effects and get emergency guidance. You could also go to the ER with Sofia — not the inpatient ward, just the emergency room for a medication evaluation. Or if you'd prefer, I can call our mobile crisis team to come here and help you figure out next steps. What feels manageable to you?'",
+                    "strengths": ["Affirming Elena's self-awareness — 'that takes real strength' — builds dignity rather than dependency", "Presenting three concrete options with her choosing restores agency completely", "Distinguishing ER from inpatient ward addresses her specific fear with precision", "Mentioning the mobile crisis team shows knowledge of non-hospital alternatives", "'What feels manageable?' is language calibrated to someone whose world feels unmanageable", "Every element is consent-based and choice-driven — the gold standard of CIT practice"],
+                    "consequences": "Elena looks at Sofia: 'Can we call Dr. Reeves first? And then maybe the ER if she says to. But not the ward.' A plan is forming — Elena's plan, not yours.",
+                    "trainingFocus": "Why does offering structured choices produce better outcomes than offering a single recommendation? How does distinguishing between types of medical settings address the specific fear rather than the general category?"
+                },
+                "partially_positive": {
+                    "choiceText": "Tell Sofia: 'I think calling Dr. Reeves is a good start. If she recommends the ER, you should take Elena there. I can wait here while you make the call.'",
+                    "adequate": ["Practical and reasonable path forward", "Deferring to the psychiatrist's judgment is medically appropriate", "Offering to wait shows commitment to seeing the situation through"],
+                    "missed": ["The plan is directed through Sofia, bypassing Elena who is sitting right there", "Elena has expressed her own understanding of what she needs — speaking around her continues the pattern of others deciding for her", "Only one path is offered instead of exploring alternatives like the mobile crisis team", "Elena becomes passive in her own care plan rather than the decision-maker"],
+                    "improvement": "Address Elena directly and offer multiple options. Even if you believe calling Dr. Reeves is the best path, present it as one of several choices — including non-hospital alternatives — and let Elena decide. The process of choosing is as therapeutic as the choice itself."
+                },
+                "neutral": {
+                    "choiceText": "Say: 'I hear you, Elena. Nobody is going to force you anywhere. Just take your time. Whenever you're ready, you and Sofia can figure out what to do.' Step back and let the sisters talk.",
+                    "adequate": ["Respects Elena's autonomy fully", "Does not impose any course of action", "Stepping back creates space for the sisters"],
+                    "missed": ["Respectful of autonomy but abdicates the officer's role as resource connector", "Neither Elena nor Sofia is in a position to navigate complex medical decisions alone right now", "No one with knowledge of available crisis resources is guiding the process", "Passive support is insufficient when someone is in acute crisis — they need informed options, not just permission to choose"],
+                    "improvement": "Autonomy does not mean abandonment. Offering informed options — the psychiatrist, the ER, the mobile crisis team — is not controlling the outcome. It is providing the resources someone needs to exercise their autonomy meaningfully.",
+                    "consequences": "The sisters sit together. Time passes. Neither knows what to do next. David comes out asking if they'll be there all day. The lack of forward momentum creates a vacuum that frustration fills."
+                },
+                "negative": {
+                    "choiceText": "Say: 'Elena, I understand you're scared of the hospital, but the medication situation could be dangerous. I think the safest option is for me to arrange transport to the ER so medical professionals can evaluate you. Sofia can ride along.'",
+                    "risks": ["'Arrange transport to the ER' is clinical language for calling an ambulance — Elena knows exactly what it means", "You have overridden her expressed wishes based on your assessment of medical risk, which is not your expertise", "She explicitly said she cannot face the hospital and you are now forcing the issue", "CIT training emphasizes involuntary transport should be reserved for imminent danger to self or others — Elena does not meet that threshold", "Sofia said she doesn't want to force Elena — you are now the one forcing"],
+                    "consequences": "Elena pulls away: 'No! You said I could choose! You promised!' Sofia stands between you and Elena. The fragile trust collapses. Elena may flee.",
+                    "betterApproach": "When your assessment of medical need conflicts with the person's expressed wishes and there is no imminent danger, their wishes take precedence. Offer alternatives that address the medical concern without reintroducing the feared institution. A call to the psychiatrist, a mobile crisis team visit, or a voluntary ER visit on her terms are all paths that honor both safety and consent."
+                }
+            },
+            "keyLearningPoints": ["Offering three structured choices produces a voluntary care plan; offering one recommendation produces resistance or passive compliance", "Distinguishing between types of medical settings — ER versus inpatient ward — addresses the specific fear rather than triggering the general one", "Knowledge of non-hospital alternatives like mobile crisis teams is essential for CIT-trained officers", "Keeping the person at the center of their own care plan is not just respectful — it produces better long-term outcomes than plans imposed by others"]
+        },
+        "7": {
+            "stageName": "Resolution",
+            "criticalSkills": ["Dignity-restoring closure", "Providing crisis resources for future needs", "Acknowledging bystander contributions", "Reframing apology into courage"],
+            "learningObjective": "Close the interaction by restoring Elena's dignity, providing tangible crisis resources for future episodes, and acknowledging the community support that contributed to a safe resolution.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Sit beside Elena on the bench: 'Elena, you don't need to apologize. You were dealing with something frightening and you ended up somewhere safe and asked for help — that takes courage, not an apology. Before I go, I want to make sure you have this.' Write down the number for the local crisis line and the mobile crisis team. 'This is in case you ever need support and can't reach Dr. Reeves or Sofia. It's 24 hours, and they come to you.' Then to Mrs. Walsh: 'Thank you for staying with her — that mattered more than you know.'",
+                    "strengths": ["Reframing her apology — 'that takes courage, not an apology' — is a powerful dignity-restoring statement", "Providing written crisis resources ensures she has options beyond this encounter", "Specifying '24 hours, they come to you' addresses the scenario of being alone during a future crisis", "Acknowledging Mrs. Walsh validates community care and encourages bystander support", "Sitting beside her on the bench — not standing over her — matches the equality you've maintained throughout", "This is the gold standard for crisis resolution: concrete help, emotional validation, and human warmth"],
+                    "consequences": "Elena holds the paper with the crisis line number. She has a plan, a sister, a phone number, and the memory of an officer who treated her like a person. Sofia mouths 'thank you.' The encounter ends with connection, not enforcement.",
+                    "trainingFocus": "What does providing resources after a crisis communicate about how you see the person's future? What is the difference between resolving an incident and building a safety net for the next one?"
+                },
+                "partially_positive": {
+                    "choiceText": "Smile and say: 'I'm just glad we could work it out, Elena. You're in good hands with Sofia. Take care of yourself.' Nod to Mrs. Walsh and prepare to leave.",
+                    "adequate": ["Warm and human closure that maintains the connection built throughout the encounter", "Expressing genuine gladness at the outcome is emotionally appropriate", "Acknowledging Sofia's role reinforces the family support system"],
+                    "missed": ["No follow-up resources provided — Elena's crisis didn't start today and won't end today", "What about three AM when Sofia is asleep and the voices return?", "A good officer resolves the moment — an exceptional officer equips the person for the next one", "Mrs. Walsh receives a nod but not the recognition her hours of quiet protection deserve"],
+                    "improvement": "Before leaving, write down the crisis line number and the mobile crisis team contact. It takes thirty seconds and could save a life during the next episode. The difference between a good resolution and a great one is whether the person is better equipped after you leave."
+                },
+                "neutral": {
+                    "choiceText": "Say: 'No need to apologize, Elena. Just make sure you follow up with your doctor and don't leave the hospital next time without being discharged properly. It creates a lot of worry for everyone.'",
+                    "adequate": ["Not accepting the unnecessary apology is appropriate", "Follow-up with the doctor is sound medical advice"],
+                    "missed": ["'Don't leave the hospital next time' is a mild reprimand to someone who left because she was terrified", "'It creates worry for everyone' places the burden of other people's emotions on a person in crisis", "The closing transforms from compassionate resolution into a cautionary lesson", "No crisis resources provided for future episodes"],
+                    "improvement": "The last words of an encounter shape the lasting emotional memory. Close with dignity and resources, not advice about what she should have done differently. She knows she left the hospital — she doesn't need you to tell her not to do it again.",
+                    "consequences": "Elena nods quietly, the warmth fading from her expression. She hears: 'You caused a problem, try not to do it again.' The last words carry a sting that colors the memory of the entire encounter."
+                },
+                "negative": {
+                    "choiceText": "Say: 'Good. Let me get your sister's contact info and the doctor's name for my report. I'll also need to note the hospital wristband and the fact that you left without discharge. It's all standard documentation.'",
+                    "risks": ["Shifting to data collection in the closing moments transforms a human encounter into a bureaucratic one", "'Standard documentation' about leaving the hospital makes Elena feel like a case file", "Requesting the doctor's name and hospital details re-invokes the institution she fears", "The last impression is an officer writing down facts about her crisis — not a person who cared", "Documentation can happen later or through Sofia privately — it does not need to happen in this moment"],
+                    "consequences": "Elena's face goes blank. She recites information flatly. Sofia looks disappointed. Mrs. Walsh walks away. The warmth of the resolution evaporates. Elena will remember this ending, not the kindness that preceded it.",
+                    "betterApproach": "Documentation is necessary — but timing matters. Close the human interaction with dignity and resources. Gather documentation details from Sofia afterward or through a follow-up call. The last sixty seconds shape the lasting memory of the entire encounter."
+                }
+            },
+            "keyLearningPoints": ["The last words of a crisis encounter shape the lasting emotional memory of the entire interaction", "Providing written crisis resources — a 24-hour line, a mobile crisis team — transforms incident resolution into a lasting safety net", "Reframing a person's apology into recognition of their courage is a powerful dignity-restoring act", "Documentation has its place, but turning a compassionate resolution into a data-collection exercise destroys the trust you spent an hour building"]
+        }
+    },
+
+    "scoringExplanation": {
+        "maxPossibleScore": 87,
+        "scoreBreakdown": {
+            "stage1_arrivalAssessment": "12 points (positive), 5 (partially positive), 2 (neutral), -8 (negative)",
+            "stage2_firstContact": "12 points (positive), 5 (partially positive), 2 (neutral), -8 (negative)",
+            "stage3_gatheringInformation": "12 points (positive), 5 (partially positive), 2 (neutral), -8 (negative)",
+            "stage4_buildingRapport": "12 points (positive), 5 (partially positive), 2 (neutral), -10 (negative)",
+            "stage5_theSisterArrives": "12 points (positive), 5 (partially positive), 2 (neutral), -10 (negative)",
+            "stage6_connectingToSupport": "12 points (positive), 5 (partially positive), 2 (neutral), -8 (negative)",
+            "stage7_resolution": "15 points (positive), 5 (partially positive), 2 (neutral), -5 (negative)"
+        },
+        "performanceThresholds": {
+            "perfect": "80-87 points — Exemplary Crisis Intervention: Gold-standard CIT response with observation, consent-based engagement, skillful family management, and comprehensive resource connection",
+            "good": "50-79 points — Strong Crisis Response: Empathetic and professional approach with some missed opportunities in choice-offering, family management, or resource provision",
+            "average": "20-49 points — Adequate but Incomplete: Situation resolved without major escalation but significant CIT opportunities missed — procedure prioritized over care in key moments",
+            "poor": "Below 20 points — Needs Significant CIT Review: Approach relied on control, commands, or procedural compliance rather than calm, consent-based engagement that CIT training emphasizes"
+        }
+    },
+
+    "comprehensiveMetrics": {
+        "crisisRecognition": {
+            "description": "Identifying the situation as a mental health crisis requiring a care-based response rather than treating it as criminal or suspicious behavior",
+            "indicators": {
+                "excellent": ["Hospital wristband identified during initial observation and used to reframe the encounter", "Elena's rocking and self-talk recognized as distress indicators, not signs of substance use or danger", "Dispatch framing ('acting strangely, maybe on something') overridden by independent assessment", "No backup called for a non-threatening situation — single-officer CIT approach maintained", "Medication side effects understood as the cause of Elena's behavior, not criminal intent"],
+                "poor": ["Backup requested despite no threat indicators — tactical response to a medical situation", "Elena's self-talk treated as sign of substance use or danger rather than distress", "Hospital wristband not noticed or used interrogatively rather than as context", "Dispatch framing accepted without independent assessment", "Elena treated as suspicious person rather than person in medical crisis"]
+            }
+        },
+        "calmPresence": {
+            "description": "Using distance, tone, body language, and unhurried pacing to communicate safety rather than authority",
+            "indicators": {
+                "excellent": ["Maintained five meters of distance during initial observation — no rush to engage", "Lowered to Elena's eye level during first contact rather than standing over her", "Soft voice and visible hands used throughout the encounter", "Gave Elena long pauses to respond without filling silence with commands", "Pace of the interaction matched Elena's emotional state, not procedural urgency"],
+                "poor": ["Rapid approach that triggered Elena's fight-or-flight response", "Standing over a seated person throughout the conversation — power imbalance maintained", "Firm or commanding tone used with a frightened person", "'Calm down' used as a directive — research shows this escalates rather than de-escalates", "Speed of engagement driven by procedural efficiency rather than Elena's readiness"]
+            }
+        },
+        "consentAndChoice": {
+            "description": "Offering options rather than commands, restoring agency to someone who feels they have lost all control",
+            "indicators": {
+                "excellent": ["Multiple choices offered for contacting Sofia — 'I can help or you can do it yourself'", "Three concrete care options presented at the planning stage with Elena choosing", "ER distinguished from inpatient ward to address her specific fear precisely", "Elena's refusal to return to the hospital respected without coercion", "Every decision point framed as Elena's choice — 'what feels manageable to you?'"],
+                "poor": ["Decisions made for Elena and communicated as plans — 'I'll arrange transport'", "Hospital return presented as the only or best option despite Elena's stated fear", "Care plan directed through Sofia, bypassing Elena entirely", "Elena's explicit refusal overridden based on officer's assessment of medical need", "Commands used where choices would have achieved voluntary cooperation"]
+            }
+        },
+        "serviceConnection": {
+            "description": "Connecting the person to appropriate mental health resources rather than defaulting to enforcement or hospital transport",
+            "indicators": {
+                "excellent": ["Written crisis line number and mobile crisis team contact provided before departure", "Knowledge of non-hospital alternatives demonstrated — mobile crisis team offered as an option", "Dr. Reeves and existing support network integrated into the care plan", "Resources specified as 24-hour and mobile — addressing the reality of nighttime crises", "Elena leaves with more support options than she had before the encounter"],
+                "poor": ["No crisis resources provided — encounter resolves the moment but not the ongoing need", "Hospital transport defaulted to without exploring alternatives", "Mobile crisis team and crisis line not mentioned or offered", "Elena leaves with the same resources she had before — Sofia and Dr. Reeves only", "The encounter resolved an incident but did not build a safety net for the next one"]
+            }
+        },
+        "stigmaAvoidance": {
+            "description": "Treating the person as a human being in pain rather than a problem to be managed, avoiding language and actions that criminalize mental illness",
+            "indicators": {
+                "excellent": ["Elena's hospital departure reframed from shameful flight to understandable response", "Her apology reframed — 'that takes courage, not an apology'", "Complaint not relayed to Elena — she was not told she was 'making people uncomfortable'", "Medical information not discussed publicly or extracted from Sofia in front of Elena", "Elena's self-awareness about needing medication help affirmed as strength, not compliance"],
+                "poor": ["Complaint relayed directly to Elena — 'you're making customers uncomfortable'", "Hospital wristband pointed out interrogatively before rapport was built", "Elena's medical situation discussed between officer and Sofia while Elena listened as a subject", "Elena told not to leave the hospital next time — reprimand framed as advice", "Documentation and data collection prioritized over human closure in the final moments"]
+            }
+        }
+    },
+
+    "mistakePatterns": {
+        "tacticalOverreaction": {
+            "pattern": "Treating a mental health crisis as a tactical situation requiring backup, perimeter control, or rapid intervention",
+            "examples": ["Radioing for backup when there are no threat indicators — no weapon, no aggression, no threats", "Approaching Elena rapidly to 'help before the situation changes' — triggering her fight-or-flight", "Using firm tone and commands like 'I need you to calm down' or 'can you stand up'", "Securing the area and keeping bystanders back as if managing a dangerous scene"],
+            "impact": "Tactical framing of a mental health crisis communicates to the person and everyone watching that the individual is seen as a threat. Additional units, rapid approach, and perimeter control escalate fear in someone who is already terrified. The response creates the crisis it was meant to prevent.",
+            "correction": "Observe before acting. A single officer with CIT training and patience is the right resource for a non-threatening mental health call. Save tactical responses for situations with actual threat indicators. Thirty seconds of stillness prevents thirty minutes of escalation."
+        },
+        "prematureProblemSolving": {
+            "pattern": "Jumping to solutions, hospital contact, or care plans before the person has built enough trust to accept help",
+            "examples": ["Offering to contact the hospital before Elena is ready — 'I should let them know where you are'", "Mentioning the hospital when Elena has just begun to open up about her fear of it", "Making plans through Sofia while Elena sits passively — 'Let me call someone for you'", "Proposing ER transport before presenting alternatives or asking what Elena wants"],
+            "impact": "Problem-solving before trust is established feels like control, not care. When the proposed solution involves the institution the person fled from, premature problem-solving confirms their worst fear. Elena's fragile openness collapses each time the hospital is introduced before she is ready.",
+            "correction": "Follow the person's lead. When Elena mentions Sofia, help her contact Sofia. When Elena acknowledges needing medication help, then offer care options. Trust-building and solution-finding are sequential, not simultaneous. The person will tell you when they are ready — listen for it."
+        },
+        "agencyBypass": {
+            "pattern": "Making decisions for the person in crisis rather than offering choices, even with good intentions",
+            "examples": ["Directing the care plan through Sofia — 'I think calling Dr. Reeves is a good start' — while Elena sits passively", "Arranging ER transport without Elena's consent — 'I think the safest option is for me to arrange transport'", "Taking over the phone call to Sofia rather than offering Elena the choice of how to reach her sister", "Stepping back entirely and leaving Elena and Sofia to figure things out without informed options"],
+            "impact": "Elena's crisis began with loss of control — terrifying hallucinations, a strange nurse, a hospital she couldn't leave. Every moment where someone else makes decisions for her repeats the dynamic that caused her to flee. Even well-intentioned plans imposed by others produce compliance, not empowerment.",
+            "correction": "Offer structured choices and let the person choose. 'Would you like to call her, or would you like me to?' 'Here are three options — what feels manageable to you?' The process of choosing is itself therapeutic for someone who has lost all sense of control."
+        },
+        "familyMismanagement": {
+            "pattern": "Failing to stabilize a panicked family member before allowing contact with the person in crisis",
+            "examples": ["Inviting Sofia directly to Elena without managing Sofia's panic first — leading to emotional flooding", "Blocking Sofia from reaching Elena entirely when there is no safety reason", "Using Sofia as a medical information source in front of Elena — 'what medication is she on?'", "Telling Sofia to 'calm down' and immediately extracting medical details"],
+            "impact": "A panicked family member who has been searching for hours carries enormous emotional energy. Unmanaged, that energy floods the person in crisis: Sofia's sobbing and grabbing undoes the calm built through careful de-escalation. Blocked entirely, the denial of reunion is experienced as cruelty by everyone present.",
+            "correction": "Stabilize the family member with a brief practical task — 'park your car safely, then come join us.' This ten-second transition converts panic to functional presence. Then facilitate the reunion. Discuss medical details privately with the family member, not in front of the person in crisis."
+        },
+        "closureFailure": {
+            "pattern": "Ending the encounter without providing resources, or ending it with reprimands or documentation that erode the trust built throughout",
+            "examples": ["Leaving without providing a crisis line number or mobile crisis team contact", "Telling Elena not to leave the hospital next time — turning closure into a lesson", "Shifting to documentation and data collection in the final moments — 'I need the doctor's name for my report'", "Saying 'it creates worry for everyone' — placing the burden of others' emotions on Elena"],
+            "impact": "The last sixty seconds of an encounter shape the lasting emotional memory of the entire interaction. A warm thirty-minute conversation followed by a reprimand or bureaucratic data collection is remembered as the reprimand. Elena's memory of this encounter — which will shape whether she ever trusts police again — is determined by how it ends, not how it began.",
+            "correction": "Close with dignity and resources. Reframe apologies into recognition of courage. Provide written crisis contacts. Acknowledge bystander contributions. Save documentation for after the human interaction is complete. The last words matter most."
+        }
+    },
+
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Exemplary crisis intervention from first observation to final resource handoff. You demonstrated the complete CIT skillset: patient observation that revealed the hospital wristband before you spoke a word, eye-level positioning and direct acknowledgment of Elena's stated fears, skillful management of competing stakeholder perspectives, choice-based engagement that restored Elena's agency at every decision point, calm stabilization of Sofia before the family reunion, and comprehensive resource provision that equipped Elena for the next crisis, not just this one. Every person on that street — Elena, Sofia, Mrs. Walsh, David, and every passerby — saw an officer who treated a person in mental health crisis as a human being deserving of dignity and choice.",
+            "mostlyPositive": "Strong crisis intervention with genuine empathy and CIT-aligned instincts. You built meaningful rapport with Elena and worked toward a voluntary resolution that respected her autonomy. Some moments could have been stronger — perhaps in offering more structured choices, managing Sofia's emotional state before the reunion, fully utilizing Mrs. Walsh as an information source, or providing written crisis resources before departing. Your overall approach treated Elena as a person in pain rather than a problem to be solved, which is the foundation of effective crisis response.",
+            "mixed": "You showed competence in some areas of this mental health crisis but struggled with the full complexity of consent-based engagement. There were moments of genuine connection with Elena alongside moments where procedure, urgency, or problem-solving instincts overrode the patience that CIT training demands. Review the specific stages where choices shifted from care-first to control-first, and consider how offering choices rather than making decisions for Elena could have changed those outcomes. The skills are present — the consistency needs development.",
+            "mostlyNegative": "This scenario revealed significant gaps between standard policing instincts and the care-first approach that mental health crisis calls demand. While some moments showed awareness of Elena's vulnerability, most choices leaned toward tactical response, command-based communication, premature problem-solving, or procedural priorities that escalated rather than de-escalated her distress. Elena needed an officer who created safety through calm presence, validated her specific fears, and offered choices — not one who treated her crisis as a situation to be managed. Review CIT fundamentals: approach distance, tone, offering choices, respecting stated fears, and the critical difference between being helpful and being in control.",
+            "allNegative": "Your approach to Elena's mental health crisis relied on control, commands, tactical framing, and procedural compliance — the opposite of what CIT training teaches. A woman in acute distress, frightened of the hospital, begging not to be taken back, was met with backup calls, demands to calm down, hospital transport plans, and documentation requests. Every choice escalated her fear rather than building the trust she needed to accept help voluntarily. Research is clear: people in mental health crisis are overwhelmingly more likely to be victims than perpetrators, and consent-based engagement produces better outcomes than coercion in nearly all non-emergency situations. This requires fundamental reorientation from a law-enforcement mindset to a care-first approach."
+        }
+    },
+
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "I'm not here to take you anywhere. Nobody is going to touch you or make you go anywhere you don't want to go.",
+            "A medication change causing voices sounds really frightening — I can understand why you felt you had to leave.",
+            "I can help with that if you want, or you can do it yourself — whatever feels right to you.",
+            "I understand this is affecting your business, and I appreciate you calling — I'm going to work on this. Can you give me a few minutes?",
+            "Thank you for watching out for her. That's really valuable.",
+            "Elena is not under arrest. No one is being arrested. She and I have been talking, and she's doing really well.",
+            "Here are some options, and you get to choose.",
+            "Elena, you don't need to apologize. You were dealing with something frightening and you ended up somewhere safe and asked for help — that takes courage, not an apology."
+        ],
+        "poorPhrases": [
+            "Ma'am, I need you to calm down. I'm Officer [name] and I'm here because there's been a complaint.",
+            "Can you stand up so we can talk? What's the situation with the hospital wristband?",
+            "Elena, the pharmacy worker says you've been here since this morning and you're making customers uncomfortable.",
+            "For your safety, I think the best thing is to get you back so the doctors can sort out the medication issue. I can drive you there.",
+            "Ma'am, I need you to stop right there. This is an active situation and I need you to stay back until I've finished my assessment.",
+            "I think the safest option is for me to arrange transport to the ER so medical professionals can evaluate you.",
+            "Just make sure you follow up with your doctor and don't leave the hospital next time without being discharged properly. It creates a lot of worry for everyone.",
+            "Let me get your sister's contact info and the doctor's name for my report. I'll also need to note the hospital wristband and the fact that you left without discharge."
+        ],
+        "analysisCriteria": {
+            "fearAcknowledgment": "Did the phrase directly address Elena's stated fear of being returned to the hospital, or did it ignore or reinforce that fear?",
+            "agencyRestoration": "Did the phrase offer Elena a choice, or did it make a decision for her — even with good intentions?",
+            "stigmaLanguage": "Did the phrase treat Elena as a person in pain or as a problem to be managed, a case to be documented, or a complaint to be resolved?",
+            "emotionalCalibration": "Did the phrase match Elena's emotional state — soft tone for fear, specificity for confusion — or impose a procedural register on a human moment?",
+            "trustTrajectory": "Did the phrase build on the trust established in previous stages, or did it introduce information, demands, or institutional references that collapsed fragile progress?",
+            "familySensitivity": "When Sofia was present, did the phrase keep Elena at the center of her own care, or did it treat Sofia as the more reliable narrator and decision-maker?"
+        }
+    },
+
+    "scenarioSpecificLessons": {
+        "1": "People in mental health crisis are overwhelmingly more likely to be victims than perpetrators. Dispatch framing — 'acting strangely, maybe on something' — can create a suspicion mindset that has no basis in the actual scene. Your thirty-second observation is the antidote to framing bias.",
+        "2": "The first sixty seconds set the trajectory of a mental health crisis call. Distance, tone, pace, and body language communicate safety or threat before any words are spoken. Lowering to eye level, showing your hands, and speaking softly are not optional courtesies — they are the intervention.",
+        "3": "Directly addressing a person's stated fear is more powerful than any generic reassurance. Elena said she was afraid of being taken back to the hospital. Saying 'I'm not here to take you anywhere' targets that specific terror. Saying 'everything will be fine' does not.",
+        "4": "Offering choices rather than commands restores agency to someone who feels they have lost all control. A medication change that causes terrifying hallucinations, a hospital where decisions are made for you, a nurse you don't recognize entering your room at two AM — Elena's entire crisis is about loss of control. Every choice you offer begins to rebuild it.",
+        "5": "Family members arriving in crisis need their own de-escalation. Sofia has been driving for hours, crying, terrified. Her panic is genuine — but if she reaches Elena before being stabilized, the emotional collision undoes the calm you spent thirty minutes building. A small task like parking the car transitions panic to functional presence.",
+        "6": "Connecting someone to voluntary services produces better long-term outcomes than involuntary transport in nearly all non-emergency situations. Elena returned to the hospital voluntarily with Sofia after choosing her own care plan. Had she been transported involuntarily, her distrust of police, hospitals, and the mental health system would have deepened — possibly permanently.",
+        "7": "How police handle mental health calls shapes community trust in both law enforcement and the mental health system for years. Mrs. Walsh, David, Sofia, every passerby, and every person they tell about this encounter will form their expectations of what happens when police respond to someone in crisis. One well-handled call ripples outward.",
+        "8": "The goal of a mental health crisis response is not to resolve the crisis — it is to create enough safety and trust that the person can begin to resolve it themselves. Elena's medication issue, her psychiatric care, her relationship with the hospital — none of these are yours to fix. Your role is to build the bridge between her fear and her willingness to accept help."
+    },
+
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Advanced CIT instructor certification — training other officers in consent-based crisis engagement", "Family crisis dynamics — managing arriving family members during mental health calls", "Community mental health resource mapping — building partnerships with mobile crisis teams, crisis lines, and peer support services"],
+            "good": ["Extended CIT scenario practice — building consistency in choice-offering and agency restoration across all stages of a crisis encounter", "Crisis resource knowledge — local mobile crisis teams, 24-hour crisis lines, and non-hospital alternatives", "Family de-escalation techniques — stabilizing panicked loved ones before they interact with the person in crisis"],
+            "average": ["Core CIT principles — observation before engagement, approach distance, tone calibration, and consent-based communication", "Active listening in crisis — the difference between generic reassurance and specific fear acknowledgment", "Structured choice-offering — presenting options rather than recommendations to restore agency in acute crisis"],
+            "poor": ["Mandatory CIT recertification with emphasis on care-first versus control-first approach to mental health calls", "Mental health crisis recognition — distinguishing medical crises from criminal behavior using observable indicators", "Consent and autonomy in crisis intervention — when involuntary action is warranted and when it is not", "De-escalation fundamentals — approach distance, body language, tone, and the documented failure of 'calm down' as a crisis intervention technique"]
+        }
+    },
+
+    "finalReportStructure": {
+        "sections": [
+            {
+                "title": "Overall Performance Summary",
+                "content": ["Total score and performance tier", "Key strengths in crisis intervention approach", "Critical gaps in CIT skill application", "Overall trajectory: did trust build or erode across the seven stages?"]
+            },
+            {
+                "title": "Stage-by-Stage Crisis Intervention Analysis",
+                "content": ["Choice made at each stage and its immediate impact on Elena", "Trust trajectory — how each choice built on or undermined previous progress", "Alternative approaches and their likely consequences", "Key learning points specific to each stage of the crisis encounter"]
+            },
+            {
+                "title": "Crisis Recognition & Scene Assessment",
+                "content": ["Was the hospital wristband identified and used to reframe the encounter?", "Was dispatch framing overridden by independent observation?", "Was the scene assessed as a mental health crisis or treated as a suspicious person call?", "Were threat indicators accurately evaluated — or was a non-threatening person treated tactically?"]
+            },
+            {
+                "title": "Consent, Choice & Agency Assessment",
+                "content": ["How many decision points offered Elena a genuine choice versus making decisions for her?", "Was the care plan Elena's plan or the officer's plan?", "Were alternatives to hospital transport explored and presented?", "Did Elena leave feeling empowered to participate in her own care, or passive and managed?"]
+            },
+            {
+                "title": "Stakeholder Management Evaluation",
+                "content": ["David's business concern — acknowledged and managed, or prioritized or dismissed?", "Mrs. Walsh's observations — used as intelligence, or ignored?", "Sofia's arrival — stabilized before contact with Elena, or allowed to re-escalate?", "Elena — kept at the center of her own care throughout, or discussed as a subject?"]
+            },
+            {
+                "title": "Communication & Dialogue Effectiveness",
+                "content": ["Most effective phrases used during the encounter", "Phrases that escalated or undermined trust", "Fear acknowledgment — was Elena's stated fear of the hospital directly addressed?", "Closing statement impact — did the last words restore dignity or carry a sting?"]
+            },
+            {
+                "title": "Resource Connection & Follow-Through",
+                "content": ["Were crisis line and mobile crisis team contacts provided?", "Was knowledge of non-hospital alternatives demonstrated?", "Did Elena leave with more support options than she had before the encounter?", "Was the safety net built for the next crisis, not just this one?"]
+            },
+            {
+                "title": "Professional Development & Real-World Application",
+                "content": ["Immediate CIT skill development priorities based on this performance", "How this encounter translates to real mental health crisis calls", "The long-term community trust impact of how police handle mental health situations", "Recommended training courses and resources for continued growth"]
+            }
+        ]
+    }
+}

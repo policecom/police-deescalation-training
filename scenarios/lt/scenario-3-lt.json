@@ -1,0 +1,456 @@
+{
+    "id": 3,
+    "title": "Sąveika su jaunimu — Patruliavimas parke",
+    "description": "Sudėtingas scenarijus, susijęs su triukšmo skundu dėl paauglių viešajame parke, nerimo apimta pagyvenusia kaimyne, gynybiškai nusiteikusiais paaugliais, bijančiais rasinio profiliavimo, ir stebėtoju, kuris komplikuoja situaciją. Pareigūnas turi subalansuoti teisėtą triukšmo problemą ir paauglių teisę į viešą erdvę, kartu kurdamas pasitikėjimą su jaunais žmonėmis, kurių požiūrį į policiją visam gyvenimui gali suformuoti šis vienintelis susitikimas.",
+    "icon": "🛹",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Seržantas Patel",
+        "avatar": "👮‍♂️",
+        "introduction": "Susitikimai su jaunimu yra vieni svarbiausių policijos sąveikų — ne todėl, kad jie apima rimtus nusikaltimus, o todėl, kad formuoja, kaip visa karta suvokia teisėsaugą. Tyrimai nuosekliai rodo, kad paaugliai, turėję neigiamų kontaktų su policija, ugdo ilgalaikį nepasitikėjimą, kuris dešimtmečiais įtakoja jų bendradarbiavimą, pilietinį aktyvumą ir net karjeros pasirinkimus. Šiandienos scenarijus apima triukšmo skundą dėl paauglių parke. Joks nusikaltimas nevyksta. Skambinusi yra pagyvenusi gyventoja, susirūpinusi dėl triukšmo ir nepažįstamos veiklos. Paaugliai daro tai, ką paaugliai daro — bendrauja, čiuožia riedlentėmis, klausosi muzikos. Jūsų iššūkis yra trigubas: išspręsti skundėjos teisėtą susirūpinimą, nesutvirtinti paauglių baimės, kad jie yra profiluojami, ir palikti kiekvieną jauną žmogų tame parke su pozityvesniu požiūriu į policiją nei jis turėjo prieš jums atvykstant. Kaip tai tvarkysite, bus svarbu dar ilgai po to, kai muzika nutils."
+    },
+    "timedChoices": true,
+    "completionBadges": [
+        "scenario-3-complete"
+    ],
+    "perfectBadge": "perfect-scenario-3",
+    "finalMessage": {
+        "revelation": "Marcus Williams yra 17-metis garbės sąrašo mokinys ir mokyklos debatų komandos kapitonas. Jis yra neformalus šios draugų grupės lyderis nuo vidurinės mokyklos — apsauginis, atviras ir gerai suvokiantis, kaip jauni juodaodžiai vyrai yra suvokiami policijos. Jo gynybiškas elgesys nebuvo priešiškumas — tai buvo išmoktas išgyvenimo elgesys, stebint, kaip jo vyresnis brolis per vieną vasarą buvo sustabdytas ir apieškomas tris kartus dėl „atitikimo aprašymui“. Jaylen Carter, 15 metų, yra Marcus kaimynas. Jis ramus vaikas su nerimo sutrikimu, kuris prieš aštuonis mėnesius persikėlė į rajoną po tėvų skyrybų. Riedlentininkų grupė yra jo pirmasis tikras draugų ratas. Kai jis sakė „mums taip visada nutinka“, jis kalbėjo iš patirties — jo sename rajone policija veikė agresyviai, o sustabdymas ir apieška 13 metų amžiuje paliko jam ilgalaikę pareigūnų baimę. Po sąveikos Marcus apie tai parašė grupiniame pokalbyje su 200 paauglių iš keturių mokyklų. Tai, ką jis parašė, suformavo, kaip tie 200 jaunų žmonių galvoja apie policiją. Ponia Chen vėliau atnešė sausainių į parką ir prisistatė paaugliams. Ponas Rivera paminėjo šį susitikimą kaimynų asociacijos posėdyje kaip gerą bendruomenės policijos pavyzdį.",
+        "keyLessons": [
+            "Susitikimai su jaunimu formuoja požiūrį į teisėsaugą visam gyvenimui — kiekvienas kontaktas su paaugliu yra pasitikėjimo investicija arba išėmimas",
+            "Gynybiškas paauglių elgesys dažnai yra išmokta savisauga, ne maištavimas — tai atpažinus keičiasi jūsų reakcija",
+            "Procesinė sąžiningumas reiškia paaiškinti, kodėl esate čia, prieš užduodant klausimus ar pateikiant reikalavimus",
+            "Tiesioginis ir sąžiningas profiliavimo baimių adresavimas yra efektyvesnis nei jų ignoravimas ar nukreipimas",
+            "Skundėjo susirūpinimo patvirtinimas nereikalauja kitos šalies teisių panaikinimo",
+            "Paaugliai, kurie jaučiasi išgirsti ir gerbiami, tampa policijos teisėtumo ambasadoriais savo bendraamžių tinkluose",
+            "Nekriminalinių jaunimo kontaktų tikslas nėra paklusnumas — tai pasitikėjimas"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Įvykio vieta",
+            "sceneUpdate": {
+                "emoji": "🛹",
+                "title": "Upės parkas — Vėlyvas šeštadienio popietis",
+                "desc": "Atvykstate į nedidelį rajono parką šiltą šeštadienio popietę. Paspaudžiate asmeninės kameros mygtuką — dviguba vibracija patvirtina, kad įrašymas prasidėjo. Penki paaugliai sėdi ant suoliukų prie riedlenčių aikštelės, kiti du treniruoja triukus ant betoninio takelio. Bluetooth garsiakalbis groja hip-hopą vidutiniu garsu. Tuščios skardinės ir traškučių pakeliai guli ant suoliuko. Kitoje gatvės pusėje pagyvenusi moteris stebi iš trečio aukšto buto lango. Vyras netoliese supa mažylę ant sūpynių."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Ekipažas reaguoja į Upės parką, Guobų gatvė 45. Skambinusi ponia Chen iš 3B buto kitoje gatvės pusėje — praneša apie įtartinus paauglius, šlaistančius parke, garsią muziką, galimą narkotikų vartojimą. Skambinusi teigia, kad jie ten jau daugiau nei dvi valandas. Ankstesnių skambučių dėl šios grupės nebuvo."
+                },
+                {
+                    "character": "officer",
+                    "text": "(per radiją) Dispečerinė, 14-as ekipažas vietoje Upės parke, Guobų 45. Matyti maždaug septyni nepilnamečiai, riedlentės ir garsiakalbis. Ginklų nematyti, narkotikų vartojimo požymių nėra. Pradedu kontaktą triukšmo skundo pagrindu. Asmeninė kamera aktyvi."
+                }
+            ],
+            "prompt": "Atvykote į parką. Matote paauglius, čiuožiančius riedlentėmis ir bendraujančius — jokios matomos nusikalstamos veiklos. Kaip artėsite?",
+            "options": [
+                {
+                    "text": "Einate tiesiai prie grupės ryžtingu žingsniu — pečiai ištiesinti, viena ranka ant tarnybinio diržo. Sustojate priešais suoliukus ir nužvelgiate veidus. Klausiate, ką jie čia veikia ir ar gyvena šiame rajone — skambinusi minėjo įtartiną veiklą, todėl pirmiausia reikia nustatyti jų buvimo priežastį šiame parke. Laikotės profesionaliai, bet leidžiate suprasti, kad tikitės atsakymų prieš nuspręsdami, kaip tai baigsis.",
+                    "feedback": "Kodėl: Artintis prie paauglių klausiant „ką čia veikiate?“ ir „ar gyvenate čia?“ reiškia, kad jie turi pateisinti savo buvimą viešajame parke. Neturite pagrįsto įtarimo dėl nusikalstamos veiklos. Toks formulavimas jiems pasako, kad jie yra įtariamieji, ne piliečiai. Jaunimo policijos tyrimai rodo, kad reikalavimas pateisinti teisėtą buvimą yra labiausiai žalingos rūšies kontaktas. | PASEKMĖS: Paaugliai iš karto įsitempia. Marcus atsistoja ir sukryžiuoja rankas. Jaylen susitraukia už grupės. Kiekvienas paauglys tame parke dabar pasitvirtino savo tikėjimą, kad policija juos mato kaip problemas. Sąveika prasideda priešiškai. | Atspindys: Kai paaugliai nedaro nieko nelegalaus viešoje erdvėje, ką jiems pasako reikalavimas pateisinti savo buvimą?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Pastatote tarnybinį automobilį nedideliu atstumu ir ramiai einate link grupės — rankos matomos prie šonų, laikysena atsipalaidavusi, nė viena ranka neliečia diržo. Akimirką stebite sceną: muzikos garsumą, čiuožimą ant betoninio takelio, bendrą atmosferą. Pastebite vyrą su mažyle ant sūpynių ir moterį, stebinčią iš viršaus. Jūsų kūno kalba sako „kaimynas, praeinantis pro šalį“, o ne „pareigūnas, atvykęs pagal iškvietimą“. Susidarysite pilną vaizdą prieš su kuo nors kalbėdami.",
+                    "feedback": "Kodėl: Pastatyti automobilį atokiau padeda išvengti įbauginimo, kurį sukelia privažiavimas tiesiai. Ėjimas ramiai su matomomis rankomis signalizuoja, kad neartėjate prie grėsmės. Stebėjimas iš pradžių suteikia svarbios informacijos: muzika vidutinio garso, čiuožimas ant betoninio takelio, narkotikų ar alkoholio nematyti, ir tėvas su mažu vaiku ramiai naudojasi tuo pačiu parku. Moteris lange greičiausiai yra skambinusi. Dabar turite kontekstą, kad dispečerinės aprašymas buvo perdėtas. | PASEKMĖS: Paaugliai jus pastebi, bet jūs jų neišskyrėte. Matote poną Rivera, ramiai supantį savo dukrą ant sūpynių, o tai rodo, kad atmosfera nėra grėsminga. Turite pilną vaizdą prieš ištardami pirmą žodį. | Atspindys: Kaip 90 sekundžių ramaus stebėjimo pakeičia kiekvieno tolesnio sprendimo kokybę?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Apsisukate ir kertate gatvę link ponios Chen pastato — pirma reikia gauti pilną skundą prieš artinantis prie paauglių. Įeinate į vestibiulį, išsitraukiate užrašų knygelę ir detaliai užsirašote jos konkrečius rūpesčius — muziką, šlaistymąsi, narkotikų įtarimą. Ji skambino, todėl jos perspektyvos supratimas suteiks tvirtą pagrindą, kai grįšite prie grupės. Stengiatės būti kruopštus ir metodiškas, rinkdami faktus prieš priimdami sprendimą.",
+                    "feedback": "Kodėl: Skundėjos pilnos istorijos gavimas turi vertės, bet pirma eiti į jos butą reiškia, kad paaugliai stebi, kaip atvyksta policijos automobilis, o pareigūnas dingsta pastate kitoje gatvės pusėje. Jie žino, kad kažkas skambino dėl jų. Kol išeinate, jie jau nerimsta, ginasi arba yra dingę — ir praleidote galimybę pamatyti situaciją tokią, kokia ji yra natūraliai. | PASEKMĖS: Kai pasirodysite iš pastato, Marcus garsiai taria: „Štai ir prasideda — kažkas įskundė.“ Jaylen atrodo, lyg norėtų pabėgti. Grupės gynyba visiškai pakelta prieš jums ištariant žodį. Jūs taip pat turite tik ponios Chen perspektyvą, kuri gali būti paveikta šališkumo. | Atspindys: Kada skundėjo informacijos rinkimas pirmiausia iš tikrųjų kenkia jūsų gebėjimui objektyviai įvertinti situaciją?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Ramiai praeinant pro grupę ir apsimesdami, kad tiesiog vaikštote parku, prieinate prie vyro, supančio dukrą ant sūpynių — jis atrodo kaip neutrali šalis, buvusi čia pakankamai ilgai, kad galėtų duoti sąžiningą vertinimą. Sustojate prie sūpynių ir tyliai pakalbinate jį, klausdami, ką pastebėjo — triukšmo lygį, elgesį, ar kas nors kėlė nerimą. Jo perspektyva kaip stebėtojo padės kalibruoti jūsų atsaką.",
+                    "feedback": "Kodėl: Neutralios perspektyvos ieškojimas yra protingas tyrėjo instinktas. Tačiau eiti pro paauglius ir apklausti kitą suaugusįjį apie juos — jiems stebint — siunčia aiškią žinutę: renkatės įrodymus prieš juos. Tai taip pat traktuoja poną Rivera kaip sekimo išteklių, o ne kaip paprastą parko lankytoją. | PASEKMĖS: Paaugliai mato, kaip kalbate su tėvu ir žvilgčiojate jų kryptimi. Marcus sako grupei: „Jis klausinėja apie mus.“ Jaylen nerimas paaštrėja. Ponas Rivera padeda, bet jaučiasi nepatogiai, kai prieš paauglius, kurie mato pokalbį, jam priskiriamas informatoriaus vaidmuo. | Atspindys: Kaip matomai renkant informaciją apie žmones — o ne iš jų — paveikia jų norą su jumis bendrauti?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Pirmas kontaktas",
+            "sceneUpdate": {
+                "emoji": "💬",
+                "title": "Suoliukai — Susitikimas su Marcus",
+                "desc": "Artėjate prie grupės. Du paaugliai nustoja čiuožti ir pasuka suoliukų link. Garsiakalbis groja Drake kūrinį pokalbio garsu. Marcus, 17 metų, aukštas, vilkintis mokyklos krepšinio džemperį, atsistoja jums priartėjus. Jo laikysena įtempta, bet ne agresyvi — rankos prie šonų, žandikaulis sukąstas. Jaunesni vaikai už jo stebi išplėstomis akimis. Jaylen, 15 metų, sėdi tolimajame suoliuko gale, rankas įkišęs į kišenes. Mintyse perbėgate kontrolinį sąrašą: viešas parkas, darbo valandos, šiuo garsu nėra paskelbto garso lygio pažeidimo, narkotikų priemonių nematyti — nėra teisinio pagrindo išsklaidymui ar sulaikymui. Tai savanoriškas pokalbis, ne sustabdymas."
+            },
+            "npcDialogue": [
+                {
+                    "character": "marcus",
+                    "text": "Štai ir prasideda. Kodėl jūs čia? Mes nieko blogo nedarome. Tai viešas parkas. Turime pilną teisę čia būti."
+                }
+            ],
+            "prompt": "Marcus jums meta iššūkį tiesiogiai — ne agresyviai, bet tvirtai. Kaip prisistatysite ir paaiškinkite savo buvimą?",
+            "options": [
+                {
+                    "text": "Ramiai pakeliate ranką atviru delnu, balsas lygus ir neskubus: „Jūs teisūs — tai viešas parkas ir turite pilną teisę čia būti. Aš pareigūnas [vardas]. Esu čia ne todėl, kad padarėte ką nors blogo. Kaimynė skambino dėl triukšmo, o kai gauname skambutį, atvykstame patikrinti. Viskas, kas čia vyksta. Neketinu nieko trukdyti.“ Palaikote akių kontaktą su Marcus — tvirtą ir pagarbų — leisdami žodžiams nusėsti.",
+                    "feedback": "Kodėl: Pirmas dalykas — patvirtinti jų teisę būti parke — tiesiogiai adresuoja neišsakytą baimę. Prisistatymas vardu sukuria atskaitomybę ir asmeniškumą. Skaidrus triukšmo skundo paaiškinimas suteikia jiems „kodėl“ nepaverčiant jų įtariamaisiais. „Neketinu nieko trukdyti“ įvardija jų nerimą ir jį išblėsina. Procesinio teisingumo tyrimai rodo, kad kontakto priežasties paaiškinimas prieš bet kokius klausimus yra stipriausias teigiamų rezultatų prediktorius. | PASEKMĖS: Marcus žandikaulis šiek tiek atsipalaiduoja. Jis neatsisėda, bet laikysena pasikeičia iš gynybinės į atsargią. Jaunesni paaugliai nustoja nervingai žvalgytis. Jaylen pakelia akis nuo žemės. Jūs nusipirkote galimybę turėti tikrą pokalbį. | Atspindys: Kodėl pradėjimas nuo jų teisių — o ne nuo jūsų valdžios — keičia jaunimo susitikimo trajektoriją?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Stovite tvirtai — kojos pastatomos stabiliai, rankos susipina priešais jus, balsas santūrus ir neutralus. Žvelgiate tiesiai į Marcus: „Aš pareigūnas [vardas]. Gavome skundą dėl triukšmo ir veiklos parke. Turiu patikrinti situaciją. Ar galite pasakyti, kiek laiko čia esate ir ką veikiate?“ Veido išraiška neveidmaininga — traktuojate tai kaip bet kurį kitą iškvietimą, reikalaujantį trumpo pokalbio, kol galėsite uždaryti bylą.",
+                    "feedback": "Kodėl: Profesionalus ir struktūruotas, bet „turiu patikrinti situaciją“ ir „ką veikiate?“ paverčia sąveiką tyrimu. Klausimas, kiek laiko jie čia, reiškia, kad trukmė yra įtartina. Paaugliai girdi: „Kažkas pasiskundė ir dabar turiu patikrinti jūsų istoriją.“ Nepripažinote jų teisės čia būti ir nepaaiškinote, kad jokio nusižengimo nematyti. | PASEKMĖS: Marcus atšaltai sako: „Esame čia porą valandų. Čiuožiame. Praleidžiame laiką. Kaip kiekvieną savaitgalį.“ Tonas bendradarbiaujantis, bet šaltas. Jaunesni vaikai tyli. Gaunate paklusnumą, ne pasitikėjimą. | Atspindys: Kuo skiriasi paauglys, kuris bendradarbiauja, nes jaučiasi gerbiamas, nuo to, kuris bendradarbiauja, nes jaučia, kad neturi pasirinkimo?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Praeinat pro Marcus jo nepripažindami ir kreipiatės garsesniu balsu į visą grupę, nužvelgdami suoliukus: „Labas visiems, tiesiog tikrinu situaciją. Gavau skambutį dėl triukšmo.“ Tada, pereidami prie oficialesnio tono, rankos ant tarnybinio diržo: „Kas nors turite asmens dokumentus? Leiskite pamatyti, kad galėčiau viską sutvarkyti.“ Laukiate, skanuodami grupę, tikėdamiesi greito paklusnumo.",
+                    "feedback": "Kodėl: Aplenkti Marcus — kuris išėjo į priekį kaip grupės atstovas — yra socialinės dinamikos nepaisymas. Prašyti dokumentų iš paauglių, kurie nėra įtariami jokiu nusikaltimu, neturi teisinio pagrindo daugelyje jurisdikcijų ir signalizuoja, kad tai yra sustabdymas, ne pokalbis. „Tiesiog tikrinu situaciją“ yra neapibrėžta ir netenkina jų teisės žinoti, kodėl policija čia. | PASEKMĖS: Marcus žengia į priekį: „Dokumentus? Už ką? Sėdime parke.“ Keli paaugliai išsitraukia telefonus — ne rodyti dokumentus, o pradėti filmuoti. Jaylen atrodo išsigandęs. Triukšmo skundą pavertėte konfrontacija dėl pilietinių teisių. | Atspindys: Kokiomis aplinkybėmis galite teisėtai reikalauti asmens dokumentų, ir kas nutinka, kai prašote jų be teisinio pagrindo?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Pakeliate abi rankas delnais į priekį ir šyptelite — siekiate būti prieinamas ir negrėsmingas: „O, ramiai — tik ką atvykau. Aš irgi neieškau problemų. Kažkas paskambino dėl triukšmo, pagalvojau užsukti.“ Gūžtelite pečiais, atsipalaidavusiai apsidairote po parką, tarsi patvirtindami, kad viskas atrodo gerai, ir leidžiate energijai nusistovėti: „Jūs nieko blogo nedarote.“ Paliekate taip — jokių tolesnių klausimų, jokių reikalavimų.",
+                    "feedback": "Kodėl: Laisvas, nuginkluojantis tonas jus sužmogina, bet „jūs nieko blogo nedarote“ užbaigia sąveiką dar neišsprendus triukšmo skundo. Vis dar turite skundėją, stebinčią iš lango. Be to, „o, ramiai“ gali būti suprasta kaip nuleistinimas — tarsi Marcus būtų buvęs neprotingas, kai jis tiesiog gynė savo teises. | PASEKMĖS: Marcus atsipalaiduoja, bet atrodo suglumęs — jei jie nieko blogo nedaro, kodėl jūs čia? Ponia Chen stebi iš lango, matydama pareigūną trumpai pakalbėjusį ir nueinantį neišsprendus jos problemos. Per radiją girdisi: ji skambina dar kartą. | Atspindys: Kaip subalansuoti paauglių gynybiškumo mažinimą su vis dar reikalaujančiu dėmesio priežastimi, dėl kurios buvote iškviesti?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Profiliavimo baimės",
+            "sceneUpdate": {
+                "emoji": "😔",
+                "title": "Suoliukai — Jaylen prabyla",
+                "desc": "Pradinė įtampa pasikeitė, bet neišnyko. Marcus stebi jus atidžiai, rankos vis dar sukryžiuotos. Kiti paaugliai suformavo laisvą pusratį — ne grėsmingai, bet vieningai. Tada Jaylen, tylus 15-metis suoliuko gale, prabyla pirmą kartą. Jo balsas dreba. Kiti paaugliai nutyla ir pažvelgia į jį. Galvos pakraštyje užfiksuojate mintį: jei nepilnametis kelia profiliavimo susirūpinimus, departamento tvarka aiški — pažymėti incidento suvestinėje ir signalizuoti viršininkui. Ne todėl, kad kažkas padarė ką nors blogo, o todėl, kad skundas svarbu ir dokumentacija apsaugo visus."
+            },
+            "npcDialogue": [
+                {
+                    "character": "jaylen",
+                    "text": "Mums taip visada nutinka. Kiekvieną kartą, kai tiesiog leidžiame laiką kur nors, kažkas iškviečia policiją. Mano sename rajone buvo dar blogiau — mus sustabdydavo einant namo iš mokyklos. Irgi nieko nedarėme."
+                }
+            ],
+            "prompt": "Jaylen išsakė giliausią grupės baimę — kad jie yra taikiniai dėl to, kas jie yra, o ne dėl to, ką daro. Kaip atsakysite?",
+            "options": [
+                {
+                    "text": "Atsisukate į Jaylen — ne stovėdami virš jo, bet šiek tiek pasukę kūną, balsas žemas ir ramus: „Girdžiu tave. Ir nesiruošiu apsimesti, kad taip nenutinka, nes nutinka. Žmonės kviečia policiją dėl jaunų žmonių vien už tai, kad jie yra viešose erdvėse, ir tai neteisinga. Pažiūrėjau į situaciją prieš prieidamas — matau paauglius parke šeštadienį, o tam parkai ir yra. Esu čia dėl triukšmo skundo, ir tai išspręsime kartu.“",
+                    "feedback": "Kodėl: Tai sunkiausias ir svarbiausias momentas susitikime. Jaylen teiginys nėra skundas — tai traumos atskleidimas. Pripažinimas, kad profiliavimas egzistuoja — be gynybiškumo ar nukreipimo — patvirtina gyvenimo patirtį. Sakymas „matau paauglius parke, o tam parkai ir yra“ performuluoja jų buvimą kaip normalų. „Išspręsime kartu“ įtraukia juos į sprendimą. Tyrimai rodo, kad policijos pripažinimas dėl šališkumo baimių — net nepripažįstant asmeninės kaltės — yra galingiausias pasitikėjimo kūrimo veiksmas su jaunimu. | PASEKMĖS: Parke akimirkai stoja tyla. Jaylen pakelia akis, nustebęs. Marcus išskleidžia rankas pirmą kartą. Paauglys gale sušnibžda: „Gerai, jis iš tikrųjų klausosi.“ Neištaisėte sisteminės policijos problemos, bet įrodėte, kad šis susitikimas yra kitoks. | Atspindys: Kodėl profiliavimo egzistavimo pripažinimas — be gynybiškumo — yra efektyvesnis nei tvirtinimas, kad asmeniškai nesate šališkas?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Padarote pauzę, pažvelgdami į Jaylen su susirūpinusia veido išraiška, tada atsakote lygiu, sąžiningu tonu — rinkdamiesi žodžius atsargiai: „Suprantu, kodėl galite taip jaustis, ir gaila, kad tokia buvo jūsų patirtis. Negaliu kalbėti apie tai, kas vyko jūsų sename rajone — manęs ten nebuvo. Bet noriu, kad žinotumėte — tiesiog reaguoju į skambutį šiandien. Elgiuosi su jumis taip, kaip elgčiausi su bet kuo šioje situacijoje.“ Laikysena atvira, tikėdamiesi, kad nuoširdumas balse perduos žinutę.",
+                    "feedback": "Kodėl: Geri ketinimai, bet patenkate į „elgiuosi su visais vienodai“ gynybą, kuri, kaip rodo tyrimai, yra kontraproduktyvi su jaunimu, patyrusiu profiliavimą. Tai netiesiogiai neigia jų patirtį, persiorientuojant į jūsų ketinimus. „Negaliu kalbėti apie tai, kas vyko“ sukuria atstumą nuo sisteminės problemos, užuot su ja susidūrus. Paaugliai girdi: „Jūsų praeities patirtys nėra mano problema.“ | PASEKMĖS: Marcus sumurmėja: „Taip visi sako.“ Jaylen vėl nutyla ir žiūri į žemę. Nepraradote grupės, bet praleidote momentą. Siena lieka. | Atspindys: Kai kažkas dalijasi profiliavimo patirtimi, kuo skiriasi „elgiuosi su visais vienodai“ nuo tikro susidūrimo su tuo, ką jie pasakė?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Persisveriate nuo vienos kojos ant kitos, trumpai žvilgtelite į grupę, tada perimponuojate pokalbį tvirtu, dalykišku tonu: „Klausykite, aš čia ne profiluoti. Gavau triukšmo skundą ir darau savo darbą. Nedarykime iš to daugiau nei yra. Ar galime pakalbėti apie muzikos garsumą?“ Mostelite garsiakalbio link, signalizuodami, kad norite praeiti pro emocinį momentą ir grįžti prie praktinio klausimo, kad visi galėtų greičiau tęsti savo popietę.",
+                    "feedback": "Kodėl: Pažeidžiamo momento atmetimas kaip „darymas iš to daugiau nei yra“ pasako Jaylen — ir kiekvienam stebinčiam paaugliui — kad jų patirtys ir baimės yra jums nepatogumas. Skubėjimas pro emocinį turinį prie sandorinio klausimo (muzikos garsumo) signalizuoja, kad efektyvumas svarbesnis nei jų orumas. Tai sąveikos rūšis, kurią tyrimuose paaugliai apibūdina: „Jiems nerūpėjo.“ | PASEKMĖS: Jaylen visiškai užsidaro. Marcus žandikaulis sukanda: „Taip. Kai tai nutinka mums, niekada nėra svarbu.“ Grupės gynyba vėl pakyla. Vis dar galite išspręsti triukšmo problemą, bet praradote galimybę kurti pasitikėjimą. Susitikimas bus prisimintas kaip dar vienas kartas, kai policijai nerūpėjo. | Atspindys: Kai jaunas žmogus rizikuoja pasidalydamas kuo nors pažeidžiamu, ką jums kainuoja sustoti ir įsitraukti — ir ką jiems kainuoja, kai to nedarote?",
+                    "type": "negative",
+                    "points": -10
+                },
+                {
+                    "text": "Supratimo linktelite, pakreipiate galvą ir leidžiate veidui sušvelnėti — nuoširdžiai jaučiate tam vaikui: „Skamba sunkiai, bičiuli. Gaila, kad tai patyrėte. Niekas neturėtų su tuo susidurti, ypač tiesiog einant namo iš mokyklos.“ Tada, šiek tiek pasilenkdami į priekį su tuo, kas, tikitės, atrodo kaip šiluma ir užtikrintumas: „Bet žinokite, aš esu iš tų gerų — nesu toks. Pabūkite ir patys pamatysite. Pažadu, kad šį kartą bus kitaip.“ Kiekvieną žodį sakote nuoširdžiai.",
+                    "feedback": "Kodėl: Empatija nuoširdi, bet „esu iš tų gerų“ yra gerai dokumentuotas pasitikėjimo naikintojas. Tai prašo paauglių vertinti jus kaip individualią išimtį, užuot susidūrus su sisteminiu susirūpinimu. Taip pat perkelia naštą jiems — patikrinti jūsų teiginį. „Patys pamatysite“ reikalauja, kad jie pratęstų pasitikėjimą, kuris buvo pakartotinai pažeistas kitų pareigūnų. Tai sutelkia dėmesį į jūsų savivaizdį, o ne į jų patirtį. | PASEKMĖS: Marcus beveik nusijuokia: „Taip irgi visi sako.“ Grupė apsikeičia žinančiais žvilgsniais. Suaktyvinote scenarijų, kurį jie jau girdėjo. Jūsų nuoširdumas prarandamas frazėje, kuri skamba lygiai taip pat, kaip sakė kiekvienas abejingas pareigūnas. | Atspindys: Kodėl tvirtinimas, kad esate kitoks nei kiti pareigūnai, paprastai atsiliepia su jaunimu, turėjusiu neigiamų policijos patirčių?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Skundėja",
+            "sceneUpdate": {
+                "emoji": "🏢",
+                "title": "Ponios Chen butas — Kitoje gatvės pusėje",
+                "desc": "Pasitraukiate nuo grupės pasikalbėti su ponia Chen. Ji atėjo žemyn prie pastato vestibiulio durų — septyniasdešimtmetė moteris, nedidelė, vilkinti gėlėtą chalatą. Ji laikosi už durų staktų. Už jūsų paaugliai stebi nuo parko suoliukų. Marcus neatitraukia nuo jūsų akių. Ponas Rivera supa savo dukrą ant sūpynių, kartkartėmis žvilgtelėdamas."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_chen",
+                    "text": "Ačiū, kad atvykote, pareigūne. Nenoriu kelti problemų. Bet tie vaikai — jie čia kiekvieną savaitgalį, muzika garsi, ir aš jų nepažįstu. Vyras mirė praėjusiais metais ir esu čia viena. Matau juos pro langą ir nerimauju. O jei jie vartoja narkotikus? O jei sukels problemų? Tiesiog noriu jaustis saugiai."
+                }
+            ],
+            "prompt": "Ponios Chen skundas kyla tiek iš teisėto triukšmo susirūpinimo, tiek iš nerimo dėl nepažįstamų jaunuolių. Kaip su ja elgsitės?",
+            "options": [
+                {
+                    "text": "Sušvelninate laikyseną ir pažeminate balsą: „Ponia Chen, užjaučiu dėl jūsų vyro — gyventi vienai gali viską padaryti nerimą keliančiu. Buvau ten ir kalbėjausi su vaikais. Tai vietiniai paaugliai — čiuožia, klausosi muzikos. Jokių narkotikų, jokių problemų. Muzika šiek tiek per garsi ir tai aptarsiu. Bet noriu būti sąžiningas: jie turi teisę naudotis parku. Ar galiu paklausti — ar triukšmas pasiekia jūsų butą, ar labiau matote juos ir jaučiatės neramiai?“",
+                    "feedback": "Kodėl: Pripažinus jos netektį ir vienatvę patvirtinamas emocinis jos skambučio šaltinis — izoliacija ir nerimas. Pranešus, ką iš tikrųjų pastebėjote (jokių narkotikų, jokių problemų), ištaisomas dispečerinės naratyvas faktais. Sąžiningumo, kad paaugliai turi teisę naudotis parku, pareiškimas nubrėžia ribą prieš policijos panaudojimą žmonėms pašalinti iš viešos erdvės. Paskutinis klausimas — triukšmas ar nerimas — yra esminis: jis švelniai kviečia ją apsvarstyti, ar jos skundas yra apie garsą, ar apie nepažįstamo jaunimo baimę. | PASEKMĖS: Ponia Chen sustoja. „Na... kartais girdžiu muziką. Bet dažniausiai tiesiog matau juos ir nerimauju.“ Ji yra sąžininga — tikroji problema yra nerimas, ne triukšmas. Dabar žinote tikrąją problemą, kurią reikia spręsti — jos izoliaciją ir baimę — ir galite adresuoti triukšmą kaip veiksmingą dalį. | Atspindys: Kodėl svarbu padėti skundėjui atskirti konkrečią trikdį nuo apibendrintos baimės — ir kaip tai keičia jūsų atsaką?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Prisiartinate arčiau, šiltai šypsodamiesi, ir kalbate pačiu nuraminiančiausiu tonu: „Nesijaudinkite, ponia Chen. Kalbėjau su jais ir viskas kontrolėje — pasirūpinsiu, kad sumažintų triukšmą. Jie tiesiog vaikai, leidžiantys laiką, nieko pavojingo. Jei jie dar kels problemų, tiesiog skambinkite mums ir atvyksime iš karto. Jums nereikia sėdėti ten viršuje ir nerimauti.“ Švelniai linktelite ir mostelite pastato link, leisdami suprasti, kad gali ramiai grįžti namo.",
+                    "feedback": "Kodėl: Šilta ir reaguojanti, bet „jei jie dar kels problemų“ formuluoja paauglius kaip problemų šaltinį, o ne parko lankytojus. Skatinimas skambinti bet kada iš esmės padaro ją paauglių prižiūrėtoja. Tai sukuria modelį, kai paaugliai pakartotinai patiria policijos kontaktą, nes nerimo apimta kaimynė juos stebi iš lango. | PASEKMĖS: Ponia Chen jaučiasi patvirtinta, bet dabar mato save kaip sargybinę prieš paauglių veiklą. Kitą šeštadienį ji skambina vėl — paaugliai normalaus garsumo, bet ji „lyg kažką girdėjo“. Sukūrėte ciklą. Paaugliai parką pradeda vadinti „sekimo zona“. | Atspindys: Kuo skiriasi reagavimas į skundą nuo skundo modelio įtvirtinimo?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Laikotės trumpai ir dalykiškai — turite kitų iškvietimų. Mandagiai linktelite: „Patikrinau, ponia Chen. Vaikai tiesiog leidžia laiką — nieko kriminalinio nevyksta. Pasikalbėsiu su jais dėl triukšmo, bet šie dalykai paprastai patys susitvarkys.“ Žvilgtelite į laikrodį ir pradedate suktis: „Gero vakaro.“ Skundas užregistruotas, triukšmas bus adresuotas, reikalas uždarytas — nėra reikalo gilintis į asmeninius dalykus, kuriais ji pasidalijo.",
+                    "feedback": "Kodėl: Efektyvu, bet atmetamas jos skambučio emocinis turinys. Ji jums pasakojo apie vyro mirtį, vienatvę ir baimę — o jūs atsakėte logistika. „Šie dalykai patys susitvarkys“ nenuramina žmogaus, kuris jaučiasi nesaugiai. Išsprendėte skundą, bet ne žmogų. | PASEKMĖS: Ponia Chen linktelėja, bet jaučiasi neišgirsta. Ji grįžta aukštyn ir stebi pro langą, labiau nerimaudama nei anksčiau. Ji skambins vėl — ne todėl, kad paaugliai garsiniai, o todėl, kad niekas neadresavo jos giluminio nerimo. | Atspindys: Kai skundas kyla iš vienatvės ir nerimo, ar paviršutiniško klausimo sprendimas iš tikrųjų išsprendžia problemą?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Ištiesiate pečius ir kalbate su įsitikinimu, atitikdami jos nerimą ryžtingu autoritetu: „Jūs visiškai teisingai paskambinote, ponia Chen. Vaikai neturėtų kelti tokio triukšmo gyvenamajame rajone. Liepsiu jiems išjungti muziką ir eiti — čia turėtų būti ramu. Neturėtumėte su tuo taikstytis kiekvieną savaitgalį.“ Jūsų užtikrintumas ją nuramina, aiškiai parodydamas, kad jos komfortas yra jūsų prioritetas ir ketinate nedelsiant nutraukti trikdymą.",
+                    "feedback": "Kodėl: Tai pavojingiausias atsakas. „Vaikai neturėtų kelti triukšmo gyvenamajame rajone“ — jie yra parke, kuris egzistuoja būtent poilsiui. „Liepsiu jiems eiti“ reiškia paauglių pašalinimą iš viešos erdvės, nes kaimynei nepatogu. „Neturėtumėte su tuo taikstytis“ patvirtina idėją, kad paaugliai parke yra našta. Stiprinate šališkumą ir įsipareigoję neproporcingam vykdymui. | PASEKMĖS: Grįžtate į parką ir liepiame paaugliams išjungti muziką ir eiti. Marcus pratrūksta: „Eiti?! Tai viešas parkas!“ Paaugliai jaučia būtent tai, ko bijojo — suaugęs pasiskundė ir policija juos pašalino. Jaylen akys prisipildo ašarų. Šis susitikimas tampa istorija, kurią Marcus pasakos metų metus, kodėl policija negali būti patikima. | Atspindys: Kai patvirtinate skundėjo poziciją jos nekritikuodami, kieno teisės yra paaukojamos?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Balanso ieškojimas",
+            "sceneUpdate": {
+                "emoji": "⚖️",
+                "title": "Atgal parke — Tiltas tarp pusių",
+                "desc": "Grįžtate prie paauglių grupės. Ponas Rivera baigė prie sūpynių ir eina su savo mažyle link suoliukų. Jis sustoja šalia jūsų ir tyliai prabyla. Paaugliai stebi pasikeitimą. Marcus stovi su viena koja ant riedlentės, laukdamas."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dad_rivera",
+                    "text": "(tyliai, praeidamas) Pareigūne — tik norėjau, kad žinotumėte, esu čia keturiasdešimt penkias minutes. Tie vaikai elgėsi puikiai. Pasisveikino su mano dukra, pakėlė kamuolį, kurį ji numetė. Muzika ne tokia garsi. Nuoširdžiai, jie elgiasi geriau nei kai kurie suaugusieji, kuriuos čia matau."
+                },
+                {
+                    "character": "marcus",
+                    "text": "(stebėdamas jus grįžtant) Tai ką? Ką ta ponia pasakė? Ar mus išvaro?"
+                }
+            ],
+            "prompt": "Turite pilną vaizdą: paaugliai su teise čia būti, triukšmo skundas, kuris iš dalies apie nerimą, ir stebėtojas, patvirtinantis, kad paaugliai elgiasi gerai. Kaip tarpininkaute sprendimą?",
+            "options": [
+                {
+                    "text": "Kalbate atvirai su Marcus, žvilgsnis tiesus ir ramus: „Nieko čia neišvaro. Štai situacija — kaimynė kitoje gatvės pusėje yra pagyvenusi moteris, gyvenanti viena, ir muzika pasiekia jos butą. Ji nėra nusistačiusi prieš jus — tiesiog nerimsta, nes jūsų nepažįsta. Triukšmas yra vienintelis dalykas, kurio galiu paprašyti. Ar sutiktumėte prisukti keliais laipsniais? Ne išjungti, tik pritildyti. Čiuožiate toliau, leidžiate laiką toliau. Tai jūsų teisė.“",
+                    "feedback": "Kodėl: Pilnas skaidrumas — dalinimasis, kas skundėsi ir kodėl — traktuoja paauglius kaip suaugusius, gebančius jausti empatiją. Ponios Chen sužmoginimas („pagyvenusi, gyvena viena, jūsų nepažįsta“) kviečia užuojautą, o ne pagiežą. Prašymas pritildyti — ne išjungti — gerbia jų veiklą, adresuojant vienintelį teisėtą susirūpinimą. Patvirtinimas „tai jūsų teisė“ sustiprina, kad tai derybos tarp lygių, ne valdžios įsakymas. Tai modeliuoja procesinį teisingumą: balsą, skaidrumą, pagarbą, neutralumą. | PASEKMĖS: Marcus pažvelgia pastato link. „Ji mūsų bijo? Esame čia kiekvieną savaitgalį jau kelis mėnesius.“ Paauglys gale sako: „Mano senelė irgi dėl visko nerimauja.“ Empatijos pokytis matomas. Marcus pasiekia garsiakalbį ir prisuka, net nereikia prašyti dar kartą. | Atspindys: Kas nutinka, kai paaugliams suteikiate tą pačią kontekstinę informaciją, kurią turite, ir leidžiate jiems priimti sprendimą?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Lengvai sukryžiuojate rankas, priimdami protingą, bet autoritetingą toną, ir kreipiatės į visą grupę: „Štai koks reikalas — triukšmo skundas pagrįstas, todėl turite prisukti muziką. Laikykite priimtiname lygyje ir problemų neturėsime. Galite likti — niekas jūsų neišvaro — tiesiog atsižvelkite į kaimynus. Garsumas yra vienintelė problema.“ Linktelite garsiakalbio link ir laukiate, leisdami suprasti, kad tai nurodymas, kurio tikitės greito vykdymo.",
+                    "feedback": "Kodėl: Funkcionalus ir paviršutiniškai teisingas, bet „štai koks reikalas“ ir „turite“ formuluoja tai kaip direktyvą, o ne bendradarbiavimą. Nepasidalijote kontekstu — kas skundėsi ar kodėl — palikdami paauglius spėlioti. „Problemų neturėsime“ yra švelni grėsmė. Paaugliai paklūsta, bet jaučiasi valdomi, ne gerbiami. | PASEKMĖS: Marcus prisuka muziką be ginčų, bet sako draugams: „Viskas tas pats — kažkas pasiskunda, mums liepia, ką daryti.“ Paklusnumas be pritarimo. Muzika tylesnė šiandien, bet nuoskauda kaupiasi. | Atspindys: Kuo skiriasi klusnumas nuo bendradarbiavimo, ir kuris duoda ilgalaikį elgesio pokytį?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Numojate ranka — užtektinai laiko praleidote čia, situacija akivaizdžiai žemo prioriteto. Laisvai mostelite grupės link: „Klausykite, kaimynė skambino dėl triukšmo. Tiesiog laikykite tyliau ir viskas bus gerai. Man kitų iškvietimų laukia.“ Nelaukdami atsakymo, apsisukate ir sparčiu žingsniu pradedate eiti automobilio link, traukdami radiją patikrinti eilę. Skundas techniškai adresuotas — pasakėte, jie girdėjo, turėtų pakakti.",
+                    "feedback": "Kodėl: Sąveikos minimizavimas, kad spėtumėte prie kito iškvietimo, traktuoja šį susitikimą kaip varnelę sąraše. Investavote laiko kuriant ryšį ir adresuodami profiliavimo baimes — ir dabar viską išmetate sandoriniam pabaigimui. Paaugliai sužino: net kai pareigūnas atrodo normalus, jie vis tiek nori tiesiog apdoroti ir išeiti. Jokio ilgalaikio ryšio, jokio tarpininkavimo, jokio sprendimo. | PASEKMĖS: Marcus stebi, kaip nueiname: „Tai buvo beprasmiška.“ Jaylen nieko nesako. Muzika grįžta per dešimt minučių, nes nebuvo tikro susitarimo — tik praeivio instrukcija nuo žmogaus, kuris negalėjo sulaukti, kol išeis. Ponia Chen skambina vėl 18 val. | Atspindys: Kaip laiko, kurį investuojate į sąveikos užbaigimą, kiekis veikia tai, ar sprendimas iš tikrųjų išlieka?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Sustojate tvirtai, ištiesiate pečius ir kreipiatės į grupę nepaliekančiu vietos diskusijoms balsu: „Išklausiau abi puses. Kaimynė turi teisę į ramybę, todėl muzika turi būti išjungta. Galite čiuožti — tai visiškai normalu — bet garsiakalbis turi būti išjungtas, kol esate prie gyvenamųjų pastatų. Tai nesvarstoma.“ Palaikote tvirtą akių kontaktą su Marcus, rankos sukryžiuotos, signalizuodami, kad tai galutinis sprendimas, o ne diskusijos pradžia.",
+                    "feedback": "Kodėl: „Teisė į ramybę“ yra teisinis konceptas nuomos sutartims, ne viešiems parkams dienos metu. Įsakyti visiškai išjungti muziką — užuot paprašius priimtino garsumo — yra neproporcinga. „Nesvarstoma“ visiškai pašalina jų balsą iš proceso. Paaugliai viešajame parke turi teisę į priimtiną triukšmo lygį. Šis požiūris moko juos, kad policija nustato taisykles, o ne palengvina sprendimus. | PASEKMĖS: Marcus žiūri į jus: „Nesvarstoma? Mes viešajame parke, ne bibliotekoje.“ Kiti paaugliai atrodo pikti. Mergina grupėje sako: „Mano tėtis advokatas — jūs negalite taip daryti.“ Susitikimas eina link teisių konfrontacijos, kurią pralaimėsite. Jaylen atrodo, lyg verkia. | Atspindys: Kai prašymą formuluojate kaip nesvarstomą, ką tai pasako apie tai, ar kito žmogaus perspektyva svarbi?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Susitarimo kūrimas",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Parko suoliukai — Tono pokytis",
+                "desc": "Įtampa pastebimai sumažėjo. Marcus prisuko muziką. Keli paaugliai grįžo čiuožti. Jaylen sėdi tiesiau ant suoliuko. Marcus stovi priešais jus — vis dar atsargus, bet kūno kalba sušvelnėjo. Jis iškelia idėją."
+            },
+            "npcDialogue": [
+                {
+                    "character": "marcus",
+                    "text": "Žiūrėkite... yra riedlenčių parkas Miller gatvėje, kokios dešimt minučių iš čia. Paprastai einame ten, bet jis savaitgaliais užsidaro šeštą valandą kažkodėl. Ateiname čia po to, nes nėra kur kitur eiti. Jei garsumo klausimas — galime tyliau čia. Arba galėtume eiti į riedlenčių parką, jei jis būtų atviras ilgiau. Bet taip — laikysime tyliau."
+                }
+            ],
+            "prompt": "Marcus siūlo bendradarbiaujantį sprendimą ir dalijasi tikrąja priežastimi, kodėl jie ateina į šį parką. Kaip atsakysite į šią atvirumą?",
+            "options": [
+                {
+                    "text": "Linktelite su nuoširdžia pagarba: „Marcus, vertinu tai — rimtai. Riedlenčių parko uždarymas šeštą savaitgaliais neturi prasmės. Tai parkų departamento klausimas ir verta kelti. Paminėsiu tai kitame bendruomenės ryšio susitikime. Negaliu pažadėti, bet kažkas turėtų žinoti, kad ankstyvus uždarymas stumia jus į parkus prie gyvenamųjų rajonų. Tylesnė muzika čia — teisingas susitarimas. Buvote labai protingi dėl viso to.“",
+                    "feedback": "Kodėl: Marcus kreipimasis vardu ir jo sprendimo pagyrimas traktuoja jį kaip pilietinį dalyvį, o ne problemą, kurią reikia valdyti. Patvirtinimas, kad riedlenčių parko uždarymas yra neprotingas, rodo, kad matote sistemines problemas, ne tik individualų elgesį. Pasiūlymas tai kelti bendruomenės susitikime demonstruoja, kad save matote kaip advokatą, ne tik vykdytoją. „Jūs buvote labai protingi“ sustiprina bendradarbiaujantį elgesį per nuoširdų pripažinimą. | PASEKMĖS: Marcus sumirksi — nesitikėjo, kad pareigūnas rimtai priims jo susirūpinimą, juo labiau pasiūlys jį ginti. Paauglys už jo sako: „Palauk, tu tikrai taip padarytum?“ Dinamika pasikeitė iš priešiškos į bendradarbiaujančią. Jaylen pakelia akis ir beveik nusišypso. Sumodeliavote, kaip atrodo pilietinis aktyvumas. | Atspindys: Kas nutinka, kai policijos pareigūnas paauglio pastebėjimą apie bendruomenę traktuoja kaip vertingą pilietinį susirūpinimą?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Šypsotės ir linktelite, nuoširdžiai patenkintas bendradarbiavimu: „Man tinka. Garsumo klausimas buvo vienintelė problema, ir jūs ją tvarkote puikiai — vertinu tai. Dėl riedlenčių parko valandų — tai protingas pastebėjimas. Galėtumėte pamėginti kreiptis į parkų ir rekreacijos departamentą. Jie turi atsiliepimų formą internete ir gal būtų atviri pratęsimui, jei pakankamai žmonių paprašytų. Verta pabandyti.“ Paduodate grupei nykštį aukštyn ir leidžiate pokalbiui natūraliai nuristi.",
+                    "feedback": "Kodėl: Teigiama ir dėkinga. Pasiūlymas kreiptis į parkų departamentą yra protingas, bet perkelia visą pilietinio gynimo naštą paaugliams. Jūs turite prieigą prie bendruomenės ryšio kanalų, kurių jie neturi. Atsakas drąsinantis, bet praleidžia galimybę parodyti, kaip atrodo, kai autoriteto figūra priima jūsų susirūpinimą ir pagal jį veikia. | PASEKMĖS: Marcus linkteli: „Taip, gal.“ Jis nesikreips į parkų departamentą — jam 17 ir jis niekada nebendravo su miesto institucija. Neatidėliotina situacija išspręsta gerai, bet advokacijos galimybė prarasta. Paaugliai išeina su padoriu įspūdžiu, bet ne transformuojančiu. | Atspindys: Kai paauglys identifikuoja sisteminę problemą, kuo skiriasi liepiamas ją spręsti pačiam nuo pagalbos ją spręsti?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Trumpai, patenkintas linktelite — problema išspręsta, iškvietimas baigtas. Priimate susitarimą nominalia verte: „Skamba gerai. Laikykite triukšmą mažiau ir viskas tvarkoje.“ Žvilgtelite į laikrodį, tada atgal į grupę: „Saugokitės, vaikinai.“ Apsisukate ir ramiu žingsniu pradedate eiti automobilio link. Marcus paminėjo riedlenčių parką ir uždarymo valandas, bet tai miesto reikalas — ne kažkas, ką galite sutvarkyti šeštadienio popietę. Skundas išspręstas, paaugliai lieka, radijas per ilgai tylėjo.",
+                    "feedback": "Kodėl: Sandorinis uždarymas. Problema išspręsta, sąveika baigta, ir judate toliau. Bet Marcus ką tik parodė pažeidžiamumą — paaiškino, kodėl jie čia, pasiūlė sprendimą ir atskleidė bendruomenės infrastruktūros spragą. Atsakyti „skamba gerai, saugokitės“ traktuoja ryšio momentą kaip verslo sandorį. Paaugliai bendradarbiavo, bet jūs palikote santykį ten, kur radote. | PASEKMĖS: Marcus atsisuka į draugus: „Bent jau nesielgė kaip šūdas.“ Tai yra sandorinio susitikimo lubos — nebūti prisimintam kaip šūdas. Jaylen nieko nesako. Paaugliai šiek tiek padidina muziką, kai išnykstate iš akių, nes nebuvo tikro pritarimo — tik paklusnumas. | Atspindys: Kai paauglys atsiveria apie savo bendruomenę, ką prarandate tai traktuodami kaip sandorį, kurį reikia uždaryti?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Gūžtelite pečiais dėl riedlenčių parko komentaro ir pereinate prie praktiškumo: „Riedlenčių parkas turi savo taisykles ir aš nieko negaliu dėl to padaryti. Kol kas tai yra tai, su kuo dirbame. Laikykite garsumą šiame lygyje ar žemiau.“ Tada, nuskanuodami suoliukų zoną, pastebite skardines ir traškučių pakelius: „Ir siūlyčiau surinkti tas skardines ir pakelius — šiukšlinimas suteikia žmonėms papildomą priežastį skambinti. Neduokite niekam papildomų argumentų.“ Sukryžiuojate rankas ir laukiate patvirtinimo.",
+                    "feedback": "Kodėl: Šiukšlinimo komentaro pridėjimas — kai tai nebuvo skundo dalis — primena papildomą kaltinimą. Marcus pasiūlė bendradarbiavimą ir parodė jums problemos šaknį, o jūsų atsakas buvo rasti naują kritiką. „Nieko negaliu dėl to padaryti“ modeliuoja bejėgiškumą, o ne advokavimą. Paaugliai girdi: „Jūsų sisteminė problema man nerūpi, ir beje, jūs dar ir netvarkingi.“ | PASEKMĖS: Marcus veidas užkietėja: „Mes ketinome susirinkti prieš išeidami. Visada taip darome.“ Paauglė paima šiukšlių maišą, kurį jie buvo atsinešę, ir pakelia: „Turime savo maišus.“ Prielaidą apie jų įpročius padarėte ir suklysome. Pasitikėjimas kenčia finišo tiesėje. | Atspindys: Kai kažkas siūlo bendradarbiavimą, kas nutinka santykiui, jei atsakote ieškodami naujų dalykų kritikuoti?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Uždarymas",
+            "sceneUpdate": {
+                "emoji": "🌅",
+                "title": "Upės parkas — Artėjant saulėlydžiui",
+                "desc": "Susitikimas eina į pabaigą. Muzika groja tyliai. Du paaugliai čiuožia tingiais ratais. Marcus ir Jaylen sėdi ant suoliuko. Ponia Chen pasitraukė nuo lango. Ponas Rivera moja nuo takelio, nešdamas dukrą ant pečių namo. Vėlyvo popiečio šviesa šilta. Tai jūsų paskutinis momentas su grupe. Mintyse pažymite, kad tai užregistruosite kaip bendruomeninį kontaktą — ne vykdymo, triukšmo skundas išspręstas savanorišku sutikimu. Įtrauksite profiliavimo susirūpinimą, kurį Jaylen iškėlė, ir signalizuosite seržantui Patel savo veiklos ataskaitoje."
+            },
+            "npcDialogue": [
+                {
+                    "character": "jaylen",
+                    "text": "(tyliai, beveik sau, bet pakankamai garsiai, kad girdėtumėte) Nebuvo taip blogai, kaip maniau."
+                },
+                {
+                    "character": "marcus",
+                    "text": "(pusiau šypsodamasis) Taip, na... ačiū, kad nesielgėte keistai dėl viso to. Dažniausiai, kai pasirodo policija, mums tiesiog liepia eiti."
+                }
+            ],
+            "prompt": "Ir Marcus, ir Jaylen pasiūlė retą, pažeidžiamą grįžtamąjį ryšį. Kaip užbaigsite šią sąveiką taip, kad paliktumėte ilgalaikį teigiamą įspūdį?",
+            "options": [
+                {
+                    "text": "Nuoširdžiai šypsotės: „Ačiū, kad tai pasakėte — abiems. Marcus, tvarkėtės kaip lyderis ir tai sakau rimtai. Jaylen, tai, ką anksčiau sakei apie tai, kaip visada taip nutinka — džiaugiuosi, kad šį kartą buvo kitaip. Tai, ką jauti, yra svarbu. Jei turėsite problemą rajone — ne tik policijos reikalą, bet ką — paklauskite manęs nuovadoje. Pareigūnas [vardas]. Verčiau, kad skambintumėte, nei jaustumėtės, kad negalite. Gero vakaro.“",
+                    "feedback": "Kodėl: Marcus pavadinimas lyderiu sustiprina jo teigiamą tapatybę, užuot priskirtą „priekabiautojo“ vaidmenį, kurį policijos susitikimai paprastai priskiria. Grįžimas prie to, ką Jaylen sakė anksčiau — be nuleistinimo — rodo, kad tikrai klausėtės ir jo žodžiai turėjo poveikį. Savo vardo ir atvirų durų pasiūlymas paverčia vieną kartą ilgalaikiu santykiu. „Verčiau, kad mums skambintumėte, nei jaustumėtės, kad negalite“ tiesiogiai adresuoja pagrindinę jaunimo-policijos santykių problemą: tikėjimą, kad policija ne jiems. Taip kuriamas tiltas, kuris pergyvena vieną šeštadienį. | PASEKMĖS: Jaylen pirmą kartą pažvelgia į jus ne su baime. Marcus lėtai linkteli — tokiu linktelėjimu, kuris kažką reiškia. Paauglys gale sako: „Čia buvo visai nieko.“ Marcus tą naktį parašo grupiniame pokalbyje: „Šiandien į parką atėjo policininkas. Iš tikrųjų klausėsi. Davė mums savo vardą.“ Du šimtai paauglių perskaito tą žinutę. | Atspindys: Kokia yra vieno teigiamo policijos-jaunimo susitikimo ilgalaikė vertė ir kaip toli nuvilnija?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Atsipalaiduojate, leidžiate nuoširdžiai šypsenai pasirodyti ir atsakote šiltai: „Vertinu, kad buvote ramūs dėl viso to. Rimtai — dauguma žmonių nesupranta, kad mes irgi nenorime, kad šie skambučiai būtų didelis reikalas. Jūs geri vaikai — mėgaukitės likusiu vakaru.“ Tada, žaismingai šypsodamiesi ir pradėdami trauktis atgal: „Ir laikykite tą muziką tyliau!“ Draugiškai pamosuojate ir nueiname lengvu žingsniu, jausdamiesi gerai dėl to, kaip viskas susiklostė.",
+                    "feedback": "Kodėl: Šiltas ir žmogiškas, su nuoširdžiu ryšiu. Bet „jūs geri vaikai“ yra subtiliai nuleistinantis — reiškia, kad juos įvertinote ir patvirtinote, o tai sustiprina galios dinamiką. „Laikykite tą muziką tyliau!“ kaip baigiamasis šūvis — net žaismingai — padaro paskutinį žodį apie paklusnumą, o ne ryšį. Sąveika baigiasi gerai, bet nepasiekia viso savo potencialo. | PASEKMĖS: Marcus nusijuokia nuo muzikos komentaro. Paaugliai jaučiasi normaliai dėl susitikimo — nei puikiai, nei blogai. Tai bus prisimenama kaip „tas kartas, kai policininkas buvo gan ramus.“ Padorius rezultatas, bet ne toks, kuris pakeičia, kaip jie galvoja apie policiją. | Atspindys: Kuo skiriasi susitikimas, kuris buvo „ne blogas“, nuo tokio, kuris pakeičia kažkieno prielaidas apie policiją?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Profesionaliai linktelite, ištiesiate pečius ir susipinate rankas priešais save — standartinė laikysena iškvietimo užbaigimui: „Džiaugiuosi, kad pavyko viską išspręsti. Atminkite — jei bus problemų, laikykite triukšmą protingame lygyje ir negirdėsite iš mūsų. Saugokitės.“ Apsisukate tvarkingai ir stabiliu žingsniu einame automobilio link. Jokių vardų, jokio tolesnio ryšio pasiūlymo — tiesiog švarus rutininio triukšmo skundo uždarymas.",
+                    "feedback": "Kodėl: Profesionalus ir neįžeidžiantis, bet visiškai sandorinis. „Negirdėsite iš mūsų“ formuluoja policijos kontaktą kaip neigiamą pasekmę, kurios reikia vengti, o ne kaip išteklių, kurį galima pasiekti. Jokio asmeninio ryšio, jokio pažeidžiamų momentų pripažinimo ir jokio tilto į ateitį. Sąveika baigiasi švariai, bet nepalieka ilgalaikio poveikio. | PASEKMĖS: Marcus sako „iki“ nepakeldamas akių. Jaylen nieko nesako. Susitikimas tampa neutraliu duomenų tašku — nei neigiamu, nei teigiamu. Pasaulyje, kur jaunimui reikia priežasčių pasitikėti policija, neutralumas yra praleista galimybė. | Atspindys: Kai jaunimo-policijos santykių kartelė yra tokia žema, kad „ne blogai“ atrodo kaip pergalė, ko reikia, kad ją tikrai pakeltumėte?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Atsiremiate į suoliuko turėklą, siekdami atrodyti laisvai ir artimi — bandote užmegzti asmeninį ryšį: „Ei, aš irgi čiuožiau riedlente jūsų amžiuje — tikėkite ar ne. Pusę vasarų praleidau parkuose tokiuose kaip šitas. Jūs, vaikinai, man primena mano kompaniją.“ Tada, pereidami prie nuoširdesnio, tėviško tono: „Tiesiog laikykitės atokiau nuo problemų, gerai? Pasaulis ir taip pakankamai sunkus be teistumo. Patikėkite manimi.“ Reikšmingai pažvelgiate į Marcus, tikėdamiesi, kad gyvenimo patarimas bus priimtas kaip nuoširdus rūpestis.",
+                    "feedback": "Kodėl: Ketinimas yra ryšys, bet „laikykitės atokiau nuo problemų“ ir „be teistumo“ įveda nusikalstamumą į pokalbį apie paauglius parke. Jie niekada nebuvo bėdoje. Jiems niekada negrėsė teistumas. Nusikaltimo rizikos projicija ant paauglių, kurie tiesiog egzistavo viešoje erdvėje, yra tiksliai ta dinamika, kurios jie bijojo. Nostalgija („aš irgi čiuožiau“) sutelkia dėmesį į jūsų istoriją, o ne į jų. | PASEKMĖS: Marcus veidas tampa negyvas: „Laikytis atokiau nuo problemų? Kokių problemų? Leidome laiką parke.“ Jaylen krūpteli nuo „teistumo.“ Paskutinis įspūdis panaikina sukurtą gerą valią. Paaugliai išeina prisimindami ne jūsų empatiją, o užuominą, kad jie vienu blogu pasirinkimu nuo teisingumo sistemos. | Atspindys: Kodėl perspėjimas paauglių apie problemas, kurių niekada nebuvo, sustiprina būtent tą profiliavimo naratyvą, kurį visą susitikimą bandėte paneigti?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Aptarimas",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Nuovados aptarimas — Mokymo salė",
+                "desc": "Grįžote į nuovadą. Seržantas Patel peržiūri jūsų veiklą šiame jaunimo sąveikos scenarijuje, sutelkdamas dėmesį į tai, kaip subalansavote triukšmo skundą, paauglių profiliavimo baimes, skundėjos nerimą ir ilgalaikį poveikį jaunimo-policijos pasitikėjimui."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "Šis scenarijus tikrina tai, kas neatsispindi nusikaltimų statistikoje, bet apibūdina bendruomenės policijos veiklą kartai: kaip jūs elgiatės su jaunais žmonėmis, kurie nieko blogo nepadarė. Kiekvienas jūsų pasirinkimas — nuo požiūrio, per profiliavimo pokalbio tvarkymą iki paskutinių žodžių — arba investavo pasitikėjimą, arba jį išėmė. Peržiūrėkime, kas nutiko."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "Jūs įėjote į parką, pilną paauglių, darančių būtent tai, ką paaugliai turėtų daryti — bendraujančių viešoje erdvėje šeštadienį. Dispečerinė sakė „įtartina veikla.“ Jūsų akys sakė „vaikai parke.“ Tai, kaip suderinote šiuos du dalykus, nulėmė viską, kas sekė. Apžvelkime sprendimus, kurie labiausiai svėrė."
+                },
+                {
+                    "character": "officer",
+                    "text": "Momentas, kuris mane labiausiai paveikė, buvo Jaylen. Kai jis pasakė „mums taip visada nutinka“, norėjau pasakyti teisingą dalyką, bet taip pat nenorėjau kalbėti už patirtis, kurių nepažinau. Nebuvau tikras, kiek toli eiti."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Ir tas netikrumas yra būtent teisingas — nes neteisingas atsakas į tą momentą yra apsimesti, kad turite visus atsakymus. Tikslas nėra būti „iš tų gerų.“ Ta frazė yra spąstai — ji prašo paauglių vertinti jus kaip individualią išimtį, užuot susidūrus su sisteminiu susirūpinimu, kurį jie iškėlė. Tikrasis tikslas — padaryti sistemą mažiau žalingą po vieną susitikimą. Neištaisote policijos per vieną apsilankymą parke. Bet galite užtikrinti, kad ši konkreti paauglių grupė išeina su vienu duomenų tašku, kuris prieštarauja jų blogiausiai prielaidai."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Dar vienas dalykas — jūsų veiklos žurnalo pažyma buvo protinga. Tai dokumentuoti kaip ne vykdymo bendruomeninį kontaktą, įtraukti Jaylen profiliavimo susirūpinimą ir signalizuoti tai aukštyn grandinėje — tai apsaugo visus. Apsaugo jus, apsaugo paauglius ir sukuria įrašą, kad departamentas rimtai priėmė susirūpinimą. Per daug pareigūnų traktuoja dokumentaciją ne arešto kontaktams kaip neprivalomą. Tai nėra. Ši dokumentacija yra tai, kas paverčia vieną gerą susitikimą instituciniu atskaitingumu."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Ir štai kažkas, ko dauguma pareigūnų praleisdžia: Marcus grupinis pokalbis pasiekė du šimtus paauglių tą naktį. Tai, ką jis parašė apie šį susitikimą, suformavo, kaip du šimtai jaunų žmonių iš keturių mokyklų galvoja apie policiją. Tai ne metafora — tai tikras mechanizmas, kuriuo pasitikėjimas ar nepasitikėjimas plinta per bendruomenę. Jūsų vienas šeštadienio popietis turėjo dauginamąjį efektą, kurio niekada iki galo nepamatysite. Dabar leiskite papasakoti, kas nutiko po to, kai palikus tą parką."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "officer": {
+            "name": "Jūs (Pareigūnas)",
+            "avatar": "👮"
+        },
+        "dispatcher": {
+            "name": "Dispečerinė",
+            "avatar": "📻"
+        },
+        "marcus": {
+            "name": "Marcus Williams (paauglys, 17)",
+            "avatar": "🧑‍🦱"
+        },
+        "jaylen": {
+            "name": "Jaylen Carter (paauglys, 15)",
+            "avatar": "👦"
+        },
+        "mrs_chen": {
+            "name": "Ponia Chen (kaimynė, 70+)",
+            "avatar": "👵"
+        },
+        "dad_rivera": {
+            "name": "Ponas Rivera (stebėtojas, tėvas)",
+            "avatar": "👨‍👧"
+        },
+        "instructor": {
+            "name": "Seržantas Patel",
+            "avatar": "👮‍♂️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Išskirtinis jaunimo įtraukimas",
+            "emoji": "🌟",
+            "feedback": "Pademonstravote aukso standartą nekriminaliniams jaunimo kontaktams: ramus situacijos įvertinimas prieš kontaktą, skaidrus buvimo paaiškinimas, nuoširdus profiliavimo baimių pripažinimas, empatiškas nerimo apimtos skundėjos tvarkymas, bendradarbiaujantis tarpininkavimas ir uždarymas, paliekantis kiekvieną paauglį tame parke su fundamentaliai geresniu požiūriu į teisėsaugą. Marcus grupinio pokalbio žinutė pasieks 200 paauglių iš keturių mokyklų. Tai yra vieno išskirtinio susitikimo bangos efektas."
+        },
+        "good": {
+            "title": "Stipri jaunimo sąveika",
+            "emoji": "👍",
+            "feedback": "Tvarkėtės su niuansuota daugiašale situacija gerai, išlaikydami profesionalumą ir rodydami nuoširdų rūpestį paauglių patirtimi. Išsprendėte triukšmo problemą neatstūmę jaunimo. Kai kurios galimybės gilesniam ryšiui ar paveikesniam uždarymui buvo praleistos, bet jūsų požiūris buvo pagarbus ir proporcingas — paaugliai prisimins tai kaip teigiamą susitikimą."
+        },
+        "average": {
+            "title": "Pakankamas, bet paviršutiniškas",
+            "emoji": "📋",
+            "feedback": "Išsprendėte triukšmo skundą be didelio incidento, bet praleidote kritines galimybes susitikime — ypač adresuojant profiliavimo baimes, sužmoginant skundėją paaugliams ar kuriant ilgalaikį tiltą. Paaugliai paliko parką su paklusnumu, bet ne pasitikėjimu. Jaunimo policijoje susitikimas, kuris yra tik „ne blogas“, yra praleista galimybė."
+        },
+        "poor": {
+            "title": "Reikia reikšmingo tobulėjimo",
+            "emoji": "⚠️",
+            "feedback": "Jūsų požiūris sustiprino būtent tas dinamikas, kurias šis scenarijus buvo skirtas tikrinti. Ar reikalaujant pateisinti teisėtą buvimą, atmetant profiliavimo susirūpinimus, per daug patvirtinant skundėją, ar užbaigiant su užslėptomis grėsmėmis — paaugliai šiame susitikime paliko su blogesniu požiūriu į policiją nei turėjo atvykę. Jaunimo kontaktuose ši žala kaupiasi — peržiūrėkite paauglių raidos tyrimus, procesinio teisingumo principus ir ilgalaikį policijos kontaktų poveikį jaunimui."
+        }
+    },
+    "metrics": {
+        "youthEngagement": {
+            "name": "Jaunimo įtraukimas",
+            "description": "Bendravimas su paaugliais pagarbiai ir amžiui tinkamu būdu — traktuojant juos kaip žmones, o ne kaip problemas",
+            "icon": "🧑‍🤝‍🧑"
+        },
+        "proceduralFairness": {
+            "name": "Procesinis teisingumas",
+            "description": "Paaiškinimas, kodėl esate čia, skaidrumas dėl skundo ir visų šalių išklausymas prieš priimant sprendimus",
+            "icon": "⚖️"
+        },
+        "communityMediation": {
+            "name": "Bendruomenės tarpininkavimas",
+            "description": "Skundėjos teisėto susirūpinimo subalansavimas su paauglių teise į viešą erdvę — sprendimų, gerbiančių abi puses, radimas",
+            "icon": "🤝"
+        },
+        "profilingAwareness": {
+            "name": "Profiliavimo sąmoningumas",
+            "description": "Paauglių baimės būti taikiniais atpažinimas ir sąžiningas adresavimas, be gynybiškumo ar nukreipimo",
+            "icon": "🔍"
+        },
+        "trustBuilding": {
+            "name": "Pasitikėjimo kūrimas",
+            "description": "Paauglių palikimas su pozityvesniu požiūriu į policiją nei jie turėjo prieš susitikimą — ambasadorių, o ne priešininkų kūrimas",
+            "icon": "🌱"
+        }
+    }
+}

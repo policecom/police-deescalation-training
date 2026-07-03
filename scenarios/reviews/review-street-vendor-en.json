@@ -1,0 +1,360 @@
+{
+    "scenarioId": "street-vendor",
+    "reviewVersion": "1.0",
+    "title": "Review — Street Vendor: Community Crossfire",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "The Scene",
+            "criticalSkills": ["Situational assessment before engagement", "Neutral body language and positioning", "Resisting premature conclusions from dispatch information"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Take a moment to walk the full scene casually — pass the cart, note its position relative to the shop entrance and pavement width, make brief friendly eye contact with both parties without engaging either yet. Get a spatial understanding before choosing who to speak with.",
+                    "strengths": ["Gathers objective spatial information before any conversation", "Friendly eye contact with both parties signals neutrality to everyone watching", "Resists the urgency bias that dispatch framing ('illegal vendor') can create", "Gives time to notice critical details: vendor's age, language cues, crowd mood", "Models professionalism for bystanders — first impression is calm assessment"],
+                    "consequences": "Both parties see an officer surveying rather than rushing to judgment. You discover the cart is partially but not fully blocking one side of the entrance — critical nuance that shapes your entire response.",
+                    "trainingFocus": "How does 60 seconds of observation change the quality of every subsequent conversation? What details does a walk-through reveal that talking to one party first would miss?"
+                },
+                "partially_positive": {
+                    "choiceText": "Approach both the vendor and the shop owner simultaneously — call them together and explain you're here to sort things out.",
+                    "adequate": ["Intent is fair and transparent — treating both parties equally", "Signals willingness to hear both sides"],
+                    "missed": ["No situational assessment before engagement", "Putting a frustrated complainant face-to-face with the vendor he reported creates immediate confrontation", "Language barriers, power dynamics, and fear responses haven't been gauged"],
+                    "improvement": "Fair intent needs tactical awareness. Assess the scene independently first, then decide whether bringing parties together is safe or whether separate conversations are needed."
+                },
+                "neutral": {
+                    "choiceText": "Approach the shop owner first, since he made the complaint — get his side of the story before deciding how to handle the vendor.",
+                    "adequate": ["Logical to start with the complainant who initiated the call", "Gathering context before approaching the vendor"],
+                    "missed": ["The vendor and bystanders watch you walk straight to the angry man pointing at her — optics of taking sides", "No independent scene assessment means relying entirely on one party's framing", "By the time you approach the vendor, she's been watching you nod at the man who wants her removed"],
+                    "improvement": "A brief scene walk-through before engaging either party preserves neutrality and gives you independent facts to evaluate both parties' claims against."
+                },
+                "negative": {
+                    "choiceText": "Walk directly to the vendor and ask to see her permit. The complaint is about an unlicensed vendor, so establishing the legal basis comes first.",
+                    "risks": ["Document-first approach to a frightened person feels like stop-and-demand", "You haven't verified the actual complaint — is it about permits or obstruction?", "Signals to bystanders that you've already decided who's at fault", "An older immigrant seeing police walk straight toward her asking for papers triggers maximum fear", "Accepting dispatch framing ('unlicensed vendor') without independent assessment prejudices your approach"],
+                    "consequences": "Mrs. Tran freezes in fear. The interaction begins on suspicion. Cooperation becomes compliance-based, not voluntary — and bystanders see enforcement, not problem-solving.",
+                    "betterApproach": "Observe the scene, then approach with a conversation — not a document request. Permits can be discussed after rapport is established."
+                }
+            },
+            "keyLearningPoints": ["Dispatch framing can prejudice your approach — verify independently", "Who you approach first shapes the entire encounter", "60 seconds of observation is more valuable than 10 minutes of correcting a bad first impression", "In multi-party situations with bystanders, every action is read for fairness signals"]
+        },
+        "2": {
+            "stageName": "The Complainant",
+            "criticalSkills": ["Active listening with diagnostic questions", "Separating legitimate concerns from overreach", "Managing expectations without committing to outcomes"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "I hear your frustration, Mr. Harris, and I can see the cart is close to your entrance. You were right to call — I'm going to look into this. Can you tell me: has the cart ever physically blocked customers from entering, or is it more the proximity and smell? And have you ever spoken directly with her about it?",
+                    "strengths": ["Validates frustration and his right to complain — procedural justice 'voice' principle", "Diagnostic questions separate enforceable harm (obstruction) from subjective concerns (smell)", "Asking if he's spoken to her reveals whether escalation was premature", "'I'm going to look into this' commits to process, not outcome — preserving discretion"],
+                    "consequences": "Mr. Harris admits customers can still enter and he hasn't spoken to her. You now know the complaint has legitimate and exaggerated components, with no attempt at direct resolution.",
+                    "trainingFocus": "How do diagnostic questions change the landscape of available responses? Why is understanding prior communication between parties critical?"
+                },
+                "partially_positive": {
+                    "choiceText": "I understand, Mr. Harris. If she doesn't have a permit, she's in violation and I'll handle it. Give me a few minutes to speak with her.",
+                    "adequate": ["Validates his complaint and shows responsiveness", "Professional and action-oriented"],
+                    "missed": ["Commits to enforcement before verifying facts", "Doesn't ask diagnostic questions about the nature of the problem", "Boxes you into enforcement, making discretion harder later"],
+                    "improvement": "Commit to the process ('I'm going to look into this') rather than the outcome ('I'll handle it'). Ask questions that reveal the complaint's true dimensions before promising action."
+                },
+                "neutral": {
+                    "choiceText": "I can see this is frustrating. Let me go talk to the vendor and we'll get this sorted out quickly.",
+                    "adequate": ["Shows empathy and responsiveness", "Moves toward action"],
+                    "missed": ["'Sorted out quickly' sets speed expectations that limit quality", "No diagnostic questions — approaching vendor without understanding complaint dimensions", "If resolution takes time, complainant patience expires faster"],
+                    "improvement": "Invest an extra minute understanding the complaint before moving to resolution. Speed matters less than quality in building lasting trust."
+                },
+                "negative": {
+                    "choiceText": "Mr. Harris, I appreciate you calling, but this looks more like a municipal licensing issue than a police matter. Have you tried contacting the licensing office?",
+                    "risks": ["You were dispatched — telling him it's not your problem is a brush-off", "He waited an hour; redirecting him elsewhere is deeply dismissive", "Signals police don't care about legitimate business concerns", "His outburst at being dismissed escalates before you've addressed the vendor"],
+                    "consequences": "Mr. Harris erupts in anger. His raised voice draws attention. The encounter escalates before it begins — caused by dismissal of the complainant.",
+                    "betterApproach": "Even when jurisdiction is unclear, take ownership of the situation you were dispatched to. You can involve other agencies while still providing immediate service."
+                }
+            },
+            "keyLearningPoints": ["Committing to process preserves discretion; committing to outcome removes it", "Diagnostic questions reveal whether a complaint is about genuine harm or territorial frustration", "Whether parties have communicated directly is critical for calibrating response", "Dismissing a complaint has cascading trust consequences beyond this encounter"]
+        },
+        "3": {
+            "stageName": "First Contact with the Vendor",
+            "criticalSkills": ["De-escalating fear in vulnerable individuals", "Conversation-first versus document-first engagement", "Framing issues as situational rather than personal"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Slow your pace, keep body language open, speak gently: 'Good morning. My name is [name]. Nobody is in trouble — I'm here because the shop owner had some concerns about the cart's location. I'd like to understand your situation. You mentioned a permit application — can you tell me more about that?'",
+                    "strengths": ["Slowing pace and open body language de-escalate fear physically", "'Nobody is in trouble' addresses her unstated terror", "Name introduction transforms authority-subject into person-person", "Framing as 'the cart's location' keeps the problem external and solvable", "Asking about the permit application reveals systemic barriers"],
+                    "consequences": "Mrs. Tran's shoulders relax. She explains her 8-month wait, her reason for this spot, and offers her application receipt. A genuine conversation begins.",
+                    "trainingFocus": "How does framing the issue as situational versus personal change willingness to cooperate? Why does de-escalating fear matter even without a physical threat?"
+                },
+                "partially_positive": {
+                    "choiceText": "Give her a reassuring nod: 'I can see you're worried, and I don't want you to be. I'm just here to sort out where the cart is placed. No one is being arrested or fined today, I promise.'",
+                    "adequate": ["Strong empathy and reassurance", "Names her worry — validates her experience", "Framing around placement is good"],
+                    "missed": ["Promising 'no fines today' removes discretion before assessment", "If the complainant overhears, it signals predetermined outcome", "Supervisor review could flag premature commitments"],
+                    "improvement": "Reassure through demeanor and framing rather than promises about outcomes. 'Nobody is in trouble' addresses fear without committing to a specific enforcement decision."
+                },
+                "neutral": {
+                    "choiceText": "Speak calmly: 'Ma'am, I need to ask — do you have a valid vendor's permit? The shop owner has filed a complaint about your cart blocking his entrance.'",
+                    "adequate": ["Professional and direct", "Calm tone is appropriate"],
+                    "missed": ["Leading with permits confirms her worst fear — this is about being 'legal'", "Mentioning the complaint makes her feel accused and reported", "No rapport-building before the demand", "Customers scatter — creating the disruption the shop owner complained about"],
+                    "improvement": "Lead with conversation, not documentation. Establish the human relationship first — permits can be discussed once trust is built and the person feels safe."
+                },
+                "negative": {
+                    "choiceText": "Mrs. Tran, I understand this is difficult. But the reality is that operating without a permit is a violation, and the shop owner has a right to unobstructed access. I'm going to need you to start packing up the cart.",
+                    "risks": ["Jumping from first contact to enforcement with zero fact-finding", "No knowledge of her pending application or the permit system", "Best practice is education then warning then enforcement — not enforcement on first contact", "An elderly woman in tears packing up while filmed is the worst possible optic"],
+                    "consequences": "Mrs. Tran's eyes fill with tears. Phones come out. The encounter is about to become a viral video showing police forcing an elderly immigrant to shut down her livelihood with no attempt at understanding.",
+                    "betterApproach": "Follow the education-warning-alternatives-enforcement sequence. First contact is for conversation, not compliance demands."
+                }
+            },
+            "keyLearningPoints": ["For vulnerable individuals, the first 30 seconds determine cooperation versus compliance", "Framing problems as situational rather than personal transforms willingness to work with you", "Document requests feel different at the beginning versus middle of a conversation", "Best practice for low-level enforcement: educate, warn, explore alternatives, enforce as last resort"]
+        },
+        "4": {
+            "stageName": "The Crowd Factor",
+            "criticalSkills": ["Bystander engagement without losing focus", "Professionalism under camera observation", "Reading crowd dynamics as information, not threat"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Briefly acknowledge the bystander with a calm nod: 'I hear you — and I can see Mrs. Tran is appreciated here. I'm not here to shut anyone down. I'm working with everyone to find a solution that works.' Then return attention to Mrs. Tran.",
+                    "strengths": ["Acknowledges crowd sentiment without getting drawn into debate", "'Mrs. Tran is appreciated' validates the community bond", "'Not here to shut anyone down' addresses the crowd's core fear", "'Working with everyone' frames role as mediator, not enforcer", "Not reacting to the camera signals confidence in conduct", "Pivoting back keeps interaction on track"],
+                    "consequences": "The bystander settles. The filmer has nothing inflammatory to capture. The crowd shifts from adversarial to observational. One sentence changed the entire atmosphere.",
+                    "trainingFocus": "How does a single sentence to bystanders change the emotional temperature? Why is acknowledging a crowd more effective than ignoring or challenging them?"
+                },
+                "partially_positive": {
+                    "choiceText": "Walk over to the bystander group and explain: 'I understand you're concerned. The shop owner called because the cart is partially blocking his entrance. I'm trying to find a fair resolution. If you have suggestions, I'm open to hearing them.'",
+                    "adequate": ["Genuine transparency about the complaint and your intent", "Openness to community input — inviting suggestions shows respect", "Validates their concern by engaging directly"],
+                    "missed": ["Physically leaving Mrs. Tran to address the crowd shifts the center of gravity away from the primary parties", "Creates a town hall dynamic with competing voices and unmanageable expectations", "Mr. Harris sees crowd consultation instead of complaint resolution, spiking his frustration", "Infeasible suggestions create expectations you cannot meet"],
+                    "improvement": "Acknowledge from where you are. A brief sentence is enough — don't open a group discussion. The resolution is between primary parties; the crowd needs reassurance, not a role."
+                },
+                "neutral": {
+                    "choiceText": "Ignore the bystanders completely and continue with Mrs. Tran. Engaging the crowd will only distract from resolving the issue.",
+                    "adequate": ["Maintains focus on primary interaction", "Doesn't escalate by confronting the crowd"],
+                    "missed": ["Ignoring vocal bystanders makes them louder, not quieter", "Feeling unacknowledged increases hostility", "Crowd grows because no one addresses them", "If you don't frame what's happening, the crowd creates their own narrative"],
+                    "improvement": "A brief acknowledgment costs 10 seconds and prevents 10 minutes of escalation. Acknowledge, reassure, return to work."
+                },
+                "negative": {
+                    "choiceText": "Address the bystander directly but firmly: 'I understand your feelings, but I need to hear from both parties without outside input influencing the conversation. Mrs. Tran and Mr. Harris both deserve a fair process, and that means I need to speak with them without interruptions.'",
+                    "risks": ["Sounds like principled commitment to procedural fairness — protecting both parties from crowd influence", "However, it frames community support as contamination rather than information", "Tells the crowd their voices are unwelcome in a public space", "Isolates Mrs. Tran from the social support that helps her feel safe", "The crowd's energy shifts from supportive to suspicious"],
+                    "consequences": "The bystander feels dismissed using fairness language. Mrs. Tran, who drew comfort from community support, now feels more alone. The crowd narrative becomes: the officer silenced the community.",
+                    "betterApproach": "Acknowledge community concern with a brief sentence and return to the conversation. Community voices are part of the dynamic, not obstacles to fair process."
+                }
+            },
+            "keyLearningPoints": ["Bystanders are part of the dynamic — ignoring amplifies, challenging escalates", "One brief sentence shifts a crowd from adversarial to observational", "Being filmed is an opportunity for professionalism, not a threat to manage", "The narrative void: if you don't explain what's happening, the crowd creates their own story"]
+        },
+        "5": {
+            "stageName": "The Negotiation",
+            "criticalSkills": ["Collaborative problem-solving in multi-party situations", "Treating parties as agents in their own solutions", "Creative alternatives to zero-sum enforcement"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Look at the street layout with Mrs. Tran: 'What if we find a spot still on this block — good foot traffic — but not next to Mr. Harris's door? Would you be willing to try that?' Walk with her to identify a suitable spot — perhaps 15 meters down where there's an empty storefront gap.",
+                    "strengths": ["Collaborative framing — 'we find a spot' makes her a partner", "Walking with her preserves dignity and agency", "'Would you be willing?' offers choice, not orders", "Empty storefront gap is practical and respects her business knowledge", "Addresses both parties: clear entrance plus continued business", "Bystanders see helping, not punishing"],
+                    "consequences": "Mrs. Tran's face lights up. The move takes five minutes. Mr. Harris's entrance is clear. Customers are kept. Bystanders see creative policing that builds community.",
+                    "trainingFocus": "What does collaborative problem-solving communicate to bystanders? How does treating someone as a partner change long-term compliance?"
+                },
+                "partially_positive": {
+                    "choiceText": "Go to Mr. Harris and propose: 'What if she moves about five meters down — still on the block but away from your entrance? Would that resolve it?' Get his agreement first, then communicate the plan to Mrs. Tran.",
+                    "adequate": ["Practical and solution-oriented — identifies a specific, achievable spatial fix", "Addresses the legitimate spatial concern directly", "Seeks to satisfy the complainant's core grievance before involving the vendor"],
+                    "missed": ["Negotiating with the complainant first then presenting the outcome to the vendor as a done deal undermines Mrs. Tran's agency", "She becomes the subject of an agreement between authority figures, not a participant in her own solution", "Gives Mr. Harris veto power over the resolution", "Visible power dynamic — officer and shop owner decide, vendor receives orders — bystanders see this clearly"],
+                    "improvement": "Include the affected person in their own solution. Walk with Mrs. Tran rather than deciding for her. The process matters as much as the outcome."
+                },
+                "neutral": {
+                    "choiceText": "Tell Mrs. Tran she needs to relocate at least 10 meters from any shop entrance. Give her a formal verbal warning about operating without a permit and note it in your report.",
+                    "adequate": ["Technically addresses the obstruction", "Documents the encounter"],
+                    "missed": ["Arbitrary distance plus formal warning is disproportionate given pending application and no prior communication", "Warning goes on record and escalates consequences for cooperating", "No alternatives explored before formal enforcement", "Best practice: education before enforcement for low-level violations"],
+                    "improvement": "When the law gives you discretion, ask whether formal enforcement or creative problem-solving better serves the community. A cooperative relocation achieves the same result without chilling effects."
+                },
+                "negative": {
+                    "choiceText": "Suggest to Mrs. Tran that she pack up for today and come back on a weekday when it's less busy, to avoid further complaints.",
+                    "risks": ["Removal with a polite wrapper", "Less foot traffic on weekdays means less income for someone feeding grandchildren", "Sets precedent that any complaint costs a day's earnings", "Doesn't address the spatial issue — same complaint next weekend", "Removes the person instead of solving the problem"],
+                    "consequences": "Mrs. Tran packs up, losing half a day's earnings. Bystanders are outraged. The filmer captures police telling an elderly immigrant to go home. The video tells an unintended story about power.",
+                    "betterApproach": "Ask: does this require removing the person, or can the situation be adjusted? Spatial problems have spatial solutions."
+                }
+            },
+            "keyLearningPoints": ["Creative solutions addressing all concerns produce more durable outcomes than zero-sum enforcement", "Walking with someone to find a solution versus directing them — process shapes reception", "Education and alternatives before formal warnings or removal", "Spatial problems have spatial solutions — removing the person is rarely proportionate"]
+        },
+        "6": {
+            "stageName": "The Shop Owner Pushes Back",
+            "criticalSkills": ["Setting boundaries with complainants", "Distinguishing legitimate grievance from disproportionate demand", "Maintaining proportionality under social pressure"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Turn to Mr. Harris calmly: 'I understand this isn't exactly what you hoped for. But let me be straight — your complaint was that the cart was blocking your entrance, and we've solved that. The permit question is a licensing issue I've noted and will follow up through proper channels. I can't remove someone from a public street because a nearby business doesn't want them there — that's not how it works. If the new position causes you problems, you have my badge number and you're welcome to call again.'",
+                    "strengths": ["Honest, clear, respectful while drawing a firm boundary", "'I understand this isn't exactly what you hoped for' acknowledges his frustration before redirecting", "Separates legitimate complaint (obstruction — solved) from overreach (total removal)", "'That's not how it works' educates without being rude", "Committing to follow up through proper channels on the permit acknowledges the legal dimension without weaponizing it", "Offering badge number and welcoming further calls shows accountability, confidence, and openness to scrutiny"],
+                    "consequences": "Mr. Harris is frustrated but has no valid counter-argument. His complaint was resolved. Bystanders hear an officer explain proportionality. The interaction models respectful boundary-setting.",
+                    "trainingFocus": "When a complainant demands more than what's proportionate, how do you acknowledge frustration while maintaining judgment? Why does offering your badge number defuse supervisor threats?"
+                },
+                "partially_positive": {
+                    "choiceText": "Address them together: 'We've made progress. Mrs. Tran has agreed to move, clearing your entrance. Mr. Harris, the permit is for the licensing authority. Can we agree this is a reasonable outcome for today?'",
+                    "adequate": ["Inclusive and attempts collaborative closure between both parties", "Summarizes fairly — acknowledges the relocation and the permit referral", "Refers the permit question to the correct authority rather than weaponizing it"],
+                    "missed": ["'Can we agree?' gives Mr. Harris veto power over a proportionate resolution", "If he says no — likely given his mood — you've undermined your own authority by inviting rejection", "Seeking agreement backfires when one party wants disproportionate outcomes beyond the original complaint"],
+                    "improvement": "When a resolution is proportionate, explain it — don't seek agreement. 'This resolves your complaint' is more effective than 'can we agree?'"
+                },
+                "neutral": {
+                    "choiceText": "Step between them: 'Mr. Harris, I've heard your complaint and I'm resolving it. Mrs. Tran is moving. The rest is above my pay grade. You two should work out a relationship for the future, because she'll likely be here next weekend too.'",
+                    "adequate": ["Acknowledges the complaint was heard", "Notes resolution in progress"],
+                    "missed": ["'Above my pay grade' abdicates responsibility", "'She'll be here next weekend' sounds like a taunt", "'Work it out' dumps responsibility on parties who need mediation", "Solves today, seeds next weekend's conflict"],
+                    "improvement": "Own the resolution you've crafted. Explain it clearly and offer a professional path for remaining concerns."
+                },
+                "negative": {
+                    "choiceText": "Tell him: 'You're right about the permit. Let me give Mrs. Tran a formal warning and document everything. That way there's a paper trail if this continues.'",
+                    "risks": ["Escalating enforcement to appease a dissatisfied complainant", "The vendor already cooperated — adding a warning after compliance punishes cooperation", "Teaches vendor that compliance is punished and complainant that pushing harder works", "Bystanders see: shop owner pushed, officer caved, old woman pays"],
+                    "consequences": "Mrs. Tran — who fully cooperated — receives a formal warning. She's confused and hurt. Trust is actively destroyed, not just lost.",
+                    "betterApproach": "Never escalate enforcement to satisfy emotional demands. When the proportionate response has been delivered, hold the line — compassionately but firmly."
+                }
+            },
+            "keyLearningPoints": ["A complainant's dissatisfaction with a proportionate resolution doesn't make it wrong", "Escalating enforcement to appease complainants punishes the cooperating party", "Asking for agreement gives veto power — explain proportionate decisions, don't negotiate them", "Offering your badge number shows confidence; 'above my pay grade' shows avoidance"]
+        },
+        "7": {
+            "stageName": "Closing the Loop",
+            "criticalSkills": ["Connecting people to long-term resources", "Closing with dignity and direction", "Distinguishing comfort from overpromising"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Smile warmly: 'I'm glad we worked it out, Mrs. Tran. The permit application is the key to making this permanent and safe for you. Do you know if there's a community organization or legal aid service that could help? I want this resolved properly so you don't have to worry every weekend.' If you know of local support services, offer the information.",
+                    "strengths": ["Warm acknowledgment then pivot to long-term vulnerability — the permit", "Helping her solve the legal issue rather than ignoring or weaponizing it", "Connecting to resources shows genuine care beyond this encounter", "'Don't have to worry every weekend' names her anxiety and offers a path out", "Difference between resolving an incident and improving a life", "Bystander overhears and contributes — community-police collaboration in real time"],
+                    "consequences": "Mrs. Tran thanks you not just for today but for giving her direction. The filmer captures a police officer helping a vendor find long-term support. This video builds trust.",
+                    "trainingFocus": "What's the difference between solving today's problem and setting someone up for next week's? How does connecting people to resources change the long-term police-community dynamic?"
+                },
+                "partially_positive": {
+                    "choiceText": "Pat her on the shoulder: 'You have nothing to worry about. I won't let anyone bother you. Just keep making great food.'",
+                    "adequate": ["Warm, human, empathetic", "Shows genuine care"],
+                    "missed": ["Personal guarantee you can't maintain — you won't be here next weekend", "Ignores the genuine legal vulnerability that needs resolution", "Different officer next Saturday creates inconsistency that damages trust more than your absence"],
+                    "improvement": "Comfort through action, not promises. Connecting her to resources provides lasting security — your reassurance expires when your shift ends."
+                },
+                "neutral": {
+                    "choiceText": "No problem, Mrs. Tran. Just make sure you stay in this spot and don't go back near Mr. Harris's shop. If I get another call, it'll be harder for me to help you.",
+                    "adequate": ["Practical guidance about new location", "Sets clear expectations"],
+                    "missed": ["Veiled threat turns positive resolution into conditional mercy", "Implies help was a favor, not a fair outcome", "She'll spend next week anxious about every police car", "No forward path on the permit — underlying vulnerability remains"],
+                    "improvement": "Close with direction and support, not warnings. 'Let me help you get this permit sorted' leaves a completely different impression than 'next time will be harder.'"
+                },
+                "negative": {
+                    "choiceText": "Wrap up briskly and professionally: 'Mrs. Tran, you're all set in the new spot. I've noted the situation in my log. If you have any future issues with the shop owner, call the non-emergency line and reference today's report. Take care.' Move on to your next call.",
+                    "risks": ["Sounds efficient and professional — documenting the encounter and providing a future reference channel", "However, treats closure as administrative rather than human", "Mrs. Tran just experienced a frightening encounter and receives a log reference number instead of genuine connection", "The permit — the underlying vulnerability that will bring police back next weekend — goes entirely unaddressed"],
+                    "consequences": "Mrs. Tran has a reference number but no path forward on the permit. Next Saturday, the same fear returns. The encounter was procedurally clean but personally empty — she was processed, not helped.",
+                    "betterApproach": "Professional closure is not the same as meaningful closure. Address the long-term vulnerability — the permit — and connect her to resources that persist after your shift ends."
+                }
+            },
+            "keyLearningPoints": ["The last thing you say shapes the lasting memory of the entire encounter", "Connecting people to resources is the difference between incident resolution and life improvement", "Comfort through promises expires when your shift ends; comfort through action persists", "Performative closure for the crowd isn't meaningful closure for the person at the center"]
+        }
+    },
+    "comprehensiveMetrics": {
+        "proceduralJustice": {
+            "description": "Treating all parties with dignity, transparency, and fairness — ensuring the process feels just regardless of outcome",
+            "indicators": {
+                "excellent": ["Both complainant and vendor feel heard and respected throughout", "Transparent about role, reasoning, and limitations of authority", "Consistent dignity in tone and body language with all parties", "Process perceived as fair even if neither party got exactly what they wanted"],
+                "poor": ["One party treated as authority, the other as subject", "Reasoning not explained — decisions appear arbitrary", "Different tone or respect level for different parties", "Outcome imposed rather than developed through dialogue"]
+            }
+        },
+        "proportionality": {
+            "description": "Matching response to severity, using discretion wisely in low-level enforcement",
+            "indicators": {
+                "excellent": ["Response calibrated to actual harm — partial obstruction, not criminal activity", "Education and alternatives explored before formal enforcement", "Discretion used for proportionate outcomes rather than maximum enforcement", "Clear boundary between legitimate complaint and disproportionate demand"],
+                "poor": ["Enforcement maximized regardless of circumstances or compliance", "Formal warnings or removal on first contact without alternatives", "Escalating enforcement to satisfy a dissatisfied complainant", "Treating a spatial dispute as a criminal matter"]
+            }
+        },
+        "crowdDynamics": {
+            "description": "Engaging bystanders constructively and maintaining professionalism under observation",
+            "indicators": {
+                "excellent": ["Brief crowd acknowledgment without getting drawn into debate", "Camera treated as neutral or positive — no attempt to control filming", "Crowd narrative managed through transparency about intent", "Bystander energy redirected from adversarial to observational"],
+                "poor": ["Crowd ignored (escalating) or challenged (making filming the story)", "Attempting to control filming — legally problematic and optically catastrophic", "Performative actions for the crowd rather than genuine service", "Engagement that fragments resolution into a town hall debate"]
+            }
+        },
+        "creativeSolutions": {
+            "description": "Finding outcomes that address all parties' legitimate concerns rather than zero-sum enforcement",
+            "indicators": {
+                "excellent": ["Relocation solution identified for vendor, shop owner, and public", "Vendor treated as partner in finding solution, not recipient of orders", "Long-term vulnerability addressed through resource connection", "Solution durable — prevents repeat calls and future conflict"],
+                "poor": ["Zero-sum outcome: one party wins, one loses", "Removal when relocation solves the problem", "No alternatives explored before formal enforcement", "Today solved but next week's conflict actively seeded"]
+            }
+        },
+        "communityTrust": {
+            "description": "Building long-term community confidence through the quality of this encounter",
+            "indicators": {
+                "excellent": ["Every visible action reinforces that police help rather than harm", "Vulnerable community member treated with dignity and connected to support", "Bystanders leave with positive impression they'd share or post", "Both parties trust that calling police was worthwhile"],
+                "poor": ["Encounter reinforces fear of police in immigrant or low-income community", "Disproportionate enforcement becomes a widely-shared cautionary story", "Video tells a story of power imbalance, not community service", "Compliance extracted through fear rather than earned through respect"]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "enforcementDefault": {
+            "pattern": "Defaulting to enforcement when the situation calls for mediation",
+            "examples": ["Leading with document checks before rapport", "Issuing formal warnings when verbal guidance suffices", "Ordering removal when relocation solves the problem", "Treating a permit question as primary when the complaint is about obstruction"],
+            "impact": "Disproportionate enforcement of low-level offenses is the greatest destroyer of police legitimacy according to procedural justice research. The community learns that calling police means punishment, not problem-solving.",
+            "correction": "Follow the education-warning-alternatives-enforcement sequence. Ask: does this require the full weight of enforcement, or can the same outcome be achieved through conversation and cooperation?"
+        },
+        "complainantCapture": {
+            "pattern": "Letting the complainant's demands drive the response beyond what's proportionate",
+            "examples": ["Promising enforcement before verifying facts", "Escalating to formal warnings to appease dissatisfaction", "Giving the complainant veto power over a fair resolution", "Treating the complainant as the client and the vendor as the problem"],
+            "impact": "The officer becomes an instrument of one party's wishes. The vendor learns that whoever has the police phone number has power over their livelihood. Trust in police fairness is destroyed.",
+            "correction": "Your obligation is proportionate justice, not complainant satisfaction. Acknowledge legitimate concerns, address them, and hold the line on proportionality even when pushed."
+        },
+        "crowdAvoidance": {
+            "pattern": "Failing to engage bystander dynamics — either ignoring or confronting",
+            "examples": ["Pretending the crowd doesn't exist while tension builds", "Telling people to step back or stop filming", "Performing for the camera rather than serving the parties", "Treating bystander concern as interference"],
+            "impact": "Ignored crowds get louder. Challenged crowds get adversarial. Either way, the crowd becomes the story. How you handle being watched determines whether the video helps or hurts.",
+            "correction": "One brief sentence of acknowledgment transforms a crowd from adversarial to observational. Treat the camera as an ally that records your professionalism."
+        },
+        "overpromising": {
+            "pattern": "Making commitments that exceed your authority or availability",
+            "examples": ["Promising no fines before assessing the situation", "Guaranteeing protection you can't maintain next weekend", "Committing to outcomes before gathering facts", "Setting speed expectations that limit resolution quality"],
+            "impact": "Overpromising creates vulnerability when reality differs. A different officer next weekend exposes the gap between promise and reality — inconsistency damages trust more than the original problem.",
+            "correction": "Commit to process, not outcomes. Reassure through demeanor and action. Connect people to resources that persist after your shift ends."
+        },
+        "closureNeglect": {
+            "pattern": "Resolving the immediate situation without addressing long-term vulnerability",
+            "examples": ["Moving the cart without discussing the permit path", "Closing with warnings instead of resources", "Ending with the crowd rather than the person at center", "Solving the spatial problem but ignoring the systemic one"],
+            "impact": "The same situation recurs next weekend with the same vulnerability. The encounter resolves an incident but doesn't improve a life.",
+            "correction": "Ask: when I leave, is this person better equipped for next weekend? Connecting people to legal aid or community organizations transforms a single encounter into lasting impact."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Outstanding procedural justice. You demonstrated the complete skillset for complex street-level enforcement: thorough assessment, procedural fairness with all parties, creative problem-solving, effective crowd management, proportionate boundary-setting, and genuine investment in the vendor's long-term wellbeing. Every bystander — and the camera — captured policing that builds community trust. This is the standard.",
+            "mostlyPositive": "Strong performance with good instincts for fairness and creative problem-solving. You maintained proportionality and treated both parties with dignity. Some opportunities were missed — perhaps in crowd management, boundary-setting with the complainant, or connecting the vendor to resources — but your overall approach was professional and trust-building.",
+            "mixed": "You showed competence in some areas but struggled with the full complexity of this multi-party situation. Strengths included [SPECIFIC_POSITIVE], but critical opportunities were missed in [SPECIFIC_GAP]. Review the balance between enforcement and mediation, and practice the transition from resolving today's problem to preventing next week's.",
+            "mostlyNegative": "This scenario revealed significant gaps in proportionality and procedural justice. While you [MINOR_POSITIVE], most choices leaned toward enforcement over problem-solving, complainant satisfaction over fairness, or surface resolution over genuine care. Street vendor encounters are where community trust is built or broken — review procedural justice principles and the education-before-enforcement sequence.",
+            "allNegative": "Your approach treated a mediation situation as a pure enforcement matter. The vendor's vulnerability, the crowd's concern, and the opportunity for creative resolution were all missed. Research is clear: aggressive enforcement of low-level offenses destroys police legitimacy more than almost anything else. This requires fundamental reorientation toward procedural justice."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Nobody is in trouble — I'm here because the shop owner had some concerns about the cart's location.",
+            "I'd like to understand your situation. You mentioned a permit application — can you tell me more about that?",
+            "I hear you — and I can see Mrs. Tran is appreciated here. I'm not here to shut anyone down.",
+            "What if we find a spot still on this block — good foot traffic — but not next to Mr. Harris's door? Would you be willing to try that?",
+            "Your complaint was that the cart was blocking your entrance, and we've solved that.",
+            "I can't remove someone from a public street because a nearby business doesn't want them there — that's not how it works.",
+            "The permit application is the key to making this permanent and safe for you.",
+            "I want this resolved properly so you don't have to worry every weekend."
+        ],
+        "poorPhrases": [
+            "Do you have a valid vendor's permit? The shop owner has filed a complaint.",
+            "If she doesn't have a permit, she's in violation and I'll handle it.",
+            "I need to hear from both parties without outside input influencing the conversation.",
+            "Mrs. Tran and Mr. Harris both deserve a fair process without interruptions.",
+            "I'm going to need you to start packing up the cart.",
+            "If I get another call, it'll be harder for me to help you.",
+            "The rest is above my pay grade."
+        ],
+        "analysisCriteria": {
+            "proceduralFairness": "Did the phrase convey neutrality, transparency, and respect for all parties?",
+            "proportionality": "Did the phrase match the severity — conversation for a low-level issue, not commands?",
+            "agency": "Did the phrase treat the person as a participant in their own solution or a subject of authority?",
+            "framing": "Did the phrase frame the issue as situational (solvable) or personal (accusatory)?",
+            "sustainability": "Did the phrase contribute to lasting resolution or just temporary compliance?",
+            "trustBuilding": "Did the phrase strengthen or weaken community trust — considering who else was listening?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Dispatch framing can prejudice your approach. 'Illegal vendor blocking a business' creates urgency and culpability that may not match reality. Your 60-second scene assessment is the antidote to framing bias.",
+        "2": "Diagnostic questions transform a complaint from a demand into information. Understanding whether the harm is physical obstruction or proximity discomfort — and whether parties have communicated — determines your entire range of proportionate responses.",
+        "3": "For vulnerable individuals, the first 30 seconds determine everything. Leading with conversation rather than document demands, naming the fear, and framing the issue as situational rather than personal transforms compliance into cooperation.",
+        "4": "In 2025, every street encounter may be filmed. The best response to a camera is excellent policing. One sentence of acknowledgment shifts a crowd from adversarial to observational — 5 seconds prevents 5 minutes of escalation.",
+        "5": "Spatial problems have spatial solutions. When the issue is where a cart is placed — not whether a person deserves to work — collaborative relocation addresses all concerns without removing anyone's livelihood.",
+        "6": "A complainant's dissatisfaction with a proportionate resolution doesn't make the resolution wrong. Your obligation is fair justice, not maximum complainant satisfaction. Escalating enforcement under pressure punishes the cooperating party.",
+        "7": "Resolving today's incident without addressing tomorrow's vulnerability is incomplete policing. Connecting Mrs. Tran to legal aid takes 60 seconds and transforms a single encounter into lasting impact."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Advanced procedural justice — training others in multi-party street mediation", "Community policing leadership — building vendor-police neighborhood relationships", "Implicit bias and enforcement discretion in low-level offense encounters"],
+            "good": ["Extended procedural justice — balancing complainant expectations with proportionality", "Crowd dynamics and bystander management in filmed encounters", "Resource connection training — local community organizations and legal aid services"],
+            "average": ["Core procedural justice principles — voice, transparency, fairness, impartiality", "Education-before-enforcement sequence for low-level violations", "De-escalation with vulnerable populations — immigrants, elderly, economically marginalized"],
+            "poor": ["Fundamentals of procedural justice and police legitimacy research", "Proportionality in enforcement discretion — matching response to harm severity", "Rights awareness — citizen filming, vendor rights, due process in street enforcement", "Cultural competency and immigrant community engagement"]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Overall Performance Summary", "content": ["Score", "Performance level", "Key strengths", "Critical weaknesses"]},
+            {"title": "Stage-by-Stage Analysis", "content": ["Choice made at each stage", "Impact on vendor, shop owner, bystanders, and community", "Alternative approaches and consequences", "Key learning points"]},
+            {"title": "Procedural Justice Assessment", "content": ["Voice — were all parties heard?", "Transparency — was reasoning explained?", "Fairness — were parties treated with equal dignity?", "Impartiality — did the process appear neutral to observers?"]},
+            {"title": "Proportionality & Discretion Evaluation", "content": ["Response calibration to actual harm", "Education-warning-enforcement sequence adherence", "Boundary-setting with the complainant", "Creative alternatives explored before formal action"]},
+            {"title": "Crowd & Camera Management", "content": ["Bystander acknowledgment quality", "Response to filming", "Narrative management — who controlled the story?", "Crowd energy trajectory across the encounter"]},
+            {"title": "Communication Effectiveness", "content": ["Best dialogue moments", "Counterproductive phrases", "Framing analysis — situational vs. personal", "Closing statement impact"]},
+            {"title": "Professional Development", "content": ["Immediate training needs", "Long-term skill development priorities", "Recommended resources and workshops"]},
+            {"title": "Real-World Application", "content": ["How this translates to vendor calls and low-level enforcement", "Building neighborhood relationships that prevent repeat calls", "Community resource knowledge as a policing tool", "Long-term trust impact of a single well-handled encounter"]}
+        ]
+    }
+}

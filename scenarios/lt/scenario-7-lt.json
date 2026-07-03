@@ -1,0 +1,455 @@
+{
+    "id": 7,
+    "title": "Gatvės muštynės prie naktinio klubo",
+    "description": "Sudėtingas scenarijus, vykstantis 1:30 val. nakties prie naktinio klubo. Stumdymasis dėl išlieto gėrimo persikėlė į gatvę — du neblaivūs vyrai stoja vienas prieš kitą, nepastovi minia filmuoja telefonais, sužeista praeivė ir apsauginis, galintis padėti arba pakenkti. Pareigūnas turi atskirti kovojančiuosius, valdyti minios eskalaciją, pasirūpinti sužeista, ir atkurti tvarką adrenalino ir alkoholio kupinoj aplinkoj — visa tai kameros akivaizdoje.",
+    "icon": "🚨",
+    "difficulty": 4,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Seržantas Kowalski",
+        "avatar": "👮‍♂️",
+        "introduction": "Incidentai prie naktinių klubų yra vienas nenuspėjamiausių kvietimų, į kuriuos kada nors reaguosite. Atvykstate į alkoholio, adrenalino, pažeistos puikybės ir auditorijos kokteilį, kuris gali arba sustiprinti smurtą, arba padėti jį suvaldyti. Tyrimai nuosekliai rodo, kad pirmosios 90 sekundžių pareigūno kontakto minios kurstomoje muštyje nulemia, ar situacija spirale kyla, ar stabilizuojasi. Subjektai yra apsvaigę — o tai reiškia pablogėjusį sprendimą, lėtesnį apdorojimą, sustiprintas emocijas ir nenuspėjamas fizines reakcijas. Negalite protauti su alkoholiu taip, kaip protaujate su blaiviu protu. Jūsų balsas, padėtis, kūno kalba ir gebėjimas atskirti bei sulėtinti tempą yra pagrindiniai įrankiai. Minia yra ir didžiausia rizika, ir didžiausias turtas — gerai valdoma, socialinis spaudimas veikia jūsų naudai. Blogai valdoma, jūs esate mažumoje. Šią naktį kiekvienas jūsų sprendimas bus filmuojamas, ir kiekvienas žodis bus atkurtas. Tegu jie bus verti."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-7-complete"],
+    "perfectBadge": "perfect-scenario-7",
+    "finalMessage": {
+        "revelation": "Danny ir Viktoras iš tikrųjų anksčiau tą vakarą puikiai sutarė — juos supažindino bendri draugai klube ir jie daugiau nei valandą kalbėjosi prie baro. Konfliktas kilo, kai Viktoras netyčia užkabino Danny gėrimą ant Zoe suknelės. Danny pastūmė Viktorą; Viktoras pastūmė atgal. Apsauginis Craigas — buvęs karys, kovojantis su savo PTSS — abu išmetė naudodamas daugiau jėgos nei reikėjo, kas dar labiau sustiprino jų agresiją. Sužeista praeivė — devyniolikmetė universiteto studentė vardu Mia — pasukto koją bėgdama nuo pradinio stumdymosi. Vėliau jai prireikė nedidelės medicininės pagalbos. Po incidento Danny ir Viktoras abu jautėsi sugėdinti. Danny kitą savaitę parašė Viktorui žinutę atsiprašydamas. Viktoras atsakė. Craigas peržiūrėjo klubo vaizdo kameras ir vadovybei pripažino, kad buvo per agresyvus šalinimo metu. Minios filmuota medžiaga, patalpinta internete, parodė profesionalų policijos darbą po spaudimu — ir departamentas ją panaudojo mokymams.",
+        "keyLessons": [
+            "Atskyrimas yra pats svarbiausias pirmasis veiksmas fiziniame konflikte — viskas kita kyla iš erdvės sukūrimo",
+            "Neblaivūs asmenys apdoroja komandas lėtai — trumpi, pakartoti, ramūs nurodymai pranoksta sudėtingą argumentavimą",
+            "Minios sustiprina bet kokį dominuojantį emocinį toną — rami valdžia yra užkrečiama, lygiai kaip ir panika",
+            "Apsaugininkai ir saugos darbuotojai gali būti galingi sąjungininkai, bet jų pačių adrenalinas turi būti suvaldytas prieš jiems galint padėti",
+            "Ankstyvas rūpinimasis sužeistaisiais signalizuoja kompetenciją ir rūpestingumą, o tai keičia minios suvokimą — policija tampa gynėju, o ne grėsme",
+            "Nakties alkoholiu kurstomos situacijos nėra laikas paskaitoms ar moraliniam autoritetui — pamokymą palikite blaiviems dienovidžiui",
+            "Kiekvienas filmuojantis telefonas yra potencialus mokymo vaizdo įrašas arba potencialus skandalas — jūsų profesionalumas nulemia, kuris"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Vietos vertinimas",
+            "sceneUpdate": {
+                "emoji": "🚨",
+                "title": "Naktinio klubo prieigos — 1:30 val.",
+                "desc": "Atvykstate į chaosą. Bosas dunksėja iš klubo už aksominės virvelės. Ant šaligatvio du vyrai stovi trijų metrų atstumu — vienas suplėšytais marškiniais, kitas su krauju ant lūpos — šaukia ir rodo vienas į kitą pirštais. Didelis apsauginis juoda polo marškinėliais stovi tarp jų išskėstomis rankomis, vos laikydamas liniją. Jauna moteris tempia vieną vyra už rankos, maldaudama. Penkiolika iki dvidešimt klubo lankytojų suformavę laisvą pusapskritimį, pakėlę telefonus. Kažkas sėdi ant bordiūro laikydamasi už kulkšnies ir rauksčydamasi."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Ekipažas reaguoja į pranešimą prie Vibe naktinio klubo, Upės gatvė 14. Skambinantysis praneša apie muštynes, prasidėjusias viduje ir persikėlusias ant šaligatvio. Du vyrai dalyvauja fiziniame konflikte. Klubo apsauga juos atskyrė, bet situacija nestabili. Renkasi minia. Vienas galimas sužeidimas. Pastiprinimas atvyks po aštuonių minučių."
+                },
+                {
+                    "character": "craig",
+                    "text": "(šaukia, rankos ištiestos tarp dviejų vyrų) Pareigūnai! Ačiū Dievui. Atskyriau juos, bet jie vis tęsia. Tas mėlynais marškiniais pradėjo mojuotis viduje — abu išmečiau lauk. Šito mergina nuolat lenda į vidurį. Ir kažkas ten susižeidė — nežinau, kaip rimtai."
+                }
+            ],
+            "prompt": "Atvykstate vienas; pastiprinimas po aštuonių minučių. Du neblaivūs vyrai stoja vienas prieš kitą, minia filmuoja, kažkas sužeistas, o apsauginis vos laiko liniją. Kaip pradėsite?",
+            "options": [
+                {
+                    "text": "Skirkite tris sekundes apžvelgti visą vietą prieš įsitraukdami. Nuskenuokite pagrindinius elementus: du subjektus, apsauginį kaip potencialų sąjungininką, merginą kaip emocinį kintamąjį, sužeistąją ant bordiūro, minios perimetrą su pakeltais telefonais. Tada priartėkite tvirtais žingsniais, pakėlę ranką, aiškiu, projektuojamu balsu: 'Policija. Niekas nejuda. Man reikia, kad abu atsitrauktumėte penkis žingsnius vienas nuo kito. Tuoj pat.' Palaikote akių kontaktą su arčiau stovinčiu vyru, kūnu signalizuodami valdymą.",
+                    "feedback": "Kodėl: Greita apžvalga prieš veiksmą apsaugo nuo tunelinio matymo — pavojingiausios klaidos chaotiškoje vietoje. Visų elementų identifikavimas reiškia, kad jūsų neužklups kažkas, ko nepastebėjote. Komanda yra trumpa, konkreti ir įgyvendinama — 'penki žingsniai atgal' duoda jiems konkrečią užduotį, o ne abstrakčią instrukciją kaip 'nusiraminkit.' Pauzė signalizuoja kontrolę, o ne dvejojimą. | PASEKMĖS: Trumpa apžvalga pastebi sužeistą praeivę ant bordiūro, minios energijos lygį ir apsauginio kūno kalbą. Jūsų autoritetingas įžengimas sukuria momentinę pauzę — abu vyrai pažiūri į jus, ir tas pertrūkis nutraukia eskaliacijos ciklą. Danny žingstelėja pusę žingsnio atgal. Viktoras sustoja šaukti. Craigas su palengvėjimu atrodo. | Refleksija: Kaip trijų sekundžių vertinimas pakeičia kiekvieno vėlesnio sprendimo kokybę greitai kintančioje vietoje?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Nelaukdami nė sekundės, skubiai ženkite tiesiai tarp Danny ir Viktoro, plačiai išskėsdami rankas ir stumdami juos kiekvieną į savo pusę. Jūsų kojos plačiai, kūnas įsitempęs, balsas aštrus ir pjaunantis naktinį orą: 'Baigiam! Abu — atsitraukite DABAR!' Stumiate fiziškai, nespėję įvertinti, ar kuris turi ginklą, kokia minios nuotaika, ar kur sėdi sužeistoji. Jūsų petys atsitrenkia į Danny alkūnę, kai jis gestikuliuoja, Viktoras suakmenėja, įtariai žiūrėdamas į jus.",
+                    "feedback": "Kodėl: Fiziškai įsiterpti tarp dviejų neblaivių, agresyvių vyrų neįvertinus vietos stato jus į didelę riziką. Nežinote, ar kuris nors turi ginklą, ar minia priešiška, ar kur sužeistoji. Fizinis kontaktas prieš žodinę komandą sukuria fizinę konfrontaciją, o ne ją užkerta. Esant pastiprinimui aštuonias minutes, jūsų sužeidimas paliktų visą vietą nekontroliuojamą. | PASEKMĖS: Įsiterpiate tarp jų. Danny ranka atsitrenkia į jūsų petį, kai jis gestikuliuoja. Viktoras jūsų stumtelėjimą jo link suvokia kaip agresiją ir pasistato. Minia pasilenkia pirmyn. Dabar esate trikampio fizinio konflikto centre be pastiprinimo ir be situacijos suvokimo. | Refleksija: Kada fizinė intervencija be žodinio deeskalavimo daro vietą pavojingesnę, o ne saugesnę?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Eikite tiesiai prie apsauginio Craigo, užmegzkite akių kontaktą ir reikšmingai linktelėkite. Nuleidę balsą taip, kad subjektai negirdėtų, pasilenkite arčiau jo ausies: 'Geras darbas, kad juos atskyrei. Man reikia tavo pagalbos — ar gali palaikyti šią liniją dar minutę, kol paskambinsiu dėl medicininės pagalbos ir pradėsiu atskyrimo procesą?' Laukiate jo patvirtinimo, viena ranka jau siekdami radijo, kol Danny ir Viktoras toliau šaukia pro Craigo ištiestas rankas.",
+                    "feedback": "Kodėl: Apsauginio įtraukimas yra protinga — jis jau yra pozicijoje ir pažįsta subjektus. Tačiau visiškas dėmesys apsauginiui prieš tiesiogiai kreipiusis į kovojančiuosius rizikuoja prarasti autoriteto langą, kurį sukuria jūsų atvykimas. Subjektai turi iš karto girdėti jūsų balsą, kitaip momentinė pauzė, kurią sukėlė jūsų atvykimas, išgaruos. | PASEKMĖS: Apsauginis linktelėja, dėkingas už nurodymą. Bet kol kalbatės su Craigu, Danny ir Viktoras vėl pradeda šaukti. Minia jūsų šalinį pokalbį skaito kaip neapsisprendimą. Pradinio autoriteto langas užsidaro. | Refleksija: Kaip įtraukti sąjungininkus neprarandant pagreičio, kurį sukuria šviežias policijos buvimas?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Pasilikite prie tarnybinio automobilio, pasinaudodami atidarytomis durimis kaip fiziniu barjeru tarp savęs ir chaoso. Griebiate radiją ir perduodate skubų pranešimą: 'Dispečerinė, reikia neatidėliotino pastiprinimo prie Vibe klubo — situacija nepastovi, du aktyviai agresyvūs vyrai, apie dvidešimt žmonių minia, vienas sužeidimas. Nesiartiinu, kol negausiu antro ekipažo.' Stebite pro priekinį stiklą, kaip apsauginis vargsta išlaikyti liniją, Zoe maldauja, minia filmuoja.",
+                    "feedback": "Kodėl: Pastiprinimas jau iškviestas ir yra aštuonias minutes. Laukimas prie automobilio, kai du neblaivūs vyrai ant muštynių ribos, minia auga ir kažkas sužeista — atsisakymas pareigos įsikišti. Apsauginio laikymas silpnėja. Kiekviena neveiklumo sekundė didina smurto tikimybę. Pareigūno saugumas yra svarbus, bet nereiškia laukimo, kol sąlygos bus tobulos. | PASEKMĖS: Kol laukiate, Viktoras puola Danny. Apsauginis pargriauna Viktorą ant žemės. Minia sprogsta. Zoe klykia. Sužeistoji bando pasijudinti ir nukrenta. Kol įsitraukiate, jūs reaguojate į pilnavertį muštynes, o ne jas užkertate. | Refleksija: Kada atsargumas tampa neveiklumu, ir kokia laiko, kurį prarandate, kaina?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Atskyrimas",
+            "sceneUpdate": {
+                "emoji": "🔀",
+                "title": "Atstumo sukūrimas",
+                "desc": "Jūsų atvykimas sukūrė trumpą pauzę. Abu vyrai vis dar stovi, vis dar agresyvūs, bet žiūri į jus. Apsauginis Craigas laiko poziciją tarp jų. Zoe laiko Danny ranką, bet jis vis nusipurto. Viktoras šluosto kraują nuo savo sukaltos lūpos ir spokso. Minia stebi, telefonai filmuoja. Turite juos atskirti — fiziškai ir psichologiškai — prieš adrenalino bangai grįžtant."
+            },
+            "npcDialogue": [
+                {
+                    "character": "danny",
+                    "text": "(neryškiai, rodo pro apsauginį į Viktorą) Jam PASISEKĖ, kad jūs čia, pareigūne. JIS viską pradėjo! Jis užpylė gėrimą ant mano merginos! Paklauskite bet ko — jis pradėjo!"
+                },
+                {
+                    "character": "viktor",
+                    "text": "(ryškus akcentas, kraujas ant smakro, balsas kyla) JIS mane pastūmė! Aš nieko nepadariau! Jis mane pastūmė ir tada tas didelis bičas išmetė mane kaip šunį! Noriu pateikti skundą! Tai neteisinga!"
+                },
+                {
+                    "character": "zoe",
+                    "text": "(traukia Danny ranką, ašarojanti) Danny, PRAŠAU. Tiesiog eime. Prašau. Tai to neverta. Danny, pažiūrėk į mane — tiesiog EINAM."
+                }
+            ],
+            "prompt": "Abu vyrai šaukia savo versiją jums vienu metu. Zoe bando nusitempti Danny. Apsauginis pavargsta. Kaip pasieksite fizinį atskyrimą?",
+            "options": [
+                {
+                    "text": "Panaudokite apsauginį ir Zoe kaip sąjungininkus dvipusiam atskyrimui. Tvirtai nurodykite Craigui, rodydami pirštu taksi stotelės link: 'Craigai, man reikia, kad nuvestum Viktorą dešimt metrų ten — prie taksi stotelės. Tiesiog eik ir kalbėk, laikyk ramiai.' Tada atsisukite į Zoe, nuleisdami balsą ir sušvelnindami žvilgsnį: 'Jūs darote teisingą dalyką. Padėkite man nuvesti Danny čia prie sienos.' Galiausiai kreipkitės į Danny: 'Danny — girdžiu tave, noriu tavo pusės, bet pirmiausia man reikia, kad eitum čia. Dešimt žingsnių. Tiek ir viskas.'",
+                    "feedback": "Kodėl: Puikus resursų valdymas. Craigas jau yra šalia Viktoro ir turi fizinį buvimą. Jo siuntimas nuvesti Viktorą panaudoja jo autoritetą konstruktyviai, o ne palieka jį statiniu barjeru. Zoe patvirtinimas — 'jūs darote teisingą dalyką' — įdarbina ją kaip raminančią jėgą, o ne emocinį kintamąjį. Pasakymas Danny, kad norite jo pusės, duoda jam priežastį paklusti. 'Dešimt žingsnių' yra konkretus ir pasiekiamas. | PASEKMĖS: Craigas, palengvėjęs gavęs aiškų nurodymą, uždeda ranką Viktorui ant peties ir pradeda vesti jį taksi stotelės link. Viktoras trumpai priešinasi, bet Craigo ramus masyvumas įtikina. Zoe akys nušvinta — kažkas patvirtino jos pastangas. Ji dvigubai stengiasi tempti Danny. Danny, girdėdamas, kad norite jo istorijos, leidžiasi būti nuvestas prie sienos. Dešimt metrų atskyrimo. Minios įtampa akivaizdžiai sumažėja. | Refleksija: Kaip konkrečios rolės kiekvienam vietoje esančiam žmogui paverčia chaosą koordinavimu?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Ženkite žingsnį pirmyn ir šaukite pakankamai garsiai, kad jūsų balsas persmuktų pro visą triukšmą — subjektus, apsauginį, minią, kiekvieną filmuojantį telefoną. Jūsų veidas įtemptas, pirštai badydami kairėn ir dešinėn pakaitomis: 'ABU — NUSTOKITE kalbėti. Man nerūpi, kas pradėjo. Jūs ABU eisite į antrankius, jei dabar pat nesiatskirsite. Danny — ten. Viktor — ten. JUDĖKITE.' Zoe krūpteli nuo garsumo. Minia akimirkai nutyla, telefonai sustingsta ties jumis.",
+                    "feedback": "Kodėl: Garsumas ir grėsmės areštu gali sukelti trumpalaikį paklusimą per baimę, bet su neblaiviais subjektais jie vienodai tikėtini sukelti pasipriešinimą. 'Man nerūpi, kas pradėjo' atmeta abu jų skundus — vienintelį dalyką, kurį kiekvienas jaučia stipriausiai. Antrankių grėsmė minios ir kamerų akivaizdoje eskaluoja riziką ir paverčia atsitraukimą panašiu į kapituliaciją. | PASEKMĖS: Danny atsišaukia: 'Pirmyn, areškite mane! Aš nieko nepadariau!' Viktoras pučiasi: 'Taip, areštuokite mane! Noriu pateikti skundą!' Nė vienas nepajuda. Minia murmėda. Zoe pradeda verkti. Eskalavote konfrontaciją į valios mūšį, kurio negalite laimėti be jėgos. | Refleksija: Kai grasinate pasekmėmis auditorijos akivaizdoje, kas nutinka su neblaivaus žmogaus apskaičiavimu dėl atsitraukimo?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Susitelkite visiškai pirma į Danny — jo kumščiai gniaužiasi, jis svyruoja pirmyn, atrodo pavojingiausias. Eikite prie jo ritmingais, ramiais žingsniais, atsistokite kampu tarp jo ir minios, nuleiskite balsą taip, kad tik jis ir Zoe girdėtų: 'Danny, matau, kad esi nusiminęs ir noriu girdėti, kas nutiko. Bet dabar man reikia, kad eitum čia su manimi ir Zoe, prie sienos. Ar gali tai padaryti dėl manęs?' Švelniai paliečiate jo petį, kreipdami jį šalin nuo Viktoro.",
+                    "feedback": "Kodėl: Gera deeskalavimo technika su Danny — nuleistas balsas, patvirtinimas, konkretus prašymas. Tačiau atsisukimas nugara į Viktorą, kai jis vis dar agresyvus ir nesaugus, yra taktinė rizika. Viktoro palikimas su pavargusiu apsauginiu ir be policijos dėmesio gali jį priversti jaustis ignoruojamu ar padrąsintu. Vienas subjektas iš karto veikia, kai kitas yra suvaldytas — Viktoras nėra. | PASEKMĖS: Danny reaguoja į jūsų ramų toną ir pradeda judėti. Bet už jūsų Viktoras mato pareigūną bendraujantį tik su savo priešininku ir tai interpretuoja kaip stojimą į pusę. Jis šaukia: 'Kodėl tik su juo kalbate?! Aš esu tas, kuris sužeistas!' Jis žengia pirmyn. Craigas vos spėja jį užblokuoti. | Refleksija: Kaip suteikiate prioritetą vienam subjektui nepriverdami kito jaustis atmestam ar nesaugiam?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Atsisukite į apsauginį ir mosteldami link klubo durų už aksominės virvelės pasiūlykite kitą planą: 'Craigai, imk juos abu atgal į klubą. Atskiruose kambariuose — biure, sandėlyje, ką turi. Ten juos apklausiu, kur ramiau ir toliau nuo minios.' Pradedate eiti durų link, tikėdamiesi, kad Craigas seks su abiem vyrais. Klubo muzika dunksėja garsiau artėjant. Durininkas stebi sukryžiuotomis rankomis, jau purtydamas galvą, dar jums neprieinus prie slenksčio.",
+                    "feedback": "Kodėl: Subjektų perkėlimas atgal į vietą, iš kurios jie ką tik buvo išmesti, sukuria keletą problemų. Klubas yra konflikto šaltinis — grąžinimas juos vėl veikia aplinka, triukšmu ir potencialiai alkoholiu. Craigas juos išmetė; vedimas atgal pakerta jo autoritetą ir sumaišo situaciją. Klubo vadovas gali nesutikti. Ir jūs prarandate sužeistosios ir minios matomumą. | PASEKMĖS: Craigas dvejoja — jam buvo liepta juos išmesti. Klubo durininkas užblokuoja įėjimą: 'Jie negrįžta, bičiuli.' Danny ir Viktoras abu protestuoja. Minia sumišusi. Praradote laiką ir patikimumą siūlydami planą, kuris iš karto buvo atmestas. | Refleksija: Kodėl subjektų grąžinimas į konflikto šaltinį paprastai viską pablogina?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Danny valdymas",
+            "sceneUpdate": {
+                "emoji": "😤",
+                "title": "Danny prie sienos",
+                "desc": "Pasiekėte pradinį atskyrimą. Danny yra prie sienos su Zoe šalia, maždaug dešimt metrų nuo Viktoro. Jis vaikšto pirmyn atgal, brūkštelėja rankomis per plaukus, girtas ir sujaudintas. Jo marškiniai suplėšyti ties apykakle. Jis nuolat žiūri per jūsų petį Viktoro link. Zoe laiko jo ranką, bet jis vis išsitraukia. Danny vyzdžiai išsiplėtę, kalba neryškiai, ir jo kūnas sukauptas neišnaudoto adrenalino."
+            },
+            "npcDialogue": [
+                {
+                    "character": "danny",
+                    "text": "(vaikšto, šneka neryškiai) Klausykit — KLAUSYKIT — aš NIEKO nepradėjau, aišku? Mes tiesiog gerai leidome laiką. Aš ir Zoe, teisingai, Zoe? Ir šitas bičas — šitas užsienietis — ateina ir užpila savo gėrimą ant jos suknelės. TYČIA. Tai taip, aš jį pastūmiau. Ką aš turėjau daryti? Ir tada tas didelis apsauginis gorila griebia MANE ir išmeta lauk, lyg aš būčiau problema! Aš esu auka čia! Noriu pateikti kaltinimus! (sustoja, perbraukia ranka per veidą) ... Klausykit, gal neturėjau jo stumdyti. Tai žinau. Bet ką aš turėjau daryti — tiesiog stovėti? Zoe suknelė buvo sugadinta ir visi juokėsi."
+                },
+                {
+                    "character": "zoe",
+                    "text": "(Danny, tyliai) Tai buvo nelaimingas atsitikimas, Danny. Jis į tave atsitrenkė. Žinai, kad tai buvo nelaimingas atsitikimas. Prašau, tiesiog nusiramink. (jums) Jis paprastai ne toks, pareigūne. Jis daug išgėrė. Prašau, nesuimkite jo — jis geras žmogus."
+                }
+            ],
+            "prompt": "Danny yra girtas, iššaukiantis ir įsitikinęs, kad jis yra auka. Jo mergina prieštarauja jo versijai. Kaip tvarkysite šį pokalbį?",
+            "options": [
+                {
+                    "text": "Likite visiškai ramus ir nejudantis, rankos matomos ir atsipalaidavusios — ramybės inkaras jo chaotiškam žingsniavimui. Naudokite trumpus, patvirtinančius sakinius: 'Danny, matau, kad esi piktas. Kažkas nutiko ten viduje ir tu jauti, kad buvai nuskriaustas. Girdžiu tai. Aš čia ne tam, kad nuspręsčiau, kas teisus — aš čia tam, kad visi šįnakt saugiai grįžtų namo, įskaitant tave. Zoe nori, kad grįžtum saugus. Aš noriu to paties. Ar gali giliai atsikvėpti ir papasakoti man tiksliai, kas nutiko, nuo pradžios?'",
+                    "feedback": "Kodėl: Meistriškas deeskalavimas su neblaiviu subjektu. Stovėjimas vietoje, kai jis žingsniuoja, sukuria ramybės inkarą. Trumpi sakiniai atitinka jo pablogėjusį apdorojimą. 'Matau, kad esi piktas' patvirtina nesutinkant. 'Ne tam, kad nuspręsčiau, kas teisus ar neteisus' pašalina teismo salės dinamiką, kurią jis stato. 'Visi grįžta namo saugūs' performuluoja tikslą. Zoe paminėjimas — kuria jis pasitiki — pagrindžia abstrakciją. Paprašymas jo istorijos nuo pradžios suteikia užduotį, reikalaujančią nuoseklaus mąstymo, o tai natūraliai sulėtina sujaudinimą. | PASEKMĖS: Danny nustoja žingsniuoti. Žodis 'saugiai' paveikia — po bravūros jis išsigandęs. Jis giliai atsikvėpia. 'Gerai... gerai. Taigi mes buvome prie baro, aišku?' Jis pradeda pasakoti. Jo garsumas mažėja. Zoe suspaudžia jo ranką ir šį kartą jis neišsitraukia. Adrenalinas liejasi per žodžius, o ne kumščius. | Refleksija: Kodėl paprašymas sujaudinto žmogaus papasakoti savo istoriją nuo pradžios veikia kaip deeskalavimo technika?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Sukryžiuokite rankas, atsistokite tiesiai prieš Danny ir kalbėkite tiesmukai, dėdami faktus ant stalo: 'Danny, būsiu atviras. Tavo mergina ką tik man pasakė, kad tai buvo nelaimingas atsitikimas. Čia dvidešimt liudytojų su telefonais. Kaltinimai dėl išlieto gėrimo, kai tu pirmas pastūmei — tai nesibaigia gerai tau. Protingiausia, ką gali padaryti dabar — eiti namo su Zoe ir išsimiegoti.' Žvilgtelite į Zoe patvirtinimo, tada vėl į Danny, laukdami atsakymo.",
+                    "feedback": "Kodėl: Faktiškai tikslinga, bet katastrofiškai netinkamu metu. Paneigėte jo pasakojimą, pakirtote jo merginos lojalumą ('ji ką tik man pasakė'), ir užsiminėte, kad jis yra agresorius — visa tai priešais žmogų, kurio nuomonė jam svarbiausia. Girti žmonės nereaguoja į logiką; jie reaguoja į emocijas. Puolėte jo puikybę ir santykius vienu metu. | PASEKMĖS: Danny atsisuka į Zoe: 'Tu jam pasakei, kad tai mano kaltė?!' Zoe pradeda verkti. Danny pyktis, kuris buvo nukreiptas į Viktorą, dabar nukreiptas į jus ir jo merginą. Jis žengia link jūsų: 'Tu nežinai, kas nutiko! Tavęs ten nebuvo!' Situacija blogesnė nei prieš jums prabylant. | Refleksija: Kada faktų pristatymas neblaiviam žmogui atsimuša, ir kodėl laikas svarbesnis nei tikslumas?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Nusisukite nuo Danny ir kreipkitės tiesiogiai į Zoe, išsitraukdami užrašų knygutę ir rašiklį — signalizuodami, kad tai oficialus pasakojimas: 'Ačiū — jūs labai padedate. Ar galite man tiksliai papasakoti, ką matėte nutinkant viduje? Man reikia aiškaus pasakojimo.' Laikykite Danny klausantį, bet visą dėmesį skirkite Zoe versijai jo akivaizdoje, linkčiodami ir rašydami, kūno kalba rodydami, kad ji dabar yra pagrindinis informacijos šaltinis.",
+                    "feedback": "Kodėl: Zoe blaivi ir koherentiška, todėl jos pasakojimas patikimesnis. Tačiau jo merginos apklausimas jo akivaizdoje, kai jis girtas ir sujaudintas, Danny verčia jaustis nustumtu savo paties istorijoje. Ji jau jam prieštarauja — tai daryti formaliai, su policijos dėmesiu, jį žemina. Jis stovi čia pat, stebėdamas savo merginą tampant pagrindiniu liudytoju prieš jį. | PASEKMĖS: Danny iš karto pertraukia: 'Kodėl kalbate su ja? Aš ČIA. Aš esu tas, kuris buvo užpultas!' Zoe jaučiasi spąstuose tarp lojalumo ir sąžiningumo. Dinamika pasikeitė nuo deeskalavimo prie tardymo, Danny jausdamasis supultas savo merginos ir policijos. | Refleksija: Kada geriau atskirti liudytojus prieš imant parodymus, ir kodėl tvarka svarbiau nei greitis?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vieną kartą linktelėkite, palaikydami dalykišką toną, ir pakėlę ranką sulėtinkite jo postringavimą. Tada duokite glaustą, aiškų nurodymą: 'Supratau, Danny. Girdžiu — jauti, kad buvai išprovokuotas. Eisiu pakalbėti su kitu bičiuku ir gauti jo pusę, ir tada nustatysime, kas bus toliau. Pabūk čia su Zoe. Neik prie jo. Ar aišku?' Palaikote akių kontaktą dar sekundę, tada apsisukate ant kulno ir einate Viktoro link, nebelaukdami, kol Danny emocinė būsena nusistovės.",
+                    "feedback": "Kodėl: Efektyvu ir nustato aiškią ribą. 'Girdžiu — jauti, kad buvai išprovokuotas' siūlo minimalų patvirtinimą. Pasakymas, kad gausite kitą pusę, yra skaidrus. Tačiau sąveika per trumpa, kad iš tikrųjų deeskaluotų Danny emocinę būseną. Pripažinote jį, bet nenuramintote. Palikti girtą, sujaudintą vyrą tik su mergina kaip prižiūrėtoja — be fizinio barjero, be autoriteto figūros — yra rizikinga. 'Ar aišku?' gali girtai ausiai skambėti konfrontuojamai. | PASEKMĖS: Danny nenoriai linktelėja, bet kai nueinate, jis murmėda ir vaikšto pirmyn atgal toliau. Be nuolatinio raminančio kontakto adrenalinas vėl sugrįžta. Zoe bando, bet ji bandė visą vakarą. Kai grįšite, Danny gali būti labiau sujaudintas nei tada, kai palikote. | Refleksija: Koks yra minimalus emocinio dalyvavimo kiekis, reikalingas prieš paliekant sprogstamą subjektą?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Viktoro valdymas",
+            "sceneUpdate": {
+                "emoji": "🤕",
+                "title": "Viktoras prie taksi stotelės",
+                "desc": "Craigas nuvedė Viktorą dešimt metrų toliau prie taksi stotelės. Viktoras sėdi ant žemos sienelės, šluostydamas sukaltą lūpą rankove. Jo marškiniai su kraujo dėmėmis. Jis kalba su pastebimo Rytų Europos akcentu. Jis piktas, bet po pykčiu yra kažkas kita — jausmas, kad yra taikinys, kad yra svetimas. Craigas stovi netoliese, sukryžiuotomis rankomis, stebėdamas. Du minios nariai priartėjo pažiūrėti šio pokalbio."
+            },
+            "npcDialogue": [
+                {
+                    "character": "viktor",
+                    "text": "(liečia lūpą, krūptelėja) Pažiūrėkite į mano veidą. Jis mane trenkė. Aš nieko nepadariau — atsitrenkiau į jį netyčia ir jis pamišo. Ir tada apsauginis sugriebė mane kaip nusikaltėlį. Ne jį — MANE. Jūs tai darote tik dėl to, kad nesu iš čia. Žinau, kaip tai veikia. Čekas grįžta namo, o užsienietis areštuojamas. Kiekvieną kartą — dokumentai, klausimai, įtarinėjimas. Aš nieko blogo nepadariau. Noriu surašyti pranešimą."
+                },
+                {
+                    "character": "craig",
+                    "text": "(jums, tyliai) Jis nemeluoja, kad kitas bičiukas pirmasis pastūmė. Bet šitas po atskyrimo nepakluvo. Nesiliaudavo. Turėjau panaudoti šiek tiek jėgos jį išvedant pro duris."
+                }
+            ],
+            "prompt": "Viktoras jaučiasi nusitaikytinas dėl savo kilmės. Jis turi matomą sužeidimą ir pagrįstą skundą. Apsauginis privačiai patvirtina Viktoro versiją. Kaip bendraujate su Viktoru?",
+            "options": [
+                {
+                    "text": "Atsisėskite ant sienelės šalia jo — nestovėdami virš jo, sumažindami galios asimetriją. Kalbėkite ramiai: 'Viktorai, matau, kad esi sužeistas. Leisk pažiūrėti tavo lūpą — ar reikia medicininės pagalbos? ... Gerai. Aš čia ne dėl to, iš kur esi. Apsauginis patvirtino, kad kitas vyras pirmas kontaktavo fiziškai — tai svarbu, ir aš tai užfiksavau. Girdžiu, kad jaučiesi taikinamas — vertinu tai rimtai ir prašau vertinti mane pagal tai, ką darysiu toliau, o ne pagal ankstesnę patirtį. Ar gali papasakoti, kas nutiko, žingsnis po žingsnio?'",
+                    "feedback": "Kodėl: Atsisėdimas yra galingas deeskalavimo signalas — sumažina fizinę galios asimetriją ir sako 'aš čia ne tam, kad dominuočiau.' Sužeidimo aptarimas pirma rodo rūpestį ir kuria pasitikėjimą. Tai, ką pasakė Craigas, patvirtina Viktoro versiją nepasirenkant pusės platesniame konflikte. Tiesioginis kreipimasis į profiliavimo baimę — 'aš čia ne dėl to, iš kur esi' — neatmeta jo patirties ir neteikia tuščių pažadų; vietoj to 'vertink mane pagal tai, ką darysiu toliau' kviečia jį patraukti jus atsakomybėn per veiksmus, o tai yra kur kas įtikinamiau nei teisingumo deklaracija. Paprašymas žingsnis po žingsnio pasakojimo suteikia jam galimybę ir pagarbą. | PASEKMĖS: Viktoro pečiai nuslenka. Kažkas iš tikrųjų klauso — ir svarbiau, kažkas pripažino jo baimę neatmesdamas. Jis paliečia lūpą ir sako, kad viskas gerai — nereikia medicinos. Jis pradeda metodiškai pasakoti vakarą. Jo akcentas tampa mažiau pastebimas, kai stresas mažėja. Craigas linktelėja. Du stebintys stebėtojai mato policijos pareigūną, sėdintį šalia sužeisto užsieniečio ir klausantį. | Refleksija: Kaip jūsų pasirinkta fizinė padėtis — stovėjimas virš žmogaus arba sėdėjimas šalia — keičia visą pokalbio galios dinamiką? Kai žmogus sako 'jūs tai darote, nes esu užsienietis,' koks yra įtikinamiausias atsakas?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Atsiremdami į sienelę šalia Viktoro, palankiai linktelėkite, jūsų veide nuoširdi užuojauta dėl kraujo ant jo smakro. Balsas šiltas ir guodžiantis: 'Tikiu tavimi, Viktorai. Kitas bičiukas akivaizdžiai buvo agresorius. Pasirūpinsiu, kad tai būtų tvarkoma teisingai. Turi visas teises surašyti pranešimą, ir aš tau padėsiu tai padaryti. Noriu, kad žinotum — kažkas ima tavo pusę.' Viktoro pečiai šiek tiek atsipalaiduoja. Craigas stebi iš užnugario, tylėdamas.",
+                    "feedback": "Kodėl: Empatiška ir iš gerų ketinimų, bet paskelbimas 'tikiu tavimi' ir 'akivaizdžiai buvo agresorius' prieš užbaigiant tyrimą įpareigoja jus rezultatui. Jei įrodymai vėliau net truputį prieštarautų Viktoro pasakojimui, jūsų patikimumas žlugtų. Pažadas padėti surašyti pranešimą prieš įvertinant, ar formalūs veiksmai tinkami ar pageidaujami, gali eskaluoti situaciją, kuri galėtų baigtis rankos paspaudimu. | PASEKMĖS: Viktoras jaučiasi patvirtintas — kol kas. Bet jūs suformavote tai kaip nusikaltimą su agresoriumi ir auka. Danny, kai išgirs tokį apibūdinimą, jausis išduotas. Craigas gali pajusti, kad jo veiksmai bus tikrinami. Jūs užsiblokavote formaliu procesu, kuris gali niekam netarnauti. | Refleksija: Koks skirtumas tarp žmogaus patirties patvirtinimo ir jo versijos paskelbimo oficialia tiesa?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Likite stovėti, išsitraukite užrašų knygutę ir laikykitės profesionalaus, dalykiško tono be jokio įžanginio rūpesčio dėl jo sužeidimo ar patirties. Spragtelėkite rašiklį ir pradėkite standartinę procedūrą be preambulės: 'Pone, suprantu, kad įvyko konfliktas. Man reikia jūsų vardo, gimimo datos ir adreso. Taip pat turėsiu pamatyti asmens dokumentą. Ar galite tai pateikti?' Laukiate su rašikliu virš lapo, palaikydami neutralią išraišką. Du priartėję stebėtojai atidžiai seka pokalbį.",
+                    "feedback": "Kodėl: Iš karto reikalauti asmens dokumento iš žmogaus, kuris ką tik pasakė 'žinau, kaip tai veikia — užsienietis areštuojamas', patvirtina jo blogiausią baimę. Jis jums pasakė, kad jaučiasi taikinamas kaip užsienietis, ir jūsų pirmasis atsakas yra prašyti jo dokumentų. Procedūrinis požiūris nėra klaida izoliuotai, bet jo laikas yra pražūtingas. Nepripažinote jo sužeidimo, jo pasakojimo ar jo deklaruotos baimės. | PASEKMĖS: Viktoras sustingsta. 'Matot? Dokumentai. Visada dokumentai užsieniečiui.' Jis sukryžiuoja rankas. Craigas nepatogiai pasijudina. Du šalia stovintys stebėtojai apsižvalgo. Viktoras nustoja bendradarbiauti. Kiekvienas jo žodis apie šališkumą pasitvirtina. | Refleksija: Kai žmogus jums sako, kad bijo profiliavimo, kaip jūsų pats kitas veiksmas arba patvirtina, arba paneigia tą baimę?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Išlaikykite tvirtą, deklaratyvų toną ir spręskite diskriminacijos baimę tiesiai, žiūrėdami Viktorui į akis su tvirtumu ir įsitikinimu: 'Viktorai, noriu būti visiškai aiškus — tavo tautybė absoliučiai neturi nieko bendra su tuo, kaip tai tvarkau. Su visais elgiuosi vienodai. Dabar, abu buvote įsivėlę į trikdymą, ir man reikia tai išsiaiškinti. Papasakok, kas nutiko.' Sukryžiuojate rankas ir laukiate, projektuodami nešališkumą savo laikysena ir ramiu, nenukrypstančiu žvilgsniu.",
+                    "feedback": "Kodėl: Ketinimas geras — sprendžia rūpestį tiesiogiai. Bet 'su visais elgiuosi vienodai' yra teiginys, kurio Viktorui nėra pagrindo tikėti iš nepažįstamojo, ir tyrimai rodo, kad tai dažniau skamba atmestinai nei padrąsinančiai. Peršokimas prie 'abu buvote įsivėlę į trikdymą' sugrupuoja auką ir agresorių iš karto po to, kai jis aprašė, kad buvo užpultas ir neteisingai išmestas. Tai atrodo kaip kalba, kurią žmogus pasako prieš darydamas tai, ką sakė nedarysiantis. | PASEKMĖS: Viktoras girdi žodžius, bet jų nejaučia. 'Taip, visiems vienodai,' jis sako monotoniškai. Jis bendradarbiauja minimaliai, bet be pasitikėjimo. Jūs gaunate jo pasakojimą, bet jis atsargus ir trumpas. Galimybė nuoširdžiam dialogui prarasta. | Refleksija: Kodėl teisingumo deklaracijos dažnai skamba tuščiai, ir kokie veiksmai perduoda nešališkumą efektyviau nei žodžiai?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Minios faktorius",
+            "sceneUpdate": {
+                "emoji": "📱",
+                "title": "Auditorija tampa neramia",
+                "desc": "Abu subjektai atskirti ir valdomi, bet minios dinamika pasireiškia. 15-20 žmonių pusapskritimis neišsisklaidė — priešingai, jis net paaugo, žmonėms, išeinantiems iš klubo, prisijungiant prie reginimo. Keli telefonai filmuoja. Nuotaika keičiasi: nuobodulys maišosi su alkoholiu, ir minia nori šou. Kažkas šaukia iš galo. Du vyrai priekyje pradeda lėtai ploti. Sužeista praeivė ant bordiūro visų ignoruojama."
+            },
+            "npcDialogue": [
+                {
+                    "character": "bystander",
+                    "text": "(šaukia iš minios) Ei! Leiskite jiems pasimuštyniauti! Susitvarkysite kaip vyrai! Čia nuobodu — padarykite ką nors!"
+                },
+                {
+                    "character": "zoe",
+                    "text": "(neramiai, jums) Pareigūne, šitie žmonės viską blogina. Danny vis žiūri į juos. Ar galite priversti juos eiti šalin? Prašau?"
+                }
+            ],
+            "prompt": "Minia nerimsta ir aktyviai bando išprovokuoti pakartotinę eskalaciją. Kažkas sužeista ir neprižiūrima. Filmavimas tęsiasi. Kaip valdom minią?",
+            "options": [
+                {
+                    "text": "Kreipkitės į minią ramiu autoritetu — nešaukdami, bet projektuodami balsą aiškiai per naktinį orą: 'Gerai, visi. Dėkoju už kantrybę. Štai kur esame: turiu du žmones, kuriems reikia dėmesio, ir sužeistą žmogų ant bordiūro, kuriam reikia pagalbos. Jei nesate susiję ir nesate liudytojas, geriausia, ką galite padaryti — saugiai grįžti namo. Kas matė, kas nutiko klube — norėčiau pasakojimo, likite šone.' Tada kreipkitės į blaiviai atrodantį stebėtoją: 'Ar galite patikrinti moterį ant bordiūro? Ji susižeidė kulkšnį.'",
+                    "feedback": "Kodėl: Tai puikus minios valdymas. 'Dėkoju už kantrybę' juos performuluoja iš žiūrovų į bendradarbiaujančius piliečius. Paaiškinimas 'štai kur esame' patenkina jų poreikį informacijai — minios tampa priešiškos, kai nesupranta, kas vyksta. Du aiškūs keliai — eiti namo saugiai arba likti kaip liudytojams — paverčia pasyvius gapinius žmonėmis su role. Sužeistos paminėjimas nukreipia dėmesį nuo pramogos prie empatijos. Stebėtojo įdarbinimas padėti sužeistai paskirsto atsakomybę ir sukuria prosocialų veiksmą minioje. | PASEKMĖS: Nuotaika keičiasi. Keli žmonės gale pradeda trauktis — jiems duota leidimas eiti nesijaučiant, kad kažką praleido. Du žmonės sako matę, kas nutiko viduje, ir pereina į šoną. Moteris patikrina sužeistą. Provokuotojas, šaukęs 'leiskite jiems pasimuštyniauti', pasilikęs su mažėjančia auditorija, nutyla. Telefonai tęsia filmavimą, bet dabar filmuoja kompetenciją. | Refleksija: Kodėl konstruktyvios rolės suteikimas miniai sumažina jų norą vaidinti destruktyvę?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Staigiai atsisukite į minią, ženkite agresyvų žingsnį pirmyn ir šaukite visu garsu, pirštu rodydami į pusapskritimį telefonų ir veidų: 'Visi, kas nesusiję — EIKITE. DABAR. Tai policijos vieta. Kas trukdys — bus areštuotas už trukdymą. Padėkite telefonus ir eikite šalin!' Jūsų balsas atsimušą nuo klubo fasado. Šluojate žvilgsniu per minią, užmegzdami akių kontaktą su provokuotoju, lėtai plojančiais vyrais ir kiekvienu pakeltu telefonu.",
+                    "feedback": "Kodėl: Įsakymas 15-20 girtų žmonių skirstytis retai veikia — ypač 1:30 val. nakties prie naktinio klubo. Grėsmė areštuoti už trukdymą, kai jie stovi viešame šaligatvyje, yra teisiškai abejotina ir praktiškai neįgyvendinama. Liepimas padėti telefonus signalizuoja, kad nenorite būti stebimi, o tai verčia juos norėti stebėti dar labiau. Agresija prieš minią rizikuoja ją suvienyti prieš jus — vienas dalykas pavojingesnis nei nerami minia yra priešiška minia. | PASEKMĖS: Niekas neišeina. Provokuotojas juokiasi: 'Tai areštuok mus visus!' Telefonai lieka pakeltiprie, žmonės priartėja iš pasipriešinimo. Danny ir Viktoras abu reaguoja į šauksmą — jų adrenalinas vėl kyla. Jūs eskalavote minią ir destabilizavote subjektus vienu metu. | Refleksija: Kodėl įsakymas didelei neblaiviai miniai skirstytis beveik niekada nepasiekia skirstymosi?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Laikykite nugarą miniai ir visiškai ją ignoruokite — ji tėra fonas, blaškantis nuo tikrosios užduoties. Atsisukate į du subjektus, išsitraukiate užrašų knygutę ir pradedate organizuoti pastabas apdorojimui. Šauksmai už nugaros, lėtas plojimas, pakelti telefonai — visa tai foninis triukšmas, kurį nutildote galvoje. Minia nusibos ir išsiskirstys savaime, kai drama baigsis, galvojate. Vaikštote tarp Danny ir Viktoro pozicijų, sutelkę dėmesį į tyrimą, kol sužeista praeivė ant bordiūro lieka be dėmesio.",
+                    "feedback": "Kodėl: Minia nėra pasyvus fonas — ji yra aktyvus kintamasis lygtyje. Provokuotojas, šaukiantis 'leiskite jiems pasimuštyniauti', tiesiogiai kelia Danny ir Viktoro adrenaliną. Minios ignoravimas taip pat reiškia sužeistos ignoravimą, o tai yra gerovės pažeidimas. Minios prie naktinių klubų 1:30 val. nakties nesibodina ir neišeina — jos girta ir nerimsta. | PASEKMĖS: Be pripažinimo minia garsėja. Lėtas plojimas greitėja. Danny pradeda vaidinti auditorijai — pūčia krūtinę, kelia balsą. Viktoras atspindi. Sužeista praeivė ir toliau sėdi neprižiūrima. Zoe nerimas auga. Situacija grįžta link konfrontacijos. | Refleksija: Kada destabilizuojančio faktoriaus ignoravimas leidžia jam išaugti virš jūsų gebėjimo jį valdyti?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Ryžtingai praeidami pro pusapskritimį, eikite tiesiai prie žmogaus, kuris šaukė 'leiskite jiems pasimuštyniauti.' Atsistokite pakankamai arti, kad jis jaustų šaltą naktinį orą tarp jūsų, ir kalbėkite tyliai, kad tik jis ir artimiausi draugai girdėtų: 'Bičiuli, man reikia, kad liautum. Tu mano darbą sunkini ir keli pavojų žmonėms. Jei kas nors susižeis dėl tavo kurstymų — tai ant tavęs. Arba padėk, arba eik.' Palaikote jo žvilgsnį, kol už nugaros du subjektai lieka be priežiūros.",
+                    "feedback": "Kodėl: Garsiausio provokuotojo aptarimas yra gundantis — nukirsk gyvatei galvą. Bet vieno žmogaus iš girtų minios atskyrimas gali jį priversti paklusti iš gėdos arba pasipriešinti iš iššūkio. 1:30 val. nakties su alkoholiu antrasis yra tikėtinesnis. Pasitraukimas nuo subjektų konfrontuoti rėksnį taip pat sumažina jūsų pagrindinės vietos kontrolę. Ir jei provokuotojas eskaluoja, dabar turite tris problemas. | PASEKMĖS: Vyras pučiasi: 'Arba kas? Areštuosi mane už kalbėjimą?' Jo draugai susiburiaria aplink jį. Jūs dabar esate atskiroje konfrontacijoje, kol Danny ir Viktoras yra be priežiūros. Minia turi naują dėmesio tašką — jūs prieš rėksnį. | Refleksija: Kada konfrontacija su garsiausiu balsu minioje sprendžia problemą, o kada sukuria naują?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Sprendimas",
+            "sceneUpdate": {
+                "emoji": "⚖️",
+                "title": "Sprendimo taškas",
+                "desc": "Minia praretėjo. Sužeista praeivė gauna pagalbą. Danny pakankamai nusiraminęs sėdėti prie sienos su Zoe, nors vis dar spokso Viktoro link. Viktoro lūpa nustojo kraujuoti; jis tyliai sėdi šalia Craigo. Abu vyrai truputį išblaivinėja — šaltas naktinis oras ir adrenalino kritimas daro savo darbą. Turite abiejų pasakojimus, apsauginio patvirtinimą ir supratimą, kas nutiko. Dabar atėjo sprendimas: koks rezultatas atitinka šią situaciją?"
+            },
+            "npcDialogue": [
+                {
+                    "character": "danny",
+                    "text": "(ramesnis dabar, apkabinęs Zoe) Klausykit... aš tiesiog noriu grįžti namo. Zoe teisi — tai buvo kvaila. Bet jei jis pateiks kaltinimus, aš irgi pateikiu. Turėjau teisę ginti savo merginą."
+                },
+                {
+                    "character": "viktor",
+                    "text": "(Craigui, tyliai, jums girdima) Nenoriu eiti į policijos nuovadą. Ryte turiu darbą. Aš tiesiog... nenorėjau būti taip išmestas. Lyg būčiau niekas. Su gėrimu buvo nelaimingas atsitikimas."
+                },
+                {
+                    "character": "craig",
+                    "text": "(jums, privačiai) Sąžiningai? Galbūt buvau per grubus juos šalindamas. Užsienietis mažai ką blogo padarė. Geriau būtų, kad visa tai tyliom pranyktų, jei atvirai."
+                }
+            ],
+            "prompt": "Danny nori grįžti namo. Viktoras nenori rūpesčių. Apsauginis pripažįsta, kad buvo per grubus. Nė viena pusė nepatyrė rimtų sužeidimų. Kokį sprendimą siūlote?",
+            "options": [
+                {
+                    "text": "Suveskite Danny ir Viktorą į kalbėjimo atstumą — ne veidas į veidą, bet pakankamai arti girdėti. Kalbėkite ramiai ir aiškiai: 'Gėrimas buvo išlietas netyčia. Buvo stumdymasis. Abu buvote išmesti. Nė vienas nenorite policijos nuovados antrą nakties — ir sąžiningai, nereikia. Kaltinimų šįnakt nerašau, bet reikia vieno dalyko. Danny: pripažink, kad gėrimas netyčia. Viktorai: priimk, kad tai baigta. Paspauskit rankas arba ne — abu grįžtate namo. Danny — taksi į vakarus. Viktorai — taksi į rytus. Jei pamatysiu kurį prie klubo dar šįnakt, turėsime labai kitokį pokalbį.'",
+                    "feedback": "Kodėl: Tai proporcinga, žmogiška ir praktiška. Faktų apibendrinimas neutraliai — 'gėrimas buvo išlietas netyčia, buvo stumdymasis' — nuima herojų ir piktadarių etiketės. 'Nė vienas iš jūsų neturi būti policijos nuovadoj antrą valandą nakties' įvardija realybę, kurios abu nori. Danny paprašymas pripažinti nelaimingą atsitikimą sprendžia faktinį ginčą. Viktoro paprašymas priimti, kad tai baigta, sprendžia liekamąjį skundą. Rankos paspaudimo pasiūlymas nereikalaujant jo išsaugo orumą. Taksi atskirimas skirtingomis kryptimis apsaugo nuo pakartotinio susitikimo. Paskutinė frazė yra aiški riba be grėsmės. | PASEKMĖS: Danny sumurmėja: 'Taip... gerai, tikriausiai buvo netyčia.' Viktoras linktelėja. Jie nepaspaudžia rankų, bet trumpas akių kontaktas pakeičia priešiškumą. Zoe tyliai ištaria 'ačiū'. Craigas atrodo su palengvėjimu. Du taksi sustabdyti. Naktis baigiasi be kaltinimų, be sužeidimų ir be virusinimo policijos nesėkmės vaizdo įrašo. | Refleksija: Kaip sprendimas, kuris įvardija realybę ir siūlo orumą saugantį išėjimą, sukuria tvirtesnę taiką nei formalus vykdymas?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Atsitraukite žingsnį ir kliniškai įvertinkite faktus. Danny pirmas pastūmė — tai sudaro smurtą. Viktoras turi matomą sužeidimą. Craigas yra patvirtinantis liudytojas. Išsitraukiate antrankius ir einate prie Danny, kuris sėdi prie sienos su Zoe: 'Danny, areštuoju tave dėl užpuolimo. Tu pirmas pastūmei, tai sudaro smurtą. Viktoras yra nukentėjusysis. Craigas liudytojas. Tvarkysiu tai tinkamai — aiškus atvejis.' Siekiate jo rankos, kol Zoe veidas subyra nuo siaubo.",
+                    "feedback": "Kodėl: Techniškai pagrindžiama — Danny iš tiesų pirmas fiziškai kontaktavo. Bet proporcingumas yra labai svarbus. Stumdymas dėl išlieto gėrimo tarp dviejų neblaivių vyrų, be rimtų sužeidimų, kai 'auka' nenori kelti kaltinimų ir ryte turi darbą, nepateisina arešto, kuris užgriozdins sistemą, traumuos Zoe ir paverstų smulkų incidentą teistumu. Apsauginis — pagrindinis liudytojas — greičiausiai susilpnins savo grubaus elgesio vaidmenį pradėjus formaliam procesui. Minia mato vyrą areštuojamą dėl stumdymo žmogaus, kuris apliejo gėrimą ant jo merginos. | PASEKMĖS: Danny sprogsta: 'Jūs areštuojat MANE?!' Zoe isterijoje. Viktoras protestuoja — jis to neprašė. Craigas nutyla, suvokdamas, kad jo paties elgesys gali būti tikrinamas. Arešto procesas telefonų ir minios akivaizdoje tampa istorija. Smulkus incidentas dabar yra baudžiamoji byla, kuri niekam nenaudinga. | Refleksija: Kai įstatymas suteikia jums galią areštuoti, kaip nusprendžiate, ar areštas tarnauja teisingumui, ar jį griauna?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Nueikite iki vidurio tarp Danny sienos ir Viktoro taksi stotelės, pakeldami balsą tiek, kad abi pusės girdėtų, ir paskelbkite verdiktą sukryžiuotomis rankomis: 'Gerai, abu gėrėt, abu buvot muštynėse, ir galėčiau areštuoti abu dėl viešos tvarkos pažeidimų. Bet šįnakt naudosiuosi savo nuožiūra. Eikite namo. Negrįžkite. Jei sužinosiu apie kurį nors iš jūsų dar šįnakt, nakvosite kameroje. Aišku?' Rodote Danny vieną kryptį ir Viktorui kitą, laukdami nenorių linktelėjimų.",
+                    "feedback": "Kodėl: Rezultatas priimtinas — jokio arešto, eikite namo — bet formuluotė problemiška. 'Galėčiau areštuoti abu' pakabina vykdymo grėsmę virš gailestingumo akto, versdama paklusnumą jaustis kaip dėkojimą už malonę, o ne kaip teisingą rezultatą. Neatskiria iniciatoriaus nuo žmogaus su pagrįstu skundu. Viktoras, kuris buvo trenktas ir grubiai išmestas, girdi, kad buvo vienodai kaltas. Pripažinimo, kas iš tikrųjų nutiko, trūkumas palieka abu vyrus jausti, kad nebuvo išgirsti. | PASEKMĖS: Abu vyrai išeina, bet nė vienas nesijaučia, kad situacija buvo tvarkoma teisingai. Danny galvoja, kad pasisekė. Viktoras galvoja, kad policija jį laikė vienodai kaltu, nors jis buvo trenktas. Nė vienas nieko neišmoko. Tai patogus sprendimas, o ne teisingas. | Refleksija: Koks skirtumas tarp nuožiūros, kuri sprendžia situaciją, ir nuožiūros, kuri tik ją baigia?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Išsitraukite pilnas parodymų formas ir ruoškitės nuodugniai procedūrai. Einate pirmiausia prie Danny su užrašų knygute: 'Man reikia pilno rašytinio parodymo.' Tada prie Viktoro: 'To paties iš jūsų, pone — pilnas pasakojimas.' Sustabdykite likusius stebėtojus, mačiusius incidentą, liudytojų parodymams. Iškvieskite medicininį vertinimą Viktoro lūpai ir sužeistai praeivei. Imkite detalius parodymus, fotografuokite sužeidimus ir pateikite pilną incidento pranešimą. Tegu sistema nusprendžia tolesnį žingsnį.",
+                    "feedback": "Kodėl: Procedūriškai kruopštu, bet praktiškai neproporcinga. Pilni parodymai, medicininiai vertinimai ir incidento ataskaitos dėl smulkaus stumdymosi tarp girtų vyrų — kai nė vienas nenori formalių veiksmų — užtruks valandas. Tai saistys policijos išteklius 1:30 val. nakties šeštadienį, kai laukia kiti kvietimai. Tai privers Viktorą vykti į nuovadą nepaisant jo ryte darbo. Tai eskaluoja smulkų incidentą į biurokratinę mašineriją, kurios nebegalima sustabdyti. Kartais sistema nėra tinkamas įrankis. | PASEKMĖS: Ketvirtą valandą ryto pagaliau baigiate. Danny ir Zoe išsekę ir su pagieža. Viktoras praleido miegą prieš pamainą. Sužeista praeivė laukė dėmesio, kol jūs iminėjote parodymus. Pranešimas kruopštus, bet rezultatas savaičių tolumoje ir greičiausiai bus įspėjimas. Praleidote tris valandas dešimties minučių problemai. | Refleksija: Kada procedūrinis kruopštumas tampa neproporcingu incidento rimtumui?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Užbaigimas",
+            "sceneUpdate": {
+                "emoji": "🌃",
+                "title": "Vietos uždarymas — 2:15 val.",
+                "desc": "Danny išvyko taksi su Zoe. Viktoras laukia savo taksi, ramesnis dabar, žiūrinėja telefoną. Minia daugiausia išsisklaidė — keli vėlavę dar maišosi. Craigas stovi prie klubo įėjimo, sukryžiuotomis rankomis, stebėdamas, kaip gatvė tuštėja. Pastiprinimo ekipažas pagaliau atvyko — vėlavimas buvo dėl kelių transporto eismo įvykio žiedinėje magistralėje. Sužeista praeivė — jauna moteris — vis dar sėdi ant bordiūro, jos kulkšnis patinusi. Jai padėjo malonus praeivys, bet oficialaus dėmesio ji dar negavo. Naktis rimsta, bet vieta dar neuždaryti."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Ekipažas vietoje prie Vibe naktinio klubo — pastiprinimo ekipažas dabar atvyksta. Atsiprašome dėl vėlavimo, žiedinėje magistralėje buvo kelių transporto priemonių eismo įvykis, kuris patraukė išteklius. Koks jūsų dabartinis statusas?"
+                },
+                {
+                    "character": "bystander",
+                    "text": "(jauna moteris ant bordiūro, laikosi už kulkšnies) Atsiprašau, pareigūne? Pasukau kulkšnį, kai jie pradėjo muštis — bandžiau pasitraukti iš kelio ir nukritau nuo bordiūro. Ji labai patinusi. Nežinau... nežinau, ar turėčiau vykti į ligoninę. Mano draugai išėjo be manęs."
+                },
+                {
+                    "character": "craig",
+                    "text": "(prieina) Klausykite, pareigūne — vertinu, kad tai sutvarkėte. Tarp mūsų... tikriausiai sugriebiau tą bičiuką stipriau nei reikėjo. Seni įpročiai iš armijos. Pakalbėsiu su vadovu, kad mūsų durų komanda gautų geresnį mokymą. Šitos naktys greitai prasprūsta iš kontrolės."
+                }
+            ],
+            "prompt": "Konfrontacija išspręsta, bet du žmonės vis dar reikalauja jūsų dėmesio: sužeista praeivė, kuri laukė, ir apsauginis, kuris ką tik pripažino panaudojęs perteklinę jėgą. Kaip uždarote vietą?",
+            "options": [
+                {
+                    "text": "Nedelsdami prieikite prie sužeistos ir atsiklaupkite šalia jos ant bordiūro: 'Atsiprašau, kad laukėte — leiskite pažiūrėti. Koks jūsų vardas? ... Mia, gerai. Ar galite pajudinti pirštus? Patinimas rodo patempimą — kviečiu greitąją. Draugai išėjo? Pabūsiu su jumis, kol atvyks.' Kai ji pasirūpinta, grįžkite prie Craigo: 'Vertinu tavo sąžiningumą. Šįnakt formalaus reikalo nedarau — bet tęsk tą pokalbį apie mokymus. Tai, kaip šalinami žmonės, svarbu ne mažiau nei priežastis. Tu šįnakt padėjai laikydamas Viktorą ramiai — tai versija tavęs, kurios reikia.'",
+                    "feedback": "Kodėl: Sužeista praeivė buvo labiausiai apleistas žmogus vietoje — ji buvo sužeista incidento, draugai ją paliko, ir ji kantriai laukė, kol tvarkėte visus kitus. Jos prioritetizavimas dabar signalizuoja, kad kiekvienas žmogus vietoje svarbi, o ne tik garsiausi. Kreipimasis vardu, sužeidimo patikrinimas, transporto organizavimas ir pasiūlymas likti — tai veiksmai, kuriantys didelį pasitikėjimą. Su Craigu sąžiningumas atlygina sąžiningumu — jo prisipažinimo pripažinimas neformalinant šįnakt yra proporcingas, tuo tarpu nukreipiant jį prie konstruktyvios jo versijos sustiprina elgesį, kurio norite. | PASEKMĖS: Mia akivaizdžiai palengvėja — kažkas oficialus pagaliau ją pastebėjo. Ji paskambina bendrabučio draugei. Greitoji iškviesta. Craigas lėtai linktelėja jūsų žodžiams; jie veikia, nes matėte abi jo versijas šįnakt ir pasirinkote sustiprinti geresnę. Vieta uždaryta su rūpesčiu. Paskutiniai stebėtojai mato policijos pareigūną, sėdintį su sužeista jauna moterimi, laukiant greitosios. Tai paskutinis nakties vaizdas. | Refleksija: Paskutinis dalykas, kurį darote vietoje, dažnai yra tai, ką žmonės labiausiai atsimena. Ką užbaigimas su rūpesčiu praneša visiems, kurie vis dar stebi?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Iš karto atsisukite į Craigą — jo prisipažinimas yra svarbus ir negali laukti. Nusivedę jį toliau nuo likusių stebėtojų, nuleidžiate balsą rimtu, matuotu tonu: 'Craigai, turiu būti aiškus: tai, ką aprašai, galėtų sudaryti perteklinę jėgą. Man reikia, kad tiksliai surašytum, kas nutiko šalinimo metu. Priklausomai nuo to, ką parodys vaizdo kameros, gali būti oficialus tolimesnis tyrimas. Vertinu sąžiningumą, bet negaliu to ignoruoti.' Už nugaros jauna moteris ant bordiūro pajudina patinusią kulkšnį ir stebi, kaip pareigūnas vėl praeina pro šalį.",
+                    "feedback": "Kodėl: Apsauginio prisipažinimo rimtas priėmimas yra profesionaliai teisingas. Tačiau sužeista praeivė — kuri laukė daugiau nei trisdešimt minučių — vis dar sėdi ant bordiūro su patinusia kulkšnimi. Formalaus proceso prioritetizavimas virš neatidėliotino gerovės poreikio siunčia aiškią žinutę apie jūsų vertybes. Craigas savanoriškai prisipažino; pasitikus jį neatidėliotinomis formaliomis pasekmėmis užtikrins, kad joks apsauginis daugiau niekada su jumis nebūtų sąžiningas. | PASEKMĖS: Craigo veidas užsiveria. 'Gerai. Pamirškit, kad ką nors sakiau.' Jis nueina vidun. Praradote bendruomenės sąjungininką ir bendradarbiaujantį liudytoją. Tuo tarpu Mia sėdi ant bordiūro, svarstydama, ar kas nors jai padės. Procedūriškai teisingas veiksmas kainavo žmogiškąjį. | Refleksija: Kai kas nors savanoriškai pripažįsta klaidą, kaip jūsų atsakas nulemia, ar jie — ir kiti — kada nors bus sąžiningi su jumis ateityje?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Viską greitai užbaikite — esate pavargęs ir laukia kiti kvietimai. Iškvieskite greitąją sužeistai per radiją, tada nueikite prie Craigo ir duokite jam glaustą linktelėjimą: 'Craigai, pasikalbėk su vadovybe apie durų komandos šalinimo procedūrų peržiūrą. Šįnakt buvo grubiau nei reikėjo.' Žvilgtelite į bordiūrą, kur jauna moteris sėdi viena, gniaužydama telefoną, patvirtinkite, kad greitoji pakeliui, užregistruokite vietą kaip išspręstą ir einate prie automobilio pasiruošti kitam kvietimui. Šis baigtas.",
+                    "feedback": "Kodėl: Efektyvu, ir veiksmai iš esmės teisingi — greitoji sužeistai, patarimas apsauginiui. Bet 'viską greitai užbaikite' praleidžia žmogiškąjį matmenį. Miai reikia ne tik greitosios — ji yra viena, sužeista ir išsigandusi antrą valandą nakties. Iškviesta greitoji be pokalbio palieka ją jaučiantis kaip logistinę problemą. Craigui reikia ne tik patarimo — jis ką tik atsivėrė dėl tikros problemos. Greitas nurodymas praleidžia momentą. Efektyvumas be empatijos užpildo kontrolinį sąrašą, bet ne darbą. | PASEKMĖS: Greitoji iškviesta. Craigas linktelėja ir nueina vidun. Mia sėdi viena ant bordiūro, laikydama telefoną. Viskas techniškai sutvarkyta. Niekas nesulaukė rūpesčio. Skirtumas tarp uždarytos vietos ir gerai uždarytos vietos yra būtent šis tarpas. | Refleksija: Kai visi langeliai pažymėti, bet niekas nesijaučia pastebėtas, ar darbas tikrai padarytas?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Praeidami pro sužeistą ant bordiūro — jos kulkšnis akivaizdžiai patinusi, ji dreba plonoje suknelėje — pristojate vos tiek, kad kreiptumėtės nesustodami: 'Ponia, jei esate sužeista, turėtumėte paskambinti 112 arba nuvykti į priėmimo skyrių. Galiu pasakyti kryptis. Ar dar ko nors reikia?' Ji pradeda atsakyti, bet jūs jau atsisukate automobilio link. Incidento pranešimas turi būti surašytas, kol detalės dar šviežios atmintyje, o vieta laukia uždarymo.",
+                    "feedback": "Kodėl: Pasakyti sužeistai, paliktai devyniolikmetei, kad paskambintų pagalbos tarnyboms pati — kai jūs esate pagalbos tarnyba — yra pareigos rūpintis neįvykdymas. Ji sėdėjo ant šalto bordiūro trisdešimt minučių, laukdama, kol kas nors jai padės. Nukreipti ją pasirūpinti savimi, kad galėtumėte daryti dokumentaciją, jai pasako, kad jūsų ataskaita svarbesnė nei jos kulkšnis. Tai bus istorija, kurią ji pasakos metų metus: 'Buvau sužeista ir policija liepė man pačiai tvarkytis.' | PASEKMĖS: Mios veidas nukrenta. Ji paskambina 112 pati, viena ant bordiūro, antrą valandą nakties. Craigas stebi iš durų ir papurto galvą. Paskutiniai stebėtojai filmuoja pareigūną, sėdantį į automobilį, kol sužeista jauna moteris sėdi viena. Tai vaizdo įrašas, kuris tampa virualiniu — ne dėl gerų priežasčių. | Refleksija: Kai sužeistas žmogus yra vienas ir pažeidžiamas, koks yra minimalus rūpesčio standartas, kurį jiems skolate — ir kokią žinutę siunčia jo nesilaikymas kiekvienam liudytojui?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Aptarimas ir atskleidimas",
+            "sceneUpdate": {
+                "emoji": "🏁",
+                "title": "Mokymo aptarimas",
+                "desc": "Atgal nuovadoje. Seržantas Kowalski peržiūri jūsų veiklą naktinio klubo gatvės muštynių scenarijuje."
+            },
+            "autoDialogue": true,
+            "finalScene": true,
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Jūs įžengėte į chaotišką, alkoholiu kurstomą vietą su dviem agresyviais vyrais, nepastovia minia, sužeista praeive ir be pastiprinimo aštuonias minutes. Kiekviena sekundė reikalavo sprendimo: į ką kreiptis pirma, kaip panaudoti apsauginį, kada valdyti minią ir koks sprendimas tarnautų visiems — o ne tik garsiausiam balsui. Tai, kad Danny ir Viktoras išvyko atskirais taksi, minia išsisklaidė be incidentų ir Mia gavo pagalbos, kuriam reikėjo — man sako, kad supratote užduotį."
+                },
+                {
+                    "character": "officer",
+                    "text": "Sąžiningai, atvykimas vienam buvo sunkiausia dalis. Nuolat galvojau, kad reikia laukti pastiprinimo, prieš darant ką nors reikšmingo. Instinktas laikytis nuošalyje, kol atvyks paspirtis, buvo nepaprastai stiprus."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Ir tai yra perkeitimas, kurį noriu, kad neštumėte toliau. Atvykimas vienam nėra trūkumas, jei panaudojate žmones, kurie jau ten yra. Craigas tapo jūsų pastiprinimu tą akimirką, kai davėte jam aiškų nurodymą. Zoe tapo jūsų sąjungininke tą akimirką, kai patvirtinote ją. Minia tapo jūsų turtu tą akimirką, kai davėte jiems rolę, o ne traktavote kaip grėsmę. Kiekvienoje chaotiškoje vietoje jau yra pozicionuotų potencialių sąjungininkų — jūsų darbas yra juos identifikuoti ir įdarbinti, kol atvyks jūsų radijo pastiprinimas."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Pareigūnai, kurie vargsta su naktinio klubo kvietimais, yra tie, kurie bando viską kontroliuoti vieni. Tie, kurie klesti, yra tie, kurie koordinuoja. Jūs ne tiesiog valdėte šią vietą — jūs ją orkeštravote. Ir ta paskutinė akimirka su Mia — sėdėjimas su sužeista jauna moterimi, kurią visi kiti buvo pamiršę — tai yra tai, ką žmonės atsimins, kai galvos apie policiją. Ne šaukimas, ne atskyrimas, ne sprendimas. Rūpestis gale. Dabar papasakosiu, kas nutiko, kai visi grįžo namo."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": { "name": "Dispečerinė", "avatar": "📻" },
+        "danny": { "name": "Danny (25, neblaivus)", "avatar": "😤" },
+        "viktor": { "name": "Viktoras (28, užsienio akcentas)", "avatar": "🤕" },
+        "zoe": { "name": "Zoe (Danny mergina, 24)", "avatar": "😰" },
+        "craig": { "name": "Craig (apsauginis, 35, buvęs karys)", "avatar": "🛡️" },
+        "bystander": { "name": "Praeivė / Mia (sužeista, 19)", "avatar": "🤕" },
+        "officer": { "name": "Jūs (pareigūnas)", "avatar": "👮" },
+        "trainer": { "name": "Seržantas Kowalski", "avatar": "👮‍♂️" }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Išskirtinis vietos valdymas",
+            "emoji": "🌟",
+            "feedback": "Jūs pademonstravote aukščiausio lygio veiklą vienoje iš chaotiškiausių policijos aplinkų. Įvertinote prieš veikdami, atskyrėte kovojančiuosius pasitelkdami aplinkos resursus, deeskalavote du neblaivius vyrus empatija ir ramiu autoritetu, valdėte nepastoviauą minią suteikdami jai konstruktyvias roles, pasiekėte proporcingą sprendimą, išsaugojusį visų orumą, ir uždarėte vietą pasirūpindami žmogumi, kurį visi kiti buvo pamiršę. Kiekvienas telefonas, kuris šįnakt filmavo jus, užfiksavo policijos darbą, kuriantį bendruomenės pasitikėjimą."
+        },
+        "good": {
+            "title": "Stiprus atlikimas po spaudimu",
+            "emoji": "✅",
+            "feedback": "Jūs sprendėte didelio spaudimo naktinio klubo incidentą profesionaliai ir su geru sprendimu. Pasiekėte atskyrimą, valdėte kelias puses ir radote pagrįstą sprendimą. Kai kurios gilesnio deeskalavimo, geresnio minios valdymo ar atidesnio užbaigimo galimybės buvo praleistos, bet jūsų bendras požiūris buvo pagrįstas ir vieta baigėsi be rimtos eskalacijos."
+        },
+        "average": {
+            "title": "Pakankamas, bet nenuoseklus",
+            "emoji": "📊",
+            "feedback": "Jūs pašalinote tiesioginę fizinę grėsmę, bet vargote su vietos sudėtingumu. Ar per skubų įsitraukimą, minios apleidimą, ar sprendimą, palikusį puses neisgirstas — buvo reikšmingų praleistų galimybių. Naktinių klubų incidentai reikalauja vienu metu valdyti subjektus, minias, sužeistus ir sąjungininkus — peržiūrėkite, kaip subalansuoti šiuos konkuruojančius poreikius."
+        },
+        "poor": {
+            "title": "Reikia reikšmingo tobulėjimo",
+            "emoji": "⚠️",
+            "feedback": "Jūsų požiūris į šį naktinio klubo incidentą sukūrė daugiau problemų nei išsprendė. Agresyvios komandos, nesugebėjimas efektyviai atskirti, sužeistos praeivės apleidimas ar neproporcinis vykdymas eskalavo valdomą situaciją. Alkoholiu kurstomose minios aplinkose kiekviena klaida kaupiasi. Peržiūrėkite atskyrimo technikas, deeskalavimą su neblaiviais subjektais, minios dinamiką ir proporcingą sprendimą."
+        }
+    },
+    "metrics": {
+        "sceneSafety": {
+            "name": "Vietos saugumas ir vertinimas",
+            "description": "Greitas, bet kruopštus vietos vertinimas, taktinis sąmoningumas ir fizinio saugumo prioritetizavimas visoms pusėms, įskaitant pareigūną",
+            "icon": "🔍"
+        },
+        "separationAndControl": {
+            "name": "Atskyrimas ir kontrolė",
+            "description": "Efektyvus kovojančiųjų atskyrimas, sąjungininkų įtraukimas ir fizinio atstumo tarp nepastovių pusių palaikymas per visą susitikimą",
+            "icon": "🔀"
+        },
+        "emotionalRegulation": {
+            "name": "Emocinis deeskalavimas",
+            "description": "Neblaivių, sujaudintų asmenų valdymas per ramų autoritetą, patvirtinimą ir komunikacijos technikas, pritaikytas pablogėjusiam apdorojimui",
+            "icon": "🧠"
+        },
+        "crowdManagement": {
+            "name": "Minios ir kamerų valdymas",
+            "description": "Konstruktyvus stebėtojų įtraukimas, provokuotojų neutralizavimas, sužeistų pusių prižiūrėjimas ir profesionalumo palaikymas stebint",
+            "icon": "👥"
+        },
+        "proportionateResolution": {
+            "name": "Proporcingas sprendimas",
+            "description": "Rezultato pasiekimas, atitinkančio incidento rimtumą, visų pusių orumo išsaugojimas ir tvarios rezoliucijos sukūrimas, o ne tiesiog susitikimo pabaigimas",
+            "icon": "⚖️"
+        }
+    }
+}

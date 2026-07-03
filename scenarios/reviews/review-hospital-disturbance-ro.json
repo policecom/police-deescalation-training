@@ -1,0 +1,806 @@
+{
+    "scenarioId": "hospital-disturbance",
+    "reviewVersion": "v1",
+    "title": "Analiză aprofundată — Tulburare în spital",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Apelul și coridorul",
+            "criticalSkills": [
+                "Culegere de informații pre-angajare",
+                "Coordonare cu personalul medical înainte de contactul cu pacientul",
+                "Evaluare proporțională a siguranței"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Întrebi paznicul: „A făcut amenințări directe de a răni pe cineva? Este înarmat? I-a oferit cineva vreo gestionare a durerii? Și cine este asistenta-șefă — aș vrea câteva cuvinte cu ea înainte să intru.”",
+                    "strengths": [
+                        "Adună informații tactice și medicale critice (arme, amenințări directe) pentru evaluarea siguranței",
+                        "Întrebarea despre gestionarea durerii arată că înțelegi factorul probabil din spatele comportamentului",
+                        "Solicitarea contactului cu asistenta-șefă stabilește colaborarea poliție–sănătate de la început",
+                        "30 de secunde de pregătire transformă un răspuns reactiv într-unul strategic"
+                    ],
+                    "consequences": "Intri cu o imagine clară: fără arme, fără amenințări directe către persoane specifice, gestionarea durerii nu a fost oferită încă, iar asistenta-șefă te așteaptă. Ai un plan, nu doar o prezență.",
+                    "trainingFocus": "Cum schimbă 30 de secunde de pregătire traiectoria următoarelor 30 de minute? Ce informații sunt critice înainte de a te adresa unui pacient în spital?"
+                },
+                "partially_positive": {
+                    "choiceText": "Îi pui paznicului câteva întrebări rapide — este Paul înarmat, a amenințat direct pe cineva? Apoi intri calm, păstrând paznicul ca sprijin.",
+                    "adequate": [
+                        "Instinct bun de a aduna informații de siguranță de bază",
+                        "Păstrarea paznicului ca sprijin este tactic solidă"
+                    ],
+                    "missed": [
+                        "Nicio coordonare cu personalul medical — lipsește contextul clinic din spatele comportamentului",
+                        "Tratezi asta ca pe o situație de securitate când este în primul rând o situație de sănătate cu dimensiuni de securitate",
+                        "Fără context medical, poți interpreta greșit comportamentul generat de durere ca agresivitate"
+                    ],
+                    "improvement": "Într-un mediu de spital, a cui expertiză contează cel mai mult pentru a înțelege de ce un pacient se comportă agresiv? Ce îți oferă coordonarea cu personalul clinic ce securitatea nu poate?",
+                    "consequences": "Ești în siguranță și rezonabil informat, dar îți lipsește contextul medical care te-ar ajuta să înțelegi comportamentul lui Paul și să lucrezi eficient cu echipa de îngrijire."
+                },
+                "neutral": {
+                    "choiceText": "Îi spui paznicului să evacueze sala de așteptare de ceilalți pacienți pentru siguranță, apoi te poziționezi la intrarea în zona de triaj și strigi către Paul că poliția a sosit.",
+                    "adequate": [
+                        "Conștiința siguranței este prezentă",
+                        "Conștientizarea că alți pacienți pot fi în pericol"
+                    ],
+                    "missed": [
+                        "Evacuarea unei săli de așteptare pentru un pacient care a aruncat un suport de reviste este disproporționată — creează haos și întârzie îngrijirea pentru zeci de alți pacienți",
+                        "Anunțarea sosirii poliției de la distanță este impersonală și declanșează percepția de potențială arestare",
+                        "Paul va auzi „poliție” înainte să vadă o ființă umană"
+                    ],
+                    "improvement": "Cum evaluezi proporționalitatea când decizi măsuri de siguranță? Care este diferența între un pacient care a aruncat un obiect din frustrare și o amenințare activă?",
+                    "consequences": "Ceilalți pacienți intră în panică când sala este evacuată. Paul aude „Poliție!” și adrenalina îi crește. Percepe acum situația ca o potențială arestare."
+                },
+                "negative": {
+                    "choiceText": "Îi mulțumești paznicului și intri imediat — siguranța personalului este prioritatea, iar fiecare minut în care Paul se află lângă postul asistentelor fără prezență polițienească crește riscul. Poți obține detaliile medicale de la personal după ce ai stabilizat situația.",
+                    "risks": [
+                        "Pare o abordare tactică rezonabilă — prioritizarea siguranței personalului fără a întârzia intervenția",
+                        "Totuși, o tulburare în spital generată de durere nu este un scenariu de amenințare activă care necesită intrare tactică imediată",
+                        "A intra fără a înțelege starea medicală, ce s-a încercat sau ce are nevoie personalul înseamnă că reacționezi, nu răspunzi strategic",
+                        "Paul vede un polițist mișcându-se hotărât spre el — declanșând reacția de luptă sau fugă la cineva care se teme deja de criminalizare"
+                    ],
+                    "consequences": "Intri fără context despre ce a declanșat escaladarea, ce probleme medicale sunt în joc sau ce a încercat deja personalul. Paul percepe urgența poliției ca o amenințare. Interacțiunea începe de la un deficit de înțelegere și încredere.",
+                    "trainingFocus": "Când urgenta de a acționa rapid depășește valoarea de a acționa eficient? Cum deosebești sensibilitatea reală la timp de prejudecata urgenței?"
+                }
+            },
+            "keyLearningPoints": [
+                "Culegerea de informații pre-angajare nu este o întârziere — este o investiție într-un rezultat mai bun",
+                "În medii de spital, coordonarea cu personalul clinic este la fel de importantă ca evaluarea tactică",
+                "Înțelegerea factorilor medicali ai agresivității (durere, frică, starea medicației) îți transformă abordarea",
+                "Răspunsul proporțional înseamnă potrivirea pregătirii la nivelul real de amenințare, nu la scenariul cel mai rău"
+            ]
+        },
+        "2": {
+            "stageName": "Primul contact",
+            "criticalSkills": [
+                "Limbaj corporal și poziționare neamenințătoare",
+                "Abordarea fricărilor exprimate direct",
+                "Validarea durerii ca factor principal al comportamentului"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Rămâi calm, ții mâinile vizibile și relaxate pe lângă corp, menții aproximativ doi metri distanță. Vorbești încet: „Paul, nu sunt aici să arestez pe nimeni. Văd că aveți dureri puternice. Mă numesc [nume] și sunt aici să ajut să clarificăm situația. Îmi puteți spune ce se întâmplă?”",
+                    "strengths": [
+                        "Mâinile vizibile semnalează absența amenințării — mâinile ascunse pot sugera o armă",
+                        "Doi metri respectă spațiul personal menținându-te în raza conversațională",
+                        "Folosirea numelui lui imediat construiește raport personal",
+                        "Numirea directă a durerii sale validează experiența lui înainte de orice altceva",
+                        "Negarea intenției de arestare abordează frica exprimată explicit",
+                        "Întrebarea deschisă îi oferă cuvântul — încerca să fie auzit de ore întregi",
+                        "Vorbitul încet îl încurajează să-ți copieze ritmul — tehnică dovedită de dezescaladare"
+                    ],
+                    "consequences": "Postura defensivă a lui Paul se relaxează ușor. Este încă furios, dar i s-a oferit spațiu și o invitație de a fi auzit — ceea ce i-a lipsit de patru ore.",
+                    "trainingFocus": "De ce este important ca limbajul corporal să fie congruent cu cuvintele tale? Ce se întâmplă când un pacient simte discrepanța între liniștirea verbală și tensiunea fizică?"
+                },
+                "partially_positive": {
+                    "choiceText": "Ridici ambele mâini într-un gest liniștitor: „Hei, ușurel. Nimeni nu va fi arestat. Am nevoie doar să faceți un pas înapoi de la postul asistentelor și putem vorbi despre ce se întâmplă.”",
+                    "adequate": [
+                        "Liniștirea privind arestarea este potrivită",
+                        "Intenția de dezescaladare este clară"
+                    ],
+                    "missed": [
+                        "„ușurel” poate fi perceput ca patronant pentru cineva în suferință acută",
+                        "A-i cere să se miște înainte de a fi stabilit vreun raport pare o directivă, nu o invitație",
+                        "Poate interpreta „un pas înapoi” ca începutul unei secvențe de control fizic",
+                        "Nicio recunoaștere a durerii sale — factorul principal al comportamentului"
+                    ],
+                    "improvement": "În ce moment al interacțiunii este potrivit să faci cereri de natură fizică și ce trebuie să se întâmple mai întâi? Cum schimbă recunoașterea durerii cuiva disponibilitatea de a se conforma?",
+                    "consequences": "Paul nu se mișcă. Răspunde: „NU-mi spune să mă dau înapoi — m-am dat înapoi de patru ore!” Interacțiunea începe cu o cerere eșuată, ceea ce îți slăbește poziția."
+                },
+                "neutral": {
+                    "choiceText": "Te apropii ușor din unghi, te oprești la câțiva pași distanță și spui cu ton măsurat: „Sunt ofițerul [nume]. Înțeleg că așteptați de mult timp. Aș dori să aud ce s-a întâmplat.”",
+                    "adequate": [
+                        "Abordare bună din unghi și ton măsurat",
+                        "Prezentare profesională",
+                        "Recunoașterea așteptării"
+                    ],
+                    "missed": [
+                        "Nu abordează elefantul din cameră — faptul că a fost chemată poliția",
+                        "Paul și-a exprimat explicit frica de arestare, iar acest răspuns o ignoră",
+                        "A trece direct la „ce s-a întâmplat” fără a-i valida mai întâi durerea poate fi perceput ca anchetă",
+                        "Ambiguitatea despre rolul tău creează o barieră în calea comunicării reale"
+                    ],
+                    "improvement": "Când cineva își exprimă explicit o frică, care este prețul de a nu o aborda direct? Cum afectează ambiguitatea despre scopul tău disponibilitatea pacientului de a se angaja?",
+                    "consequences": "Paul răspunde, dar este pe gardă. Nu știe dacă ești aici să ajuți sau să-l scoți afară. Ambiguitatea creează o barieră în calea comunicării oneste."
+                },
+                "negative": {
+                    "choiceText": "Te poziționezi între Paul și asistente pentru a proteja personalul: „Domnule, am nevoie să vă coborâți vocea și să vă îndepărtați de tejghea. Personalul încearcă să-și facă treaba.”",
+                    "risks": [
+                        "Interpunerea fizică înainte de orice contact verbal este confruntațională",
+                        "„Coborâți vocea” și „îndepărtați-vă” sunt comenzi, nu deschideri de conversație",
+                        "Încadrarea în jurul nevoilor personalului ignoră complet experiența lui Paul",
+                        "El va auzi: „Durerea dumneavoastră nu contează, confortul lor contează”"
+                    ],
+                    "consequences": "Paul te percepe ca altă figură de autoritate care îl respinge. Furia lui se redirecționează de la spital către tine. Confruntarea escalează și oportunitatea de dialog este pierdută.",
+                    "trainingFocus": "Cum protejezi siguranța personalului fără a te poziționa ca adversar al pacientului? Pot coexista ambele obiective?"
+                }
+            },
+            "keyLearningPoints": [
+                "Limbajul corporal trebuie să fie congruent cu cuvintele — dacă nu, pacientul simte nesinceritate și poate deveni mai agitat",
+                "Când cineva își exprimă explicit o frică (arestare), abordarea ei directă este critică — ignorarea o confirmă",
+                "Numirea durerii pacientului înainte de orice altceva validează experiența lui și deschide ușa comunicării",
+                "Cererile fizice (un pas înapoi, așezați-vă, coborâți vocea) trebuie să urmeze raportului, nu să-l preceadă"
+            ]
+        },
+        "3": {
+            "stageName": "Povestea pacientului",
+            "criticalSkills": [
+                "Ascultare activă și validare emoțională",
+                "Încadrarea cererilor comportamentale ca interes propriu",
+                "Construirea alianței prin angajamente concrete"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Vă aud și sună cu adevărat înfricoșător — amorțeala pe lângă durere este înspăimântătoare. Patru ore sunt mult când suferiți așa. Voi vorbi cu echipa medicală despre situația dumneavoastră. Dar trebuie să vă cer să mă ajutați să vă ajut — dacă putem menține calmul, voi avea șanse mult mai bune să le atrag atenția. Putem lucra împreună la asta?",
+                    "strengths": [
+                        "Validează atât simptomele fizice (amorțeala este înspăimântătoare) cât și experiența emoțională (patru ore sunt mult)",
+                        "Angajamentul de a vorbi cu echipa medicală este concret și acționabil, nu vag",
+                        "Încadrarea comportamentului calm ca servindu-i propriul interes îi dă agenție și motivație",
+                        "„Putem lucra împreună” te poziționează ca aliat, nu ca figură de autoritate",
+                        "„Ajutați-mă să vă ajut” creează un cadru colaborativ în care cooperarea lui îi servește interesul"
+                    ],
+                    "consequences": "Paul încuviințează din cap. Cineva i-a recunoscut atât durerea cât și frica. Cererea de a rămâne calm are un motiv — îi servește interesul. Cooperării i s-a dat un scop.",
+                    "trainingFocus": "Cum schimbă încadrarea unei cereri comportamentale ca interes propriu motivația cuiva de a se conforma? De ce este „ajutați-mă să vă ajut” mai eficient decât „calmați-vă”?"
+                },
+                "partially_positive": {
+                    "choiceText": "Văd că aveți dureri serioase și iau în serios ce spuneți despre amorțeală. Lăsați-mă să găsesc un doctor acum și să văd unde sunteți la coadă. Rămâneți aici — revin în câteva minute.",
+                    "adequate": [
+                        "Arată empatie reală și sprijin proactiv",
+                        "Ia în serios plângerea privind amorțeala",
+                        "Oferă acțiune concretă"
+                    ],
+                    "missed": [
+                        "A părăsi pacientul imediat după stabilirea contactului rupe raportul tocmai construit",
+                        "„Rămâneți aici” este o comandă pentru cineva care nu a acceptat încă să-ți urmeze conducerea",
+                        "Dacă nu găsești un doctor repede, întârzierea va fi percepută ca încă o promisiune nerespectata",
+                        "Niciun mecanism de menținere a calmului în absența ta"
+                    ],
+                    "improvement": "Care este riscul de a face promisiuni care depind de cooperarea altora? Cum menții conexiunea când trebuie să te îndepărtezi?",
+                    "consequences": "Paul așteaptă anxios. Dacă revii prompt cu vești bune, funcționează. Dacă lipsești mai mult de câteva minute, încrederea lui dispare și agitația revine — mai rău decât înainte, pentru că acum și polițistul l-a abandonat."
+                },
+                "neutral": {
+                    "choiceText": "Într-adevăr sună greu, Paul. Urgențele sunt foarte aglomerate în seara asta și știu că așteptarea este frustrantă. Dar să arunci lucruri și să țipi la asistente nu te face văzut mai repede. Hai să încercăm să gestionăm asta mai productiv.",
+                    "adequate": [
+                        "Recunoaște dificultatea",
+                        "Folosește numele lui"
+                    ],
+                    "missed": [
+                        "Pivotează imediat de la recunoaștere la criticarea comportamentului",
+                        "„A arunca lucruri și a țipa” îi amintește de cele mai rele momente ale sale în loc să-l întâlnești acolo unde este acum",
+                        "„Mai productiv” este vag și ușor condescendent",
+                        "Nu a aruncat lucruri de plăcere — a aruncat pentru că se simțea invizibil"
+                    ],
+                    "improvement": "Care este diferența între a recunoaște un comportament trecut și a insista asupra lui? Când cineva s-a calmat, ar trebui să-i amintești ce a făcut în cel mai rău moment?",
+                    "consequences": "Defensivitatea lui Paul revine: „Nu aș fi țipat dacă m-ar fi ascultat cineva de la bun început!” Momentul de deschidere este pierdut și începe un ciclu de justificare."
+                },
+                "negative": {
+                    "choiceText": "Înțeleg că sunteți frustrat, dar trebuie să fiu sincer — nu sunt doctor și nu pot schimba poziția dumneavoastră la coadă. Spitalul are un sistem de triaj care prioritizează cazurile cele mai critice. Sunt sigur că personalul face tot ce poate.",
+                    "risks": [
+                        "Corect din punct de vedere faptic dar devastator emoțional",
+                        "Paul nu v-a cerut să fiți doctor — a cerut ca cineva să-i pese",
+                        "Apărarea sistemului de triaj vă aliniază cu instituția pe care simte că l-a abandonat",
+                        "„Sunt sigur că personalul face tot ce poate” respinge experiența lui trăită de a fi ignorat"
+                    ],
+                    "consequences": "Expresia lui Paul se împietriște: „Deci sunteți și dumneavoastră de partea lor. Nimeni din toată clădirea asta nu dă doi bani.” Ultimul pod de încredere se prăbușește. Escaladarea este acum foarte probabilă.",
+                    "trainingFocus": "Când cineva se simte abandonat de un sistem, ce se întâmplă când aperi acel sistem? Cum recunoaști limitările instituționale fără a deveni un apărător al instituției?"
+                }
+            },
+            "keyLearningPoints": [
+                "Validarea atât a experienței fizice cât și emoționale creează fundația pentru cooperare comportamentală",
+                "Cererile comportamentale încadrate ca interes propriu („ajutați-mă să vă ajut”) sunt mult mai eficiente decât comenzile („calmați-vă”)",
+                "Insistența pe comportamentul negativ trecut când cineva s-a calmat deja reescalează situația",
+                "Apărarea sistemului pe care cineva simte că l-a abandonat te poziționează ca parte a problemei"
+            ]
+        },
+        "4": {
+            "stageName": "Perspectiva asistentei",
+            "criticalSkills": [
+                "Validarea traumei personalului fără a abandona pacientul",
+                "Pledarea pentru reevaluare pe criterii clinice, nu comportamentale",
+                "Respectarea autorității clinice cu semnalarea informațiilor relevante"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Înțeleg — a avea ceva aruncat spre dumneavoastră este înfricoșător și aveți tot dreptul să vă simțiți în pericol. Nu doresc să mă substitui deciziilor dumneavoastră de triaj, nu este rolul meu. Dar am vorbit cu Paul și s-ar putea să existe o problemă medicală — descrie amorțeală la picior împreună cu durerea de spate. Asistenta-șefă ar putea face o reevaluare rapidă? Dacă simptomele i s-au schimbat de la triajul inițial, asta ar putea justifica o actualizare a priorității. Între timp, rămân aproape și mă asigur că toată lumea este în siguranță.",
+                    "strengths": [
+                        "Validează frica asistentei fără a o respinge — a fost agresată la locul de muncă",
+                        "Respectă explicit sistemul de triaj și autoritatea ei profesională",
+                        "Menționează simptome specifice (amorțeală la picior) ca informație clinică acționabilă",
+                        "Justifică reevaluarea pe criterii clinice, nu ca recompensă pentru comportament rău",
+                        "Angajamentul de a rămâne abordează direct preocuparea ei de siguranță",
+                        "Păstrează integritatea profesională a asistentei și corectitudinea sistemului"
+                    ],
+                    "consequences": "Tensiunea asistentei Collins scade. Nu i se cere să cedeze — i se oferă un motiv clinic de reevaluare care îi păstrează integritatea profesională. Contactează asistenta-șefă. Sistemul funcționează conform designului.",
+                    "trainingFocus": "Cum pledezi pentru un pacient fără a submina personalul care se simte victimizat de acel pacient? Care este diferența între pledare clinică și recompensare comportamentală?"
+                },
+                "partially_positive": {
+                    "choiceText": "Știu că este stresant. S-a calmat deocamdată și nu cred că este un pericol. Ar putea cineva să verifice cum este sau măcar să-i dea o estimare despre timpii de așteptare? Uneori doar faptul de a ști că cineva nu te-a uitat face o diferență uriașă.",
+                    "adequate": [
+                        "Intuiție bună că lacunele de comunicare generează agresivitate la pacienți",
+                        "Sugestie practică care abordează cauza de bază",
+                        "Înțelege că simțirea de a fi uitat este un declanșator primar"
+                    ],
+                    "missed": [
+                        "„NU cred că este un pericol” minimizează experiența asistentei — i s-a aruncat ceva pe lângă cap",
+                        "A o ruga să facă mai mult pentru persoana care a speriat-o, fără a-i recunoaște mai întâi pe deplin experiența, poate fi perceput ca lipsă de tact",
+                        "Nicio validare a fricii ei înainte de a face cereri",
+                        "Sugestia în sine este solidă dar livrarea avea nevoie de mai multă empatie pentru asistentă mai întâi"
+                    ],
+                    "improvement": "Când mediezi între două părți, cum te asiguri că validezi ambele experiențe pe deplin înainte de a face cereri? Contează ordinea empatie–apoi–cerere?",
+                    "consequences": "Asistenta simte că frica ei nu este luată în serios. Poate se va conforma cu reținere, dar resentimentul față de ofițer crește."
+                },
+                "neutral": {
+                    "choiceText": "Vă aud și îmi pare rău că s-a întâmplat. A trebuit să fie terifiant. Mă asigur că nu vă va mai deranja — dacă mai cauzează probleme, îl scot din incintă.",
+                    "adequate": [
+                        "Empatie puternică pentru asistentă",
+                        "Promisiunea de protecție pare liniștitoare"
+                    ],
+                    "missed": [
+                        "A te angaja să scoți un pacient cu o potențială urgență medicală este problematic etic și legal",
+                        "Dacă amorțeala lui Paul indică compresie nervoasă, evacuarea ar putea cauza prejudicii grave",
+                        "Te-ai poziționat complet de partea personalului, abandonând pacientul",
+                        "Promisiunea poate intra în conflict cu nevoile medicale ale lui Paul"
+                    ],
+                    "improvement": "Poți proteja personalul fără a abandona potențial nevoile medicale ale pacientului? Cum echilibrezi angajamentele de siguranță cu obligațiile de sănătate?",
+                    "consequences": "Asistenta se simte protejată, dar ai făcut o promisiune care poate intra în conflict cu nevoile medicale ale lui Paul. Implicații grave de răspundere dacă starea lui se înrăutățește după evacuare."
+                },
+                "negative": {
+                    "choiceText": "Uitați, înțeleg — n-ar fi trebuit să arunce nimic. Dar sincer, patru ore fără nicio informare? Înțeleg de ce a explodat. Poate dacă cineva ar fi vorbit cu el mai devreme, nu am fi aici acum.",
+                    "risks": [
+                        "Dă vina pe asistentă pentru violența pacientului — ea este victimă a unei agresiuni la locul de muncă",
+                        "Să i se spună că este parțial responsabilă distruge relația ofițer–personal",
+                        "Subminează colaborarea de care ai nevoie pentru a rezolva situația",
+                        "Alt personal care aude nu va mai avea încredere în prezența ta"
+                    ],
+                    "consequences": "Asistenta Collins se închide. Nu te va ajuta să facilitezi o rezolvare. Alt personal care aude nu va mai avea încredere în prezența ta. Ți-ai pierdut cei mai importanți aliați din clădire.",
+                    "trainingFocus": "Chiar și când eșecurile de sistem contribuie la o situație, este potrivit să dai vina pe persoana din fața ta? Care este diferența între critica sistemică și vina personală?"
+                }
+            },
+            "keyLearningPoints": [
+                "Lucrătorii din sănătate care suferă violență la locul de muncă merită validare completă înainte de a fi rugați să facă ceva în plus",
+                "Pledarea pentru un pacient pe criterii clinice (simptome schimbate) păstrează integritatea triajului — pledarea pe criterii comportamentale (este cel mai zgomotos) o subminează",
+                "Poliția ar trebui să respecte și să sprijine autoritatea clinică, nu să o suprascrie",
+                "Darea vinei pe personalul din prima linie pentru probleme sistemice distruge colaborarea de care ai nevoie pentru a rezolva situația"
+            ]
+        },
+        "5": {
+            "stageName": "Soția sosește",
+            "criticalSkills": [
+                "Gestionarea părților noi care intră într-o dezescaladare",
+                "Transformarea complicațiilor potențiale în aliați",
+                "Controlul încadrării narative"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Te întorci spre Laura cu o expresie calmă, liniștitoare: „Trebuie să fiți Laura — Paul v-a menționat. Sunt ofițerul [nume]. Paul nu este în niciun bucluc. A avut dureri puternice și o așteptare dificilă. Am vorbit cu el și cu personalul medical și lucrăm ca să fie consultat. Prezența dumneavoastră ar putea ajuta cu adevărat — ar avea nevoie de sprijin acum.”",
+                    "strengths": [
+                        "Folosirea numelui ei (din conversația anterioară cu Paul) semnalează că ai ascultat cu adevărat",
+                        "„Paul v-a menționat” demonstrează subtil implicare, nu doar gestionare",
+                        "Negarea directă a arestării abordează imediat frica ei exprimată",
+                        "Încadrarea sosirii ei ca utilă îi oferă un rol constructiv",
+                        "„Ar avea nevoie de sprijin” validează atât preocuparea ei cât și suferința lui",
+                        "Nu insistă pe comportamentul negativ — se concentrează pe situația actuală și calea înainte"
+                    ],
+                    "consequences": "Frica Laurei dispare. Se mută lângă Paul. Paul se înmoaie vizibil — cineva este în sfârșit de partea lui, iar polițistul a facilitat asta în loc să o blocheze. Temperatura emoțională scade semnificativ.",
+                    "trainingFocus": "Cum schimbă implicarea unei persoane iubite ca aliat în loc de martor dinamica? Ce informații din conversațiile anterioare poți folosi pentru a construi rapid raport cu noii sosiți?"
+                },
+                "partially_positive": {
+                    "choiceText": "Vă adresați ambilor: „Laura, vă rog nu vă faceți griji. Paul, puteți să-i spuneți soției ce am discutat? Cred că ar trebui să știe că facem progres și totul va fi bine.”",
+                    "adequate": [
+                        "Abordare incluzivă care implică ambele părți",
+                        "Ton optimist",
+                        "Îi dă lui Paul agenție în a-și spune propria poveste"
+                    ],
+                    "missed": [
+                        "A-l pune pe Paul să conducă narativa când este încă încărcat emoțional riscă o relatare denaturata",
+                        "„Totul va fi bine” este o promisiune pe care nu o poți garanta",
+                        "Stabilirea unor așteptări pe care nu le controlezi pregătește pe toată lumea pentru dezamăgire",
+                        "Dacă „progresul” promis nu se materializează rapid, ambii simt că ai mințit"
+                    ],
+                    "improvement": "Cum insufli încredere fără a face promisiuni care depind de alții? Când este mai bine să controlezi tu narativa față de a lăsa pacientul să-și spună versiunea?",
+                    "consequences": "Relatarea lui Paul se concentrează pe nemulțumiri. Laura devine supărată. Când progresul nu se materializează rapid, amândoi simt că ai mințit."
+                },
+                "neutral": {
+                    "choiceText": "Îl lași pe Paul să explice situația soției lui în timp ce le oferi un moment de intimitate — te retragi câțiva metri.",
+                    "adequate": [
+                        "Respectă relația lor",
+                        "Le oferă spațiu personal"
+                    ],
+                    "missed": [
+                        "Având în vedere starea emoțională a lui Paul, versiunea lui va întări narativa de victimizare",
+                        "Un public (soția lui) poate reescalada furia lui prin validare",
+                        "A te retrage înseamnă pierderea influenței într-un moment critic",
+                        "Frustrarea combinată a două persoane este mai mare decât a fiecăreia în parte"
+                    ],
+                    "improvement": "Când este util să dai spațiu și când permite situației să reescaladeze? Cum schimbă adăugarea unui public simpatizant traiectoria emoțională a cuiva?",
+                    "consequences": "Paul se descarcă la Laura, care devine din ce în ce mai supărată în numele lui. Frustrarea lor combinată depășește ce simțea fiecare în parte. Ai pierdut influența moderatoare."
+                },
+                "negative": {
+                    "choiceText": "Te îndrepți spre soție și explici: „Doamnă, soțul dumneavoastră a devenit perturbator și am fost chemați pentru siguranța tuturor. Nu este arestat, dar a aruncat obiecte spre personal. Ne ocupăm de situație.”",
+                    "risks": [
+                        "A-l descrie pe Paul ca „perturbator” este cea mai proastă încadrare posibilă pentru soția lui",
+                        "Insistarea pe obiectele aruncate declanșează instincte protectoare sau rușine",
+                        "„Ne ocupăm de situație” o exclude dintr-un rol",
+                        "Un aliat potențial a fost transformat în complicație"
+                    ],
+                    "consequences": "Laura fie se jenează și începe să-l mustre pe Paul (escaladând umilirea lui) fie devine defensivă în numele lui. În orice caz, un aliat potențial a fost transformat în complicație.",
+                    "trainingFocus": "Cum influențează modul în care descrii comportamentul cuiva către persoana iubită ceea ce se întâmplă mai departe? Ce încadrare servește rezolvarea față de ce încadrare servește raportarea?"
+                }
+            },
+            "keyLearningPoints": [
+                "Membrii familiei care sosesc într-o criză pot fi cel mai mare avantaj sau cea mai mare complicație — încadrarea ta determină care",
+                "Folosirea informațiilor din conversațiile anterioare (nume, relații) construiește rapid raport cu noii sosiți",
+                "Controlul narativei nu înseamnă minciună — înseamnă alegerea adevărurilor care servesc rezolvarea",
+                "A face promisiuni pe care nu le poți garanta personal („totul va fi bine”) creează răspundere și erodează încrederea când realitatea nu se potrivește"
+            ]
+        },
+        "6": {
+            "stageName": "Punctul de cotitură",
+            "criticalSkills": [
+                "Aplicarea limitelor fizice fără confruntare",
+                "Încadrarea consecințelor ca autodistructive, nu punitive",
+                "Folosirea angajamentelor de timp specifice pentru a câștiga spațiu"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Te poziționezi calm între Paul și ușa zonei de tratament, fără a-l bloca dar fiind prezent: „Paul, știu că este insuportabil. Am promis că vă ajut și am vorbit serios. A intra acolo va crea o problemă nouă care vă îndepărtează de un doctor, nu vă apropie. Dați-mi cinci minute — merg acum să o găsesc pe asistenta-șefă. Laura, puteți rămâne cu el?”",
+                    "strengths": [
+                        "Poziționarea fizică creează o pauză naturală fără confruntare — prezent, nu blocând",
+                        "Recunoașterea durerii ca „insuportabilă” validează escaladarea în loc să o respingă",
+                        "Consecința încadrată ca autodistructivă (mai departe de un doctor) nu ca punitivă (te voi reține)",
+                        "Referirea la promisiunea anterioară arată consistență și fiabilitate",
+                        "Angajamentul de cinci minute este specific și limitat în timp — creează responsabilitate",
+                        "Atribuirea unui rol activ Laurei o implică drept prezență calmantă"
+                    ],
+                    "consequences": "Paul ezită. Combinația de validare, calendar concret și mâna soției pe brațul lui creează suficientă rezistență pentru a opri impulsul înainte. Se așază înapoi.",
+                    "trainingFocus": "Cum creează stabilirea unui interval de timp specific responsabilitate în timp ce câștigă spațiu? De ce este „asta te îndepărtează de ceea ce vrei” mai eficient decât „va trebui să te opresc”?"
+                },
+                "partially_positive": {
+                    "choiceText": "Spui calm: „Paul, înțeleg. Dar intrarea în zona de tratament fără autorizație ar putea fi considerată trecere neautorizată pe proprietate și asta ar transforma vizita medicală într-o chestiune juridică. Nu doresc asta pentru dumneavoastră.”",
+                    "adequate": [
+                        "Încadrare juridică corectă faptic",
+                        "Ton cu adevărat preocupat",
+                        "„Nu doresc asta pentru dumneavoastră” arată investiție personală"
+                    ],
+                    "missed": [
+                        "Terminologia juridică („trecere neautorizată”, „chestiune juridică”) mută interacțiunea de la asistență medicală la justiție penală",
+                        "Exact ceea ce lui Paul i-a fost frică din momentul în care ți-a văzut uniforma",
+                        "Chiar și livrat cu intenții bune, limbajul juridic schimbă rolul perceput de la ajutor la executor",
+                        "Nicio alternativă concretă oferită — îi spune ce să nu facă dar nu ce se va întâmpla în schimb"
+                    ],
+                    "improvement": "Cum schimbă limbajul juridic percepția cuiva despre rolul tău, chiar și când este livrat cu intenții bune? Care este diferența între un avertisment juridic și o consecință practică?",
+                    "consequences": "Paul face o pauză, dar încrederea în tine se diminuează. Te vede acum mai întâi ca polițist și apoi ca ajutor. Bunăvoința construită anterior este afectată."
+                },
+                "neutral": {
+                    "choiceText": "Te întorci spre Laura: „Laura, mă puteți ajuta? Puteți vorbi cu Paul și încerca să-l mențineți calm în timp ce merg să găsesc pe cineva din echipa medicală?”",
+                    "adequate": [
+                        "Implicarea Laurei este un instinct inteligent",
+                        "Recunoaște nevoia de a găsi personal medical"
+                    ],
+                    "missed": [
+                        "Delegarea întregii dezescaladări unei soții speriate este nedreaptă — nu are autoritate sau formare",
+                        "Dacă Paul nu o ascultă, nu are cum să-l oprească",
+                        "Nu ești prezent pentru a interveni dacă situația escalează",
+                        "Părăsirea scenei în momentul tensiunii maxime este riscantă"
+                    ],
+                    "improvement": "Când este delegarea potrivită și când este abdicare de la responsabilitate? Ce resurse are un membru al familiei — și ce îi lipsește — comparat cu un ofițer?",
+                    "consequences": "Laura încearcă, dar Paul o împinge. Este rănită și copleșită. Paul ajunge la ușa zonei de tratament. Ai pierdut controlul situației de la distanță."
+                },
+                "negative": {
+                    "choiceText": "Te pui în calea lui și stabilești o limită clară: „Paul, înțeleg frustrarea, dar trebuie să protejez pe toată lumea de aici — inclusiv pe dumneavoastră. Dacă intrați în zona de tratament neautorizat, devine un incident de securitate pe care trebuie să-l documentez și raportez. Asta vă pune în sistem ca pacient perturbator și vă va urma. Lăsați-mă să rezolv asta cum trebuie.”",
+                    "risks": [
+                        "Pare măsurat și chiar grijuliu — încadrarea avertismentului ca protejând pe Paul de consecințele instituționale",
+                        "Totuși, introducerea documentării, „sistemului” și etichetelor de „pacient perturbator” în momentul de vârf al suferinței transformă rolul din avocat în amenințare birocratică",
+                        "Informația corectă despre consecințe livrată în cel mai nepotrivit moment exploatează vulnerabilitatea în loc să sprijine persoana",
+                        "Tot raportul construit pe întreaga interacțiune este înlocuit de conformare prin frică instituțională"
+                    ],
+                    "consequences": "Paul cedează, dar nu pentru că are încredere în tine — ci pentru că acum se teme de represaliile instituționale. Laura privește cum soțul ei este avertizat despre „sistem” în timp ce se zvârcolește de durere. Daunele emoționale sunt invizibile dar durabile.",
+                    "trainingFocus": "Când o informație corectă despre consecințe este livrată în cel mai nepotrivit moment, servește persoana sau o controlează? Cum schimbă limbajul instituțional relația?"
+                }
+            },
+            "keyLearningPoints": [
+                "Poziționarea fizică (prezent dar fără blocare) creează pauze naturale fără confruntare",
+                "Consecințele încadrate ca „asta te îndepărtează de ceea ce vrei” sunt mai eficiente decât amenințările cu pedepsă",
+                "Angajamentele de timp specifice („cinci minute”) creează responsabilitate concretă și demonstrează fiabilitate",
+                "Delegarea dezescaladării membrilor familiei neinstruiți în momentul tensiunii maxime este riscantă — rămâi prezent și implicat"
+            ]
+        },
+        "7": {
+            "stageName": "Rezolvare și îngrijire",
+            "criticalSkills": [
+                "Tranziția din modul criză în pacient cooperant",
+                "Afirmarea experienței pacientului ca parte a rezolvării",
+                "Restabilirea agenției prin alegeri mici"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Vești bune, Paul — asistenta-șefă dorește să vă vadă acum pentru un control mai atent la spate și la acea amorțeală. Știu că astăzi a fost groaznic și știu că v-ați luptat să fiți auzit. Ați fost auzit. Acesta este pasul următor. Aveți nevoie de ceva înainte să înceapă — apă, un moment să vă liniștiți?",
+                    "strengths": [
+                        "Încadrează reevaluarea ca rezultat al pledoariei lui, nu ca recompensă pentru calm",
+                        "„Ați fost auzit” este una dintre cele mai puternice fraze pentru cineva care a petrecut ore simțindu-se invizibil",
+                        "Oferirea de alegeri (apă, un moment) restabilește agenția și semnalează respect",
+                        "Tranziția de la facilitarea ofițerului la conducerea asistentei este lină și colaborativă",
+                        "Recunoașterea că „astăzi a fost groaznic” validează întreaga experiență, nu doar sfârșitul",
+                        "Criza este rezolvată pentru că nevoia a fost împlinită, nu pentru că comportamentul a fost suprimat"
+                    ],
+                    "consequences": "Paul inspiră adânc. Umerii îi coboară pentru prima dată în ore. Asistenta își începe evaluarea cu un pacient cooperant. Criza s-a încheiat pentru că a fost rezolvată, nu suprimată.",
+                    "trainingFocus": "Cum creează afirmarea experienței cuiva spațiul emoțional pentru cooperare? De ce poartă „ați fost auzit” atâta putere pentru cineva care s-a simțit invizibil?"
+                },
+                "partially_positive": {
+                    "choiceText": "Paul, asistenta este gata pentru dumneavoastră. Vă rog cooperați pe deplin — este ceea ce ați așteptat. Hai să ne asigurăm că totul merge lin de aici înainte.",
+                    "adequate": [
+                        "Clar și de sprijin",
+                        "Orientat spre viitor",
+                        "Încurajează cooperarea"
+                    ],
+                    "missed": [
+                        "„Cooperați pe deplin” sună ca o directivă mai degrabă decât o invitație",
+                        "„Este ceea ce ați așteptat” este ușor tranzacțional — ca și cum examinarea este acordată condiționat",
+                        "Nu recunoaște dificultatea a ceea ce a trecut",
+                        "Rana emoțională a experienței nu este abordată"
+                    ],
+                    "improvement": "Care este diferența între a obține conformare și a obține rezolvare? Cum colorează momentul final al unei interacțiuni întreaga amintire a ei?",
+                    "consequences": "Paul se conformează, dar se simte gestionat, nu respectat. Va povesti aceasta ca „m-au ignorat până când am cedat” — nu „ofițerul m-a ajutat să primesc îngrijire”."
+                },
+                "neutral": {
+                    "choiceText": "Vă adresați lui Paul și Laurei împreună: „Echipa medicală va face acum un control mai amănunțit. Mă retrag și vă las intimitate. Dacă aveți nevoie de ceva, sunt chiar afară.”",
+                    "adequate": [
+                        "Politicos și respectuos",
+                        "Oferă disponibilitate continuă"
+                    ],
+                    "missed": [
+                        "Sare peste tranziția emoțională în totalitate",
+                        "Paul are nevoie de recunoașterea faptului că experiența lui a contat, nu doar de examinare fizică",
+                        "Retragerea fără încheiere lasă arcul emoțional incomplet",
+                        "Nu abordează cererea asistentei-șefe de ajutor pentru a-l face cooperant"
+                    ],
+                    "improvement": "Treaba ta se termină când criza imediată se încheie sau când persoana este cu adevărat pregătită pentru ceea ce urmează? Cum arată încheierea emoțională într-o dezescaladare?",
+                    "consequences": "Paul este încă dereglat emoțional în timpul examinării, făcând-o mai dificilă și mai puțin riguroasă. Echipa medicală și-ar fi dorit să fi făcut mai mult pentru a-l pregăti."
+                },
+                "negative": {
+                    "choiceText": "Îl informezi pe Paul despre așteptări: „Bine, Paul — asistenta-șefă este aici pentru dumneavoastră — asta este vestea bună. Trebuie doar să stabilesc așteptările: vă rog cooperați pe deplin cu evaluarea, urmați instrucțiunile ei și mențineți calmul. Voi nota în raportul meu că s-a rezolvat fără incident, ceea ce vă păstrează dosarul curat. Corect?”",
+                    "risks": [
+                        "Pare profesional și chiar de sprijin — încadrarea cooperării ca beneficiind dosarului lui Paul",
+                        "Totuși, „voi nota în raportul meu” și „dosarul curat” introduc o încadrare tranzacțională, cvasi-juridică tocmai în momentul când Paul are cea mai mare nevoie de legătură umană",
+                        "Implică faptul că îngrijirea medicală este condiționată de comportament bun și că ai ținut scorul pe tot parcursul",
+                        "„Corect?” cere acordul la niște condiții, nu este o invitație de vindecare"
+                    ],
+                    "consequences": "Paul se conformează dar impresia finală este a unui ofițer care gestionează un dosar, nu căruia îi pasă de o persoană. Va povesti aceasta ca „m-au tratat ca pe un suspect chiar și în timp ce mă examinau”. Asistenta-șefă își începe evaluarea cu un pacient care este pe gardă și tranzacțional, nu ușurat și cooperant.",
+                    "trainingFocus": "Când momentul cere căldură umană, care este prețul recurgerii la procedura profesională? Cum modelează interacțiunea finală întreaga amintire?"
+                }
+            },
+            "keyLearningPoints": [
+                "„Ați fost auzit” este una dintre cele mai puternice fraze de dezescaladare pentru cineva care s-a simțit invizibil",
+                "Oferirea de alegeri mici (apă, un moment) în momentul rezolvării restabilește demnitatea și agenția",
+                "Momentul final al unei interacțiuni modelează disproporționat întreaga amintire — încheie cu afirmare, nu cu amenințare",
+                "Rezolvarea adevărată înseamnă că nevoia subiacentă a fost împlinită, nu că comportamentul a fost suprimat în conformare"
+            ]
+        },
+        "8": {
+            "stageName": "Evaluare și dezvăluire",
+            "criticalSkills": [
+                "Reflecție",
+                "Legarea alegerilor de rezultate",
+                "Consolidarea colaborării poliție–sănătate"
+            ],
+            "choiceAnalysis": {
+                "positive": {},
+                "partially_positive": {},
+                "neutral": {},
+                "negative": {}
+            },
+            "keyLearningPoints": [
+                "Folosește evaluarea pentru a consolida ce a funcționat: coordonarea cu personalul, abordarea durerii și a fricii și siguranța proporțională.",
+                "Reflectă cum contextul medical (durere, medicație, triaj) a modelat situația; agresivitatea în spital este adesea generată de contextul medical."
+            ]
+        }
+    },
+    "comprehensiveMetrics": {
+        "healthcarePoliceCollaboration": {
+            "description": "Lucrul eficient cu personalul medical fără a suprascrie autoritatea lor clinică sau a abandona rolul tău de siguranță",
+            "indicators": {
+                "excellent": [
+                    "Coordonare pre-angajare cu asistenta-șefă sau personalul clinic",
+                    "Pledare pentru reevaluare pe criterii clinice, nu comportamentale",
+                    "Respectarea deciziilor de triaj cu semnalarea schimbărilor relevante de simptome",
+                    "Menținerea prezenței de siguranță fără a interfera cu îngrijirea medicală"
+                ],
+                "poor": [
+                    "Suprascrierea deciziilor clinice pe baza comportamentului pacientului",
+                    "Învinovăţirea personalului pentru probleme sistemice precum timpii de așteptare sau subpersonalarea",
+                    "Tratarea situației ca pur problemă de securitate fără context medical",
+                    "Promiterea evacuării pacientului fără a lua în considerare implicațiile medicale"
+                ]
+            }
+        },
+        "patientEmpathy": {
+            "description": "Recunoașterea și răspunsul la durere, frică și frustrare ca factori generatori ai agresivității, nu tratarea comportamentului ca infracțional",
+            "indicators": {
+                "excellent": [
+                    "Numirea și validarea directă a durerii și fricii pacientului",
+                    "Înțelegerea că agresivitatea în spitale comunică de obicei suferință sau o nevoie neîmplinită",
+                    "Abordarea fricărilor exprimate (arestare) direct și imediat",
+                    "Afirmarea experienței pacientului în momentul rezolvării („ați fost auzit”)"
+                ],
+                "poor": [
+                    "Tratarea agresivității generate de durere ca comportament infracțional",
+                    "Ignorarea sau respingerea experienței exprimate a pacientului",
+                    "Apărarea sistemului pe care pacientul simte că l-a abandonat",
+                    "Încadrarea îngrijirii medicale ca recompensă pentru comportament bun în loc de drept"
+                ]
+            }
+        },
+        "situationalSafety": {
+            "description": "Menținerea siguranței fizice pentru personal, pacient și ceilalți, evitând răspunsuri disproporționate",
+            "indicators": {
+                "excellent": [
+                    "Măsuri de siguranță proporționale cu nivelul real de amenințare",
+                    "Mâini vizibile, distanță potrivită, poziționare în unghi",
+                    "Prezență fizică (fără blocare) pentru a crea pauze naturale",
+                    "Folosirea pașilor intermediari înainte de escaladarea la executare"
+                ],
+                "poor": [
+                    "Răspunsuri disproporționate (evacuarea sălii de așteptare pentru un suport de reviste aruncat)",
+                    "Salt de la avertisment verbal la amenințare cu reținere fără pași intermediari",
+                    "Interpunere fizică înainte de orice contact verbal",
+                    "Părăsirea scenei în momentul tensiunii maxime"
+                ]
+            }
+        },
+        "communicationEffectiveness": {
+            "description": "Folosirea limbajului, tonului și limbajului corporal potrivite; evitarea frazelor și comportamentelor contraproductive",
+            "indicators": {
+                "excellent": [
+                    "Limbaj corporal congruent cu mesajele verbale",
+                    "Vorbire înceată pentru a încuraja copierea ritmului",
+                    "Folosirea numelor în mod constant pentru a construi raport",
+                    "Întrebări deschise care îl invită pe pacient să fie auzit"
+                ],
+                "poor": [
+                    "Comenzi înainte de raport („un pas înapoi”, „coborâți vocea”, „așezați-vă”)",
+                    "Limbaj patronant („ușurel”, „portați-vă bine”)",
+                    "Terminologie juridică care schimbă percepția de la ajutor la executor",
+                    "Reamintirea cuiva despre cel mai rău comportament după ce s-a calmat"
+                ]
+            }
+        },
+        "outcomeFocusedResolution": {
+            "description": "Lucrul către rezolvare durabilă unde nevoia subiacentă este împlinită, nu suprimare temporară a comportamentului",
+            "indicators": {
+                "excellent": [
+                    "Încadrarea cererilor comportamentale ca servind interesul pacientului",
+                    "Angajamente concrete, limitate în timp și respectate",
+                    "Implicarea membrilor familiei ca aliați constructivi",
+                    "Asigurarea încheierii emoționale alături de rezolvarea practică"
+                ],
+                "poor": [
+                    "Obținerea conformării prin amenințări sau umilire",
+                    "Promisiuni care depind de cooperarea altora",
+                    "Încheierea interacțiunilor cu amenințări sau ultimatumuri condiționate",
+                    "Tratarea crizei ca terminată când comportamentul este suprimat, nu când nevoile sunt împlinite"
+                ]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "securityMindset": {
+            "pattern": "Tratarea unei situații de sănătate ca problemă în primul rând de securitate",
+            "examples": [
+                "Intrarea în grabă fără context medical sau coordonare cu personalul",
+                "Interpunere fizică înainte de contactul verbal",
+                "Evacuarea zonelor în mod disproporționat față de amenințarea reală",
+                "Încadrarea pacientului ca suspect în loc de persoană în suferință"
+            ],
+            "impact": "Confirmă frica pacientului că prezența poliției înseamnă criminalizarea suferinței. Escalează în loc să rezolve. Subminează colaborarea poliție–sănătate.",
+            "correction": "Recadrează: aceasta este o situație de sănătate cu dimensiuni de securitate, nu o situație de securitate care se întâmplă să fie într-un spital. Coordonează-te mai întâi cu personalul medical. Înțelege imaginea clinică înainte de a te angaja."
+        },
+        "prematureCommands": {
+            "pattern": "Emiterea directivelor fizice înainte de stabilirea raportului",
+            "examples": [
+                "„Un pas înapoi de la tejghea”",
+                "„Coborâți vocea”",
+                "„Așezați-vă”",
+                "„Rămâneți aici”"
+            ],
+            "impact": "Cererile eșuate îți slăbesc poziția. Un pacient care refuză prima ta directivă se află acum în neconformare deschisă, ceea ce îți restrânge opțiunile. Raportul trebuie să preceadă cererile.",
+            "correction": "Construiește mai întâi raportul: prezentare, folosirea numelui, recunoașterea durerii, abordarea fricii. Cere conformare fizică doar după ce pacientul a arătat disponibilitate de a se angaja verbal."
+        },
+        "systemDefense": {
+            "pattern": "Apărarea instituției pe care pacientul o percepe ca avându-l abandonat",
+            "examples": [
+                "„Sunt sigur că personalul face tot ce poate”",
+                "„Sistemul de triaj prioritizează cazurile cele mai critice”",
+                "„Urgențele sunt foarte aglomerate în seara asta”",
+                "„Nu sunt doctor și nu pot schimba poziția dumneavoastră”"
+            ],
+            "impact": "Te poziționează ca parte a sistemului împotriva căruia luptă pacientul. Ultimul pod de încredere se prăbușește. Pacientul concluzionă că nimeni — nici spitalul, nici poliția — nu este de partea lui.",
+            "correction": "Nu trebuie să critici sistemul sau să fii de acord că a eșuat. Recunoaște experiența pacientului fără a apăra sau a învinovăți: „Vă aud — patru ore în această durere este mult. Lăsați-mă să văd ce pot face.”"
+        },
+        "staffBlaming": {
+            "pattern": "Atribuirea vinei lucrătorilor din prima linie pentru probleme sistemice",
+            "examples": [
+                "„Poate dacă cineva ar fi vorbit cu el mai devreme, nu am fi aici”",
+                "Sugerarea că eșecurile de comunicare ale asistentei au cauzat agresivitatea",
+                "Minimizarea fricii asistentei („Nu cred că este un pericol”)",
+                "Nerealizarea validării agresiunii la locul de muncă înainte de a face cereri"
+            ],
+            "impact": "Distruge relația ofițer–personal. Lucrătorii din sănătate care se simt învinovățiți nu vor colabora. Alt personal care aude nu va mai avea încredere în prezența poliției. îți pierzi cei mai importanți aliați.",
+            "correction": "Validează întotdeauna mai întâi și pe deplin experiența membrului personalului. Separă critica sistemică (care poate fi validă) de vina personală (care este distructivă). Întreabă „Ce ar ajuta?” înainte de a sugera acțiuni."
+        },
+        "threatEscalation": {
+            "pattern": "Saltul la limbaj de executare maximă fără pași intermediari",
+            "examples": [
+                "„Devine un incident de securitate pe care trebuie să-l documentez și raportez”",
+                "„Asta vă pune în sistem ca pacient perturbator”",
+                "„Voi nota în raportul meu — vă păstrează dosarul curat”",
+                "„Ar transforma vizita medicală într-o chestiune juridică”"
+            ],
+            "impact": "Confirmă cea mai mare frică a pacientului privind prezența poliției. Demolează raportul construit pe întreaga interacțiune. Creează o alegere binară (supunere sau luptă) când există opțiuni intermediare. Amintirea finală a interacțiunii este amenințarea.",
+            "correction": "Folosește răspuns gradual: recunoaște escaladarea, validează nevoia subiacentă, încadrează consecințele ca autodistructive nu punitive, oferă alternative concrete cu termene specifice și păstrează limbajul de executare pentru amenințări reale la siguranță."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Performanță excepțională. Ai demonstrat standardul de aur pentru răspunsul la tulburări în spital: culegere de context medical înainte de angajare, validarea durerii și fricii pacientului, colaborare cu personalul medical fără a suprascrie autoritatea clinică, transformarea unui membru al familiei într-un aliat constructiv și rezolvarea crizei prin împlinirea nevoii subiacente în loc de suprimarea comportamentului. Scrisoarea lui Paul care te laudă reflectă realitatea — când cineva în durere este în sfârșit auzit, își amintește cine a ascultat.",
+            "mostlyPositive": "Performanță puternică în ansamblu cu colaborare bună poliție–sănătate și empatie sinceră față de pacient. Ai menținut siguranța tratând suferința pacientului ca reală și validă. Punct forte cheie: [SPECIFIC_STRENGTH]. Domeniu de creștere: [SPECIFIC_IMPROVEMENT]. Abordarea ta a creat condiții pentru îngrijire în loc de condiții pentru confruntare.",
+            "mixed": "Ai gestionat bine unele aspecte dar ai ratat oportunități critice de conectare sau colaborare. Punctele forte au inclus [SPECIFIC_STRENGTHS]. Totuși, [SPECIFIC_WEAKNESSES] necesită atenție. Tulburările în spital necesită gestionarea simultană a suferinței pacientului, siguranței personalului și colaborării clinice. Recapitulează [TRAINING_AREAS] pentru a consolida domeniile unde răspunsul a fost insuficient.",
+            "mostlyNegative": "Acest scenariu a relevat lacune semnificative în competențele de dezescaladare în mediu medical. Deși [MINOR_POSITIVE], majoritatea alegerilor au tratat fie pacientul ca amenințare de securitate, fie au subminat colaborarea cu personalul medical, fie au folosit limbaj de executare care a confirmat frica pacientului de criminalizare. În special, [MAJOR_FAILURES]. Formare imediată recomandată în: [CRITICAL_TRAINING].",
+            "allNegative": "Abordarea ta a tratat aceasta în întregime ca o problemă de securitate într-un cadru de sănătate. Nevoile medicale legitime ale pacientului au fost secundare controlului comportamental, colaborarea cu personalul medical a lipsit și s-a folosit limbaj de executare acolo unde era nevoie de dezescaladare. Formare corectivă obligatorie în: colaborare poliție–sănătate, recunoașterea agresivității generate de durere, răspuns gradual și dezescaladare bazată pe empatie. Amintește-ți: peste 75% din agresiunile la locul de muncă au loc în medii medicale — calitatea răspunsului poliției determină direct dacă acel număr crește sau scade."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "I-a oferit cineva vreo gestionare a durerii? Și cine este asistenta-șefă — aș vrea câteva cuvinte cu ea înainte să intru.",
+            "Paul, nu sunt aici să arestez pe nimeni. Văd că aveți dureri puternice.",
+            "Vă aud și sună cu adevărat înfricoșător — amorțeala pe lângă durere este înspăimântătoare.",
+            "Trebuie să vă cer să mă ajutați să vă ajut — dacă putem menține calmul, voi avea șanse mult mai bune să le atrag atenția.",
+            "Nu doresc să mă substitui deciziilor dumneavoastră de triaj, nu este rolul meu. Dar descrie amorțeală la picior împreună cu durerea de spate.",
+            "Trebuie să fiți Laura — Paul v-a menționat.",
+            "A intra acolo va crea o problemă nouă care vă îndepărtează de un doctor, nu vă apropie. Dați-mi cinci minute.",
+            "Știu că v-ați luptat să fiți auzit. Ați fost auzit."
+        ],
+        "poorPhrases": [
+            "Domnule, am nevoie să vă coborâți vocea și să vă îndepărtați de tejghea.",
+            "Să arunci lucruri și să țipi la asistente nu te face văzut mai repede.",
+            "Nu sunt doctor și nu pot schimba poziția dumneavoastră la coadă. Sunt sigur că personalul face tot ce poate.",
+            "Poate dacă cineva ar fi vorbit cu el mai devreme, nu am fi aici acum.",
+            "Doamnă, soțul dumneavoastră a devenit perturbator și am fost chemați pentru siguranța tuturor.",
+            "Dacă intrați în zona de tratament neautorizat, devine un incident de securitate pe care trebuie să-l documentez și raportez. Asta vă pune în sistem ca pacient perturbator.",
+            "Voi nota în raportul meu că s-a rezolvat fără incident, ceea ce vă păstrează dosarul curat."
+        ],
+        "analysisCriteria": {
+            "empathy": "A validat fraza durerea, frica sau frustrarea înainte de a aborda comportamentul?",
+            "collaboration": "A sprijinit fraza munca în echipă poliție–sănătate fără a suprascrie autoritatea clinică?",
+            "framing": "A încadrat fraza consecințele ca autodistructive, nu punitive?",
+            "congruence": "A fost mesajul verbal consistent cu limbajul corporal și poziționarea descrise?",
+            "resolution": "A dus fraza către rezolvare durabilă sau doar către conformare temporară?",
+            "dignity": "A păstrat fraza demnitatea pacientului și autoritatea profesională a personalului?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "30 de secunde de culegere de informații pre-angajare — inclusiv coordonarea cu personalul medical — transformă un răspuns reactiv într-unul strategic",
+        "2": "Când cineva își exprimă explicit o frică (arestare), abordarea ei directă și imediată este critică — ignorarea o confirmă",
+        "3": "Cererile comportamentale încadrate ca interes propriu („ajutați-mă să vă ajut”) sunt mult mai eficiente decât comenzile („calmați-vă”) sau critica („n-ar fi trebuit să aruncați lucruri”)",
+        "4": "Lucrătorii din sănătate care suferă violență la locul de muncă merită validare completă înainte de a fi rugați să facă ceva în plus — iar pledarea pentru pacient trebuie să fie pe criterii clinice, nu comportamentale",
+        "5": "Membrii familiei care sosesc într-o criză pot fi cel mai mare avantaj sau cea mai mare complicație — încadrarea ta a situației determină care",
+        "6": "Consecințele încadrate ca autodistructive („asta te îndepărtează de ceea ce vrei”) sunt mai eficiente decât amenințările de executare — iar angajamentele de timp specifice câștigă încredere",
+        "7": "Momentul final al unei interacțiuni modelează disproporționat întreaga amintire — „ați fost auzit” creează impact pozitiv durabil, iar „portați-vă bine sau altfel” creează daune durabile"
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": [
+                "Protocoale avansate de colaborare poliție–sănătate",
+                "Formarea altora în dezescaladare în spital",
+                "Lider echipă intervenție în criză (CIT) în medii medicale"
+            ],
+            "good": [
+                "Dezescaladare extinsă în medii medicale",
+                "Înțelegerea agresivității generate de durere și a cauzelor medicale ale agitației",
+                "Mediere multiparte în medii instituționale"
+            ],
+            "average": [
+                "Protocoale de bază pentru răspunsul la tulburări în spital",
+                "Ascultare activă și validare emoțională pentru pacienți în criză",
+                "Răspuns gradual și evaluare a proporționalității"
+            ],
+            "poor": [
+                "Formare obligatorie în colaborare poliție–sănătate",
+                "Atelier „Durerea și frica ca factori generatori ai agresivității”",
+                "Dezescaladare bazată pe empatie în medii medicale",
+                "Răspuns proporțional și executare graduală"
+            ]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {
+                "title": "Rezumat general al performanței",
+                "content": [
+                    "Scor",
+                    "Nivel de performanță",
+                    "Puncte forte cheie",
+                    "Slăbiciuni critice"
+                ]
+            },
+            {
+                "title": "Analiză etapă cu etapă",
+                "content": [
+                    "Alegerea la fiecare etapă",
+                    "Impact asupra pacientului, personalului și familiei",
+                    "Abordări alternative și consecințele lor",
+                    "Puncte cheie de învățare"
+                ]
+            },
+            {
+                "title": "Evaluarea colaborării poliție–sănătate",
+                "content": [
+                    "Calitatea coordonării pre-angajare",
+                    "Respectul pentru autoritatea clinică",
+                    "Abordarea pledoariei (criterii clinice vs. comportamentale)",
+                    "Gestionarea relației cu personalul"
+                ]
+            },
+            {
+                "title": "Evaluarea empatiei față de pacient",
+                "content": [
+                    "Recunoașterea durerii și a fricii",
+                    "Calitatea validării emoționale",
+                    "Abordarea fricii (preocuparea de arestare)",
+                    "Încadrarea rezolvării (nevoie împlinită vs. comportament suprimat)"
+                ]
+            },
+            {
+                "title": "Eficacitatea comunicării",
+                "content": [
+                    "Cele mai bune momente de dialog",
+                    "Fraze contraproductive folosite",
+                    "Congruența limbajului corporal",
+                    "Alegeri de încadrare narativă"
+                ]
+            },
+            {
+                "title": "Analiza tiparelor",
+                "content": [
+                    "Puncte forte consistente pe etape",
+                    "Greșeli recurente",
+                    "Tendințe în luarea deciziilor (mentalitate de securitate vs. colaborare)"
+                ]
+            },
+            {
+                "title": "Dezvoltare profesională",
+                "content": [
+                    "Nevoi imediate de formare",
+                    "Priorități de dezvoltare a competențelor pe termen lung",
+                    "Resurse și ateliere recomandate"
+                ]
+            },
+            {
+                "title": "Aplicare în practică",
+                "content": [
+                    "Cum se transpune la apelurile din spital în teren",
+                    "Construirea relațiilor cu unitățile locale de sănătate",
+                    "Reducerea apelurilor repetate prin răspuns de calitate la prima intervenție"
+                ]
+            }
+        ]
+    }
+}

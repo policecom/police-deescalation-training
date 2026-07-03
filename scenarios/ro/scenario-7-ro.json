@@ -1,0 +1,455 @@
+{
+    "id": 7,
+    "title": "Încăierare stradală la club de noapte",
+    "description": "Scenariu avansat plasat la ora 1:30 noaptea în fața unui club de noapte. O împingere pornită de la o băutură vărsată s-a revărsat pe stradă, cu doi bărbați intoxicați gata de confruntare, o mulțime volatilă care filmează cu telefoanele, un trecător rănit și un videur care ar putea ajuta sau încurca. Ofițerul trebuie să separe combatanții, să gestioneze amplificarea mulțimii, să se ocupe de persoana rănită și să restabilească ordinea într-un mediu cu adrenalină ridicată și impregnat de alcool — totul sub ochiul camerelor.",
+    "icon": "\ud83d\udea8",
+    "difficulty": 4,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Sergent Kowalski",
+        "avatar": "\ud83d\udc6e\u200d\u2642\ufe0f",
+        "introduction": "Deranjele la cluburi de noapte sunt printre cele mai imprevizibile apeluri la care veți răspunde vreodată. Ajungeți într-un cocktail de alcool, adrenalină, mândrie rănită și un public care poate fie amplifica violența, fie vă ajuta să o conteniți. Cercetările arată constant că primele 90 de secunde de contact al ofițerului într-o altercație alimentată de mulțime determină dacă situația escaladează sau se stabilizează. Subiecții sunt intoxicați — ceea ce înseamnă judecată afectată, procesare mai lentă, emoții amplificate și reacții fizice imprevizibile. Nu puteți raționa cu alcoolul așa cum raționați cu o minte trează. Vocea dumneavoastră, poziționarea, limbajul corporal și capacitatea de a separa și a încetini tempo-ul sunt instrumentele principale. Mulțimea e atât cel mai mare risc, cât și cel mai mare avantaj — gestionată bine, presiunea socială lucrează în favoarea dumneavoastră. Gestionată prost, sunteți în inferioritate numerică. În seara asta, fiecare decizie va fi filmată și fiecare cuvânt va fi redat. Faceți-le să conteze."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-7-complete"],
+    "perfectBadge": "perfect-scenario-7",
+    "finalMessage": {
+        "revelation": "Danny și Viktor se înțelegeau de fapt mai devreme în acea seară — fuseseră prezentați de prieteni comuni la club și stătuseră de vorbă la bar peste o oră. Conflictul a izbucnit când Viktor a vărsat din greșeală băutura lui Danny pe rochia lui Zoe. Danny l-a împins pe Viktor; Viktor a împins înapoi. Videurul Craig — un veteran militar care se confruntă cu propriul PTSD — i-a scos pe amândoi afară cu mai multă forță decât era necesar, ceea ce le-a amplificat și mai mult agresivitatea. Trecătoarea rănită, o studentă universitară de 19 ani pe nume Mia, și-a sucit glezna fugind de prima împingere. A avut nevoie ulterior de un control medical minor. După incident, Danny și Viktor au fost amândoi stânjeniți. Danny i-a trimis lui Viktor un mesaj săptămâna următoare să-și ceară scuze. Viktor a răspuns. Craig a revizuit camerele de supraveghere ale clubului și a recunoscut în fața managementului că fusese prea agresiv la evacuare. Filmările mulțimii postate online au arătat activitate polițienească profesionistă sub presiune — iar departamentul le-a folosit în instruire.",
+        "keyLessons": [
+            "Separarea e cea mai importantă primă acțiune într-o altercație fizică — tot restul urmează din crearea de spațiu",
+            "Persoanele intoxicate procesează comenzile încet — instrucțiuni scurte, repetate, calme sunt mai eficiente decât raționamentul complex",
+            "Mulțimile amplifică orice ton emoțional dominant — autoritatea calmă e contagioasă, la fel ca și panica",
+            "Videurii și personalul de securitate pot fi aliați puternici, dar propria lor adrenalină trebuie gestionată înainte de a putea ajuta",
+            "A te ocupa de persoanele rănite devreme semnalează competență și grijă, ceea ce schimbă percepția mulțimii despre poliție de la amenințare la protector",
+            "Situațiile nocturne alimentate de alcool nu sunt momentul pentru predici sau autoritate morală — păstrați învățăturile pentru lumina zilei și mințile trezite",
+            "Fiecare telefon care filmează e un potențial material de instruire sau un potențial scandal — profesionalismul dumneavoastră decide care"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Evaluarea scenei",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udea8",
+                "title": "Exteriorul clubului de noapte — 1:30 noaptea",
+                "desc": "Ajungeți în haos. Basul bubuie din club în spatele unei corzi de catifea. Pe trotuar, doi bărbați stau la trei metri unul de celălalt — unul cu cămașa ruptă, celălalt cu sânge pe buză — strigând și îndreptând degetul unul spre celălalt. Un videur masiv în polo negru stă între ei cu brațele desfăcute, abia ținând linia. O tânără îl trage de braț pe unul dintre bărbați, rugându-l. Cincisprezece până la douăzeci de petrecăreți formează un semicerc, telefoanele ridicate. Cineva stă pe bordură ținându-se de gleznă, cu expresia dureroasă."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unitate răspunde la un deranj în fața clubului Vibe, Strada Riverside 14. Apelantul raportează o bătaie care a început înăuntru și s-a mutat pe trotuar. Doi bărbați implicați într-o altercație fizică. Securitatea clubului i-a separat dar situația e instabilă. Mulțime în creștere. O posibilă persoană rănită. Întăririle sosesc în opt minute."
+                },
+                {
+                    "character": "craig",
+                    "text": "(strigând, brațele desfăcute între cei doi bărbați) Domnule agent! Slavă Domnului. I-am separat dar continuă. Ăla în cămașă albastră a început să dea înăuntru — i-am scos pe amândoi afară. Prietena ăstuia tot se bagă la mijloc. Și cineva s-a rănit mai în spate — nu știu cât de grav."
+                }
+            ],
+            "prompt": "Ajungeți singur; întăririle sunt la opt minute distanță. Doi bărbați intoxicați se confruntă, o mulțime filmează, cineva e rănit și un videur abia ține linia. Cum începeți?",
+            "options": [
+                {
+                    "text": "Vă luați trei secunde să scanați întreaga scenă înainte de a vă angaja — priviți metodic de la stânga la dreapta, identificând elementele cheie: cei doi subiecți încordați, videurul ca potențial aliat, prietena ca variabilă emoțională, persoana rănită pe bordură și perimetrul mulțimii cu telefoanele ridicate. Apoi pășiți înainte cu autoritate, spatele drept, voce fermă și insignă vizibilă în lumina neoanelor clubului: 'Poliția. Nimeni nu se mișcă. Am nevoie ca amândoi să faceți cinci pași înapoi unul de celălalt. Imediat.'",
+                    "feedback": "De ce: O scanare rapidă înainte de acțiune previne viziunea tunel — cea mai periculoasă greșeală într-o scenă haotică. Identificarea tuturor elementelor înseamnă că nu veți fi surprins de ceva ce ați ratat. Comanda e scurtă, specifică și acționabilă — 'cinci pași înapoi' le dă o sarcină concretă în loc de o instrucțiune abstractă precum 'calmați-vă'. Pauza semnalează control, nu ezitare. | CONSECINȚE: Scanarea scurtă surprinde trecătoarea rănită pe bordură, nivelul de energie al mulțimii și limbajul corporal al videurului. Intrarea dumneavoastră autoritară creează o pauză momentană — ambii bărbați se uită la dumneavoastră, iar această întrerupere rupe ciclul de escaladare. Danny face un semipas înapoi. Viktor își menține poziția dar încetează să strige. Videurul pare ușurat. | Reflecție: Cum schimbă o evaluare de trei secunde calitatea fiecărei decizii ulterioare într-o scenă în mișcare rapidă?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă mutați imediat între Danny și Viktor fără nicio ezitare, poziționându-vă fizic în spațiul dintre ei cu picioarele larg desfăcute. Împingeți cu ambele palme întinse, simțind tensiunea din corpurile lor în timp ce încercați să creați distanță prin forță brută, fără a fi verificat dacă vreunul are o armă sau dacă mulțimea e ostilă. Vocea vi se ridică aspru deasupra zgomotului: 'Destul! Amândoi, dați-vă înapoi ACUM!' Persoana rănită de pe bordură și starea mulțimii rămân complet neevaluate.",
+                    "feedback": "De ce: A vă insera fizic între doi bărbați intoxicați și agresivi fără a evalua scena vă pune la risc extrem. Nu știți dacă vreunul are o armă, dacă mulțimea e ostilă sau unde se află persoana rănită. A trece direct la contact fizic înainte de comenzi verbale creează o confruntare fizică în loc să prevină una. Cu întăriri la opt minute distanță, o rănire a dumneavoastră lasă întreaga scenă fără control. | CONSECINȚE: Vă băgați între ei. Brațul lui Danny vă lovește umărul în timp ce gesticulează. Viktor percepe împingerea spre el ca agresiune și se pune în gardă. Mulțimea avansează. Sunteți acum în centrul unei confruntări fizice în trei cu fiecare, fără întăriri și fără conștientizare situațională. | Reflecție: Când intervenția fizică fără de-escaladare verbală prealabilă face o scenă mai periculoasă în loc de mai sigură?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Vă apropiați calm de videurul Craig, stabilind contact vizual și dându-i un semn ferm din cap în semn de recunoaștere. Vă aplecați spre el, coborând vocea suficient de mult încât cei doi subiecți să nu vă audă, și spuneți rar și clar: 'Bună treabă că i-ați ținut separați. Am nevoie de ajutorul dumneavoastră — puteți ține această linie încă un minut în timp ce chem medical și încep procedura de separare?' Așteptați confirmarea lui în timp ce Danny și Viktor continuă să-și strige acuzațiile.",
+                    "feedback": "De ce: A-l recruta pe videur e inteligent — e deja poziționat și familiar cu subiecții. Totuși, a vă concentra în întregime pe videur înainte de a vă adresa combatanților direct riscă pierderea ferestrei de autoritate pe care o creează sosirea dumneavoastră. Subiecții trebuie să vă audă vocea imediat, altfel pauza momentană cauzată de sosirea dumneavoastră se evaporă. | CONSECINȚE: Videurul dă din cap, recunoscător pentru direcție. Dar în timp ce vorbiți cu Craig, Danny și Viktor reiau strigatul. Mulțimea citește conversația din lateral ca indecizle. Fereastra de autoritate inițială se închide. | Reflecție: Cum vă recrutați aliații fără a pierde impulsul pe care îl creează o prezență proaspătă a poliției?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Rămâneți la vehiculul de serviciu, păstrând portiera ca barieră între dumneavoastră și haosul din fața clubului. Ridicați stația radio și transmiteți cu voce controlată: 'Dispecerat, am nevoie de întăriri imediate la clubul Vibe — situația e volatilă, doi bărbați activ agresivi, mulțime de douăzeci de persoane, o persoană rănită. Nu abordez până nu am o a doua unitate.' Urmăriți prin parbriz cum videurul se chinuie să mențină linia, cum Zoe imploră și cum mulțimea filmează totul.",
+                    "feedback": "De ce: Întăririle sunt deja dispecerizate și la opt minute distanță. A aștepta la vehicul în timp ce doi bărbați intoxicați sunt pe punctul de a se bate, o mulțime crește și cineva e rănit abandonează datoria de a interveni. Linia videurului slăbește. Fiecare secundă de inacțiune crește probabilitatea de violență. Siguranța ofițerului e critică, dar nu înseamnă așteptarea condițiilor perfecte. | CONSECINȚE: În timp ce așteptați, Viktor se năpustește asupra lui Danny. Videurul îl tacklează pe Viktor la pământ. Mulțimea izbucnește. Zoe țipă. Trecătoarea rănită încearcă să se miște și cade. Până vă angajați, răspundeți la o bătaie generalizată, nu preveniți una. | Reflecție: Când prudența devine inacțiune și care e costul timpului pierdut?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Separarea",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udd00",
+                "title": "Crearea distanței",
+                "desc": "Sosirea dumneavoastră a creat o scurtă pauză. Ambii bărbați sunt încă în picioare, încă agresivi, dar se uită la dumneavoastră. Videurul Craig își menține poziția între ei. Zoe îl ține pe Danny de braț dar el se scutură repetat. Viktor își tamponează sângele de pe buza spartă și se holbează. Mulțimea privește, telefoanele înregistrează. Trebuie să-i separați — fizic și psihologic — înainte ca valul de adrenalină să revină."
+            },
+            "npcDialogue": [
+                {
+                    "character": "danny",
+                    "text": "(bălbăindu-se, arătând peste videur spre Viktor) E NOROCOS că sunteți aici, domnule agent. EL a început totul! A aruncat o băutură pe prietena mea! Întrebați pe oricine — el a început!"
+                },
+                {
+                    "character": "viktor",
+                    "text": "(accent pronunțat, sânge pe bărbie, vocea crescând) EL m-a împins! N-am făcut nimic! M-a împins și apoi gorila asta mare m-a aruncat afară ca pe un câine! Vreau să fac o plângere! Nu e corect!"
+                },
+                {
+                    "character": "zoe",
+                    "text": "(trăgând brațul lui Danny, lăcrimând) Danny, TE ROG. Hai să plecăm. Te rog. Nu merită. Danny, uită-te la mine — hai să PLECĂM."
+                }
+            ],
+            "prompt": "Ambii bărbați își strigă versiunea la dumneavoastră simultan. Zoe încearcă să-l tragă pe Danny. Videurul obosește. Cum realizați separarea fizică?",
+            "options": [
+                {
+                    "text": "Folosiți videurul și Zoe ca aliați pentru o separare în două direcții. Direcționați-l pe Craig ferm, arătând cu palma deschisă spre stația de taxi: 'Craig, am nevoie să-l plimbați pe Viktor zece metri în direcția aia — spre stația de taxi. Doar mergeți și vorbiți, păstrați calmul.' Apoi vă întoarceți spre Zoe, coborând tonul: 'Faceți ceea ce trebuie. Ajutați-mă să-l aduc pe Danny aici lângă zid.' În final, vă adresați lui Danny direct, cu voce fermă dar fără ostilitate: 'Danny — te aud, vreau să-mi spui ce s-a întâmplat, dar mai întâi am nevoie să vii aici. Zece pași. Atât.'",
+                    "feedback": "De ce: Gestionare strălucită a resurselor. Craig e deja poziționat lângă Viktor și are prezență fizică. Trimițându-l să-l plimbe pe Viktor folosește autoritatea lui constructiv în loc să-l lase ca o barieră statică. Validarea lui Zoe — 'faceți ceea ce trebuie' — o recrutează ca prezență calmantă în loc de variabilă emoțională. Spunându-i lui Danny că vreți versiunea lui îi dă un motiv să se conformeze. 'Zece pași' e concret și realizabil. | CONSECINȚE: Craig, ușurat să aibă o direcție clară, îi pune mâna pe umărul lui Viktor și începe să meargă spre stația de taxi. Viktor rezistă scurt dar masa calmă a lui Craig e persuasivă. Ochii lui Zoe se luminează — cineva i-a validat eforturile. Își dublează efortul de a-l trage pe Danny. Danny, auzind că vreți povestea lui, se lasă condus spre zid. Zece metri de separare. Tensiunea mulțimii scade vizibil. | Reflecție: Cum transformă faptul de a da fiecărei persoane de pe scenă un rol specific haosul în coordonare?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Pășiți înainte și strigați suficient de tare să vă audă toată lumea — subiecții, videurul, mulțimea, fiecare telefon care filmează. Vocea vi se ridică ca o sirenă peste zgomotul străzii: 'AMÂNDOI — NU MAI VORBIȚI. Nu-mi pasă cine a început. Puneți AMÂNDOI cătușele dacă nu vă separați IMEDIAT.' Îndreptați degetul arătător stânga-dreapta, alternând între ei: 'Danny — încolo. Viktor — încolo. MIȘCAȚI.' Zoe tresare la volum, iar mulțimea amuțește o clipă, cu telefoanele stabile pe dumneavoastră.",
+                    "feedback": "De ce: Volumul și amenințările cu arestarea pot produce conformare pe termen scurt prin frică, dar cu subiecți intoxicați sunt la fel de probabile să provoace sfidare. 'Nu-mi pasă cine a început' respinge nemulțumirile amândurora — singurul lucru pe care fiecare îl simte cel mai puternic. Amenințarea cu cătușele în fața unei mulțimi și a camerelor escaladează miza și face ca retragerea să pară supunere. | CONSECINȚE: Danny strigă înapoi: 'Atunci arestați-mă! N-am făcut nimic!' Viktor se umflă: 'Da, arestați-mă! Vreau să fac plângere!' Niciunul nu se mișcă. Mulțimea murmură. Zoe începe să plângă. Ați escaladat confruntarea într-un test de voințe pe care nu-l puteți câștiga fără forță. | Reflecție: Când amenințați cu consecințe în fața unui public, ce se întâmplă cu calculul unei persoane bete despre a ceda?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Vă concentrați în întregime pe Danny mai întâi — pare mai agitat, cu pumnii încleștați și corpul aplecat spre Viktor. Mergeți la el cu pași măsurați, vă poziționați în unghi între el și mulțime și coborâți deliberat vocea, creând un contrast cu strigătele din jur: 'Danny, văd că ești supărat și vreau să aud ce s-a întâmplat. Dar chiar acum am nevoie să vii aici cu mine, lângă zidul ăsta, ca să-ți iau declarația cum trebuie, departe de ochi și de camere. Poți face asta pentru mine?' Puneți ușor o mână pe umărul lui, ghidându-l.",
+                    "feedback": "De ce: Tehnică bună de de-escaladare cu Danny — voce coborâtă, validare, cerere specifică. Totuși, a vă întoarce spatele la Viktor în timp ce e încă agresiv și nesecurizat e un risc tactic. Lăsându-l pe Viktor doar cu videurul obosit și fără atenție polițienească îl poate face să se simtă ignorat sau încurajat. Un subiect la un moment dat funcționează când celălalt e securizat — Viktor nu e. | CONSECINȚE: Danny răspunde la tonul calm și începe să se miște. Dar în spatele dumneavoastră, Viktor îl vede pe ofițer angajându-se doar cu adversarul său și interpretează asta ca luare de parte. Strigă: 'De ce vorbiți doar cu el?! Eu sunt cel rănit!' Avansează. Craig abia îl blochează. | Reflecție: Cum prioritizați un subiect fără ca celălalt să se simtă respins sau nesecurizat?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă întoarceți spre videur și faceți un gest larg spre intrarea clubului din spatele cordonului de catifea, unde basul muzicii pulsează ritmic. Vorbiți pe un ton hotărât, ca și cum planul ar fi deja stabilit: 'Craig, ia-i pe amândoi înăuntru în club. Camere separate — biroul, un depozit, orice aveți. Îi voi intervieva acolo unde e mai liniștit și departe de mulțime.' Începeți să mergeți spre ușă, așteptându-vă ca Craig să urmeze cu ambii bărbați. Portarul de la intrare vă urmărește cu brațele încrucișate, clătinând din cap înainte să ajungeți la prag.",
+                    "feedback": "De ce: Mutarea subiecților înapoi în locația din care tocmai au fost scoși creează multiple probleme. Clubul e sursa conflictului — revenirea îi re-expune la mediu, zgomot și potențial la alcool. Craig i-a scos; a-i plimba înapoi îi subminează autoritatea și confuză situația. Managerul clubului poate refuza. Și pierdeți din vedere trecătoarea rănită și mulțimea. | CONSECINȚE: Craig ezită — i s-a spus să-i scoată. Portarul clubului blochează intrarea: 'Nu se mai întorc, șefu'.' Danny și Viktor protestează amândoi. Mulțimea e confuză. Ați pierdut timp și credibilitate propunând un plan care a fost respins imediat. | Reflecție: De ce mutarea subiecților înapoi la sursa conflictului face de obicei lucrurile mai rele?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Gestionarea lui Danny",
+            "sceneUpdate": {
+                "emoji": "\ud83d\ude24",
+                "title": "Danny lângă zid",
+                "desc": "Ați realizat separarea inițială. Danny e lângă zid cu Zoe alături, la vreo zece metri de Viktor. Se plimbă nervos, își trece mâinile prin păr, beat și agitat. Cămașa îi e ruptă la guler. Se uită mereu peste umărul dumneavoastră spre Viktor. Zoe îl ține de mână dar el se smucește repetat. Pupilele lui Danny sunt dilatate, vorbirea e neclară, iar corpul e încordat cu adrenalină neeliberată."
+            },
+            "npcDialogue": [
+                {
+                    "character": "danny",
+                    "text": "(plimbându-se, bălbăindu-se) Ascultați — ASCULTAȚI — n-am început NIMIC, da? Aveam o seară bună. Eu și Zoe, nu, Zoe? Și tipul ăsta — străinul ăsta — vine și aruncă băutura peste rochia ei. INTENȚIONAT. Deci da, l-am împins. Ce trebuia să fac? Și apoi gorila aia de videur mă apucă pe MINE și mă aruncă afară ca și cum eu sunt problema! Eu sunt victima aici! Vreau să depun plângere! (pauză, își trece mâna peste față) ... Uite, poate n-ar fi trebuit să-l împing. Știu asta. Dar ce trebuia să fac — să stau acolo? Rochia lui Zoe era distrusă și toată lumea râdea."
+                },
+                {
+                    "character": "zoe",
+                    "text": "(către Danny, încet) A fost un accident, Danny. S-a lovit de tine. Știi că a fost un accident. Te rog calmează-te. (către dumneavoastră) În mod normal nu e așa, domnule agent. A băut mult. Vă rog nu-l arestați — e un om bun."
+                }
+            ],
+            "prompt": "Danny e beat, sfidător și convins că e victima. Prietena lui contrazice versiunea evenimentelor. Cum gestionați această conversație?",
+            "options": [
+                {
+                    "text": "Rămâneți calm, stând complet nemișcat, cu mâinile vizibile și relaxate pe lângă corp, lăsând liniștea dumneavoastră să devină un contrast cu agitația lui. Folosiți propoziții scurte și validante: 'Danny, văd că ești furios. S-a întâmplat ceva acolo și simți că ai fost nedreptățit. Te aud. Chiar acum, nu sunt aici să decid cine are dreptate — sunt aici să mă asigur că toată lumea ajunge acasă în siguranță, inclusiv tu. Zoe vrea să ajungi acasă. Eu vreau să ajungi acasă. Poți să respiri și să-mi spui exact ce s-a întâmplat?'",
+                    "feedback": "De ce: De-escaladare magistrală cu un subiect intoxicat. A sta nemișcat când el se plimbă creează o ancoră de calm. Propozițiile scurte se potrivesc procesării lui cognitive afectate. 'Văd că ești furios' validează fără a fi de acord. 'Nu sunt aici să decid cine are dreptate' elimină dinamica de tribunal pe care o construiește. 'Toată lumea ajunge acasă în siguranță' reformulează obiectivul. Invocarea lui Zoe — în care are încredere — fundamentează abstracția. A-i cere povestea de la început îi dă o sarcină care necesită gândire secvențială, ceea ce încetinește natural agitația. | CONSECINȚE: Danny se oprește din plimbat. Cuvântul 'siguranță' aterizează — sub bravadă, e speriat. Ia o respirație sacadată. 'Bine... bine. Deci eram la bar, nu?' Începe să vorbească. Volumul scade. Zoe îi strânge mâna și de data asta nu se smucește. Adrenalina se eliberează prin cuvinte în loc de pumni. | Reflecție: De ce funcționează a cere unei persoane agitate să-și spună povestea de la început ca tehnică de de-escaladare?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă încrucișați brațele, vă plantați ferm în fața lui Danny și optați pentru directețe — expuneți faptele clar ca el să înțeleagă situația: 'Danny, o să fiu sincer cu tine. Prietena ta tocmai mi-a spus că a fost un accident. Mai mulți martori sunt chiar acolo și tot ei confirmă. A depune plângere pentru o băutură vărsată când tu ai dat prima împingere nu va ieși bine pentru tine. Cel mai inteligent lucru pe care îl poți face acum e să mergi acasă cu Zoe și să dormi până trece.' Aruncați o privire spre Zoe pentru confirmare, apoi vă uitați la Danny așteptând.",
+                    "feedback": "De ce: Factual corect dar catastrofal ca moment. I-ați contrazis narativul, i-ați subminat loialitatea prietenei ('ea tocmai mi-a spus') și ați insinuat că e agresorul — toate simultan și în fața persoanei a cărei părere contează cel mai mult pentru el. Oamenii beți nu răspund la logică; răspund la emoție. I-ați atacat mândria și relația simultan. | CONSECINȚE: Danny se întoarce spre Zoe: 'I-ai spus că e vina mea?!' Zoe începe să plângă. Furia lui Danny, care era îndreptată spre Viktor, e acum îndreptată spre dumneavoastră și prietena lui. Face un pas spre dumneavoastră: 'Nu știi ce s-a întâmplat! N-ai fost acolo!' Situația e mai rea decât înainte să vorbiți. | Reflecție: Când dă faptul de a prezenta fapte unei persoane intoxicate înapoi, și de ce contează mai mult momentul decât exactitatea?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Vă întoarceți de la Danny și vă adresați direct lui Zoe, scoțând carnetul de notițe și pixul pentru a semnala oficial că aceasta e o declarație formală: 'Mulțumesc — sunteți foarte de ajutor. Puteți să-mi spuneți exact ce ați văzut întâmplându-se înăuntru? Am nevoie de o relatare clară și exactă.' Dați din cap în timp ce Zoe începe să vorbească, notând pe carnet, cu limbajul corporal indicând clar că ea e acum sursa principală de informații pentru acest incident, în timp ce Danny stă acolo privind scena.",
+                    "feedback": "De ce: Zoe e trează și coerentă, deci relatarea ei e mai fiabilă. Totuși, a-i intervieva prietena în fața lui în timp ce e beat și agitat îl face pe Danny să se simtă marginalizat din propria poveste. Ea îl contrazice deja — a face asta formal, cu atenție polițienească, îl umilește. Stă chiar acolo, privind-o pe prietena lui devenind martorul principal împotriva lui. | CONSECINȚE: Danny întrerupe imediat: 'De ce vorbiți cu ea? Sunt CHIAR AICI. Eu sunt cel care a fost atacat!' Zoe pare prinsă între loialitate și onestitate. Dinamica s-a schimbat de la de-escaladare la interogatoriu, cu Danny simțindu-se atacat de prietena lui și de poliție. | Reflecție: Când e mai bine să separați martorii înainte de a lua declarații, și de ce contează ordinea?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Dați o singură dată din cap, mențineți o expresie profesionistă fără emoție și ridicați scurt palma pentru a-i opri valul de cuvinte. Vorbiți concis, pe un ton de afaceri: 'Am înțeles, Danny. Te aud — simți că ai fost provocat. Mă duc să vorbesc cu celălalt și să aud și versiunea lui, și apoi stabilim ce se întâmplă mai departe. Stai aici cu Zoe. Nu te apropia de el. Am fost clar?' Mențineți contactul vizual o clipă, apoi vă întoarceți pe călcâie și porniți spre Viktor fără a aștepta ca starea emoțională a lui Danny să se liniștească efectiv.",
+                    "feedback": "De ce: Eficient și stabilește o limită clară. 'Te aud — simți că ai fost provocat' oferă validare minimă. A-i spune că veți auzi și cealaltă parte e transparent. Totuși, interacțiunea e prea scurtă pentru a de-escalada efectiv starea emoțională a lui Danny. Lăsând un bărbat beat și agitat doar cu prietena ca monitor — fără barieră fizică, fără figură de autoritate — e riscant. 'Am fost clar?' poate suna confruntațional pentru o ureche intoxicată. | CONSECINȚE: Danny dă din cap cu reticență, dar pe măsură ce vă îndepărtați, continuă să mormăiască și să se plimbe. Fără contact calmant susținut, adrenalina se reinstalează. Zoe încearcă dar încercă toată seara. Când vă întoarceți, Danny poate fi mai agitat decât când l-ați lăsat. | Reflecție: Care e cantitatea minimă de angajare emoțională necesară înainte de a părăsi un subiect volatil?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Gestionarea lui Viktor",
+            "sceneUpdate": {
+                "emoji": "\ud83e\udd15",
+                "title": "Viktor la stația de taxi",
+                "desc": "Craig l-a plimbat pe Viktor zece metri până lângă stația de taxi. Viktor stă pe un zid scund, tamponându-și buza spartă cu mâneca. Cămașa are pete de sânge. Vorbește cu un accent est-european vizibil. E furios, dar sub furie e altceva — un sentiment de a fi vizat, de a fi cel din afară. Craig stă în apropiere, brațele încrucișate, urmărind. Doi membri ai mulțimii s-au deplasat să urmărească această conversație."
+            },
+            "npcDialogue": [
+                {
+                    "character": "viktor",
+                    "text": "(atingându-și buza, tresărind) Uitați-vă la fața mea. M-a lovit. N-am făcut nimic — m-am lovit de el din greșeală și a înnebunit. Și apoi videurul, m-a apucat ca pe un criminal. Nu pe el — pe MINE. Faceți asta doar pentru că nu sunt de-aici. Știu cum funcționează. Cehul pleacă acasă și străinul e arestat. De fiecare dată — acte, întrebări, suspiciuni. N-am făcut nimic greșit. Vreau să fac un raport."
+                },
+                {
+                    "character": "craig",
+                    "text": "(către dumneavoastră, încet) N-are greșit că celălalt a dat prima împingere. Dar ăsta tot își dădea gura după ce i-am separat. Nu se lasă. A trebuit să folosesc puțină forță ca să-l scot pe ușă."
+                }
+            ],
+            "prompt": "Viktor se simte vizat din cauza originii lui. Are o leziune vizibilă și o nemulțumire legitimă. Videurul confirmă în privat relatarea lui Viktor. Cum interacționați cu Viktor?",
+            "options": [
+                {
+                    "text": "Vă așezați pe zidul scund lângă el — coborându-vă la nivelul lui, fără a-l domina de sus. Vorbiți calm, cu o pauză înainte de fiecare frază: 'Viktor, văd că ești rănit și îmi pare rău. Lasă-mă să-ți văd buza — ai nevoie de atenție medicală? ... Bine. Nu sunt aici să iau părți și nu sunt aici din cauza locului de unde vii. Videurul a confirmat că celălalt a făcut primul contact fizic. Am notat asta. Te aud spunând că te simți vizat — iau asta în serios. Vreau să mă judeci după ce fac în continuare, nu după ce ai trăit înainte. Povestește-mi ce s-a întâmplat, pas cu pas.'",
+                    "feedback": "De ce: A vă așeza e un semnal puternic de de-escaladare — reduce dezechilibrul fizic de putere și spune 'nu sunt aici să te domin'. Abordarea leziunii mai întâi arată grijă și cumpără încredere. Confirmarea a ceea ce a spus videurul validează relatarea lui Viktor fără a lua părți în conflictul mai larg. Abordarea directă a temerilor de discriminare — 'nu sunt aici din cauza locului de unde vii' — nu îi respinge experiența sau face promisiuni goale; în schimb, 'judecă-mă după ce fac în continuare' îl invită să vă tragă la răspundere prin acțiunile dumneavoastră, ceea ce e mult mai convingător decât o declarație de corectitudine. Cererea relatării pas cu pas îi dă autonomie și respect. | CONSECINȚE: Umerii lui Viktor se coboară. Cineva chiar ascultă — și mai important, cineva i-a recunoscut teama fără a o respinge. Își atinge buza și spune că e în regulă — nu are nevoie de medical. Începe să povestească seara metodic. Accentul devine mai puțin pronunțat pe măsură ce stresul scade. Craig dă din cap afirmativ. Cei doi trecători care urmăresc văd un polițist stând cu un bărbat străin rănit, ascultând. | Reflecție: Cum schimbă poziția fizică pe care o alegeți — stând deasupra cuiva versus șezând lângă el — întreaga dinamică de putere a unui interviu? Când cineva spune 'faceți asta doar pentru că sunt străin', care e cel mai credibil mod de a răspunde?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă sprijiniți de zid lângă Viktor, dați din cap cu empatie sinceră și lăsați expresia feței să arate preocupare autentică pentru sângele de pe bărbia lui. Vorbiți pe un ton cald și liniștitor: 'Te cred, Viktor. Celălalt tip a fost clar agresorul — asta se vede. Mă voi asigura că totul se rezolvă corect și echitabil. Ai tot dreptul să faci un raport oficial și te voi ajuta personal cu asta. Vreau să știi că cineva ia partea ta în toată povestea asta.' Umerii lui Viktor se relaxează ușor, iar Craig urmărește conversația de la distanță, tăcut.",
+                    "feedback": "De ce: Empatic și bine intenționat, dar a declara 'te cred' și 'clar agresorul' înainte de a vă completa investigația vă angajează la un rezultat. Dacă dovezile contrazic ulterior relatarea lui Viktor — chiar și puțin — credibilitatea vi se prăbușește. A promite să-l ajutați să facă un raport înainte de a evalua dacă acțiunea formală e potrivită sau dorită poate escalada o situație care s-ar putea încheia cu o strângere de mână. | CONSECINȚE: Viktor se simte validat — deocamdată. Dar ați încadrat asta ca o infracțiune cu un agresor și o victimă. Danny, când aude această caracterizare, se va simți trădat. Craig poate simți că acțiunile lui sunt scrutinizate. V-ați blocat într-un proces formal care poate nu servește nimănui. | Reflecție: Care e diferența între a valida experiența cuiva și a declara versiunea lui adevărul oficial?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Rămâneți în picioare deasupra lui Viktor, scoateți carnetul de notițe și adoptați un ton profesionist, expeditiv, fără preambul sau vreo recunoaștere a leziunii sale ori a fricii exprimate. Dați clic pe pix și începeți procedura standard: 'Domnule, înțeleg că a fost o altercație. Am nevoie de numele complet, data nașterii și adresa dumneavoastră. De asemenea, va trebui să văd un act de identitate. Puteți furniza acestea?' Așteptați cu pixul deasupra carnetului, menținând o expresie neutră, în timp ce cei doi trecători apropiați urmăresc schimbul cu atenție.",
+                    "feedback": "De ce: A cere imediat identificare de la persoana care tocmai a spus 'știu cum funcționează — străinul e arestat' îi confirmă cea mai mare teamă. V-a spus că se simte vizat pentru că e străin, iar primul dumneavoastră răspuns e să-i cereți actele. Abordarea procedurală nu e greșită în sine, dar momentul e devastator. Nu i-ați recunoscut leziunea, relatarea sau teama declarată. | CONSECINȚE: Viktor se încordează. 'Vedeți? Acte. Mereu acte pentru străin.' Își încrucișează brațele. Craig se foiește stânjenit. Cei doi trecători din apropiere schimbă priviri. Viktor încetează să coopereze. Fiecare cuvânt pe care l-a spus despre discriminare pare confirmat. | Reflecție: Când cineva vă spune că se teme de discriminare, cum confirmă sau contrazice următoarea dumneavoastră acțiune acea teamă?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Vă îndreptați umerii și abordați preocuparea de discriminare frontal, menținând un ton ferm și declarativ. Priviți-l pe Viktor direct în ochi și vorbiți cu convingere: 'Viktor, vreau să fiu foarte clar — naționalitatea dumneavoastră nu are absolut nimic de-a face cu modul în care gestionez asta. Tratez pe toată lumea la fel, fără excepție. Acum, amândoi ați fost implicați într-un deranj și trebuie să ajung la fundul lucrurilor.' Vă încrucișați brațele și așteptați, proiectând imparțialitate prin postură și privirea fermă, neabătută: 'Spuneți-mi ce s-a întâmplat, de la început.'",
+                    "feedback": "De ce: Intenția e bună — abordarea directă a preocupării. Dar 'tratez pe toată lumea la fel' e o afirmație pe care Viktor nu are niciun motiv să o creadă de la un necunoscut, iar cercetările arată că adesea aterizează ca respingere, nu ca asigurare. Trecerea la 'amândoi ați fost implicați într-un deranj' îi grupează pe victimă și agresor imediat după ce a descris că a fost lovit și scos injust. Se simte ca discursul pe care îl face o persoană înainte să facă lucrul pe care a spus că nu-l va face. | CONSECINȚE: Viktor aude cuvintele dar nu le simte. 'Sigur, toată lumea la fel,' spune plat. Cooperează minimal dar fără încredere. Obțineți relatarea lui, dar e precaută și prescurtată. Oportunitatea pentru angajare sinceră e pierdută. | Reflecție: De ce sună adesea declarațiile de corectitudine gol și ce acțiuni comunică imparțialitatea mai eficient decât cuvintele?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Factorul mulțime",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udcf1",
+                "title": "Publicul devine neliniștit",
+                "desc": "Cu ambii subiecți separați și gestionați, dinamica mulțimii se impune. Semicercul de 15-20 de persoane nu s-a dispersat — dacă ceva, a crescut pe măsură ce oamenii care ies din club se alătură spectacolului. Telefoanele multiple filmează. Starea de spirit se schimbă: plictiseala se amestecă cu alcoolul, iar mulțimea vrea un spectacol. Cineva strigă din spate. Doi bărbați din față încep un aplaus ritmic. Trecătoarea rănită de pe bordură e ignorată de toată lumea."
+            },
+            "npcDialogue": [
+                {
+                    "character": "bystander",
+                    "text": "(strigând din mulțime) Hei! Lăsați-i să se bată! Să rezolve ca bărbații! E plictisitor — faceți ceva!"
+                },
+                {
+                    "character": "zoe",
+                    "text": "(anxios, către dumneavoastră) Domnule agent, oamenii ăștia fac totul mai rău. Danny se tot uită la ei. Puteți să-i faceți să plece? Vă rog?"
+                }
+            ],
+            "prompt": "Mulțimea e neliniștită și încearcă activ să provoace re-escaladarea. Cineva e rănit și neîngrijit. Filmarea continuă. Cum gestionați mulțimea?",
+            "options": [
+                {
+                    "text": "Vă adresați mulțimii cu autoritate calmă — fără a striga, dar proiectând vocea clar peste zgomotul străzii: 'Bine, toată lumea. Vă mulțumesc pentru răbdare. Iată situația: am doi oameni care au nevoie de atenția mea și pe cineva rănit pe bordură care are nevoie de ajutor. Dacă nu sunteți implicați și nu sunteți martor, cel mai bun lucru e să vă îndreptați spre casă în siguranță. Dacă ați văzut ce s-a întâmplat înăuntru — aș aprecia relatarea dumneavoastră.' Apoi vă întoarceți spre cel mai treaz trecător: 'Puteți să verificați femeia de pe bordură? Cred că și-a rănit glezna.'",
+                    "feedback": "De ce: Aceasta e gestionarea mulțimii la cel mai înalt nivel. 'Vă mulțumesc pentru răbdare' îi reformulează din spectatori în cetățeni cooperanți. A explica 'iată situația' le satisface nevoia de informație — mulțimile devin ostile când nu înțeleg ce se întâmplă. Dându-le două căi clare — plecați în siguranță sau rămâneți ca martori — convertește bădăuii pasivi în oameni cu un rol. Menționarea persoanei rănite redirecționează atenția de la divertisment la empatie. Recrutarea unui trecător pentru a ajuta femeia rănită distribuie responsabilitatea și creează o acțiune prosocială în mulțime. | CONSECINȚE: Tonul se schimbă. Mai mulți oameni din spate încep să plece — li s-a dat permisiunea să plece fără a simți că au ratat ceva. Doi oameni spun că au văzut ce s-a întâmplat înăuntru și se mută deoparte. O femeie se duce să verifice trecătoarea rănită. Provocatorul care a strigat 'lăsați-i să se bată' se găsește cu un public în scădere și tace. Telefoanele continuă să filmeze, dar acum captează competență. | Reflecție: De ce reduce faptul de a da unei mulțimi un rol constructiv dorința lor de a juca unul distructiv?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă răsuciți spre mulțime, pășiți agresiv înainte și strigați la întregul semicerc de fețe și telefoane, cu vocea reverberând de fațada clubului: 'Toată lumea care nu e implicată — PLECAȚI. ACUM. Aceasta e o scenă de poliție. Oricine intervine va fi arestat pentru obstrucționare. Puneți telefoanele deoparte și circulați!' Vă plimbați privirea peste mulțime, stabilind contact vizual cu provocatorul, cu cei care aplaudau ritmic și cu fiecare telefon ridicat. Postura spune clar că vorbiți serios.",
+                    "feedback": "De ce: A ordona unei mulțimi de 15-20 de oameni beți să se disperseze rareori funcționează — mai ales la 1:30 noaptea în fața unui club. A amenința cu arestarea pentru obstrucționare când stau pe trotuar public e juridic discutabil și practic neaplicabil. A le spune să pună telefoanele deoparte semnalează că nu vreți să fiți urmărit, ceea ce îi face să vrea să urmărească și mai mult. Agresivitatea față de mulțime riscă unificarea lor împotriva dumneavoastră — singurul lucru mai periculos decât o mulțime neliniștită e una ostilă. | CONSECINȚE: Nimeni nu pleacă. Provocatorul râde: 'Arestați-ne pe toți atunci!' Telefoanele rămân ridicate. Mai mulți oameni se apropie din sfidare. Danny și Viktor reacționează la strigat — adrenalina le crește din nou. Ați escaladat mulțimea și ați destabilizat subiecții simultan. | Reflecție: De ce nu reușește aproape niciodată ordinarea unei mulțimi intoxicate mari să se disperseze să producă dispersarea?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Vă întoarceți cu spatele la mulțime și o ignorați în întregime — sunt doar o distracție, un zgomot de fundal care nu merită energia dumneavoastră. Vă concentrați exclusiv pe cei doi subiecți, scoțând carnetul de notițe și începând să organizați informațiile pentru procesare. Strigătele din spatele dumneavoastră, aplausul ritmic, telefoanele — le filtrați pe toate. Mulțimea se va plictisi și va pleca singură odată ce drama e consumată. Mergeți între pozițiile lui Danny și Viktor, focalizat pe investigație, în timp ce trecătoarea rănită de pe bordură rămâne complet neabordată.",
+                    "feedback": "De ce: Mulțimea nu e un fundal pasiv — e o variabilă activă în ecuație. Provocatorul care strigă 'lăsați-i să se bată' ridică direct adrenalina lui Danny și Viktor. Ignorarea mulțimii înseamnă și ignorarea trecătoarei rănite, ceea ce e un eșec de protecție. Mulțimile din fața cluburilor de noapte la 1:30 noaptea nu se plictisesc și nu pleacă — se îmbată și devin neliniștite. | CONSECINȚE: Fără recunoaștere, mulțimea devine mai zgomotoasă. Aplausul ritmic prinde. Danny începe să performeze pentru public — își umflă pieptul, își ridică vocea. Viktor îl oglindește. Trecătoarea rănită continuă să stea neîngrijită. Anxietatea lui Zoe escaladează. Situația alunecă înapoi spre confruntare. | Reflecție: Când permite ignorarea unui factor destabilizator să crească dincolo de capacitatea de a-l gestiona?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Tăiați prin semicercul de spectatori cu pași hotărâți, drept spre bărbatul care a strigat 'lăsați-i să se bată.' Vă opriți suficient de aproape încât să simtă aerul rece al nopții între dumneavoastră, și vorbiți încet, doar pentru urechile lui și ale prietenilor din imediata apropiere: 'Prietene, am nevoie să te oprești. Îmi faci treaba mai grea și pui oameni în pericol. Dacă cineva e rănit pentru că i-ai instigat, asta cade pe conștiința ta. Ori ajuți, ori pleci.' Îi susțineți privirea, așteptând un răspuns, în timp ce în spatele dumneavoastră cei doi subiecți rămân nesupravegheați.",
+                    "feedback": "De ce: Abordarea celui mai zgomotos provocator e tentantă — taie capul șarpelui. Dar a singulariza o persoană dintr-o mulțime beată poate fie să o rușineze în conformare, fie să o provoace în sfidare. La 1:30 noaptea cu alcool implicat, cel din urmă e mai probabil. Depărtându-vă de subiecți pentru a confrunta un agitator reduce și controlul dumneavoastră asupra scenei principale. Și dacă provocatorul escaladează, aveți acum trei probleme. | CONSECINȚE: Bărbatul se umflă: 'Sau ce? Mă arestați pentru vorbit?' Prietenii lui se strâng în jurul lui. Sunteți acum angajat într-o confruntare separată în timp ce Danny și Viktor sunt nesupravegheați. Mulțimea are un nou punct focal — dumneavoastră versus agitator. | Reflecție: Când rezolvă confruntarea cu cea mai zgomotoasă voce dintr-o mulțime problema și când creează una nouă?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Rezolvarea",
+            "sceneUpdate": {
+                "emoji": "\u2696\ufe0f",
+                "title": "Punctul de decizie",
+                "desc": "Mulțimea s-a rărit. Trecătoarea rănită primește ajutor. Danny s-a calmat suficient să stea rezemat de zid cu Zoe, deși încă se holbează în direcția lui Viktor. Buza lui Viktor s-a oprit din sângerat; stă liniștit lângă Craig. Ambii bărbați se trezesc ușor — aerul rece al nopții și căderea de adrenalină își fac treaba. Aveți relatările amândurora, coroborarea videurului și un sens al ce s-a întâmplat. Acum vine decizia: ce rezultat se potrivește acestei situații?"
+            },
+            "npcDialogue": [
+                {
+                    "character": "danny",
+                    "text": "(mai liniștit acum, brațele în jurul lui Zoe) Uite... vreau doar să merg acasă. Zoe are dreptate — a fost stupid. Dar dacă el depune plângere, depun și eu. Am avut tot dreptul să-mi apăr prietena."
+                },
+                {
+                    "character": "viktor",
+                    "text": "(către Craig, încet, audibil de dumneavoastră) Nu vreau să merg la secție. Am serviciu dimineața. Doar... n-am vrut să fiu aruncat afară așa. Ca și cum nu sunt nimic. A fost un accident cu băutura."
+                },
+                {
+                    "character": "craig",
+                    "text": "(către dumneavoastră, în particular) Sincer? Poate am fost prea brutal când i-am scos. Străinul n-a făcut mare lucru greșit. Aș prefera să se rezolve totul liniștit dacă sunt sincer."
+                }
+            ],
+            "prompt": "Danny vrea să meargă acasă. Viktor nu vrea bătaie de cap. Videurul recunoaște că a fost prea brutal. Niciuna din părți nu a suferit leziuni grave. Ce rezolvare propuneți?",
+            "options": [
+                {
+                    "text": "Aduceți-i pe Danny și Viktor la distanță de vorbire — nu față în față, dar suficient de aproape să vă audă. Vorbiți neutru: 'Iată situația. O băutură s-a vărsat din greșeală. Au fost împingeri. Ați fost scoși afară. Niciunul nu vrea să fie la secție la 2 noaptea, și niciunul n-are nevoie. Nu întocmesc acuzații — dar am nevoie de ceva. Danny: recunoaște că băutura a fost un accident. Viktor: acceptă că s-a terminat. Dați-vă mâna sau nu — dar mergeți amândoi acasă. Danny, Zoe îți ia un taxi spre vest. Viktor, Craig se asigură că pleci spre est. Dacă văd pe vreunul lângă club în seara asta, avem o altă conversație.'",
+                    "feedback": "De ce: Proporțional, uman și practic. Rezumarea neutră a faptelor — 'o băutură s-a vărsat din greșeală, au fost împingeri' — scoate eroii și răufăcătorii din narativ. 'Niciunul dintre voi n-are nevoie să fie la secție la 2 noaptea' numește realitatea pe care amândoi bărbații o vor. A-i cere lui Danny să recunoască accidentul abordează disputa factuală la rădăcină. A-i cere lui Viktor să accepte că s-a terminat abordează nemulțumirea persistentă. A oferi o strângere de mână fără a o cere păstrează demnitatea. Separarea direcțiilor taxiurilor previne re-întâlnirea. Linia finală e o limită clară fără a fi o amenințare. | CONSECINȚE: Danny mormăie: 'Da... bine, probabil a fost un accident.' Viktor dă din cap. Nu-și dau mâna, dar stabilesc un scurt contact vizual iar ostilitatea s-a drenat. Zoe articulează 'mulțumesc' spre dumneavoastră. Craig pare ușurat. Două taxiuri sunt chemate. Seara se încheie fără acuzații, fără leziuni și fără un video viral de eșec polițienesc. | Reflecție: Cum produce o rezolvare care numește realitatea și oferă o ieșire ce salvează fața o pace mai durabilă decât aplicarea formală?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Evaluați faptele cu răceală clinică. Danny a aruncat prima împingere — aceasta constituie lovire conform legii. Viktor are o leziune vizibilă pe buză. Craig e martor care corroborează. Scoateți cătușele și vă apropiați de Danny, care stă rezemat de zid cu Zoe: 'Danny, te rețin pentru agresiune. Tu ai inițiat contactul fizic, ceea ce constituie lovire. Viktor e victima. Craig e martor. Voi procesa asta corect — e un caz clar.' Întindeți mâna spre brațul lui în timp ce fața lui Zoe se descompune de disperare și neputință.",
+                    "feedback": "De ce: Justificabil tehnic — Danny a făcut într-adevăr primul contact fizic. Dar proporționalitatea contează enorm. O împingere pe o băutură vărsată între doi bărbați intoxicați, fără leziuni grave, unde 'victima' nu vrea să depună plângere și are serviciu dimineața, nu justifică o arestare care va aglomera sistemul, o va traumatiza pe Zoe și va escalada un incident minor într-un cazier judiciar. Videurul — un martor cheie — va minimiza probabil propria manipulare brutală dacă încep proceduri formale. Mulțimea vede un bărbat arestat pentru că a împins pe cineva care a vărsat o băutură pe prietena lui. | CONSECINȚE: Danny izbucnește: 'Mă arestați pe MINE?!' Zoe e isterică. Viktor protestează — n-a cerut asta. Craig tace, îngrijorat că propria lui conduită va fi scrutinizată. Arestarea în fața telefoanelor și a mulțimii devine povestea. Un incident minor e acum un caz penal care nu beneficiază pe nimeni. | Reflecție: Când legea vă dă puterea de a aresta, cum decideți dacă arestarea servește justiția sau o subminează?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Mergeți la punctul de mijloc dintre zidul lui Danny și stația de taxi a lui Viktor, ridicați vocea suficient ca ambele părți să audă și pronunțați verdictul cu brațele încrucișate: 'Bine, ați băut amândoi, ați fost amândoi într-o încăierare, și aș putea să vă arestez pe amândoi pentru tulburarea ordinii publice. Dar o să-mi folosesc discreția în seara asta. Mergeți acasă. Nu vă mai întoarceți. Dacă aud de vreunul dintre voi din nou în noaptea asta, petreceți restul nopții într-o celulă. Am fost clar?' Arătați cu degetul într-o direcție pentru Danny și în cealaltă pentru Viktor, așteptând două încuviințări reticente.",
+                    "feedback": "De ce: Rezultatul e rezonabil — fără arestare, mergeți acasă — dar încadrarea e problematică. 'Aș putea să vă arestez pe amândoi' agață amenințarea aplicării legii peste un act de clemență, făcând conformarea să pară recunoștință pentru indulgență în loc de un rezultat corect. Nu distinge între instigator și persoana cu nemulțumirea validă. Viktor, care a fost lovit și scos brutal, aude că e la fel de vinovat. Lipsa de recunoaștere a ce s-a întâmplat de fapt lasă ambii bărbați să se simtă neascultați. | CONSECINȚE: Ambii bărbați pleacă, dar niciunul nu simte că situația a fost gestionată corect. Danny crede că a avut noroc. Viktor crede că poliția l-a tratat ca egal vinovat deși el e cel care a fost lovit. Niciunul nu învață nimic. E o rezolvare de conveniență, nu de justiție. | Reflecție: Care e diferența între discreție care rezolvă o situație și discreție care doar o încheie?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Scoateți formularele complete de declarații și vă pregătiți pentru procedura standard riguroasă. Mergeți mai întâi la Danny cu carnetul: 'Am nevoie de o declarație scrisă completă de la dumneavoastră.' Apoi la Viktor: 'Același lucru de la dumneavoastră, domnule — relatare completă a evenimentelor.' Opriți trecătorii rămași care au fost martori pentru declarații suplimentare. Solicitați prin radio evaluare medicală pentru buza spartă a lui Viktor și pentru glezna trecătoarei rănite de pe bordură. Luați declarații detaliate de la toate părțile, fotografiați leziunea lui Viktor și depuneți un raport de incident complet. Lăsați sistemul să decidă.",
+                    "feedback": "De ce: Riguros procedural dar practic disproporționat. Declarații complete, evaluări medicale și rapoarte de incident pentru o împingere minoră între bărbați beți — unde niciuna din părți nu vrea acțiune formală — va dura ore. Leagă resurse polițienești la 1:30 noaptea într-o sâmbătă când alte apeluri așteaptă. Îl forțează pe Viktor la secție deși are serviciu dimineața. Escaladează un incident minor în mașina birocratică care nu poate fi oprită. Uneori sistemul nu e instrumentul potrivit. | CONSECINȚE: E ora 4 dimineața până terminați. Danny și Zoe sunt epuizați și resentimentoși. Viktor a pierdut somnul înainte de tură. Trecătoarea rănită a așteptat atenție în timp ce dumneavoastră luați declarații. Raportul e riguros dar rezultatul e la săptămâni distanță și va fi probabil un avertisment. Ați petrecut trei ore pe o problemă de zece minute. | Reflecție: Când devine rigurozitatea procedurală disproporționată față de gravitatea incidentului?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Încheierea",
+            "sceneUpdate": {
+                "emoji": "\ud83c\udf03",
+                "title": "Închiderea scenei — 2:15 noaptea",
+                "desc": "Danny a plecat într-un taxi cu Zoe. Viktor își așteaptă taxiul, mai calm acum, derulează pe telefon. Mulțimea s-a dispersat în mare parte — câțiva întârziați stau pe-acolo. Craig stă lângă intrarea clubului, brațele încrucișate, urmărind strada cum se golește. O unitate de întărire a sosit în sfârșit — întârzierea a fost cauzată de un accident rutier multiplu pe centură. Trecătoarea rănită — o tânără — stă încă pe bordură, glezna umflată. A fost ajutată de un trecător amabil dar nu a primit încă atenție oficială. Noaptea se liniștește, dar scena nu e încă închisă."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unitate pe scenă la clubul Vibe — unitatea de întărire a sosit. Scuze pentru întârziere, a fost un accident rutier multiplu pe centură care a ocupat resurse. Care e statusul curent?"
+                },
+                {
+                    "character": "bystander",
+                    "text": "(tânăra de pe bordură, ținându-și glezna) Scuzați-mă, domnule agent? Mi-am sucit glezna când au început să se bată — am încercat să ies din drum și am căzut de pe bordură. E foarte umflată. Nu... nu știu dacă ar trebui să merg la spital. Prietenii mei au plecat fără mine."
+                },
+                {
+                    "character": "craig",
+                    "text": "(apropiindu-se) Ascultați, domnule agent — apreciez că ați rezolvat. Între noi... probabil l-am apucat pe băiatul ăla mai tare decât trebuia. Obiceiuri vechi din armată. O să vorbesc cu managementul despre instruirea mai bună a echipei de la ușă. Nopțile astea scapă de sub control repede."
+                }
+            ],
+            "prompt": "Confruntarea e rezolvată, dar două persoane încă au nevoie de atenția dumneavoastră: trecătoarea rănită care a așteptat, și videurul care tocmai a recunoscut folosirea forței excesive. Cum închideți scena?",
+            "options": [
+                {
+                    "text": "Prioritizați trecătoarea rănită imediat. Vă așezați în genunchi lângă ea pe bordura rece: 'Îmi pare rău că ați așteptat — lasă-mă să mă uit. Cum vă numiți? ... Mia, bine. Puteți mișca degetele? Umflătura sugerează o entorsă — vă chem o ambulanță. Prietenii au plecat? Rămân cu dumneavoastră până vine.' Odată ce Mia e stabilizată, vă întoarceți la Craig: 'Craig, apreciez sinceritatea. Nu fac o problemă formală în seara asta — dar dați curs conversației despre instruire. Modul în care sunt scoase persoanele contează. Ați fost de mare ajutor ținându-l pe Viktor calm — aceea e versiunea din dumneavoastră de care are nevoie această meserie.'",
+                    "feedback": "De ce: Trecătoarea rănită a fost cea mai neglijată persoană de pe scenă — a fost rănită de incident, prietenii au abandonat-o, și a așteptat răbdător în timp ce gestionați pe toată lumea altcineva. Prioritizarea ei acum semnalează că fiecare persoană de pe scenă contează, nu doar cele mai zgomotoase. Apelarea pe nume, verificarea leziunii, aranjarea transportului și oferirea de a rămâne sunt toate acțiuni de înaltă încredere. Cu Craig, onestitatea e recompensată cu onestitate — recunoașterea admiterii fără formalizarea în seara asta e proporțională, în timp ce direcționarea lui spre versiunea constructivă a lui însuși consolidează comportamentul pe care îl doriți. | CONSECINȚE: Mia e vizibil ușurată — cineva oficial a observat-o în sfârșit. Își sună colega de apartament. O ambulanță e dispecerizată. Craig dă din cap încet la cuvintele dumneavoastră; aterizează pentru că ați văzut ambele versiuni ale lui în seara asta și ați ales să o consolidați pe cea mai bună. Scena e închisă cu grijă. Ultimii trecători văd un polițist stând cu o tânără rănită așteptând ambulanța. Aceea e imaginea finală a nopții. | Reflecție: Ultimul lucru pe care îl faceți la o scenă e adesea ceea ce oamenii țin minte cel mai mult. Ce comunică încheierea cu grijă tuturor celor care încă urmăresc?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă întoarceți imediat spre Craig — admiterea lui e semnificativă și nu poate aștepta. Îl trageți deoparte, departe de ultimii trecători rămași, și coborâți vocea la un ton serios, măsurat: 'Craig, trebuie să fiu clar cu dumneavoastră: ce descrieți ar putea constitui forță excesivă. Am nevoie să notați în scris exact ce s-a întâmplat în timpul evacuării, pas cu pas. În funcție de ce arată camerele de supraveghere ale clubului, poate fi o urmărire formală. Apreciez onestitatea, dar nu pot ignora asta.' În spatele dumneavoastră, tânăra de pe bordură își mută glezna umflată și privește ofițerul trecând pe lângă ea din nou.",
+                    "feedback": "De ce: A lua în serios admiterea videurului e profesional corect. Totuși, trecătoarea rănită — care așteaptă de peste treizeci de minute — stă încă pe bordură cu glezna umflată. A prioritiza un proces formal peste o nevoie imediată de protecție transmite un mesaj clar despre valorile dumneavoastră. Craig și-a oferit onestitatea voluntar; întâmpinarea ei cu consecințe formale imediate va asigura că niciun videur nu va fi sincer cu dumneavoastră din nou. | CONSECINȚE: Fața lui Craig se închide. 'Bine. Uitați că am zis ceva.' Se duce înăuntru. Ați pierdut un aliat comunitar și un martor cooperant. Între timp, Mia stă pe bordură, întrebându-se dacă o va ajuta cineva. Acțiunea procedural corectă a venit pe costul celei umane. | Reflecție: Când cineva admite voluntar o greșeală, cum determină răspunsul dumneavoastră dacă ei — și alții — vor mai fi vreodată sinceri cu dumneavoastră?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Încheiați scena eficient — sunteți obosit și alte apeluri așteaptă. Solicitați prin radio o ambulanță pentru trecătoarea de pe bordură, confirmând locația și natura leziunii fără a vă opri lângă ea pentru o conversație. Apoi mergeți la Craig și îi dați un sfat scurt, profesional, cu un semn din cap: 'Craig, vorbiți cu managementul despre revizuirea procedurilor de evacuare ale echipei de la ușă. Seara asta a escaladat mai mult decât era necesar.' Aruncați o privire spre bordura unde Mia stă singură strângându-și telefonul, confirmați că ambulanța e pe drum și vă îndreptați spre vehicul pentru a elibera scena și a vă marca disponibil.",
+                    "feedback": "De ce: Eficient, și acțiunile sunt în mare corect — ambulanță pentru Mia, sfat pentru Craig. Dar 'încheiați repede' ratează dimensiunea umană. Mia nu are nevoie doar de o ambulanță — e singură, rănită și speriată la ora 2 noaptea. O ambulanță dispecerizată fără o conversație o lasă să se simtă ca o problemă de logistică. Craig nu are nevoie doar de sfaturi — tocmai s-a deschis despre o problemă reală. O directivă rapidă ratează momentul. Eficiența fără empatie completează lista dar nu și slujba. | CONSECINȚE: Ambulanța e chemată. Craig dă din cap și se duce înăuntru. Mia stă singură pe bordură așteptând, strângându-și telefonul. Totul e tehnic rezolvat. Nimic nu e îngrijit. Diferența între o scenă închisă și o scenă bine închisă e exact acest gol. | Reflecție: Când toate căsuțele sunt bifate dar nimeni nu se simte văzut, e treaba de fapt terminată?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Aruncați o privire în treacăt spre trecătoarea de pe bordură — glezna ei e vizibil umflată și tremură într-o rochie subțire în frigul nopții. Vă opriți doar o clipă, suficient cât să o adresați fără a vă întrerupe drumul spre mașină: 'Doamnă, dacă sunteți rănită ar trebui să sunați la 112 sau să mergeți la urgențe. Vă pot da indicații dacă aveți nevoie. Mai e ceva?' Ea deschide gura să răspundă dar dumneavoastră deja vă întoarceți spre vehicul de serviciu. Raportul de incident trebuie completat cât detaliile sunt proaspete în minte, iar adrenalina nu v-a părăsit complet din cauza nopții lungi.",
+                    "feedback": "De ce: A-i spune unei tinere de 19 ani rănite și abandonate să sune singură la urgențe — când dumneavoastră sunteți serviciul de urgență — e o nerespectare a datoriei de grijă. Stă pe o bordură rece de treizeci de minute așteptând pe cineva să o ajute. A o îndrepta să se descurce singură ca să puteți face documente îi spune că raportul dumneavoastră contează mai mult decât glezna ei. Acesta e momentul care devine o poveste pe care o spune ani de zile: 'Am fost rănită și poliția mi-a spus să mă descurc singură.' | CONSECINȚE: Fața Miei cade. Sună la 112 singură, pe bordură, la ora 2 noaptea. Craig privește din ușă și dă din cap dezaprobator. Ultimii trecători filmează ofițerul urcându-se în mașină în timp ce o tânără rănită stă singură. Acesta e videoul care devine viral — nu din motivele potrivite. | Reflecție: Când o persoană rănită e singură și vulnerabilă, care e standardul minim de grijă pe care îl datorați — și ce mesaj transmite nerespectarea lui fiecărui martor?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debriefing și dezvăluire",
+            "sceneUpdate": {
+                "emoji": "\ud83c\udfc1",
+                "title": "Debriefing de instruire",
+                "desc": "Înapoi la secție. Sergent Kowalski vă evaluează performanța în scenariul de încăierare stradală la clubul de noapte."
+            },
+            "autoDialogue": true,
+            "finalScene": true,
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Ați intrat într-o scenă haotică, alimentată de alcool, cu doi bărbați agresivi, o mulțime volatilă, un trecător rănit și fără întăriri pentru opt minute. Fiecare secundă a cerut o decizie: pe cine să abordați mai întâi, cum să folosiți videurul, când să gestionați mulțimea și ce rezolvare servea pe toată lumea — nu doar pe vocea cea mai zgomotoasă. Faptul că Danny și Viktor au plecat în taxiuri separate, mulțimea s-a dispersat fără incident și Mia a primit ajutorul de care avea nevoie îmi spune că ați înțeles misiunea."
+                },
+                {
+                    "character": "officer",
+                    "text": "Sincer, sosirea singur a fost partea cea mai grea. Tot mă gândeam că trebuie să aștept întăriri înainte de a face ceva semnificativ. Instinctul de a mă reține până sosesc rinforțuri era copleșitor."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Și aceasta e reformularea pe care vreau să o duceți mai departe. Sosirea singur nu e un dezavantaj dacă folosiți oamenii deja acolo. Craig a fost întărirea dumneavoastră din momentul în care i-ați dat o direcție clară. Zoe a fost aliatul dumneavoastră din momentul în care i-ați validat eforturile. Mulțimea a fost avantajul dumneavoastră din momentul în care le-ați dat un rol în loc să-i tratați ca amenințare. Fiecare scenă haotică are potențiali aliați deja poziționați — treaba dumneavoastră e să-i identificați și să-i recrutați înainte ca întăririle de la radio să sosească."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Ofițerii care se chinuie cu apelurile la cluburi de noapte sunt cei care încearcă să controleze totul singuri. Cei care prosperă sunt cei care coordonează. Nu ați gestionat doar această scenă — ați orchestrat-o. Și acel moment final cu Mia — șezând cu o tânără rănită pe care toată lumea a uitat-o — asta e ce vor ține minte oamenii când se gândesc la poliție. Nu strigatul, nu separarea, nu rezolvarea. Grija de la sfârșit. Acum permiteți-mi să vă spun ce s-a întâmplat după ce toată lumea a plecat acasă."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispecerat", "avatar": "\ud83d\udcfb"},
+        "danny": {"name": "Danny (25, intoxicat)", "avatar": "\ud83d\ude24"},
+        "viktor": {"name": "Viktor (28, accent străin)", "avatar": "\ud83e\udd15"},
+        "zoe": {"name": "Zoe (prietena lui Danny, 24)", "avatar": "\ud83d\ude30"},
+        "craig": {"name": "Craig (videur, 35, fost militar)", "avatar": "\ud83d\udee1\ufe0f"},
+        "bystander": {"name": "Trecător / Mia (rănită, 19)", "avatar": "\ud83e\udd15"},
+        "officer": {"name": "Dumneavoastră (agent)", "avatar": "\ud83d\udc6e"},
+        "trainer": {"name": "Sergent Kowalski", "avatar": "\ud83d\udc6e\u200d\u2642\ufe0f"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Comandă excepțională a scenei",
+            "emoji": "\ud83c\udf1f",
+            "feedback": "Ați demonstrat performanță de elită în unul dintre cele mai haotice medii din activitatea polițienească. Ați evaluat înainte de a acționa, ați separat combatanții folosind resursele din jur, ați de-escaladat doi bărbați intoxicați cu empatie și autoritate calmă, ați gestionat o mulțime volatilă dându-le roluri constructive, ați ajuns la o rezolvare proporțională care a păstrat demnitatea tuturor și ați închis scena îngrijindu-vă de persoana pe care toată lumea a uitat-o. Fiecare telefon care v-a filmat în seara asta a surprins genul de activitate polițienească care construiește încrederea comunității."
+        },
+        "good": {
+            "title": "Performanță puternică sub presiune",
+            "emoji": "\u2705",
+            "feedback": "Ați gestionat un deranj de club de noapte sub înaltă presiune cu profesionalism și judecată bună. Ați realizat separarea, ați gestionat mai multe părți și ați găsit o rezolvare rezonabilă. Unele oportunități de de-escaladare mai profundă, gestionare mai bună a mulțimii sau încheiere mai atentă au fost ratate, dar abordarea generală a fost solidă și scena s-a încheiat fără escaladare serioasă."
+        },
+        "average": {
+            "title": "Adecvat dar inconsecvent",
+            "emoji": "\ud83d\udcca",
+            "feedback": "Ați rezolvat amenințarea fizică imediată dar v-ați luptat cu complexitatea scenei. Fie prin angajare grăbită, neglijarea mulțimii sau o rezolvare care a lăsat părțile să se simtă neascultate, au fost oportunități semnificative ratate. Deranjele la cluburi de noapte cer gestionarea simultană a subiecților, mulțimilor, persoanelor rănite și aliaților — revizuiți cum să echilibrați aceste cerințe concurente."
+        },
+        "poor": {
+            "title": "Necesită îmbunătățiri semnificative",
+            "emoji": "\u26a0\ufe0f",
+            "feedback": "Abordarea dumneavoastră a creat mai multe probleme decât a rezolvat. Comenzi agresive, eșecul de a separa eficient, neglijarea trecătoarei rănite sau aplicare disproporționată au escaladat o situație gestionabilă. În mediile de club de noapte alimentate de alcool, fiecare pas greșit se compune. Revizuiți tehnicile de separare, de-escaladarea cu subiecți intoxicați, dinamica mulțimii și rezolvarea proporțională."
+        }
+    },
+    "metrics": {
+        "sceneSafety": {
+            "name": "Siguranța scenei și evaluare",
+            "description": "Realizarea unei evaluări rapide dar riguroase a scenei, menținerea conștientizării tactice și prioritizarea siguranței fizice pentru toate părțile inclusiv ofițerul",
+            "icon": "\ud83d\udd0d"
+        },
+        "separationAndControl": {
+            "name": "Separare și control",
+            "description": "Separarea eficientă a combatanților, recrutarea aliaților și menținerea distanței fizice între părțile volatile pe tot parcursul întâlnirii",
+            "icon": "\ud83d\udd00"
+        },
+        "emotionalRegulation": {
+            "name": "De-escaladare emoțională",
+            "description": "Gestionarea persoanelor intoxicate și agitate prin autoritate calmă, validare și tehnici de comunicare adaptate pentru subiecți cu capacitate afectată",
+            "icon": "\ud83e\udde0"
+        },
+        "crowdManagement": {
+            "name": "Gestionarea mulțimii și a camerelor",
+            "description": "Angajarea constructivă a trecătorilor, neutralizarea provocatorilor, îngrijirea persoanelor rănite și menținerea profesionalismului sub observație",
+            "icon": "\ud83d\udc65"
+        },
+        "proportionateResolution": {
+            "name": "Rezolvare proporțională",
+            "description": "Obținerea unui rezultat care se potrivește gravității incidentului, păstrează demnitatea tuturor părților și creează o rezolvare durabilă în loc de a încheia doar întâlnirea",
+            "icon": "\u2696\ufe0f"
+        }
+    }
+}

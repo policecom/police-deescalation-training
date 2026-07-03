@@ -1,0 +1,437 @@
+{
+    "id": "road-rage",
+    "title": "Furie la volan — Punct critic la intersecție",
+    "description": "Scenariu avansat care implică doi șoferi într-o confruntare aprinsă după o coliziune rutieră la o intersecție rezidențială. Unul dintre șoferi are un copil mic în mașină. Celălalt arată semne subtile de consum de alcool. Ofițerul trebuie să securizeze locul, să separe părțile ostile, să protejeze un copil vulnerabil, să detecteze starea de ebrietate și să gestioneze cereri concurente — toate menținând imparțialitatea înainte de a stabili vina.",
+    "icon": "🚗",
+    "instructor": {
+        "name": "Sergent Davis",
+        "avatar": "👮‍♂️",
+        "introduction": "Coliziunile rutiere sunt printre cele mai frecvente apeluri la care vei interveni — și printre cele mai subestimate. Doi străini, amândoi sub adrenalină, amândoi convinși că celălalt e vinovat, amândoi văzându-și planurile de după-amiază dărâmate. Adaugă un copil speriat, posibilă stare de ebrietate și vehicule avariate care blochează traficul — și ai o situație cu mai multe variabile decât își dau oamenii seama. Prioritățile tale: mai întâi siguranța — mereu — apoi separarea părților, apoi ancheta. Majoritatea agenților se grăbesc să afle cine e de vină. E important, dar nu e primul pas. Primul e să te asiguri că nimeni nu se rănește mai rău. Al doilea e să te asiguri că cei doi adulți furioși nu escaladează la violență. Tot restul vine după."
+    },
+    "timedChoices": true,
+    "completionBadges": [
+        "scenario-road-rage-complete"
+    ],
+    "perfectBadge": "perfect-scenario-road-rage",
+    "finalMessage": {
+        "revelation": "Domnul Cooper a trecut pe roșu după ce a părăsit un eveniment corporativ unde băuse trei pahare de vin în două ore. Alcoolemia lui era 0,06% — sub limita legală, dar suficientă pentru a-i înrăutăți timpul de reacție și judecata. S-a grăbit să ridice un client și era distras de telefon când a intrat în intersecție. Nu a văzut semnul de oprire. Doamna Bennett avea prioritate și nu a putut evita coliziunea. Fiica ei Ella era corect în scaunul de mașină și nu a suferit fizic, dar impactul și strigătele au speriat-o profund. Martorul domnul Peterson a confirmat că Cooper a trecut pe roșu. După intervenția ta, Cooper a fost sancționat pentru nerespectarea semnului de oprire și a primit avertisment pentru conducere după consum de alcool. Asigurarea lui a preluat întreaga răspundere. Doamna Bennett a spus mai târziu unei prietene că ce și-a amintit cel mai mult nu a fost accidentul — ci că polițistul a verificat-o pe fiica ei înainte de orice. Ella vorbește încă despre „polițistul bun care s-a asigurat că e bine”.",
+        "keyLessons": [
+            "Siguranța locului faptei precede ancheta — pericolele, rănile și traficul trebuie gestionate imediat",
+            "Separarea fizică a părților ostile previne escaladarea de la verbal la violență fizică",
+            "Copiii de la locul accidentului sunt adesea ignorați — ar trebui să fie printre primele tale priorități",
+            "Imparțialitatea înainte de anchetă înseamnă să tratezi ambele părți neutru până sunt stabilite faptele",
+            "Semnele subtile de ebrietate cer verificare — față înroșită, miros de alcool și agitație cer verificare profesională",
+            "Declarațiile luate separat oferă informații mai precise decât certurile simultane",
+            "Modul în care gestionezi o coliziune rutieră influențează încrederea în poliție — poate fi singura experiență directă cu poliția"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Locul faptei",
+            "sceneUpdate": {
+                "emoji": "💥",
+                "title": "Intersecție rezidențială — după-amiază târziu",
+                "desc": "Ajungi la o intersecție în T într-o zonă rezidențială. Două mașini s-au ciocnit — un BMW închis a lovit un hatchback argintiu pe partea șoferului. Ambele vehicule sunt oprite în intersecție, blocând parțial traficul. Un bărbat în costum stă lângă BMW, gesticulând furios. O femeie lângă hatchback strigă înapoi. Mașinile stau la coadă în spatele obstacolului. Un copil plânge în hatchback."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unitate în drum spre coliziune rutieră la intersecția Sadová și Březinova. Două vehicule implicate, posibile răniri. Apelantul raportează că șoferii se ceartă pe carosabil. Poate fi un copil într-un vehicul."
+                }
+            ],
+            "prompt": "Doi adulți furioși, vehicule avariate care blochează traficul și un copil care plânge. Care e prima ta acțiune?",
+            "options": [
+                {
+                    "text": "Cobori din mașina de patrulă și te îndrepți direct spre cei doi șoferi care stau față în față în mijlocul intersecției, vocile ridicându-se cu fiecare secundă. Te bagi între ei cu mâinile ridicate, proiectând autoritate: „Amândoi — basta. Sunt aici acum. Cine vrea să-mi spună ce s-a întâmplat?” Te uiți de la unul la altul, cu carnetul deja deschis, așteptând primul răspuns în timp ce mașinile se încolonează în spatele fieroaselor.",
+                    "feedback": "De ce: Instinctul de a opri cearta e corect, dar „cine vrea să-mi spună ce s-a întâmplat?” invită versiuni contradictorii. Nu ai securizat locul — vehiculele blochează traficul, există risc de a doua coliziune. Copilul nu a fost verificat. Ai dat prioritate certului în fața siguranței. | CONSECINȚE: Amândoi șoferii vorbesc odată. O mașină ocolește resturile, aproape că te atinge. Plânsul copilului se intensifică. | Reflecție: Ce pericole imediate la locul coliziunii trebuie abordate înainte de orice anchetă?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Poziționezi mașina de patrulă în unghi în spatele epavelor, creând o barieră fizică față de traficul care se apropie. Pornești luminile de urgență ca șoferii să vadă pericolul de la distanță. Apoi cobori și te apropii ferm de ambii bărbați, cu vocea clară peste zgomot: „Am nevoie ca amândoi să vă dați pe trotuar. Acum. O să rezolvăm totul, dar mai întâi toată lumea trebuie să fie în siguranță.” Gesticulezi spre părți opuse ale trotuarului.",
+                    "feedback": "De ce: Secvențiere excelentă. Mașina de patrolă creează o barieră fizică împotriva accidentelor secundare. Luminile de urgență avertizează șoferii care se apropie. Comanda de a ieși de pe carosabil abordează siguranța fizică. Tonul ferm dar calm stabilește autoritate fără escaladare. „O să rezolvăm” promite soluție; „mai întâi toată lumea în siguranță” explică prioritatea. | CONSECINȚE: Șoferii se mută pe trotuar. Traficul ocolește mașina ta. Locul e mai sigur. Acum poți evalua rănirile și copilul. | Reflecție: De ce protecția locului vine înainte de orice la o coliziune? Care e riscul unei coliziuni secundare?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Ignori pentru moment adulții care se ceartă și te îndrepți cu pași grăbiți spre hatchback-ul argintiu, unde plânsul copilului se aude chiar și peste strigăte. Te apleci la geamul din spate și te uiți la scaunul auto, încercând să evaluezi dacă fetița e rănită sau doar speriată. Cea mai vulnerabilă persoană de aici are nevoie de atenție imediat — adulții pot aștepta cât te asiguri că acest copil e în siguranță.",
+                    "feedback": "De ce: Instinctul pentru copil e excelent. Dar a te grăbi pe lângă șoferii care se ceartă fără să îi recunoști și fără să securizezi locul față de trafic creează riscuri. Cearta poate degenera în contact fizic când ai spatele întors. Vehiculele rămân neprotejate. | CONSECINȚE: Ajungi la copil — speriat dar nevătămat. Însă în spatele tău domnul Cooper o împinge pe doamna Bennett la umăr. Ai acum un copil de protejat și o altercație fizică în același timp. | Reflecție: Cum echilibrezi urgența pentru copil cu stabilizarea întregului loc?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Rămâi lângă mașina de patrulă și apeși imediat butonul radioului: „Dispecerat, sunt pe loc — două vehicule, două părți ostile, un copil într-una din mașini. Am nevoie de o altă unitate aici înainte să intervin.” Urmărești cum șoferii continuă să se certe pe carosabil în timp ce aștepți confirmarea, considerând că vei avea nevoie de un al doilea ofițer pentru a gestiona un nivel de complexitate atât de ridicat în siguranță.",
+                    "feedback": "De ce: Cererea de backup e tactic corectă, dar a sta deoparte în timp ce doi adulți se ceartă pe carosabil, un copil plânge și mașinile ocolesc înseamnă că nimic nu e condus. Backup-ul poate întârzia minute. Trebuie să stabilizezi imediat și în același timp să ceri backup. | CONSECINȚE: În timp ce vorbești la radio, domnul Cooper se apropie agresiv de doamna Bennett. O mașină aproape lovește portiera BMW-ului. Plânsul copilului devine mai tare. Situația se înrăutățește. | Reflecție: Cum echilibrezi cererile de backup cu acțiunea imediată?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Copilul",
+            "sceneUpdate": {
+                "emoji": "👧",
+                "title": "Ella pe bancheta din spate",
+                "desc": "Ai separat șoferii pe părți opuse ale trotuarului. Locul e securizat. Acum observi geamul din spate al hatchback-ului — o față mică, poate cinci ani, în scaunul de mașină, obrajii udați de lacrămi. Panourile laterale sunt lovite dar habitaclul pare intact."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mother",
+                    "text": "(voce sfâșiată) Fiica mea — Ella — e în mașină. Cred că e bine dar nu încetează să plângă. Pot să mă duc la ea? Te rog?"
+                }
+            ],
+            "prompt": "Copilul are nevoie de atenție și mama vrea să ajungă la el. Cum procedezi?",
+            "options": [
+                {
+                    "text": "Ridici o mână spre doamna Bennett cu o voce fermă dar egală: „Rămâneți unde sunteți — trebuie să țin toată lumea separată. O să verific fiica dumneavoastră într-o clipă.” Menții perimetrul pe care l-ai stabilit, privind ambele părți ale trotuarului. Copilul continuă să plângă în spatele geamului crăpat, în timp ce mama ei stă la cinci metri distanță, cu brațele încrucișate și maxilarul strâns.",
+                    "feedback": "De ce: Separarea e ca să împiedici părțile ostile să se confrunte — nu ca să împiedici un părinte să ajungă la un copil speriat. Fiecare minut de întârziere adâncește suferința Ellei și erodează încrederea mamei. Nu există motiv de siguranță să împiedici o mamă să-și mângâie fiica. | CONSECINȚE: Ochii doamnei Bennett se măresc: „Mă țineți departe de fiica mea?!” Ella strigă mai tare. Ai transformat un aliat în adversar. | Reflecție: Când menținerea separării devine disproporționată?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Îi faci semn doamnei Bennett spre hatchback cu o înclinare scurtă din cap: „Da, mergeți — luați-o pe fiica dumneavoastră și aduceți-o pe trotuar. Trebuie să încep să iau declarații.” Scoți carnetul și te uiți spre domnul Cooper, mutându-ți deja atenția spre anchetă. Mama se grăbește la mașină, o desface pe Ella din scaunul auto și o duce pe trotuar — nu o urmezi și nu verifici tu copilul personal.",
+                    "feedback": "De ce: A permite mamei să-și ia copilul e bine, dar a o trimite singură fără să verifici tu Ella înseamnă să ratezi evaluarea rănirii. Copiii în scaune pot avea răni ascunse. „Trebuie să iau declarații” semnalează birocrație în loc de copil. | CONSECINȚE: Doamna Bennett o aduce pe Ella pe trotuar lângă bărbatul furios. Nu știi dacă copilul e rănit. Domnul Cooper mormăie ceva disprețuitor și mânia mamei se reaprinde. | Reflecție: De ce ar trebui să verifici personal un copil la locul coliziunii?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Îi spui cu căldură: „Vin cu dumneavoastră — să o verificăm pe Ella împreună.” Mergi alături de ea la mașină și deschizi ușa din spate cu grijă. Verifici copilul sistematic: contact vizual și reactivitate, vânătăi de la centură sau ham, dacă tresare la mișcarea gâtului sau brațelor, dacă pupilele sunt egale. Lași mama să o mângâie pe Ella în timp ce observi atent. Pe baza evaluării, decizi dacă soliciți serviciul medical pentru o verificare pediatrică preventivă.",
+                    "feedback": "De ce: Realizezi mai multe obiective simultan. Evaluezi copilul cu ochi antrenați în timp ce mama oferă mângâiere. Mersul împreună arată grijă și menține prezența ta. Verificarea sistematică — reactivitate, vânătăi, mișcarea gâtului, pupile — este felul în care determini dacă Ella are nevoie de atenție medicală sau este pur și simplu speriată. Copiii în scaune auto pot suferi răni care nu sunt imediat vizibile, deci o evaluare vizuală instruită este esențială înainte de a decide cu privire la serviciul medical. Mama vede că dai prioritate copilului ei cu competență, construind încredere imediată. | CONSECINȚE: Deschizi ușa ușor. Ella se întinde după mamă. Verificarea ta relevă: reactivă, fără vânătăi vizibile, se mișcă liber, pupile egale. Este speriată dar fizic în regulă — scaunul auto și-a făcut treaba. Notezi asta în raport și o sfătuiești pe doamna Bennett să urmărească simptome întârziate. Doamna Bennett te privește cu recunoștință: „Multumesc — chiar ați verificat-o cum trebuie.” Cea mai vulnerabilă persoană a fost îngrijită de cineva care știe la ce să se uite. | Reflecție: De ce o verificare sistematică a stării copilului — nu doar o privire — demonstrează competența profesională care construiește încredere profundă?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Apuci imediat stația radio și soliciți o ambulanță: „Dispecerat, am un copil de aproximativ cinci ani implicat într-o coliziune laterală. Cer echipaj medical pentru verificare pediatrică preventivă.” Apoi te întorci spre doamna Bennett: „Vine ambulanța pentru Ella. Merg la ea acum.” Te îndrepți spre hatchback, punând apelul medical înaintea propriei evaluări vizuale a stării copilului.",
+                    "feedback": "De ce: Răspunsul medical pentru un copil într-o coliziune e o măsură preventivă puternică — copiii pot avea răni ascunse. Dar să suni mai întâi înseamnă încă un minut de așteptare pentru un copil de cinci ani speriat. Verifică mai întâi copilul — evaluarea ta vizuală decide dacă ambulanța e preventivă sau urgentă. | CONSECINȚE: Medical e în drum. Dar Ella a plâns încă un minut cât ai sunat. Mama apreciază ambulanța dar se întreabă de ce ai sunat înainte de a verifica. | Reflecție: Cum decizi: evaluezi mai întâi sau suni mai întâi?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Declarații",
+            "sceneUpdate": {
+                "emoji": "📝",
+                "title": "Narațiuni contradictorii",
+                "desc": "Ella e cu mama, se calmează. Domnul Cooper pască pe cealaltă parte, telefon în mână. Un bărbat în vârstă stă la colț și privește — poate fi martor."
+            },
+            "npcDialogue": [
+                {
+                    "character": "aggressiveDriver",
+                    "text": "(se apropie, arătând cu degetul) Domnule polițist, a ieșit de nicăieri. Aveam prioritate. Trebuie să învețe să conducă. Uitați-vă la mașina mea! Vreau în raport: EA a cauzat asta."
+                },
+                {
+                    "character": "mother",
+                    "text": "(din spate) E o MINCIUNĂ! A trecut pe roșu! Nici măcar nu a încetinit! Putea să-mi omoare fiica!"
+                }
+            ],
+            "prompt": "Amândoi șoferii încearcă să-ți dea versiunea simultan, contrazicându-se. Cum iei declarațiile?",
+            "options": [
+                {
+                    "text": "Ridici ambele mâini, cu palmele deschise, și tai prin zgomot cu o voce fermă: „Vă aud pe amândoi. Trebuie să vorbesc cu fiecare separat ca să vă acord atenție deplină. Domnule Cooper — așteptați lângă vehiculul dumneavoastră. Doamnă Bennett — rămâneți cu Ella.” Apoi faci un semn din cap spre bărbatul în vârstă de la colț: „Trebuie să vorbesc și cu acel domn.” Te apropii mai întâi de martor, înainte să se îndepărteze.",
+                    "feedback": "De ce: Secvențiere excelentă. Separarea părților e esențială pentru declarații precise. A începe cu martorul independent e din punct de vedere al anchetei foarte bun — nu are interes în rezultat, poate pleca dacă nu e abordat repede. Declarația lui oferă o bază pentru pretențiile ambilor șoferi. „Să vă acord atenție deplină” face separarea să pară respectuoasă. Menționarea martorului semnalează rigoare. | CONSECINȚE: Amândoi acceptă separarea. Domnul Peterson confirmă că BMW-ul a trecut pe roșu cu viteză. Ai o bază independentă. Niciun șofer nu știe ce a spus martorul, declarațiile rămân necontaminate. | Reflecție: De ce martorul independent e declarația cea mai valoroasă la un loc disputat?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Stai între cei doi șoferi cu carnetul deschis și îi lași pe amândoi să vorbească simultan, ascultând atent ambele versiuni. Consideri că contradicțiile dintre relatări vor dezvălui cine minte — așa că le permiți să se contrazică în fața ta, luând notițe despre punctele unde poveștile diferă. Între timp martorul de la colț se uită la ceas, dând semne de nerăbdare.",
+                    "feedback": "De ce: A lăsa doi oameni furioși să-și susțină cazurile unul în fața celuilalt escaladează conflictul. Fiecare declarație declanșează replici. Volumul crește. Detaliile se pierd în contraargumente emoționale. Declarațiile luate așa sunt contaminate reciproc. | CONSECINȚE: În 30 de secunde amândoi strigă din nou. Ella începe să plângă. Martorul în vârstă dă din cap și pleacă — ești pe cale să pierzi cea mai valoroasă dovadă. | Reflecție: De ce luarea declarațiilor separat produce dovezi mai bune?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Ridici mâna ferm ca să oprești vorbăria încrucișată: „Câte unul. Domnule Cooper, așteptați lângă vehiculul dumneavoastră.” Apoi te întorci spre doamna Bennett cu carnetul pregătit: „Doamnă Bennett, spuneți-mi ce s-a întâmplat.” Iei mai întâi declarația ei, pentru că are un copil speriat și posibil trebuie să plece mai devreme. Cooper stă lângă BMW-ul lui urmărind de pe cealaltă parte, cu brațele încrucișate, vizibil nemulțumit că i s-a cerut să aștepte.",
+                    "feedback": "De ce: Separarea declarațiilor e corectă. Alegerea mamei prima are justificare practică — copil speriat, poate trebuie să organizeze transport. Dar alegerea poate fi percepută ca părtinire. A-l trimite pe Cooper să „aștepte” poate părea disprețuitor. „Celălalt șofer primul” poate fi citit ca a lua partea împotriva lui. Și martorul de la colț se îndepărtează. | CONSECINȚE: Cooper mormăie dar se conformează. Doamna Bennett dă o relatare clară. Dar Cooper fierbe lângă mașină, devenind mai ostil. Martorul începe să plece. | Reflecție: Când iei declarații separat, cum alegi ordinea fără să pari că favorizezi o parte?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Te întorci spre doamna Bennett cu o expresie preocupată: „Sunteți bine? Spuneți-mi ce s-a întâmplat.” Adresezi mai întâi partea vizibil mai tulburată, sperând să îi reduci stresul înainte de a trece la Cooper. Ea începe să povestească coliziunea în timp ce o ține pe Ella în brațe, cu vocea frângându-se de emoție. Între timp, martorul în vârstă de la colț se uită din nou la ceas, se mută de pe un picior pe altul și începe încet să se îndepărteze.",
+                    "feedback": "De ce: A verifica starea ei e grijuliu, dar a o întreba să povestească accidentul cu un copil care plânge în brațe lângă șoferul furios nu e ideal pentru declarații precise. Martorul independent de la colț se îndepărtează — martorii pleacă repede. Poți reveni la amândoi șoferii după ce asiguri martorul. | CONSECINȚE: Doamna Bennett dă o relatare emoțională, nesevențială. Martorul se uită la ceas și pleacă. Ai pierdut cea mai valoroasă sursă de dovezi. | Reflecție: La un loc disputat, ce declarație e cea mai valoroasă de asigurat mai întâi?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Șoferul agresiv",
+            "sceneUpdate": {
+                "emoji": "😡",
+                "title": "Cererile domnului Cooper",
+                "desc": "Ai vorbit cu martorul și doamna Bennett. Acum te apropii de domnul Cooper. Pășește pe lângă BMW-ul lui — sacou descheiat, față înroșită, mișcări ascuțite. A fost la telefon, clar agitat. Dar pe măsură ce te apropii, ceva se schimbă. Se uită spre hatchback-ul unde doamna Bennett o ține pe Ella și expresia îi fluctuează — doar o clipă — de la furie la altceva. Își trece o mână peste față."
+            },
+            "npcDialogue": [
+                {
+                    "character": "aggressiveDriver",
+                    "text": "(începe agresiv, apoi ezită) În sfârșit. Mi-am sunat avocatul. E pierdere de timp — (se uită din nou la Ella, vocea scăzând pentru o clipă) Stați, e bine copilul? Nu am vrut... Am văzut scaunul de mașină când am coborât și am... (se prinde, se întărește din nou) Conducea prea încet. Practic s-a oprit pe drum. Abia am atins-o pe mașină. Scrieți raportul sau stăm toată după-amiaza? Trebuie să plec."
+                }
+            ],
+            "prompt": "Domnul Cooper este agresiv și încearcă să te grăbească — dar tocmai a arătat un scurt moment de preocupare reală pentru copil înainte de a se retrage înapoi în spatele agresivității. Cum îl abordezi?",
+            "options": [
+                {
+                    "text": "Ridici o mână ca să-i tai monologul și gesticulezi spre BMW: „Domnule Cooper, vin la dumneavoastră când sunt gata. Vă rog așteptați în vehicul.” Te întorci fără să-i răspunzi la întrebarea despre Ella, așteptând să se conformeze în timp ce tu continui cu celelalte părți. Te fixează o clipă cu maxilarul încordat, apoi merge la BMW și se lasă în scaunul șoferului, trântind portiera în urmă.",
+                    "feedback": "De ce: Pare că elimini confruntarea, dar îl trimiți înapoi în vehiculul pe care urmează să-l anchetezi. Dacă este ceva ce nu vrea să vezi — recipiente deschise, telefon cu apeluri recente — are timp să le elimine. Mai rău, ai ratat momentul lui uman — preocuparea pentru Ella. Aceasta a fost o fisură în agresivitatea lui, o deschidere pentru legătură. A-l trimite la mașină o sigilează. Cu personalitatea lui, izolarea hrănește narativa de lipsă de respect. | CONSECINȚE: Cooper stă în BMW, clocotind. Momentul de vulnerabilitate despre Ella a dispărut. Când te apropii, a stat zece minute și este mai ostil. Și-a aranjat și mașina — paharul de vin de la cadoul evenimentului corporativ este acum în torpedou. | Reflecție: Ce riscuri pentru păstrarea dovezilor există când trimiți un șofer înapoi în vehicul — și ce oportunități umane pierzi?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Îi răspunzi pe același ton direct, îndreptându-ți umerii: „Domnule Cooper, martorul confirmă că ați trecut pe roșu. Sunteți de vină. Scriu sancțiunea acum și nu plecați nicăieri până nu este raportul complet.” Menții contactul vizual, făcând clar că concluzia anchetei e deja stabilită. Nu recunoști întrebarea lui despre copil — acum ești concentrat pe comunicarea rezultatului înainte de a-i asculta versiunea.",
+                    "feedback": "De ce: Declarațiile martorului și doamnei Bennett susțin asta, dar a anunța concluzia înainte de declarația lui subminează procedura legală. A declara vina înainte să-l asculți face raportul vulnerabil la contestare. „Nu plecați nicăieri” este confruntare directă cu un bărbat deja agresiv. De asemenea, ai ignorat preocuparea lui pentru Ella — singurul moment în care a arătat umanitate — ceea ce înseamnă că următoarele cuvinte din gura lui vor fi pură apărare. | CONSECINȚE: Cooper izbucnește despre avocați și hărțuire. Începe să te înregistreze. Scurta fereastră în care a arătat preocupare pentru copil s-a trântit. Confruntarea escalează și ai otrăvit interacțiunea. | Reflecție: De ce anunțarea concluziilor înainte de încheierea anchetei subminează atât procedura cât și rezultatul — și de ce ignorarea momentului de vulnerabilitate al cuiva îl face mai agresiv?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Faci un pas mai aproape și ridici palma deschisă: „Înțeleg că sunteți supărat, dar am nevoie să vă calmați. Să strigați nu ajută pe nimeni.” Aștepți ca volumul vocii lui să scadă, apoi scoți carnetul: „Am câteva întrebări.” Treci direct la interviu fără să-i răspunzi la scurta întrebare despre Ella, intrând într-o serie structurată de întrebări despre viteză, direcție de deplasare și momentul impactului.",
+                    "feedback": "De ce: „Calmați-vă” este una dintre cele mai contraproductive fraze la dezescaladare. Invalidează starea emoțională și sugerează că reacția este nepotrivită — îi enervează și mai mult pe cei furioși. „Să strigați nu ajută” este o mustrare. I-ai spus ce să nu facă fără să-i dai ceva de făcut în schimb. Preocuparea lui pentru Ella a trecut complet nerecunoscută. | CONSECINȚE: Cooper își încleștează maxilarul: „Nu-mi spuneți să mă calmez.” Defensiva lui se întărește. Declarația pe care o dă este secă și ostilă, lipsesc detalii de care ai nevoie. Momentul uman este pierdut. | Reflecție: De ce „calmați-vă” are aproape mereu efectul opus? Ce realizează același obiectiv — și ce se întâmplă când ratezi momentul de preocupare reală al cuiva?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Recunoști mai întâi momentul uman, cu un ton calm: „Ella este bine — e speriată dar nevătămată. Scaunul de mașină și-a făcut treaba.” Lași asta să aterizeze o clipă, apoi continui: „Înțeleg că sunteți frustrat și știu că nu așa v-ați planificat după-amiaza. Am nevoie să aud versiunea dumneavoastră — de la început. De unde veneați și ce s-a întâmplat când v-ați apropiat de intersecție?” Menții un ton conversațional, oferindu-i spațiu să vorbească.",
+                    "feedback": "De ce: A-i răspunde la întrebarea despre Ella înainte de orice face ceva remarcabil — îi spune lui Cooper că i-ai observat preocuparea, că nu îl vezi pur și simplu ca agresor și că siguranța copilului este o prioritate comună. Acest singur moment de legătură face tot ce urmează mai ușor. Apoi a-l lăsa să se ventileze înainte de redirecționare este dezescaladare de manual. „De unde veneați” este strategic important — stabilește originea, potențial relevantă pentru detectarea ebrietății. Începutul de la început produce o narațiune secvențială. | CONSECINȚE: Umerii lui Cooper coboară pentru o clipă când aude că Ella e bine. Ușurarea clipește înainte ca furia să se reasambleze. Dar nu mai este la fel de puternică. Menționează un eveniment de afaceri în celălalt capăt al orașului. Relatarea lui are lacune și inconsistențe. Și stând mai aproape, simți ceva — un miros slab de vin. Legătura umană l-a făcut neglijent cu apărarea. | Reflecție: De ce schimbă răspunsul la preocuparea cuiva pentru un copil — chiar și când acea persoană a cauzat accidentul — întreaga dinamică? Cum face acel moment de umanitate comună mai probabil ca el să vorbească sincer?",
+                    "type": "positive",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Semnele subtile",
+            "sceneUpdate": {
+                "emoji": "🍷",
+                "title": "Ceva nu se leagă",
+                "desc": "Stând mai aproape de domnul Cooper, observi un grup de semne care individual ar putea să nu însemne nimic dar împreună formează un tipar: fața semnificativ mai înroșită decât ar explica doar adrenalina, un miros slab dar distinct de vin în respirație, vorbire clară dar relatare inconsistentă cu lacune notabile în secvență, mențiunea unui „eveniment de afaceri” ca origine, pupile ușor dilatate și — când se întinde după telefon — o instabilitate abia perceptibilă a mâinii care ar putea fi furie sau ar putea fi altceva."
+            },
+            "npcDialogue": [
+                {
+                    "character": "aggressiveDriver",
+                    "text": "(observându-ți expresia, legănându-se aproape imperceptibil când își schimbă greutatea, ștergându-se pe gură) Ce? La ce vă uitați? V-am spus — abia am atins-o pe mașină. (îi scapă telefonul, îl prinde, vorbește puțin mai tare decât trebuie) Putem schimba datele de asigurare și gata? Am treabă. (simți mirosul de vin din nou când se apleacă, și observi că ochii îi sunt ușor sticloși sub furie)"
+                }
+            ],
+            "prompt": "Observi semne subtile de posibil consum de alcool. Cum abordezi asta?",
+            "options": [
+                {
+                    "text": "Reții mental observațiile — fața înroșită, mirosul slab de vin, ușoara instabilitate — dar decizi să nu insisti. Nu pare sub influență în mod evident, vorbirea îi e clară, iar accidentul e o simplă nerespectare a semnului de oprire. A forța o verificare de sobrietate ar escalada inutil o scenă deja tensionată. Îți muți atenția înapoi la raport, notând contravenția rutieră fără să incluzi observațiile legate de alcool.",
+                    "feedback": "De ce: A ignora semnele observabile de alcool la locul coliziunii e un eșec grav al datoriei. Ebrietatea nu arată mereu ca mersul clătinat — timpul de reacție redus poate fi mascat de adrenalină. Ai mai mulți indici: față înroșită, miros de alcool, pupile dilatate, relatare inconsistentă, origine de la un eveniment unde se servește alcool. A nu investiga înseamnă că raportului îi lipsesc informații critice — și dacă provoacă în seara asta alt accident, ai avut șansa să intervii. | CONSECINȚE: Scrii un raport simplu de nerespectare a priorității. Cooper pleacă. Două ore mai târziu alcoolemia lui a crescut din consumul recent. Derapează în altă bandă. De data asta nimeni nu e norocos. | Reflecție: Care e datoria ta când observi semne posibile de ebrietate, chiar dacă persoana nu pare „beată”?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Continui conversația pe același ton relaxat și netulburat: „Ați menționat un eveniment de afaceri — ce fel de ocazie a fost?” Îl lași să descrie în cuvintele lui. Apoi întrebi firesc: „Era ceva de băut acolo? Întreb pentru că vreau să documentez totul corect, pentru protecția ambelor părți.” Pe baza răspunsului său — combinat cu semnele fizice pe care le-ai catalogat — decizi dacă e justificată o testare ulterioară.",
+                    "feedback": "De ce: Din punct de vedere al anchetei, excelent. Abordarea conversațională îl lasă să descrie evenimentul fără să declanșeze defensivă. E mai probabil să fie sincer când e încadrat ca rutină. „Pentru protecția ambelor părți” reframează de la adversar la procedural. Răspunsul lui plus semnele fizice dau motive pentru testare ulterioară. Dacă recunoaște consumul, ai observații plus recunoaștere pentru a justifica testul cu alcoolemă. | CONSECINȚE: Cooper, încă în flux, recunoaște: „Era vin. Am băut câteva pahare, dar acum mai bine de două ore — sunt bine.” Observații fizice plus recunoaștere a mai multor pahare. Motive clare pentru verificare de sobrietate. | Reflecție: De ce detectarea conversațională a ebrietății produce dovezi mai bune decât confruntarea?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Faci un pas deliberat înapoi de la Cooper și apeși butonul radioului fără nicio altă conversație: „Dispecerat, solicit unitate specializată pentru conducere sub influență — detectez alcool în respirația șoferului.” Apoi te întorci spre Cooper, cu expresia neutră: „Detectez alcool în respirația dumneavoastră. Am solicitat o echipă specializată. Vă rog rămâneți aici și nu vă întoarceți la vehicul.” Te poziționezi între el și BMW, cu brațele încrucișate.",
+                    "feedback": "De ce: Cererea de unitate specializată arată cunoașterea protocolului, dar saltul de la observație la anunțul de conducere sub influență fără nicio conversație escaladează puternic. Nu ai stabilit cât a băut sau când. Răspunsul e disproporționat față de dovezile actuale. Urmează ostilitate maximă. | CONSECINȚE: Cooper izbucnește: „Conducere sub influență?! Pentru un pahar de vin la prânz? Sun avocatul. E hărțuire!” Te filmează. Întâlnirea a escaladat de la coliziune la confruntare despre drepturi. | Reflecție: Cum escaladezi răspunsul proporțional pe măsură ce dovezile cresc?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Îl privești pe Cooper în ochi și pui întrebarea direct, tăind orice conversație măruntă: „Domnule Cooper, ați consumat alcool azi?” Urmărești atent reacția — microexpresiile de pe fața lui dinaintea răspunsului verbal dezvăluie adesea mai mult decât cuvintele. Dacă recunoaște orice consum, treci imediat la o evaluare a sobrietății, folosind semnele fizice deja observate ca documentare suplimentară.",
+                    "feedback": "De ce: Întrebarea directă e procedural potrivită cu semne observabile. Dar întrebarea brută declanșează negare defensivă sau minimizare. Abordarea conversațională poate da răspunsuri mai sincere înainte ca defensiva să se activeze complet. Instinctul e corect — trebuie să investighezi — dar metoda ar putea fi rafinată. | CONSECINȚE: Cooper îngheață, apoi izbucnește: „Un pahar de vin, acum ore. E ridicol.” E acum complet defensiv. Cooperarea la testare va fi mai grea. | Reflecție: O întrebare directă sau abordarea conversațională oferă informații mai utile?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Frustrarea mamei",
+            "sceneUpdate": {
+                "emoji": "😰",
+                "title": "Răbdarea doamnei Bennett se rupe",
+                "desc": "Te-ai ocupat de declarația lui Cooper și de problema ebrietății. Între timp doamna Bennett a așteptat cu Ella, văzându-te cum petreci timp cu bărbatul care a lovit mașina ei. Ella se ține de mamă."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mother",
+                    "text": "(se apropie, voce tremurând) Domnule polițist, cât mai durează? Fiica mea e terifiată. A trecut pe roșu în noi și vorbiți cu el? De ce nu i se face test cu alcoolemă? Simt alcoolul de aici! Faceți treaba sau nu?"
+                }
+            ],
+            "prompt": "Victima e frustrată și își pierde răbdarea. Simte că petreci prea mult timp cu șoferul de vină. Cum răspunzi?",
+            "options": [
+                {
+                    "text": "Te îndrepți imediat spre ea cu o postură deschisă și voce caldă: „Doamnă Bennett, înțeleg frustrarea dumneavoastră și aveți dreptul să fiți supărată. Siguranța dumneavoastră și a Ellei e prioritatea mea. Am vorbit deja cu martorul și am notat observațiile privind alcoolul — mă ocup de asta acum. Sunt pași pe care trebuie să-i urmez pentru ca totul să fie valabil juridic. E cineva care vă poate ridica pe dumneavoastră și pe Ella, ca să nu mai așteptați lângă mașina avariată?”",
+                    "feedback": "De ce: Validează frustrarea fără defensivă. O informează despre progresul anchetei — martor contactat, alcool notat. Explicarea „pașilor ca totul să fie valabil” o ajută să înțeleagă întârzierea. Oferirea de ridicare arată grijă reală și îi dă o cale practică. | CONSECINȚE: Umerele doamnei Bennett coboară cu ușurare. Își sună sora. Știind că martorul i-a confirmat versiunea și că te ocupi de alcool, are încredere în procedură. Ella se relaxează pentru că se relaxează mama. | Reflecție: Cum informarea părții care așteaptă schimbă experiența așteptării?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Ridici mâna într-un gest de calmare și îți menții vocea egală: „Doamnă Bennett, știu că durează, dar trebuie să fiu riguros. Vă rog așteptați — sunt la dumneavoastră în curând.” Nu oferi detalii despre ce ai descoperit, nicio informație despre progresul anchetei și nicio recunoaștere a ceea ce ea a văzut de pe cealaltă parte a trotuarului. Apoi te întorci spre partea locului unde e Cooper pentru a continua cu verificările tale.",
+                    "feedback": "De ce: Nu e greșit, dar e rece. „Respectarea procedurii” nu recunoaște starea ei emoțională, copilul speriat sau că a așteptat în timp ce vorbeai cu bărbatul care i-a făcut rău. „Așteptați” o tratează ca pe un element la coadă. Fără informație despre progres. | CONSECINȚE: Se retrage dar se simte respinsă. Încrederea nu a crescut — a rămas la fel. Va coopera dar nu se va simți servită. | Reflecție: Care e diferența între corectitudinea procedurală și legătura umană?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Încuviințezi energic și îți cobori vocea pe un ton aproape confidențial: „Aveți dreptate — a trecut clar pe roșu și simt și eu alcoolul. Nu vă faceți griji, primește sancțiune și test cu alcoolemă. Se va face dreptate.” Stabilești contact vizual pentru a-i consolida liniștirea, împărtășind concluziile anchetei tale și relatarea martorului direct cu doamna Bennett, înainte ca procedura să fie încheiată oficial sau vreo sancțiune să fie emisă.",
+                    "feedback": "De ce: Satisfăcător emoțional dar procedural dezastruos. Ai împărtășit concluziile anchetei cu o parte înainte de încheiere. Ai confirmat informația martorului (contaminând mărturia) și ai împărtășit constatările despre alcool. Dacă ajunge la tribunal, apărarea va invoca părtinire și împărtășire improprie a dovezilor. „Justiția va fi făcută” e o promisiune pe care poate nu o controlezi. | CONSECINȚE: Doamna Bennett se simte validată — deocamdată. Dar dacă avocatul lui Cooper află că ai împărtășit concluziile cu cealaltă parte, cazul e contestabil. Imparțialitate sacrificată pentru confort. | Reflecție: Cum liniștești un reclamant fără să împărtășești detalii ale anchetei care compromit cazul?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Te îndrepți și folosești un ton ferm, tăios: „Doamnă Bennett, acuzațiile despre alcool nu sunt de ajutor în acest moment. Lăsați-mă să-mi fac treaba.” Gesticulezi spre trotuarul unde Ella stă: „Vorbesc cu dumneavoastră când termin cu domnul Cooper.” Observația ei despre alcool — exact ce ai investigat și tu — trece complet nerecunoscută, în timp ce te întorci cu spatele și te îndepărtezi spre cealaltă parte a locului faptei.",
+                    "feedback": "De ce: Ea observă același lucru ca tine. A respinge observația ei ca nefolositoare e invalidant. „Lăsați-mă să-mi fac treaba” le spune cetățenilor că părerea lor nu e binevenită. „Vorbesc cu dvs. când termin cu el” o face ultima prioritate după bărbatul care a lovit mașina ei. | CONSECINȚE: Doamna Bennett e șocată, apoi furioasă. Scoate telefonul și documentează. Relația ta cu victima s-a prăbușit. | Reflecție: Când un cetățean observă ce și tu investighezi, cum ar trebui să răspunzi?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Închiderea locului",
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Finalizare",
+                "desc": "Domnul Cooper a trecut pe roșu. Test cu alcoolemă: 0,06% — sub limita legală dar dovadă de consum recent. Martorul a confirmat încălcarea. Doamna Bennett și Ella așteaptă sora. Ambele vehicule sunt funcționale dar avariate."
+            },
+            "npcDialogue": [
+                {
+                    "character": "aggressiveDriver",
+                    "text": "(mai liniștit după test) Am suflat sub limită. Nu sunt beat. A fost un accident. Pot primi actele de asigurare și să plec?"
+                }
+            ],
+            "prompt": "Cum închizi locul — sancțiunea lui Cooper, nevoile doamnei Bennett și pașii următori?",
+            "options": [
+                {
+                    "text": "Rupi sancțiunea de pe carnet și i-o înmânezi lui Cooper fără comentarii suplimentare, apoi faci un semn spre BMW-ul lui: „Puteți pleca.” Te duci la doamna Bennett: „Numărul raportului îl puteți ridica mâine dimineață de la secție — o să aveți nevoie de el pentru asigurare.” Apoi te întorci la mașina de patrulă, notezi locul ca eliberat și pleci. Ambele părți au actele de bază, iar intersecția e din nou liberă.",
+                    "feedback": "De ce: Tranzacțional și incomplet. Sancțiunea e corectă dar nu există discuție despre consecințele alcoolului. Doamna Bennett nu primește informații despre drepturi, cereri la asigurare sau îngrijire ulterioară pentru Ella. „Luați raportul mâine” e efort minim. Actele rezolvate, oamenii deserviți. | CONSECINȚE: Cooper pleacă cu 0,06% alcoolemie și o stare agresivă. Doamna Bennett pleacă simțindu-se procesată, nu ajutată. Pentru Ella niciun recomandare de follow-up. Loc eliberat, treaba făcută pe jumătate. | Reflecție: Care e diferența între închiderea locului și încheierea serviciului?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Îi înmânezi lui Cooper sancțiunea și te apleci ușor spre el: „Ați suflat 0,06. Sub limită, dar cu un pahar în plus am fi avut o conversație cu totul diferită. Gândiți-vă la asta.” Menții contactul vizual o clipă, apoi îl lași să plece. Mergi la doamna Bennett, îi spui că speri că Ella se va simți mai bine curând și îi urezi o seară bună. Apoi te întorci la mașina de patrulă și eliberezi locul fără a-i oferi un număr de raport sau recomandări medicale.",
+                    "feedback": "De ce: Avertismentul are impact, dar „gândiți-vă la asta” e predicatoriu și poate declanșa defensivă. Mai important, închiderea pentru doamna Bennett e minimă — fără număr de raport, fără îndrumare medicală pentru Ella, fără pași practici. Ai investit energia de închidere în Cooper și ai deservit victima. | CONSECINȚE: Cooper e umilit dar resentiment. Doamna Bennett pleacă fără număr de raport, fără îndrumare medicală, fără să se simtă ascultată. Ai dat energia de închidere persoanei greșite. | Reflecție: Către cine ar trebui să meargă majoritatea atenției la închidere — partea sancționată sau partea vătămată?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Te adresezi mai întâi lui Cooper: „Vă sancționez pentru nerespectarea semnului de oprire. Testul a fost sub limita legală, dar 0,06% arată consum recent care a putut afecta timpul de reacție. Recomand puternic să nu mai conduceți astăzi — sunați un taxi sau rugați pe cineva să vă ridice.” Apoi mergi la doamna Bennett: „Iată numărul raportului pentru asigurare. Recomand să o duceți pe Ella la un pediatru în una-două zile — la copii reacțiile la impact pot apărea cu întârziere. Sora dumneavoastră e aproape?”",
+                    "feedback": "De ce: Închidere cuprinzătoare care servește ambele părți. Sancțiunea e predată cu contextul alcoolului ca recomandare de siguranță. „Să nu mai conduceți azi” e recomandare responsabilă. Pentru doamna Bennett, recomandarea verificării pediatrice arată conștientizare pe care părinții o uită des. Oferirea numărului de raport îi economisește o călătorie. A întreba de soră arată că îți amintești și că îți pasă. Ambele părți pleacă cu pași clari. | CONSECINȚE: Cooper e impresionat de totalitate — sancțiune, test, polițist profesionist care l-a tratat corect în ciuda comportamentului. Sună după ridicare. Doamna Bennett are o cale clară pentru asigurare și follow-up medical. Ella se calmează. Amândoi au experimentat poliție riguroasă, corectă și umană. | Reflecție: Cum transformă închiderea cuprinzătoare un raport de rutină într-o întâlnire care construiește încredere?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Le faci semn ambelor părți să se apropie spre centrul trotuarului: „Haideți să terminăm. Schimbați-vă direct datele de asigurare — sunt aici dacă aveți nevoie de ceva. Domnule Cooper, iată sancțiunea dumneavoastră.” Îi înmânezi hârtia și te dai un pas înapoi, cu brațele încrucișate, supraveghind schimbul. Amândoi șoferii se confruntă față în față pentru prima dată de când i-ai separat acum o oră, cu Ella privind din brațele mamei.",
+                    "feedback": "De ce: A aduce două părți ostile împreună după o oră confruntării e rețetă pentru reaprindere. Cooper e umilit după test. Bennett e furioasă pe toate. Forțarea contactului față în față riscă să reaprindă cearta în fața Ellei. Colectează informațiile separat și asigură-te că fiecare parte are ce i trebuie prin raport. | CONSECINȚE: Schimbul începe civil dar se înrăutățește. Cooper face o remarcă disprețuitoare. Bennett replică despre Ella. Ella începe să plângă din nou. Scena care se rezolva s-a redeschis. | Reflecție: Când ar trebui să ții părțile separate până la închidere?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Evaluare și dezvăluire",
+            "sceneUpdate": {
+                "emoji": "🏁",
+                "title": "Debriefing de formare",
+                "desc": "Înapoi la secție. Sergentul Davis evaluează performanța ta."
+            },
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Coliziunile rutiere testează toate competențele simultan — siguranța locului, separarea, îngrijirea copilului, ancheta, detectarea ebrietății, imparțialitatea și închiderea. Majoritatea ofițerilor le tratează ca exerciții de birocrație: stabilesc vina, scriu raportul, eliberează drumul. Tu ai tratat-o pe aceasta ca ceea ce era de fapt — o criză umană implicând un copil speriat, o mamă furioasă, un bărbat care ar fi putut fi sub influență și un martor care era pe cale să plece. Secvențierea deciziilor tale a contat la fel de mult ca deciziile în sine."
+                },
+                {
+                    "character": "officer",
+                    "text": "Ce m-a surprins a fost cât de dificil a fost să anchetez și să dezescaladez în același timp. Când vorbeam cu Cooper conversațional despre evenimentul de afaceri, încercam simultan să detectez ebrietatea și să-l calmez. Acelea păreau obiective care se bat cap în cap."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Aceasta este recadrarea pe care vreau să o reții. Ancheta și dezescaladarea nu sunt abilități separate — sunt aceeași abilitate. Cei mai buni anchetatori sunt cei care calmează oamenii mai întâi, pentru că oamenii calmi spun adevărul. Când l-ai întrebat pe Cooper de unde venea, asta era simultan dezescaladare — lăsându-l să vorbească — și anchetă — stabilind originea și expunerea la alcool. Nu a trebuit să alegi între strângerea de dovezi și gestionarea emoțiilor lui. Abordarea conversațională le-a realizat pe amândouă, și de aceea a recunoscut voluntar consumul de vin în loc să cheme avocatul."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Dar ceea ce a ridicat asta de la competent la excepțional a fost Ella. Ai verificat o fetiță de cinci ani înainte să verifici dovezi. Ai mers cu mama ei la mașină în loc s-o trimiți singură. Doamna Bennett a spus mai târziu că ceea ce și-a amintit cel mai mult nu a fost accidentul — ci că polițistul a verificat-o pe fiica ei înainte de orice altceva. Ella încă vorbește despre polițistul bun. Aceasta este moștenirea unui apel de coliziune făcut corect — nu sancțiunea, nu raportul, ci prima amintire a unui copil despre poliție ca oameni cărora le pasă. Lasă-mă să-ți spun ce s-a întâmplat după."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {
+            "name": "Dispecerat",
+            "avatar": "📻"
+        },
+        "aggressiveDriver": {
+            "name": "Domnul Cooper (șofer, 35)",
+            "avatar": "😡"
+        },
+        "mother": {
+            "name": "Doamna Bennett (șoferiță, 28)",
+            "avatar": "😰"
+        },
+        "child": {
+            "name": "Ella (5 ani)",
+            "avatar": "👧"
+        },
+        "witness": {
+            "name": "Domnul Peterson (vecin)",
+            "avatar": "👴"
+        },
+        "officer": {
+            "name": "Tu (polițist)",
+            "avatar": "👮"
+        },
+        "trainer": {
+            "name": "Sergent Davis",
+            "avatar": "👮‍♂️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Gestionare excepțională a locului!",
+            "emoji": "🌟",
+            "feedback": "Ai demonstrat o reacție de manual la coliziune: loc securizat, copil prioritar, părți separate, martor obținut, ebrietate detectată conversațional și închidere cuprinzătoare pentru ambele părți. Fiecare decizie a arătat prioritățile corecte în ordinea corectă."
+        },
+        "good": {
+            "title": "Performanță puternică",
+            "emoji": "✅",
+            "feedback": "Ai gestionat bine elementele esențiale — siguranța locului, separarea și ancheta. Au fost ratate câteva oportunități pentru o secvențiere, închidere sau detectare a ebrietății mai bune, dar abordarea a fost profesională și axată pe siguranță."
+        },
+        "average": {
+            "title": "Răspuns adecvat",
+            "emoji": "📊",
+            "feedback": "Ai rezolvat coliziunea dar ai ratat aspecte importante ale gestionării locului, îngrijirii copilului sau rigoarei anchetei. Au fost oportunități pentru un răspuns mai complet."
+        },
+        "poor": {
+            "title": "Necesită îmbunătățire semnificativă",
+            "emoji": "⚠️",
+            "feedback": "Au fost omise elemente critice ale răspunsului la coliziune. Coliziunile rutiere implică toate competențele de bază ale poliției: siguranță, deescaladare, anchetă, imparțialitate și îngrijire umană. Revizuiește gestionarea locului și procedurile de anchetă."
+        }
+    },
+    "metrics": {
+        "sceneSafety": {
+            "name": "Siguranța și gestionarea locului",
+            "description": "Securizarea locului coliziunii față de pericole secundare, gestionarea traficului și asigurarea siguranței fizice",
+            "icon": "🚧"
+        },
+        "conflictSeparation": {
+            "name": "Separarea conflictului",
+            "description": "Separarea fizică și emoțională a părților ostile pentru a preveni escaladarea și a permite declarații precise",
+            "icon": "↔️"
+        },
+        "childWelfare": {
+            "name": "Prioritatea îngrijirii copilului",
+            "description": "A acorda atenție copilului ca parte vulnerabilă care necesită atenție imediată și considerare continuă",
+            "icon": "👧"
+        },
+        "investigativeThoroughness": {
+            "name": "Rigoarea anchetei",
+            "description": "Detectarea ebrietății, obținerea declarațiilor martorilor, păstrarea dovezilor și respectarea procedurilor",
+            "icon": "🔍"
+        },
+        "communicationUnderPressure": {
+            "name": "Comunicare sub presiune",
+            "description": "Gestionarea a două părți ostile simultan cu calm, imparțialitate și profesionalism",
+            "icon": "🗣️"
+        }
+    }
+}

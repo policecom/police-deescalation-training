@@ -1,0 +1,686 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "title": "Eismo sustabdymo deeskalacija",
+      "description": "Išmokite valdyti įtemptą eismo sustabdymą su susijaudinusiu vairuotoju",
+      "icon": "🚗",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "traffic-expert": {
+          "minScore": 80
+        },
+        "perfect-traffic": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 4,
+        "CHPS": 3,
+        "CDR": 4,
+        "NPT": 3,
+        "EIC": 5
+      }
+    },
+    {
+      "id": 2,
+      "title": "Triukšmo skundo derybos hostelyje",
+      "description": "Išmokite derėtis dėl taikos per vėlyvos nakties triukšmo skundą užimtame miesto hostelyje",
+      "icon": "🏨",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "negotiation-expert": {
+          "minScore": 75
+        },
+        "perfect-negotiation": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 3,
+        "CHPS": 2,
+        "CDR": 4,
+        "NPT": 5,
+        "EIC": 3
+      }
+    },
+    {
+      "id": 3,
+      "title": "Bendravimas su jaunimu",
+      "description": "Kurkite pasitikėjimą su paaugliais bendruomenėje",
+      "icon": "👥",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "youth-advocate": {
+          "minScore": 70
+        },
+        "perfect-youth": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 5,
+        "CHPS": 1,
+        "CDR": 3,
+        "NPT": 3,
+        "EIC": 5
+      }
+    },
+    {
+      "id": 4,
+      "title": "Psichikos sveikatos krizė",
+      "description": "Padėkite asmeniui, patiriančiam krizę, su užuojauta",
+      "icon": "🧠",
+      "difficulty": 5,
+      "duration": "25-30",
+      "badges": {
+        "crisis-specialist": {
+          "minScore": 85
+        },
+        "perfect-crisis": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 3,
+        "CHPS": 4,
+        "CDR": 3,
+        "NPT": 2,
+        "EIC": 5
+      }
+    },
+    {
+      "id": 5,
+      "title": "Triukšmo skundas",
+      "description": "Diplomatiškai spręskite kaimynų triukšmo skundą",
+      "icon": "🔊",
+      "difficulty": 3,
+      "duration": "12-18",
+      "badges": {
+        "peacekeeper": {
+          "minScore": 70
+        },
+        "perfect-noise": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 2,
+        "CHPS": 3,
+        "CDR": 5,
+        "NPT": 5,
+        "EIC": 3
+      }
+    },
+    {
+      "id": 6,
+      "title": "Turgaus ginčas — Ramios derybos",
+      "description": "Dėmesį atkreipė nesutarimas dėl automobilių stovėjimo vietos savaitgalio turguje. Naudokite aiškią komunikaciją ir švelnias derybas, kad greitai išspręstumėte ginčą",
+      "icon": "🛒",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "market-mediator": {
+          "minScore": 70
+        },
+        "perfect-market": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 5,
+        "CHPS": 2,
+        "CDR": 5,
+        "NPT": 4,
+        "EIC": 3
+      }
+    },
+    {
+      "id": 7,
+      "title": "Gatvės muštynės prie naktinio klubo",
+      "description": "Aiškiai bendraukite aukšto slėgio aplinkoje ir užkirkite konflikto eskaliaciją",
+      "icon": "🚨",
+      "difficulty": 4,
+      "duration": "18-22",
+      "badges": {
+        "street-specialist": {
+          "minScore": 80
+        },
+        "perfect-street": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 3,
+        "RNDC": 3,
+        "CHPS": 5,
+        "CDR": 4,
+        "NPT": 3,
+        "EIC": 4
+      }
+    },
+    {
+      "id": "domestic-crisis",
+      "title": "Šeimos konfliktas su psichikos sveikatos krize",
+      "description": "Naviguokite įtemptame šeimos konflikte su psichikos sveikatos krize ir esančiu vaiku. Įvaldykite išplėstinę deeskalaciją ir krizės intervenciją.",
+      "icon": "🏠",
+      "difficulty": 5,
+      "duration": "25-35",
+      "badges": {
+        "domestic-expert": {
+          "minScore": 90
+        },
+        "crisis-intervention": {
+          "minScore": 100
+        },
+        "perfect-domestic-crisis": {
+          "minScore": 120
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 3,
+        "CHPS": 5,
+        "CDR": 5,
+        "NPT": 2,
+        "EIC": 5
+      }
+    },
+    {
+      "id": "custody-exchange",
+      "title": "Vaiko perdavimo ginčas — Tarp dviejų ugnies",
+      "description": "Išplėstinis scenarijus: deeskalacija ir neutrali mediacija konfliktiškai perduodant vaiką tarp išsiskirsčių tėvų.",
+      "icon": "⚖️",
+      "difficulty": 4,
+      "duration": "20-25",
+      "badges": {
+        "custody-mediator": {
+          "minScore": 75
+        },
+        "perfect-scenario-custody-exchange": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 3,
+        "CHPS": 3,
+        "CDR": 5,
+        "NPT": 5,
+        "EIC": 4
+      }
+    },
+    {
+      "id": "hospital-disturbance",
+      "title": "Trikdžiai ligoninėje — Skausmas, baimė ir agresija",
+      "description": "Deeskalacija su agresyviu paciento ligoninės skubios pagalbos skyriuje. Bendradarbiaukite su medikais ir saugokite visus.",
+      "icon": "🏥",
+      "difficulty": 4,
+      "duration": "20-25",
+      "badges": {
+        "hospital-specialist": {
+          "minScore": 75
+        },
+        "perfect-scenario-hospital-disturbance": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 3,
+        "CHPS": 4,
+        "CDR": 4,
+        "NPT": 4,
+        "EIC": 5
+      }
+    },
+    {
+      "id": "road-rage",
+      "title": "Eismo įtampa — Sankryžos užsidegimo taškas",
+      "description": "Du vairuotojai karštame konflikte po eismo įvykio. Užtikrinkite vietos saugumą, atskirkite priešingas puses.",
+      "icon": "🚗",
+      "difficulty": 4,
+      "duration": "20-25",
+      "badges": {
+        "road-rage-specialist": {
+          "minScore": 75
+        },
+        "perfect-scenario-road-rage": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 3,
+        "RNDC": 2,
+        "CHPS": 5,
+        "CDR": 4,
+        "NPT": 3,
+        "EIC": 3
+      }
+    },
+    {
+      "id": "street-vendor",
+      "title": "Gatvės pardavėjas — Bendruomenės kryžminė ugnis",
+      "description": "Balansuokite įstatymų vykdymą, procedūrinį teisingumą ir bendruomenės santykius nelegalaus gatvės prekybininko situacijoje.",
+      "icon": "🍜",
+      "difficulty": 3,
+      "duration": "18-25",
+      "badges": {
+        "vendor-mediator": {
+          "minScore": 70
+        },
+        "perfect-scenario-street-vendor": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 5,
+        "CHPS": 2,
+        "CDR": 4,
+        "NPT": 5,
+        "EIC": 3
+      }
+    },
+    {
+      "id": "traffic-stop",
+      "title": "Eismo sustabdymas — Eskalacija ir komunikacija",
+      "description": "Treniruokitės deeskalaciją ir profesinę komunikaciją eismo sustabdymo metu.",
+      "icon": "🚗",
+      "difficulty": 3,
+      "duration": "18-22",
+      "badges": {
+        "traffic-expert": {
+          "minScore": 80
+        },
+        "perfect-scenario-traffic-stop": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 2,
+        "CHPS": 4,
+        "CDR": 3,
+        "NPT": 3,
+        "EIC": 5
+      }
+    },
+    {
+      "id": "youth-park",
+      "title": "Jaunimas parke — Savaitgalio popietė",
+      "description": "Garsiai muzikai ir žodinių konfliktų tarp paauglių miesto parke; emocijų ir deeskalacijos treniruotė.",
+      "icon": "👥",
+      "difficulty": 3,
+      "duration": "18-22",
+      "badges": {
+        "youth-advocate": {
+          "minScore": 70
+        },
+        "perfect-scenario-youth-park": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 4,
+        "CHPS": 2,
+        "CDR": 5,
+        "NPT": 4,
+        "EIC": 5
+      }
+    }
+  ],
+  "badges": {
+    "scenario-1-complete": {
+      "name": "Eismo sustabdymo absolventas",
+      "description": "Sėkmingai baigėte eismo sustabdymo scenarijų",
+      "icon": "🚦"
+    },
+    "scenario-2-complete": {
+      "name": "Buitinis mediatorius",
+      "description": "Sėkmingai baigėte buitinio ginčo scenarijų",
+      "icon": "🤝"
+    },
+    "scenario-3-complete": {
+      "name": "Jaunimo ryšių kūrėjas",
+      "description": "Sėkmingai baigėte jaunimo sąveikos scenarijų",
+      "icon": "🌟"
+    },
+    "scenario-4-complete": {
+      "name": "Krizių valdytojas",
+      "description": "Sėkmingai baigėte psichinės sveikatos krizės scenarijų",
+      "icon": "💚"
+    },
+    "scenario-5-complete": {
+      "name": "Bendruomenės pareigūnas",
+      "description": "Sėkmingai baigėte triukšmo skundo scenarijų",
+      "icon": "🏘️"
+    },
+    "scenario-6-complete": {
+      "name": "Derybų ekspertas",
+      "description": "Sėkmingai baigėte triukšmo skundo hostelyje scenarijų",
+      "icon": "🏨"
+    },
+    "scenario-7-complete": {
+      "name": "Minios valdymo ekspertas",
+      "description": "Sėkmingai baigėte peštynių prie nakties klubo scenarijų",
+      "icon": "🚨"
+    },
+    "scenario-domestic-crisis-complete": {
+      "name": "Pažangus krizių interventas",
+      "description": "Sėkmingai baigėte sudėtingą buitinės krizės scenarijų",
+      "icon": "🛡️"
+    },
+    "traffic-expert": {
+      "name": "Eismo sustabdymo specialistas",
+      "description": "Parodė kompetenciją eismo sustabdymo komunikacijoje",
+      "icon": "🚔"
+    },
+    "mediator": {
+      "name": "Konfliktų mediatorius",
+      "description": "Parodė stiprius mediacijos įgūdžius",
+      "icon": "⚖️"
+    },
+    "youth-advocate": {
+      "name": "Jaunimo gynėjas",
+      "description": "Puikiai užmezgė ryšį su jaunais bendruomenės nariais",
+      "icon": "🎯"
+    },
+    "crisis-specialist": {
+      "name": "Krizių intervencijos specialistas",
+      "description": "Profesionaliai suvaldė psichinės sveikatos krizę",
+      "icon": "🛡️"
+    },
+    "peacekeeper": {
+      "name": "Bendruomenės taikos sargas",
+      "description": "Taikiai išsprendė bendruomenės ginčus",
+      "icon": "🕊️"
+    },
+    "negotiation-expert": {
+      "name": "Derybų meistras",
+      "description": "Parodė meistriškus derybų įgūdžius",
+      "icon": "🤝"
+    },
+    "crowd-control-expert": {
+      "name": "Minios valdymo specialistas",
+      "description": "Suvaldė komunikaciją aukšto spaudimo aplinkoje",
+      "icon": "📢"
+    },
+    "advanced-crisis-specialist": {
+      "name": "Pažangus krizių specialistas",
+      "description": "Suvaldė sudėtingą daugiafaktorinę krizę",
+      "icon": "🌟"
+    },
+    "perfect-traffic": {
+      "name": "Tobulas eismo sustabdymas",
+      "description": "Pasiekė tobulą rezultatą eismo sustabdymo scenarijuje",
+      "icon": "🏆"
+    },
+    "perfect-domestic": {
+      "name": "Tobula buitinė mediacija",
+      "description": "Pasiekė tobulą rezultatą buitinio ginčo scenarijuje",
+      "icon": "🏆"
+    },
+    "perfect-youth": {
+      "name": "Tobula jaunimo sąveika",
+      "description": "Pasiekė tobulą rezultatą jaunimo sąveikos scenarijuje",
+      "icon": "🏆"
+    },
+    "perfect-crisis": {
+      "name": "Tobula krizių intervencija",
+      "description": "Pasiekė tobulą rezultatą psichinės sveikatos krizės scenarijuje",
+      "icon": "🏆"
+    },
+    "perfect-noise": {
+      "name": "Tobulas triukšmo sprendimas",
+      "description": "Pasiekė tobulą rezultatą triukšmo skundo scenarijuje",
+      "icon": "🏆"
+    },
+    "perfect-negotiation": {
+      "name": "Tobulos derybos",
+      "description": "Pasiekė tobulą rezultatą hostelio derybų scenarijuje",
+      "icon": "🏆"
+    },
+    "perfect-crowd-control": {
+      "name": "Tobulas minios valdymas",
+      "description": "Pasiekė tobulą rezultatą gatvės peštynių scenarijuje",
+      "icon": "🏆"
+    },
+    "perfect-domestic-crisis": {
+      "name": "Tobula buitinė krizė",
+      "description": "Pasiekė tobulą rezultatą sudėtingos buitinės krizės scenarijuje",
+      "icon": "🏆"
+    },
+    "scenario-custody-exchange-complete": {
+      "name": "Vaiko perdavimo scenarijus baigtas",
+      "description": "Sėkmingai baigėte vaiko perdavimo ginčo scenarijų",
+      "icon": "⚖️"
+    },
+    "perfect-scenario-custody-exchange": {
+      "name": "Tobulas vaiko perdavimas",
+      "description": "Puikiai atlikote vaiko perdavimo scenarijų",
+      "icon": "⭐"
+    },
+    "scenario-hospital-disturbance-complete": {
+      "name": "Ligoninės scenarijus baigtas",
+      "description": "Sėkmingai baigėte ligoninės trikdžių scenarijų",
+      "icon": "🏥"
+    },
+    "perfect-scenario-hospital-disturbance": {
+      "name": "Tobula ligoninės deeskalacija",
+      "description": "Puikiai atlikote ligoninės scenarijų",
+      "icon": "⭐"
+    },
+    "scenario-road-rage-complete": {
+      "name": "Eismo įtampos scenarijus baigtas",
+      "description": "Sėkmingai baigėte eismo įtampos scenarijų",
+      "icon": "🚗"
+    },
+    "perfect-scenario-road-rage": {
+      "name": "Tobulas eismo įtampos valdymas",
+      "description": "Puikiai atlikote eismo įtampos scenarijų",
+      "icon": "⭐"
+    },
+    "scenario-street-vendor-complete": {
+      "name": "Gatvės pardavėjo scenarijus baigtas",
+      "description": "Sėkmingai baigėte gatvės pardavėjo scenarijų",
+      "icon": "🍜"
+    },
+    "perfect-scenario-street-vendor": {
+      "name": "Tobulas gatvės pardavėjo valdymas",
+      "description": "Puikiai atlikote gatvės pardavėjo scenarijų",
+      "icon": "⭐"
+    },
+    "scenario-traffic-stop-complete": {
+      "name": "Eismo sustabdymo scenarijus baigtas",
+      "description": "Sėkmingai baigėte eismo sustabdymo scenarijų",
+      "icon": "🚦"
+    },
+    "perfect-scenario-traffic-stop": {
+      "name": "Tobulas eismo sustabdymas",
+      "description": "Puikiai atlikote eismo sustabdymo scenarijų",
+      "icon": "⭐"
+    },
+    "scenario-youth-park-complete": {
+      "name": "Jaunimo parke scenarijus baigtas",
+      "description": "Sėkmingai baigėte jaunimo parke scenarijų",
+      "icon": "👥"
+    },
+    "perfect-scenario-youth-park": {
+      "name": "Tobulas jaunimo parkas",
+      "description": "Puikiai atlikote jaunimo parke scenarijų",
+      "icon": "⭐"
+    },
+    "custody-mediator": {
+      "name": "Perdavimo mediatorius",
+      "description": "Parodė mediacijos įgūdžius vaiko perdavimo metu",
+      "icon": "⚖️"
+    },
+    "hospital-specialist": {
+      "name": "Ligoninės intervencijos specialistas",
+      "description": "Parodė kompetenciją ligoninės intervencijoje",
+      "icon": "🏥"
+    },
+    "road-rage-specialist": {
+      "name": "Eismo įtampos specialistas",
+      "description": "Parodė kompetenciją eismo įtampos valdyme",
+      "icon": "🚗"
+    },
+    "vendor-mediator": {
+      "name": "Gatvės pardavėjo mediatorius",
+      "description": "Parodė mediacijos įgūdžius gatvės pardavėjo situacijoje",
+      "icon": "🍜"
+    },
+    "master-communicator": {
+      "name": "Komunikacijos meistras",
+      "description": "Sėkmingai užbaigė visus mokymo scenarijus",
+      "icon": "🎖️"
+    },
+    "perfect-scenario-1": {
+      "name": "Tobulas eismo sustabdymas",
+      "description": "Tobulai atliktas eismo sustabdymo scenarijus",
+      "icon": "⭐"
+    },
+    "perfect-scenario-2": {
+      "name": "Tobulas šeimos konflikto sprendimas",
+      "description": "Tobulai atliktas šeimos konflikto scenarijus",
+      "icon": "⭐"
+    },
+    "perfect-scenario-3": {
+      "name": "Tobulas bendravimas su jaunimu",
+      "description": "Tobulai atliktas bendravimo su jaunimu scenarijus",
+      "icon": "⭐"
+    },
+    "perfect-scenario-4": {
+      "name": "Tobula krizės intervencija",
+      "description": "Tobulai atliktas psichikos sveikatos krizės scenarijus",
+      "icon": "⭐"
+    },
+    "perfect-scenario-5": {
+      "name": "Tobulas triukšmo skundo sprendimas",
+      "description": "Tobulai atliktas triukšmo skundo scenarijus",
+      "icon": "⭐"
+    },
+    "perfect-scenario-6": {
+      "name": "Tobulos derybos hostelyje",
+      "description": "Tobulai atliktas derybų hostelyje scenarijus",
+      "icon": "⭐"
+    },
+    "perfect-scenario-7": {
+      "name": "Tobulas muštynių suvaldymas",
+      "description": "Tobulai atliktas muštynių prie naktinio klubo scenarijus",
+      "icon": "⭐"
+    },
+    "perfect-scenario-domestic-crisis": {
+      "name": "Tobulas šeimos krizės suvaldymas",
+      "description": "Tobulai atliktas šeimos konflikto su psichikos sveikatos krize scenarijus",
+      "icon": "⭐"
+    },
+    "domestic-expert": {
+      "name": "Šeimos situacijų specialistas",
+      "description": "Profesionaliai ir užjaučiančiai suvaldė šeimos konfliktą",
+      "icon": "🏆"
+    },
+    "crisis-intervention": {
+      "name": "Krizių intervencijos meistras",
+      "description": "Tobulai suvaldė psichikos sveikatos krizę",
+      "icon": "🌟"
+    },
+    "market-mediator": {
+      "name": "Turgaus taikos pareigūnas",
+      "description": "Profesionaliai išspręsti ginčai viešojoje erdvėje",
+      "icon": "🏪"
+    },
+    "perfect-market": {
+      "name": "Tobulas turgaus tarpininkavimas",
+      "description": "Turgaus ginčo scenarijuje pasiektas tobulas rezultatas",
+      "icon": "🏆"
+    },
+    "street-specialist": {
+      "name": "Naktinės pamainos ekspertas",
+      "description": "Suvaldytos įtemptos naktinio gyvenimo situacijos",
+      "icon": "🌃"
+    },
+    "perfect-street": {
+      "name": "Tobulas atsakas gatvėje",
+      "description": "Muštynių prie naktinio klubo scenarijuje pasiektas tobulas rezultatas",
+      "icon": "🏆"
+    }
+  },
+  "difficultyLevels": {
+    "1": {
+      "name": "Pradedantysis",
+      "description": "Pagrindinės komunikacijos situacijos",
+      "color": "#4CAF50"
+    },
+    "2": {
+      "name": "Lengvas",
+      "description": "Paprastos bendruomenės sąveikos",
+      "color": "#8BC34A"
+    },
+    "3": {
+      "name": "Vidutinis",
+      "description": "Vidutinio sudėtingumo situacijos, reikalaujančios takto",
+      "color": "#FF9800"
+    },
+    "4": {
+      "name": "Sudėtingas",
+      "description": "Sudėtingos situacijos su daugeliu veiksnių",
+      "color": "#FF5722"
+    },
+    "5": {
+      "name": "Ekspertas",
+      "description": "Labai sudėtingos krizinės situacijos",
+      "color": "#F44336"
+    }
+  },
+  "categories": {
+    "traffic": {
+      "name": "Eismo sustabdymai",
+      "description": "Su eismu ir transportu susijusios situacijos",
+      "icon": "🚗",
+      "scenarios": [
+        1
+      ]
+    },
+    "domestic": {
+      "name": "Buitiniai ginčai",
+      "description": "Šeimos ir santykių konfliktai",
+      "icon": "🏠",
+      "scenarios": [
+        2,
+        "domestic-crisis"
+      ]
+    },
+    "community": {
+      "name": "Bendruomenė",
+      "description": "Viešosios sąveikos ir bendruomenės problemos",
+      "icon": "👥",
+      "scenarios": [
+        3,
+        5,
+        6
+      ]
+    },
+    "crisis": {
+      "name": "Krizinės situacijos",
+      "description": "Situacijos, reikalaujančios krizių intervencijos",
+      "icon": "🧠",
+      "scenarios": [
+        4,
+        7,
+        "domestic-crisis"
+      ]
+    }
+  }
+}

@@ -1,0 +1,363 @@
+{
+    "scenarioId": "1",
+    "reviewVersion": "3.0",
+    "title": "Review — Traffic Stop De-escalation",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "The Stop",
+            "criticalSkills": ["Professional introduction and tone-setting", "Integrating dispatch intelligence without revealing sensitive details", "Welfare-aware approach to a flagged vehicle"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Approach on the driver's side with your flashlight low and non-blinding. Stop slightly behind the driver's window, announce yourself calmly: 'Good evening, sir. I'm Officer [Name] with the city police...'",
+                    "strengths": ["Opening with name and department satisfies procedural requirements and humanizes the officer immediately", "Stating the specific violation (52 in a 35) is transparent and factual", "Noting the slow pullover without accusation integrates dispatch intelligence naturally", "Asking 'is everything all right?' before demanding documents prioritizes the person over the violation", "Low flashlight positioning avoids the aggressive blinding effect that escalates tension"],
+                    "consequences": "Mr. Davies grips the wheel but his shoulders drop slightly at your tone. He doesn't answer immediately — he's processing that your voice isn't hostile. Marcus lowers his phone a fraction. You've created a three-second window of possibility.",
+                    "trainingFocus": "How does the sequence of what you say first — identification, reason, or welfare check — shape the driver's immediate emotional response?"
+                },
+                "partially_positive": {
+                    "choiceText": "Approach normally and say: 'Good evening. License and registration, please. I stopped you for speeding — 52 in a 35. I also received a dispatch note about a welfare check on this vehicle...'",
+                    "adequate": ["Transparent about the reason for the stop and the welfare check", "Polite greeting establishes baseline professionalism", "Asks what is going on, showing interest in the driver's situation"],
+                    "missed": ["Revealing the welfare check before rapport exists can feel invasive or alarming", "Driver may feel surveilled or betrayed by whoever made the call", "No self-introduction by name, which is best practice", "Timing of sensitive information matters — transparency without rapport can backfire"],
+                    "improvement": "Use the welfare check information to guide your observations and questions rather than disclosing it directly. Ask 'is everything all right tonight?' without revealing the dispatch flag — the same concern comes through without the surveillance feeling."
+                },
+                "neutral": {
+                    "choiceText": "Approach with standard positioning and say: 'Evening. I clocked you at 52 in a 35. License and registration, please. And can you tell your passenger to put the phone down?'",
+                    "adequate": ["Speed statement and document request are procedurally correct", "Calm and direct tone"],
+                    "missed": ["Immediate demand about the phone is problematic — filming police is a legal right", "Asking the passenger to stop filming before any rapport signals defensiveness", "No self-introduction by name", "The welfare concern from dispatch is entirely ignored"],
+                    "improvement": "Remove the phone comment entirely — filming is a right, not a challenge. Add a self-introduction and an open-ended question that lets you assess the driver's state without demanding documents first."
+                },
+                "negative": {
+                    "choiceText": "Approach cautiously, hand near your belt, and speak firmly: 'Driver, keep your hands on the wheel. Passenger, I need to see both your hands. Nobody moves until I say so.'",
+                    "risks": ["No articulable safety threat beyond two occupants and a phone", "Commands about hands and movement without safety indicators are disproportionate", "Communicates threat rather than service on a welfare-flagged stop", "Dispatch indicated a welfare concern, not a danger alert"],
+                    "consequences": "Both occupants freeze. Marcus whispers 'I told you, Dad.' Mr. Davies's hands shake on the wheel. Whatever personal crisis is happening in this car gets buried under fear of the officer. The welfare check opportunity is gone.",
+                    "betterApproach": "Reserve high-alert commands for situations with articulable safety indicators — furtive movement, visible weapons, felony flags. A welfare-flagged vehicle with two occupants and a phone calls for calm introduction, not tactical commands."
+                }
+            },
+            "keyLearningPoints": ["The first thirty seconds of a traffic stop set the emotional trajectory for everything that follows", "Dispatch information should guide your awareness, not necessarily your opening words", "Asking about the passenger's phone before introducing yourself tells the story that the camera matters more than the person", "A welfare-flagged stop requires a welfare-aware approach — curiosity, not commands"]
+        },
+        "2": {
+            "stageName": "The Passenger",
+            "criticalSkills": ["Affirming the right to film without defensiveness", "Managing two emotional dynamics simultaneously", "Observation-based empathy without interrogation"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Address Marcus first with a calm nod: 'You're absolutely right — you can record. That's your right and I have no problem with it.' Then turn to Mr. Davies: 'Take your time with the registration...'",
+                    "strengths": ["Affirming Marcus's right to film immediately defuses the confrontation he was bracing for", "When a teenager expects hostility and receives respect, the entire dynamic shifts", "Telling Mr. Davies to take his time shows patience under pressure", "Noting he has 'a lot going on' shows observation without interrogation", "Addresses both occupants in sequence without neglecting either"],
+                    "consequences": "Marcus blinks, visibly surprised. His phone stays up but his posture softens. Mr. Davies exhales and finds the registration in the glove box. The temperature inside the car drops five degrees. Both occupants are now more willing to talk.",
+                    "trainingFocus": "What happens to a confrontation when you agree with the person before they finish fighting? How does affirming a right — rather than ignoring or challenging it — change the power dynamic?"
+                },
+                "partially_positive": {
+                    "choiceText": "Focus entirely on Mr. Davies: 'Sir, take your time finding the registration. I'll wait.' Ignore Marcus's statement about filming entirely.",
+                    "adequate": ["Patience with the document search is good practice", "Focusing on the driver is reasonable prioritization", "Calm and non-confrontational tone"],
+                    "missed": ["Marcus made a direct statement expecting a response — silence leaves tension unresolved", "He will interpret non-response as dismissal or as choosing to deal with him later", "An open front with a confrontational teenager complicates later stages"],
+                    "improvement": "One sentence — 'You're right, you can record' — takes three seconds and closes an adversarial front. Ignoring a challenge is not the same as resolving it."
+                },
+                "neutral": {
+                    "choiceText": "Say firmly but not aggressively: 'Young man, I didn't say anything about your phone. Let's keep things calm. Sir, I need that registration — check the glove box.'",
+                    "adequate": ["Factually correct that you didn't mention the phone", "Tone is controlled and professional", "Directs Mr. Davies to a practical action"],
+                    "missed": ["Correcting Marcus misses the point — he was pre-empting what he expected, not responding to what you said", "The correction sounds defensive rather than reassuring", "'Let's keep things calm' implies things aren't calm, which can be self-fulfilling"],
+                    "improvement": "When someone projects their fear onto you, addressing the fear is more effective than correcting the projection. 'You can record — that's fine' resolves the fear; 'I didn't say anything about your phone' argues with it."
+                },
+                "negative": {
+                    "choiceText": "Lean down to look at Marcus directly: 'Kid, put the phone away. This is between me and the driver. You're making this harder than it needs to be.'",
+                    "risks": ["Ordering a minor to stop filming is legally questionable and practically counterproductive", "'Kid' is dismissive to a fifteen-year-old", "'You're making this harder' blames a teenager for exercising a right", "This is exactly the interaction that goes viral for the wrong reasons"],
+                    "consequences": "Marcus's face hardens. 'I'm not putting anything away.' Mr. Davies panics: 'Officer, please, he's just scared.' The stop is now about the phone instead of the speeding or the welfare concern. You've created a conflict that didn't exist.",
+                    "betterApproach": "Treat filming as a non-issue by affirming the right immediately. When you make someone's lawful behavior into a problem, you become the problem in the story the camera tells."
+                }
+            },
+            "keyLearningPoints": ["A teenager filming a police encounter is exercising a legal right, not committing an act of defiance", "When someone expects hostility and receives respect, the confrontation they prepared for dissolves", "Ignoring a direct challenge is not the same as de-escalating it — unresolved tension compounds", "Managing two emotional dynamics requires addressing both, even briefly, rather than choosing one"]
+        },
+        "3": {
+            "stageName": "The Eruption",
+            "criticalSkills": ["Responding to raw emotion without matching or suppressing it", "Active listening that proves you heard specific details", "Shifting from enforcement to problem-solving when crisis is revealed"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Pause. Let the silence hold for a moment. Then speak quietly: 'Mr. Davies, I heard what you just said — your mother is in the hospital and you're dealing with a custody situation...'",
+                    "strengths": ["The pause lets his words land without being batted back — critical de-escalation technique", "Repeating specific details proves you actually listened, which is rare in his experience right now", "Asking which hospital shifts the conversation from punishment to problem-solving", "Prioritizing the human without ignoring the violation", "Meeting someone at the point of their pain — advanced de-escalation"],
+                    "consequences": "Mr. Davies's voice breaks. He names the hospital — St. Catherine's, twenty minutes away. Marcus watches with an expression that has shifted from suspicion to cautious hope. For the first time tonight, someone with authority has responded to pain with care.",
+                    "trainingFocus": "What does it cost you to listen to someone's worst moment? What does it cost them if you don't? How does repeating specific details back to someone change the quality of connection?"
+                },
+                "partially_positive": {
+                    "choiceText": "Nod sympathetically: 'I'm sorry you're dealing with all that, sir. That sounds really difficult. But I still need to address the speeding...'",
+                    "adequate": ["Genuine sympathy is expressed", "Acknowledges the difficulty of his situation", "Moves toward resolution"],
+                    "missed": ["The pivot to 'but I still need to address the speeding' lands like a door closing", "He laid his pain bare and the response is: acknowledged, now back to business", "The speed of the pivot suggests his crisis was heard but weighed and found insufficient to change anything"],
+                    "improvement": "Remove the 'but' and stay with the person for ten more seconds. Ask about the hospital, acknowledge the custody stress, then return to the stop naturally. The pivot will still happen — but the timing makes the difference between being heard and being processed."
+                },
+                "neutral": {
+                    "choiceText": "Keep your voice steady: 'Sir, I understand you're upset, but I need you to keep your voice down. There are things I can control here and things I can't...'",
+                    "adequate": ["Voice is steady and controlled", "Attempts to structure the interaction"],
+                    "missed": ["'Keep your voice down' when someone is crying about their mother in the hospital is tone-deaf", "He wasn't yelling at you — he was breaking down", "'Things I can control' sounds like managing a problem, not talking to a person", "You have compliance but no connection"],
+                    "improvement": "Distinguish between someone who is aggressive and someone who is in pain. A raised voice from grief requires empathy, not volume control. Let the emotion exist — it will subside when it feels heard."
+                },
+                "negative": {
+                    "choiceText": "Maintain a steady, professional tone: 'Mr. Davies, I understand you're under a lot of stress, and I'm sorry about your mother. But that doesn't change the fact that you were doing 52 in a residential zone with your son in the car. The stress you're under is exactly why the speed matters more.'",
+                    "risks": ["Sounds professional and logically coherent, but the timing is devastating — he just broke down and shared his worst night", "Takes his vulnerability and uses it as evidence for why the ticket is more justified, not less", "The measured, reasonable tone makes it feel calculated rather than openly cruel — which to someone in crisis is indistinguishable", "His son is filming an officer who responded to tears with a policy rationale"],
+                    "consequences": "Mr. Davies goes quiet — not calmed, but hollowed out. He signs whatever you put in front of him. Marcus watches with an expression beyond anger — the look of someone who has confirmed something he always suspected. 'You heard him, right?' he says into the phone. 'My dad's crying about grandma and the officer says that's why the ticket matters more.'",
+                    "betterApproach": "When someone is in crisis and you use their distress as part of your enforcement reasoning, you weaponize vulnerability against them — regardless of how professional it sounds. The proportionate response is to listen, acknowledge the pain, and then shift to problem-solving, not to construct a logical argument for why their crisis makes the enforcement more important."
+                }
+            },
+            "keyLearningPoints": ["When someone erupts with desperation rather than aggression, the response must match the emotion — empathy, not control", "Repeating specific details someone shared proves you listened and builds trust faster than any technique", "The word 'but' after empathy erases the empathy — timing the transition matters enormously", "A raised voice from grief and a raised voice from hostility require completely different responses"]
+        },
+        "4": {
+            "stageName": "The Bystander",
+            "criticalSkills": ["Incorporating new information from community members", "Adaptive decision-making when context changes", "Treating bystanders as contributors rather than interference"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Turn to Mrs. Marsh with a respectful nod: 'Thank you, Mrs. Marsh. I appreciate you coming out. It helps to have context. I'm going to wrap this up so Mr. Davies can get to the hospital.'",
+                    "strengths": ["Acknowledging the bystander by name treats her as a person contributing, not an interference", "Her corroboration gives additional context to justify discretion", "Announcing intent to Mr. Davies provides immediate relief", "Shows that new information changed your calculus — transparent, adaptive policing", "Transforms a confrontation into a community moment"],
+                    "consequences": "Mrs. Marsh's shoulders relax. Mr. Davies exhales audibly. Marcus lowers his phone to his lap for the first time. The entire scene transforms. Mrs. Marsh says quietly: 'Thank you, Officer.'",
+                    "trainingFocus": "When a bystander gives you information that helps you make a better decision, how does acknowledging that publicly affect everyone's trust? What does adaptive policing look like in real time?"
+                },
+                "partially_positive": {
+                    "choiceText": "Acknowledge Mrs. Marsh briefly: 'Thank you, ma'am. I'm handling the situation.' Then refocus on Mr. Davies without visibly changing your approach based on her input.",
+                    "adequate": ["Polite acknowledgment of the bystander", "Professional and controlled", "Does not create a negative interaction with the neighbor"],
+                    "missed": ["A neighbor corroborating the driver's crisis is valuable context, yet your approach doesn't shift", "Appearing rigid rather than adaptive when credible information arrives", "The bystander interaction is neutral — no harm, but no help either"],
+                    "improvement": "When credible new information arrives mid-encounter, let your response visibly adjust. Saying 'it helps to have context' shows everyone present that you incorporate information rather than following a fixed script."
+                },
+                "neutral": {
+                    "choiceText": "Address Mrs. Marsh politely: 'Ma'am, thank you, but I need you to step back to your property. This is a traffic stop and I can't have civilians approaching the scene.'",
+                    "adequate": ["Polite tone with the neighbor", "Procedurally oriented"],
+                    "missed": ["A 60-year-old neighbor in slippers standing ten feet away on a sidewalk is not a safety threat", "Sending her away loses corroborating information and an emotional ally", "'Civilians approaching the scene' makes a residential street sound like a crime scene", "Rigidity undermines proportionality"],
+                    "improvement": "When protocol conflicts with common sense, ask which one builds more trust. A neighbor who knows the family is an asset, not a liability. Accept the information, thank her, and continue."
+                },
+                "negative": {
+                    "choiceText": "Look at Mrs. Marsh, then back at Mr. Davies: 'Sir, is there anyone who can come drive you and your son? You're clearly in no state to be behind the wheel...'",
+                    "risks": ["Suggesting the driver is unfit when he is emotional but not impaired pathologizes grief", "Enlisting his neighbor to manage him is infantilizing", "Treating emotional distress as a driving hazard without impairment evidence raises liability questions", "Removes agency from a competent adult having a bad night"],
+                    "consequences": "Mr. Davies is humiliated in front of his neighbor and son. 'I'm not drunk. I'm upset. There's a difference.' Marcus: 'Dad, let's just go.' Mrs. Marsh looks uncomfortable being drafted into this.",
+                    "betterApproach": "Distinguish between impairment and emotion. A person who is upset but alert, coherent, and oriented is not unfit to drive. Concern for wellbeing should empower, not infantilize."
+                }
+            },
+            "keyLearningPoints": ["Bystanders who know the parties can provide valuable corroboration — treat them as community assets", "When credible new information arrives, letting your approach visibly adapt builds trust with everyone watching", "Rigid adherence to procedure when common sense suggests flexibility signals inflexibility, not professionalism", "There is a critical difference between concern for someone's wellbeing and removing their agency"]
+        },
+        "5": {
+            "stageName": "The Decision",
+            "criticalSkills": ["Proportionate use of enforcement discretion", "Framing safety messages around the person's own values", "Documenting judgment calls that balance enforcement and compassion"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Return to the window: 'Mr. Davies, here's what I'm going to do. I'm issuing a written warning for the speed. It goes on record that we talked, but there's no fine and no points. Your driving record stays clean. But I need you to hear me — going 52 in a residential zone is dangerous regardless of why. If something happened to you or Marcus on the way to the hospital, it wouldn't just be one tragedy tonight. It would be two. Please drive safely. Your mother needs you to arrive.'",
+                    "strengths": ["Written warning is proportionate — acknowledges the violation without punishing a man in crisis", "Explaining that his record stays clean removes financial and legal anxiety", "Safety message reframed around his family — 'your mother needs you to arrive' — not around rules", "The danger framing is personal — 'it wouldn't just be one tragedy tonight, it would be two' — connecting speed to the people he loves", "Discretion used wisely: choosing the response most likely to produce the best outcome for everyone", "Creates a record without creating a burden"],
+                    "consequences": "Mr. Davies nods, emotion visible. 'Thank you, Officer. I mean it.' Marcus watches with an expression that is no longer hostile. Mrs. Marsh smiles quietly. The dashcam records an officer making a thoughtful, justified decision.",
+                    "trainingFocus": "What makes discretion wise rather than soft? How do you explain the difference in a report? When is a warning more effective than a citation at achieving the safety objective?"
+                },
+                "partially_positive": {
+                    "choiceText": "Issue the citation but explain: 'Mr. Davies, I have to write this ticket — 17 over is significant and I can't overlook it. But you can contest it in court...'",
+                    "adequate": ["Honest and not unkind", "Notes the situation in the report, showing awareness", "Points the driver toward a legal remedy", "Apologizes about the mother — genuine human moment"],
+                    "missed": ["Issuing a citation to a man with no record racing to his hospitalized mother when you have full discretion raises judgment questions", "Pointing him to court to fix what you could fix now adds burden to someone already overwhelmed", "The note in the report is thoughtful but doesn't change his experience tonight"],
+                    "improvement": "When you have discretion and the circumstances clearly warrant it, use it. A written warning achieves the same safety documentation goal without adding financial and legal burden to someone in verified crisis."
+                },
+                "neutral": {
+                    "choiceText": "Hand back his documents: 'All right, Mr. Davies — you're free to go. No ticket tonight. Just be careful out there. I hope your mom is okay.'",
+                    "adequate": ["Kind intent and genuine care", "Removes the enforcement burden entirely", "Wishes the mother well"],
+                    "missed": ["No mention of the speed, no safety message, no warning on record", "Discretion without any acknowledgment of the violation teaches nothing", "No documentation means no record that you counseled him", "The stop feels random — like it happened and then didn't"],
+                    "improvement": "Good discretion includes accountability. A written warning documents the encounter, delivers a safety message, and preserves the officer's judgment on record. Simply letting someone go is casual, not discretionary."
+                },
+                "negative": {
+                    "choiceText": "Process the citation with genuine regret: 'Mr. Davies, I truly am sorry about what you're going through. But I need to treat everyone equally regardless of circumstances — that's what fairness means. Issuing this is the fair and consistent thing to do.'",
+                    "risks": ["Sounds like principled, equitable policing — but equality and fairness are not identical", "Treating a verified family emergency the same as a routine speeding stop is rigidity disguised as principle", "Discretion exists precisely because circumstances differ — using 'equal treatment' to avoid judgment is an abdication, not integrity", "The offer to contest in court shifts the burden onto someone already overwhelmed", "His son is watching an officer who sounds reasonable while doing something unreasonable"],
+                    "consequences": "Mr. Davies signs with a trembling hand. He does not argue — the logic sounded so principled he almost believes he is the one being unreasonable for wanting mercy. Marcus films silently. Mrs. Marsh walks back to her house, shaking her head. You have a defensible citation and you have taught a fifteen-year-old that fairness is a word adults use when they mean inflexibility.",
+                    "betterApproach": "When you invoke 'treating everyone equally' to justify a disproportionate response, ask who benefits from that equality — the citizen, or the officer who no longer has to make a difficult judgment call. A written warning with a safety message is proportionate, documented, and genuinely fair."
+                }
+            },
+            "keyLearningPoints": ["Discretion is not weakness — it is a sophisticated use of professional judgment written into your authority", "A written warning documents the encounter and delivers accountability without punishing crisis", "Safety messages land harder when framed around the person's own values — family, not rules", "When you describe discretion as 'making exceptions,' you reveal a misunderstanding of your own tools"]
+        },
+        "6": {
+            "stageName": "Marcus",
+            "criticalSkills": ["Honest engagement with a young person's genuine question about policing", "Building trust across generational and experiential divides", "Modeling professionalism as a standard rather than a personal favor"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Look at him directly, without condescension: 'That's a fair question, Marcus, and I'm glad you asked it. No — it's not always like this, and I won't pretend it is. But this is what it's supposed to look like. Your dad was speeding and we had to talk about that. But he's also a person having a terrible night, and that matters too. Both things can be true at once. You had every right to film, and I'd rather you saw something worth recording.'",
+                    "strengths": ["Answering honestly — 'it's not always like this' — builds credibility with a teenager who has already formed opinions", "Acknowledging that his father was both speeding and suffering demonstrates nuance in law enforcement — 'both things can be true at once'", "'Something worth recording' reframes the camera from adversarial to aspirational", "Affirming his right to film within the answer honors his earlier stance", "Does not defend all police — earns trust by being truthful rather than institutional", "Plants a seed that may take years to grow"],
+                    "consequences": "Marcus is quiet for a long moment. Then he nods slowly. 'Okay.' One word — but it carries weight. Mr. Davies watches the exchange with something that looks like gratitude. This thirty-second conversation may reshape how Marcus talks about police for the rest of his life.",
+                    "trainingFocus": "When a young person asks you a genuine question about policing, what is the cost of a dishonest answer versus an honest one? How does admitting imperfection build more credibility than defending the institution?"
+                },
+                "partially_positive": {
+                    "choiceText": "Give him a slight smile: 'I try to treat people the way I'd want to be treated, Marcus. That's all. We're not all what you see on the news...'",
+                    "adequate": ["Warm and human response", "Personal rather than institutional framing", "Kind redirect to taking care of his father"],
+                    "missed": ["'We're not all what you see on the news' is defensive framing that positions his concerns as media-driven", "Subtly dismisses the reality that many teenagers have had negative encounters with police that aren't from the news", "Cuts the deeper conversation short when he was genuinely reaching out"],
+                    "improvement": "When a teenager lowers their guard and asks something real, match the depth of the question. Acknowledge that policing is imperfect rather than deflecting to media. The deeper conversation he was opening the door to is more valuable than a quick reassurance."
+                },
+                "neutral": {
+                    "choiceText": "Nod briefly: 'I'm just doing my job, Marcus. Stay safe tonight.' Turn to head back to your patrol car.",
+                    "adequate": ["Non-confrontational and brief", "Uses his name, which is respectful", "Does not create harm"],
+                    "missed": ["'Just doing my job' is a non-answer to a vulnerable question", "Marcus put down his phone and his guard and asked something real", "Meeting vulnerability with a platitude and a departure tells him the openness wasn't worth it", "He asked about the system and you gave him a bumper sticker"],
+                    "improvement": "When a young person lowers their guard, meet the moment. Even one honest sentence — 'This is what it should look like, and I take that seriously' — honors the vulnerability they showed."
+                },
+                "negative": {
+                    "choiceText": "Lean toward Marcus with a sincere expression: 'Marcus, what you saw tonight is how a traffic stop is supposed to go — your dad was cooperative, I was professional, and we worked it out. I hope you'll remember that cooperation makes everything easier for everyone.'",
+                    "risks": ["Sounds like a genuine teaching moment but subtly rewrites what happened — the stop was not routine, his father broke down crying", "Framing it as 'this is how it normally goes' minimizes the crisis that made tonight extraordinary", "'Cooperation makes everything easier' implies the outcome depends on the citizen's behavior, not the officer's judgment", "Telling a Black teenager to stop listening to people who warn him about police dismisses lived experience as misinformation", "He asked a vulnerable question and received a PR talking point"],
+                    "consequences": "Marcus's expression shifts from openness to something cooler. 'Yeah... okay.' The phone stays in his lap, but the searching look is gone. He was reaching for a real conversation and got a public service announcement. The moment for genuine connection has passed.",
+                    "betterApproach": "When a young person opens up about their fears, respond to the reality of their experience rather than the narrative you wish they had. Honest acknowledgment — 'this is what it should look like, but it's not always like this' — builds more trust than a polished message about how the system is supposed to work."
+                }
+            },
+            "keyLearningPoints": ["When a teenager asks a genuine question about policing, honesty builds more credibility than defense of the institution", "Admitting 'it's not always like this' earns trust that 'we're not all bad' never will", "Meeting a vulnerable moment with a cliché teaches the person that vulnerability wasn't worth it", "Telling someone they were lucky to get a decent officer is a threat, not advice — and it undermines the profession"]
+        },
+        "7": {
+            "stageName": "The Send-Off",
+            "criticalSkills": ["Closing with dignity that matches the depth of what was shared", "Restoring dignity through reframing", "Leaving a lasting impression that builds trust in law enforcement"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Hold up a hand gently: 'Mr. Davies, you don't owe me an apology. You're a father trying to reach his sick mother while worrying about his son. I'd be upset too.' Glance at Marcus: 'Both of you did.' Then: 'St. Catherine's is about twenty minutes. Take Route 9 — it's clearer this time of night. Drive safe. I hope your mother recovers well.'",
+                    "strengths": ["Refusing the apology by reframing his reaction as reasonable restores his dignity", "Including Marcus in the compliment — 'both of you did' — honors the son's experience as equally valid", "Driving directions to St. Catherine's via Route 9 are a small, practical act of care with nothing to do with policing and everything to do with humanity", "'I hope your mother recovers well' names the thing that matters most", "The closing matches the emotional depth of the entire encounter"],
+                    "consequences": "Mr. Davies grips the steering wheel and nods, unable to speak for a moment. Marcus says quietly: 'Thank you.' Mrs. Marsh waves from the sidewalk. As the SUV pulls away carefully, you have left three people with a profoundly different experience than the one they expected.",
+                    "trainingFocus": "What is the difference between ending a stop and leaving an impression? How does a closing that matches the depth of the encounter change the story people tell about it?"
+                },
+                "partially_positive": {
+                    "choiceText": "Accept the apology graciously: 'I appreciate that, Mr. Davies. No hard feelings. I hope everything works out with your mother and with... everything else...'",
+                    "adequate": ["Gracious and warm", "Accepting the apology and wishing him well is genuine", "Positive closing tone"],
+                    "missed": ["Vague 'everything else' avoids naming the custody situation he shared in vulnerability", "The closing is pleasant but doesn't match the depth of what was shared", "A good ending to an average conversation, not a great ending to an extraordinary one"],
+                    "improvement": "When someone has trusted you with their deepest fears, the closing needs to match that depth. Name what they shared — the mother, the custody, the fear — so they know it was truly heard, not just tolerated."
+                },
+                "neutral": {
+                    "choiceText": "Nod: 'Apology accepted. Just keep it under the speed limit from here. Have a good night.'",
+                    "adequate": ["Functionally fine and non-confrontational", "Accepts the apology without complication", "Includes a speed reminder"],
+                    "missed": ["Emotionally flat after a stop that included a breakdown, a teenager's transformation, and a neighbor's witness", "'Have a good night' is anticlimactic after the depth of the encounter", "The speed reminder reduces the entire rich human interaction back to a traffic violation"],
+                    "improvement": "When a stop has been emotionally significant, the closing must match. A generic ending to a profound encounter means the lasting memory is the anticlimax, not the care you showed earlier."
+                },
+                "negative": {
+                    "choiceText": "Accept the apology warmly: 'Thank you, Mr. Davies — that means a lot. I want to be honest: I used my discretion tonight because I could see you're a good man in a tough spot. But this was an exception, not the rule. I hope tonight reminds you the system works when people treat each other with respect.'",
+                    "risks": ["Sounds generous and earnest, but wraps a lecture inside a kindness", "'I used my discretion because you're a good man' implies discretion is conditional on the officer's moral assessment of character", "'This was an exception, not the rule' reframes proportionate judgment as special treatment", "'The system works when people treat each other with respect' subtly credits the good outcome to Mr. Davies's compliance rather than sound policing", "Marcus hears 'the system works' and thinks of every story where it didn't"],
+                    "consequences": "Mr. Davies nods and says 'Thank you' — but the thank-you feels extracted rather than natural. Marcus shifts in his seat — he heard 'the system works' and 'it was an exception.' The stop ends on a positive surface but the final message is: you were lucky, be grateful, and remember that this was a gift. The story Marcus tells will include the phrase 'he said it was an exception.'",
+                    "betterApproach": "When your closing frames a good outcome as dependent on the citizen's character rather than your professional judgment, it implies that less sympathetic people in the same crisis would not receive the same treatment. Close with dignity — refuse the apology by reframing his reaction as reasonable, and let the professionalism speak for itself without a sermon."
+                }
+            },
+            "keyLearningPoints": ["The last impression determines the story people tell — make the closing match the encounter's emotional depth", "Refusing an apology by reframing someone's reaction as reasonable restores dignity more powerfully than accepting it", "Practical small acts of care — like driving directions — leave disproportionate impressions", "Reminding someone you gave them a break converts discretion into debt and goodwill into resentment"]
+        }
+    },
+    "comprehensiveMetrics": {
+        "communication": {
+            "description": "Setting the emotional trajectory through professional introduction, active listening, and language that de-escalates rather than provokes",
+            "indicators": {
+                "excellent": ["Professional self-introduction by name and department at first contact", "Active listening demonstrated by repeating specific details Mr. Davies shared", "Language that de-escalated at every stage — questions instead of commands, curiosity instead of confrontation", "Tone appropriate to each moment — calm at the stop, quiet during the breakdown, warm at the close"],
+                "poor": ["No self-introduction or explanation of purpose", "Commands issued without safety justification — 'hands on the wheel' without articulable threat", "Dismissive language — 'everyone has problems,' 'every story in the book'", "Tone mismatched to the moment — volume control demands during a grief breakdown"]
+            }
+        },
+        "discretion": {
+            "description": "Using enforcement judgment wisely — matching response to circumstances rather than applying rules mechanically",
+            "indicators": {
+                "excellent": ["Written warning chosen as proportionate response to verified crisis with no prior record", "Safety message framed around the driver's own values — family, not rules", "Decision documented and justified — discretion with accountability", "New information from dispatch and bystander visibly incorporated into decision-making"],
+                "poor": ["Citation issued despite full discretion and verified extenuating circumstances", "'Rules are rules' framing that avoids the work of professional judgment", "Discretion described as 'making exceptions' rather than a core enforcement tool", "No documentation — either rigid citation or casual dismissal with no record"]
+            }
+        },
+        "empathy": {
+            "description": "Recognizing and responding to emotional crisis without sacrificing authority or professionalism",
+            "indicators": {
+                "excellent": ["Pause and silence used to let Mr. Davies's pain land without being batted back", "Specific details reflected back — hospital name, custody situation — proving genuine listening", "Welfare concern integrated naturally into the approach without revealing dispatch details invasively", "Dignity restored at closing by reframing his reaction as reasonable rather than requiring apology"],
+                "poor": ["Empathy followed immediately by 'but' — acknowledged then dismissed", "'Keep your voice down' directed at someone crying about their mother", "Pain dismissed as a 'story' or weaponized — 'if you really cared you'd drive more carefully'", "Suspicion or cynicism in response to disclosed vulnerability"]
+            }
+        },
+        "youthEngagement": {
+            "description": "Treating young people and bystanders with respect, especially when being observed or filmed",
+            "indicators": {
+                "excellent": ["Marcus's right to film affirmed immediately and without defensiveness", "Genuine, honest answer to his question about policing — 'it's not always like this'", "Included Marcus in the closing compliment — 'both of you did'", "Camera reframed as aspirational — 'something worth recording'"],
+                "poor": ["Demand to stop filming or put the phone away", "'Kid' used dismissively toward a fifteen-year-old", "Marcus blamed for being afraid — 'the attitude you came in with'", "Veiled threat: 'could have gone very differently with a different officer'"]
+            }
+        },
+        "closingImpact": {
+            "description": "Leaving every person in the encounter with an experience that builds trust in law enforcement",
+            "indicators": {
+                "excellent": ["Closing matched the emotional depth of the encounter — not generic after a profound interaction", "Practical care shown — driving directions to the hospital, specific well-wishes", "Dignity restored to every person — Mr. Davies, Marcus, Mrs. Marsh all acknowledged", "The story every witness tells afterward reflects positively on the officer and the profession"],
+                "poor": ["Generic closing — 'have a good night' — after an emotionally intense stop", "Discretion reframed as a personal favor — 'I gave you a break'", "'Next time you might not get someone willing to listen' — veiled threat as final words", "Closing erased the goodwill built throughout the encounter"]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "commandDefault": {
+            "pattern": "Defaulting to commands and control tactics when the situation calls for conversation and curiosity",
+            "examples": ["'Hands on the wheel, nobody moves' as an opening on a welfare-flagged stop", "'Keep your voice down' directed at someone in emotional crisis", "'Put the phone away' directed at a teenager exercising a legal right", "Tactical commands without articulable safety indicators"],
+            "impact": "Commands without justification communicate threat rather than service. On a welfare-flagged stop, they bury the very crisis you were dispatched to assess. The person in crisis becomes a person in fear — and fear does not produce the cooperation or information you need.",
+            "correction": "Reserve command-level language for situations with articulable safety threats. On routine and welfare stops, lead with introduction, explanation, and questions. Curiosity gathers more intelligence than commands."
+        },
+        "empathyErasure": {
+            "pattern": "Expressing empathy and then immediately erasing it with 'but' or a pivot back to enforcement — sometimes disguised as principled reasoning",
+            "examples": ["'I'm sorry you're dealing with all that, but I still need to address the speeding'", "'I truly am sorry, but I need to treat everyone equally — that's what fairness means'", "'I understand you're stressed, but that's exactly why the speed matters more'", "Hearing the crisis then constructing a logical argument for why enforcement is even more justified"],
+            "impact": "The word 'but' after empathy erases the empathy. The person hears: 'I acknowledged your pain, weighed it, and found it insufficient.' The emotional opening closes. Whatever trust was building stops. The driver remembers the 'but,' not the 'I'm sorry.'",
+            "correction": "Stay with the person for ten more seconds before transitioning. Ask about the hospital. Acknowledge the custody stress. Then return to the stop naturally. The transition will still happen — the timing is what makes it feel human or mechanical."
+        },
+        "cameraAnxiety": {
+            "pattern": "Reacting to being filmed as a threat rather than treating it as normal and legally protected",
+            "examples": ["Asking Marcus to put the phone down before introducing yourself", "'This is between me and the driver' — excluding the passenger's right to observe and record", "Addressing the camera before addressing the people", "Defensiveness when filming is mentioned"],
+            "impact": "Reacting to a camera tells the story that you are uncomfortable being observed. For a teenager who already expects police hostility, your reaction to the camera confirms the narrative. The interaction becomes about the phone instead of the person, and the footage captures an officer who prioritized controlling observation over serving the community.",
+            "correction": "Treat filming as a non-issue by affirming the right in one sentence and moving on. 'You can record — that's your right' takes three seconds and closes an entire adversarial front. The best response to being filmed is excellent policing."
+        },
+        "discretionAsDebt": {
+            "pattern": "Framing discretionary decisions as personal favors, moral judgments, or exceptions that create obligation",
+            "examples": ["'I used my discretion because I could see you're a good man' — making mercy contingent on character assessment", "'This was an exception, not the rule' — reframing proportionate judgment as special treatment", "'I hope tonight reminds you the system works when people treat each other with respect' — crediting the outcome to the citizen's compliance rather than sound policing", "'The system works' — delivering an institutional sermon as a closing when the person needed care, not a message"],
+            "impact": "When you frame discretion as a favor, you convert professional judgment into personal power. The person leaves feeling indebted rather than respected. The story they tell is not 'the officer was fair' but 'the officer let me off and made sure I knew it.' Trust becomes transactional — and transactional trust erodes the moment the transaction is over.",
+            "correction": "Discretion is your professional tool, not a gift. Use it without commentary about what you could have done instead. The power of a good decision is diminished every time you remind someone of the alternative."
+        },
+        "depthMismatch": {
+            "pattern": "Responding to emotionally significant moments with generic or shallow language",
+            "examples": ["'I'm just doing my job' in response to Marcus's genuine question about policing", "'Have a good night' after an encounter involving a family crisis, a teenager's transformation, and a neighbor's witness", "'Everything else' instead of naming the custody situation the driver disclosed", "Platitudes in response to vulnerability"],
+            "impact": "When the encounter is emotionally profound and the officer's response is emotionally generic, the lasting memory is the mismatch. The person remembers that they opened up and the officer went back to script. Vulnerability that is met with a cliché teaches people not to be vulnerable with officers again.",
+            "correction": "Match the depth of the moment. If someone shares their worst night, name what they shared. If a teenager asks a real question, give a real answer. The closing of an extraordinary encounter must be extraordinary — or the ordinariness of the ending becomes the story."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Exemplary traffic stop communication from first contact to final words. You demonstrated the complete skillset: professional introduction with welfare awareness, immediate affirmation of the right to film, empathetic response to raw desperation, adaptive use of bystander information, proportionate discretion with accountability, honest engagement with a teenager's genuine question, and a closing that restored dignity to every person in the encounter. The dashcam captured an officer who proved that authority and humanity are not opposites. This is the standard.",
+            "mostlyPositive": "Strong performance across a complex, emotionally layered traffic stop. You maintained professionalism and genuine care throughout most stages, and your judgment was sound on the key decisions. Some opportunities for deeper connection or more nuanced communication were available — perhaps in how you engaged Marcus, responded to the breakdown, or closed the encounter — but your overall approach built trust and demonstrated the kind of policing that changes how people think about law enforcement.",
+            "mixed": "You handled some aspects of this traffic stop well, particularly [SPECIFIC_POSITIVE], but critical opportunities were missed in [SPECIFIC_GAP]. A traffic stop involving a family in crisis, a filming teenager, and a concerned neighbor required consistent empathy and adaptive judgment across all seven stages. Review the moments where you defaulted to procedure when the situation called for humanity, and practice staying with difficult emotions before pivoting back to enforcement.",
+            "mostlyNegative": "This scenario revealed significant gaps in empathy, adaptive judgment, and communication under emotional pressure. While you [MINOR_POSITIVE], most choices escalated tension, missed the human dimensions of the stop, or failed to use the professional tools — discretion, active listening, honest engagement — that this situation demanded. A father in crisis, a teenager watching your every move, and a neighbor witnessing the encounter all needed something you did not consistently provide. Prioritize training in empathetic communication, discretion as a professional tool, and youth engagement.",
+            "allNegative": "Your approach treated a family in crisis as a procedural problem to manage rather than a human situation to navigate. Commands replaced conversation, pain was dismissed or weaponized, a teenager's legal right was challenged, discretion was either absent or framed as a favor, and the closing erased whatever goodwill might have survived. Every person in this encounter — Mr. Davies, Marcus, Mrs. Marsh — left with a story about policing that confirms the worst expectations. This requires fundamental reorientation toward empathy-based communication, proportionate discretion, and the understanding that every traffic stop builds or breaks community trust."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Good evening, sir. I'm Officer [Name] with the city police. I pulled you over because you were going 52 in a 35 zone. Before we get into that — is everything all right tonight?",
+            "You're absolutely right — you can record. That's your right and I have no problem with it.",
+            "Take your time with the registration. There's no rush. I can see you've got a lot going on tonight.",
+            "Mr. Davies, I heard what you just said — your mother is in the hospital and you're dealing with a custody situation. That is an enormous amount of pressure. I'm not here to add to it.",
+            "Thank you, Mrs. Marsh. I appreciate you coming out. It helps to have context.",
+            "I'm issuing a written warning for the speed. It goes on record that we talked, but there's no fine and no points. Your driving record stays clean.",
+            "Your mother needs you to arrive.",
+            "No — it's not always like this, and I won't pretend it is. But this is what it's supposed to look like.",
+            "I'd rather you saw something worth recording.",
+            "Mr. Davies, you don't owe me an apology. You're a father trying to reach his sick mother while worrying about his son. I'd be upset too."
+        ],
+        "poorPhrases": [
+            "Driver, keep your hands on the wheel. Passenger, I need to see both your hands. Nobody moves until I say so.",
+            "Kid, put the phone away. This is between me and the driver. You're making this harder than it needs to be.",
+            "Sir, I need you to keep your voice down.",
+            "The stress you're under is exactly why the speed matters more — not less.",
+            "I need to treat everyone equally regardless of circumstances — that's what fairness means.",
+            "What you saw tonight is how a traffic stop is supposed to go — cooperation makes everything easier for everyone.",
+            "I used my discretion tonight because I could see you're a good man in a tough spot. But this was an exception, not the rule.",
+            "I hope tonight reminds you that the system does work when people treat each other with respect."
+        ],
+        "analysisCriteria": {
+            "toneCalibration": "Did the phrase match the emotional temperature of the moment — calm at the stop, quiet during the breakdown, warm at the close, honest with the teenager?",
+            "welfareIntegration": "Did the phrase use the dispatch welfare flag to guide empathetic inquiry rather than invasive disclosure or tactical commands?",
+            "rightsAffirmation": "Did the phrase affirm the right to film and the right to emotional expression, or did it challenge, suppress, or ignore them?",
+            "discretionFraming": "Did the phrase present discretion as professional judgment or as a personal favor that creates debt?",
+            "dignityRestoration": "Did the phrase restore or preserve the dignity of the person being addressed, or did it diminish, patronize, or blame them?",
+            "lastingImpact": "Will this phrase be remembered positively by Mr. Davies, Marcus, and Mrs. Marsh — or will it be the moment the story turns negative?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "The first thirty seconds of a traffic stop set the emotional trajectory for everything that follows. Tone, posture, flashlight positioning, and whether you ask about the person before demanding documents — these choices predict the entire encounter. On a welfare-flagged stop, curiosity must come before compliance.",
+        "2": "A teenager filming a police encounter is exercising a legal right. How you respond to the camera defines the story it captures. Affirming the right in one sentence — three seconds of your time — dissolves a confrontation the teenager spent the whole approach preparing for.",
+        "3": "When someone erupts with desperation rather than aggression, the required response is empathy, not volume control. A pause, followed by repeating the specific details they shared, proves you listened — and for someone whose pain has been invisible, being heard can be transformative.",
+        "4": "Bystanders who know the parties are community assets, not procedural obstacles. A neighbor corroborating the driver's crisis gives you context to justify discretion. Acknowledging her publicly shows everyone present that new information changes your calculus — that is transparent, adaptive policing.",
+        "5": "Discretion is not weakness or 'making exceptions.' It is a sophisticated professional tool written into your authority for situations exactly like this. A written warning achieves documentation, delivers a safety message, and preserves the person's dignity — citation without discretion when circumstances warrant it reveals rigidity, not professionalism.",
+        "6": "When a young person lowers their guard and asks a genuine question about policing, the cost of a dishonest answer is measured in years. Admitting imperfection — 'it's not always like this' — builds more credibility than defending the institution ever will. This thirty-second conversation may reshape how Marcus talks about police for the rest of his life.",
+        "7": "The last impression determines the story people tell. A closing that matches the emotional depth of the encounter — refusing an unnecessary apology, offering driving directions, naming the mother's recovery — leaves three people and a dashcam with a profoundly different experience than the one they expected. A generic 'have a good night' after a profound encounter means the lasting memory is the anticlimax."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Advanced traffic stop communication — training others in welfare-integrated approaches", "Youth engagement leadership — building trust with young people during enforcement encounters", "Discretion documentation — writing reports that justify proportionate judgment calls", "Community policing mentorship — using exemplary encounters as academy training material"],
+            "good": ["Extended empathy-under-pressure techniques — staying with difficult emotions before transitioning", "Bystander integration — treating community members as assets during field encounters", "Camera-positive policing — building comfort with observation as a professional standard", "Closing impact — matching the depth of the encounter in final words"],
+            "average": ["Core de-escalation principles — curiosity before commands, questions before demands", "Discretion as a professional tool — when and how to use written warnings effectively", "Active listening skills — reflecting specific details to build trust during crisis", "Youth communication — engaging teenagers without condescension, threat, or dismissal"],
+            "poor": ["Fundamentals of empathetic communication in enforcement encounters", "Rights awareness — citizen filming, emotional expression, and proportionate response", "Emotional regulation under verbal pressure — distinguishing grief from aggression", "Mandatory ethics review — discretion, dignity, and the cost of dismissiveness in community trust"]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Overall Performance Summary", "content": ["Total score and performance tier", "Key strengths demonstrated across the seven stages", "Critical weaknesses requiring attention", "Overall trajectory — did the encounter improve or deteriorate over time?"]},
+            {"title": "Stage-by-Stage Analysis", "content": ["Choice made at each of the seven interactive stages", "Impact on Mr. Davies, Marcus, Mrs. Marsh, and community trust", "Alternative approaches and their likely consequences", "Stage-specific learning points"]},
+            {"title": "Communication & Tone Assessment", "content": ["Best dialogue moments and why they worked", "Counterproductive phrases and their impact", "Tone calibration across emotional shifts — stop, filming, eruption, bystander, decision, teenager, close", "Welfare flag integration quality"]},
+            {"title": "Empathy Under Pressure Evaluation", "content": ["Response quality when Mr. Davies broke down", "Ability to stay with difficult emotions before pivoting to procedure", "Active listening indicators — were specific details reflected back?", "Dignity restoration in the closing"]},
+            {"title": "Discretion & Judgment Assessment", "content": ["Enforcement decision analysis — citation, warning, or dismissal", "Proportionality given verified extenuating circumstances", "How the discretionary decision was framed — professional judgment or personal favor", "Documentation quality and accountability"]},
+            {"title": "Youth & Community Engagement", "content": ["Response to Marcus filming — affirmed, ignored, or challenged", "Quality of response to Marcus's genuine question about policing", "Bystander integration — Mrs. Marsh treated as asset or obstacle", "Lasting impression on every observer"]},
+            {"title": "Professional Development Plan", "content": ["Immediate training needs based on performance tier", "Long-term skill development priorities", "Recommended courses and resources", "Self-assessment questions for ongoing improvement"]},
+            {"title": "Real-World Application", "content": ["How this scenario translates to actual nighttime traffic stops with distressed drivers", "Building community trust through routine enforcement encounters", "The multiplier effect — how one well-handled stop influences an entire family's relationship with law enforcement", "Camera-era policing — every interaction is potentially public"]}
+        ]
+    }
+}

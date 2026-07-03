@@ -1,0 +1,430 @@
+{
+    "id": "traffic-stop",
+    "title": "Eismo sustabdymas \u2014 Eskalacija ir komunikacija",
+    "description": "Pažengęs scenarijus, susijęs su įprastu eismo sustabdymu, kuris eskaluoja, kai vairuotojas, jau patiriantis stresą dėl asmeninių problemų ir vėluojantis į svarbų susitikimą, tampa vis priešiškesnis. Pareigūnas turi subalansuoti griežtą teisėsaugą su empatija, reaguodamas į įžeidimus, filmavimą, saugumo grėsmes, keleivės nerimą ir asmeninį atskleidimą \u2014 visa tai išlaikydamas procesinį skaidrumą ir profesinę ramybę.",
+    "icon": "\ud83d\ude97",
+    "instructor": {
+        "name": "Seržantas Miller",
+        "avatar": "\ud83d\udc6e\u200d\u2642\ufe0f",
+        "introduction": "Eismo sustabdymai yra dažniausia tiesioginė policijos ir visuomenės sąveika, ir jie formuoja, kaip milijonai žmonių suvokia teisėsaugą. Tyrimai nuosekliai rodo, kad procesinis teisingumas eismo sustabdymų metu \u2014 paaiškinimas, kodėl asmuo buvo sustabdytas, prisistatymas ir pagarbaus elgesio su vairuotoju \u2014 turi didesnę įtaką visuomenės pasitikėjimui nei pats rezultatas. Vairuotojas, kurį sustabdote, gali būti prasčiausiame savo gyvenimo taške: sergantis vaikas, darbo praradimo grėsmė, byranti santuoka. Niekas iš to nepateisina greičio viršijimo, bet visa tai formuoja, kaip jis patiria jūsų autoritetą. Jūsų iššūkis \u2014 būti ir griežtam, ir žmogiškam \u2014 vykdyti įstatymą, kartu elgiantis su asmeniu prie vairo kaip su žmogumi, kurio bendradarbiavimą užsitarnaujate profesionalumu, o ne kaip su kažkuo, kieno paklusnumą išgaunate jėga. Tai, kaip pradedate, kaip reaguojate į priešiškumą, kaip valdote saugumo momentus ir kaip užbaigiate sąveiką, nulems, ar šis vairuotojas pasakos dešimčiai žmonių, kad policija yra teisinga, ar kad policija yra problema."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-traffic-stop-complete"],
+    "perfectBadge": "perfect-scenario-traffic-stop",
+    "finalMessage": {
+        "revelation": "Ponas Novak yra 38 metų vienišas dviejų vaikų tėvas. Jo septynmetei dukrai prieš tris mėnesius diagnozuota leukemija, o medicininės sąskaitos buvo niokojančios. Jis viršijo greitį, skubėdamas į susitikimą su vadovu, kuris buvo užsiminęs apie artėjančius atleidimus \u2014 prarasti šį darbą reikštų prarasti sveikatos draudimą, dengiantį dukros gydymą. Jo keleivė, ponia Novak, yra jo motina, prižiūrėjusi vaikus, kad jis galėtų dalyvauti susitikime. Ji jau nervinosi, nes žino, kiek spaudimo patiria jos sūnus, ir bijojo, kad sustabdymas kainuos jam darbą. Po jūsų sąveikos ponas Novak atvyko penkiolika minučių vėliau, bet ramus. Jo vadovas pastebėjo jo ramią laikyseną ir pasiūlė lankstų grafiką dukros vizitams valdyti. Vėliau jis kolegai pasakė, kad pareigūnas, kuris jį sustabdė, buvo pirmasis autoriteto asmuo per kelis mėnesius, elgęsis su juo kaip su žmogumi, o ne kaip su problema. Tai, kaip jūs tvarkėte sustabdymą, ne tik užtikrino kelių eismo taisyklę \u2014 tai suformavo, kaip krizę patiriantis vyras vertina visą policijos instituciją.",
+        "keyLessons": [
+            "Profesionalus prisistatymas vardu ir konkrečiu pažeidimu iš karto įtvirtina teisėtumą ir sumažina vairuotojo įtarimą, kad sustabdymas yra savavališkas ar diskriminacinis",
+            "Laiko spaudimo ar nusivylimo pripažinimas nesilpnina autoriteto \u2014 tai signalizuoja, kad matote vairuotoją kaip asmenybę su gyvenimu už šio sustabdymo ribų, o tai uždirba bendradarbiavimą, užuot išgavus paklusnumą",
+            "Asmeniniai įžeidimai eismo sustabdymų metu beveik visada yra gilesnio streso išraiška, o ne tikri puolimai \u2014 perkadravimas link kelių saugumo misijos laiko jus aukščiau konflikto ir modeliuoja elgesį, kurio norite",
+            "Skaidrumas po didinamuoju stiklu \u2014 ženklo numerio pateikimas ir teisės skųstis patvirtinimas \u2014 nuginkluoja priešiškumą efektyviau nei bet koks autoriteto demonstravimas",
+            "Aiškios, konkrečios žodinės komandos saugumo momentais užkerta kelią nesusipratimams, galintiems paversti įprastus sustabdymus pavojingais \u2014 tikslus nurodymas vairuotojui, kur dėti rankas ir kada judėti, yra skirtumas tarp kontrolės ir chaoso",
+            "Administracinė diskrecija nėra silpnumas \u2014 žinojimas, kada įspėjimas geriau tarnauja kelių saugumui ir visuomenės pasitikėjimui nei bauda, parodo profesinę brandą ir sprendimų kokybę",
+            "Tai, kaip užbaigiate eismo sustabdymą, nulemia vairuotojo ilgalaikį visos sąveikos prisiminimą ir ką jis pasakoja kitiems apie policiją \u2014 paskutinės trisdešimt sekundžių turi neproporcingai didelę įtaką visuomenės pasitikėjimui"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Dispečerinė ir sustabdymas",
+            "sceneUpdate": {
+                "emoji": "\ud83d\ude93",
+                "title": "Kelkraštis \u2014 Pirmas kontaktas",
+                "desc": "Vėlyva popietė judriame magistraliniame kelyje. Sustabdėte tamsų sedaną už greičio viršijimą 25 km/h. Vairuotojas, vyras trečiojo dešimtmečio pabaigoje, dėvintis suglamžytus marškinius, stipriai laiko vairą ir yra akivaizdžiai susijaudinęs. Vyresnė moteris keleivio vietoje žiūri žemyn, vengdama akių kontakto."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Ekipažas, tamsaus sedano registracijos patikra rodo švarią istoriją. Registruotas savininkas \u2014 Novak, jokių neįvykdytų orderių, jokių ankstesnių sustabdymų sistemoje."
+                },
+                {
+                    "character": "driver",
+                    "text": "Kodėl mane sustabdėte? Aš nieko blogo nepadariau!"
+                }
+            ],
+            "prompt": "Kaip pasirinksite pradinę komunikaciją?",
+            "options": [
+                {
+                    "text": "Prieinate prie lango ramia, susikaupusia laikysena ir užmezgate akių kontaktą. 'Laba diena, pone. Esu pareigūnas Norton. Sustabdžiau jus, nes mano radaras užfiksavo, kad viršijote leistiną greitį 25 km/h ties sankryža. Suprantu, kad sustabdymas gali erzinti, bet privalau informuoti apie konkrečią priežastį. Ar galėčiau pamatyti vairuotojo pažymėjimą ir transporto priemonės registraciją, prašau?' Per visą pokalbį laikote rankas matomas, o tonas išlieka dalykiškas ir draugiškas.",
+                    "feedback": "Kodėl: Prisistatymas vardu, konkretus pažeidimas ir mandagus dokumentų prašymas nustato profesionalų pagrindą nuo pirmo sakinio. Vairuotojas žino, kas jūs esate, kodėl buvo sustabdytas ir ko jums reikia \u2014 pašalindamas dviprasmybes ir įtarimą, kad sustabdymas yra savavališkas. | PASEKMĖS: Pono Novak žandikaulis įsitempia, bet jis siekia dokumentų. Jis žino, kad tai teisėta. Jo motina keleivio vietoje šiek tiek atsipalaiduoja \u2014 pareigūnas skamba profesionaliai, ne agresyviai. Sąveika turi skaidrumo pagrindą. | Refleksija: Kaip jūsų vardo ir konkretaus pažeidimo pateikimas pirmame sakinyje keičia visą eismo sustabdymo trajektoriją?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Prieinate prie vairuotojo durų kampu, viena ranka ant diržo, ir pasilenkiate prie atviro lango. 'Laba diena. Sustabdžiau jus dėl greičio viršijimo pagrindiniame kelyje. Man reikės jūsų vairuotojo pažymėjimo ir registracijos, prašau.' Trumpai žvilgtelite į keleivę, pastebite jos nerimastingą laikyseną, tada grąžinate dėmesį vairuotojui ir laukiate lūkesčių kupinu žvilgsniu, kol jis paduos dokumentus, neprisistatydami ir nenurodydami tikslaus greičio.",
+                    "feedback": "Kodėl: Paminite sustabdymo priežastį ir išliekate mandagus, kas yra geriau nei šaltas dokumentų reikalavimas. Tačiau praleidžiate prisistatymą ir nenurodote pažeidimo detalių, palikdami vairuotoją be visiško skaidrumo, kuris kuria pasitikėjimą. | PASEKMĖS: Vairuotojas paklūsta, bet lieka skeptiškas dėl sustabdymo teisėtumo. Jo keleivė neramiai pažvelgia aukštyn. Įtampa nekyla, bet pasitikėjimas taip pat nėra visiškai įtvirtintas. | Refleksija: Kiek detalių apie pažeidimą turėtumėte pateikti iš karto, kad vairuotojas nejaustų, jog sustabdymas yra savavališkas?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Prieinate prie lango su bešališka, dalykiška veido išraiška ir du kartus pabarškinate per automobilio stogą, norėdami atkreipti vairuotojo dėmesį. 'Laba diena, vairuotojo pažymėjimą ir registraciją, prašau.' Ištiesiate ranką delnu aukštyn link vairuotojo ir laukiate. Jokio vardo, jokio paaiškinimo, jokio akių kontakto su keleive — tik trumpas procedūrinis prašymas monotonišku tonu, nesuteikiantis vairuotojui visiškai jokios informacijos, kodėl jis buvo sustabdytas.",
+                    "feedback": "Kodėl: Nekonfrontuojantis, bet šaltas. Be prisistatymo ir sustabdymo priežasties vairuotojas neturi jokios informacijos, kodėl buvo sustabdytas. Jis užpildo tą spragą įtarimu ir pykčiu. | PASEKMĖS: Ponas Novak spokso į jus: \u201eUž ką? Ką aš padariau?\u201c Jo motina kažką sušnabžda. Bendradarbiavimas vyksta, bet įtampa išlieka, nes neatsakėte į svarbiausią klausimą jo galvoje. | Refleksija: Kas padėtų jums pačiam priimti intervenciją su mažesniu pasipriešinimu?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Ryžtingu žingsniu prieinate prie lango, žandikaulis sukąstas, ir pasilenkiate arti prie vairuotojo veido. Pirštu rodote tiesiai jam į krūtinę ir kalbate žemu, atkirstu tonu: 'Nusiraminkite ir parodykite dokumentus, arba bus tik blogiau.' Kita ranka akivaizdžiai guli ant tarnybinio diržo. Vyresnė moteris keleivio vietoje krūpteli nuo jūsų balso aštrumio. Laikote savo poziciją, įsmeigę žvilgsnį į vairuotoją, aiškiai parodydami, kad tai komanda, o ne pokalbis.",
+                    "feedback": "Kodėl: Grasinimas pačioje pradžioje eskaluoja situaciją, kuri buvo tik įtempta, į priešišką. Vairuotojas nepadarė nieko, kas pateisintų grasinimą \u2014 jis išreiškė nusivylimą. Pradėti bauginimu signalizuoja, kad šis sustabdymas yra apie galią, ne apie saugumą. | PASEKMĖS: Pono Novak akys išsiplečia, tada susiaurėja. \u201eAr jūs man grasinate?\u201c Jo motina siekia telefono. Keleivių dinamika pasikeitė \u2014 dabar abu suvokia pavojų. Kiekviena tolesnė sąveika neša šios pradžios naštą. | Refleksija: Kaip dažnai grasinimai eismo sustabdymo pradžioje iš tikrųjų veda prie bendradarbiavimo, o ne pasipriešinimo?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Skubantis vairuotojas",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udd52",
+                "title": "Nervinis laiko spaudimas",
+                "desc": "Vairuotojas nekantriai beldžia į vairą, nuolat žvilgčiodamas į laikrodį. Jo motina deda ranką jam ant rankos, bandydama nuraminti. Stresas automobilyje yra apčiuopiamas \u2014 tai aiškiai apie kažką daugiau nei baudą už greitį."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "Ar galime tai paspartinti? Vėluoju į susitikimą, nuo kurio priklauso, ar išlaikysiu darbą!"
+                },
+                {
+                    "character": "passenger",
+                    "text": "(tyliai, vairuotojui) Tiesiog bendradarbiaukite, prašau..."
+                }
+            ],
+            "prompt": "Kaip reaguojate į laiko spaudimą neprarasdami autoriteto?",
+            "options": [
+                {
+                    "text": "Lėtai linktelite ir nuleidžiate iškarpinę šonan, skirdami vairuotojui visą savo dėmesį. 'Suprantu, kad skubate ir šis susitikimas jums svarbus — matau tą stresą. Padarysiu viską, kad tai užbaigtume kuo greičiau, žadžiu. Jei bendradarbiausime ir kartu per tai praeisime, netrukus vėl būsite kelyje.' Trumpai žvilgtelite į jo motiną, pripažindami jos tylų susirūpinimą, tada grįžtate prie dokumentų su susikaupusiu efektyvumu.",
+                    "feedback": "Kodėl: Empatija plius paskatinimas bendradarbiauti. Pripažįstate konkretų rūpestį \u2014 susitikimą \u2014 užuot jį atmetę. Bendradarbiavimo susiejimas su greičiu suteikia vairuotojo skubumui produktyvų išleidimą. Jo motina girdi profesionalų pareigūną, kuris yra protingas. | PASEKMĖS: Ponas Novak iškvepia. Beldimas sustoja. Jis paduoda dokumentus be tolimesnio prieštaravimo. Jo motinos tylus palengvėjimas yra matomas. Sąveika iš konfrontacijos virsta bendradarbiavimu, nes pripažinote jo realybę neatsisakydami savo proceso. | Refleksija: Kaip bendradarbiavimo susiejimas su greičiu paverčia vairuotojo skubumą iš kliūties į sąjungininką?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Nustojate peržiūrinėti dokumentus ir pažvelgiate aukštyn. 'Suprantu, kad skubate — niekas nenori stovėti čia kelio pakraštyje. Stengsiuosi tai apdoroti kuo greičiau.' Grąžinate dėmesį popieriams ir dirbate metodiškai, bet nedelsdami, trumpu linktelėjimu pripažindami situaciją, tačiau nepasiūlydami jokio akstino, kaip jo bendradarbiavimas galėtų dar labiau paspartinti procesą.",
+                    "feedback": "Kodėl: Pripažįstate laiko spaudimą ir įsipareigojate efektyvumui, kas rodo tam tikrą empatiją. Tačiau praleidžiate galimybę susieti bendradarbiavimą su greičiu \u2014 be to susiejimo vairuotojas gali toliau spausti ir pertraukinėti, užuot padėjęs procesui judėti pirmyn. | PASEKMĖS: Vairuotojas šiek tiek nurimo, bet nuolat klausinėja, kiek dar tai truks. Jo motina atsidūsta. Sustabdymas vyksta be didelės trinties, bet ir be visiško bendradarbiavimo. | Refleksija: Kaip aiškus bendradarbiavimo susiejimas su greičiu keičia vairuotojo elgesį sustabdymo metu?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Laikote akis įsmeigtas į rankoje esantį pažymėjimą ir atsakote plokščiu, atkirstu tonu nepakeldami galvos. 'Prašau bendradarbiauti, kad galėtume tai greitai užbaigti.' Apverčiate pažymėjimą, patikrinate kitą pusę ir pradedate rašyti iškarpinėje. Jokio jo susitikimo pripažinimo, jokio dėmesio nerimui, persmelkusiam jo veidą — jokios užuominos, kad užregistravote ką nors daugiau nei procedūrinę užduotį priešais save.",
+                    "feedback": "Kodėl: Faktiškai teisinga, bet trūksta empatijos. Prašote bendradarbiauti nepripažindami priežasties, kodėl jis skuba. Vairuotojas girdi nurodymą, ne supratimą. | PASEKMĖS: Ponas Novak sumurmėja po nosimi. Jo motina stebi jus atidžiai. Minimalus ryšio kūrimas vyksta, o įtampa tarp jūsų ir vairuotojo išlieka per visą likusį sustabdymą. | Refleksija: Kokį vieną sakinį galėtumėte pridėti, kad tai skambėtų kaip žmogus kalba, o ne procedūra?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Pakeliate akis nuo dokumentų ir įsmeigiate į jį kietą žvilgsnį, jūsų žandikaulis įsitempia. 'Jūsų susitikimas nėra mano problema. Turėjote apie tai pagalvoti, prieš viršydami greitį 25 km/h.' Leidžiate žodžiams nusėsti, tada vėl nuleidžiate akis į popierius ir tęsiate rašymą neskubėdami. Jo motinos ranka sugniaužia sūnaus ranką. Tyla, kuri seka, yra sunkesnė už bet kokį ginčą — ką tik pasakėte nusivylusiam vyrui, kad jo neviltis yra jo paties kaltė.",
+                    "feedback": "Kodėl: Atmestina ir žeminanti. Pasakėte vyrui, kurio pragyvenimas kabo ant plauko, kad jo rūpesčiai jums nereikšmingi. Tai faktiškai teisinga, bet emociškai niokojanti \u2014 o emocijos valdo elgesį eismo sustabdymų metu. | PASEKMĖS: Pono Novak veidas sukietėja. \u201eNeįtikėtina.\u201c Jo motina atrodo priblokšta. Priekabiavimo įspūdis susiformuoja iš karto, ir skundo ar virusinio vaizdo įrašo rizika dramatiškai padidėja. | Refleksija: Kaip kito žmogaus tikro streso atmetimas paveikia jo suvokimą apie viską, ką sakote ir darote toliau?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Asmeniniai puolimai",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udca2",
+                "title": "Žodinis smurtas",
+                "desc": "Vairuotojo nusivylimas pervirto. Jis dabar atvirai įžeidinėja policiją \u2014 vadindamas sustabdymą \u201epriekabiavimu\u201c ir \u201ebeprasmišku laiko švaistymu\u201c. Jo balsas pakeltas, veidas raudonas. Jo motina akivaizdžiai kenčia, tyliai maldaudama jį liautis."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "Ar jūs neturite nieko geresnio veikti, kaip priekabiauti prie padorių žmonių?! Tai priekabiavimas \u2014 grynasis priekabiavimas!"
+                },
+                {
+                    "character": "passenger",
+                    "text": "(sunerimusi) Prašau, sūnau, tiesiog leisk pareigūnui atlikti savo darbą..."
+                }
+            ],
+            "prompt": "Vairuotojas žodžiu piktnaudžiauja, o jo keleivė kenčia. Kaip reaguojate?",
+            "options": [
+                {
+                    "text": "Giliai ir lėtai įkvepiate, išlaikydami pastovų balsą, kuris perkirsta jo šaukimą nekonkuruodamas su juo. 'Suprantu, kad esate įsitempęs ir skubate — girdžiu tai ir neatmestu. Mano pareiga — užtikrinti kelių saugumą, ir tai vienintelė priežastis, kodėl šiandien esu čia. Užbaikime tai ramiai, kad galėtumėte pasiekti savo susitikimą.' Išlaikote atvirą kūno kalbą ir trumpai žvilgtelite į jo motiną, pripažindami ir jos kančią.",
+                    "feedback": "Kodėl: Emocijos pripažinimas patvirtina žmogų už įžeidimo. Perkadravimas link kelių saugumo perkelia pokalbį nuo \u201ejūs prieš mane\u201c prie \u201emudu abu prieš problemą\u201c. Susitikimo paminėjimas rodo, kad klausėte anksčiau. Jo motina girdi profesionalumą po ugnimi \u2014 būtent tai rekomenduoja deeskalacijos tyrimai. | PASEKMĖS: Ponas Novak nutyla. Perkadravimas veikia \u2014 kai sustabdymas yra apie kelių saugumą, o ne apie autoritetą, jo įžeidimai praranda taikinį. Jo motina artikuliuoja \u201eačiū\u201c. Intensyvumas krenta, nes suteikėte nusivylimui kur nueiti, neatasakydami tuo pačiu. | Refleksija: Kaip savo misijos įvardijimas, užuot gynusis, keičia, iš kurios smegenų dalies vairuotojas reaguoja?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Šiek tiek atsitraukiate nuo lango, suteikdami jam daugiau erdvės, ir atsakote santūriu balsu, kai jo šaukime atsiranda pertraukėlė. 'Girdžiu jūsų nusivylimą, pone — tikrai girdžiu. Leiskite man tiesiog užbaigti apdorojimą ir galėsite važiuoti.' Nuleidžiate žvilgsnį į dokumentus ir toliau dirbate efektyviai, tikėdamiesi, kad ramus tempas jį nuraminsis, tačiau nepaaiškinate, kodėl sustabdymas svarbus, ir neperkadruojate sąveikos kelių saugumo kontekste.",
+                    "feedback": "Kodėl: Trumpai pripažįstate vairuotojo nusivylimą, kas yra geriau nei visiškai jį ignoruoti. Tačiau neperkadruojate sustabdymo apie jo tikslą \u2014 kelių saugumą \u2014 o tai reiškia, kad vairuotojas toliau mato jį kaip beprasmišką priekabiavimą, o ne teisėtą pareigą. Be to perkadravimo nuraminate momentą, bet ne pagrindinį pasipiktinimą. | PASEKMĖS: Įžeidimai laikinai sustoja, bet vairuotojas lieka įsitikinęs, kad sustabdymas buvo nepagrįstas. Jo motina šiek tiek atsipalaiduoja. Paklusnumas pagerėja be tikro požiūrio pokyčio. | Refleksija: Kuo skiriasi nusivylimo pripažinimas nuo jo nukreipimo link jūsų tikslo supratimo?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Jūsų veido išraiška tampa tuščia ir kontroliuojama — sąmoninga kaukė. Šiek tiek atsitiesiate ir leidžiate akimirkai tylos praeiti, prieš prabildami žemu, tolygiu tonu. 'Nereaguosiu į įžeidimus. Tęsiu procedūrą.' Grąžinate dėmesį dokumentams, nepripažindami nei jo nusivylimo, nei jo motinos kančios — jokios empatijos, jokio perkadravimo, jokio ženklo, kad žmogus ką tik jums šaukė iš baimės. Sekanti tyla yra stinga ir trapi, niekaip neramindama situacijos.",
+                    "feedback": "Kodėl: Tai užkerta kelią ginčui ir išlaiko jūsų orumą, bet nieko nedaro situacijai nuraminti. Stiprios emocijos ignoravimas be pripažinimo palieka vairuotoją neišgirstą, o tyrimai rodo, kad tai tęsia priešiškumą, užuot jį išsprendus. | PASEKMĖS: Ponas Novak pasišaipo, bet nustoja šaukti. Jo motina žvelgia tai į jus, tai į sūnų neužtikrintai. Įtampa tęsiasi kaip sulaikytas kvėpavimas \u2014 jokios eskalacijos, bet ir jokios deeskalacijos. Likusi sustabdymo dalis vyksta šaltoje, trapiai tyloje. | Refleksija: Kada emocijų ignoravimas yra efektyvus, o kada tai tiesiog sustingdo konfliktą, užuot jį išsprendus?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Jaučiate, kaip karštis kyla krūtinėje, ir nepajėgdami savęs sustabdyti pasilenkiate į langą bei pirštu parodote į vairuotoją. 'Stebėkite savo žodžius. Kalbėsite tokiu tonu toliau — galite gauti kur kas daugiau nei tik baudą už greitį.' Jūsų balsas nusileidžia iki žemo urzgimo. Jo motina, kuri ką tik tyliai maldavo sūnų nusiraminti, dabar žvelgia į jus išsiplėtusiomis akimis — grėsmė jos baimę perkėlė nuo sūnaus elgesio prie jūsų. Konfrontacija rado naują pavarą.",
+                    "feedback": "Kodėl: Grasinimai atsakant į įžeidimus yra greičiausias eskalacijos kelias eismo sustabdyme. Vairuotojas jus įžeidė žodžiu \u2014 jūs atsakėte numanoma grėsme papildomais teisiniais padariniais. Tai neproporcinga ir paverčia nusivylusį žmogų priešišku. Jo motina tampa bauginimo liudininke. | PASEKMĖS: Ponas Novak sprogsta: \u201eAr tai grasinimas?! Noriu jūsų ženklo numerio DABAR.\u201c Jo motina pradeda filmuoti telefonu. Sustabdymas peržengė ribą nuo įtampos į tikrą konfliktą \u2014 ir tai kameroje. | Refleksija: Kas neleidžia jums asmeninių puolimų priimti asmeniškai, ir kas nutinka, kai nepavyksta išlaikyti tos ribos?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Įrašymas ir identifikacija",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udcf1",
+                "title": "Noriu jūsų duomenų",
+                "desc": "Vairuotojas išsitraukė telefoną ir filmuoja sąveiką. Jo motina keleivio vietoje taip pat laiko telefoną, nors žemiau, mažiau konfrontuojamai. Vairuotojas reikalauja jūsų vardo ir ženklo numerio, grasindamas oficialiu skundu."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "Aš tai filmuoju ir pateiksiu skundą. Koks jūsų vardas ir ženklo numeris? Noriu, kad viskas būtų užfiksuota."
+                }
+            ],
+            "prompt": "Du žmonės jus filmuoja ir vairuotojas reikalauja jūsų duomenų. Kaip tai tvarkote skaidriai?",
+            "options": [
+                {
+                    "text": "Stovite ramiai, ištiesdami pečius link kameros — nesigręžiodami ir nesislėpdami. 'Pateikti skundą — tai absoliučiai jūsų teisė, pone, ir aš ją gerbiu. Esu pareigūnas John Norton, ženklo numeris 45879.' Kalbate aiškiai, kad telefonas užfiksuotų kiekvieną žodį. 'Galite filmuoti — man nėra ko slėpti. Dabar tęsiu teisėtą procedūrą.' Profesionaliai linktelite ir grįžtate prie dokumentų, jūsų elgsena skleidžia pasitikėjimą po priežiūra.",
+                    "feedback": "Kodėl: Visiškas skaidrumas, aiškus teisių patvirtinimas ir užtikrintas tęsimas. Teisės skųstis ir teisės filmuoti patvirtinimas vienu metu nuginkluoja vairuotojo ginklus. \u201eMan nėra ko slėpti\u201c signalizuoja atskaitomybės kultūrą, su kuria dauguma piliečių niekada nesusidūrė iš policijos pusės. | PASEKMĖS: Ponas Novak sumirksi \u2014 jis tikėjosi pasipriešinimo. Jo motina šiek tiek nuleidžia telefoną. Skundo grasinimas praranda galią, kai jį palankiai priimate. Įrašas tampa profesionalumo liudijimu, o ne \u201egotcha\u201c momentu. | Refleksija: Kodėl priežiūros priėmimas kuria daugiau autoriteto nei pasipriešinimas jai?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Trumpai žvilgtelite į telefoną, nesutrikdami, ir atsakote bendradarbiaujančiu tonu. 'Žinoma. Esu pareigūnas Norton.' Pabakšnojate į ženklelį, prisegtą prie krūtinės. 'Mano ženklo numeris yra čia ant uniformos — galite aiškiai jį perskaityti.' Akimirką palaukiate, tada pridedate: 'Dabar tęskime.' Aiškiai nepatvirtinate vairuotojo teisės pateikti skundą ar filmuoti, o rodymas į ženklelį vietoj žodinio numerio pasakymo palieka vairuotoją patį skaityti.",
+                    "feedback": "Kodėl: Pateikiate savo vardą ir parodote ženklelį, kas rodo norą būti identifikuotam. Tačiau aiškiai nepatvirtinate vairuotojo teisės pateikti skundą, o rodymas į uniformą, užuot žodžiu pasakius numerį, gali atrodyti šiek tiek atmestinai \u2014 ypač kai vairuotojas filmuoja ir nori aiškaus žodinio įrašo. | PASEKMĖS: Vairuotojas pažymi jūsų vardą, bet lieka šiek tiek nepatenkintas. Jo motina toliau filmuoja. Sąveika tęsiasi be didelio konflikto, bet ir be visiško pasitikėjimo, kurį kuria aiškus skaidrumas. | Refleksija: Kodėl žodinis kažkieno teisės skųstis patvirtinimas \u2014 net kai jie priešiški \u2014 kuria daugiau pasitikėjimo nei paprasčiausias prašymo patenkinimas?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vos žvilgtelite į jūsų pusėn nukreiptą telefoną ir trumpai, atmestinai išpučiate orą pro nosį. 'Prašom — skųskitės. Mano duomenys ant uniformos.' Neaiškiu smakro judesiu parodote ženklelio kryptimi, tada grįžtate prie popierių, garsiai nepasakydami nei savo vardo, nei numerio. Tonas krenta kažkur tarp abejingumo ir iššūkio — tarsi mestumėte jam pirštinę, o ne palaikytumėte jo teisę. Kamera fiksuoja kiekvieną sekundę.",
+                    "feedback": "Kodėl: Formaliai teisinga, bet tonas sako \u201eman nerūpi jūsų jausmai\u201c. Rodymas į uniformos ženklelį filmuojamam atrodo abejingai. Vairuotojas norėjo žodinio atsakymo; jūs davėte gestą. | PASEKMĖS: Ponas Novak pats nuskaito jūsų ženklelį ir garsiai jį pasako kamerai. Jo motina nufilmuoja ženklelį iš arti. Įtampa šiek tiek mažėja, bet sąveika atrodo priešiška, o ne profesionali. Jus dokumentuoja, o ne su jumis bendradarbiauja. | Refleksija: Ką galėtumėte pridėti prie šio atsakymo, kad jis neskambėtų arogantiškai ar atmestinai žmogui, kuris tai peržiūrės vėliau vaizdo įraše?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Akivaizdžiai sustingstate, jūsų balse atsiranda gynybinis aštrumas. 'Neturite pagrindo skundui — viską dariau pagal taisykles, ir jūs tai žinote.' Akimirkai sukryžiuojate rankas ant krūtinės, tada suprantate, kad telefonas vis dar filmuoja, ir nuleidžiate rankas šonan. 'Dabar tęsiu teisėtą procedūrą.' Jo motina pakoreguoja telefono kampą. Ką tik kameroje paneigėte piliečio teisę skųstis — žodžiai, kuriuos bet kuris vadovas ar peržiūros komisija išgirs.",
+                    "feedback": "Kodėl: Piliečio teisės skųstis neigimas yra ir teisiškai neteisingas, ir strategiškai katastrofiškas. Jūs nesprendžiate, ar kas nors turi pagrindą skundui \u2014 tai peržiūros proceso reikalas. Tai sakyti kameroje sukuria teisių pažeidimo įrodymą, kurį bet kuris vadovas ar advokatas iš karto pažymės. | PASEKMĖS: Ponas Novak netiki: \u201eAr jūs ką tik pasakėte, kad negaliu skųstis?\u201c Jo motina priartina vaizdą. Šis klipas, jei paskelbtas, pats parašo antraštę. Sustabdymas tapo pilietinių teisių klausimu, o ne baudos už greitį reikalu. | Refleksija: Kas nutinka, kai pareigūnas neigia piliečio procesines teises kameroje, ir kaip tas vienas momentas nustelbia viską, ką teisingai padarėte?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Netikėtas siekimas į daiktadėžę",
+            "sceneUpdate": {
+                "emoji": "\u270b",
+                "title": "Rankos matomos",
+                "desc": "Kol apdorojate dokumentus, vairuotojas staiga pasilenkia link daiktadėžės. Jo motina krūpteli nuo staigaus judesio. Vairuotojas kažką sumurmėja apie draudimo kortelę. Tai kritinis pareigūno saugumo momentas \u2014 netikėtas judesys sustabdymo metu reikalauja neatidėliotino, aiškaus atsako."
+            },
+            "npcDialogue": [
+                {
+                    "character": "passenger",
+                    "text": "(išsigandusi) Oi! Jam tik reikia draudimo kortelės, pareigūne \u2014 ji daiktadėžėje."
+                }
+            ],
+            "prompt": "Vairuotojas staigiai pajudėjo link daiktadėžės. Jo keleivė bando paaiškinti. Kaip subalansuojate saugumą ir ramią komunikaciją?",
+            "options": [
+                {
+                    "text": "Pakeliate vieną ranką aiškiu stabdymo gestu ir prakaldate tvirtu, bet kontroliuojamu balsu. 'Pone, prašau padėkite rankas atgal ant vairo dabar. Ačiū.' Kai jo rankos ant vairo, kreipiatės į keleivę linktelėdami. 'Vertinu, kad pranešėte apie draudimo kortelę, ponia — tai padeda.' Tada vėl vairuotojui: 'Pone, kai pasakysiu, lėtai pasiekite į daiktadėžę. Prieš judėdami, pasakykite tiksliai, kur kortelė, kad abu žinotume, kas vyksta.'",
+                    "feedback": "Kodėl: Aiški, konkreti instrukcija, po kurios seka keleivės naudingo indėlio pripažinimas. Pirmiausia atsižvelgėte į saugumo problemą, tada patvirtinote paaiškinimą, tada nurodėte kontroliuojamą kelią pirmyn. Konkretumas \u2014 vairas, lėtai, pasakykite kur \u2014 pašalina dviprasmybes. Padėkojimas motinai ją įtraukia kaip sąjungininkę, o ne ignoruoja. | PASEKMĖS: Ponas Novak padeda rankas ant vairo. Jo motina atsipalaiduoja \u2014 ji buvo išgirsta. Vairuotojas sako \u201edešinėje pusėje, aplanke\u201c ir lėtai siekia, kai nurodoma. Potenciali krizė tampa vadovėliniu saugumo momentu, nes visi žinojo tiksliai, ką daryti ir kada. | Refleksija: Kaip konkrečių instrukcijų davimas \u2014 \u201evairas\u201c vietoj \u201ekur galiu matyti\u201c \u2014 keičia paklusnumo greitį ir tikrumą?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Greitai žengtelte pusę žingsnio atgal nuo lango, ranka instinktyviai pajuda link diržo, bet nepasiekia dėklo. 'Pone, prašau sustokite. Laikykite rankas ten, kur galiu jas matyti.' Jūsų balsas aštrus, bet ne panikuojantis. Palaukiate, tada pridedate: 'Ko siekiate?' Keleivė jau paaiškino, kad tai draudimo kortelė, bet nepripažįstate jos — visas dėmesys vairuotojui, paliekant ją jaustis ignoruojama, o instrukcija pakankamai neapibrėžta, kad nė vienas keleivis tiksliai nežino, ko norite.",
+                    "feedback": "Kodėl: Duodate žodinę komandą ir prašote paaiškinimo, kas yra geriau nei fizinė intervencija ar tyla. Tačiau \u201elaikykite rankas ten, kur galiu jas matyti\u201c nenurodant kur \u2014 vairo \u2014 yra neapibrėžta, ir klausiate, ko jis siekia, pirma neužtikrindami situacijos. Keleivė jums jau pasakė, bet nepripažinote jos. | PASEKMĖS: Vairuotojas pristabdo ir paaiškina, kad tai jo draudimo kortelė. Jo motina pakartoja, jausdamasi ignoruojama. Situacija stabilizuojasi, bet neapibrėžtumo momentas trunka ilgiau nei būtina, nes jūsų instrukcijoms trūko konkretumo. | Refleksija: Kuo konkreti fizinė instrukcija (\u201erankas ant vairo\u201c) skiriasi nuo bendros (\u201erankas kur galiu matyti\u201c) aiškumo ir paklusnumo greičio prasme?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vienu greitu judesiu atsitraukiate nuo automobilio, ranka ant dėklo, ir tyliai laukiate, kol vairuotojas paaiškins. Jokios žodinės komandos, jokio keleivės paaiškinimo pripažinimo — tik vizualinis signalas pareigūno, perėjusio į gynybinę poziciją. Vairuotojas sustingsta, spoksodamas į jūsų ranką ant ginklo, nežinodamas, ar kalbėti, judėti, ar tiesiog sėdėti visiškai nejudant. Jo motina mato ginkluotą pareigūną be žodžių — ir tai užpildo tylą maksimalia baime bei neapibrėžtumu.",
+                    "feedback": "Kodėl: Padidina jūsų fizinį saugumą, bet be žodinių instrukcijų neapibrėžtumas auga visiems automobilyje. Vairuotojas nežino, ko norite, kad jis darytų. Jo motina mato pareigūną su ranka ant ginklo ir be žodžių \u2014 maksimali baimė. Tyla saugumo momentu yra komunikacijos klaida. | PASEKMĖS: Ponas Novak sustingsta, sutrikęs. Jo motina aiktelėja ir griebia sūnų už rankos. Vairuotojas lėtai pakelia rankas pats, spėliodamas, ko norite. Momentas išsisprendžia, bet sukelta baimė tęsiasi per likusį sustabdymą. | Refleksija: Kada tyla didina riziką, o ne ją mažina, ir ką ranka ant dėklo komunikuoja keleivei, kuri nežino, kas vyksta?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Reaguojate instinktyviai — ranka šauna pro langą ir stipriai sugriebia jo ranką, traukdami ją atgal nuo daiktadėžės. 'Ką jūs darote?!' šaukiate, balsas aidėdamas automobilio viduje. 'Laikykite rankas ten, kur galiu jas matyti!' Vairuotojas atšoka šoke ir skausme, jo alkūnė atsitrenkia į centrinę konsolę. Jo motina suklykia ir prisispaudžia prie keleivio durų. Telefonas, kurį ji laikė, ryškiu garsu ir drebančiu vaizdu užfiksuoja šaukimą ir griebimą.",
+                    "feedback": "Kodėl: Fizinė intervencija ir pakeltas balsas be žodinio įspėjimo pirma. Vairuotojas siekė draudimo kortelės \u2014 dokumento, kurio jums reikės. Jo motina automobilyje, stebi, kaip griebiate jos sūnų. Tai paverčia paklusnumo momentą jėgos panaudojimo momentu su liudininke, filmuojančia viską. | PASEKMĖS: Ponas Novak atšoka šoko ir skausmo apimtas. Jo motina rėkia. Telefonas, kurį ji laikė, fiksuoja šaukimo ir griebimo garsą. Draudimo kortelė nukrenta ant grindų. Įprastas dokumento paėmimas tapo incidento ataskaita, skundu ir galbūt virusiniu vaizdo įrašu. | Refleksija: Kaip užtikrinate, kad žodinės komandos visada būtų prieš fizinę intervenciją, ir kokia kaina apversti tą seką?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Motina prabyla",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udc75",
+                "title": "Motinos rūpestis",
+                "desc": "Daiktadėžės momentas praėjo. Pono Novak rankos vėl ant vairo, draudimo kortelė paimta. Bet trumpas išgąstis pakeitė atmosferą. Ponia Novak, kuri tyliai stebėjo visą sustabdymą, staiga prabyla. Jos balsas tvirtas, bet įtemptas \u2014 ne piktas, bet nešantis kažko slopinto naštą. Ji žiūri tiesiai į jus."
+            },
+            "npcDialogue": [
+                {
+                    "character": "passenger",
+                    "text": "(žiūrėdama į jus, balsas įtemptas, bet kontroliuojamas) Pareigūne, noriu atsiprašyti už savo sūnaus elgesį. Jis ne toks. Jis geras žmogus \u2014 geras tėvas. Bet jis patyrė tiek daug spaudimo pastaruoju metu. Mes vos ne pra... (ji sustoja, žvilgtelėjusi į sūnų) Jis vos miega. Dirba visą dieną ir sėdi ligoninėse naktimis. Aš jį privertiau mane pavėžėti, nes kitaip jis nevalgytų. Prašau \u2014 tiesiog pasakykite, ką turime daryti, ir mes tai padarysime."
+                },
+                {
+                    "character": "driver",
+                    "text": "(tyliai, nežiūrėdamas į jus) Mama, nedaryk to."
+                }
+            ],
+            "prompt": "Ponia Novak atskleidė gilesnės šeimos krizės užuominas, bandydama apsaugoti sūnų. Vairuotojas nutilo. Kaip reaguojate į šį pokytį?",
+            "options": [
+                {
+                    "text": "Sušvelninate savo laikyseną ir prakaldate švelniai poniai Novak, pritildydami balsą, kad jis neštų šilumą, o ne autoritetą. 'Ponia, jums nereikia atsiprašyti. Matau, kad tai sunkus laikas jūsų šeimai, ir vertinu, kad pasakėte — tai padeda man geriau suprasti situaciją.' Tada su pagarbiu linktelėjimu kreipiatės į poną Novak. 'Pone, jūsų motina rūpinasi jumis. Užbaikime tai kuo greičiau, kad abu galėtumėte pasiekti, kur jums reikia.'",
+                    "feedback": "Kodėl: Ponios Novak atskleidimo pripažinimas nereikalaujant detalių gerbia jos ribas ir patvirtina jos emocinę riziką. Padėkojimas už pasidalinimą signalizuoja, kad pažeidžiamumas yra saugus su jumis. Nukreipimas į poną Novak su pastaba apie motinos rūpestį perkadruoja dinamiką \u2014 jis nebe priešiškas vairuotojas, su kuriuo dirbama, o sūnus, dėl kurio motina nerimauja. Perėjimas nuo priešiškumo prie žmogiškumo dabar beveik baigtas. | PASEKMĖS: Ponios Novak akys sudrėksta. Pono Novak pirštai ant vairo atsipalaiduoja. Pirmą kartą per sustabdymą nė vienas iš keleivių nemato jūsų kaip priešo. Motinos intervencija sujungė įtampą, ir jūsų atsakas tai pagerbė. Pagrindas padėtas tam, kas bus toliau, nusilpti kitaip. | Refleksija: Kai trečioji šalis atskleidžia emocinį kontekstą, kaip jūsų atsakymas jai keičia pagrindinio asmens norą būti pažeidžiamu?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Mandagiai linktelite poniai Novak, trumpai užmezdami akių kontaktą. 'Vertinu, kad tai pasakėte, ponia. Matau, kad tai stresą kelianti situacija jums abiem, ir man gaila, kad per tai einate. Beveik baigėme čia.' Jūsų tonas malonus, bet dalykiškas — leidžiate jausmui akimirką nusėsti, tada vėl nuleidžiate žvilgsnį į dokumentus ir tęsiate jų apdorojimą. Atskirai nesikreipiate į poną Novak ir nepasinaudojate galimybe, kurią motina ką tik suteikė.",
+                    "feedback": "Kodėl: Mandagiai ir empatiškai iš paviršiaus, bet pernelyg greitai peršokote jos atskleidimą iš tikrųjų juo nesidomėdami. Ji priėmė emocinę riziką \u2014 prabilo už sūnų, užsiminė apie kažką rimto \u2014 ir gavo mandagų atmetimą. \u201eBeveik baigėme\u201c yra raminantis, bet transakcinis. Momentas buvo galimybė tikram ryšiui, ir jūs leidote jai užsidaryti. | PASEKMĖS: Ponia Novak linkteli, bet vėl nuleidžia akis. Ponas Novak lieka tylus. Įtampa šiek tiek atslūgo, nes ji prabilo, bet jūsų atsakas nepagilino pasitikėjimo, kurį ji siūlė. Sustabdymas tęsiasi profesionaliai, bet be žmogiškos gelmės, kurią šis momentas galėjo suteikti. | Refleksija: Kai kažkas užsimena apie gilesnę istoriją, kokia kaina pripažinti tai mandagiai prieš tikrai tuo pasidomėti?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Trumpai žvilgtelite į ponią Novak, kai ji baigia kalbėti, bet iš viso jai neatsakote. Vietoj to kreipiatės tiesiogiai į poną Novak dalykišku tonu. 'Pone, baigiu tvarkyti dokumentus. Netrukus juos atgausite.' Grįžtate prie iškarpinės, nepripažindami nieko, ką vyresnė moteris pasakė — nei jos atsiprašymo, nei užuominos apie šeimos krizę, nei jos maldavimo. Tarsi ji niekada nebūtų prabilus. Ji susmunka atgal į sėdynę, akivaizdžiai sugėdinta.",
+                    "feedback": "Kodėl: Procedūriškai orientuota, bet emociškai kurčia. Ponia Novak ką tik atsivėrė \u2014 prabilo už sūnų, užsiminė apie šeimos krizę, atsiprašė už jo elgesį. Visiškas jos ignoravimas signalizuoja, kad niekas, ką ji pasakė, nebuvo užregistruota. Ponui Novak stebėti, kaip pareigūnas ignoruoja jo motinos žodžius, sustiprina viską, ką jis jau galvoja apie šį sustabdymą. Poniai Novak būti ignoruojamai po prabilimo moko ją, kad kreipimasis į autoritetą buvo beprasmis. | PASEKMĖS: Ponia Novak nusisuka, susigėdusi, kad prabilo. Pono Novak žandikaulis įsitempia \u2014 jo motina buvo ignoruota. Trumpas žmogiško ryšio langas užsidaro. Likusi sustabdymo dalis vyksta šaltoje procedūrinėje tyloje. | Refleksija: Kai ignoruojate žmogų, kuris atsivėrė pažeidžiamume, ko tai juos moko apie kreipimąsi į autoritetą ateityje?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Pasilenkiate arčiau keleivio lango, jūsų akys susiaurėja su smalsumu, ir kreipiatės į ponią Novak klausinėjančiu tonu. 'Ką turite omenyje, kad vos nepra...? Ar yra kažkas, ką turėčiau žinoti?' Ji tyčia sustojo sakinio viduryje — žvilgtelėjo į sūnų ir atsitraukė — o dabar jūs prašote atskleisti tai, ką ji pasirinko nutylėti. Ponas Novak sustingsta šalia jos. Klausimas pastato vyresnę moterį į neįmanomą padėtį: atverti sūnaus privačią krizę policininkui arba atsisakyti ir atrodyti vengiančiai.",
+                    "feedback": "Kodėl: Spausti detales, kai kažkas tyčia sustojo sakinio viduryje, yra invazija. Ponia Novak pasirinko susilaikyti \u2014 ji žvilgtelėjo į sūnų ir atsitraukė. Reikalauti informacijos, kuria ji pasirinko nesidalinti, pažeidžia jos ribą ir pastato ją į neįmanomą padėtį: atskleisti sūnaus asmeninę krizę policijos pareigūnui eismo sustabdymo metu arba atsisakyti ir atrodyti vengiančiai. Pavertėte jos atvirumą tardymu. | PASEKMĖS: Ponia Novak sustingsta. Ponas Novak sušunka: \u201eJi pasakė nedaryk \u2014 palikite mano motiną ramybėje.\u201c Dinamika akimirksniu apsiverčia. Motina, kuri buvo jūsų sąjungininkė, dabar yra žmogus, kurį suvokiate kaip spaudžiantį. Sūnus, kuris ramėjo, dabar yra apsauginis ir vėl priešiškas. | Refleksija: Koks skirtumas tarp klausymosi, ką kažkas siūlo, ir reikalavimo daugiau, nei jie pasiruošę duoti?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Asmeninė situacija atskleista",
+            "sceneUpdate": {
+                "emoji": "\ud83d\ude14",
+                "title": "Tikroji istorija",
+                "desc": "Įtampa lūžo. Pono Novak pečiai susmunka, balsas nutyla. Jo motina ištiesė ranką ir spaudžia jo delną. Pyktis iš jo dingo, jį pakeitė išsekimas ir pažeidžiamumas. Tai, kas prasidėjo kaip priešiškumas, atsiskleidė kaip neviltis."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "Atsiprašau, pareigūne. Atsiprašau už viską, ką pasakiau. Mano dukra serga leukemija. Jai septyni. Ir mano įmonė atleidinėja darbuotojus \u2014 skubėjau į susitikimą su vadovu, nes manau, kad mano pavardė sąraše. Jei prarasiu darbą, prarasiu jos sveikatos draudimą. Tai viskas, apie ką galiu galvoti."
+                },
+                {
+                    "character": "passenger",
+                    "text": "(virpančiu balsu) Tai tiesa, pareigūne. Mažoji Anička buvo diagnozuota prieš tris mėnesius. Jis viską laiko ant savo pečių vienas. Prašau..."
+                }
+            ],
+            "prompt": "Vairuotojas atsiprašė ir atskleidė tikrą asmeninį skausmą. Jo motina patvirtino. Kaip užbaigiate šį reikalą su dėmesingumu ir teisėtumu?",
+            "options": [
+                {
+                    "text": "Akimirką palaukiate, leisdami jo žodžiams nusėsti, tada prakaldate tyliu, pastoviu balsu. 'Vertinu jūsų nuoširdumą, pone, ir man tikrai labai gaila dėl jūsų dukros. Matau, kad patiriate milžinišką spaudimą, ir gerbiu tai, kad pasakėte.' Užverčiate baudos knygelę ir įslystančiu judesiu gražinate ją į liemenės kišenę. 'Šį kartą išrašysiu įspėjimą — greičio viršijimas pažymėtas sistemoje, bet baudos nebus. Prašau vairuokite atsargiai. Jūsų šeimai reikia jūsų saugaus, ne greito. Dabar vykite į susitikimą.'",
+                    "feedback": "Kodėl: Tinkama administracinė diskrecija pirmam, vidutiniam pažeidimui su tikromis lengvinančiomis aplinkybėmis. Pripažįstate atsiprašymą, patvirtinate skausmą, taikote proporcingą sprendimą ir užbaigiate žmogiška pastaba, kuri perkadruoja saugų vairavimą kaip kažką, ką jis daro savo šeimai, o ne jums. | PASEKMĖS: Pono Novak akys sudrėksta. Jo motina artikuliuoja \u201eačiū\u201c. Vairuotojas atvyks į susitikimą penkiolika minučių vėliau, bet ramus \u2014 ir jis pasakos kolegoms, kad sustabdęs pareigūnas buvo padorus ir teisingas. Pasitikėjimas policija sustiprėja viena šeima. | Refleksija: Kaip atpažįstate, kada įspėjimas geriau tarnauja kelių saugumui ir visuomenės pasitikėjimui nei bauda \u2014 ir kas suteikia jums pasitikėjimo naudoti tą diskreciją?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Žvelgiate į vairuotoją su nuoširdžia užuojauta, lėtai linktelėdami, kol jis baigia kalbėti. 'Man labai gaila dėl jūsų situacijos — tikrai. Tai sunkus krūvis, kurį nešate.' Ištraukiate baudos lapą iš iškarpinės ir pradedate pildyti sumą. 'Išrašysiu baudą, kaip reikalaujama procedūros, bet noriu, kad žinotumėte — vertinu jūsų nuoširdumą ir atsiprašymą. Tam reikėjo drąsos.' Paduodate jam lapą ir pridedate: 'Prašau vairuokite saugiai — jūsų šeimai reikia jūsų sveiko ir gyvo.'",
+                    "feedback": "Kodėl: Nuoširdžiai pripažįstate jo situaciją ir pridedate rūpestingą asmeninę pastabą apie šeimą. Baudos išrašymas išlaiko procedūrinį vientisumą. Tačiau pirmam 25 km/h pažeidimui su aiškiomis lengvinančiomis aplinkybėmis tai buvo tinkamas momentas administracinei diskrecijai \u2014 įspėjimas būtų buvęs teisiškai pagrįstas ir labiau proporcingas. | PASEKMĖS: Vairuotojas vertina žmogišką požiūrį, bet išvažiuoja su bauda, kurios galbūt nereikėjo. Jo motina atrodo nusivylusi. Jis vertina jus kaip malonų, bet nelankstų. Pasitikėjimas šiek tiek pagerėja, bet ne tiek, kiek būtų pasiekusi diskrecija. | Refleksija: Kai įstatymas suteikia galimybę įspėjimui, kaip vertinate baudos prieš įspėjimo poveikį būsimam paklusnumui ir visuomenės pasitikėjimui?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Trumpai ir sausai linktelite — pripažindami, kad girdėjote jį, bet neleisdami tam nieko pakeisti. 'Man gaila tai girdėti, bet vis tiek turiu išrašyti baudą. Tokia procedūra.' Ištraukiate baudos blanką, užpildote detales efektyviais, mechaniškais brūkšniais ir nuplėšiate kopiją. 'Sutvarkysiu tai kuo greičiau, kad galėtumėte važiuoti toliau.' Paduodate lapą be papildomo komentaro, atsakomybę už sprendimą slėpdami už žodžio 'turiu', tarsi tai nebūtų jūsų pasirinkimas.",
+                    "feedback": "Kodėl: Rodo minimalią empatiją, bet standžiai taiko sankciją be lankstumo. \u201eVis tiek turiu\u201c nėra tiesa \u2014 jūs turite diskreciją. Sakyti, kad \u201eturite\u201c, kai neturite, perkeliama atsakomybė nuo pasirinkimo, kurį darote. | PASEKMĖS: Ponas Novak priima baudą tyliai. Jo motina žiūri pro langą. Vairuotojas vertina pareigūną kaip procedūriškai teisingą, bet emociškai nesantį \u2014 tokia patirtis patvirtina tikėjimą, kad policijai nerūpi. | Refleksija: Kai sakote \u201eturiu išrašyti baudą\u201c, ar tai tiesa \u2014 ar pasirenkate tai daryti ir vengiate atsakomybės už tą pasirinkimą?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Klausote jo prisipažinimo su plokščia veido išraiška, nesujaudintas. Kai jis baigia, atsakote dalykišku tonu: 'Suprantu, bet tai nepateisina greičio viršijimo. Viršijote 25 km/h — tai kelių saugumo klausimas, nepaisant to, kas vyksta jūsų asmeniniame gyvenime.' Ištraukiate jau parengtą baudos lapą ir ištiesiate jį. 'Štai jūsų bauda.' Jo motina, kuri ką tik patvirtino anūkės leukemijos diagnozę, stebi, kaip paduodate sūnui nuobaudą be nė menkiausio pripažinimo akimirksnio.",
+                    "feedback": "Kodėl: Formaliai teisinga, bet atmestina blogiausiu įmanomu momentu. Vairuotojas ką tik atsivėrė \u2014 atsiprašė, atskleidė dukros ligą, parodė tikrą skausmą. Atsakyti \u201etai nepateisina\u201c pasako jam, kad pažeidžiamumas yra baudžiamas, o ne pripažįstamas. Jo motina išgirdo, kaip atmetėte jos anūkės leukemiją kaip nereikšmingą. | PASEKMĖS: Ponas Novak paima baudą be žodžio. Jo motina tyliai verkia. Vairuotojas daugiau neviršys greičio \u2014 bet ne dėl pagarbos įstatymui. Dėl baimės ir pagiežos. Tai paklusnumas be pasitikėjimo, o tai yra trapiausias teisėsaugos būdas. | Refleksija: Koks skirtumas tarp paklusnumo, užtarnauto pagarba, ir paklusnumo, išgauto abejingumu \u2014 ir kuris iš jų tvaresnis?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Apžvalga ir atskleidimas",
+            "sceneUpdate": {
+                "emoji": "\ud83c\udfc1",
+                "title": "Mokymo apžvalga",
+                "desc": "Nuovadoje. Seržantas Miller peržiūri jūsų veiklą šiame eismo sustabdymo scenarijuje, nagrinėdamas kiekvieną susitikimo fazę nuo pradinio priėjimo per asmeninį atskleidimą iki galutinio sprendimo."
+            },
+            "autoDialogue": true,
+            "finalScene": true,
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Eismo sustabdymai yra dažniausias tiesioginis policijos ir visuomenės susitikimas, ir dauguma jų nueina blogai per pirmąsias penkiolika sekundžių. Jūs susidūrėte su vairuotoju, kuris buvo priešiškas nuo akimirkos, kai priėjote prie lango \u2014 įžeidinėjantis, reikalaujantis, filmuojantis, grasintinas skundais. Kiekviena iš tų provokacijų buvo kvietimas eskaluoti. Jūs jo nepriėmėte. Tas susilaikymas nėra pasyvumas. Tai aukščiausia profesionalios kontrolės forma."
+                },
+                {
+                    "character": "officer",
+                    "text": "Įžeidimai buvo sunkiausia dalis. Kai jis pavadino sustabdymą priekabiavimu, kai reikalavo mano ženklo numerio, tarsi būčiau kažką padaręs ne taip \u2014 jaučiau kylantį pyktį. Reikėjo tikrų pastangų neatsakyti tuo pačiu."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Ir būtent tai yra perkadravimas, kurį noriu, kad įsisavintumėte. Vairuotojo priešiškumas nebuvo apie jus. Kiekvienas įžeidimas buvo streso reakcija \u2014 vyras, stebintis, kaip dingsta jo dukros sveikatos draudimas, vėluojantis į susitikimą, galintį nuspręsti jo šeimos likimą, ir dabar sustabdytas pareigūno dėl kažko, kas jam atrodė nereikšminga, palyginti su tuo, ką neša. Jo pyktis nebuvo apie jus asmeniškai. Jūsų darbas buvo nepasigauti masalo, ir jūs padarėte būtent tai. Pareigūnai, kurie neišlaiko eismo sustabdymų, yra tie, kurie išgirsta \u201etai priekabiavimas\u201c ir reaguoja tarsi jų charakteris būtų ant teismo stalo. Tie, kurie pavyksta, girdi stresą po apačia ir reaguoja į jį."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Kai ponas Novak galiausiai prašneko ir papasakojo apie dukrą, tas pažeidžiamumas buvo įmanomas tik todėl, kad visą sustabdymą praleidote jį užsitarnaudami \u2014 per skaidrumą, per ramybę, per atsisakymą bausti jo baimę savo autoritetu. Įspėjimas, kurį išrašėte, nebuvo silpnumas. Tai buvo sprendimas. Ir jis suformavo, kaip krizę patiriantis vyras vertins kiekvieną pareigūną, su kuriuo susitiks likusį gyvenimą. Leiskite papasakoti, kas nutiko, kai jis atvyko į tą susitikimą."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispečerinė", "avatar": "\ud83d\udcfb"},
+        "driver": {"name": "Ponas Novak (vairuotojas, 38)", "avatar": "\ud83d\ude24"},
+        "passenger": {"name": "Ponia Novak (motina, 65)", "avatar": "\ud83d\udc75"},
+        "officer": {"name": "Jūs (Pareigūnas)", "avatar": "\ud83d\udc6e"},
+        "trainer": {"name": "Seržantas Miller", "avatar": "\ud83d\udc6e\u200d\u2642\ufe0f"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Pavyzdinis eismo sustabdymas!",
+            "emoji": "\ud83c\udf1f",
+            "feedback": "Parodėte išskirtinį profesionalumą per visą eismo sustabdymą. Jūsų aiškus prisistatymas nustatė toną, jūsų empatija po įžeidimais parodė emocinį meistriškumą, jūsų skaidrumas filmuojamam demonstravo atskaitomybę, jūsų tikslios saugumo komandos daiktadėžės momentu parodė taktinę kompetenciją, o jūsų diskrecijos panaudojimas pabaigoje parodė brandų sprendimą. Vairuotojas ir jo motina paliko šį sustabdymą su sustiprėjusiu pasitikėjimu policija."
+        },
+        "good": {
+            "title": "Stiprus profesionalus elgesys",
+            "emoji": "\u2705",
+            "feedback": "Gerai susitvarkėte su šiuo eismo sustabdymu, išlaikydami profesionalumą per emociškai įtemptą sąveiką. Jūsų komunikacija buvo dažniausiai aiški ir suvaldėte vairuotojo didėjantį nusivylimą neatsakydami tuo pačiu. Kai kurios galimybės gilesnei empatijai, aštresnėms saugumo komandoms ar labiau pasitikintam skaidrumui buvo praleistos, bet jūsų požiūris buvo pagrįstas."
+        },
+        "average": {
+            "title": "Pakankama, bet yra kur tobulėti",
+            "emoji": "\ud83d\udcca",
+            "feedback": "Užbaigėte sustabdymą be didelių incidentų, bet praleidote kelias galimybes deeskaluoti įtampą, kurti ryšį ar parodyti tokį procesinį teisingumą, kuris paverčia eismo sustabdymus iš neigiamų patirčių į pasitikėjimą kuriančius momentus. Peržiūrėkite vairuotojo nusivylimo pripažinimo, aiškaus veiksmų paaiškinimo ir teisėsaugos su empatija balansavimo technikas."
+        },
+        "poor": {
+            "title": "Reikia didelio tobulinimo",
+            "emoji": "\u26a0\ufe0f",
+            "feedback": "Jūsų požiūris šio eismo sustabdymo metu eskalavo įtampą ir pakenkė visuomenės pasitikėjimui. Ar tai buvo per grasinimus, atmestinumą, nesugebėjimą aiškiai komunikuoti, ar per griežtą vykdymą, kai diskrecija buvo pagrįsta \u2014 sąveika tapo konfrontacija, o ne profesiniu susitikimu. Vyras, kovojantis su dukros liga ir galimu darbo praradimu, paliko šį sustabdymą vertindamas policiją kaip savo problemos dalį, o ne kaip savo bendruomenės dalį. Peržiūrėkite deeskalacijos, skaidrumo ir diskrecijos principus."
+        }
+    },
+    "metrics": {
+        "professionalCommunication": {
+            "name": "Profesionali komunikacija",
+            "description": "Žodinės komunikacijos kokybė eismo sustabdymo metu \u2014 prisistatymas, aiškumas, tonas ir gebėjimas skaidriai paaiškinti veiksmus",
+            "icon": "\ud83d\udde3\ufe0f"
+        },
+        "emotionalResilience": {
+            "name": "Emocinis atsparumas",
+            "description": "Ramybės ir profesionalumo išlaikymas patiriant žodinį spaudimą, įžeidimus ir provokacijas, nesiimdami puolimų asmeniškai",
+            "icon": "\ud83d\udc9a"
+        },
+        "proceduralTransparency": {
+            "name": "Procedūrinis skaidrumas",
+            "description": "Teisinių reikalavimų laikymasis išlaikant atvirumą dėl tapatybės, proceso ir vairuotojo teisių",
+            "icon": "\ud83d\udccb"
+        },
+        "tacticalSafety": {
+            "name": "Taktinis saugumas",
+            "description": "Pareigūno ir keleivių saugumo valdymas per aiškias žodines komandas, kontroliuojamas judesio instrukcijas ir situacinį suvokimą",
+            "icon": "\ud83d\udee1\ufe0f"
+        },
+        "discretionApplication": {
+            "name": "Diskrecija ir proporcingumas",
+            "description": "Tinkamas pareigūno diskrecijos naudojimas \u2014 teisėsaugos balansavimas su proporcingumu, kontekstu ir žmogišku sprendimu",
+            "icon": "\u2696\ufe0f"
+        }
+    }
+}

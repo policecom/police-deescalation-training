@@ -1,0 +1,791 @@
+{
+  "scenarioId": "custody-exchange",
+  "reviewVersion": "v1",
+  "title": "Hloubková analýza — Spor o předání dítěte",
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Příjezd a posouzení",
+      "criticalSkills": [
+        "Počáteční přístup a nastavení tónu",
+        "Viditelná neutralita od prvního kontaktu",
+        "Povědomí o emoční zátěži dítěte"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Přistoupíte klidně z úhlu, navážete oční kontakt s oběma rodiči a řeknete pevným, ale zdrženlivým tónem: ‚Dobré odpoledne. Jsem strážník [jméno]. Vidím, že je to stresující situace. Pojďme to vyřešit — ale nejdřív vás oba prosím, abyste udělali krok zpět.'",
+          "strengths": [
+            "Profesionální představení ustavuje autoritu bez agrese",
+            "Uznání stresu validuje obě strany stejně",
+            "Přístup z úhlu je méně konfrontační než čelní",
+            "Jasný pokyn (‚krok zpět') bez vyhrožování",
+            "Klidný tón modeluje chování, které od nich chcete vidět"
+          ],
+          "consequences": "Oba rodiče se cítí uznáni. Zdrženlivý tón kontrastuje s jejich křikem a vytváří přirozenou deeskalaci. Dítě vidí klidného dospělého.",
+          "trainingFocus": "Jak funguje ‚modelování' emočního stavu, který chcete, aby ostatní převzali, v deeskalační praxi?"
+        },
+        "partially_positive": {
+          "choiceText": "Jdete přímo mezi rodiče a rázně oznámíte: ‚Policie. Potřebuji, abyste oba přestali a okamžitě od sebe odstoupili.'",
+          "adequate": [
+            "Okamžitě ustavuje autoritu",
+            "Vytváří fyzické oddělení mezi rodiči"
+          ],
+          "missed": [
+            "Žádné představení ani budování vztahu",
+            "Rozkazovací tón může vyděsit rozrušené dítě",
+            "Může spustit vzdorovitou reakci u rozrušených dospělých",
+            "Nastavuje konfrontační tón pro celou interakci"
+          ],
+          "improvement": "Jak váš úvodní tón nastavuje trajektorii celé interakce? Jaké prvky představení a empatie lze přidat bez ztráty autority?",
+          "consequences": "Poslechnutí je pravděpodobné, ale s nelibostí. Oba rodiče vás mohou vnímat jako agresivního spíše než nápomocného, což ztěžuje spolupráci v dalších krocích."
+        },
+        "neutral": {
+          "choiceText": "Nejprve přistoupíte ke školnímu strážníkovi, abyste získali informace o tom, co se stalo, než oslovíte kteréhokoli z rodičů.",
+          "adequate": [
+            "Shromažďování informací před zásahem je takticky rozumné"
+          ],
+          "missed": [
+            "Probíhající konfrontace v blízkosti dítěte vyžaduje okamžitý zásah",
+            "Každá vteřina rodičovského konfliktu, kterou dítě zažívá, mu škodí",
+            "Rodiče mohou vaše zpoždění vnímat jako lhostejnost"
+          ],
+          "improvement": "Kdy naléhavost situace převáží nad hodnotou kontextových informací? Jak posoudíte okamžitou potřebu zásahu?",
+          "consequences": "Rodiče se dál hádají, zatímco vy sbíráte informace. Dítě zůstává uvězněno uprostřed probíhajícího konfliktu."
+        },
+        "negative": {
+          "choiceText": "Přistoupíte nejprve k matčinu autu, abyste získali její verzi — je nejblíž dítěti a může mít klíčový kontext o situaci.",
+          "risks": [
+            "Zní to jako rozumné shromažďování informací, ale přistoupit k jednomu rodiči jako prvnímu signalizuje zaujatost dříve, než jste promluvili s oběma",
+            "Otec vidí, jak ho míjíte a jdete k matčinu autu — každá vteřina tam posiluje jeho přesvědčení, že systém zvýhodňuje matky",
+            "Vaše neutralita je narušena dříve, než interakce vůbec začala",
+            "Cokoliv později otci řeknete, je filtrováno skrze jeho přesvědčení, že jste si již vybrali stranu"
+          ],
+          "consequences": "Otec se stává stále více rozrušeným a konfrontačním, protože vás od prvního okamžiku vnímá jako někoho, kdo se staví na stranu matky. Dynamika je nevyvážená ještě předtím, než začne podstatná konverzace.",
+          "trainingFocus": "Jak začnete shromažďovat informace a zároveň udržíte viditelnou nestrannost vůči všem přítomným stranám? Kdy se ‚rozumný první krok' stává signálem zaujatosti?"
+        }
+      },
+      "keyLearningPoints": [
+        "Prvních 30 vteřin nastavuje emoční tón celé intervence",
+        "Viditelná neutralita — nepřistupovat k jedné straně jako první — je u sporů klíčová",
+        "Klidná přítomnost přirozeně deeskaluje: lidé zrcadlí emoční stav autority",
+        "Profesionální představení vytváří rámec slušnosti, který omezuje další chování"
+      ]
+    },
+    "2": {
+      "stageName": "Oddělení rodičů",
+      "criticalSkills": [
+        "Fyzické oddělení znepřátelených stran",
+        "Zvládání současných požadavků",
+        "Nastavení transparentního postupu"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Chápu, že oba to berete velmi vážně. Budu s každým z vás mluvit zvlášť, abych pochopil celou situaci. Pane, mohl byste chvíli počkat u mého vozu? Paní, zůstaňte prosím tady. Budu k vám oběma spravedlivý.",
+          "strengths": [
+            "Fyzické oddělení zastaví předvádějící hádky",
+            "Umožní každému mluvit upřímně bez publika",
+            "Slib spravedlnosti udržuje důvěru obou stran",
+            "Dítě zůstává na místě bez dalšího rozruchu",
+            "Odvedení otce od auta je takticky správné — nedává to najevo žádnou preferenci ohledně péče o dítě."
+          ],
+          "consequences": "Oba rodiče se cítí vyslyšeni. Předvádějící konflikt ustane. Vytvoříte prostor pro skutečný dialog místo konfrontačního postoje.",
+          "trainingFocus": "Proč je mluvení s každou stranou zvlášť často produktivnější než skupinová mediace u vysoce konfliktních situací?"
+        },
+        "partially_positive": {
+          "choiceText": "Potřebuji, abyste oba ztišili hlas — přímo tady je dítě, které slyší všechno. Pojďme se přesunout od auta a probrat to v klidu.",
+          "adequate": [
+            "Dobré povědomí o vystavení dítěte konfliktu",
+            "Prosba o ztišení je rozumná"
+          ],
+          "missed": [
+            "Žádat obě strany, aby se přesunuly společně bez oddělení, jen přemístí hádku",
+            "Poslušnost ze studu (‚vaše dítě vás slyší') je dočasná, ne strukturální",
+            "Není stanoven postup ani časový rámec"
+          ],
+          "improvement": "Jaký je rozdíl mezi pozastavením konfliktu a jeho deeskalací? Jak fyzické oddělení zásadně mění dynamiku?",
+          "consequences": "Chvilkové ztišení, ale bez fyzického oddělení se hádka během minut obnoví."
+        },
+        "neutral": {
+          "choiceText": "Ukažte mi nejdřív to soudní rozhodnutí. Vyřídíme to podle toho, co říkají dokumenty.",
+          "adequate": [
+            "Zaměření na právní dokument působí logicky a efektivně"
+          ],
+          "missed": [
+            "Prohlížení rozhodnutí před oběma rodiči vybízí k soupeřivé interpretaci",
+            "Emoční teplota zůstává neřešená",
+            "Strany nejsou odděleny",
+            "Rámování jako ‚dokumenty' ignoruje lidský rozměr"
+          ],
+          "improvement": "Je spor o předání dítěte primárně právní, nebo emoční problém? Co je třeba řešit dříve, než lze smysluplně probírat dokumenty?",
+          "consequences": "Otec se cítí uznávaný, matka ignorována. Oba mohou začít hádat o tom, co dokument ‚opravdu znamená'."
+        },
+        "negative": {
+          "choiceText": "Paní, je dítě opravdu nemocné? Máte nějakou lékařskou dokumentaci, která by to dokazovala?",
+          "risks": [
+            "Okamžité zpochybnění tvrzení jedné strany signalizuje pochybnost a zaujímá kvazivyšetřovací postoj",
+            "Není navázán vztah, strany nejsou odděleny, situace není zhodnocena",
+            "Otec se cítí potvrzen, matka obviněna — dynamika je nevyvážená"
+          ],
+          "consequences": "Matka se stává defenzivní a nepřátelskou vůči vám. Konflikt eskaluje, protože vás vnímá jako protivníka.",
+          "trainingFocus": "Jak pořadí, v němž řešíte obavy, ovlivňuje vnímání vaší neutrality oběma stranami?"
+        }
+      },
+      "keyLearningPoints": [
+        "Fyzické oddělení je nejúčinnější první krok u jakéhokoli dvoustranného sporu",
+        "Lidé se hádají jinak, když mají publikum, a jinak v soukromí",
+        "Oznámení transparentního postupu (‚promluvím s každým z vás') snižuje obavy ohledně spravedlnosti",
+        "Pořadí, v němž oslovíte strany, vysílá silné nevyslovené signály o zaujatosti"
+      ]
+    },
+    "3": {
+      "stageName": "Soudní rozhodnutí",
+      "criticalSkills": [
+        "Zvládání očekávání ohledně pravomocí policie v občanskoprávních věcech",
+        "Uznání právního postavení bez role vymáhacího agenta",
+        "Vyvážení empatie s transparentností postupu"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Děkuji, že jste mi to ukázal, Marku. Beru to vážně — soudní rozhodnutí má skutečnou váhu. Potřebuji vyslechnout i Evu, abych pochopil její obavy, a pak s vámi oběma najdu řešení ještě dnes. Mým cílem je, aby Jacob mohl strávit čas s vámi co nejhladčeji.",
+          "strengths": [
+            "Použití Markova jména buduje osobní vztah",
+            "Explicitně uznává právní váhu soudního rozhodnutí",
+            "Transparentně vysvětluje postup — vyslechne obě strany — takže to nepůsobí jako oddalování",
+            "Cíl rámuje kolem výsledku zamýšleného soudem (čas s Jacobem)",
+            "‚Co nejhladčeji' signalizuje, že záleží na způsobu, ne jen na výsledku"
+          ],
+          "consequences": "Mark se cítí respektován, právně potvrzen a přesvědčen, že strážník směřuje k předání. Je ochoten počkat, zatímco mluvíte s Evou.",
+          "trainingFocus": "Jak může včasné pojmenování požadovaného výsledku pomoci oběma stranám sladit jejich očekávání?"
+        },
+        "partially_positive": {
+          "choiceText": "Rozumím vaší frustraci a vidím, že jde o soudní rozhodnutí. Nicméně nemohu nikoho zatknout za občanskoprávní záležitost péče o dítě. Mou rolí je pomoci vám oběma dosáhnout řešení. Nechte mě vyslechnout i její stranu.",
+          "adequate": [
+            "Správně vyjasňuje omezení policie",
+            "Nastavuje realistická očekávání ohledně zatčení",
+            "Uznává soudní rozhodnutí"
+          ],
+          "missed": [
+            "Strohé konstatování nemožnosti zatčení může působit odmítavě na někoho, kdo čelí opakované obstrukci",
+            "Neuznává emoční zkušenost za frustrací",
+            "‚Nechte mě vyslechnout její stranu' bez předchozí validace vytváří odstup"
+          ],
+          "improvement": "Jak vyvážit řízení očekávání s uznáním něčí emoční zkušenosti? Lze sdělit omezení tak, aby se člověk necítil nevyslyšen?",
+          "consequences": "Mark se cítí procesně informován, ale osobně nevyslyšen. Spolupracuje, ale jeho základní frustrace z opakovaných obstrukcí zůstává."
+        },
+        "neutral": {
+          "choiceText": "Vidím, že jde o platné soudní rozhodnutí. Nechte mě pečlivě projít přesné podmínky, než promluvím s vaší bývalou manželkou o situaci.",
+          "adequate": [
+            "Uznání dokumentu je na místě",
+            "Chápání podmínek je rozumné"
+          ],
+          "missed": [
+            "Vytváří právnickou, byrokratickou atmosféru místo lidského kontaktu",
+            "Mark chce empatii a akci, ne právní rozbor",
+            "‚Vaše bývalá manželka' redukuje Evu na protistranickou roli místo použití jména"
+          ],
+          "improvement": "Jak vaše volba jazyka rámuje to, zda jde o právní bitvu, nebo o rodičovskou situaci? Jaký efekt má používání jmen oproti rolím?",
+          "consequences": "Otec má dojem, že otálíte. Právnický rámec udržuje interakci v režimu konfliktu místo směřování k řešení."
+        },
+        "negative": {
+          "choiceText": "Uznat jeho frustraci ze změn v rozvrhu pro budování vztahu, než přejdete k předání: ‚Vidím, že to je opakující se vzorec, Marku. To musí být neuvěřitelně frustrující — muset bojovat o čas, který vám soud již přidělil. Promluvím s ní o dodržování rozvrhu.'",
+          "risks": [
+            "Zní to jako empatické aktivní naslouchání, ale ve skutečnosti přejímá jeho narativ zcela bez nezávislého posouzení",
+            "Potvrzení ‚vzorce' obstrukce před vyslechnutím druhé strany mění empatii v souhlasné stanovisko",
+            "‚Promluvím s ní o dodržování rozvrhu' staví matku do role problému a vás do role jeho zástupce",
+            "Vaše důvěryhodnost jako neutrální strany je pryč dříve, než promluvíte s matkou"
+          ],
+          "consequences": "Matka okamžitě vycítí, že jste si vybrali stranu, až k ní přistoupíte. Konfrontace eskaluje a vy jste sladěni s otcovým narativem. Vyvážené řešení se stává téměř nemožným.",
+          "trainingFocus": "Kde je hranice mezi uznáním něčí emoční zkušenosti a převzetím jeho verze událostí za fakt? Jak se empatie stává zaujatostí?"
+        }
+      },
+      "keyLearningPoints": [
+        "Policie není soukromá bezpečnostní agentura – její úlohou je usnadňovat řešení, nikoli vybírat vítěze.",
+        "Soudní rozhodnutí je výchozím bodem diskuse, ne automatickým přepisem všech ostatních obav",
+        "Používání jmen místo nepřátelských rolí (‚vaše bývalá manželka') udržuje tón spolupráce",
+        "Brzy pojmenovat žádoucí výsledek (‚Jacob stráví čas s vámi') vytváří soulad místo opozice"
+      ]
+    },
+    "4": {
+      "stageName": "Postoj matky",
+      "criticalSkills": [
+        "Aktivní naslouchání s emoční validací",
+        "Vyvážení empatie s upřímnou komunikací",
+        "Zachování neutrality při vyslechnutí obav jedné strany"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Slyším, jak moc se o Jacoba bojíte, Evo. Na jeho zdraví záleží. Můžete mi říct víc o jeho příznacích — byl u lékaře? Zároveň s vámi musím být upřímný: Mark má na tento víkend soudní rozhodnutí a to je něco, s čím musím počítat.",
+          "strengths": [
+            "Validuje emoce a používá její jméno pro osobní vztah",
+            "Otevřené otázky o zdraví jí dávají prostor být vyslyšena",
+            "Transparentně komunikuje právní realitu místo budování falešné naděje",
+            "Vyvažuje empatii s upřímností — špatná zpráva ji nezasáhne později nečekaně",
+            "Dotaz na návštěvu lékaře shromažďuje informace bez výslechu"
+          ],
+          "consequences": "Eve se cítí vyslyšena a respektována. Může se rozplakat, ale je méně pravděpodobné, že bude útočná. Upřímný rámec ohledně soudního rozhodnutí ji připraví na pravděpodobný výsledek.",
+          "trainingFocus": "Proč je včasná upřímnost laskavější než odložená špatná zpráva? Jak transparentnost buduje důvěru i při nepříjemné zprávě?"
+        },
+        "partially_positive": {
+          "choiceText": "Chci se také ujistit, že je Jacob v pořádku. Nechte mě se na něj rychle podívat, jak na tom je. Pokud je opravdu nemocný, možná můžeme probrat nějaké možnosti — ale měla byste vědět, že Mark má platné soudní rozhodnutí.",
+          "adequate": [
+            "Projevuje starost o dítě",
+            "Proaktivní nabídka posoudit situaci",
+            "Uznává soudní rozhodnutí"
+          ],
+          "missed": [
+            "Strážník provádějící neformální zdravotní posouzení překračuje profesní roli",
+            "Pokud řeknete, že dítě ‚vypadá v pořádku', matka se cítí zpochybněna",
+            "Pokud souhlasíte, že dítě ‚vypadá nemocně', otec bude tvrdit, že straníte jí",
+            "Dostáváte se do nevýherní pozice jako amatérský zdravotní posuzovatel"
+          ],
+          "improvement": "Jak projevit starost o zdraví dítěte bez překročení profesní role? Jaký je rozdíl mezi péčí a diagnostikováním?",
+          "consequences": "Oba rodiče zpochybní vaše posouzení podle toho, kterým směrem se vydáte. Neúmyslně jste se stal zdravotní autoritou."
+        },
+        "neutral": {
+          "choiceText": "Máte lékařskou zprávu nebo nějaký lékařský důkaz, že je Jacob příliš nemocný na to, aby šel s otcem?",
+          "adequate": [
+            "Oprávněná procedurální otázka",
+            "Shromažďování relevantní dokumentace"
+          ],
+          "missed": [
+            "Začínat požadavkem na důkaz působí obviňujícně a klinicky",
+            "Většina rodičů nepřipravuje lékařskou dokumentaci k předávání",
+            "Žádná emoční validace před procedurálními otázkami",
+            "Přístup jako shromažďování důkazů místo lidského rozhovoru"
+          ],
+          "improvement": "Jaký je rozdíl mezi shromažďováním informací a vyslýcháním někoho? Jak změní pořadí empatie-pak-otázky odpověď?",
+          "consequences": "Eve se cítí vyslýchána místo vyslyšena. Stává se defenzivní: ‚Takže mi taky nevěříte?' Emoční zeď se zvedá."
+        },
+        "negative": {
+          "choiceText": "Rozumím vaší obavě, ale soudní rozhodnutí říká, že tento víkend jde k otci. Pokud nemáte lékařskou dokumentaci, opravdu s tím nemohu nic dělat.",
+          "risks": [
+            "Odmítavý přístup k opravdové mateřské obavě",
+            "Rigidní právnický rámec bez jakékoliv empatie",
+            "‚Nemohu nic dělat' je jak nepřesné, tak odcizující — možnosti existují",
+            "Může spustit reakci boj-nebo-útěk — fyzické odmítnutí nebo pokus o odjezd"
+          ],
+          "consequences": "Eve může fyzicky odmítnout pustit Jacoba z auta, pokusit se odjet, nebo se emocionálně zhroutit — to vše dramaticky zhorší situaci pro Jacoba.",
+          "trainingFocus": "Když někdo řekne ‚nemohu nic dělat', jakou zprávu druhý člověk ve skutečnosti slyší? Jaké alternativy existují i v omezených situacích?"
+        }
+      },
+      "keyLearningPoints": [
+        "Validujte emoce před sdělením nepříjemné právní reality",
+        "Otevřené otázky (‚řekněte mi víc') získají lepší informace než požadavky na důkazy",
+        "Včasná upřímnost zabraňuje škodám způsobeným zpožděnými špatnými zprávami – lidé snášejí obtížné pravdy lépe, když jsou na ně připraveni.",
+        "Zůstaňte v profesní roli — nestávejte se amatérským lékařem, právníkem ani terapeutem"
+      ]
+    },
+    "5": {
+      "stageName": "Dítě promluví",
+      "criticalSkills": [
+        "Komunikace citlivá k dítěti",
+        "Rozpoznání a oslovení dětského pocitu viny u sporů o péči",
+        "Poskytování věku přiměřené emoční podpory"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Dřepnete si na Jacobovu úroveň očí a jemně řeknete: ‚Ahoj Jacobe, vím, že je to opravdu těžké. Chci, abys věděl, že nic z toho není tvoje chyba, ano? Maminka i tatínek tě oba moc milují. Dospělí to vyřeší. Je něco, co bys mi chtěl říct?'",
+          "strengths": [
+            "Dostat se na fyzickou úroveň dítěte snižuje zastrašující dojem a buduje důvěru",
+            "Přímé oslovení pocitu viny (‚nic z toho není tvoje chyba') cílí na jádro emoční rány u sporů o péči",
+            "Potvrzení lásky obou rodičů brání dítěti v tom, aby si muselo vybírat stranu",
+            "Otevřené pozvání k hovoru mu dává prostor bez nucení k volbě loajality",
+            "Tato chvíle se často stává emočním bodem obratu pro oba sledující rodiče"
+          ],
+          "consequences": "Jacob se cítí viděn a slyšen klidnou autoritou. Jeho tíseň se viditelně snižuje. Oba rodiče, pokud jsou na doslech, si připomenou, na čem opravdu záleží.",
+          "trainingFocus": "Jak přímé oslovení nevyslovených pocitů viny dítěte mění dynamiku rodinného sporu? Proč je fyzická pozice u dětí tak důležitá?"
+        },
+        "partially_positive": {
+          "choiceText": "Usmějete se vřele a řeknete: ‚Neboj se, kamaráde. Všechno bude v pořádku. Rodiče si jen potřebují pár věcí promluvit, ano?'",
+          "adequate": [
+            "Dobře míněné a vřelé v tónu",
+            "Pokus o uklidnění"
+          ],
+          "missed": [
+            "‚Všechno bude v pořádku' může působit jako prázdný slib — děti jsou pozoruhodně vnímavé vůči neupřímnosti",
+            "Neřeší jeho vyjádřené přání, aby hádky skončily",
+            "Neřeší jeho pocit uvěznění",
+            "Vina – jádro problému – zůstává zcela nevyřčena."
+          ],
+          "improvement": "Kdy uklidňování pomáhá a kdy zlehčuje opravdovou tíseň? Jak sladit slova s tím, co dítě skutečně vyjádřilo?",
+          "consequences": "Jacob možná zdvořile přikývne, ale jeho úzkost zůstává nezměněna. Promarněná příležitost poskytnout smysluplnou emoční podporu."
+        },
+        "neutral": {
+          "choiceText": "Stručně uznat Jacoba — ‚Vydrž, ano, kamaráde?' — a pak se vrátit k Eve: ‚Opravdu to teď musíme vyřešit. Napadá vás způsob, jak to dnes zvládnout?'",
+          "adequate": [
+            "Krátké uznání je lepší než dítě zcela ignorovat"
+          ],
+          "missed": [
+            "Odmítavé vůči opravdovému emočnímu okamžiku — dítě nashromáždilo odvahu promluvit",
+            "Dvousekundová odpověď signalizuje, že jeho pocity pro dospělé nejsou důležité",
+            "Okamžité přesměrování zpět na logistiku posiluje neviditelnost dítěte",
+            "Břemeno řešení je položeno zcela na matku"
+          ],
+          "improvement": "Když se dítě během krize ozve, co mu vaše reakce sdělí o hodnotě jeho názoru? Kolik času ve skutečnosti vyžaduje smysluplné uznání?",
+          "consequences": "Jacob se stáhne a cítí se ignorován. Je méně pravděpodobné, že znovu vyjádří své pocity. Kritické okno pro navázání spojení se zavře."
+        },
+        "negative": {
+          "choiceText": "Využít Jacobovo vyjádření jako katalyzátor k urychlení řešení — obrátíte se na oba rodiče: ‚Slyšeli jste ho. Pojďme to efektivně uzavřít, aby Jacob mohl pokračovat ve svém večeru. Evo, soudní rozhodnutí je jasné. Marku, usaďme Jacoba do vašeho auta. Čím rychleji to vyřešíme, tím míň toho musí vidět.'",
+          "risks": [
+            "Zní to jako praktická efektivita zaměřená na dítě, ale využívá Jacobovu zranitelnou chvíli jako nástroj k urychlení procesu",
+            "Dítě promluvilo a hledalo útěchu a ujištění; místo toho jsou jeho slova přesměrována k nátlaku na dospělé",
+            "Jacob se naučí, že promluvit vede k tomu, že ho ignorují, zatímco dospělí dělají to, co plánovali",
+            "Eve se cítí tlačena rychlostí a její zdravotní obavy zůstávají neřešeny"
+          ],
+          "consequences": "Jacobova tíseň se prohlubuje — vyjádřil pocit a dostal logistický plán. ‚Efektivní' řešení je křehké, protože přeskakuje základní potřeby všech.",
+          "trainingFocus": "Když je emoční chvíle dítěte využita jako důvod k urychlení místo k pozastavení, co se dítě naučí o vyjadřování pocitů? Jaká je cena efektivity na úkor empatie?"
+        }
+      },
+      "keyLearningPoints": [
+        "Děti ve sporech o péči nesou obrovský pocit viny — potřebují výslovně slyšet, že to není jejich chyba",
+        "Fyzická pozice na úrovni očí dítěte je jedním z nejsilnějších nástrojů pro budování vztahu",
+        "Dítě, které v krizi promluví, projevuje důvěru — vaše reakce rozhodne, zda ta důvěra přežije",
+        "Všechno, co před dítětem řeknete a uděláte, se stane součástí jeho chápání konfliktu a autority"
+      ]
+    },
+    "6": {
+      "stageName": "Otcovo ultimátum",
+      "criticalSkills": [
+        "Deeskalace hrozeb bez protihrozby",
+        "Rámování důsledků jako vlastního zájmu místo trestu",
+        "Udržení vztahu při přímém obvinění ze zaujatosti"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Marku, nezapomněl jsem na vás ani na soudní rozhodnutí — beru to vážně a jsem na vaší straně v tom, aby k předání dnes došlo. Potřeboval jsem vyslechnout obě strany, což je standardní postup pro každého strážníka. Jak to stojí: mluvil jsem s Evou a pracuji na tom, abyste Jacoba dostal. Ale kdybyste si ho vzal sám, vznikne policejní záležitost tam, kde žádná teď není, a to by mohlo ublížit vaší pozici ohledně péče. Pojďme to udělat správně.",
+          "strengths": [
+            "Přímo řeší jeho hlavní obavu — že byl zapomenut a že jste zaujatý",
+            "Znovu potvrzuje právní platnost jeho pozice bez výhrad",
+            "Transparentně vysvětluje postup — standardní procedura, ne stranění",
+            "Varování před fyzickým jednáním rámované jako ochrana jeho zájmů, ne jako hrozba",
+            "‚Správně' apeluje na jeho smysl pro spravedlnost a legitimitu"
+          ],
+          "consequences": "Markův hněv výrazně opadne. Cítí se vyslyšen, respektován a přesvědčen, že předání proběhne. Odloží telefon.",
+          "trainingFocus": "Jak rámování důsledků jako vlastního zájmu místo hrozeb mění něčí ochotu spolupracovat?"
+        },
+        "partially_positive": {
+          "choiceText": "Marku, rozumím vaší frustraci a respektuji vaše právní nároky. Ale hrozit, že si Jacoba vezmete silou, vaší věci nepomůže. Pojďme najít řešení, které nechá všechny v dobré pozici.",
+          "adequate": [
+            "Validuje frustraci a uznává právní nároky",
+            "Vymezuje hranici ohledně násilí",
+            "Nabízí spolupráci na řešení"
+          ],
+          "missed": [
+            "‚Nepomůže vaší věci' udržuje právní a konfrontační rámec",
+            "‚Všechny v dobré pozici' může působit jako ředění jeho legitimního nároku",
+            "Neřeší obvinění ze zaujatosti přímo",
+            "Nevysvětluje, co jste dělali, ani neposkytuje informace o pokroku."
+          ],
+          "improvement": "Jak vymezit hranice bez jazyka, který někoho udržuje v konfrontačním nastavení? Když vás někdo obviní ze zaujatosti — ignorovat to, nebo to řešit přímo?",
+          "consequences": "Mark se pozastaví, ale jeho základní frustrace z vnímané zaujatosti zůstává. Spolupracuje neochotně a zůstává nedůvěřivý."
+        },
+        "neutral": {
+          "choiceText": "Pane, musíte se uklidnit. Dělám svou práci. Chcete-li volat právníka, prosím, ale dítě si silou vzít nemůžete.",
+          "adequate": [
+            "Vymezuje nutnou hranici ohledně násilí",
+            "Uznává jeho právo na právní zastoupení"
+          ],
+          "missed": [
+            "‚Musíte se uklidnit' je jedna z nejkontraproduktivnějších frází v deeskalaci — zneplatňuje emoce a naznačuje iracionalitu",
+            "Často vyvolá přesný opak zamýšleného účinku",
+            "Žádná empatie, vysvětlení ani aktualizace postupu",
+            "Neřeší obvinění ze zaujatosti"
+          ],
+          "improvement": "Proč ‚uklidněte se' téměř nikdy nevyvolá klid? Jaké alternativní fráze dosáhnou stejného cíle bez zneplatnění?",
+          "consequences": "Mark dále eskaluje: ‚Neříkejte mi, abych se uklidnil!' Situace se zhoršuje. Vztah je ztracen a fyzická konfrontace je pravděpodobnější."
+        },
+        "negative": {
+          "choiceText": "Pokud přistoupíte k tomu autu nebo se pokusíte vzít dítě, budu muset fyzicky zasáhnout. Okamžitě ustupte k mému vozu.",
+          "risks": [
+            "Čistě represivní reakce na verbální eskalaci",
+            "Skok k naznačené fyzické konfrontaci, když Mark zatím eskaluje pouze verbálně",
+            "Zcela ignoruje jeho emoční stav, právní pozici a strach ze ztráty času se synem",
+            "Mění rodinný spor v policejní konfrontaci"
+          ],
+          "consequences": "Mark buď neochotně ustoupí, nebo vás fyzicky napadne. V každém případě Jakub vidí, jak jeho otce ohrožuje strážník. Trauma dítěte se prohlubuje.",
+          "trainingFocus": "V jakém okamžiku verbální výhrůžka opravňuje k fyzickému zásahu a jaké jsou náklady na předčasný zásah?"
+        }
+      },
+      "keyLearningPoints": [
+        "‚Uklidněte se' je v průzkumech trvale identifikováno jako jedna z nejméně účinných frází v deeskalaci",
+        "Rámování důsledků jako ochrany něčího vlastního zájmu je mnohem účinnější než hrozby",
+        "Při obvinění ze zaujatosti to řešte přímo a transparentně místo ignorování nebo defenzívy",
+        "Poskytování informací o aktuálním stavu (‚takhle to teď vypadá') snižuje úzkost, která vzniká z pocitu, že na vás někdo zapomněl."
+      ]
+    },
+    "7": {
+      "stageName": "Usnadnění řešení",
+      "criticalSkills": [
+        "Kreativní řešení problémů pod časovým tlakem",
+        "Přeměna dynamiky výhra/prohra na spolupráci",
+        "Dát oběma stranám konstruktivní roli v řešení"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Navrhuji následující. Evo, slyším vaši starost o Jacobovo zdraví — zapsala byste mu jeho příznaky, jeho léky a dávkování a telefonní číslo na pediatra pro Marka? Marku, byl byste ochoten dávat Eve vědět, jak se Jacob dnes večer cítí — třeba rychlou SMSkou a fotkou? Tím pádem Jacob stráví čas s tátou tak, jak soudní rozhodnutí stanovuje, a oba budete vědět, že je o něj postaráno. Jacobe, maminka dá tatínkovi všechny informace o tvých lécích, takže o tebe bude o víkendu dobře postaráno.",
+          "strengths": [
+            "Reaguje na opravdové zdravotní obavy matky konkrétním řešením",
+            "Respektuje právní nároky otce — předání proběhne",
+            "Dává oběma rodičům aktivní a důstojnou roli v řešení",
+            "Mění konflikt z dynamiky výhra/prohra na spolupracující rodičovství",
+            "Přímé ujištění dítěte mu ukazuje, že dospělí našli řešení společně",
+            "Konkrétní, specifické kroky to dělají proveditelným místo vágním"
+          ],
+          "consequences": "Eve souhlasí — sepsání zdravotních informací jí dává pocit kontroly a účelu. Mark souhlasí s SMSovými aktualizacemi — malý ústupek, který ho nic nestojí. Jacob vidí své rodiče spolupracovat. Předání proběhne hladce.",
+          "trainingFocus": "Jak dávání konstruktivního úkolu oběma stranám směřuje jejich energii pryč od konfliktu ke spolupráci?"
+        },
+        "partially_positive": {
+          "choiceText": "Mark má soudní rozhodnutí, takže předání by mělo proběhnout dnes. Ale Evo, co kdyby Mark souhlasil, že vezme Jacoba k lékaři, pokud se mu o víkendu příznaky zhorší? Marku, šlo by to?",
+          "adequate": [
+            "Pokus o kompromis",
+            "Reaguje na matkou uvedenou obavu o zdraví"
+          ],
+          "missed": [
+            "Implicitní podmiňování soudem nařízeného předání dalšími podmínkami překračuje vaši roli",
+            "Pokud Mark odmítne, vytvořili jste nový bod konfliktu",
+            "Pokud Mark souhlasí pod tlakem, může to nesnášet",
+            "Postavili jste se do role přehodnocování podmínek péče — to je role soudu"
+          ],
+          "improvement": "Kde je hranice mezi usnadněním řešení a znovuvyjednáním soudního rozhodnutí? Jak navrhovat řešení, která rozhodnutí posílí místo toho, aby ho měnila?",
+          "consequences": "Mark může neochotně souhlasit nebo odmítnout z principu. Precedent může povzbudit více obstrukčního chování u budoucích předávání."
+        },
+        "neutral": {
+          "choiceText": "Soudní rozhodnutí říká, že Jacob jde tento víkend k otci. Evo, doporučuji vám, abyste rozhodnutí dodržela. Pokud se domníváte, že by mělo být změněno, můžete v pondělí podat návrh k soudu.",
+          "adequate": [
+            "Právně přesné a procesně správné",
+            "Poskytuje informaci o právní cestě"
+          ],
+          "missed": [
+            "Strohý pokyn ‚dodržet' působí donucovacím dojmem místo usnadňujícím",
+            "Odkaz na soud v pondělí je vzdálený od současné emoční reality",
+            "Žádný plán pro přechod dítěte ani zdravotní potřeby",
+            "Žádný most pro budoucí předávání — příští bude stejně špatné"
+          ],
+          "improvement": "Je ‚úspěšné' předání takové, při kterém dítě fyzicky přechází z ruky do ruky, nebo takové, kdy se dítě během přechodu cítí v bezpečí? Jak vypadá udržitelné řešení?",
+          "consequences": "Eve předá Jacoba s nelibostí. Předání proběhne, ale špatně — Jacob vnímá matčinu tíseň. Žádné zlepšení pro budoucí předávání."
+        },
+        "negative": {
+          "choiceText": "Podívejte, chápu, že je to pro vás oba těžké, ale nemohu nikoho z vás k ničemu nutit — jde o občanskoprávní záležitost. Musíte si to vyřešit mezi sebou nebo to vrátit k soudu. Udělal jsem všechno, co jsem mohl.",
+          "risks": [
+            "Zbavení se zodpovědnosti v kritickém okamžiku",
+            "Přítomnost vystresovaného dítěte — odejít je selháním povinnosti",
+            "‚Udělal jsem všechno, co jsem mohl' signalizuje konec investice úsilí",
+            "Oba rodiče se cítí opuštěni jedinou neutrální stranou"
+          ],
+          "consequences": "Hádka se znovu roznítí ve chvíli, kdy odejdete. Školní strážník zavolá 911 znovu do dvaceti minut. Jacob projde dalším kolem rodičovského konfliktu. Vaše intervence nic nepřinesla.",
+          "trainingFocus": "Jaký je rozdíl mezi ‚nemohu nikoho nutit' a ‚nemohu vůbec pomoct'? Jaká kreativní řešení existují i v rámci občanskoprávních omezení?"
+        }
+      },
+      "keyLearningPoints": [
+        "Kreativní řešení, která dají oběma stranám konstruktivní roli, mění konfrontační dynamiku ve spolupráci",
+        "Nejlepší řešení reagují na základní obavu (strach o zdraví) a zároveň respektují právní rámec (soudní rozhodnutí)",
+        "Ujistit dítě, že dospělí našli řešení společně, je jedním z nejsilnějších léčivých okamžiků, jaké můžete vytvořit",
+        "Strážníci, kteří odcházejí od nevyřešeného sporu o předání, konflikt neodvracejí — zaručují jeho opakování"
+      ]
+    },
+    "8": {
+      "stageName": "Vyhodnocení a odhalení",
+      "criticalSkills": [
+        "Reflexe",
+        "Propojení voleb s výsledky",
+        "Upevnění neutrální mediace a přístupu zaměřeného na dítě"
+      ],
+      "choiceAnalysis": {
+        "positive": {},
+        "partially_positive": {},
+        "neutral": {},
+        "negative": {}
+      },
+      "keyLearningPoints": [
+        "Využijte vyhodnocení k upevnění toho, co fungovalo: viditelná neutralita, oddělení stran a oslovení zkušenosti dítěte.",
+        "Zamyslete se, jak každá volba ovlivnila oba rodiče i dítě; předávání dítěte si pamatují všichni tři."
+      ]
+    }
+  },
+  "comprehensiveMetrics": {
+    "impartialityNeutrality": {
+      "description": "Udržování viditelné spravedlnosti vůči oběma stranám bez upřednostňování pozice jednoho rodiče",
+      "indicators": {
+        "excellent": [
+          "Stejný čas a empatie věnované oběma stranám",
+          "Žádný přístup, jazyk ani jednání signalizující favoritismus",
+          "Transparentní vysvětlení postupu oběma stranám",
+          "Oba rodiče se cítí vyslyšeni a respektováni bez ohledu na výsledek"
+        ],
+        "poor": [
+          "Okamžité stranění jedné straně podle toho, kdo mluví první nebo kdo má dokumenty",
+          "Jazyk validující jednoho rodiče a zlehčující druhého",
+          "Fyzické umístění signalizující spojenectví s jednou stranou",
+          "Jednání jako soukromý vymahač místo neutrálního facilitátora"
+        ]
+      }
+    },
+    "communicationEffectiveness": {
+      "description": "Celková kvalita verbální a neverbální komunikace napříč všemi stranami včetně dítěte",
+      "indicators": {
+        "excellent": [
+          "Aktivní naslouchání prokázané u každé strany zvlášť",
+          "Vhodný tón přizpůsobený emočnímu stavu každé osoby",
+          "Používání jmen pro budování vztahu a snížení konfrontačního rámování",
+          "Transparentní komunikace postupu — vysvětlení, co děláte a proč"
+        ],
+        "poor": [
+          "Používání kontraproduktivních frází (‚uklidněte se', ‚nemohu nic dělat')",
+          "Právnický nebo byrokratický jazyk v emocionálně nabitých chvílích",
+          "Ignorování nebo zlehčování vyjádřených obav jedné strany",
+          "Selhání v přizpůsobení komunikačního stylu dítěti"
+        ]
+      }
+    },
+    "emotionalIntelligence": {
+      "description": "Schopnost rozpoznat a reagovat na emoce všech stran včetně dítěte",
+      "indicators": {
+        "excellent": [
+          "Přesné rozpoznání základních strachů — otcův strach ze ztráty přístupu, matčin strach o zdraví dítěte",
+          "Validace emocí i když nemůžete vyhovět žádostem",
+          "Zvládání vlastních emočních reakcí při přímém obvinění ze zaujatosti",
+          "Deeskalace prostřednictvím emočního uznání před procedurální akcí"
+        ],
+        "poor": [
+          "Zlehčování emočních obav jako irelevantních k ‚právní věci'",
+          "Reakce na osobní útoky protiofenzívou nebo stažením se",
+          "Nerozpoznání viny a tísně dítěte jako vyžadující přímou pozornost",
+          "Eskalace prostřednictvím emoční invalidace nebo zahanbování"
+        ]
+      }
+    },
+    "proceduralLegalAwareness": {
+      "description": "Porozumění omezením policie v občanskoprávních věcech a odpovídající řízení očekávání",
+      "indicators": {
+        "excellent": [
+          "Jasné pochopení, že policie není soukromý vymahač v občanskoprávních věcech péče o dítě",
+          "Vhodné řízení očekávání o tom, co policie může a nemůže dělat",
+          "Uznání, že soudní rozhodnutí poskytují vodítko, ale neodstraňují potřebu úsudku",
+          "Kreativní řešení problémů v rámci procedurálních hranic"
+        ],
+        "poor": [
+          "Jednostranné prosazování výkladu soudního rozhodnutí jedné strany",
+          "Slibování výsledků mimo pravomoci policie (zatčení za občanské věci)",
+          "Zbavení se veškeré odpovědnosti, protože jde o ‚občanskou věc'",
+          "Přehodnocování podmínek soudního rozhodnutí místo usnadnění jeho dodržení"
+        ]
+      }
+    },
+    "childCenteredApproach": {
+      "description": "Upřednostňování emoční bezpečnosti dítěte, snižování vystavení konfliktu a pocitům viny",
+      "indicators": {
+        "excellent": [
+          "Přímá komunikace s dítětem na jeho fyzické úrovni",
+          "Výslovné oslovení pocitu viny dítěte (‚není to tvoje chyba')",
+          "Zařazení dítěte do oznámení řešení, aby vidělo spolupráci",
+          "Zajištění plynulého přechodu dítěte, nejen že péče ‚změní ruce'"
+        ],
+        "poor": [
+          "Úplné ignorování dítěte při vyjednávání s rodiči",
+          "Použití tísně dítěte jako páky proti jednomu rodiči",
+          "Činění rozhodnutí o dítěti bez uznání zkušenosti dítěte",
+          "Umožnění dítěti být svědkem eskalujícího konfliktu bez zásahu"
+        ]
+      }
+    }
+  },
+  "mistakePatterns": {
+    "biasSignaling": {
+      "pattern": "Jednání nebo jazyk signalizující favoritismus vůči jednomu rodiči",
+      "examples": [
+        "Přistoupit k vozidlu jednoho rodiče jako první",
+        "Okamžitě zpochybňovat tvrzení jedné strany bez vyslechnutí druhé",
+        "Jednat jako vymahač pro stranu s dokumentací",
+        "Výrazně více času stráveného s jednou stranou"
+      ],
+      "impact": "Vnímaná zaujatost ničí důvěru znevýhodněné strany, eskaluje konflikt a často zhoršuje budoucí předávání",
+      "correction": "Procvičujte viditelnou neutralitu: stejný čas, stejná empatie, stejný respekt. Transparentně oznamujte svůj postup, aby obě strany pochopily sled."
+    },
+    "escalation": {
+      "pattern": "Reakce, které zvýšily napětí místo jeho snížení",
+      "examples": [
+        "Říkat někomu ‚uklidněte se'",
+        "Hrozit fyzickým zásahem za verbální agresi",
+        "Používání donucovacího jazyka (‚dodržte', ‚budu muset zasáhnout')",
+        "Zlehčování legitimních obav frází ‚nemohu nic dělat'"
+      ],
+      "impact": "Každá eskalace ztěžuje řešení, zvyšuje riziko fyzické konfrontace a prohlubuje trauma dítěte",
+      "correction": "Nahraďte příkazy žádostmi, hrozby rámováním vlastního zájmu a zlehčování uznáním. Procvičujte frázi: ‚Chápu, že je to frustrující. Zde je, co mohu udělat.'"
+    },
+    "childNeglect": {
+      "pattern": "Selhání v rozpoznání nebo oslovení emočních potřeb dítěte",
+      "examples": [
+        "Ignorování dítěte při vyjednávání s rodiči",
+        "Stručné, odbývající uznání (‚vydrž, kamaráde')",
+        "Použití tísně dítěte jako páky proti rodiči",
+        "Selhání v oslovení pocitu viny (‚nic z toho není tvoje chyba')"
+      ],
+      "impact": "Děti si internalizují konflikt o péči jako svou chybu. Promarněná příležitost poskytnout ujištění od důvěryhodné autority může prohloubit dlouhodobé psychologické následky.",
+      "correction": "Vždy zahrňte dítě do svého povědomí. Když dítě promluví, věnujte mu plnou pozornost. Dřepněte na jeho úroveň. Pojmenujte, co může cítit. Výslovně oslovte pocit viny."
+    },
+    "legalRigidity": {
+      "pattern": "Přehnané spoléhání na právní rámce bez lidského spojení",
+      "examples": [
+        "Redukce situace na ‚co říkají dokumenty'",
+        "Vyžadování lékařské dokumentace před uznáním obavy",
+        "Směrování rodiče k ‚dodržení' bez empatie",
+        "Citování soudních procedur jako náhrada za zapojení"
+      ],
+      "impact": "Technicky správné, ale emocionálně destruktivní. Dosažení vyhovění prostřednictvím rigidity vytváří zášť a zaručuje budoucí konflikty.",
+      "correction": "Začněte empatií, pokračujte postupem. Zákon poskytuje rámec; vaše lidskost poskytuje most ke spolupráci."
+    },
+    "abdication": {
+      "pattern": "Stažení se ze situace, když se stane složitou",
+      "examples": [
+        "‚Jde o občanskou věc, vyřešte to sami'",
+        "‚Udělal jsem všechno, co jsem mohl'",
+        "Odchod ze scény s nevyřešeným konfliktem",
+        "Přehození odpovědnosti zcela na jednu stranu"
+      ],
+      "impact": "Odejít od nevyřešeného sporu o péči s přítomným vystresovaným dítětem nebrání újmě — zaručuje její opakování. Oba rodiče ztrácejí důvěru v policii jako zdroj pomoci.",
+      "correction": "Kreativní řešení problémů je vždy možné. I v občanskoprávních věcech můžete usnadnit komunikaci, navrhnout praktická řešení a zajistit, aby byl přechod dítěte zvládnut s péčí."
+    }
+  },
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Vynikající výkon. Prokázali jste výjimečnou neutralitu, emoční inteligenci a kreativní řešení problémů pod intenzivním tlakem. Vaše schopnost validovat oba rodiče a zároveň zaměřit se na emoční pohodu dítěte je přesně to, co spory o péči vyžadují. Spolupracující řešení, které jste usnadnili — výměna zdravotních informací, závazky k aktualizacím — proměňuje jednorázovou intervenci v šablonu pro zdravější budoucí předávání. Nejdůležitější je, že Jacob viděl dospělé spolupracovat místo boje. Ten okamžik může být tím nejvlivnějším, co jste dnes udělali.",
+      "mostlyPositive": "Silný celkový výkon s vynikajícími mediačními dovednostmi. Udržovali jste dobrou neutralitu a projevovali upřímnou empatii ke všem stranám. Klíčová přednost: [SPECIFIC_STRENGTH]. Oblast k rozvoji: [SPECIFIC_IMPROVEMENT]. Váš přístup pomohl oběma rodičům vidět za svůj konflikt a zaměřit se na Jacobovu pohodu — to je jádro efektivní intervence u péče o dítě.",
+      "mixed": "Některé aspekty jste zvládli dobře, ale zmeškali jste kritické příležitosti. Přednosti zahrnovaly [SPECIFIC_STRENGTHS]. Nicméně [SPECIFIC_WEAKNESSES] vyžadují pozornost. Spory o péči vyžadují současné vyvážení právního povědomí, emoční inteligence, nestrannosti a zaměření na dítě. Projděte [TRAINING_AREAS] pro posílení oblastí, kde vaše reakce zaostávala.",
+      "mostlyNegative": "Tento scénář odhalil významné mezery v dovednostech mediace u péče o dítě. Zatímco vy [MINOR_POSITIVE], většina voleb buď signalizovala zaujatost, eskalovala napětí, nebo přehlédla emoční potřeby dítěte. Konkrétně [MAJOR_FAILURES]. U sporů o péči vnímaná nespravedlnost ze strany strážníka často zhoršuje budoucí předávání a vytváří cyklus eskalujícího konfliktu. Okamžitě doporučené školení v: [CRITICAL_TRAINING].",
+      "allNegative": "Váš přístup během tohoto scénáře byl znepokojující. Konzistentní zaujatost vůči jedné straně, eskalace místo deeskalace a selhání v oslovení tísně dítěte mohly mít trvalé důsledky pro rodinu. Povinné nápravné školení vyžadováno v: neutrální mediace, empatická komunikace, intervence citlivá k dítěti a porozumění omezením policie v občanských věcech. Pamatujte: u sporů o péči dítě vždy sleduje a učí se od každého dospělého v místnosti — včetně vás."
+    }
+  },
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "Dobré odpoledne. Jsem strážník [jméno]. Vidím, že je to stresující situace. Pojďme to vyřešit — ale nejdřív vás oba prosím, abyste udělali krok zpět.",
+      "Chápu, že oba to berete velmi vážně. Budu s každým z vás mluvit zvlášť, abych pochopil celou situaci.",
+      "Děkuji, že jste mi to ukázal, Marku. Beru to vážně — soudní rozhodnutí má skutečnou váhu.",
+      "Slyším, jak moc se o Jacoba bojíte, Evo. Na jeho zdraví záleží.",
+      "Ahoj Jacobe, vím, že je to opravdu těžké. Chci, abys věděl, že nic z toho není tvoje chyba, ano?",
+      "Nezapomněl jsem na vás ani na soudní rozhodnutí — beru to vážně a jsem na vaší straně v tom, aby k předání dnes došlo.",
+      "Evo, slyším vaši starost o Jacobovo zdraví — zapsala byste mu jeho příznaky, jeho léky a dávkování a telefonní číslo na pediatra pro Marka?"
+    ],
+    "poorPhrases": [
+      "Vidím, že to je opakující se vzorec, Marku. Promluvím s ní o dodržování rozvrhu.",
+      "Máte lékařskou zprávu nebo nějaký lékařský důkaz?",
+      "Slyšeli jste ho. Pojďme to efektivně uzavřít, aby Jacob mohl pokračovat ve svém večeru.",
+      "Musíte se uklidnit. Dělám svou práci.",
+      "Pokud přistoupíte k tomu autu nebo se pokusíte vzít dítě, budu muset fyzicky zasáhnout.",
+      "Nemohu nikoho z vás k ničemu nutit — jde o občanskoprávní záležitost. Udělal jsem všechno, co jsem mohl.",
+      "Pokud nemáte lékařskou dokumentaci, opravdu s tím nemohu nic dělat."
+    ],
+    "analysisCriteria": {
+      "neutrality": "Zachovala fráze viditelnou nestrannost mezi oběma stranami?",
+      "empathy": "Validovala fráze emoce před řešením procedurálních záležitostí?",
+      "childAwareness": "Zohlednila fráze emoční vystavení a pohodu dítěte?",
+      "clarity": "Komunikovala fráze postup a očekávání transparentně?",
+      "effectiveness": "Posunula fráze situaci směrem k řešení spíše než k eskalaci?",
+      "creativity": "Nabídla fráze spolupracující řešení spíše než výsledky výhra/prohra?"
+    }
+  },
+  "scenarioSpecificLessons": {
+    "1": "Váš úvodní přístup nastavuje emoční tón celé intervence při předávání dítěte — klidná přítomnost deeskaluje, rozkazovací přítomnost vyvolává odpor",
+    "2": "Fyzické oddělení znepřátelených rodičů je nejúčinnější strukturální deeskalační technikou u sporů o předání",
+    "3": "Policie není soukromý vymahač — soudní rozhodnutí je rámec, ne zbraň k nasazení pro jednu stranu",
+    "4": "Validace emoční obavy rodiče před sdělením právní reality buduje důvěru i když odpověď je nepříjemná",
+    "5": "Děti ve sporech o péči nesou obrovský pocit viny — potřebují výslovně a přímo slyšet, že konflikt není jejich chyba",
+    "6": "‚Uklidněte se' je v deeskalačním výzkumu trvale identifikováno jako kontraproduktivní — rámujte důsledky jako vlastní zájem místo hrozeb",
+    "7": "Kreativní řešení, která dají oběma rodičům konstruktivní roli, mění konfrontační dynamiku ve spolupracující rodičovství"
+  },
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Pokročilá rodinná mediace a řešení sporů o předání dítěte",
+        "Školení ostatních v intervenci citlivé k dětem",
+        "Vedení specializovaného týmu pro rodinné krizové intervence"
+      ],
+      "good": [
+        "Rozšířené techniky neutrální mediace u vysoce konfliktních rodin",
+        "Dětská psychologie v situacích péče o dítě a rozvodu",
+        "Kreativní řešení problémů v občanskoprávních policejních setkáních"
+      ],
+      "average": [
+        "Základní protokoly intervence u sporů o předání dítěte",
+        "Dovednosti aktivního naslouchání a emoční validace",
+        "Porozumění omezením policie v občanskoprávních věcech"
+      ],
+      "poor": [
+        "Povinné školení deeskalace a neutrality",
+        "Workshop komunikace citlivé k dětem",
+        "Rozvoj empatie a emoční inteligence",
+        "Občanská vs. trestní záležitost: hranice role policie"
+      ]
+    }
+  },
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Celkové shrnutí výkonu",
+        "content": [
+          "Skóre",
+          "Úroveň výkonu",
+          "Klíčové přednosti",
+          "Kritické slabiny"
+        ]
+      },
+      {
+        "title": "Analýza po etapách",
+        "content": [
+          "Volba učiněná v každé etapě",
+          "Dopad na všechny tři strany (otec, matka, dítě)",
+          "Alternativní přístupy a jejich důsledky",
+          "Klíčové body k zapamatování"
+        ]
+      },
+      {
+        "title": "Hodnocení neutrality",
+        "content": [
+          "Zjištěné signály zaujatosti",
+          "Vyváženost empatie mezi stranami",
+          "Hodnocení transparentnosti postupu"
+        ]
+      },
+      {
+        "title": "Hodnocení zaměřené na dítě",
+        "content": [
+          "Přímé zapojení dítěte",
+          "Uznání pocitu viny",
+          "Emoční bezpečí poskytnuté během přechodu",
+          "Modelování zdravého řešení konfliktu"
+        ]
+      },
+      {
+        "title": "Efektivita komunikace",
+        "content": [
+          "Nejlepší momenty dialogu",
+          "Použité kontraproduktivní fráze",
+          "Kvalita emoční validace",
+          "Transparentnost postupu"
+        ]
+      },
+      {
+        "title": "Analýza vzorců",
+        "content": [
+          "Konzistentní přednosti napříč etapami",
+          "Opakující se chyby",
+          "Trendy v rozhodování (např. spoléhání na autoritu vs. empatie)"
+        ]
+      },
+      {
+        "title": "Profesní rozvoj",
+        "content": [
+          "Okamžité vzdělávací potřeby",
+          "Dlouhodobé priority rozvoje dovedností",
+          "Doporučené zdroje a workshopy"
+        ]
+      },
+      {
+        "title": "Aplikace v praxi",
+        "content": [
+          "Jak se to přenáší na předávání dítěte v terénu",
+          "Koordinace s rodinnými soudy a sociálními službami",
+          "Budování důvěry komunity kvalitní rodinnou intervencí"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,433 @@
+{
+    "id": 6,
+    "title": "Market Dispute — Negotiating Calmly",
+    "description": "Advanced scenario involving a heated territorial dispute between two stall owners at a Saturday outdoor market. A Nigerian-born fabric seller and a long-established Czech vegetable vendor clash over space, with potential racial undertones, a crowd taking sides, and a market manager pressuring for a quick resolution. The officer must mediate impartially, separate legitimate grievances from bias, and forge a lasting agreement that preserves both business relationships and community trust.",
+    "icon": "🏪",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Sergeant Dvořáková",
+        "avatar": "👮‍♂️",
+        "introduction": "Commercial disputes in public markets sit at one of the most delicate intersections in policing: property, livelihood, cultural identity, and community belonging. When two people argue over a few meters of market space, they are rarely arguing about space alone — they are arguing about legitimacy, respect, and who belongs. When the dispute involves a long-standing local vendor and a newer immigrant vendor, every word you say and every choice you make carries a weight far beyond the immediate conflict. Research on market and commercial disputes shows that officers who investigate the facts — actual allocations, written rules, physical layout — before making any judgment produce dramatically better outcomes than those who rely on who speaks louder or who called first. Your impartiality must be visible, not just felt. Both parties need to see that you are gathering evidence, listening equally, and basing your mediation on facts rather than assumptions. The crowd will be watching closely, and they will remember not what you decided, but how you decided it."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-6-complete"],
+    "perfectBadge": "perfect-scenario-6",
+    "finalMessage": {
+        "revelation": "Mr. Okonkwo moved to the Czech Republic twelve years ago from Lagos, Nigeria. He built his fabric and accessories business from nothing — starting with a suitcase at a flea market and working his way to a regular market stall. He has a valid market permit and pays his fees on time. He chose this particular market because his daughter's school is two blocks away. Mrs. Petrová has indeed been selling vegetables at this market for fifteen years. She is a widow who relies on her stall income to supplement a small pension. She never harbored conscious racial animosity — but her language about 'newcomers' and 'our market' reflected assumptions she had never examined. After your intervention, Filip reviewed the stall allocations and discovered the map had never been updated since Mr. Okonkwo joined three years ago, creating genuine ambiguity. He issued new, clearly marked allocations the following week. Mr. Okonkwo and Mrs. Petrová were assigned adjacent but clearly separated spaces. Three weeks later, a regular customer saw them sharing coffee before the market opened. Mrs. Petrová had asked Mr. Okonkwo about his fabrics — her granddaughter wanted an African-print dress for a school project. Filip later told his supervisor that the police officer's approach taught him more about conflict resolution than any management course he had taken.",
+        "keyLessons": [
+            "Impartiality must be demonstrated, not just claimed — who you speak to first, how long you listen, and where you stand all communicate bias or fairness to every observer",
+            "Racial and cultural undertones in disputes require direct but respectful acknowledgment — ignoring them does not make them disappear, it makes them fester",
+            "Fact-finding transforms disputes from 'my word against yours' into solvable problems — checking the actual stall map changed the entire dynamic",
+            "Market managers and other authority figures may have their own biases or pressures — do not outsource your judgment to the person who called you",
+            "Both parties having legitimate grievances is the norm, not the exception — the officer's job is to validate both without choosing sides",
+            "Crowd dynamics in commercial settings are different from street encounters — bystanders are often regulars with relationships to both parties, and their perception shapes whether the resolution holds",
+            "Sustainable resolution requires structural follow-up — if the underlying system (unclear allocations) is not fixed, the same conflict will recur regardless of how well you mediate today"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Arrival at the Market",
+            "sceneUpdate": {
+                "emoji": "🏪",
+                "title": "Outdoor Market — Saturday Morning",
+                "desc": "A busy outdoor market on a wide pedestrian square. Rows of stalls sell everything from vegetables and baked goods to clothing and household items. Near the center, two stalls are almost touching — a colorful fabric display and a vegetable stand. An older woman and a tall man in a patterned shirt are arguing loudly. A younger man in a market-branded vest hurries toward you. About a dozen shoppers have paused to watch."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unit responding to a disturbance call at Náměstí Míru outdoor market. Market manager reports two stall owners in a verbal altercation over stall space. No physical violence reported, but the argument is escalating and drawing a crowd. Market manager is Filip Horák — he'll meet you at the entrance."
+                },
+                {
+                    "character": "filip",
+                    "text": "(walking quickly toward you, looking stressed) Officer, thank you for coming. It's those two again — Mr. Okonkwo, he sells fabric, and Mrs. Petrová, she's been here forever with her vegetables. They've been arguing about space for months, but today it blew up. He says she moved her crates onto his area. She says he's spreading his display too wide. I've tried to calm them down but they won't listen to me. I need this resolved — I've got forty vendors here and customers are leaving."
+                }
+            ],
+            "prompt": "Filip wants a quick resolution and has given you his version. How do you begin?",
+            "options": [
+                {
+                    "text": "Thank Filip for calling and stride purposefully toward the two arguing vendors without asking him any follow-up questions. Position yourself squarely between the two stalls, hold up one hand in a clear 'stop' gesture, and tell them both firmly that the shouting ends immediately — you are here to sort this out, but not a single word will be exchanged at this volume. Fold your arms and wait for silence before saying anything else.",
+                    "feedback": "Why: Commanding silence from both parties without any context or rapport makes you an authority figure imposing order, not a mediator seeking resolution. You don't know who started the escalation, what the underlying issue is, or what each party needs. Starting with a command signals that the loudest problem gets the fastest police response. | CONSEQUENCES: Both vendors fall silent — but resentfully. Mr. Okonkwo's jaw tightens. Mrs. Petrová mutters under her breath. Bystanders see a police officer silencing two people before understanding anything. The argument is suppressed, not resolved. | Reflection: What is the difference between silencing a conflict and beginning to resolve it?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Reassure Filip with a quick nod — 'I'll handle it, give me a few minutes' — then walk directly over to the two vendors who are still mid-argument. Step close enough that both can hear you clearly and introduce yourself as the responding officer. Ask them both at the same time to explain what happened, gesturing for each to take a turn, hoping that airing the grievance openly will let you judge the situation on the spot without separating anyone.",
+                    "feedback": "Why: Hearing both sides sounds fair, but approaching both arguing parties simultaneously — while they are still heated — invites them to argue in front of you rather than with you. Each will try to talk over the other, and you become an audience for their conflict rather than a mediator. | CONSEQUENCES: Mr. Okonkwo starts explaining and Mrs. Petrová immediately interrupts. Voices rise. You're standing between two people competing for your attention while the crowd watches. The dynamic escalates rather than calms. | Reflection: When two people are in active conflict, why does separating them before listening produce better outcomes than hearing them together?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Before approaching either vendor, stay with Filip and ask a few focused questions: is there an official stall map or allocation system you can look at? Has this particular conflict happened before, or is today new? Has either party shown any signs of physical aggression? Listen carefully to his answers, then step back and spend a quiet minute observing the scene from a distance — the physical layout of the stalls, the body language of both vendors, and the crowd's positioning — before making your approach.",
+                    "feedback": "Why: Filip is the market manager — he has institutional knowledge you need. Asking about the stall map reveals whether there are objective facts to anchor the dispute. Asking about history tells you if this is a one-off or a pattern. Asking about aggression helps you assess safety. Observing before approaching lets you see the physical layout, body language, and crowd dynamics without either party performing for you. | CONSEQUENCES: Filip tells you there's a stall allocation map in his office but admits it's 'a bit outdated.' The dispute has been simmering for months. Neither party has been physical. You observe that Mrs. Petrová's vegetable crates do extend past a faded chalk line, and Mr. Okonkwo's fabric rack is pushed back awkwardly. You approach with context. | Reflection: How does sixty seconds of information-gathering from a third party change the quality of your entire intervention?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Turn to Filip and explain in a measured tone that this really sounds like an internal market management issue — stall assignments, boundary markings, and vendor relations all fall under his authority, not yours. Suggest that he sit down with both vendors, consult whatever allocation records he has, and sort out the spacing himself. Offer to remain parked nearby and available in case the situation turns physical or either party refuses to cooperate, but make clear that you see no reason for police involvement at this point.",
+                    "feedback": "Why: While it's true that stall allocation is ultimately a management issue, you were dispatched because the situation has escalated beyond management's ability to control it. Deferring back to Filip — who already told you he can't handle it — is a refusal to engage. The crowd sees police arrive and do nothing. | CONSEQUENCES: Filip looks defeated. The argument continues and gets louder. A bystander shouts something at Mr. Okonkwo. The situation deteriorates because the one authority figure who could intervene chose not to. | Reflection: When a situation has escalated beyond normal management, what is the cost of police declining to engage?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Hearing Mr. Okonkwo",
+            "sceneUpdate": {
+                "emoji": "🧔",
+                "title": "Mr. Okonkwo's Account",
+                "desc": "You approach Mr. Okonkwo separately. He's a tall, dignified man in his 50s wearing a richly patterned Nigerian shirt. His fabric display — vibrant ankara prints, beaded accessories, handmade bags — is impressive but visibly compressed. His display rack is pushed at an angle, and several items are piled on top of each other rather than spread out. He's breathing hard, trying to contain his frustration."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mr_okonkwo",
+                    "text": "(voice tight with controlled anger) Officer, I have been at this market for three years. I pay my fees, I have my permit, I follow every rule. Every Saturday, I arrive at six in the morning and set up in my allocated space. And every Saturday, her crates are already on my side. I move them politely, she moves them back. I ask Filip, he says 'work it out.' Today I found her crates stacked so far into my space that I cannot even open my display rack properly. When I moved them, she started screaming at me. She called me... she said I should 'go back where I came from' and that 'this market is for local people.' I have been quiet about this for months, officer. But I will not be quiet about that."
+                }
+            ],
+            "prompt": "Mr. Okonkwo has described a pattern of encroachment and a racially charged comment. How do you respond?",
+            "options": [
+                {
+                    "text": "Maintain steady eye contact and speak clearly: 'Mr. Okonkwo, thank you for explaining this. I take what you've described seriously — all of it. The space issue and what was said to you. I'm going to check the actual stall allocations and speak with Mrs. Petrová separately. No one should be told they don't belong at a market where they hold a valid permit. I'll come back to you before any decisions are made.'",
+                    "feedback": "Why: This response does several critical things. It thanks him for sharing, which validates the emotional cost of telling a police officer about racial harassment. It explicitly acknowledges both the space issue and the racial comment as separate, serious matters — not conflating them, not minimizing either. Promising to check the actual allocations signals fact-based mediation. 'No one should be told they don't belong' addresses the racial dimension directly without prejudging Mrs. Petrová. Promising to return before decisions demonstrates procedural fairness. | CONSEQUENCES: Mr. Okonkwo's shoulders drop slightly. He nods. For the first time, he looks like someone is actually listening. He says quietly: 'Thank you, officer. That is all I am asking — just fairness.' The crowd sees calm, respectful dialogue. | Reflection: Why does explicitly naming both dimensions of a complaint — the practical and the discriminatory — build more trust than addressing only the easier one?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Nod sympathetically and shift your weight to a more relaxed stance, signaling that you are taking his concerns on board. Then say in a calm, steady voice: 'I understand this is frustrating, Mr. Okonkwo, and I can see the impact it's having on your business. Let's focus on the space issue first — that's something concrete we can measure and resolve today. I'll go check the official allocation map with Filip and then speak to Mrs. Petrová to get her perspective before I come back to you.'",
+                    "feedback": "Why: Focusing on the solvable problem seems practical, but it conspicuously avoids addressing the 'go back where you came from' comment. Mr. Okonkwo just told you something that took courage to say. Skipping past it tells him that the racial dimension doesn't matter to you — or worse, that you agree it's not important. He mentioned both issues; you picked the comfortable one. | CONSEQUENCES: Mr. Okonkwo notices what you didn't say. His expression hardens. He cooperates, but the trust that was building evaporates. He's thinking: 'Even the police don't care about what she said.' | Reflection: When someone reports both a practical problem and a discriminatory experience, what does it communicate when you only address one?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Pull out your notebook, click your pen, and ask in a businesslike tone: 'Mr. Okonkwo, I need to ask — did anyone else hear what she said to you? Were there specific witnesses nearby who could corroborate the comment? Because if we're going to address that remark formally, I'll need more than one account. Can you point out anyone in the crowd who was standing close enough to have heard it clearly?'",
+                    "feedback": "Why: Immediately asking for witnesses when someone reports a racially charged statement feels like cross-examination. It signals that you doubt him and that his word alone is insufficient. While evidence matters, the first response to someone sharing a painful experience should be acknowledgment, not an evidentiary challenge. | CONSEQUENCES: Mr. Okonkwo looks at you incredulously. 'You want witnesses? Half the market heard her!' His voice rises. The trust collapses — he feels like the one being investigated. Bystanders hear his tone change and pay closer attention. | Reflection: What is the difference between taking a statement seriously and demanding proof as your first response?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Hold up your hand calmly and give a slight shake of your head as if to put the topic aside. Then say in a measured, matter-of-fact tone: 'Mr. Okonkwo, I hear you, but let's not make this about anything more than a space dispute. People say things in the heat of an argument that they don't truly mean — it happens all the time at these markets. Let's just focus on getting you your rightful space back so you can set up your display and get on with your Saturday business.'",
+                    "feedback": "Why: Dismissing a 'go back where you came from' statement as something 'said in anger' normalizes racial hostility. It tells Mr. Okonkwo that his experience of racism is an overreaction. It tells every bystander who heard the comment that police don't consider it significant. 'Let's not make this about anything more' is a directive to minimize his experience. | CONSEQUENCES: Mr. Okonkwo stares at you. The warmth drains from his face entirely. He says quietly: 'I see. So that is how it is.' He withdraws cooperation. A bystander who overheard shakes their head. You have lost this man's trust — and possibly the crowd's. | Reflection: When you minimize someone's experience of discrimination, what message does that send about whose dignity the police protect?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Hearing Mrs. Petrová",
+            "sceneUpdate": {
+                "emoji": "👩‍🌾",
+                "title": "Mrs. Petrová's Perspective",
+                "desc": "You approach Mrs. Petrová at her vegetable stall. She's a sturdy woman in her 60s, wearing a floral apron, surrounded by neatly arranged boxes of seasonal vegetables. Her face is flushed with indignation. Her crates do extend noticeably past a faded marking on the ground. She watches you coming with crossed arms and a defiant expression."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_petrova",
+                    "text": "(immediately, before you speak) I've been at this market for fifteen years! Fifteen years, officer! I was here before they even paved this square. And now this man — this newcomer — comes in three years ago and suddenly I'm the problem? I have always had this space. My crates have always been here. He puts up his big rack and his loud fabrics and takes up more and more room every week. And then he has the nerve to move my crates — my property! — without asking! I didn't do anything wrong. I'm just a Czech woman selling Czech vegetables in a Czech market, and I shouldn't have to explain myself."
+                }
+            ],
+            "prompt": "Mrs. Petrová is defensive and her language carries nationalistic undertones. How do you engage with her?",
+            "options": [
+                {
+                    "text": "Step up to her stall, plant your feet, and confront her directly before she can finish her opening statement. Keep your expression neutral but firm and say: 'Mrs. Petrová, before we discuss anything else, I need to address something. Mr. Okonkwo has told me that during the argument you said he should go back where he came from. That is a very serious statement. I need you to tell me plainly — is that what you said to him?'",
+                    "feedback": "Why: While the racial comment must be addressed, leading with a direct accusation before any rapport puts Mrs. Petrová on trial immediately. She will deny it or become defensive, and the conversation will become about the comment rather than the underlying conflict. Confrontation before connection rarely produces honest acknowledgment. | CONSEQUENCES: Mrs. Petrová's face goes red. 'He's twisting my words! I never — well, maybe I said something, but he provoked me! He moved my property!' She is now in full defensive mode. Every subsequent question will hit a wall. | Reflection: When you need to address a serious statement, why does sequence matter — rapport before confrontation versus confrontation first?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Let her finish without interrupting, then speak firmly but respectfully: 'Mrs. Petrová, I can see you care deeply about your place here, and fifteen years is a long time — I respect that. We'll look at the actual stall map together to sort out the space. But I also need to ask about something else. Mr. Okonkwo said some things were said during the argument that went beyond the space dispute. Can you tell me what was said?'",
+                    "feedback": "Why: This approach validates her tenure and emotional investment first — she needs to feel heard before she can hear you. Mentioning the stall map signals objectivity. Then pivoting to 'things were said' rather than 'you said racist things' gives her space to reflect rather than defend. Asking 'what was said' rather than 'did you say X' invites her version rather than demanding a confession. If she minimizes, you have room to follow up. | CONSEQUENCES: Mrs. Petrová pauses. She looks down. 'I... may have said something I shouldn't have. I was angry. He grabbed my crates and I just — I didn't mean it like that. I'm not a racist, officer. I was just angry.' This is an opening — not an excuse, but an acknowledgment you can work with. | Reflection: How does creating space for someone to acknowledge their own words produce more honest responses than demanding a confession?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Nod along patiently as she speaks, letting your body language show that you are taking her seriously. When she finishes, offer a warm, reassuring tone: 'I understand, Mrs. Petrová — fifteen years is a long time, and it's clear this market means a great deal to you. What I'm going to do right now is go look at the official stall map with Filip so we have the actual measurements in front of us. Then we'll get this whole thing straightened out properly.'",
+                    "feedback": "Why: You've validated her entirely without addressing the discriminatory language at all. By the time you return with the stall map, the racial dimension has been silently dropped. Mrs. Petrová concludes her comment was acceptable. Mr. Okonkwo concludes you didn't even ask about it. You've chosen the easy path at the cost of the harder but necessary conversation. | CONSEQUENCES: Mrs. Petrová feels vindicated. But when Mr. Okonkwo later learns you never raised the comment with her, his trust in the process collapses entirely. The space dispute may be resolved, but the deeper wound festers. | Reflection: What is the cost of avoiding a difficult conversation because the easier one is more comfortable?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Cut her off mid-sentence with a raised palm and a brisk, no-nonsense tone: 'Mrs. Petrová, I appreciate the background, but I don't need fifteen years of history right now. The question here is simple and straightforward: are your vegetable crates positioned on his allocated side of the boundary line, or are they not? Because from what I can see standing here — and I've got a pretty clear view of that chalk line — they are well over it.'",
+                    "feedback": "Why: Cutting off someone mid-explanation and immediately siding with the observable evidence is dismissive and premature. You haven't verified the allocation yet. 'I don't need the history' tells her that fifteen years of context are irrelevant. Even if the crates are over the line, her experience of the dispute matters for resolution. People comply with outcomes when they feel the process was fair — not when they feel silenced. | CONSEQUENCES: Mrs. Petrová erupts: 'You're already on his side! You haven't even looked at the map! This is exactly what I mean — everyone takes the newcomer's side now!' The crowd hears her outburst. You've made an enemy of the second party in under thirty seconds. | Reflection: What happens to mediation when one party feels you've already decided against them before hearing their full account?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Assessing the Evidence",
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Checking the Stall Map",
+                "desc": "You've asked Filip for the stall allocation map. He produces a laminated sheet from his office — it's clearly several years old, with hand-drawn amendments and sticky notes. You compare it to the actual layout. The map shows Mr. Okonkwo's stall as a rectangle that should extend 3 meters wide. Mrs. Petrová's stall is allocated the same width adjacent to his. On the ground, faded chalk lines are barely visible. Mrs. Petrová's crates extend roughly 40 centimeters past the line into Mr. Okonkwo's allocated area, compressing his display."
+            },
+            "npcDialogue": [
+                {
+                    "character": "filip",
+                    "text": "(looking at the map, sheepish) I'll be honest, officer — we haven't redrawn these markings in over a year. And when Mr. Okonkwo joined, we just... squeezed him in. I never measured properly. I know the lines are faded. I've been meaning to fix it but Saturdays are so hectic..."
+                },
+                {
+                    "character": "bystander",
+                    "text": "(a regular market customer, leaning in) Officer, if it helps — I shop here every Saturday. Mrs. Petrová has always spread out a bit, even before the fabric stall was there. And Mr. Okonkwo has been nothing but polite about it for years. This is the first time I've seen him actually angry."
+                }
+            ],
+            "prompt": "You now have objective evidence: the map, the faded lines, Filip's admission of poor management, and a bystander's observation. How do you use this information?",
+            "options": [
+                {
+                    "text": "Walk back to both vendors with the laminated map in hand and share your findings transparently: 'I've checked the map and the ground markings. Here's what I see — Mrs. Petrová, your crates are about 40 centimeters past the boundary into Mr. Okonkwo's allocated space. But the markings are faded and the map hasn't been properly updated since Mr. Okonkwo joined. The system failed both of you — this isn't entirely either person's fault. The lines should have been clear from the start.'",
+                    "feedback": "Why: Sharing evidence transparently with both parties is the gold standard for procedural fairness. Naming the specific encroachment gives Mrs. Petrová a fact she can't argue with. But immediately contextualizing it — the lines were unclear, the system failed them — prevents it from feeling like a verdict against her. 'The system failed both of you' reframes the conflict from personal blame to institutional responsibility, which opens space for a collaborative solution rather than a winner-loser outcome. | CONSEQUENCES: Mrs. Petrová looks at the ground — she can see the crates are over the line. Mr. Okonkwo nods — he's been validated, but without rubbing it in. Both look at Filip, who shifts uncomfortably. The dynamic has shifted from 'who's wrong' to 'what went wrong.' This is where mediation becomes possible. | Reflection: How does presenting facts alongside systemic context prevent a factual finding from becoming a personal attack?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Walk over to Mrs. Petrová's stall with the map unfolded and point firmly to the boundary line on the ground, then to the corresponding mark on the allocation sheet. Hold both up so she can see the comparison clearly and say in a matter-of-fact tone: 'Mrs. Petrová, the evidence here is straightforward — your crates are approximately 40 centimeters onto Mr. Okonkwo's allocated side. You need to move them back to within your own allocated space immediately so we can resolve this.'",
+                    "feedback": "Why: Factually correct but delivered as a verdict. No context about the faded lines or poor management. Mrs. Petrová hears: 'You're wrong, move.' She doesn't hear: 'The system was unclear.' This approach creates a winner and a loser — and losers don't cooperate with the resolution. She's also now humiliated in front of the crowd. | CONSEQUENCES: Mrs. Petrová moves her crates, red-faced and furious. She slams them down. Mr. Okonkwo watches quietly but takes no satisfaction — the racial comment hasn't been addressed. The space problem is technically solved but the relationship is destroyed. | Reflection: When you have evidence that supports one party, how do you present it without turning mediation into a judgment?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Pull Filip aside, out of earshot of both vendors, and speak to him bluntly but quietly: 'Filip, this is your mess. The boundary lines are so faded they're barely visible, the map is years out of date, and you squeezed Mr. Okonkwo into a spot without ever measuring properly. You need to fix all of this today — redraw the lines with clear, permanent markings, update the official allocation map, and start actually managing vendor spacing. I'll go tell them both the situation is being handled.'",
+                    "feedback": "Why: Filip does bear responsibility, and holding him accountable is important. But doing this privately and then delivering the result to both vendors as a top-down decision excludes them from the process. They don't see the evidence, don't participate in the solution, and don't hear each other acknowledged. It's efficient but not fair. | CONSEQUENCES: Filip scrambles to redraw lines. The vendors are told to 'stand by' while the new markings are laid. Neither feels heard. The space is technically correct, but neither party understands what happened or why. Mrs. Petrová feels punished. Mr. Okonkwo's racial complaint is still unaddressed. | Reflection: When a third party is responsible for the underlying problem, how do you hold them accountable while still giving the affected parties voice in the process?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Step back and address both vendors with a formal, hands-off tone: 'I've examined the allocation map and the ground markings, and there is clearly a boundary discrepancy that needs correcting. However, this is ultimately a civil matter between the two of you and the market administration. I'd strongly recommend you both sit down with Filip this afternoon and work together to get the stall lines properly redrawn. If there is any further disturbance or if the situation becomes heated again, don't hesitate to call us on the non-emergency line.'",
+                    "feedback": "Why: Passing the problem back to the management that failed to prevent it is a circular non-resolution. Filip already told you he can't manage this — that's why he called police. Telling two people in active conflict to 'work with' the person who let the conflict develop is setting them up for another confrontation. And you're leaving without addressing the racial dimension at all. | CONSEQUENCES: Both vendors stare at you in disbelief. Filip looks panicked. The crowd murmurs. You've spent fifteen minutes gathering evidence and then handed the problem back to the person who created it. Next Saturday, police will be called again — but with less trust. | Reflection: When the responsible authority has already failed, what happens when you hand the problem back to them without providing structure for the resolution?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "The Mediation",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Bringing Both Parties Together",
+                "desc": "The facts are on the table. Both parties know the crates were over the line and that the management system was unclear. Now comes the harder part — getting two people who are angry at each other to agree on a path forward. You've brought them together at a neutral spot between their stalls. Mrs. Petrová has her arms crossed. Mr. Okonkwo stands straight, watching her carefully. Filip hovers nearby. The crowd has thinned slightly but several regular customers still watch."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_petrova",
+                    "text": "(quietly, not looking at Mr. Okonkwo) Fine. The crates were over the line. I'll move them."
+                },
+                {
+                    "character": "mr_okonkwo",
+                    "text": "(steady voice) The crates are one issue. But what she said to me — that I should 'go back where I came from' — that is not about crates. I need to hear her acknowledge that."
+                }
+            ],
+            "prompt": "Mrs. Petrová has conceded on the space. Mr. Okonkwo is now raising the racial comment directly. How do you facilitate this moment?",
+            "options": [
+                {
+                    "text": "Gesture toward the cleared boundary line and address both vendors with an upbeat, let's-wrap-this-up tone: 'I think we've made real progress on the space issue, and I'm glad we got there. Mr. Okonkwo, I understand the comment hurt you deeply, and I don't dismiss that — but Mrs. Petrová has agreed to move her crates back and respect the boundary going forward. I think the best thing for both of you right now is to focus on the practical solution and move forward. Dwelling on words said in the heat of anger won't help either of you rebuild a working relationship here.'",
+                    "feedback": "Why: This equates resolving the space issue with resolving the racial harm. They are not the same. Mr. Okonkwo explicitly said the comment is a separate issue. Telling him to 'move forward' and not 'dwell on words said in anger' minimizes his experience and prioritizes your comfort over his dignity. You're asking the person who was harmed to absorb the cost for the sake of a tidy resolution. | CONSEQUENCES: Mr. Okonkwo looks at you with quiet disappointment. He nods stiffly and says nothing more. The space issue is resolved, but he leaves the market that day knowing that a police officer heard about a racist comment and chose to sweep it under the rug. He will not call police again. | Reflection: When resolving the practical problem is easier than addressing the human harm, what happens when you choose only the easy resolution?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Turn to Mrs. Petrová with a calm, measured expression: 'Mrs. Petrová — Mr. Okonkwo is raising something important. Earlier, when we spoke privately, you mentioned that things were said in the heat of the moment that you wished you hadn't said. Mr. Okonkwo has been your neighbor at this market for three years. He holds a valid permit, pays his fees, and has every right to be here — just as you do. Is there something you'd like to say to him directly?'",
+                    "feedback": "Why: This is masterful facilitation. You're not putting words in her mouth or demanding an apology — you're creating the space for one. Referencing her earlier private admission ('things were said that you wished you hadn't') reminds her of her own words without exposing them harshly. Stating the facts about Mr. Okonkwo's legitimacy removes any ambiguity about his right to be there. 'Is there something you'd like to say' gives her agency in making it right. | CONSEQUENCES: Mrs. Petrová is quiet for a long moment. Then she looks at Mr. Okonkwo — not fully, but enough. 'I shouldn't have said that. I was angry about the crates and I said something... ugly. You have every right to be here. I'm sorry.' Mr. Okonkwo nods slowly. It's not perfect, but it's genuine. Several bystanders exhale. | Reflection: How does creating space for voluntary acknowledgment produce more genuine reconciliation than demanding an apology?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Turn squarely to Mrs. Petrová, set your jaw, and address her in a firm, official tone that carries clearly to both vendors and the nearby bystanders: 'Mrs. Petrová, what you said to Mr. Okonkwo during this dispute was unacceptable. Telling another person to go back where they came from is discriminatory — full stop. He is a permit-holding vendor at this market, same as you. I need you to apologize to him right now, here, so we can move past this and begin repairing this situation.'",
+                    "feedback": "Why: The assessment is correct — the statement was discriminatory. But demanding an apology 'right now' in front of a crowd produces a coerced performance, not genuine acknowledgment. Mrs. Petrová will either refuse (escalation) or deliver a hollow, resentful apology that Mr. Okonkwo will see through immediately. Forced apologies breed more resentment than they resolve. | CONSEQUENCES: Mrs. Petrová's face contorts. 'Fine. I'm sorry. Are you happy now?' Mr. Okonkwo shakes his head sadly — he can hear the insincerity. The crowd watches an elderly woman being publicly shamed. No one feels good about this. | Reflection: What is the difference between a demanded apology and a facilitated one — and which one actually heals?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Place a reassuring hand briefly near Mr. Okonkwo's arm and redirect the conversation in a calm, professional tone: 'Mr. Okonkwo, I completely understand your feelings, and I want you to know that I've already spoken to Mrs. Petrová privately about what was said during the argument. Let me handle the interpersonal aspect through the appropriate channels separately — right now, the most productive thing we can do is lock in this space agreement with clear markings so both of you can get back to your Saturday business.'",
+                    "feedback": "Why: You're denying Mr. Okonkwo the acknowledgment he explicitly asked for. He didn't ask you to handle it — he said 'I need to hear HER acknowledge it.' Routing his need through yourself as an intermediary removes the human moment that could begin repair. 'Let me handle it separately' means it will never happen. Both parties know this. | CONSEQUENCES: Mr. Okonkwo cooperates mechanically on the space agreement. Mrs. Petrová is relieved — she never had to face what she said. The space problem is solved, but the relationship remains broken. Next Saturday, they will stand side by side in cold, bitter silence. | Reflection: When a harmed person asks for direct acknowledgment, what happens when you substitute institutional handling for human connection?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Forging the Agreement",
+            "sceneUpdate": {
+                "emoji": "📐",
+                "title": "Practical Solutions",
+                "desc": "The emotional peak has passed. Mrs. Petrová has acknowledged her comment — imperfectly, but genuinely. The space issue remains: faded lines, an outdated map, and no clear system to prevent this from recurring. Filip stands nearby, looking like he wants to disappear. Both vendors are calm but tired. The remaining bystanders watch to see whether the resolution will actually hold."
+            },
+            "npcDialogue": [
+                {
+                    "character": "filip",
+                    "text": "(quietly) I should have dealt with this months ago. I didn't know it had gotten this bad. What do you suggest, officer?"
+                }
+            ],
+            "prompt": "Filip is looking to you for a structural solution. How do you set up an agreement that will last beyond today?",
+            "options": [
+                {
+                    "text": "Turn to Filip and lay out a clear, step-by-step directive in front of both vendors: 'Filip, here's what needs to happen. First, redraw the stall boundary lines today with clear, visible markings that won't fade within a week. Second, give both Mr. Okonkwo and Mrs. Petrová a written copy of their allocation with exact measurements in centimeters. Third, post a clear dispute resolution procedure at the market entrance so vendors know exactly who to contact before things escalate to this level again. Can you commit to doing all three of these today?'",
+                    "feedback": "Why: Structural, specific, and actionable. You're addressing the root cause — unclear boundaries and no process — rather than just the symptom. Asking Filip to commit 'today' creates urgency and accountability. Written allocations give both parties a reference document, eliminating future ambiguity. A dispute procedure means Filip can't say 'work it out' next time. But you're directing Filip without consulting the vendors. | CONSEQUENCES: Filip agrees immediately — he's eager to make amends. The plan is sound, but neither vendor was asked for input. Mrs. Petrová wonders if the new lines will squeeze her. Mr. Okonkwo wonders if the written allocation will match what he was promised. The structure is right, but the buy-in is incomplete. | Reflection: When creating institutional solutions, what is the risk of designing them without input from the people they affect?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Address all three together: 'Filip, Mrs. Petrová, Mr. Okonkwo — the underlying problem here isn't either of you, it's that the system was unclear. Let's fix it together. Filip, can you redraw the lines today with proper measurements, and can both of you be present for the remeasurement so you each see and agree on the new boundaries? I'd also suggest written allocations for every vendor, and a posted dispute procedure so conflicts get resolved before they reach this point. Does that sound fair to everyone?'",
+                    "feedback": "Why: This is collaborative problem-solving at its best. Including all three parties ensures buy-in. 'The underlying problem isn't either of you' depersonalizes the fault. Having both vendors present for the remeasurement makes the new lines their agreement, not an imposition. Asking 'does that sound fair' gives each person the dignity of consent. Written allocations and a dispute procedure address the systemic failure. | CONSEQUENCES: Mr. Okonkwo nods: 'That is fair. I want to see the measurements.' Mrs. Petrová: 'Fine — as long as my space is the same as everyone else's.' Filip: 'I'll do it during lunch break — the crowd will be thinner.' All three have agreed. The resolution has structural permanence because it was co-created. | Reflection: Why does including all affected parties in designing the solution make it more likely to hold than imposing the same solution from above?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Glance between the two vendors and Filip, then speak in a blunt, wrap-it-up tone: 'Look, the lines were unclear and that's on Filip — he should have maintained them. But going forward, both of you need to stay within your allocated spaces, no exceptions. Mr. Okonkwo, if the crates cross the line again, call Filip first, not the police — give the market management a chance to handle it. And Mrs. Petrová, keep your things on your side of the boundary. This is common sense, and I shouldn't need to come back here for this.'",
+                    "feedback": "Why: 'Common sense' is dismissive — if it were common sense, they wouldn't be here. Blaming Filip publicly undermines his authority as market manager, which he needs to enforce any future rules. Telling Mr. Okonkwo to 'call Filip first' sends him back to the person who already failed him for months. No structural fix means the same faded lines and the same ambiguity next Saturday. | CONSEQUENCES: Filip flinches at being blamed publicly. Mrs. Petrová bristles at the condescension. Mr. Okonkwo knows nothing will actually change. Next Saturday, the lines are still faded, and no one knows exactly where they are. The conflict resumes in two weeks. | Reflection: What is the difference between telling people what to do and giving them a structure that makes it easy to do the right thing?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Turn to Filip with a thoughtful expression and suggest an alternative arrangement: 'Filip, I'm wondering — would it be possible to relocate one of these two stalls to a completely different section of the market? If they're no longer adjacent, there's no shared boundary to argue over, and a dispute like this simply can't happen again. You've got forty stalls here; surely there's an open spot somewhere that would work for one of them and give both parties some breathing room going forward.'",
+                    "feedback": "Why: Separation might seem logical, but it avoids the actual problem and raises a critical question: who gets moved? Moving Mr. Okonkwo — the person who was encroached upon and racially targeted — sends a devastating message: the victim gets relocated. Moving Mrs. Petrová punishes her for the dispute and separates her from fifteen years of loyal customers. Separation is what you do when resolution fails, not a substitute for attempting it. | CONSEQUENCES: Both vendors react badly. Mr. Okonkwo: 'I should not have to move because someone else violated my space.' Mrs. Petrová: 'I've been here fifteen years — I'm not going anywhere!' The suggestion unites them — against you. | Reflection: When is physical separation a resolution, and when is it an avoidance of the real problem?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Closure and Follow-Through",
+            "sceneUpdate": {
+                "emoji": "☀️",
+                "title": "Restoring the Market's Morning",
+                "desc": "The agreement is in place. Filip will redraw the lines during the lunch lull with both vendors present. Written allocations will follow. The immediate space issue has been acknowledged and will be corrected. Mrs. Petrová has moved her crates back. Mr. Okonkwo is re-arranging his display properly. The crowd has mostly returned to shopping. The tension has faded, but the morning has taken a toll on both vendors. Mrs. Petrová is quiet, focusing on her vegetables. Mr. Okonkwo is straightening his fabrics but pauses when he sees you approaching for a final word."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mr_okonkwo",
+                    "text": "(quietly, arranging a piece of ankara fabric) Officer... thank you. Not just for the space. For listening. In three years, I have never felt like anyone here took my side — or even just... treated it as equal. I came to this country to build something good. I don't want to fight. I just want to work."
+                },
+                {
+                    "character": "mrs_petrova",
+                    "text": "(from her stall, not looking over, but audible) ...His fabrics are actually quite beautiful. My granddaughter would love that blue one."
+                }
+            ],
+            "prompt": "The crisis is resolved, but how you close this encounter will determine whether it's a one-day fix or a lasting change. How do you wrap up?",
+            "options": [
+                {
+                    "text": "Approach each person individually for a brief, private closing. Smile at Mr. Okonkwo: 'You have a right to be here — don't let anyone make you feel otherwise. You handled today with real dignity.' Stop by Mrs. Petrová's stall: 'It took courage to say what you said earlier. That matters.' Pull Filip aside: 'Get those lines drawn today. If this comes back, my next conversation is with your supervisor.' Close your notes and walk the market briefly before leaving.",
+                    "feedback": "Why: This closing does everything right. It affirms Mr. Okonkwo's belonging — not as a favor, but as a fact. It acknowledges Mrs. Petrová's difficult moment of honesty without over-praising or shaming. It holds Filip accountable with a specific, proportionate consequence. Walking the market before leaving signals that you're part of this community, not just passing through. Each person gets a private, tailored closing — no one is performed at. | CONSEQUENCES: Mr. Okonkwo stands a little taller. Mrs. Petrová nods once — she heard you, and she's thinking. Filip pulls out a measuring tape before you've even left. As you walk the market, a bystander nods at you: 'Nice work, officer.' The resolution will hold because every person involved has a reason to make it work. | Reflection: Why does giving each party a personalized, private closing produce better long-term outcomes than a single group farewell?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Gather both vendors at the midpoint between their stalls and address them together in a warm, encouraging tone: 'You are neighbors at this market — you see each other every Saturday, you share the same customers, and what happened today does not have to define your relationship going forward. I'd encourage you both to give each other some grace over the coming weeks. You might find you have more in common than you think.' Nod to Filip and head out toward the market entrance.",
+                    "feedback": "Why: Warm sentiment, but generic. 'Give each other some grace' is advice, not structure. It doesn't hold Filip accountable for the follow-through. It doesn't affirm Mr. Okonkwo's specific experience or acknowledge Mrs. Petrová's specific growth. Both parties receive the same message — but they had very different experiences today. And you've left without confirming the structural plan will be executed. | CONSEQUENCES: Both vendors appreciate the sentiment, but it doesn't land the way personalized closings would. Filip breathes a sigh of relief — no accountability, no deadline. The lines may or may not get redrawn. The encounter was good, but the follow-through is left to chance. | Reflection: What is the difference between a hopeful closing and an accountable one?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Snap your notebook shut, tuck it into your vest, and address both vendors and Filip in a brisk, professional wrap-up: 'Alright, I'm satisfied this is resolved for today. If there are any further problems with the stall boundaries or any other issues between you, call the non-emergency line and we'll send someone out. Filip, make sure those lines get redrawn before next Saturday — no excuses. Have a good day, everyone.' Turn on your heel and walk back toward your vehicle.",
+                    "feedback": "Why: Transactional and impersonal. After an encounter involving racial harm, emotional vulnerability, and systemic failure, signing off with 'have a good day' feels like closing a customer service ticket. No acknowledgment of what either vendor went through. No accountability mechanism for Filip beyond 'make sure.' No warmth, no connection. | CONSEQUENCES: Both vendors feel like a case file that just got closed. Mr. Okonkwo's gratitude goes unacknowledged. Mrs. Petrová's difficult admission is unremarked. Filip's 'make sure' has no teeth. The encounter was handled competently but ended without humanity. | Reflection: When people have been vulnerable during a police encounter, what does a human closing cost you — and what does its absence cost them?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Before heading out, turn to the cluster of bystanders who have been watching and raise your voice enough for the whole area to hear: 'Folks, everything has been resolved here — just a misunderstanding about stall space and boundary markings. Both vendors are staying right where they are, and the market manager will have the allocations properly sorted out by next week. Nothing to worry about. Support your local vendors and enjoy the rest of your Saturday morning!' Give a friendly wave and walk out.",
+                    "feedback": "Why: Performing the resolution for the crowd turns a private, meaningful process into a public announcement. Calling it 'just a misunderstanding' erases the racial dimension that was central to the dispute. Mr. Okonkwo hears his experience of being told to 'go back where he came from' described as a 'misunderstanding about stall space.' That's not what happened, and minimizing it publicly undoes the progress made privately. | CONSEQUENCES: The crowd is reassured, but Mr. Okonkwo looks away. He just heard a police officer publicly define his experience as trivial. Mrs. Petrová relaxes — the public narrative makes it sound like nothing serious happened, which lets her off the hook for the growth she was beginning to make. | Reflection: When a resolution involved deeply personal dimensions, what happens when you present it publicly as something simpler than it was?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debrief",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Training Debrief",
+                "desc": "Back at the station. Sergeant Dvořáková reviews your performance in the market dispute mediation scenario."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "Market disputes test everything at once: your ability to gather facts before forming opinions, your willingness to address racial and cultural tensions rather than sidestep them, your skill at mediating between people who both believe they're right, and your capacity to build structural solutions that outlast your presence. The easy path in this scenario was to measure the lines, tell someone to move their crates, and drive away. The harder — and correct — path was to recognize that this dispute had layers: a space conflict on the surface, a management failure underneath, and a racial dimension woven through all of it. How you handled each layer, and whether you addressed them all or only the comfortable ones, determined whether this was a one-day fix or a lasting resolution. Let's look at what you did."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "This scenario tested whether you could hold three problems in your mind at once: a spatial dispute, a management failure, and a racial wound. Most officers would have addressed the crates, maybe talked to the market manager, and left feeling they did a solid job. The question is whether you also addressed the hardest part."
+                },
+                {
+                    "character": "officer",
+                    "text": "The racial comment was the part I struggled with most. I wanted to address it, but I also didn't want to turn a market dispute into something bigger than it needed to be. I kept going back and forth on how much weight to give it."
+                },
+                {
+                    "character": "instructor",
+                    "text": "That hesitation is common, and it reveals a misconception worth correcting. You said you didn't want to make the racial comment a bigger issue than it needed to be. But here is the truth: addressing the racial comment is not a side issue — it IS the main issue. Because ignoring it guarantees the conflict returns. You can redraw every stall line in that market, but if Mr. Okonkwo still feels that his neighbor views him as someone who does not belong, the crates will creep back, the tensions will simmer, and you will be called again within a month."
+                },
+                {
+                    "character": "instructor",
+                    "text": "What made this scenario exceptional was the moment Mrs. Petrová acknowledged what she said — imperfectly, reluctantly, but genuinely. That did not happen because you demanded it. It happened because you created the conditions for it. You validated her tenure, you showed her the evidence without humiliating her, and then you opened the door for her to walk through on her own. Three weeks later, she asked Mr. Okonkwo about his fabrics for her granddaughter. That is what addressing the full problem looks like. Now let me share what happened after that Saturday."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispatcher", "avatar": "📻"},
+        "mr_okonkwo": {"name": "Mr. Okonkwo (fabric seller, 50s)", "avatar": "🧔"},
+        "mrs_petrova": {"name": "Mrs. Petrová (vegetable seller, 60s)", "avatar": "👩‍🌾"},
+        "filip": {"name": "Filip Horák (market manager, 30s)", "avatar": "📋"},
+        "bystander": {"name": "Regular Customer", "avatar": "🛒"},
+        "officer": {"name": "You (officer)", "avatar": "👮"},
+        "instructor": {"name": "Sergeant Dvořáková", "avatar": "👮‍♂️"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Exceptional Impartial Mediation!",
+            "emoji": "🌟",
+            "feedback": "You demonstrated the gold standard for multi-party dispute resolution: thorough fact-finding before judgment, visible impartiality, direct but respectful engagement with the racial dimension, collaborative solution design that included all parties, and personalized closings that held each person accountable while honoring their dignity. Every bystander who watched saw policing that builds bridges rather than taking sides."
+        },
+        "good": {
+            "title": "Strong Mediation Performance",
+            "emoji": "✅",
+            "feedback": "You handled a complex, multi-layered dispute with skill, showing fairness and genuine effort to understand both parties. Some opportunities to address the cultural dimension more directly or to build more structural accountability were missed, but your approach was professional, empathetic, and solution-oriented."
+        },
+        "average": {
+            "title": "Adequate Response",
+            "emoji": "📊",
+            "feedback": "You resolved the immediate space dispute but left important dimensions unaddressed. Whether it was avoiding the racial comment, failing to build structural follow-up, or not including both parties in the solution design, the encounter resolved today's problem without fully addressing the layers beneath it. Review mediation techniques, cultural sensitivity, and structural problem-solving."
+        },
+        "poor": {
+            "title": "Needs Significant Improvement",
+            "emoji": "⚠️",
+            "feedback": "Your approach either took sides prematurely, dismissed the racial dimension, failed to gather evidence before judging, or produced a resolution that is unlikely to last beyond today. Market disputes involving cultural tensions require visible impartiality, willingness to address uncomfortable truths, and solutions that fix systems — not just symptoms. Review cultural awareness protocols, evidence-based mediation, and procedural fairness principles."
+        }
+    },
+    "metrics": {
+        "impartialMediation": {
+            "name": "Impartial Mediation",
+            "description": "Demonstrating visible fairness to all parties — listening equally, presenting evidence neutrally, and designing solutions collaboratively rather than imposing verdicts",
+            "icon": "⚖️"
+        },
+        "culturalAwareness": {
+            "name": "Cultural Awareness",
+            "description": "Recognizing and directly addressing racial and cultural dimensions of the dispute rather than avoiding or minimizing them",
+            "icon": "🌍"
+        },
+        "factFinding": {
+            "name": "Fact-Finding",
+            "description": "Gathering objective evidence — stall maps, physical layout, witness accounts — before forming conclusions or taking action",
+            "icon": "🔍"
+        },
+        "conflictResolution": {
+            "name": "Conflict Resolution",
+            "description": "Building structural, lasting agreements that address root causes rather than temporary fixes that suppress symptoms",
+            "icon": "🔧"
+        },
+        "communityTrust": {
+            "name": "Community Trust",
+            "description": "Strengthening the community's confidence in police through the quality, fairness, and humanity of this encounter",
+            "icon": "🤝"
+        }
+    }
+}

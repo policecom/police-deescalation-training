@@ -1,0 +1,436 @@
+{
+    "id": 3,
+    "title": "Youth Interaction — Park Patrol",
+    "description": "Advanced scenario involving a noise complaint about teenagers in a public park, an anxious elderly neighbor, defensive teens who fear racial profiling, and a bystander who complicates the picture. The officer must balance a legitimate noise concern against the teens' right to public space while building trust with young people whose lifelong view of police may be shaped by this single encounter.",
+    "icon": "🛹",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Sergeant Patel",
+        "avatar": "👮‍♂️",
+        "introduction": "Youth encounters are among the most consequential interactions in policing — not because they involve serious crime, but because they shape how an entire generation perceives law enforcement. Research consistently shows that adolescents who have negative police contacts develop lasting distrust that influences their cooperation, civic engagement, and even career choices for decades. Today's scenario involves a noise complaint about teenagers in a park. No crime is in progress. The caller is an elderly resident concerned about noise and unfamiliar activity. The teens are doing what teens do — socializing, skating, playing music. Your challenge is threefold: address the complainant's legitimate concern, avoid reinforcing the teens' fear that they are being profiled, and leave every young person in that park with a more positive view of police than they had before you arrived. How you handle this will matter long after the music stops."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-3-complete"],
+    "perfectBadge": "perfect-scenario-3",
+    "finalMessage": {
+        "revelation": "Marcus Williams is a 17-year-old honor student and captain of his school's debate team. He's been the informal leader of this friend group since middle school — protective, outspoken, and deeply aware of how young Black men are perceived by police. His defensiveness wasn't hostility; it was learned survival behavior from watching his older brother get stopped and frisked three times in one summer for 'fitting a description.' Jaylen Carter, 15, is Marcus's neighbor. He's a quiet kid with an anxiety disorder who moved to the neighborhood eight months ago after his parents' divorce. The skate group is his first real friend circle. When he said 'this always happens to us,' he was speaking from experience — his old neighborhood had aggressive policing, and a stop-and-frisk at age 13 left him with a lasting fear of officers. After the interaction, Marcus posted about it in a group chat with 200 teens from four schools. What he wrote shaped how those 200 young people think about police. Mrs. Chen later brought cookies to the park and introduced herself to the teens. Mr. Rivera mentioned the encounter at a neighborhood association meeting as an example of good community policing.",
+        "keyLessons": [
+            "Youth encounters shape lifelong perceptions of law enforcement — every teen contact is a trust investment or withdrawal",
+            "Defensive behavior from teens is often learned self-protection, not defiance — recognizing this changes your response",
+            "Procedural fairness means explaining why you are there before asking questions or making requests",
+            "Addressing profiling fears directly and honestly is more effective than ignoring or deflecting them",
+            "Validating a complainant's concern does not require invalidating the other party's rights",
+            "Teens who feel heard and respected become ambassadors for police legitimacy in their peer networks",
+            "The goal in non-criminal youth contacts is not compliance — it is trust"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "The Scene",
+            "sceneUpdate": {
+                "emoji": "🛹",
+                "title": "Riverside Park — Late Saturday Afternoon",
+                "desc": "You arrive at a small neighborhood park on a warm Saturday afternoon. You tap the button on your body-worn camera — the double-vibration confirms it's recording. Five teenagers sit on benches near the skate area, two others practice kickflips on the concrete path. A Bluetooth speaker plays hip-hop at moderate volume. Empty soda cans and chip bags sit on the bench. Across the street, an elderly woman watches from a third-floor apartment window. A man pushes a toddler on the swings nearby."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unit responding to Riverside Park, 45 Elm Street. Caller is Mrs. Chen at apartment 3B across the street — reports suspicious teenagers loitering in the park, loud music, possible drug activity. Caller states they've been there for over two hours. No prior calls on this group."
+                },
+                {
+                    "character": "officer",
+                    "text": "(into radio) Dispatch, Unit 14 on scene at Riverside Park, 45 Elm. I have approximately seven juveniles, skateboards and a speaker. No weapons visible, no signs of drug activity. Initiating contact on a noise complaint basis. Body camera is active."
+                }
+            ],
+            "prompt": "You've arrived at the park. You see teenagers skateboarding and socializing — no criminal activity visible. How do you approach?",
+            "options": [
+                {
+                    "text": "Walk directly to the group with purpose, shoulders squared, one hand resting on your duty belt. Stop in front of the benches and scan the faces. Ask what they're doing here and whether they live in the neighborhood — the caller mentioned suspicious activity, so establishing their reason for being in this park is the first step. Keep your tone professional but make it clear you expect answers before you decide how this goes.",
+                    "feedback": "Why: Approaching teenagers with 'what are you doing here?' and 'do you live here?' implies they need to justify their presence in a public park. You have no reasonable suspicion of criminal activity. This framing tells them they are suspects, not citizens. Research on youth policing shows that demanding justification for lawful presence is the single most damaging type of contact. | CONSEQUENCES: The teens tense up immediately. Marcus stands and crosses his arms. Jaylen shrinks behind the group. Every teen in that park has now been confirmed in their belief that police see them as problems. The interaction starts adversarial. | Reflection: When teens are doing nothing illegal in a public space, what does asking them to justify their presence communicate?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Park the cruiser a short distance away and walk toward the group casually — hands visible at your sides, relaxed posture, no hand on the belt. Take a moment to observe the scene: the music volume, the skating, the general atmosphere. Note the man with the toddler on the swings and the woman watching from above. Let your body language say 'neighbor passing through,' not 'officer on a call.' Get a full picture before engaging anyone.",
+                    "feedback": "Why: Parking at a distance avoids the intimidation of pulling up directly. Walking casually with visible hands signals you are not approaching a threat. Observing first gives you critical information: the music is moderate, the skating is on a concrete path, no drugs or alcohol visible, and a parent with a small child is comfortably using the same park. The woman in the window is likely the caller. You now have context that the dispatch description exaggerated. | CONSEQUENCES: The teens notice you but you haven't singled them out. You see Mr. Rivera pushing his daughter on the swings, relaxed, which tells you the atmosphere is not threatening. You have a complete picture before your first word. | Reflection: How does 90 seconds of calm observation change the quality of every decision that follows?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Head to Mrs. Chen's apartment first to get the full complaint before approaching the teens. Cross the street, enter her building lobby, and take detailed notes on her specific concerns — the music, the loitering, the drug suspicion. She called it in, so understanding exactly what she saw and heard will give you a solid foundation before you walk over to the group.",
+                    "feedback": "Why: Getting the complainant's full story has value, but going to her apartment first means the teens watch a police car arrive and an officer disappear into the building across the street. They know someone called about them. By the time you come out, they are anxious, defensive, or gone — and you have missed the chance to see the situation as it naturally is. | CONSEQUENCES: When you emerge from the building, Marcus says loudly: 'Here we go — somebody snitched.' Jaylen looks like he wants to run. The group's guard is fully up before you say a word. You also only have Mrs. Chen's perspective, which may be colored by bias. | Reflection: When does gathering complainant information first actually disadvantage your ability to assess the situation objectively?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Approach the man pushing his daughter on the swings first — he seems like a neutral party who has been here long enough to give you an honest read on whether the teens are actually causing problems. Walk past the group casually, stop at the swing set, and ask him in a low voice what he's observed — noise level, behavior, anything concerning. His perspective as a bystander will help you calibrate.",
+                    "feedback": "Why: Seeking a neutral perspective is smart investigative instinct. However, walking past the teens to interview another adult about them — while they watch — sends a clear message: you are gathering evidence against them. It also treats Mr. Rivera as a surveillance resource rather than a fellow park user. | CONSEQUENCES: The teens see you talking to the dad and glancing in their direction. Marcus says to the group: 'He's asking about us.' Jaylen's anxiety spikes. Mr. Rivera is helpful but uncomfortable being positioned as an informant in front of teenagers who can see the conversation. | Reflection: How does visibly gathering information about people — rather than from them — affect their willingness to engage with you?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "First Contact",
+            "sceneUpdate": {
+                "emoji": "💬",
+                "title": "The Benches — Meeting Marcus",
+                "desc": "You approach the group. Two teens stop skating and drift toward the benches. The speaker plays a Drake track at conversational volume. Marcus, 17, tall and wearing a school basketball hoodie, stands up as you get close. His posture is tense but not aggressive — arms at his sides, jaw set. The younger kids behind him watch with wide eyes. Jaylen, 15, sits on the far end of the bench, hands jammed in his pockets. You run through the mental checklist: public park, open hours, no posted sound-level violation at this volume, no drug paraphernalia visible — there is no legal basis for dispersal or detention. This is a consensual encounter, not a stop."
+            },
+            "npcDialogue": [
+                {
+                    "character": "marcus",
+                    "text": "Here we go. Why are you here? We're not doing anything wrong. This is a public park. We have every right to be here."
+                }
+            ],
+            "prompt": "Marcus is challenging you directly — not aggressively, but firmly. How do you introduce yourself and explain your presence?",
+            "options": [
+                {
+                    "text": "Raise a hand calmly, open palm, and keep your voice even and unhurried: 'You're right — this is a public park and you have every right to be here. I'm Officer [name]. I'm not here because you did anything wrong. A neighbor called about noise, and when we get a call, we come out and check on things. That's all this is. I'm not here to hassle anyone.' Hold eye contact with Marcus, steady and respectful, letting the words land.",
+                    "feedback": "Why: Affirming their right to be in the park first — before anything else — directly addresses the unspoken fear. Introducing yourself by name creates accountability and personhood. Explaining the noise complaint transparently gives them the 'why' without making them suspects. 'I'm not here to hassle anyone' names their worry and deflates it. Procedural justice research shows that explaining the reason for contact before any questioning is the strongest predictor of positive outcomes. | CONSEQUENCES: Marcus's jaw unclenches slightly. He doesn't sit down, but his posture shifts from defensive to cautious. The younger teens stop looking at each other nervously. Jaylen lifts his eyes from the ground. You have bought yourself the chance to have a real conversation. | Reflection: Why does leading with their rights — rather than your authority — change the trajectory of a youth encounter?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Stay calm and professional — feet planted, hands clasped in front of you, voice measured and neutral. Look at Marcus directly: 'I'm Officer [name]. We received a complaint about noise and activity in the park. I need to check things out. Can you tell me how long you've been here and what you're up to?' Keep your expression neutral, clipboard-ready, treating this like any other call that requires a brief interview before you can clear the scene.",
+                    "feedback": "Why: Professional and structured, but 'I need to check things out' and 'what are you up to?' frame the interaction as an investigation. Asking how long they have been here implies duration is suspicious. The teens hear: 'Someone complained and now I need to verify your story.' You have not acknowledged their right to be there or explained that no wrongdoing is apparent. | CONSEQUENCES: Marcus says flatly: 'We've been here a couple hours. Skating. Hanging out. Like we do every weekend.' The tone is cooperative but cold. The younger kids say nothing. You are getting compliance, not trust. | Reflection: What is the difference between a teen who cooperates because they feel respected and one who cooperates because they feel they have no choice?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Step past Marcus without acknowledging him and address the whole group in a louder voice, sweeping your gaze across the benches: 'Hey everyone, I'm just checking things out. Got a call about some noise.' Then, shifting to a more official tone, hands on your belt: 'Anybody got ID on them? Let me see some identification so I can get this sorted out.' Wait expectantly, scanning the group for compliance.",
+                    "feedback": "Why: Bypassing Marcus — who stepped forward as the group's spokesperson — disrespects the social dynamics. Asking for ID from teenagers who are not suspected of any crime has no legal basis in most jurisdictions and signals that this is a stop, not a conversation. 'Just checking things out' is vague and does not satisfy their right to know why police are there. | CONSEQUENCES: Marcus steps forward: 'ID? For what? We're sitting in a park.' Several teens pull out phones — not to show ID, but to start recording. Jaylen looks panicked. You have escalated a noise complaint into a confrontation about civil rights. | Reflection: Under what circumstances can you legally demand identification from someone, and what happens when you ask for it without legal basis?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Hold up both hands, palms out, and crack a half-smile — going for easygoing, non-threatening: 'Whoa, easy — I just got here. I'm not looking for trouble either. Somebody called about noise, figured I'd swing by.' Shrug casually, glance around the park as if confirming everything looks fine, and let the energy settle: 'You guys are fine.' Leave it at that — no further questions, no demands, just a brief appearance to show dispatch the call was handled.",
+                    "feedback": "Why: The casual, disarming tone humanizes you, but 'you guys are fine' closes the interaction before you have addressed the noise complaint at all. You still have a complainant watching from her window. Also, 'whoa, easy' can be read as condescending — as if Marcus was being unreasonable when he was simply asserting his rights. | CONSEQUENCES: Marcus relaxes but looks confused — if they are fine, why are you here? Mrs. Chen watches from her window, seeing an officer chat briefly and walk away without addressing her concern. Your radio crackles: she is calling again. | Reflection: How do you balance de-escalating teen defensiveness with still addressing the reason you were called?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Profiling Fears",
+            "sceneUpdate": {
+                "emoji": "😔",
+                "title": "The Benches — Jaylen Speaks Up",
+                "desc": "The initial tension has shifted but not dissolved. Marcus is watching you carefully, arms still crossed. The other teens have formed a loose semicircle — not threatening, but united. Then Jaylen, the quiet 15-year-old on the end of the bench, speaks for the first time. His voice is shaky. The other teens go silent and look at him. A thought registers in the back of your mind: if a juvenile is raising profiling concerns, department policy is clear — note it in the incident summary and flag it for your supervisor. Not because anyone did anything wrong, but because the complaint matters and the documentation protects everyone."
+            },
+            "npcDialogue": [
+                {
+                    "character": "jaylen",
+                    "text": "This always happens to us. Every time we're just hanging out somewhere, somebody calls the cops. At my old neighborhood it was worse — they used to stop us walking home from school. We weren't doing nothing then either."
+                }
+            ],
+            "prompt": "Jaylen has voiced the group's deepest fear — that they are being targeted for who they are, not what they are doing. How do you respond?",
+            "options": [
+                {
+                    "text": "Turn to face Jaylen directly — not towering over him, but at a slight angle, voice low and steady: 'I hear you. And I'm not going to pretend that doesn't happen, because it does. People call the police on young people for existing in public spaces, and that's not fair. I looked at the scene before I came over here, and I see teenagers in a park on a Saturday — which is what parks are for. I'm here because of a noise complaint, and we're going to sort that out together.'",
+                    "feedback": "Why: This is the most difficult and most important moment in the encounter. Jaylen's statement is not a complaint — it is a trauma disclosure. Acknowledging that profiling happens — without defensiveness or deflection — validates lived experience. Saying 'I see teenagers in a park, which is what parks are for' reframes their presence as normal. 'We're going to sort that out together' includes them in the solution. Research shows that police acknowledgment of bias concerns — even without admitting personal fault — is the single most powerful trust-building action with youth. | CONSEQUENCES: The park goes quiet for a moment. Jaylen looks up, surprised. Marcus unfolds his arms for the first time. A teen in the back whispers: 'Okay, he's actually listening.' You have not fixed systemic policing, but you have proven that this encounter is different. | Reflection: Why is acknowledging that profiling exists — without being defensive — more effective than insisting you personally are not biased?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Pause for a moment, looking at Jaylen with a concerned expression, then respond in an even, honest tone — choosing your words carefully: 'I understand why you might feel that way, and I'm sorry that's been your experience. I can't speak to what happened in your old neighborhood — I wasn't there. But I want you to know I'm just responding to a call today. I'm treating you the same way I'd treat anyone in this situation.' Keep your posture open, hoping the sincerity in your voice carries the message.",
+                    "feedback": "Why: Well-intentioned but falls into the 'I treat everyone the same' defense, which research shows is counterproductive with youth who have experienced profiling. It implicitly denies their experience by pivoting to your own intentions. 'I can't speak to what happened' creates distance from the systemic issue rather than engaging with it. The teens hear: 'Your past experiences are not my problem.' | CONSEQUENCES: Marcus mutters: 'That's what they all say.' Jaylen goes silent again and stares at the ground. You have not lost the group, but you have missed the moment. The wall stays up. | Reflection: When someone shares an experience of profiling, what is the difference between 'I treat everyone equally' and actually engaging with what they said?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Shift your weight, glance briefly at the group, then redirect the conversation in a firm, no-nonsense tone: 'Look, I'm not here to profile anyone. I got a noise complaint and I'm doing my job. Let's not make this bigger than it is. Can we talk about the music volume?' Gesture toward the speaker, signaling that you want to move past the emotional moment and get to the practical issue so everyone can get on with their afternoon.",
+                    "feedback": "Why: Dismissing a vulnerable moment as 'making this bigger than it is' tells Jaylen — and every teen watching — that their experiences and fears are an inconvenience to you. Rushing past emotional content to get to the transactional issue (music volume) communicates that efficiency matters more than their dignity. This is the kind of interaction teens describe in research as 'they didn't care.' | CONSEQUENCES: Jaylen shuts down completely. Marcus's jaw tightens: 'Yeah. It's never a big deal when it happens to us.' The group's guard goes back up. You can still resolve the noise issue, but you have lost the opportunity to build trust. The encounter will be remembered as another time police did not care. | Reflection: When a young person takes a risk to share something vulnerable, what does it cost you to pause and engage — and what does it cost them when you don't?",
+                    "type": "negative",
+                    "points": -10
+                },
+                {
+                    "text": "Nod sympathetically, tilt your head, and let your face soften — you genuinely feel for the kid: 'That sounds rough, man. I'm sorry you went through that. No one should have to deal with that, especially just walking home from school.' Then, leaning in slightly with what you hope reads as warmth and confidence: 'But hey, I'm one of the good ones — I'm not like that. Stick around and you'll see. I promise this is going to be different.' You mean every word.",
+                    "feedback": "Why: The empathy is genuine but 'I'm one of the good ones' is a well-documented trust killer. It asks teens to evaluate you as an individual exception rather than engaging with the systemic concern. It also puts the burden on them to verify your claim. 'You'll see' demands they extend trust that has been repeatedly violated by other officers. It centers your self-image rather than their experience. | CONSEQUENCES: Marcus almost laughs: 'They always say that too.' The group exchanges knowing looks. You have triggered a script they have heard before. Your sincerity is lost in a phrase that sounds exactly like what every dismissive officer has said. | Reflection: Why does claiming to be different from other officers usually backfire with youth who have had negative police experiences?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "The Complainant",
+            "sceneUpdate": {
+                "emoji": "🏢",
+                "title": "Mrs. Chen's Apartment — Across the Street",
+                "desc": "You step away from the group to speak with Mrs. Chen. She's come down to the lobby entrance of her building — a woman in her 70s, small, wearing a floral housecoat. She grips the door frame. Behind you, the teens watch from the park benches. Marcus keeps his eyes on you. Mr. Rivera pushes his daughter on the swings, occasionally glancing over."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_chen",
+                    "text": "Thank you for coming, officer. I don't want to cause trouble. But those kids — they're out there every weekend, the music is loud, and I don't know who they are. My husband passed last year and I'm here alone. I see them from my window and I worry. What if they're doing drugs? What if they cause trouble? I just want to feel safe."
+                }
+            ],
+            "prompt": "Mrs. Chen's complaint is driven by both a legitimate noise concern and anxiety about unfamiliar young people. How do you handle her?",
+            "options": [
+                {
+                    "text": "Speak gently, softening your posture and lowering your voice: 'Mrs. Chen, I'm sorry about your husband — living alone can make everything feel more worrying. I've been over and talked to the kids. They're local teenagers — skateboarding, listening to music, hanging out. No drugs, no trouble. The music is a bit loud and I'll address that. But I want to be honest: they have every right to use the park. Can I ask — has the noise actually been reaching your apartment, or is it more that you see them and feel uneasy?'",
+                    "feedback": "Why: Acknowledging her loss and loneliness validates the emotional root of her call — isolation and anxiety. Reporting what you actually observed (no drugs, no trouble) corrects the dispatch narrative with facts. Being honest that the teens have a right to the park sets a boundary against using police to remove people from public space. The final question — noise vs. unease — is critical: it gently invites her to examine whether her complaint is about sound or about fear of unfamiliar youth. | CONSEQUENCES: Mrs. Chen pauses. 'Well... I can hear the music sometimes. But mostly I just see them and I worry.' She's being honest — the real issue is anxiety, not noise. You now know the actual problem to solve, which is her isolation and fear, and can address the noise as the actionable piece. | Reflection: Why is it important to help a complainant distinguish between a concrete disturbance and a generalized fear — and how does that change your response?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Step closer, put on a warm, reassuring smile, and speak in your most comforting tone: 'Don't worry, Mrs. Chen. I've spoken to them and everything's under control — I'll make sure they keep the noise down. They're just kids hanging out, nothing dangerous. If they give you any more trouble, just call us again and we'll come right out. You shouldn't have to sit up there worrying.' Give her arm a gentle pat and nod toward her building, letting her know she can go back upstairs feeling safe.",
+                    "feedback": "Why: Warm and responsive, but 'if they give you any more trouble' frames the teens as a source of trouble rather than park users. Encouraging her to call again anytime essentially deputizes her as a monitor over teenagers. This creates a pattern where teens are repeatedly subjected to police contact because an anxious neighbor watches them from a window. | CONSEQUENCES: Mrs. Chen feels validated but now sees herself as a guardian against teen activity. Next Saturday, she calls again — the teens are at normal volume but she 'thought she heard something.' You have created a cycle. The teens start calling the park 'the surveillance zone.' | Reflection: What is the difference between responding to a complaint and enabling a pattern of complaints?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Keep it brief and businesslike — you've got other calls stacking up. Give a polite nod: 'I've checked it out, Mrs. Chen. The kids are just hanging around — nothing criminal going on. I'll talk to them about the noise. These things usually sort themselves out.' Glance at your watch and start turning away: 'Have a good evening.' You figure the complaint is logged, the noise will be addressed, and the matter is closed — no need to linger on the personal details she shared.",
+                    "feedback": "Why: Efficient but dismissive of the emotional content of her call. She told you about her husband's death, her loneliness, and her fear — and you responded with logistics. 'These things sort themselves out' is not reassuring to someone who feels unsafe. You have addressed the complaint but not the person. | CONSEQUENCES: Mrs. Chen nods but feels unheard. She goes back upstairs and watches from the window, more anxious than before. The noise issue may improve, but her fear remains. She will call again — not because the teens are louder, but because nothing addressed her underlying worry. | Reflection: When a complaint is driven by loneliness and anxiety, does resolving the surface issue actually solve the problem?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Square up and speak with conviction, matching her worried energy with decisive authority: 'You were absolutely right to call, Mrs. Chen. Kids shouldn't be making that kind of noise in a residential area. I'll get them to turn the music off and move along — this is supposed to be a quiet neighborhood. You shouldn't have to deal with this every weekend.' Let your certainty reassure her, making it clear that her comfort is your priority and you intend to put a stop to the disturbance immediately.",
+                    "feedback": "Why: This is the most dangerous response. 'Kids shouldn't be making noise in a residential area' — they are in a park, which exists precisely for recreation. 'I'll get them to move along' means removing teenagers from a public space because a neighbor is uncomfortable. 'You shouldn't have to deal with this' validates the idea that teens in a park are a burden. You are reinforcing bias and committing to disproportionate enforcement. | CONSEQUENCES: You return to the park and tell the teens to turn off the music and leave. Marcus erupts: 'Leave?! This is a public park!' The teens feel exactly what they feared — an adult complained and police removed them. Jaylen's eyes fill with tears. The encounter becomes the story Marcus tells for years about why police cannot be trusted. | Reflection: When you validate a complainant's framing without questioning it, whose rights get sacrificed?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Finding Balance",
+            "sceneUpdate": {
+                "emoji": "⚖️",
+                "title": "Back at the Park — Bridging the Gap",
+                "desc": "You return to the teen group. Mr. Rivera has finished at the swings and is walking his toddler toward the benches. He pauses near you and speaks quietly. The teens watch the exchange. Marcus stands with one foot on his skateboard, waiting."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dad_rivera",
+                    "text": "(quietly, as he passes) Officer — just so you know, I've been here for forty-five minutes. Those kids have been totally fine. They said hi to my daughter, picked up a ball she threw. The music's not that loud. Honestly, they're better behaved than some adults I see here."
+                },
+                {
+                    "character": "marcus",
+                    "text": "(watching you come back) So? What did the lady say? Are we getting kicked out?"
+                }
+            ],
+            "prompt": "You have the full picture now: teens with a right to be there, a noise complaint that's partly about anxiety, and a bystander confirming the teens are well-behaved. How do you broker a resolution?",
+            "options": [
+                {
+                    "text": "Be transparent with Marcus: 'Nobody's getting kicked out. Here's the situation — the neighbor across the street is an elderly woman living alone, and the music carries to her apartment. She's not out to get you — she's just worried because she doesn't know you. The noise is the one thing I can actually ask about. Would you guys be willing to turn it down a couple notches? Not off, just down. You keep skating, keep hanging out. That's your right.'",
+                    "feedback": "Why: Full transparency — sharing who complained and why — treats the teens as adults capable of empathy. Humanizing Mrs. Chen ('elderly, living alone, doesn't know you') invites compassion rather than resentment. Asking them to turn down — not off — respects their activity while addressing the one legitimate concern. Affirming 'that's your right' reinforces that this is a negotiation between equals, not an order from authority. This models procedural fairness: voice, transparency, respect, neutrality. | CONSEQUENCES: Marcus looks toward the apartment building. 'She's scared of us? We've been here every weekend for months.' A teen in the back says: 'My grandma worries about everything too.' The empathy shift is visible. Marcus reaches over and turns the speaker down without being asked again. | Reflection: What happens when you give teenagers the same contextual information you have and let them make the decision?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Cross your arms lightly, adopt a reasonable but authoritative tone, and address the group as a whole: 'Here's the deal — the noise complaint is valid, so I need you to turn the music down. Keep it at a reasonable level and we won't have any issues. You can stay — no one's kicking you out — just be mindful of the neighbors. The volume is the only problem here.' Nod toward the speaker and wait, making it clear this is a directive you expect followed promptly.",
+                    "feedback": "Why: Functional and fair on the surface, but 'here's the deal' and 'I need you to' frame this as a directive rather than a collaborative resolution. You have not shared the context — who complained or why — leaving the teens to fill in the blanks. 'We won't have any issues' is a soft threat. The teens comply, but they feel managed, not respected. | CONSEQUENCES: Marcus turns the music down without argument but says to his friends: 'Same old thing — somebody complains, we get told what to do.' Compliance without buy-in. The music stays down today, but the resentment builds. | Reflection: What is the difference between obedience and cooperation, and which one produces lasting behavior change?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Shrug it off — you've spent enough time here and the situation is clearly low-priority. Give a loose wave toward the group: 'Look, the neighbor called about noise. Just keep it down and you'll be fine. I've got other calls to get to.' Don't wait for a response. Start walking back to the cruiser at a brisk pace, pulling out your radio to check the queue. The complaint is technically addressed — you told them, they heard you, that should be enough.",
+                    "feedback": "Why: Minimizing the interaction to get to your next call treats this encounter as a checkbox. You have invested time building rapport and addressing profiling fears — and now you are throwing it away with a transactional exit. The teens learn: even when an officer seems okay, they still just want to process and leave. No lasting connection, no mediation, no resolution. | CONSEQUENCES: Marcus watches you walk away: 'That was pointless.' Jaylen says nothing. The music goes back up in ten minutes because there was no real agreement — just a passing instruction from someone who could not wait to leave. Mrs. Chen calls again at 6 PM. | Reflection: How does the amount of time you invest in closing an encounter affect whether the resolution actually holds?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Plant your feet, straighten up, and address the group in a firm, no-room-for-debate voice: 'I've heard both sides. The neighbor has a right to quiet enjoyment, so the music needs to go off. You can skate — that's fine — but the speaker stays off while you're near the residential buildings. That's non-negotiable.' Hold your ground, arms folded, making steady eye contact with Marcus to signal that this is a final ruling, not an opening for discussion.",
+                    "feedback": "Why: 'Quiet enjoyment' is a legal concept for rental properties, not public parks during daytime hours. Ordering the music off entirely — rather than asking for a reasonable volume — is disproportionate. 'Non-negotiable' removes their voice from the process entirely. Teens in a public park have a right to reasonable noise levels. This approach teaches them that police impose rules rather than facilitate solutions. | CONSEQUENCES: Marcus stares at you: 'Non-negotiable? We're in a public park, not a library.' The other teens look angry. A girl in the group says: 'My dad's a lawyer — you can't do that.' The encounter is heading toward a rights confrontation you will lose. Jaylen looks like he might cry. | Reflection: When you frame a request as non-negotiable, what does it communicate about whether the other person's perspective matters?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Building Agreement",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "The Park Benches — A Shift in Tone",
+                "desc": "The tension has eased noticeably. Marcus has turned the music down. A couple of teens have gone back to skating. Jaylen is sitting more upright on the bench. Marcus stands facing you — still guarded, but his body language has softened. He brings up an idea."
+            },
+            "npcDialogue": [
+                {
+                    "character": "marcus",
+                    "text": "Look... there's a skatepark on Miller Street, like ten minutes from here. We usually go there but it closes at six on weekends for some reason. We come here after because there's nowhere else to go. If the volume thing is the issue, we can keep it down here. Or we could just go to the skatepark if it was open later. But yeah — we'll keep it down."
+                }
+            ],
+            "prompt": "Marcus is offering a cooperative solution and sharing the real reason they come to this park. How do you respond to this opening?",
+            "options": [
+                {
+                    "text": "Nod with genuine respect: 'Marcus, I appreciate that — seriously. The skatepark closing at six on weekends makes no sense. That's a parks department issue and it's worth raising. Tell you what — I'll mention it at the next community liaison meeting. I can't promise anything, but someone should know the early closure pushes you to parks near residential areas. Keeping the volume down here is a fair deal. You've been really reasonable about this.'",
+                    "feedback": "Why: Acknowledging Marcus by name and praising his solution treats him as a civic participant, not a problem to manage. Validating that the skatepark closure is unreasonable shows you can see systemic issues, not just individual behavior. Offering to raise it at a community meeting demonstrates that you see yourself as an advocate, not just an enforcer. 'You've been really reasonable' reinforces cooperative behavior through genuine recognition. | CONSEQUENCES: Marcus blinks — he did not expect an officer to take his concern seriously, let alone offer to advocate for it. A teen behind him says: 'Wait, you'd actually do that?' The dynamic has shifted from adversarial to collaborative. Jaylen looks up and almost smiles. You have modeled what civic engagement looks like. | Reflection: What happens when a police officer treats a teenager's observation about their community as a valid civic concern?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Smile and nod along, genuinely pleased with the cooperation: 'That works for me. The volume was really the only issue, and you handled it well — I appreciate you guys being cooperative about this whole thing. The skatepark hours — that's a fair point. You could try contacting parks and rec about extending weekend hours. They have a feedback form online and they might be open to it if enough people ask. Worth a shot.' Give the group a thumbs up and let the conversation settle naturally.",
+                    "feedback": "Why: Positive and appreciative. Suggesting they contact parks and rec is reasonable but places the entire burden of civic advocacy on teenagers. You have access to community liaison channels they do not. The response is encouraging but misses the opportunity to model what it looks like when an authority figure takes your concern and acts on it. | CONSEQUENCES: Marcus nods: 'Yeah, maybe.' He is not going to call parks and rec — he is 17 and has never interacted with a city department. The immediate situation is resolved well, but the advocacy opportunity is lost. The teens leave with a decent impression but not a transformative one. | Reflection: When a teenager identifies a systemic issue, what is the difference between telling them to fix it and helping them fix it?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Give a short, satisfied nod — the problem is solved, the call is handled. Accept the deal at face value: 'Sounds good. Keep the noise down and we're all set.' Glance at your watch, then back at the group: 'You guys take care.' Turn and begin walking back to the cruiser at an easy pace. Marcus mentioned the skatepark and the closure hours, but that's a city issue — not something you can fix on a Saturday afternoon. The complaint is resolved, the teens are staying, and your radio has been quiet too long.",
+                    "feedback": "Why: Transactional closure. The problem is solved, the interaction is over, and you are moving on. But Marcus just showed vulnerability — he explained why they are here, offered a solution, and revealed a community infrastructure gap. Responding with 'sounds good, take care' treats a moment of connection as a business transaction. The teens cooperated, but you left the relationship where you found it. | CONSEQUENCES: Marcus turns to his friends: 'At least he wasn't a jerk about it.' This is the ceiling of what a transactional encounter produces — not being remembered as a jerk. Jaylen says nothing. The teens turn the music back up slightly once you are out of sight because there was no genuine buy-in, just compliance. | Reflection: When a teen opens up about their community, what do you lose by treating it as a transaction to close?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Shrug at the skatepark comment and pivot to the practical reality: 'The skatepark has its own rules and I can't do anything about that. For now, this is what we're working with. Keep the volume at this level or lower when you're here.' Then, scanning the bench area, you notice the soda cans and chip bags: 'And I'd suggest cleaning up those cans and chip bags too — littering gives people another reason to call. You don't want to give anyone extra ammunition.' Fold your arms and wait for acknowledgment.",
+                    "feedback": "Why: Adding the littering comment — when it was not part of the complaint — feels like piling on. Marcus offered cooperation and showed you the root of the problem, and your response was to add a new criticism. 'I can't do anything about that' models helplessness rather than advocacy. The teens hear: 'Your systemic concern doesn't matter to me, and by the way, you're also messy.' | CONSEQUENCES: Marcus's face hardens: 'We were going to clean up before we left. We always do.' The cooperative moment is gone. A teen grabs the trash bag they brought and holds it up: 'We have our own bags.' You assumed the worst about their habits and were wrong. Trust takes a hit at the finish line. | Reflection: When someone offers cooperation, what happens to the relationship if you respond by finding new things to criticize?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Closure",
+            "sceneUpdate": {
+                "emoji": "🌅",
+                "title": "Riverside Park — Sunset Approaching",
+                "desc": "The encounter is winding down. The music plays softly. Two teens skate lazy circles. Marcus and Jaylen sit on the bench. Mrs. Chen has stepped away from her window. Mr. Rivera waves from the path as he heads home with his daughter on his shoulders. The late afternoon light is warm. This is your last moment with the group. You make a mental note to log this as a community contact — non-enforcement, noise complaint resolved through voluntary compliance. You will include the profiling concern Jaylen raised and flag it for Sergeant Patel in your activity report."
+            },
+            "npcDialogue": [
+                {
+                    "character": "jaylen",
+                    "text": "(quietly, almost to himself but loud enough for you to hear) That wasn't as bad as I thought it was going to be."
+                },
+                {
+                    "character": "marcus",
+                    "text": "(half-smiling) Yeah, well... thanks for not being weird about it. Most of the time when cops show up we just get told to leave."
+                }
+            ],
+            "prompt": "Both Marcus and Jaylen have offered rare, vulnerable feedback. How do you close this interaction in a way that leaves a lasting positive impression?",
+            "options": [
+                {
+                    "text": "Smile genuinely: 'Thanks for saying that — both of you. Marcus, you handled this like a leader and I mean that. Jaylen, what you said earlier about how this always happens — I'm glad this time was different, and what you feel matters. If you ever have a problem in the neighborhood — not just police stuff, anything — ask for me at the station. Officer [name]. I'd rather you call us than feel like you can't. Have a good night.'",
+                    "feedback": "Why: Naming Marcus as a leader reinforces his positive identity rather than the 'troublemaker' role police encounters usually assign. Circling back to what Jaylen said earlier — without being patronizing — shows you were genuinely listening and that his words had impact. Offering your name and an open door transforms a one-time encounter into a standing relationship. 'I'd rather you call us than feel like you can't' directly addresses the core problem of youth-police relations: the belief that police are not for them. This is how you build a bridge that outlasts a single Saturday. | CONSEQUENCES: Jaylen looks at you for the first time with something other than fear. Marcus nods slowly — the kind of nod that means something. As you walk away, you hear a teen say: 'That was actually okay.' Marcus posts in a group chat that night: 'Had a cop come to the park today. Actually listened to us. Gave us his name.' Two hundred teenagers read that message. | Reflection: What is the long-term value of one positive police-youth encounter, and how far does it ripple?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Respond warmly, relaxing your posture and letting a genuine smile come through: 'I appreciate you guys being cool about it. Seriously — most people don't realize we don't want these calls to be a big deal either. You're good kids — enjoy the rest of your evening.' Then, with a playful grin as you start backing away: 'And keep that music down!' Give a friendly wave and head out, feeling good about how it went, satisfied that the tone stayed light from beginning to end.",
+                    "feedback": "Why: Warm and human, with genuine rapport. But 'you're good kids' is subtly patronizing — it implies you have evaluated and approved of them, which reinforces a power dynamic. 'Keep that music down!' as a parting shot — even playfully — makes the last word about compliance rather than connection. The interaction ends well but does not reach its full potential. | CONSEQUENCES: Marcus chuckles at the music comment. The teens feel okay about the encounter — not great, not bad. It will be remembered as 'that time a cop was pretty chill.' A decent outcome, but not the kind that changes how they think about police. | Reflection: What is the difference between an encounter that was 'not bad' and one that changes someone's assumptions about police?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Nod professionally, squaring your shoulders and clasping your hands in front of you — the standard posture for wrapping up a call: 'Glad we could work it out. Remember — if there are any issues, keep the noise reasonable and you won't hear from us. Take care.' Turn crisply and walk back to the cruiser at a steady pace. Log the contact in your head as resolved. No names exchanged, no follow-up offered — just a clean close to a routine noise complaint.",
+                    "feedback": "Why: Professional and inoffensive but entirely transactional. 'You won't hear from us' frames police contact as a negative consequence to avoid rather than a resource to access. There is no personal connection, no acknowledgment of the vulnerable moments that occurred, and no bridge to the future. The interaction resolves cleanly but leaves no lasting impact. | CONSEQUENCES: Marcus says 'later' without looking up. Jaylen says nothing. The encounter becomes a neutral data point — not negative, but not positive either. In a world where youth need reasons to trust police, neutral is a missed opportunity. | Reflection: When the bar for youth-police relations is so low that 'not bad' feels like a win, what does it take to actually raise it?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Lean against the bench railing, going for a casual, relatable vibe — trying to connect on a personal level: 'Hey, I used to skate when I was your age — believe it or not. Spent half my summers in parks just like this one. You guys remind me of my crew.' Then, shifting to a more earnest, fatherly tone: 'Just stay out of trouble, alright? The world's hard enough without getting a record. Trust me on that.' You give Marcus a knowing look, hoping the life advice lands as genuine concern rather than a lecture.",
+                    "feedback": "Why: The intent is connection, but 'stay out of trouble' and 'without getting a record' introduce criminality into a conversation about teenagers in a park. They were never in trouble. They were never at risk of getting a record. Projecting criminal risk onto teens who were simply existing in public space is exactly the dynamic they feared. The nostalgia ('I used to skate') centers your story rather than theirs. | CONSEQUENCES: Marcus's face goes flat: 'Stay out of trouble? What trouble? We were hanging out in a park.' Jaylen flinches at 'getting a record.' The final impression undoes the goodwill you built. The teens leave remembering not your empathy but the implication that they are one bad choice away from the justice system. | Reflection: Why does warning teens about trouble they were never in reinforce the very profiling narrative you spent the encounter trying to counter?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debrief",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Station Debrief — Training Room",
+                "desc": "Back at the station. Sergeant Patel reviews your performance in this youth interaction scenario, focusing on how you balanced the noise complaint, the teens' profiling fears, the complainant's anxiety, and the long-term impact on youth-police trust."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "This scenario tests something that doesn't show up in crime statistics but defines community policing for a generation: how you treat young people who haven't done anything wrong. Every choice you made — from your approach, to how you handled the profiling conversation, to your last words — either deposited trust or withdrew it. Let's review what happened."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "You walked into a park full of teenagers doing exactly what teenagers should be doing — socializing in a public space on a Saturday. The dispatch said 'suspicious activity.' Your eyes said 'kids in a park.' How you reconciled those two things determined everything that followed. Let's unpack the decisions that mattered most."
+                },
+                {
+                    "character": "officer",
+                    "text": "The moment that got me was Jaylen. When he said 'this always happens to us,' I wanted to say the right thing, but I also didn't want to speak for experiences I haven't lived. I wasn't sure how far to go."
+                },
+                {
+                    "character": "instructor",
+                    "text": "And that uncertainty is exactly right — because the wrong response to that moment is pretending you have all the answers. The goal is not to be 'one of the good ones.' That phrase is a trap — it asks the teens to evaluate you as an individual exception rather than engaging with the systemic concern they raised. The real goal is to make the system less harmful one encounter at a time. You do not fix policing in one park visit. But you can make sure that this particular group of teenagers walks away with one data point that contradicts their worst assumptions."
+                },
+                {
+                    "character": "instructor",
+                    "text": "One more thing — your activity log notation was smart. Documenting this as a non-enforcement community contact, including Jaylen's profiling concern and flagging it up the chain, that protects everyone. It protects you, it protects the teens, and it creates a record that the department took the concern seriously. Too many officers treat paperwork on non-arrest contacts as optional. It is not. That documentation is what turns a single good encounter into institutional accountability."
+                },
+                {
+                    "character": "instructor",
+                    "text": "And here is something most officers miss: Marcus's group chat reached two hundred teenagers that night. What he wrote about this encounter shaped how two hundred young people across four schools think about police. That is not a metaphor — that is the actual mechanism by which trust or distrust propagates through a community. Your single Saturday afternoon had a multiplier effect you will never fully see. Now let me tell you what happened after you left that park."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "officer": {
+            "name": "You (Officer)",
+            "avatar": "👮"
+        },
+        "dispatcher": { "name": "Dispatcher", "avatar": "📻" },
+        "marcus": { "name": "Marcus Williams (teen, 17)", "avatar": "🧑‍🦱" },
+        "jaylen": { "name": "Jaylen Carter (teen, 15)", "avatar": "👦" },
+        "mrs_chen": { "name": "Mrs. Chen (neighbor, 70s)", "avatar": "👵" },
+        "dad_rivera": { "name": "Mr. Rivera (bystander, dad)", "avatar": "👨‍👧" },
+        "instructor": { "name": "Sergeant Patel", "avatar": "👮‍♂️" }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Exceptional Youth Engagement",
+            "emoji": "🌟",
+            "feedback": "You demonstrated the gold standard for non-criminal youth contacts: calm assessment before engagement, transparent explanation of your presence, genuine acknowledgment of profiling fears, empathetic handling of an anxious complainant, collaborative mediation, and a closing that left every teenager in that park with a fundamentally better view of law enforcement. Marcus's group chat message will reach 200 teens across four schools. That is the ripple effect of one exceptional encounter."
+        },
+        "good": {
+            "title": "Strong Youth Interaction",
+            "emoji": "👍",
+            "feedback": "You handled a nuanced multi-party situation well, maintaining professionalism while showing genuine care for the teens' experience. You resolved the noise concern without alienating the young people. Some opportunities for deeper connection or more impactful closure were missed, but your approach was respectful and proportionate — the teens will remember this as a positive encounter."
+        },
+        "average": {
+            "title": "Adequate but Surface-Level",
+            "emoji": "📋",
+            "feedback": "You resolved the noise complaint without major incident, but missed critical opportunities in the encounter — particularly around addressing profiling fears, humanizing the complainant to the teens, or building a lasting bridge. The teens left the park with compliance but not trust. In youth policing, an encounter that is merely 'not bad' is a missed opportunity."
+        },
+        "poor": {
+            "title": "Needs Significant Improvement",
+            "emoji": "⚠️",
+            "feedback": "Your approach reinforced the very dynamics this scenario was designed to test. Whether through demanding justification for lawful presence, dismissing profiling concerns, over-validating the complainant, or leaving with implied threats, the teens in this encounter left with a worse view of police than when you arrived. In youth contacts, that damage compounds — review adolescent development research, procedural justice principles, and the long-term impact of police contacts on youth."
+        }
+    },
+    "metrics": {
+        "youthEngagement": {
+            "name": "Youth Engagement",
+            "description": "Communicating with teenagers respectfully and age-appropriately — treating them as people, not problems",
+            "icon": "🧑‍🤝‍🧑"
+        },
+        "proceduralFairness": {
+            "name": "Procedural Fairness",
+            "description": "Explaining why you are there, being transparent about the complaint, and giving voice to all parties before making decisions",
+            "icon": "⚖️"
+        },
+        "communityMediation": {
+            "name": "Community Mediation",
+            "description": "Balancing the complainant's legitimate concern with the teens' right to public space — finding solutions that respect both",
+            "icon": "🤝"
+        },
+        "profilingAwareness": {
+            "name": "Profiling Awareness",
+            "description": "Recognizing and honestly addressing the teens' fear of being targeted, without defensiveness or deflection",
+            "icon": "🔍"
+        },
+        "trustBuilding": {
+            "name": "Trust Building",
+            "description": "Leaving youth with a more positive view of police than they had before the encounter — creating ambassadors rather than adversaries",
+            "icon": "🌱"
+        }
+    }
+}

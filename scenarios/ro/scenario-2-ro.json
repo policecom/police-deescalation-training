@@ -1,0 +1,445 @@
+{
+    "id": 2,
+    "title": "Negocierea unei plângeri de zgomot la hostel",
+    "description": "Scenariu avansat care implică o plângere de zgomot târziu în noapte la un hostel din oraș, unde un grup de backpackeri internaționali sărbătoresc zgomotos într-o cameră comună. Ofițerul trebuie să echilibreze interese concurente — oaspeți frustrați ai hotelului, o recepționeră de noapte prinsă la mijloc, diferențe culturale, implicarea alcoolului și linia fină dintre aplicarea legii și normele de ospitalitate — toate acestea menținând limite profesionale într-un cadru comercial.",
+    "icon": "🏨",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Sergent Novak",
+        "avatar": "👮‍♂️",
+        "introduction": "Plângerile de zgomot în spații de cazare comune sunt printre cele mai frecvente și mai nuanțate apeluri pe care le veți gestiona. Se află la intersecția regulilor proprietății private, a legislației ordinii publice, a culturii ospitalității și a conflictului interpersonal. În seara aceasta răspundeți la un hostel — un loc unde necunoscuți din țări diferite, cu așteptări diferite, împart pereți și spații comune. Reclamantul este un om de afaceri cu o nevoie legitimă de liniște. Sursa zgomotului este un grup de tineri backpackeri care cred că fac exact ceea ce există hostelurile. Iar prinsă între ei este o recepționeră cu autoritate limitată care v-a sunat pentru că a rămas fără opțiuni. Provocarea dumneavoastră nu este să alegeți o parte. Este să găsiți o rezoluție care respectă nevoile legitime ale tuturor, menține proporționalitatea și lasă fiecare parte să simtă că a fost ascultată. Intervenția dură va înstrăina grupul și poate deveni virală. Evitarea pasivă va dezamăgi reclamantul și recepționera. Punctul optim se află undeva la mijloc — iar modul în care îl găsiți vă va defini eficiența."
+    },
+    "timedChoices": true,
+    "completionBadges": [
+        "scenario-2-complete"
+    ],
+    "perfectBadge": "perfect-scenario-2",
+    "finalMessage": {
+        "revelation": "Grupul de backpackeri călătorise împreună de trei săptămâni prin Europa. În seara aceasta era ultima lor noapte înainte de a se despărți — Liam înapoi la Melbourne, Priya la un stagiu de cercetare la Berlin, ceilalți răspândindu-se pe continente. Sărbătoreau sfârșitul unei călătorii planificate timp de doi ani. Zgomotul lui Liam masca o tristețe autentică legată de destrămarea grupului. Priya încercase să-i determine pe ceilalți să fie mai liniștiți de peste o oră înainte de sosirea dumneavoastră, dar nu vroia să strice atmosfera. Prezentarea de a doua zi dimineață a domnului Kimura era pentru un contract în valoare de trei ani de venituri ale diviziei sale — stresul din spatele furiei sale era enorm. Marta, recepționera, lucrase ture de noapte singură timp de șase luni și ceruse conducerii în mod repetat politici mai clare privind zgomotul și mai multă autoritate de a gestiona disputele; nu primise nici una. După intervenția dumneavoastră, grupul și-a mutat petrecerea de rămas-bun într-o cafenea din apropiere deschisă noaptea. Domnul Kimura a dormit bine și și-a reușit prezentarea. Marta a depus o propunere formală la conducere pentru o politică de zgomot, citând vizita dumneavoastră ca și catalizator. Liam a postat pe un forum de călătorie: „Am primit vizita poliției în ultima noastră noapte — și sincer, ofițerul a fost genial în privința asta.”",
+        "keyLessons": [
+            "În spațiile de cazare comună, atât grupul zgomotos cât și reclamantul au adesea poziții legitime — rezoluția necesită recunoașterea ambelor",
+            "Așteptările culturale privind zgomotul, socializarea și autoritatea poliției variază enorm — ceea ce pare normal pentru o persoană pare scandalos pentru alta",
+            "Spațiile comerciale precum hostelurile au propria responsabilitate pentru politici și aplicarea lor — rolul poliției este de a sprijini, nu de a înlocui, managementul privat",
+            "Implicarea alcoolului necesită comunicare calibrată — nu acuzație, ci conștientizarea faptului că oamenii procesează informațiile diferit când consumă alcool",
+            "Identificarea persoanelor cooperante din cadrul unui grup (precum Priya) și abilitarea lor ca aliați este mai eficientă decât confruntarea celei mai zgomotoase voci",
+            "Limitele profesionale contează — a accepta o băutură, a te alătura petrecerii sau a lua partea cuiva subminează autoritatea și neutralitatea dumneavoastră",
+            "Urmărirea cu toți cei implicați — nu doar cu sursa zgomotului — construiește încredere și previne apelurile repetate"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Sosirea la hostel",
+            "sceneUpdate": {
+                "emoji": "🏨",
+                "title": "Hostelul din oraș — Recepția",
+                "desc": "Vineri noapte, 23:40. Ajungeți la un hostel de nivel mediu din oraș. Prin ușile de sticlă auziți deja muzică bubuind de undeva mai adânc în clădire. Zona de recepție este curată dar uzată — canapele tocite, un panou comunitar acoperit cu fluturași de tururi. O femeie de aproximativ 40 de ani de la recepție vă face semn urgent să intrați. Pare epuizată și ușurată să vă vadă."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unitate care răspunde la o plângere de zgomot la Europa Hostel, Havlíčkova 34. Recepționera de noapte raportează un grup de oaspeți care dau muzica tare și refuză să dea volumul mai încet în ciuda cererilor repetate. Mai mulți oaspeți s-au plâns. Recepționera raportează că nu există violență sau amenințări, dar situația escaladează pe măsură ce mai mulți oaspeți devin nemulțumiți."
+                },
+                {
+                    "character": "marta",
+                    "text": "Slavă Domnului că ați venit. Sunt Marta, recepționera de noapte. Este un grup de șase backpackeri în camera comună — fac petrecere cam de pe la nouă. Muzică, cântat, băut. I-am rugat de trei ori să fie mai liniștiți. Prima dată au dat muzica mai încet cam zece minute, apoi volumul a crescut din nou. A doua oară australianul — Liam — doar a râs și a zis „E un hostel, nu o bibliotecă.” A treia oară mi-a spus să mă relaxez. Am primit patru plângeri de la alți oaspeți, iar un om de afaceri japonez amenință că pleacă și cere rambursarea. Nu am autoritatea să-i dau afară — asta e decizia managerului și ea nu răspunde la telefon. Nu am știut ce altceva să fac."
+                }
+            ],
+            "prompt": "Marta v-a oferit un raport detaliat. Cum vă începeți abordarea?",
+            "options": [
+                {
+                    "text": "Îi faceți Martei un semn scurt din cap și porniți hotărât pe hol direct spre camera comună, urmărind basul care bubuie din ce în ce mai tare. Mergeți cu pași rapizi, umerii drepți, fără să vă opriți să mai puneți întrebări suplimentare. Situația pare destul de clară din ce v-a spus deja recepționera, iar fiecare minut petrecut la recepție este un minut în care ceilalți oaspeți nu pot dormi. Cu cât ajungeți mai repede la sursa zgomotului, cu atât mai repede se rezolvă totul — sau cel puțin așa gândiți pe moment, fără a vă pregăti un plan concret de abordare.",
+                    "feedback": "De ce: A merge direct la sursa zgomotului fără a aduna mai mult context înseamnă că intrați într-o cameră plină de oameni care beau și sărbătoresc ca o figură de autoritate neinformată. Nu cunoașteți politica de zgomot a hostelului, autoritatea reală a Martei, dacă există bariere lingvistice sau cum arată dinamica grupului. Rapiditatea pare eficientă dar vă costă pregătirea. | CONSECINȚE: Deschideți ușa camerei comune. Șase fețe surprinse se întorc spre dumneavoastră. Liam ridică berea în semn de salut ironic. Nu aveți plan, niciun context privind politicile și nicio înțelegere a cine este cine. Grupul vede un ofițer de poliție care a intrat căutând probleme. | Reflecție: Cum afectează intrarea într-o situație fără pregătire capacitatea dumneavoastră de a o controla?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă sprijiniți calm de tejgheaua recepției, mențineți vocea profesională și liniștitoare, și îi puneți Martei o serie de întrebări de urmărire esențiale: Hostelul are o politică de zgomot afișată sau ore oficiale de liniște? Care este data de check-out a grupului? Sunt toți într-o singură cameră? A fost cineva din grup agresiv sau doar zgomotos? Ce anume vrea omul de afaceri — liniște, rambursare, sau expulzarea grupului? Scoateți carnetul și notați detaliile cheie pe măsură ce Marta răspunde, construindu-vă o imagine completă înainte de a face următorul pas.",
+                    "feedback": "De ce: Excelentă culegere de informații. Cunoașterea politicii de zgomot determină dacă aplicați regulile interne sau legislația ordinii publice — autorități foarte diferite. Data de check-out vă spune dacă aceasta este o problemă de o noapte sau recurentă. Distingerea între „agresiv” și „zgomotos” vă modelează abordarea. Înțelegerea cererii specifice a omului de afaceri vă împiedică să presupuneți. Această pregătire costă două minute și economisește douăzeci. | CONSECINȚE: Marta vă spune că orele de liniște sunt de la 23 conform termenilor rezervării — deja s-a trecut de acea oră. Grupul face check-out mâine. Sunt într-un dormitor de șase paturi dar petrecerea este în camera comună. Nimeni nu a fost amenințător, doar disprețuitor. Domnul Kimura vrea liniște — nu a cerut specific expulzarea. Intrați în situație informat și calibrat. | Reflecție: Cum schimbă două minute de pregătire calitatea fiecărei decizii care urmează?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Încrucișați brațele și clătinați ușor din cap, adoptând un ton pragmatic și detașat. Îi explicați Martei că aceasta este de fapt o problemă de management intern — ar trebui să continue să încerce să-și contacteze managerul și să gestioneze situația ca pe o chestiune internă a hostelului. Precizați că nu puteți aplica reguli private de zgomot, că asta intră sub politicile proprii ale hostelului, și că cel mai bun curs de acțiune este ca managementul să decidă dacă avertizează sau expulzează oaspeții. Vă întoarceți deja spre ușă.",
+                    "feedback": "De ce: Este adevărat că politicile de zgomot ale hostelului sunt reguli private. Dar Marta a sunat la poliție pentru că și-a epuizat propriile opțiuni. A-i spune să continue să încerce un manager care nu răspunde o lasă blocată cu o situație care se înrăutățește. Ați fost dispecerizat pentru acest apel — a-l respinge dăunează încrederii ei în poliție și lasă alți oaspeți să sufere. Zgomotul după ora 23 poate intra și sub incidența ordonanțelor municipale privind zgomotul. | CONSECINȚE: Fața Martei se lungește. Ea spune: „Dar nu mă ascultă. Ce ar trebui să fac?” Plecați. Douăzeci de minute mai târziu, domnul Kimura sună el la poliție, și mai furios. O altă echipă răspunde și găsește o situație mai gravă. | Reflecție: Chiar și când jurisdicția este împărțită cu managementul privat, care este costul de a pleca de la cineva care a cerut ajutor?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Ridicați o mână liniștitoare și o priviți pe Marta cu o expresie caldă, sigură. Îi mulțumiți sincer că a sunat și o asigurați că vă veți ocupa de aici — nu mai trebuie să-și facă griji. O rugați să vă indice direcția spre camera comună, ca să puteți merge să evaluați situația din prima mână și să vă prezentați grupului. Vă ajustați vesta, îi dați un semn din cap încrezător și porniți în direcția pe care v-o arată, fără a întreba nimic suplimentar despre politicile hostelului, orele de liniște sau ce vor concret ceilalți oaspeți.",
+                    "feedback": "De ce: Profesional și liniștitor pentru Marta, ceea ce este bine — a fost sub stres ore în șir. Dar „mă voi ocupa” este vag și creează o așteptare pe care s-ar putea să nu o puteți îndeplini. Nu ați întrebat despre orele de liniște, politici sau plângerile specifice. Vă îndreptați într-acolo cu intenții bune dar informații puține. | CONSECINȚE: Mergeți spre camera comună cu o idee generală a problemei dar fără detalii specifice despre politici, compoziția grupului sau ce anume vor reclamanții. Funcțional, dar veți aduna informații din mers într-o cameră plină de oameni care au băut. | Reflecție: Când asigurați pe cineva că vă veți „ocupa”, ce așteptare creează aceasta și puteți livra întotdeauna?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Reclamantul",
+            "sceneUpdate": {
+                "emoji": "😤",
+                "title": "Hol — Frustrarea domnului Kimura",
+                "desc": "Pe când vă deplasați de la recepție spre camera comună, o ușă se deschide în hol. Un bărbat de aproximativ 50 de ani iese în halat de hotel, arătând epuizat. Camera lui este direct deasupra camerei comune. Vă vede uniforma și vă interceptează imediat. Engleza lui este precisă dar cu accent, postura rigidă în ciuda epuizării. Face o ușoară plecăciune înainte de a vorbi — un reflex de formalitate. Frustrarea lui este abia conținută sub o fațadă de calm, dar observați că mâinile îi tremură ușor. În cultura japoneză, faptul că vă confruntă direct — în loc să gestioneze asta privat prin management — semnalează cât de disperată a devenit situația."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mr_kimura",
+                    "text": "Ofițer. Vă mulțumesc că ați venit. Sunt Takeshi Kimura. Am o prezentare foarte importantă mâine dimineață la ora 8 — o conferință la Hilton. Am ales în mod specific o cameră privată în acest hostel pentru că hotelurile de conferință erau complet rezervate. Nu am putut dormi de trei ore. Muzica, țipetele — trec prin podea. Am rugat recepționera în mod repetat. Nimic nu se schimbă. Am plătit pentru o cameră. Am dreptul să dorm. În țara mea asta nu ar fi tolerată niciodată. Acești oameni nu au nicio considerație pentru ceilalți. Vreau să fie scoși din clădire în seara aceasta."
+                }
+            ],
+            "prompt": "Domnul Kimura este politicos formal dar profund frustrat și cere ca grupul să fie expulzat. Directitatea lui în sine semnalează cât de departe a fost împins dincolo de zona lui de confort. Cum răspundeți?",
+            "options": [
+                {
+                    "text": "Îi potriviți formalitatea, vorbind cu respect calm și măsurat: „Domnule Kimura, înțeleg — a pierde somnul înainte de o prezentare importantă este extrem de frustrant. Iau plângerea dumneavoastră în serios și mă voi ocupa personal. Pot să întreb: preocuparea principală este oprirea zgomotului, sau aveți nevoie specific ca grupul să fie îndepărtat? Ar putea exista mai multe modalități de a rezolva situația. Voi reveni la ușa dumneavoastră după aceea pentru a confirma că totul s-a rezolvat.”",
+                    "feedback": "De ce: Validează frustrarea lui în mod autentic — menționarea prezentării arată că ați ascultat. Potrivirea registrului formal arată conștientizare culturală. „Iau plângerea dumneavoastră în serios” abordează direct teama că nimeni nu va acționa. Promisiunea de a reveni la ușa lui este critică — în cultura de afaceri japoneză, urmărirea și responsabilitatea personală au o greutate enormă. Întrebarea cheie separă nevoia lui (somn) de soluția propusă (expulzare), extinzându-vă opțiunile. | CONSECINȚE: Domnul Kimura face o pauză. Promisiunea de a reveni personal îl liniștește — așa funcționează responsabilitatea în lumea lui. Admite: „Am nevoie doar să se oprească. Trebuie să dorm. Dacă pot fi liniștiți, este suficient.” Cererea lui se atenuează de la expulzare la liniște. Ați câștigat încrederea prin sensibilitate culturală. | Reflecție: De ce este separarea nevoii de bază a cuiva de cererea declarată una dintre cele mai puternice tehnici de negociere — și cum modelează conștientizarea culturală modul în care o livrați?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Dați din cap ferm și vă plantați picioarele solid, îndreptându-vă umerii pentru a proiecta autoritate decisivă. Îl priviți pe domnul Kimura direct în ochi și vorbiți cu convingere clară: „Vă aud, domnule Kimura. Este inacceptabil. Aveți tot dreptul să dormiți în camera pentru care ați plătit, și înțeleg că prezentarea de mâine este critică. Mă duc acolo chiar acum și mă asigur că se oprește imediat. Nu veți mai fi deranjat în seara aceasta.” Tonul dumneavoastră nu lasă loc de ambiguitate — faceți o garanție personală.",
+                    "feedback": "De ce: Validant și decisiv — domnul Kimura se simte auzit. Dar „mă voi asigura că se oprește imediat” este o promisiune pe care s-ar putea să nu o puteți ține instantaneu. Dacă grupul rezistă, negocierea durează, iar răbdarea domnului Kimura este acum calibrată la „imediat”. Ați încadrat de asemenea situația ca unilaterală înainte de a auzi cealaltă parte. | CONSECINȚE: Domnul Kimura dă din cap, satisfăcut — deocamdată. Dar așteptarea lui este setată: liniște imediată. Dacă negocierea cu grupul durează douăzeci de minute, va fi din nou pe hol, și mai furios. Ați schimbat liniștire pe termen scurt contra unui termen mai strâns. | Reflecție: Când promiteți viteză pentru a satisface o persoană supărată, cum vă limitează asta capacitatea de a găsi o soluție gândită?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Ridicați ambele mâini într-un gest calm și adoptați un ton măsurat, explicativ, alegând fiecare cuvânt cu precizie birocratică: „Domnule Kimura, înțeleg că este frustrant. Totuși, trebuie să fiu transparent — îndepărtarea oaspeților dintr-o unitate privată nu este o decizie a poliției, ci a managementului hostelului. Ce pot face este să vorbesc cu grupul despre zgomot. Dar expulzarea este între dumneavoastră și hostel. V-aș sugera să continuați să contactați managerul direct pentru acea cerere specifică.”",
+                    "feedback": "De ce: Tehnic corect — evacuarea este o decizie de management. Dar a începe cu ce nu puteți face, unui bărbat care nu a dormit de trei ore înaintea unei prezentări decisive pentru carieră, pare o deviere birocratică. Nu-l interesează limitele jurisdicționale; îl interesează să doarmă. Mai rău, pentru cineva dintr-o cultură unde cererea ajutorului poliției necesita deja depășirea unui disconfort semnificativ, a fi refuzat echivalează cu o pierdere a demnității pentru că a cerut. Ați abordat cererea lui declarată dar ați ignorat nevoia reală. | CONSECINȚE: Fața domnului Kimura se încordează. „Deci nici poliția nu poate ajuta.” Se retrage în cameră simțind că nimeni — nici recepționera, nici poliția — nu-i poate rezolva problema. A pierdut demnitatea cerând ajutor care a fost refuzat. Frustrarea lui se transformă în resemnare, care este mai rea decât furia. | Reflecție: Când cineva este în suferință, ce se întâmplă când începeți cu limitările procedurale în loc de empatie — mai ales când cererea de ajutor era deja dificilă cultural pentru el?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Ridicați ușor din umeri și înclinați capul cu o expresie compătimitoare dar ușor disprețuitoare. Vorbiți pe un ton care se vrea practic dar care aterizează ca patronaj: „Domnule, vă apreciez frustrarea, dar aceasta este un hostel — spațiile comune și un oarecare zgomot vin la pachet. Nu este un hotel de patru stele. Poate ați putea încerca dopuri de urechi? Recepția ar putea avea. Voi trece pe acolo și le cer grupului să fie mai liniștiți, dar sincer, nu pot garanta tăcerea într-un loc ca acesta.”",
+                    "feedback": "De ce: A sugera dopuri de urechi unui om care nu a dormit de trei ore este disprețuitor și condescendent. „Acesta este un hostel” îi spune efectiv unui oaspete plătitor că plângerea lui este invalidă din cauza locului pe care l-a ales. Ați luat partea celor zgomotoși înainte de a-i cunoaște. Pentru domnul Kimura în special, a fi respins public după ce a depășit reticența culturală de a cere ajutor este profund umilitor — o pierdere a demnității care nu va fi uitată. Domnul Kimura a rezervat specific o cameră privată și a depășit orele de liniște ale hostelului. Plângerea lui este legitimă. | CONSECINȚE: Domnul Kimura se uită la dumneavoastră, apoi spune cu furie liniștită: „Înțeleg. Voi scrie departamentului dumneavoastră și conducerii hostelului. Noapte bună, ofițer.” Ușa se închide. Ați pierdut încrederea unui participant în treizeci de secunde și l-ați făcut să piardă demnitatea — ceva ce cultura lui consideră o ofensă gravă. | Reflecție: Când minimizați plângerea legitimă a cuiva, ce vă costă în termeni de cooperare și încredere — și cât de mult se agravează când cultura persoanei face actul de a se plânge un pas extraordinar?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Camera comună",
+            "sceneUpdate": {
+                "emoji": "🎶",
+                "title": "Camera comună — Petrecerea",
+                "desc": "Deschideți ușa camerei comune. Scena este exact ce vă așteptați și chiar mai mult. Un difuzor Bluetooth pe masă pompează muzică rock la volum considerabil. Șase persoane între 20 și 30 de ani sunt răspândite prin cameră — două dansează, unul cântă la chitară, ceilalți stau cu beri. Masa este plină de sticle, ambalaje de gustări și cărți de joc. Un bărbat înalt, ars de soare, australian, în maieu, vă observă primul și izbucnește într-un zâmbet uriaș. Numărați cel puțin douăsprezece sticle goale de bere pe masă și observați că o persoană din spate se leagănă ușor chiar stând jos. Camera miroase puternic a bere și mâncare la pachet. O femeie indiană mai liniștită de lângă fereastră ridică privirea de pe telefon cu o expresie pe jumătate jenă, pe jumătate ușurare."
+            },
+            "npcDialogue": [
+                {
+                    "character": "liam",
+                    "text": "(tare, zâmbind, ridicând o bere, cu ochii ușor sticloși) Ohhh, a sosit cavaleria! Bună ziua, domnule ofițer! Intrați, intrați — luați o bere, prietene! Avem destule. Nu vă faceți griji, e bere bună, nu d-aia ieftină. Trageți-vă un scaun! (se întoarce spre grup) Hei, toată lumea — avem un oaspete special!"
+                }
+            ],
+            "prompt": "Liam vă întâmpină ca pe un invitat la petrecere, vă oferă alcool și se dă în spectacol în fața prietenilor. Observați semne de consum semnificativ de alcool în grup. Cum gestionați acest prim moment evaluând în același timp nivelul de intoxicație?",
+            "options": [
+                {
+                    "text": "Zâmbiți și întindeți mâna într-un gest jucăuș, cuprinzând sticla cu degetele înainte de a o pune pe cea mai apropiată masă cu un zâmbet larg. Mențineți un ton lejer, prietenesc: „Tentant, dar sunt în serviciu, prietene. Uitați, văd că vă distrați de minune aici — muzica e bună, atmosfera e pe cinste, înțeleg. Dar am primit plângeri despre zgomot și trebuie să discutăm puțin despre asta. Nimeni nu e în necaz, am nevoie doar de un cuvânt rapid.” Nu scanați camera pentru niveluri de intoxicație și nu luați notă de cine e treaz și cine nu.",
+                    "feedback": "De ce: A lua berea — chiar și pentru a o pune jos — depășește o limită profesională. În acea fracțiune de secundă, grupul vede un ofițer acceptând o băutură de la cineva la care răspunde. Trimite semnalul că sunteți abordabil până la punctul de a fi cooptabil. Chiar și punerea ei jos nu șterge momentul. Liam va insista mai mult pentru că ați arătat flexibilitate la o limită care ar fi trebuit să fie fermă. De asemenea, ați omis complet evaluarea nivelului de intoxicație a grupului, ceea ce determină cum trebuie să comunicați — persoanele intoxicate procesează informațiile diferit și necesită instrucțiuni mai simple, mai scurte. | CONSECINȚE: Liam râde triumfător: „Vedeți? Polițistul e de treabă! Haide, doar o înghițitură!” Grupul se relaxează prea mult — vă văd ca pe cineva care poate fi farmecant scos din aplicarea regulilor. Autoritatea dumneavoastră deja se erodează. Și încă nu aveți o lectură a cât de beat este cineva. | Reflecție: De ce contează cel mai mult limitele profesionale în primele treizeci de secunde ale unei întâlniri — și de ce schimbă evaluarea timpurie a intoxicației întreaga strategie de comunicare?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Intrați în cameră fără a lua berea, dar mențineți tonul cald și relaxat: „Ha — apreciez ospitalitatea, Liam, dar va trebui să refuz. Sunt Ofițer [nume].” În timp ce vorbiți, scanați discret camera — numărați sticlele, verificați ochii și coordonarea fiecăruia, notați cine e lucid și cine nu. Apoi continuați calm: „Nu sunt aici să opresc nimic — dar am nevoie de un minut din timpul vostru pentru că este o situație pe care trebuie s-o rezolvăm. Poate cineva să dea muzica mai încet ca să ne putem auzi unii pe alții?”",
+                    "feedback": "De ce: Refuzul berii e clar dar fără a face din asta o confruntare. Folosirea numelui lui (din informarea Martei) arată pregătire și personalizează interacțiunea. Crucial, în timp ce vorbiți cald, efectuați o evaluare vizuală a consumului de alcool — aceasta este competență procedurală, nu paranoia. A ști cine este ușor amețit versus semnificativ afectat vă spune cine poate procesa instrucțiuni complexe și cine nu. „Nu sunt aici să opresc nimic” coboară garda grupului. A cere să se dea muzica mai încet testează disponibilitatea lor de a coopera. | CONSECINȚE: Liam pare ușor surprins că îi știți numele. Scanarea vă dezvăluie: Liam este moderat intoxicat dar funcțional, alți doi sunt similari, Priya pare în mare parte trează, iar o persoană din spate este puternic intoxicată dar liniștită. Priya se întinde și dă mai încet difuzorul. Camera devine mai liniștită. Acum știți cu cine puteți raționa și cine are nevoie de instrucțiuni mai simple. | Reflecție: Cum schimbă o evaluare rapidă și non-confruntațională a intoxicației modul în care comunicați cu un grup — și de ce este important să știți cine este suficient de treaz pentru a fi aliatul dumneavoastră?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă plantați în pragul ușii cu picioarele depărtate, blocând ieșirea cu corpul. Maxilarul vă este încleștat, expresia de gheață. Nu zâmbiți, nu salutați pe nimeni, nu recunoașteți berea pe care Liam v-o întinde. Proiectați autoritate pură din prima silabă: „Nimeni nu mai bea nimic în seara aceasta. Opriți muzica imediat. Am primit plângeri multiple și încălcați orele de liniște. Aceasta este singura voastră avertizare.” Nu faceți niciun efort de a evalua cine din cameră e treaz și cine e intoxicat.",
+                    "feedback": "De ce: Autoritate maximă, raport zero. Ați intrat într-o cameră cu șase persoane care au băut și sărbătoresc, iar prima mișcare este să interziceți alcoolul și să emiteți un ultimatum. Asta declanșează defensivitate de grup — se vor uni împotriva dumneavoastră. „Aceasta este singura avertizare” este o amenințare care nu lasă loc de negociere. A le spune adulților că nu pot bea în camera comună a unui hostel poate depăși și autoritatea dumneavoastră. De asemenea, nu ați reușit să evaluați nivelurile de intoxicație, ceea ce înseamnă că abordarea comunicării nu este calibrată — a striga ultimatumuri la persoane intoxicate este deosebit de contraproductiv deoarece alcoolul le afectează capacitatea de a procesa amenințările și îi face mai predispuși la rezistență. | CONSECINȚE: Camera tace — dar nu în conformitate. În ostilitate. Zâmbetul lui Liam dispare. Brațele se încrucișează. Cineva mormăie „Asta e ridicol.” Persoana cea mai intoxicată din spate se ridică nesigur: „Nu ne poți spune ce să facem.” Ați creat o confruntare șase contra unu care nu trebuia să existe. | Reflecție: Când intrați într-o situație de grup cu autoritate maximă și raport zero, ce dinamică creați — și cum face alcoolul acea dinamică mai gravă?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Ignorați complet teatralismul lui Liam — nu luați berea, nu zâmbiți, nici măcar nu stabiliți contact vizual cu el. În schimb, priviți peste umărul lui și traversați camera direct spre femeia mai liniștită de lângă fereastră, care pare mult mai rezonabilă și mai abordabilă. Îi oferiți un semn politicos din cap și vă coborâți vocea pentru a începe o conversație calmă, privată acolo, sperând să obțineți imaginea reală de la cineva care nu performează pentru un public. În spatele dumneavoastră, Liam rămâne cu berea întinsă, zâmbetul stingându-i-se.",
+                    "feedback": "De ce: Identificarea persoanei cooperante este inteligentă, dar ocolirea liderului social al grupului este o eroare tactică. Trecând pe lângă Liam fără să-l recunoașteți, semnalați că îl ignorați. În fața prietenilor lui, aceasta este o umilire publică. Va escalada pentru a-și reafirma statutul. Dinamica de grup cere să interacționați mai întâi cu liderul, chiar și scurt. | CONSECINȚE: Fața lui Liam se schimbă. „Hei, vorbesc cu tine, prietene.” Vocea lui este mai tare și nu mai e prietenoasă. Restul grupului se tensionează. Priya pare inconfortabilă. Ați transformat un gălăgios jovial în cineva care se simte lipsit de respect. | Reflecție: Într-o situație de grup, de ce se întoarce de obicei împotriva ta ignorarea liderului social?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Stabilirea limitelor",
+            "sceneUpdate": {
+                "emoji": "💪",
+                "title": "Camera comună — Liam rezistă",
+                "desc": "Muzica este mai încet dar Liam nu e gata să cedeze. Se sprijină de masă, berea în mână, performând pentru publicul său. Tonul lui este încă prietenos la suprafață dar dedesubt se simte o provocare. Ceilalți backpackeri urmăresc schimbul cu atenție — limbajul corporal le va oglindi reacția lui Liam. Priya urmărește din lateral, clar dorind ca situația să se rezolve dar nevrând să-l contrazică pe Liam în fața grupului."
+            },
+            "npcDialogue": [
+                {
+                    "character": "liam",
+                    "text": "Uitați, ofițer, fără nicio lipsă de respect, da? Dar acesta este un hostel. Un HOSTEL. Asta înseamnă literalmente hostelurile — să cunoști oameni, să te distrezi, să împărtășești povești. Nu stricăm nimic, nu ne certăm cu nimeni. Dacă lumea vrea pace și liniște, ar trebui să rezerve un hotel, nu un dormitor de douăzeci de euro pe noapte. Călătorim împreună de trei săptămâni și aceasta este ultima noastră noapte. Nu ne poți lua asta."
+                }
+            ],
+            "prompt": "Liam își prezintă argumentul — și nu este complet nerezonabil. Dar orele de liniște sunt în vigoare și alți oaspeți suferă. Cum răspundeți?",
+            "options": [
+                {
+                    "text": "Îi recunoașteți punctul, apoi reîncadrați situația: „Liam, chiar înțeleg — ultima noapte împreună, sfârșitul unei călătorii mari. Contează. Și ai dreptate că hostelurile sunt locuri sociale. Dar orele de liniște au început la unsprezece, și sunt oameni sus care au plătit și ei douăzeci de euro și nu pot dormi. Drepturile voastre și ale lor nu sunt diferite. Întrebarea nu este dacă puteți sărbători — ci cum și unde. Aș prefera să vă ajut să continuați seara decât să o opresc. Dar volumul și locația trebuie să se schimbe.”",
+                    "feedback": "De ce: Validează contextul emoțional (ultima noapte, sfârșitul călătoriei) și argumentul logic (hostelurile sunt sociale) înainte de a introduce contra-argumentul. „Drepturile voastre și ale lor nu sunt diferite” este pivotul — reîncadrează situația de la „noi contra ei” la responsabilitate comună. „Aș prefera să vă ajut să vă continuați seara decât să o opresc” vă poziționează ca un aliat al sărbătorii lor, nu un dușman. Limita este clară: volumul și locația trebuie să se schimbe. Dar ați lăsat soluția deschisă pentru negociere. | CONSECINȚE: Postura lui Liam se schimbă. Nu și-a pierdut demnitatea — i-ați confirmat premisa înainte de a redirecționa. Unul dintre ceilalți backpackeri spune: „Are dreptate, Liam.” Presiunea socială din interiorul grupului începe să funcționeze în favoarea dumneavoastră. | Reflecție: Cum schimbă validarea argumentului cuiva înainte de a-l redirecționa disponibilitatea acestuia de a face compromisuri?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Rămâneți ferm, cu postura rigidă și expresia nemișcată de apelul emoțional al lui Liam. Vă încrucișați brațele și vorbiți pe un ton plat, fără compromis, care face clar că nu sunteți aici pentru dezbateri: „Înțeleg că e ultima voastră noapte, dar regulile sunt reguli. Orele de liniște sunt ore de liniște. Dacă hostelul spune douăzeci și trei, e douăzeci și trei. Am nevoie ca muzica să fie oprită și vocile scăzute chiar acum. Nu e negociabil.” Mențineți contactul vizual cu Liam fără a clipi, așteptând conformarea.",
+                    "feedback": "De ce: Clar și aplicabil — dar „regulile sunt reguli” este limbajul autorității rigide și ignoră contextul emoțional pe care Liam tocmai l-a împărtășit. Nu i-ați recunoscut punctul de vedere, ceea ce înseamnă că nu s-a simțit auzit. Oamenii rezistă mai tare când se simt neauziți. „Nu e negociabil” închide toate ușile. Puteți obține conformarea în seara aceasta, dar prin constrângere, nu prin acord. | CONSECINȚE: Maxilarul lui Liam se încordează. „Bine. Regulile sunt reguli.” Oprește muzica cu o conformare exagerată. Camera devine glacială. Cineva mormăie despre poliția din țara asta. Sărbătoarea este ucisă, nu rezolvată. Conformare obținută, bunăvoință distrusă. | Reflecție: Care este diferența dintre conformare și cooperare, și care produce rezultate mai durabile?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Izbucniți într-un râs sincer, bătând o dată din palme de parcă Liam tocmai ar fi făcut o remarcă excelentă. Vă sprijiniți de ușă cu postura relaxată și prietenoasă, oglindind energia casual a grupului: „Știi ce, nu ai greșit — hostelurile sunt absolut făcute pentru distracție. Am fost și eu prin câteva. Uite ce zic, doar mențineți un zgomot rezonabil de fond și eu mă duc să-i spun recepționerei că e rezolvat. Bucurați-vă de ultima noapte — doar nu la volum de concert. Merge?” Întindeți pumnul spre Liam pentru un fist-bump.",
+                    "feedback": "De ce: Fiind de acord cu Liam și cerând un vag „zgomot de fond”, efectiv ați luat partea celor zgomotoși. „Zgomot de fond” nu este un standard aplicabil — înseamnă orice decide Liam după următoarea bere. A-i spune Martei „e rezolvat” când nimic concret nu s-a schimbat o pregătește pentru alte trei ore de plângeri. Ați prioritizat să fiți plăcut în locul eficienței. | CONSECINȚE: Liam zâmbește: „Legendă!” Muzica revine în cincisprezece minute. Domnul Kimura sună din nou. Marta este furioasă. O altă echipă răspunde și constată că ați lăsat o situație nerezolvată. | Reflecție: Când devine agreabilitatea un eșec în a vă face treaba?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Treceți de Liam și vă adresați întregului grup, plimbându-vă privirea pe fiecare față din cameră pentru ca fiecare persoană să se simtă inclusă în conversație. Ridicați vocea exact cât trebuie ca să fie auzită peste muzica încetinită: „Toată lumea — vă aud și știu că aceasta este o noapte specială. Dar am un hostel plin de oaspeți care nu pot dormi și o recepționeră care cere frumos de ore întregi. Cineva de sus are un angajament important de serviciu la 8 dimineață. Vă cer ajutorul — ce putem face ca să funcționeze pentru toți?”",
+                    "feedback": "De ce: Extinderea conversației dincolo de Liam este tactic inteligentă — îi diluează dominanța și invită alte voci. Menționarea recepționerei și a oaspetelui de sus umanizează reclamanții. „Vă cer ajutorul” poziționează grupul ca rezolvatori de probleme în loc de încălcători de reguli. Totuși, o întrebare deschisă adresată celor șase persoane care au băut poate produce șase răspunsuri diferite și nicio direcție clară. Fără un cadru propus, puteți pierde controlul conversației. | CONSECINȚE: Mai multe persoane vorbesc simultan. Priya spune ceva sensibil dar este acoperită. Liam repetă argumentul despre hostel mai tare. Discuția de grup este bine intenționată dar haotică. Ați democratizat problema fără a oferi structură. | Reflecție: Când este productiv să deschizi discuția unui grup și când are nevoie de un cadru propus pentru a funcționa?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Găsirea compromisului",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Camera comună — Priya intervine",
+                "desc": "Conversația s-a schimbat. Liam este încă rezistent dar mai puțin combativ. Ceilalți backpackeri se privesc între ei, evaluând starea de spirit. Priya, care a ascultat liniștit, se ridică și se apropie. Este clar conștiința grupului — articulată, suficient de trează pentru a citi atmosfera camerei și vizibil inconfortabilă cu impasul. Li se adresează atât dumneavoastră cât și lui Liam."
+            },
+            "npcDialogue": [
+                {
+                    "character": "priya",
+                    "text": "(vorbind cu grijă, privind între dumneavoastră și Liam) Liam, are dreptate. Am fost foarte zgomotoși. Am vrut să spun ceva de ceva vreme. Recepționera ne-a rugat de trei ori. (către dumneavoastră) Ofițer, îmi pare rău pentru asta. Chiar sărbătorim ultima noastră noapte — e sincer, nu suntem doar niște idioți. Dar ar fi trebuit să fim mai respectuoși. Există undeva unde am putea merge? Adică, e vreun bar prin apropiere care e încă deschis? Sau am putea merge în curtea interioară poate? Doar... nu vreau ca asta să se termine rău. Ar trebui să fie o amintire frumoasă."
+                }
+            ],
+            "prompt": "Priya oferă să medieze un compromis și sugerează alternative. Cum lucrați cu această deschidere?",
+            "options": [
+                {
+                    "text": "Vă întoarceți spre Priya cu un semn din cap cald și respectuos și o implicați direct ca partener în rezolvarea situației: „Priya, mulțumesc — exact genul acesta de gândire ajută. Ai menționat un bar sau curtea interioară. Lasă-mă să verific cu recepționera despre curte — dacă e disponibilă și departe de dormitoare, ar putea funcționa ca pas intermediar. Sau dacă e un bar deschis noaptea pe aproape, asta e altă opțiune. Liam, ce zici — grupul vostru ar fi deschis la una dintre variante?”",
+                    "feedback": "De ce: Elevarea Priyei ca voce constructivă recompensează comportamentul cooperant și schimbă presiunea socială din cadrul grupului. Verificarea cu Marta despre curtea interioară arată că sunteți minuțios în loc să faceți promisiuni. Oferirea a două opțiuni — curte sau bar — le dă grupului autonomie. Redirecționarea spre Liam pentru opinia lui îl readuce fără confruntare; ajunge să spună da în loc să se supună. Aceasta este rezolvare colaborativă de probleme de manual. | CONSECINȚE: Liam se uită la Priya, apoi la dumneavoastră. Dinamica s-a schimbat — Priya i-a dat permisiunea socială de a coopera fără să-și piardă demnitatea. „Curtea ar putea funcționa,” spune el, mai încet decât înainte. Un alt backpacker deschide hărțile pe telefon căutând baruri. Grupul rezolvă acum problema singur. | Reflecție: Cum schimbă abilitarea unui membru cooperant al grupului dinamica mai eficient decât confruntarea celui rezistent?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Acceptați sugestia Priyei imediat, cu entuziasm vizibil, pocnind din degete ca și cum problema ar fi deja rezolvată. Vă întoarceți spre grup cu un ton optimist și energic: „Idee grozavă, Priya. Hai în curte — e perfect. Liam, ia difuzorul și sticlele, adună pe toată lumea. Puteți continua petrecerea acolo, nicio grijă. Problemă rezolvată, toată lumea e fericită.” Începeți să strângeți sticlele de bere de pe masă pentru a grăbi mutarea, fără a verifica cu Marta dacă acolo sunt dormitoare în apropiere.",
+                    "feedback": "De ce: Decisiv și orientat spre soluție, dar v-ați angajat la curtea interioară fără a verifica cu Marta dacă este aproape de dormitoare. Dacă curtea este direct sub ferestrele oaspeților, ați mutat zgomotul, nu l-ați rezolvat. De asemenea, a da undă verde unilateral pentru a „continua petrecerea” afară poate încălca ordonanțele municipale privind zgomotul. A merge repede pare bine dar omite verificarea. | CONSECINȚE: Grupul se mută în curte cu entuziasm. Cincisprezece minute mai târziu, oaspeții de la parter se plâng de zgomot direct de sub ferestrele lor. Marta vă sună: „Sunt și mai zgomotoși acum și nu pot închide curtea.” Viteza a creat o problemă nouă. | Reflecție: De ce vă previne verificarea unei soluții înainte de implementare de a rezolva aceeași problemă de două ori?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Ridicați mâna ca să întrerupeți discuțiile, cu răbdarea vizibil epuizată. Vorbiți cu autoritate tăioasă, ignorând complet sugestia Priyei de parcă nici nu ar fi vorbit: „Uitați, cea mai simplă soluție este aceasta — petrecerea s-a terminat pentru diseară. Nicio curte, niciun bar, nicio alternativă. Strângeți-vă lucrurile, mergeți la camerele voastre, dormiți puțin. Ați avut o seară perfect bună deja. E miezul nopții și lumea încearcă să doarmă. E timpul să o lăsați.” Faceți un gest spre hol și vă încrucișați brațele, așteptând.",
+                    "feedback": "De ce: Ați avut un membru cooperant al grupului care oferea soluții creative și l-ați ocolit complet cu un ordin. Priya și-a asumat un risc social vorbind împotriva liderului grupului — ignorarea contribuției ei pedepsește exact comportamentul pe care vreți să-l încurajați. „Petrecerea s-a terminat” este de asemenea disproporționat când alternative există. Alegeți răspunsul cu cea mai mare autoritate când sunt disponibile și vi se oferă opțiuni cu autoritate mai mică. | CONSECINȚE: Fața Priyei cade — și-a băgat gâtul degeaba. Liam explodează: „E aberant! Ea tocmai a oferit să ne mutăm și tu ne închizi oricum?” Grupul se unește împotriva dumneavoastră. Ați pierdut atât membrul rezistent cât și pe cel cooperant. | Reflecție: Când cineva oferă o soluție constructivă, ce mesaj transmiteți când o anulați cu o comandă?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "O recunoașteți pe Priya cu un semn scurt din cap, apoi pivotați rapid spre practic, fără a explora sugestiile ei despre curte sau bar. Vă coborâți vocea la un ton rezonabil și moderat: „Priya, apreciez asta. Iată ce aș sugera — puteți cu toții să începeți să încheiați aici? Terminați-vă băuturile liniștit, dar nicio muzică în camera comună în seara aceasta. Dacă vreți să continuați să vorbiți în șoaptă, e în regulă, dar cântatul și difuzorul trebuie să se oprească. Camera comună rămâne deschisă dar la volum de ore de somn.”",
+                    "feedback": "De ce: Rezonabil și moderat. „Terminați-vă băuturile” este uman, iar „nicio muzică” stabilește o limită clară. Dar ați ignorat parțial alternativele creative ale Priyei — barul, curtea. Mergând direct la modul de încheiere, ați ales restricția în locul relocării. Grupul primește mai puțin decât ce a propus Priya, ceea ce poate părea negociere de rea-credință. De asemenea, „vorbitul liniștit” într-un grup de șase după câteva beri este aspirațional, nu realist. | CONSECINȚE: Grupul se conformează cu nemulțumire. Difuzorul se oprește. Dar „vorbitul liniștit” devine mai zgomotos pe măsură ce băuturile continuă. În treizeci de minute, Marta este din nou acolo unde a început. Restricția a funcționat pe termen scurt dar nu a avut un mecanism durabil. | Reflecție: Când o alternativă creativă este oferită, care este costul de a alege restricția în loc de relocare?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Asigurarea acordului",
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Camera comună — Condiții",
+                "desc": "Grupul cedează. Intervenția Priyei a schimbat dinamica. Liam încă mormăie dar ceilalți backpackeri sunt gata să treacă mai departe — unul deja strânge cărțile, altul se încalță. Cheia acum este să consolidați un acord specific și funcțional înainte ca impulsul să se piardă. Marta a confirmat că curtea interioară este pe partea cealaltă a clădirii, departe de dormitoare, și că există un bar non-stop numit The Night Owl la două străzi distanță."
+            },
+            "npcDialogue": [
+                {
+                    "character": "liam",
+                    "text": "(cu reticență, dar mai puțin combativ) Bine, bine. Deci ce, mergem în curte? Sau găsim barul ăsta? (se uită la grup) Ce ziceți?"
+                },
+                {
+                    "character": "priya",
+                    "text": "(către Liam, zâmbind) Barul ar putea fi chiar distractiv. Un loc nou pentru ultima noastră noapte. Și nu va trebui să ne facem griji că se plânge cineva. (către dumneavoastră) Putem lua berile cu noi dacă mergem în curte, sau e o problemă?"
+                }
+            ],
+            "prompt": "Grupul este gata să se mute dar detaliile contează. Cum finalizați acordul?",
+            "options": [
+                {
+                    "text": "Prezentați termeni clari și specifici, pe un ton structurat: „Iată ce aș sugera. Opțiunea A: curtea interioară — departe de dormitoare, puteți lua băuturile și vorbi acolo, dar fără difuzor și voci la nivel de conversație. Opțiunea B: barul The Night Owl, la două străzi — puteți fi oricât de zgomotoși vreți acolo, deschis toată noaptea. Camera comună trebuie eliberată și liniștită în zece minute. Liam, Priya — ce vi se potrivește?”",
+                    "feedback": "De ce: Specific, structurat și abilitant. Două opțiuni clare cu parametri definiți. Termenul de zece minute este concret, nu deschis. Numirea atât a lui Liam cât și a Priyei distribuie conducerea. Opțiunea curte are o condiție clară (fără difuzor, nivel de conversație). Opțiunea bar este prezentată ca un beneficiu („oricât de zgomotoși vreți”). Ați transformat o intervenție de aplicare a legii într-o alegere structurată. | CONSECINȚE: Grupul dezbate imediat opțiunile — dar constructiv. Doi vor barul, trei preferă curtea. Se împart pe cale amiabilă. Liam merge cu grupul de bar, Priya rămâne în curte. În opt minute, camera comună este goală și liniștită. Acordul este specific, voluntar și auto-aplicabil. | Reflecție: De ce produc alegerile specifice și structurate o conformare mai bună decât acordurile vagi?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Fluturați mâna casual spre ușa din spate într-un gest vag și lejer. Mențineți un ton destins și degajat, de parcă detaliile nu ar mai conta acum că grupul e dispus să se mute: „Simplu — mutați-vă în curte. Luați tot ce vreți cu voi, berile, difuzorul, cărțile, tot. Doar fiți mai liniștiți acolo și suntem cu toții bine. O anunț pe recepționeră că v-ați relocat.” Vă dați la o parte pentru a lăsa grupul să treacă, fără a specifica nicio condiție concretă de volum sau ce se întâmplă dacă plângerile revin.",
+                    "feedback": "De ce: „Doar fiți liniștiți” este aceeași instrucțiune pe care Marta a dat-o de trei ori și a eșuat de trei ori. Fără parametri specifici — fără regulă privind difuzorul, fără standard de volum, fără precizare ce se întâmplă dacă revine zgomotul — ați mutat problema fără a o gestiona. „Luați ce vreți” este permisiv până la abdicarea responsabilității. Șase persoane cu beri în curte la miezul nopții fără limite clare vor deveni mai zgomotoase. | CONSECINȚE: Grupul se mută în curte cu difuzorul. Petrecerea se reia la volum de exterior. Oaspeții din partea curții se plâng acum. Ați relocat problema, nu ați rezolvat-o. | Reflecție: Ce face diferența între un acord care rezistă și unul care se destramă imediat?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă aplecați ușor înainte și vorbiți pe un ton practic, consultativ, care favorizează clar o opțiune în defavoarea celeilalte. Stabiliți contact vizual pe rând cu Liam și Priya: „Cred că barul este cea mai bună variantă, sincer. Curtea interioară este tot proprietatea hostelului și nu pot garanta că nu se va plânge cineva din nou dacă stați afară râzând și vorbind la miezul nopții. Dacă mergeți la The Night Owl, puteți avea seara exact cum vreți, fără nicio restricție și fără griji legate de zgomot. V-aș recomanda puternic acea variantă.”",
+                    "feedback": "De ce: Direcționarea lor spre bar elimină complet problema din hostel, ceea ce este curat și eficient. Dar „recomandarea puternică” a unei opțiuni le elimină alegerea pe care ar trebui s-o oferiți. Dacă grupul simte mai târziu că a fost forțat să plece din cazarea pentru care a plătit, resentimentul crește. De asemenea, unii ar putea să nu vrea să cheltuie mai mulți bani la un bar. Treaba dumneavoastră este să prezentați opțiuni, nu să alegeți pentru ei. | CONSECINȚE: Majoritatea grupului merge la bar, dar doi backpackeri care sunt obosiți și au puțini bani rămân, simțind că au fost presați să plece din cazarea plătită. Unul se plânge la recepție: „Poliția ne-a spus că nu putem folosi hostelul.” Nu ceea ce ați spus, dar ceea ce au simțit. | Reflecție: Care este diferența între a prezenta opțiuni și a direcționa pe cineva spre rezultatul pe care îl preferați?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Dați din cap pe măsură ce grupul începe să se organizeze, apoi ridicați un deget și vă întăriți expresia exact când starea de spirit cooperantă atinge vârful. Vă deplasați greutatea înainte și vă coborâți vocea pe un registru de avertizare: „Bine, curte sau bar, alegerea voastră. Dar trebuie să fiu clar — dacă sunt chemat înapoi aici diseară pentru același lucru, nu va mai fi o conversație prietenoasă. Vor fi amenzi și rapoarte formale de încălcare a normelor de zgomot, individual pentru fiecare. Am fost clar?” Scanați camera cu o privire ascuțită.",
+                    "feedback": "De ce: Acordul se forma deja. Grupul coopera. Adăugarea unei amenințări în momentul rezoluției otrăvește bunăvoința pe care ați construit-o timp de douăzeci de minute. „Nu va fi o conversație prietenoasă data viitoare” este o amenințare voalată care reîncadrează întreaga interacțiune ca un avertisment mai degrabă decât o colaborare. Oamenii își amintesc cum se termină lucrurile mai mult decât cum încep. V-ați asigurat că memoria durabilă va fi amenințarea, nu rezoluția corectă. | CONSECINȚE: Camera devine liniștită. Expresia lui Liam se întunecă. Priya privește în altă parte. Grupul pleacă — la bar, nu în curte — pentru că hostelul acum pare ostil. Cooperează, dar din frică, nu din acord. Liam va ține minte amenințarea, nu corectitudinea. | Reflecție: Când adăugarea unei avertizări la o negociere reușită subminează tot ce ați realizat?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Închiderea cercului",
+            "sceneUpdate": {
+                "emoji": "✅",
+                "title": "Recepție — Urmărire",
+                "desc": "Camera comună este liniștită. Backpackerii s-au dispersat — unii în curtea interioară, unii la The Night Owl. Puteți auzi conversație îndepărtată și discretă din curte dar nimic care ar deranja somnul. Clădirea pare calmă. Vă întoarceți la recepție unde Marta așteaptă. Încă trebuie să faceți urmărire cu domnul Kimura. Felul în care încheiați această întâlnire va determina dacă rezoluția de diseară rezistă și dacă toate părțile simt că situația a fost gestionată corect."
+            },
+            "npcDialogue": [
+                {
+                    "character": "marta",
+                    "text": "(vizibil ușurată) E liniște. Nu-mi vine să cred — am încercat de trei ore. Vă mulțumesc, ofițer. Sincer. (ezită) Credeți că vor rămâne liniștiți? Și... ar trebui să verific la domnul Kimura? Era foarte supărat mai devreme."
+                }
+            ],
+            "prompt": "Criza imediată este rezolvată. Cum încheiați întâlnirea cu Marta și domnul Kimura?",
+            "options": [
+                {
+                    "text": "O abordați pe Marta cu validare și îndrumare practică: „Ați făcut bine că ați sunat, Marta. Grupul s-a mutat — unii în curte cu condiții clare, unii la un bar. Dacă grupul din curte devine zgomotos, le puteți cere să intre — și ne puteți suna din nou. V-aș recomanda să discutați cu managerul despre o politică scrisă de zgomot.” Apoi bateți la ușa domnului Kimura: „Domnule Kimura, camera comună este liberă. Ar trebui să puteți dormi acum. Sper ca prezentarea să meargă excelent.”",
+                    "feedback": "De ce: Închide cercul cu ambii participanți. Marta primește validare, o actualizare clară, permisiunea de a suna din nou și o sugestie constructivă privind îmbunătățirea sistemică. Nu rezolvați doar seara aceasta — ajutați la prevenirea vinerii viitoare. Domnul Kimura primește o actualizare personală care abordează preocuparea lui specifică (prezentarea), ceea ce arată că ați ascultat și v-ați amintit. Ambele părți se simt văzute, auzite și respectate. Aceasta este cum arată urmărirea completă. | CONSECINȚE: Marta notează sugestia privind politica — a vrut să ridice asta la conducere și acum are o recomandare a poliției pentru a o susține. Domnul Kimura deschide ușa, dă din cap cu recunoștință și spune simplu: „Vă mulțumesc. Sunteți foarte profesionist.” Ambele părți simt că sistemul a funcționat pentru ele diseară. | Reflecție: De ce definește urmărirea cu toți participanții — nu doar sursa zgomotului — dacă o rezoluție este cu adevărat completă?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "O liniștiți pe Marta cu o asigurare rapidă și profesională, fără a intra în detalii. Vă verificați ceasul și mențineți încheierea scurtă: „Ar trebui să fie bine acum, Marta. Grupul s-a mutat. Dacă reîncepe, sunați-ne înapoi, nu e nicio problemă. Noapte bună și mult succes cu restul turei.” Oferiți un zâmbet scurt, apoi vă îndreptați spre ieșire. Trecând pe lângă etajul domnului Kimura, decideți să nu bateți la ușă — va observa singur liniștea și va adormi. Nu e nevoie să-l deranjați în plus.",
+                    "feedback": "De ce: Zgomotul este rezolvat și tehnic Marta are opțiunea de a suna din nou. Dar domnul Kimura v-a interceptat personal, și-a împărtășit vulnerabilitatea legată de prezentare și i s-a promis acțiune. A nu face urmărire îl lasă simțindu-se uitat — ca un număr de plângere, nu o persoană. „Va observa liniștea” presupune că nu stă treaz anxios. O bătaie la ușă de treizeci de secunde nu costă nimic și completează bucla umană. De asemenea, Marta nu primește nicio îndrumare pentru data viitoare — ați rezolvat azi fără a investi în mâine. | CONSECINȚE: Marta se simte ajutată dar nesuportată. Domnul Kimura stă în pat auzind liniște, nesigur dacă va dura, și își amintește că ofițerul nu s-a mai întors. Rezoluția rezistă dar se simte incompletă pentru oamenii care aveau cel mai mult nevoie de ea. | Reflecție: Care este diferența dintre o situație rezolvată și o situație în care fiecare persoană implicată se simte rezolvată?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă sprijiniți de tejgheaua recepției și adoptați un ton direct, de predică, clătinând încet din cap pe măsură ce vorbiți. Stabiliți contact vizual cu Marta și îi oferiți evaluarea dumneavoastră: „S-au mutat, deci zgomotul s-a terminat. Dar sincer, Marta, ar fi trebuit să gestionezi asta înainte să ajungă în punctul ăsta. Ai avut trei ore și șase cereri în care să pui situația sub control. Data viitoare, fii mai fermă de la prima cerere, stabilește limite clare, și nu va mai trebui să ne suni pentru așa ceva.”",
+                    "feedback": "De ce: A da vina pe Marta — care a încercat de trei ori, al cărei manager nu răspunde la telefon și care nu are autoritatea de a expulza oaspeți — este nedrept și inexact. A sunat la poliție pentru că a rămas fără opțiuni, nu pentru că era leneșă. A-i spune unui lucrător din prima linie să „fie mai fermă” ignoră problemele sistemice: nicio politică clară, niciun suport din management, nicio autoritate. Pedepsiți persoana care a cerut ajutor pentru că a avut nevoie de ajutor. | CONSECINȚE: Ușurarea Martei se evaporă. Se simte criticată după ore de stres. Data viitoare când e o problemă de zgomot, va ezita să sune la poliție — va încerca să o gestioneze singură, iar situația va fi mai gravă când va escalada în cele din urmă. Ați deteriorat o relație de lucru și ați făcut apelurile viitoare mai puțin probabile. | Reflecție: Când un lucrător din prima linie sună pentru sprijin, ce face criticarea lui cooperării viitoare?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Îi oferiți Martei o actualizare factuală pe un ton scurt și eficient, scoțând o carte de vizită din buzunar. Nu vă așezați și nu rămâneți: „Situația este rezolvată deocamdată. Iată ce s-a întâmplat: grupul s-a împărțit între curtea interioară și un bar din apropiere. Dacă grupul din curte devine zgomotos din nou, iată datele mele — sunați-ne direct. Voi verifica la domnul Kimura pe drum spre ieșire ca să-l anunț că s-a rezolvat.” Înmânați cartea, dați un semn scurt din cap și vă îndreptați spre scări.",
+                    "feedback": "De ce: Profesional și informativ — Marta știe ce s-a întâmplat și ce să facă. Verificarea la domnul Kimura este bună. Dar interacțiunea este tranzacțională mai degrabă decât de susținere. Marta s-a ocupat de asta singură ore în șir și rezoluția este livrată ca un raport de stare. Nicio validare, nicio sugestie pentru îmbunătățire sistemică, nicio recunoaștere că era într-o poziție dificilă. Eficient, dar lipsește elementul uman care construiește încredere durabilă. | CONSECINȚE: Domnul Kimura apreciază actualizarea. Marta este recunoscătoare dar interacțiunea pare clinică. Nu va ezita să sune din nou, dar nu va ține minte asta ca muncă polițienească excepțională. Adecvare profesională, nu excelență profesională. | Reflecție: Care este diferența dintre o tranzacție profesională și o relație profesională?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debrief și dezvăluire",
+            "sceneUpdate": {
+                "emoji": "🏁",
+                "title": "Debrief de instruire",
+                "desc": "Înapoi la secție. Sergentul Novak analizează performanța dumneavoastră în acest scenariu de plângere de zgomot la hostel."
+            },
+            "npcDialogue": [],
+            "autoDialogue": true,
+            "finalScene": true,
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "A fost un apel înșelător de complex, Ofițer. Ceea ce părea o simplă plângere de zgomot s-a transformat într-o negociere multi-party implicând diferențe culturale, responsabilitate comercială, vulnerabilitate personală și linia fină dintre aplicarea legii și facilitare. Hai să discutăm cum ați navigat straturile."
+                },
+                {
+                    "character": "officer",
+                    "text": "Sincer, cel mai greu a fost cu Liam. Era fermecător și zgomotos și împingea fiecare limită cu un zâmbet. M-am tot întrebat dacă sunt prea indulgent sau prea strict."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Acea tensiune pe care ați simțit-o este lecția. Majoritatea ofițerilor cred că plângerile de zgomot sunt apeluri plictisitoare — miză scăzută, directe, treci mai departe. Aceasta este exact încadrarea greșită. Plângerile de zgomot sunt cea mai comună interacțiune dintre poliție și public. Ele modelează încrederea comunității mai mult decât orice alt tip de apel. Proprietarul hostelului care ne sună luna viitoare pentru un incident serios, turistul care le povestește prietenilor despre experiența cu poliția cehă, omul de afaceri care decide dacă orașul acesta e profesional — toate acele rezultate au fost semănate diseară prin modul în care ați gestionat o singură petrecere zgomotoasă."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Iar adevărata abilitate pe care ați exersat-o diseară nu a fost controlul volumului — a fost managementul părților interesate. Marta avea nevoie de sprijin și schimbare sistemică. Domnul Kimura avea nevoie de recunoaștere și somn. Liam avea nevoie ca mândria lui să rămână intactă. Priya avea nevoie de permisiunea de a fi vocea rațiunii. A trebuit să-i serviți pe toți patru fără să trădați pe niciunul. Acum lăsați-mă să vă spun ce s-a întâmplat după ce ați plecat din hostel."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "officer": {
+            "name": "Tu (Ofițer)",
+            "avatar": "👮"
+        },
+        "dispatcher": {
+            "name": "Dispecerat",
+            "avatar": "📻"
+        },
+        "marta": {
+            "name": "Marta (recepționeră de noapte, 42 ani)",
+            "avatar": "🙋‍♀️"
+        },
+        "liam": {
+            "name": "Liam (backpacker australian, 26 ani)",
+            "avatar": "🎒"
+        },
+        "priya": {
+            "name": "Priya (backpacker indiană, 24 ani)",
+            "avatar": "👩"
+        },
+        "mr_kimura": {
+            "name": "Dl. Kimura (om de afaceri japonez, 53 ani)",
+            "avatar": "👔"
+        },
+        "trainer": {
+            "name": "Sergent Novak",
+            "avatar": "👮‍♂️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Negociere excepțională!",
+            "emoji": "🌟",
+            "feedback": "Ați demonstrat abilități excepționale de negociere multi-party într-un mediu complex de spațiu comun. Abordarea dumneavoastră a echilibrat nevoile legitime ale fiecărui participant: dorința backpackerilor de a sărbători, dreptul domnului Kimura de a dormi, nevoia Martei de sprijin și cerințele operaționale ale hostelului. Ați adunat informații înainte de a acționa, ați menținut limitele profesionale sub presiune socială, ați identificat și abilitat un aliat cooperant în cadrul grupului și ați închis cercul cu fiecare persoană implicată. Fiecare alegere a reflectat conștientizare culturală, proporționalitate și preocupare autentică pentru rezultate durabile în locul soluțiilor rapide."
+        },
+        "good": {
+            "title": "Performanță solidă",
+            "emoji": "✅",
+            "feedback": "Ați gestionat bine o plângere de zgomot cu mai mulți participanți, arătând corectitudine și lucrând spre rezoluție mai degrabă decât simpla aplicare a legii. V-ați implicat cu perspectiva grupului și ați găsit o soluție funcțională. Unele oportunități pentru o sensibilitate culturală mai profundă, o urmărire mai bună sau o utilizare mai strategică a dinamicii de grup au fost ratate, dar abordarea dumneavoastră a fost profesională și proporțională."
+        },
+        "average": {
+            "title": "Răspuns adecvat",
+            "emoji": "📊",
+            "feedback": "Ați rezolvat problema imediată de zgomot, dar abordarea dumneavoastră a ratat dimensiuni importante ale situației. Fie grăbind pregătirea, fie neimplicând toți participanții, fie alegând aplicarea legii în locul colaborării, rezoluția a fost funcțională dar fragilă. Revizuiți abordarea în negocierea multi-party, sensibilitatea culturală și diferența dintre conformare și cooperare."
+        },
+        "poor": {
+            "title": "Necesită îmbunătățiri semnificative",
+            "emoji": "⚠️",
+            "feedback": "Abordarea dumneavoastră a creat conflicte inutile într-o situație care era zgomotoasă dar nu periculoasă. Plângerile de zgomot în cazări comune necesită negociere, conștientizare culturală și proporționalitate — nu aplicare dură a legii. Prin eșecul de a vă pregăti, prin respingerea perspectivelor legitime sau prin escaladare prin autoritate rigidă, ați lăsat mai mulți participanți mai rău decât la sosirea dumneavoastră. Revizuiți fundamentele negocierii, răspunsul proporțional și managementul părților interesate."
+        }
+    },
+    "metrics": {
+        "negotiationSkills": {
+            "name": "Abilități de negociere",
+            "description": "Capacitatea de a găsi soluții acceptabile reciproc prin ascultare activă, reîncadrare, alegeri structurate și rezolvare colaborativă a problemelor în loc de comenzi",
+            "icon": "🤝"
+        },
+        "culturalSensitivity": {
+            "name": "Sensibilitate culturală",
+            "description": "Conștientizarea și respectul pentru diferite norme culturale privind zgomotul, socializarea, autoritatea și spațiul personal într-un mediu internațional",
+            "icon": "🌍"
+        },
+        "proportionateResponse": {
+            "name": "Răspuns proporțional",
+            "description": "Potrivirea nivelului de intervenție cu severitatea reală a situației — folosind autoritatea minimă necesară pentru a obține rezoluția",
+            "icon": "⚖️"
+        },
+        "stakeholderManagement": {
+            "name": "Managementul părților interesate",
+            "description": "Implicarea cu toate părțile afectate — sursa zgomotului, reclamanții și personalul localului — și asigurarea că fiecare se simte auzit și abordat",
+            "icon": "👥"
+        },
+        "professionalBoundaries": {
+            "name": "Limite profesionale",
+            "description": "Menținerea conduitei adecvate de ofițer — refuzarea invitațiilor sociale, evitarea luării de parte și echilibrarea căldurii cu autoritatea",
+            "icon": "🛡️"
+        }
+    }
+}

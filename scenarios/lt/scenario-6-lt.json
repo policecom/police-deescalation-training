@@ -1,0 +1,433 @@
+{
+    "id": 6,
+    "title": "Turgaus ginčas — Ramios derybos",
+    "description": "Sudėtingas scenarijus, susijęs su aršiu teritoriniu ginču tarp dviejų prekystalių savininkų šeštadienio lauko turguje. Nigerijos kilmės audinių pardavėjas ir ilgametė čekų daržovių pardavėja susikerta dėl vietos — su galimais rasiniais potekstėmis, minia, pasiskirsčiusia į puses, ir turgaus vadovu, spaudžiančiu greitai išspręsti situaciją. Pareigūnas turi tarpininkauti nešališkai, atskirti pagrįstus skundus nuo šališkumo ir pasiekti ilgalaikį susitarimą, kuris išsaugotų tiek verslo santykius, tiek bendruomenės pasitikėjimą.",
+    "icon": "🏪",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Seržantė Dvořáková",
+        "avatar": "👮‍♂️",
+        "introduction": "Komerciniai ginčai viešuosiuose turguose yra viena iš subtiliausių policijos darbo sankirtų: nuosavybė, pragyvenimo šaltinis, kultūrinė tapatybė ir priklausymas bendruomenei. Kai du žmonės ginčijasi dėl kelių metrų turgaus vietos, jie retai ginčijasi tik dėl vietos — jie ginčijasi dėl teisėtumo, pagarbos ir to, kas čia priklauso. Kai ginče dalyvauja ilgametis vietinis pardavėjas ir naujesnis pardavėjas imigrantas, kiekvienas jūsų žodis ir kiekvienas pasirinkimas turi daug didesnę reikšmę nei tiesioginis konfliktas. Tyrimai apie turgaus ir komercinius ginčus rodo, kad pareigūnai, kurie tiria faktus — tikruosius paskirstymus, rašytines taisykles, fizinį išdėstymą — prieš priimdami bet kokį sprendimą, pasiekia dramatiškai geresnius rezultatus nei tie, kurie remiasi tuo, kas kalba garsiau ar kas paskambino pirmas. Jūsų nešališkumas turi būti matomas, o ne tik jaučiamas. Abi pusės turi matyti, kad renkate įrodymus, klausote vienodai ir grindžiate savo tarpininkavimą faktais, o ne prielaidomis. Minia stebės atidžiai ir atsimins ne tai, ką nusprendėte, o kaip nusprendėte."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-6-complete"],
+    "perfectBadge": "perfect-scenario-6",
+    "finalMessage": {
+        "revelation": "Ponas Okonkwo persikėlė į Čekijos Respubliką prieš dvylika metų iš Lagoso, Nigerijos. Jis sukūrė savo audinių ir aksesuarų verslą nuo nulio — pradėjęs nuo lagamino sendaikčių turguje ir pakilęs iki nuolatinio turgaus prekystalio. Jis turi galiojantį turgaus leidimą ir moka mokesčius laiku. Šį turgų pasirinko, nes jo dukters mokykla yra už dviejų kvartalų. Ponia Petrová iš tiesų pardavinėja daržoves šiame turguje penkiolika metų. Ji našlė, kurios prekystalio pajamos papildo nedidelę pensiją. Ji niekada nesąmoningai jautė rasinės neapykantos — tačiau jos kalba apie „atvykėlius“ ir „mūsų turgų“ atspindėjo prielaidas, kurių ji niekada nebuvo permąsčiusi. Po jūsų intervencijos Filipas peržiūrėjo prekystalių paskirstymus ir atrado, kad žemėlapis niekada nebuvo atnaujintas nuo tada, kai ponas Okonkwo prisijungė prieš trejus metus, sukurdamas tikrą dviprasmybę. Kitą savaitę jis išdavė naujus, aiškiai pažymėtus paskirstymus. Ponui Okonkwo ir poniai Petrovai buvo paskirtos gretimos, bet aiškiai atskirtos vietos. Po trijų savaičių nuolatinis klientas pamatė juos dalijantis kava prieš turgaus atidarymą. Ponia Petrová buvo paklaususi pono Okonkwo apie jo audinius — jos anūkė norėjo afrikiečių rašto suknelės mokyklinio projekto.",
+        "keyLessons": [
+            "Nešališkumas turi būti parodytas, o ne tik deklaruotas — su kuo kalbate pirma, kiek ilgai klausotės ir kur stovite — visa tai praneša apie šališkumą arba teisingumą kiekvienam stebėtojui",
+            "Rasiniai ir kultūriniai potekstės ginčuose reikalauja tiesioginio, bet pagarbaus pripažinimo — jų ignoravimas nepadaro jų nematomomis, o leidžia jiems pūliuoti",
+            "Faktų rinkimas paverčia ginčus iš 'mano žodis prieš tavo žodį' į sprendžiamas problemas — tikrojo prekystalių žemėlapio patikrinimas pakeitė visą dinamiką",
+            "Turgaus vadovai ir kiti autoritetai gali turėti savo šališkumų ar spaudimų — neperkelkite savo sprendimo atsakomybės tam, kas jus kvietė",
+            "Abi pusės, turinčios teisėtų skundų, yra norma, o ne išimtis — pareigūno darbas yra patvirtinti abu, nepasirenkant pusės",
+            "Minios dinamika komercinėse situacijose skiriasi nuo gatvės susitikimų — stebėtojai dažnai yra nuolatiniai klientai, turintys santykių su abiem pusėmis, ir jų suvokimas lemia, ar sprendimas išsilaikys",
+            "Tvari rezoliucija reikalauja struktūrinio tolesnio darbo — jei pagrindinė sistema (neaiškūs paskirstymai) nebus ištaisyta, tas pats konfliktas pasikartos, nepaisant to, kaip gerai tarpininkaujate šiandien"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Atvykimas į turgų",
+            "sceneUpdate": {
+                "emoji": "🏪",
+                "title": "Lauko turgus — Šeštadienio rytas",
+                "desc": "Judrus lauko turgus plačioje pėsčiųjų aikštėje. Prekystalių eilės siūlo viską — nuo daržovių ir kepinių iki drabužių ir namų apyvokos reikmenų. Netoli centro du prekystaliai beveik susiliečia — spalvinga audinių ekspozicija ir daržovių prekyviete. Vyresnė moteris ir aukštas vyras raštuotais marškiniais garsiai ginčijasi. Jaunesnis vyras su turgaus logotipu ant liemenės skuba jūsų link. Maždaug tuzinas pirkėjų sustojo pažiūrėti."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Ekipažas vyksta į pranešimą dėl incidento Náměstí Míru lauko turguje. Turgaus vadovas praneša apie dviejų prekystalių savininkų žodinį konfliktą dėl prekystalio vietos. Fizinis smurtas nefiksuotas, tačiau ginčas eskaluojasi ir pritraukia minią. Turgaus vadovas yra Filip Horák — jis pasitiks jus prie įėjimo."
+                },
+                {
+                    "character": "filip",
+                    "text": "(greitai eina jūsų link, matosi, kad susistresavęs) Pareigūne, ačiū, kad atvykote. Vėl tie du — ponas Okonkwo, jis pardavinėja audinius, ir ponia Petrová, ji čia nuo seniausių laikų su savo daržovėmis. Jie ginčijasi dėl vietos jau kelis mėnesius, bet šiandien viskas sprogo. Jis sako, kad ji pastūmė savo dėžes į jo teritoriją. Ji sako, kad jis per plačiai išskleidė savo ekspoziciją. Bandžiau juos nuraminti, bet jie manęs neklauso. Man reikia, kad tai būtų išspręsta — čia turiu keturiasdešimt pardavėjų ir klientai jau eina šalin."
+                }
+            ],
+            "prompt": "Filipas nori greito sprendimo ir pateikė savo versiją. Kaip pradėsite?",
+            "options": [
+                {
+                    "text": "Padėkokite Filipui už skambutį trumpu linktelėjimu ir ryžtingu žingsniu patraukite tiesiai prie besigindančių pardavėjų, neklausdami jokių papildomų klausimų. Atsistokite tiesiai tarp dviejų prekystalių, iškėlę vieną ranką aiškiu 'stop' gestu, ir tvirtai pasakykite, kad šaukimas baigiasi nedelsiant — jūs čia viską išspręsite, bet nė vienas žodis nebus tariamas tokiu garsu. Sukryžiuokite rankas ant krūtinės ir laukite tylos, prieš tardami dar ką nors.",
+                    "feedback": "Kodėl: Įsakyti abiem nutilti be jokio konteksto ar ryšio paverčia jus autoritetu, primetančiu tvarką, o ne tarpininku, siekiančiu sprendimo. Nežinote, kas pradėjo eskalaciją, kokia pagrindinė problema ar ko kiekviena pusė reikia. Pradėjimas nuo komandos signalizuoja, kad garsiausias triukšmas sulaukia greičiausio policijos atsako. | PASEKMĖS: Abu pardavėjai nutyla — bet su pagieža. Pono Okonkwo žandikaulis suspaudžiasi. Ponia Petrová murmėda sau po nosimi. Stebėtojai mato policijos pareigūną, nutildantį du žmones prieš ką nors suprantant. Ginčas nuslopintas, bet ne išspręstas. | Refleksija: Koks skirtumas tarp konflikto nutildymo ir jo sprendimo pradžios?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Trumpai nuraminkite Filipą greitu linktelėjimu — 'Aš tuo pasirūpinsiu, duokite man kelias minutes' — tada eikite tiesiai prie dviejų pardavėjų, kurie vis dar ginčijasi. Priartėkite pakankamai, kad abu aiškiai jus girdėtų, ir prisistatykite kaip reaguojantis pareigūnas. Paprašykite abiejų vienu metu paaiškinti, kas nutiko, mostu kviesdami kiekvieną pakalbėti iš eilės, tikėdamiesi, kad atviras skundų išsakymas leis jums įvertinti situaciją vietoje, niekam neatskiriant.",
+                    "feedback": "Kodėl: Abiejų pusių išklausymas skamba teisingai, bet kreiptis į abi besipykstančias puses vienu metu — kol jos dar yra įkaitusios — kviečia jas ginčytis prieš jus, o ne su jumis. Kiekviena bandys peršaukti kitą, ir jūs tapsite jų konflikto auditorija, o ne tarpininkas. | PASEKMĖS: Ponas Okonkwo pradeda aiškinti, ir ponia Petrová tuoj pat jį pertraukia. Balsai kyla. Stovite tarp dviejų žmonių, besivaržančių dėl jūsų dėmesio, o minia stebi. Dinamika eskaluojasi, o ne rimsta. | Refleksija: Kai du žmonės yra aktyviame konflikte, kodėl jų atskyrimas prieš klausimąsi duoda geresnius rezultatus nei klausymasis kartu?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Prieš artėjant prie bet kurio pardavėjo, pasilikite su Filipu ir užduokite kelis tikslingus klausimus: ar yra oficialus prekystalių žemėlapis ar paskirstymo sistema, į kurią galėtumėte pažvelgti? Ar šis konkretus konfliktas nutiko anksčiau, ar šiandien pirmas kartas? Ar kuri nors pusė rodė fizinės agresijos ženklų? Atidžiai išklausykite jo atsakymus, tada ženkite žingsnį atgal ir skirkite ramią minutę stebėdami sceną iš atstumo — fizinį prekystalių išdėstymą, abiejų pardavėjų kūno kalbą ir minios išsidėstymą.",
+                    "feedback": "Kodėl: Filipas yra turgaus vadovas — jis turi institucinių žinių, kurių jums reikia. Klausimas apie prekystalių žemėlapį atskleidžia, ar yra objektyvių faktų, kuriais galima pagrįsti ginčą. Klausimas apie istoriją pasako, ar tai vienkartinis atvejis, ar tendencija. Klausimas apie agresiją padeda įvertinti saugumą. Stebėjimas prieš prieinant leidžia pamatyti fizinį išdėstymą, kūno kalbą ir minios dinamiką — be to, kad kuri nors pusė jums rodytųsi. | PASEKMĖS: Filipas pasako, kad jo kabinete yra prekystalių paskirstymo žemėlapis, bet pripažįsta, kad jis „truputį pasenęs“. Ginčas pūliuoja jau kelis mėnesius. Nė viena pusė nebuvo fiziškai agresyvi. Stebite, kad ponios Petrovos daržovių dėžės iš tiesų išsikiša už išblukusios kreidos linijos, o pono Okonkwo audinių stovas pastumtas nepatogiu kampu. Prieinate turėdami kontekstą. | Refleksija: Kaip šešiasdešimt sekundžių informacijos rinkimo iš trečiosios šalies pakeičia visos jūsų intervencijos kokybę?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Atsisukite į Filipą ir ramiu, dalykišku tonu paaiškinkite, kad tai iš esmės skamba kaip vidinis turgaus valdymo klausimas — prekystalių paskirstymai, ribų žymėjimai ir pardavėjų santykiai priskirtini jo kompetencijai, o ne policijos. Pasiūlykite jam atsisėsti su abiem pardavėjais, peržiūrėti turimus paskirstymo dokumentus ir pačiam sutvarkyti vietos klausimą. Pasiūlykite pasilikti netoliese, jei situacija taptų fiziškai pavojinga ar kuri nors pusė atsisakytų bendradarbiauti.",
+                    "feedback": "Kodėl: Nors tiesa, kad prekystalių paskirstymas galiausiai yra valdymo klausimas, jūs buvote iškviestas, nes situacija eskalavosi virš vadovybės gebėjimo ją kontroliuoti. Perkelti atsakomybę Filipui — kuris jau pasakė, kad negali to suvaldyti — yra atsisakymas įsitraukti. Minia mato policiją atvykstant ir nieko nedarant. | PASEKMĖS: Filipas atrodo sugniuždytas. Ginčas tęsiasi ir garsėja. Vienas iš stebėtojų sušunka kažką pono Okonkwo link. Situacija blogėja, nes vienintelė autoriteto figūra, galėjusi įsikišti, nusprendė to nedaryti. | Refleksija: Kai situacija eskalavosi virš normalaus valdymo galimybių, kokia policijos atsisakymo įsitraukti kaina?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Pono Okonkwo išklausymas",
+            "sceneUpdate": {
+                "emoji": "🧔",
+                "title": "Pono Okonkwo pasakojimas",
+                "desc": "Prieinate prie pono Okonkwo atskirai. Jis aukštas, orus vyras šeštame dešimtmetyje, vilkintis ryškiais raštais nigeriečių marškinius. Jo audinių ekspozicija — ryškūs ankara raštai, karoliukais puošti aksesuarai, rankų darbo rankinės — įspūdinga, bet matosi, kad suspausta. Jo ekspozicijos stovas pastumtas kampu, o keli daiktai sukrauti vienas ant kito, užuot buvę išdėlioti. Jis sunkiai kvėpuoja, bandydamas suvaldyti frustraciją."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mr_okonkwo",
+                    "text": "(balsas įtemptas nuo suvaldyto pykčio) Pareigūne, aš šiame turguje esu trejus metus. Moku mokesčius, turiu leidimą, laikausi visų taisyklių. Kiekvieną šeštadienį atvykstu šeštą ryto ir pasiruošiu savo paskirtoje vietoje. Ir kiekvieną šeštadienį jos dėžės jau yra mano pusėje. Aš jas mandagiai patraukiu, ji jas pastumia atgal. Klausiu Filipo, jis sako „susitarkite patys“. Šiandien radau jos dėžes taip toli mano erdvėje sukrautas, kad net negaliu normaliai atidaryti savo ekspozicijos stovo. Kai jas patraukiau, ji pradėjo ant manęs rėkti. Ji man pasakė... ji pasakė, kad turėčiau „grįžti ten, iš kur atėjau“ ir kad „šis turgus yra vietos žmonėms“. Aš dėl to tylėjau mėnesiais, pareigūne. Bet dėl to tylėti nebeketinu."
+                }
+            ],
+            "prompt": "Ponas Okonkwo aprašė sistemingą erdvės užgrobimą ir rasinę pastabą. Kaip reaguosite?",
+            "options": [
+                {
+                    "text": "Palaikykite tvirtą, ramų akių kontaktą ir kalbėkite aiškiu, tvirtu tonu: 'Pone Okonkwo, dėkoju, kad man visa tai paaiškinote. Aš rimtai vertinu viską, ką aprašėte — ir erdvės klausimą, ir tai, kas jums buvo pasakyta. Peržiūrėsiu tikruosius prekystalių paskirstymus ir atskirai pakalbėsiu su ponia Petrová. Niekam neturėtų būti sakoma, kad jis nepriklauso turgui, kuriame turi galiojantį leidimą. Grįšiu pas jus prieš priimdamas bet kokius sprendimus.'",
+                    "feedback": "Kodėl: Šis atsakymas atlieka keletą svarbių dalykų. Dėkoja jam už pasidalijimą, kas patvirtina emocinę kainą, kurią kainuoja pranešti policijai apie rasinį priekabiavimą. Aiškiai įvardija abi dimensijas: erdvės klausimą ir rasinę pastabą — nesuplakdamas jų, nemenkindamas nė vienos. Pažadas patikrinti tikruosius paskirstymus signalizuoja faktais grįstą tarpininkavimą. 'Niekam neturėtų būti sakoma, kad jis nepriklauso' tiesiogiai reaguoja į rasinę dimensiją nepriimant išankstinio sprendimo dėl ponios Petrovos. Pažadas grįžti prieš sprendimus demonstruoja procedūrinį teisingumą. | PASEKMĖS: Pono Okonkwo pečiai truputį nuslenka. Jis linktelėja. Pirmą kartą jis atrodo taip, lyg kažkas iš tiesų klausytųsi. Tyliai sako: 'Ačiū, pareigūne. Tai viskas, ko prašau — tiesiog teisingumo.' Minia mato ramų, pagarbų dialogą. | Refleksija: Kodėl aiškus abiejų skundo dimensijų — praktinės ir diskriminacinės — įvardijimas sukuria daugiau pasitikėjimo nei tik lengvesnės dalies sprendimas?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Palankiai linktelėkite ir pakeiskite pozą į atsipalaidavusią, signalizuodami, kad priimate jo rūpesčius. Tada ramiu, tvirtai nuskambančiu tonu pasakykite: 'Suprantu, kad tai labai apmaudu, pone Okonkwo, ir matau, kokį poveikį tai daro jūsų verslui. Susitelkime pirmiausia į erdvės klausimą — tai kažkas konkretaus, ką galime išmatuoti ir išspręsti šiandien. Eisiu patikrinti oficialų paskirstymo žemėlapį su Filipu ir tada pasikalbėsiu su ponia Petrová, kad sužinočiau jos perspektyvą, prieš grįždamas pas jus.'",
+                    "feedback": "Kodėl: Dėmesys sprendžiamai problemai atrodo praktiška, tačiau tai akivaizdžiai ignoruoja „grįžk ten, iš kur atėjai“ pastabą. Ponas Okonkwo ką tik pasakė tai, kam reikėjo drąsos. Peršokimas per tai jam pasako, kad rasinė dimensija jums nerūpi — arba dar blogiau, kad sutinkate, jog tai nesvarbu. Jis paminėjo abi problemas; jūs pasirinkote tą, kuri patogesnė. | PASEKMĖS: Ponas Okonkwo pastebi, ko nepasakėte. Jo veido išraiška sukietėja. Jis bendradarbiauja, bet pasitikėjimas, kuris buvo pradėjęs formuotis, išgaruoja. Jis galvoja: 'Net policijai nerūpi, ką ji pasakė.' | Refleksija: Kai asmuo praneša ir apie praktinę problemą, ir apie diskriminacinę patirtį, ką tai pasako, kai jūs reaguojate tik į vieną?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Išsitraukite užrašų knygelę, spragtelėkite rašiklį ir dalykišku tonu paklauskite: 'Pone Okonkwo, turiu paklausti — ar kas nors kitas girdėjo, ką ji jums pasakė? Ar buvo konkrečių liudytojų netoliese, kurie galėtų patvirtinti tą pastabą? Nes jei ketinsime oficialiai reaguoti į tuos žodžius, man reikės daugiau nei vieno pasakojimo. Ar galite parodyti ką nors minioje, kas stovėjo pakankamai arti, kad būtų galėjęs aiškiai girdėti?'",
+                    "feedback": "Kodėl: Iš karto reikalauti liudytojų, kai kažkas praneša apie rasinę pastabą, atrodo kaip kryžminis tardymas. Tai signalizuoja, kad juo abejojate ir kad jo žodžio vieno nepakanka. Nors įrodymai svarbūs, pirmasis atsakymas asmeniui, pasidalijusiam skaudžia patirtimi, turėtų būti pripažinimas, o ne įrodinėjimo reikalavimas. | PASEKMĖS: Ponas Okonkwo žiūri į jus nepatikliai. 'Jums reikia liudytojų? Pusė turgaus ją girdėjo!' Jo balsas pakyla. Pasitikėjimas žlunga — jis jaučiasi kaip tas, kurį tiria. Stebėtojai girdi jo tono pokytį ir atkreipia daugiau dėmesio. | Refleksija: Koks skirtumas tarp rimto pareiškimo priėmimo ir įrodymo reikalavimo kaip pirmojo atsako?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Ramiai pakelkite ranką ir lengvai papurtykite galvą, tarsi norėdami tą temą atidėti į šalį. Tada ramiu, dalykišku tonu pasakykite: 'Pone Okonkwo, girdžiu jus, bet nedarykime iš to nieko daugiau nei ginčo dėl vietos. Žmonės pykčio akimirką pasako dalykų, kurių tikrai neturi omenyje — taip nutinka visuose turguose. Tiesiog susitelkime į tai, kad atgautumėte savo teisėtą erdvę ir galėtumėte tinkamai išdėlioti savo ekspoziciją — kad grįžtumėte prie savo šeštadienio verslo.'",
+                    "feedback": "Kodėl: Atleisti „grįžk ten, iš kur atėjai“ frazę kaip kažką „pasakytą pykčio metu“ normalizuoja rasinį priešiškumą. Tai pasako ponui Okonkwo, kad jo rasizmo patirtis yra perdėta reakcija. Tai kiekvienam stebėtojui, girdėjusiam pastabą, praneša, kad policija tai laiko nereikšminga. 'Nedarykime iš to nieko daugiau' yra nurodymas sumenkinti jo patirtį. | PASEKMĖS: Ponas Okonkwo spokso į jus. Šiluma visiškai pasitraukia iš jo veido. Tyliai sako: 'Suprantu. Taigi, taip yra.' Jis atsitraukia nuo bendradarbiavimo. Girdėjęs stebėtojas papurto galvą. Praradote šio žmogaus pasitikėjimą — ir galbūt minios. | Refleksija: Kai sumenkinate kažkieno diskriminacijos patirtį, kokią žinią tai siunčia apie tai, kieno orumą policija saugo?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Ponios Petrovos išklausymas",
+            "sceneUpdate": {
+                "emoji": "👩‍🌾",
+                "title": "Ponios Petrovos perspektyva",
+                "desc": "Prieinate prie ponios Petrovos prie jos daržovių prekystalio. Ji tvirta moteris šeštame dešimtmetyje, vilkinti gėlėtą prijuostę, apsuptas tvarkingai surikiuotų sezoninių daržovių dėžių. Jos veidas paraudęs nuo pasipiktinimo. Jos dėžės akivaizdžiai išsikiša už blukusio žymėjimo ant žemės. Ji stebi jus artėjant sukryžiuotomis rankomis ir iššaukiančia veido išraiška."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_petrova",
+                    "text": "(iš karto, prieš jums prabylant) Aš šiame turguje esu penkiolika metų! Penkiolika metų, pareigūne! Buvau čia dar prieš tai, kai šią aikštę išgrindė. Ir dabar šis vyras — šis atvykėlis — ateina prieš trejus metus ir staiga aš esu problema? Aš visada turėjau šią vietą. Mano dėžės visada buvo čia. Jis pastato savo didelį stovą ir savo ryškius audinius ir kiekvieną savaitę užima vis daugiau vietos. Ir tada jis turi drąsos patraukti mano dėžes — mano nuosavybę! — neklausęs! Aš nieko blogo nepadariau. Aš esu čekė, parduodanti čekiškas daržoves čekiškame turguje, ir neturėčiau turėti dėl to aiškintis."
+                }
+            ],
+            "prompt": "Ponia Petrová giniasi, ir jos kalboje girdimi nacionalistiniai potekstės. Kaip įsitraukiate į pokalbį su ja?",
+            "options": [
+                {
+                    "text": "Priartėkite prie jos prekystalio tvirtai, sustokite plačiai išstatę kojas ir tiesiai ją konfrontuokite, prieš jai baigiant pradinį pasisakymą. Laikykite veido išraišką neutralią, bet tvirtą, ir pasakykite: 'Ponia Petrová, prieš ką nors aptardami, turiu spręsti vieną dalyką. Ponas Okonkwo man pasakė, kad ginčo metu jūs jam liepėte grįžti ten, iš kur jis atėjo. Tai labai rimtas pareiškimas. Man reikia, kad jūs aiškiai pasakytumėte — ar tai jūs jam pasakėte?'",
+                    "feedback": "Kodėl: Nors rasinė pastaba turi būti aptarta, pradėjimas nuo tiesioginio kaltinimo prieš užmezgant bet kokį ryšį iš karto paverčia ponią Petrovą teisiamąja. Ji neigs arba taps gynybinė, ir pokalbis taps apie pastabą, o ne apie pagrindinį konfliktą. Konfrontacija prieš kontaktą retai pasiekia nuoširdų pripažinimą. | PASEKMĖS: Ponios Petrovos veidas parausta. 'Jis mano žodžius iškraipo! Aš niekada — na, gal kažką pasakiau, bet jis mane išprovokavo! Jis liečia mano nuosavybę!' Ji dabar visiškai gynybinė. Kiekvienas tolimesnis klausimas atsimuš į sieną. | Refleksija: Kai reikia aptarti rimtą pareiškimą, kodėl svarbi seka — ryšys prieš konfrontaciją, o ne konfrontacija pirma?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Leiskite jai kalbėti nepertraukdami, tada prabylkite tvirtai, bet pagarbiai: 'Ponia Petrová, matau, kad jums labai rūpi jūsų vieta čia, ir penkiolika metų yra ilgas laikas — aš tai gerbiu. Kartu pažiūrėsime tikrąjį prekystalių žemėlapį ir išsiaiškinsime erdvės situaciją. Bet taip pat turiu paklausti apie dar vieną dalyką. Ponas Okonkwo sakė, kad ginčo metu buvo pasakyta dalykų, kurie peržengė erdvės ginčo ribas. Gal galite papasakoti, kas buvo pasakyta?'",
+                    "feedback": "Kodėl: Šis požiūris pirmiausia patvirtina jos stažą ir emocinį investavimą — ji turi pasijusti išgirsta, prieš galėdama išgirsti jus. Prekystalių žemėlapio paminėjimas signalizuoja objektyvumą. Tada perėjimas prie 'buvo pasakyta dalykų', o ne 'jūs pasakėte rasistinių dalykų', suteikia jai erdvę refleksijai, o ne gynybai. Klausimas 'kas buvo pasakyta', o ne 'ar jūs pasakėte X', kviečia jos versiją, o ne reikalauja prisipažinimo. Jei ji sumenkina, turite erdvę tolesniam klausimui. | PASEKMĖS: Ponia Petrová sustoja. Ji pažvelgia žemyn. 'Aš... galbūt pasakiau kažką, ko neturėjau sakyti. Buvau pikta. Jis sugriebė mano dėžes ir aš tiesiog — neturėjau to omenyje. Aš nesu rasistė, pareigūne. Tiesiog buvau pikta.' Tai atvėrimas — ne pasiteisinimas, bet pripažinimas, su kuriuo galima dirbti. | Refleksija: Kaip erdvės sukūrimas žmogui pripažinti savo žodžius duoda nuoširdesnius atsakymus nei prisipažinimo reikalavimas?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Kantriai linktelėkite jai kalbant, kūno kalba rodydami, kad priimate ją rimtai. Kai ji baigia, pasiūlykite šiltą, nuramintantį toną: 'Suprantu, ponia Petrová — penkiolika metų yra ilgas laikas, ir akivaizdu, kad šis turgus jums labai daug reiškia. Ką dabar padarysiu — eisiu pažiūrėti oficialaus prekystalių žemėlapio su Filipu, kad turėtume tikruosius matmenis prieš akis. Tada viską tinkamai surikiuosime.'",
+                    "feedback": "Kodėl: Jūs visiškai ją patvirtinote nesprendę diskriminacinės kalbos. Kol grįšite su prekystalių žemėlapiu, rasinė dimensija bus tyliai atmesta. Ponia Petrová padarys išvadą, kad jos pastaba buvo priimtina. Ponas Okonkwo padarys išvadą, kad jūs net nepakėlėte to klausimo. Pasirinkote lengvą kelią svarbesnio, bet sunkesnio pokalbio kaina. | PASEKMĖS: Ponia Petrová jaučiasi pateisinta. Bet kai ponas Okonkwo vėliau sužinos, kad niekada nepakėlėte pastabos klausimo, jo pasitikėjimas procesu visiškai žlugs. Erdvės ginčas gali būti išspręstas, bet gilesnė žaizda pūliuoja. | Refleksija: Kokia yra sunkaus pokalbio vengimo kaina, kai lengvesnis pokalbis yra patogiau?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Pertraukite ją per sakinį pakelta delne ir tiesiu, dalykišku tonu pasakykite: 'Ponia Petrová, vertinu kontekstą, bet dabar man nereikia penkiolikos metų istorijos. Klausimas čia paprastas ir tiesmukas: ar jūsų daržovių dėžės yra jo paskirtoje ribos pusėje, ar ne? Nes iš to, ką aš matau stovėdamas čia — ir turiu gana gerą vaizdą į tą kreidos liniją — jos yra gerokai per ją.'",
+                    "feedback": "Kodėl: Nutraukti žmogų per paaiškinimą ir iš karto stoti stebimo įrodymo pusėn yra atmestina ir priešlaikine. Dar netikrinote paskirstymo. 'Man nereikia istorijos' jai pasako, kad penkiolika metų konteksto yra nereikšmingi. Net jei dėžės yra per liniją, jos ginčo patirtis yra svarbi sprendimui. Žmonės paklūsta rezultatams, kai jaučia, kad procesas buvo teisingas — ne kai jaučiasi nutildyti. | PASEKMĖS: Ponia Petrová sprogsta: 'Jūs jau jo pusėje! Net nepažiūrėjote žemėlapio! Būtent tai aš turiu omenyje — dabar visi stoja naujoko pusėn!' Minia girdi jos protrūkį. Per trisdešimt sekundžių padarėte antrąją pusę savo priešu. | Refleksija: Kas nutinka tarpininkavimui, kai viena pusė jaučia, kad jūs jau priėmėte sprendimą prieš jas prieš išgirsdami visą jos paaiškinimą?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Įrodymų vertinimas",
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Prekystalių žemėlapio tikrinimas",
+                "desc": "Paprašėte Filipo prekystalių paskirstymo žemėlapio. Jis iš savo kabineto atnešė laminuotą lapą — akivaizdžiai kelių metų senumo, su ranka pieštais pakeitimais ir lipniaisiais rašteliais. Lyginate jį su tikruoju išdėstymu. Žemėlapis rodo pono Okonkwo prekystalį kaip stačiakampį, kuris turėtų driekstis 3 metrus pločio. Ponios Petrovos prekystalio plotis toks pats, greta jo. Ant žemės vos matosi išblukusios kreidos linijos. Ponios Petrovos dėžės driekiasi maždaug 40 centimetrų per liniją į pono Okonkwo paskirtą teritoriją, suspaužiant jo ekspoziciją."
+            },
+            "npcDialogue": [
+                {
+                    "character": "filip",
+                    "text": "(žiūri į žemėlapį, gėdijasi) Būsiu atviras, pareigūne — mes tų žymėjimų neperbraižėme daugiau nei metus. Ir kai ponas Okonkwo prisijungė, mes tiesiog... jį įspraudėme. Niekada tinkamai neišmatavau. Žinau, kad linijos išblukusios. Ketinau tai sutvarkyti, bet šeštadieniais taip karšta..."
+                },
+                {
+                    "character": "bystander",
+                    "text": "(nuolatinis turgaus klientas, pasvirę arčiau) Pareigūne, jei padės — čia apsiperku kiekvieną šeštadienį. Ponia Petrová visada truputį plėtėsi, net prieš audinių prekystalį. Ir ponas Okonkwo dėl to buvo labai mandagus metų metus. Tai pirmas kartas, kai mačiau jį iš tikrųjų supykus."
+                }
+            ],
+            "prompt": "Dabar turite objektyvių įrodymų: žemėlapį, išblukusias linijas, Filipo prisipažinimą dėl prastos vadybos ir stebėtojo pastebėjimą. Kaip panaudosite šią informaciją?",
+            "options": [
+                {
+                    "text": "Grįžkite prie abiejų pardavėjų su laminuotu žemėlapiu rankoje ir atvirai pasidalinkite savo išvadomis: 'Peržiūrėjau žemėlapį ir žymėjimus ant žemės. Štai ką matau — ponia Petrová, jūsų dėžės yra maždaug 40 centimetrų už ribos linijos pono Okonkwo paskirtoje erdvėje. Tačiau žymėjimai išblukę ir žemėlapis nebuvo tinkamai atnaujintas nuo tada, kai ponas Okonkwo prisijungė. Sistema nuvylė jus abu — tai nėra visiškai nei vieno iš jūsų kaltė. Linijos turėjo būti aiškios nuo pat pradžių.'",
+                    "feedback": "Kodėl: Atviras dalijimasis įrodymais su abiem pusėmis yra procedūrinio teisingumo aukso standartas. Konkretaus užgrobimo įvardijimas suteikia poniai Petrovai faktą, dėl kurio ji negali ginčytis. Bet iš karto kontekstualizuojant — linijos buvo neaiškios, sistema juos nuvylė — neleidžiama, kad tai atrodytų kaip nuosprendis prieš ją. 'Sistema nuvylė jus abu' perkelia konfliktą nuo asmeninio kaltinimo prie institucinės atsakomybės, kas atveria erdvę bendradarbiaujančiam sprendimui, o ne laimėtojo-pralaimėtojo rezultatui. | PASEKMĖS: Ponia Petrová žiūri žemyn — ji mato, kad dėžės yra per liniją. Ponas Okonkwo linktelėja — jis patvirtintas, bet be triumfalizmo. Abu žiūri į Filipą, kuris neramiai pasijudina. Dinamika pasikeitė nuo „kas neteisus“ prie „kas sutriko“. Čia tarpininkavimas tampa įmanomas. | Refleksija: Kaip faktų pristatymas kartu su sisteminiu kontekstu apsaugo nuo to, kad faktinis nustatymas taptų asmeniniu puolimu?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Prieikite prie ponios Petrovos prekystalio su išsklestu žemėlapiu ir tvirtai parodykite į ribos liniją ant žemės, tada į atitinkamą žymą paskirstymo lape. Laikykite abu taip, kad ji aiškiai matytų palyginimą, ir dalykišku tonu pasakykite: 'Ponia Petrová, čia įrodymai yra visiškai aiškūs — jūsų dėžės yra maždaug 40 centimetrų pono Okonkwo paskirtoje pusėje. Jūs turite jas nedelsiant grąžinti į savo paskirtą erdvę, kad galėtume šį reikalą išspręsti.'",
+                    "feedback": "Kodėl: Faktiškai teisinga, bet pateikta kaip nuosprendis. Jokio konteksto apie išblukusias linijas ar prastą valdymą. Ponia Petrová girdi: 'Jūs neteisi, traukitės.' Ji negirdi: 'Sistema buvo neaiški.' Šis požiūris sukuria laimėtoją ir pralaimėtoją — o pralaimėtojai nebendradarbiauja su sprendimu. Ji taip pat yra pažeminta minios akivaizdoje. | PASEKMĖS: Ponia Petrová perkelia dėžes, raudonu veidu ir įniršusi. Ji jas su trenksmu padeda. Ponas Okonkwo stebi tyliai, bet nesidžiaugia — rasinė pastaba nebuvo aptarta. Erdvės problema techniškai išspręsta, bet santykiai sunaikinti. | Refleksija: Kai turite įrodymų, palaikančių vieną pusę, kaip juos pristatote nepaverdami tarpininkavimo teismu?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Nusivestie Filipą į šalį, girdimo atstumo nuo abiejų pardavėjų, ir tyliai, bet tiesiai pasikalbėkite: 'Filipai, tai jūsų netvarka. Ribos linijos taip išblukusios, kad jų beveik nematyti, žemėlapis metų metais neatnaujintas, ir jūs įspraudėte poną Okonkwo į vietą be tinkamų matavimų. Tai reikia sutvarkyti šiandien — perbraižykite linijas aiškiais žymėjimais, atnaujinkite oficialų paskirstymo žemėlapį ir pradėkite realiai valdyti pardavėjų erdves. Eisiu pasakyti jiems abiem, kad situacija tvarkoma.'",
+                    "feedback": "Kodėl: Filipas tikrai neša atsakomybę, ir jo atsakomybės patraukimas yra svarbus. Bet tai darydami privačiai ir paskui pateikdami rezultatą abiem pardavėjams kaip sprendimą iš viršaus — pašalinate juos iš proceso. Jie nemato įrodymų, nedalyvauja sprendime ir negirdi vienas kito pripažinimo. Tai efektyvu, bet neteisinga. | PASEKMĖS: Filipas skuba perbraižyti linijas. Pardavėjams pasakoma „palaukti“, kol nauji žymėjimai bus sudėlioti. Nė vienas iš jų nesijaučia išgirstas. Erdvė techniškai teisinga, bet nė viena pusė nesupranta, kas nutiko ir kodėl. Ponia Petrová jaučiasi nubausti. Pono Okonkwo rasinis skundas vis dar neaptartas. | Refleksija: Kai trečioji šalis yra atsakinga už pagrindinę problemą, kaip patraukti ją atsakomybėn ir vis tiek suteikti paveiktoms šalims balsą procese?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Ženkite žingsnį atgal ir kreipkitės į abu pardavėjus formaliu, santūriu tonu: 'Peržiūrėjau paskirstymo žemėlapį ir žymėjimus ant žemės, ir akivaizdu, kad yra ribų neatitikimas, kurį reikia ištaisyti. Tačiau tai galiausiai civilinis klausimas tarp jūsų dviejų ir turgaus administracijos. Primygtinai rekomenduočiau abiem atsisėsti su Filipu šią popietę ir kartu sutvarkyti, kad prekystalių linijos būtų tinkamai perbraižytos. Jei kiltų dar kokių nors trikdžių, nedvejodami skambinkite ne skubios pagalbos linija.'",
+                    "feedback": "Kodėl: Problemos grąžinimas vadovybei, kuri nesugebėjo jos užkirsti, yra cirkulinė ne-rezoliucija. Filipas jau pasakė, kad negali to suvaldyti — todėl ir kvietė policiją. Pasakyti dviems aktyviame konflikte esantiems žmonėms „dirbti su“ žmogumi, kuris leido konfliktui vystytis, yra paruošimas dar vienai konfrontacijai. Ir jūs išeinate neaptarę rasinės dimensijos. | PASEKMĖS: Abu pardavėjai spokso į jus su netikėjimu. Filipas atrodo supanikavęs. Minia murmėda. Praleidote penkiolika minučių rinkdami įrodymus ir tada grąžinote problemą žmogui, kuris ją sukūrė. Kitą šeštadienį policija bus iškviesta vėl — bet su mažesniu pasitikėjimu. | Refleksija: Kai atsakinga institucija jau nesugebėjo, kas nutinka, kai grąžinate jai problemą nepateikdami sprendimo struktūros?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Tarpininkavimas",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Abiejų pusių suvedimas",
+                "desc": "Faktai yra ant stalo. Abi pusės žino, kad dėžės buvo per liniją ir kad valdymo sistema buvo neaiški. Dabar atėjo sunkesnė dalis — priversti du žmones, kurie pyksta vienas ant kito, sutarti dėl kelio pirmyn. Suvedėte juos neutralioje vietoje tarp jų prekystalių. Ponia Petrová laikosi sukryžiavusi rankas. Ponas Okonkwo stovi tiesiai, atidžiai ją stebėdamas. Filipas stovi netoliese. Minia truputį praretėjo, bet keli nuolatiniai klientai vis dar stebi."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_petrova",
+                    "text": "(tyliai, nežiūrėdama į poną Okonkwo) Gerai. Dėžės buvo per liniją. Aš jas perstatysiu."
+                },
+                {
+                    "character": "mr_okonkwo",
+                    "text": "(tvirtai balsu) Dėžės yra viena problema. Bet ką ji man pasakė — kad turėčiau 'grįžti ten, iš kur atėjau' — tai ne apie dėžes. Man reikia, kad ji tai pripažintų."
+                }
+            ],
+            "prompt": "Ponia Petrová nusileido dėl erdvės. Ponas Okonkwo dabar tiesiogiai kelia rasinės pastabos klausimą. Kaip tarpininkaujate šią akimirką?",
+            "options": [
+                {
+                    "text": "Mostu parodykite į ištaisytą ribos liniją ir kreipkitės į abu pardavėjus optimistišku, baigiamojo žodžio tonu: 'Manau, mes padarėme tikrą pažangą dėl erdvės klausimo, ir džiaugiuosi, kad pavyko tai pasiekti. Pone Okonkwo, suprantu, kad ta pastaba jus labai skaudino, ir aš to neatmetu — tačiau ponia Petrová sutiko perstatyti dėžes ir ateityje gerbti ribą. Manau, kad geriausia jums abiem šiuo metu yra susitelkti į praktinį sprendimą ir judėti pirmyn. Sukiotis dėl žodžių, pasakytų pykčio akimirką, nepadės nė vienam iš jūsų atkurti darbo santykių.'",
+                    "feedback": "Kodėl: Tai sulygina erdvės klausimo išsprendimą su rasinės žalos išsprendimu. Jie nėra tas pats dalykas. Ponas Okonkwo aiškiai pasakė, kad pastaba yra atskira problema. Pasakyti jam „judėti pirmyn“ ir nesisukioti „dėl žodžių, pasakytų pykčio akimirką“ sumenkina jo patirtį ir jūsų patogumą iškelia virš jo orumo. Jūs prašote žmogaus, kuris buvo nuskriaustas, absorbuoti kainą dėl tvarkingo sprendimo. | PASEKMĖS: Ponas Okonkwo žiūri į jus su tyliu nusivylimu. Jis kietai linktelėja ir daugiau nieko nesako. Erdvės klausimas išspręstas, bet jis išeina iš turgaus tą dieną žinodamas, kad policijos pareigūnas sužinojo apie rasistinę pastabą ir nusprendė ją nušluoti po kilimėliu. Jis daugiau niekada nekviems policijos. | Refleksija: Kai praktinės problemos sprendimas yra lengvesnis nei žmogiškos žalos sprendimas, kas nutinka, kai pasirenkate tik lengvą sprendimą?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Atsisukite į ponią Petrovą ramia, santūria veido išraiška: 'Ponia Petrová — ponas Okonkwo kelia svarbų dalyką. Anksčiau, kai kalbėjomės privatiai, jūs minėjote, kad kaitros akimirką buvo pasakyta dalykų, kurių gailėjotės. Ponas Okonkwo yra jūsų kaimynas šiame turguje jau trejus metus. Jis turi galiojantį leidimą, moka mokesčius ir turi visas teises čia būti — lygiai kaip ir jūs. Ar yra kažkas, ką norėtumėte jam tiesiogiai pasakyti?'",
+                    "feedback": "Kodėl: Tai meistriškas tarpininkavimas. Jūs neįdedate žodžių jai į burną ir nereikalaujate atsiprašymo — jūs kuriate erdvę tam. Nuoroda į jos ankstesnį privatų prisipažinimą ('buvo pasakyta dalykų, kurių gailėjotės') primena jai jos pačios žodžius neatskleidžiant jų grubiai. Faktų apie pono Okonkwo teisėtumą konstatavimas pašalina bet kokią dviprasmybę dėl jo teisės čia būti. 'Ar yra kažkas, ką norėtumėte pasakyti' suteikia jai galimybę pačiai tai ištaisyti. | PASEKMĖS: Ponia Petrová ilgą akimirką tyli. Tada pažvelgia į poną Okonkwo — ne visiškai, bet pakankamai. 'Aš neturėjau to sakyti. Buvau pikta dėl dėžių ir pasakiau kažką... bjauraus. Jūs turite visas teises čia būti. Atsiprašau.' Ponas Okonkwo lėtai linktelėja. Tai netobula, bet nuoširdu. Keli stebėtojai atsidūsta. | Refleksija: Kaip erdvės sukūrimas savanoriškam pripažinimui pasiekia tikresnę sutaikinimą nei atsiprašymo reikalavimas?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Atsisukite tiesiai į ponią Petrovą, surimtėję, ir kreipkitės tvirtai oficialiu tonu, kuris aiškiai girdimas tiek abiem pardavėjams, tiek šalia stovintiems stebėtojams: 'Ponia Petrová, tai, ką jūs pasakėte ponui Okonkwo šio ginčo metu, buvo nepriimtina. Pasakyti kitam žmogui, kad jis grįžtų ten, iš kur atėjo, yra diskriminuojantis pareiškimas — be jokių išlygų. Jis yra leidimą turintis pardavėjas šiame turguje, lygiai kaip ir jūs. Man reikia, kad jūs atsiprašytumėte jo dabar pat, čia, kad galėtume pajudėti šio klausimo sprendimu.'",
+                    "feedback": "Kodėl: Vertinimas yra teisingas — pareiškimas buvo diskriminacinis. Bet reikalauti atsiprašymo „dabar pat“ minios akivaizdoje sukuria priverstą pasirodymu, o ne nuoširdų pripažinimą. Ponia Petrová arba atsisakys (eskalacija), arba pateiks tuščią, pagieža persmelktą atsiprašymą, kurį ponas Okonkwo iš karto perpras. Priversti atsiprašymai kuria daugiau pagiežos, nei išsprendžia. | PASEKMĖS: Ponios Petrovos veidas persikreipia. 'Gerai. Atsiprašau. Patenkintas dabar?' Ponas Okonkwo liūdnai papurto galvą — jis girdi nenuoširdumą. Minia stebi, kaip vyresnė moteris yra viešai žeminama. Niekas nesidžiaugia. | Refleksija: Koks skirtumas tarp išreikalauto atsiprašymo ir tarpininkaujamo — ir kuris iš tiesų gydo?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Trumpam padėkite ranką prie pono Okonkwo alkūnės ir nukreipkite pokalbį ramiu, profesionaliu tonu: 'Pone Okonkwo, visiškai suprantu jūsų jausmus, ir noriu, kad žinotumėte — aš jau kalbėjau su ponia Petrová privačiai apie tai, kas buvo pasakyta ginčo metu. Leiskite man susitvarkyt su tarpasmenine dalimi per atitinkamus kanalus atskirai — dabar pats produktyviausias dalykas, kurį galime padaryti, yra užfiksuoti šį erdvės susitarimą su aiškiais žymėjimais, kad abu galėtumėte grįžti prie savo šeštadienio verslo.'",
+                    "feedback": "Kodėl: Jūs atimate iš pono Okonkwo pripažinimą, kurio jis aiškiai paprašė. Jis neprašė jūsų tuo pasirūpinti — jis pasakė 'man reikia, kad JI tai pripažintų.' Nukreipiant jo poreikį per save kaip tarpininką pašalinamas žmogiškasis momentas, galintis pradėti taisymą. 'Leiskite man tuo pasirūpinti atskirai' reiškia, kad tai niekada neįvyks. Abi pusės tai žino. | PASEKMĖS: Ponas Okonkwo mechaniškai bendradarbiauja dėl erdvės susitarimo. Ponia Petrová palengvėja — ji niekada neturėjo susidurti su tuo, ką pasakė. Erdvės problema išspręsta, bet santykiai lieka pažeisti. Kitą šeštadienį jie stovės vienas šalia kito šaltoje, karčioje tyloje. | Refleksija: Kai nuskriaustas žmogus prašo tiesioginio pripažinimo, kas nutinka, kai jūs pakeičiate žmogišką ryšį instituciniu tvarkymusi?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Susitarimo sudarymas",
+            "sceneUpdate": {
+                "emoji": "📐",
+                "title": "Praktiniai sprendimai",
+                "desc": "Emocinis pikas praėjo. Ponia Petrová pripažino savo pastabą — netobulai, bet nuoširdžiai. Erdvės klausimas išlieka: išblukusios linijos, pasenęs žemėlapis ir jokios aiškios sistemos, kaip to išvengti ateityje. Filipas stovi netoliese, atrodydamas, lyg norėtų dingti. Abu pardavėjai ramūs, bet pavargę. Likę stebėtojai žiūri, ar sprendimas tikrai laikysis."
+            },
+            "npcDialogue": [
+                {
+                    "character": "filip",
+                    "text": "(tyliai) Turėjau tuo pasirūpinti prieš kelis mėnesius. Nežinojau, kad taip pablogėjo. Ką siūlote, pareigūne?"
+                }
+            ],
+            "prompt": "Filipas žiūri į jus laukdamas struktūrinio sprendimo. Kaip sudarysite susitarimą, kuris laikysis ilgiau nei šią dieną?",
+            "options": [
+                {
+                    "text": "Atsisukite į Filipą ir aiškiai, žingsnis po žingsnio išdėstykite nurodymus abiejų pardavėjų akivaizdoje: 'Filipai, štai kas turi įvykti. Pirma — perbraižykite prekystalių ribas šiandien aiškiais, matomais žymėjimais, kurie neišblukstų per savaitę. Antra — duokite ir ponui Okonkwo, ir poniai Petrovai rašytinę paskirstymo kopiją su tiksliais matmenimis centimetrais. Trečia — iškabinkite aiškią ginčų sprendimo procedūrą prie turgaus įėjimo, kad pardavėjai žinotų, kur kreiptis, prieš situacijai eskaluojantis iki tokio lygio. Ar galite įsipareigoti visa tai padaryti šiandien?'",
+                    "feedback": "Kodėl: Struktūriškas, konkretus ir įgyvendinamas. Jūs sprendžiate pagrindinę priežastį — neaiškias ribas ir procesų nebuvimą — o ne tik simptomą. Prašymas Filipui įsipareigoti „šiandien“ sukuria skubumą ir atskaitomybę. Rašytiniai paskirstymai suteikia abiem pusėms dokumentą, pašalinantį ateities dviprasmybes. Ginčų procedūra reiškia, kad Filipas kitą kartą negalės pasakyti „susitarkite patys“. Tačiau jūs nurodymus duodate Filipui nekonsultuodami pardavėjų. | PASEKMĖS: Filipas iš karto sutinka — jis trokšta ištaisyti. Planas yra pagrįstas, bet nė vienas pardavėjas nebuvo paprašytas nuomonės. Ponia Petrová svarsto, ar naujos linijos ją nesuspaustų. Ponas Okonkwo svarsto, ar rašytinis paskirstymas atitiks tai, kas jam buvo pažadėta. Struktūra teisinga, bet pritarimas nepilnas. | Refleksija: Kuriant institucinius sprendimus, kokia rizika juos projektuoti be paveiktų žmonių dalyvavimo?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Kreipkitės į visus tris vienu metu, ranka apjuosdami visą ratą: 'Filipai, ponia Petrová, pone Okonkwo — pagrindinė problema čia yra ne nei vienas iš jūsų, o tai, kad sistema buvo neaiški. Ištaisykime tai kartu. Filipai, ar galite perbraižyti linijas šiandien su tinkamais matavimais — ir ar abu galėtumėte būti šalia per permatavimą, kad kiekvienas matytų ir asmeniškai sutiktų su naujomis ribomis? Taip pat siūlyčiau rašytinius paskirstymus kiekvienam pardavėjui ir iškabintą ginčų sprendimo procedūrą, kad konfliktai būtų sprendžiami iki šio lygio. Ar tai skamba teisingai visiems?'",
+                    "feedback": "Kodėl: Tai geriausias bendradarbiaujantis problemų sprendimas. Visų trijų šalių įtraukimas užtikrina pritarimą. 'Pagrindinė problema nėra nei vienas iš jūsų' depersonalizuoja kaltę. Abiejų pardavėjų dalyvavimas permatavime paverčia naujas linijas jų susitarimu, o ne primesta tvarka. Klausimas 'ar tai atrodo teisinga' suteikia kiekvienam asmeniui sutikimo orumą. Rašytiniai paskirstymai ir ginčų procedūra sprendžia sisteminę nesėkmę. | PASEKMĖS: Ponas Okonkwo linktelėja: 'Tai teisinga. Noriu matyti matavimus.' Ponia Petrová: 'Gerai — kol mano vieta tokia pat kaip visų kitų.' Filipas: 'Padarysiu per pietų pertrauką — minia bus mažesnė.' Visi trys sutiko. Sprendimas turi struktūrinį patvarumą, nes buvo sukurtas kartu. | Refleksija: Kodėl visų paveiktų šalių įtraukimas kuriant sprendimą daro jį labiau tikėtiną laikytis nei to paties sprendimo primetimas iš viršaus?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Pažvelkite iš vieno pardavėjo į kitą ir į Filipą, tada prabylkite tiesmukai, baigiamojo žodžio tonu: 'Žiūrėkite, linijos buvo neaiškios ir tai Filipo atsakomybė — jis turėjo jas prižiūrėti. Bet nuo dabar abu laikykitės savo paskirtose erdvėse, be jokių išimčių. Pone Okonkwo, jei dėžės vėl peržengė ribą, pirmiausia skambinkite Filipui, o ne policijai — duokite turgaus vadovybei galimybę tai sutvarkyti. Ponia Petrová, laikykite savo daiktus savo ribos pusėje. Tai elementarus sveiko proto reikalas, ir aš neturėčiau čia grįžti dėl to paties.'",
+                    "feedback": "Kodėl: 'Sveiko proto reikalas' yra nuvertinantis — jei tai būtų sveiko proto reikalas, jie nebūtų čia. Viešas Filipo kaltinimas pakerta jo autoritetą kaip turgaus vadovo, kurio jam reikia bet kokioms ateities taisyklėms vykdyti. Pasakymas ponui Okonkwo „pirmiausia skambinti Filipui“ siunčia jį atgal pas žmogų, kuris jam jau mėnesius nepavyko. Jokio struktūrinio sprendimo reiškia tas pačias išblukusias linijas ir tą pačią dviprasmybę kitą šeštadienį. | PASEKMĖS: Filipas sutrinka nuo viešo kaltinimo. Ponia Petrová susierzina nuo pamokymo. Ponas Okonkwo žino, kad niekas iš tikrųjų nepasikeis. Kitą šeštadienį linijos vis dar išblukusios ir niekas tiksliai nežino, kur jos yra. Konfliktas atsinaujina per dvi savaites. | Refleksija: Koks skirtumas tarp pasakymo žmonėms, ką daryti, ir struktūros sukūrimo, kuri palengvina teisingai elgtis?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Atsisukite į Filipą su mąslia veido išraiška ir pasiūlykite alternatyvų sprendimą: 'Filipai, galvoju — ar būtų įmanoma perkelti vieną iš šių dviejų prekystalių į visiškai kitą turgaus dalį? Jei jie nebūtų gretimi, nebūtų bendros ribos, dėl kurios galima ginčytis, ir tokio pobūdžio konfliktas tiesiog nebegalėtų pasikartoti. Čia turite keturiasdešimt prekystalių — tikrai kažkur turėtų būti laisva vieta, kuri tiktų vienam iš jų ir suteiktų abiem šalims erdvės kvėpuoti.'",
+                    "feedback": "Kodėl: Atskyrimas gali atrodyti logiškas, bet jis vengia tikrosios problemos ir kelia esminį klausimą: kas perkeliamas? Pono Okonkwo perkėlimas — žmogaus, kurio erdvė buvo užgrobta ir kuris buvo taikinys rasizmo — siunčia niokojančią žinią: auka perkeliama. Ponios Petrovos perkėlimas ją baudžia už ginčą ir atskiria nuo penkiolikos metų ištikimų klientų. Atskyrimas yra tai, ką darote, kai sprendimas nepavyksta, o ne jo pakaitalas. | PASEKMĖS: Abu pardavėjai reaguoja neigiamai. Ponas Okonkwo: 'Aš neturiu būti perkeltas, nes kažkas kitas pažeidė mano erdvę.' Ponia Petrová: 'Aš čia penkiolika metų — niekur neeinu!' Pasiūlymas juos suvienija — prieš jus. | Refleksija: Kada fizinis atskyrimas yra sprendimas, o kada problemų vengimas?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Užbaigimas ir tolesnė eiga",
+            "sceneUpdate": {
+                "emoji": "☀️",
+                "title": "Turgaus ryto atstatymas",
+                "desc": "Susitarimas sudarytas. Filipas perbraižys linijas per pietų pertrauką su abiem pardavėjais. Rašytiniai paskirstymai bus pateikti. Tiesioginis erdvės klausimas buvo pripažintas ir bus ištaisytas. Ponia Petrová perkėlė savo dėžes atgal. Ponas Okonkwo persitvarko savo ekspoziciją tinkamai. Minia daugiausia grįžo apsipirkti. Įtampa atslūgo, bet rytas pareikalavo daug iš abiejų pardavėjų. Ponia Petrová tyli, susitelkusi ties savo daržovėmis. Ponas Okonkwo tiesina savo audinius, bet stabtelėja pamatęs jus artėjant paskutiniam žodžiui."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mr_okonkwo",
+                    "text": "(tyliai, tvarkydamas ankara audinio gabalą) Pareigūne... ačiū. Ne tik dėl vietos. Už tai, kad klausėtės. Per trejus metus niekada nesijaučiau, kad kas nors čia stotų mano pusėn — ar net tiesiog... elgtųsi kaip su lygiu. Aš atvykau į šią šalį kurti kažką gero. Nenoriu pykstis. Tiesiog noriu dirbti."
+                },
+                {
+                    "character": "mrs_petrova",
+                    "text": "(nuo savo prekystalio, nežiūrėdama šia kryptimi, bet girdima) ...Jo audiniai iš tikrųjų gana gražūs. Mano anūkei patiktų tas mėlynas."
+                }
+            ],
+            "prompt": "Krizė išspręsta, bet kaip užbaigsite šį susitikimą — nulems, ar tai vienos dienos pataisymas, ar ilgalaikis pokytis. Kaip viską užbaigsite?",
+            "options": [
+                {
+                    "text": "Prieikite prie kiekvieno asmens atskirai trumpam, privačiam užbaigimui. Nusišypsokite ponui Okonkwo: 'Jūs turite teisę čia būti — neleiskite niekam priversti jus jaustis kitaip. Šiandien elgėtės su tikru orumu.' Sustokite prie ponios Petrovos prekystalio: 'Tam, ką pasakėte anksčiau, reikėjo drąsos. Tai svarbu.' Pasikvieskite Filipą į šalį: 'Nubraižykite tas linijas šiandien. Jei sužinosiu, kad tai pasikartojo — mano kitas pokalbis bus su jūsų vadovu.' Užverskite užrašų knygelę ir prieš išeidami neskubėdami praeikite per turgų.",
+                    "feedback": "Kodėl: Šis užbaigimas padaro viską teisingai. Patvirtina pono Okonkwo priklausymą — ne kaip malonę, o kaip faktą. Pripažįsta ponios Petrovos sunkią sąžiningumo akimirką nepergirdamas ir negėdindamas. Patraukia Filipą atsakomybėn su konkrečia, proporcinga pasekme. Kiekvienas žmogus gauna privatų, individualų užbaigimą — niekas nėra „rodomas“ kitiems. Pasivaikščiojimas po turgų prieš išeinant signalizuoja, kad esate šios bendruomenės dalis, o ne tik praeivio vizitas. | PASEKMĖS: Ponas Okonkwo truputį ištiesėja. Ponia Petrová vieną kartą linktelėja — ji jus girdėjo ir mąsto. Filipas išsitraukia matavimo juostą dar prieš jums išeinant. Praeidami per turgų, stebėtojas jums linktelėja: 'Geras darbas, pareigūne.' Sprendimas laikysis, nes kiekvienas susijęs asmuo turi priežastį jį užtikrinti. | Refleksija: Kodėl personalizuotas, privatus užbaigimas kiekvienai šaliai duoda geresnius ilgalaikius rezultatus nei vienas grupinis atsisveikinimas?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Sukvieskite abu pardavėjus prie vidurio taško tarp jų prekystalių ir kreipkitės šiltu, padrąsinančiu tonu: 'Jūs esate kaimynai šiame turguje — matotės kiekvieną šeštadienį, aptarnaujate tuos pačius klientus, ir tai, kas nutiko šiandien, neprivalo apibrėžti jūsų santykių toliau. Skatinčiau jus abu duoti viens kitam šiek tiek malonės ateinančiomis savaitėmis. Galbūt atrasit, kad turite daugiau bendro, nei manote.' Linktelėkite Filipui ir patraukite turgaus išėjimo link.",
+                    "feedback": "Kodėl: Šiltas jausmas, bet generinis. 'Duokite viens kitam malonės' yra patarimas, ne struktūra. Tai nereikalauja Filipo atsakomybės už tolesnę eigą. Nepatvirtina pono Okonkwo konkrečios patirties ir nepripažįsta ponios Petrovos konkretaus augimo. Abi pusės gauna tą pačią žinutę — bet jų patirtys šiandien buvo labai skirtingos. Ir jūs išėjote nepatvirtinę, kad struktūrinis planas bus įvykdytas. | PASEKMĖS: Abu pardavėjai vertina jausmą, bet jis neįsismelkia taip, kaip personalizuoti užbaigimai. Filipas atsidūsta su palengvėjimu — jokios atskaitomybės, jokio termino. Linijos galbūt bus perbraižytos, o galbūt ne. Susitikimas buvo geras, bet tolesnė eiga palikta atsitiktinumui. | Refleksija: Koks skirtumas tarp viltingo užbaigimo ir atskaitingo?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Užverskite užrašų knygelę, įkiškite ją į liemenę ir kreipkitės į abu pardavėjus bei Filipą trumpu, dalykišku tonu: 'Gerai, esu patenkintas, kad šiandien tai išspręsta. Jei bus dar kokių nors problemų dėl prekystalių ribų ar kitų klausimų tarp jūsų, skambinkite ne skubios pagalbos linija ir atsiųsime ką nors. Filipai, pasirūpinkite, kad tos linijos būtų perbraižytos iki kito šeštadienio — jokių pasiteisinimų. Geros dienos visiems.' Apsisukite ir eikite link savo automobilio.",
+                    "feedback": "Kodėl: Dalykiškas ir beasmenis. Po susitikimo, apimančio rasinę žalą, emocinį pažeidžiamumą ir sisteminę nesėkmę, užbaigimas su „geros dienos“ atrodo kaip klientų aptarnavimo bilieto uždarymas. Jokio pripažinimo, ką kuri nors pusė patyrė. Jokio atskaitomybės mechanizmo Filipui, išskyrus „pasirūpinkite“. Jokio šilumos, jokio ryšio. | PASEKMĖS: Abu pardavėjai jaučiasi kaip byloje uždarytas failas. Pono Okonkwo dėkingumas nepripažintas. Ponios Petrovos sunkus prisipažinimas nepastebėtas. Filipo „pasirūpinkite“ neturi jokios galios. Susitikimas buvo tvarkomas kompetentingai, bet baigėsi be žmogiškumo. | Refleksija: Kai žmonės buvo pažeidžiami policijos susitikimo metu, kiek kainuoja žmogiškas užbaigimas — ir ką kainuoja jo nebuvimas?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Prieš palikdami turgų, atsisukite į vis dar stovinčius stebėtojus ir pakėlę balsą, kad visa aplinka girdėtų, paskelbkite: 'Gerbiamieji, viskas čia išspręsta — tiesiog nesusipratimas dėl prekystalio vietos ir ribų žymėjimų. Abu pardavėjai lieka savo vietose, ir turgaus vadovas pasirūpins, kad paskirstymai būtų tinkamai sutvarkyti iki kitos savaitės. Nėra dėl ko nerimauti. Palaikykite savo vietinius pardavėjus ir mėgaukitės likusiu šeštadienio rytu!' Draugiškai pamojuokite ir patraukite išėjimo link.",
+                    "feedback": "Kodėl: Sprendimo rodymas miniai paverčia privatų, prasmingą procesą viešu paskelbimu. Pavadinimas „tiesiog nesusipratimas“ ištrina rasinę dimensiją, kuri buvo centrinė ginče. Ponas Okonkwo girdi savo patirtį — kai jam pasakė „grįžk ten, iš kur atėjai“ — apibūdinamą kaip „nesusipratimą dėl prekystalio vietos“. Tai ne tai, kas nutiko, ir šito sumenkimas viešai panaikina privataus progresą. | PASEKMĖS: Minia nurimsta, bet ponas Okonkwo nusisuka. Jis ką tik girdėjo policijos pareigūną viešai apibrėžus jo patirtį kaip nereikšmingą. Ponia Petrová atsipalaiduoja — viešas naratyvas atrodo taip, lyg niekas rimto nebūtų nutikę, ir tai atleidžia ją nuo augimo, kurį ji buvo pradėjusi. | Refleksija: Kai sprendimas apėmė giliai asmeninius matmenis, kas nutinka, kai viešai jį pateikiate paprastesniu, nei jis buvo?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Aptarimas",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Mokymo aptarimas",
+                "desc": "Atgal nuovadoje. Seržantė Dvořáková peržiūri jūsų veiklą turgaus ginčo tarpininkavimo scenarijuje."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "Turgaus ginčai vienu metu tikrina viską: jūsų gebėjimą rinkti faktus prieš formuojant nuomonę, jūsų norą spręsti rasinius ir kultūrinius įtempimus, o ne juos apeiti, jūsų gebėjimą tarpininkauti tarp žmonių, kurie abu mano esantys teisūs, ir jūsų gebėjimą kurti struktūrinius sprendimus, kurie išliktų ilgiau nei jūsų buvimas. Lengvas kelias šiame scenarijuje buvo išmatuoti linijas, pasakyti kam nors perstatyti dėžes ir nuvažiuoti. Sunkesnis — ir teisingesnis — kelias buvo pripažinti, kad šis ginčas turi sluoksnių: erdvės konfliktas paviršiuje, valdymo nesėkmė po juo ir rasinė dimensija, verpte įausta per viską. Kaip tvarkėtės su kiekvienu sluoksniu ir ar sprendėte juos visus, ar tik patogius — nulėmė, ar tai buvo vienos dienos pataisymas, ar ilgalaikis sprendimas. Pažiūrėkime, ką padarėte."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "Šis scenarijus tikrino, ar galite vienu metu laikyti galvoje tris problemas: erdvinį ginčą, valdymo nesėkmę ir rasinę žaizdą. Dauguma pareigūnų būtų sutvarkę dėžes, gal pakalbėję su turgaus vadovu ir išėję jausdamiesi, kad atliko gerą darbą. Klausimas yra — ar taip pat sprendėte sunkiausią dalį."
+                },
+                {
+                    "character": "officer",
+                    "text": "Rasinė pastaba buvo dalis, su kuria labiausiai vargau. Norėjau ją spręsti, bet taip pat nenorėjau paversti turgaus ginčo kuo nors didesniu nei reikia. Nuolat svyravau, kiek svorio jai skirti."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Tas dvejojimas yra dažnas ir atskleidžia klaidingą nuomonę, kurią verta pataisyti. Sakėte, kad nenorėjote, jog rasinė pastaba taptų didesniu klausimu nei reikia. Bet štai tiesa: rasinės pastabos sprendimas nėra šalutinis klausimas — tai IR YRA pagrindinis klausimas. Nes jo ignoravimas garantuoja, kad konfliktas sugrįš. Galite perbraižyti kiekvieną prekystalio liniją tame turguje, bet jei ponas Okonkwo vis dar jaučia, kad jo kaimynė žiūri į jį kaip į žmogų, kuris čia nepriklauso, dėžės vėl pradės slinkti, įtampos pūliuos, ir jūs būsite iškviesti per mėnesį."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Kas padarė šį scenarijų išskirtinį — tai akimirka, kai ponia Petrová pripažino, ką pasakė — netobulai, nenoromis, bet nuoširdžiai. Tai neįvyko todėl, kad jūs to pareikalavote. Tai įvyko todėl, kad sukūrėte tam sąlygas. Patvirtinote jos stažą, parodėte jai įrodymus jos nežeminant, ir tada atvėrėte duris, pro kurias ji galėjo pati praeiti. Po trijų savaičių ji klausė pono Okonkwo apie jo audinius savo anūkei. Tai atrodo, kai sprendžiate visą problemą. Dabar papasakosiu, kas nutiko po to šeštadienio."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispečerinė", "avatar": "📻"},
+        "mr_okonkwo": {"name": "Ponas Okonkwo (audinių pardavėjas, 50 m.)", "avatar": "🧔"},
+        "mrs_petrova": {"name": "Ponia Petrová (daržovių pardavėja, 60 m.)", "avatar": "👩‍🌾"},
+        "filip": {"name": "Filip Horák (turgaus vadovas, 30 m.)", "avatar": "📋"},
+        "bystander": {"name": "Nuolatinis klientas", "avatar": "🛒"},
+        "officer": {"name": "Jūs (pareigūnas)", "avatar": "👮"},
+        "instructor": {"name": "Seržantė Dvořáková", "avatar": "👮‍♂️"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Išskirtinis nešališkas tarpininkavimas!",
+            "emoji": "🌟",
+            "feedback": "Jūs pademonstravote auksinį standartą daugiašaliam ginčo sprendimui: kruopštų faktų rinkimą prieš sprendimą, matomą nešališkumą, tiesioginį, bet pagarbų rasinės dimensijos sprendimą, bendradarbiaujantį sprendimo kūrimą su visomis šalimis ir personalizuotus užbaigimus, patraukiančius kiekvieną atsakomybėn ir gerbiant jų orumą. Kiekvienas stebėtojas matė policijos darbą, kuriantį tiltus, o ne pasirenkantį puses."
+        },
+        "good": {
+            "title": "Stiprus tarpininkavimo atlikimas",
+            "emoji": "✅",
+            "feedback": "Jūs sprendėte sudėtingą, daugiasluoksnį ginčą su įgūdžiais, demonstruodami teisingumą ir nuoširdų norą suprasti abi puses. Kai kurios galimybės tiesiogiau spręsti kultūrinę dimensiją arba kurti didesnę struktūrinę atskaitomybę buvo praleistos, bet jūsų požiūris buvo profesionalus, empatiškas ir orientuotas į sprendimą."
+        },
+        "average": {
+            "title": "Pakankamas atsakas",
+            "emoji": "📊",
+            "feedback": "Jūs išsprendėte tiesioginį erdvės ginčą, bet svarbios dimensijos liko neaptartos. Ar tai buvo rasinės pastabos vengimas, struktūrinės tolesnės eigos nebuvimas, ar abiejų šalių neįtraukimas į sprendimo kūrimą — susitikimas išsprendė šiandienos problemą nevisiškai sprendžiant sluoksnius po ja. Peržiūrėkite tarpininkavimo technikas, kultūrinį jautrumą ir struktūrinį problemų sprendimą."
+        },
+        "poor": {
+            "title": "Reikia reikšmingo tobulėjimo",
+            "emoji": "⚠️",
+            "feedback": "Jūsų požiūris arba priešlaikiai stojo vienos pusės, arba atmetė rasinę dimensiją, arba nerinkote įrodymų prieš spręsdami, arba sukūrė sprendimą, kuris tikriausiai neišgyvens iki šiandienos pabaigos. Turgaus ginčai, apimantys kultūrinius įtempimus, reikalauja matomo nešališkumo, pasiryžimo spręsti nepatogias tiesas ir sprendimų, kurie taiso sistemas — ne tik simptomus. Peržiūrėkite kultūrinio sąmoningumo protokolus, įrodymais grįstą tarpininkavimą ir procedūrinio teisingumo principus."
+        }
+    },
+    "metrics": {
+        "impartialMediation": {
+            "name": "Nešališkas tarpininkavimas",
+            "description": "Matomo teisingumo demonstravimas visoms šalims — vienodas klausymasis, neutralus įrodymų pristatymas ir sprendimų kūrimas bendradarbiaujant, o ne primetant nuosprendžius",
+            "icon": "⚖️"
+        },
+        "culturalAwareness": {
+            "name": "Kultūrinis sąmoningumas",
+            "description": "Rasinių ir kultūrinių ginčo dimensijų atpažinimas ir tiesioginis sprendimas, o ne jų vengimas ar menkinimas",
+            "icon": "🌍"
+        },
+        "factFinding": {
+            "name": "Faktų rinkimas",
+            "description": "Objektyvių įrodymų — prekystalių žemėlapių, fizinio išdėstymo, liudytojų parodymų — rinkimas prieš darant išvadas ar imantis veiksmų",
+            "icon": "🔍"
+        },
+        "conflictResolution": {
+            "name": "Konflikto sprendimas",
+            "description": "Struktūrinių, ilgalaikių susitarimų kūrimas, sprendžiant pagrindines priežastis, o ne laikini pataisymai, slopinantys simptomus",
+            "icon": "🔧"
+        },
+        "communityTrust": {
+            "name": "Bendruomenės pasitikėjimas",
+            "description": "Bendruomenės pasitikėjimo policija stiprinimas per šio susitikimo kokybę, teisingumą ir žmogiškumą",
+            "icon": "🤝"
+        }
+    }
+}

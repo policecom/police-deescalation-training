@@ -1,0 +1,366 @@
+{
+    "scenarioId": 2,
+    "reviewVersion": "2.0",
+    "title": "Review — Hostel Noise Complaint Negotiation",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Arrival at the Hostel",
+            "criticalSkills": ["Intelligence gathering before engagement", "Assessing the situation through staff briefing", "Resisting urgency bias in non-emergency noise calls"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Ask Marta key follow-up questions: Does the hostel have a posted noise policy or quiet hours? What's the group's check-out date? Are they all in one room? Has anyone in the group been aggressive or just loud? What exactly does the businessman want?",
+                    "strengths": ["Determines whether you're enforcing house rules or public order law — fundamentally different authorities", "Check-out date reveals if this is a one-night or recurring problem", "Distinguishing 'aggressive' from 'loud' calibrates your entire approach", "Understanding the businessman's specific demand prevents assumption", "Two minutes of preparation saves twenty minutes of correction"],
+                    "professionalImpact": "Knowing the noise policy, check-out date, and group dynamics allows every subsequent decision to be informed and calibrated."
+                },
+                "partially_positive": {
+                    "choiceText": "Thank Marta for calling and assure her you'll handle it. Ask her to point you toward the common room so you can go assess the situation and introduce yourself to the group.",
+                    "adequate": ["Professional and reassuring to a stressed receptionist", "Shows responsiveness and action-orientation"],
+                    "missed": ["'I'll handle it' sets a vague expectation you may not be able to meet", "No questions about quiet hours, policies, or the specific complaints", "Heading in with good intentions but thin information", "Gathering intelligence on the fly in a room of drinking people is harder than asking Marta first"],
+                    "improvement": "Reassurance is good — but pair it with specific questions. Two minutes with Marta gives you the policy framework, group dynamics, and complainant expectations you need to walk in prepared."
+                },
+                "neutral": {
+                    "choiceText": "Head straight to the common room to confront the group. The sooner you address the noise source, the sooner this is resolved.",
+                    "adequate": ["Decisive action toward the noise source", "Shows willingness to engage directly"],
+                    "missed": ["Entering a room of celebrating, drinking people as an uninformed authority figure", "No knowledge of hostel's noise policy, Marta's authority, language barriers, or group dynamics", "Speed feels efficient but costs you preparation", "First impression is an officer who walked in looking for trouble"],
+                    "improvement": "Spend two minutes with Marta learning the policy framework, group composition, and complainant expectations. Preparation is not delay — it's the foundation of effective engagement."
+                },
+                "negative": {
+                    "choiceText": "Tell Marta this is really a management issue — she should keep trying her manager and handle it as an internal hostel matter. You can't enforce private noise rules.",
+                    "failures": ["Dismissed a legitimate call for help from someone who exhausted her own options", "Left Marta stranded with a worsening situation and an unreachable manager", "Ignored that noise past 11 PM may fall under municipal ordinances anyway", "Damaged trust in police responsiveness for future calls"],
+                    "consequences": "Walking away from someone who asked for help ensures a worse situation when police are inevitably called again. Twenty minutes later, Mr. Kimura calls directly, angrier, and a different unit finds a deteriorated scene.",
+                    "trainingFocus": "Review jurisdictional awareness and the cost of dismissing legitimate requests for assistance. Even when jurisdiction is shared with private management, take ownership of the situation you were dispatched to."
+                }
+            },
+            "keyLearningPoints": ["In hostel and shared-space calls, knowing the venue's own policies determines your legal authority", "Distinguishing 'loud' from 'aggressive' fundamentally shapes your approach", "Two minutes of intelligence gathering from staff prevents twenty minutes of correcting mistakes", "Rushing to the noise source without preparation sacrifices every tactical advantage"]
+        },
+        "2": {
+            "stageName": "The Complainant",
+            "criticalSkills": ["Separating underlying needs from stated demands", "Active listening with empathy under pressure", "Managing expectations without committing to specific outcomes"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Speak with calm respect, matching his formality: 'Mr. Kimura, I understand completely — losing sleep before an important presentation is extremely frustrating, and you're right to expect quiet at this hour. I want you to know I take your complaint seriously and I will address it personally. Before I do, may I ask: is your main concern the noise stopping, or do you specifically need the group removed?'",
+                    "strengths": ["Validates frustration authentically — naming the presentation shows active listening", "'You're right to expect quiet at this hour' affirms his position without committing to his specific demand", "The key question separates his need (sleep) from his proposed solution (ejection)", "Most people conflate need and solution when angry — this question untangles them", "Expands the solution space from one option (ejection) to many"],
+                    "professionalImpact": "Separating needs from demands expands your solution space, and cultural attunement builds trust that transcends language barriers."
+                },
+                "partially_positive": {
+                    "choiceText": "Nod firmly: 'I hear you, Mr. Kimura. That's unacceptable. I'll go down there right now and make sure this stops immediately.'",
+                    "adequate": ["Validating and decisive — Mr. Kimura feels heard", "Shows urgency and commitment to action"],
+                    "missed": ["'Immediately' is a promise you may not be able to keep", "If negotiation takes twenty minutes, Mr. Kimura's patience expires against your own deadline", "One-sided framing before hearing the other party", "Short-term reassurance traded for a tighter constraint on your approach"],
+                    "improvement": "Commit to process, not speed. 'I'm going to address this right now' conveys urgency without promising a specific timeframe that constrains your negotiation."
+                },
+                "neutral": {
+                    "choiceText": "Explain: 'Mr. Kimura, I understand this is frustrating. However, I should be transparent — removing guests from a private establishment isn't a police decision, it's the hostel management's. What I can do is talk to the group about the noise.'",
+                    "adequate": ["Technically accurate about eviction authority", "Honest and transparent about limitations"],
+                    "missed": ["Leading with what you can't do feels like bureaucratic deflection to a sleep-deprived man", "He doesn't care about jurisdictional boundaries — he cares about sleeping", "Addresses his stated demand but ignores his actual need", "For someone from a culture where seeking police help required overcoming discomfort, being refused feels like loss of face"],
+                    "improvement": "Lead with empathy and what you will do, not procedural limitations. Address the need (quiet) before discussing the boundaries of your authority regarding the demand (ejection)."
+                },
+                "negative": {
+                    "choiceText": "Tell him: 'Sir, I appreciate your frustration, but this is a hostel — shared spaces and some noise come with the territory. Perhaps you could try earplugs? I'll ask the group to keep it down, but I can't guarantee silence.'",
+                    "failures": ["Suggesting earplugs to someone who hasn't slept for three hours is dismissive and patronizing", "'This is a hostel' tells a paying guest his complaint is invalid because of where he chose to stay", "You've sided with the noise-makers before meeting them", "Mr. Kimura specifically booked a private room and is past the hostel's own quiet hours — his complaint is legitimate"],
+                    "consequences": "Mr. Kimura says with quiet fury: 'I will be writing to your department and to the hostel's management. Goodnight, officer.' You've lost a stakeholder's trust in thirty seconds and caused him to lose face.",
+                    "trainingFocus": "Review cultural sensitivity principles and the cost of dismissing legitimate grievances. Validate the complaint — it is legitimate."
+                }
+            },
+            "keyLearningPoints": ["Separating someone's underlying need from their stated demand is the most powerful negotiation tool you have", "Leading with empathy before procedural limitations builds trust; the reverse destroys it", "Dismissing a legitimate complaint — even gently — costs you a stakeholder's cooperation", "Promising speed to satisfy an upset person constrains your ability to find a thoughtful solution"]
+        },
+        "3": {
+            "stageName": "The Common Room",
+            "criticalSkills": ["Maintaining professional boundaries under social pressure", "Establishing presence without confrontation", "Reading group dynamics and identifying key players"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Step inside, don't take the beer, but keep your tone warm and relaxed: 'Ha — appreciate the hospitality, Liam, but I'll have to pass. I'm Officer [name]. I can see you lot are having a great night.' While speaking, casually scan the room — count the bottles, check eyes and coordination, note who's coherent and who isn't. Then: 'I'm not here to shut anything down — but I do need a minute of your time because there's a situation we need to sort out. Can someone turn the music down so we can actually hear each other?'",
+                    "strengths": ["Declining the beer clearly but without making it a confrontation", "Using Liam's name (from Marta's briefing) shows preparation and personalizes the interaction", "Conducting visual alcohol assessment while speaking warmly is procedural skill, not paranoia", "'I'm not here to shut anything down' lowers the group's defenses", "Asking someone to turn down the music tests willingness to cooperate", "Warm refusal maintains both boundaries and rapport simultaneously"],
+                    "professionalImpact": "A non-confrontational alcohol assessment tells you who can process complex instructions and who needs simpler communication — and knowing Liam's name changes the dynamic from anonymous authority to personal engagement."
+                },
+                "partially_positive": {
+                    "choiceText": "Ignore Liam's theatrics entirely. Walk past him to the quieter woman by the window, who seems more reasonable, and start your conversation there.",
+                    "adequate": ["Identifying the cooperative person is tactically smart", "Avoids getting drawn into Liam's performance"],
+                    "missed": ["Bypassing the group's social leader is a public slight in front of his friends", "Liam will escalate to reassert his status — 'Oi, I'm talking to you, mate'", "The group dynamic demands you engage the leader first, even briefly", "Walking past him turns a jovial loudmouth into someone who feels disrespected"],
+                    "improvement": "Engage the social leader briefly and warmly, then broaden the conversation to include cooperative voices. Bypassing status dynamics backfires in group settings."
+                },
+                "neutral": {
+                    "choiceText": "Take the beer playfully and set it down: 'Tempting, but I'm on duty. Look, I can see you're having a good time — but I've had complaints about the noise and we need to talk about it.'",
+                    "adequate": ["Humor creates a relaxed entry", "Setting it down shows you're not truly accepting"],
+                    "missed": ["Taking the beer — even to set it down — crosses a professional boundary", "The group sees an officer accepting a drink from someone they're responding to", "Liam will push further because you showed flexibility on a boundary that should have been firm", "Authority begins eroding in the first thirty seconds", "Completely skipped assessing the group's intoxication level"],
+                    "improvement": "Professional boundaries matter most in the first moments of an encounter. Decline clearly but warmly — 'appreciate the offer but I'll pass' — without touching the drink."
+                },
+                "negative": {
+                    "choiceText": "Stand in the doorway with a stern expression: 'Nobody is drinking anything else tonight. Turn that music off immediately. I've had multiple complaints and you're in violation of quiet hours. This is your one warning.'",
+                    "failures": ["Maximum authority with zero rapport — triggers group defensiveness", "Six people who've been drinking unite against you as a common adversary", "'Your one warning' is a threat that leaves no room for negotiation", "Telling adults they can't drink in a hostel common room may exceed your authority", "Failed to assess intoxication levels — shouting ultimatums at intoxicated people is counterproductive"],
+                    "consequences": "The room goes silent in hostility, not compliance. Arms cross. Someone mutters 'This is ridiculous.' The most intoxicated person stands up unsteadily: 'You can't tell us what to do.' You've created a six-against-one confrontation that didn't need to exist.",
+                    "trainingFocus": "Review proportionate response and the importance of rapport before enforcement in group settings. Entering with maximum authority and zero rapport creates group solidarity against you."
+                }
+            },
+            "keyLearningPoints": ["Professional boundaries matter most in the first thirty seconds — how you handle Liam's beer offer defines the entire interaction", "In group situations, you must engage the social leader before accessing cooperative members", "Warm refusal maintains boundaries and rapport; harsh commands create group solidarity against you", "Your entry sets the frame: shared problem to solve, or authority versus subjects"]
+        },
+        "4": {
+            "stageName": "Establishing Boundaries",
+            "criticalSkills": ["Validating before redirecting", "Reframing from rights conflict to shared responsibility", "Maintaining empathy while setting firm boundaries"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Acknowledge his point, then reframe: 'Liam, I actually get it — last night together, end of a big trip. That matters. And you're right that hostels are social places. But here's the thing: quiet hours started at eleven, and there are people upstairs who also paid their twenty euros and can't sleep. Your rights and theirs aren't different. So the question isn't whether you can celebrate — it's how and where. I'd rather help you find a way to keep your night going than shut it down. But the volume and the setting have to change.'",
+                    "strengths": ["Validates his emotional context (last night, end of trip) and his logical argument (hostels are social)", "'Your rights and theirs aren't different' is the pivot — reframes from us-vs-them to shared responsibility", "'I'd rather help you keep your night going than shut it down' positions you as ally, not enemy", "The boundary is clear (volume and setting must change) but the solution is open for negotiation", "Internal group pressure shifts in your favor — 'He's got a point, Liam'"],
+                    "professionalImpact": "Validating someone's argument before redirecting changes their willingness to move — they feel heard before being asked to compromise."
+                },
+                "partially_positive": {
+                    "choiceText": "Address the group instead of just Liam: 'Everyone — I hear you, and I know this is a special night. But I've got a hostel full of guests who can't sleep, and a receptionist who's been asking for hours. Someone upstairs has a major work commitment at 8 AM. I'm asking for your help here — what can we do to make this work for everyone?'",
+                    "adequate": ["Broadening beyond Liam dilutes his dominance", "Mentioning the receptionist and guest upstairs humanizes complainants", "'I'm asking for your help' positions group as problem-solvers"],
+                    "missed": ["An open question to six people who've been drinking may produce six different answers", "Without a proposed framework, you may lose control of the conversation", "Priya says something sensible but gets talked over", "Democratized the problem without providing structure"],
+                    "improvement": "Broadening is smart, but provide a framework: validate, then propose options. An open question to a drinking group needs guardrails, not just good intentions."
+                },
+                "neutral": {
+                    "choiceText": "Stand firm: 'I understand it's your last night, but the rules are the rules. Quiet hours are quiet hours. If the hostel says 11 PM, it's 11 PM. I need the music off and voices down. That's not negotiable.'",
+                    "adequate": ["Clear and enforceable boundary", "No ambiguity about what's required"],
+                    "missed": ["'Rules are rules' is rigid authority that dismisses the emotional context Liam shared", "He hasn't been heard, so he resists harder", "'Not negotiable' closes all doors — compliance through coercion, not agreement", "The celebration is killed, not resolved — goodwill destroyed"],
+                    "improvement": "Acknowledge before enforcing. 'I get it — last night together, that matters. AND quiet hours are in effect for other guests too.' The AND is the difference between rigid and firm."
+                },
+                "negative": {
+                    "choiceText": "Laugh and agree: 'You know what, you're not wrong — hostels are meant to be fun. Tell you what, just keep it to a dull roar and I'll tell the receptionist it's sorted. Deal?'",
+                    "failures": ["Effectively siding with the noise-makers by agreeing uncritically", "'Dull roar' is not an enforceable standard — it means whatever Liam decides after his next beer", "Telling Marta 'it's sorted' when nothing concrete has changed sets her up for more complaints", "Prioritized being liked over being effective"],
+                    "consequences": "Music goes back up within fifteen minutes. Mr. Kimura calls again. Marta is furious. A different unit responds and finds you left a situation unresolved.",
+                    "trainingFocus": "Review the difference between rapport and capitulation — being liked is not the same as being effective. You can agree with the premise while redirecting the behavior."
+                }
+            },
+            "keyLearningPoints": ["Validating someone's argument before redirecting it is not agreeing with their behavior — it's unlocking their willingness to move", "The difference between rigid ('rules are rules') and firm ('I get it AND the rules apply to everyone') transforms resistance into cooperation", "Open questions to groups need structure; without a framework, democratic discussion becomes chaos", "Being liked is not the same as being effective — vague concessions dissolve within minutes"]
+        },
+        "5": {
+            "stageName": "Finding the Middle",
+            "criticalSkills": ["Empowering cooperative group members", "Collaborative problem-solving with creative alternatives", "Rewarding constructive behavior while managing group dynamics"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Engage Priya directly as a partner: 'Priya, thank you — that's exactly the kind of thinking that helps. You mentioned a bar or the courtyard. Let me check with the receptionist about the courtyard — if it's available and away from the bedrooms, that could work as a middle step. Or if there's a late bar nearby, that's another option. Liam, what do you think — would your group be up for that?'",
+                    "strengths": ["Elevating Priya rewards cooperative behavior and shifts social pressure within the group", "Checking with Marta about the courtyard shows thoroughness rather than making promises", "Offering two options (courtyard or bar) gives the group agency", "Redirecting to Liam for his opinion brings him back without confrontation — he gets to say yes rather than submit", "Textbook collaborative problem-solving"],
+                    "professionalImpact": "Empowering a cooperative group member shifts social pressure more effectively than confronting the resistant one. Social permission from a peer achieves what officer authority cannot — face-saving compliance."
+                },
+                "partially_positive": {
+                    "choiceText": "Accept the compromise immediately: 'Great idea, Priya. Let's do the courtyard. Liam, grab your speaker and bottles — you can keep the party going out there. Problem solved.'",
+                    "adequate": ["Decisive and solution-oriented", "Credits Priya's idea"],
+                    "missed": ["Committed to the courtyard without checking if it's near bedrooms", "Giving unilateral green light to 'keep the party going' outside may violate noise ordinances", "Moving fast feels good but skips verification", "If the courtyard is below guest windows, you've moved the noise, not solved it"],
+                    "improvement": "Verify before committing. 'Let me check with Marta about the courtyard layout' costs thirty seconds and prevents solving the same problem twice."
+                },
+                "neutral": {
+                    "choiceText": "Acknowledge Priya, then focus on the practical: 'Priya, I appreciate that. Here's what I'd suggest — could everyone start wrapping things up here? Finish your drinks, but no more music in the common room tonight. If you want to keep talking quietly, that's fine, but the singing and the speaker need to stop.'",
+                    "adequate": ["Reasonable and moderate", "'Finish your drinks' is humane, 'no more music' sets a clear boundary"],
+                    "missed": ["Partially ignored Priya's creative alternatives — the bar, the courtyard", "Going straight to wind-down mode chooses restriction over relocation", "Group gets less than what Priya proposed — feels like negotiation in bad faith", "'Talking quietly' in a group of six after several beers is aspirational, not realistic"],
+                    "improvement": "When a creative alternative is offered, explore it before defaulting to restriction. Relocation preserves the celebration while solving the noise problem — restriction just suppresses it temporarily."
+                },
+                "negative": {
+                    "choiceText": "Cut through the negotiation: 'Look, the simplest solution is this — party's over for tonight. Pack up, go to your rooms, get some sleep. You've had a good night. It's midnight. Time to call it.'",
+                    "failures": ["A cooperative group member offered creative solutions and you bypassed her entirely with an order", "Priya took social risk by speaking up against her group leader — ignoring her punishes the exact behavior you want to encourage", "'Party's over' is disproportionate when alternatives exist and are being offered to you", "Choosing the highest-authority response when lower-authority options are available"],
+                    "consequences": "Priya's face falls — she stuck her neck out for nothing. Liam erupts. The group unites against you. You've lost both the resistant and the cooperative members in one sentence.",
+                    "trainingFocus": "When someone offers a constructive solution, build on it. Overriding Priya with an order tells every cooperative person in the room that speaking up is pointless."
+                }
+            },
+            "keyLearningPoints": ["Empowering cooperative group members is more effective than confronting resistant ones", "When a creative alternative is offered, explore it — overriding it punishes the behavior you want", "Verify solutions before committing to them — an unverified courtyard may recreate the problem", "Social permission from peers achieves what officer authority cannot — face-saving compliance"]
+        },
+        "6": {
+            "stageName": "Securing Agreement",
+            "criticalSkills": ["Structuring clear options with specific parameters", "Locking in agreements with concrete details and timeframes", "Maintaining goodwill through the closing moments of negotiation"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Lay out clear, specific terms: 'Here's what I'd suggest. Option A: the courtyard is available and it's away from the bedrooms — you can take your drinks and talk there, but no speaker and keep voices at conversation level. Option B: The Night Owl bar is two blocks that way — you can be as loud as you want there and it's open all night. Either way, the common room needs to be cleared and quiet within the next ten minutes. Liam, Priya — which works for you?'",
+                    "strengths": ["Two clear options with defined parameters — specific and structured", "Ten-minute timeframe is concrete, not open-ended", "Naming both Liam and Priya distributes leadership", "Courtyard option has clear conditions (no speaker, conversation level)", "Bar option framed as benefit ('as loud as you want')", "Turned an enforcement encounter into a structured choice"],
+                    "professionalImpact": "Specific, structured choices produce better compliance than vague agreements because everyone knows exactly what is expected."
+                },
+                "partially_positive": {
+                    "choiceText": "Be firm about the bar: 'I think the bar is your best bet. The courtyard is still hostel property and I can't guarantee someone won't complain again. If you go to The Night Owl, you can have your night without any restrictions. I'd strongly recommend that.'",
+                    "adequate": ["Steering toward the bar removes the problem entirely from the hostel", "Clean and effective solution"],
+                    "missed": ["'Strongly recommending' one option removes the choice you should be offering", "Some may not want to spend money at a bar", "Feeling pushed out of accommodation they paid for creates resentment", "One backpacker later complains: 'The police told us we couldn't use the hostel'"],
+                    "improvement": "Present options, don't pick for them. Both the courtyard and bar are valid — let the group choose. Your job is to set parameters, not select outcomes."
+                },
+                "neutral": {
+                    "choiceText": "Keep it simple: 'Just move to the courtyard. Take whatever you want. Just keep it down.'",
+                    "adequate": ["Directs them to a solution", "Permissive about their belongings"],
+                    "missed": ["'Keep it down' is the same instruction Marta gave three times — it failed three times", "No specific parameters: no speaker rule, no volume standard, no timeframe", "Six people with beers in a courtyard at midnight with no boundaries will get louder", "Relocated the problem, not resolved it"],
+                    "improvement": "Specificity is the difference between an agreement that holds and one that breaks down. 'No speaker, conversation level, courtyard only' is enforceable. 'Keep it down' is not."
+                },
+                "negative": {
+                    "choiceText": "Add a warning to seal the deal: 'Right, courtyard or bar, your call. But I need to be clear — if I get called back here tonight for the same thing, it won't be a friendly conversation next time. There will be fines and formal noise violation reports. Understood?'",
+                    "failures": ["The agreement was already forming — adding a threat poisons the goodwill you spent twenty minutes building", "'Won't be a friendly conversation next time' is a veiled threat that reframes the entire interaction", "People remember how things end more than how they begin", "The lasting memory becomes the threat, not the fair resolution"],
+                    "consequences": "The room goes quiet. Liam's expression hardens. Priya looks away. The group cooperates out of fear, not agreement. Liam will remember the threat, not the fairness.",
+                    "trainingFocus": "When a negotiation is succeeding, let it succeed. Adding warnings to a cooperative resolution undoes the care that came before. End on cooperation, not coercion."
+                }
+            },
+            "keyLearningPoints": ["Specific, structured choices with clear parameters produce self-enforcing agreements", "People remember how things end more than how they begin — closing threats erase twenty minutes of goodwill", "Presenting options preserves agency; steering toward your preferred outcome creates resentment", "Vague instructions ('keep it down') fail repeatedly — specificity ('no speaker, conversation level') holds"]
+        },
+        "7": {
+            "stageName": "Closing the Loop",
+            "criticalSkills": ["Stakeholder follow-up with all affected parties", "Empowering venue staff with systemic recommendations", "Closing with dignity and forward-looking support"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Address Marta's concerns and set her up for success: 'You did the right thing calling, Marta. The group has moved — some to the courtyard with clear conditions, some to a bar. If the courtyard group gets loud again, you have standing to ask them to go inside or to their rooms — and you can call us again. I'd also recommend talking to your manager about a written noise policy with clear consequences. It would give you more authority to handle this yourself next time.' Then go knock on Mr. Kimura's door: 'Mr. Kimura, the common room is clear and quiet. You should be able to sleep now. I hope your presentation goes well tomorrow.'",
+                    "strengths": ["Closes the loop with both stakeholders — Marta and Mr. Kimura", "Marta gets validation, a clear update, permission to call again, and a systemic suggestion", "Recommending a written noise policy helps prevent next Friday's repeat", "Mr. Kimura gets a personal update addressing his specific concern (the presentation)", "Both parties feel seen, heard, and respected", "Complete follow-through — not just resolving today but investing in tomorrow"],
+                    "professionalImpact": "Complete follow-up with all stakeholders — not just the noise source — defines whether a resolution is truly complete."
+                },
+                "partially_positive": {
+                    "choiceText": "Reassure Marta quickly: 'It should be fine now. If it starts up again, just call us back. Have a good night.' Then leave without checking on Mr. Kimura — he'll notice the quiet and go to sleep.",
+                    "adequate": ["The noise is handled and Marta has the callback option", "Professional and efficient"],
+                    "missed": ["Mr. Kimura intercepted you personally and shared his vulnerability — not following up leaves him feeling forgotten", "'He'll notice the quiet' assumes he's not lying awake anxious", "A thirty-second door knock costs nothing and completes the human loop", "Marta gets no guidance for next time — you've solved today without investing in tomorrow"],
+                    "improvement": "Follow up with every stakeholder who engaged you directly. Mr. Kimura is thirty seconds away. Marta needs one suggestion about a noise policy. Both investments pay dividends far beyond tonight."
+                },
+                "neutral": {
+                    "choiceText": "Provide Marta with an update and leave her your details: 'The situation is resolved for now. Here's what happened: the group split between the courtyard and a bar. If the courtyard group gets loud again, call us. I'll check on Mr. Kimura on my way out.'",
+                    "adequate": ["Professional and informative — Marta knows what happened", "Checking on Mr. Kimura is included"],
+                    "missed": ["Transactional rather than supportive — Marta has been dealing with this alone for hours", "No validation that she was in a difficult position with no management backup", "No suggestion for systemic improvement", "Professional adequacy, not professional excellence"],
+                    "improvement": "Add the human element. 'You did the right thing calling' validates her decision. 'A written noise policy would give you more authority next time' invests in the future. The difference between adequate and excellent is thirty seconds of genuine care."
+                },
+                "negative": {
+                    "choiceText": "Tell Marta: 'They've moved out. But honestly, Marta, you should have handled this before it got to this point. Next time, be firmer earlier and you won't need to call us.'",
+                    "failures": ["Blaming Marta — who tried three times, whose manager won't answer — is unfair and inaccurate", "She called police because she ran out of options, not because she was lazy", "'Be firmer' ignores systemic issues: no clear policy, no management backup, no authority to eject", "Punishing the person who asked for help for needing help"],
+                    "consequences": "Marta's relief evaporates. She feels criticized after hours of stress. Next time there's a noise problem, she'll hesitate to call — and the situation will be worse when it finally escalates.",
+                    "trainingFocus": "Review supportive engagement with frontline workers and systemic problem-solving. Validate, don't blame. If her tools are insufficient, help her get better ones."
+                }
+            },
+            "keyLearningPoints": ["Follow-up with all stakeholders defines whether a resolution feels complete or abandoned", "Validating frontline workers who call for help ensures they'll call again — criticizing them ensures they won't", "Systemic recommendations (noise policy, management protocols) transform a single call into lasting improvement", "The last thirty seconds of an encounter shape the lasting memory more than the preceding thirty minutes"]
+        },
+        "8": {
+            "stageName": "Debrief and Reveal",
+            "criticalSkills": ["Self-Reflection", "Integration of Lessons"],
+            "choiceAnalysis": {},
+            "keyLearningPoints": [
+                "Noise complaints shape community trust more than almost any other call type",
+                "Stakeholder management — Marta, Mr. Kimura, Liam, Priya — requires serving all without betraying any",
+                "The real skill practiced was not volume control but multi-party negotiation"
+            ]
+        }
+    },
+    "comprehensiveMetrics": {
+        "negotiationSkills": {
+            "description": "Finding mutually acceptable solutions through active listening, reframing, structured choices, and collaborative problem-solving rather than commands or ultimatums",
+            "indicators": {
+                "excellent": ["Separated Mr. Kimura's underlying need (sleep) from his stated demand (ejection)", "Validated Liam's argument before redirecting it — unlocking willingness to move", "Empowered Priya as a cooperative ally rather than confronting Liam directly", "Presented structured options with clear parameters rather than vague instructions", "Group chose their own resolution voluntarily — self-enforcing agreement"],
+                "poor": ["Treated every interaction as a command to be obeyed rather than a problem to solve", "Failed to separate needs from demands — took complaints at face value", "Issued ultimatums that closed negotiation space", "Vague agreements ('keep it down') that failed repeatedly", "Imposed solutions rather than building them collaboratively"]
+            }
+        },
+        "culturalSensitivity": {
+            "description": "Awareness of and respect for different cultural norms around noise, socializing, authority, and personal space in an international hostel environment",
+            "indicators": {
+                "excellent": ["Recognized that Liam's Australian informality was cultural, not disrespectful", "Understood Mr. Kimura's formal communication style and professional stakes", "Acknowledged that hostel norms genuinely differ from hotel expectations", "Adapted communication style for different cultural contexts without stereotyping", "Recognized that 'what feels normal to one person feels outrageous to another'"],
+                "poor": ["Treated all parties identically without cultural awareness", "Dismissed Mr. Kimura's complaint as oversensitivity", "Interpreted Liam's informality as personal disrespect requiring authoritarian response", "Failed to recognize that cultural expectations around noise and socializing vary enormously", "Applied a single communication style regardless of audience"]
+            }
+        },
+        "proportionateResponse": {
+            "description": "Matching the level of intervention to the actual severity — using minimum authority necessary to achieve resolution in a noise complaint, not a violent crime",
+            "indicators": {
+                "excellent": ["Calibrated response to the actual situation: loud celebration, not criminal activity", "Explored relocation before restriction, restriction before ejection", "Used conversation and negotiation before invoking authority", "Drew clear boundary between legitimate complaint (noise) and disproportionate demand (ejection)", "Chose the lowest-authority response that achieved the outcome"],
+                "poor": ["Treated a noise complaint with the same intensity as a violent disturbance", "Jumped to maximum enforcement (threats, fines, ejection) without exploring alternatives", "Banned alcohol or music without assessing whether relocation would solve the problem", "Escalated authority when the situation called for de-escalation", "Issued formal warnings in a first-contact, non-criminal situation"]
+            }
+        },
+        "stakeholderManagement": {
+            "description": "Engaging with all affected parties — the backpacker group, Mr. Kimura, and Marta — ensuring each feels heard, addressed, and followed up with",
+            "indicators": {
+                "excellent": ["Gathered intelligence from Marta before engagement", "Separated Mr. Kimura's need from his demand through active listening", "Engaged both the group leader (Liam) and the cooperative voice (Priya)", "Followed up with both Marta and Mr. Kimura after resolution", "Provided systemic recommendations to prevent recurrence"],
+                "poor": ["Focused on only one party while neglecting others", "Failed to follow up with Mr. Kimura after the noise was resolved", "Blamed Marta instead of validating her efforts", "Ignored Priya's constructive contribution", "Solved the immediate problem without addressing any stakeholder's ongoing concerns"]
+            }
+        },
+        "professionalBoundaries": {
+            "description": "Maintaining appropriate officer conduct — declining social overtures, avoiding side-taking, and balancing warmth with authority in a setting that invites informality",
+            "indicators": {
+                "excellent": ["Declined Liam's beer offer warmly but firmly — boundary maintained without confrontation", "Maintained consistent professionalism with all parties regardless of their tone", "Balanced warmth with authority — approachable but not co-optable", "Avoided siding with either the complainant or the noise source", "Closed the encounter professionally without threats or performative warnings"],
+                "poor": ["Accepted or touched the offered beer — professional boundary crossed", "Adopted Liam's casual tone to the point of losing authority", "Sided visibly with one party — either dismissing Mr. Kimura or punishing the group", "Added threats or warnings after a successful negotiation, undermining goodwill", "Criticized Marta instead of supporting her — turning an ally into a casualty"]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "preparationSkipping": {
+            "pattern": "Rushing to the noise source without gathering intelligence from available staff",
+            "examples": ["Heading straight to the common room without asking Marta about quiet hours or policies", "Not learning whether the group has been aggressive or just loud", "Entering without knowing the complainant's specific needs", "Failing to ask about the group's check-out date or room arrangement"],
+            "impact": "Every subsequent decision is made with less information than was freely available. You enter a room of drinking people as an uninformed authority figure, and your first impression signals an officer looking for trouble rather than resolution.",
+            "correction": "Two minutes with Marta gives you the policy framework, group composition, complainant expectations, and venue layout. This investment pays dividends at every subsequent stage."
+        },
+        "boundaryErosion": {
+            "pattern": "Allowing social pressure from the group to compromise professional boundaries and authority",
+            "examples": ["Taking or touching the offered beer, even to set it down", "Agreeing too readily with Liam's 'hostels are for fun' argument without redirecting", "Accepting a 'dull roar' as an enforceable standard", "Prioritizing being liked by the group over being effective for all stakeholders"],
+            "impact": "Once a boundary is softened, the group perceives every subsequent boundary as negotiable. Liam pushes harder because early flexibility signaled that authority is optional. The resolution dissolves within minutes because it was based on social approval, not clear agreement.",
+            "correction": "Decline warmly but clearly. You can be friendly without being a friend. Boundaries maintained with warmth are respected more than boundaries maintained with aggression — but they must be maintained."
+        },
+        "cooperativeVoiceIgnoring": {
+            "pattern": "Failing to identify or empower cooperative individuals within the group",
+            "examples": ["Bypassing Priya to deal only with Liam", "Overriding Priya's courtyard or bar suggestion with an order to end the party", "Not redirecting to Liam for his opinion after Priya offered alternatives", "Treating the group as a monolith rather than a collection of individuals with different attitudes"],
+            "impact": "Priya took social risk by speaking up against her group leader. Ignoring her contribution punishes the exact behavior you want to encourage. Future cooperative voices learn that speaking up is pointless. Meanwhile, confronting only the resistant member unites the group against you.",
+            "correction": "Identify the cooperative voice, elevate their contribution publicly, and build your solution on their framework. Social permission from a peer achieves what officer authority cannot — face-saving compliance."
+        },
+        "goodwillPoisoning": {
+            "pattern": "Adding threats or warnings to a successful negotiation, undermining the goodwill that made it work",
+            "examples": ["'If I get called back, it won't be a friendly conversation next time'", "'There will be fines and formal noise violation reports'", "Adding a veiled threat as the group is already cooperating", "Ending on enforcement language after twenty minutes of collaborative resolution"],
+            "impact": "People remember how things end more than how they begin. A closing threat reframes the entire encounter as a warning rather than a collaboration. The group cooperates out of fear, not agreement. Liam remembers the threat, not the fairness. The lasting impression is coercion, not competence.",
+            "correction": "When a negotiation is succeeding, let it succeed. Close with the agreement, not with what happens if it fails. Trust the process you built rather than insuring it with intimidation."
+        },
+        "incompleteFollowUp": {
+            "pattern": "Resolving the immediate noise without closing the loop with all stakeholders",
+            "examples": ["Leaving without checking on Mr. Kimura after he shared his vulnerability", "Not validating Marta's decision to call or offering systemic advice", "Blaming Marta for not handling the situation herself", "Solving the noise but not addressing the hostel's missing noise policy"],
+            "impact": "Mr. Kimura lies awake wondering if it will last. Marta feels unsupported or blamed. The hostel has no better tools for next Friday. The encounter resolves an incident but doesn't improve a system.",
+            "correction": "Follow up with every stakeholder who engaged you directly. Validate Marta, update Mr. Kimura, and suggest a systemic improvement. Thirty seconds per person transforms a resolved incident into a lasting relationship."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Outstanding multi-party negotiation. You demonstrated the complete skillset for complex shared-space disputes: thorough preparation through staff briefing, empathetic engagement with the complainant, professional boundaries under social pressure, creative use of group dynamics to find cooperative allies, structured options that empowered voluntary compliance, and genuine follow-up with every stakeholder. Marta, Mr. Kimura, Liam, and Priya all left this encounter feeling heard and respected. This is the standard for hostel and shared-accommodation calls.",
+            "mostlyPositive": "Strong performance in a multi-stakeholder noise complaint. You maintained proportionality, engaged with different cultural perspectives, and worked toward collaborative resolution rather than enforcement. Some opportunities were missed — perhaps in preparation, group dynamics, boundary-setting, or stakeholder follow-up — but your overall approach was professional, proportionate, and trust-building.",
+            "mixed": "You showed competence in some areas but struggled with the full complexity of this multi-party hostel situation. Strengths were visible in certain stages, but critical opportunities were missed in others. Review the balance between authority and collaboration, the importance of empowering cooperative voices within groups, and the difference between resolving tonight's noise and preventing next Friday's repeat call.",
+            "mostlyNegative": "This scenario revealed significant gaps in negotiation and proportionality. While you managed to address the noise complaint at a basic level, most choices leaned toward rigid enforcement over collaborative problem-solving, boundary erosion over professional warmth, or incomplete follow-up over genuine stakeholder care. Hostel noise complaints are where negotiation skills are built or exposed — review multi-party mediation principles, proportionate response, and the cooperative-voice technique.",
+            "allNegative": "Your approach treated a negotiation situation as a pure enforcement matter. The backpackers' legitimate celebration, Mr. Kimura's underlying need for sleep, Priya's constructive initiative, and Marta's need for validation and systemic support were all missed. Shared-accommodation noise calls require cultural awareness, proportionate response, and collaborative problem-solving — not commands, threats, or blame. This requires fundamental reorientation toward negotiation-based policing."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "I can see you're having a great night. I'm not here to shut anything down — but I do need a minute of your time because there's a situation we need to sort out.",
+            "Losing sleep before an important presentation is extremely frustrating, and you're right to expect quiet at this hour.",
+            "Is your main concern the noise stopping, or do you specifically need the group removed from the building?",
+            "Liam, I actually get it — last night together, end of a big trip. That matters. And you're right that hostels are social places.",
+            "Your rights and theirs aren't different. So the question isn't whether you can celebrate — it's how and where.",
+            "I'd rather help you find a way to keep your night going than shut it down.",
+            "Priya, thank you — that's exactly the kind of thinking that helps.",
+            "Option A: the courtyard — you can take your drinks and talk there, but no speaker. Option B: The Night Owl — you can be as loud as you want.",
+            "You did the right thing calling, Marta. I'd also recommend talking to your manager about a written noise policy.",
+            "Mr. Kimura, the common room is clear and quiet. I hope your presentation goes well tomorrow."
+        ],
+        "poorPhrases": [
+            "This is really a management issue — she should keep trying her manager and handle it as an internal hostel matter.",
+            "This is a hostel — shared spaces and some noise come with the territory. Perhaps you could try earplugs?",
+            "Nobody is drinking anything else tonight. Turn that music off immediately. This is your one warning.",
+            "You know what, you're not wrong — just keep it to a dull roar and I'll tell the receptionist it's sorted.",
+            "The rules are the rules. Quiet hours are quiet hours. That's not negotiable.",
+            "Party's over for tonight. Pack up, go to your rooms, get some sleep.",
+            "If I get called back here tonight, it won't be a friendly conversation next time. There will be fines.",
+            "Honestly, Marta, you should have handled this before it got to this point."
+        ],
+        "analysisCriteria": {
+            "negotiationQuality": "Did the phrase open negotiation space or close it? Did it create options or issue ultimatums?",
+            "proportionality": "Did the phrase match the severity — conversation for a noise complaint, not commands for a crime scene?",
+            "stakeholderAwareness": "Did the phrase acknowledge the legitimate concerns of all parties, or prioritize one at the expense of others?",
+            "culturalSensitivity": "Did the phrase respect different cultural expectations about noise, authority, and social norms?",
+            "boundaryMaintenance": "Did the phrase maintain professional authority while remaining approachable and warm?",
+            "sustainableResolution": "Did the phrase contribute to a lasting solution or just temporary compliance that would dissolve within minutes?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "In hostel and shared-accommodation calls, two minutes with the receptionist gives you the policy framework, group composition, and complainant expectations that shape every subsequent decision. Rushing past Marta means entering the common room blind.",
+        "2": "Separating Mr. Kimura's underlying need (sleep before his presentation) from his stated demand (eject the group) is the single most powerful negotiation move in this scenario. One question expanded the solution space from one option to many.",
+        "3": "Liam's beer offer is the defining test of professional boundaries. How you handle it in the first thirty seconds determines whether the group sees an officer who can be charmed or one who commands respect through warmth. Decline clearly, decline warmly, and move on.",
+        "4": "Validating Liam's argument ('hostels are social places') before redirecting it ('your rights and theirs aren't different') transforms resistance into willingness. People who feel heard move; people who feel dismissed dig in. The AND between validation and boundary is the technique.",
+        "5": "Priya is the key to this scenario. She took social risk by speaking against her group's leader. Empowering her voice, building on her suggestion, and redirecting to Liam for agreement achieves what confrontation never could — face-saving voluntary compliance.",
+        "6": "Specific, structured options with clear parameters ('no speaker, conversation level, ten minutes to clear the room') produce self-enforcing agreements. Vague instructions ('keep it down') are the same instruction Marta gave three times — and it failed three times.",
+        "7": "Following up with Marta and Mr. Kimura is not optional courtesy — it's what makes the resolution complete. Validating Marta prevents hesitation on her next call. Updating Mr. Kimura honors the vulnerability he shared. Suggesting a noise policy transforms a single incident into systemic improvement."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Advanced multi-party negotiation — training others in shared-space mediation techniques", "Cross-cultural communication leadership for international policing contexts", "Systemic problem-solving — helping institutions develop policies that prevent repeat calls", "Cooperative-voice identification and empowerment in group dynamics"],
+            "good": ["Extended negotiation skills — separating needs from demands in multi-party disputes", "Cultural sensitivity in international hospitality environments", "Stakeholder follow-up techniques — closing the loop with every affected party", "Group dynamics management — working with leaders and allies within groups"],
+            "average": ["Core negotiation principles — reframing, structured options, collaborative problem-solving", "Professional boundaries under social pressure — warmth without co-optation", "Proportionate response in low-level noise and nuisance calls", "Active listening and empathetic engagement with frustrated complainants"],
+            "poor": ["Fundamentals of multi-party negotiation and mediation", "Proportionality in enforcement discretion — matching response to actual severity", "Professional boundaries and conduct in social settings", "Stakeholder management basics — preparation, engagement, follow-up with all parties"]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Overall Performance Summary", "content": ["Score and performance level", "Key strengths in multi-party negotiation", "Critical weaknesses in stakeholder management or proportionality", "Overall assessment of hostel noise complaint handling"]},
+            {"title": "Stage-by-Stage Analysis", "content": ["Choice made at each stage", "Impact on Marta, Mr. Kimura, Liam, Priya, and the backpacker group", "Alternative approaches and their consequences", "Key learning points per stage"]},
+            {"title": "Negotiation & Mediation Assessment", "content": ["Need vs. demand separation quality — Mr. Kimura interaction", "Validate-then-redirect technique — Liam interaction", "Cooperative voice empowerment — Priya interaction", "Structured option presentation — securing agreement"]},
+            {"title": "Proportionality & Boundaries Evaluation", "content": ["Response calibration to actual severity — noise complaint, not violent crime", "Professional boundary maintenance — beer offer, social pressure", "Progression through options: relocation before restriction before ejection", "Closing tone — goodwill preserved or poisoned by warnings"]},
+            {"title": "Cultural Sensitivity Review", "content": ["Adaptation to Liam's Australian informality", "Respect for Mr. Kimura's formal communication and professional stakes", "Recognition of different cultural expectations around noise and socializing", "Consistent dignity across cultural contexts"]},
+            {"title": "Stakeholder Follow-Up Quality", "content": ["Marta: validation, update, systemic recommendation", "Mr. Kimura: personal follow-up addressing his specific concern", "Backpacker group: closure with dignity and voluntary agreement", "Systemic impact — noise policy recommendation and future prevention"]},
+            {"title": "Communication Effectiveness", "content": ["Best dialogue moments and why they worked", "Counterproductive phrases and their consequences", "Framing analysis — shared problem vs. enforcement encounter", "Closing statement impact on lasting memory"]},
+            {"title": "Professional Development", "content": ["Immediate training needs based on weakest areas", "Long-term skill development in negotiation and cultural competency", "Recommended resources for shared-accommodation and noise complaint calls", "Application to other multi-party, low-level enforcement situations"]}
+        ]
+    }
+}

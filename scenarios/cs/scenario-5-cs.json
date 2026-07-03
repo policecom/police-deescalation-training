@@ -1,0 +1,460 @@
+{
+    "id": 5,
+    "title": "Stížnost na hluk — Mediace v době nočního klidu",
+    "description": "Pokročilý scénář zahrnující noční stížnost na hluk v obytném bytovém domě. Vyčerpaný starší nájemník, pan Novák, zavolal policii kvůli narozeninové oslavě v bytě nad ním, kterou pořádá mladý pár, Tomáš a Anna. Strážník musí přiměřeně vymáhat dodržování nočního klidu a zároveň zprostředkovat řešení mezi sousedy, kteří budou bydlet nad sebou a pod sebou ještě dlouho poté, co policie odjede.",
+    "icon": "🔊",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Seržant Kowalski",
+        "avatar": "👮‍♂️",
+        "introduction": "Stížnosti na hluk jsou v mnoha oblastech vůbec nejčastějším důvodem volání policie — a zároveň jedním z nejvíce podceňovaných. Zdají se málo závažné, ale utvářejí vnímání policie komunitou víc než téměř jakýkoli jiný typ výjezdu. Výzkumy opakovaně ukazují, že způsob, jakým strážníci tyto situace řeší, rozhoduje o tom, zda obyvatelé budou policii dostatečně důvěřovat, aby volali i v závažnějších případech. Výzva je zde unikátní: obě strany mají legitimní pozici. Noční klid existuje z dobrého důvodu a slavení ve vlastním bytě je základní svoboda. Vaším úkolem není vybrat si stranu — je to zprostředkovat řešení, se kterým obě strany mohou žít, a to doslova, protože sdílejí budovu. Strážníci, kteří u stížností na hluk automaticky sahají po represivním vymáhání, vytvářejí vleklé sousedské konflikty generující opakované výjezdy po celé měsíce. Mediační dovednosti — aktivní naslouchání, přerámování situace, navrhování konkrétních kompromisů — přinášejí mnohem trvalejší výsledky než pokuty."
+    },
+    "timedChoices": true,
+    "completionBadges": [
+        "scenario-5-complete"
+    ],
+    "perfectBadge": "perfect-scenario-5",
+    "finalMessage": {
+        "revelation": "Tomáš pracuje jako záchranář a slouží dvanáctihodinové noční směny tři až čtyři dny v týdnu. Narozeninová oslava byla pro jeho nejbližšího kamaráda z univerzity, kterého málokdy vidí. Anna je učitelka na základní škole a oslavu zorganizovala jako překvapení — když přijela policie, cítila se hrozně a vyčítala si, že nestanovila přísnější čas ukončení. Pan Novák je důchodce a vdovec, který před dvěma lety přišel o manželku. Žije sám a noční hluk zesílil jeho osamělost a frustraci. S Tomášem a Annou nikdy předtím nemluvil — byli sousedy osmnáct měsíců bez jediného skutečného rozhovoru. Po vašem zásahu Anna upekla dort a následující odpoledne ho přinesla panu Novákovi s písemnou omluvou. Pozval ji dovnitř na kávu. V následujících měsících začal Tomáš po svých směnách chodit za panem Novákem, a pan Novák se začal účastnit jejich malých nedělních večeří. Soused, který viděl setkání na chodbě, později řekl správci budovy, že přístup policisty proměnil to, co mohlo být léta trvající spor, v začátek skutečného přátelství.",
+        "keyLessons": [
+            "Stížnosti na hluk nejsou o hluku — jsou o respektu, spánku, autonomii a pocitu sounáležitosti. Pochopení hlubších potřeb přináší lepší výsledky než vymáhání hladin hlasitosti.",
+            "Stěžovatel je váš první kontakt, ale ne vaše jediná odpovědnost — včasné řízení jeho očekávání zabrání frustraci, když místo trestu zvolíte mediaci.",
+            "Zahájení rozhovoru s hostiteli oslavy empatií místo autoritou dramaticky snižuje jejich obranné reakce a zvyšuje dobrovolné dodržování pravidel.",
+            "Zapojení spolupracující strany (Anny) jako spojence je účinnější než snaha přímo prolomit odpor odmítavé strany.",
+            "Konkrétní, specifické dohody — úroveň hlasitosti, použití balkonu, čas ukončení — drží lépe než vágní sliby, že se ‚ztišíme'.",
+            "Uzavření smyčky se stěžovatelem není volitelné — pan Novák potřebuje slyšet, co bylo dohodnuto, a cítit, že jeho volání mělo smysl.",
+            "Strážníci, kteří u sousedských sporů mediují místo pokutování, předcházejí opakovaným výjezdům, které zatěžují hlídkové kapacity po celé měsíce."
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Příjezd",
+            "sceneUpdate": {
+                "emoji": "🏢",
+                "title": "Bytový dům — Sobota 23:30",
+                "desc": "Přijíždíte k pětipodlažnímu bytovému domu v tiché ulici. Už od vchodu slyšíte tlumené dunění basů z horního patra. Na schodišti je cítit cigaretový kouř proudící shora. Starší muž v županu a pantoflích čeká v přízemní chodbě se zkříženýma rukama, viditelně rozčilený. U schránek je vyvěšený řád: „Noční klid: 22:00 — 7:00.“"
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Hlídka směřuje na stížnost na hluk, Lipová 14. Stěžovatel je pan Novák, přízemní byt. Hlásí hlasitou hudbu a hluk z oslavy z bytu přímo nad ním — probíhá přibližně od 22 hodin. V domě je vyvěšen řád nočního klidu od 22 hodin. Na tuto adresu nebyla dosud žádná volání."
+                },
+                {
+                    "character": "novak",
+                    "text": "(spěchá k vám chodbou) Díky Bohu, že jste tady. Volal jsem před víc než hodinou! Trvá to od deseti — basy jdou přímo přes strop. Nezamhouřil jsem ani oko. A teď mají lidi na balkóně, řvou a kouří. V šest musím vstávat k doktorovi. Můžete to prosím prostě zastavit?"
+                }
+            ],
+            "prompt": "Pan Novák je frustrovaný a nevyspalý. Chce okamžitý zásah. Jak zvládnete tento první kontakt?",
+            "options": [
+                {
+                    "text": "Klidně přikývněte panu Novákovi a spustíte clipboard podél boku, abyste nepůsobili, jako byste už sepisovali protokol: „Tu hudbu slyším až sem, takže vaší frustraci naprosto rozumím. Než půjdu nahoru, chci se ujistit, že mám úplný přehled od vás. Jak dlouho to trvá v téhle intenzitě a stalo se něco podobného už dříve s těmito sousedy? Zkoušel jste s nimi někdy mluvit přímo, nebo je to vaše první skutečná interakce?”",
+                    "feedback": "Proč: Okamžité potvrzení jeho zkušenosti („slyším to taky“) buduje důvěru. Shromáždění konkrétních informací — doba trvání, historie, předchozí pokusy o řešení — vám dává kontext, který určí, zda jde o jednorázovou oslavu, nebo opakovaný vzorec. Otázka, zda se pokusil o přímou komunikaci, odhalí dynamiku sousedského vztahu. | DŮSLEDKY: Pan Novák se cítí vyslyšený a poskytne užitečné podrobnosti: poprvé je to takhle špatné, nikdy s nimi nemluvil a ani nezná jejich jména. Teď víte, že jde o eskalaci z nuly — žádný předchozí vztah, žádné předchozí pokusy. To formuje váš přístup nahoře. | Reflexe: Jak pochopení toho, zda spolu sousedé někdy komunikovali, mění typ zásahu, který poskytnete?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "„Slyším vás, pane Nováku. Noční klid začal v deset a jasně ho porušují — ty basy slyším odtud. Jdu to řešit rovnou nahoru.” Dáte mu pevné, uklidňující přikývnutí a rázným krokem zamíříte ke schodišti, aniž byste se ptali na jakékoli podrobnosti — jak dlouho hluk trvá v téhle intenzitě, jestli se to stalo už dřív, nebo zda někdy zkusil zaklepat na jejich dveře sám.",
+                    "feedback": "Proč: Rychlé potvrzení a rozhodná akce působí vstřícně, ale přeskočili jste zásadní sběr informací. Neznáte historii, vztah ani co pan Novák už vyzkoušel. Spěchat nahoru jen s pohledem stěžovatele znamená, že přijdete k oslavě s jednostranným pohledem a bez mediační strategie. | DŮSLEDKY: Pan Novák je dočasně spokojený s vaší rozhodností. Ale zaklepete na Tomášovy dveře bez jiného kontextu než „porušení“, což zúží váš přístup na vymáhání místo mediace. Pokud výsledek bude něco méně než úplné ukončení oslavy, pan Novák se bude cítit okradený. | Reflexe: Co ztrácíte, když přeskočíte sběr informací kvůli demonstraci naléhavosti?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "„Dobře, slyším to odsud. Jdu nahoru zaklepat na dveře a vyřešíme to.” Věnujete panu Novákovi krátké přikývnutí, letmo pohlédnete ke schodišti směrem k dunícím basům a začnete stoupat. Žádné doplňující otázky ohledně toho, jak dlouho hluk trvá v téhle intenzitě, jestli jde o opakující se problém, nebo co by pro něj „vyřešit” vlastně znamenalo. Situaci posoudíte sami, až uvidíte, co se děje nahoře.",
+                    "feedback": "Proč: Uznání hluku je dobré, ale „vyřešíme to“ je vágní a nenastavuje žádná očekávání. Nezjistili jste od stěžovatele žádné informace, neposoudili jste historii a neřekli jste panu Novákovi, co „vyřešit“ znamená. On si představuje ukončení oslavy; vy možná představujete snížení hlasitosti. | DŮSLEDKY: Přijdete k bytu s oslavou téměř bez kontextu. Pan Novák čeká dole a netuší, co očekávat, každou minutou nervóznější. Když se vrátíte s kompromisem místo ukončení, cítí se zrazený. | Reflexe: Jak selhání v nastavení očekávání u stěžovatele vytváří problémy pro jakékoli řešení, které zprostředkujete?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "„Pane Nováku, je sobotní večer — lidi prostě občas mají oslavy. Nezkoušel jste si dát špunty do uší? Vím, že to není ideální, ale byty mají tenké zdi a víkendový hluk je prostě součást sdíleného bydlení. Zajdu nahoru a poprosím je, aby to udrželi v rozumné míře, ale nemůžu zaručit, že úplně přestanou. Tyhle věci se obvykle samy utlumí kolem jedné, dvou ráno.”",
+                    "feedback": "Proč: Odmítnutí legitimní stížnosti návrhem, aby se stěžovatel přizpůsobil („zkuste špunty do uší“), je hluboce znevažující. Volal, protože je porušován noční klid — vyvěšené pravidlo domu, ne osobní preference. Říkat mu, aby to toleroval, signalizuje, že jeho starosti jsou bezvýznamné. Nízká očekávání ještě před prošetřením sdělují, že jste se už rozhodli ve prospěch hostitelů oslavy. | DŮSLEDKY: Frustrace pana Nováka prudce vzroste: „Špunty? Neměl bych muset nosit špunty ve vlastním bytě o půlnoci!“ Cítí se odmítnutý a začíná pochybovat, zda volání mělo smysl. Pokud řešení bude nedokonalé, zavolá znovu — a příště bude naštvanější a méně důvěřivý. | Reflexe: Co se stane s důvěrou občana v policii, když je jeho legitimní stížnost zlehčena ještě před prošetřením?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Stěžovatel",
+            "sceneUpdate": {
+                "emoji": "😫",
+                "title": "Přízemní chodba — Řízení očekávání",
+                "desc": "Panu Novákovi je přes šedesát, vlasy neučesané, tmavé kruhy pod očima. Opírá se o rám dveří svého bytu, jako by stání stálo úsilí. Přes otevřené dveře vidíte televizi se ztlumeným zvukem a nedotknutý šálek čaje na kuchyňském stole. Basy stále rovnoměrně pulsují stropem."
+            },
+            "npcDialogue": [
+                {
+                    "character": "novak",
+                    "text": "Není to poprvé, co je hluk, ale dnešek je zdaleka nejhorší. Ani nevím, kdo tam nahoře bydlí — nějací mladí se nastěhovali před rokem, možná víc. Nikdy jsem s nimi nemluvil. Chci prostě spát. Mám srdeční potíže a doktor říká, že stres to zhoršuje. Nemůžete jim prostě dát pokutu? To by je naučilo."
+                }
+            ],
+            "prompt": "Pan Novák chce, aby byla udělena pokuta. Je unavený, frustrovaný a má zdravotní problém. Jak zvládnete jeho očekávání, než půjdete nahoru?",
+            "options": [
+                {
+                    "text": "„Pane Nováku, na vašem zdraví záleží a vaše právo na klid po desáté hodině je oprávněné — beru to vážně. Takhle to udělám: půjdu nahoru, promluvím s nimi a budu usilovat o to, aby hluk dnes v noci ustal. Chci být s vámi upřímný — při prvním porušení začnu jasným napomenutím a konkrétní dohodou. Pokud nedodrží, vymáhání se stupňuje. Ale moje zkušenost je, že mediace mezi sousedy funguje dlouhodobě lépe než pokuty. Dáte mi šanci zkusit tento přístup?“",
+                    "feedback": "Proč: Potvrzuje jeho zdravotní stav i právní nárok. Transparentní přístup — napomenutí před pokutou — s vysvětlením, proč mediace přináší lepší výsledky. Otázka „dáte mi šanci“ respektuje jeho volbu a zve ke spolupráci místo diktátu. Jasná kritéria eskalace (nejdřív napomenutí, pak vymáhání) řídí očekávání, aniž by je odmítala. | DŮSLEDKY: Pan Novák se odmlčí, pak neochotně přikývne: „Dobře, ale jestli to nezabere...“ Důvěřuje vám dostatečně, abyste to zkusili. Jdete nahoru s jeho podmíněným souhlasem, který vám dává prostor pro mediaci, aniž by se cítil zrazený. | Reflexe: Proč vysvětlení vaší argumentace stěžovateli — místo pouhého slíbení akce — buduje trvalejší důvěru?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "„Plně chápu vaši frustraci a pokuta rozhodně přichází v úvahu — mám tu pravomoc a pokud si to situace vyžádá, je na stole. Nejdřív ale půjdu nahoru posoudit situaci, promluvím s tím, kdo tu oslavu pořádá, a uvidím, jak zareagují. Podle toho, co zjistím, by to mohlo být ústní napomenutí, písemné napomenutí, nebo rovnou pokuta. Vrátím se za vámi a řeknu vám přesně, co se stalo a jaký bude další postup.“",
+                    "feedback": "Proč: Uznání možnosti pokuty je technicky správné. Avšak „pokuta rozhodně přichází v úvahu“ zvyšuje očekávání pana Nováka, že vymáhání je pravděpodobný výsledek. Pokud později zvolíte mediaci, bude se cítit podveden. „Posoudit situaci“ je profesionální, ale vágní — nedává mu nic, čeho by se chytil. | DŮSLEDKY: Pan Novák slyší „pokuta přichází v úvahu“ a v hlavě si to uloží jako „pokuta bude“. Když se vrátíte s dobrovolnou dohodou, je frustrovaný: „Říkal jste, že pokuta přichází v úvahu!“ Mezera mezi naznačením a výsledkem narušuje důvěru. | Reflexe: Jak formulace, kterou používáte k řízení očekávání, vytváří v mysli stěžovatele závazek?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "„Půjdu to vyřešit, pane Nováku. Vystoupám nahoru, promluvím s nimi o tom hluku a vrátím se, až budeme vědět, na čem jsme.“ Otočíte se ke schodišti, aniž byste reagovali na jeho žádost o pokutu nebo se zmínili o jeho srdečních potížích. Nedáváte mu žádnou představu o tom, co „vyřešit“ vlastně znamená — jestli to bude napomenutí, dohoda, nebo úplné ukončení oslavy. Řeknete jen ať zkusí odpočívat.",
+                    "feedback": "Proč: V dobrém úmyslu, ale bez jakýchkoli očekávání. „Vyřešit“ může znamenat cokoli — ukončení, napomenutí, mediaci. Pan Novák vyplní neurčitost svým preferovaným výsledkem: oslava skončí a pokuta bude udělena. Žádná zmínka o jeho zdravotním stavu, žádné potvrzení dopadu rušení. Říkat nevyspalému člověku „zkuste si odpočinout“, zatímco basy stále bouchají, je necitlivé. | DŮSLEDKY: Pan Novák se stáhne do bytu a leží vzhůru, poslouchá strop. Když se vrátíte s kompromisem, je zmatený a zklamaný, protože „vyřešit“ pro něj znamenalo něco jiného. Další volání přijde rychleji. | Reflexe: Co vyplní mezeru, když nenastavíte konkrétní očekávání?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "„Pane Nováku, chápu, že je to frustrující, ale nemůžu jen tak na místě rozdávat pokuty — je tu určitý postup. A upřímně, oslavy jednou skončí, to je prostě povaha sobotních večerů. Zajdu nahoru a požádám je, aby ztišili, ale realisticky vzato, dnes v noci to možná budete muset prostě vydržet. Je víkend a víkendový hluk v bytových domech — víte, jak to chodí. Možná zkuste zavřít okno v ložnici nebo pustit si nějaký bílý šum na pozadí.“",
+                    "feedback": "Proč: „Oslavy jednou skončí“ a „vydržet“ jsou odmítavé. Noční klid není doporučení — je to vyvěšené pravidlo domu a porušení je zřejmé a probíhající. Říkat šedesátiletému muži se srdečními problémy, aby to prostě vydržel, signalizuje, že jeho legitimní stížnost je pro vás obtíž. „Nemůžu jen tak rozdávat pokuty“ je navíc zavádějící — tu pravomoc máte. | DŮSLEDKY: Pan Novák sklání tvář. Cítí se opuštěný systémem, který si zavolal o pomoc. Pokud hluk pokračuje, může eskalovat — zavolat nadřízeného, konfrontovat sousedy sám, nebo prostě nikdy znovu nedůvěřovat policii v otázkách kvality života. | Reflexe: Když má stěžovatel jasně oprávněnou stížnost, jaký signál vysílá „vydržte to“ o hodnotě volání na policii?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Klepání na dveře",
+            "sceneUpdate": {
+                "emoji": "🚪",
+                "title": "Podesta druhého patra — Byt s oslavou",
+                "desc": "Stoupáte po schodech do druhého patra. Hudba s každým krokem sílí — elektronické basy s výrazným basem vibrují zdmi. Na podestě jiná obyvatelka — žena kolem čtyřicítky — vyhlíží ze dveří bytu naproti, věnuje vám unavený pohled a stáhne se za dveře, aniž by promluvila. Zvenku bytu s oslavou slyšíte smích, cinkání sklenic a více hlasů. Pod dveřmi proniká světlo. Na malém balkóně viditelném přes okno schodiště stojí tři lidé, kouří a hlasitě se baví."
+            },
+            "npcDialogue": [
+                {
+                    "character": "neighbor",
+                    "text": "(vyhlíží ze dveří, tiše) Jsem ráda, že konečně někdo zavolal. Je to takhle od deseti. Moje děti taky nemůžou spát. (Stáhne se a zavře dveře.)"
+                },
+                {
+                    "character": "tomas",
+                    "text": "(otevírá dveře po druhém zaklepání, pivo v ruce, hudba řve za ním, mírně zrudlý) Jo? (uvidí uniformu, výraz ztvrdne) No tak. Vážně? Je to narozeninová oslava. Je sobota v noci."
+                }
+            ],
+            "prompt": "Tomáš otevřel dveře, viditelně naštvaný a lehce pod vlivem alkoholu. Za ním řve hudba. Jak zahájíte tento rozhovor?",
+            "options": [
+                {
+                    "text": "Udržujte klidný a konverzační tón: „Dobrý večer. Jsem strážník [jméno]. Vidím, že slavíte — všechno nejlepší tomu, kdo má narozeniny. Jsem tady, protože váš soused zdola zavolal kvůli hluku. Noční klid v domě začal v deset a hudbu slyším až z přízemí. Rád bych se s vámi pobavil o tom, jak vám umožnit dokončit večer, aniž by to budilo celý dům. Můžeme si na minutku promluvit?“",
+                    "feedback": "Proč: Představení se jménem polidšťuje interakci. Uznání oslavy („všechno nejlepší“) ukazuje, že je vidíte jako lidi, ne jen jako porušení. Neutrální konstatování faktů — soused zavolal, noční klid, slyšitelné z přízemí — stanoví problém bez obvinění. „Jak vám umožnit dokončit večer“ signalizuje, že nejste tu, abyste to zastavili, což dramaticky snižuje obranné reakce. Otázka „můžeme si promluvit“ mu dává volbu. | DŮSLEDKY: Tomášova obranná reakce se mírně uvolní. Nečekal klidného, rozumného strážníka. Vstoupí do dveří a ztíší hlas: „Podívejte, má kamarád narozeniny...“ Začal rozhovor místo konfrontace. | Reflexe: Jak uznání něčí oslavy předtím, než řešíte stížnost, mění jejich ochotu spolupracovat?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "„Večer. Máme stížnost na hluk od vašeho souseda zdola. Noční klid v domě platí od deseti a to už je dávno pryč. Potřebuji, abyste okamžitě ztišili hudbu a stáhli ty lidi z balkónu — kouření a hlasité rozhovory tam nahoře se nesou celým schodištěm. Pojďme to vyřešit rychle, abych se sem dnes v noci nemusel vracet.“ Nepředstavíte se jménem a nedáte Tomášovi žádný prostor k reakci.",
+                    "feedback": "Proč: Věcně správné a přímé, ale začíná příkazy místo dialogu. „Potřebuji, abyste“ je rozkaz, ne zahájení konverzace. Nepředstavili jste se, neuznali jste oslavu ani jste Tomášovi nedali pocit, že vás zajímá jeho pohled. Když mírně opilý člověk dostane rozkazy od cizince u vlastních dveří, instinktivně se brání. | DŮSLEDKY: Tomáš se naježí: „Potřebujete? To je můj byt.“ Za ním se objeví přítelkyně s vyděšeným pohledem. Namísto vyjednávání jste zahájili mocenský souboj. Každý ústupek teď bude ztráta tváře. | Reflexe: Jaký je rozdíl mezi udílením pokynů a zahájením vyjednávání — a co z toho vede k rychlejšímu dodržení?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "„Hele, chápu — sobotní večer, narozeninová oslava. Sám to znám, vím, jak to chodí. Ale sousedi volají stížnosti a noční klid začal asi před hodinou a půl. Podívejte, fakt nechci nikomu kazit večer. Mohli byste prostě udržet hluk trochu níž? Možná stáhnout ty lidi z balkónu a trochu ztlumit hudbu? Nechám na vašem úsudku, jak přesně to uděláte.“ Ustoupíte od dveří s omluvným pokrčením ramen.",
+                    "feedback": "Proč: Přátelské a vtažitelné, ale „trochu ztlumit“ je příliš vágní na skutečnou dohodu. Co znamená „trochu“? Basy, které jdou přes podlahu? Konverzace na balkóně? Hlasitost hudby? Bez konkrétností Tomáš přikývne a nic zásadního nezmění. Nepředstavili jste se ani jménem, čímž propásete snadnou příležitost k navázání kontaktu. | DŮSLEDKY: Tomáš pokrčí rameny: „Jo, jasně, žádný problém.“ Zavře dveře. Za pět minut je hlasitost nepatrně nižší — technicky vyhověl. Za třicet minut se opět zvýší a pan Novák volá znovu. Nic jste nevyřešili. | Reflexe: Proč vágní dohody selhávají a co činí konkrétní dohodu trvalou?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "„Pane, reaguji na hlášení o porušení nočního klidu na této adrese. Noční klid v domě je vyvěšen od dvaceti dvou do sedmi hodin a vy ho v tuto chvíli jasně porušujete. Budu potřebovat vidět občanský průkaz od nájemce bytu a potřebuji, aby ta hudba utichla — ne ztišila, utichla — a to okamžitě. Pokud budu muset na tuto adresu reagovat podruhé, počítejte s formální pokutou. Je to jasné?“",
+                    "feedback": "Proč: Požadování dokladů a hrozba pokutou jako úvodní krok u stížnosti na hluk je diametrálně nepřiměřené. Jde o první kontakt u problému kvality života, ne o trestní šetření. Zahájení hrozbami a požadavky na dokumenty zaručuje odpor od někoho, kdo je ve vlastním bytě, pil a cítí se v právu slavit. Konfrontační přístup také maří jakýkoli šanci na mediaci. | DŮSLEDKY: Tomáš ustoupí: „Doklady? Za oslavu? Jsem zatčený?“ Jeho přátelé se shromáždí za ním a atmosféra se stává nepřátelskou. Anna se objeví, vyděšená. Skupina z balkónu jde dovnitř zjistit, co se děje. Nyní čelíte místnosti obranných, lehce opilých lidí místo jednomu spolupracujícímu páru. | Reflexe: Jak vypadá přiměřenost, když reagujete na stížnost na hluk oproti trestnému činu?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Odpor",
+            "sceneUpdate": {
+                "emoji": "😤",
+                "title": "Dveře bytu — Patová situace",
+                "desc": "Stojíte ve dveřích bytu. Za Tomášem vidíte obývák vyzdobený řetězy a bannerem „Všechno nejlepší“. Asi osm lidí sedí nebo stojí kolem stolu pokrytého jídlem, pití a napůl snědeným dortem. Hudba se od otevření dveří mírně ztišila, ale basy stále pulsují. Mladá žena — Anna — se objeví za Tomášovým ramenem a rychle čte situaci. Jeden z hostů — zavalitý muž ve třicítce — přistoupí za Tomáše se zkříženýma rukama a přidává fyzický důraz odporu."
+            },
+            "npcDialogue": [
+                {
+                    "character": "tomas",
+                    "text": "(předstoupí, zvýšeným hlasem, opravdu naštvaný) Ne. Ne. S tou zdvořilostí jsem skončil. Je to můj byt. Platím nájem. Dělám dvanáctihodinové noční směny jako záchranář — vidím lidi umírat, pane strážníku, a tohle je ta jedna sobota v měsíci, kdy můžu vidět své přátele. Ten pán dole buší do stropu pokaždé, když u mě někdo je — i na tichý večeři. Minulý měsíc zavolal policii, protože se někdo nahlas zasmál. Už nebudu vyjednávat. Máme právo tady taky bydlet."
+                },
+                {
+                    "character": "anna",
+                    "text": "(položí Tomášovi ruku na paži, mluví tišeji, ale také rozpolceně) Tomáši, přestaň. (Otočí se k vám) Omlouvám se, pane strážníku. Nevěděli jsme, že je to tak hlasité. Měli jsme být opatrnější. Ale nemá nepravdu — pan Novák si stěžuje na všechno. Co potřebujete, abychom udělali?"
+                }
+            ],
+            "prompt": "Tomáš není jen obranný — je opravdu naštvaný a má stížnost na opakované reklamace. Jeho kamarád ho fyzicky podpírá. Anna je vstřícnější, ale potvrzuje jeho frustraci. Jak se zapojíte do této vyhrocené dynamiky?",
+            "options": [
+                {
+                    "text": "Nejprve oslovte přímo Tomáše, s respektem, ale rozhodně: „Slyším vás — noční směny jako záchranář a konečně sobota s přáteli, chápu, proč vám na tom záleží. A máte pravdu, je to váš domov. Ale hluk dnes v noci je výrazně nad normálem — basy slyším až z přízemí. Pan Novák zmínil, že má srdeční potíže a v šest ráno musí k lékaři. Nejsem tu, abych ukončil vaši oslavu — jsem tu, abych našel střední cestu.“ Pak se obrátíte na Annu: „Říkala jste, že jste netušili, jak hlasité to je — to mi říká, že se to dá vyřešit. Můžeme probrat konkrétní kroky?“",
+                    "feedback": "Proč: Potvrzení Tomášových pocitů a uznání jeho práce záchranáře rozptyluje obrannou reakci tím, že prokazuje respekt k jeho profesi. „Máte pravdu, je to váš domov“ potvrzuje jeho autonomii předtím, než představíte protiváhu. Zmínka o srdečních potížích pana Nováka polidšťuje stěžovatele a přeorámuje situaci z „otravný soused“ na „zdravotní riziko“ — čemuž záchranář instinktivně porozumí. „Nejsem tu, abych ukončil vaši oslavu“ odstraňuje hrozbu, na kterou reaguje. Pak zapojení Anny směřuje konverzaci k řešení. | DŮSLEDKY: Tomáš se zarazí při zmínce o srdečních potížích — jako záchranář ví, co stres a nedostatek spánku dělají kardiologickým pacientům. Jeho kamarád uvolní zkřížené ruce. Anna vstoupí: „Mohli bychom ztlumit basy a zavřít balkónové dveře...“ Dynamika se posouvá od konfrontace k vyjednávání. | Reflexe: Jak potvrzení něčí pozice a následné představení konkurenční legitimní potřeby — zejména takové, která rezonuje s jejich profesí — mění ochotu ke kompromisu?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Zaměříte pohled na Annu, protože vypadá vstřícněji a otevřeněji k dialogu: „Děkuji vám — oceňuji vaši ochotu se mnou spolupracovat. Vysvětlím, co potřebuji: hudba se musí výrazně ztlumit, ne jen o kousek — ty basy pronikají přímo podlahou do bytu pod vámi. A balkón musí být vyklizený, protože kouření a hlasité rozhovory se v tuhle hodinu nesou celou budovou. Můžete s tím pomoct? Pokud tyhle dvě věci zvládneme, myslím, že se dnes v noci obejdeme bez jakéhokoli formálního opatření.“",
+                    "feedback": "Proč: Zapojení spolupracující strany je pragmatické a často účinné. Avšak mluvit převážně s Annou, zatímco Tomáš a jeho kamarád jsou ti, kdo vám čelí, může působit, jako byste je obcházeli. Tomáš to může vnímat jako neúctu — mluvíte s jeho přítelkyní místo toho, abyste se obrátili přímo na něj. Ve vlastním domě, s kamarádem za zády, to bolí dvojnásob. | DŮSLEDKY: Anna přikývne a začne jednat, ale Tomáš se cítí obejitý: „Hele, já tady taky stojím.“ Jeho kamarád přidá: „Jo, mluvte s náma.“ Tomáš je méně nepřátelský, ale cítí se odsunutý ve vlastních dveřích. Dohoda může platit dnes v noci, ale Tomáš si zapamatuje pocit odmítnutí. | Reflexe: Když je jedna strana vstřícnější, jak ji zapojíte, aniž by se odmítavá strana cítila ignorována — zejména když má za sebou někoho, kdo ji fyzicky podporuje?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "„Pane, chápu, že je to váš byt, a chápu, že k tomu máte silné pocity, ale noční klid je noční klid — platí každou noc, včetně sobot, včetně narozenin. Ta pravidla jsem nevymyslel já, ale vymáhám je. Potřebuji, aby hudba byla úplně vypnutá a hosté staženi z balkónu. To není prosba. Váš soused dole má zdravotní problémy a tohle trvá přes devadesát minut po začátku nočního klidu. Můžeme to případně dál probrat, ale nejdřív ta hudba musí přestat.“",
+                    "feedback": "Proč: „To není prosba“ eskaluje stížnost na hluk v souboj o dominanci. Proměnili jste řešitelnou situaci v konfrontaci — a nyní jsou dva muži ve dveřích v obranném postoji. Noční klid je platný, ale váš přístup k vymáhání nemá nulovou flexibilitu. U narozeninové oslavy ve 23:30 je to nepřiměřené a bude vnímáno jako autoritářství. Tomášův kamarád za ním ztuhne a skupinová dynamika se může vymknout kontrole. | DŮSLEDKY: Tomáš se vzpřímí: „Není to prosba? Tak mi napište pokutu a odejděte. Nevypnu hudbu na oslavě kamaráda, protože mi to řekne nějaký policajt.“ Jeho kamarád také přistoupí. Anna táhne Tomáše zpět, ale konverzace je nyní nepřátelská se dvěma agresivními stranami. Jakékoli řešení bude působit vynuceně. | Reflexe: Jaký je rozdíl mezi vymáháním pravidla a uplatňováním autority — a jak na každý z nich lidé reagují, zvláště když mají za sebou skupinu?",
+                    "type": "negative",
+                    "points": -10
+                },
+                {
+                    "text": "„Podívejte, fakt nechci z toho dělat velkou věc — vypadáte jako rozumní lidé a vidím, že je to narozeninová oslava. Fakt se nesnažím nikomu kazit zábavu. Jen se zkuste od teď trochu ztišit, jo? Možná přesuňte věci dál od balkónu a trochu stáhněte hlasitost. Radši bych sem dnes v noci nemusel jezdit znovu — pro mě je to papírování a pro všechny otrava.“ Ustoupíte ode dveří s omluvným pokrčením ramen a zamíříte ke schodišti.",
+                    "feedback": "Proč: Přátelské, ale bezzubé — zvláště tváří v tvář skutečnému odporu. Tomáš vám právě řekl, že je s vyjednáváním konec, jeho kamarád ho fyzicky podporuje, a vy odpovíte „zkuste se ztišit“. To signalizuje, že odpor funguje a tlak přinese měkčí reakci. Neřešili jste Tomášovu stížnost na opakované reklamace, nevyužili jste Anninu ochotu spolupracovat a nestanovili jste žádné konkrétní změny. Vágnost zajišťuje, že se nic nezmění. | DŮSLEDKY: Tomášův kamarád se ušklíbne. Tomáš pokrčí rameny: „Jasně, pane strážníku.“ Zavře dveře. Hudba se vrátí do pěti minut. Odměnili jste odpor ústupem. Pan Novák volá znovu ve 0:30, tentokrát zmiňuje tíseň na hrudi. | Reflexe: Když někdo tvrdě odporuje a vaší reakcí je ustoupit, co jste ho naučili o tom, jak jednat s policií?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Hledání řešení",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Dveře bytu — Vyjednávání",
+                "desc": "Konfrontační energie se poněkud zmírnila, ale objevila se komplikace. Vaše vysílačka zapraskala — dispečink předává, že pan Novák znovu volal, tentokrát ne kvůli hluku, ale kvůli tíse na hrudi a dušnosti. Říká, že to možná jeho srdeční potíže reagují na stres a nevyspání. Tomáš je stále ve dveřích, méně nepřátelský, ale pozorně vás sleduje. Anna stojí vedle něj se zkříženýma rukama a naslouchá. Za nimi oslava znatelně ztichla."
+            },
+            "npcDialogue": [
+                {
+                    "character": "anna",
+                    "text": "Opravdu jsme nechtěli dělat problémy. Je to jen — plánovali jsme to týdny a Marek přijíždí jen jednou, dvakrát za rok. Co přesně máme udělat? Nechceme potíže."
+                },
+                {
+                    "character": "tomas",
+                    "text": "(neochotně) Dobře. Ale nebudu posílat všechny domů o půlnoci. To je absurdní. (zaslechne vaši vysílačku, zaváhá) Počkejte — to je o tom sousedovi? Je v pořádku?"
+                }
+            ],
+            "prompt": "Pan Novák hlásí tíseň na hrudi — možná ze stresu, možná skutečný kardiologický problém vyžadující záchrannou službu. Mezitím Tomáš stanovil hranici ohledně neukončení oslavy. Potřebujete posoudit zdravotní situaci a najít řešení. Co uděláte?",
+            "options": [
+                {
+                    "text": "„Moment.“ Vysíláte dispečinku: „Můžete poslat záchranku k prověření stěžovatele — starší muž, hlásí tíseň na hrudi, známé srdeční onemocnění. Žádám preventivní vyšetření.“ Pak se obrátíte k Tomášovi: „Váš soused hlásí bolesti na hrudi — má srdeční potíže, zavolal jsem sanitku. Nežádám vás, abyste oslavu ukončili. Ale situace se změnila. Tady je, co by fungovalo: ztlumte basy, to proniká podlahou. Zavřete balkónové dveře. A domluvme čas ukončení — půl jedné vám dá ještě hodinu a jemu cílovou čáru. Zvládnete to?“",
+                    "feedback": "Proč: Vynikající stanovení priorit. Zdravotní problém je řešen okamžitě a profesionálně — nesnažíte se ho sami diagnostikovat, požádáte záchrannou službu o preventivní vyšetření. Pak přejdete k řešení hluku s konkrétními, realizovatelnými podmínkami. Sdělení bolestí na hrudi Tomášovi mění dynamiku — jako záchranář rozumí, co znamená kardiologický stres. Neozbrojili jste zdravotní situaci, jen jste konstatovali fakta. Tři konkrétní požadavky s rozumným časem ukončení. | DŮSLEDKY: Tomášův výraz se změní při zmínce bolestí na hrudi — profesionálně ví, co to znamená. „Je mu — dobře, jo. Půl jedné je v pohodě. Stejně jsme to končili.“ Anna okamžitě zavře balkónové dveře. Záchranná služba vyšetří pana Nováka a zjistí, že jde o reakci na stres, nic akutního. Ale vyšetření bylo správné rozhodnutí. | Reflexe: Jak rychlé řešení zdravotního problému — i když se ukáže jako drobný — prokazuje druh profesionálního úsudku, který mění způsob, jakým vás obě strany vnímají?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "„Co takhle tohle — ztlumíte hudbu, hlavně ty basy, a zavřete balkónové dveře. To by mělo vyřešit většinu toho, co se nese celou budovou. Důvěřuji vám, že to ukončíte v rozumnou dobu — sami víte líp než já, kdy oslava přirozeně doznívá. Teď ale musím jít dolů — váš soused znovu volal a není mu dobře. Tíseň na hrudi. Může to být nic, může to být stres, ale měl bych to osobně zkontrolovat. Jsme domluveni tady nahoře?“",
+                    "feedback": "Proč: Dva ze tří klíčových bodů jsou řešeny, ale „rozumný čas“ je subjektivní. Co je rozumné pro osmadvacetiletého na narozeninové oslavě se diametrálně liší od toho, co je rozumné pro šedesátiletého s bolestmi na hrudi. Bez konkrétního času ukončení může oslava pokračovat do dvou ráno a všichni budou mít pocit, že dodrželi svou část. Jdete osobně zkontrolovat pana Nováka, což je dobré, ale nevolali jste záchrannou službu — posuzovat kardiologické příznaky sami bez zdravotnického vzdělání je riskantní. | DŮSLEDKY: Tomáš a Anna snadno souhlasí — absence tvrdého času ukončení to usnadňuje. Najdete pana Nováka dole, je bledý, ale normálně dýchá. Nedokážete určit, zda jde o úzkost nebo srdeční problém. V 1:15 hluk opět narůstá a stav pana Nováka se zhoršil. | Reflexe: Jaké je riziko, když necháte nejspornější podmínku nedefinovanou — a když sami posuzujete zdravotní problém místo volání odborníků?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "„Tak tady je, co se bude dít. Potřebuji, aby hudba kompletně utichla — ne ztišila, kompletně utichla. A potřebuji, aby tato oslava skončila do třiceti minut. Noční klid je noční klid, je dávno po půlnoci a váš soused dole hlásí zdravotní potíže — tíseň na hrudi. Tohle se posunulo za hranice pouhé stížnosti na hluk. Tuto návštěvu budu dokumentovat v hlášení, a pokud situace nebude vyřešená, až se vrátím, přecházíme k formální pokutě. Třicet minut, hudba pryč, oslava končí.“",
+                    "feedback": "Proč: Úplné utišení hudby a ukončení do třiceti minut je nepřiměřené pro první stížnost na hluk u narozeninové oslavy. Použití zdravotního hlášení pana Nováka jako kladiva k vynucení dodržování činí ze zdravotního problému zbraň — zdravotní situace vyžaduje vlastní profesionální odpověď (záchrannou službu), ne aby byla využívána jako nástroj vymáhání. V podstatě nařizujete ukončení oslavy a zároveň nevoláte lékařskou pomoc pro skutečný zdravotní problém. | DŮSLEDKY: Tomáš ucukne: „Zneužíváte jeho bolesti na hrudi, abyste ukončili moji oslavu?“ Anna je rozčilená. Hosté si vyměňují naštvaný pohledy. Zdravotní problém pana Nováka zůstává neřešen, zatímco se soustředíte na vymáhání. Použili jste zdravotní problém jako zbraň a zanedbali osobu, která skutečně potřebovala pomoc. | Reflexe: Když je vymáhání nepřiměřené a zdravotní problém je použit jako páka místo profesionálního řešení, kdo nese náklady?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "„Nechám konkrétní podrobnosti na vás dvou — působíte rozumně a myslím, že dokážete sami odhadnout, co je potřeba změnit, aniž bych vám musel diktovat každý detail. Jen se postarejte, aby soused dole neměl důvod volat dnes v noci znovu, dobře? Balkón nechte zavřený, hlasitost na úrovni, přes kterou se dá spát. Fakt bych se sem nerad vracel. Teď musím jít dolů za vaším sousedem — znovu volal a říká, že mu není dobře. Prostě to tady nahoře zvládněte rozumně.“",
+                    "feedback": "Proč: Úplné přenechání odpovědnosti hostitelům oslavy nestanoví žádné konkrétní podmínky. „Domluvte si podrobnosti“ žádá lidi, kteří pili, aby se o půlnoci samoregulovali. Instinkt jít zkontrolovat pana Nováka je správný, ale nevolali jste záchrannou službu a nahoře jste nic nezprostředkovali. Oba problémy — hluk i zdravotní problém — zůstávají nedostatečně řešeny. | DŮSLEDKY: Tomáš a Anna říkají, že to zvládnou. Bez konkrétních závazků hudba zůstává na stejné úrovni. Najdete pana Nováka bledého a úzkostného. Nemáte kvalifikaci posuzovat kardiologické příznaky. V 1:00 hluk pokračuje a stav pana Nováka nebyl profesionálně vyšetřen. | Reflexe: Když vyžadují současnou pozornost více problémů, co se stane, když žádný z nich neřešíte s potřebnou konkrétností?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Dohoda",
+            "sceneUpdate": {
+                "emoji": "📝",
+                "title": "Dveře bytu — Formalizace dohody",
+                "desc": "Tomáš a Anna souhlasili s klíčovými podmínkami: basy ztlumit, balkónové dveře zavřít, hosté dovnitř, oslava končí ve 0:30. Anna už se pohybuje uvnitř a zavírá balkónové dveře. Jeden z hostů ztlumí hudbu. Záchranná služba zkontrolovala pana Nováka — vitální funkce jsou stabilní, ale krevní tlak je zvýšený stresem a nevyspaností. Záchranář doporučil, aby brzy usnul. Na chodbě je znatelně tišeji. Naproti sousedka má dveře pootevřené — poslouchá."
+            },
+            "npcDialogue": [
+                {
+                    "character": "tomas",
+                    "text": "(klidnější, téměř omluvný) Podívejte, nechtěl jsem být hrubý. Jen — byl to dlouhý týden. Mám šílené směny a kamarády skoro nevídám. Upřímně jsem si nemyslel, že je to tak hlasité. (odmlčí se) Je ten pán v pořádku? Slyšel jsem, že jste volali sanitku."
+                },
+                {
+                    "character": "anna",
+                    "text": "Opravdu nás mrzí ten soused. Nikdy jsme ho ani nepotkali. Je hodně naštvaný? Měli bychom... jít mu něco říct?"
+                }
+            ],
+            "prompt": "Dohoda je na místě a atmosféra se změnila. Tomáš se spontánně zeptal na zdraví pana Nováka. Jak tuto dohodu formalizujete a nastavíte podmínky, které zabrání dalšímu volání dnes v noci?",
+            "options": [
+                {
+                    "text": "„Vážím si, že jste oba se mnou spolupracovali — a Tomáši, to, že jste se na něj zeptal, hodně vypovídá. Je stabilní — zvýšený krevní tlak ze stresu a nevyspání, ale záchranář řekl, že potřebuje odpočinek. Shrnu to: basy ztlumené, balkón zavřený, hosté uvnitř, končíte ve 0:30. Jmenuje se pan Novák — důchodce, vdovec, žije sám. Krátké zaklepání na jeho dveře zítra a představení se by mohlo hodně pomoci. Neví, že jste záchranář, Tomáši — pro muže se srdečním onemocněním, který žije sám pod vámi, to může být důležité.“",
+                    "feedback": "Proč: Shrnutí konkrétních podmínek vytváří ústní smlouvu, kterou obě strany potvrdily. Poznámka, že se Tomáš zeptal na pana Nováka, posiluje jeho empatii. Transparentní sdělení zdravotního stavu — zvýšený tlak, potřebuje odpočinek — dává zdravotní situaci patřičnou váhu bez jejího zneužití. Polidštění pana Nováka jako důchodce a vdovce ho proměňuje z „chlapíka, co zavolal policajty“ v osamělého staršího souseda. Pozorování, že záchranář bydlící nad mužem se srdečními problémy by mohl být přínosem, ne zdrojem konfliktu, přeorámovává celou sousedskou dynamiku. | DŮSLEDKY: Tomášův výraz se změní: „On je sám? Se srdcem? A já jsem...“ Anna se ho dotkne: „Zajdeme za ním zítra. Určitě.“ Sousedka naproti, poslouchající přes pootevřené dveře, se usmívá. Nevyřešili jste jen stížnost na hluk — potenciálně jste vytvořili podpůrný vztah. | Reflexe: Jak propojení silných stránek lidí s potřebami ostatních proměňuje konflikt v zárodek komunity?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "„Jsem rád, že jsme se dohodli. Chci být transparentní ohledně formální stránky: vydávám písemné napomenutí — ne pokutu — za dnešní porušení nočního klidu. Je to formální záznam. Pokud dojde k dalšímu porušení během devadesáti dnů, příští reakce bude automaticky pokuta. Vím, že to zní přísně, ale berte to takhle — je to jasná hranice, která chrání všechny, včetně vás, protože dává panu Novákovi jistotu, že systém funguje a nemusí dál eskalovat. Dnes v noci jste spolupracovali a to opravdu oceňuji.“",
+                    "feedback": "Proč: Někdy je nejempatičtější reakcí jasná hranice. Formální písemné napomenutí — ne pokuta — je přiměřené pro první porušení se zdravotní komplikací. Dokumentuje incident, stanoví jasnou cestu eskalace a paradoxně situaci deeskaluje tím, že dává panu Novákovi institucionální jistotu. Bez dokumentace začíná další stížnost znovu od nuly. S ní všichni vědí, na čem jsou. Zarámování napomenutí jako ochrany obou stran — ne trestu — udržuje dobrou vůli. | DŮSLEDKY: Tomáš zaváhá, pak přikývne: „Dobře. Napomenutí je fér.“ Anna souhlasí. Formalita vlastně poskytuje uzavření — je konkrétní, zdokumentovaná a přiměřená. Pan Novák dostane důkaz, že jeho stížnost přinesla výsledek, což snižuje jeho úzkost ohledně budoucích incidentů. Písemný záznam zabraňuje opakujícímu se vzorci bez institucionální paměti. | Reflexe: Kdy formální dokumentace situaci deeskaluje místo eskalace — a jak poskytnutí institucionální jistoty oběma stranám předchází opakovaným konfliktům?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "„Tak dobře, myslím, že jsme na dobré cestě. Byli jste opravdu vstřícní a upřímně to oceňuji — spousta lidí by v téhle situaci nebyla tak rozumná. Užijte si zbytek narozeninové oslavy.“ Věnujete jim přátelské přikývnutí, krátce zamáváte hostům viditelným uvnitř bytu a naposledy pohlédnete na nyní zavřené balkónové dveře. Pak se otočíte ke schodišti a zamíříte zpět dolů informovat pana Nováka o výsledku. Žádné shrnutí podmínek, žádná zmínka o panu Novákovi jako člověku.",
+                    "feedback": "Proč: Zdvořilé, ale neúplné. Žádné shrnutí podmínek znamená žádnou ústní smlouvu. Žádná zmínka o zdravotním stavu nebo lidskosti pana Nováka. Žádný návrh budoucích sousedských vztahů. Žádný mechanismus, jak zabránit opakování příští měsíc. Vyřešili jste bezprostřední problém, ale nezaseli jste žádná semínka pro trvalou změnu. Tomáš se zeptal na zdraví pana Nováka — upřímný moment empatie — a vy jste ho zcela ignorovali. | DŮSLEDKY: Tomáš a Anna dnes v noci dodrží, protože zážitek je čerstvý. Ale bez vztahu s panem Novákem příští oslava generuje stejný výjezd. Tomášova otázka ohledně sousedova zdraví — přirozená příležitost k propojení — byla promarněna. | Reflexe: Jaký je rozdíl mezi vyřešením incidentu a předcházením dalšímu — a co se stane, když propásnete přirozený moment lidského propojení?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "„Tak. Tuto návštěvu si zapisuji do oficiálního hlášení — jména, číslo bytu, čas, veškeré podrobnosti. Pokud přijde další stížnost z tohoto domu dnes v noci nebo kdykoli v následujících devadesáti dnech, počítejte s formální pokutou. Důrazně bych doporučoval mít oslavy v budoucnu tišší. Porušení nočního klidu jde do záznamu a sčítají se. A upřímně řečeno, s ohledem na to, že starší pán dole má bolesti na hrudi ze stresu z vaší oslavy, máte štěstí, že vám tu pokutu nedávám rovnou teď.“",
+                    "feedback": "Proč: Byrokratické, represivní uzavření, které zneužívá zdravotní stav pana Nováka. „Máte štěstí, že vám nedávám pokutu“ proměňuje spolupracující interakci v hrozbu. Použití bolestí na hrudi jako páky — místo sdílené starostí — otravuje sousedský vztah dříve, než začne. Tomáš se právě zeptal na zdraví pana Nováka s upřímným zájmem a vy jste odpověděli použitím jeho zdravotního stavu jako biče. To ničí důvěru, kterou jste vybudovali, a zajišťuje, že budou mít zášť vůči vám i panu Novákovi. | DŮSLEDKY: Tomášův zájem o pana Nováka vyprchá: „Štěstí? On zavolal policajty na narozeninovou oslavu a my máme mít štěstí?“ Anna vypadá zdrcená. Až bude příště mít pan Novák zdravotní problém, nezaklepou mu na dveře — protože policista proměnil jeho zdraví ve zbraň proti nim. | Reflexe: Když někdo už spolupracoval a projevil upřímný zájem, co sděluje zneužití zdravotní situace proti nim o hodnotě empatie?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Uzavření smyčky",
+            "sceneUpdate": {
+                "emoji": "🔄",
+                "title": "Přízemní chodba — Zpět k panu Novákovi",
+                "desc": "Jdete zpět dolů do přízemí. Rozdíl je slyšitelný — těžké basy zmizely, nahrazeny tlumeným mumlání konverzace shora. Balkón je prázdný a tmavý. Dveře pana Nováka se otevřou, než stihnete zaklepat. Stále je v županu, oči červené, zkoumá váš obličej, hledá odpovědi. Na chodbě je dostatečný klid, aby bylo slyšet skřípání starých trubek v domě."
+            },
+            "npcDialogue": [
+                {
+                    "character": "novak",
+                    "text": "(úzkostně) Tak co? Přestali? Pořád něco slyším shora. Dostanou pokutu? Co se stane, jestli to začne znovu?"
+                }
+            ],
+            "prompt": "Pan Novák je úzkostný a chce znát výsledek. Hluk je výrazně snížen, ale ne zcela pryč. Jak uzavřete tuto interakci se stěžovatelem?",
+            "options": [
+                {
+                    "text": "„Pane Nováku, mluvil jsem s vašimi sousedy — jmenují se Tomáš a Anna. Pořádají narozeninovou oslavu pro kamaráda, který přijel z daleka. Nevěděli, jak moc hluk proniká podlahou. Dohodli jsme se: basy ztlumené, balkón zavřený, hosté uvnitř, končí ve 0:30. Ten rozdíl už asi slyšíte. Upřímně jich to mrzelo, když se dozvěděli o vaší situaci. Doporučil bych vám, abyste se někdy představili — sousedé, kteří se znají, si takové věci vyřeší sami. Pokud hluk dnes v noci znovu zesílí, máte plné právo zavolat a bude to eskalováno.“",
+                    "feedback": "Proč: Komplexní, transparentní a orientované do budoucna. Sdílení jmen a kontextu sousedů je polidšťuje. Podrobný popis konkrétní dohody ukazuje panu Novákovi, že jeho volání přineslo konkrétní výsledky. Zmínka, že jich to upřímně mrzelo, buduje empatii přes podlahu. Povzbuzení k přímému kontaktu zasévá semínko pro budoucí samovolné řešení. Potvrzení jeho práva zavolat zpět potvrzuje jeho pozici, aniž by podkopávalo dohodu. Tím se smyčka uzavírá kompletně — pan Novák ví, co se stalo, co se bude dít a co může udělat. | DŮSLEDKY: Ramena pana Nováka se uvolní. „Tomáš a Anna? Ani jsem neznal jejich jména. Vážně řekli, že je jim to líto?“ Poprvé dnes v noci vypadá méně jako frustrovaný stěžovatel a spíše jako soused, který by mohl zaklepat na dveře. Poděkuje vám a zavře dveře. V domě je ticho. | Reflexe: Jak sdílení konkrétních informací — jmen, kontextu, podmínek — proměňuje stěžovatele z protivníka v potenciálního souseda?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "„Dobrá zpráva, pane Nováku — mluvil jsem s nimi a dohodli se, že ztlumí hudbu a brzy to zabalí. Už byste měl cítit rozdíl — basy hodně klesly, odkdy jsem tam byl. Působili vstřícně, jakmile jsem vysvětlil situaci, a nemyslím si, že tušili, jak moc se zvuk nese podlahou. Pokud se to dnes v noci znovu rozjede, neváhejte zavolat a posuneme to na další úroveň. Zkuste si teď odpočinout — potřebujete to kvůli té ranní schůzce u doktora.“",
+                    "feedback": "Proč: Přesné a uklidňující, ale chybí konkrétnosti. „Ztlumí“ a „brzy skončí“ jsou ta vágní slova, kterých se pan Novák obává. V kolik hodin je „brzy“? Bude ležet a poslouchat, neschopen věřit, že „brzy“ znamená brzy. Žádná jména, žádný kontext, žádné polidštění sousedů, žádný návrh budoucího přímého kontaktu. Toto je adekvátní uzavření incidentu, ale ne mediační závěr. | DŮSLEDKY: Pan Novák přikývne, částečně spokojený. Jde do postele, ale poslouchá každý zvuk, neschopen věřit, že „brzy“ znamená brzy. Sousedé zůstávají anonymními cizinci nad ním. Příští měsíc stejný výjezd. | Reflexe: Jaké konkrétní informace stěžovatel potřebuje, aby se cítil skutečně vyřešen, a ne jen provizorně uklidněn?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "„Je to vyřešené, pane Nováku. Hudba je ztlumená — ten rozdíl asi slyšíte odsud. Byl jsem nahoře, promluvil s nimi, dal jasně najevo, že noční klid platí, a pochopili to. Slíbili, že zbytek noci bude klid. Zkuste se teď vyspat — máte tu schůzku u doktora v šest a potřebujete odpočinek. Pokud se cokoli změní, znáte číslo.“ Přikývnete mu na uklidněnou a ustoupíte směrem ke vchodu budovy, aniž byste zmínili jména sousedů nebo konkrétní podmínky dohody.",
+                    "feedback": "Proč: Efektivní, ale neosobní. „Je to vyřešené“ mu neříká nic o tom, co bylo dohodnuto, kdo bydlí nad ním, nebo co bude dál. Žádné konkrétní podmínky, žádné polidštění, žádné budování vztahu, žádná cesta vpřed. Zapamatování si jeho schůzky ukazuje jistou pozornost, ale celkové uzavření zachází se stěžovatelem jako s lístkem k vyřízení, ne jako s člověkem v komunitě. | DŮSLEDKY: Pan Novák vám poděkuje a zavře dveře, nespokojený, ale příliš unavený na to, aby naléhal. Nezná jména sousedů, nezná čas ukončení a necítí se posílený. Slyšel „je to vyřešené“ a doufá, že to je pravda. | Reflexe: Kdy stačí „je to vyřešené“ a kdy si stěžovatel zaslouží více podrobností?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "„Mluvil jsem s nimi — mají narozeninovou oslavu pro kamaráda, vypadali jako fajn mladí lidé. Řekl jsem jim, ať to ztlumí, a slíbili, že to udělají. Ale podívejte, pane Nováku, tyhle věci se v bytových domech prostě stávají — to je součást sdíleného bydlení. Mladí lidé tvrdě pracují a občas si potřebují taky odpočinout po svém. Zkuste být trochu chápavější — já vím, že je to frustrující, ale oni mají na užívání svého bytu úplně stejné právo. Možná investujte do špuntů do uší pro takové večery, ušetří to nervy všem.“",
+                    "feedback": "Proč: Zastávání se hostitelů oslavy před stěžovatelem — „fajn mladí lidé“, „buďte chápavější“, „špunty do uší“ — znehodnocuje legitimní stížnost pana Nováka. Čekal přes hodinu na policii o půlnoci a vy mu teď říkáte, aby byl tolerantnější a koupil si špunty. Toto je zrcadlový obraz odmítnutí hostitelů oslavy — vybrali jste si stranu. Porušení nočního klidu bylo reálné, jeho frustrace oprávněná a jeho zdravotní obavy validní. | DŮSLEDKY: Pan Novák se cítí zrazený: „Berete jejich stranu? Já jsem ten, kdo volal! Mám právo spát ve vlastním bytě!“ Jeho důvěra v policii ohledně otázek kvality života je vážně poškozena. Příště nebude volat — buď je konfrontuje sám, nebo bude tiše trpět a chovat zášť ke všem. | Reflexe: Když se zastáváte jedné strany před druhou, co se stane s důvěrou osoby, které jste právě řekli, aby udělala kompromis?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Rozbor",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Rozbor",
+                "desc": "Zpět na stanici. Seržant Kowalski hodnotí váš výkon ve scénáři mediace stížnosti na hluk."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "Stížnosti na hluk jsou tím místem, kde komunitní policing žije nebo umírá. Nejsou okázalé, nejsou nebezpečné a nejsou složité — ale jsou to právě ty situace, které formují, zda obyčejní lidé důvěřují policii natolik, aby zavolali, když se stane něco vážného. Každá volba, kterou jste dnes v noci udělali — jak jste naslouchali panu Novákovi, jak jste zahájili rozhovor s Tomášem, zda jste mediovali nebo diktovali, a zda jste uzavřeli smyčku — vyslala signál o tom, co policing v tom domě znamená. Pojďme se podívat, jak vám to šlo."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "Reagovali jste na výjezd, který by devadesát procent strážníků odbyla jako pětiminutovou pochůzku: řekněte jim, ať ztlumí, řekněte starému pánovi, že je to vyřešené, a odjeďte. Vy jste to místo toho vzali jako to, čím to ve skutečnosti je — mediace mezi dvěma domácnostmi, které sdílejí strop a budou ho sdílet ještě dlouho poté, co odjedete. Ten rozdíl je obrovský."
+                },
+                {
+                    "character": "officer",
+                    "text": "Co mě překvapilo, bylo, jak moc jsem chtěl prostě vymáhat. Noční klid byl porušován, hluk byl zjevný — část mě chtěla napsat pokutu a jít. Mediace se zdála pomalejší a v tu chvíli méně uspokojivá."
+                },
+                {
+                    "character": "instructor",
+                    "text": "A ten impuls stojí za prozkoumání, protože odhaluje mylnou představu. Většina strážníků si myslí, že jejich úkolem je zastavit hluk. Není. Úkolem je vybudovat vztah mezi sousedy, aby přestali volat vám. Pokuta zastaví dnešní hluk. Mediace zastaví příští měsíční výjezd a ten po něm a ten po něm. Nejste tu kvůli řízení hladin hlasitosti — jste tu kvůli vytvoření podmínek, za kterých se dva cizinci stanou sousedy, kteří si věci vyřeší sami."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Ve chvíli, kdy jste Anně a Tomášovi řekli o panu Novákovi — jeho věku, osamělosti, ranní schůzce — proměnili jste ho z „chlapíka, co zavolal policajty“ v člověka. Ten jediný akt polidštění je to, co vedlo Annu k tomu, že upekla dort a druhý den zaklepala na jeho dveře. Vymáhání by tento výsledek nikdy nepřineslo. Teď vám řeknu, co se stalo poté, co jste z toho domu odešli."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {
+            "name": "Dispečink",
+            "avatar": "📻"
+        },
+        "tomas": {
+            "name": "Tomáš (hostitel oslavy, 28)",
+            "avatar": "🧑"
+        },
+        "anna": {
+            "name": "Anna (jeho přítelkyně, 26)",
+            "avatar": "👩"
+        },
+        "novak": {
+            "name": "Pan Novák (stěžovatel, 60+)",
+            "avatar": "👴"
+        },
+        "neighbor": {
+            "name": "Sousedka z chodby",
+            "avatar": "🚪"
+        },
+        "officer": {
+            "name": "Vy (strážník)",
+            "avatar": "👮"
+        },
+        "instructor": {
+            "name": "Seržant Kowalski",
+            "avatar": "👮‍♂️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Výjimečná sousedská mediace",
+            "emoji": "🌟",
+            "feedback": "Prokázali jste mistrovskou mediaci ve stížnosti na hluk — nejčastějším výjezdu v policejní praxi a tom, který nejvíce formuje důvěru komunity. Naslouchali jste stěžovateli bez přehnaných slibů, zahájili jste rozhovor s hostiteli oslavy způsobem, který snížil obranné reakce, zprostředkovali jste konkrétní a přiměřené podmínky a uzavřeli jste smyčku polidštěním obou stran vůči sobě navzájem. Nejdůležitější je, že jste zaseli semínko pro přímý sousedský vztah, který předchází budoucím výjezdům. Toto je komunitní policing v té nejlepší podobě."
+        },
+        "good": {
+            "title": "Solidní mediace hluku",
+            "emoji": "👍",
+            "feedback": "Stížnost na hluk jste zvládli profesionálně a dosáhli fungujícího řešení. Váš přístup ke stěžovateli nebo hostitelům oslavy prokázal silné mediační instinkty. Některé příležitosti k hlubšímu budování vztahů nebo konkrétnějším dohodám byly propásnuty, ale celkový zásah byl přiměřený, respektující a pro dnešní noc účinný."
+        },
+        "average": {
+            "title": "Adekvátní reakce",
+            "emoji": "📋",
+            "feedback": "Vyřešili jste bezprostřední problém s hlukem, ale propásli jste důležité rozměry účinné mediace. Ať už šlo o vágní dohody, nedostatečné řízení očekávání stěžovatele, nebo selhání v polidštění stran vůči sobě navzájem, řešení vyřešilo dnešní problém bez řešení základní sousedské dynamiky. Očekávejte opakovaný výjezd během týdnů."
+        },
+        "poor": {
+            "title": "Vyžaduje výrazné zlepšení",
+            "emoji": "⚠️",
+            "feedback": "Váš přístup ke stížnosti na hluk buď nadměrně vymáhal u problému kvality života, nebo nedostatečně reagoval na legitimní stížnost — obojí poškozuje důvěru komunity. Hlukové výjezdy vyžadují mediační dovednosti, přiměřenou reakci a skutečnou péči o všechny strany. Projděte si techniky deeskalace, zásady přiměřenosti a rozdíl mezi vyřešením incidentu a předcházením dalšímu."
+        }
+    },
+    "metrics": {
+        "mediationSkills": {
+            "name": "Mediační dovednosti",
+            "description": "Vyvažování zájmů obou stran, zprostředkování dialogu a dosažení dohod přijatelných pro obě strany",
+            "icon": "⚖️"
+        },
+        "proportionateResponse": {
+            "name": "Přiměřená reakce",
+            "description": "Přizpůsobení vymáhání závažnosti porušení — napomenutí před pokutou, rozumná očekávání při prvním porušení",
+            "icon": "📏"
+        },
+        "complainantManagement": {
+            "name": "Práce se stěžovatelem",
+            "description": "Potvrzení obav stěžovatele, transparentní řízení očekávání a uzavření smyčky konkrétními informacemi",
+            "icon": "🤝"
+        },
+        "conflictPrevention": {
+            "name": "Prevence konfliktů",
+            "description": "Budování dlouhodobých sousedských vztahů místo pouhého řešení dnešního problému — polidštění stran vůči sobě navzájem a podpora přímé komunikace",
+            "icon": "🏘️"
+        },
+        "professionalCommunication": {
+            "name": "Profesionální komunikace",
+            "description": "Jasná, klidná, respektující komunikace se všemi stranami — včetně opilých, obranných nebo frustrovaných jedinců",
+            "icon": "💬"
+        }
+    }
+}

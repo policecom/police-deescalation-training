@@ -1,0 +1,360 @@
+{
+    "scenarioId": "street-vendor",
+    "reviewVersion": "1.0",
+    "title": "Analiza — Vanzator stradal: Comunitatea la rascruce",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Locul faptei",
+            "criticalSkills": ["Evaluarea situatiei inainte de interventie", "Limbaj corporal neutru si pozitionare", "Rezistenta la concluzii premature pe baza informatiilor de la dispecerat"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Luati-va un moment pentru a parcurge intregul loc al faptei in mod relaxat — treceti pe langa carucior, observati pozitia acestuia fata de intrarea magazinului si latimea trotuarului, stabiliti contact vizual prietenos cu ambele parti fara a angaja inca pe nimeni. Obtineti o intelegere spatiala inainte de a alege cu cine sa vorbiti.",
+                    "strengths": ["Aduna informatii spatiale obiective inainte de orice conversatie", "Contactul vizual prietenos cu ambele parti semnaleaza neutralitate tuturor celor care urmaresc", "Rezista la tendinta de urgenta pe care o poate crea informatia de la dispecerat ('vanzator ilegal')", "Ofera timp sa observati detalii critice: varsta vanzatoarei, indicii lingvistice, starea de spirit a multimii", "Modeleaza profesionalism pentru trecatori — prima impresie este evaluare calma"],
+                    "consequences": "Ambele parti vad un ofiter care evalueaza in loc sa se grabeasca sa judece. Descoperiti ca caruciorul blocheaza partial dar nu complet un lateral al intrarii — nuanta critica care modeleaza intregul raspuns.",
+                    "trainingFocus": "Cum schimba 60 de secunde de observare calitatea fiecarei conversatii ulterioare? Ce detalii dezvaluie o parcurgere pe care vorbitul cu o singura parte mai intai le-ar rata?"
+                },
+                "partially_positive": {
+                    "choiceText": "Abordati simultan si vanzatorul si proprietarul magazinului — chemati-i pe amandoi si explicati ca sunteti acolo pentru a clarifica situatia.",
+                    "adequate": ["Intentia este corecta si transparenta — tratarea ambelor parti in mod egal", "Semnaleaza disponibilitatea de a asculta ambele parti"],
+                    "missed": ["Nicio evaluare a situatiei inainte de interventie", "Punerea unui reclamant frustrat fata in fata cu vanzatorul pe care l-a reclamat creeaza confruntare imediata", "Barierele lingvistice, dinamica puterii si reactiile de teama nu au fost evaluate"],
+                    "improvement": "Intentia corecta necesita constiinta tactica. Evaluati scena independent mai intai, apoi decideti daca aducerea partilor impreuna este sigura sau daca sunt necesare conversatii separate."
+                },
+                "neutral": {
+                    "choiceText": "Abordati mai intai proprietarul magazinului, deoarece el a facut plangerea — aflati versiunea lui inainte de a decide cum sa procedati cu vanzatorul.",
+                    "adequate": ["Logic sa incepi cu reclamantul care a initiat apelul", "Adunarea contextului inainte de a aborda vanzatoarea"],
+                    "missed": ["Vanzatoarea si trecatorii va urmaresc cum mergeti direct la barbatul nervos care arata spre ea — optica de a lua partea cuiva", "Nicio evaluare independenta a scenei inseamna sa va bazati exclusiv pe perspectiva unei singure parti", "Pana cand ajungeti la vanzatoare, ea v-a urmarit cum dadeati din cap celui care vrea sa o elimine"],
+                    "improvement": "O scurta parcurgere a scenei inainte de a angaja oricare parte pastreaza neutralitatea si va ofera fapte independente pentru a evalua afirmatiile ambelor parti."
+                },
+                "negative": {
+                    "choiceText": "Mergeti direct la vanzator si cereti sa vada autorizatia. Plangerea este despre un vanzator neautorizat, deci stabilirea bazei legale este prioritara.",
+                    "risks": ["Abordarea document-intai catre o persoana speriata pare oprire si perchezitie", "Nu ati verificat plangerea reala — este despre autorizatii sau obstructie?", "Semnaleaza trecatorilor ca ati decis deja cine e de vina", "O imigranta in varsta care vede politia venind direct spre ea cerand acte provoaca frica maxima", "Acceptarea cadrului de la dispecerat ('vanzator neautorizat') fara evaluare independenta va prejudiciaza abordarea"],
+                    "consequences": "Doamna Tran ingheata de frica. Interactiunea incepe pe suspiciune. Cooperarea devine bazata pe conformitate, nu voluntara — iar trecatorii vad aplicare, nu rezolvare de probleme.",
+                    "betterApproach": "Observati scena, apoi apropiati-va cu o conversatie — nu cu o cerere de documente. Autorizatiile pot fi discutate dupa ce raportul este stabilit."
+                }
+            },
+            "keyLearningPoints": ["Informatia de la dispecerat poate prejudicia abordarea — verificati independent", "Pe cine abordati mai intai modeleaza intreaga intalnire", "60 de secunde de observare sunt mai valoroase decat 10 minute de corectare a unei prime impresii proaste", "In situatii cu multiple parti si trecatori, fiecare actiune este citita ca semnal de corectitudine"]
+        },
+        "2": {
+            "stageName": "Reclamantul",
+            "criticalSkills": ["Ascultare activa cu intrebari de diagnostic", "Separarea preocuparilor legitime de exces", "Gestionarea asteptarilor fara angajament la rezultate"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Va inteleg frustrarea, domnule Harris, si pot vedea ca caruciorul este aproape de intrarea dumneavoastra. Ati avut dreptate sa sunati — voi investiga acest lucru. Puteti sa-mi spuneti: caruciorul a blocat vreodata fizic clientii sa intre, sau este mai degraba proximitatea si mirosul? Si ati vorbit vreodata direct cu ea despre asta?",
+                    "strengths": ["Valideaza frustrarea si dreptul de a reclama — principiul 'vocii' din dreptatea procedurala", "Intrebarile de diagnostic separa prejudiciul aplicabil legal (obstructie) de preocuparile subiective (miros)", "A intreba daca a vorbit cu ea dezvaluie daca escaladarea a fost prematura", "'Voi investiga acest lucru' se angajeaza la proces, nu la rezultat — pastrandu-va puterea discretionara"],
+                    "consequences": "Domnul Harris admite ca clientii pot inca intra si nu a vorbit cu ea. Acum stiti ca plangerea are componente legitime si exagerate, fara tentativa de rezolvare directa.",
+                    "trainingFocus": "Cum schimba intrebarile de diagnostic peisajul raspunsurilor disponibile? De ce este critica intelegerea comunicarii anterioare intre parti?"
+                },
+                "partially_positive": {
+                    "choiceText": "Inteleg, domnule Harris. Daca nu are autorizatie, este in contraventie si ma voi ocupa. Dati-mi cateva minute sa vorbesc cu ea.",
+                    "adequate": ["Valideaza plangerea si arata receptivitate", "Profesional si orientat spre actiune"],
+                    "missed": ["Se angajeaza la aplicare inainte de a verifica faptele", "Nu pune intrebari de diagnostic despre natura problemei", "Va incaseaza in aplicare, facand discretia mai dificila ulterior"],
+                    "improvement": "Angajati-va la proces ('Voi investiga') mai degraba decat la rezultat ('Ma voi ocupa'). Puneti intrebari care dezvaluie dimensiunile reale ale plangerii inainte de a promite actiune."
+                },
+                "neutral": {
+                    "choiceText": "Pot vedea ca acest lucru este frustrant. Permiteti-mi sa merg sa vorbesc cu vanzatoarea si vom rezolva situatia rapid.",
+                    "adequate": ["Arata empatie si receptivitate", "Se indreapta spre actiune"],
+                    "missed": ["'Rezolvat rapid' creeaza asteptari de viteza care limiteaza calitatea", "Nicio intrebare de diagnostic — abordarea vanzatoarei fara intelegerea dimensiunilor plangerii", "Daca rezolvarea dureaza, rabdarea reclamantului se epuizeaza mai repede"],
+                    "improvement": "Investiti un minut suplimentar intelegand plangerea inainte de a trece la rezolvare. Viteza conteaza mai putin decat calitatea in construirea increderii durabile."
+                },
+                "negative": {
+                    "choiceText": "Domnule Harris, apreciez ca ati sunat, dar aceasta pare mai degraba o problema de licentiere municipala decat o chestiune de politie. Ati incercat sa contactati biroul de autorizari?",
+                    "risks": ["Ati fost trimis — a spune ca nu este problema dumneavoastra este o respingere", "A asteptat o ora; redirectionarea lui in alta parte este profund dispretuitor", "Semnaleaza ca politiei nu ii pasa de preocuparile legitime ale afacerilor", "Explozia lui la a fi respins escaladeaza inainte de a fi abordat vanzatoarea"],
+                    "consequences": "Domnul Harris explodeaza de furie. Vocea ridicata atrage atentia. Intalnirea escaladeaza inainte de a incepe — cauzata de respingerea reclamantului.",
+                    "betterApproach": "Chiar si cand competenta este neclara, preluati responsabilitatea situatiei pentru care ati fost trimis. Puteti implica alte agentii in timp ce furnizati serviciu imediat."
+                }
+            },
+            "keyLearningPoints": ["Angajamentul la proces pastreaza puterea discretionara; angajamentul la rezultat o elimina", "Intrebarile de diagnostic transforma o plangere din cerere in informatie", "Daca partile au comunicat direct este critic pentru calibrarea raspunsului", "Respingerea unei plangeri are consecinte in cascada asupra increderii dincolo de aceasta intalnire"]
+        },
+        "3": {
+            "stageName": "Primul contact cu vanzatoarea",
+            "criticalSkills": ["Dezescaladarea fricii la persoane vulnerabile", "Abordare conversatie-intai versus documente-intai", "Incadrarea problemelor ca situationale mai degraba decat personale"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Incetiniti-va pasul, mentineti un limbaj corporal deschis, vorbiti bland: 'Buna dimineata. Numele meu este [nume]. Nimeni nu are probleme — sunt aici pentru ca proprietarul magazinului a avut cateva preocupari legate de locatia caruciorului. As dori sa inteleg situatia dumneavoastra. Ati mentionat o cerere de autorizatie — puteti sa-mi spuneti mai multe despre asta?'",
+                    "strengths": ["Incetinirea pasului si limbajul corporal deschis dezescaladeaza frica fizic", "'Nimeni nu are probleme' abordeaza teroarea nerostita", "Prezentarea pe nume transforma relatia autoritate-subiect in persoana-persoana", "Formularea ca 'locatia caruciorului' mentine problema externa si rezolvabila", "Intrebarea despre cererea de autorizatie dezvaluie bariere sistemice"],
+                    "consequences": "Umerii doamnei Tran se relaxeaza. Explica asteptarea de 8 luni, motivul pentru acest loc si ofera chitanta cererii. Incepe o conversatie reala.",
+                    "trainingFocus": "Cum schimba incadrarea problemei ca situationala versus personala disponibilitatea de a coopera? De ce conteaza dezescaladarea fricii chiar si fara o amenintare fizica?"
+                },
+                "partially_positive": {
+                    "choiceText": "Dati-i un semn de incurajare din cap: 'Pot vedea ca sunteti ingrijorata si nu vreau asta. Sunt aici doar pentru a rezolva unde este plasat caruciorul. Nimeni nu va fi arestat sau amendat astazi, promit.'",
+                    "adequate": ["Empatie puternica si linistire", "Numeste ingrijorarea ei — valideaza experienta", "Incadrarea in jurul plasarii este buna"],
+                    "missed": ["A promite 'fara amenzi astazi' elimina puterea discretionara inainte de evaluare", "Daca reclamantul aude, semnaleaza un rezultat predeterminat", "Revizuirea de catre superior ar putea semnala angajamente premature"],
+                    "improvement": "Linistiti prin comportament si incadrare mai degraba decat prin promisiuni despre rezultate. 'Nimeni nu are probleme' abordeaza frica fara a va angaja la o decizie specifica de aplicare."
+                },
+                "neutral": {
+                    "choiceText": "Vorbiti calm: 'Doamna, trebuie sa intreb — aveti autorizatie de vanzator valabila? Proprietarul magazinului a depus o plangere ca caruciorul dumneavoastra ii blocheaza intrarea.'",
+                    "adequate": ["Profesional si direct", "Tonul calm este potrivit"],
+                    "missed": ["Inceperea cu autorizatii confirma cea mai mare teama a ei — este vorba despre a fi 'legala'", "Mentionarea plangerii o face sa se simta acuzata si raportata", "Nicio construire de raport inainte de cerere", "Clientii se imprastie — creand deranjul de care se plangea proprietarul"],
+                    "improvement": "Conduceti cu conversatie, nu cu documentare. Stabiliti relatia umana mai intai — autorizatiile pot fi discutate odata ce increderea este construita si persoana se simte in siguranta."
+                },
+                "negative": {
+                    "choiceText": "Doamna Tran, inteleg ca este dificil. Dar realitatea este ca a functiona fara autorizatie este o contraventie, iar proprietarul magazinului are dreptul la acces neobstructionat. Va trebui sa incepeti sa strangeti caruciorul.",
+                    "risks": ["Salt de la primul contact la aplicare cu zero cercetare", "Nicio cunoastere a cererii in curs sau a sistemului de autorizatii", "Practica recomandata este educatie apoi avertisment apoi aplicare — nu aplicare la primul contact", "O femeie in varsta in lacrimi care strange in timp ce e filmata este cel mai rau scenariu optic posibil"],
+                    "consequences": "Ochii doamnei Tran se umplu de lacrimi. Telefoanele ies. Intalnirea este pe cale sa devina un clip viral care arata politia fortand o imigranta in varsta sa isi inchida sursa de venit fara nicio tentativa de intelegere.",
+                    "betterApproach": "Urmati succesiunea educatie-avertisment-alternative-aplicare. Primul contact este pentru conversatie, nu pentru cereri de conformitate."
+                }
+            },
+            "keyLearningPoints": ["Pentru persoanele vulnerabile, primele 30 de secunde determina cooperarea versus conformitatea", "Incadrarea problemelor ca situationale mai degraba decat personale transforma disponibilitatea de a lucra cu dumneavoastra", "Cererile de documente sunt receptate diferit la inceputul versus mijlocul unei conversatii", "Practica recomandata pentru aplicarea la nivel minor: educati, avertizati, explorati alternative, aplicati ca ultima solutie"]
+        },
+        "4": {
+            "stageName": "Factorul multime",
+            "criticalSkills": ["Interactiunea cu trecatorii fara a pierde focalizarea", "Profesionalism sub observatia camerei", "Citirea dinamicii multimii ca informatie, nu amenintare"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Recunoasteti pe scurt trecatorul cu un semn calm din cap: 'Va aud — si pot vedea ca doamna Tran este apreciata aici. Nu sunt aici pentru a inchide pe nimeni. Lucrez cu toata lumea pentru a gasi o solutie care functioneaza.' Apoi readuceti atentia la doamna Tran.",
+                    "strengths": ["Recunoaste sentimentul multimii fara a fi atras intr-o dezbatere", "'Doamna Tran este apreciata' valideaza legatura comunitara", "'Nu sunt aici pentru a inchide pe nimeni' abordeaza teama centrala a multimii", "'Lucrez cu toata lumea' incadreaza rolul de mediator, nu executant", "Nereactionarea la camera semnaleaza incredere in conduita proprie", "Pivotarea inapoi mentine interactiunea in miscare"],
+                    "consequences": "Trecatorul se linisteste. Cel care filmeaza nu are nimic inflamator de surprins. Multimea trece de la adversitate la observatie. O singura propozitie a schimbat intreaga atmosfera.",
+                    "trainingFocus": "Cum schimba o singura propozitie adresata trecatorilor temperatura emotionala? De ce este recunoasterea unei multimi mai eficienta decat ignorarea sau provocarea?"
+                },
+                "partially_positive": {
+                    "choiceText": "Mergeti la grupul de trecatori si explicati: 'Inteleg ca sunteti ingrijorati. Proprietarul magazinului a sunat pentru ca caruciorul blocheaza partial intrarea lui. Incerc sa gasesc o solutie echitabila. Daca aveti sugestii, sunt deschis sa le aud.'",
+                    "adequate": ["Transparenta reala despre plangere si intentie", "Deschidere catre contributia comunitatii — invitarea sugestiilor arata respect", "Valideaza preocuparea lor prin interactiune directa"],
+                    "missed": ["Parasirea fizica a doamnei Tran pentru a se adresa multimii muta centrul de greutate departe de partile primare", "Creeaza o dinamica de adunare publica cu voci care concureaza si asteptari negestionabile", "Domnul Harris vede consultarea multimii in loc de rezolvarea plangerii, crescandu-i frustrarea", "Sugestiile irealizabile creeaza asteptari pe care nu le puteti indeplini"],
+                    "improvement": "Recunoasteti de unde sunteti. O propozitie scurta este suficienta — nu deschideti o discutie de grup. Rezolvarea este intre partile primare; multimea are nevoie de reasigurare, nu de un rol."
+                },
+                "neutral": {
+                    "choiceText": "Ignorati complet trecatorii si continuati cu doamna Tran. Interactiunea cu multimea nu va face decat sa va distraga de la rezolvarea problemei.",
+                    "adequate": ["Mentine focalizarea pe interactiunea primara", "Nu escaladeaza prin confruntarea multimii"],
+                    "missed": ["Ignorarea trecatorilor vocali ii face mai galagioisi, nu mai linistiti", "Sentimentul de a fi ignorat creste ostilitatea", "Multimea creste pentru ca nimeni nu li se adreseaza", "Daca nu incadrati ce se intampla, multimea isi creeaza propria naratiune"],
+                    "improvement": "O scurta recunoastere costa 10 secunde si previne 10 minute de escaladare. Recunoasteti, linistiti, reveniti la munca."
+                },
+                "negative": {
+                    "choiceText": "Adresati-va direct dar ferm trecatorului: 'Va inteleg sentimentele, dar trebuie sa ascult ambele parti fara ca influenta din exterior sa afecteze conversatia. Atat doamna Tran, cat si domnul Harris merita un proces corect, si asta inseamna ca trebuie sa vorbesc cu ei fara intreruperi.'",
+                    "risks": ["Suna ca un angajament principial fata de corectitudine procedurala — protejarea ambelor parti de influenta multimii", "Cu toate acestea, incadreaza sprijinul comunitar ca contaminare mai degraba decat informatie", "Spune multimii ca vocile lor sunt nedorite intr-un spatiu public", "Izoleaza doamna Tran de sprijinul social care o ajuta sa se simta in siguranta", "Energia multimii trece de la sustinere la suspiciune"],
+                    "consequences": "Trecatorul se simte respins prin limbaj de corectitudine. Doamna Tran, care se reconforta din sprijinul comunitatii, acum se simte mai singura. Naratiunea multimii devine: ofiterul a redus la tacere comunitatea.",
+                    "betterApproach": "Recunoasteti preocuparea comunitatii cu o propozitie scurta si reveniti la conversatie. Vocile comunitatii sunt parte din dinamica, nu obstacole in calea procesului corect."
+                }
+            },
+            "keyLearningPoints": ["Trecatorii sunt parte din dinamica — ignorarea amplifica, provocarea escaladeaza", "O singura propozitie scurta schimba multimea de la adversitate la observatie", "A fi filmat este o oportunitate pentru profesionalism, nu o amenintare de gestionat", "Vidul narativ: daca nu explicati ce se intampla, multimea isi creeaza propria poveste"]
+        },
+        "5": {
+            "stageName": "Negocierea",
+            "criticalSkills": ["Rezolvare colaborativa a problemelor in situatii cu multiple parti", "Tratarea partilor ca agenti in propriile solutii", "Alternative creative la aplicarea de tip castigator-perdant"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Uitati-va la aranjamentul strazii impreuna cu doamna Tran: 'Ce-ar fi daca gasim un loc tot pe acest bloc — cu trafic pietonal bun — dar nu langa usa domnului Harris? Ati fi dispusa sa incercati?' Mergeti cu ea pentru a identifica un loc potrivit — poate la 15 metri distanta, unde exista un spatiu gol intre vitrine.",
+                    "strengths": ["Incadrare colaborativa — 'gasim un loc' o face partener", "A merge cu ea pastreaza demnitatea si capacitatea de actiune", "'Ati fi dispusa?' ofera alegere, nu ordine", "Spatiul gol de langa vitrina goala este practic si respecta cunostintele ei de afacere", "Abordeaza ambele parti: intrare libera plus afacere continuata", "Trecatorii vad ajutor, nu pedeapsa"],
+                    "consequences": "Fata doamnei Tran se lumineaza. Mutarea dureaza cinci minute. Intrarea domnului Harris este libera. Clientii sunt pastrati. Trecatorii vad activitate de politie creativa care construieste comunitatea.",
+                    "trainingFocus": "Ce comunica rezolvarea colaborativa a problemei trecatorilor? Cum schimba tratarea cuiva ca partener conformitatea pe termen lung?"
+                },
+                "partially_positive": {
+                    "choiceText": "Mergeti la domnul Harris si propuneti: 'Ce-ar fi daca se muta vreo cinci metri mai incolo — tot pe bloc, dar departe de intrarea dumneavoastra? Ar rezolva problema?' Obtineti mai intai acordul lui, apoi comunicati planul doamnei Tran.",
+                    "adequate": ["Practic si orientat spre solutie — identifica o remediere spatiala specifica si realizabila", "Abordeaza preocuparea spatiala legitima direct", "Cauta sa satisfaca nemultumirea centrala a reclamantului inainte de a implica vanzatoarea"],
+                    "missed": ["Negocierea mai intai cu reclamantul si apoi prezentarea rezultatului vanzatoarei ca fapt consumat submineaza capacitatea de actiune a doamnei Tran", "Ea devine subiectul unui acord intre figuri de autoritate, nu participanta la propria solutie", "Ii ofera domnului Harris drept de veto asupra rezolvarii", "Dinamica de putere vizibila — ofiter si proprietar decid, vanzatoarea primeste ordine — trecatorii vad asta clar"],
+                    "improvement": "Includeti persoana afectata in propria solutie. Mergeti cu doamna Tran in loc sa decideti pentru ea. Procesul conteaza la fel de mult ca rezultatul."
+                },
+                "neutral": {
+                    "choiceText": "Spuneti-i doamnei Tran ca trebuie sa se relocalizeze la cel putin 10 metri de orice intrare de magazin. Dati-i un avertisment verbal formal pentru operarea fara autorizatie si notati-l in raportul dumneavoastra.",
+                    "adequate": ["Tehnic abordeaza obstructia", "Documenteaza intalnirea"],
+                    "missed": ["Distanta arbitrara plus avertisment formal este disproportionat avand in vedere cererea in curs si nicio comunicare anterioara", "Avertismentul intra in dosar si escaladeaza consecintele pentru cooperare", "Nicio alternativa explorata inainte de aplicare formala", "Practica recomandata: educatie inainte de aplicare pentru contraventii minore"],
+                    "improvement": "Cand legea va ofera putere discretionara, intrebati-va daca aplicarea formala sau rezolvarea creativa a problemei serveste mai bine comunitatea. O relocare cooperanta atinge acelasi rezultat fara efecte de descurajare."
+                },
+                "negative": {
+                    "choiceText": "Sugerati-i doamnei Tran sa stranga pentru astazi si sa revina intr-o zi lucratoare cand este mai putin aglomerat, pentru a evita alte plangeri.",
+                    "risks": ["Eliminare cu ambalaj politicos", "Mai putin trafic pietonal in zilele lucratoare inseamna mai putine venituri pentru cineva care hraneste nepoti", "Stabileste precedent ca orice plangere costa o zi de castiguri", "Nu abordeaza problema spatiala — aceeasi plangere weekendul viitor", "Elimina persoana in loc sa rezolve problema"],
+                    "consequences": "Doamna Tran strange, pierzand jumatate de zi de castiguri. Trecatorii sunt revoltati. Cel care filmeaza surprinde politia spunandu-i unei imigrante in varsta sa mearga acasa. Videoclipul spune o poveste neintentionata despre putere.",
+                    "betterApproach": "Intrebati: necesita aceasta eliminarea persoanei, sau poate fi ajustata situatia? Problemele spatiale au solutii spatiale."
+                }
+            },
+            "keyLearningPoints": ["Solutiile creative care abordeaza toate preocuparile produc rezultate mai durabile decat aplicarea de tip castigator-perdant", "A merge cu cineva sa gasiti o solutie versus a-l directiona — procesul modeleaza receptarea", "Educatie si alternative inainte de avertismente formale sau eliminare", "Problemele spatiale au solutii spatiale — eliminarea persoanei rareori este proportionala"]
+        },
+        "6": {
+            "stageName": "Proprietarul magazinului riposteaza",
+            "criticalSkills": ["Stabilirea limitelor cu reclamantii", "Distinctia intre nemultumire legitima si cerere disproportionata", "Mentinerea proportionalitatii sub presiune sociala"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Va intoarceti calm catre domnul Harris: 'Inteleg ca nu este exact ce ati sperat. Dar permiteti-mi sa fiu direct — plangerea dumneavoastra a fost ca caruciorul blocheaza intrarea, iar asta am rezolvat-o. Chestiunea autorizatiei este o problema de licentiere pe care am notat-o si o voi urmari prin canalele corespunzatoare. Nu pot elimina pe cineva de pe o strada publica pentru ca o afacere din apropiere nu o doreste acolo — nu asa functioneaza lucrurile. Daca noua pozitie va cauzeaza probleme, aveti numarul de insigna al meu si sunteti binevenit sa sunati din nou.'",
+                    "strengths": ["Sincer, clar, respectuos si in acelasi timp traseaza o limita ferma", "'Inteleg ca nu este exact ce ati sperat' recunoaste frustrarea inainte de redirectionare", "Separa plangerea legitima (obstructie — rezolvata) de exces (eliminare totala)", "'Nu asa functioneaza lucrurile' educa fara a fi nepoliticos", "Angajamentul de a urmari prin canale corespunzatoare recunoaste dimensiunea legala fara a o weaponiza", "Oferirea numarului de insigna si invitarea apelurilor viitoare arata responsabilitate, incredere si deschidere catre verificare"],
+                    "consequences": "Domnul Harris este frustrat dar nu are un contraargument valid. Plangerea a fost rezolvata. Trecatorii aud un ofiter explicand proportionalitatea. Interactiunea modeleaza stabilirea respectuoasa a limitelor.",
+                    "trainingFocus": "Cand un reclamant cere mai mult decat ce e proportional, cum recunoasteti frustrarea mentinand judecata? De ce oferirea numarului de insigna dezamorseaza amenintarile cu superiorul?"
+                },
+                "partially_positive": {
+                    "choiceText": "Li va adresati impreuna: 'Am facut progrese. Doamna Tran a fost de acord sa se mute, eliberand intrarea dumneavoastra. Domnule Harris, autorizatia este de competenta autoritatii de licentiere. Putem fi de acord ca aceasta este o solutie rezonabila pentru astazi?'",
+                    "adequate": ["Incluziv si incearca inchidere colaborativa intre ambele parti", "Rezuma corect — recunoaste relocarea si referirea autorizatiei", "Refera chestiunea autorizatiei la autoritatea corecta in loc sa o weaponizeze"],
+                    "missed": ["'Putem fi de acord?' ii ofera domnului Harris drept de veto asupra unei rezolvari proportionale", "Daca spune nu — probabil avand in vedere starea lui — v-ati subminat propria autoritate invitand respingerea", "Cautarea acordului da inapoi cand o parte doreste rezultate disproportionate dincolo de plangerea originala"],
+                    "improvement": "Cand o rezolvare este proportionala, explicati-o — nu cautati acord. 'Aceasta rezolva plangerea dumneavoastra' este mai eficient decat 'putem fi de acord?'"
+                },
+                "neutral": {
+                    "choiceText": "Va interpuneti intre ei: 'Domnule Harris, v-am ascultat plangerea si o rezolv. Doamna Tran se muta. Restul depaseste atributiile mele. Ar trebui sa va aranjati relatia pe viitor, pentru ca probabil va fi aici si weekendul viitor.'",
+                    "adequate": ["Recunoaste ca plangerea a fost ascultata", "Noteaza rezolvarea in curs"],
+                    "missed": ["'Depaseste atributiile mele' abdica de la responsabilitate", "'Va fi aici si weekendul viitor' suna ca o provocare", "'Aranjati-va singuri' arunca responsabilitatea pe parti care au nevoie de mediere", "Rezolva azi, planteaza conflictul de weekendul viitor"],
+                    "improvement": "Asumati-va rezolvarea pe care ati creat-o. Explicati-o clar si oferiti o cale profesionala pentru preocuparile ramase."
+                },
+                "negative": {
+                    "choiceText": "Ii spuneti: 'Aveti dreptate in legatura cu autorizatia. Permiteti-mi sa-i dau doamnei Tran un avertisment formal si sa documentez totul. Asa va exista o urma documentara daca situatia continua.'",
+                    "risks": ["Escaladarea aplicarii pentru a satisface un reclamant nemultumit", "Vanzatoarea a cooperat deja — adaugarea unui avertisment dupa conformitate pedepseste cooperarea", "Invata vanzatoarea ca conformitatea este pedepsita si reclamantul ca insistenta functioneaza", "Trecatorii vad: proprietarul a insistat, ofiterul a cedat, batranica plateste"],
+                    "consequences": "Doamna Tran — care a cooperat pe deplin — primeste un avertisment formal. Este confuza si ranita. Increderea este activ distrusa, nu doar pierduta.",
+                    "betterApproach": "Nu escaladati niciodata aplicarea pentru a satisface cereri emotionale. Cand raspunsul proportional a fost livrat, mentineti linia — cu compasiune dar cu fermitate."
+                }
+            },
+            "keyLearningPoints": ["Nemultumirea unui reclamant fata de o rezolvare proportionala nu o face gresita", "Escaladarea aplicarii pentru a satisface reclamantii pedepseste partea cooperanta", "A cere acord ofera drept de veto — explicati deciziile proportionale, nu le negociati", "Oferirea numarului de insigna arata incredere; 'depaseste atributiile mele' arata evitare"]
+        },
+        "7": {
+            "stageName": "Incheierea buclei",
+            "criticalSkills": ["Conectarea persoanelor cu resurse pe termen lung", "Inchidere cu demnitate si directie", "Distinctia intre reconfortare si suprapromisiune"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Zambiti cald: 'Ma bucur ca am rezolvat, doamna Tran. Cererea de autorizatie este cheia pentru a face acest lucru permanent si sigur pentru dumneavoastra. Stiti daca exista o organizatie comunitara sau un serviciu de asistenta juridica care ar putea ajuta? Vreau ca aceasta sa fie rezolvata corespunzator pentru a nu mai fi nevoie sa va faceti griji in fiecare weekend.' Daca cunoasteti servicii locale de sprijin, oferiti informatiile.",
+                    "strengths": ["Recunoastere calda apoi pivotare catre vulnerabilitatea pe termen lung — autorizatia", "Ajutarea ei sa rezolve problema legala in loc sa o ignore sau weaponizeze", "Conectarea cu resurse arata grija reala dincolo de aceasta intalnire", "'Nu mai fi nevoie sa va faceti griji in fiecare weekend' numeste anxietatea si ofera o cale de iesire", "Diferenta intre rezolvarea unui incident si imbunatatirea unei vieti", "Trecatorul aude si contribuie — colaborare politie-comunitate in timp real"],
+                    "consequences": "Doamna Tran va multumeste nu doar pentru azi ci pentru ca i-ati dat directie. Cel care filmeaza surprinde un ofiter ajutand un vanzator sa gaseasca sprijin pe termen lung. Acest video construieste incredere.",
+                    "trainingFocus": "Care e diferenta intre a rezolva problema de azi si a pregati pe cineva pentru saptamana viitoare? Cum schimba conectarea persoanelor cu resurse dinamica politie-comunitate pe termen lung?"
+                },
+                "partially_positive": {
+                    "choiceText": "O bateti pe umar: 'Nu aveti de ce sa va faceti griji. Nu voi lasa pe nimeni sa va deranjeze. Continuati sa faceti mancare buna.'",
+                    "adequate": ["Cald, uman, empatic", "Arata grija reala"],
+                    "missed": ["Garantie personala pe care nu o puteti mentine — nu veti fi aici weekendul viitor", "Ignora vulnerabilitatea legala reala care necesita rezolvare", "Alt ofiter sambata viitoare creeaza inconsistenta care dauneaza increderii mai mult decat absenta"],
+                    "improvement": "Reconfortati prin actiune, nu prin promisiuni. Conectarea ei cu resurse ofera securitate durabila — reasigurarea dumneavoastra expira cand se termina schimbul."
+                },
+                "neutral": {
+                    "choiceText": "Nicio problema, doamna Tran. Doar asigurati-va ca ramaneti in acest loc si nu va duceti inapoi langa magazinul domnului Harris. Daca primesc alt apel, va fi mai greu pentru mine sa va ajut.",
+                    "adequate": ["Ghidare practica despre noua locatie", "Stabileste asteptari clare"],
+                    "missed": ["Amenintarea voalata transforma rezolvarea pozitiva in mila conditionata", "Implica ajutorul a fost o favoare, nu un rezultat corect", "Va petrece saptamana viitoare cu anxietate la fiecare masina de politie", "Nicio cale inainte pentru autorizatie — vulnerabilitatea subiacenta ramane"],
+                    "improvement": "Incheiati cu directie si sprijin, nu cu avertismente. 'Permiteti-mi sa va ajut sa rezolvati aceasta autorizatie' lasa o impresie complet diferita de 'data viitoare va fi mai greu.'"
+                },
+                "negative": {
+                    "choiceText": "Incheiati scurt si profesional: 'Doamna Tran, sunteti instalata in noul loc. Am notat situatia in jurnalul meu. Daca aveti probleme viitoare cu proprietarul magazinului, sunati la linia de non-urgenta si faceti referire la raportul de astazi. Aveti grija de dumneavoastra.' Treceti la urmatorul apel.",
+                    "risks": ["Suna eficient si profesional — documentarea intalniri si furnizarea unui canal viitor de referinta", "Cu toate acestea, trateaza inchiderea ca administrativa mai degraba decat umana", "Doamna Tran tocmai a trait o intalnire infricosatoare si primeste un numar de referinta in loc de conexiune reala", "Autorizatia — vulnerabilitatea subiacenta care va readuce politia weekendul viitor — ramane complet neadresata"],
+                    "consequences": "Doamna Tran are un numar de referinta dar nicio cale inainte pentru autorizatie. Sambata viitoare, aceeasi teama revine. Intalnirea a fost procedural curata dar personal goala — a fost procesata, nu ajutata.",
+                    "betterApproach": "Inchiderea profesionala nu este aceeasi cu inchiderea semnificativa. Abordati vulnerabilitatea pe termen lung — autorizatia — si conectati-o cu resurse care persista dupa ce se termina schimbul."
+                }
+            },
+            "keyLearningPoints": ["Ultimul lucru pe care il spuneti modeleaza amintirea durabila a intregii intalniri", "Conectarea persoanelor cu resurse este diferenta intre rezolvarea unui incident si imbunatatirea unei vieti", "Reconfortarea prin promisiuni expira cand se termina schimbul; reconfortarea prin actiune persista", "Inchiderea performativa pentru multime nu este inchidere semnificativa pentru persoana din centru"]
+        }
+    },
+    "comprehensiveMetrics": {
+        "proceduralJustice": {
+            "description": "Tratarea tuturor partilor cu demnitate, transparenta si corectitudine — asigurarea ca procesul pare just indiferent de rezultat",
+            "indicators": {
+                "excellent": ["Atat reclamantul cat si vanzatoarea se simt ascultati si respectati pe tot parcursul", "Transparent cu privire la rol, rationament si limitele autoritatii", "Demnitate consecventa in ton si limbaj corporal cu toate partile", "Procesul perceput ca corect chiar daca niciuna din parti nu a obtinut exact ce a vrut"],
+                "poor": ["O parte tratata ca autoritate, cealalta ca subiect", "Rationamentul neexplicat — deciziile par arbitrare", "Ton sau nivel de respect diferit pentru diferite parti", "Rezultat impus mai degraba decat dezvoltat prin dialog"]
+            }
+        },
+        "proportionality": {
+            "description": "Calibrarea raspunsului la gravitate, utilizarea inteleapta a puterii discretionare in aplicarea la nivel minor",
+            "indicators": {
+                "excellent": ["Raspuns calibrat la prejudiciul real — obstructie partiala, nu activitate infractionala", "Educatie si alternative explorate inainte de aplicare formala", "Puterea discretionara utilizata pentru rezultate proportionale mai degraba decat aplicare maxima", "Limita clara intre plangere legitima si cerere disproportionata"],
+                "poor": ["Aplicare maximizata indiferent de circumstante sau conformitate", "Avertismente formale sau eliminare la primul contact fara alternative", "Escaladarea aplicarii pentru a satisface un reclamant nemultumit", "Tratarea unei dispute spatiale ca problema infractionala"]
+            }
+        },
+        "crowdDynamics": {
+            "description": "Interactiunea constructiva cu trecatorii si mentinerea profesionalismului sub observatie",
+            "indicators": {
+                "excellent": ["Recunoastere scurta a multimii fara a fi atras in dezbatere", "Camera tratata ca neutra sau pozitiva — nicio tentativa de a controla filmarea", "Naratiunea multimii gestionata prin transparenta cu privire la intentie", "Energia trecatorilor redirectionata de la adversitate la observatie"],
+                "poor": ["Multimea ignorata (escaladare) sau provocata (transformand filmarea in subiect)", "Tentativa de a controla filmarea — problematica legal si catastrofala optic", "Actiuni performative pentru multime mai degraba decat serviciu real", "Interactiune care fragmenteaza rezolvarea intr-o dezbatere de adunare publica"]
+            }
+        },
+        "creativeSolutions": {
+            "description": "Gasirea rezultatelor care abordeaza preocuparile legitime ale tuturor partilor mai degraba decat aplicare de tip castigator-perdant",
+            "indicators": {
+                "excellent": ["Solutie de relocare identificata pentru vanzator, proprietar si public", "Vanzatoarea tratata ca partener in gasirea solutiei, nu destinatar al ordinelor", "Vulnerabilitatea pe termen lung adresata prin conectarea cu resurse", "Solutie durabila — previne apeluri repetate si conflicte viitoare"],
+                "poor": ["Rezultat de tip castigator-perdant: o parte castiga, una pierde", "Eliminare cand relocarea rezolva problema", "Nicio alternativa explorata inainte de aplicare formala", "Ziua de azi rezolvata dar conflictul de saptamana viitoare activ plantat"]
+            }
+        },
+        "communityTrust": {
+            "description": "Construirea increderii comunitare pe termen lung prin calitatea acestei intalniri",
+            "indicators": {
+                "excellent": ["Fiecare actiune vizibila intareste ca politia ajuta mai degraba decat dauneaza", "Membru vulnerabil al comunitatii tratat cu demnitate si conectat cu sprijin", "Trecatorii pleaca cu impresie pozitiva pe care ar impartasi-o sau posta-o", "Ambele parti au incredere ca a suna la politie a meritat"],
+                "poor": ["Intalnirea intareste teama de politie in comunitatea de imigranti sau cu venituri mici", "Aplicarea disproportionata devine o poveste de avertizare distribuita pe scara larga", "Videoclipul spune o poveste de dezechilibru al puterii, nu de serviciu comunitar", "Conformitate extrasa prin frica mai degraba decat castigata prin respect"]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "enforcementDefault": {
+            "pattern": "Recurgerea implicita la aplicare cand situatia cere mediere",
+            "examples": ["Inceperea cu verificari de documente inainte de raport", "Emiterea de avertismente formale cand ghidarea verbala este suficienta", "Ordonarea eliminarii cand relocarea rezolva problema", "Tratarea chestiunii autorizatiei ca primara cand plangerea este despre obstructie"],
+            "impact": "Aplicarea disproportionata a contraventiilor minore este cel mai mare distrugator al legitimitatii politiei conform cercetarilor privind dreptatea procedurala. Comunitatea invata ca a suna la politie inseamna pedeapsa, nu rezolvare de probleme.",
+            "correction": "Urmati succesiunea educatie-avertisment-alternative-aplicare. Intrebati: necesita aceasta intreaga greutate a aplicarii, sau poate fi atins acelasi rezultat prin conversatie si cooperare?"
+        },
+        "complainantCapture": {
+            "pattern": "Permiterea ca cerintele reclamantului sa conduca raspunsul dincolo de ce este proportional",
+            "examples": ["Promiterea aplicarii inainte de verificarea faptelor", "Escaladarea la avertismente formale pentru a satisface nemultumirea", "Oferirea dreptului de veto reclamantului asupra unei rezolvari corecte", "Tratarea reclamantului ca client si a vanzatorului ca problema"],
+            "impact": "Ofiterul devine un instrument al dorintelor unei parti. Vanzatoarea invata ca oricine are numarul de telefon al politiei are putere asupra existentei ei. Increderea in corectitudinea politiei este distrusa.",
+            "correction": "Obligatia dumneavoastra este justitia proportionala, nu satisfactia reclamantului. Recunoasteti preocuparile legitime, adresati-le si mentineti linia proportionalitatii chiar si cand sunteti pus sub presiune."
+        },
+        "crowdAvoidance": {
+            "pattern": "Esecul de a interactiona cu dinamica trecatorilor — fie ignorand fie confruntand",
+            "examples": ["Pretinderea ca multimea nu exista in timp ce tensiunea creste", "Spunerea oamenilor sa se retraga sau sa nu filmeze", "Actiuni performative pentru camera mai degraba decat serviciu real", "Tratarea preocuparii trecatorilor ca interferenta"],
+            "impact": "Multimile ignorate devin mai galagioase. Multimile provocate devin adversare. In orice caz, multimea devine subiectul. Modul in care gestionati observatia determina daca videoclipul ajuta sau dauneaza.",
+            "correction": "O singura propozitie scurta de recunoastere transforma o multime din adversara in observatoare. Tratati camera ca pe un aliat care inregistreaza profesionalismul dumneavoastra."
+        },
+        "overpromising": {
+            "pattern": "Asumarea angajamentelor care depasesc autoritatea sau disponibilitatea dumneavoastra",
+            "examples": ["Promiterea ca nu vor fi amenzi inainte de evaluarea situatiei", "Garantarea protectiei pe care nu o puteti mentine weekendul viitor", "Angajamentul la rezultate inainte de adunarea faptelor", "Stabilirea asteptarilor de viteza care limiteaza calitatea rezolvarii"],
+            "impact": "Suprapromisiunea creeaza vulnerabilitate cand realitatea difera. Un alt ofiter weekendul viitor expune decalajul intre promisiune si realitate — inconsistenta dauneaza increderii mai mult decat problema initiala.",
+            "correction": "Angajati-va la proces, nu la rezultate. Linistiti prin comportament si actiune. Conectati persoanele cu resurse care persista dupa ce se termina schimbul."
+        },
+        "closureNeglect": {
+            "pattern": "Rezolvarea situatiei imediate fara abordarea vulnerabilitatii pe termen lung",
+            "examples": ["Mutarea caruciorului fara discutarea caii spre autorizatie", "Incheierea cu avertismente in loc de resurse", "Incheierea cu multimea in loc de persoana din centru", "Rezolvarea problemei spatiale dar ignorarea celei sistemice"],
+            "impact": "Aceeasi situatie se repeta weekendul viitor cu aceeasi vulnerabilitate. Intalnirea rezolva un incident dar nu imbunatateste o viata.",
+            "correction": "Intrebati: cand plec, aceasta persoana este mai bine echipata pentru weekendul viitor? Conectarea persoanelor cu asistenta juridica sau organizatii comunitare transforma o singura intalnire in impact durabil."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Dreptate procedurala remarcabila. Ati demonstrat setul complet de competente pentru aplicarea complexa a legii la nivel stradal: evaluare amanuntita, corectitudine procedurala cu toate partile, rezolvare creativa a problemei, gestionare eficienta a multimii, stabilire proportionala a limitelor si investitie reala in bunastarea pe termen lung a vanzatoarei. Fiecare trecator — si camera — a surprins activitate de politie care construieste incredere comunitara. Acesta este standardul.",
+            "mostlyPositive": "Performanta solida cu instincte bune pentru corectitudine si rezolvare creativa a problemelor. Ati mentinut proportionalitatea si ati tratat ambele parti cu demnitate. Unele oportunitati au fost ratate — poate in gestionarea multimii, stabilirea limitelor cu reclamantul sau conectarea vanzatoarei cu resurse — dar abordarea generala a fost profesionala si constructoare de incredere.",
+            "mixed": "Ati aratat competenta in unele domenii dar v-ati straduit cu intreaga complexitate a acestei situatii cu multiple parti. Punctele forte au inclus [SPECIFIC_POSITIVE], dar oportunitati critice au fost ratate in [SPECIFIC_GAP]. Revedeti echilibrul intre aplicare si mediere, si exersati tranzitia de la rezolvarea problemei de azi la prevenirea celei de saptamana viitoare.",
+            "mostlyNegative": "Acest scenariu a dezvaluit lacune semnificative in proportionalitate si dreptate procedurala. Desi ati [MINOR_POSITIVE], majoritatea alegerilor au inclinat spre aplicare in detrimentul rezolvarii problemei, satisfactia reclamantului in detrimentul corectitudinii sau rezolvare de suprafata in detrimentul grijii reale. Intalnirile cu vanzatori stradali sunt locul unde increderea comunitara se construieste sau se distruge — revedeti principiile dreptatii procedurale si succesiunea educatie-inainte-de-aplicare.",
+            "allNegative": "Abordarea dumneavoastra a tratat o situatie de mediere ca una pur de aplicare a legii. Vulnerabilitatea vanzatoarei, preocuparea multimii si oportunitatea de rezolvare creativa au fost toate ratate. Cercetarile sunt clare: aplicarea agresiva a contraventiilor minore distruge legitimitatea politiei mai mult decat aproape orice altceva. Aceasta necesita o reorientare fundamentala catre dreptatea procedurala."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Nimeni nu are probleme — sunt aici pentru ca proprietarul magazinului a avut cateva preocupari legate de locatia caruciorului.",
+            "As dori sa inteleg situatia dumneavoastra. Ati mentionat o cerere de autorizatie — puteti sa-mi spuneti mai multe despre asta?",
+            "Va aud — si pot vedea ca doamna Tran este apreciata aici. Nu sunt aici pentru a inchide pe nimeni.",
+            "Ce-ar fi daca gasim un loc tot pe acest bloc — cu trafic pietonal bun — dar nu langa usa domnului Harris? Ati fi dispusa sa incercati?",
+            "Plangerea dumneavoastra a fost ca caruciorul blocheaza intrarea, iar asta am rezolvat-o.",
+            "Nu pot elimina pe cineva de pe o strada publica pentru ca o afacere din apropiere nu o doreste acolo — nu asa functioneaza lucrurile.",
+            "Cererea de autorizatie este cheia pentru a face acest lucru permanent si sigur pentru dumneavoastra.",
+            "Vreau ca aceasta sa fie rezolvata corespunzator pentru a nu mai fi nevoie sa va faceti griji in fiecare weekend."
+        ],
+        "poorPhrases": [
+            "Aveti autorizatie de vanzator valabila? Proprietarul magazinului a depus o plangere.",
+            "Daca nu are autorizatie, este in contraventie si ma voi ocupa.",
+            "Trebuie sa ascult ambele parti fara ca influenta din exterior sa afecteze conversatia.",
+            "Atat doamna Tran, cat si domnul Harris merita un proces corect fara intreruperi.",
+            "Va trebui sa incepeti sa strangeti caruciorul.",
+            "Daca primesc alt apel, va fi mai greu pentru mine sa va ajut.",
+            "Restul depaseste atributiile mele."
+        ],
+        "analysisCriteria": {
+            "proceduralFairness": "A transmis fraza neutralitate, transparenta si respect pentru toate partile?",
+            "proportionality": "A corespuns fraza gravitatii — conversatie pentru o problema minora, nu comenzi?",
+            "agency": "A tratat fraza persoana ca participant la propria solutie sau ca subiect al autoritatii?",
+            "framing": "A incadrat fraza problema ca situationala (rezolvabila) sau personala (acuzatorie)?",
+            "sustainability": "A contribuit fraza la rezolvare durabila sau doar la conformitate temporara?",
+            "trustBuilding": "A consolidat sau slabit fraza increderea comunitara — avand in vedere cine altcineva asculta?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Informatia de la dispecerat poate prejudicia abordarea. 'Vanzator ilegal care blocheaza o afacere' creeaza urgenta si culpabilitate care s-ar putea sa nu corespunda realitatii. Evaluarea dumneavoastra de 60 de secunde este antidotul la prejudecata de incadrare.",
+        "2": "Intrebarile de diagnostic transforma o plangere din cerere in informatie. Intelegerea daca prejudiciul este obstructie fizica sau disconfort de proximitate — si daca partile au comunicat — determina intreaga gama de raspunsuri proportionale.",
+        "3": "Pentru persoanele vulnerabile, primele 30 de secunde determina totul. A conduce cu conversatie in loc de cereri de documente, a numi frica si a incadra problema ca situationala transforma conformitatea in cooperare.",
+        "4": "In 2025, orice intalnire stradala poate fi filmata. Cel mai bun raspuns la o camera este activitate excelenta de politie. O singura propozitie de recunoastere schimba o multime de la adversitate la observatie — 5 secunde previn 5 minute de escaladare.",
+        "5": "Problemele spatiale au solutii spatiale. Cand problema este unde este plasat un carucior — nu daca o persoana merita sa munceasca — relocarea colaborativa abordeaza toate preocuparile fara a elimina sursa de venit a cuiva.",
+        "6": "Nemultumirea unui reclamant fata de o rezolvare proportionala nu face rezolvarea gresita. Obligatia dumneavoastra este justitia corecta, nu satisfactia maxima a reclamantului. Escaladarea aplicarii sub presiune pedepseste partea cooperanta.",
+        "7": "A rezolva incidentul de astazi fara a aborda vulnerabilitatea de maine este activitate de politie incompleta. Conectarea doamnei Tran cu asistenta juridica dureaza 60 de secunde si transforma o singura intalnire in impact durabil."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Dreptate procedurala avansata — formarea altora in medierea stradala cu multiple parti", "Conducere in politia comunitara — construirea relatiilor vanzator-politie in cartier", "Prejudecati implicite si discretie in aplicarea la contraventii minore"],
+            "good": ["Dreptate procedurala extinsa — echilibrarea asteptarilor reclamantului cu proportionalitatea", "Dinamica multimii si gestionarea trecatorilor in intalniri filmate", "Formare in conectarea cu resurse — organizatii comunitare locale si servicii de asistenta juridica"],
+            "average": ["Principii fundamentale de dreptate procedurala — voce, transparenta, corectitudine, impartialitate", "Succesiunea educatie-inainte-de-aplicare pentru contraventii minore", "Dezescaladare cu populatii vulnerabile — imigranti, varstnici, marginalizati economic"],
+            "poor": ["Fundamentele dreptatii procedurale si cercetari privind legitimitatea politiei", "Proportionalitatea in discretia de aplicare — calibrarea raspunsului la gravitatea prejudiciului", "Cunoasterea drepturilor — filmarea de catre cetateni, drepturile vanzatorilor, procesul echitabil in aplicarea stradala", "Competenta culturala si implicarea comunitatii de imigranti"]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Rezumatul general al performantei", "content": ["Scor", "Nivel de performanta", "Puncte forte principale", "Slabiciuni critice"]},
+            {"title": "Analiza etapa cu etapa", "content": ["Alegerea facuta la fiecare etapa", "Impactul asupra vanzatoarei, proprietarului, trecatorilor si comunitatii", "Abordari alternative si consecinte", "Puncte cheie de invatare"]},
+            {"title": "Evaluarea dreptatii procedurale", "content": ["Voce — au fost ascultate toate partile?", "Transparenta — a fost explicat rationamentul?", "Corectitudine — au fost partile tratate cu demnitate egala?", "Impartialitate — a parut procesul neutru observatorilor?"]},
+            {"title": "Evaluarea proportionalitatii si discretiei", "content": ["Calibrarea raspunsului la prejudiciul real", "Aderenta la succesiunea educatie-avertisment-aplicare", "Stabilirea limitelor cu reclamantul", "Alternative creative explorate inainte de actiune formala"]},
+            {"title": "Gestionarea multimii si a camerei", "content": ["Calitatea recunoasterii trecatorilor", "Raspunsul la filmare", "Gestionarea naratiunii — cine a controlat povestea?", "Traiectoria energiei multimii pe parcursul intalniri"]},
+            {"title": "Eficacitatea comunicarii", "content": ["Cele mai bune momente de dialog", "Fraze contraproductive", "Analiza incadrarii — situationala vs. personala", "Impactul declaratiei de incheiere"]},
+            {"title": "Dezvoltare profesionala", "content": ["Nevoi imediate de formare", "Prioritati de dezvoltare a competentelor pe termen lung", "Resurse si ateliere recomandate"]},
+            {"title": "Aplicare in lumea reala", "content": ["Cum se traduce aceasta la apelurile cu vanzatori si aplicarea la nivel minor", "Construirea relatiilor de cartier care previn apeluri repetate", "Cunoasterea resurselor comunitare ca instrument de activitate de politie", "Impactul pe termen lung asupra increderii al unei singure intalniri bine gestionate"]}
+        ]
+    }
+}

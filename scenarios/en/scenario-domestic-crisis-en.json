@@ -1,0 +1,441 @@
+{
+  "id": "domestic-crisis",
+  "title": "Domestic Dispute with Mental Health Crisis",
+  "description": "Advanced scenario involving a high-stress domestic dispute with a married couple, a mental health crisis, and a young child present. The officer must navigate volatile emotions, recognize signs of suicidal ideation, and employ de-escalation and empathy techniques while ensuring legal compliance and child safety.",
+  "icon": "🏠",
+  "instructor": {
+    "name": "Sergeant Davis",
+    "avatar": "👮‍♂️",
+    "introduction": "Domestic disputes are among the most dangerous and emotionally complex calls in policing. Tonight you will handle a situation involving a married couple in crisis, a young child caught in the middle, and signs of a deeper mental health emergency beneath the surface. Research consistently shows that the officer's demeanor in the first thirty seconds sets the trajectory for the entire encounter — calm presence de-escalates, while aggression mirrors and amplifies the violence you were called to stop. You will need to balance empathy with authority, recognize when an argument crosses into a mental health crisis, and make legal decisions that protect everyone involved — including the person causing harm. Remember that children in these situations are absorbing everything: your tone, your body language, and how the adults around them respond to authority. Your communication skills will determine whether this family gets the help they need or whether the system fails them at the moment they need it most."
+  },
+  "timedChoices": true,
+  "completionBadges": [
+    "scenario-domestic-crisis-complete"
+  ],
+  "perfectBadge": "perfect-scenario-domestic-crisis",
+  "finalMessage": {
+    "revelation": "The husband you helped, Mr. K, had been concealing his job loss from his extended family for over a month, spiraling into a severe depressive episode fueled by shame, mounting debt, and sleeplessness. He had no prior history of violence — the outburst that night was the first time his despair turned physical, triggered by an overdue rent notice he had been hiding. His wife Maria had suspected something was wrong for weeks but did not know the full extent until that evening. Your empathetic approach during the crisis enabled him to accept a referral to a mental health counselor, where he was subsequently diagnosed with major depressive disorder and began treatment. The intervention center helped the family access emergency financial assistance and debt counseling. Anna is now attending weekly sessions with a child psychologist and is showing signs of recovery. Maria later told a social worker that the way you spoke to her husband — with firmness but without contempt — was the reason he agreed to leave peacefully and accept help.",
+    "keyLessons": [
+      "Active listening and empathy can de-escalate even volatile situations",
+      "Recognizing mental health crisis signs is crucial for appropriate response",
+      "Child safety must always be prioritized while maintaining compassion",
+      "Following legal procedures protects both victims and ensures proper support",
+      "Cultural sensitivity and respect preserve dignity in difficult moments"
+    ]
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "Dispatch and Arrival",
+      "sceneUpdate": {
+        "emoji": "🚔",
+        "title": "Apartment Building - Hallway",
+        "desc": "Late evening, residential Prague. Shouting and glass breaking reported. Child crying audible behind the door."
+      },
+      "npcDialogue": [
+        {
+          "character": "dispatcher",
+          "text": "Unit 7-2, be advised, domestic dispute at 12 Oak Lane, third floor. Caller mentioned sounds of fighting and a child crying. Proceed with caution."
+        }
+      ],
+      "prompt": "You're outside the apartment. Muffled shouts and sobbing are audible. How do you approach?",
+      "options": [
+        {
+          "text": "You step up to the door without pausing to listen and knock firmly three times with the side of your fist, the sound echoing through the hallway. You announce in a clear, authoritative voice: 'Police, dobrý večer, please open the door.' You stand squarely in front of the peephole, hands visible at your sides, waiting for a response while the muffled sounds inside go abruptly silent.",
+          "feedback": "Why: A firm knock and police announcement follow standard procedure, but entering without first listening misses an opportunity to gather context about what's happening inside — voices, child sounds, level of danger. | CONSEQUENCES: The shouting halts momentarily. A brusque male voice responds. You've made your presence known but the interaction starts without intelligence. | Reflection: What can you learn in the ten seconds before knocking that changes your entire approach?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "You pause at the door for several seconds, ear tilted slightly, listening to the voices inside — a man's raised tone, a woman's quieter pleading, and a child's intermittent sobs. You note the number of people and the emotional pitch before acting. Then you knock softly, two measured taps, and announce in a calm, unhurried voice: 'Police. We're here to help. Can I come in to talk?' You step slightly to the side of the door and wait patiently.",
+          "feedback": "Why: Pausing to gather information before acting is a hallmark of skilled crisis response — you hear critical context about the number of people, the emotional temperature, and potential risks before committing to an approach. A calm announcement signals a non-threatening presence. | CONSEQUENCES: The door opens slightly and a nervous woman peeks out. Your patience builds rapport immediately, setting a cooperative tone. | Reflection: How does the information gathered in those few listening seconds shape every decision that follows?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "You stride directly to the door, adrenaline sharpening your movements, and pound on it with the heel of your palm — three rapid, heavy strikes that rattle the frame. Without waiting for a response, you raise your voice to cut through the noise inside: 'Police — we need to confirm everyone's safety. Open the door now, please. Time is a factor here.' You plant yourself squarely in front of the door, weight forward, posture signaling that delay is not an option.",
+          "feedback": "Why: Prioritizing speed and decisive action feels like good policing, but in domestic crisis the urgency you project becomes the emotional tone of the entire encounter. By framing time as critical before you have assessed what is happening inside, you import your own adrenaline into the household and force the occupants into a compliance-or-resistance binary before they have had a moment to self-regulate. | CONSEQUENCES: The door opens quickly, but the man inside is already rigid with anxiety and the woman looks panicked — they are responding to your urgency, not their own readiness. The child's crying intensifies. You have control of the doorway but not of the emotional environment. | Reflection: When does the officer's sense of urgency serve the situation, and when does it override the occupants' ability to cooperate voluntarily?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "You stand to the side of the door and listen for a few seconds, picking up the cadence of the argument and the child's crying before deciding to act. You knock firmly but not aggressively — three deliberate, even raps — and announce in a steady, professional tone: 'Police. We received a call about a disturbance. Is everyone alright?' You keep your posture relaxed but alert, hands visible, waiting for whoever answers.",
+          "feedback": "Why: You pause to listen first, which gathers useful context, and your knock is confident without being threatening. However, the phrasing 'received a call about a disturbance' is slightly more clinical than inviting — it focuses on the complaint rather than offering help. | CONSEQUENCES: The shouting stops. After a pause, the door opens cautiously. The woman appears wary but not hostile. You have a workable opening. | Reflection: How does framing your presence as 'here to help' versus 'responding to a complaint' change the occupants' willingness to let you in?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "First Contact Inside",
+      "sceneUpdate": {
+        "emoji": "🏠",
+        "title": "Apartment - Living Room",
+        "desc": "Signs of struggle visible. Lamp knocked over, picture frame shattered. Woman with bruised forearm, man with clenched fists, young child peeking from bedroom."
+      },
+      "npcDialogue": [
+        {
+          "character": "wife",
+          "text": "Please... I'm sorry we bothered you. It was just an argument. We're fine, really."
+        },
+        {
+          "character": "husband",
+          "text": "Everything's okay, officer. We don't need you here. This is a private family matter."
+        }
+      ],
+      "prompt": "You must establish control and ensure everyone's safety. What do you say?",
+      "options": [
+        {
+          "text": "You keep your voice low and steady, hands open at your sides, scanning the room without staring at the damage. You address both of them together: 'I understand this is personal, and I'm not here to judge your family. But we're here because someone might be in danger, and my job is to make sure everyone in this apartment is safe — including both of you and your child. Can you tell me what happened tonight?' You maintain a calm, open posture and give them space to respond.",
+          "feedback": "Why: A calm tone combined with open-ended questions shows genuine concern without making accusations — it invites both parties to share rather than defend. Acknowledging their privacy while explaining your duty balances respect with responsibility. | CONSEQUENCES: Both parties remain engaged. Trust begins to build as they sense fairness and safety in your approach. You receive valuable information through dialogue rather than interrogation. | Reflection: How does the phrase 'someone might be in danger' keep the focus on safety rather than blame?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "You take a firm stance in the center of the room, positioning yourself between the couple. Your voice is controlled but leaves no room for negotiation: 'I need both of you to calm down right now. Sir, step over here to this side of the room, please. Ma'am, stay where you are. We're going to sort this out, but one person at a time. Nobody speaks over the other.' You gesture clearly to each position, establishing physical separation before anything else.",
+          "feedback": "Why: Separating parties is standard safety protocol that reduces the risk of further confrontation. However, leading with 'calm down' and issuing commands without establishing rapport first shows minimal empathy and may feel authoritarian. | CONSEQUENCES: The emotional tension remains high even though physical separation reduces immediate risk. Both parties comply but remain guarded. | Reflection: What would happen if you acknowledged their distress before issuing instructions?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "You step inside and immediately shift into tactical mode, eyes sweeping for weapons or hazards. Your voice is clipped and professional: 'I need to secure the scene first. Sir, I need you to move to that wall, hands where I can see them at all times. Ma'am, please stay exactly where you are and do not move. I'll take formal statements from each of you separately once I've confirmed the area is safe.' You position yourself with a clear line of sight to both, treating the apartment like a potential crime scene.",
+          "feedback": "Why: Scene security is a legitimate priority, and separating parties with clear positioning is standard procedure for officer safety. However, treating a domestic crisis like a crime scene — issuing tactical commands to a frightened wife and a man who has not threatened you — signals that you see suspects rather than people in crisis. The procedural language is technically correct but emotionally illiterate for this context. | CONSEQUENCES: Both comply mechanically, but the wife's eyes go flat and the husband's jaw tightens. You have physical control of the room, but the emotional shutters have closed. Neither party will volunteer the information you actually need because your approach communicated that they are being processed, not helped. | Reflection: When does following tactical procedure in a domestic setting communicate that you have already decided this is a criminal matter rather than a crisis?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "You keep your tone measured and non-confrontational, acknowledging the awkwardness of the situation with a slight nod. You say: 'I understand this feels intrusive, and I know having police in your home isn't easy. I'm here to make sure everyone is safe, that's all. Sir, can you walk me through what happened tonight?' You turn briefly to the wife: 'Ma'am, I'll speak with you separately in just a moment — I want to hear from both of you.' You maintain a neutral stance between them.",
+          "feedback": "Why: You acknowledge the intrusion and lead with safety, which is good. Planning to speak to each person separately shows awareness. However, speaking to the husband first while the wife waits may inadvertently prioritize his narrative and leave her feeling unheard initially. | CONSEQUENCES: The husband engages cautiously while the wife retreats to the bedroom with the child. You get one perspective first but miss the chance for an inclusive opening. | Reflection: How does the order in which you speak to parties shape whose version anchors your understanding?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Gathering Information",
+      "sceneUpdate": {
+        "emoji": "💬",
+        "title": "Tense Discussion",
+        "desc": "Husband rigid and defensive, wife trembling and tearful. Child's sobs heard from bedroom."
+      },
+      "npcDialogue": [
+        {
+          "character": "husband",
+          "text": "This is ridiculous... We just had an argument. Right, Maria? Tell them you're fine."
+        },
+        {
+          "character": "wife",
+          "text": "I... we... It was about money and your job... I got scared when you started throwing things... but I'm okay."
+        }
+      ],
+      "prompt": "The husband shoots her a sharp look when she mentions throwing things. How do you proceed?",
+      "options": [
+        {
+          "text": "You notice the sharp look the husband gives his wife and gently intervene. You turn to him first, voice calm but firm: 'Sir, I can see you want to say something, and I'll hear your side in full — I promise. But right now I need to let her finish. Please let her speak.' Then you shift your attention to the wife, softening your tone: 'You mentioned being scared. That matters to me. I'm listening. Can you tell me more about what happened?' You keep your body angled to include both of them, signaling fairness.",
+          "feedback": "Why: Assuring the husband he will be heard while inviting the wife to continue demonstrates impartiality and active listening — both parties feel respected and neither is silenced. This technique gathers the most information while maintaining trust. | CONSEQUENCES: Both feel heard, which significantly builds trust. The wife shares more details and the husband's defensiveness gradually softens. You gain valuable information about the situation. | Reflection: How does guaranteeing everyone a voice change the dynamics of information gathering?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "You cut through the emotional tension with a direct, business-like approach, pulling out your notepad and clicking your pen. Your voice is flat and procedural: 'I need facts before I can determine what happened here. Sir, did the argument get physical at any point — did you push, grab, or strike anyone? Ma'am, are you injured? I need both of you to answer honestly so I can assess the situation and decide what steps are required.' You glance between them, waiting for straightforward answers.",
+          "feedback": "Why: Direct fact-finding is efficient and yields confirmation about thrown objects, but the clinical approach misses the emotional dimension entirely — people in crisis need to feel heard, not just questioned. | CONSEQUENCES: You get factual information but miss the deeper rapport that would reveal more about the underlying situation. The interaction feels like an interrogation. | Reflection: When does efficiency in questioning come at the cost of the information you actually need?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "You turn your full attention to the wife, referencing the discrepancy in their accounts: 'Ma'am, your husband said this was just an argument, but you mentioned he was throwing things. Those are two different situations and I need to understand which one happened. I need to know exactly what was thrown, whether any of it was directed at you or at the child, and the order in which events occurred tonight. Walk me through the sequence from the beginning.' The husband's jaw tightens as you speak.",
+          "feedback": "Why: Seeking a precise timeline sounds like thorough police work, and distinguishing between objects thrown in frustration versus thrown at a person is legally relevant. However, by immediately contrasting the husband's account against the wife's in front of him, you have positioned her as your witness against him — she sees his face harden and understands that speaking further puts her at risk after you leave. The forensic framing prioritizes your report over her safety. | CONSEQUENCES: The wife glances at her husband and backtracks: 'It wasn't really at me, things just fell.' The husband folds his arms, vindicated. You have inadvertently coached her into minimizing because your fact-finding created a courtroom dynamic in the living room. | Reflection: How does the way you frame questions in front of both parties determine whose safety you are actually prioritizing — the victim's or the investigation's?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "You focus on the wife's emotional state, recognizing that her fear is the most important signal in the room. You lean slightly toward her and lower your voice: 'You mentioned being scared — that's important, and I take that seriously. Can you tell me more about what made you afraid tonight?' Then you glance briefly at the husband: 'Sir, I'll need to hear your perspective as well shortly, so please bear with me.' You notice the husband's sharp look at his wife but do not directly address it yet.",
+          "feedback": "Why: You correctly focus on the wife's fear, which is the critical safety indicator. Promising the husband his turn shows some fairness. However, you did not actively stop the husband's intimidating look or address his attempt to control her narrative, which may make her reluctant to speak freely. | CONSEQUENCES: The wife shares cautiously, glancing at her husband. You get some information but the coercive dynamic in the room remains unchallenged. | Reflection: How do you create space for someone to speak honestly when the person they fear is watching?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Child's Presence",
+      "sceneUpdate": {
+        "emoji": "👧",
+        "title": "Emotional Complexity",
+        "desc": "6-year-old Anna emerges, clinging to mother, crying softly. Parents' expressions shift - father shows shame and defensiveness."
+      },
+      "npcDialogue": [
+        {
+          "character": "child",
+          "text": "Mommy... I'm scared."
+        },
+        {
+          "character": "wife",
+          "text": "It's okay, sweetie... it's okay. Mommy's here."
+        },
+        {
+          "character": "husband",
+          "text": "See, now you've upset my daughter! This is why I didn't want police involved! We're handling this ourselves."
+        }
+      ],
+      "prompt": "The father blames your presence for scaring the child. How do you handle this critical moment?",
+      "options": [
+        {
+          "text": "You slowly lower yourself to one knee so you are at the child's eye level, keeping your movements gentle and your face warm. You speak softly to Anna: 'Hi there, sweetheart. You're not in any trouble at all. We're here to make sure everyone is safe and okay.' Then you rise and turn to the father, keeping your voice steady and respectful: 'I can see how much you care about her. Let's all take a breath together for Anna's sake — she needs everyone to be calm right now.' You hold eye contact with him, inviting cooperation rather than demanding it.",
+          "feedback": "Why: Addressing the child directly with kindness at her eye level instantly humanizes you and defuses the tension — it shifts the entire room's focus from conflict to care. Acknowledging the father's love reframes the situation toward common ground instead of opposition. | CONSEQUENCES: Everyone calms significantly. The child relaxes, the mother feels protected, and the father's shame begins to transform into cooperation. The emotional temperature drops dramatically. | Reflection: How does connecting with the most vulnerable person in the room change everyone else's behavior?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "You assess the situation quickly and decide the priority is removing the child from the conflict zone. Your tone is pragmatic and measured, not unkind but focused on logistics: 'Your daughter is clearly upset, and she shouldn't have to be in the middle of this. Perhaps one of you could take her to another room — her bedroom, maybe — where it's quieter and she can settle down, and I'll speak with the other person here. We can handle the adult conversation separately.' You gesture toward the hallway leading to the bedrooms.",
+          "feedback": "Why: Separating the child from the conflict zone is a sound safety decision and follows best practice for protecting minors. However, the pragmatic tone misses the opportunity for emotional connection that could have transformed the entire dynamic. | CONSEQUENCES: Mother takes Anna away. The immediate environment is procedurally correct but emotionally flat. You proceed without the powerful de-escalation that empathy toward the child would have provided. | Reflection: What is the difference between removing a child from a situation and making a child feel safe?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "You crouch down and extend your hand toward the crying child, your voice gentle and reassuring: 'Sweetie, you don't need to be scared anymore. The police are here now and we won't let anything bad happen to you, okay? Can you come with me out to the hallway where it's nice and quiet? Your mommy and daddy just need to talk to us for a little while and then everything will be fine.' You smile warmly at Anna and gesture toward the apartment door, waiting for her to take your hand.",
+          "feedback": "Why: Wanting to physically remove the child from the conflict zone feels instinctively protective, and the language is warm. However, asking a six-year-old to leave with a uniformed stranger — away from her mother, the only source of safety she trusts — is terrifying from the child's perspective. The phrase 'we won't let anything bad happen' implicitly confirms that something bad was happening, which the child will internalize. You have also sidelined both parents from the decision about their child, which strips them of agency and inflames the father further. | CONSEQUENCES: Anna screams and clings harder to her mother. The father steps forward, protective instinct overriding everything: 'You're not taking my daughter anywhere.' The mother looks torn between your authority and her child's distress. Your well-intentioned protection attempt has become the new source of fear in the room. | Reflection: When does protecting a child from one source of fear inadvertently become a new source of fear — and how do you tell the difference?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "You address the father first, acknowledging his protective instinct with a calm nod: 'I understand you're worried about Anna, sir. She's our priority too — we want her to feel safe above everything else.' Then you turn to the mother, keeping your voice quiet and considerate: 'Would it help if Anna went to her room for a moment while we talk? She might feel more comfortable there with something familiar.' You leave the decision with the parents, positioning yourself as a partner rather than an authority imposing a choice.",
+          "feedback": "Why: You validate the father's concern and center the child's welfare, which is good. Suggesting the child leave gives her some protection. However, you did not address Anna directly — at her age, being talked about rather than talked to can feel dismissive, and you missed the powerful de-escalation of making a direct, warm connection with her. | CONSEQUENCES: The mother takes Anna to the bedroom. The father is somewhat placated but not truly disarmed. The situation improves but without the emotional breakthrough that direct engagement with the child would have created. | Reflection: How does speaking directly to a scared child, rather than about them, change the emotional dynamics for everyone in the room?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Mental Health Crisis Emerges",
+      "sceneUpdate": {
+        "emoji": "🧠",
+        "title": "Crisis Point",
+        "desc": "Husband's anger gives way to visible despair. Hands shaking, rapid breathing, signs of breakdown."
+      },
+      "npcDialogue": [
+        {
+          "character": "husband",
+          "text": "I... I lost my job a month ago. Didn't tell anyone... The bills... debt... I'm failing my family... Maybe you'd all be better off without me..."
+        },
+        {
+          "character": "wife",
+          "text": "Hon... please, don't say that. We can get through this, just... not like this."
+        }
+      ],
+      "prompt": "The husband shows signs of suicidal ideation. This is now a mental health crisis. How do you respond?",
+      "options": [
+        {
+          "text": "You take a slow step closer and lower your voice, meeting his eyes directly. You speak gently but with conviction: 'I'm sorry you're going through this. Losing your job, carrying that alone for a month — that sounds genuinely overwhelming, and I can see the weight of it. But I need you to hear me: your family needs you. Not like this, not in crisis — in a safe way. Let's get you some help tonight. I can call a crisis counselor right now, someone who knows how to work through exactly this kind of situation.'",
+          "feedback": "Why: Validating his feelings while gently countering suicidal thoughts with a concrete reason to live demonstrates high emotional intelligence and proper crisis intervention — you normalize his pain without accepting his conclusion that his family would be better off without him. | CONSEQUENCES: He nods, exhausted but receptive. The offer of a counselor gives him a path forward. The immediate crisis begins to resolve as he feels genuinely heard and supported. | Reflection: How does the simple act of naming someone's pain and offering a concrete next step change the trajectory of a crisis?",
+          "type": "positive",
+          "points": 12
+        },
+        {
+          "text": "You maintain a composed, even demeanor, keeping your distance to give him space while staying close enough to intervene if needed. Your voice is steady and controlled: 'Sir, I need you to take a deep breath for me. You're under an enormous amount of stress right now, and that's making everything feel worse than it is. If there's any chance you might hurt yourself tonight, I want you to tell me, because we can get medical professionals here who are trained to help. There's no shame in that.' You watch his hands and breathing carefully.",
+          "feedback": "Why: Grounding him with a breathing instruction and offering professional help is methodical and safety-oriented. However, the somewhat impersonal tone misses the emotional connection that a person in crisis desperately needs — being told to breathe can feel dismissive when someone is in despair. | CONSEQUENCES: He doesn't object but doesn't actively agree either. The immediate danger subsides but without genuine engagement. The response addresses the risk but not the person. | Reflection: What is the difference between managing a crisis and connecting with the person in crisis?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "You nod slowly, keeping your voice steady and solution-oriented: 'I hear you, and I can see this has been incredibly hard — carrying that secret for a month would crush anyone. But right now we need to focus on tonight, on making sure everyone in this apartment is safe and figuring out the next practical steps forward. There are people who can help with the job situation — employment services, financial counseling, debt assistance. One problem at a time. We don't need to solve everything tonight.' You hold his gaze, trying to project calm competence.",
+          "feedback": "Why: This response sounds productive and even compassionate — it acknowledges his pain, offers practical help, and tries to break an overwhelming situation into manageable pieces. Many well-trained officers default to this solution-oriented approach. However, when someone says 'you'd all be better off without me,' they are not asking for employment services. By pivoting immediately to logistics, you communicate that his suicidal despair is a problem to be managed rather than a pain to be witnessed. The statement that terrified his wife goes unaddressed, and he learns that even the professional in the room cannot sit with how he feels. | CONSEQUENCES: He nods mechanically and goes quiet — which looks like cooperation but is actually withdrawal. The acute emotional crisis has been papered over with a to-do list. He may comply tonight, but the despair that produced the suicidal statement remains entirely untouched. His wife watches him shut down and knows nothing has actually changed. | Reflection: When someone expresses that their family would be better off without them, what does it communicate when your response is to talk about employment services?",
+          "type": "negative",
+          "points": -10
+        },
+        {
+          "text": "You keep your voice calm and unhurried, allowing the weight of his confession to sit in the room rather than rushing past it: 'I can see you're going through a very difficult time, and I want you to know that what you're feeling makes sense. Losing a job puts enormous pressure on a person, especially when you're trying to hold everything together for your family. Let's make sure everyone here is safe tonight — that's the first step — and then I can connect you with people who are trained to help with exactly this kind of situation.'",
+          "feedback": "Why: You acknowledge his pain and normalize the stress of job loss, which is compassionate. Offering help is the right instinct. However, you did not directly address his suicidal statement — 'maybe you'd all be better off without me' — which needs to be gently but explicitly countered. Skipping over suicidal ideation, even when offering help, can leave the person feeling their darkest thought was ignored. | CONSEQUENCES: He calms somewhat, feeling partially heard. The crisis stabilizes but the core suicidal ideation remains unaddressed. He may comply tonight but the underlying despair persists. | Reflection: Why is it important to explicitly acknowledge suicidal statements rather than redirecting around them?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Legal Resolution",
+      "sceneUpdate": {
+        "emoji": "⚖️",
+        "title": "Decision Time",
+        "desc": "The immediate emotional crisis is subsiding. The husband sits slumped on the couch, exhausted and drained, while the wife stands near the bedroom door where Anna sleeps. You must now decide on the appropriate legal measures and support services to ensure everyone's safety tonight and in the days ahead."
+      },
+      "npcDialogue": [
+        {
+          "character": "wife",
+          "text": "What happens now? He's not a bad man, just under pressure."
+        }
+      ],
+      "prompt": "You must now resolve the situation legally and ensure safety. What action do you take?",
+      "options": [
+        {
+          "text": "You explain each step carefully, maintaining eye contact with both parties. You invoke the 10-day eviction order under Czech law to ensure a safe cooling-off period, then immediately call the local intervention center to arrange crisis support for the wife and child tonight. You contact child protection services, framing the notification as family assistance rather than a threat of removal, and you arrange for the husband to be connected with a mental health crisis counselor before he leaves the apartment. You walk each person through what happens next.",
+          "feedback": "Why: This response follows Czech law perfectly while demonstrating compassion — the 10-day eviction provides a legal cooling-off period, intervention center support addresses the immediate crisis, and framing child protection as assistance rather than removal preserves family dignity while ensuring the child's welfare. | CONSEQUENCES: Safety is ensured through legal measures. Support is arranged for all family members. The balanced approach of enforcement with empathy gives this family the best chance at recovery. | Reflection: How does using every available legal tool compassionately differ from using them punitively?",
+          "type": "positive",
+          "points": 12
+        },
+        {
+          "text": "You decide to keep things informal, hoping to preserve goodwill and avoid the weight of legal procedures on an already fragile family. You ask the husband if he would be willing to voluntarily spend the night somewhere else — his brother's place, a friend's couch, anywhere away from the apartment. He agrees quietly. You tell the wife you will check in tomorrow morning to see how things are and suggest she call if anything changes overnight. You leave without filing formal paperwork, trusting the voluntary arrangement to hold.",
+          "feedback": "Why: A voluntary compromise avoids formal paperwork and preserves some goodwill, but it lacks the legal protection that formal measures provide — if he returns tonight in crisis, there is no enforceable order to prevent it. Good intentions without legal backing leave the family vulnerable. | CONSEQUENCES: Partial resolution with future risk. The immediate night is likely safe but there are no formal protections or support services in place. | Reflection: When does trying to be kind by avoiding formal measures actually put people at greater risk?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "You proceed through each procedural step methodically. You invoke the 10-day eviction and begin filling out the domestic violence report on your tablet. You radio for a patrol car to transport the husband to his brother's address. You inform the wife in a matter-of-fact tone that child protective services will be notified as standard procedure in cases involving minors. You complete every form thoroughly, checking each box, documenting the broken lamp and shattered frame. No counselor is called, no intervention center is contacted — the paperwork is your focus.",
+          "feedback": "Why: Every individual step here is defensible — the eviction is legally appropriate, the report is mandatory, transport is helpful, and CPS notification follows protocol. This looks like textbook policing on paper. However, this response reduces a family in crisis to a checklist of bureaucratic actions. The husband is processed and moved without anyone addressing his mental health emergency. The wife hears 'child protective services' and panics, imagining her daughter taken away. No counselor is called, no intervention center is contacted, no one explains what any of this means for her family tomorrow. You followed every procedure and helped no one. | CONSEQUENCES: The husband leaves in the patrol car, humiliated and unmonitored for self-harm. The wife spends the night terrified that CPS will remove Anna, too afraid to call any number you left because she now associates 'the system' with losing her family piece by piece. Procedurally flawless. Humanly catastrophic. | Reflection: When you follow every procedure but connect no one with actual help, whose needs did the paperwork serve?",
+          "type": "negative",
+          "points": -10
+        },
+        {
+          "text": "You invoke the 10-day eviction order to ensure physical separation and safety, then help the husband gather a few overnight essentials and arrange for him to leave the apartment tonight. Before you go, you hand the wife a printed card with phone numbers for the intervention center, a domestic violence hotline, and a general support line. You tell her that these organizations can help and that you plan to follow up with a visit tomorrow to see how she and Anna are doing. You leave the connecting to her initiative.",
+          "feedback": "Why: You correctly use the legal eviction measure and ensure immediate physical separation, which addresses safety. Providing contact numbers shows awareness of support needs. However, you rely on the wife to initiate contact with services rather than arranging them directly, and you did not specifically address the husband's mental health crisis or ensure he has access to counseling tonight. | CONSEQUENCES: Physical safety is established. The wife has information but must navigate the system alone during a traumatic night. The husband leaves without mental health support arranged. | Reflection: What is the difference between giving someone a phone number and actually connecting them with help?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Aftermath Support",
+      "sceneUpdate": {
+        "emoji": "🤝",
+        "title": "Providing Reassurance",
+        "desc": "Husband gone, child asleep in mother's arms. Quiet moment for final interaction."
+      },
+      "npcDialogue": [
+        {
+          "character": "wife",
+          "text": "Thank you, officer... I'm sorry it came to this. He's not bad, just under so much pressure. What will happen now?"
+        }
+      ],
+      "prompt": "Final interaction with the wife. How do you provide closure and support?",
+      "options": [
+        {
+          "text": "You sit down across from her, keeping your voice warm and unhurried despite the late hour. You walk her through the 10-day eviction timeline step by step — when he can return, what conditions apply, who to call if he comes back early. You explain that the intervention center will reach out tomorrow and that child services is there to support the family, not to remove Anna. You validate her feelings directly: 'You're right that he's not a bad man. What happened tonight doesn't define him, and asking for help was the right thing.' You confirm follow-up details before leaving.",
+          "feedback": "Why: Providing thorough, compassionate information at the end ensures she understands every resource available and every step that follows — validating her feelings about her husband being 'not bad' shows you listened and respected her perspective throughout. This closing interaction determines whether she will engage with services or withdraw. | CONSEQUENCES: She feels genuinely supported and informed. She knows all resources, understands the process, and feels that the system is working with her family, not against it. Perfect balance of duty and empathy. | Reflection: How does the final impression you leave determine whether a family follows through with the help you arranged?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "You keep the closing interaction brief and transactional, ticking through the essentials in a clipped tone while already reaching for your radio. You tell her: 'The eviction order means he'll stay away for ten days. Social services will be in contact with you. Child services has been notified as part of standard procedure. You should clean up the broken glass before Anna wakes up and make sure you secure the front door tonight. Here's my card — call the station if anything comes up.' You hand her the card, nod once, and turn toward the door.",
+          "feedback": "Why: You cover the essential procedural basics — safety, services, contact information — but the delivery lacks the warmth that a traumatized person needs. After a night of crisis, a checklist response feels impersonal and can leave someone feeling like a case number rather than a person. | CONSEQUENCES: Information is provided but minimal comfort is offered. She has the facts but not the emotional reassurance to act on them. Adequate but not memorable. | Reflection: What does it cost you to add thirty seconds of genuine warmth to a procedural closing?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "You lean against the doorframe and offer her your most encouraging smile, your voice warm and upbeat: 'Look, I know tonight was incredibly hard, but honestly — this is the best thing that could have happened. Believe me, a lot of families go through exactly this and come out stronger on the other side. He'll get the help he needs, you'll get some breathing room, and things will settle down once everyone has had time to process. Trust the process — the system works when people engage with it. You're going to be fine.' You give her a reassuring nod before stepping into the hallway.",
+          "feedback": "Why: This response is warm, optimistic, and clearly well-intentioned — the officer genuinely believes they are providing comfort. However, telling a woman whose husband just expressed suicidal ideation and was removed from their home that this is 'the best thing that could have happened' minimizes the gravity of what she just experienced. 'Trust the process' assumes a system she has never navigated will work seamlessly. 'You're going to be fine' closes the door on her expressing that she is not fine — it is reassurance that serves the officer's need to leave on a positive note rather than the victim's need to be heard. | CONSEQUENCES: She nods and says 'thank you' because the social script requires it, but she does not call any of the numbers you provided. She does not understand the eviction timeline. She sits awake wondering whether her husband is safe, with no one to ask. Your optimism felt kind in the moment but left her alone with every unanswered question. | Reflection: When does reassurance become a way for the officer to feel good about leaving rather than a way for the victim to feel prepared for what comes next?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "You provide a general overview of what comes next, explaining that the eviction order lasts ten days and that various support services will be reaching out to her in the coming days. You soften your tone as you add: 'You've been through a lot tonight, more than anyone should have to deal with. I want you to know that he'll get help too — this isn't just about separation, it's about getting everyone the support they need. If you need anything at all, or if something comes up that worries you, here's my card. Don't hesitate to call.' You hand it over with a steady look.",
+          "feedback": "Why: You provide a reasonable overview and show some personal warmth by acknowledging her difficult night. Mentioning that her husband will get help addresses her concern about him. However, the information is general rather than detailed — she may not understand the timeline, what child services involvement actually means, or what specific resources are available to her tonight. | CONSEQUENCES: She feels somewhat reassured but leaves with gaps in her understanding. She has your card but may not know what questions to ask or whom to call first. | Reflection: How much detail does a person in crisis need to feel genuinely prepared, versus overwhelmed?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Debrief and Reflection",
+      "sceneUpdate": {
+        "emoji": "📋",
+        "title": "Training Debrief",
+        "desc": "Back at the station. Sergeant Davis reviews your performance in this domestic crisis scenario, examining how you balanced de-escalation, mental health recognition, child welfare, and legal resolution."
+      },
+      "autoDialogue": true,
+      "finalScene": true,
+      "dialogueSequence": [
+        {
+          "character": "trainer",
+          "text": "Walk me through the moment that stayed with you most tonight."
+        },
+        {
+          "character": "officer",
+          "text": "When he said his family would be better off without him. Part of me wanted to just get him out of the apartment — separate the threat and move on. But he was the person most in danger. The hardest part was sitting with that instead of jumping to logistics."
+        },
+        {
+          "character": "trainer",
+          "text": "That instinct to remove and resolve is the most common trap. Here is the reframe I want you to carry: most officers think domestic calls are about anger management — contain the aggression, separate the parties, file the report. But these disputes are not about anger. They are about power, control, and desperation. The moment you see the aggressor as purely dangerous rather than also desperate, you lose the ability to de-escalate. Maria defended him because she knows what happens after a standard arrest — the system processes him and returns him angrier. Your job was to create a different path."
+        },
+        {
+          "character": "trainer",
+          "text": "And here is what that path looks like: you did not save that family tonight. You created a forty-eight-hour window where something different could happen. That is what crisis intervention is — not resolution, but possibility. A veteran officer in Prague told me the families who recover are never the ones where the officer solved everything on scene. They are the ones where the officer held the space open long enough for the counselor and the intervention center to do their work. Your forty-eight hours is the bridge."
+        }
+      ]
+    }
+  ],
+  "characters": {
+    "dispatcher": {
+      "name": "Dispatcher",
+      "avatar": "📻"
+    },
+    "husband": {
+      "name": "Mr. K (Husband)",
+      "avatar": "😤"
+    },
+    "wife": {
+      "name": "Mrs. K (Wife)",
+      "avatar": "😰"
+    },
+    "child": {
+      "name": "Anna (Child)",
+      "avatar": "👧"
+    },
+    "officer": {
+      "name": "You (Officer)",
+      "avatar": "👮"
+    },
+    "trainer": {
+      "name": "Sergeant Davis",
+      "avatar": "👮‍♂️"
+    }
+  },
+  "performanceReviews": {
+    "perfect": {
+      "title": "Outstanding Crisis Management!",
+      "emoji": "🌟",
+      "feedback": "You demonstrated exceptional emotional intelligence, perfect procedure adherence, and masterful de-escalation. Your empathetic approach while maintaining safety boundaries is exemplary. The family received maximum support thanks to your communication skills."
+    },
+    "good": {
+      "title": "Strong Performance",
+      "emoji": "✅",
+      "feedback": "You handled the complex situation well, showing good empathy and following most procedures correctly. Minor improvements in recognizing mental health signs earlier could enhance your response."
+    },
+    "average": {
+      "title": "Adequate Response",
+      "emoji": "📊",
+      "feedback": "You resolved the situation but missed several opportunities for de-escalation and rapport building. Review active listening techniques and mental health crisis indicators."
+    },
+    "poor": {
+      "title": "Needs Significant Improvement",
+      "emoji": "⚠️",
+      "feedback": "Your approach escalated tensions and missed critical mental health warning signs. Review de-escalation techniques, empathy in communication, and crisis intervention protocols. Remember: aggression breeds aggression."
+    }
+  },
+  "metrics": {
+    "rapport": {
+      "name": "Rapport & Trust",
+      "description": "Building trust through active listening and empathy",
+      "icon": "🤝"
+    },
+    "procedure": {
+      "name": "Procedure Adherence",
+      "description": "Following legal requirements and safety protocols",
+      "icon": "📋"
+    },
+    "emotional": {
+      "name": "Emotional Intelligence",
+      "description": "Managing stress and responding to emotions constructively",
+      "icon": "💚"
+    },
+    "safety": {
+      "name": "Situational Safety",
+      "description": "Maintaining physical and emotional safety for all",
+      "icon": "🛡️"
+    }
+  }
+}

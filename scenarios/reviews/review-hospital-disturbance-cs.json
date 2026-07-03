@@ -1,0 +1,806 @@
+{
+  "scenarioId": "hospital-disturbance",
+  "reviewVersion": "v1",
+  "title": "Hloubková analýza — Narušení pořádku v nemocnici",
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Výzva a chodba",
+      "criticalSkills": [
+        "Získání informací před zapojením",
+        "Koordinace s lékařským personálem před kontaktem s pacientem",
+        "Přiměřené posouzení bezpečnosti"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Zeptáte se strážníka ostrahy: „Hrozil někomu přímo ublížením? Je ozbrojen? Nabídl mu někdo tišení bolesti? A kdo je vedoucí sestra — rád bych s ní před vstupem krátce promluvil.“",
+          "strengths": [
+            "Získáváte klíčové taktické informace (zbraně, přímé hrozby) pro posouzení bezpečnosti",
+            "Dotaz na tišení bolesti ukazuje pochopení, že agresi v nemocnici pohánějí zdravotní faktory",
+            "Spojení s vedoucí sestrou nastoluje spolupráci zdravotnictví a policie od začátku",
+            "30 vteřin přípravy změní reaktivní zásah ve strategický"
+          ],
+          "consequences": "Vstupujete s jasným obrázkem: žádné zbraně, žádné přímé výhrůžky konkrétním lidem, tišení bolesti dosud neposkytnuto, vedoucí sestra vás očekává. Máte plán, ne jen přítomnost.",
+          "trainingFocus": "Jak třicet vteřin přípravy změní průběh dalších třiceti minut? Jaké informace jsou zásadní před kontaktem s nemocničním pacientem?"
+        },
+        "partially_positive": {
+          "choiceText": "Položíte strážníkovi ostrahy pár rychlých otázek — je Paul ozbrojen, přímo někomu vyhrožoval? Pak klidně vstoupíte a necháte strážníka v záloze.",
+          "adequate": [
+            "Dobrý instinkt zjistit základní bezpečnostní informace",
+            "Strážník ostrahy v záloze je takticky rozumné"
+          ],
+          "missed": [
+            "Žádná koordinace s lékařským personálem — chybí klinický kontext chování",
+            "Přístup jako k bezpečnostní situaci, zatímco jde především o zdravotní situaci s bezpečnostní dimenzí",
+            "Bez zdravotního kontextu můžete chování z bolesti číst jako agresi"
+          ],
+          "improvement": "V nemocničním prostředí — čí odbornost nejvíc pomůže pochopit, proč se pacient chová agresivně? Co vám koordinace s klinickým personálem dá, co ostraha nedokáže?",
+          "consequences": "Jste v bezpečí a rozumně informováni, ale chybí vám zdravotní kontext, který by pomohl pochopit Paulovo chování a efektivně spolupracovat s týmem péče."
+        },
+        "neutral": {
+          "choiceText": "Řeknete strážníkovi ostrahy, ať kvůli bezpečnosti vyklidí čekárnu od ostatních pacientů, pak se postavíte ke vchodu do triáže a zavoláte na Paula, že přijela policie.",
+          "adequate": [
+            "Bezpečnostní povědomí je přítomno",
+            "Vědomí, že ostatní pacienti mohou být ohroženi"
+          ],
+          "missed": [
+            "Evakuace čekárny kvůli pacientovi, který hodil stojan na časopisy, je nepřiměřená — vyvolá chaos a oddálí péči desítkám lidí",
+            "Oznámení příchodu policie z dálky je neosobní a vyvolá dojem možného zatčení",
+            "Paul uslyší ‚policie' dřív, než uvidí člověka"
+          ],
+          "improvement": "Jak posoudit přiměřenost při rozhodování o bezpečnostních opatřeních? Jaký je rozdíl mezi pacientem, který ve frustraci něco hodil, a aktivní hrozbou?",
+          "consequences": "Ostatní pacienti zpanikaří při evakuaci čekárny. Paul uslyší ‚Policie!' a adrenalín stoupne. Vnímá to jako možnou situaci zatčení."
+        },
+        "negative": {
+          "choiceText": "Poděkujete strážníkovi ostrahy a jdete rovnou dovnitř — bezpečí personálu je priorita a každou minutou, co Paul stojí u sesterské stanice bez přítomnosti policie, roste riziko. Zdravotní podrobnosti zjistíte od personálu, až situaci stabilizujete.",
+          "risks": [
+            "Zní to jako rozumný taktický přístup — upřednostnění bezpečí personálu a neprodlévání se zásahem",
+            "Narušení v nemocnici vyvolané bolestí a frustrací ale není scénář aktivní hrozby vyžadující okamžitý taktický vstup",
+            "Vstup bez znalosti zdravotního stavu, co bylo zkuseno a co personál potřebuje, znamená reaktivní, ne strategický přístup",
+            "Paul vidí strážníka, který na něj cílevědomě míří — může spustit reakci boj nebo útěk u někoho, kdo se bojí kriminalizace"
+          ],
+          "consequences": "Vstupujete bez kontextu o spouštěčích, zdravotních problémech nebo pokusech personálu. Paul vidí strážníka, který na něj míří. Interakce začíná z deficitu porozumění a důvěry.",
+          "trainingFocus": "Kdy naléhavost jednat rychle převáží nad hodnotou jednat efektivně? Jak rozlišíte skutečnou časovou naléhavost od předsudku naléhavosti?"
+        }
+      },
+      "keyLearningPoints": [
+        "Získání informací před zapojením není zpoždění — je to investice do lepšího výsledku",
+        "V nemocničním prostředí je koordinace s klinickým personálem stejně důležitá jako taktické posouzení",
+        "Pochopení zdravotních pohonů agrese (bolest, strach, medikace) zásadně mění váš přístup",
+        "Přiměřená reakce znamená sladit přípravu se skutečnou úrovní hrozby, ne s nejhorším možným scénářem"
+      ]
+    },
+    "2": {
+      "stageName": "První kontakt",
+      "criticalSkills": [
+        "Neohrožující řeč těla a postavení",
+        "Přímé řešení vyjádřených obav",
+        "Uznání bolesti jako hlavního hybatele chování"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Zůstanete klidní, ruce viditelné a uvolněné podél těla, udržujete asi dva metry odstupu. Mluvíte pomalu: „Paule, nejsem tady nikoho zatýkat. Vidím, že vás hodně bolí. Jmenuji se [jméno] a jsem tady pomoct to vyřešit. Můžete mi říct, co se děje?“",
+          "strengths": [
+            "Viditelné ruce signalizují, že nehrozíte — skryté ruce mohou evokovat zbraň",
+            "Dva metry respektují osobní prostor a zároveň vás drží v dosahu rozhovoru",
+            "Použití jména hned buduje osobní vztah",
+            "Pojmenování bolesti uznává jeho prožitek před čímkoli jiným",
+            "Popření záměru zatýkat reaguje na jeho výslovně vyjádřený strach",
+            "Otevřená otázka mu dává slovo — hodiny se snaží být vyslechnut",
+            "Pomalá řeč vede k tomu, že zpomalí i on — ověřená deeskalační technika"
+          ],
+          "consequences": "Paulův obranný postoj trochu povolí. Pořád je naštvaný, ale dostal prostor a pozvání být vyslechnut — což mu čtyři hodiny chybělo.",
+          "trainingFocus": "Proč je důležité, aby vaše řeč těla byla v souladu se slovy? Co se stane, když pacient vnímá nesoulad mezi slovním uklidněním a fyzickým napětím?"
+        },
+        "partially_positive": {
+          "choiceText": "Zvednete obě ruce v uklidňujícím gestu: „Hele, klid. Nikdo nikoho nezatýká. Potřebuju jen, abyste ustoupil od sesterské stanice, a můžeme si promluvit, co se děje.“",
+          "adequate": [
+            "Ujištění, že nedojde k zatčení, je na místě",
+            "Záměr deeskalovat je jasný"
+          ],
+          "missed": [
+            "‚Klid' může působit povýšeně na někoho v akutní tísni",
+            "Žádat ho o pohyb, než jste navázali jakýkoli vztah, působí jako příkaz, ne pozvání",
+            "Může vnímat ‚ustoupit' jako začátek fyzické kontroly",
+            "Žádné uznání bolesti — hlavního hybatele jeho chování"
+          ],
+          "improvement": "V jakém bodě interakce je vhodné činit fyzické požadavky a co musí nejdřív nastat? Jak uznání bolesti mění ochotu spolupracovat?",
+          "consequences": "Paul se nehne. Odpoví: „Neříkejte mi ustoupit — ustupuju už čtyři hodiny!“ Interakce začíná neúspěšnou žádostí, což oslabuje vaši pozici."
+        },
+        "neutral": {
+          "choiceText": "Přistoupíte v mírném úhlu, zastavíte se pár kroků od něj a řeknete klidným tónem: „Jsem strážník [jméno]. Chápu, že čekáte dlouho. Rád bych slyšel, co se stalo.“",
+          "adequate": [
+            "Dobrý úhel přístupu a klidný tón",
+            "Profesionální představení",
+            "Uznání čekání"
+          ],
+          "missed": [
+            "Neřeší „slona v místnosti“ — že byla přivolána policie",
+            "Paul výslovně vyjádřil strach ze zatčení a tato odpověď to neuznává",
+            "Skok rovnou na ‚co se stalo' bez uznání bolesti může působit jako vyšetřování, ne podpora",
+            "Nejistota o vaší roli vytváří bariéru pro opravdovou komunikaci"
+          ],
+          "improvement": "Když někdo výslovně řekne svůj strach, jaká je cena za to, že to neřešíte přímo? Jak nejistota o vašem účelu ovlivňuje ochotu pacienta spolupracovat?",
+          "consequences": "Paul odpovídá, ale je ostražitý. Neví, jestli jste tu pomoct, nebo ho odvést. Nejistota vytváří bariéru pro opravdovou komunikaci."
+        },
+        "negative": {
+          "choiceText": "Postavíte se mezi Paula a sestry, abyste chránil personál: „Pane, potřebuju, abyste ztišil hlas a ustoupil od pultu. Personál se snaží dělat svou práci.“",
+          "risks": [
+            "Fyzicky se vložit před jakoukoli slovní komunikací je konfrontační",
+            "‚Ztišit hlas' a ‚ustoupit' jsou příkazy, ne úvod do rozhovoru",
+            "Rámování kolem potřeb personálu ignoruje Paulovu zkušenost",
+            "Uslyší: ‚tvoje bolest nezáleží, jejich pohodlí ano'"
+          ],
+          "consequences": "Paul vás vnímá jako další autoritu, která ho odbývá. Jeho vztek se přesměruje z nemocnice na vás. Konfrontace eskaluje a šance na dialog je ztracena.",
+          "trainingFocus": "Jak chránit bezpečí personálu a přitom nevystupovat jako protivník pacienta? Mohou oba cíle koexistovat?"
+        }
+      },
+      "keyLearningPoints": [
+        "Řeč těla musí být v souladu se slovy — jinak pacient vnímá neupřímnost a může být ještě rozrušenější",
+        "Když někdo výslovně vyjádří strach (zatčení), je zásadní ho řešit přímo — ignorování strach potvrdí",
+        "Pojmenování bolesti pacienta před čímkoli jiným uznává jeho prožitek a otevírá dveře komunikaci",
+        "Fyzické požadavky (ustoupit, sednout, ztišit hlas) mají následovat po navázání vztahu, ne předcházet mu"
+      ]
+    },
+    "3": {
+      "stageName": "Příběh pacienta",
+      "criticalSkills": [
+        "Aktivní naslouchání a emoční validace",
+        "Rámování behaviorálních požadavků jako vlastního zájmu",
+        "Budování spojenectví konkrétními závazky"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Slyším vás a zní to opravdu děsivě — brnění navíc k bolesti je strašidelné. Čtyři hodiny jsou dlouhá doba, když tak trpíte. Promluvím s lékařským týmem o vaší situaci. Potřebuju ale, abyste mi pomohl pomoct vám — pokud udržíme věci v klidu, mám mnohem větší šanci upoutat jejich pozornost. Můžeme na tom spolupracovat?",
+          "strengths": [
+            "Uznává fyzické příznaky (brnění je děsivé) i emoční prožitek (čtyři hodiny jsou dlouhé)",
+            "Závazek promluvit s týmem je konkrétní a proveditelný, ne vágní",
+            "Rámování klidného chování jako pomoci jemu samému mu dává pocit moci a motivaci",
+            "‚Můžeme spolupracovat' z vás dělá spojence, ne autoritu",
+            "‚Pomozte mi pomoct vám' vytváří spolupráci, kde jeho součinnost slouží jeho zájmu"
+          ],
+          "consequences": "Paul přikývne. Poprvé někdo uznal jeho bolest i strach. Prosba zůstat v klidu teď má důvod — slouží jeho zájmu. Je ochoten spolupracovat, protože spolupráce dostala smysl.",
+          "trainingFocus": "Jak ovlivňuje motivaci ke spolupráci to, když behaviorální požadavek zarámujete jako vlastní zájem? Proč je ‚pomozte mi pomoct vám' účinnější než ‚uklidněte se'?"
+        },
+        "partially_positive": {
+          "choiceText": "Vidím, že vás hodně bolí a beru vážně, co říkáte o brnění. Teď hned najdu lékaře a zjistím, kde jste ve frontě. Zůstaňte tady — za pár minut jsem zpátky.",
+          "adequate": [
+            "Projevuje upřímnou empatii a aktivní podporu",
+            "Bere stížnost na brnění vážně",
+            "Nabízí konkrétní akci"
+          ],
+          "missed": [
+            "Odchod od pacienta hned po navázání kontaktu láme vztah, který jste právě vytvořili",
+            "‚Zůstaňte tady' je příkaz pro někoho, kdo ještě nesouhlasil, že vás bude poslouchat",
+            "Pokud lékaře rychle nenajdete, zpoždění bude další zlomený slib",
+            "Žádný mechanismus udržení klidu ve vaší nepřítomnosti"
+          ],
+          "improvement": "Jaké je riziko slibů závislých na spolupráci druhých? Jak udržet spojení, když musíte odejít?",
+          "consequences": "Paul čeká úzkostně. Pokud se vrátíte brzy s dobrou zprávou, funguje to. Pokud jste pryč déle než pár minut, důvěra zmizí a neklid se vrátí — horší než dřív."
+        },
+        "neutral": {
+          "choiceText": "To opravdu zní těžce, Paule. Pohotovost má dnes večer napilno a vím, že čekání je frustrující. Ale házení věcí a křik na sestry vás k vyšetření nedostane rychleji. Zkusme to řešit produktivněji.",
+          "adequate": [
+            "Uznává obtížnost",
+            "Používá jeho jméno"
+          ],
+          "missed": [
+            "Hned přechází od uznání ke kritice chování",
+            "‚Házení věcí a křik' mu připomíná nejhorší chvíle místo toho, abyste ho potkali tam, kde teď je",
+            "‚Produktivněji' je vágní a trochu povýšené",
+            "Neházel věcmi pro zábavu — házel jimi, protože se cítil neviditelný"
+          ],
+          "improvement": "Jaký je rozdíl mezi uznáním minulého chování a zabýváním se jím? Když už se někdo zklidnil, máte mu připomínat, co dělal v nejhorším?",
+          "consequences": "Paulova defenziva se vrací: „Nekřičel bych, kdyby mě byl někdo poslouchal od začátku!“ Ztratili jste chvíli otevřenosti a spustili koloběh ospravedlňování."
+        },
+        "negative": {
+          "choiceText": "Chápu, že jste frustrovaný, ale musím být upřímný — nejsem lékař a nemůžu změnit vaše místo ve frontě. Nemocnice má triážový systém, který upřednostňuje nejkritičtější případy. Jsem si jist, že personál dělá, co může.",
+          "risks": [
+            "Fakticky správné, ale emocionálně zničující",
+            "Paul nechtěl, abyste byl lékař — chtěl, aby někdo projevil zájem",
+            "Obhajoba triážového systému vás staví na stranu instituce, která ho podle něj zklamala",
+            "‚Personál dělá, co může' znevažuje jeho prožitou zkušenost, že ho ignorovali"
+          ],
+          "consequences": "Paulův výraz ztvrdne: „Takže vy jste taky na jejich straně. V celý budově nikoho nezajímám.“ Poslední most důvěry padá. Eskalace je teď velmi pravděpodobná.",
+          "trainingFocus": "Když někdo cítí, že ho systém zklamal, co se stane, když ten systém obhajujete? Jak uznat institucionální omezení a přitom nebýt obhájcem instituce?"
+        }
+      },
+      "keyLearningPoints": [
+        "Uznání fyzického i emočního prožitku vytváří základ pro behaviorální spolupráci",
+        "Behaviorální požadavky rámované jako vlastní zájem (‚pomozte mi pomoct vám') jsou mnohem účinnější než příkazy (‚uklidněte se')",
+        "Zabývání se minulým negativním chováním, když už se někdo zklidnil, situaci znovu eskaluje",
+        "Obhajoba systému, který podle někoho selhal, vás staví do role součásti problému"
+      ]
+    },
+    "4": {
+      "stageName": "Pohled sestry",
+      "criticalSkills": [
+        "Validace traumatu personálu bez opuštění pacienta",
+        "Obhajoba přehodnocení z klinických důvodů, ne behaviorálních",
+        "Respektování klinické autority při upozornění na relevantní informace"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Chápu — když po vás někdo hodí předmět, je to děsivé a máte plné právo se cítit v ohrožení. Nechci přepisovat vaše triážová rozhodnutí, to není moje role. Mluvil jsem ale s Paulem a může jít o zdravotní problém — popisuje brnění nohy spolu s bolestí zad. Mohla by vedoucí sestra udělat rychlé přehodnocení? Pokud se jeho příznaky od prvotní triáže změnily, mohlo by to odůvodnit změnu priority. Mezitím zůstanu nablízku a zajistím, aby bylo všem v bezpečí.",
+          "strengths": [
+            "Uznává strach sestry bez zlehčování — byla napadena na pracovišti",
+            "Výslovně respektuje triážový systém a její odbornou autoritu",
+            "Zmiňuje konkrétní příznaky (brnění nohy) jako využitelné lékařské informace",
+            "Odůvodňuje přehodnocení z klinických důvodů, ne jako odměnu za špatné chování",
+            "Závazek zůstat přímo řeší její obavu o bezpečí",
+            "Zachovává profesní integritu sestry a spravedlnost systému"
+          ],
+          "consequences": "Napětí sestry Collinsové klesne. Nikdo jí neříká, aby ustoupila — dostává klinický důvod k přehodnocení, což zachovává její profesní integritu a spravedlnost systému. Kontaktuje vedoucí sestru.",
+          "trainingFocus": "Jak hájit pacienta a přitom nepodrývat personál, který se cítí obětí toho pacienta? Jaký je rozdíl mezi klinickou obhajobou a odměňováním chování?"
+        },
+        "partially_positive": {
+          "choiceText": "Vím, že je to stresující. Pro teď se uklidnil a nemyslím, že je nebezpečný. Mohl by ho někdo zkontrolovat nebo mu aspoň říct, jak dlouho ještě bude čekat? Někdy stačí vědět, že na vás nikdo nezapomněl.",
+          "adequate": [
+            "Dobrý postřeh, že mezery v komunikaci vedou k agresi pacientů",
+            "Praktický návrh řešící příčinu",
+            "Chápe, že pocit zapomenutosti je hlavní spouštěč"
+          ],
+          "missed": [
+            "‚Nemyslím, že je nebezpečný' zlehčuje zkušenost sestry — po hlavě jí prolétl předmět",
+            "Žádat ji, aby pro toho, kdo ji vyděsil, dělala víc, aniž byste nejdřív plně uznali její prožitek, může působit necitlivě",
+            "Žádná validace jejího strachu před prosbami",
+            "Návrh sám dává smysl, ale přednes potřeboval víc empatie k sestře"
+          ],
+          "improvement": "Při mediaci mezi dvěma stranami — jak zajistíte, že plně uznáte prožitek obou, než začnete klást požadavky? Záleží na pořadí empatie a poté prosba?",
+          "consequences": "Sestra má pocit, že její strach neberete vážně. Možná neochotně vyhoví, ale roste zášť vůči strážníkovi."
+        },
+        "neutral": {
+          "choiceText": "Slyším vás a je mi líto, že k tomu došlo. To muselo být hrozné. Zajistím, že vás už nebude obtěžovat — pokud způsobí další problémy, odvedu ho z areálu.",
+          "adequate": [
+            "Silná empatie k sestře",
+            "Slib ochrany působí uklidňujícně"
+          ],
+          "missed": [
+            "Slib odvést pacienta s potenciálním závažným zdravotním stavem je eticky a právně problematický",
+            "Pokud Paulovo brnění naznačuje kompresi nervu, odvedení by mohlo způsobit vážnou újmu",
+            "Zcela jste se postavili na stranu personálu a opustili pacienta",
+            "Slib může kolidovat s Paulovými zdravotními potřebami"
+          ],
+          "improvement": "Můžete chránit personál a zároveň neopouštět zdravotní potřeby pacienta? Jak vyvážit závazky bezpečnosti a povinnosti péče?",
+          "consequences": "Sestra se cítí chráněná, ale dali jste slib, který může kolidovat s Paulovými zdravotními potřebami. Vážné právní důsledky, pokud se jeho stav po odvedení zhorší."
+        },
+        "negative": {
+          "choiceText": "Hele, chápu — neměl nic házet. Ale upřímně, čtyři hodiny bez jediné informace? Chápu, proč to nevydržel. Kdyby s ním někdo dřív mluvil, možná bychom tady teď nebyli.",
+          "risks": [
+            "Obviňuje sestru z pacientova násilí — je obětí napadení na pracovišti",
+            "Říkat jí, že je to částečně její vina, ničí vztah strážník–personál",
+            "Podkopává spolupráci potřebnou k vyřešení situace",
+            "Ostatní personál, který to slyší, vám přestane důvěřovat"
+          ],
+          "consequences": "Sestra Collinsová se uzavře. Nebude vám pomáhat s řešením. Ostatní personál vám přestane důvěřovat. Ztratili jste nejdůležitější spojence v budově.",
+          "trainingFocus": "I když systémové selhání situaci přispívá, je vhodné svalovat vinu na konkrétního člověka před vámi? Jaký je rozdíl mezi kritikou systému a osobní vinou?"
+        }
+      },
+      "keyLearningPoints": [
+        "Zdravotníci, kteří zažili násilí na pracovišti, si zaslouží plnou validaci před jakýmkoli dalším požadavkem",
+        "Obhajoba pacienta z klinických důvodů (změněné příznaky) zachovává integritu triáže — obhajoba z behaviorálních důvodů (je nejhlasitější) ji podkopává",
+        "Policie má respektovat a podporovat klinickou autoritu, ne ji přepisovat",
+        "Obviňování personálu v první linii ze systémových problémů ničí spolupráci potřebnou k vyřešení situace"
+      ]
+    },
+    "5": {
+      "stageName": "Příchod manželky",
+      "criticalSkills": [
+        "Zvládání nových stran vstupujících do deeskalace",
+        "Přeměna potenciálních komplikací na spojence",
+        "Kontrola rámování vyprávění"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Obrátíte se na Lauru klidně a uklidňujícně: „Vy musíte být Laura — Paul vás zmiňoval. Jsem strážník [jméno]. Paul nemá žádné problémy. Hodně ho bolí a měl těžké čekání. Mluvil jsem s ním i s personálem a pracujeme na tom, aby byl co nejdřív vyšetřen. Vaše přítomnost může hodně pomoct — teď potřebuje podporu.“",
+          "strengths": [
+            "Použití jejího jména (z Paulova dřívějšího rozhovoru) hned ukazuje, že jste informovaní a zapojení",
+            "‚Paul vás zmiňoval' nenápadně ukazuje, že jste ho poslouchali, ne jen řídili",
+            "Popření zatčení přímo reaguje na její strach",
+            "Rámování jejího příchodu jako pomoci jí dává konstruktivní roli",
+            "‚Potřebuje podporu' uznává její obavu i jeho utrpení",
+            "Nezabývá se negativním chováním — soustředí se na současnost a další krok"
+          ],
+          "consequences": "Laurin strach zmizí. Jde k Paulovi a vezme ho za ruku. Paul viditelně změkne — konečně je někdo na jeho straně a strážník to umožnil místo toho, aby to blokoval. Emoční teplota výrazně klesne.",
+          "trainingFocus": "Jak změní dynamiku to, když blízkého zapojíte jako spojence místo pouhého svědka? Jaké informace z dřívějších rozhovorů využít k okamžitému navázání vztahu s nově příchozími?"
+        },
+        "partially_positive": {
+          "choiceText": "Oslovíte oba: „Lauro, prosím neznepokojujte se. Paule, můžete manželce říct, o čem jsme mluvili? Myslím, že by měla vědět, že děláme pokroky a že to bude v pořádku.“",
+          "adequate": [
+            "Zahrnující přístup zahrnující obě strany",
+            "Optimistický tón",
+            "Dává Paulovi prostor vyprávět svůj příběh"
+          ],
+          "missed": [
+            "Svěřit Paulovi vedení vyprávění, když je pořád emočně nabitý, riskuje zkreslený výklad",
+            "‚Bude to v pořádku' je slib, který nemůžete zaručit",
+            "Nastavovat očekávání, která neovládáte, připravuje všechny na zklamání",
+            "Když slibované ‚pokroky' nepřijdou rychle, oba mají pocit, že jste lhali"
+          ],
+          "improvement": "Jak vzbudit důvěru bez slibů závislých na druhých? Kdy je lepší, abyste řídili vyprávění vy, a kdy nechat pacienta vyprávět jeho verzi?",
+          "consequences": "Paulův výklad se soustředí na křivdy. Laura se rozruší. Když slibované ‚pokroky' nepřijdou rychle, oba mají pocit, že jste lhali."
+        },
+        "neutral": {
+          "choiceText": "Necháte Paula, ať manželce situaci vysvětlí sám, a dáte jim chvíli soukromí — ustoupíte o pár metrů.",
+          "adequate": [
+            "Respektuje jejich vztah",
+            "Dává jim osobní prostor"
+          ],
+          "missed": [
+            "V Paulově současném emočním stavu jeho verze může posílit jeho pocit oběti a znovu roznítit vztek",
+            "Publikum (manželka) může znovu eskalovat jeho hněv skrze validaci",
+            "Ustoupit také znamená ztratit vliv v kritický okamžik",
+            "Společná frustrace dvou lidí je větší než u každého zvlášť"
+          ],
+          "improvement": "Kdy je dát prostor užitečné a kdy to umožní situaci znovu vyhrotit? Jak přidání soucitného publika změní emoční trajektorii?",
+          "consequences": "Paul si u Laury vylévá srdce, ona je čím dál víc naštvaná s ním. Jejich společná frustrace je větší než u každého zvlášť. Ztratili jste zklidňující vliv, který jste budovali."
+        },
+        "negative": {
+          "choiceText": "Přistoupíte k manželce a vysvětlíte: „Paní, váš manžel narušoval pořádek a byli jsme přivoláni zajistit bezpečnost všech. Není zatčen, ale házel předměty po personálu. Situaci řešíme.“",
+          "risks": [
+            "Popis Paula jako ‚narušujícího pořádek' je nejhorší možné rámování pro jeho manželku",
+            "Zdůraznění házení předmětů probudí ochranitelský instinkt nebo stud",
+            "‚Situaci řešíme' ji vylučuje z role",
+            "Z potenciální spojenkyně jste udělali komplikaci"
+          ],
+          "consequences": "Laura je buď v rozpacích a začne Paula kárat (eskalace jeho ponížení), nebo se ho zastane. Tak či tak z potenciální spojenkyně komplikace.",
+          "trainingFocus": "Jak to, jak popíšete chování někomu blízkému, ovlivní to, co přijde potom? Jaké rámování slouží řešení a jaké hlášení?"
+        }
+      },
+      "keyLearningPoints": [
+        "Členové rodiny přicházející v krizi mohou být vaší největší oporou nebo největší komplikací — vaše rámování rozhodne, čím budou",
+        "Použití informací z dřívějších rozhovorů (jména, vztahy) buduje okamžitý vztah s nově příchozími",
+        "Kontrola vyprávění neznamená lhát — znamená volit, které pravdy slouží řešení",
+        "Sliby, které nemůžete osobně zaručit (‚bude to v pořádku'), vytvářejí odpovědnost a narušují důvěru, když realita nesedí"
+      ]
+    },
+    "6": {
+      "stageName": "Zlomový bod",
+      "criticalSkills": [
+        "Vymáhání fyzických hranic bez konfrontace",
+        "Rámování důsledků jako sebepoškozujících, ne trestajících",
+        "Použití konkrétních časových závazků k získání prostoru"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Klidně se postavíte mezi Paula a dveře ošetřovny — neblokujete ho, ale jste přítomni: „Paule, vím, že je to nesnesitelné. Slíbil jsem, že pomůžu, a myslel jsem to vážně. Když tam půjdete, vytvoříte nový problém, který vás od doktora oddálí, ne přiblíží. Dejte mi pět minut — jdu teď najít vedoucí sestru. Lauro, zůstanete s ním?“",
+          "strengths": [
+            "Postavení vytváří přirozenou pauzu bez konfrontace — přítomnost, ne blokování",
+            "Uznání bolesti jako ‚nesnesitelné' validuje eskalaci místo zlehčování",
+            "Důsledek rámovaný jako sebepoškozující (dál od doktora) místo trestní (zadržím vás)",
+            "Odkaz na dřívější slib ukazuje konzistenci a spolehlivost",
+            "Závazek na pět minut je konkrétní a časově ohraničený — vytváří odpovědnost",
+            "Dát Lauře aktivní roli z ní dělá zklidňující vliv"
+          ],
+          "consequences": "Paul váhá. Kombinace uznání, konkrétního časového rámce a manželčiny ruky na jeho paži vytvoří dost tření, aby zastavila pohyb vpřed. Znovu si sedne a počítá minuty.",
+          "trainingFocus": "Jak vytvoření konkrétního časového rámce vytváří odpovědnost a zároveň získá čas? Proč je ‚tím se od doktora vzdálíte, ne přiblížíte' účinnější než ‚budu vás muset zastavit'?"
+        },
+        "partially_positive": {
+          "choiceText": "Klidně řeknete: „Paule, chápu. Ale vstup do ošetřovny bez povolení může být považován za neoprávněné vniknutí a z lékařské návštěvy by se stala právní záležitost. Nechci to pro vás.“",
+          "adequate": [
+            "Fakticky správné právní rámování",
+            "Upřímně starostlivý tón",
+            "‚Nechci to pro vás' ukazuje osobní zájem"
+          ],
+          "missed": [
+            "Právní terminologie (‚neoprávněné vniknutí', ‚právní záležitost') posouvá interakci ze zdravotní péče do trestní justice",
+            "To je přesně to, čeho se Paul bál od chvíle, kdy viděl vaši uniformu",
+            "I s dobrým úmyslem mění právní jazyk vnímanou roli z pomocníka na vykonavatele",
+            "Žádná konkrétní alternativa — říká, co nedělat, ale ne co se stane místo toho"
+          ],
+          "improvement": "Jak mění právní jazyk vnímání vaší role, i když je podán s dobrým úmyslem? Jaký je rozdíl mezi právním varováním a praktickým důsledkem?",
+          "consequences": "Paul se zarazí, ale důvěra ve vás utrpí. Teď vás vnímá především jako policistu a až pak jako pomocníka. Sedne si, ale dobrá vůle z dřívějška je poškozená."
+        },
+        "neutral": {
+          "choiceText": "Obrátíte se na Lauru: „Lauro, pomůžete mi? Můžete s Paulem promluvit a zkusit ho uklidnit, zatímco já najdu někoho z lékařského týmu?“",
+          "adequate": [
+            "Zapojit Lauru je chytré",
+            "Uznává potřebu najít lékařský personál"
+          ],
+          "missed": [
+            "Nechat celou deeskalaci na vyděšené manželce je nespravedlivé — nemá autoritu ani výcvik",
+            "Když ji Paul neposlechne, nemá jak ho zastavit",
+            "Nejste přítomni pro zásah, pokud situace eskaluje",
+            "Opustit místo v okamžiku nejvyššího napětí je riskantní"
+          ],
+          "improvement": "Kdy je delegace vhodná a kdy je to zbavení se odpovědnosti? Jaké zdroje má člen rodiny — a jaké nemá — oproti strážníkovi?",
+          "consequences": "Laura to zkusí, ale Paul ji odstrčí: „Ty taky nezačínej!“ Je zraněná a přetížená. Paul dojde ke dveřím ošetřovny. Ztratili jste kontrolu nad situací na dálku."
+        },
+        "negative": {
+          "choiceText": "Vstoupíte mu do cesty a nastavíte jasnou hranici: „Paule, chápu frustraci, ale musím chránit bezpečí všech — včetně vašeho. Pokud vstoupíte do ošetřovny bez povolení, stane se z toho bezpečnostní incident, který budu muset zdokumentovat a nahlásit. To vás zařadí do systému jako problémového pacienta a bude vás to provázet. Nechte mě to vyřešit správně.“",
+          "risks": [
+            "Zní rozvážně a dokonce starostlivě — varování rámováno jako ochrana Paula před institucionálními důsledky",
+            "Zavedení dokumentace, ‚systému' a nálepky ‚problémový pacient' v okamžiku nejvyšší tísně ale proměňuje obhájce v byrokratickou hrozbu",
+            "Přesné informace o důsledcích podané v nejhorší chvíli využívají zranitelnost místo podpory",
+            "Veškerý vztah budovaný během interakce je nahrazen souhlasem vynuceným strachem z institucionální odvety"
+          ],
+          "consequences": "Paul couvne, ale ne z důvěry — ze strachu z institucionální odvety. Laura přihlíží, jak je její manžel varován před ‚systémem', zatímco se svíjí bolestí. Emoční škody jsou neviditelné, ale trvalé.",
+          "trainingFocus": "Když jsou přesné informace o důsledcích podány v nejhorší možnou chvíli, slouží tomu člověku, nebo ho kontrolují? Jak institucionální jazyk mění vztah?"
+        }
+      },
+      "keyLearningPoints": [
+        "Fyzická pozice (přítomnost bez blokování) vytváří přirozené pauzy bez konfrontace",
+        "Důsledky rámované jako ‚tím se vzdálíte od toho, co chcete' jsou účinnější než hrozby trestem",
+        "Konkrétní časové závazky (‚pět minut') vytvářejí konkrétní odpovědnost a ukazují spolehlivost",
+        "Nechat celou deeskalaci na nevyškolených členech rodiny v okamžiku nejvyššího napětí je riskantní — zůstaňte přítomni a zapojení"
+      ]
+    },
+    "7": {
+      "stageName": "Řešení a péče",
+      "criticalSkills": [
+        "Přechod z režimu krize na spolupracujícího pacienta",
+        "Potvrzení prožitku pacienta jako součást řešení",
+        "Obnovení pocitu moci malými volbami"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Dobré zprávy, Paule — vedoucí sestra vás teď chce prohlédnout a podívat se blíž na to s vašimi zády a tím brněním. Vím, že byl dnešek hrozný a vím, že jste bojoval, aby vás někdo slyšel. Byl jste slyšen. Tohle je další krok. Potřebujete před tím něco — vodu, chvíli se nadechnout?",
+          "strengths": [
+            "Rámuje přehodnocení jako přímý důsledek jeho úsilí o vyslechnutí, ne odměnu za uklidnění",
+            "‚Byl jste slyšen' je pro někoho, kdo hodiny cítil, že je neviditelný, jedna z nejsilnějších vět",
+            "Nabídka voleb (voda, chvíle) vrací pocit moci a signalizuje respekt",
+            "Přechod od strážníkem zprostředkovaného ke vedení sestry je plynulý a podporující spolupráci",
+            "Uznání, že ‚dnešek byl hrozný' validuje celou zkušenost, ne jen konec",
+            "Krize je vyřešena, protože potřeba byla naplněna, ne protože chování bylo potlačeno"
+          ],
+          "consequences": "Paul se nadechne. Poprvé po hodinách mu klesnou ramena. Přikývne. Laura mu stiskne ruku. Sestra začíná vyšetření se spolupracujícím pacientem. Krize je u konce — ne proto, že byla potlačena, ale protože byla vyřešena.",
+          "trainingFocus": "Jak uznání něčího prožitku vytváří emoční prostor pro spolupráci? Proč má ‚byl jste slyšen' takovou sílu pro někoho, kdo se cítil neviditelný?"
+        },
+        "partially_positive": {
+          "choiceText": "Paule, sestra je na vás připravená. Prosím plně spolupracujte — na to jste čekal. Ať odteď všechno proběhne hladce.",
+          "adequate": [
+            "Jasné a podpůrné",
+            "Perspektivní",
+            "Povzbuzuje spolupráci"
+          ],
+          "missed": [
+            "‚Plně spolupracujte' zní jako direktiva, ne pozvání",
+            "‚Na to jste čekal' je trochu transakční — jako by vyšetření bylo podmíněně uděleno",
+            "Neuznává obtížnost toho, čím prošel",
+            "Emoční rána ze zážitku není řešena"
+          ],
+          "improvement": "Jaký je rozdíl mezi dosažením spolupráce a dosažením skutečného vyřešení? Jak poslední okamžik interakce ovlivní celou vzpomínku na ni?",
+          "consequences": "Paul vyhoví, ale cítí se řízen, ne respektován. Bude to vyprávět jako ‚ignorovali mě, dokud jsem se nerozpadl' — ne ‚strážník mi pomohl dostat péči'."
+        },
+        "neutral": {
+          "choiceText": "Oslovíte Paula i Lauru: „Lékařský tým vás teď důkladněji prohlédne. Já ustoupím a nechám vás v soukromí. Kdybyste něco potřebovali, budu hned za dveřmi.“",
+          "adequate": [
+            "Zdvořilé a respektující",
+            "Nabízí další dostupnost"
+          ],
+          "missed": [
+            "Úplně přeskočí emoční přechod",
+            "Paul potřebuje uznání, že jeho prožitek záležel, ne jen fyzické vyšetření",
+            "Odejít bez tohoto mostu nechává emoční oblouk nedokončený",
+            "Neřeší prosbu vedoucí sestry o pomoc s jeho součinností"
+          ],
+          "improvement": "Končí vaše práce, když skončí bezprostřední krize, nebo když je člověk opravdu připraven na to, co přijde? Jak vypadá emoční uzavření v deeskalaci?",
+          "consequences": "Sestra začne, ale Paul je pořád emočně rozladěný. Během vyšetření je podrážděný, což je ztěžuje a znesnadňuje důkladnost. Tým by si přál, abyste ho víc připravili."
+        },
+        "negative": {
+          "choiceText": "Informujete Paula o tom, co se očekává: „Dobře, Paule, vedoucí sestra je tu pro vás — to je dobrá zpráva. Potřebuju ale nastavit očekávání: prosím plně spolupracujte s vyšetřením, řiďte se jejími pokyny a udržte klid. Ve svém hlášení poznamenám, že se to vyřešilo bez incidentu, což vám uchová čistý záznam. Domluveno?“",
+          "risks": [
+            "Zní profesionálně a dokonce podpůrně — rámování spolupráce jako přínosu pro Paulův záznam",
+            "‚Poznamenám ve svém hlášení' a ‚uchová vám čistý záznam' ale vnášejí transakční, kvazilegalní rámování v okamžiku, kdy Paul nejvíc potřebuje lidský přístup",
+            "Naznačuje, že lékařská péče je podmíněna dobrým chováním a že jste celou dobu počítali body",
+            "‚Domluveno?' vyžaduje souhlas s podmínkami, ne pozvání k úlevě a uzdravení"
+          ],
+          "consequences": "Paul vyhoví, ale poslední dojem je strážník, který řídí spis, ne člověk, kterému záleží. Bude to vyprávět jako ‚jednali se mnou jako s podezřelým, i když mě vyšetřovali'. Vedoucí sestra začíná vyšetření s pacientem, který je ostražitý a transakční, místo uvolněného a spolupracujícího.",
+          "trainingFocus": "Když chvíle volá po lidské vřelosti, jaká je cena automatického přechodu na profesionální proceduru? Jak poslední interakce ovlivní celou vzpomínku?"
+        }
+      },
+      "keyLearningPoints": [
+        "‚Byl jste slyšen' je jedna z nejsilnějších deeskalačních vět pro někoho, kdo se cítil neviditelný",
+        "Nabídka malých voleb (voda, chvíle) v okamžiku řešení vrací důstojnost a pocit moci",
+        "Poslední okamžik interakce nepřiměřeně utváří celou vzpomínku — končete potvrzením, ne hrozbou",
+        "Skutečné řešení znamená, že podkladová potřeba byla naplněna, ne že chování bylo potlačeno do souhlasu"
+      ]
+    },
+    "8": {
+      "stageName": "Vyhodnocení a odhalení",
+      "criticalSkills": [
+        "Reflexe",
+        "Propojení voleb s výsledky",
+        "Upevnění spolupráce zdravotníci–policie"
+      ],
+      "choiceAnalysis": {
+        "positive": {},
+        "partially_positive": {},
+        "neutral": {},
+        "negative": {}
+      },
+      "keyLearningPoints": [
+        "Využijte vyhodnocení k upevnění toho, co fungovalo: koordinace s personálem, řešení bolesti a strachu, přiměřená bezpečnostní opatření.",
+        "Zamyslete se, jak lékařský kontext (bolest, medikace, triáž) utvářel situaci; agrese v nemocnici je často řízena zdravotním kontextem."
+      ]
+    }
+  },
+  "comprehensiveMetrics": {
+    "healthcarePoliceCollaboration": {
+      "description": "Efektivní spolupráce s lékařským personálem bez přepisování jejich klinické autority nebo opuštění vaší bezpečnostní role",
+      "indicators": {
+        "excellent": [
+          "Koordinace před zásahem s vedoucí sestrou nebo klinickým personálem",
+          "Obhajoba přehodnocení na klinických základech, ne behaviorálních",
+          "Respektování triážových rozhodnutí při upozorňování na relevantní změny příznaků",
+          "Udržování bezpečnostní přítomnosti bez narušení lékařské péče"
+        ],
+        "poor": [
+          "Přepisování klinických rozhodnutí na základě chování pacienta",
+          "Obviňování personálu za systémové problémy jako čekací doby nebo nedostatek lidí",
+          "Řešení situace jako čistě bezpečnostní záležitosti bez lékařského kontextu",
+          "Slibování odvedení pacienta bez zvážení lékařských dopadů"
+        ]
+      }
+    },
+    "patientEmpathy": {
+      "description": "Rozpoznávání a reakce na bolest, strach a frustraci jako hybatele agrese místo léčby chování jako kriminálního",
+      "indicators": {
+        "excellent": [
+          "Přímé pojmenování a uznání bolesti a strachu pacienta",
+          "Pochopení, že agrese v nemocnicích obvykle vyjadřuje tíseň nebo nenaplněnou potřebu",
+          "Přímé a okamžité řešení vyjádřených obav (zatčení)",
+          "Potvrzení prožitku pacienta v okamžiku řešení (‚byl jste slyšen')"
+        ],
+        "poor": [
+          "Léčba agrese vyvolané bolestí jako kriminálního chování",
+          "Ignorování nebo zlehčování vyjádřeného prožitku pacienta",
+          "Obhajoba systému, který pacient vnímá jako selhávající",
+          "Rámování lékařské péče jako odměny za dobré chování místo práva"
+        ]
+      }
+    },
+    "situationalSafety": {
+      "description": "Udržování fyzické bezpečnosti pro personál, pacienta a ostatní při vyhýbání se nepřiměřeným reakcím",
+      "indicators": {
+        "excellent": [
+          "Přiměřená bezpečnostní opatření odpovídající skutečné úrovni hrozby",
+          "Viditelné ruce, vhodná vzdálenost, šikmé postavení",
+          "Fyzická přítomnost (bez blokování) pro vytvoření přirozených pauz",
+          "Použití mezikroků před eskalací k vymáhání"
+        ],
+        "poor": [
+          "Nepřiměřené reakce (evakuace čekárny kvůli hozenému stojanu na časopisy)",
+          "Skok od slovního varování k hrozbě zadržení bez mezikroků",
+          "Fyzické vložení se před jakýmkoli slovním zapojením",
+          "Opuštění místa v okamžiku nejvyššího napětí"
+        ]
+      }
+    },
+    "communicationEffectiveness": {
+      "description": "Používání vhodného jazyka, tónu a řeči těla; vyhýbání se kontraproduktivním formulacím a chování",
+      "indicators": {
+        "excellent": [
+          "Řeč těla v souladu se slovním sdělením",
+          "Pomalá řeč pro povzbuzení sladění tempa",
+          "Důsledné používání jmen pro budování vztahu",
+          "Otevřené otázky zvoucí pacienta k vyslechnutí"
+        ],
+        "poor": [
+          "Příkazy před navázáním vztahu (‚ustupte', ‚ztište hlas', ‚sedněte si')",
+          "Povýšený jazyk (‚klid', ‚chovejte se')",
+          "Právní terminologie měnící vnímání z pomocníka na vykonavatele",
+          "Připomínání nejhoršího chování poté, co se někdo uklidnil"
+        ]
+      }
+    },
+    "outcomeFocusedResolution": {
+      "description": "Směřování k udržitelnému řešení, kde je podkladová potřeba naplněna, místo dočasného potlačení chování",
+      "indicators": {
+        "excellent": [
+          "Rámování behaviorálních požadavků jako sloužících zájmu pacienta",
+          "Vytváření konkrétních, časově ohraničených závazků a jejich plnění",
+          "Zapojování členů rodiny jako konstruktivních spojenců",
+          "Zajištění emočního uzavření spolu s praktickým řešením"
+        ],
+        "poor": [
+          "Dosažení souhlasu hrozbami nebo ponížením",
+          "Slibování závislé na spolupráci druhých",
+          "Ukončení interakcí hrozbami nebo podmíněnými ultimáty",
+          "Léčba krize jako ukončené, když je chování potlačeno, ne když jsou naplněny potřeby"
+        ]
+      }
+    }
+  },
+  "mistakePatterns": {
+    "securityMindset": {
+      "pattern": "Řešení zdravotní situace jako primárně bezpečnostního problému",
+      "examples": [
+        "Spěchání dovnitř bez lékařského kontextu nebo koordinace s personálem",
+        "Fyzické vložení se před slovním zapojením",
+        "Evakuace prostorů nepřiměřená skutečné hrozbě",
+        "Rámování pacienta jako podezřelého místo někoho v tísni"
+      ],
+      "impact": "Potvrzuje strach pacienta, že přítomnost policie znamená kriminalizaci jeho utrpení. Eskaluje místo řešení. Podkopává spolupráci zdravotníci–policie.",
+      "correction": "Přerámujte: toto je zdravotní situace s bezpečnostními rozměry, ne bezpečnostní situace, která se náhodou odehrává v nemocnici. Nejprve koordinujte s lékařským personálem. Pochopte klinický obraz před zapojením."
+    },
+    "prematureCommands": {
+      "pattern": "Vydávání fyzických příkazů před navázáním vztahu",
+      "examples": [
+        "‚Ustupte od pultu'",
+        "‚Ztište hlas'",
+        "‚Sedněte si'",
+        "‚Zůstaňte přesně tady'"
+      ],
+      "impact": "Neúspěšné žádosti oslabují vaši pozici. Pacient, který odmítne vaši první direktivu, je nyní v otevřené nesoučinnosti, což zužuje vaše možnosti. Vztah musí předcházet požadavkům.",
+      "correction": "Nejprve budujte vztah: představení, použití jména, uznání bolesti, řešení strachu. Žádejte fyzickou součinnost až poté, co pacient projevil ochotu zapojit se slovně."
+    },
+    "systemDefense": {
+      "pattern": "Obhajoba instituce, kterou pacient vnímá jako selhávající",
+      "examples": [
+        "‚Jsem si jist, že personál dělá, co může'",
+        "‚Triážový systém upřednostňuje nejkritičtější případy'",
+        "‚Pohotovost má dnes večer napilno'",
+        "‚Nejsem lékař a nemůžu změnit vaše místo ve frontě'"
+      ],
+      "impact": "Staví vás do role součásti systému, proti kterému pacient bojuje. Poslední most důvěry padá. Pacient dojde k závěru, že nikdo — ani nemocnice, ani policie — není na jeho straně.",
+      "correction": "Nemusíte systém kritizovat ani souhlasit, že selhal. Místo toho uznávejte prožitek pacienta bez obhajoby nebo obviňování: ‚Slyším vás — čtyři hodiny v takové bolesti je hodně. Uvidím, co mohu udělat.'"
+    },
+    "staffBlaming": {
+      "pattern": "Svalování viny na personál v první linii za systémové problémy",
+      "examples": [
+        "‚Kdyby s ním někdo dřív mluvil, možná bychom tady teď nebyli'",
+        "Naznačování, že komunikační selhání sestry způsobilo agresi",
+        "Zlehčování strachu sestry (‚nemyslím, že je nebezpečný')",
+        "Neuznání napadení na pracovišti před kladením požadavků"
+      ],
+      "impact": "Ničí vztah strážník–personál. Zdravotníci, kteří se cítí obviňováni, nebudou spolupracovat. Ostatní personál, který to zaslechne, ztratí důvěru v policejní přítomnost. Ztratíte své nejdůležitější spojence.",
+      "correction": "Vždy nejprve a plně uznejte prožitek člena personálu. Oddělte systémovou kritiku (která může být oprávněná) od osobní viny (která je destruktivní). Zeptejte se ‚co by pomohlo?' před navrhováním akcí."
+    },
+    "threatEscalation": {
+      "pattern": "Skok k maximálnímu vymáhacímu jazyku bez mezikroků",
+      "examples": [
+        "‚Stane se z toho bezpečnostní incident, který budu muset zdokumentovat a nahlásit'",
+        "‚To vás zařadí do systému jako problémového pacienta'",
+        "‚Ve svém hlášení poznamenám — uchová vám to čistý záznam'",
+        "‚Z lékařské návštěvy by se stala právní záležitost'"
+      ],
+      "impact": "Potvrzuje nejhorší strach pacienta z přítomnosti policie. Demoluje vztah budovaný během celé interakce. Vytváří binární volbu (podřídit se nebo bojovat), když existují mezikroky. Poslední vzpomínkou na interakci je hrozba.",
+      "correction": "Používejte postupnou reakci: uznejte eskalaci, validujte podkladovou potřebu, rámujte důsledky jako sebepoškozující místo trestní, nabízejte konkrétní alternativy s konkrétními termíny a rezervujte vymáhací jazyk pro skutečné bezpečnostní hrozby."
+    }
+  },
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Výjimečný výkon. Prokázali jste zlatý standard pro reakci na narušení v nemocnici: sběr lékařského kontextu před zapojením, uznání bolesti a strachu pacienta, spolupráce s lékařským personálem bez přepisování klinické autority, přeměna člena rodiny v konstruktivního spojence a vyřešení krize naplněním podkladové potřeby místo potlačení chování. Paulův dopis, ve kterém vás ocenil, odráží realitu — když je někdo v bolesti konečně vyslyšen, pamatuje si, kdo naslouchal.",
+      "mostlyPositive": "Silný celkový výkon s dobrou spoluprácí zdravotníci–policie a upřímnou empatií k pacientovi. Udrželi jste bezpečí a přistupovali k pacientovu utrpení jako k reálnému a platnému. Klíčová přednost: [SPECIFIC_STRENGTH]. Oblast k rozvoji: [SPECIFIC_IMPROVEMENT]. Váš přístup pomohl vytvořit podmínky pro péči místo podmínek pro konfrontaci.",
+      "mixed": "Některé aspekty jste zvládli dobře, ale promarnili jste zásadní příležitosti k navázání spojení nebo spolupráci. Přednosti zahrnovaly [SPECIFIC_STRENGTHS]. Nicméně [SPECIFIC_WEAKNESSES] vyžadují pozornost. Narušení v nemocnici vyžadují současné řízení utrpení pacienta, bezpečí personálu a klinické spolupráce. Projděte [TRAINING_AREAS] pro posílení oblastí, kde vaše reakce zaostávala.",
+      "mostlyNegative": "Tento scénář odhalil významné mezery v dovednostech deeskalace ve zdravotnictví. Zatímco jste [MINOR_POSITIVE], většina voleb buď řešila pacienta jako bezpečnostní hrozbu, podkopávala spolupráci s lékařským personálem, nebo používala vymáhací jazyk potvrzující strach pacienta z kriminalizace. Konkrétně [MAJOR_FAILURES]. Okamžitě doporučené školení v: [CRITICAL_TRAINING].",
+      "allNegative": "Váš přístup řešil toto zcela jako bezpečnostní problém ve zdravotnickém prostředí. Oprávněné lékařské potřeby pacienta byly druhotné vůči kontrole chování, spolupráce s lékařským personálem chyběla a vymáhací jazyk byl použit tam, kde byla potřeba deeskalace. Povinné nápravné školení vyžadováno v: spolupráci zdravotníci–policie, rozpoznávání agrese vyvolané bolestí, postupné reakci a deeskalaci založené na empatii. Pamatujte: přes 75 % napadení na pracovišti se odehrává ve zdravotnických zařízeních — kvalita policejní reakce přímo určuje, zda toto číslo roste nebo klesá."
+    }
+  },
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "Nabídl mu někdo tišení bolesti? A kdo je vedoucí sestra — rád bych s ní před vstupem krátce promluvil.",
+      "Paule, nejsem tady nikoho zatýkat. Vidím, že vás hodně bolí.",
+      "Slyším vás a zní to opravdu děsivě — brnění navíc k bolesti je strašidelné.",
+      "Potřebuju, abyste mi pomohl pomoct vám — pokud udržíme věci v klidu, mám mnohem větší šanci upoutat jejich pozornost.",
+      "Nechci přepisovat vaše triážová rozhodnutí, to není moje role. Popisuje ale brnění nohy spolu s bolestí zad.",
+      "Vy musíte být Laura — Paul vás zmiňoval.",
+      "Když tam půjdete, vytvoříte nový problém, který vás od doktora oddálí, ne přiblíží. Dejte mi pět minut.",
+      "Vím, že jste bojoval, aby vás někdo slyšel. Byl jste slyšen."
+    ],
+    "poorPhrases": [
+      "Pane, potřebuju, abyste ztišil hlas a ustoupil od pultu.",
+      "Házení věcí a křik na sestry vás k vyšetření nedostane rychleji.",
+      "Nejsem lékař a nemůžu změnit vaše místo ve frontě. Jsem si jist, že personál dělá, co může.",
+      "Kdyby s ním někdo dřív mluvil, možná bychom tady teď nebyli.",
+      "Paní, váš manžel narušoval pořádek a byli jsme přivoláni zajistit bezpečnost všech.",
+      "Pokud vstoupíte do ošetřovny bez povolení, stane se z toho bezpečnostní incident, který budu muset zdokumentovat a nahlásit. To vás zařadí do systému jako problémového pacienta.",
+      "Ve svém hlášení poznamenám, že se to vyřešilo bez incidentu, což vám uchová čistý záznam."
+    ],
+    "analysisCriteria": {
+      "empathy": "Uznala fráze bolest, strach nebo frustraci před řešením chování?",
+      "collaboration": "Podpořila fráze týmovou práci zdravotníci–policie bez přepisování klinické autority?",
+      "framing": "Rámovala fráze důsledky jako sebepoškozující místo trestní?",
+      "congruence": "Bylo slovní sdělení v souladu s popsanou řečí těla a postavením?",
+      "resolution": "Posunula fráze situaci k udržitelnému řešení nebo jen dočasnému souhlasu?",
+      "dignity": "Zachovala fráze důstojnost pacienta a profesní autoritu personálu?"
+    }
+  },
+  "scenarioSpecificLessons": {
+    "1": "30 vteřin získávání informací před zásahem — včetně koordinace s lékařským personálem — proměňuje reaktivní reakci ve strategickou",
+    "2": "Když někdo výslovně vyjádří strach (zatčení), jeho přímé a okamžité řešení je zásadní — ignorování strach potvrdí",
+    "3": "Behaviorální požadavky rámované jako vlastní zájem (‚pomozte mi pomoct vám') jsou mnohem účinnější než příkazy (‚uklidněte se') nebo kritika (‚neměl jste házet věci')",
+    "4": "Zdravotníci, kteří zažili násilí na pracovišti, si zaslouží plnou validaci před jakýmkoli dalším požadavkem — a obhajoba pacienta by měla být z klinických důvodů, ne behaviorálních",
+    "5": "Členové rodiny přicházející v krizi mohou být vaší největší oporou nebo největší komplikací — vaše rámování situace rozhodne, čím budou",
+    "6": "Důsledky rámované jako sebepoškozující (‚tím se vzdálíte od toho, co chcete') jsou účinnější než hrozby vymáháním — a konkrétní časové závazky budují důvěru",
+    "7": "Poslední okamžik interakce nepřiměřeně utváří celou vzpomínku — ‚byl jste slyšen' vytváří trvalý pozitivní dopad, zatímco ‚chovejte se, nebo...' vytváří trvalé poškození"
+  },
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Pokročilé protokoly spolupráce zdravotníci–policie",
+        "Školení dalších v deeskalaci v nemocnici",
+        "Vedení týmu krizové intervence (CIT) ve zdravotnických zařízeních"
+      ],
+      "good": [
+        "Rozšířená deeskalace ve zdravotnických prostředích",
+        "Pochopení agrese vyvolané bolestí a lékařských příčin neklidu",
+        "Mediace více stran v institucionálních prostředích"
+      ],
+      "average": [
+        "Základní protokoly reakce na narušení v nemocnici",
+        "Aktivní naslouchání a emoční validace pro pacienty v krizi",
+        "Postupná reakce a hodnocení přiměřenosti"
+      ],
+      "poor": [
+        "Povinné školení spolupráce zdravotníci–policie",
+        "Workshop bolesti a strachu jako hybatelů agrese",
+        "Deeskalace založená na empatii v lékařských prostředích",
+        "Přiměřená reakce a postupné vymáhání"
+      ]
+    }
+  },
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Celkové shrnutí výkonu",
+        "content": [
+          "Skóre",
+          "Úroveň výkonu",
+          "Klíčové přednosti",
+          "Zásadní slabiny"
+        ]
+      },
+      {
+        "title": "Analýza po etapách",
+        "content": [
+          "Volba v každé etapě",
+          "Dopad na pacienta, personál a rodinu",
+          "Alternativní přístupy a jejich důsledky",
+          "Klíčové body k zapamatování"
+        ]
+      },
+      {
+        "title": "Hodnocení spolupráce zdravotníci–policie",
+        "content": [
+          "Kvalita koordinace před zásahem",
+          "Respekt ke klinické autoritě",
+          "Přístup k obhajobě (klinické vs. behaviorální důvody)",
+          "Řízení vztahů s personálem"
+        ]
+      },
+      {
+        "title": "Hodnocení empatie k pacientovi",
+        "content": [
+          "Rozpoznání bolesti a strachu",
+          "Kvalita emoční validace",
+          "Řešení obav (strach ze zatčení)",
+          "Rámování řešení (potřeba naplněna vs. chování potlačeno)"
+        ]
+      },
+      {
+        "title": "Účinnost komunikace",
+        "content": [
+          "Nejlepší momenty dialogu",
+          "Použité kontraproduktivní formulace",
+          "Soulad řeči těla",
+          "Volby rámování vyprávění"
+        ]
+      },
+      {
+        "title": "Analýza vzorců",
+        "content": [
+          "Konzistentní přednosti napříč etapami",
+          "Opakující se chyby",
+          "Trendy v rozhodování (bezpečnostní vs. spolupracující nastavení)"
+        ]
+      },
+      {
+        "title": "Profesní rozvoj",
+        "content": [
+          "Okamžité vzdělávací potřeby",
+          "Dlouhodobé priority rozvoje dovedností",
+          "Doporučené zdroje a workshopy"
+        ]
+      },
+      {
+        "title": "Aplikace v praxi",
+        "content": [
+          "Jak to přenést na nemocniční výzvy v terénu",
+          "Budování vztahů s místními zdravotnickými zařízeními",
+          "Snížení opakovaných výzev kvalitní první reakcí"
+        ]
+      }
+    ]
+  }
+}

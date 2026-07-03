@@ -1,0 +1,477 @@
+{
+    "id": "youth-park",
+    "title": "Mládež v parku — víkendové odpoledne",
+    "description": "Pokročilý scénář: reagujete na stížnost na hluk a slovní konflikt ve skupině teenagerů (15–18) v městském parku o víkendovém odpoledni. Procvičujte deeskalaci, transparentnost a emoční inteligenci, zatímco odhalujete hlubší osobní krizi pod povrchovým sporem. Vyvažujte práva mladých lidí ve veřejném prostoru s očekáváními komunity a budujte důvěru prostřednictvím férové a respektující komunikace.",
+    "icon": "🌳",
+    "instructor": {
+        "name": "Seržantka Benešová",
+        "avatar": "👮‍♀️",
+        "introduction": "Setkání s mládeží patří k nejzásadnějším výjezdům v komunitní policejní práci. To, jak se dnes zachováte ke skupině teenagerů, rozhodne o tom, jestli budou policii dalších padesát let důvěřovat, nebo se jí bát. Nejsou to zločinci — jsou to mladí lidé ve veřejném prostoru, kteří se potýkají s emocemi, kterým sami stěží rozumí. Vaším úkolem není je umlčet nebo rozehnat. Vaším úkolem je pochopit, co se skutečně děje, vyřešit oprávněné obavy a zanechat v nich zkušenost, že autorita může být férová, respektující a lidská. Pamatujte: teenageři jsou nastaveni tak, aby se bránili vnímané nespravedlnosti. Pokud přijdete tvrdě, narazíte na odpor — ne proto, že by byli špatní, ale proto, že to jejich vývojová fáze vyžaduje. Přistupte k nim tam, kde jsou. Používejte jména. Vysvětlujte se. Naslouchejte, než budete řídit. Stížnost je na hluk a hádku — ne na místo činu. Reagujte přiměřeně."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-youth-park-complete"],
+    "perfectBadge": "perfect-scenario-youth-park",
+    "finalMessage": {
+        "revelation": "Konflikt mezi Kryštofem a Jardou byl hlubší, než se zdálo. Před dvěma týdny byl Kryštofův otec hospitalizován s vážným srdečním záchvatem. Rodina byla pod obrovským tlakem — nemocniční účty, nejistota, strach. Během tohoto zranitelného období Jarda zveřejnil na sociálních sítích posměšné video odkazující na Kryštofovu nepřítomnost ve škole, aniž by věděl (nebo ho to zajímalo) o rodinné krizi. Video se rozšířilo po celé škole a Kryštof musel snášet dny ponižování na vrcholu skutečného zármutku a strachu o otce. Když se toho odpoledne skupina sešla v parku, Kryštof Jardu veřejně konfrontoval — ne proto, že chtěl rvačku, ale proto, že neměl jiný ventil pro bolest, kterou nedokázal vyjádřit slovy. Eli a Nela se pokusily zprostředkovat, ale chyběly jim nástroje. Paní Kovářová, návštěvnice parku, která zavolala policii, měla oprávněné obavy z eskalace, ale také úzkost o vlastní pocit bezpečí. Po vašem zásahu Jarda video smazal a napsal upřímnou omluvu, kterou Kryštof přijal. Skupina se přesunula do klidnější části parku a dodržela dohodu o hlasitosti. O tři týdny později byl Kryštofův otec propuštěn z nemocnice. Eli později řekla školní poradkyni, že si nejvíc pamatuje, že strážník je oslovoval jmény a nejdřív se zeptal, co se děje, než jim řekl, co mají dělat.",
+        "keyLessons": [
+            "Klidný, nehrozivý přístup zachovává důstojnost mladých lidí a otevírá dveře ke spolupráci",
+            "Transparentnost ohledně důvodu vaší přítomnosti — vysvětlení stížnosti bez přisuzování viny — okamžitě buduje legitimitu",
+            "Používání jmen a validace emocí promění konfrontaci v rozhovor",
+            "Vedení omluvy, kdy žádáte provinilce, aby byl konkrétní, vytváří skutečné usmíření, ne předstíranou poslušnost",
+            "Uznání práva mladých lidí na veřejný prostor při současném stanovení jasných očekávání vede k dobrovolnému dodržování pravidel",
+            "Přijetí a pochválení jejich navržených řešení jim dává vlastnictví a zvyšuje závazek k dohodě",
+            "Poslední slova, která při setkání řeknete, určují, co si lidé o policii zapamatují"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Fáze 1 — Příjezd do parku",
+            "sceneUpdate": {
+                "emoji": "🌳",
+                "title": "Městský park — sobotní odpoledne",
+                "desc": "Teplé víkendové odpoledne ve veřejném parku. Zapínáte osobní kameru, když vystupujete z vozu — standardní postup při jakémkoli kontaktu s občany. Skupina pěti nebo šesti teenagerů se shromáždila kolem lavičky u hlavní cesty. Z přenosného reproduktoru hraje hudba — dost nahlas, aby se nesla přes celý park. Dva chlapci stojí tváří v tvář v něčem, co vypadá jako začátek konfrontace. Skupina si vašeho příchodu zatím nevšimla."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Jednotka 3-4, máme stížnost od návštěvníka parku na hlasitou hudbu a slovní konflikt ve skupině teenagerů. Žádné zbraně nehlášeny. Volající popsal křik a strkání. Dojeďte a vyhodnoťte."
+                },
+                {
+                    "character": "officer",
+                    "text": "Dispečink, jednotka 3-4 na místě v Parku u řeky. Mám vizuální kontakt se skupinou šesti mladistvých u hlavní cesty, dva chlapci ve zdánlivé slovní potyčce. Žádné zbraně viditelné. Jdu pěšky navázat kontakt."
+                }
+            ],
+            "prompt": "Skupina si vás zatím nevšimla. Hudba je hlasitá, dva kluci stojí tváří v tvář. Jak zvolíte svůj přístup?",
+            "options": [
+                {
+                    "text": "Vyrazíte ke skupině uvolněným, nespěchajícím krokem s rukama volně podél těla — žádná ruka na opasku, žádný zrychlený krok. Když jste asi pět metrů od lavičky, zvednete jednu ruku v neformálním gestu a promluvíte konverzačním tónem, právě dost hlasitě, aby váš hlas přenesl přes hudbu z reproduktoru, aniž by s ní soupeřil: 'Městská policie. Můžeme si promluvit?' Uvolněný postoj a otevřené dlaně signalizují klidnou autoritu místo konfrontace.",
+                    "feedback": "Proč: Nenápadné slovní oznámení okamžitě snižuje napětí. Zachovává jejich důstojnost — nikdo není vyděšený, nikdo není zahnán do kouta. ‚Můžeme si promluvit?' je pozvání, ne příkaz, což je přiměřené u stížnosti na hluk a slovního sporu. Váš tón signalizuje, že jde o rozhovor, ne o zatčení. Záleží i na neverbálních prvcích — normální tempo chůze, viditelné ruce, uvolněný postoj. | DŮSLEDKY: Skupina se k vám otočí. Hudba se trochu ztlumí. Oba chlapci od sebe odstoupí. Máte jejich pozornost bez jejich strachu. Základ pro dialog je položen. | Reflexe: Který neverbální prvek — tempo, vzdálenost, viditelné ruce nebo postoj — je nejuklidňující při přístupu ke skupině teenagerů? Jak byste postupovali, kdyby konfrontace byla už fyzická?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Pomalu vykročíte po hlavní cestě a necháte se spatřit z dostatečné vzdálenosti, aby skupina viděla váš příchod dřív, než dorazíte. Ruce máte volně podél těla, cestou kývnete na kolemjdoucího běžce — dáváte najevo, že nikam nespěcháte. Jakmile jste na dosah hlasu, zastavíte se v pohodlné vzdálenosti a řeknete: 'Nazdar, hezké odpoledne. Jsem strážník Novotný — nevadí, když přijdu blíž a podívám se, co se tu děje?'",
+                    "feedback": "Proč: Zviditelnit se před mluvením zamezí faktoru překvapení, což je dobré. Představit se jménem je silný budovatel vztahu. ‚Nevadí, když přijdu blíž?' je respektující a modeluje souhlas. Avšak uvolněný tón může podceňovat naléhavost situace, kde dva kluci stojí ve fyzické konfrontaci — je třeba vyvážit přístupnost s potřebou zasáhnout v rozvíjející se konfrontaci, než dál eskaluje. | DŮSLEDKY: Skupina vás vidí přicházet. Někteří se uvolní, ale oba kluci pokračují v konfrontaci ještě dalších třicet vteřin, než si vás všimnou. Přicházíte bez naléhavosti, což je uklidňující, ale umožňuje to napětí mezi Kryštofem a Jardou ještě trochu narůst. | Reflexe: Kdy je uvolněný přístup vhodný a kdy situace vyžaduje, abyste zasáhli s větší bezprostředností, přičemž stále zachováte klid?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Zůstanete stát u služebního vozu, zapnete vysílačku a vyžádáte si druhou hlídku k vjezdu do parku — ‚pro jistotu'. Opíráte se o kapotu se zkříženýma rukama a skenujete skupinu z padesáti metrů, zatímco čekáte na posilu. Jakmile druhý strážník dorazí, vyrazíte společně bok po boku v plné výstroji a přistupujete k lavičce ze dvou stran, abyste měli vizuální pokrytí celé skupiny, než promluvíte jediné slovo.",
+                    "feedback": "Proč: Opatrnost je oprávněná, když nemůžete plně posoudit situaci, ale u slovního sporu mezi neozbrojenými teenagery může požadavek posily před jakýmkoli kontaktem působit jako předčasná kriminalizace. Dva strážníci přistupující ke skupině teenagerů v parku vysílají nepřiměřený signál. Teenageři si to přečtou jako ‚myslí si, že jsme nebezpeční', což spustí přesně tu defenzivu, které chcete předejít. | DŮSLEDKY: Skupina si všimne dvou přistupujících strážníků a ostražitost stoupá. Řeč těla se uzavírá — zkřížené ruce, odvrácená ramena, klesající oční kontakt. Eli šeptá ‚Co jsme udělali?' Spolupráci bude těžší získat. | Reflexe: Kdy je posila skutečným taktickým přínosem a kdy občanům signalizuje, že jste se už rozhodli, že jsou hrozbou? Jak konkrétně teenageři čtou přítomnost více strážníků?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Zapnete sirénu na ostrý dvousekundový výbuch, který se rozléhá přes celý park, prořízne hudbu i každý rozhovor v dosahu. Než ozvěna dozní, už rázně kráčíte k lavičce, jednu ruku na opasku, hlas zvýšený na plný velitelský objem: 'Policie! Okamžitě s tím přestaňte!' Běžec na cestě ztuhne na místě. Žena venčící psa přitáhne vodítko. Každá hlava v parku se otočí vaším směrem a skupina teenagerů u lavičky zírá v šoku.",
+                    "feedback": "Proč: Siréna a křiknutý příkaz jsou nástroje pro vysoce rizikové situace — prchající podezřelí, aktivní násilí, nouzová dopravní zastavení. Použít je na skupinu teenagerů, kteří se hádají v parku, je masivní překalibrování. Šok spustí reakce boj-nebo-útěk. Někteří ztuhnou, někteří se rozprchnou, někteří se stanou nepřátelskými. Zničili jste jakoukoli šanci na klidný rozhovor dřív, než začal. Co hůř, každý přítomný teenager si ponese tuto vzpomínku: policie s námi zachází jako se zločinci za to, že jsme v parku. | DŮSLEDKY: Skupina se rozprchne. Dva teenageři utíkají. Kryštof a Jarda přestanou se hádat — ale teď oba obracejí nepřátelství na vás. ‚Co to má být?!' Nela začíná natáčet na telefon. Vaše legitimita je pryč, než jste řekli jediné slovo. | Reflexe: Kdy byste měli použít sirénu k oznámení své přítomnosti pěšky? Jaká je dlouhodobá cena toho, že se stížnost na hluk řeší jako zásah proti těžkému zločinu?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Fáze 2 — První kontakt a transparentnost",
+            "sceneUpdate": {
+                "emoji": "💬",
+                "title": "Tváří v tvář se skupinou",
+                "desc": "Hudba byla ztlumena. Eli, sebevědomá dívka s bystrýma očima, vystupuje jako neoficiální mluvčí skupiny. Nela se drží za ní, vypadá nervózně a pohrává si s telefonem. Jarda se odvrátil a vyhýbá se očnímu kontaktu. Kryštof stojí nehybně se zaťatou čelistí, zjevně stále rozrušený."
+            },
+            "npcDialogue": [
+                {
+                    "character": "eli",
+                    "text": "Proč nás obtěžujete? Vůbec nic neděláme špatně."
+                },
+                {
+                    "character": "nela",
+                    "text": "Měli jsme jen hudbu trochu nahlas, to je všechno..."
+                }
+            ],
+            "prompt": "Eli přímo zpochybňuje vaši přítomnost. Nela bagatelizuje situaci. Jak vysvětlíte, proč tu jste, a nastavíte tón?",
+            "options": [
+                {
+                    "text": "Udržujete oční kontakt s Eli, postoj uvolněný a hlas vyrovnaný, a krátce kývnete směrem k Nele, abyste ji zahrnuli do rozhovoru: 'Dobré odpoledne, jsem strážník Novotný. Dostal jsem hlášení od jiného návštěvníka parku o hlasité hudbě a hádce — to je jediný důvod, proč tu jsem. Nejsem tu, abych vás obtěžoval nebo vás odsud posílal. Chci se ujistit, že je tady všechno v pořádku. Můžete mi říct, co se tu děje?'",
+                    "feedback": "Proč: Tato odpověď splňuje všechny principy transparentnosti. Řeknete své jméno — polidšťujete se. Vysvětlíte důvod své přítomnosti — hlášení, ne váš osobní úsudek. ‚Nejsem tu, abych vás obtěžoval' přímo reaguje na Elinu obavu, aniž byste byli defenzivní. ‚Chci se ujistit, že je tady všechno v pořádku' přerámuje vaši roli z vymahatele na ochránce. Otevřená otázka ‚Co se tu děje?' vyzývá k jejich výpovědi místo vnucování vaší. | DŮSLEDKY: Eli se uvolní. Rozevře zkřížené ruce. Nela přestane nervózně manipulovat s telefonem. Dokonce i Jarda se ohlédne. Ustanovili jste, že jde o dialog, ne výslech. Defenziva skupiny znatelně klesá. | Reflexe: Jak změní dynamiku to, že uvedete důvod svého zásahu, aniž byste přisuzovali vinu? Proč je představení se jménem obzvlášť účinné u teenagerů?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Lehce pokrčíte rameny, ruce máte dobře viditelné, a promluvíte neformálním tónem, který odpovídá víkendové atmosféře parku. Nakloníte hlavu směrem ke dvěma klukům, jako byste žádali Eli, ať vás zasvětí do toho, co pozorovala: 'Odpoledne. Dostali jsme stížnost na hluk a někdo zmínil hádku. Hele, nesnažím se vám kazit den — jen se potřebuju podívat, jestli je tady všechno v pohodě a nikdo se tu nemá špatně. Jaká je situace?'",
+                    "feedback": "Proč: Neformální, lidský tón je dobrý — signalizuje, že tu nejste, abyste trestali. ‚Nesnažím se vám kazit den' ukazuje uvědomění, že přítomnost policie může působit dotěrně. Nicméně jste neřekli své jméno, což vás udržuje anonymní a tedy méně důvěryhodné. Také jste výslovně neuznali jejich právo být v parku, takže tato otázka visí ve vzduchu. Přístup funguje, ale chybí mu plná transparentnost, která buduje skutečný vztah. | DŮSLEDKY: Skupina se trochu uvolní. Eli přikývne, ale zůstává na pozoru — čeká, jestli je to upřímné, nebo jen nastražená past. Máte okno k tomu, abyste na tom stavěli, ale vztah ještě není navázán. | Reflexe: Jaký je rozdíl mezi neformálním tónem a skutečnou transparentností? Které konkrétní prvky — jméno, důvod, záměr — vyžaduje plná transparentnost?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Lehce si povzdechnete a rozhlédnete se po parku, jako byste tohle viděli už stokrát, pak se otočíte zpět ke skupině s neutrálním výrazem. Neřeknete své jméno, nevysvětlíte důvod příchodu a neuznáte, že mají právo v tomto prostoru být. Promluvíte věcným, plochým tónem: 'Jsem zvyklý, že si lidé na něco pořád stěžují — polovina mých výjezdů je takhle. Řekněte mi, co se tu děje a proč se hádáte, ať zjistím, jestli tu je skutečně problém, nebo se můžu vrátit na svou trasu.'",
+                    "feedback": "Proč: Neeskaluje, ale nese několik problémů. ‚Jsem zvyklý na stížnosti' bagatelizuje obavu volajícího a signalizuje cynismus. ‚Řekněte mi' je příkaz, ne pozvání. ‚Proč se hádáte' předjímá odpověď — situaci jste definovali, aniž byste slyšeli jejich pohled. Také jste vynechali představení, vysvětlení důvodu přítomnosti ani neuznali, že mají právo v tomto prostoru být. | DŮSLEDKY: Skupina cítí lhostejnost. Eli pokrčí rameny — proč by se měla někomu, komu je to zjevně jedno, otevírat? Nejistota přetrvává. Vztah se neprohlubuje. | Reflexe: Jak by se dynamika změnila, kdybyste důvod svého zásahu vysvětlili s opravdovým zájmem místo odmítavé familiarity?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Narovnáte ramena, pevně se postavíte a upřete na Eli tvrdý pohled. Hlas máte ostrý a úsečný, každé slovo dopadá jako rozkaz. Pak pomalu přesunete pohled z jednoho člena skupiny na druhého a necháte ticho pracovat — ujišťujete se, že všichni pochopili, kdo tu velí, dřív než kdokoli znovu promluví: 'Jsem tu kvůli hlášení o hlasité hudbě a hádce. Nic si na mě nezkoušejte — tady se ptám já.'",
+                    "feedback": "Proč: Autoritářský úvod u teenagerů je nejrychlejší cestou k odporu. ‚Nic si nezkoušejte' naznačuje, že jsou podezřelí, ne občané. ‚Tady se ptám já' uzavírá vzájemnost, kterou deeskalace vyžaduje. Každý přítomný teenager si právě potvrdil své nejhorší očekávání o policii: autorita, která neposlouchá, nevysvětluje a nezajímá se. Elina výzva byla pozvánkou dokázat opak — a vy jste ji odmítli. | DŮSLEDKY: Skupina se semkne. Ruce se kříží. Pohledy tvrdnou. Eli začíná natáčet. Nela vytahuje telefon. Kryštof mumlá ‚Říkal jsem to.' Jakákoli cesta k dialogu teď vyžaduje napravení škody, kterou tento úvod způsobil. | Reflexe: Když se teenager zeptá ‚Proč tu jste?' — je to vzdor, nebo je to férová otázka, která si zaslouží férovou odpověď? Jak vaše reakce formuje jejich celoživotní vztah k autoritě?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Fáze 3 — Zastavení eskalace hádky",
+            "sceneUpdate": {
+                "emoji": "⚡",
+                "title": "Kryštof a Jarda — napětí stoupá",
+                "desc": "Rozhovor odkryl skutečný problém. Kryštof a Jarda mluví jeden přes druhého, hlasy stoupají. Kryštof vykročí vpřed, pěsti se zatínají. Jarda nafoukne hrudník. Zbytek skupiny úzkostně přihlíží. Fyzický kontakt je otázkou vteřin. V koutku mysli registrujete, že video, které Kryštof zmínil, by mohlo být relevantním důkazem, pokud situace přeroste v formální stížnost — napětí mezi povzbuzením ke smazání v rámci usmíření a jeho zachováním pro případné budoucí řízení."
+            },
+            "npcDialogue": [
+                {
+                    "character": "krystof",
+                    "text": "Myslíš, že se mi můžeš vysmívat přede všema a nic se nestane?! Řekni mi to do očí! A teď Nela říká, že to video zase sdílejí ve skupinovém chatu — PRÁVĚ TEĎ, když tu stojíme!"
+                },
+                {
+                    "character": "jarda",
+                    "text": "Já se už omluvil! Co ještě chceš? Chceš mě praštit? Tak do toho!"
+                },
+                {
+                    "character": "mrs_kovar",
+                    "text": "(přichází od své lavičky, ostrým hlasem) Pane strážníku, vy tu budete jen stát, zatímco se ti kluci chystají prát? Sleduji to deset minut. Jestli je nezvládnete, zavolám přímo na stanici — a napíšu o tom do místních novin. Tenhle park býval bezpečný."
+                }
+            ],
+            "prompt": "Kryštof a Jarda jsou vteřiny od fyzické konfrontace. Kryštof je rozběsněný, že ponižující video je znovu sdíleno online. Paní Kovářová požaduje, abyste zakročili rázněji, a hrozí stížností. Jak zabráníte násilí, zvládnete paní Kovářovou a přesměrujete situaci k dialogu?",
+            "options": [
+                {
+                    "text": "Klidně vstoupíte mezi oba kluky, otevřené dlaně směřují ke každému z nich, a promluvíte odměřeným tempem: 'Kluci, vidím, že jste oba naštvaní — a je vidět, že vám na tom záleží. Kryštofe, slyším tě — to, že to video zase sdílejí, to ještě zhoršuje, to chápu. Jardo, slyším i tebe. Ale tohle se pěstmi řešit nebude.' Krátce se otočíte k paní Kovářové: 'Paní, rozumím vašim obavám — dejte mi prosím pár minut.' Zpět ke klukům: 'Kryštofe, řekni mi, co se stalo od začátku. Jardo, na tebe taky dojde, to slibuju.'",
+                    "feedback": "Proč: Toto je učebnicová deeskalace s teenagery, přizpůsobená více tlakům zároveň. Použití jmen signalizuje, že je vnímáte jako jednotlivce, ne jako ‚děcka'. Uznání, že video je znovu sdíleno, ukazuje Kryštofovi, že chápete digitální rozměr jeho ponížení — nejde jen o hádku v parku, je to pokračující online šikana. ‚Je vidět, že vám na tom záleží' respektuje závažnost jejich konfliktu — zásadní, protože teenageři se uzavřou, když dospělí jejich pocity bagatelizují. Stručné uznání paní Kovářové, aniž byste jí dovolili diktovat váš přístup, ukazuje, že zvládáte tlak komunity, aniž byste ztratili fokus na ty, kteří vás nejvíc potřebují. Slib rovného času (‚na tebe taky dojde') adresuje instinkt pro spravedlnost, který je v tomto věku přecitlivělý. | DŮSLEDKY: Kryštofovy pěsti se uvolní — někdo skutečně pochopil, že znovusdílení videa je součástí problému. Nadechne se a začne mluvit. Jarda ustoupí, zkřížené ruce, ale čeká. Paní Kovářová, která byla vyslyšena, se vrátí ke své lavičce. Skupina si oddechne. Přeměnili jste fyzickou konfrontaci v příběh. | Reflexe: Jak pojmenování emocí snižuje jejich intenzitu? Když kolemjdoucí požaduje razantnější postup, jak uznáte jeho obavy, aniž byste situaci eskalovali?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vstoupíte mezi ně s otevřenými dlaněmi zvednutými do výše hrudi a pevně se postavíte do mezery. Jemným gestem naznačíte Kryštofovi dva kroky doleva, pak ukážete Jardovi směrem ke konci lavičky. Tělo máte natočené tak, abyste viděli oba chlapce i zbytek skupiny: 'Dobře, to stačí. Dejme si prostor. Kryštofe, ty stůj tady. Jardo, ty jdi tamhle — potřebuju mezi vámi trochu vzdálenosti. Vyslechnu vás jednoho po druhém a vyřešíme to.'",
+                    "feedback": "Proč: Fyzické umístění mezi ně je správný prostorový management — narušuje geometrii eskalace a vytváří bariéru. Otevřené dlaně signalizují neagresivitu. Jasné pokyny (‚ty sem, ty tam') snižují nejasnost. Tento přístup ale řeší fyzické riziko bez jakékoli emoční práce. Oddělili jste těla, ale neuznali jste pocity. Vztek je stále na plné obrátky — jen mu chybí momentální cíl. Bez emoční validace napětí přetrvává pod povrchem a může se znovu vznítit, jakmile odejdete. | DŮSLEDKY: Kluci se oddělí. Bezprostřední riziko rvačky klesá. Ale oba zůstávají rozrušení — Kryštof přechází sem a tam, Jarda kopne do země. Napětí se nerozptýlilo, jen se přesunulo. Získali jste čas, ale ještě jste nevybudovali důvěru. | Reflexe: Co byste mohli přidat k fyzickému oddělení, abyste dosáhli i emoční deeskalace? Proč je prostorový management nutný, ale sám o sobě nedostatečný?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Beze slova vstoupíte do prostoru mezi nimi, dlaně otevřené a směřující ven. Jakmile máte jejich pozornost, promluvíte plochým, vyrovnaným tónem, aniž byste použili jméno kteréhokoli z kluků. Ukážete na protilehlé konce lavičky bez jakéhokoli uznání emocí. Stojíte s rukama volně podél těla a dělíte vzdálenost rovnoměrně, čekáte, až oba poslechnou, než cokoli dalšího řeknete: 'Dejme si prostor. Ty sem, ty tam. Vyslechnu vás jednoho po druhém.'",
+                    "feedback": "Proč: Bezpečný prostorový management, který snižuje bezprostřední riziko fyzického kontaktu. Ale je čistě mechanický — žádná jména, žádné rozpoznání emocí, žádné uznání, že tento konflikt pro ně má skutečný význam. Řídíte těla, ne lidi. Teenageři obzvlášť potřebují cítit, že autorita něco z jejich situace chápe, než začnou spolupracovat. Bez toho oddělení působí jako potlačení, ne jako mediace. | DŮSLEDKY: Riziko rvačky klesá, ale napětí přetrvává. Oba kluci se cítí spíš zpracováni než vyslyšeni. Spolupráce bude přinejlepším neochotná. | Reflexe: Jaký je rozdíl mezi řízením situace a zapojením s lidmi v ní? Co byste mohli přidat, aby byla tato reakce účinnější?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vykročíte vpřed s tvrdým výrazem, hlas zvýšený, aby vás jasně slyšela celá skupina i paní Kovářová na lavičce: 'Dost. Jestli vy dva hned nepřestanete, oba jedete se mnou na stanici.' Upřeně se podíváte nejdřív na Kryštofa, pak na Jardu, a necháte hrozbu viset v tichu. Zbytek skupiny ztichne. Paní Kovářová přihlíží se zkříženýma rukama a čeká na akci. Stojíte zpříma a nehybně, čekáte na poslušnost skrze zastrašení místo rozhovoru.",
+                    "feedback": "Proč: Vyhrožování teenagerům stanicí kvůli slovní hádce je nepřiměřené použití autority, které vyměňuje krátkodobé ticho za dlouhodobou škodu. Hrozba může vyvolat poslušnost ze strachu, ale neřeší podstatu konfliktu. Horší je, že ponižuje oba kluky před vrstevníky — zničující rána ve věku, kdy je společenské postavení vším. Každý přítomný teenager teď vidí policii jako hrozbu, které se vyhýbat, ne jako zdroj důvěry. Konflikt jednoduše pokračuje, jakmile odejdete, pravděpodobně intenzivněji. | DŮSLEDKY: Oba kluci zmlknou, ale jejich oči mluví za vše. Kryštofova čelist se zatíná potlačovaným vztekem. Jarda se dívá do země, zahanbený. Skupina přihlíží s chladnou nepřátelskostí. Umlčeli jste hádku, ale zaseli jste zášť, která poroste. | Reflexe: Proč hrozby selhávají specificky u mladých lidí? Jaký je vztah mezi zahanbením, přítomností vrstevníků a budoucí ochotou spolupracovat?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Fáze 4 — Kořen problému a práce s emocemi",
+            "sceneUpdate": {
+                "emoji": "💔",
+                "title": "Skutečný příběh vychází najevo",
+                "desc": "Kryštof začal mluvit a vztek ustupuje něčemu syrovějšímu. Hlas se mu láme. Skupina je potichu — dokonce i Jarda přestal předvádět a poslouchá. Tohle už není o hluku v parku."
+            },
+            "npcDialogue": [
+                {
+                    "character": "krystof",
+                    "text": "On natočil video, jak se mi posmívá, když jsem nebyl ve škole... můj táta je v nemocnici. Možná to ne... a Jarda to dal na internet a všichni se smáli. Všichni."
+                },
+                {
+                    "character": "jarda",
+                    "text": "(dívá se dolů) Já... já nevěděl o jeho tátovi. Je mi to líto. Fakt."
+                },
+                {
+                    "character": "officer",
+                    "text": "(klidně, k oběma) Chci, abyste oba něco pochopili. Zveřejnit video za účelem zesměšnění nebo ponížení někoho — to může spadat pod šikanu podle předpisů o digitálním obtěžování. Neříkám to proto, abych tě vystrašil, Jardo. Říkám to proto, že to, co se tady stalo, není jen osobní záležitost — zákon to taky bere vážně. Proto záleží na tom, jak to vyřešíme."
+                }
+            ],
+            "prompt": "Příčinou je kyberšikana během rodinné krize. Jarda se omluvil, ale omluva zní povrchně. Jak podpoříte smysluplné usmíření?",
+            "options": [
+                {
+                    "text": "Ztišíte hlas, aby rozhovor působil důvěrně i na otevřeném prostranství parku: 'Je mi líto, čím tvoje rodina prochází, Kryštofe. To je hodně na jednoho člověka a naprosto chápu, proč tě to, co Jarda udělal, tak zasáhlo.' Otočíte se k Jardovi s klidným, vyrovnaným pohledem: 'Jardo — vidím, že tu omluvu myslíš vážně. Můžeš Kryštofovi říct konkrétně, za co se omlouváš a co uděláš, aby to napravil? Ne jenom promiň — za co přesně se omlouváš?'",
+                    "feedback": "Proč: Toto je zprostředkované usmíření v nejlepší podobě. Validace Kryštofovy bolesti (‚to je hodně na jednoho člověka') mu říká, že jeho emoce jsou viděny a respektovány. Uznání Jardova záměru (‚vidím, že tu omluvu myslíš vážně') se vyhýbá zahanbení a zároveň zvyšuje laťku. Žádost o konkrétnost přeměňuje reflexivní ‚promiň' v opravdové vyrovnání se s újmou. Otázka ‚co uděláš, aby to napravil?' zavádí odpovědnost a nápravnou akci. Učíte oba kluky — a celou přihlížející skupinu — jak vypadá skutečná odpovědnost. | DŮSLEDKY: Jarda se podívá na Kryštofa: ‚Omlouvám se, že jsem natočil to video. Nevěděl jsem o tvém tátovi, ale i kdybych to věděl — bylo to špatný. Smažu ho a řeknu lidem, ať ho přestanou sdílet.' Kryštof přikývne, oči vlhké. Skupina přihlíží v tichu. Stalo se tu něco opravdového. | Reflexe: Jak vedete omluvu tak, aby nebyla jen naoko? Proč žádost o konkrétnost dělá rozdíl mezi povrchní omluvou a skutečným usmířením?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Pomalu přikývnete, zatímco Kryštof domluví, a dáte jeho slovům okamžik prostoru, než odpovíte. Narovnáte se a přejdete do direktivnějšího tónu: 'To zní, jako že to bylo opravdu těžké, Kryštofe. Jardo, je dobře, že ses omluvil — to chce odvahu. A teď — Jardo, potřebuješ to video dneska smazat, ujistit se, že zmizí ze všech platforem. A oba to musíte nechat za sebou a jít dál. Život je na takové věci moc krátký.'",
+                    "feedback": "Proč: Uznali jste Kryštofovu bolest a identifikovali potřebný praktický krok — smazání videa. To není špatně. Ale ‚nechte to za sebou a jděte dál' přeskakuje emoční práci, která dělá usmíření trvalým. Kryštof nedostal prostor na to, reagovat na omluvu. Jarda nebyl požádán, aby pochopil dopad toho, co udělal — jen aby smazal důkaz. Pokyn ‚jděte dál' zachází s emocemi jako s překážkami k odstranění, ne jako se signály k zpracování. Mír, kterého dosáhnete, bude křehký. | DŮSLEDKY: Jarda přikývne a vytáhne telefon, aby video smazal. Kryštof přihlíží, ale nevypadá spokojeně. Povrchový problém je vyřešen, ale rána pod ním byla jen obvázána, ne vyčištěna. | Reflexe: Co chybí mezi praktickým řešením (smazat video) a skutečným usmířením? Proč přeskočení emocí vytváří křehké výsledky?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Jednou tleskněte, jako byste přivolávali pořádek, a promluvíte svižným, věcným tónem. Netrpělivě ukážete mezi oběma kluky a čekáte na podání rukou, abyste mohli celou věc uzavřít a přejít ke stížnosti na hluk: 'Jardo, smaž ten příspěvek a pořádně se omluv — podívej se mu přitom do očí. Kryštofe, uklidni se — říkal, že je mu to líto a video zmizí. Teď si podejte ruce jako chlapi a pojďme dál.'",
+                    "feedback": "Proč: Řeší technický problém — video se smaže, omluva je vynucena — ale zcela přeskakuje emoční jádro. ‚Uklidni se' říká Kryštofovi, že jeho pocity jsou na obtíž. ‚Říkal, že je mu to líto' považuje omluvu za dostatečnou bez zkoumání její hloubky. ‚Podejte si ruce' vynucuje fyzické gesto usmíření, které ani jeden kluk nemusí cítit. Vyrábíte zdání řešení bez jeho podstaty. | DŮSLEDKY: Podání rukou se uskuteční, ale je mdlé a neochotné. Příspěvek je smazán. Ale Kryštof stále nese tu bolest a Jarda stále plně nechápe, co udělal. Dosažený mír je křehký — stačí jedna špatná poznámka ve škole v pondělí a konflikt se znovu rozhoří. | Reflexe: Jaký je rozdíl mezi vynuceným řešením a skutečným? Proč má ‚uklidni se' téměř vždy opačný efekt, než byl zamýšlený?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Podíváte se na hodinky s viditelnou netrpělivostí, ostře vydechnete a přerušíte Kryštofa uprostřed věty. Z kapsy napůl vytáhnete telefon pro důraz a hlas vám tvrdne: 'Na tyhle malicherný hádky nemám čas. Jestli se nedokážete chovat normálně, zavolám vám rodiče a budeme to řešit jinak — a ten rozhovor nebude příjemný pro nikoho. Vyřiďte si to hned teď, nebo ponesete následky. Vaše volba.'",
+                    "feedback": "Proč: Nazvat nejhlubší bolest teenagera ‚malichernou' je jedna z nejškodlivějších věcí, které může autorita říct. Kryštof vám právě řekl, že jeho otec je v nemocnici a že byl veřejně ponížen v nejhorším období svého života — a vy jste to označili za malichernost. Hrozba zavoláním rodičů zneužívá rodinné vztahy jako zbraň. ‚Vyřiďte si to' opouští vaši roli mediátora. Řekli jste zraněnému teenagerovi, že na jeho bolesti nezáleží osobě s veškerou mocí v této situaci. Škoda na jeho důvěře v autoritu může být trvalá. | DŮSLEDKY: Kryštofova tvář ztuhne — výraz člověka, který se úplně uzavřel. Jarda se neklidně ošívá. Eli na vás zírá. Nela se dívá do země. Skupina se naučila, že policii je to jedno. Konflikt jde pod zem, nevyřešený, a vynoří se znovu s větší intenzitou. | Reflexe: Proč bagatelizace něčí bolesti zvyšuje riziko opětovné eskalace? Jaká je dlouhodobá cena odmítnutí emoční krize mladého člověka jako ‚malichernosti'?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Fáze 5 — Hluk, práva a očekávání",
+            "sceneUpdate": {
+                "emoji": "🔊",
+                "title": "Stanovení férových hranic",
+                "desc": "Emoční krize mezi Kryštofem a Jardou byla vyřešena. Hudba je už tišší. Paní Kovářová, návštěvnice parku, která podala stížnost, přihlíží ze své lavičky. Skupina je vstřícná, ale stále citlivá na jakýkoli náznak neférového zacházení."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_kovar",
+                    "text": "(ze své lavičky, volá) Pane strážníku, budou už tišší? Chodím sem každý víkend, abych si odpočinula v klidu."
+                },
+                {
+                    "character": "eli",
+                    "text": "(potichu, k vám) My tu máme taky právo být, víte."
+                }
+            ],
+            "prompt": "Stížnost na hluk stále čeká na vyřešení. Eli prosazuje jejich právo na park. Paní Kovářová chce ujištění. Jak nastavíte férová pravidla bez trestání?",
+            "options": [
+                {
+                    "text": "Otočíte se přímo k Eli, přikývnete, zatímco mluví, a odpovíte tónem, který je pevný, ale upřímně respektující. Gestem ukážete směrem k lavičce, kde sedí starší žena: 'Eli, máš naprostou pravdu — máte plné právo tu být a park je pro všechny. To platí i pro paní Kovářovou tamhle, která sem taky chodí užívat si odpoledne. Tady je, co potřebuju: udržte hlasitost na téhle úrovni nebo nižší a žádné další hádky. Když to dokážete, není důvod k pokutám ani k žádným dalším krokům. Fér?'",
+                    "feedback": "Proč: Toto je vyvážené, transparentní nastavení očekávání v té nejlepší podobě. Validujete Elinino tvrzení (‚máš naprostou pravdu') místo jeho odmítnutí. Vysvětlíte protichůdný zájem (paní Kovářová) bez toho, abyste z teenagerů dělali záporné postavy. Očekávání jsou konkrétní a dosažitelná (‚na téhle úrovni nebo nižší'). ‚Není důvod k pokutám ani dalším krokům' objasňuje pozitivní důsledek dodržení pravidel. Zakončení otázkou ‚Fér?' zve k jejich souhlasu místo vnucování vaší vůle — což vede k dobrovolnému dodržování místo neochotné poslušnosti. | DŮSLEDKY: Eli přikývne. Skupina přijímá podmínky, protože působí jako vyjednávání, ne jako diktát. Paní Kovářová výměnu slyší a je spokojená. Obě strany cítí, že jejich zájmy byly respektovány. Jasná očekávání s ochotným souhlasem. | Reflexe: Jak formulovat pravidla tak, aby působila jako férové dohody, ne jako tresty? Proč uznání legitimních zájmů obou stran vede k lepší spolupráci než pouhé vydávání rozkazů?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Přátelsky kývnete a lehce pokrčíte rameny, energie zůstává konverzační. Podíváte se směrem k lavičce paní Kovářové, ale přímo ji neoslovíte ani jí nevysvětlíte dohodnuté podmínky: 'Právo tu být máte — to vůbec nezpochybňuju. Prostě to udržte v rozumné míře. Hudba je teď v pohodě, takhle to nechte, a upřímně, nerad bych se sem v takhle hezké odpoledne musel vracet. Nechci se sem muset vracet. Domluveno?'",
+                    "feedback": "Proč: Tón je přátelský a jádro sdělení je správné — můžou tu zůstat, ať udržují rozumnou hlasitost. Ale ‚nechci se sem muset vracet' zavádí zastřenou hrozbu, která podkopává jinak pozitivní tón. ‚Rozumná míra' je vágní — co je rozumné pro teenagera, se může lišit od toho, co považuje za přijatelné důchodkyně. Také jste přímo nezmínili obavu paní Kovářové, takže komunitní stránka rovnice zůstává nevyřešena. Přístup funguje, ale zanechává mezery. | DŮSLEDKY: Skupina souhlasí ležérně, ale vágní standard znamená, že mohou hlasitost postupně zase zvyšovat. Paní Kovářová neslyšela jasný závazek a zůstává neklidná. Dosáhli jste dočasné dohody, ne trvalého ujednání. | Reflexe: Proč konkrétní očekávání vedou k lepším výsledkům než vágní? Jak oslovení všech zainteresovaných stran — nejen skupiny před vámi — posiluje řešení?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Odmávnete to rukou, jako by se problém vyřešil sám, a jste připraveni se posunout dál. Schováte zápisník, aniž byste si cokoli poznamenali, podíváte se na hodinky a uděláte krok zpět směrem k cestě. Nenabídnete žádnou zmínku o stížnosti paní Kovářové ani o Elinině poznámce ohledně jejich práva na prostor: 'Teď je to v pohodě, pokračujte, jak chcete, ale žádné další hádky nebo bitky.'",
+                    "feedback": "Proč: Neeskaluje, ale propásnete výchovnou příležitost. ‚Pokračujte, jak chcete' nenastavuje žádná očekávání ohledně hluku, což byl původní důvod stížnosti. Neřešíte obavu paní Kovářové ani nevyužíváte příležitost pomoci skupině pochopit, že veřejné prostory vyžadují vyvažování různých potřeb. Sdělení teenagerům je: na hluku nám nezáleží, jen se neprte. Sdělení paní Kovářové je: vaše stížnost nebyla brána vážně. | DŮSLEDKY: Riziko opakovaných stížností je vysoké. Skupina nemá jasný standard k udržení. Paní Kovářová odchází nespokojená a může zavolat znovu do hodiny. | Reflexe: Jak vyvažujete právo mladých lidí užívat si veřejný prostor s legitimními potřebami ostatních návštěvníků parku? Jaká příležitost tu byla propásnuta?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Narovnáte se do plné výšky, hlas klesne do studeného, odměřeného tónu, a pomalu přejedete pohledem přes celou skupinu. Ticho necháte na okamžik viset, pak se otočíte k lavičce paní Kovářové a dáte jí strohé kývnutí na znamení, že situace je vyřešena: 'Jestli o vás ještě jednou dneska uslyším — jedno volání, jednu stížnost — pokutuju každého z vás. Je mi jedno, kdo co začal. Ztište to, nebo ponesete následky.'",
+                    "feedback": "Proč: Hromadná hrozba vůči skupině teenagerů kvůli stížnosti na hluk je nepřiměřená, nespravedlivá a kontraproduktivní. Pokutovat ‚každého z vás' trestá přihlížející, kteří nic neudělali — Eli a Nela se nehádaly a hudba je už tišší. Hrozba přeměňuje moment spolupráce v moment zášti. Každý přítomný teenager odchází s poučením, že policie nejdřív vyhrožuje a pak přemýšlí. Poslušnost, kterou získáte, je založená na strachu a zmizí, jakmile budete z dohledu. | DŮSLEDKY: Skupina zmlkne, ale tváře jsou nepřátelské. Eli kříží ruce. Nela schová telefon — nechce, aby jí byl zabaven. Spolupráce, kterou jste vybudovali v předchozích fázích, je zničena. Příští víkend budou schválně hlasitější, protože se cítí šikanovaní. | Reflexe: Proč je kolektivní trest obzvlášť destruktivní pro vztahy policie s komunitou? Proč poslušnost založená na strachu selhává, jakmile strážník odejde?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Fáze 6 — Společné řešení",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Návrh skupiny",
+                "desc": "Skupina se nakrátko poradí a vrátí se s nápadem. Eli mluví za skupinu, zatímco ostatní přikyvují. Dokonce i Kryštof a Jarda stojí vedle sebe bez napětí. Paní Kovářová pozoruje ze své lavičky s opatrným optimismem."
+            },
+            "npcDialogue": [
+                {
+                    "character": "eli",
+                    "text": "Co kdybychom se přesunuli k lavičkám u skateareálu? Je to dál od hlavní cesty. Hudbu necháme potichu. A komukoliv, kdo přijde, řekneme, ať je taky ticho."
+                },
+                {
+                    "character": "nela",
+                    "text": "Jo, tam je to vlastně lepší. Víc místa."
+                }
+            ],
+            "prompt": "Skupina navrhla vlastní řešení — přesunout se na méně centrální místo a sami regulovat hlasitost. Jak odpovíte?",
+            "options": [
+                {
+                    "text": "Necháte se upřímně usmát, zatímco Eli představuje plán, a souhlasně kývnete. Rozhlédnete se po skupině a navážete krátký oční kontakt s každým z nich: 'To je opravdu promyšlené řešení — vymysleli jste si ho sami a funguje to pro všechny. Skateareál je skvělé místo — víc prostoru, míň lidí na obtěžování.' Podíváte se zpět na Eli: 'Jedeme podle vašeho plánu. Stavím se za chvíli, ne abych vás kontroloval, jen se zastavím pozdravit. Dobrá práce, všichni.'",
+                    "feedback": "Proč: Přijetí jejich návrhu a výslovné pochválení iniciativy je silné. ‚Vymysleli jste si ho sami' jim dává vlastnictví — je to jejich dohoda, ne váš příkaz, což dramaticky zvyšuje oddanost. ‚Funguje to pro všechny' validuje, že vzali v úvahu i ostatní. ‚Stavím se za chvíli' je lehká kontrola bez hrozby — říká ‚důvěřuju vám, ale jsem tu'. ‚Dobrá práce' je konkrétní pozitivní zpětná vazba, která signalizuje: když jednáte zodpovědně, autorita to registruje a respektuje. Pro teenagery je obzvlášť přelomové, když se s nimi zachází jako se schopnými řešiteli problémů, ne jako s problémy k řízení. | DŮSLEDKY: Skupina viditelně pookřeje. Eli se usmívá. Dokonce i Jarda vypadá ulevený. Začínají sbírat věci a chystají se k přesunu. Paní Kovářová souhlasně přikyvuje. Přeměnili jste stížnostní výjezd v úspěšnou komunitní mediaci. Dohoda má vysokou trvanlivost, protože patří jim. | Reflexe: Jak dávat konkrétní pochvalu mladým lidem, aniž byste působili blahosklonně? Proč vlastnictví řešení zvyšuje dodržování ve srovnání s vnucenými pravidly?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Neurčitě kývnete, ruce v bok, a chvíli nápad zvažujete, než odpovíte tónem, který mísí souhlas s opatrností. Ustoupíte stranou, abyste uvolnili cestu ke skateareálu: 'To by mohlo fungovat. Skateareál je dost daleko od hlavní cesty, takže hluk by nikomu neměl vadit. Zkuste to — ale pamatujte, udržte to v normálu, jinak se vrátím s jiným přístupem. Důvěřuju vám, že dodržíte, co jste slíbili.'",
+                    "feedback": "Proč: Přijímáte návrh, což je důležité, ale okamžitě ho podkopáváte podmíněnou hrozbou. ‚Zkuste to' naznačuje, že očekáváte selhání. ‚Jiný přístup' je zlověstně vágní a znovu zavádí represivní rámec, který jste se snažili překonat. Také jste neuznali, že řešení vymysleli sami — propásnutá příležitost pro pozitivní zpětnou vazbu, která formuje budoucí chování. Návrh je schválen, ale ne oceněn. | DŮSLEDKY: Skupina se přesouvá, ale bez nadšení. Neuznaná snaha a závěrečná hrozba zanechávají tlumený pocit. Dohoda bude platit, ale nikomu nepřipadá jako výhra. | Reflexe: Jaký je rozdíl mezi podmíněným souhlasem a skutečným přijetím? Jak závěrečné hrozby ovlivňují trvanlivost dohod?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Pokrčíte rameny a uděláte půlkrok dozadu, pohledem už směřujete k parkovišti, jako by vaše myšlenky přeskočily k dalšímu výjezdu. Schováte zápisník do kapsy u vesty a neurčitě mávnete rukou na znamení souhlasu, aniž byste nabídli jakýkoli názor na kvalitu jejich návrhu nebo povzbuzení za snahu, kterou do něj vložili: 'Fajn, dělejte si, co myslíte, že je nejlepší — chcete jít ke skateareálu, zůstat tady, kamkoli, to je vaše věc. Já se do toho míchat nebudu.'",
+                    "feedback": "Proč: Toto je pasivní nezájem maskovaný jako vstřícnost. ‚Dělejte si, co myslíte' zní laskavě, ale komunikuje lhostejnost. Neuznali jste jejich snahu najít řešení. Nevalidovali jste kvalitu jejich návrhu. Nevyjádřili jste žádný názor. Pro teenagery, kteří právě převzali iniciativu v řešení problému za přítomnosti policisty, je to ubíjející ne-reakce. ‚Nebudu se míchat' zní, jako byste si od situace umývali ruce. | DŮSLEDKY: Skupina se přesouvá, ale energie je plochá. Eli pokrčí rameny — čekala víc reakce na jejich snahu. Řešení proběhne, ale moment budování vztahu je promarněn. Důvěra není posílena. | Reflexe: Proč je uznání důležité pro udržitelnost dobrovolné dohody? Co vás stojí říct ‚dobrý nápad' — a co tím získáte?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Zvednete ruku, abyste Eli přerušili uprostřed věty, výraz tvrdne a zakroutíte hlavou. Ostrým gestem ukážete na přenosný reproduktor na lavičce a zcela ignorujete Nelinu poznámku o skateareálu, přebíjíte návrh skupiny vlastními přísnějšími podmínkami: 'Uděláme to po mém. Můžete zůstat v parku — neposílám vás pryč — ale hudba bude úplně vypnutá. Žádný reproduktor, žádný hluk. Schovejte ho do tašky.'",
+                    "feedback": "Proč: Přebití jejich návrhu přísnějším pravidlem trestá iniciativu, kterou právě projevili. Nabídli rozumný kompromis — přesun a nižší hlasitost — a vy jste odpověděli úplným zákazem hudby. To jim říká: váš vstup je irelevantní a spolupráce vám nic nevynesla. Je to obzvlášť škodlivé, protože jsou to teenageři, kteří právě předvedli přesně ten druh zodpovědného řešení problémů, který se programy pro zapojení mládeže snaží rozvíjet. Naučili jste je, že spolupráce s autoritou je ztráta času. | DŮSLEDKY: Eli se tváří zklamaně. ‚My doslova nabídli, že se přesuneme.' Skupina poslechne, ale reproduktor zmizí v tašce se zášti. Zákaz hudby působí jako trest za zločin, který nebyl spáchán. Příště si nebudou dávat práci s nabízením řešení — prostě se budou policii vyhýbat. | Reflexe: Kdy je direktivita nutná a kdy ničí právě tu spolupráci, kterou se snažíte budovat? Co návrh skupiny ukázal o jejich ochotě spolupracovat?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Fáze 7 — Rozloučení na místě",
+            "sceneUpdate": {
+                "emoji": "👋",
+                "title": "Loučení",
+                "desc": "Skupina se balí k přesunu ke skateareálu. Nálada je klidná — až lehká. Kryštof a Jarda jdou vedle sebe, zatím ne přátelé, ale už ne nepřátelé. Nela k vám přistoupí, zatímco ostatní se dávají do pohybu. Poznamenáváte si v duchu, že po návratu k vozu sepíšete hlášení o komunitním kontaktu — jména, povahu sporu, prvek kyberšikany a dosažené řešení. Sledování vzorců u kontaktů s mládeží pomáhá oddělení identifikovat opakující se problémy, než eskalují."
+            },
+            "npcDialogue": [
+                {
+                    "character": "nela",
+                    "text": "Díky, že jste nás jen tak neposlali domů. Většina policajtů nám prostě řekne, ať odejdeme."
+                },
+                {
+                    "character": "eli",
+                    "text": "(přes rameno) Jo... díky, asi. Tak ahoj, pane strážníku."
+                }
+            ],
+            "prompt": "Setkání končí. Nela vám děkuje, že jste s nimi jednali s respektem. Jak zanecháte trvalý pozitivní dojem?",
+            "options": [
+                {
+                    "text": "Na chvíli se podíváte na každého z nich, než promluvíte, hlas vřelý a nespěchající: 'Děkuju vám za spolupráci — vám všem. Eli, Nelo, díky, že jste se mnou mluvily, místo abyste mě ignorovaly — to hodně změnilo. Kryštofe, doufám, že se tvému tátovi brzy uleví — myslím to vážně. Jardo, to, cos tam udělal, chtělo odvahu.' Odmlčíte se a pak dodáte: 'Kdyby kdokoli z vás někdy potřeboval pomoct s čímkoli — nejen policejní věci — můžete se ozvat. Užijte si odpoledne.'",
+                    "feedback": "Proč: Toto závěrečné slovo je mistrovský kus lidského propojení. Poděkování jménem personalizuje setkání — nejsou ‚skupina teenagerů', jsou to jednotlivci, které si pamatujete. Zmínění Kryštofovy rodinné situace ukazuje, že jste naslouchali a záleželo vám. Pochválení Jardovy omluvy posiluje usmíření. Nabídka budoucí pomoci (‚nejen policejní věci') nově definuje vztah policie a mládeže z nepřátelského na podpůrný. ‚Užijte si odpoledne' jim vrací jejich den. Poslední slova setkání jsou to, co si lidé pamatují nejvíc — a tato slova říkají: jste důležití, byli jste vyslyšeni a autorita může být laskavá. | DŮSLEDKY: Nela se usmívá. Kryštof tiše přikývne — zmínění jeho táty pro něj znamená víc, než tušíte. Jarda vzhlédne, překvapený, že je pochválen. Eli mávne. Odcházejí se zásadně odlišnou zkušeností s policií, než čekali. Toto je setkání, o kterém budou vyprávět kamarádům. | Reflexe: Jak ‚poslední věta' ovlivňuje to, co si lidé z policejní interakce odnesou? Proč je oslovení jednotlivců ve skupině obzvlášť působivé na závěr setkání?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Usmějete se a dáte skupině přátelské gesto palcem nahoru, zatímco sbírají své věci. Tón udržíte lehký a upřímný, ustoupíte zpět na hlavní cestu a zvednete ruku v uvolněném zamávání: 'Díky, že jste se mnou spolupracovali — vážně, zvládli jste to dobře. Spousta lidí by na takové řešení sama nepřišla.' Dodáte přes rameno: 'Hezké odpoledne a držte to tam v klidu. Budu v okolí, kdybyste cokoli potřebovali.'",
+                    "feedback": "Proč: Vřelé, uznalé a upřímně přátelské. ‚Zvládli jste to dobře' je pozitivní zpětná vazba, která oceňuje jejich vyspělost. Tón odpovídá situaci — neformální, respektující, nepřehnaný. Nicméně postrádáte příležitost oslovit jednotlivce — zejména Kryštofa, který sdílel něco hluboce osobního, a Jardu, který udělal obtížný krok. Ve skupině teenagerů má individuální uznání obrovskou váhu. Obecné ‚vy všichni' je dobré; individuální uznání je výjimečné. | DŮSLEDKY: Skupina odchází s pozitivním dojmem. Setkání bylo dobré — ale mohlo být nezapomenutelné. Bez individuálního uznání bude vzpomínka ‚ten policajt byl fajn' místo ‚ten policajt mě viděl jako člověka'. | Reflexe: Jaký je rozdíl mezi pozitivní skupinovou interakcí a takovou, kde se jednotlivci cítí osobně viděni? Kdy se investice třiceti vteřin navíc do personalizace vyplatí?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Schováte zápisník a promluvíte plochým, úředním tónem, který strhne veškerou vřelost ze závěru setkání. Otočíte se k odchodu, aniž byste použili jediné jméno nebo jakkoli uznali, jak celé setkání proběhlo a kolik úsilí do řešení vložili: 'Dobře, tentokrát to necháme být — žádný zápis, žádná pokuta. Ale příště by mohla přijít pokuta, tak to udržte potichu a zajistěte, ať kvůli tomuhle místu dneska nedostanu další volání.'",
+                    "feedback": "Proč: ‚Necháme to být' naznačuje, že spáchali přestupek, který velkoryse přehlížíte — což přerámuje kooperativní řešení na milost. ‚Příště by mohla přijít pokuta' znovu zavádí hrozbu přesně v momentě, kdy je důvěra na vrcholu. Závěr maří dobrou vůli předchozích fází. Skupina neslyší ‚děkuji' — slyší ‚měli jste štěstí'. Pro teenagery má poslední věc, kterou autorita řekne, nepřiměřenou váhu. Tento závěr jim říká: policejní tolerance je podmínečná a dočasná. | DŮSLEDKY: Nálada klesá. Elino mávání zamrzne. Nela se dívá do země. Pravidla se dodržují, ale vřelé pocity se vypaří. Odcházejí s dojmem, že policejní tolerance je podmíněná a dočasná. | Reflexe: Kdy je varování dostatečné a kdy maří vybudovaný vztah? Jak přerámování výsledku jako ‚tentokrát to necháme být' mění mocenskou dynamiku?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Namíříte prst na skupinu a pomalu jím přejedete od jednoho konce k druhému, hlas klesne do tichého, úmyslného varování. Držíte upřený pohled dlouhý okamžik, pak se otočíte na podpatku a vykročíte ke služebnímu vozu bez rozloučení nebo ohlédnutí: 'Příště si na sebe dejte pozor. Jestli mě sem zavolají zpátky z jakéhokoli důvodu — hluk, hádky, cokoli — budou pokuty, a to každému z vás. Nebudu podruhé takhle hodný.'",
+                    "feedback": "Proč: Kárání a hrozba na závěr kooperativního setkání je zrada důvěry, která byla vybudována. ‚Dejte si pozor' je zachází jako s budoucími pachateli. ‚Nebudu podruhé takhle hodný' odhaluje, že svou vlastní profesionalitu vnímáte jako laskavost, ne jako standard. Každý pozitivní krok předchozí interakce je zpětně přerámován: strážník nebyl férový — strážník byl shovívavý, a příště ukáže pravou tvář. Takhle se mladí lidé naučí policii natrvalo nedůvěřovat. Škoda ze špatného závěru může převážit přínos celého dobrého setkání. | DŮSLEDKY: Nelin úsměv zmizí. Kryštof mumlá ‚Jako vždycky.' Jarda kroutí hlavou. Eli neříká nic — už v duchu sestavuje příspěvek na sociální sítě o tom, jak byl strážník ‚fajn, dokud nebyl'. Skupina odchází s hořkostí místo vděčnosti. Všechno, co jste vybudovali, jste zbořili dvěma větami. | Reflexe: Jak udržíte svou vlastní frustraci nebo cynismus na uzdě na konci zásahu? Proč mohou dvě věty na závěr zničit třicet minut dobré práce?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Fáze 8 — Rozbor a reflexe",
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Výcvikový rozbor — zpět na stanici",
+                "desc": "Jste zpátky na stanici se seržantkou Benešovou. Zásah v parku skončil a je čas zhodnotit, co se stalo, co fungovalo a co by šlo zlepšit."
+            },
+            "autoDialogue": true,
+            "finalScene": true,
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "Setkání s mládeží jsou určující momenty — nejen pro daný výjezd, ale pro dalších padesát let toho, jak se tito mladí lidé budou vztahovat k autoritě. Přišli jste na stížnost na hluk u skupiny teenagerů a našli jste krizi kyberšikany naloženou na rodinnou nouzi. Způsob, jakým jste to zvládli — jména, transparentnost, vedené usmíření a společné řešení problému — naučil ty teenagery něco, co si ponesou desítky let: že autorita umí naslouchat, umí být férová a umí pomoci."
+                },
+                {
+                    "character": "officer",
+                    "text": "Nejtěžší pro mě bylo odolat nutkání prostě prosadit řešení. Když Elina skupina navrhla přesun ke skateareálu, můj první instinkt byl přidat podmínky — přísnější limity hlasitosti, čas, do kdy musí odejít. Nechat je, aby řešení vlastnili, mi připadalo, jako bych ztrácel kontrolu."
+                },
+                {
+                    "character": "instructor",
+                    "text": "A přesně tomu mylnému přesvědčení se chci věnovat. U teenagerů je prosazení vašeho řešení rychlejší, ale nechat je, aby ho vlastnili, je to, co skutečně funguje. Rozdíl je mezi poslušností a oddaností. Když diktujete podmínky, dostanete poslušnost, která se vypaří, jakmile odjedete. Když řešení vygenerují sami, jsou mu oddáni, protože je jejich. Elin návrh nebyl ústupek z vaší strany — byl to nejlepší možný výsledek, protože skupina teenagerů si dobrovolně zvolila zodpovědnost. To není ztráta kontroly. To je její nejvyšší forma."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Ještě jedna věc — procedurální stránka. Zmínili jste předpis o digitálním obtěžování, když jste s Jardou mluvili o videu. To bylo chytré. Dalo to váhu vaší mediaci, aniž byste z toho dělali trestní řízení. A vaše hlášení o komunitním kontaktu — zaznamenání jmen, prvku kyberšikany, řešení — tak sledujeme vzorce. Pokud se Jardovo jméno objeví v podobném kontextu za tři měsíce, díky tomuto záznamu můžeme zasáhnout dříve, třeba ho propojit se školním poradcem, než se věci vyhrotí. Dokumentace u kontaktů s mládeží není byrokracie — je to prevence."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Moment, který mi zůstane, je vaše závěrečné slovo — použití jejich jmen, zmínění Kryštofovy rodinné krize, pochválení Jardovy odvahy při omluvě. Eli později řekla školní poradkyni, že si nejvíc pamatuje, že strážník je oslovoval jmény a nejdřív se zeptal, co se děje, než jim řekl, co mají dělat. To jediné postřehnutí zachycuje všechno. Nerozpustili jste je. Neumlčeli jste je. Přistoupili jste k nim tam, kde byli, a oni vám vyšli vstříc. Řeknu vám, co se stalo potom."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {
+            "name": "Dispečink",
+            "avatar": "📻"
+        },
+        "eli": {
+            "name": "Eli (17, mluvčí skupiny)",
+            "avatar": "🧑‍🎤"
+        },
+        "nela": {
+            "name": "Nela (16, tichá pozorovatelka)",
+            "avatar": "👩‍🦰"
+        },
+        "krystof": {
+            "name": "Kryštof (17, otec v nemocnici)",
+            "avatar": "😠"
+        },
+        "jarda": {
+            "name": "Jarda (16, zveřejnil video)",
+            "avatar": "😒"
+        },
+        "mrs_kovar": {
+            "name": "Paní Kovářová (návštěvnice parku)",
+            "avatar": "👵"
+        },
+        "officer": {
+            "name": "Vy (strážník)",
+            "avatar": "👮"
+        },
+        "instructor": {
+            "name": "Seržantka Benešová",
+            "avatar": "👮‍♀️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Vynikající práce s mládeží!",
+            "emoji": "🌟",
+            "feedback": "Prokázali jste výjimečné dovednosti v každé dimenzi deeskalace zaměřené na mládež. Váš klidný přístup zachoval důstojnost, vaše transparentnost budovala důvěru, vaše emoční inteligence vedla ke skutečnému usmíření a vaše závěrečné slovo zanechalo trvalý pozitivní dojem. Tito teenageři odešli se zásadně odlišným pohledem na policii — a to je důležité na desítky let dopředu."
+        },
+        "good": {
+            "title": "Silný výkon",
+            "emoji": "✅",
+            "feedback": "Setkání jste zvládli dobře a prokázali jste dobré instinkty pro deeskalaci a skutečný respekt k přítomným mladým lidem. Některé příležitosti k hlubšímu emočnímu zapojení nebo osobnějšímu závěru byly propásnuty, ale celkově byl váš přístup profesionální, férový a efektivní."
+        },
+        "average": {
+            "title": "Přiměřená reakce",
+            "emoji": "📊",
+            "feedback": "Situaci jste vyřešili bez výrazné eskalace, ale několik příležitostí ke smysluplnému propojení bylo propásnuto. Projděte si techniky emoční validace, vedených omluv a společného řešení problémů s mládeží. Technický výsledek byl přijatelný, ale vztahový výsledek by mohl být výrazně silnější."
+        },
+        "poor": {
+            "title": "Vyžaduje výrazné zlepšení",
+            "emoji": "⚠️",
+            "feedback": "Váš přístup zvýšil napětí a poškodil vztah mezi těmito mladými lidmi a orgány činnými v trestním řízení. Hrozby, odmítavost a autoritářský jazyk jsou u teenagerů obzvlášť kontraproduktivní, protože jsou vývojově nastaveni bránit se vnímané nespravedlnosti. Projděte si principy práce s mládeží, základy deeskalace a dlouhodobé komunitní náklady negativních setkání policie s mladistvými."
+        }
+    },
+    "metrics": {
+        "youthEngagement": {
+            "name": "Práce s mládeží",
+            "description": "Používání komunikace přiměřené věku, jmen a respektu k budování důvěry s mladými lidmi",
+            "icon": "🧑‍🤝‍🧑"
+        },
+        "proceduralFairness": {
+            "name": "Procedurální spravedlnost",
+            "description": "Vysvětlení vaší přítomnosti, naslouchání všem stranám a transparentní a nestranné uplatňování pravidel",
+            "icon": "⚖️"
+        },
+        "emotionalIntelligence": {
+            "name": "Emoční inteligence",
+            "description": "Rozpoznávání, validace a práce s emocemi místo jejich potlačování nebo odmítání",
+            "icon": "💚"
+        },
+        "proportionateResponse": {
+            "name": "Přiměřená reakce",
+            "description": "Přizpůsobení úrovně zásahu skutečné závažnosti situace bez přehnaného nebo nedostatečného reagování",
+            "icon": "📏"
+        },
+        "communityRelations": {
+            "name": "Vztahy s komunitou",
+            "description": "Vyvažování potřeb všech zainteresovaných stran — teenagerů, návštěvníků parku a širší komunity — při budování dlouhodobé důvěry",
+            "icon": "🏘️"
+        }
+    }
+}

@@ -1,0 +1,366 @@
+{
+    "scenarioId": 2,
+    "reviewVersion": "2.0",
+    "title": "Apžvalga — Hostelio triukšmo skundo derybos",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Atvykimas į hostelį",
+            "criticalSkills": ["Žvalgybos informacijos rinkimas prieš įsitraukimą", "Situacijos vertinimas per personalo instruktažą", "Atsparumas skubos šališkumui ne skubaus triukšmo iškvietimuose"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Paklauskite Martos pagrindinių papildomų klausimų: Ar hostelis turi paskelbtą triukšmo politiką ar ramybės valandas? Kokia grupės išsiregistravimo data? Ar jie visi viename kambaryje? Ar kas nors grupėje buvo agresyvus, ar tik garsus? Ko konkrečiai nori verslininkas?",
+                    "strengths": ["Nustato, ar vykdote vidaus taisykles, ar viešosios tvarkos įstatymą — iš esmės skirtingi įgaliojimai", "Išsiregistravimo data atskleidžia, ar tai vienos nakties, ar pasikartojanti problema", "Skirtumas tarp 'agresyvus' ir 'garsus' kalibruoja visą jūsų požiūrį", "Verslininko konkretaus reikalavimo supratimas neleidžia daryti prielaidų", "Dvi minutės pasiruošimo sutaupo dvidešimt minučių koregavimo"],
+                    "professionalImpact": "Žinodami triukšmo politiką, išsiregistravimo datą ir grupės dinamiką, kiekvieną paskesnį sprendimą galite priimti informuotai ir kalibruotai."
+                },
+                "partially_positive": {
+                    "choiceText": "Padėkokite Martai už skambutį ir patikinkite, kad pasirūpinsite. Paprašykite nurodyti kelią į bendrą kambarį, kad galėtumėte įvertinti situaciją ir prisistatyti grupei.",
+                    "adequate": ["Profesionalu ir nuramina strese esančią registratūros darbuotoją", "Rodo reagavimą ir veiksmų orientaciją"],
+                    "missed": ["'Pasirūpinsiu' sukuria neapibrėžtą lūkestį, kurio galbūt negalėsite patenkinti", "Nebuvo klausimų apie ramybės valandas, politikas ar konkrečius skundus", "Einate su gerais ketinimais, bet plona informacija", "Informacijos rinkimas skrydyje kambaryje geriančių žmonių yra sunkesnis nei paklausinėjimas Martos"],
+                    "improvement": "Nuraminimas yra geras — bet sujunkite jį su konkrečiais klausimais. Dvi minutės su Marta suteikia politikos rėmą, grupės dinamiką ir skundėjų lūkesčius, kurių reikia eiti pasirengus."
+                },
+                "neutral": {
+                    "choiceText": "Eikite tiesiai į bendrą kambarį konfrontuoti grupę. Kuo greičiau kreipsitės į triukšmo šaltinį, tuo greičiau tai bus išspręsta.",
+                    "adequate": ["Ryžtingas veiksmas triukšmo šaltinio link", "Rodo norą tiesiogiai įsitraukti"],
+                    "missed": ["Įeinate į kambarį švenčiančių, geriančių žmonių kaip neinformuota valdžios figūra", "Nežinote hostelio triukšmo politikos, Martos įgaliojimų, kalbos barjerų ar grupės dinamikos", "Greitis atrodo efektyvus, bet kainuoja pasiruošimą", "Pirmas įspūdis — pareigūnas, atėjęs ieškoti problemų"],
+                    "improvement": "Praleiskite dvi minutes su Marta sužinodami politikos rėmą, grupės sudėtį ir skundėjų lūkesčius. Pasiruošimas nėra vėlavimas — tai efektyvaus įsitraukimo pagrindas."
+                },
+                "negative": {
+                    "choiceText": "Pasakykite Martai, kad tai iš tikrųjų vadovybės reikalas — ji turėtų toliau bandyti pasiekti savo vadovę ir tvarkyti tai kaip vidinį hostelio klausimą. Jūs negalite vykdyti privačių triukšmo taisyklių.",
+                    "failures": ["Atmetėte teisėtą pagalbos prašymą nuo žmogaus, kuris išnaudojo savo galimybes", "Palikote Martą įstrigusią su blogėjančia situacija ir nepasiekiama vadove", "Ignoravote, kad triukšmas po 23 val. gali patekti į savivaldybės nutarimus", "Pakenkėte pasitikėjimui policijos reagavimu būsimiems iškvietimams"],
+                    "consequences": "Atsitraukimas nuo žmogaus, kuris paprašė pagalbos, užtikrina blogesnę situaciją, kai policija neišvengiamai iškviečiama vėl. Po dvidešimties minučių ponas Kimura skambina pats, piktesnis, ir kitas ekipažas randa pablogėjusią sceną.",
+                    "trainingFocus": "Peržiūrėkite jurisdikcinį sąmoningumą ir teisėtų pagalbos prašymų atmetimo kainą. Net kai jurisdikcija dalijamasi su privačia vadovybe, prisiimkite atsakomybę už situaciją, į kurią buvote išsiųsti."
+                }
+            },
+            "keyLearningPoints": ["Hostelio ir bendros erdvės iškvietimuose vietos politikos žinojimas nulemia jūsų teisinį autoritetą", "Skirtumo tarp 'garsus' ir 'agresyvus' supratimas iš esmės keičia jūsų požiūrį", "Dvi minutės žvalgybos informacijos rinkimo iš personalo apsaugo nuo dvidešimties minučių klaidų taisymo", "Skubėjimas prie triukšmo šaltinio be pasiruošimo prarandamas kiekvieną taktinį pranašumą"]
+        },
+        "2": {
+            "stageName": "Skundėjas",
+            "criticalSkills": ["Tikrųjų poreikių atskyrimas nuo pareikštų reikalavimų", "Aktyvus klausymasis su empatija esant spaudimui", "Lūkesčių valdymas neįsipareigojant konkretiems rezultatams"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Kalbėkite ramiai ir pagarbiai, atitinkant jo formalumą: 'Pone Kimura, puikiai suprantu — prarasti miegą prieš svarbią prezentaciją yra itin frustruojantis dalykas, ir jūs teisus tikėdamasis ramybės šią valandą. Noriu, kad žinotumėte, jog rimtai vertinu jūsų skundą ir asmeniškai juo pasirūpinsiu. Prieš tai leiskite paklausti: ar jūsų pagrindinis rūpestis yra triukšmo sustabdymas, ar jums konkrečiai reikia, kad grupė būtų pašalinta? Nes gali būti daugiau nei vienas būdas tai išspręsti. Grįšiu prie jūsų durų po to, kad patvirtinčiau, jog situacija išspręsta.'",
+                    "strengths": ["Autentiškai patvirtina frustraciją — prezentacijos paminėjimas rodo aktyvų klausymąsi", "'Jūs teisus tikėdamasis ramybės šią valandą' patvirtina jo poziciją neįsipareigojant jo konkrečiam reikalavimui", "Pagrindinis klausimas atskiria jo poreikį (miegas) nuo siūlomo sprendimo (iškeldinimu)", "Dauguma žmonių supykę sumaišo poreikį ir sprendimą — šis klausimas juos atskiria", "Praplečia sprendimų erdvę nuo vieno varianto iki daugelio"],
+                    "professionalImpact": "Poreikių atskyrimas nuo reikalavimų praplečia jūsų sprendimų erdvę, o kultūrinis jautrumas kuria pasitikėjimą, kuris pranoksta kalbos barjerus."
+                },
+                "partially_positive": {
+                    "choiceText": "Tvirtai linktelėkite: 'Girdžiu jus, pone Kimura. Tai nepriimtina. Iš karto eisiu ten ir pasirūpinsiu, kad tai liautųsi.'",
+                    "adequate": ["Patvirtinantis ir ryžtingas — ponas Kimura jaučiasi išgirstas", "Rodo skubumą ir įsipareigojimą veiksmui"],
+                    "missed": ["'Iš karto' yra pažadas, kurio galbūt negalėsite ištesėti", "Jei derybos užtrunka dvidešimt minučių, pono Kimura kantrybė baigiasi pagal jūsų pačių terminą", "Vienpusis požiūris prieš išgirstant kitą pusę", "Trumpalaikis nuraminimas pakeistas į griežtesnį apribojimą jūsų požiūriui"],
+                    "improvement": "Įsipareigokite procesui, ne greičiui. 'Iš karto tuo užsiimsiu' perduoda skubumą nepažadant konkretaus termino, kuris apriboja jūsų derybas."
+                },
+                "neutral": {
+                    "choiceText": "Paaiškinkite: 'Pone Kimura, suprantu, kad tai frustruojantis. Tačiau turiu būti skaidrus — svečių pašalinimas iš privačios įstaigos nėra policijos sprendimas, tai hostelio vadovybės. Ką galiu padaryti — pakalbėti su grupe dėl triukšmo. Bet iškeldinimas yra tarp jūsų ir hostelio.'",
+                    "adequate": ["Techniškai tikslu dėl iškraustymo įgaliojimų", "Sąžininga ir skaidru dėl apribojimų"],
+                    "missed": ["Pradėti nuo to, ko negalite, jaučiasi kaip biurokratinis išsisukinėjimas nemigusiam vyrui", "Jam nerūpi jurisdikcinės ribos — jam rūpi miegas", "Adresavo jo pareikštą reikalavimą, bet ignoravo tikrąjį poreikį", "Žmogui iš kultūros, kur policijos pagalbos prašymas jau reikalavo diskomforto įveikimo, būti atsisakytam jaučiasi kaip veido praradimas"],
+                    "improvement": "Pradėkite nuo empatijos ir to, ką darysite, o ne nuo procedūrinių apribojimų. Adresuokite poreikį (ramybė) prieš aptardami savo įgaliojimų ribas dėl reikalavimo (iškeldinimu)."
+                },
+                "negative": {
+                    "choiceText": "Pasakykite jam: 'Pone, vertinu jūsų frustraciją, bet čia hostelis — bendros erdvės ir šioks toks triukšmas yra neišvengiami. Gal galėtumėte pabandyti ausines? Paprašysiu grupės elgtis tyliau, bet negaliu garantuoti tylos.'",
+                    "failures": ["Siūlyti ausines žmogui, kuris nemiegojo tris valandas, yra atmestina ir žeminanti", "'Čia hostelis' pasako mokančiam svečiui, kad jo skundas negalioja dėl to, kur apsistojo", "Palaikėte triukšmadarių pusę dar jų nesutikę", "Ponas Kimura konkrečiai užsisakė privatų kambarį ir yra po hostelio ramybės valandų — jo skundas teisėtas"],
+                    "consequences": "Ponas Kimura sako tyliu įtūžiu: 'Rašysiu jūsų skyriui ir hostelio vadovybei. Labanakt, pareigūne.' Praradote suinteresuotos šalies pasitikėjimą per trisdešimt sekundžių ir sukėlėte jam veido praradimą.",
+                    "trainingFocus": "Peržiūrėkite kultūrinio jautrumo principus ir teisėtų nusiskundimų atmetimo kainą. Patvirtinkite skundą — jis yra teisėtas."
+                }
+            },
+            "keyLearningPoints": ["Žmogaus tikrojo poreikio atskyrimas nuo pareikšto reikalavimo yra galingiausias derybų įrankis", "Pradėti nuo empatijos prieš procedūrinius apribojimus kuria pasitikėjimą; atvirkštinė tvarka jį griauna", "Teisėto skundo atmetimas — net švelniai — kainuoja suinteresuotos šalies bendradarbiavimą", "Greičio pažadėjimas, kad patenkintumėte nusiminusį žmogų, apriboja jūsų galimybę rasti apgalvotą sprendimą"]
+        },
+        "3": {
+            "stageName": "Bendras kambarys",
+            "criticalSkills": ["Profesinių ribų palaikymas esant socialiniam spaudimui", "Buvimo užtikrinimas be konfrontacijos", "Grupės dinamikos skaitymas ir pagrindinių veikėjų identifikavimas"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Įeikite, nepaimkite alaus, bet išlaikykite šiltą ir atpalaiduotą toną: 'Ha — vertinu svetingumą, Liam, bet turėsiu atsisakyti. Aš pareigūnas [vardas]. Matau, kad puikiai leidžiate vakarą.' Kalbėdami, nepastebimai apžvelkite kambarį — suskaičiuokite butelius, patikrinkite akis ir koordinaciją, pastebėkite, kas yra adekvatus, o kas ne. Tada: 'Aš čia ne tam, kad ką nors uždarinėčiau — bet man reikia minutės jūsų laiko, nes yra situacija, kurią turime išspręsti. Ar kas nors galėtų prislopinti muziką, kad galėtume vienas kitą girdėti?'",
+                    "strengths": ["Atsisakymas alaus aiškiai, bet be konfrontacijos", "Liam vardo naudojimas (iš Martos informacijos) rodo pasiruošimą ir personalizuoja sąveiką", "Vizualinis alkoholio vertinimas kalbant šiltai yra procedūrinis įgūdis, ne paranoja", "'Aš čia ne tam, kad ką nors uždarinėčiau' sumažina grupės gynybą", "Prašymas prislopinti muziką tikrina norą bendradarbiauti", "Šiltas atsisakymas išlaiko ir ribas, ir ryšį vienu metu"],
+                    "professionalImpact": "Nekonfrontacinis alkoholio vertinimas pasako, kas gali apdoroti sudėtingus nurodymus, o kam reikia paprastesnės komunikacijos — o Liam vardo žinojimas pakeičia dinamiką iš anoniminės valdžios į asmeninį kontaktą."
+                },
+                "partially_positive": {
+                    "choiceText": "Visiškai ignoruokite Liam teatrališkumą. Eikite pro jį prie ramesnės moters prie lango, kuri atrodo protingesnė, ir pradėkite pokalbį su ja.",
+                    "adequate": ["Bendradarbiaujančio asmens identifikavimas yra taktiškai protingas", "Vengiate įsitraukti į Liam pasirodymą"],
+                    "missed": ["Grupės socialinio lyderio aplenkimas yra viešas pažeminimas prieš jo draugus", "Liam eskaluos, kad atstatytų savo statusą — 'Ei, aš su jumis kalbu, drauge'", "Grupės dinamika reikalauja, kad pirma trumpai įsitrauktumėte su lyderiu", "Pro jį praėjimas paverčia linksmaprotį triukšmadario tipo žmogų kažkuo, kas jaučiasi nepagerbtas"],
+                    "improvement": "Pirmiausia trumpai ir šiltai įsitraukite su socialiniu lyderiu, tada praplėskite pokalbį įtraukdami bendradarbiaujančius balsus. Statuso dinamikos aplenkimas grupinėse situacijose atsimuša."
+                },
+                "neutral": {
+                    "choiceText": "Paimkite alų žaismingai ir padėkite: 'Viliojanti, bet aš tarnyboje. Klausykite, matau, kad gerai leidžiate laiką — bet gavau skundų dėl triukšmo ir turime apie tai pakalbėti.'",
+                    "adequate": ["Humoras sukuria atpalaiduotą įėjimą", "Padėjimas rodo, kad iš tikrųjų nepriimate"],
+                    "missed": ["Alaus paėmimas — net tam, kad padėtumėte — peržengia profesinę ribą", "Grupė mato pareigūną, priimantį gėrimą iš žmogaus, dėl kurio reaguojate", "Liam stumtels toliau, nes ankstyvus lankstumas signalizavo, kad autoritetas neprivalomas", "Autoritetas pradeda erozuoti pirmąsias trisdešimt sekundžių", "Visiškai praleistas grupės girtumo lygio vertinimas"],
+                    "improvement": "Profesinės ribos labiausiai svarbios pirmaisiais susitikimo momentais. Atsisakykite aiškiai, bet šiltai — 'vertinu pasiūlymą, bet atsisakau' — neliesdami gėrimo."
+                },
+                "negative": {
+                    "choiceText": "Atsistokite tarpduryje su griežtu veido išraiška: 'Niekas šį vakarą daugiau negeria. Išjunkite tą muziką iš karto. Gavau daugybę skundų ir jūs pažeidžiate ramybės valandas. Tai jūsų vienintelis įspėjimas.'",
+                    "failures": ["Maksimalus autoritetas su nuliniu ryšiu — sukelia grupinę gynybą", "Šeši gėrę žmonės susivienija prieš jus kaip bendrą priešą", "'Jūsų vienintelis įspėjimas' yra grasinimas, nepaliekantis vietos deryboms", "Liepti suaugusiems negert hostelio bendrame kambaryje gali viršyti jūsų įgaliojimus", "Neįvertinti girtumo lygiai — šaukti ultimatumus girtiems žmonėms yra kontraproduktyvu"],
+                    "consequences": "Kambaryje stoja tyla priešiškumo, ne paklusnumo. Rankos susikryžiuoja. Kažkas murmteli: 'Tai juokinga.' Labiausiai girtas asmuo atsistoja netvirtai: 'Negalite mums liepti, ką daryti.' Sukūrėte konfrontaciją šeši prieš vieną, kurios nereikėjo.",
+                    "trainingFocus": "Peržiūrėkite proporcingą atsaką ir ryšio svarbą prieš vykdymą grupinėse situacijose. Įėjimas su maksimaliu autoritetu ir nuliniu ryšiu sukuria grupinį solidarumą prieš jus."
+                }
+            },
+            "keyLearningPoints": ["Profesinės ribos labiausiai svarbios pirmąsias trisdešimt sekundžių — kaip tvarkote Liam alaus pasiūlymą, apibrėžia visą sąveiką", "Grupinėse situacijose turite įsitraukti su socialiniu lyderiu prieš pasiekdami bendradarbiaujančius narius", "Šiltas atsisakymas išlaiko ribas ir ryšį; griežti įsakymai sukuria grupinį solidarumą prieš jus", "Jūsų įėjimas nustato rėmą: bendra problema spręsti, ar valdžia prieš subjektus"]
+        },
+        "4": {
+            "stageName": "Ribų nustatymas",
+            "criticalSkills": ["Patvirtinimas prieš peradresavimą", "Performulavimas iš teisių konflikto į bendrą atsakomybę", "Empatijos palaikymas nustatant tvirtas ribas"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Pripažinkite jo argumentą, tada performuluokite: 'Liam, aš iš tikrųjų suprantu — paskutinis vakaras kartu, didelės kelionės pabaiga. Tai svarbu. Ir tu teisus, kad hosteliai yra socialinės vietos. Bet štai koks reikalas: ramybės valandos prasidėjo vienuoliktą, o viršuje yra žmonių, kurie irgi sumokėjo savo dvidešimt eurų ir negali miegoti. Jūsų teisės ir jų teisės nesiskiria. Todėl klausimas ne ar galite švęsti — o kaip ir kur. Aš verčiau padėčiau rasti būdą tęsti jūsų vakarą, nei jį nutraukčiau. Bet garsumas ir vieta turi pasikeisti.'",
+                    "strengths": ["Patvirtina jo emocinį kontekstą (paskutinis vakaras, kelionės pabaiga) ir loginį argumentą (hosteliai yra socialinės vietos)", "'Jūsų teisės ir jų teisės nesiskiria' yra lūžio taškas — performuluoja iš 'mes prieš juos' į bendrą atsakomybę", "'Aš verčiau padėčiau rasti būdą tęsti jūsų vakarą, nei jį nutraukčiau' pozicionuoja jus kaip sąjungininką, ne priešą", "Riba aiški (garsumas ir vieta turi pasikeisti), bet sprendimas atviras deryboms", "Vidinis grupės spaudimas pasisuka jūsų naudai — 'Jis turi reikalą, Liam'"],
+                    "professionalImpact": "Kažkieno argumento patvirtinimas prieš peradresavimą pakeičia jų norą judėti — jie jaučiasi išgirsti prieš prašant kompromiso."
+                },
+                "partially_positive": {
+                    "choiceText": "Kreipkitės į grupę, o ne tik į Liam: 'Visi — girdžiu jus ir žinau, kad tai ypatinga naktis. Bet turiu hostelį, pilną svečių, kurie negali miegoti, ir registratūros darbuotoją, kuri prašė valandas. Kažkas viršuje turi svarbų darbo įsipareigojimą 8 val. ryto. Prašau jūsų pagalbos — ką galime padaryti, kad tai veiktų visiems?'",
+                    "adequate": ["Praplėtimas už Liam sumažina jo dominavimą", "Registratūros darbuotojos ir svečio viršuje paminėjimas suhumanina skundėjus", "'Prašau jūsų pagalbos' pozicionuoja grupę kaip problemų sprendėjus"],
+                    "missed": ["Atviras klausimas šešiems žmonėms, kurie gėrė, gali duoti šešis skirtingus atsakymus", "Be pasiūlyto rėmo galite prarasti pokalbio kontrolę", "Priya pasako ką nors protingo, bet perkalbama", "Demokratizavote problemą be struktūros"],
+                    "improvement": "Praplėtimas protingas, bet pateikite rėmą: patvirtinkite, tada pasiūlykite variantus. Atviras klausimas geriančiai grupei reikalauja atramų, ne tik gerų ketinimų."
+                },
+                "neutral": {
+                    "choiceText": "Laikykitės tvirtai: 'Suprantu, kad tai jūsų paskutinis vakaras, bet taisyklės yra taisyklės. Ramybės valandos yra ramybės valandos. Jei hostelis sako 23 val., tai 23 val. Man reikia, kad muzika būtų išjungta ir balsai pritildyti. Tai nediskutuotina.'",
+                    "adequate": ["Aiški ir vykdytina riba", "Jokios dviprasmybės dėl reikalavimų"],
+                    "missed": ["'Taisyklės yra taisyklės' yra griežto autoriteto kalba, atmetanti Liam pasidalytą emocinį kontekstą", "Jis nebuvo išgirstas, todėl priešinasi stipriau", "'Nediskutuotina' uždaro visas duris — paklusnumas per prievartą, ne susitarimą", "Šventė nužudyta, ne išspręsta — gera valia sunaikinta"],
+                    "improvement": "Pripažinkite prieš vykdydami. 'Suprantu — paskutinis vakaras kartu, tai svarbu. IR ramybės valandos galioja ir kitiems svečiams.' Tas IR yra skirtumas tarp griežto ir tvirto."
+                },
+                "negative": {
+                    "choiceText": "Nusijuokite ir sutikite: 'Žinote, jūs ne taip jau neteisus — hosteliai turi būti linksmi. Štai ką — tiesiog nešūkaukite per daug, o aš pasakysiu registratūrai, kad išspręsta. Sutarta?'",
+                    "failures": ["Faktiškai palaikote triukšmadarių pusę nekritiškai sutikdami", "'Nešūkaukite per daug' nėra vykdytinas standartas — tai reiškia, ką Liam nusprendžia po kito alaus", "Pasakyti Martai 'išspręsta', kai niekas konkretaus nepasikeitė, paruošia ją daugiau skundų", "Pirmumą suteikėte norui patikti prieš efektyvumą"],
+                    "consequences": "Muzika per penkiolika minučių sugrįžta. Ponas Kimura skambina vėl. Marta įsiutusi. Kitas ekipažas randa situaciją, kurią palikote neišspręstą.",
+                    "trainingFocus": "Peržiūrėkite skirtumą tarp ryšio ir kapituliavimo — būti mėgstamam nėra tas pats, kas būti efektyviu. Galite sutikti su premisa, tuo pat metu nukreipdami elgesį."
+                }
+            },
+            "keyLearningPoints": ["Kažkieno argumento patvirtinimas prieš peradresavimą nėra sutikimas su jų elgesiu — tai atrakina jų norą judėti", "Skirtumas tarp griežto ('taisyklės yra taisyklės') ir tvirto ('suprantu IR taisyklės galioja visiems') transformuoja pasipriešinimą į bendradarbiavimą", "Atviri klausimai grupėms reikalauja struktūros; be rėmo demokratinė diskusija virsta chaosu", "Būti mėgstamam nėra tas pats, kas būti efektyviu — neapibrėžtos nuolaidos išsisklaido per minutes"]
+        },
+        "5": {
+            "stageName": "Vidurio kelio paieška",
+            "criticalSkills": ["Bendradarbiaujančių grupės narių įgalinimas", "Bendradarbiaujantis problemų sprendimas su kūrybiškomis alternatyvomis", "Konstruktyvaus elgesio apdovanojimas tvarkant grupės dynamiką"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Įtraukite Priya kaip partnerę: 'Priya, ačiū — tai būtent toks mąstymas, kuris padeda. Minėjote barą ar kiemą. Leiskite patikrinti su registratūros darbuotoja dėl kiemo — jei jis prieinamas ir toli nuo miegamųjų, tai galėtų būti tarpinis sprendimas. Arba jei šalia yra naktinis baras, tai kita galimybė. Liam, ką manai — ar jūsų grupė tam pritartų?'",
+                    "strengths": ["Priya iškėlimas apdovanoja bendradarbiaujantį elgesį ir perkelia socialinį spaudimą grupės viduje", "Patikrinimas su Marta dėl kiemo rodo kruopštumą, o ne pažadų davimą", "Dviejų variantų (kiemo ar baro) pasiūlymas suteikia grupei veikimą", "Peradresavimas Liam jo nuomonei grąžina jį be konfrontacijos — jis gali pasakyti 'taip', o ne paklusti", "Vadovėlinis bendradarbiaujantis problemų sprendimas"],
+                    "professionalImpact": "Bendradarbiaujančio grupės nario įgalinimas perkelia socialinį spaudimą efektyviau nei pasipriešinusio konfrontavimas. Socialinis leidimas iš bendraamžio pasiekia tai, ko pareigūno autoritetas negali — veido saugantį paklusnumą."
+                },
+                "partially_positive": {
+                    "choiceText": "Iš karto priimkite kompromisą: 'Puiki idėja, Priya. Darykim kiemą. Liam, griebk garsiakalbį ir butelius — galite tęsti vakarėlį ten. Problema išspręsta.'",
+                    "adequate": ["Ryžtinga ir orientuota į sprendimą", "Priskiriama Priya idėja"],
+                    "missed": ["Pasižadėjote dėl kiemo nepatikrinę, ar jis šalia miegamųjų", "Vienašalis leidimas 'tęsti vakarėlį' lauke gali pažeisti triukšmo nutarimus", "Greitis jaučiasi gerai, bet praleidžia patikrinimą", "Jei kiemas po svečių langais, perkėlėte triukšmą, bet neišsprendėte"],
+                    "improvement": "Patikrinkite prieš įsipareigodami. 'Leiskite pasitikrinti su Marta dėl kiemo išplanavimo' kainuoja trisdešimt sekundžių ir apsaugo nuo tos pačios problemos sprendimo du kartus."
+                },
+                "neutral": {
+                    "choiceText": "Pripažinkite Priya, tada susikoncentruokite į praktiką: 'Priya, vertinu tai. Štai ką pasiūlyčiau — gal visi galėtumėte pradėti baigti čia? Baikite gėrimus, bet daugiau muzikos bendrame kambaryje šiai nakčiai. Jei norite toliau tyliai pasikalbėti — gerai, bet dainavimas ir garsiakalbis turi būti baigti.'",
+                    "adequate": ["Protinga ir nuosaiki", "'Baikite gėrimus' humaniška, 'daugiau muzikos ne' nustato aiškią ribą"],
+                    "missed": ["Iš dalies ignoravote Priya kūrybiškus pasiūlymus — barą, kiemą", "Iš karto perėjimas į apribojimų režimą pasirenka apribojimą vietoj perkėlimo", "Grupė gauna mažiau nei Priya pasiūlė — jaučiasi kaip nesąžiningos derybos", "'Tyliai kalbėtis' šešiems žmonėms po kelių alų yra siekinys, ne realybė"],
+                    "improvement": "Kai siūloma kūrybiška alternatyva, ištirkite ją prieš numatydami apribojimą. Perkėlimas išsaugo šventę ir sprendžia triukšmo problemą — apribojimas tik ją laikinai slopina."
+                },
+                "negative": {
+                    "choiceText": "Nukirskite derybas: 'Klausykite, paprasčiausias sprendimas toks — vakarėlis šiai nakčiai baigtas. Susirinkite, eikite į savo kambarius, pamiegokite. Turėjote gerą vakarą. Vidurnaktis. Laikas baigti.'",
+                    "failures": ["Bendradarbiaujantis grupės narys siūlė kūrybiškus sprendimus ir jūs aplenkėte ją įsakymu", "Priya prisiėmė socialinę riziką pasisakydama prieš savo grupės lyderį — ignoruodami ją baudžiate būtent tą elgesį, kurį norite skatinti", "'Vakarėlis baigtas' neproporcinga, kai alternatyvos egzistuoja ir yra siūlomos jums", "Pasirinkote aukščiausio autoriteto atsaką, kai žemesnio autoriteto variantai buvo prieinami"],
+                    "consequences": "Priya veidas nušvinta nusivylimu — ji iškišo kaklą be reikalo. Liam praranda savitvardą. Grupė susivienija prieš jus. Praradote ir pasipriešinusį, ir bendradarbiaujantį narius vienu sakiniu.",
+                    "trainingFocus": "Kai kažkas siūlo konstruktyvų sprendimą, statykite ant jo. Priya aplenkimas įsakymu pasako kiekvienam bendradarbiaujančiam žmogui kambaryje, kad pasisakymas yra beprasmis."
+                }
+            },
+            "keyLearningPoints": ["Bendradarbiaujančių grupės narių įgalinimas efektyvesnis nei pasipriešinusių konfrontavimas", "Kai siūloma kūrybiška alternatyva, ištirkite ją — jos aplenkimas baudžia elgesį, kurio norite", "Patikrinkite sprendimus prieš jiems įsipareigodami — nepatikrintas kiemas gali atkurti problemą", "Socialinis leidimas iš bendraamžių pasiekia tai, ko pareigūno autoritetas negali — veido saugantį paklusnumą"]
+        },
+        "6": {
+            "stageName": "Susitarimo užtikrinimas",
+            "criticalSkills": ["Aiškių variantų struktūrizavimas su konkrečiais parametrais", "Susitarimų užfiksavimas su konkrečiomis detalėmis ir terminais", "Geros valios palaikymas derybų uždarymo momentais"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Išdėstykite aiškias, konkrečias sąlygas: 'Štai ką pasiūlyčiau. Variantas A: kiemas prieinamas ir jis toli nuo miegamųjų — galite pasiimti gėrimus ir kalbėtis ten, bet be garsiakalbio ir balsai pokalbio lygyje. Variantas B: baras Naktinė pelėda yra du kvartalai ta kryptimi — ten galite būti tokie garsūs, kokie norite, ir jis dirba visą naktį. Bet kokiu atveju, bendras kambarys turi būti ištuštintas ir tylus per artimiausias dešimt minučių. Liam, Priya — koks jūsų pasirinkimas?'",
+                    "strengths": ["Du aiškūs variantai su apibrėžtais parametrais — konkretu ir struktūruota", "Dešimties minučių terminas konkretus, ne atviras", "Abiejų — Liam ir Priya — įvardijimas padalija lyderystę", "Kiemo variantas turi aiškią sąlygą (be garsiakalbio, pokalbio lygis)", "Baro variantas pateiktas kaip privalumas ('tokie garsūs, kokie norite')", "Pavertėte vykdymo susitikimą į struktūruotą pasirinkimą"],
+                    "professionalImpact": "Konkretūs, struktūruoti pasirinkimai su aiškiais parametrais sukuria save vykdančius susitarimus, nes visi tiksliai žino, ko tikimasi."
+                },
+                "partially_positive": {
+                    "choiceText": "Tvirtai laikykitės dėl baro: 'Manau, baras jūsų geriausias variantas. Kiemas vis dar yra hostelio nuosavybė ir negaliu garantuoti, kad niekas vėl nesiskųs. Jei eisite į Naktinę pelėdą, galite turėti savo vakarą be jokių apribojimų. Labai tai rekomenduočiau.'",
+                    "adequate": ["Nukreipimas į barą visiškai pašalina problemą iš hostelio", "Švariai ir efektyvu"],
+                    "missed": ["'Labai rekomenduoti' vieną variantą pašalina pasirinkimą, kurį turėtumėte siūlyti", "Kai kurie galbūt nenori leisti pinigų bare", "Jausmas, kad išstumti iš apgyvendinimo, už kurį sumokėjo, sukelia nuoskaudą", "Vienas kuprinautajas vėliau skundžiasi: 'Policija pasakė, kad negalime naudotis hosteliu'"],
+                    "improvement": "Pateikite variantus, nepasirinkite už juos. Abu — kiemas ir baras — yra galiojantys — leiskite grupei pasirinkti. Jūsų darbas — nustatyti parametrus, ne parinkti rezultatus."
+                },
+                "neutral": {
+                    "choiceText": "Laikykite paprastai: 'Tiesiog eikite į kiemą. Imkite, ką norite. Tik tyliau.'",
+                    "adequate": ["Nukreipia juos link sprendimo", "Nuolaidumas dėl jų daiktų"],
+                    "missed": ["'Tik tyliau' yra ta pati instrukcija, kurią Marta davė tris kartus — ir ji tris kartus nesuveikė", "Be konkrečių parametrų: garsiakalbio taisyklės, garsumo standarto, termino", "Šeši žmonės su alumi kieme vidurnaktį be ribų bus garsesni", "Perkėlėte problemą, bet neišsprendėte"],
+                    "improvement": "Konkretumas yra skirtumas tarp susitarimo, kuris laikosi, ir tokio, kuris sugriūva. 'Be garsiakalbio, pokalbio lygis, tik kiemas' yra vykdytina. 'Tik tyliau' — ne."
+                },
+                "negative": {
+                    "choiceText": "Pridėkite įspėjimą, kad užantspauduotumėte susitarimą: 'Gerai, kiemas ar baras, jūsų pasirinkimas. Bet turiu būti aiškus — jei mane vėl iškviestų čia šį vakarą dėl to paties, tai nebus draugiškas pokalbis kitą kartą. Bus baudos ir formalūs triukšmo pažeidimo protokolai. Supratote?'",
+                    "failures": ["Susitarimas jau formavosi — grasinimo pridėjimas nuodija gerą valią, kurią dvidešimt minučių kūrėte", "'Nebus draugiškas pokalbis kitą kartą' yra užslėptas grasinimas, performuluojantis visą sąveiką", "Žmonės labiau prisimena, kaip viskas baigiasi, nei kaip prasideda", "Ilgalaikis prisiminimas tampa grasinimas, ne sąžiningas sprendimas"],
+                    "consequences": "Kambaryje nutyla. Liam veidas surimtėja. Priya nusisuka. Grupė bendradarbiauja iš baimės, ne iš susitarimo. Liam prisimins grasinimą, ne teisingumą.",
+                    "trainingFocus": "Kai derybos sėkmingos, leiskite joms sėkmingai baigtis. Įspėjimų pridėjimas prie bendradarbiaujančio sprendimo panaikina rūpestį, kuris buvo prieš tai. Užbaikite bendradarbiavimu, ne prievarta."
+                }
+            },
+            "keyLearningPoints": ["Konkretūs, struktūruoti pasirinkimai su aiškiais parametrais sukuria save vykdančius susitarimus", "Žmonės labiau prisimena, kaip viskas baigiasi, nei kaip prasideda — baigiamieji grasinimai ištrina dvidešimt minučių geros valios", "Variantų pateikimas išsaugo veikimą; nukreipimas link jums tinkamo rezultato sukuria nuoskaudą", "Neapibrėžtos instrukcijos ('tik tyliau') ne kartą nesuveikia — konkretumas ('be garsiakalbio, pokalbio lygis') laikosi"]
+        },
+        "7": {
+            "stageName": "Ciklo užbaigimas",
+            "criticalSkills": ["Grįžtamasis ryšys su visomis suinteresuotomis šalimis", "Vietos personalo įgalinimas sisteminėmis rekomendacijomis", "Užbaigimas su orumu ir perspektyviu palaikymu"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Adresuokite Martos rūpesčius ir paruoškite ją sėkmei: 'Teisingai padarėte, kad skambinote, Marta. Grupė persikėlė — vieni į kiemą su aiškiomis sąlygomis, kiti į barą. Jei kiemo grupė pasidarys garsi, turite pagrindą paprašyti jų eiti vidun arba į savo kambarius — ir galite mums vėl paskambinti. Taip pat rekomenduočiau pasikalbėti su savo vadove dėl rašytinės triukšmo politikos su aiškiomis pasekmėmis. Tai suteiktų jums daugiau autoriteto pačiai tvarkyti tokias situacijas kitą kartą.' Tada eikite ir pasibeldkite į pono Kimura duris: 'Pone Kimura, bendras kambarys ištuštintas ir ramu. Turėtumėte galėti miegoti. Tikiuosi, jūsų prezentacija rytoj pavyks.'",
+                    "strengths": ["Užbaigia ciklą su abiem suinteresuotomis šalimis — Marta ir ponu Kimura", "Marta gauna patvirtinimą, aiškią informaciją, leidimą skambinti vėl ir sisteminį pasiūlymą", "Rašytinės triukšmo politikos rekomendavimas padeda užkirsti kelią kito penktadienio kartojimui", "Ponas Kimura gauna asmeninę informaciją, adresuojančią jo konkretų rūpestį (prezentaciją)", "Abi šalys jaučiasi matomos, išgirstos ir gerbiamos", "Pilnas grįžtamasis ryšys — ne tik šiandienos sprendimas, bet investicija į rytojų"],
+                    "professionalImpact": "Pilnas grįžtamasis ryšys su visomis suinteresuotomis šalimis — ne tik triukšmo šaltiniu — apibrėžia, ar sprendimas yra tikrai užbaigtas."
+                },
+                "partially_positive": {
+                    "choiceText": "Greitai nuraminkite Martą: 'Dabar turėtų būti gerai. Jei vėl prasidės, tiesiog skambinkite mums. Gero vakaro.' Tada išeikite nepatikrinę pono Kimura — jis pastebės tylą ir užmigs.",
+                    "adequate": ["Triukšmas sutvarkytas ir Marta turi galimybę perskambinti", "Profesionalu ir efektyvu"],
+                    "missed": ["Ponas Kimura jus asmeniškai perėmė ir pasidalijo savo pažeidžiamumu — negrįžimas palieka jį jaučiantis pamirštą", "'Jis pastebės tylą' daro prielaidą, kad jis nebuvo nerimastingas budėdamas", "Trisdešimties sekundžių beldimas nieko nekainuoja ir užbaigia žmogiškąjį ciklą", "Marta negauna jokių patarimų kitam kartui — išsprendėte šiandien neinvestuodami į rytojų"],
+                    "improvement": "Grįžkite pas kiekvieną suinteresuotą šalį, kuri tiesiogiai kreipėsi. Ponas Kimura yra trisdešimt sekundžių kelio. Martai reikia vieno pasiūlymo dėl triukšmo politikos. Abi investicijos atsiperka gerokai daugiau nei šį vakarą."
+                },
+                "neutral": {
+                    "choiceText": "Pateikite Martai informaciją ir palikite savo kontaktus: 'Situacija kol kas išspręsta. Štai kas nutiko: grupė pasidalijo tarp kiemo ir baro. Jei kiemo grupė pasidarys garsi, skambinkite mums. Patikrinsiu poną Kimura pakeliui.' Greitai, efektyviai, profesionaliai.",
+                    "adequate": ["Profesionalu ir informatyvu — Marta žino, kas nutiko", "Pono Kimura patikrinimas įtrauktas"],
+                    "missed": ["Dalykinė, o ne palaikanti — Marta valandas tvarkėsi viena", "Jokio patvirtinimo, kad ji buvo sunkioje situacijoje be vadovybės palaikymo", "Jokio pasiūlymo dėl sisteminio pagerinimo", "Profesinis adekvatumas, ne profesinis meistriškumas"],
+                    "improvement": "Pridėkite žmogiškąjį elementą. 'Teisingai padarėte, kad skambinote' patvirtina jos sprendimą. 'Rašytinė triukšmo politika suteiktų jums daugiau autoriteto kitą kartą' investuoja į ateitį. Skirtumas tarp adekvačiai ir puikiai — trisdešimt sekundžių nuoširdaus rūpesčio."
+                },
+                "negative": {
+                    "choiceText": "Pasakykite Martai: 'Jie persikėlė. Bet, sąžiningai, Marta, turėjote tai sutvarkyti prieš pasiekiant šį tašką. Turėjote tris valandas prieš kam nors išvykstant — kitą kartą būkite griežtesnė anksčiau ir jums nereikės mums skambinti.'",
+                    "failures": ["Kaltinti Martą — kuri bandė tris kartus, kurios vadovė neatsako — yra nesąžininga ir netikslu", "Ji paskambino policijai, nes išnaudojo savo galimybes, ne todėl, kad buvo tingi", "'Būkite griežtesnė' ignoruoja sistemines problemas: nėra aiškios politikos, nėra vadovybės palaikymo, nėra įgaliojimų", "Baudžiate žmogų, kuris paprašė pagalbos, už tai, kad jam reikėjo pagalbos"],
+                    "consequences": "Martos palengvėjimas išgaruoja. Ji jaučiasi kritikuojama po valandų streso. Kitą kartą kilus triukšmo problemai, ji dvejons skambinti policijai — ir situacija bus blogesnė, kai eskaluosis.",
+                    "trainingFocus": "Peržiūrėkite palaikantį bendravimą su fronto darbuotojais ir sisteminį problemų sprendimą. Patvirtinkite, nekaltinkite. Jei jos įrankiai nepakankami, padėkite jai gauti geresnius."
+                }
+            },
+            "keyLearningPoints": ["Grįžtamasis ryšys su visomis suinteresuotomis šalimis apibrėžia, ar sprendimas jaučiasi užbaigtas, ar apleistas", "Fronto darbuotojų, kurie kreipiasi pagalbos, patvirtinimas užtikrina, kad jie skambins vėl — jų kritikavimas užtikrina, kad ne", "Sisteminės rekomendacijos (triukšmo politika, vadovybės protokolai) transformuoja vieną iškvietimą į ilgalaikį pagerinimą", "Paskutinės susitikimo trisdešimt sekundžių formuoja ilgalaikį prisiminimą labiau nei prieš tai buvusios trisdešimt minučių"]
+        },
+        "8": {
+            "stageName": "Aptarimas ir atsakymas",
+            "criticalSkills": ["Savianalizė", "Pamokų integracija"],
+            "choiceAnalysis": {},
+            "keyLearningPoints": [
+                "Triukšmo skundai formuoja bendruomenės pasitikėjimą labiau nei beveik bet kuris kitas iškvietimo tipas",
+                "Suinteresuotų šalių valdymas — Marta, ponas Kimura, Liam, Priya — reikalauja aptarnauti visus neišduodant nė vieno",
+                "Tikras praktikuotas įgūdis buvo ne garsumo kontrolė, o daugiašalės derybos"
+            ]
+        }
+    },
+    "comprehensiveMetrics": {
+        "negotiationSkills": {
+            "description": "Abipusiai priimtinų sprendimų radimas per aktyvų klausymąsi, performulavimą, struktūruotus pasirinkimus ir bendradarbiaujantį problemų sprendimą, o ne įsakymus ar ultimatumus",
+            "indicators": {
+                "excellent": ["Atskyrė pono Kimura tikrąjį poreikį (miegas) nuo jo pareikšto reikalavimo (iškeldinimu)", "Patvirtino Liam argumentą prieš jį peradresuodamas — atrakinant norą judėti", "Įgalino Priya kaip bendradarbiaujantį sąjungininką, o ne konfrontavo Liam tiesiogiai", "Pateikė struktūruotus variantus su aiškiais parametrais, o ne neapibrėžtas instrukcijas", "Grupė pasirinko savo sprendimą savanoriškai — save vykdantis susitarimas"],
+                "poor": ["Kiekvieną sąveiką vertė kaip įsakymą vykdyti, o ne problemą spręsti", "Nesugebėjo atskirti poreikių nuo reikalavimų — priėmė skundus nominalia verte", "Pateikė ultimatumus, uždarančius derybų erdvę", "Neapibrėžti susitarimai ('tik tyliau'), kurie ne kartą nesuveikė", "Primetė sprendimus, o ne kūrė juos bendradarbiaujant"]
+            }
+        },
+        "culturalSensitivity": {
+            "description": "Suvokimas ir pagarba skirtingoms kultūrinėms normoms dėl triukšmo, bendravimo, autoriteto ir asmeninės erdvės tarptautiniame hostelio aplinkoje",
+            "indicators": {
+                "excellent": ["Atpažino, kad Liam australietiškas neformalumas yra kultūrinis, ne nepagarbus", "Suprato pono Kimura formalų bendravimo stilių ir profesinius statymus", "Pripažino, kad hostelio normos tikrai skiriasi nuo viešbučio lūkesčių", "Pritaikė bendravimo stilių skirtingiems kultūriniams kontekstams be stereotipizavimo", "Atpažino, kad 'kas vienam atrodo normalu, kitam atrodo nepriimtina'"],
+                "poor": ["Elgėsi su visomis šalimis identiškai be kultūrinio sąmoningumo", "Atmetė pono Kimura skundą kaip perdėtą jautrumą", "Interpretavo Liam neformalumą kaip asmeninę nepagarbą, reikalaujančią autoritarinio atsako", "Neatpažino, kad kultūriniai lūkesčiai dėl triukšmo ir bendravimo labai skiriasi", "Taikė vieną bendravimo stilių neatsižvelgdamas į auditoriją"]
+            }
+        },
+        "proportionateResponse": {
+            "description": "Intervencijos lygio pritaikymas tikrajam sunkumui — naudojant minimalų autoritetą, reikalingą sprendimui triukšmo skunde, ne smurtiniame nusikaltime",
+            "indicators": {
+                "excellent": ["Kalibravo atsaką pagal tikrąją situaciją: garsi šventė, ne nusikalstama veikla", "Ištyrė perkėlimą prieš apribojimą, apribojimą prieš iškraustymą", "Naudojo pokalbį ir derybas prieš pasitelkdamas autoritetą", "Nubrėžė aiškią ribą tarp teisėto skundo (triukšmas) ir neproporcingo reikalavimo (iškraustymą)", "Pasirinko žemiausio autoriteto atsaką, pasiekiantį rezultatą"],
+                "poor": ["Triukšmo skundą tvarkė tokiu pat intensyvumu kaip smurtinį incidentą", "Iš karto šoko prie maksimalaus vykdymo (grasinimai, baudos, iškraustymas) neištyrę alternatyvų", "Uždraudė alkoholį ar muziką neįvertinę, ar perkėlimas išspręstų problemą", "Eskalavo autoritetą, kai situacija reikalavo deeskalacijos", "Pateikė formalius įspėjimus pirmo kontakto, nenusikaltiminiame kontekste"]
+            }
+        },
+        "stakeholderManagement": {
+            "description": "Visų paveiktų šalių įtraukimas — kuprinautojų grupės, pono Kimura ir Martos — užtikrinant, kad kiekviena jaustųsi išgirsta, adresuota ir sulaukusi grįžtamojo ryšio",
+            "indicators": {
+                "excellent": ["Rinko žvalgybinę informaciją iš Martos prieš įsitraukimą", "Atskyrė pono Kimura poreikį nuo reikalavimo per aktyvų klausymąsi", "Įsitraukė ir su grupės lyderiu (Liam), ir su bendradarbiaujančiu balsu (Priya)", "Suteikė grįžtamąjį ryšį ir Martai, ir ponui Kimura po sprendimo", "Pateikė sistemines rekomendacijas pasikartojimui užkirsti"],
+                "poor": ["Susitelkė tik į vieną šalį, apleisdamas kitas", "Negrįžo pas poną Kimura po triukšmo pašalinimo", "Kaltino Martą, o ne patvirtino jos pastangas", "Ignoravo Priya konstruktyvų indėlį", "Išsprendė neatidėliotiną problemą neadresuodamas jokios suinteresuotos šalies ilgalaikių rūpesčių"]
+            }
+        },
+        "professionalBoundaries": {
+            "description": "Tinkamo pareigūno elgesio palaikymas — socialinių pasiūlymų atsisakymas, šališkumo vengimas ir šilumos bei autoriteto balansavimas aplinkoje, kviečiančioje į neformalumą",
+            "indicators": {
+                "excellent": ["Atsisakė Liam alaus pasiūlymo šiltai, bet tvirtai — riba palaikyta be konfrontacijos", "Palaikė nuoseklų profesionalumą su visomis šalimis, nepaisant jų tono", "Balansavo šilumą su autoritetu — prieinamas, bet nemanipuliuojamas", "Vengė atvirai palaikyti bet kurios pusės — skundėjo ar triukšmo šaltinio", "Užbaigė susitikimą profesionaliai be grasinimų ar performatyvių įspėjimų"],
+                "poor": ["Priėmė ar palietė siūlomą alų — profesinė riba peržengta", "Perėmė Liam laisvą toną iki autoriteto praradimo taško", "Atvirai palaikė vieną pusę — arba atmesdamas poną Kimura, arba bausdamas grupę", "Pridėjo grasinimus ar įspėjimus po sėkmingų derybų, pakirdamas gerą valią", "Kritikavo Martą, o ne ją palaikė — paversdamas sąjungininkę auka"]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "preparationSkipping": {
+            "pattern": "Skubėjimas prie triukšmo šaltinio nesurinkus žvalgybinės informacijos iš prieinamo personalo",
+            "examples": ["Ėjimas tiesiai į bendrą kambarį nepaklausus Martos apie ramybės valandas ar politikas", "Nesužinojimas, ar grupė buvo agresyvi, ar tik garsi", "Įėjimas nežinant skundėjo konkrečių poreikių", "Nepaklausimas apie grupės išsiregistravimo datą ar kambario išdėstymą"],
+            "impact": "Kiekvienas paskesnis sprendimas priimamas su mažiau informacijos, nei buvo laisvai prieinama. Įeinate į kambarį geriančių žmonių kaip neinformuota valdžios figūra, o jūsų pirmas įspūdis signalizuoja pareigūną, ieškantį problemų, o ne sprendimo.",
+            "correction": "Dvi minutės su Marta suteikia politikos rėmą, grupės sudėtį, skundėjų lūkesčius ir vietos išplanavimą. Ši investicija atsiperka kiekviename paskesniame etape."
+        },
+        "boundaryErosion": {
+            "pattern": "Socialinio spaudimo iš grupės leidimas pakenkti profesinėms riboms ir autoritetui",
+            "examples": ["Siūlomo alaus paėmimas ar palietimas, net tam, kad padėtumėte", "Per lengvas sutikimas su Liam 'hosteliai skirti smagumui' argumentu be peradresavimo", "'Nešūkaukite per daug' priėmimas kaip vykdytinas standartas", "Pirmumą suteikiant būti mėgstamu, o ne efektyviu visoms suinteresuotoms šalims"],
+            "impact": "Kai riba sušvelnėja, grupė kiekvieną paskesnę ribą suvokia kaip derybų objektą. Liam spaudžia stipriau, nes ankstyvas lankstumas signalizavo, kad autoritetas neprivalomas. Sprendimas išsisklaido per minutes, nes buvo paremtas socialiniu pritarimu, ne aiškiu susitarimu.",
+            "correction": "Atsisakykite šiltai, bet aiškiai. Galite būti draugiškas nebūdamas draugu. Ribos, palaikomos šiltai, gerbiamos labiau nei ribos, palaikomos agresyviai — bet jos turi būti palaikomos."
+        },
+        "cooperativeVoiceIgnoring": {
+            "pattern": "Negebėjimas identifikuoti ar įgalinti bendradarbiaujančių asmenų grupėje",
+            "examples": ["Priya aplenkimas, kad dirbtumėte tik su Liam", "Priya kiemo ar baro pasiūlymo aplenkimas įsakymu baigti vakarėlį", "Neperskirsimas Liam jo nuomonei po to, kai Priya pasiūlė alternatyvas", "Grupės traktavimas kaip monolito, o ne individualių asmenų rinkinio su skirtingomis nuostatomis"],
+            "impact": "Priya prisiėmė socialinę riziką pasisakydama prieš savo grupės lyderį. Ignoruodami jos indėlį baudžiate būtent tą elgesį, kurį norite skatinti. Ateities bendradarbiaujantys balsai sužino, kad pasisakymas yra beprasmis. Tuo tarpu tik pasipriešinusio nario konfrontavimas suvienija grupę prieš jus.",
+            "correction": "Identifikuokite bendradarbiaujantį balsą, viešai iškeldami jų indėlį, ir statykite savo sprendimą ant jų rėmo. Socialinis leidimas iš bendraamžio pasiekia tai, ko pareigūno autoritetas negali — veido saugantį paklusnumą."
+        },
+        "goodwillPoisoning": {
+            "pattern": "Grasinimų ar įspėjimų pridėjimas prie sėkmingų derybų, pakertant gerą valią, kuri jas įgalino",
+            "examples": ["'Jei mane vėl iškviestų, nebus draugiškas pokalbis kitą kartą'", "'Bus baudos ir formalūs triukšmo pažeidimo protokolai'", "Užslėpto grasinimo pridėjimas, kai grupė jau bendradarbiauja", "Baigiamosios vykdymo kalbos naudojimas po dvidešimties minučių bendradarbiaujančio sprendimo"],
+            "impact": "Žmonės labiau prisimena, kaip viskas baigiasi, nei kaip prasideda. Baigiamasis grasinimas performuluoja visą susitikimą kaip įspėjimą, o ne kaip bendradarbiavimą. Grupė bendradarbiauja iš baimės, ne iš susitarimo. Liam prisimins grasinimą, ne teisingumą. Ilgalaikis įspūdis yra prievarta, ne kompetencija.",
+            "correction": "Kai derybos sėkmingos, leiskite joms sėkmingai baigtis. Užbaikite susitarimu, ne tuo, kas nutiks, jei jis nebus laikomasi. Pasitikėkite procesu, kurį sukūrėte, o ne drausdami jį bauginimu."
+        },
+        "incompleteFollowUp": {
+            "pattern": "Neatidėliotino triukšmo sprendimas neužbaigiant ciklo su visomis suinteresuotomis šalimis",
+            "examples": ["Išėjimas nepatikrinę pono Kimura po to, kai jis pasidalijo savo pažeidžiamumu", "Martos sprendimo skambinti nepatvirtinimas ar sisteminių patarimų nepasiūlymas", "Martos kaltinimas, kad pati nesutvarkė situacijos", "Triukšmo išsprendimas be hostelio trūkstamos triukšmo politikos adresavimo"],
+            "impact": "Ponas Kimura guli budėdamas ir galvodamas, ar tai truks. Marta jaučiasi nepalaikyta ar kaltinama. Hostelis neturi geresnių įrankių kitam penktadieniui. Susitikimas išsprendžia incidentą, bet nepagerina sistemos.",
+            "correction": "Grįžkite pas kiekvieną suinteresuotą šalį, kuri tiesiogiai kreipėsi. Patvirtinkite Martą, informuokite poną Kimura ir pasiūlykite sisteminį pagerinimą. Trisdešimt sekundžių vienam asmeniui transformuoja išspręstą incidentą į ilgalaikį santykį."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Puikios daugiašalės derybos. Parodėte pilną įgūdžių rinkinį sudėtingiems bendros erdvės ginčams: kruopštų pasiruošimą per personalo instruktažą, empatišką bendravimą su skundėju, profesines ribas esant socialiniam spaudimui, kūrybišką grupės dinamikos panaudojimą ieškant bendradarbiaujančių sąjungininkų, struktūruotus variantus, įgalinančius savanorišką paklusnumą, ir tikrą grįžtamąjį ryšį su kiekviena suinteresuota šalimi. Marta, ponas Kimura, Liam ir Priya visi paliko šį susitikimą jausdamiesi išgirsti ir gerbiami. Tai yra standartas hostelio ir bendrojo apgyvendinimo iškvietimams.",
+            "mostlyPositive": "Stiprus pasirodymas daugiašaliame triukšmo skunde. Palaikėte proporcingumą, įsitraukėte su skirtingomis kultūrinėmis perspektyvomis ir dirbote link bendradarbiaujančio sprendimo, o ne paprasčiausio vykdymo. Kai kurios gilesnio kultūrinio jautrumo, geresnio grįžtamojo ryšio ar strategiškesnio grupės dinamikos naudojimo galimybės buvo praleistos, bet jūsų bendras požiūris buvo profesionalus, proporcingas ir pasitikėjimą kuriantis.",
+            "mixed": "Parodėte kompetenciją kai kuriose srityse, bet susidūrėte su visa šios daugiašalės hostelio situacijos kompleksija. Tam tikruose etapuose buvo matomos stiprybės, bet kitose buvo praleistos kritinės galimybės. Peržiūrėkite balansą tarp autoriteto ir bendradarbiavimo, bendradarbiaujančių balsų grupėse įgalinimo svarbą ir skirtumą tarp šio vakaro triukšmo sprendimo ir kito penktadienio kartojimo prevencijos.",
+            "mostlyNegative": "Šis scenarijus atskleidė reikšmingų spragų derybose ir proporcingume. Nors pavyko triukšmo skundą adresuoti baziniame lygyje, dauguma pasirinkimų linko link griežto vykdymo prieš bendradarbiaujantį problemų sprendimą, ribų eroziją prieš profesinę šilumą, arba neužbaigtą grįžtamąjį ryšį prieš tikrą suinteresuotų šalių rūpestį. Hostelio triukšmo skundai yra vieta, kur derybų įgūdžiai kuriami arba atskleidžiami — peržiūrėkite daugiašalės mediacijos principus, proporcingą atsaką ir bendradarbiaujančio balso techniką.",
+            "allNegative": "Jūsų požiūris derybinę situaciją traktavo kaip grynai vykdymo reikalą. Kuprinautojų teisėta šventė, pono Kimura tikrasis poreikis miegoti, Priya konstruktyvi iniciatyva ir Martos poreikis patvirtinimui bei sisteminiam palaikymui — visa tai buvo praleista. Bendrojo apgyvendinimo triukšmo iškvietimai reikalauja kultūrinio jautrumo, proporcingo atsako ir bendradarbiaujančio problemų sprendimo — ne įsakymų, grasinimų ar kaltinimų. Tai reikalauja fundamentalaus persiorientavimo link derybomis paremto policijos darbo."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Matau, kad puikiai leidžiate vakarą. Aš čia ne tam, kad ką nors uždarinėčiau — bet man reikia minutės jūsų laiko, nes yra situacija, kurią turime išspręsti.",
+            "Prarasti miegą prieš svarbią prezentaciją yra itin frustruojantis dalykas, ir jūs teisus tikėdamasis ramybės šią valandą.",
+            "Ar jūsų pagrindinis rūpestis yra triukšmo sustabdymas, ar jums konkrečiai reikia, kad grupė būtų pašalinta iš pastato?",
+            "Liam, aš iš tikrųjų suprantu — paskutinis vakaras kartu, didelės kelionės pabaiga. Tai svarbu. Ir tu teisus, kad hosteliai yra socialinės vietos.",
+            "Jūsų teisės ir jų teisės nesiskiria. Todėl klausimas ne ar galite švęsti — o kaip ir kur.",
+            "Aš verčiau padėčiau rasti būdą tęsti jūsų vakarą, nei jį nutraukčiau.",
+            "Priya, ačiū — tai būtent toks mąstymas, kuris padeda.",
+            "Variantas A: kiemas — galite pasiimti gėrimus ir kalbėtis ten, bet be garsiakalbio. Variantas B: Naktinė pelėda — ten galite būti tokie garsūs, kokie norite.",
+            "Teisingai padarėte, kad skambinote, Marta. Taip pat rekomenduočiau pasikalbėti su savo vadove dėl rašytinės triukšmo politikos.",
+            "Pone Kimura, bendras kambarys ištuštintas ir ramu. Tikiuosi, jūsų prezentacija rytoj pavyks."
+        ],
+        "poorPhrases": [
+            "Tai iš tikrųjų vadovybės reikalas — ji turėtų toliau bandyti pasiekti savo vadovę ir tvarkyti tai kaip vidinį hostelio klausimą.",
+            "Čia hostelis — bendros erdvės ir šioks toks triukšmas yra neišvengiami. Gal galėtumėte pabandyti ausines?",
+            "Niekas šį vakarą daugiau negeria. Išjunkite tą muziką iš karto. Tai jūsų vienintelis įspėjimas.",
+            "Žinote, jūs ne taip jau neteisus — tiesiog nešūkaukite per daug, o aš pasakysiu registratūrai, kad išspręsta.",
+            "Taisyklės yra taisyklės. Ramybės valandos yra ramybės valandos. Tai nediskutuotina.",
+            "Vakarėlis šiai nakčiai baigtas. Susirinkite, eikite į savo kambarius, pamiegokite.",
+            "Jei mane vėl iškviestų čia šį vakarą, nebus draugiškas pokalbis kitą kartą. Bus baudos.",
+            "Sąžiningai, Marta, turėjote tai sutvarkyti prieš pasiekiant šį tašką."
+        ],
+        "analysisCriteria": {
+            "negotiationQuality": "Ar frazė atvėrė derybų erdvę, ar ją uždarė? Ar sukūrė variantus, ar pateikė ultimatumus?",
+            "proportionality": "Ar frazė atitiko sunkumą — pokalbis triukšmo skunde, ne įsakymai nusikaltimo vietoje?",
+            "stakeholderAwareness": "Ar frazė pripažino visų šalių teisėtus rūpesčius, ar teikė pirmenybę vienai kitų sąskaita?",
+            "culturalSensitivity": "Ar frazė gerbė skirtingus kultūrinius lūkesčius dėl triukšmo, autoriteto ir socialinių normų?",
+            "boundaryMaintenance": "Ar frazė palaikė profesinį autoritetą išliekant prieinamu ir šiltu?",
+            "sustainableResolution": "Ar frazė prisidėjo prie ilgalaikio sprendimo, ar tik laikino paklusnumo, kuris išsisklaidys per minutes?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Hostelio ir bendrojo apgyvendinimo iškvietimuose dvi minutės su registratūros darbuotoja suteikia politikos rėmą, grupės sudėtį ir skundėjų lūkesčius, kurie formuoja kiekvieną paskesnį sprendimą. Praskubėjimas pro Martą reiškia įėjimą į bendrą kambarį aklai.",
+        "2": "Pono Kimura tikrojo poreikio (miegas prieš prezentaciją) atskyrimas nuo jo pareikšto reikalavimo (iškeldinti grupę) yra galingiausias derybų veiksmas šiame scenarijuje. Vienas klausimas praplėtė sprendimų erdvę nuo vieno varianto iki daugelio.",
+        "3": "Liam alaus pasiūlymas yra lemiamas profesinių ribų testas. Kaip tai tvarkote pirmąsias trisdešimt sekundžių, nulemia, ar grupė mato pareigūną, kurį galima sužavėti, ar tokį, kuris pelno pagarbą per šilumą. Atsisakykite aiškiai, atsisakykite šiltai ir judėkite toliau.",
+        "4": "Liam argumento patvirtinimas ('hosteliai yra socialinės vietos') prieš jį peradresuojant ('jūsų teisės ir jų teisės nesiskiria') transformuoja pasipriešinimą į norą. Žmonės, kurie jaučiasi išgirsti, juda; žmonės, kurie jaučiasi atmesti, įsitvirtina. IR tarp patvirtinimo ir ribos yra technika.",
+        "5": "Priya yra šio scenarijaus raktas. Ji prisiėmė socialinę riziką pasisakydama prieš savo grupės lyderį. Jos balso iškėlimas, pasiūlymo plėtojimas ir peradresavimas Liam susitarimui pasiekia tai, ko konfrontacija niekada negalėtų — veido saugantį savanorišką paklusnumą.",
+        "6": "Konkretūs, struktūruoti variantai su aiškiais parametrais ('be garsiakalbio, pokalbio lygis, dešimt minučių ištuštinti kambarį') sukuria save vykdančius susitarimus. Neapibrėžtos instrukcijos ('tik tyliau') yra ta pati instrukcija, kurią Marta davė tris kartus — ir ji tris kartus nesuveikė.",
+        "7": "Grįžtamasis ryšys su Marta ir ponu Kimura nėra pasirinktina mandagybė — tai daro sprendimą užbaigtu. Martos patvirtinimas užkerta kelią dvejojimui per kitą skambutį. Pono Kimura informavimas gerbia pažeidžiamumą, kuriuo jis pasidalijo. Triukšmo politikos pasiūlymas transformuoja vieną incidentą į sisteminį pagerinimą."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Pažangios daugiašalės derybos — kitų mokymas bendros erdvės mediacijos technikose", "Tarpkultūrinės komunikacijos lyderystė tarptautiniame policijos darbo kontekste", "Sisteminis problemų sprendimas — institucijų padėjimas kurti politikas, užkertančias kelią pasikartojantiems iškvietimams", "Bendradarbiaujančio balso identifikavimas ir įgalinimas grupės dinamikoje"],
+            "good": ["Išplėstiniai derybų įgūdžiai — poreikių atskyrimas nuo reikalavimų daugiašaliuose ginčuose", "Kultūrinis jautrumas tarptautiniame svetingumo aplinkoje", "Suinteresuotų šalių grįžtamojo ryšio technikos — ciklo užbaigimas su kiekviena paveikta šalimi", "Grupės dinamikos valdymas — darbas su lyderiais ir sąjungininkais grupėse"],
+            "average": ["Pagrindiniai derybų principai — performulavimas, struktūruoti variantai, bendradarbiaujantis problemų sprendimas", "Profesinės ribos esant socialiniam spaudimui — šiluma be kooptavimo", "Proporcingas atsakas žemo lygio triukšmo ir trukdymo iškvietimuose", "Aktyvus klausymasis ir empatiškas bendravimas su frustruotais skundėjais"],
+            "poor": ["Daugiašalių derybų ir mediacijos pagrindai", "Proporcingumas vykdymo diskrecijoje — atsako pritaikymas tikrajam sunkumui", "Profesinės ribos ir elgesys socialiniuose kontekstuose", "Suinteresuotų šalių valdymo pagrindai — pasiruošimas, įsitraukimas, grįžtamasis ryšys su visomis šalimis"]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Bendras veiklos santrauka", "content": ["Rezultatas ir veiklos lygis", "Pagrindinės stiprybės daugiašalėse derybose", "Kritinės silpnybės suinteresuotų šalių valdyme ar proporcingume", "Bendras hostelio triukšmo skundo tvarkymo vertinimas"]},
+            {"title": "Etapas po etapo analizė", "content": ["Kiekviename etape padarytas pasirinkimas", "Poveikis Martai, ponui Kimura, Liam, Priya ir kuprinautojų grupei", "Alternatyvūs požiūriai ir jų pasekmės", "Pagrindiniai mokymosi taškai kiekvienam etapui"]},
+            {"title": "Derybų ir mediacijos vertinimas", "content": ["Poreikio ir reikalavimo atskyrimo kokybė — pono Kimura sąveika", "Patvirtink-tada-peradresuok technika — Liam sąveika", "Bendradarbiaujančio balso įgalinimas — Priya sąveika", "Struktūruotų variantų pateikimas — susitarimo užtikrinimas"]},
+            {"title": "Proporcingumo ir ribų vertinimas", "content": ["Atsako kalibravimas pagal tikrąjį sunkumą — triukšmo skundas, ne smurtinis nusikaltimas", "Profesinių ribų palaikymas — alaus pasiūlymas, socialinis spaudimas", "Progresija per variantus: perkėlimas prieš apribojimą prieš iškraustymą", "Baigiamasis tonas — gera valia išsaugota ar nuodyta įspėjimais"]},
+            {"title": "Kultūrinio jautrumo apžvalga", "content": ["Prisitaikymas prie Liam australietiško neformalumo", "Pagarba pono Kimura formaliam bendravimui ir profesiniams statymams", "Skirtingų kultūrinių lūkesčių dėl triukšmo ir bendravimo atpažinimas", "Nuoseklus orumas skirtinguose kultūriniuose kontekstuose"]},
+            {"title": "Suinteresuotų šalių grįžtamojo ryšio kokybė", "content": ["Marta: patvirtinimas, informacija, sisteminė rekomendacija", "Ponas Kimura: asmeninis grįžtamasis ryšys, adresuojantis jo konkretų rūpestį", "Kuprinautojų grupė: užbaigimas su orumu ir savanorišku susitarimu", "Sisteminis poveikis — triukšmo politikos rekomendacija ir ateities prevencija"]},
+            {"title": "Komunikacijos efektyvumas", "content": ["Geriausi dialogo momentai ir kodėl jie veikė", "Kontraproduktyvinės frazės ir jų pasekmės", "Rėmo analizė — bendra problema prieš vykdymo susitikimą", "Baigiamojo pareiškimo poveikis ilgalaikiam prisiminimui"]},
+            {"title": "Profesinis tobulėjimas", "content": ["Neatidėliotini mokymo poreikiai pagal silpniausias sritis", "Ilgalaikis įgūdžių vystymas derybose ir kultūrinėje kompetencijoje", "Rekomenduojami ištekliai bendrojo apgyvendinimo ir triukšmo skundų iškvietimams", "Taikymas kitoms daugiašalėms, žemo lygio vykdymo situacijoms"]}
+        ]
+    }
+}

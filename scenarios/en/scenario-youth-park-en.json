@@ -1,0 +1,477 @@
+{
+    "id": "youth-park",
+    "title": "Youth in the Park — Weekend Afternoon",
+    "description": "Advanced scenario: respond to a noise complaint and verbal conflict among a group of teenagers (15-18) in a city park on a weekend afternoon. Practice de-escalation, transparency, and emotional intelligence as you uncover a deeper personal crisis beneath the surface argument. Balance the rights of young people in public space with community expectations while building trust through fair, respectful communication.",
+    "icon": "🌳",
+    "instructor": {
+        "name": "Sergeant Benešová",
+        "avatar": "👮‍♀️",
+        "introduction": "Youth encounters are among the most relationship-defining calls in community policing. How you treat a group of teenagers today determines whether they trust or fear the police for the next fifty years. These are not criminals — they are young people in a public space, dealing with emotions they barely understand. Your job is not to silence them or scatter them. Your job is to understand what is actually happening, address any legitimate concerns, and leave them with the experience that authority can be fair, respectful, and human. Remember: teenagers are wired to resist perceived injustice. If you come in heavy, you will get resistance — not because they are bad, but because their developmental stage demands it. Meet them where they are. Use names. Explain yourself. Listen before you direct. The complaint is about noise and an argument — not a crime scene. Calibrate accordingly."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-youth-park-complete"],
+    "perfectBadge": "perfect-scenario-youth-park",
+    "finalMessage": {
+        "revelation": "The conflict between Krystof and Jarda ran deeper than it appeared. Two weeks earlier, Krystof's father was hospitalized with a serious cardiac episode. The family was under enormous stress — medical bills, uncertainty, fear. During that vulnerable period, Jarda posted a mocking video on social media referencing Krystof's absence from school, not knowing (or not caring) about the family crisis. The video was shared widely in their school, and Krystof endured days of humiliation on top of genuine grief and fear for his father. When the group gathered at the park that afternoon, Krystof confronted Jarda publicly — not because he wanted to fight, but because he had no other outlet for pain he could not articulate. Eli and Nela tried to mediate but lacked the tools. Mrs. Kovářová, the park visitor who called police, was genuinely concerned about escalation but also anxious about her own sense of safety. After your intervention, Jarda deleted the video and wrote a genuine apology that Krystof accepted. The group moved to a quieter section of the park and kept their agreement about volume. Three weeks later, Krystof's father was released from hospital. Eli later told a school counselor that what she remembered most was that the officer used their names and asked what was wrong before telling them what to do.",
+        "keyLessons": [
+            "A calm, non-threatening approach preserves the dignity of young people and opens the door to cooperation",
+            "Transparency about why you are there — explaining the complaint without assigning blame — builds legitimacy immediately",
+            "Using names and validating emotions transforms a confrontation into a conversation",
+            "Guided apologies that ask the offender to be specific create genuine reconciliation, not performative compliance",
+            "Acknowledging young people's right to public space while setting clear expectations produces voluntary compliance",
+            "Accepting and praising their proposed solutions gives them ownership and increases commitment to the agreement",
+            "The last words you say in an encounter determine what people remember about the police"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Phase 1 — Arrival at the Park",
+            "sceneUpdate": {
+                "emoji": "🌳",
+                "title": "City Park — Saturday Afternoon",
+                "desc": "Warm weekend afternoon in a public park. You activate your body-worn camera as you step out of the vehicle — standard practice for any citizen contact. A group of five or six teenagers are gathered around a bench near the main path. Music plays from a portable speaker — loud enough to carry across the park. Two boys stand face to face in what looks like the beginning of a confrontation. The group hasn't noticed your approach yet."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unit 3-4, we have a complaint from a park visitor about loud music and a verbal conflict among a group of teenagers. No weapons reported. Caller described shouting and pushing. Proceed and assess."
+                },
+                {
+                    "character": "officer",
+                    "text": "Dispatch, Unit 3-4 on scene at Riverside Park. I have visual on a group of six juveniles near the main path, two males in what appears to be a verbal altercation. No weapons visible. Going in on foot to make contact."
+                }
+            ],
+            "prompt": "The group hasn't noticed you yet. Music is loud, two boys are face to face. How do you choose your approach?",
+            "options": [
+                {
+                    "text": "Walk toward the group at a relaxed, unhurried pace, hands visible and posture open — no hand on your belt, no rushed stride. When you are about fifteen feet away, raise one hand in a casual wave and say in a conversational tone: 'This is the city police. Can we have a word?' You keep your voice just loud enough to carry over the speaker without competing with it, signaling calm authority rather than confrontation.",
+                    "feedback": "Why: A low-key verbal announcement reduces tension immediately. It preserves their dignity — no one is startled, no one is cornered. 'Can we have a word?' is an invitation, not a command, which is appropriate for a noise complaint and a verbal argument. Your tone signals that this is a conversation, not an arrest. Non-verbal elements matter too — walking at a normal pace, hands visible, relaxed posture. | CONSEQUENCES: The group turns toward you. The music drops slightly. The two boys step apart. You have their attention without their fear. The foundation for dialogue is laid. | Reflection: Which non-verbal element — pace, distance, visible hands, or posture — is most calming when approaching a group of teenagers? How would you adjust if the confrontation were already physical?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Start walking slowly along the main path, making yourself visible from about thirty yards out so the group can see you coming well before you arrive. You keep your hands loose at your sides, offering a small nod to a passing jogger to show you are in no rush. Once you are within speaking distance, you stop a comfortable six feet away and say: 'Hey, afternoon everyone. I'm Officer Norton — mind if I come over and see what's going on?'",
+                    "feedback": "Why: Making yourself visible before speaking avoids the surprise factor, which is good. Introducing yourself by name is strong rapport-building. 'Mind if I come over?' is respectful and models consent. However, the casual tone may understate the urgency of two boys in a physical standoff — there is a balance between approachability and the need to intervene in an emerging confrontation. You may need to be slightly more direct to interrupt the conflict before it escalates further. | CONSEQUENCES: The group sees you coming. Some relax, but the two boys continue their confrontation for another thirty seconds before noticing you. You arrive without urgency, which is calming but allows the tension between Krystof and Jarda to build a bit longer. | Reflection: When is a relaxed approach appropriate, and when does the situation require you to intervene with more immediacy while still maintaining calm?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Hang back by the patrol vehicle, key your radio and request a second unit to the park entrance — 'just in case.' You lean against the hood, arms crossed, scanning the group from fifty yards away while you wait for backup. Once the second officer arrives, you walk in side by side, both in full gear, approaching the bench from two angles so you have visual coverage of the entire group before saying a word.",
+                    "feedback": "Why: Caution is legitimate when you cannot assess the full situation, but for a verbal dispute among unarmed teenagers, requesting backup before any contact can come across as premature criminalization. Two officers approaching a group of teens at a park sends a disproportionate signal. The teens will read it as 'they think we're dangerous,' which triggers exactly the defensiveness you want to avoid. | CONSEQUENCES: The group notices two officers approaching and wariness spikes. Body language closes — arms crossed, shoulders turned, eye contact drops. Eli whispers 'What did we do?' Cooperation will be harder to earn. | Reflection: When is backup a genuine tactical asset, and when does it signal to citizens that you have already decided they are a threat? How do teenagers specifically read the presence of multiple officers?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Hit the siren for a sharp two-second blast that echoes across the park, cutting through the music and every conversation within earshot. Before the echo fades you are already striding toward the bench at a fast clip, one hand on your belt, voice raised to full command volume: 'Police! Stop that immediately!' The jogger on the path freezes. A woman walking her dog pulls the leash tight. Every head in the park turns toward you.",
+                    "feedback": "Why: A siren blast and a shouted command are tools for high-risk situations — fleeing suspects, active violence, emergency traffic stops. Using them on a group of teenagers having an argument in a park is a massive overcalibration. The shock triggers fight-or-flight responses. Some will freeze, some will scatter, some will become hostile. You have destroyed any chance of a calm conversation before it began. Worse, every teenager present will carry this memory: police treat us like criminals for being in a park. | CONSEQUENCES: The group scatters. Two teens run. Krystof and Jarda stop arguing — but now both turn their hostility toward you. 'What the hell?!' Nela starts recording on her phone. Your legitimacy is gone before you have spoken a word. | Reflection: When should you ever use a siren to announce your presence on foot? What is the long-term cost of treating a noise complaint like a felony stop?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Phase 2 — First Contact and Transparency",
+            "sceneUpdate": {
+                "emoji": "💬",
+                "title": "Face to Face with the Group",
+                "desc": "The music has been turned down. Eli, a confident girl with quick eyes, steps forward as the group's unofficial spokesperson. Nela lingers behind her, looking nervous and fidgeting with her phone. Jarda has turned away, avoiding eye contact. Krystof stands rigid, jaw clenched, clearly still upset."
+            },
+            "npcDialogue": [
+                {
+                    "character": "eli",
+                    "text": "Why are you hassling us? We're not doing anything wrong."
+                },
+                {
+                    "character": "nela",
+                    "text": "We just had the music up a bit loud, that's all..."
+                }
+            ],
+            "prompt": "Eli challenges your presence directly. Nela minimizes the situation. How do you explain why you are here and set the tone?",
+            "options": [
+                {
+                    "text": "You hold eye contact with Eli, keeping your posture relaxed and your voice steady: 'Good afternoon, I'm Officer Norton. I received a report from another park visitor about loud music and an argument — that's the only reason I'm here. I'm not here to hassle anyone or send you away. I want to make sure everyone is okay and things stay calm. Can you tell me what's going on here?' You glance briefly at Nela with a small nod to include her in the conversation.",
+                    "feedback": "Why: This response hits every transparency principle. You give your name — humanizing yourself. You explain the reason for your presence — a report, not your personal judgment. 'I'm not here to hassle anyone' directly addresses Eli's concern without being defensive. 'I want to make sure everyone is okay' reframes your role from enforcer to guardian. The open-ended 'What's going on?' invites their narrative rather than imposing yours. | CONSEQUENCES: Eli's posture softens. She uncrosses her arms. Nela stops fidgeting. Even Jarda glances back. You have established that this is a dialogue, not an interrogation. The group's defensiveness drops measurably. | Reflection: How does stating the reason for your intervention without placing blame change the dynamic? Why is giving your name particularly effective with teenagers?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "You shrug lightly, keeping your hands in plain sight, and speak in a laid-back tone that matches the weekend atmosphere: 'Afternoon. We got a noise complaint and someone mentioned an argument. Look, I'm not trying to ruin your day — just need to check in and make sure nobody's getting hurt here. What's the situation?' You tilt your head toward the two boys as if asking Eli to fill you in on what she has been watching.",
+                    "feedback": "Why: The casual, human tone is good — it signals you are not there to punish. 'Not trying to ruin your day' shows awareness that police presence can feel intrusive. However, you have not given your name, which keeps you anonymous and therefore less trustworthy. You also have not explicitly acknowledged their right to be in the park, which leaves that question hanging. The approach works, but it lacks the full transparency that builds genuine rapport. | CONSEQUENCES: The group relaxes somewhat. Eli nods but stays guarded — she is waiting to see if this is genuine or just a setup. You have a window to build on, but the relationship is not yet established. | Reflection: What is the difference between a casual tone and genuine transparency? What specific elements — name, reason, intention — does full transparency require?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "You let out a small sigh and glance around the park as if you have seen this a hundred times before, then turn back to the group with a flat expression: 'I'm used to people always complaining about something — half my calls are like this. Tell me what's going on here and why you're arguing so I can figure out whether there's actually a problem or whether I can get back to my patrol route.'",
+                    "feedback": "Why: This does not escalate, but it carries several problems. 'I'm used to complaints' trivializes the caller's concern and signals cynicism. 'Tell me' is a command, not an invitation. 'Why you're arguing' presupposes the answer — you have already defined the situation before hearing their perspective. You have also skipped giving your name, explaining why you are here, or acknowledging that they have a right to be in this space. | CONSEQUENCES: The group senses indifference. Eli shrugs — why would she open up to someone who clearly does not care? Uncertainty remains. The relationship does not deepen. | Reflection: How would the dynamic change if you explained the reason for the intervention with genuine care instead of dismissive familiarity?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "You square your shoulders, plant your feet, and fix Eli with a hard stare, voice clipped and deliberate: 'I'm here because of a report about loud music and an argument. Don't try anything with me — I'm the one asking questions here.' You shift your gaze slowly across each member of the group, letting the silence do the work, making sure everyone understands the dynamic before anyone speaks again.",
+                    "feedback": "Why: An authoritarian opening with teenagers is the fastest path to resistance. 'Don't try anything' implies they are suspects, not citizens. 'I'm the one asking questions' shuts down the reciprocity that de-escalation requires. Every teenager present has now confirmed their worst expectation about police: authority that does not listen, does not explain, and does not care. Eli's challenge was an invitation to prove otherwise — you have rejected it. | CONSEQUENCES: The group closes ranks. Arms cross. Eyes harden. Eli starts recording. Nela pulls out her phone. Krystof mutters 'Told you.' Any path to dialogue now requires undoing the damage this opening caused. | Reflection: When a teenager asks 'Why are you here?' — is that defiance, or is it a fair question that deserves a fair answer? How does your response shape their lifelong relationship with authority?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Phase 3 — Stopping the Argument from Escalating",
+            "sceneUpdate": {
+                "emoji": "⚡",
+                "title": "Krystof and Jarda — Tension Rising",
+                "desc": "The conversation has surfaced the real issue. Krystof and Jarda are talking over each other, voices rising. Krystof steps forward, fists balling. Jarda puffs up his chest. The rest of the group watches anxiously. Physical contact is seconds away. In the back of your mind, you register that the video Krystof mentioned could be relevant evidence if this escalates to a formal complaint — a tension between encouraging deletion for reconciliation and preserving it for any future proceedings."
+            },
+            "npcDialogue": [
+                {
+                    "character": "krystof",
+                    "text": "You think you can just laugh at me in front of everyone and it's fine?! Say it to my face! And now Nela says people are sharing that video again in the group chat — right NOW, while we're standing here!"
+                },
+                {
+                    "character": "jarda",
+                    "text": "I already said I was sorry! What more do you want? You want to hit me? Go ahead!"
+                },
+                {
+                    "character": "mrs_kovar",
+                    "text": "(approaching from her bench, voice sharp) Officer, are you just going to stand there while these boys are about to fight? I've been watching this for ten minutes. If you can't control them, I'm calling the station directly — and I'll be writing to the local paper about it too. This park used to be safe."
+                }
+            ],
+            "prompt": "Krystof and Jarda are seconds from a physical confrontation. Krystof is enraged that the humiliating video is being shared again online. Mrs. Kovářová is demanding you take stronger action and threatening to escalate. How do you prevent violence, manage Mrs. Kovářová, and redirect toward dialogue?",
+            "options": [
+                {
+                    "text": "Step calmly between the two boys, open palms facing each one, and speak at a measured pace: 'Guys, I can see you're both upset — and I can tell this matters. Krystof, I hear you — the video being shared again makes this worse, I get that. Jarda, I hear you too. But we're not doing this with fists.' Turn briefly to Mrs. Kovářová: 'Ma'am, I understand your concern — please give me a few minutes.' Back to the boys: 'Krystof, tell me what happened from the beginning. Jarda, your turn is coming, I promise.'",
+                    "feedback": "Why: This is textbook de-escalation with teenagers, adapted for multiple pressures. Using their names signals that you see them as individuals, not 'kids.' Acknowledging the video being re-shared shows Krystof you understand the digital dimension of his humiliation — it is not just a park argument, it is ongoing online harassment. 'I can tell this matters' respects the gravity of their conflict — crucial because teenagers shut down when adults minimize their feelings. Briefly acknowledging Mrs. Kovářová without letting her dictate your approach shows you can manage community pressure without losing focus on the people who need you most. The promise of equal time ('your turn is coming') addresses the fairness instinct that is hypersensitive at this age. | CONSEQUENCES: Krystof's fists unclench — someone actually understood that the video being shared again is part of the problem. He takes a breath and starts talking. Jarda steps back, arms crossed but waiting. Mrs. Kovářová, having been acknowledged, steps back to her bench. The group exhales. You have taken a physical confrontation and converted it into a narrative. | Reflection: How does naming emotions reduce their intensity? When a bystander demands more aggressive action, how do you acknowledge their concern without escalating the situation?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Step between them with open palms raised to chest height, planting yourself squarely in the gap: 'Okay, that's enough. Let's give each other some space.' You guide Krystof two steps to the left with a gentle gesture, then point Jarda toward the far end of the bench: 'Krystof, you stand here. Jarda, you go over there — I need a few feet between you. I'll listen to you one at a time and we'll sort this out.' You keep your body angled so you can see both boys and the rest of the group.",
+                    "feedback": "Why: Physically positioning yourself between them is sound spatial management — it breaks the escalation geometry and creates a buffer. Open palms signal non-aggression. Clear directions ('you here, you there') reduce ambiguity. However, this approach addresses the physical risk without doing any emotional work. You have separated bodies but not acknowledged feelings. The anger is still at full volume — it just lacks a target for the moment. Without emotional validation, the tension persists under the surface and can reignite the moment you step away. | CONSEQUENCES: The boys separate. The immediate risk of a fight decreases. But both remain agitated — Krystof paces, Jarda kicks at the ground. The tension has not dissipated, only been displaced. You have bought time but not yet built trust. | Reflection: What could you add to physical separation to achieve emotional de-escalation as well? Why is spatial management necessary but not sufficient?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Move into the space between them without a word, palms open and facing outward. Once you have their attention you speak in a flat, even tone: 'Let's give each other some space. You here, you there.' You point to opposite ends of the bench without using either boy's name. 'I'll listen to you one at a time.' You stand with your arms loosely at your sides, splitting the distance evenly, waiting for both to comply before saying anything else.",
+                    "feedback": "Why: Safe spatial management that reduces the immediate risk of physical contact. But it is purely mechanical — no names, no emotion recognition, no acknowledgment that this conflict has real meaning for them. You are managing bodies, not people. Teenagers in particular need to feel that the authority figure understands something about their situation before they will cooperate. Without that, the separation feels like suppression, not mediation. | CONSEQUENCES: Risk of a fight decreases, but tension persists. Both boys feel handled rather than heard. Cooperation will be grudging at best. | Reflection: What is the difference between managing a situation and engaging with the people in it? What could you add to make this response more effective?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Step forward with a hard expression, voice raised so the entire group and Mrs. Kovářová can hear you clearly: 'That's enough. If you two don't stop right now, you're both coming with me to the station.' You lock eyes with Krystof first, then Jarda, letting the threat hang in the silence. The rest of the group goes still. Mrs. Kovářová watches with her arms folded, expecting action. You stand rigid, waiting for compliance through intimidation rather than conversation.",
+                    "feedback": "Why: Threatening teenagers with the station for a verbal argument is a disproportionate use of authority that trades short-term silence for long-term damage. The threat may produce compliance through fear, but it does nothing to address the underlying conflict. Worse, it humiliates both boys in front of their peers — a devastating blow at an age when social standing is everything. Every teen present now sees the police as a threat to be avoided, not a resource to be trusted. The conflict will simply resume the moment you leave, likely more intensely. | CONSEQUENCES: Both boys go silent, but their eyes say everything. Krystof's jaw tightens with suppressed rage. Jarda looks at the ground, shamed. The group watches with cold hostility. You have silenced the argument but planted resentment that will grow. | Reflection: Why do threats fail specifically with young people? What is the relationship between shame, peer presence, and future compliance?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Phase 4 — Root of the Problem and Working with Emotions",
+            "sceneUpdate": {
+                "emoji": "💔",
+                "title": "The Real Story Surfaces",
+                "desc": "Krystof has started talking, and the anger is giving way to something rawer. His voice cracks. The group is quiet — even Jarda has stopped posturing and is listening. This is no longer about noise in a park."
+            },
+            "npcDialogue": [
+                {
+                    "character": "krystof",
+                    "text": "He made a video making fun of me when I wasn't at school... my dad's in the hospital. He might not... and Jarda put it online and everyone laughed. Everyone."
+                },
+                {
+                    "character": "jarda",
+                    "text": "(looking down) I... I didn't know about his dad. I'm sorry. I really am."
+                },
+                {
+                    "character": "officer",
+                    "text": "(calmly, to both) I want you both to understand something. Posting a video to mock or humiliate someone — that can cross into harassment under digital harassment statutes. I'm not saying that to scare you, Jarda. I'm saying it because what happened here isn't just a personal matter — the law takes it seriously too. That's why how we resolve this matters."
+                }
+            ],
+            "prompt": "The root cause is cyberbullying during a family crisis. Jarda has apologized, but it sounds surface-level. How do you support a meaningful resolution?",
+            "options": [
+                {
+                    "text": "Lower your voice so the conversation feels private even in the open park: 'I'm sorry about what your family is going through, Krystof. That's a lot to carry, and it makes complete sense that what Jarda did hit so hard.' Turn to Jarda with a steady gaze: 'Jarda — I can see you mean that apology. Can you tell Krystof specifically what you're sorry for, and what you're going to do to make it right? Not just 'sorry' — what exactly are you sorry for?'",
+                    "feedback": "Why: This is facilitated reconciliation at its best. Validating Krystof's pain ('that's a lot to carry') tells him his emotions are seen and respected. Acknowledging Jarda's intent ('I can see you mean that') avoids shaming him while raising the bar. Asking for specificity transforms a reflexive 'sorry' into a genuine reckoning with harm. The question 'what are you going to do to make it right?' introduces accountability and restorative action. You are teaching both boys — and the watching group — what real accountability looks like. | CONSEQUENCES: Jarda looks up at Krystof: 'I'm sorry I made that video. I didn't know about your dad, but even if I did know — it was wrong. I'll delete it and I'll tell people to stop sharing it.' Krystof nods, eyes wet. The group watches in silence. Something real has happened here. | Reflection: How do you guide an apology so it is not performative? Why does asking for specificity make the difference between a surface apology and genuine reconciliation?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Nod slowly as Krystof finishes speaking, giving the words a moment of space before you respond: 'That sounds like it's been really tough, Krystof. Jarda, it's good that you've apologized — that takes something.' You straighten up and shift into a more directive tone: 'Now — Jarda, you need to delete that video today, make sure it's gone from every platform. And both of you need to leave this behind and move forward. Life's too short for this.'",
+                    "feedback": "Why: You have acknowledged Krystof's pain and identified the practical action needed — deleting the video. That is not wrong. But 'leave this behind and move forward' rushes past the emotional work that makes reconciliation stick. Krystof has not been given space to respond to the apology. Jarda has not been asked to understand the impact of what he did — only to delete the evidence. The instruction to 'move forward' treats emotions as obstacles to be cleared rather than signals to be processed. The peace you achieve will be fragile. | CONSEQUENCES: Jarda nods and pulls out his phone to delete the video. Krystof watches but does not look satisfied. The surface problem is solved, but the wound underneath has only been bandaged, not cleaned. | Reflection: What is missing between a practical solution (delete the video) and genuine resolution? Why does rushing past emotions produce fragile outcomes?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Clap your hands once as if calling the situation to order and speak in a brisk, matter-of-fact tone: 'Jarda, delete the post and apologize properly — look him in the eye when you do it. Krystof, calm down — he said he's sorry, and the video is going away. Now shake hands like men and let's move on.' You gesture impatiently between the two boys, waiting for the handshake so you can wrap this up and move to the noise issue.",
+                    "feedback": "Why: This solves the technical problem — the video gets deleted, an apology is extracted — but it skips the emotional core entirely. 'Calm down' tells Krystof his feelings are an inconvenience. 'He said he's sorry' treats the apology as sufficient without examining its depth. 'Shake hands' forces a physical gesture of reconciliation that neither boy may feel. You are manufacturing the appearance of resolution without the substance. | CONSEQUENCES: The handshake happens, but it is limp and reluctant. The post gets deleted. But Krystof still carries the hurt, and Jarda still does not fully understand what he did. The peace achieved is brittle — one wrong comment at school on Monday and the conflict reignites. | Reflection: What is the difference between a forced resolution and a genuine one? Why does 'calm down' almost always have the opposite of its intended effect?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Check your watch with visible impatience, let out a sharp exhale, and cut across whatever Krystof is saying: 'I don't have time for these petty arguments. If you two can't behave normally, I'll call your parents and we'll deal with this differently — and trust me, that conversation won't be fun for anyone.' You pull your phone halfway out of your pocket for emphasis: 'Sort it out right now or face consequences. Your choice.'",
+                    "feedback": "Why: Calling a teenager's deepest pain 'petty' is one of the most damaging things an authority figure can say. Krystof just told you his father is in the hospital and he was publicly humiliated during the worst period of his life — and you called it petty. The threat to call parents weaponizes family relationships. 'Sort it out' abandons your role as mediator. You have told a hurting teenager that his pain does not matter to the person with all the power in this situation. The damage to his trust in authority may be permanent. | CONSEQUENCES: Krystof's face goes blank — the look of someone who has shut down completely. Jarda shifts uncomfortably. Eli glares at you. Nela looks at the ground. The group has learned that police do not care. The conflict goes underground, unresolved, and will resurface with greater intensity. | Reflection: Why does minimizing someone's pain increase the risk of re-escalation? What is the long-term cost of dismissing a young person's emotional crisis as 'petty'?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Phase 5 — Noise, Rights, and Expectations",
+            "sceneUpdate": {
+                "emoji": "🔊",
+                "title": "Setting Fair Boundaries",
+                "desc": "The emotional crisis between Krystof and Jarda has been addressed. The music is already quieter. Mrs. Kovářová, the park visitor who called in the complaint, watches from a nearby bench. The group is receptive but still sensitive to any hint of being treated unfairly."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_kovar",
+                    "text": "(from her bench, calling over) Officer, are they going to keep the noise down? I come here every weekend for some peace and quiet."
+                },
+                {
+                    "character": "eli",
+                    "text": "(quietly, to you) We have a right to be here too, you know."
+                }
+            ],
+            "prompt": "The noise complaint still needs resolution. Eli asserts their right to the park. Mrs. Kovářová wants assurance. How do you set fair rules without punishing?",
+            "options": [
+                {
+                    "text": "Turn to face Eli directly, nodding as she speaks, then respond in a tone that is firm but genuinely respectful: 'Eli, you're absolutely right — you have every right to be here, and the park is for everyone. That includes Mrs. Kovářová over there, who also comes here to enjoy her afternoon.' You gesture toward the bench where the older woman sits: 'Here's what I need: keep the volume at this level or lower, and no more arguments. If you can do that, there's no reason for fines or any further action. Fair?'",
+                    "feedback": "Why: This is balanced, transparent expectation-setting at its finest. You validate Eli's assertion ('you're absolutely right') instead of dismissing it. You explain the competing interest (Mrs. Kovářová) without making the teens the villains. The expectations are specific and achievable ('this level or lower'). 'No reason for fines or further action' clarifies the positive consequence of compliance. Ending with 'Fair?' invites their agreement rather than imposing your will — which produces voluntary compliance instead of grudging obedience. | CONSEQUENCES: Eli nods. The group accepts the terms because they feel like a negotiation, not a dictation. Mrs. Kovářová hears the exchange and is satisfied. Both parties feel their interests have been respected. Clear expectations with willing buy-in. | Reflection: How do you phrase rules so they feel like fair agreements rather than punishments? Why does acknowledging both sides' legitimate interests produce better compliance than simply issuing orders?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Give a casual nod and half-shrug, keeping the energy conversational: 'You do have the right to be here — I'm not disputing that for a second. Just keep it reasonable. The music's fine at this level, and honestly I'd rather not have to drive back out here on a nice afternoon like this. I don't want to have to come back. Sound good?' You glance toward Mrs. Kovářová's bench but do not address her or explain the arrangement to her directly.",
+                    "feedback": "Why: The tone is friendly and the core message is correct — they can stay, keep the volume reasonable. But 'I don't want to have to come back' introduces a veiled threat that undercuts the otherwise positive tone. 'Reasonable' is vague — what counts as reasonable to a teenager may differ from what a retiree considers acceptable. You have also not acknowledged Mrs. Kovářová's concern directly, which means the community side of the equation is unaddressed. The approach works, but it leaves gaps. | CONSEQUENCES: The group agrees casually, but the vague standard means they may gradually push the volume back up. Mrs. Kovářová has not heard a clear commitment and remains uneasy. You have achieved a temporary arrangement, not a lasting agreement. | Reflection: Why do specific expectations produce better outcomes than vague ones? How does addressing all stakeholders — not just the group in front of you — strengthen a resolution?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Wave your hand dismissively as if the issue has already resolved itself and you are ready to move on: 'Things are fine now, carry on as you like, but no more arguments or fights.' You tuck your notepad away without writing anything down, glance at your watch, and take a step back toward the path — leaving no clear expectations about the music volume and offering no acknowledgment of Mrs. Kovářová's complaint or Eli's point about their right to the space.",
+                    "feedback": "Why: This does not escalate, but it abandons a teachable moment. 'Carry on as you like' sets no expectations about noise, which was the original complaint. You have not addressed Mrs. Kovářová's concern or used this opportunity to help the group understand that public spaces require balancing different needs. The message to the teens is: we do not care about the noise, just do not fight. The message to Mrs. Kovářová is: your complaint was not taken seriously. | CONSEQUENCES: Risk of repeated complaints is high. The group has no clear standard to maintain. Mrs. Kovářová leaves dissatisfied and may call again within the hour. | Reflection: How do you balance the right of young people to enjoy public space with the legitimate needs of other park users? What opportunity was missed here?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Straighten up to full height, voice dropping to a cold, level tone as you sweep your gaze across the entire group: 'If I hear about you lot one more time today — one more call, one more complaint — I'll fine every one of you. I don't care who started what. Keep it down or face the consequences.' You hold the silence for a beat, then turn toward Mrs. Kovářová's bench and give her a curt nod, signaling the situation is handled.",
+                    "feedback": "Why: Collective threats against a group of teenagers for a noise complaint are disproportionate, unjust, and counterproductive. Fining 'every one of you' punishes bystanders who did nothing wrong — Eli and Nela were not arguing, and the music is already lower. The threat converts a moment of cooperation into a moment of resentment. Every teenager present walks away with the lesson that police threaten first and think later. The compliance you get is fear-based and vanishes the moment you are out of sight. | CONSEQUENCES: The group goes silent, but their faces are hostile. Eli's arms cross. Nela puts her phone away — she does not want it confiscated. The cooperation you built through earlier stages is undone. They will be louder next weekend specifically because they feel targeted. | Reflection: Why is collective punishment particularly destructive to police-community relations? Why does fear-based compliance fail the moment the officer leaves?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Phase 6 — Collaborative Solution",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "The Group's Proposal",
+                "desc": "The group huddles briefly and comes back with an idea. Eli speaks for the group while the others nod along. Even Krystof and Jarda stand side by side without tension. Mrs. Kovářová watches from her bench with cautious optimism."
+            },
+            "npcDialogue": [
+                {
+                    "character": "eli",
+                    "text": "What if we move over to the benches by the skate area? It's further from the main path. We'll keep the music low. And we'll tell anyone else who comes to keep it down too."
+                },
+                {
+                    "character": "nela",
+                    "text": "Yeah, it's actually nicer over there anyway. More space."
+                }
+            ],
+            "prompt": "The group has proposed their own solution — move to a less central area and self-regulate the volume. How do you respond?",
+            "options": [
+                {
+                    "text": "Let a genuine smile show as you listen to Eli lay out the plan, then nod approvingly: 'That's a really thoughtful solution — you came up with that yourselves, and it works for everyone. The skate area is a great spot — more room, fewer people to bother.' You look around the group, making brief eye contact with each of them: 'Let's go with your plan. I'll swing by in a bit to see how it's working out — not to check up on you, just to say hi. Nice work, all of you.'",
+                    "feedback": "Why: Accepting their proposal and explicitly praising the initiative is powerful. 'You came up with that yourselves' gives them ownership — this is their agreement, not your order, which dramatically increases commitment. 'It works for everyone' validates that they considered others. 'I'll swing by' is light accountability without threat — it says 'I trust you but I'm present.' 'Nice work' is specific positive reinforcement that signals: when you act responsibly, authority notices and respects it. For teenagers especially, being treated as capable problem-solvers rather than problems to be managed is transformative. | CONSEQUENCES: The group brightens visibly. Eli smiles. Even Jarda looks relieved. They start gathering their things to move. Mrs. Kovářová nods approvingly. You have turned a complaint call into a community mediation success. The agreement has high durability because it belongs to them. | Reflection: How do you give specific praise to young people without being patronizing? Why does ownership of a solution increase compliance compared to imposed rules?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Give a noncommittal nod, hands on your hips, considering the idea for a moment before responding in a tone that mixes approval with caution: 'That could work. The skate area is far enough from the main path that the noise shouldn't bother anyone. Go ahead and try it — but remember, keep it reasonable over there or I'll be back with a different approach. I'm trusting you to hold up your end.' You step aside to clear the path toward the skate area.",
+                    "feedback": "Why: You accept the proposal, which is important, but you immediately undercut it with a conditional threat. 'Try it' implies you expect it to fail. 'Different approach' is ominously vague and reintroduces the punitive framing you have been working to move past. You have also failed to acknowledge that they generated the solution themselves — a missed opportunity for the kind of positive reinforcement that shapes future behavior. The proposal is approved but not valued. | CONSEQUENCES: The group moves, but without enthusiasm. The unacknowledged effort and the trailing threat leave a muted feeling. The agreement will hold, but it does not feel like a win for anyone. | Reflection: What is the difference between conditional approval and genuine endorsement? How do trailing threats affect the durability of agreements?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Shrug and take a half-step backward, already looking toward the parking lot as if your mind has moved on to the next call: 'Fine, do whatever you think is best — I won't interfere. You want to go to the skate area, stay here, wherever, that's your business.' You tuck your notepad into your vest pocket and give a vague wave of acknowledgment, offering no opinion on whether the plan is good, no encouragement for the effort they put into proposing it.",
+                    "feedback": "Why: This is passive disengagement disguised as permissiveness. 'Do whatever you think is best' sounds accommodating but communicates indifference. You have not acknowledged their effort to find a solution. You have not validated the quality of their proposal. You have not expressed any opinion at all. For teenagers who just took the initiative to problem-solve with a police officer present, this is a deflating non-response. 'I won't interfere' sounds like you are washing your hands of the situation. | CONSEQUENCES: The group moves, but the energy is flat. Eli shrugs — she expected more of a response to their effort. The solution happens, but the relationship-building moment is wasted. Trust is not reinforced. | Reflection: Why is acknowledgment important for the sustainability of a voluntary agreement? What does it cost you to say 'good idea' — and what do you gain?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Hold up a hand to cut Eli off mid-sentence, your expression hardening as you shake your head: 'We'll do it my way. You can stay in the park — I'm not kicking you out — but the music stays off completely. No speaker, no noise. Put it in a bag.' You point at the portable speaker on the bench with a sharp gesture, ignoring Nela's comment about the skate area entirely and overriding the group's proposal with your own stricter terms.",
+                    "feedback": "Why: Overriding their proposal with a stricter rule punishes the initiative they just showed. They offered a reasonable compromise — relocation and lower volume — and you responded by banning music entirely. This tells them: your input does not matter, and cooperation earns you nothing. It is particularly damaging because they are teenagers who just demonstrated exactly the kind of responsible problem-solving that youth engagement programs try to cultivate. You have taught them that engaging with authority is a waste of time. | CONSEQUENCES: Eli's face falls. 'We literally just offered to move.' The group complies, but the speaker goes into a bag with resentment. The music ban feels like punishment for a crime that was not committed. Next time, they will not bother offering solutions — they will just avoid the police entirely. | Reflection: When is directiveness necessary, and when does it destroy the very cooperation you are trying to build? What did the group's proposal demonstrate about their willingness to engage?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Phase 7 — Closing on Scene",
+            "sceneUpdate": {
+                "emoji": "👋",
+                "title": "Saying Goodbye",
+                "desc": "The group is packing up to move to the skate area. The mood is calm — even light. Krystof and Jarda walk together, not friends yet but no longer enemies. Nela approaches you as the others start moving. You make a mental note to file a community contact report when you get back to the vehicle — names, nature of the dispute, the cyberbullying element, and the resolution reached. Pattern tracking on youth contacts helps the department identify recurring issues before they escalate."
+            },
+            "npcDialogue": [
+                {
+                    "character": "nela",
+                    "text": "Thanks for not just sending us home. Most cops just tell us to leave."
+                },
+                {
+                    "character": "eli",
+                    "text": "(calling back) Yeah... thanks, I guess. See you around, Officer."
+                }
+            ],
+            "prompt": "The encounter is ending. Nela thanks you for treating them with respect. How do you leave a lasting positive impression?",
+            "options": [
+                {
+                    "text": "Take a moment to look at each of them before you speak, voice warm and unhurried: 'Thank you for your cooperation — all of you. Eli, Nela, thanks for talking to me instead of shutting me out — that made a real difference. Krystof, I hope things get better for your dad — I mean that. Jarda, what you did back there took guts.' You pause, then add: 'If any of you ever need help with anything — not just police stuff — you can ask. Enjoy your afternoon.'",
+                    "feedback": "Why: This closing is a masterclass in human connection. Thanking them by name personalizes the encounter — they are not 'a group of teens,' they are individuals you remember. Acknowledging Krystof's family situation shows that you listened and cared. Praising Jarda's apology reinforces the reconciliation. Offering future help ('not just police stuff') redefines the police-youth relationship from adversarial to supportive. 'Enjoy your afternoon' returns their day to them. The last words of an encounter are what people remember most — and these words say: you matter, you were heard, and authority can be kind. | CONSEQUENCES: Nela smiles. Krystof nods quietly — the acknowledgment of his dad means more than you know. Jarda looks up, surprised to be praised. Eli waves. They walk away carrying a fundamentally different experience of police than they expected. This is the encounter they will tell their friends about. | Reflection: How does the 'last sentence' affect what people take away from a police interaction? Why is naming individuals in a group particularly powerful at the close of an encounter?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Smile and give the group a casual thumbs-up as they start gathering their things, keeping the tone light and genuine: 'Thanks for working with me on this — seriously, you handled it well. A lot of people wouldn't have come up with that solution on their own.' You step back toward the main path and raise a hand in a relaxed wave: 'Have a good afternoon, and keep things chill over there. I'll be in the area if you need anything.'",
+                    "feedback": "Why: Warm, appreciative, and genuinely friendly. 'You handled it well' is positive reinforcement that acknowledges their maturity. The tone matches the situation — casual, respectful, not overblown. However, it misses the opportunity to address individuals — particularly Krystof, who shared something deeply personal, and Jarda, who took a difficult step. In a group of teenagers, individual recognition carries enormous weight. A generic 'you all' is good; individual acknowledgment is exceptional. | CONSEQUENCES: The group walks away with a positive impression. The encounter was good — but it could have been memorable. Without individual recognition, the memory will be 'that officer was cool' rather than 'that officer saw me as a person.' | Reflection: What is the difference between a positive group interaction and one that leaves individuals feeling personally seen? When does investing an extra thirty seconds of personalization pay dividends?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Tuck your notepad away and speak in a flat, businesslike tone that strips any warmth from the closing: 'Alright, this time we'll let it slide — no report, no fine. But next time there could be a fine, so keep it down and make sure I don't get another call about this spot today.' You turn to leave without using any of their names, offering no acknowledgment of how the encounter went or the effort they put into resolving it.",
+                    "feedback": "Why: 'Let it slide' implies they committed an offense that you are generously overlooking — which reframes a cooperative resolution as a pardon. 'Next time there could be a fine' re-introduces a threat at the exact moment when trust is at its highest. The closing undoes the goodwill of the preceding stages. The group does not hear 'thank you' — they hear 'you got lucky this time.' For teenagers, the last thing an authority figure says carries disproportionate weight. This closing tells them: the police always have a threat in reserve. | CONSEQUENCES: The mood drops. Eli's wave dies. Nela looks at the ground. Compliance continues, but the warm feelings evaporate. They leave with the impression that police tolerance is conditional and temporary. | Reflection: When is a warning sufficient, and when does it undo the rapport you have built? How does framing an outcome as 'letting it slide' change the power dynamic?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Point a finger at the group, sweeping it from one end to the other, voice dropping to a low, deliberate warning: 'Watch yourselves next time. If I get called back out here for any reason — noise, arguing, anything — you'll all be getting fines, every single one of you. I won't be this nice again.' You hold the stare for a long beat, then turn on your heel and walk toward the patrol car without a goodbye or a backward glance.",
+                    "feedback": "Why: A scolding, threatening close after a cooperative encounter is a betrayal of the trust that was built. 'Watch yourselves' treats them as future offenders. 'I won't be this nice again' reveals that you view your own professionalism as a favor rather than a standard. Every positive step of the preceding interaction is retroactively reframed: the officer was not being fair — the officer was being lenient, and next time they will show their true colors. This is how young people learn to distrust police permanently. The damage from a bad closing can outweigh the benefit of an entire good encounter. | CONSEQUENCES: Nela's smile disappears. Krystof mutters 'Same as always.' Jarda shakes his head. Eli says nothing — she is already composing the social media post about how the officer was 'nice until the end.' The group walks away carrying bitterness instead of gratitude. Everything you built has been demolished in two sentences. | Reflection: How do you keep your own frustration or cynicism in check at the end of an intervention? Why can two sentences at the close undo thirty minutes of good work?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Phase 8 — Debrief and Reflection",
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Training Debrief — Back at the Station",
+                "desc": "You are back at the station with Sergeant Benešová. The park encounter is over, and it is time to review what happened, what worked, and what could be improved."
+            },
+            "autoDialogue": true,
+            "finalScene": true,
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "Youth encounters are defining moments — not just for the call, but for the next fifty years of how those young people relate to authority. You walked into a noise complaint with a group of teenagers and found a cyberbullying crisis layered on top of a family emergency. The way you handled it — names, transparency, guided reconciliation, and collaborative problem-solving — taught those teenagers something they will carry for decades: that authority can listen, can be fair, and can help."
+                },
+                {
+                    "character": "officer",
+                    "text": "What I found hardest was resisting the urge to just impose a solution. When Eli's group proposed moving to the skate area, my first instinct was to add conditions — stricter volume limits, a time they had to leave by. Letting them own the solution felt like I was giving up control."
+                },
+                {
+                    "character": "instructor",
+                    "text": "And that is exactly the misconception I want to address. With teenagers, imposing your solution is faster, but letting them own it is what actually works. The difference is between compliance and commitment. When you dictate terms, you get compliance that evaporates the moment you drive away. When they generate the solution themselves, they are committed to it because it is theirs. Eli's proposal was not a concession you made — it was the best possible outcome, because a group of teenagers voluntarily chose responsibility. That is not losing control. That is the highest form of it."
+                },
+                {
+                    "character": "instructor",
+                    "text": "One more thing — the procedural side. You referenced the digital harassment statute when talking to Jarda about the video. That was smart. It gave weight to your mediation without turning it into a criminal proceeding. And your community contact report — documenting the names, the cyberbullying element, the resolution — that is how we track patterns. If Jarda's name comes up again in a similar context three months from now, having that record means we can intervene earlier, maybe connect him with a school counselor before things escalate. Documentation on youth contacts is not bureaucracy — it is prevention."
+                },
+                {
+                    "character": "instructor",
+                    "text": "The moment that will stay with me is your closing — using their names, acknowledging Krystof's family crisis, praising Jarda's courage in apologizing. Eli later told a school counselor that what she remembered most was that the officer used their names and asked what was wrong before telling them what to do. That single observation captures everything. You did not scatter them. You did not silence them. You met them where they were, and they rose to meet you. Let me tell you what happened afterward."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {
+            "name": "Dispatcher",
+            "avatar": "📻"
+        },
+        "eli": {
+            "name": "Eli (17, group spokesperson)",
+            "avatar": "🧑‍🎤"
+        },
+        "nela": {
+            "name": "Nela (16, quiet observer)",
+            "avatar": "👩‍🦰"
+        },
+        "krystof": {
+            "name": "Kryštof (17, father in hospital)",
+            "avatar": "😠"
+        },
+        "jarda": {
+            "name": "Jarda (16, posted the video)",
+            "avatar": "😒"
+        },
+        "mrs_kovar": {
+            "name": "Mrs. Kovářová (park visitor)",
+            "avatar": "👵"
+        },
+        "officer": {
+            "name": "You (Officer)",
+            "avatar": "👮"
+        },
+        "instructor": {
+            "name": "Sergeant Benešová",
+            "avatar": "👮‍♀️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Outstanding Youth Engagement!",
+            "emoji": "🌟",
+            "feedback": "You demonstrated exceptional skill in every dimension of youth-focused de-escalation. Your calm approach preserved dignity, your transparency built trust, your emotional intelligence guided a genuine reconciliation, and your closing left a lasting positive impression. These teenagers walked away with a fundamentally different view of police — and that matters for decades to come."
+        },
+        "good": {
+            "title": "Strong Performance",
+            "emoji": "✅",
+            "feedback": "You handled the encounter well, showing good instincts for de-escalation and genuine respect for the young people involved. Some opportunities for deeper emotional engagement or more personalized closing were missed, but your overall approach was professional, fair, and effective."
+        },
+        "average": {
+            "title": "Adequate Response",
+            "emoji": "📊",
+            "feedback": "You resolved the situation without major escalation, but several opportunities for meaningful connection were missed. Review techniques for emotional validation, facilitated apologies, and collaborative problem-solving with youth. The technical outcome was acceptable, but the relational outcome could be significantly stronger."
+        },
+        "poor": {
+            "title": "Needs Significant Improvement",
+            "emoji": "⚠️",
+            "feedback": "Your approach escalated tensions and damaged the relationship between these young people and law enforcement. Threats, dismissiveness, and authoritarian language are particularly counterproductive with teenagers, who are developmentally primed to resist perceived injustice. Review youth engagement principles, de-escalation fundamentals, and the long-term community cost of negative police-youth encounters."
+        }
+    },
+    "metrics": {
+        "youthEngagement": {
+            "name": "Youth Engagement",
+            "description": "Using age-appropriate communication, names, and respect to build trust with young people",
+            "icon": "🧑‍🤝‍🧑"
+        },
+        "proceduralFairness": {
+            "name": "Procedural Fairness",
+            "description": "Explaining your presence, listening to all sides, and applying rules transparently and impartially",
+            "icon": "⚖️"
+        },
+        "emotionalIntelligence": {
+            "name": "Emotional Intelligence",
+            "description": "Recognizing, validating, and working with emotions rather than suppressing or dismissing them",
+            "icon": "💚"
+        },
+        "proportionateResponse": {
+            "name": "Proportionate Response",
+            "description": "Matching the level of intervention to the actual severity of the situation without over- or under-reacting",
+            "icon": "📏"
+        },
+        "communityRelations": {
+            "name": "Community Relations",
+            "description": "Balancing the needs of all stakeholders — teens, park visitors, and the broader community — while building long-term trust",
+            "icon": "🏘️"
+        }
+    }
+}

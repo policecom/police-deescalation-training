@@ -1,0 +1,403 @@
+{
+    "scenarioId": "5",
+    "reviewVersion": "2.0",
+    "title": "Plângere pentru zgomot \u2014 Medierea orelor de liniște \u2014 Analiza performanței",
+
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Sosirea",
+            "criticalSkills": ["Validarea experienței reclamantului înainte de a acționa", "Colectarea de informații de la reclamant", "Evaluarea istoricului relației de vecinătate", "Rezistența la prejudecata urgenței în apelurile de calitate a vieții"],
+            "learningObjective": "Demonstrați că răspunsul eficient la plângerile de zgomot începe cu înțelegerea contextului \u2014 durată, istoric, tentative anterioare de rezolvare \u2014 nu cu grăbirea spre aplicarea legii.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Dați-i dlui Novak o încuviințare calmă: \u201eAud muzica de aici, așa că înțeleg frustrarea dumneavoastră. Înainte de a urca, vreau să mă asigur că am imaginea completă. De cât timp durează acest lucru și s-a mai întâmplat ceva similar înainte? Ați încercat să vorbiți direct cu ei?\u201d",
+                    "strengths": ["Validează experiența lui imediat prin recunoașterea zgomotului audibil \u2014 construiește credibilitate instantanee", "Colectează informații specifice \u2014 durată, istoric, comunicare anterioară \u2014 care modelează întreaga strategie de intervenție", "Întrebarea dacă a încercat comunicarea directă dezvăluie dinamica relației de vecinătate", "Demonstrează răbdare și minuțiozitate înainte de a acționa, ceea ce modelează poliția eficientă"],
+                    "consequences": "Dl Novak se simte ascultat și oferă detalii utile: este prima dată când a fost atât de rău, nu a vorbit niciodată cu ei și nici nu le știe numele. Acum înțelegeți că aceasta este o escaladare de la zero \u2014 nicio relație anterioară, nicio tentativă anterioară.",
+                    "trainingFocus": "Cum schimbă înțelegerea faptului dacă vecinii au comunicat vreodată tipul de intervenție pe care îl oferiți?"
+                },
+                "partially_positive": {
+                    "choiceText": "\u201eVă aud, dle Novak. Orele de liniște au început la zece și în mod clar sunt încălcate. Să urc să rezolv chestiunea asta chiar acum.\u201d Urcați direct pe scări.",
+                    "adequate": ["Validarea rapidă a plângerii arată receptivitate", "Recunoaște factual încălcarea orelor de liniște"],
+                    "missed": ["Ați sărit peste colectarea de informații critice \u2014 niciun istoric, niciun context relațional, nicio tentativă anterioară", "Urcarea cu doar perspectiva reclamantului îngustează abordarea spre aplicare", "Nu s-au stabilit așteptări cu dl Novak despre ce înseamnă \u201erezolv\u201d"],
+                    "improvement": "Investiți șaizeci de secunde în întrebări de context înainte de a urca. Faptul că este primul incident și că vecinii sunt necunoscuți transformă abordarea din aplicare în mediere."
+                },
+                "neutral": {
+                    "choiceText": "\u201eBine, aud muzica. Să urc și să bat la ușă, și vom rezolva asta.\u201d Îi faceți dlui Novak un semn scurt și urcați pe scări.",
+                    "adequate": ["Recunoaște că zgomotul este real", "Arată disponibilitate de a acționa"],
+                    "missed": ["\u201eVom rezolva asta\u201d este vag \u2014 nu stabilește așteptări despre cum arată rezoluția", "Zero informații colectate de la reclamant", "Dl Novak își imaginează petrecerea oprită; dumneavoastră poate vă imaginați o reducere de volum \u2014 diferența creează probleme ulterior"],
+                    "improvement": "Înainte de a urca, puneți trei întrebări: de cât timp durează, s-a mai întâmplat, ați vorbit cu ei? Apoi stabiliți așteptări clare despre abordarea dumneavoastră.",
+                    "consequences": "Ajungeți la apartamentul cu petrecerea aproape fără context. Dl Novak așteaptă jos fără să știe la ce să se aștepte, devenind mai anxios cu fiecare minut."
+                },
+                "negative": {
+                    "choiceText": "\u201eDle Novak, e sâmbătă seara \u2014 oamenii mai fac petreceri uneori. Ați încercat să vă puneți dopuri de urechi? Urc să le spun o vorbă, dar nu pot garanta că se vor opri complet.\u201d",
+                    "risks": ["Respinge o plângere legitimă sugerând că reclamantul ar trebui să se adapteze", "Orele de liniște sunt o regulă afișată a clădirii, nu o preferință personală \u2014 minimizarea aceasta este factual greșită", "Stabilirea unor așteptări scăzute înainte de investigare semnalează că ați ales deja partea gazdelor petrecerii", "Erodează încrederea în poliție pentru problemele de calitate a vieții \u2014 poate să nu mai sune data viitoare, nici pentru probleme serioase"],
+                    "consequences": "Frustrarea dlui Novak explodează. Se simte respins și începe să se îndoiască dacă a meritat să sune. Dacă rezoluția este imperfectă, va suna din nou \u2014 mai furios și mai neîncrezător.",
+                    "betterApproach": "Validați plângerea (\u201eaud muzica de aici\u201d), colectați informații și urcați cu context în loc de prejudecăți."
+                }
+            },
+            "keyLearningPoints": ["Validarea a ceea ce experimentează reclamantul (\u201eaud și eu muzica\u201d) construiește credibilitate imediată", "Șaizeci de secunde de colectare a informațiilor modelează întreaga strategie de intervenție", "Întrebarea despre comunicarea anterioară între vecini dezvăluie dacă medierea sau aplicarea legii este potrivită", "Sugerarea că un reclamant ar trebui să tolereze o încălcare legitimă distruge încrederea în poliție pentru apelurile de calitate a vieții"]
+        },
+        "2": {
+            "stageName": "Reclamantul",
+            "criticalSkills": ["Gestionarea transparentă a așteptărilor reclamantului", "Recunoașterea preocupărilor de sănătate fără a promite excesiv", "Explicarea raționamentului medierii pentru a obține acceptul", "Stabilirea clară a criteriilor de escaladare"],
+            "learningObjective": "Demonstrați că gestionarea așteptărilor unui reclamant înainte de a acționa este la fel de importantă ca intervenția în sine \u2014 pentru că diferența dintre ce se așteaptă și ce livrați determină încrederea în rezultat.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "\u201eDle Novak, sănătatea dumneavoastră contează și dreptul la liniște după ora zece este legitim \u2014 iau asta în serios. Iată ce voi face: voi urca, voi vorbi cu ei și voi lucra pentru a opri zgomotul în seara asta. Vreau să fiu sincer cu dumneavoastră \u2014 pentru o primă abatere, voi începe cu un avertisment clar și un acord specific. Dacă nu se conformează, aplicarea legii se intensifică. Dar experiența mea arată că medierea între vecini funcționează mai bine pe termen lung decât amenzile. Îmi acordați șansa să încerc această abordare?\u201d",
+                    "strengths": ["Validează preocuparea de sănătate și statutul legal simultan", "Transparent cu privire la abordare \u2014 avertisment înainte de amendă \u2014 cu raționament clar", "Explică de ce medierea funcționează mai bine decât amenzile în disputele de vecinătate", "Întrebarea \u201eîmi acordați șansa\u201d respectă autonomia și invită la colaborare", "Stabilește criterii clare de escaladare astfel încât să știe ce se întâmplă dacă medierea eșuează"],
+                    "consequences": "Dl Novak face o pauză, apoi dă din cap cu reticență. Are suficientă încredere în dumneavoastră pentru a vă lăsa să încercați medierea. Urcați cu acceptul lui condiționat, ceea ce vă dă spațiu să mediați fără ca el să se simtă trădat.",
+                    "trainingFocus": "De ce construiește explicarea raționamentului dumneavoastră unui reclamant \u2014 în loc să promiteți doar acțiune \u2014 o încredere mai durabilă?"
+                },
+                "partially_positive": {
+                    "choiceText": "\u201eÎnțeleg pe deplin, și o amendă este cu siguranță posibilă. Lăsați-mă să urc și să evaluez situația mai întâi, apoi voi determina acțiunea potrivită.\u201d",
+                    "adequate": ["Recunoașterea amenzii ca posibilitate este tehnic corectă", "Limbaj profesional și intenție de a evalua înainte de a acționa"],
+                    "missed": ["\u201eO amendă este cu siguranță posibilă\u201d ridică așteptările că aplicarea legii este rezultatul probabil", "Dacă alegeți ulterior medierea, dl Novak se va simți indus în eroare \u2014 diferența dintre implicație și rezultat erodează încrederea", "\u201eEvaluez situația\u201d este vag și nu-i oferă nimic concret"],
+                    "improvement": "Fiți transparent cu privire la abordarea intenționată în loc să lăsați deschisă calea spre rezultatul preferat al reclamantului. Explicați că medierea este primul pas și de ce funcționează mai bine pe termen lung."
+                },
+                "neutral": {
+                    "choiceText": "\u201eMă duc să rezolv. Încercați să vă odihniți, dle Novak. Mă întorc după ce am vorbit cu ei.\u201d",
+                    "adequate": ["Bine intenționat și arată disponibilitate de a acționa", "Revenirea la reclamant este adecvată"],
+                    "missed": ["\u201eRezolv\u201d nu stabilește așteptări \u2014 dl Novak umple ambiguitatea cu rezultatul preferat", "Nicio mențiune a preocupării de sănătate sau validare a impactului perturbării", "A-i spune unei persoane lipsite de somn să \u201eîncerce să se odihnească\u201d în timp ce basul pulsează este lipsit de sensibilitate"],
+                    "improvement": "Înlocuiți promisiunile vagi cu descrieri specifice de proces. Spuneți-i ce veți face, cât ar putea dura și care este gama de rezultate posibile.",
+                    "consequences": "Dl Novak se retrage în apartament și stă treaz ascultând. Când vă întoarceți cu un compromis, este confuz și dezamăgit pentru că \u201erezolv\u201d a însemnat altceva pentru el."
+                },
+                "negative": {
+                    "choiceText": "\u201eDle Novak, înțeleg că e frustrant, dar nu pot să dau amenzi pur și simplu. Aceste lucruri se rezolvă de obicei singure \u2014 petrecerile se termină la un moment dat. Le spun să dea muzica mai încet, dar realist, s-ar putea să trebuiască pur și simplu să așteptați să treacă noaptea asta.\u201d",
+                    "risks": ["\u201ePetrecerile se termină la un moment dat\u201d și \u201eașteptați să treacă\u201d sunt profund disprețuitoare față de o plângere legitimă", "Orele de liniște sunt o regulă afișată cu o încălcare clară în desfășurare \u2014 nu o chestiune de răbdare", "A-i spune unui bărbat cu o afecțiune cardiacă să suporte semnalează că plângerea lui este un inconvenient", "\u201eNu pot să dau amenzi\u201d este înșelător \u2014 aveți acea autoritate pentru încălcări de zgomot"],
+                    "consequences": "Dl Novak se simte abandonat de sistemul pe care l-a chemat în ajutor. Poate escalada \u2014 sunând un supervizor, confruntând vecinii personal sau pur și simplu nemaiaavând încredere niciodată în poliție pentru problemele de calitate a vieții.",
+                    "betterApproach": "Validați statutul legal și preocuparea de sănătate. Fiți transparent cu privire la abordarea de mediere prioritară și explicați de ce produce rezultate pe termen lung mai bune decât o amendă."
+                }
+            },
+            "keyLearningPoints": ["Diferența dintre ce se așteaptă un reclamant și ce livrați determină încrederea în rezultat", "Explicarea raționamentului \u2014 nu doar a acțiunii \u2014 transformă conformarea reticentă în acord real", "Preocupările de sănătate ridicate de reclamanți nu sunt retorice \u2014 modelează urgența și seriozitatea răspunsului", "A-i spune cuiva cu o nemulțumire legitimă să \u201eaștepte să treacă\u201d deteriorează încrederea în poliție pentru toate apelurile viitoare de calitate a vieții"]
+        },
+        "3": {
+            "stageName": "Bătaia la ușă",
+            "criticalSkills": ["De-escaladarea defensivității la o persoană în stare de ebrietate", "Recunoașterea sărbătorii înainte de a aborda plângerea", "Deschiderea cu conversație în loc de comenzi", "Răspuns proporțional la o încălcare de calitate a vieții"],
+            "learningObjective": "Demonstrați că primele treizeci de secunde la ușa petrecerii determină dacă obțineți o conversație sau o confruntare \u2014 și că recunoașterea sărbătorii înainte de a menționa plângerea reduce dramatic defensivitatea.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Păstrați un ton calm și conversațional: \u201eBună seara. Sunt Agentul [nume]. Văd că sărbătoriți \u2014 la mulți ani celui care e la zi. Sunt aici pentru că vecinul de dedesubt a sunat din cauza zgomotului. Orele de liniște ale clădirii au început la zece, iar eu aud muzica de la parter. Aș vrea să vorbim despre cum puteți termina seara fără să țineți tot blocul treaz. Putem sta puțin de vorbă?\u201d",
+                    "strengths": ["Prezentarea cu numele umanizează interacțiunea imediat", "Recunoașterea sărbătorii arată că vedeți oameni, nu doar o încălcare", "Prezentarea faptelor neutru \u2014 vecinul a sunat, orele de liniște, zgomot audibil \u2014 fără acuzații", "\u201eCum puteți termina seara\u201d semnalează că nu ați venit să opriți totul, reducând dramatic defensivitatea", "Întrebarea \u201eputem sta de vorbă\u201d îi acordă autonomie și deschide dialogul în loc să emită ordine"],
+                    "consequences": "Defensivitatea lui Tomáš se diminuează. Nu se aștepta la un ofițer calm și rezonabil. Face un pas în prag și coboară vocea. A început o conversație în loc de o confruntare.",
+                    "trainingFocus": "Cum schimbă recunoașterea sărbătorii cuiva înainte de a menționa plângerea disponibilitatea de a coopera?"
+                },
+                "partially_positive": {
+                    "choiceText": "\u201eHei, vă înțeleg \u2014 sâmbătă seara, petrecere de ziua de naștere. Am fost și eu acolo. Dar vecinii sună, și orele de liniște au început la zece. Uitați, nu vreau să stric seara nimănui. Puteți doar să mai dați puțin volumul mai încet?\u201d",
+                    "adequate": ["Ton prietenos și relatabil care reduce defensivitatea inițială", "Recunoaște contextul \u2014 sâmbătă seara, zi de naștere \u2014 ceea ce arată înțelegere"],
+                    "missed": ["\u201eMai dați puțin volumul mai încet\u201d este prea vag pentru a constitui un acord real \u2014 ce înseamnă \u201epuțin\u201d?", "Nu v-ați prezentat, ratând o oportunitate ușoară de construire a raportului", "Fără detalii specifice, Tomáš este de acord în acel moment și nu schimbă nimic semnificativ"],
+                    "improvement": "Păstrați tonul prietenos dar înlocuiți solicitările vagi cu propuneri specifice. Prezentați-vă cu numele. \u201eMai dați puțin volumul mai încet\u201d devine \u201edați basul mai încet, închideți balconul și stabiliți o oră de încheiere.\u201d"
+                },
+                "neutral": {
+                    "choiceText": "\u201eBună seara. Am primit o plângere de zgomot. Orele de liniște ale clădirii sunt de la zece și le-ați depășit cu mult. Am nevoie să dați muzica mai încet imediat și să aduceți oamenii ăia de pe balcon înăuntru.\u201d",
+                    "adequate": ["Corect factual și direct cu privire la încălcare", "Identifică acțiuni specifice necesare \u2014 muzica mai încet, balconul eliberat"],
+                    "missed": ["Deschide cu cerințe în loc de dialog \u2014 \u201eam nevoie să\u201d este un ordin, nu o deschidere de conversație", "Fără prezentare, fără recunoaștere a sărbătorii, fără interes pentru perspectiva lui", "O persoană ușor în stare de ebrietate care primește ordine de la un necunoscut la ușă va rezista instinctiv"],
+                    "improvement": "Începeți cu o scurtă recunoaștere a situației, prezentați-vă și formulați solicitările ca propuneri în loc de ordine. Același rezultat se obține cu mult mai puțină rezistență.",
+                    "consequences": "Tomáš se încordează și începe o luptă de putere. Fiecare concesie acum se simte ca o pierdere de demnitate."
+                },
+                "negative": {
+                    "choiceText": "\u201eDomnʼle, răspund la o încălcare de zgomot. Orele de liniște ale clădirii sunt afișate de la 22:00 la 07:00. Sunteți în prezent în încălcare. Am nevoie de un act de identitate și muzica oprită acum. Dacă trebuie să revin, vă așteaptă o amendă.\u201d",
+                    "risks": ["Cererea unui act de identitate pentru o plângere de zgomot este complet disproporționată \u2014 nu este o investigație penală", "Deschiderea cu amenințări garantează rezistență maximă din partea cuiva în propria casă care a consumat alcool", "Abordarea confruntativă otrăvește orice șansă de mediere", "Prietenii se adună în spatele lui Tomáš, multiplicând numărul de persoane defensive de gestionat"],
+                    "consequences": "Tomáš face un pas înapoi neîncrezător. Prietenii lui se adună în spatele lui și atmosfera devine ostilă. Anna apare, alarmată. Acum aveți în față o cameră de oameni defensivi, ușor în stare de ebrietate, în loc de un cuplu cooperant.",
+                    "betterApproach": "Adaptați răspunsul la abatere. O plângere de zgomot într-o sâmbătă seara necesită conversație și mediere, nu cereri de documente și amenințări cu amenzi."
+                }
+            },
+            "keyLearningPoints": ["Primele treizeci de secunde la ușă determină conversație sau confruntare", "Recunoașterea sărbătorii înainte de a menționa plângerea reduce defensivitatea cu mai mult de jumătate", "Prezentarea cu numele transformă relația autoritate-subiect în persoană-persoană", "Cererea unui act de identitate pentru o plângere de zgomot este disproporționată și garantează escaladarea"]
+        },
+        "4": {
+            "stageName": "Rezistența",
+            "criticalSkills": ["Validarea sentimentelor înainte de a prezenta contraargumentul", "Implicarea părții cooperante fără a marginaliza partea defensivă", "Reîncadrarea drepturilor ca fiind comune, nu competitive", "Menținerea calmului sub provocare verbală"],
+            "learningObjective": "Demonstrați că atunci când o parte este defensivă și alta cooperantă, medierea eficientă validează mai întâi persoana defensivă, apoi implică persoana cooperantă \u2014 fără ca niciuna să se simtă ocolită.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Adresați-vă mai întâi lui Tomáš, respectuos dar ferm: \u201eVă aud \u2014 lucrând ture de noapte ca paramedic și în sfârșit având o sâmbătă cu prietenii, înțeleg de ce contează pentru dumneavoastră. Și aveți dreptate, este casa dumneavoastră. Dar trebuie să fiu direct: zgomotul de astăzi este semnificativ peste normal. Aud basul de la parter. Orele de liniște există pentru că toți din această clădire au același drept la casa lor \u2014 iar dl Novak a menționat că are o afecțiune cardiacă și o programare medicală la șase. Preocuparea lui de sănătate este reală. Nu sunt aici să vă opresc petrecerea. Sunt aici să găsesc un teren de mijloc.\u201d Apoi întoarceți-vă spre Anna: \u201eAți menționat că nu v-ați dat seama cât de tare este \u2014 asta îmi spune că situația este rezolvabilă. Putem vorbi despre câteva detalii specifice?\u201d",
+                    "strengths": ["Validează sentimentele lui Tomáš și recunoaște programul lui de muncă \u2014 dezamorsează defensivitatea", "\u201eAveți dreptate, este casa dumneavoastră\u201d îi afirmă autonomia înainte de a introduce contraargumentul", "\u201eNu sunt aici să vă opresc petrecerea\u201d elimină amenințarea specifică la care reacționează", "Implicarea Annei după validarea lui Tomáš canalizează conversația spre soluții fără a-l marginaliza", "Reîncadrează drepturile ca fiind comune, nu competitive \u2014 ambele părți au revendicări egale asupra casei lor"],
+                    "consequences": "Tomáš expiră și validarea ajunge la el. Anna face un pas înainte și începe să rezolve probleme. Dinamica se schimbă de la confruntare la negociere.",
+                    "trainingFocus": "Cum schimbă validarea poziției cuiva înainte de a prezenta perspectiva opusă capacitatea lor de a vă asculta?"
+                },
+                "partially_positive": {
+                    "choiceText": "Concentrați-vă pe Anna, deoarece este mai cooperantă: \u201eMulțumesc \u2014 apreciez asta. Lăsați-mă să vă explic ce am nevoie: muzica trebuie dată semnificativ mai încet, și balconul trebuie eliberat. Puteți ajuta să se realizeze asta?\u201d",
+                    "adequate": ["Implicarea părții cooperante este pragmatică și adesea eficientă", "Specifică acțiuni concrete necesare \u2014 muzica mai încet, balconul eliberat"],
+                    "missed": ["Vorbind în principal cu Anna în timp ce Tomáš v-a provocat poate părea că îl ocoliți", "În propria casă, fiind ocolit în favoarea prietenei este dureros", "Tomáš poate respecta acordul în seara asta dar va ține minte că s-a simțit respins"],
+                    "improvement": "Adresați-vă persoanei defensive mai întâi cu validare, apoi pivotați spre persoana cooperantă pentru soluții. Ambele se simt auzite și niciuna nu se simte ocolită."
+                },
+                "neutral": {
+                    "choiceText": "\u201eUitați, nu vreau să fac din asta o chestie mare. Păreți oameni rezonabili. Doar încercați să o mai dați încet, da? Nu vreau să fiu nevoit să revin.\u201d",
+                    "adequate": ["Ton prietenos care evită escaladarea", "Arată disponibilitate de a le acorda o șansă"],
+                    "missed": ["\u201eÎncercați să o mai dați încet\u201d nu este un acord \u2014 este o dorință fără detalii specifice", "\u201eNu vreau să fiu nevoit să revin\u201d este o amenințare pasivă care subminează tonul prietenos", "Nici defensivitatea lui Tomáš nici disponibilitatea Annei de a coopera nu sunt abordate sau utilizate"],
+                    "improvement": "Înlocuiți prietenia vagă cu implicare specifică. Validați sentimentele lui Tomáš, angajați cooperarea Annei și propuneți termeni concreți. Specificitatea este ceea ce produce conformare.",
+                    "consequences": "Tomáš ridică din umeri și închide ușa. Muzica scade pentru două minute, apoi revine. Dl Novak sună din nou la 00:30."
+                },
+                "negative": {
+                    "choiceText": "\u201eDomnʼle, înțeleg că este apartamentul dumneavoastră, dar orele de liniște sunt orele de liniște. Nu contează ce zi este. Am nevoie ca muzica să fie oprită și oaspeții să plece de pe balcon. Nu este o rugăminte.\u201d",
+                    "risks": ["\u201eNu este o rugăminte\u201d escaladează o plângere de zgomot într-un concurs de dominanță", "Zero flexibilitate \u2014 muzica oprită complet, oaspeții restricționați \u2014 este disproporționat pentru o petrecere de ziua de naștere", "Tomáš percepe aceasta ca autoritaristă și se înrădăcinează în loc să coopereze", "Cooperarea oferită de Anna este irosită pentru că cadrul confruntativ o împiedică să medieze"],
+                    "consequences": "Tomáš se pune în gardă și vă spune să scrieți o amendă și să plecați. Conversația devine adversarială. Orice rezoluție se va simți forțată în loc de voluntară.",
+                    "betterApproach": "Validați-i poziția, eliminați amenințarea percepută și propuneți un teren de mijloc. Aceeași conformare se obține prin conversație, nu prin forță, în cadrul confruntării."
+                }
+            },
+            "keyLearningPoints": ["Validați persoana defensivă înainte de a prezenta perspectiva opusă \u2014 îi face capabili să vă asculte", "Când o parte este cooperantă, implicați-o pentru soluții dar nu ocoliți pe cealaltă", "\u201eNu sunt aici să vă opresc petrecerea\u201d este mai puternic decât orice cerință pentru că elimină amenințarea la care rezistă", "Solicitările vagi produc conformare vagă \u2014 iar conformarea vagă produce apeluri repetate"]
+        },
+        "5": {
+            "stageName": "Găsirea unei soluții",
+            "criticalSkills": ["Propunerea de termeni concreți, specifici, acționabili", "Respectarea limitelor în timp ce se negociază compromisul", "Stabilirea unei ore definitive de încheiere ca ancoră a acordului", "Formularea propunerilor ca negociere, nu ca decret"],
+            "learningObjective": "Demonstrați că trei solicitări specifice, rezonabile \u2014 reducerea basului, închiderea balconului, oră de încheiere convenită \u2014 produc o conformare dramatic mai bună decât o cerință vagă, pentru că specificitatea creează responsabilitate.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "\u201eAșteptați un moment.\u201d Transmiteți la dispecerat: \u201ePuteți trimite ambulanța să verifice reclamantul \u2014 bărbat în vârstă, raportează strângere în piept, are afecțiune cardiacă cunoscută. Se solicită evaluare preventivă.\u201d Apoi întoarceți-vă spre Tomáš: \u201eVecinul dumneavoastră raportează dureri în piept. Are o afecțiune cardiacă. Am chemat echipa medicală să-l verifice. Este corect \u2014 nu vă cer să terminați petrecerea chiar acum. Dar situația s-a schimbat. Iată ce cred că funcționează: primul lucru, dați basul mai încet \u2014 asta trece prin podea. Al doilea, închideți ușa balconului. Al treilea, să stabilim o oră de încheiere \u2014 12:30 vă dă încă o oră și îi oferă lui un punct final. Puteți lucra cu asta?\u201d",
+                    "strengths": ["Prioritizare excelentă \u2014 preocuparea medicală abordată imediat și profesional cu solicitare de ambulanță", "Nu încearcă să diagnostice singur, solicită evaluare preventivă profesională", "Comunicarea durerii în piept lui Tomáš schimbă dinamica \u2014 ca paramedic, înțelege stresul cardiac", "Trei articole concrete, specifice, acționabile \u2014 fiecare abordând o dimensiune distinctă a zgomotului", "\u201ePuteți lucra cu asta\u201d o transformă în negociere, păstrând autonomia lor"],
+                    "consequences": "Expresia lui Tomáš se schimbă la mențiunea durerii în piept \u2014 știe profesional ce înseamnă. Acceptă 12:30. Specificitatea face acordul real \u2014 știu exact ce se așteaptă. Basul scade, ușa balconului se închide, iar petrecerea trece la conversație.",
+                    "trainingFocus": "De ce produc trei solicitări specifice, rezonabile o conformare mai bună decât o cerință vagă?"
+                },
+                "partially_positive": {
+                    "choiceText": "\u201eCe-ați zice să dați muzica mai încet și să închideți balconul? Asta ar trebui să rezolve cea mai mare parte a zgomotului. Vă las pe voi să terminați la o oră rezonabilă. Trebuie să mă duc să-l verific pe vecinul dumneavoastră \u2014 nu se simte bine.\u201d",
+                    "adequate": ["Două din cele trei dimensiuni cheie ale zgomotului sunt abordate \u2014 volumul muzicii și balconul", "Tonul este colaborativ și neconfruntativ"],
+                    "missed": ["\u201eOră rezonabilă\u201d este subiectiv \u2014 miezul nopții pentru un tânăr de douăzeci și opt de ani și miezul nopții pentru un bărbat de șaizeci de ani sunt concepte diferite", "Fără o oră specifică de încheiere, petrecerea ar putea continua până la 2 noaptea cu toți simțind că și-au respectat partea", "Cel mai controversat termen \u2014 ora de încheiere \u2014 este cel lăsat nedefinit"],
+                    "improvement": "Ancorați întotdeauna acordurile cu o oră specifică de încheiere. Este cel mai important termen pentru că îi oferă reclamantului un punct final și gazdelor petrecerii o limită clară."
+                },
+                "neutral": {
+                    "choiceText": "\u201eVă las pe voi să stabiliți detaliile. Păreți rezonabili. Doar asigurați-vă că vecinul de dedesubt nu mai trebuie să sune, bine? Aș prefera să nu revin. Trebuie să mă duc să-l verific.\u201d",
+                    "adequate": ["Neconfruntativ și arată încredere în judecata lor", "Recunoaște că par rezonabili"],
+                    "missed": ["Delegarea totală nu stabilește termeni specifici sau limite", "A cere unor oameni care au băut să se auto-regleze la miezul nopții este un punct cunoscut de eșec", "\u201eAș prefera să nu revin\u201d este un avertisment pasiv, nu un acord"],
+                    "improvement": "Propuneți termeni specifici \u2014 basul dat mai încet, balconul închis, ora de încheiere stabilită \u2014 și cereți-le acordul. Specificitatea creează responsabilitate; vaguitatea creează apeluri repetate.",
+                    "consequences": "Fără angajamente specifice, muzica rămâne la același nivel, balconul rămâne ocupat, iar dl Novak sună din nou la 1 noaptea solicitând un alt ofițer."
+                },
+                "negative": {
+                    "choiceText": "\u201eAm nevoie ca muzica să fie oprită complet și petrecerea încheiată în treizeci de minute. Orele de liniște sunt orele de liniște, iar acum vecinul dumneavoastră raportează simptome medicale.\u201d",
+                    "risks": ["Muzica oprită complet și o încheiere în treizeci de minute este disproporționat pentru o primă abatere la o petrecere de ziua de naștere", "Practic ordonă ca petrecerea să se încheie, încălcând principiul proporționalității", "Cererea de tăcere totală tratează o sărbătoare ca și cum ar fi o infracțiune", "Creează un resentiment enorm \u2014 față de poliție, față de dl Novak, față de clădire"],
+                    "consequences": "Maxilarul lui Tomáš se încleștează. Anna face un pas înapoi, supărată. Oaspeții schimbă priviri furioase. Chiar dacă se conformează, resentimentul creează un conflict de durată între vecini.",
+                    "betterApproach": "Un prim avertisment pentru o plângere de zgomot ar trebui să caute conformare proporțională, nu tăcere totală. Reducerea basului, închiderea balconului și o oră rezonabilă de încheiere abordează plângerea fără a pedepsi sărbătoarea."
+                }
+            },
+            "keyLearningPoints": ["Termenii specifici creează responsabilitate; termenii vagi creează apeluri repetate", "Ora de încheiere este cel mai important termen \u2014 oferă reclamantului un punct final și gazdelor o limită clară", "Explicarea de ce contează fiecare solicitare (basul trece prin podea, zgomotul de balcon afectează clădirea) educă în loc să dicteze", "Cerințele disproporționate pentru o primă plângere de zgomot creează resentiment care generează luni de conflict între vecini"]
+        },
+        "6": {
+            "stageName": "Acordul",
+            "criticalSkills": ["Recapitularea termenilor pentru a crea un contract verbal", "Umanizarea reclamantului față de cealaltă parte", "Plantarea semințelor pentru relații directe între vecini", "Întărirea cooperării în loc de a încheia cu amenințări"],
+            "learningObjective": "Demonstrați că formalizarea acordului, umanizarea dlui Novak și sugerarea contactului direct viitor transformă rezoluția unei plângeri de zgomot în adevărată prevenire a conflictelor.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "\u201eApreciez că amândoi lucrați cu mine \u2014 iar Tomáš, faptul că ați întrebat de el îmi spune multe. E stabil \u2014 tensiune ridicată de la stres și lipsa de somn, dar paramedicul a spus că are nevoie de odihnă. Să recapitulez ca să fim toți pe aceeași pagină: basul dat mai încet, ușa balconului închisă, oaspeții rămân înăuntru și terminați până la 12:30. Dacă astea sunt respectate, nu e nicio problemă în seara asta. Îl cheamă dl Novak \u2014 e un pensionar văduv, locuiește singur. Dacă aveți ocazia, o bătaie scurtă la ușa lui mâine ca să vă prezentați ar putea conta enorm. Nu știe că sunteți paramedic, Tomáš \u2014 asta ar putea conta pentru un om cu o afecțiune cardiacă care locuiește singur. Vecinii care se cunosc rezolvă aceste lucruri singuri.\u201d",
+                    "strengths": ["Recapitularea termenilor specifici creează un contract verbal recunoscut de ambele părți", "Complimentarea cooperării lor întărește comportamentul dorit", "Umanizarea dlui Novak \u2014 în vârstă, locuind singur, epuizat, programare la medic la șase \u2014 îl transformă din \u201etipul care a chemat poliția\u201d într-o persoană", "Sugestia de a bate la ușa lui mâine plantează sămânța unei relații directe care previne apeluri viitoare", "Aceasta este prevenirea conflictelor, nu doar rezolvarea conflictelor"],
+                    "consequences": "Expresia Annei se îndulcește. Spune că vor merge să se prezinte. Tomáš dă din cap, arătând ușor vinovat. Vecina de vizavi zâmbește. Nu ați rezolvat doar o plângere de zgomot \u2014 ați început potențial o relație de vecinătate.",
+                    "trainingFocus": "Cum transformă umanizarea reclamantului față de cealaltă parte dinamica din adversarială în relațională?"
+                },
+                "partially_positive": {
+                    "choiceText": "\u201eMă bucur că am rezolvat. Trebuie să documentez această vizită oficial și vreau să fiu transparent: emit un avertisment scris \u2014 nu o amendă \u2014 pentru încălcarea zgomotului. Acesta este un document oficial că orele de liniște au fost încălcate în seara asta. Dacă mai este o încălcare în nouăzeci de zile, următorul răspuns va fi automat o amendă. Aceasta nu este o pedeapsă \u2014 este o limită clară. Ați cooperat în seara asta și apreciez asta. Gândiți-vă la avertisment ca la o linie în nisip care protejează pe toată lumea, inclusiv pe voi, pentru că îi dă dlui Novak încrederea că sistemul a funcționat și nu trebuie să escaladeze mai departe.\u201d",
+                    "adequate": ["Transparent cu privire la avertismentul scris oficial \u2014 explică ce este și ce nu este", "Încadrarea avertismentului ca protecție pentru ambele părți menține bunăvoința", "Traseul clar de escaladare (amendă în nouăzeci de zile) oferă ambelor părți garanție instituțională", "Recunoaște cooperarea lor, întărind comportamentul pozitiv"],
+                    "missed": ["Nicio umanizare a dlui Novak \u2014 rămâne \u201etipul care a chemat poliția\u201d în loc de o persoană cu o poveste", "Nicio sugestie pentru contact direct viitor între vecini \u2014 aceeași dinamică luna viitoare", "Documentarea formală oferă încheiere dar nu construiește relația care previne apelurile repetate", "Întrebarea sinceră a lui Tomáš despre sănătatea dlui Novak rămâne neabordată în această abordare"],
+                    "improvement": "Un avertisment scris cu criterii clare de escaladare este proporțional și justificabil. Dar combinarea lui cu umanizarea dlui Novak \u2014 vârsta, singurătatea, sănătatea \u2014 și sugestia de a se prezenta mâine ar transforma documentarea în prevenirea conflictelor."
+                },
+                "neutral": {
+                    "choiceText": "\u201eBun, atunci suntem în regulă. O seară plăcută în continuare.\u201d Vă întoarceți și coborâți scările.",
+                    "adequate": ["Politicos și neconfruntativ", "Nu subminează acordul cu amenințări"],
+                    "missed": ["Nicio recapitulare a termenilor \u2014 niciun contract verbal", "Nicio umanizare a dlui Novak", "Nicio sugestie pentru relații viitoare de vecinătate", "Niciun mecanism de prevenire a aceluiași apel luna viitoare"],
+                    "improvement": "Recapitulați termenii specifici, împărtășiți ceva uman despre dl Novak și sugerați-le să se prezinte. Diferența dintre rezolvarea unui incident și prevenirea următorului sunt șaizeci de secunde de conversație.",
+                    "consequences": "Tomáš și Anna se conformează în seara asta pentru că întâlnirea este proaspătă. Dar fără o relație cu dl Novak, următoarea petrecere generează același apel."
+                },
+                "negative": {
+                    "choiceText": "\u201eBun. Notez această vizită în raport. Dacă mai apare o plângere din această clădire \u2014 în seara asta sau oricând \u2014 să vă așteptați la o amendă. V-aș recomanda să vă țineți petrecerile mai silențioase pe viitor. Încălcările de zgomot rămân în dosar. Și sincer, cu un bătrân cu dureri de piept dedesubt, aveți noroc că nu vă amendez în seara asta.\u201d",
+                    "risks": ["Limbaj birocratic, punitiv care tratează o plângere de zgomot rezolvată ca un avertisment penal", "Tomáš și Anna au cooperat voluntar \u2014 amenințându-i cu dosare și amenzi pedepsește cooperarea", "Distruge încrederea construită în timpul medierii și asigură resentiment față de poliție și dl Novak", "Creează un efect de descurajare: data viitoare când apare un conflict, vor fi ostili în loc de cooperanți"],
+                    "consequences": "Căldura evaporă complet. Tomáš mormăie despre \u201edosar\u201d la o petrecere de ziua de naștere. Data viitoare când apare un conflict cu dl Novak, nu vor încerca să-l rezolve \u2014 vor fi ostili.",
+                    "betterApproach": "Când cineva a cooperat deja voluntar, escaladarea consecințelor comunică faptul că cooperarea nu are valoare. Încheiați cu întărire și construirea relațiilor, nu cu amenințări."
+                }
+            },
+            "keyLearningPoints": ["Recapitularea termenilor specifici creează un contract verbal care funcționează mai bine decât acordurile vagi", "Umanizarea reclamantului față de cealaltă parte transformă dinamica din adversarială în relațională", "Sugerarea contactului direct între vecini este prevenirea conflictelor \u2014 cel mai valoros rezultat al oricărui apel de zgomot", "Încheierea cu amenințări după cooperare voluntară distruge bunăvoința pe care medierea a construit-o"]
+        },
+        "7": {
+            "stageName": "Închiderea buclei",
+            "criticalSkills": ["Oferirea de informații specifice reclamantului despre ce s-a convenit", "Umanizarea celeilalte părți față de reclamant", "Încurajarea comunicării directe între vecini", "Validarea dreptului reclamantului de a suna din nou dacă este nevoie"],
+            "learningObjective": "Demonstrați că închiderea buclei cu reclamantul nu este opțională \u2014 dl Novak trebuie să audă termeni specifici, să învețe numele vecinilor și să simtă că apelul său a produs rezultate semnificative.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "\u201eDle Novak, am vorbit cu vecinii dumneavoastră \u2014 îi cheamă Tomáš și Anna. Găzduiesc o petrecere de ziua de naștere pentru un prieten care e în vizită din alt oraș. Nu și-au dat seama cât de mult zgomot ajungea prin podea. Iată ce am convenit: basul este dat mai încet \u2014 probabil auziți deja diferența \u2014 balconul e închis, oaspeții sunt înăuntru, și termină până la 12:30. Le-am spus și despre situația dumneavoastră \u2014 că aveți o programare dimineața devreme și aveți nevoie de odihnă. S-au simțit sincer vinovați. V-aș încuraja să vă prezentați la un moment dat \u2014 vecinii care se cunosc tind să rezolve aceste lucruri singuri, fără să ne sune pe noi. Dacă zgomotul crește din nou în seara asta, aveți tot dreptul să sunați din nou și se va escalada.\u201d",
+                    "strengths": ["Împărtășirea numelor și contextului vecinilor îi umanizează \u2014 devin persoane, nu \u201ezgomotul de sus\u201d", "Detalierea termenilor specifici îi arată dlui Novak că apelul său a produs rezultate concrete", "Menționarea că s-au simțit vinovați construiește empatie peste etaje", "Încurajarea contactului direct plantează sămânța auto-rezolvării pentru probleme viitoare", "Confirmarea dreptului de a suna înapoi validează poziția lui fără a submina acordul"],
+                    "consequences": "Umerii dlui Novak se relaxează cu ușurare. Le învață numele pentru prima dată în optsprezece luni. Pentru prima dată în seara asta, arată ca un vecin care ar putea bate la o ușă, nu ca un reclamant frustrat.",
+                    "trainingFocus": "Cum transformă împărtășirea informațiilor specifice \u2014 nume, context, termeni \u2014 un reclamant din adversar în potențial vecin?"
+                },
+                "partially_positive": {
+                    "choiceText": "\u201eAm vorbit cu ei și au fost de acord să dea muzica mai încet și să termine curând. Ar trebui să observați deja o diferență. Dacă reîncepe, nu ezitați să sunați din nou.\u201d",
+                    "adequate": ["Corect și liniștitor \u2014 confirmă că s-au luat măsuri", "Afirmă dreptul de a suna din nou dacă acordul eșuează"],
+                    "missed": ["\u201eDea muzica mai încet\u201d și \u201etermină curând\u201d sunt vagi \u2014 ce oră înseamnă \u201ecurând\u201d?", "Fără nume, fără context, fără umanizarea vecinilor", "Fără sugestie de contact direct viitor", "Dl Novak va sta treaz ascultând, incapabil să aibă încredere că \u201ecurând\u201d înseamnă curând"],
+                    "improvement": "Împărtășiți numele vecinilor, ora specifică de încheiere și ceva uman despre ei. Detaliile sunt ceea ce transformă anxietatea în ușurare și necunoscuții în vecini."
+                },
+                "neutral": {
+                    "choiceText": "\u201eE rezolvat, dle Novak. Muzica e dată mai încet. Încercați să dormiți \u2014 aveți programarea dimineață. Noapte bună.\u201d",
+                    "adequate": ["Eficient și reține programarea lui \u2014 arată oarecare atenție", "Confirmă că zgomotul este redus"],
+                    "missed": ["\u201eE rezolvat\u201d nu îi spune nimic despre ce s-a convenit, cine locuiește deasupra lui sau ce urmează", "Niciun termen specific, niciun nume, nicio umanizare, nicio construire de relații", "Tratează reclamantul ca pe un bilet de rezolvat, nu ca pe o persoană într-o comunitate"],
+                    "improvement": "Înlocuiți \u201ee rezolvat\u201d cu detalii specifice: cine sunt, ce s-a convenit și când se termină. Un reclamant care știe termenii se simte rezolvat; unul care aude \u201ee rezolvat\u201d doar speră că e adevărat.",
+                    "consequences": "Dl Novak vă mulțumește și închide ușa, nesatisfăcut dar prea obosit să insiste. Nu știe numele vecinilor, nu știe ora de încheiere și nu se simte împuternicit."
+                },
+                "negative": {
+                    "choiceText": "\u201eAm vorbit cu ei. Fac o petrecere de ziua de naștere \u2014 păreau niște tineri simpatic. Le-am spus să dea mai încet. Uitați, dle Novak, aceste lucruri se întâmplă în blocuri. Tinerii fac petreceri. Încercați să fiți puțin mai înțelegător \u2014 și ei muncesc din greu. Poate investiți în niște dopuri de urechi pentru nopțile de genul ăsta.\u201d",
+                    "risks": ["Pledarea pentru gazdele petrecerii către reclamant \u2014 \u201etineri simpatici\u201d, \u201efiți înțelegător\u201d, \u201edopuri de urechi\u201d \u2014 invalidează plângerea sa legitimă", "A așteptat peste o oră poliția la miezul nopții și acum i se spune să fie mai tolerant și să cumpere dopuri de urechi", "Încălcarea orelor de liniște a fost reală, frustrarea legitimă și preocupările de sănătate valide", "Aceasta este imaginea în oglindă a respingerii gazdelor petrecerii \u2014 ați ales o tabără"],
+                    "consequences": "Dl Novak se simte trădat. Încrederea lui în poliție pentru problemele de calitate a vieții este grav deteriorată. Nu va mai suna data viitoare \u2014 fie îi va confrunta personal, fie va suferi în tăcere și îi va resimți pe toți.",
+                    "betterApproach": "Împărtășiți ce s-a convenit fără a editorializa. Umanizați vecinii prin fapte, nu prin pledoarie. Lăsați-l pe dl Novak să-și formeze propria opinie despre ei bazată pe numele, contextul și disponibilitatea lor de a coopera."
+                }
+            },
+            "keyLearningPoints": ["Închiderea buclei cu reclamantul nu este opțională \u2014 determină dacă simte că apelul său a contat", "Împărtășirea numelor și contextului transformă necunoscuții anonimi în vecini reali", "Termenii specifici (ora de încheiere, basul dat mai încet, balconul închis) oferă reclamantului un cadru pentru evaluarea conformării", "Pledarea pentru o parte în fața celeilalte distruge încrederea reclamantului \u2014 împărtășiți fapte și lăsați-i să tragă propriile concluzii"]
+        }
+    },
+
+    "scoringExplanation": {
+        "maxPossibleScore": 84,
+        "scoreBreakdown": {
+            "stage1_sosirea": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -8 },
+            "stage2_reclamantul": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -8 },
+            "stage3_bataia_la_usa": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -10 },
+            "stage4_rezistenta": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -8 },
+            "stage5_solutia": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -8 },
+            "stage6_acordul": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -10 },
+            "stage7_inchiderea_buclei": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -10 }
+        },
+        "performanceThresholds": {
+            "perfect": { "range": "84", "description": "Toate alegerile pozitive \u2014 mediere excepțională în fiecare etapă. Ați validat ambele părți, ați negociat termeni specifici, ați umanizat vecinii unul față de celălalt și ați plantat semințele unei relații durabile." },
+            "good": { "range": "50-83", "description": "Preponderent pozitiv cu câteva alegeri parțial pozitive. Instincte puternice de mediere cu oportunități minore ratate în specificitate, gestionarea așteptărilor sau construirea relațiilor." },
+            "average": { "range": "14-49", "description": "Alegeri mixte \u2014 câteva momente bune de mediere alături de acorduri vagi, gestionare ratată a așteptărilor sau eșec în umanizarea părților. Zgomotul din seara asta s-a oprit, dar cel din luna viitoare nu este prevenit." },
+            "poor": { "range": "Sub 14", "description": "Preponderent alegeri neutre sau negative \u2014 fie ați aplicat excesiv legea pentru o problemă de calitate a vieții, fie ați subrespondat la o plângere legitimă. Abilitățile de mediere, proporționalitatea sau gestionarea reclamantului necesită îmbunătățiri fundamentale." }
+        }
+    },
+
+    "comprehensiveMetrics": {
+        "mediationSkills": {
+            "description": "Echilibrarea preocupărilor ambelor părți, facilitarea dialogului și negocierea acordurilor pe care ambele părți le pot accepta",
+            "indicators": {
+                "excellent": ["Ați validat atât frustrarea dlui Novak cât și dreptul lui Tomáš de a sărbători în propria casă", "Ați implicat cooperarea Annei fără a-l marginaliza pe Tomáš", "Ați negociat un acord specific în trei părți (bas, balcon, oră de încheiere) pe care ambele părți l-au acceptat voluntar", "Ați umanizat fiecare parte față de cealaltă \u2014 dl Novak le-a aflat numele, Tomáš și Anna au aflat despre situația dlui Novak"],
+                "poor": ["Ați ales o parte împotriva celeilalte \u2014 fie respingând plângerea dlui Novak, fie cerând oprirea completă a petrecerii", "Nu ați implicat cooperarea oferită de Anna sau l-ați ocolit pe Tomáš în propria casă", "Nu ați negociat niciun acord specific sau v-ați bazat pe termeni vagi precum \u201edați mai încet\u201d și \u201eterminați curând\u201d", "Ați lăsat ambele părți ca adversari anonimi fără nicio cale spre comunicare directă"]
+            }
+        },
+        "proportionateResponse": {
+            "description": "Adaptarea aplicării legii la gravitatea încălcării \u2014 avertisment înainte de amendă, așteptări rezonabile pentru o primă abatere",
+            "indicators": {
+                "excellent": ["Ați tratat aceasta ca o primă abatere de calitate a vieții care necesită mediere, nu ca o chestiune penală necesitând aplicarea legii", "Ați propus termeni care permiteau petrecerii să continue la volum redus în loc de a cere tăcere totală", "Ați stabilit o oră rezonabilă de încheiere (12:30) care echilibra nevoile ambelor părți", "Ați rezervat autoritatea de amendare ca instrument de escaladare, nu ca prim răspuns"],
+                "poor": ["Ați cerut acte de identitate, ați amenințat cu amenzi sau ați ordonat oprirea completă a petrecerii la primul contact", "Ați tratat o petrecere de ziua de naștere la 23:30 ca pe o încălcare repetată sau gravă", "Ați propus termeni atât de restrictivi încât constituiau pedeapsă, nu compromis", "I-ați sugerat dlui Novak să tolereze zgomotul sau să cumpere dopuri de urechi, subrespondând la o încălcare legitimă"]
+            }
+        },
+        "complainantManagement": {
+            "description": "Validarea preocupărilor reclamantului, gestionarea transparentă a așteptărilor și închiderea buclei cu informații specifice",
+            "indicators": {
+                "excellent": ["Ați validat frustrarea și preocuparea de sănătate a dlui Novak înainte de a urca", "Ați stabilit așteptări clare despre abordarea de mediere prioritară și ați explicat de ce funcționează mai bine decât amenzile", "V-ați întors la dl Novak cu termeni specifici, numele vecinilor și context care i-a umanizat", "Ați confirmat dreptul lui de a suna din nou încurajând în același timp comunicarea directă viitoare"],
+                "poor": ["Ați respins plângerea dlui Novak cu \u201epetrecerile se întâmplă\u201d sau \u201eîncercați dopuri de urechi\u201d", "Ați stabilit așteptări vagi sau înșelătoare \u2014 \u201erezolv\u201d sau \u201eo amendă este cu siguranță posibilă\u201d", "Nu ați închis bucla sau v-ați întors cu informații vagi \u2014 \u201ee rezolvat\u201d sau \u201etermină curând\u201d", "Ați pledat pentru gazdele petrecerii când ați raportat înapoi \u2014 \u201esunt tineri simpatici, încercați să fiți înțelegător\u201d"]
+            }
+        },
+        "conflictPrevention": {
+            "description": "Construirea relațiilor de vecinătate pe termen lung în loc de simpla rezolvare a problemei de astăzi \u2014 umanizarea părților una față de alta și încurajarea comunicării directe",
+            "indicators": {
+                "excellent": ["Ați împărtășit situația dlui Novak cu Tomáš și Anna \u2014 vârsta, singurătatea, sănătatea, programarea de dimineață", "Ați împărtășit numele, contextul și remușcarea sinceră a lui Tomáš și Anna cu dl Novak", "Ați sugerat ambelor părți să se prezinte \u2014 plantând sămânța unei relații directe", "Ați recunoscut că vecinii care se cunosc rezolvă problemele de zgomot fără implicarea poliției"],
+                "poor": ["L-ați lăsat pe dl Novak ca \u201ebătrânul de jos care a chemat poliția\u201d în mintea lui Tomáš și Anna", "I-ați lăsat pe Tomáš și Anna ca \u201etinerii care fac zgomot\u201d anonimi în mintea dlui Novak", "Nu ați făcut nicio sugestie pentru comunicare directă viitoare între vecini", "Ați încheiat cu amenințări sau avertismente care asigurau că următoarea interacțiune între vecini va fi ostilă"]
+            }
+        },
+        "professionalCommunication": {
+            "description": "Comunicare clară, calmă, respectuoasă cu toate părțile \u2014 inclusiv cu persoane în stare de ebrietate, defensive sau frustrate",
+            "indicators": {
+                "excellent": ["Ați menținut un ton calm, conversațional atât cu dl Novak frustrat cât și cu Tomáš defensiv și ușor în stare de ebrietate", "V-ați prezentat cu numele gazdelor petrecerii, umanizând interacțiunea", "Ați folosit limbaj care deschidea dialogul \u2014 \u201eputem sta de vorbă\u201d, \u201eputeți lucra cu asta\u201d, \u201eîmi acordați șansa\u201d", "Ați explicat raționamentul din spatele fiecărei solicitări în loc de a emite ordine fără context"],
+                "poor": ["Ați folosit limbaj de comandă \u2014 \u201enu este o rugăminte\u201d, \u201eam nevoie să\u201d, \u201emuzica oprită acum\u201d", "Nu v-ați prezentat sau ați folosit limbaj birocratic, impersonal", "Afirmații lipsite de sensibilitate precum \u201eîncercați să vă odihniți\u201d în timp ce basul pulsează prin tavan", "Ați încheiat interacțiunile cu amenințări care subminau tonul cooperant construit în timpul medierii"]
+            }
+        }
+    },
+
+    "mistakePatterns": {
+        "enforcementEscalation": {
+            "pattern": "Recurgerea implicită la instrumente de aplicare a legii \u2014 amenzi, cereri de acte de identitate, ordine de oprire \u2014 când situația necesită mediere",
+            "examples": ["Cererea actului de identitate al lui Tomáš pentru o plângere de zgomot", "Ordinul de oprire completă a muzicii și încheierea petrecerii în treizeci de minute", "Amenințarea cu amenzi ca primă mișcare în loc de a le rezerva pentru neconformare", "Notarea vizitei \u201eîn raport\u201d și avertizarea despre \u201eîncălcări de zgomot care rămân în dosar\u201d după cooperare voluntară"],
+            "impact": "Aplicarea disproporționată a legii pentru o primă plângere de zgomot creează resentiment de durată între vecini și față de poliție. Tomáš și Anna nu vor încerca să rezolve direct următorul conflict \u2014 vor fi ostili pentru că \u201edata trecută, polițiștii ne-au amenințat.\u201d Încrederea comunității în poliție pentru problemele de calitate a vieții se erodează.",
+            "correction": "Adaptați răspunsul la abatere. O primă plângere de zgomot într-o sâmbătă seara necesită conversație, mediere și acorduri specifice. Rezervați instrumentele de aplicare pentru neconformare, nu ca mișcări de deschidere."
+        },
+        "vaguenessDefault": {
+            "pattern": "Bazarea pe limbaj vag \u2014 \u201edați mai încet\u201d, \u201eterminați curând\u201d, \u201erezolvăm\u201d \u2014 în loc de propunerea de termeni specifici, acționabili",
+            "examples": ["\u201ePuteți doar să mai dați puțin volumul mai încet?\u201d fără a specifica ce înseamnă \u201epuțin\u201d", "\u201eVă las pe voi să terminați la o oră rezonabilă\u201d fără a defini \u201erezonabil\u201d", "\u201eMă duc să rezolv\u201d fără a-i spune dlui Novak ce înseamnă \u201erezolv\u201d", "\u201eVă las pe voi să stabiliți detaliile\u201d \u2014 delegare totală către persoane care au consumat alcool"],
+            "impact": "Acordurile vagi produc conformare vagă. Fără termeni specifici \u2014 basul dat mai încet, balconul închis, ora de încheiere stabilită \u2014 gazdele petrecerii se conformează în acel moment și revin la volumul original în câteva minute. Dl Novak sună din nou la 1 noaptea, mai furios și mai neîncrezător. Vaguitatea este principalul factor al apelurilor repetate de zgomot.",
+            "correction": "Ancorați întotdeauna acordurile cu trei articole specifice, acționabile. Pentru plângerile de zgomot: nivelul volumului/basului, confinarea interior/exterior și o oră definitivă de încheiere. Specificitatea creează responsabilitate."
+        },
+        "complainantDismissal": {
+            "pattern": "Minimizarea sau respingerea nemulțumirii legitime a reclamantului \u2014 sugerând că ar trebui să se adapteze în loc de a avea încălcarea abordată",
+            "examples": ["\u201eE sâmbătă seara \u2014 oamenii mai fac petreceri uneori. Ați încercat dopuri de urechi?\u201d", "\u201eAceste lucruri se rezolvă de obicei singure \u2014 petrecerile se termină la un moment dat\u201d", "\u201eÎncercați să fiți puțin mai înțelegător \u2014 și ei muncesc din greu. Poate investiți în niște dopuri de urechi\u201d", "A-i spune unui bărbat lipsit de somn cu o afecțiune cardiacă să \u201eaștepte să treacă\u201d"],
+            "impact": "Când un reclamant cu o nemulțumire legitimă (ore de liniște postate încălcate, preocupări de sănătate, lipsă de somn) i se spune să tolereze, încrederea lui în poliție pentru problemele de calitate a vieții este distrusă. Nu mai sună \u2014 nu pentru că problemele se opresc, ci pentru că a învățat că sunatul nu ajută. Aceasta este definiția erodării încrederii comunității.",
+            "correction": "Validați plângerea înainte de a o aborda. Orele de liniște sunt reguli postate, nu sugestii. Recunoașteți încălcarea, validați frustrarea și explicați abordarea \u2014 apoi mergeți să o abordați."
+        },
+        "closureNeglect": {
+            "pattern": "Eșecul de a închide bucla cu reclamantul \u2014 fie nu vă întoarceți la dl Novak, fie vă întoarceți cu informații inadecvate",
+            "examples": ["A nu vă întoarce la dl Novak după acord", "\u201eE rezolvat, dle Novak\u201d \u2014 fără detalii specifice despre ce s-a convenit", "Întoarcerea cu termeni vagi: \u201eau fost de acord să dea mai încet și să termine curând\u201d", "Eșecul de a împărtăși numele vecinilor, ora de încheiere sau orice context umanizant"],
+            "impact": "Reclamantul care a sunat cu bună-credință și a așteptat peste o oră nu știe ce s-a convenit, când se va termina zgomotul sau cine locuiește deasupra lui. Stă treaz ascultând, incapabil să aibă încredere că problema a fost rezolvată. Vecinii rămân adversari anonimi. Același apel luna viitoare.",
+            "correction": "Închideți bucla cu detalii specifice: împărtășiți numele vecinilor, termenii conveniți (basul dat mai încet, balconul închis, ora de încheiere) și ceva care îi umanizează. Sugerați-le să se prezinte. Experiența reclamantului cu rezultatul determină încrederea sa în poliție."
+        },
+        "sidePickingBias": {
+            "pattern": "Pledarea pentru o parte în fața celeilalte \u2014 fie validând gazdele către reclamant, fie validând cererea reclamantului de aplicare maximă către gazde",
+            "examples": ["\u201ePăreau niște tineri simpatici \u2014 încercați să fiți puțin mai înțelegător\u201d", "\u201eDle Novak, aceste lucruri se întâmplă în blocuri. Tinerii fac petreceri\u201d", "A le spune gazdelor petrecerii \u201ebătrânul de jos se plânge de orice\u201d (echoând încadrarea lui Tomáš)", "A fi de acord cu dl Novak că ar trebui dată o amendă înainte de a vorbi cu gazdele petrecerii"],
+            "impact": "Când pledați pentru o parte, cealaltă parte se simte trădată de instituția pe care a chemat-o în ajutor. Dl Novak aude cum apărați \u201etineri simpatici\u201d și concluzionează că poliția ține cu tinerii. Tomáš aude cum echoați cererile dlui Novak și concluzionează că poliția sunt instrumente ale reclamanților. Neutralitatea este fundamentul medierii.",
+            "correction": "Împărtășiți fapte fără a editorializa. \u201eÎi cheamă Tomáš și Anna, găzduiesc o petrecere de ziua de naștere, nu și-au dat seama cât de tare era și s-au simțit vinovați\u201d sunt informații neutre. \u201eSunt tineri simpatici, încercați să fiți înțelegător\u201d este pledoarie."
+        }
+    },
+
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Mediere excepțională a plângerii de zgomot \u2014 cel mai comun apel în poliție și cel care modelează cel mai mult încrederea comunității. L-ați ascultat pe dl Novak fără a promite excesiv, ați deschis conversația cu Tomáš într-un mod care i-a dezarmat defensivitatea, ați implicat cooperarea Annei fără a-l marginaliza, ați negociat trei termeni specifici și proporționali și ați închis bucla umanizând ambele părți una față de alta. Cel mai important, ați plantat sămânța unei relații directe între vecini care previne apelurile viitoare. Aceasta este poliția comunitară la cel mai înalt nivel \u2014 rezolvând zgomotul din seara asta și prevenind apelul din luna viitoare.",
+            "mostlyPositive": "Performanță puternică de mediere într-o plângere de zgomot care necesita echilibrarea a două poziții legitime \u2014 dreptul dlui Novak de a dormi și dreptul lui Tomáš și Anna de a sărbători în propria casă. Abordarea dumneavoastră a arătat instincte bune fie în gestionarea reclamantului, fie în implicarea gazdelor petrecerii, cu câteva oportunități ratate în specificitate, stabilirea așteptărilor sau construirea relațiilor. Rezoluția a fost proporțională și respectuoasă \u2014 rafinarea detaliilor de încheiere și prevenire a conflictelor vă va ridica abordarea de la bună la excepțională.",
+            "mixed": "Ați rezolvat plângerea de zgomot din seara asta dar ați lăsat dimensiuni importante ale medierii neabordate. Unele etape au arătat instincte puternice \u2014 poate în validarea dlui Novak sau implicarea cooperării Annei \u2014 în timp ce altele s-au bazat pe termeni vagi, gestionare ratată a așteptărilor sau eșec în umanizarea părților una față de alta. Zgomotul imediat s-a oprit, dar dinamica de vecinătate care l-a cauzat rămâne neschimbată. Revizuiți diferența dintre rezolvarea unui incident și prevenirea următorului.",
+            "mostlyNegative": "Această plângere de zgomot a relevat lacune semnificative în abilitățile de mediere și răspunsul proporțional. Deși ați abordat apelul, majoritatea alegerilor fie au aplicat excesiv legea pentru o primă abatere de calitate a vieții, fie au subrespondat la o plângere legitimă \u2014 ambele erodând încrederea comunității. Dl Novak și Tomáš meritau ambii validare, acorduri specifice și o cale spre comunicare directă. Revizuiți fundamentele medierii, principiile proporționalității și importanța critică a închiderii buclei cu reclamantul.",
+            "allNegative": "Abordarea dumneavoastră a tratat o situație de mediere fie ca o chestiune pur de aplicare a legii, fie ca un apel de respins. Plângerea de zgomot necesita echilibrarea a două poziții legitime cu acorduri specifice, răspuns proporțional și preocupare autentică pentru relația pe termen lung a ambelor părți. În schimb, alegerile fie au escaladat o problemă de calitate a vieții într-o confruntare, fie au respins o plângere validă sugerând reclamantului să tolereze pur și simplu. Este necesară o reorientare fundamentală spre abilitățile de mediere, proporționalitate și gestionarea reclamantului."
+        }
+    },
+
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Aud muzica de aici, așa că înțeleg frustrarea dumneavoastră.",
+            "Vreau să fiu sincer cu dumneavoastră \u2014 pentru o primă abatere, voi începe cu un avertisment clar și un acord specific. Dacă nu se conformează, aplicarea legii se intensifică.",
+            "Văd că sărbătoriți \u2014 la mulți ani celui care e la zi.",
+            "Aș vrea să vorbim despre cum puteți termina seara fără să țineți tot blocul treaz.",
+            "Vă aud \u2014 lucrând ture de noapte ca paramedic și în sfârșit având o sâmbătă cu prietenii, înțeleg de ce contează pentru dumneavoastră.",
+            "Nu sunt aici să vă opresc petrecerea. Sunt aici să găsesc un teren de mijloc.",
+            "Dați basul mai încet \u2014 asta trece prin podea.",
+            "Dl Novak \u2014 e un pensionar văduv, locuiește singur."
+        ],
+        "poorPhrases": [
+            "Dle Novak, e sâmbătă seara \u2014 oamenii mai fac petreceri uneori. Ați încercat să vă puneți dopuri de urechi?",
+            "Aceste lucruri se rezolvă de obicei singure \u2014 petrecerile se termină la un moment dat.",
+            "Am nevoie de un act de identitate și muzica oprită acum.",
+            "Orele de liniște sunt orele de liniște. Nu contează ce zi este. Am nevoie ca muzica să fie oprită și oaspeții să plece de pe balcon. Nu este o rugăminte.",
+            "Am nevoie ca muzica să fie oprită complet și petrecerea încheiată în treizeci de minute.",
+            "Notez această vizită în raport. Dacă mai apare o plângere din această clădire \u2014 în seara asta sau oricând \u2014 să vă așteptați la o amendă.",
+            "Păreau niște tineri simpatici. Le-am spus să dea mai încet. Uitați, dle Novak, aceste lucruri se întâmplă în blocuri.",
+            "Aș prefera să nu revin."
+        ],
+        "analysisCriteria": {
+            "complainantValidation": "A validat fraza frustrarea și statutul legal al dlui Novak înainte de a acționa sau a oferi soluții?",
+            "defensivenessReduction": "A redus fraza defensivitatea lui Tomáš prin recunoașterea perspectivei lui înainte de a prezenta pe cea opusă?",
+            "specificityOfTerms": "A propus fraza termeni concreți, măsurabili \u2014 sau s-a bazat pe limbaj vag precum \u201edați mai încet\u201d și \u201ecurând\u201d?",
+            "proportionalitySignal": "A corespuns fraza gravității unei prime plângeri de zgomot \u2014 sau a tratat o petrecere de ziua de naștere ca o chestiune penală?",
+            "relationshipBuilding": "A umanizat fraza o parte în fața celeilalte sau a plantat semințe pentru comunicare directă între vecini?",
+            "agencyPreservation": "A tratat fraza persoana ca participant la propria soluție \u2014 \u201eputeți lucra cu asta\u201d \u2014 sau ca subiect al autorității?"
+        }
+    },
+
+    "scenarioSpecificLessons": {
+        "1": "Plângerile pentru zgomot nu sunt despre zgomot \u2014 sunt despre respect, somn, autonomie și apartenență. Dl Novak nu sună pentru decibeli; sună pentru că se simte neputincios în propria casă. Înțelegerea nevoii mai profunde modelează o intervenție mai bună decât impunerea nivelurilor de volum.",
+        "2": "Reclamantul este primul dumneavoastră contact, dar nu singura responsabilitate. Gestionarea așteptărilor dlui Novak înainte de a urca \u2014 explicarea abordării de mediere prioritară și de ce funcționează mai bine decât amenzile \u2014 previne frustrarea când rezoluția este un compromis, nu o oprire completă.",
+        "3": "Deschiderea cu empatie în loc de autoritate când contactați gazdele petrecerii reduce dramatic defensivitatea. Recunoașterea sărbătorii și prezentarea cu numele transformă o confruntare într-o conversație în treizeci de secunde.",
+        "4": "Când o parte este defensivă și alta cooperantă, validați mai întâi persoana defensivă, apoi implicați-o pe cea cooperantă pentru soluții. Abordarea sentimentelor lui Tomáš înainte de a pivota spre Anna previne ca oricare dintre ei să se simtă ocolit.",
+        "5": "Acordurile concrete, specifice \u2014 nivelul basului, confinarea balconului, ora definitivă de încheiere \u2014 funcționează mai bine decât promisiunile vagi de a \u201eda mai încet.\u201d Trei solicitări specifice produc o conformare mai bună decât o cerință vagă pentru că specificitatea creează responsabilitate.",
+        "6": "Umanizarea reclamantului față de gazdele petrecerii este cel mai puternic instrument de prevenire a conflictelor disponibil. Când Tomáš și Anna află că dl Novak este un văduv în vârstă cu o afecțiune cardiacă și o programare la 6 dimineața, el nu mai este \u201etipul care a chemat poliția\u201d și devine o persoană.",
+        "7": "Închiderea buclei cu reclamantul nu este opțională. Dl Novak trebuie să audă termeni specifici, să învețe numele vecinilor și să simtă că apelul său a produs rezultate semnificative. Ofițerii care mediază și apoi închid bucla previn apelurile repetate care consumă resursele de patrulare timp de luni de zile.",
+        "8": "Ofițerii care recurg implicit la aplicarea punitivă a legii în plângerile de zgomot creează conflicte de durată între vecini. Abilitățile de mediere \u2014 ascultarea activă, reformularea, propunerea de compromisuri concrete \u2014 produc rezultate mult mai durabile decât amenzile, pentru că vecinii care împart o clădire trebuie să coexiste mult după plecarea poliției."
+    },
+
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Mediere avansată de vecinătate \u2014 formarea altora în rezolvarea disputelor rezidențiale cu mai multe părți", "Leadership în poliție comunitară \u2014 construirea culturilor de bloc în care rezidenții auto-rezolvă problemele de zgomot", "Tehnici de prevenire a conflictelor \u2014 transformarea intervențiilor unice în relații de vecinătate durabile"],
+            "good": ["Abilități extinse de mediere \u2014 echilibrarea așteptărilor reclamantului cu răspunsul proporțional", "Specificitate în realizarea acordurilor \u2014 ancorarea termenilor cu angajamente concrete, măsurabile", "Închiderea buclei \u2014 tehnici complete de urmărire a reclamantului pentru disputele rezidențiale"],
+            "average": ["Principii fundamentale de mediere \u2014 validarea tuturor părților, negocierea acordurilor specifice, menținerea neutralității", "Gestionarea așteptărilor cu reclamanții \u2014 stabilirea așteptărilor de proces înainte de a acționa", "Răspuns proporțional pentru apelurile de calitate a vieții \u2014 avertisment înainte de amendă, mediere înainte de aplicare"],
+            "poor": ["Fundamentele răspunsului la plângerile de zgomot \u2014 mediere versus aplicare în disputele de vecinătate", "Gestionarea reclamantului \u2014 validare, stabilirea așteptărilor și închiderea buclei", "Proporționalitate în situațiile de primă abatere \u2014 adaptarea răspunsului la gravitate", "De-escaladare cu persoane defensive și în stare de ebrietate în contexte rezidențiale"]
+        }
+    },
+
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Rezumatul general al performanței", "content": ["Scorul total și nivelul de performanță", "Punctele forte cheie de mediere demonstrate", "Lacune critice în gestionarea reclamantului sau specificitatea acordurilor", "Evaluarea generală a proporționalității și neutralității"]},
+            {"title": "Analiza medierii etapă cu etapă", "content": ["Alegerea făcută la fiecare etapă cu gazdele petrecerii și dl Novak", "Impactul asupra disponibilității de cooperare a ambelor părți", "Specificitatea acordurilor obținute versus termenii vagi folosiți", "Puncte cheie de învățare pentru fiecare etapă de interacțiune"]},
+            {"title": "Evaluarea gestionării reclamantului", "content": ["Calitatea validării inițiale \u2014 au fost recunoscute frustrarea și preocuparea de sănătate a dlui Novak?", "Stabilirea așteptărilor \u2014 a fost explicată abordarea de mediere înainte de a urca?", "Închiderea buclei \u2014 au fost împărtășite termeni specifici, nume și context umanizant la întoarcere?", "S-a simțit dl Novak că apelul său a produs rezultate semnificative?"]},
+            {"title": "Evaluarea proporționalității și medierii", "content": ["A fost răspunsul calibrat la o primă plângere de zgomot sau tratat ca o chestiune penală?", "Au fost propuși termeni specifici, proporționali \u2014 sau a fost petrecerea oprită complet?", "A fost autoritatea de amendare rezervată pentru neconformare sau folosită ca amenințare de deschidere?", "A echilibrat rezoluția dreptul dlui Novak la somn cu dreptul lui Tomáš și Anna de a sărbători?"]},
+            {"title": "Evaluarea prevenirii conflictelor", "content": ["A fost dl Novak umanizat față de Tomáš și Anna \u2014 vârstă, situație, sănătate, programare de dimineață?", "Au fost Tomáš și Anna umanizați față de dl Novak \u2014 nume, context, remușcare sinceră?", "A fost sugerat contactul direct între vecini pentru probleme viitoare?", "Vor auto-rezolva acești vecini următoarea problemă de zgomot, sau se va repeta același apel?"]},
+            {"title": "Eficacitatea comunicării", "content": ["Cele mai bune momente de dialog \u2014 fraze care au redus defensivitatea sau au construit empatia", "Fraze contraproductive \u2014 limbaj care a escaladat, respins sau lăsat termenii vagi", "Calibrarea tonului \u2014 calm și conversațional versus autoritar sau disprețuitor", "Folosirea limbajului care prezervă autonomia \u2014 \u201eputem sta de vorbă\u201d, \u201eputeți lucra cu asta\u201d"]},
+            {"title": "Recomandări de dezvoltare profesională", "content": ["Lacune imediate de abilități de mediere de abordat", "Tehnici de prevenire a conflictelor pe termen lung de dezvoltat", "Module de formare recomandate bazate pe nivelul de performanță"]},
+            {"title": "Aplicare în lumea reală", "content": ["Cum se aplică abilitățile de mediere a plângerilor de zgomot la toate apelurile de dispute între vecini", "Construirea culturilor de bloc în care rezidenții rezolvă direct problemele", "Prevenirea apelurilor repetate care consumă resursele de patrulare timp de luni de zile", "Impactul pe termen lung asupra încrederii comunității al unei singure plângeri de zgomot bine gestionate"]}
+        ]
+    }
+}

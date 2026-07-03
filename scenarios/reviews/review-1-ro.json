@@ -1,0 +1,363 @@
+{
+    "scenarioId": "1",
+    "reviewVersion": "3.0",
+    "title": "Analiză — Dezescaladarea controlului de trafic",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Oprirea",
+            "criticalSkills": ["Prezentare profesională și stabilirea tonului", "Integrarea informațiilor de la dispecerat fără dezvăluirea detaliilor sensibile", "Abordare conștientă de bunăstare a unui vehicul semnalat"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Vă apropiați pe partea șoferului cu lanterna în poziție joasă, fără a orbi. Vă opriți ușor în spatele geamului șoferului, vă anunțați calm: „Bună seara, domnule. Sunt Ofițerul [Nume] de la poliția municipală...”",
+                    "strengths": ["Deschiderea cu numele și departamentul satisface cerințele procedurale și umanizează imediat ofițerul", "Declararea abaterii specifice (84 într-o zonă de 50) este transparentă și factuală", "Notarea opririi întârziate fără acuzație integrează natural informațiile de la dispecerat", "A întreba „totul este în regulă?” înainte de a cere documente prioritizează persoana față de abatere", "Poziționarea joasă a lanternei evită efectul agresiv de orbire care escaladează tensiunea"],
+                    "consequences": "Domnul Davies strânge volanul, dar umerii i se lasă ușor la tonul dumneavoastră. Nu răspunde imediat — procesează faptul că vocea dumneavoastră nu este ostilă. Marcus coboară telefonul o fracțiune. Ați creat o fereastră de posibilitate de trei secunde.",
+                    "trainingFocus": "Cum influențează secvența a ceea ce spuneți mai întâi — identificare, motiv sau verificare de bunăstare — răspunsul emoțional imediat al șoferului?"
+                },
+                "partially_positive": {
+                    "choiceText": "Vă apropiați normal și spuneți: „Bună seara. Permisul și talonul, vă rog. V-am oprit pentru depășirea vitezei — 84 într-o zonă de 50. Am primit și o notă de la dispecerat despre o verificare de bunăstare pentru acest vehicul...”",
+                    "adequate": ["Transparent în privința motivului opririi și a verificării de bunăstare", "Salutul politicos stabilește un minim de profesionalism", "Întreabă ce se întâmplă, arătând interes pentru situația șoferului"],
+                    "missed": ["Dezvăluirea verificării de bunăstare înainte de a exista raport poate fi resimțită ca invazivă sau alarmantă", "Șoferul se poate simți supravegheat sau trădat de cel care a făcut apelul", "Lipsă de autoprezentare pe nume, ceea ce este o practică recomandată", "Momentul informațiilor sensibile contează — transparența fără raport poate avea efect invers"],
+                    "improvement": "Folosiți informațiile despre verificarea de bunăstare pentru a vă ghida observațiile și întrebările, nu pentru a le dezvălui direct. Întrebați „totul este în regulă diseară?” fără a menționa semnalarea de la dispecerat — aceeași preocupare transpare fără senzația de supraveghere."
+                },
+                "neutral": {
+                    "choiceText": "Vă apropiați cu poziționare standard și spuneți: „Bună seara. V-am cronometrat cu 84 într-o zonă de 50. Permisul și talonul, vă rog. Și puteți să-i spuneți pasagerului să pună telefonul jos?”",
+                    "adequate": ["Declarația despre viteză și cererea de documente sunt corecte procedural", "Ton calm și direct"],
+                    "missed": ["Cererea imediată despre telefon este problematică — filmarea poliției este un drept legal", "A cere pasagerului să înceteze filmarea înainte de orice raport semnalează defensivitate", "Lipsă de autoprezentare pe nume", "Preocuparea de bunăstare de la dispecerat este complet ignorată"],
+                    "improvement": "Eliminați complet comentariul despre telefon — filmarea este un drept, nu o provocare. Adăugați o autoprezentare și o întrebare deschisă care vă permite să evaluați starea șoferului fără a cere documente mai întâi."
+                },
+                "negative": {
+                    "choiceText": "Vă apropiați cu precauție, mâna aproape de centură, și vorbiți ferm: „Șoferule, țineți mâinile pe volan. Pasagerule, trebuie să vă văd ambele mâini. Nimeni nu se mișcă până nu spun eu.”",
+                    "risks": ["Nicio amenințare de siguranță articulabilă dincolo de doi ocupanți și un telefon", "Comenzi despre mâini și mișcări fără indicatori de siguranță sunt disproporționate", "Comunică amenințare în loc de serviciu la o oprire semnalată pentru bunăstare", "Nota de la dispecerat indica o preocupare de bunăstare, nu o alertă de pericol"],
+                    "consequences": "Ambii ocupanți înghețe. Marcus șoptește „Ți-am spus, tată.” Mâinile domnului Davies tremură pe volan. Orice criză personală se întâmplă în această mașină a fost îngropată sub teama de ofițer. Oportunitatea verificării de bunăstare a dispărut.",
+                    "betterApproach": "Rezervați comenzile de alertă maximă pentru situații cu indicatori articulabili de siguranță — mișcări suspecte, arme vizibile, alerte de infracțiune. Un vehicul semnalat pentru bunăstare cu doi ocupanți și un telefon necesită o prezentare calmă, nu comenzi tactice."
+                }
+            },
+            "keyLearningPoints": ["Primele treizeci de secunde ale unui control de trafic stabilesc traiectoria emoțională pentru tot ce urmează", "Informațiile de la dispecerat ar trebui să vă ghideze atenția, nu neapărat primele cuvinte", "A întreba despre telefonul pasagerului înainte de a vă prezenta spune povestea că camera contează mai mult decât persoana", "O oprire semnalată pentru bunăstare necesită o abordare conștientă de bunăstare — curiozitate, nu comenzi"]
+        },
+        "2": {
+            "stageName": "Pasagerul",
+            "criticalSkills": ["Afirmarea dreptului de a filma fără defensivitate", "Gestionarea simultană a două dinamici emoționale", "Empatie bazată pe observație fără interogatoriu"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Vă adresați mai întâi lui Marcus cu un gest calm de aprobare: „Ai perfectă dreptate — poți filma. Este dreptul tău și nu am nicio problemă cu asta.” Apoi vă întoarceți către domnul Davies: „Luați-vă timpul cu talonul...”",
+                    "strengths": ["Afirmarea imediată a dreptului lui Marcus de a filma dezamorsează confruntarea pentru care se pregătea", "Când un adolescent se așteaptă la ostilitate și primește respect, întreaga dinamică se schimbă", "A-i spune domnului Davies să-și ia timpul arată răbdare sub presiune", "A nota că are „multe pe cap” arată observație fără interogatoriu", "Se adresează ambilor ocupanți în ordine fără a-l neglija pe niciunul"],
+                    "consequences": "Marcus clipește, vizibil surprins. Telefonul rămâne ridicat, dar postura i se relaxează. Domnul Davies expiră și găsește talonul în torpedou. Temperatura din interiorul mașinii scade cu cinci grade. Ambii ocupanți sunt acum mai dispuși să vorbească.",
+                    "trainingFocus": "Ce se întâmplă cu o confruntare când sunteți de acord cu persoana înainte ca aceasta să termine de luptat? Cum schimbă afirmarea unui drept — în loc de a-l ignora sau contesta — dinamica puterii?"
+                },
+                "partially_positive": {
+                    "choiceText": "Vă concentrați în întregime pe domnul Davies: „Domnule, luați-vă timpul să găsiți talonul. Aștept.” Ignorați complet declarația lui Marcus despre filmare.",
+                    "adequate": ["Răbdarea cu căutarea documentului este o practică bună", "Concentrarea pe șofer este o prioritizare rezonabilă", "Ton calm și non-confruntativ"],
+                    "missed": ["Marcus a făcut o declarație directă așteptând un răspuns — tăcerea lasă tensiunea nerezolvată", "Va interpreta lipsa de răspuns ca respingere sau ca alegerea de a se ocupa de el mai târziu", "Un front deschis cu un adolescent confruntativ complică etapele ulterioare"],
+                    "improvement": "O singură propoziție — „Ai dreptul să filmezi” — durează trei secunde și închide un front adversarial. A ignora o provocare nu este același lucru cu a o rezolva."
+                },
+                "neutral": {
+                    "choiceText": "Spuneți ferm, dar nu agresiv: „Tinere, nu am spus nimic despre telefonul tău. Hai să menținem lucrurile calme. Domnule, am nevoie de talon — verificați în torpedou.”",
+                    "adequate": ["Faptual corect că nu ați menționat telefonul", "Tonul este controlat și profesional", "Îl direcționează pe domnul Davies la o acțiune practică"],
+                    "missed": ["Corectarea lui Marcus ratează esențialul — el anticipa ce se aștepta, nu răspundea la ce ați spus", "Corecția sună defensiv, nu liniștitor", "„Hai să menținem lucrurile calme” implică că lucrurile nu sunt calme, ceea ce poate fi o etichetare auto-împlinită"],
+                    "improvement": "Când cineva își proiectează frica asupra dumneavoastră, abordarea fricii este mai eficientă decât corectarea proiecției. „Poți filma — e în regulă” rezolvă frica; „nu am spus nimic despre telefonul tău” se ceartă cu ea."
+                },
+                "negative": {
+                    "choiceText": "Vă aplecați să-l priviți direct pe Marcus: „Băiete, pune telefonul jos. Asta e între mine și șofer. Faci lucrurile mai complicate decât e necesar.”",
+                    "risks": ["A ordona unui minor să înceteze filmarea este discutabil legal și contraproductiv practic", "„Băiete” este disprețuitor față de un adolescent de cincisprezece ani", "„Faci lucrurile mai complicate” dă vina pe un adolescent pentru exercitarea unui drept", "Aceasta este exact interacțiunea care devine virală din motive greșite"],
+                    "consequences": "Fața lui Marcus se întărește. „Nu pun nimic jos.” Domnul Davies intră în panică: „Domnule ofițer, vă rog, îi e doar frică.” Oprirea este acum despre telefon în loc de depășirea vitezei sau preocuparea de bunăstare. Ați creat un conflict care nu exista.",
+                    "betterApproach": "Tratați filmarea ca pe un non-subiect prin afirmarea imediată a dreptului. Când transformați comportamentul legal al cuiva într-o problemă, dumneavoastră deveniți problema în povestea pe care camera o spune."
+                }
+            },
+            "keyLearningPoints": ["Un adolescent care filmează o întâlnire cu poliția își exercită un drept legal, nu comite un act de sfidare", "Când cineva se așteaptă la ostilitate și primește respect, confruntarea pentru care se pregătise se dizolvă", "A ignora o provocare directă nu este același lucru cu a o dezescalada — tensiunea nerezolvată se acumulează", "Gestionarea a două dinamici emoționale necesită adresarea ambelor, chiar și pe scurt, nu alegerea uneia"]
+        },
+        "3": {
+            "stageName": "Erupția",
+            "criticalSkills": ["Răspunsul la emoție crudă fără a o egala sau suprima", "Ascultare activă care dovedește că ați auzit detalii specifice", "Trecerea de la aplicarea legii la rezolvarea problemei când criza este dezvăluită"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Pauză. Lăsați liniștea să persiste un moment. Apoi vorbiți încet: „Domnule Davies, am auzit ce ați spus — mama dumneavoastră este la spital și treceți printr-un proces de custodie...”",
+                    "strengths": ["Pauza lasă cuvintele lui să aterizeze fără a fi respinse — tehnică critică de dezescaladare", "Repetarea detaliilor specifice dovedește că ați ascultat cu adevărat, ceea ce este rar în experiența lui de acum", "A întreba la ce spital schimbă conversația de la pedeapsă la rezolvarea problemei", "Prioritizarea omului fără ignorarea abaterii", "A întâlni pe cineva în punctul durerii sale — dezescaladare avansată"],
+                    "consequences": "Vocea domnului Davies se frânge. Numește spitalul — Sfânta Ecaterina, la douăzeci de minute distanță. Marcus privește cu o expresie care s-a schimbat de la suspiciune la speranță prudentă. Pentru prima dată diseară, cineva cu autoritate a răspuns la durere cu grijă.",
+                    "trainingFocus": "Ce vă costă să ascultați cel mai rău moment al cuiva? Ce îi costă pe ei dacă nu o faceți? Cum schimbă repetarea detaliilor specifice înapoi calitatea conexiunii?"
+                },
+                "partially_positive": {
+                    "choiceText": "Dați aprobator din cap: „Îmi pare rău că treceți prin toate astea, domnule. Pare cu adevărat dificil. Dar tot trebuie să abordez depășirea vitezei...”",
+                    "adequate": ["Empatie sinceră exprimată", "Recunoaște dificultatea situației sale", "Se îndreaptă spre rezolvare"],
+                    "missed": ["Pivotarea la „dar tot trebuie să abordez depășirea vitezei” aterizează ca o ușă care se închide", "Și-a dezvăluit durerea și răspunsul este: recunoscut, acum înapoi la treabă", "Viteza pivotării sugerează că criza a fost auzită dar cântărită și găsită insuficientă pentru a schimba ceva"],
+                    "improvement": "Eliminați „dar” și rămâneți cu persoana încă zece secunde. Întrebați despre spital, recunoașteți stresul procesului de custodie, apoi reveniți la oprire în mod natural. Tranziția tot va avea loc — dar momentul face diferența între a fi auzit și a fi procesat."
+                },
+                "neutral": {
+                    "choiceText": "Vă mențineți vocea fermă: „Domnule, înțeleg că sunteți supărat, dar am nevoie să vă coborâți vocea. Sunt lucruri pe care le pot controla aici și lucruri pe care nu...”",
+                    "adequate": ["Vocea este fermă și controlată", "Încercare de a structura interacțiunea"],
+                    "missed": ["„Am nevoie să vă coborâți vocea” când cineva plânge despre mama lui la spital demonstrează lipsă de empatie", "Nu striga la dumneavoastră — se prăbușea", "„Lucruri pe care le pot controla” sună ca gestionarea unei probleme, nu ca vorbitul cu o persoană", "Aveți conformitate dar nicio conexiune"],
+                    "improvement": "Distingeți între cineva care este agresiv și cineva care suferă. O voce ridicată din durere necesită empatie, nu controlul volumului. Lăsați emoția să existe — se va atenua când se simte auzită."
+                },
+                "negative": {
+                    "choiceText": "Mențineți un ton calm, profesional: „Domnule Davies, înțeleg că sunteți sub multă presiune, și îmi pare rău de mama dumneavoastră. Dar asta nu schimbă faptul că circulați cu 84 într-o zonă rezidențială cu fiul în mașină. Stresul sub care vă aflați este exact motivul pentru care viteza contează mai mult.”",
+                    "risks": ["Sună profesional și logic coerent, dar momentul este devastator — tocmai s-a prăbușit și a împărtășit cea mai grea noapte", "Ia vulnerabilitatea și o folosește ca probă pentru care amenda e și mai justificată, nu mai puțin", "Tonul măsurat, rezonabil face totul să pară calculat, nu deschis crud — ceea ce pentru cineva în criză nu face nicio diferență", "Fiul filmează un ofițer care a răspuns la lacrimi cu o rațiune de politică"],
+                    "consequences": "Domnul Davies tace — nu s-a calmat, ci a fost golit pe dinăuntru. Semnează orice i se pune în față. Marcus privește cu o expresie dincolo de furie — privirea cuiva care tocmai a confirmat ceva ce întotdeauna a bănuit. „Ai auzit, nu?” spune la telefon. „Tata plânge de bunica și ofițerul spune că de aceea amenda contează mai mult.”",
+                    "betterApproach": "Când cineva este în criză și folosiți suferința lor ca parte a argumentului de aplicare a legii, le îndreptați vulnerabilitatea împotriva lor — indiferent cât de profesional sună. Răspunsul proporțional este să ascultați, să recunoașteți durerea, și apoi să treceți la rezolvarea problemei, nu să construiți un argument logic pentru care criza lor face aplicarea mai importantă."
+                }
+            },
+            "keyLearningPoints": ["Când cineva erupte cu disperare mai degrabă decât cu agresivitate, răspunsul trebuie să se potrivească emoției — empatie, nu control", "Repetarea detaliilor specifice împărtășite de cineva dovedește că ați ascultat și construiește încredere mai rapid decât orice tehnică", "Cuvântul „dar” după empatie șterge empatia — momentul tranziției contează enorm", "O voce ridicată din durere și o voce ridicată din ostilitate necesită răspunsuri complet diferite"]
+        },
+        "4": {
+            "stageName": "Trecătorul",
+            "criticalSkills": ["Incorporarea informațiilor noi de la membrii comunității", "Luarea de decizii adaptivă când contextul se schimbă", "Tratarea trecătorilor ca persoane care contribuie, nu ca interferențe"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Vă întoarceți către doamna Marsh cu un gest respectuos de aprobare: „Vă mulțumesc, doamna Marsh. Apreciez că ați ieșit. E util să avem context. Voi încheia procedura ca domnul Davies să poată ajunge la spital.”",
+                    "strengths": ["Recunoașterea trecătorului pe nume o tratează ca pe o persoană care contribuie, nu ca pe o interferență", "Corroborarea ei oferă context suplimentar pentru a justifica discreția", "Anunțarea intenției către domnul Davies oferă ușurare imediată", "Arată că informațiile noi v-au schimbat calculul — activitate polițienească transparentă și adaptivă", "Transformă o confruntare într-un moment comunitar"],
+                    "consequences": "Umerii doamnei Marsh se relaxează. Domnul Davies expiră audibil. Marcus coboară telefonul în poală pentru prima dată. Întreaga scenă se transformă. Doamna Marsh spune liniștit: „Vă mulțumesc, domnule ofițer.”",
+                    "trainingFocus": "Când un trecător vă oferă informații care vă ajută să luați o decizie mai bună, cum afectează recunoașterea publică a acestui fapt încrederea tuturor? Cum arată activitatea polițienească adaptivă în timp real?"
+                },
+                "partially_positive": {
+                    "choiceText": "O recunoașteți pe doamna Marsh pe scurt: „Vă mulțumesc, doamnă. Mă ocup de situație.” Apoi vă reconcentrați pe domnul Davies fără a vă modifica vizibil abordarea pe baza informațiilor ei.",
+                    "adequate": ["Recunoaștere politicoasă a trecătorului", "Profesional și controlat", "Nu creează o interacțiune negativă cu vecina"],
+                    "missed": ["O vecină care corroborează criza șoferului oferă context valoros, totuși abordarea nu se schimbă", "Păreți rigid mai degrabă decât adaptiv când informații credibile sosesc", "Interacțiunea cu trecătorul a fost neutră — fără rău, dar fără ajutor"],
+                    "improvement": "Când informații noi credibile sosesc în mijlocul unei întâlniri, lăsați răspunsul dumneavoastră să se ajusteze vizibil. A spune „e util să avem context” arată tuturor prezenți că incorporați informații în loc să urmați un script fix."
+                },
+                "neutral": {
+                    "choiceText": "Vă adresați doamnei Marsh politicos: „Doamnă, vă mulțumesc, dar am nevoie să vă întoarceți pe proprietatea dumneavoastră. Acesta este un control de trafic și nu pot avea civili apropiindu-se de scenă.”",
+                    "adequate": ["Ton politicos cu vecina", "Orientat procedural"],
+                    "missed": ["O vecină de 60 de ani în papuci stând la trei metri pe trotuar nu este o amenințare de siguranță", "Trimiterea ei pierde informații corroborante și un aliat emoțional", "„Civili apropiindu-se de scenă” face o stradă rezidențială să sune ca scena unui delict", "Rigiditatea subminează proporționalitatea"],
+                    "improvement": "Când protocolul intră în conflict cu bunul simț, întrebați-vă care construiește mai multă încredere. O vecină care cunoaște familia este un atu, nu o datorie. Acceptați informațiile, mulțumiți-i și continuați."
+                },
+                "negative": {
+                    "choiceText": "Priviți către doamna Marsh, apoi înapoi la domnul Davies: „Domnule, există cineva care ar putea veni să vă conducă pe dumneavoastră și pe fiul dumneavoastră? În mod evident nu sunteți în stare să conduceți...”",
+                    "risks": ["A sugera că șoferul nu este apt când este emoțional dar nu în stare de ebrietate patologizează durerea", "A o înrola pe vecina sa să-l gestioneze este infantilizant", "A trata suferința emoțională ca pe un pericol de conducere fără dovezi de afectare ridică probleme de răspundere", "Elimină autonomia unui adult competent care trece printr-o noapte proastă"],
+                    "consequences": "Domnul Davies este umilit în fața vecinei și fiului său. „Nu sunt beat. Sunt supărat. E o diferență.” Marcus: „Tată, hai să plecăm.” Doamna Marsh pare inconfortabil că a fost înrolată în asta.",
+                    "betterApproach": "Distingeți între afectare și emoție. O persoană care este supărată dar alertă, coerentă și orientată nu este inaptă să conducă. Preocuparea pentru bunăstare ar trebui să împuternicească, nu să infantilizeze."
+                }
+            },
+            "keyLearningPoints": ["Trecătorii care cunosc părțile pot oferi corroborare valoroasă — tratați-i ca bunuri comunitare", "Când informații noi credibile sosesc, a lăsa abordarea să se adapteze vizibil construiește încrederea tuturor celor care privesc", "Aderența rigidă la procedură când bunul simț sugerează flexibilitate semnalează inflexibilitate, nu profesionalism", "Există o diferență critică între preocuparea pentru bunăstarea cuiva și eliminarea autonomiei lor"]
+        },
+        "5": {
+            "stageName": "Decizia",
+            "criticalSkills": ["Utilizarea proporțională a discreției de aplicare a legii", "Încadrarea mesajelor de siguranță în jurul valorilor persoanei", "Documentarea deciziilor de judecată care echilibrează aplicarea legii și compasiunea"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Vă întoarceți la geam: „Domnule Davies, iată ce voi face. Emit un avertisment scris pentru viteză. Rămâne înregistrat că am discutat, dar nu există amendă și nu există puncte de penalizare. Dosarul dumneavoastră de conducere rămâne curat. Dar am nevoie să mă ascultați — a circula cu 84 într-o zonă rezidențială este periculos indiferent de motiv. Dacă vi s-ar fi întâmplat ceva dumneavoastră sau lui Marcus în drum spre spital, nu ar fi fost doar o singură tragedie diseară. Ar fi fost două. Vă rog, conduceți prudent. Mama dumneavoastră are nevoie să ajungeți.”",
+                    "strengths": ["Avertismentul scris este proporțional — recunoaște abaterea fără a pedepsi un om în criză", "Explicarea faptului că dosarul rămâne curat elimină anxietatea financiară și juridică", "Mesajul de siguranță reformulat în jurul familiei — „mama dumneavoastră are nevoie să ajungeți” — nu în jurul regulilor", "Încadrarea pericolului este personală — „nu ar fi fost doar o singură tragedie diseară, ar fi fost două” — conectând viteza la persoanele pe care le iubește", "Discreție folosită cu înțelepciune: alegerea răspunsului cel mai probabil să producă cel mai bun rezultat pentru toți", "Creează o înregistrare fără a crea o povară"],
+                    "consequences": "Domnul Davies dă din cap, emoția vizibilă. „Vă mulțumesc, domnule ofițer. Serios.” Marcus privește cu o expresie care nu mai este ostilă. Doamna Marsh zâmbește liniștit. Camera de bord înregistrează un ofițer care ia o decizie gândită, justificată.",
+                    "trainingFocus": "Ce face discreția înțeleaptă mai degrabă decât slabă? Cum explicați diferența într-un raport? Când este un avertisment mai eficient decât o amendă la atingerea obiectivului de siguranță?"
+                },
+                "partially_positive": {
+                    "choiceText": "Emiteți amenda dar explicați: „Domnule Davies, trebuie să scriu această amendă — 34 peste limită este semnificativ și nu pot trece peste. Dar puteți contesta în instanță...”",
+                    "adequate": ["Onest și nu lipsit de bunătate", "Notează situația în raport, arătând conștientizare", "Îndreaptă șoferul către o cale de atac legală", "Se scuză pentru mama — moment uman sincer"],
+                    "missed": ["Emiterea unei amenzi unui om fără antecedente care se grăbește la mama spitalizată când aveți discreție deplină ridică semne de întrebare despre judecată", "Îndreptarea spre instanță pentru a repara ceea ce puteați repara acum adaugă povară cuiva deja copleșit", "Nota din raport este gândită dar nu schimbă experiența lui de diseară"],
+                    "improvement": "Când aveți discreție și circumstanțele o justifică clar, folosiți-o. Un avertisment scris atinge același obiectiv de documentare a siguranței fără a adăuga povară financiară și juridică cuiva în criză verificată."
+                },
+                "neutral": {
+                    "choiceText": "Îi returnați documentele: „Foarte bine, domnule Davies — puteți pleca. Fără amendă diseară. Doar aveți grijă. Sper că mama dumneavoastră e bine.”",
+                    "adequate": ["Intenție bună și grijă sinceră", "Elimină complet povara aplicării legii", "Urări de bine pentru mamă"],
+                    "missed": ["Nicio mențiune a vitezei, niciun mesaj de siguranță, niciun avertisment înregistrat", "Discreție fără nicio recunoaștere a abaterii nu învață nimic", "Nicio documentație înseamnă nicio înregistrare că l-ați sfătuit", "Oprirea pare aleatorie — ca și cum s-a întâmplat și apoi nu s-a întâmplat"],
+                    "improvement": "Discreția bună include responsabilitate. Un avertisment scris documentează întâlnirea, transmite un mesaj de siguranță și păstrează judecata ofițerului în dosar. Pur și simplu a lăsa pe cineva să plece este casual, nu discreționar."
+                },
+                "negative": {
+                    "choiceText": "Procesați amenda cu regret sincer: „Domnule Davies, îmi pare cu adevărat rău pentru ce treceți. Dar trebuie să tratez pe toți în mod egal, indiferent de circumstanțe — asta înseamnă corectitudinea. Emiterea acestei amenzi este lucrul corect și consecvent de făcut.”",
+                    "risks": ["Sună ca activitate polițienească principială și echitabilă — dar egalitatea și corectitudinea nu sunt identice", "A trata o urgență familială verificată la fel ca o depășire de viteză de rutină este rigiditate deghizată în principiu", "Discreția există tocmai pentru că circumstanțele diferă — utilizarea „tratamentului egal” pentru a evita judecata este o abdicare, nu integritate", "Oferta de a contesta în instanță transferă povara asupra cuiva deja copleșit", "Fiul privește un ofițer care sună rezonabil în timp ce face ceva nerezonabil"],
+                    "consequences": "Domnul Davies semnează cu mâna tremurândă. Nu contestă — logica a sunat atât de principială încât aproape crede că el este cel nerezonabil pentru că și-a dorit milă. Marcus filmează în tăcere. Doamna Marsh se întoarce spre casă, clătinând din cap. Aveți o amendă defensibilă și ați învățat un adolescent de cincisprezece ani că corectitudinea este un cuvânt pe care adulții îl folosesc când vor să spună inflexibilitate.",
+                    "betterApproach": "Când invocați „tratarea tuturor în mod egal” pentru a justifica un răspuns disproporționat, întrebați cine beneficiază de acea egalitate — cetățeanul, sau ofițerul care nu mai trebuie să ia o decizie dificilă. Un avertisment scris cu un mesaj de siguranță este proporțional, documentat și cu adevărat corect."
+                }
+            },
+            "keyLearningPoints": ["Discreția nu este slăbiciune — este o utilizare sofisticată a judecății profesionale înscrisă în autoritatea dumneavoastră", "Un avertisment scris documentează întâlnirea și oferă responsabilitate fără a pedepsi criza", "Mesajele de siguranță au impact mai mare când sunt încadrate în jurul valorilor persoanei — familia, nu regulile", "Când descrieți discreția ca „a face excepții”, dezvăluiți o neînțelegere a propriilor instrumente"]
+        },
+        "6": {
+            "stageName": "Marcus",
+            "criticalSkills": ["Angajament onest cu întrebarea sinceră a unui tânăr despre activitatea polițienească", "Construirea încrederii peste barierele generaționale și de experiență", "Modelarea profesionalismului ca standard, nu ca favoare personală"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Îl priviți direct, fără condescendență: „E o întrebare corectă, Marcus, și mă bucur că ai pus-o. Nu — nu e mereu așa, și n-o să pretind că e. Dar așa ar trebui să arate. Tatăl tău a depășit viteza și a trebuit să discutăm despre asta. Dar este și o persoană care trece printr-o noapte groaznică, și asta contează și ea. Ambele lucruri pot fi adevărate în același timp. Ai avut tot dreptul să filmezi, și prefer să fi văzut ceva ce merită înregistrat.”",
+                    "strengths": ["A răspunde sincer — „nu e mereu așa” — construiește credibilitate cu un adolescent care și-a format deja opinii", "Recunoașterea faptului că tatăl lui și depășea viteza ȘI suferea demonstrează nuanță în aplicarea legii — „ambele lucruri pot fi adevărate în același timp”", "„Ceva ce merită înregistrat” reformulează camera din adversarială în aspirațională", "Afirmarea dreptului de a filma în cadrul răspunsului onorează poziția lui anterioară", "Nu apără toată poliția — câștigă încredere prin sinceritate, nu prin apărare instituțională", "Plantează un sâmbure care ar putea dura ani să crească"],
+                    "consequences": "Marcus este tăcut un moment lung. Apoi dă încet din cap. „Bine.” Un singur cuvânt — dar poartă greutate. Domnul Davies privește schimbul cu ceva ce pare recunoștință. Această conversație de treizeci de secunde ar putea remodela modul în care Marcus vorbește despre poliție pentru restul vieții.",
+                    "trainingFocus": "Când o persoană tânără vă pune o întrebare sinceră despre activitatea polițienească, care este costul unui răspuns nesincer versus al unuia sincer? Cum construiește recunoașterea imperfecțiunii mai multă credibilitate decât apărarea instituției?"
+                },
+                "partially_positive": {
+                    "choiceText": "Îi zâmbiți ușor: „Încerc să-i tratez pe oameni așa cum aș vrea să fiu tratat, Marcus. Atât. Nu suntem toți ce vedeți la știri...”",
+                    "adequate": ["Răspuns cald și uman", "Cadru personal mai degrabă decât instituțional", "Redirecționare bună către grija pentru tatăl său"],
+                    "missed": ["„Nu suntem toți ce vedeți la știri” este un cadru defensiv care poziționează preocupările lui ca generate de media", "Respinge subtil realitatea că mulți adolescenți au avut întâlniri negative cu poliția care nu sunt din știri", "Scurtează conversația mai profundă tocmai când se deschidea cu adevărat"],
+                    "improvement": "Când un adolescent își coboară garda și întreabă ceva real, potriviți profunzimea întrebării. Recunoașteți că activitatea polițienească este imperfectă în loc de a devia către media. Conversația mai profundă căreia i se deschidea ușa este mai valoroasă decât o reasigurare rapidă."
+                },
+                "neutral": {
+                    "choiceText": "Dați scurt din cap: „Doar îmi fac treaba, Marcus. Ai grijă diseară.” Vă întoarceți să mergeți înapoi la mașina de patrulare.",
+                    "adequate": ["Non-confruntativ și scurt", "Folosește numele lui, ceea ce este respectuos", "Nu creează rău"],
+                    "missed": ["„Doar îmi fac treaba” este un non-răspuns la o întrebare vulnerabilă", "Marcus a pus jos telefonul și garda și a întrebat ceva real", "A întâmpina vulnerabilitatea cu o platitudine și o plecare îi spune că deschiderea nu a meritat", "A întrebat despre sistem și i-ați dat un slogan"],
+                    "improvement": "Când un tânăr își coboară garda, întâlniți momentul. Chiar și o singură propoziție sinceră — „Așa ar trebui să arate, și iau asta în serios” — onorează vulnerabilitatea pe care a arătat-o."
+                },
+                "negative": {
+                    "choiceText": "Vă aplecați către Marcus cu o expresie sinceră: „Marcus, ce ai văzut diseară este cum ar trebui să arate un control de trafic — tatăl tău a cooperat, eu am fost profesional, și am rezolvat. Sper că vei ține minte asta data viitoare când cineva îți spune să te temi de poliție. Cooperarea face totul mai ușor pentru toată lumea.”",
+                    "risks": ["Sună ca un moment sincer de învățare dar rescrie subtil ce s-a întâmplat — oprirea nu a fost de rutină, tatăl lui s-a prăbușit plângând", "A o prezenta ca „așa se întâmplă de obicei” minimizează criza care a făcut seara aceasta extraordinară", "„Cooperarea face totul mai ușor” implică că rezultatul depinde de comportamentul cetățeanului, nu de judecata ofițerului", "A spune unui adolescent de culoare să nu mai asculte de oamenii care îl avertizează despre poliție respinge experiența trăită ca dezinformare", "A pus o întrebare vulnerabilă și a primit un punct de discurs de relații publice"],
+                    "consequences": "Expresia lui Marcus se schimbă de la deschidere la ceva mai rece. „Da... bine.” Telefonul rămâne în poală, dar privirea căutătoare a dispărut. Căuta o conversație reală și a primit un comunicat de presă. Momentul pentru o conexiune autentică a trecut.",
+                    "betterApproach": "Când un tânăr se deschide despre temerile lui, răspundeți la realitatea experienței sale, nu la narațiunea pe care v-ați dori s-o aibă. Recunoașterea sinceră — „așa ar trebui să arate, dar nu e mereu așa” — construiește mai multă încredere decât un mesaj lustruit despre cum ar trebui să funcționeze sistemul."
+                }
+            },
+            "keyLearningPoints": ["Când un adolescent pune o întrebare sinceră despre activitatea polițienească, sinceritatea construiește mai multă credibilitate decât apărarea instituției", "A admite „nu e mereu așa” câștigă încredere pe care „nu suntem toți răi” nu o va câștiga niciodată", "A întâmpina un moment vulnerabil cu un clișeu învață persoana că vulnerabilitatea nu a meritat", "A spune cuiva că a avut noroc să primească un ofițer decent este o amenințare, nu un sfat — și subminează profesia"]
+        },
+        "7": {
+            "stageName": "Despărțirea",
+            "criticalSkills": ["Încheiere cu demnitate care se potrivește profunzimii a ceea ce s-a împărtășit", "Restabilirea demnității prin reformulare", "Lăsarea unei impresii durabile care construiește încrederea în forțele de ordine"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Ridicați ușor mâna: „Domnule Davies, nu-mi datorați nicio scuză. Sunteți un tată care încearcă să ajungă la mama lui bolnavă în timp ce se îngrijorează pentru fiul său. Și eu aș fi supărat.” Priviți spre Marcus: „Amândoi v-ați descurcat.” Apoi: „Sfânta Ecaterina este la aproximativ douăzeci de minute. Luați Drumul Național 9 — e mai liber la ora asta. Conduceți prudent. Sper că mama dumneavoastră își revine bine.”",
+                    "strengths": ["Refuzarea scuzelor prin reformularea reacției sale ca rezonabilă îi restabilește demnitatea", "Includerea lui Marcus în compliment — „amândoi v-ați descurcat” — onorează experiența fiului ca fiind la fel de validă", "Indicațiile rutiere către Sfânta Ecaterina sunt un mic act practic de grijă fără legătură cu activitatea polițienească și cu totul legat de umanitate", "„Sper că mama dumneavoastră își revine bine” numește lucrul care contează cel mai mult", "Încheierea se potrivește profunzimii emoționale a întregii întâlniri"],
+                    "consequences": "Domnul Davies apucă volanul și dă din cap, incapabil să vorbească un moment. Marcus spune liniștit: „Mulțumesc.” Doamna Marsh face cu mâna de pe trotuar. Pe măsură ce SUV-ul pleacă cu grijă, ați lăsat trei persoane cu o experiență profund diferită de cea la care se așteptau.",
+                    "trainingFocus": "Care este diferența dintre a încheia o oprire și a lăsa o impresie? Cum schimbă o încheiere care se potrivește profunzimii întâlnirii povestea pe care oamenii o spun despre ea?"
+                },
+                "partially_positive": {
+                    "choiceText": "Acceptați scuzele cu grație: „Apreciez asta, domnule Davies. Fără resentimente. Sper ca totul să fie bine cu mama dumneavoastră și cu... restul...”",
+                    "adequate": ["Grațios și cald", "Acceptarea scuzelor și urarea de bine sunt sincere", "Ton pozitiv de încheiere"],
+                    "missed": ["Vagul „restul” evită numirea situației de custodie pe care a împărtășit-o în vulnerabilitate", "Încheierea este plăcută dar nu se ridică la profunzimea a ceea ce s-a împărtășit", "Un final bun pentru o conversație obișnuită, nu un final grozav pentru una extraordinară"],
+                    "improvement": "Când cineva v-a încredințat cele mai adânci temeri, încheierea trebuie să se ridice la acea profunzime. Numiți ce a împărtășit — mama, custodia, frica — pentru ca ei să știe că a fost cu adevărat auzit, nu doar tolerat."
+                },
+                "neutral": {
+                    "choiceText": "Dați din cap: „Scuze acceptate. Doar respectați limita de viteză de aici încolo. Noapte bună.”",
+                    "adequate": ["Funcțional corect și non-confruntativ", "Acceptă scuzele fără complicații", "Include o reamintire despre viteză"],
+                    "missed": ["Emoțional plat după o oprire care a inclus o prăbușire, transformarea unui adolescent și mărturia unei vecine", "„Noapte bună” este anticlimatic după profunzimea întâlnirii", "Reamintirea despre viteză reduce întreaga interacțiune umană bogată la o abatere rutieră"],
+                    "improvement": "Când o oprire a fost semnificativă emoțional, încheierea trebuie să se potrivească. Un final generic după o întâlnire profundă înseamnă că amintirea durabilă este anticlimaxul, nu grija pe care ați arătat-o mai devreme."
+                },
+                "negative": {
+                    "choiceText": "Acceptați scuzele cu căldură: „Vă mulțumesc, domnule Davies — asta înseamnă mult. Vreau să fiu sincer cu dumneavoastră: am folosit discreția diseară pentru că am văzut că sunteți un om bun într-o situație dificilă. Dar trebuie să înțelegeți că aceasta a fost o excepție, nu regula. Sper că noaptea aceasta vă reamintește că sistemul funcționează când oamenii se tratează reciproc cu respect.”",
+                    "risks": ["Sună generos și sincer, dar învelește o lecție într-o bunătate", "„Am folosit discreția pentru că am văzut că sunteți un om bun” implică că discreția este condiționată de evaluarea morală a caracterului cetățeanului", "„Aceasta a fost o excepție, nu regula” reformulează judecata proporțională ca tratament special", "„Sistemul funcționează când oamenii se tratează reciproc cu respect” creditează subtil rezultatul bun conformității cetățeanului", "Marcus aude „sistemul funcționează” și se gândește la fiecare poveste în care n-a funcționat"],
+                    "consequences": "Domnul Davies dă din cap și spune „Mulțumesc” — dar mulțumirea pare forțată mai degrabă decât naturală. Marcus se foiește pe scaun — a auzit „sistemul funcționează” și „a fost o excepție.” Oprirea se termină cu o suprafață pozitivă dar mesajul final este: ați avut noroc, fiți recunoscător, și amintiți-vă că acesta a fost un cadou. Povestea pe care Marcus o va spune va include fraza „a spus că a fost o excepție.”",
+                    "betterApproach": "Când încheierea dumneavoastră prezintă un rezultat bun ca dependent de caracterul cetățeanului mai degrabă decât de judecata profesională, implică faptul că persoanele mai puțin simpatice în aceeași criză nu ar primi același tratament. Încheiați cu demnitate — refuzați scuzele reformulând reacția ca rezonabilă și lăsați profesionalismul să vorbească de la sine fără o predică."
+                }
+            },
+            "keyLearningPoints": ["Ultima impresie determină povestea pe care oamenii o spun — faceți încheierea să se potrivească profunzimii emoționale a întâlnirii", "Refuzarea unor scuze reformulând reacția cuiva ca rezonabilă restabilește demnitatea mai puternic decât acceptarea lor", "Mici acte practice de grijă — precum indicații rutiere — lasă impresii disproporționate", "A reaminti cuiva că i-ați acordat o favoare transformă discreția în datorie și bunăvoința în resentiment"]
+        }
+    },
+    "comprehensiveMetrics": {
+        "communication": {
+            "description": "Stabilirea traiectoriei emoționale prin prezentare profesională, ascultare activă și limbaj care dezescaladează în loc de a provoca",
+            "indicators": {
+                "excellent": ["Autoprezentare profesională pe nume și departament la primul contact", "Ascultare activă demonstrată prin repetarea detaliilor specifice împărtășite de domnul Davies", "Limbaj care a dezescaladat la fiecare etapă — întrebări în loc de comenzi, curiozitate în loc de confruntare", "Ton potrivit fiecărui moment — calm la oprire, liniștit în timpul prăbușirii, cald la încheiere"],
+                "poor": ["Lipsă de autoprezentare sau explicare a scopului", "Comenzi emise fără justificare de siguranță — „mâinile pe volan” fără amenințare articulabilă", "Limbaj disprețuitor — „toată lumea are probleme”, „fiecare poveste din carte”", "Ton nepotrivit momentului — cereri de control al volumului în timpul prăbușirii de durere"]
+            }
+        },
+        "discretion": {
+            "description": "Utilizarea judecății de aplicare a legii cu înțelepciune — potrivirea răspunsului la circumstanțe în loc de aplicarea mecanică a regulilor",
+            "indicators": {
+                "excellent": ["Avertisment scris ales ca răspuns proporțional la o criză verificată fără antecedente", "Mesaj de siguranță încadrat în jurul valorilor șoferului — familia, nu regulile", "Decizie documentată și justificată — discreție cu responsabilitate", "Informații noi de la dispecerat și trecător incorporate vizibil în luarea deciziei"],
+                "poor": ["Amendă emisă în ciuda discreției depline și a circumstanțelor atenuante verificate", "Încadrare de tip „regulile sunt reguli” care evită munca judecății profesionale", "Discreția descrisă ca „a face excepții” mai degrabă decât un instrument de bază al aplicării legii", "Nicio documentație — fie amendă rigidă, fie respingere casuală fără înregistrare"]
+            }
+        },
+        "empathy": {
+            "description": "Recunoașterea și răspunsul la criza emoțională fără a sacrifica autoritatea sau profesionalismul",
+            "indicators": {
+                "excellent": ["Pauza și tăcerea folosite pentru a lăsa durerea domnului Davies să aterizeze fără a fi respinsă", "Detalii specifice reflectate înapoi — numele spitalului, situația de custodie — dovedind ascultare autentică", "Preocuparea de bunăstare integrată natural în abordare fără dezvăluirea invazivă a detaliilor de la dispecerat", "Demnitate restabilită la încheiere prin reformularea reacției sale ca rezonabilă în loc de a necesita scuze"],
+                "poor": ["Empatie urmată imediat de „dar” — recunoscută apoi respinsă", "„Coborâți vocea” adresat cuiva care plânge despre mama sa", "Durerea respinsă ca „poveste” sau transformată în armă — „dacă v-ar fi păsat cu adevărat ați fi condus mai prudent”", "Suspiciune sau cinism ca răspuns la vulnerabilitatea dezvăluită"]
+            }
+        },
+        "youthEngagement": {
+            "description": "Tratarea tinerilor și trecătorilor cu respect, mai ales când sunteți observat sau filmat",
+            "indicators": {
+                "excellent": ["Dreptul lui Marcus de a filma afirmat imediat și fără defensivitate", "Răspuns sincer, onest la întrebarea lui despre activitatea polițienească — „nu e mereu așa”", "Marcus inclus în complimentul de încheiere — „amândoi v-ați descurcat”", "Camera reformulată ca aspirațională — „ceva ce merită înregistrat”"],
+                "poor": ["Cerere de a opri filmarea sau a pune telefonul jos", "„Băiete” folosit disprețuitor față de un adolescent de cincisprezece ani", "Marcus învinuit pentru că îi era frică — „atitudinea cu care ai venit”", "Amenințare voalată: „putea să se termine foarte diferit cu un alt ofițer”"]
+            }
+        },
+        "closingImpact": {
+            "description": "A lăsa fiecare persoană din întâlnire cu o experiență care construiește încrederea în forțele de ordine",
+            "indicators": {
+                "excellent": ["Încheierea s-a potrivit profunzimii emoționale a întâlnirii — nu generică după o interacțiune profundă", "Grijă practică arătată — indicații rutiere către spital, urări specifice de bine", "Demnitate restabilită fiecărei persoane — domnul Davies, Marcus, doamna Marsh — toți recunoscuți", "Povestea pe care fiecare martor o spune reflectă pozitiv asupra ofițerului și profesiei"],
+                "poor": ["Încheiere generică — „noapte bună” — după o oprire intens emoțională", "Discreția reformulată ca favoare personală — „v-am scutit”", "„Data viitoare s-ar putea să nu dați de cineva dispus să asculte” — amenințare voalată ca ultimele cuvinte", "Încheierea a șters bunăvoința construită de-a lungul întâlnirii"]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "commandDefault": {
+            "pattern": "Recurge implicit la comenzi și tactici de control când situația cere conversație și curiozitate",
+            "examples": ["„Mâinile pe volan, nimeni nu se mișcă” ca deschidere la o oprire semnalată pentru bunăstare", "„Coborâți vocea” adresat cuiva în criză emoțională", "„Pune telefonul jos” adresat unui adolescent care își exercită un drept legal", "Comenzi tactice fără indicatori articulabili de siguranță"],
+            "impact": "Comenzile fără justificare comunică amenințare în loc de serviciu. La o oprire semnalată pentru bunăstare, ele îngroapă exact criza pe care ați fost trimis să o evaluați. Persoana în criză devine o persoană în frică — iar frica nu produce cooperarea sau informațiile de care aveți nevoie.",
+            "correction": "Rezervați limbajul de nivel de comandă pentru situații cu amenințări articulabile de siguranță. La opriri de rutină și de bunăstare, conduceți cu prezentare, explicație și întrebări. Curiozitatea strânge mai multe informații decât comenzile."
+        },
+        "empathyErasure": {
+            "pattern": "Exprimarea empatiei urmată imediat de ștergerea ei cu „dar” sau o pivotare înapoi spre aplicarea legii — uneori deghizată în raționament principial",
+            "examples": ["„Îmi pare rău că treceți prin toate astea, dar tot trebuie să abordez depășirea vitezei”", "„Îmi pare cu adevărat rău, dar trebuie să tratez pe toți în mod egal — asta înseamnă corectitudinea”", "„Înțeleg că sunteți stresat, dar exact de aceea viteza contează mai mult”", "A auzi criza apoi a construi un argument logic pentru care aplicarea legii este și mai justificată"],
+            "impact": "Cuvântul „dar” după empatie șterge empatia. Persoana aude: „Ți-am recunoscut durerea, am cântărit-o și am găsit-o insuficientă.” Deschiderea emoțională se închide. Încrederea care se construia se oprește. Șoferul își amintește „dar”, nu „îmi pare rău.”",
+            "correction": "Rămâneți cu persoana încă zece secunde înainte de a face tranziția. Întrebați despre spital. Recunoașteți stresul procesului de custodie. Apoi reveniți la oprire în mod natural. Tranziția tot va avea loc — momentul este cel care face diferența între a fi auzit sau procesat mecanic."
+        },
+        "cameraAnxiety": {
+            "pattern": "Reacția la filmare ca la o amenințare în loc de a o trata ca normală și protejată legal",
+            "examples": ["A cere lui Marcus să pună telefonul jos înainte de a vă prezenta", "„Asta e între mine și șofer” — excluderea dreptului pasagerului de a observa și filma", "Adresarea camerei înainte de adresarea persoanelor", "Defensivitate când filmarea este menționată"],
+            "impact": "Reacția la o cameră spune povestea că sunteți incomod când sunteți observat. Pentru un adolescent care deja se așteaptă la ostilitate polițienească, reacția dumneavoastră la cameră confirmă narațiunea. Interacțiunea devine despre telefon în loc de persoană, iar filmarea surprinde un ofițer care a prioritizat controlul observării față de servirea comunității.",
+            "correction": "Tratați filmarea ca pe un non-subiect prin afirmarea dreptului într-o propoziție și continuarea. „Poți filma — este dreptul tău” durează trei secunde și închide un întreg front adversarial. Cel mai bun răspuns la a fi filmat este o activitate polițienească excelentă."
+        },
+        "discretionAsDebt": {
+            "pattern": "Încadrarea deciziilor discreționale ca favoruri personale, judecăți morale sau excepții care creează obligație",
+            "examples": ["„Am folosit discreția pentru că am văzut că sunteți un om bun” — milă condiționată de evaluarea caracterului", "„Aceasta a fost o excepție, nu regula” — reformularea judecății proporționale ca tratament special", "„Sper că noaptea aceasta vă reamintește că sistemul funcționează când oamenii se tratează reciproc cu respect” — creditarea rezultatului conformității cetățeanului în loc de activității polițienești corecte", "„Sistemul funcționează” — o predică instituțională ca încheiere când persoana avea nevoie de grijă, nu de un mesaj"],
+            "impact": "Când încadrați discreția ca favoare, convertiți judecata profesională în putere personală. Persoana pleacă simțindu-se îndatorată mai degrabă decât respectată. Povestea pe care o spune nu este „ofițerul a fost corect” ci „ofițerul m-a scutit și s-a asigurat că știu.” Încrederea devine tranzacțională — iar încrederea tranzacțională se erodează în momentul în care tranzacția se termină.",
+            "correction": "Discreția este instrumentul dumneavoastră profesional, nu un cadou. Folosiți-o fără comentarii despre ce ați fi putut face altfel. Puterea unei decizii bune este diminuată de fiecare dată când îi reamintiți cuiva de alternativă."
+        },
+        "depthMismatch": {
+            "pattern": "Răspunsul la momente semnificative emoțional cu limbaj generic sau superficial",
+            "examples": ["„Doar îmi fac treaba” ca răspuns la întrebarea sinceră a lui Marcus despre activitatea polițienească", "„Noapte bună” după o întâlnire implicând o criză familială, transformarea unui adolescent și mărturia unei vecine", "„Restul” în loc de numirea situației de custodie pe care șoferul a dezvăluit-o", "Platitudini ca răspuns la vulnerabilitate"],
+            "impact": "Când întâlnirea este profund emoțională iar răspunsul ofițerului este emoțional generic, amintirea durabilă este nepotrivirea. Persoana își amintește că s-a deschis iar ofițerul a revenit la script. Vulnerabilitatea întâmpinată cu un clișeu învață oamenii să nu mai fie vulnerabili cu ofițerii.",
+            "correction": "Potriviți profunzimea momentului. Dacă cineva împărtășește cea mai grea noapte, numiți ce au împărtășit. Dacă un adolescent pune o întrebare reală, dați un răspuns real. Încheierea unei întâlniri extraordinare trebuie să fie extraordinară — altfel banalitatea finalului devine povestea."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Comunicare exemplară la control de trafic de la primul contact la ultimele cuvinte. Ați demonstrat setul complet de competențe: prezentare profesională cu conștientizare a bunăstării, afirmare imediată a dreptului de a filma, răspuns empatic la disperare crudă, utilizare adaptivă a informațiilor de la trecător, discreție proporțională cu responsabilitate, angajament sincer cu întrebarea sinceră a unui adolescent și o încheiere care a restabilit demnitatea fiecărei persoane din întâlnire. Camera de bord a surprins un ofițer care a dovedit că autoritatea și umanitatea nu sunt opuse. Acesta este standardul.",
+            "mostlyPositive": "Performanță solidă de-a lungul unui control de trafic complex, cu straturi emoționale multiple. Ați menținut profesionalismul și grija autentică în majoritatea etapelor, iar judecata dumneavoastră a fost solidă la deciziile cheie. Unele oportunități pentru o conexiune mai profundă sau o comunicare mai nuanțată erau disponibile — poate în modul în care l-ați angajat pe Marcus, ați răspuns la prăbușire sau ați încheiat întâlnirea — dar abordarea dumneavoastră generală a construit încredere și a demonstrat tipul de activitate polițienească care schimbă modul în care oamenii gândesc despre forțele de ordine.",
+            "mixed": "Ați gestionat bine unele aspecte ale acestui control de trafic, în special [SPECIFIC_POSITIVE], dar oportunități critice au fost ratate în [SPECIFIC_GAP]. Un control de trafic implicând o familie în criză, un adolescent care filmează și o vecină îngrijorată necesita empatie consistentă și judecată adaptivă în toate cele șapte etape. Revizuiți momentele în care ați recurs implicit la procedură când situația cerea umanitate și practicați rămânerea cu emoții dificile înainte de a pivota înapoi spre aplicarea legii.",
+            "mostlyNegative": "Acest scenariu a relevat lacune semnificative în empatie, judecată adaptivă și comunicare sub presiune emoțională. Deși [MINOR_POSITIVE], majoritatea alegerilor au escaladat tensiunea, au ratat dimensiunile umane ale opririi sau nu au reușit să folosească instrumentele profesionale — discreția, ascultarea activă, angajamentul onest — pe care această situație le cerea. Un tată în criză, un adolescent care vă urmărea fiecare mișcare și o vecină martoră la întâlnire aveau cu toții nevoie de ceva ce nu ați oferit în mod consistent. Prioritizați instruirea în comunicare empatică, discreția ca instrument profesional și angajamentul cu tinerii.",
+            "allNegative": "Abordarea dumneavoastră a tratat o familie în criză ca pe o problemă procedurală de gestionat mai degrabă decât o situație umană de navigat. Comenzile au înlocuit conversația, durerea a fost respinsă sau transformată în armă, dreptul legal al unui adolescent a fost contestat, discreția a fost fie absentă fie încadrată ca favoare, iar încheierea a șters orice bunăvoință care ar fi putut supraviețui. Fiecare persoană din această întâlnire — domnul Davies, Marcus, doamna Marsh — a plecat cu o poveste despre activitatea polițienească care confirmă cele mai rele așteptări. Aceasta necesită o reorientare fundamentală către comunicare bazată pe empatie, discreție proporțională și înțelegerea faptului că fiecare control de trafic construiește sau distruge încrederea comunității."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Bună seara, domnule. Sunt Ofițerul [Nume] de la poliția municipală. V-am oprit pentru că circulați cu 84 într-o zonă de 50. Înainte să intrăm în detalii — totul este în regulă diseară?",
+            "Ai perfectă dreptate — poți filma. Este dreptul tău și nu am nicio problemă cu asta.",
+            "Luați-vă timpul cu talonul. Nu e nicio grabă. Văd că aveți multe pe cap diseară.",
+            "Domnule Davies, am auzit ce ați spus — mama dumneavoastră este la spital și treceți printr-un proces de custodie. Este o presiune enormă. Nu sunt aici să adaug la ea.",
+            "Vă mulțumesc, doamna Marsh. Apreciez că ați ieșit. E util să avem context.",
+            "Emit un avertisment scris pentru viteză. Rămâne înregistrat că am discutat, dar nu există amendă și nu există puncte de penalizare. Dosarul dumneavoastră de conducere rămâne curat.",
+            "Mama dumneavoastră are nevoie să ajungeți.",
+            "Nu — nu e mereu așa, și n-o să pretind că e. Dar așa ar trebui să arate.",
+            "Prefer să fi văzut ceva ce merită înregistrat.",
+            "Domnule Davies, nu-mi datorați nicio scuză. Sunteți un tată care încearcă să ajungă la mama lui bolnavă în timp ce se îngrijorează pentru fiul său. Și eu aș fi supărat."
+        ],
+        "poorPhrases": [
+            "Șoferule, țineți mâinile pe volan. Pasagerule, trebuie să vă văd ambele mâini. Nimeni nu se mișcă până nu spun eu.",
+            "Băiete, pune telefonul jos. Asta e între mine și șofer. Faci lucrurile mai complicate decât e necesar.",
+            "Domnule, am nevoie să vă coborâți vocea.",
+            "Stresul sub care vă aflați este exact motivul pentru care viteza contează mai mult — nu mai puțin.",
+            "Trebuie să tratez pe toți în mod egal, indiferent de circumstanțe — asta înseamnă corectitudinea.",
+            "Ce ai văzut diseară este cum ar trebui să arate un control de trafic — cooperarea face totul mai ușor pentru toată lumea.",
+            "Am folosit discreția diseară pentru că am văzut că sunteți un om bun într-o situație dificilă. Dar aceasta a fost o excepție, nu regula.",
+            "Sper că noaptea aceasta vă reamintește că sistemul funcționează când oamenii se tratează reciproc cu respect."
+        ],
+        "analysisCriteria": {
+            "toneCalibration": "S-a potrivit fraza cu temperatura emoțională a momentului — calm la oprire, liniștit în timpul prăbușirii, cald la încheiere, sincer cu adolescentul?",
+            "welfareIntegration": "A folosit fraza semnalarea de bunăstare de la dispecerat pentru a ghida interogarea empatică, nu dezvăluirea invazivă sau comenzile tactice?",
+            "rightsAffirmation": "A afirmat fraza dreptul de a filma și dreptul la expresie emoțională, sau le-a contestat, suprimat sau ignorat?",
+            "discretionFraming": "A prezentat fraza discreția ca judecată profesională sau ca favoare personală care creează datorie?",
+            "dignityRestoration": "A restabilit sau păstrat fraza demnitatea persoanei căreia i s-a adresat, sau a diminuat-o, a patronat-o sau a învinuit-o?",
+            "lastingImpact": "Va fi această frază amintită pozitiv de domnul Davies, Marcus și doamna Marsh — sau va fi momentul în care povestea devine negativă?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Primele treizeci de secunde ale unui control de trafic stabilesc traiectoria emoțională pentru tot ce urmează. Tonul, postura, poziționarea lanternei și dacă întrebați despre persoană înainte de a cere documente — aceste alegeri prezic întreaga întâlnire. La o oprire semnalată pentru bunăstare, curiozitatea trebuie să vină înaintea conformității.",
+        "2": "Un adolescent care filmează o întâlnire cu poliția își exercită un drept legal. Modul în care răspundeți la cameră definește povestea pe care aceasta o surprinde. Afirmarea dreptului într-o propoziție — trei secunde din timpul dumneavoastră — dizolvă o confruntare pentru care adolescentul se pregătise pe tot parcursul apropierii.",
+        "3": "Când cineva erupte cu disperare mai degrabă decât cu agresivitate, răspunsul necesar este empatia, nu controlul volumului. O pauză, urmată de repetarea detaliilor specifice pe care le-au împărtășit, dovedește că ați ascultat — și pentru cineva a cărui durere a fost invizibilă, a fi auzit poate fi transformator.",
+        "4": "Trecătorii care cunosc părțile sunt bunuri comunitare, nu obstacole procedurale. O vecină care corroborează criza șoferului vă oferă context pentru a justifica discreția. Recunoașterea publică a acestui fapt arată tuturor prezenți că informațiile noi vă schimbă calculul — aceasta este activitate polițienească transparentă și adaptivă.",
+        "5": "Discreția nu este slăbiciune sau „a face excepții.” Este un instrument profesional sofisticat înscris în autoritatea dumneavoastră pentru situații exact ca aceasta. Un avertisment scris realizează documentare, transmite un mesaj de siguranță și păstrează demnitatea persoanei — amenda fără discreție când circumstanțele o justifică dezvăluie rigiditate, nu profesionalism.",
+        "6": "Când un tânăr își coboară garda și pune o întrebare sinceră despre activitatea polițienească, costul unui răspuns nesincer se măsoară în ani. A admite imperfecțiunea — „nu e mereu așa” — construiește mai multă credibilitate decât apărarea instituției o va face vreodată. Această conversație de treizeci de secunde ar putea remodela modul în care Marcus vorbește despre poliție pentru restul vieții.",
+        "7": "Ultima impresie determină povestea pe care oamenii o spun. O încheiere care se potrivește profunzimii emoționale a întâlnirii — refuzarea unor scuze inutile, oferirea indicațiilor rutiere, numirea recuperării mamei — lasă trei persoane și o cameră de bord cu o experiență profund diferită de cea la care se așteptau. Un „noapte bună” generic după o întâlnire profundă înseamnă că amintirea durabilă este anticlimaxul."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Comunicare avansată la controlul de trafic — instruirea altora în abordări integrate cu bunăstarea", "Leadership în angajamentul cu tinerii — construirea încrederii cu tinerii în timpul întâlnirilor de aplicare a legii", "Documentarea discreției — scrierea rapoartelor care justifică decizii de judecată proporțională", "Mentorat în poliție comunitară — utilizarea întâlnirilor exemplare ca material de instruire la academie"],
+            "good": ["Tehnici extinse de empatie sub presiune — rămânerea cu emoții dificile înainte de tranziție", "Integrarea trecătorilor — tratarea membrilor comunității ca bunuri în timpul întâlnirilor pe teren", "Activitate polițienească pozitivă față de cameră — construirea confortului cu observarea ca standard profesional", "Impactul încheierii — potrivirea profunzimii întâlnirii în ultimele cuvinte"],
+            "average": ["Principii fundamentale de dezescaladare — curiozitate înainte de comenzi, întrebări înainte de cereri", "Discreția ca instrument profesional — când și cum se folosesc avertismentele scrise eficient", "Competențe de ascultare activă — reflectarea detaliilor specifice pentru a construi încredere în timpul crizei", "Comunicare cu tinerii — angajarea adolescenților fără condescendență, amenințare sau respingere"],
+            "poor": ["Fundamentele comunicării empatice în întâlnirile de aplicare a legii", "Conștientizarea drepturilor — filmarea de către cetățeni, expresia emoțională și răspunsul proporțional", "Reglare emoțională sub presiune verbală — distingerea durerii de agresivitate", "Revizuire obligatorie de etică — discreție, demnitate și costul disprețului în încrederea comunității"]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Rezumatul general al performanței", "content": ["Scor total și nivel de performanță", "Puncte forte cheie demonstrate în cele șapte etape", "Slăbiciuni critice care necesită atenție", "Traiectoria generală — s-a îmbunătățit sau s-a deteriorat întâlnirea în timp?"]},
+            {"title": "Analiză etapă cu etapă", "content": ["Alegerea făcută la fiecare dintre cele șapte etape interactive", "Impact asupra domnului Davies, lui Marcus, doamnei Marsh și încrederii comunității", "Abordări alternative și consecințele lor probabile", "Puncte de învățare specifice etapei"]},
+            {"title": "Evaluarea comunicării și tonului", "content": ["Cele mai bune momente de dialog și de ce au funcționat", "Fraze contraproductive și impactul lor", "Calibrarea tonului de-a lungul schimbărilor emoționale — oprire, filmare, erupție, trecător, decizie, adolescent, încheiere", "Calitatea integrării semnalării de bunăstare"]},
+            {"title": "Evaluarea empatiei sub presiune", "content": ["Calitatea răspunsului când domnul Davies s-a prăbușit", "Capacitatea de a rămâne cu emoții dificile înainte de a pivota la procedură", "Indicatori de ascultare activă — au fost detalii specifice reflectate înapoi?", "Restabilirea demnității la încheiere"]},
+            {"title": "Evaluarea discreției și judecății", "content": ["Analiza deciziei de aplicare a legii — amendă, avertisment sau respingere", "Proporționalitate dat fiind circumstanțele atenuante verificate", "Cum a fost încadrată decizia discrețională — judecată profesională sau favoare personală", "Calitatea documentării și responsabilitate"]},
+            {"title": "Angajament cu tinerii și comunitatea", "content": ["Răspunsul la filmarea lui Marcus — afirmat, ignorat sau contestat", "Calitatea răspunsului la întrebarea sinceră a lui Marcus despre activitatea polițienească", "Integrarea trecătorului — doamna Marsh tratată ca bun sau ca obstacol", "Impresie durabilă asupra fiecărui observator"]},
+            {"title": "Plan de dezvoltare profesională", "content": ["Nevoi imediate de instruire bazate pe nivelul de performanță", "Priorități de dezvoltare a competențelor pe termen lung", "Cursuri și resurse recomandate", "Întrebări de autoevaluare pentru îmbunătățire continuă"]},
+            {"title": "Aplicare în lumea reală", "content": ["Cum se traduce acest scenariu la controale de trafic nocturne reale cu șoferi aflați în suferință", "Construirea încrederii comunității prin întâlniri de aplicare a legii de rutină", "Efectul multiplicator — cum o oprire bine gestionată influențează relația unei întregi familii cu forțele de ordine", "Activitatea polițienească în era camerelor — fiecare interacțiune este potențial publică"]}
+        ]
+    }
+}

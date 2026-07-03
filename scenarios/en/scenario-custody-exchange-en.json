@@ -1,0 +1,437 @@
+{
+    "id": "custody-exchange",
+    "title": "Custody Exchange Dispute — Between Two Fires",
+    "description": "Advanced scenario practicing de-escalation and neutral mediation during a high-conflict child custody exchange between hostile divorced parents. A 7-year-old child is present and distressed.",
+    "icon": "⚖️",
+    "instructor": {
+        "name": "Sergeant Davis",
+        "avatar": "👮‍♂️",
+        "introduction": "This scenario puts you in one of the most delicate situations an officer can face — a custody dispute where both parents believe they're right, a court order is in play, and a frightened child is caught in the middle. You are not a judge, not a lawyer, and not a family counselor — but right now, you're the only person who can keep this from spiraling. In custody exchange de-escalation, your most powerful tool is visible neutrality — every word, every gesture, every decision must demonstrate fairness to both sides. The moment either parent perceives you as biased, cooperation collapses and the child suffers most. Stay neutral, stay human, and remember: the child is watching everything you do."
+    },
+    "timedChoices": true,
+    "completionBadges": [
+        "scenario-custody-exchange-complete"
+    ],
+    "perfectBadge": "perfect-scenario-custody-exchange",
+    "finalMessage": {
+        "revelation": "Following your intervention, Mark and Eve agreed to use a co-parenting app to coordinate future exchanges. Eve provided Jacob's medical information and Mark sent her updates throughout the weekend. Jacob told his school counselor the following week that 'the police officer was nice and made mom and dad stop yelling.' Two months later, both parents requested the school parking lot as their regular exchange point, knowing staff and security cameras provide accountability. Your calm, balanced approach planted the seed for improved co-parenting communication.",
+        "keyLessons": [
+            "Neutrality is active, not passive — you must demonstrate fairness to both sides through transparent process",
+            "Separating conflicting parties is always the first priority before any substantive discussion",
+            "A court order carries weight, but enforcement requires hearing both sides and understanding context",
+            "Children in custody disputes carry enormous guilt — direct reassurance that it's not their fault is critical",
+            "Creative problem-solving that addresses both parties' concerns transforms win/lose into collaboration",
+            "Police are not private enforcement agents — your role is to facilitate resolution, not pick a winner",
+            "Everything you say and do in front of the child becomes part of their understanding of conflict and authority"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Arrival and Assessment",
+            "sceneUpdate": {
+                "emoji": "🏫",
+                "title": "School Parking Lot — First Contact",
+                "desc": "Late Friday afternoon. Two adults arguing loudly near a silver sedan in a school parking lot. A 7-year-old boy is visible in the back seat hugging a stuffed animal. A school security guard stands nearby, looking uncomfortable."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unit responding to Riverside Elementary. Two parents in a custody dispute, arguing in the parking lot. School staff requested police assistance. A child is present on scene. Be aware — there's a prior domestic violence report on file for this address. Protective order was issued six months ago."
+                }
+            ],
+            "prompt": "You arrive on scene. Both parents are shouting at each other near the car, and the child is watching from inside. How do you approach?",
+            "options": [
+                {
+                    "text": "Walk directly between the parents with your hand raised in a stop gesture and announce firmly: 'Police. I need both of you to stop and step apart from each other right now.' You plant yourself squarely in the gap, making strong eye contact with each parent in turn, your voice cutting through the shouting with unmistakable command authority. You point the father toward one end of the lot and the mother toward the other.",
+                    "feedback": "Why: Establishes authority and creates physical separation, which is needed. However, the loud, commanding approach may frighten the already distressed child and trigger a defiant response from agitated parents. | CONSEQUENCES: Compliance is likely but resentful. Both parents may view you as aggressive rather than helpful, making cooperation harder in the next steps. The child's distress may increase. | Reflection: How does your opening tone set the trajectory for the entire interaction?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Approach the school security guard first to get a briefing on what happened before engaging either parent. You walk past both shouting adults without acknowledgment, badge visible, and pull the guard aside near the school entrance. You ask him to walk you through the timeline — when the parents arrived, who started the argument, whether anyone made threats — taking careful mental notes before turning your attention to the couple by the car.",
+                    "feedback": "Why: Gathering intelligence before acting is wise in many situations. However, the ongoing confrontation near the child demands more immediate intervention — every second of parental conflict the child witnesses causes measurable emotional harm. | CONSEQUENCES: The parents continue arguing while you're debriefing. The father may approach you impatiently. The child remains trapped in the middle. | Reflection: When does the urgency of the situation override the value of background information?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Approach calmly at an angle rather than head-on, making eye contact with both parents in turn. Stop at a conversational distance and say in a firm but measured tone: 'Good afternoon. I'm Officer [name]. I can see this is a stressful situation. Let's work through it — but first, I need you both to take a step back for me, please.' You keep your hands relaxed at your sides, your posture open, modeling the calm you want them to mirror.",
+                    "feedback": "Why: Professional introduction, acknowledgment of stress, and clear direction without aggression. The calm approach models the behavior you want to see from them. Approaching at an angle rather than head-on is less confrontational. Not addressing either parent first avoids signaling bias. | CONSEQUENCES: Both parents feel acknowledged. The measured tone contrasts with their shouting, creating a natural de-escalation effect. The child sees an adult who is calm. | Reflection: How does 'modeling' the emotional state you want others to adopt work in practice?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Approach the mother's vehicle first to get her side of the story before engaging the father — she's closest to the child and may have critical context about the situation. You walk past the father without a word, lean toward the driver's window, and ask the mother in a low voice what's going on. The father watches from several feet away, arms crossed, visibly registering that you chose to speak to her first.",
+                    "feedback": "Why: This sounds like a reasonable information-gathering strategy, and engaging the parent nearest the child seems logical. However, approaching one parent first — especially the one with the child — signals bias before you have spoken a single word to both parties. The father sees you walk past him to the mother's car, and every second you spend there reinforces his belief that the system favors mothers. | CONSEQUENCES: The father becomes more agitated and confrontational, perceiving you as siding with the mother from the first moment. Your neutrality is compromised before you have even spoken to both parties. The dynamic is now unbalanced — anything you say to the father later is filtered through his belief that you already chose a side. | Reflection: How do you prioritize gathering information while maintaining visible impartiality to all parties watching?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Separating the Parents",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Two Sides, One Child",
+                "desc": "You've made initial contact. Both parents immediately turn to you, each wanting you on their side. The father waves a folded document. The mother positions herself protectively near her car door."
+            },
+            "npcDialogue": [
+                {
+                    "character": "father",
+                    "text": "Finally! Tell her she has to hand over my son. I have the court order right here!"
+                },
+                {
+                    "character": "mother",
+                    "text": "He's sick! I'm not letting him go when he has a fever!"
+                }
+            ],
+            "prompt": "Both parents are demanding your immediate support. How do you proceed?",
+            "options": [
+                {
+                    "text": "Hold up a hand gently and say: 'I understand you both feel strongly about this. I'm going to speak with each of you separately so I can understand the full situation. Sir, could you wait by my vehicle for a moment? Ma'am, please stay here by the car.' You make steady eye contact with each in turn as you add: 'I'll be fair to both of you — you'll each get the same chance to explain your side before we figure this out together.'",
+                    "feedback": "Why: Separating parties is critical de-escalation — it prevents performative arguments and allows each person to speak honestly. The promise of fairness maintains trust from both sides. Moving the father away from the car is tactically sound — the child's location stays stable, and you're not signaling custody preference. | CONSEQUENCES: Both parents feel heard. The performative conflict stops. You create space for genuine dialogue. | Reflection: Why is speaking to each party individually often more productive than group mediation?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Extend your hand toward the father and say: 'Let me see that court order first. We'll sort this out based on what the paperwork says.' You take the folded document, unfold it carefully, and begin scanning the paragraphs right there between the two parents, your eyes moving down the page while both of them hover on either side, each pointing to different sections and talking over each other to explain what it means.",
+                    "feedback": "Why: Going straight to the legal document seems logical and efficient. However, reviewing it in front of both parents invites them to argue over its interpretation. You also haven't addressed the emotional temperature or separated the parties. | CONSEQUENCES: The father feels validated but the mother feels ignored. Both may start arguing about what the document 'really means.' The emotional dimension remains completely unaddressed. | Reflection: Is a custody dispute primarily a legal problem or an emotional one?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Glance pointedly toward Jacob in the back seat, then turn to both parents and say: 'I need both of you to lower your voices — there's a child right here who can hear everything you're saying.' You gesture away from the car toward an open stretch of sidewalk. 'Let's step over there together and discuss this calmly, away from the vehicle, so we can figure out what's happening without Jacob having to listen to all of it.'",
+                    "feedback": "Why: Good awareness of the child's wellbeing, and the request is reasonable. However, asking them to move together without separating them often just relocates the argument. The reminder about the child may produce brief shame-based compliance, but doesn't address the core adversarial dynamic. | CONSEQUENCES: Momentary pause in shouting, but without physical separation the argument resumes within minutes. You haven't established a process or timeline. | Reflection: What's the difference between pausing a conflict and de-escalating it?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Turn to the mother with a skeptical expression and ask directly: 'Ma'am, is the child really sick? Do you have any medical documentation to support that — a doctor's note, a prescription, anything on paper?' You keep your tone flat and procedural, clipboard-ready, while the father nods vigorously beside you. The mother's face flushes as she realizes the burden of proof has landed entirely on her shoulders.",
+                    "feedback": "Why: Immediately questioning the mother's claim signals doubt and takes a quasi-investigative stance. The father feels validated while the mother feels accused. You haven't established rapport, separated the parties, or assessed the overall situation. | CONSEQUENCES: The mother becomes defensive and hostile toward you. The father presses harder, sensing advantage. The conflict intensifies with you now drawn into it as a perceived adversary. | Reflection: How does the sequence in which you address concerns affect both parties' perception of your neutrality?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "The Court Order",
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Legal Paper, Human Problem",
+                "desc": "You've successfully separated the parents. Mark is at your vehicle, showing you a certified copy of a court-issued custody order. His hands are shaking — from anger or anxiety, it's hard to tell."
+            },
+            "npcDialogue": [
+                {
+                    "character": "father",
+                    "text": "See? Every other weekend, starting Friday at 4 PM. It's already 4:15. She does this every single time — delays, excuses, anything to keep Jacob from me. I want her arrested for contempt of court."
+                }
+            ],
+            "prompt": "The father is demanding immediate enforcement and the mother's arrest. How do you respond?",
+            "options": [
+                {
+                    "text": "Nod slowly and validate his frustration about the schedule to build rapport: 'I can see this has been an ongoing pattern, Mark. That must be incredibly frustrating — having to fight for time you were already granted by the court. Let me talk to her about respecting the schedule.' You put the court order back in his hand with a reassuring pat on the shoulder, already turning toward Eve's car.",
+                    "feedback": "Why: This sounds like empathetic active listening and rapport-building — textbook de-escalation skills. However, validating his narrative about a 'pattern' of obstruction before hearing the other side transforms empathy into alignment. Telling him you will 'talk to her about respecting the schedule' positions the mother as the problem and you as his advocate. You have adopted his framing entirely without independent assessment. | CONSEQUENCES: The mother will immediately sense you have taken sides when you approach her. The confrontation escalates with you now aligned with the father's narrative. Any balanced resolution becomes nearly impossible because your credibility as a neutral party is gone. | Reflection: Where is the line between validating someone's emotional experience and adopting their version of events as fact?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Take the document, hold it at reading distance, and say: 'I can see this is a valid court order. Let me review the exact terms carefully before I speak with your ex-wife about the situation.' You run your finger along the paragraphs, silently mouthing key clauses, while Mark shifts his weight from foot to foot, waiting for you to finish your page-by-page review and give him the answer he's looking for.",
+                    "feedback": "Why: Acknowledging the document is appropriate, but 'let me review the terms carefully' creates a lawyerly, bureaucratic atmosphere. The father wants empathy and action, not a legal review. Using the term 'your ex-wife' rather than her name reduces her to a role in an adversarial framework. | CONSEQUENCES: The father feels you're stalling. The legalistic framing keeps the interaction in conflict mode rather than moving toward resolution. | Reflection: How does your language choice frame whether this is a legal battle or a parenting situation?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Look him in the eye and say straightforwardly: 'I understand your frustration, and I can see this is a court order. However, I'm not able to arrest anyone for a civil custody matter — that's not how enforcement works here. My role is to help you both reach a resolution today. Let me hear her side as well, and then we'll figure out the next step together.' You hand the document back and start walking toward Eve's car.",
+                    "feedback": "Why: Correctly clarifies police limitations and sets realistic expectations. However, the flat statement 'I can't arrest anyone' may feel dismissive to a father who believes his legal rights are being systematically violated. Saying 'let me hear her side' without acknowledging his emotional experience first creates distance. | CONSEQUENCES: Mark feels procedurally informed but personally unheard. He cooperates, but his underlying frustration about the pattern of obstruction remains unaddressed. | Reflection: How do you balance managing expectations with validating someone's emotional experience?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Accept the document respectfully and say: 'Thank you for showing me this, Mark. I take it seriously — a court order carries real weight. I need to hear from Eve as well to understand her concerns, and then I'll work with both of you to resolve this today. My goal is to make sure Jacob gets to spend time with you as smoothly as possible.' You hand the paper back carefully, meeting his gaze to signal that you mean it.",
+                    "feedback": "Why: Validates the father's legal standing and uses his name to build personal rapport. Explains the process transparently — he'll speak with the mother too — so it doesn't feel like favoritism. Framing the goal around Jacob spending time with his father reassures Mark that you're working toward the outcome the court intended, while 'as smoothly as possible' signals that method matters. | CONSEQUENCES: Mark feels respected, legally validated, and confident the officer is working toward the exchange. He's willing to wait while you speak with Eve. | Reflection: How does naming the desired outcome early help both parties align their expectations?",
+                    "type": "positive",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "The Mother's Position",
+            "sceneUpdate": {
+                "emoji": "💊",
+                "title": "A Mother's Fear",
+                "desc": "You approach Eve at her car. Jacob is visible in the back seat, hugging his stuffed animal tightly. He does look a little pale, but he's calm for the moment. Eve's eyes are red — she's been crying."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mother",
+                    "text": "Please don't make me hand him over. He was coughing all night, he barely slept. Mark won't take care of him properly when he's sick — he doesn't even know which medicine Jacob takes. I'm not trying to be difficult, I just... I'm scared for my son."
+                }
+            ],
+            "prompt": "The mother is emotional and raising health concerns about the child. How do you handle this?",
+            "options": [
+                {
+                    "text": "Cross your arms and ask in a flat, procedural tone: 'Do you have a doctor's note or any medical evidence that Jacob is too sick to go with his father? A prescription receipt, an urgent care visit — anything documented that I can look at?' You wait with your pen poised over your notepad, watching her expression closely as she searches for proof she may not have thought to gather in the rush of the afternoon.",
+                    "feedback": "Why: A valid procedural question, but leading with a demand for proof feels accusatory and clinical. Most parents in genuine custody distress don't think to get documentation in advance. This approach treats the interaction as an evidence-gathering exercise rather than a human conversation. | CONSEQUENCES: Eve feels interrogated rather than heard. She becomes defensive: 'So you don't believe me either?' The emotional wall goes up, making resolution much harder. | Reflection: What's the difference between gathering information and interrogating someone?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Soften your posture and say: 'I can hear how worried you are about Jacob, Eve. His health matters. Can you tell me more about his symptoms — when did they start, has he seen a doctor?' You pause and let her answer before continuing gently: 'I also need to be straightforward with you: Mark has a court order for this weekend, and that's something I have to take into account. I want us to find a way through this that keeps Jacob safe.'",
+                    "feedback": "Why: Validates her emotions, uses her name, and asks open-ended questions about the health concern — giving her space to be heard. But also transparently communicates the legal reality rather than letting her build hope that you'll block the exchange. Balances empathy with honesty. | CONSEQUENCES: Eve feels heard and respected. She may become tearful but is less likely to become combative. The honest framing about the court order prepares her for the likely outcome without ambushing her later. | Reflection: Why is early honesty kinder than delayed bad news?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Shake your head slightly and say: 'I understand your concern, but the court order says he goes with his father this weekend. Unless you have medical documentation — something from a doctor, an ER visit — there's really nothing I can do to override that.' You glance toward Mark standing by the patrol car, then back at Eve, your tone making clear that the conversation is essentially over and the outcome has already been decided.",
+                    "feedback": "Why: Dismissive of genuine maternal concern. Uses rigid legalistic framing without any empathy. 'Nothing I can do' is both inaccurate and alienating — you have options for facilitating a smoother handover. This approach may trigger a flight-or-fight response. | CONSEQUENCES: Eve may physically refuse to let Jacob out of the car, attempt to drive away, or break down emotionally. Any of these outcomes dramatically worsens the situation for everyone, especially Jacob. | Reflection: When someone says 'nothing I can do,' what message does the other person actually hear?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Lean down toward the car window to peer at Jacob and say: 'I want to make sure Jacob is okay too. Let me take a quick look at him to see how he's doing.' You study the boy's face for a moment — the paleness, the slightly glassy eyes — then straighten up and turn to Eve: 'If he's really unwell, maybe we can discuss some options. But I should let you know that Mark does have a valid court order, so we need to factor that in as well.'",
+                    "feedback": "Why: Shows concern for the child and offers to assess the situation directly, which feels proactive. However, a police officer conducting an informal health assessment puts you in a role you're not qualified for. If you determine the child 'seems fine,' the mother feels invalidated. If you agree the child 'seems sick,' the father will claim you're siding with her. | CONSEQUENCES: You're now in an unwinnable position as an amateur medical evaluator. Both parents will challenge your assessment based on whichever direction it goes. | Reflection: How do you show concern for a child's health without overstepping your professional role?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "The Child Speaks",
+            "sceneUpdate": {
+                "emoji": "👦",
+                "title": "Jacob's World",
+                "desc": "While you're talking to Eve, Jacob rolls down the car window. His eyes are wide and wet. He's been listening to everything — the arguments, the discussions, the tension. He clutches his stuffed bear tighter."
+            },
+            "npcDialogue": [
+                {
+                    "character": "child",
+                    "text": "I don't want mommy and daddy to fight anymore... Can I just stay at school?"
+                }
+            ],
+            "prompt": "A distressed 7-year-old is now directly part of the conversation. How do you respond?",
+            "options": [
+                {
+                    "text": "Crouch down slowly to Jacob's eye level at the car window, resting one arm on the door frame so you're face to face with him. Speak gently: 'Hey Jacob, I know this is really hard. I want you to know that none of this is your fault, okay? Your mom and dad both love you very much. The grown-ups are going to work this out.' You pause, letting the words land, then ask softly: 'Is there something you'd like to tell me?'",
+                    "feedback": "Why: Getting to the child's physical level is critical for building trust and reducing intimidation. Reassuring him it's not his fault directly addresses the core guilt children feel in custody disputes. The open-ended invitation to speak gives him agency and voice without forcing a loyalty choice between parents. | CONSEQUENCES: Jacob feels seen and heard by a calm authority figure. His distress decreases visibly. Both parents, if within earshot, are reminded of what truly matters. This moment often becomes the emotional turning point of the entire intervention. | Reflection: How does directly addressing a child's unspoken guilt change the dynamic of a family dispute?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Lean toward the open window with a warm smile and say: 'Don't worry, buddy. Everything's going to be fine. Your parents just need to talk a few things through, okay?' You give his stuffed bear a playful tap, trying to lighten the mood, and add: 'We'll have this sorted out before you know it. You just hang tight in there.' You straighten up and turn back toward the adults, confident the reassurance was enough.",
+                    "feedback": "Why: Well-intentioned and reassuring in tone. However, 'everything's going to be fine' may feel like an empty promise — the child can see and hear the conflict, and children are remarkably perceptive about insincerity. It doesn't address his expressed wish for the fighting to stop or his feeling of being trapped. | CONSEQUENCES: Jacob may nod politely but his anxiety remains unchanged. The reassurance doesn't match his reality. A missed opportunity to provide meaningful emotional support. | Reflection: When is reassurance helpful, and when does it dismiss genuine distress?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Seize on Jacob's words as a catalyst to speed up the resolution. Turn immediately to both parents and say firmly: 'You heard him. Let's wrap this up efficiently so Jacob can move on with his evening. Eve, the court order is clear — Jacob goes with Mark tonight. Mark, let's get Jacob settled in your car with his things. The faster we resolve this, the less he has to see.' You gesture briskly between the two vehicles, already directing the logistics.",
+                    "feedback": "Why: This sounds like practical efficiency focused on minimizing the child's exposure to conflict — a seemingly child-centered approach. However, it uses Jacob's vulnerable moment as a tool to rush the process rather than addressing his emotional needs. The child spoke up seeking comfort and reassurance; instead, his words are redirected to pressure the adults into a quick transaction. Jacob learns that speaking up leads to being ignored while adults do what they were going to do anyway. | CONSEQUENCES: Jacob's distress deepens — he expressed a feeling and received a logistics plan. Eve feels railroaded by the speed, and her health concerns remain unaddressed. The 'efficient' resolution is a brittle one that does not address anyone's underlying concerns. | Reflection: When a child's emotional moment is used as a reason to rush rather than pause, what does the child learn about the value of expressing feelings?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Glance at Jacob and give him a quick nod: 'Hang in there, okay, buddy?' Then turn immediately back to Eve, lowering your voice to a businesslike tone: 'We really need to sort this out now. The school's going to close soon and we can't stay here much longer. Can you think of a way we can make this work today — some kind of arrangement that addresses your concerns while getting Jacob where he needs to be?' You tap your watch for emphasis.",
+                    "feedback": "Why: Brief acknowledgment is better than ignoring the child entirely. But it's dismissive of a genuine emotional moment — Jacob took courage to speak up, and a two-second response signals his feelings aren't important to the adults in charge. Redirecting immediately back to logistics reinforces the child's sense of invisibility. | CONSEQUENCES: Jacob withdraws, feeling ignored. He's less likely to express his feelings again. A critical window for connection closes. The burden of resolution is placed entirely on the mother. | Reflection: When a child speaks up during a crisis, what does your response teach them about the value of their voice?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "The Father's Ultimatum",
+            "sceneUpdate": {
+                "emoji": "⚡",
+                "title": "Patience Runs Out",
+                "desc": "Mark has grown tired of waiting. He walks over from the patrol car, jaw clenched, phone in hand. His body language is tense — squared shoulders, rapid steps, pointing finger."
+            },
+            "npcDialogue": [
+                {
+                    "character": "father",
+                    "text": "I've been waiting long enough! You're clearly siding with her — every time, it's the same story. I'm calling my lawyer and filing a complaint against you. If my son isn't in my car in five minutes, I'm taking him myself."
+                }
+            ],
+            "prompt": "The father is escalating, accusing you of bias, and threatening to take matters into his own hands. How do you respond?",
+            "options": [
+                {
+                    "text": "Step toward Mark with your palms open and say: 'Mark, I understand your frustration, and I respect your legal rights — I've read the order and I know what it says. But threatening to take Jacob by force won't help your case; it could actually give Eve's lawyer ammunition against you in court. Let's find a solution that keeps everyone in a good position. I'm close to getting this resolved — give me a few more minutes to work with her.'",
+                    "feedback": "Why: Good combination of validation and clear boundary-setting. However, 'won't help your case' frames the interaction in legal and adversarial terms, which may keep Mark in combative mode rather than shifting toward cooperation. 'Everyone in a good position' may feel like you're diluting his legitimate legal claim. | CONSEQUENCES: Mark pauses, but his underlying frustration about the perceived pattern of obstruction remains unaddressed. He cooperates reluctantly but remains suspicious. | Reflection: How do you set boundaries without using language that keeps someone in an adversarial mindset?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Hold up your hand and say flatly: 'Sir, you need to calm down. I'm doing my job here and I don't appreciate the accusations.' You cross your arms and square your shoulders. 'If you want to call your lawyer, go ahead, that's your right. But you cannot take the child by force — that would create a whole different legal situation for you. Now step back to my vehicle and wait while I finish up with the mother.'",
+                    "feedback": "Why: Factually correct and sets a necessary boundary. However, 'you need to calm down' is widely recognized as one of the most counterproductive phrases in de-escalation — it invalidates the person's emotions and implies they're being irrational. It often provokes the exact opposite of the intended effect. | CONSEQUENCES: Mark escalates further: 'Don't tell me to calm down!' The situation deteriorates. You've lost rapport and moved closer to a physical confrontation. | Reflection: Why does 'calm down' almost never produce calm?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Face Mark directly and say in a steady, assured voice: 'Mark, I haven't forgotten about you or the court order — I take it seriously, and I'm working to make this exchange happen today. I needed to hear both sides, which is standard procedure. I've spoken with Eve, and I'm close to a resolution. But if you grab Jacob, that creates a police matter where there isn't one now, and it could hurt your custody position. Let's get this done the right way.'",
+                    "feedback": "Why: Directly addresses his core concern — that he's been forgotten and you're biased. Reaffirms the legal validity of his position without caveats. Explains the process transparently. The warning about physical action is framed as protecting his interests, not as a threat from you. The phrase 'the right way' appeals to his desire for justice. | CONSEQUENCES: Mark's anger deflates significantly. He feels heard, respected, and confident that the exchange is going to happen. He puts his phone away. | Reflection: How does framing consequences as self-interest rather than threats change someone's willingness to cooperate?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Step directly into Mark's path and point firmly toward the patrol car: 'If you approach that car or try to take the child, I will have to intervene physically. Step back to my vehicle right now.' Your hand moves to your belt as you widen your stance, shifting the interaction from a family mediation into a law enforcement confrontation. Mark's eyes drop to your hand and his jaw tightens. The parking lot goes quiet.",
+                    "feedback": "Why: Pure enforcement response. While setting a safety boundary is necessary if there's an imminent physical threat, jumping to implied physical confrontation when Mark is still only verbally escalating transforms a family dispute into a police confrontation. It completely ignores his emotional state, his legitimate legal position, and his fear of losing time with his son. | CONSEQUENCES: Mark either backs down resentfully — filing a complaint later and becoming less cooperative in future exchanges — or he challenges you physically. Either way, Jacob witnesses his father being threatened by a police officer. | Reflection: At what point does a verbal threat warrant a physical enforcement response, and what are the costs of jumping there too early?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Facilitating Resolution",
+            "sceneUpdate": {
+                "emoji": "🔑",
+                "title": "The Path Forward",
+                "desc": "Both parents are looking at you expectantly. The argument has cooled, but nothing is resolved. Jacob has stopped crying but watches anxiously through the car window. The school security guard approaches."
+            },
+            "npcDialogue": [
+                {
+                    "character": "security",
+                    "text": "Officer, the school's closing in fifteen minutes. We need the parking lot cleared."
+                }
+            ],
+            "prompt": "Time pressure is mounting. How do you bring this to a resolution?",
+            "options": [
+                {
+                    "text": "Turn to Eve and say in a matter-of-fact tone: 'The court order says Jacob goes with his father this weekend. Eve, I recommend you comply with the order — resisting it here won't change the legal reality and could create problems for you down the line. If you believe the arrangement should be changed, you can file a motion with the court on Monday. For now, let's get Jacob's things together and make this as smooth as we can for him.' You gesture toward the car.",
+                    "feedback": "Why: Legally accurate and procedurally sound. However, the blunt directive to 'comply' feels coercive and reduces the mother to someone who must obey rather than a parent with legitimate concerns. Referencing court action on Monday feels distant and unhelpful for her current emotional state. There's no plan for the child's transition or health needs. | CONSEQUENCES: Eve hands over Jacob resentfully. The exchange happens but badly — Jacob picks up on his mother's distress. No bridge has been built for future exchanges. The next one will be just as bad or worse. | Reflection: Is a 'successful' exchange one where the child physically changes hands, or one where the child feels safe during the transition?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Bring both parents within earshot and say: 'Here's what I suggest. Eve, would you write down Jacob's symptoms, his medication and dosage, and your pediatrician's number for Mark? Mark, would you be willing to text Eve an update on how Jacob's feeling tonight — maybe a quick message and a photo? That way Jacob gets his weekend with dad as the court order provides, and you both know he's being looked after.' Then crouch to Jacob: 'Your mom is giving your dad all the medicine info, so you'll be well taken care of.'",
+                    "feedback": "Why: Creative problem-solving that addresses the mother's genuine health concern, respects the father's legal rights, and gives both parents an active and dignified role. Transforms the conflict from win/lose into collaborative parenting. Directly reassuring the child shows him the adults found a solution together. The concrete, specific steps make it actionable rather than vague. | CONSEQUENCES: Eve agrees — writing down the medical information gives her a sense of control and purpose. Mark agrees to text updates — a small concession that costs him nothing. Jacob sees his parents cooperating for the first time today. The exchange happens smoothly. | Reflection: How does giving both parties a constructive task channel their energy away from conflict?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Raise both hands and take a step back: 'Look, I understand this is difficult for both of you, but I can't force either of you to do anything here — this is a civil matter, not a criminal one. You need to work this out between yourselves or take it back to court on Monday. I've done everything I can.' You pull out your notepad, jot down the incident number, and hand each parent a copy, signaling that your involvement has reached its limit and whatever happens next is between them.",
+                    "feedback": "Why: Abdicating responsibility at the critical moment. While police have limited authority in civil custody matters, stepping back from a dispute with a distressed child present is a failure of duty. 'I've done everything I can' signals that you're done investing effort, which leaves both parents feeling abandoned by the only neutral party. | CONSEQUENCES: The argument reignites the moment you walk away. The school security guard calls 911 again within twenty minutes. Jacob endures another round of parental conflict. Your intervention achieved nothing. | Reflection: What's the difference between 'I can't force anyone' and 'I can't help at all'?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Turn to both parents and propose a middle ground: 'Mark has the court order, so the exchange should happen today — that part is clear. But Eve, what if Mark agrees to take Jacob to a doctor or urgent care if his symptoms get worse over the weekend? Mark, would that work for you? It addresses Eve's concern about Jacob's health while still honoring the schedule the court set.' You look back and forth between them, waiting for each to respond.",
+                    "feedback": "Why: Attempts a compromise and addresses the mother's stated concern. However, you're implicitly conditioning the court-ordered exchange on the father accepting additional terms, which oversteps your role and undermines the legal framework. If Mark refuses, you've created a new point of conflict. If he agrees under pressure, he may resent it. | CONSEQUENCES: Mark may agree reluctantly or refuse on principle. Either way, you've inadvertently positioned yourself as a negotiator renegotiating custody terms — a role that belongs to the courts. The precedent may encourage more obstructive behavior at future exchanges. | Reflection: Where's the line between facilitating resolution and renegotiating a court order?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debrief and Reveal",
+            "sceneUpdate": {
+                "emoji": "🏁",
+                "title": "Training Debrief",
+                "desc": "Back at the station. Sergeant Davis reviews your performance in this complex custody exchange intervention."
+            },
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Custody exchanges are some of the most emotionally loaded calls you will ever handle. Both parents walk in convinced they are the reasonable one and the other is the obstacle. Your job is not to agree with either — it is to make both of them believe, genuinely, that you see them as people and not as problems. That is what neutrality actually means. It is not treating both parents the same. It is making both parents feel seen."
+                },
+                {
+                    "character": "officer",
+                    "text": "The hardest moment was when Mark accused me of siding with Eve. I had spent barely two minutes with her, and he was already convinced I was biased. I felt like no matter what I did, one of them was going to see me as the enemy."
+                },
+                {
+                    "character": "trainer",
+                    "text": "That feeling is the job. And the mistake most officers make is trying to resolve it by being perfectly symmetrical — same time with each parent, same tone, same words. That is mechanical neutrality, and people see right through it. Real neutrality is not about treating both parents identically — it is about making both parents believe you see them as human beings with legitimate fears. Mark needed to hear that his court order mattered. Eve needed to hear that her concern for Jacob's health mattered. Jacob needed to hear that none of it was his fault. When you addressed all three needs, you were not picking sides — you were doing the only thing that actually works."
+                },
+                {
+                    "character": "trainer",
+                    "text": "The creative solution — medication notes, a text update, involving Jacob directly — did something no enforcement action ever could. It gave both parents a task that required them to cooperate instead of compete. That is the difference between resolving a dispute and planting a seed. What you did in that parking lot did not just handle one Friday afternoon. It changed how two parents communicate going forward. Let me tell you what happened next."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {
+            "name": "Dispatcher",
+            "avatar": "📻"
+        },
+        "father": {
+            "name": "Mark (father)",
+            "avatar": "😤"
+        },
+        "mother": {
+            "name": "Eve (mother)",
+            "avatar": "😰"
+        },
+        "child": {
+            "name": "Jacob (child, 7)",
+            "avatar": "👦"
+        },
+        "security": {
+            "name": "School Security",
+            "avatar": "🔒"
+        },
+        "officer": {
+            "name": "You (officer)",
+            "avatar": "👮"
+        },
+        "trainer": {
+            "name": "Sergeant Davis",
+            "avatar": "👮‍♂️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Outstanding Mediation!",
+            "emoji": "🌟",
+            "feedback": "You demonstrated exceptional neutrality, empathy, and problem-solving under pressure. Your ability to validate both parents while prioritizing the child's emotional wellbeing is exactly what this situation demands. The creative resolution you facilitated planted seeds for healthier future exchanges. Textbook performance."
+        },
+        "good": {
+            "title": "Strong Performance",
+            "emoji": "✅",
+            "feedback": "You handled a complex three-party situation well, maintained reasonable neutrality, and achieved a workable outcome. Some opportunities for deeper empathy or more creative problem-solving were missed, but your overall approach was professional and effective."
+        },
+        "average": {
+            "title": "Adequate Response",
+            "emoji": "📊",
+            "feedback": "You resolved the immediate situation but missed several opportunities for genuine de-escalation and rapport building. The child's emotional needs may not have been fully addressed. Review techniques for active listening, creative mediation, and child-sensitive communication."
+        },
+        "poor": {
+            "title": "Needs Significant Improvement",
+            "emoji": "⚠️",
+            "feedback": "Your approach showed clear bias toward one party, escalated rather than reduced tension, and inadequately addressed the child's emotional distress. In custody disputes, perceived unfairness from the officer often makes future exchanges worse. Review neutrality principles, empathy-based de-escalation, and the impact of parental conflict on children."
+        }
+    },
+    "metrics": {
+        "neutrality": {
+            "name": "Impartiality & Neutrality",
+            "description": "Maintaining visible fairness to both parties without favoring one parent's position",
+            "icon": "⚖️"
+        },
+        "rapport": {
+            "name": "Rapport and Trust",
+            "description": "Building trust through active listening, using names, and empathetic communication",
+            "icon": "🤝"
+        },
+        "emotional": {
+            "name": "Emotional Intelligence",
+            "description": "Recognizing and responding appropriately to emotions of all parties, including the child",
+            "icon": "💚"
+        },
+        "procedure": {
+            "name": "Procedural & Legal Awareness",
+            "description": "Understanding police limitations in civil matters and managing expectations accordingly",
+            "icon": "📋"
+        },
+        "childwelfare": {
+            "name": "Child-Centered Approach",
+            "description": "Prioritizing the child's emotional safety, reducing their exposure to conflict and guilt",
+            "icon": "🛡️"
+        }
+    }
+}

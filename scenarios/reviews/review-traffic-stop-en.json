@@ -1,0 +1,671 @@
+{
+  "scenarioId": "traffic-stop",
+  "reviewVersion": "1.0",
+  "title": "Traffic Stop De-escalation - Performance Analysis",
+  
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Dispatch and the Stop",
+      "criticalSkills": ["Professional Introduction", "Clear Communication", "Procedural Transparency"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Good afternoon, I'm Officer Norton. I stopped you because you were exceeding the speed limit by 25 km/h. May I see your driver's license and vehicle registration, please?",
+          "strengths": [
+            "Professional introduction by name established legitimacy",
+            "Specific violation stated removes ambiguity",
+            "Courteous document request maintains dignity",
+            "Set professional framework from the first sentence"
+          ],
+          "professionalImpact": "Your professional approach immediately reduced suspicion that the stop was arbitrary and established a framework for cooperation."
+        },
+        "partially_positive": {
+          "choiceText": "Good afternoon. I stopped you for speeding. License and registration, please.",
+          "adequate": [
+            "Polite and mentions the reason for the stop",
+            "Avoided immediate escalation"
+          ],
+          "missed": [
+            "No officer name provided",
+            "No specific violation details given",
+            "Missed full transparency that builds trust"
+          ],
+          "improvement": "Include your name and the specific violation details upfront. Full transparency prevents the driver from feeling the stop is arbitrary."
+        },
+        "neutral": {
+          "choiceText": "Good afternoon, license and registration please.",
+          "adequate": [
+            "Non-confrontational tone",
+            "Basic courtesy maintained"
+          ],
+          "missed": [
+            "No introduction or name",
+            "No reason for stop provided",
+            "Driver left guessing why he was pulled over",
+            "Missed opportunity to set professional framework"
+          ],
+          "improvement": "Always introduce yourself and explain the reason for the stop. This transparency reduces anxiety and demonstrates professionalism."
+        },
+        "negative": {
+          "choiceText": "Calm down and show me your documents or this will only get worse for you.",
+          "failures": [
+            "Opened with a threat before any provocation",
+            "Escalated tension unnecessarily",
+            "Failed to provide reason for stop",
+            "Created adversarial dynamic from the start"
+          ],
+          "consequences": "Opening with threats transforms a routine stop into a confrontation, increasing risk for all parties and inviting complaints.",
+          "trainingFocus": "Review verbal judo techniques and the importance of professional introductions."
+        }
+      },
+      "keyLearningPoints": [
+        "Professional introduction with name and specific violation sets expectations",
+        "Explaining reasons reduces anxiety and conspiracy thinking",
+        "Calm demeanor is contagious — the first sentence sets the trajectory"
+      ]
+    },
+
+    "2": {
+      "stageName": "Driver in a Hurry",
+      "criticalSkills": ["Empathy", "Time Management", "Cooperation Building"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "I understand you're in a hurry and this meeting matters to you. I'll do my best to get this done as quickly as possible. If we cooperate, you'll be on your way soon.",
+          "strengths": [
+            "Acknowledged specific concern — the meeting",
+            "Linked cooperation to speed as productive outlet",
+            "Professional tone maintained",
+            "Framed urgency as an ally rather than obstacle"
+          ],
+          "professionalImpact": "Acknowledging the specific concern and framing cooperation as the fastest path forward transforms urgency from obstacle into ally."
+        },
+        "partially_positive": {
+          "choiceText": "I understand you're in a rush. Let me process this as quickly as I can.",
+          "adequate": [
+            "Acknowledged time pressure",
+            "Committed to efficiency"
+          ],
+          "missed": [
+            "Did not frame cooperation as the fastest path",
+            "Driver may continue pushing rather than helping",
+            "Missed linking urgency to productive behavior"
+          ],
+          "improvement": "Explicitly linking cooperation to speed changes the driver's behavior from interrupting to assisting."
+        },
+        "neutral": {
+          "choiceText": "Please cooperate so we can get this done quickly.",
+          "adequate": [
+            "Expressed mutual interest in quick resolution",
+            "Avoided confrontation"
+          ],
+          "missed": [
+            "No empathy for the reason behind urgency",
+            "Generic instruction rather than human connection",
+            "Missed opportunity to de-escalate through understanding"
+          ],
+          "improvement": "Specific acknowledgment of the driver's concern shows you are listening and builds rapport."
+        },
+        "negative": {
+          "choiceText": "Your meeting isn't my problem. You should have driven within the speed limit.",
+          "failures": [
+            "Dismissive and condescending",
+            "Increased frustration dramatically",
+            "Showed lack of emotional intelligence",
+            "Created unnecessary conflict at a moment of vulnerability"
+          ],
+          "consequences": "Dismissive responses transform citizens into adversaries and dramatically increase complaint and viral video risk.",
+          "trainingFocus": "Study the impact of empathy in law enforcement interactions — acknowledging concerns is not excusing behavior."
+        }
+      },
+      "keyLearningPoints": [
+        "Acknowledging concerns doesn't mean agreeing with behavior",
+        "Time-conscious approach reduces stress for both parties",
+        "Cooperation is earned through respect, not extracted through power"
+      ]
+    },
+
+    "3": {
+      "stageName": "Personal Attacks",
+      "criticalSkills": ["Emotional Resilience", "Professional Detachment", "Mission Reframing"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "I understand you're stressed and in a hurry. I hear that. My duty is to ensure road safety — that's why I'm here. Let's wrap this up calmly so you can get to your meeting.",
+          "strengths": [
+            "Did not take insults personally",
+            "Reframed toward road safety mission",
+            "Referenced the meeting showing active listening",
+            "Maintained professional composure under fire"
+          ],
+          "professionalImpact": "Reframing from 'you versus me' to 'both of us versus the problem' removes the target for insults and models de-escalation."
+        },
+        "partially_positive": {
+          "choiceText": "I hear your frustration. Let me just finish processing this and you can be on your way.",
+          "adequate": [
+            "Briefly acknowledged frustration",
+            "Moved toward resolution"
+          ],
+          "missed": [
+            "Did not reframe the stop around its purpose",
+            "Driver continues to see the stop as pointless",
+            "Defused the moment without changing the underlying resentment"
+          ],
+          "improvement": "Redirecting frustration toward understanding your purpose — road safety — changes the driver's perception of the stop itself."
+        },
+        "neutral": {
+          "choiceText": "I won't respond to insults. I'm continuing with the procedure.",
+          "adequate": [
+            "Avoided an argument",
+            "Maintained dignity"
+          ],
+          "missed": [
+            "No acknowledgment of the emotion driving the insults",
+            "Ignoring strong emotion perpetuates hostility",
+            "Froze the conflict rather than resolving it"
+          ],
+          "improvement": "Acknowledging frustration without agreeing with attacks shows emotional intelligence and often calms situations."
+        },
+        "negative": {
+          "choiceText": "Watch your words. You could end up with more than just a speeding ticket.",
+          "failures": [
+            "Responded to verbal insult with implied threat of legal consequence",
+            "Disproportionate escalation",
+            "Lost professional composure",
+            "Created a use-of-power issue on camera"
+          ],
+          "consequences": "Threatening additional consequences for verbal criticism violates professional standards and is devastating on video.",
+          "trainingFocus": "Critical need for emotional regulation training and understanding that insults are not grounds for escalation."
+        }
+      },
+      "keyLearningPoints": [
+        "Personal attacks during traffic stops are stress responses, not genuine attacks",
+        "Reframing toward your mission removes the target for insults",
+        "Professional detachment protects both parties and looks excellent on camera"
+      ]
+    },
+
+    "4": {
+      "stageName": "Recording and Identification",
+      "criticalSkills": ["Transparency Under Scrutiny", "Rights Affirmation", "Confidence"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Filing a complaint is absolutely your right, sir. I'm Officer John Norton, badge number 45879. You're welcome to record — I have nothing to hide. I'll now continue with the lawful procedure.",
+          "strengths": [
+            "Explicitly affirmed right to complain and record",
+            "Provided full identification verbally",
+            "Signaled culture of accountability",
+            "Continued procedure with confidence"
+          ],
+          "professionalImpact": "Welcoming scrutiny builds more authority than resisting it — the complaint threat loses power when you embrace it."
+        },
+        "partially_positive": {
+          "choiceText": "Of course. I'm Officer Norton. My badge number is on my uniform here. Now let's continue.",
+          "adequate": [
+            "Provided name willingly",
+            "Pointed to badge"
+          ],
+          "missed": [
+            "Did not explicitly affirm right to file a complaint",
+            "Pointing to uniform rather than stating number verbally",
+            "Slightly dismissive on a recording where clarity matters"
+          ],
+          "improvement": "Verbally affirming someone's right to complain — even when they are hostile — builds trust more effectively than simply complying."
+        },
+        "neutral": {
+          "choiceText": "Go ahead and complain — my details are on my uniform.",
+          "adequate": [
+            "Formally correct",
+            "Did not obstruct recording"
+          ],
+          "missed": [
+            "Tone conveyed indifference",
+            "Pointing at badge on camera looks dismissive",
+            "No verbal affirmation of rights"
+          ],
+          "improvement": "Add a verbal statement of your badge number and affirm the right to record for a professional impression on video."
+        },
+        "negative": {
+          "choiceText": "You have no grounds for a complaint. I've done everything by the book. I'll now continue with the lawful procedure.",
+          "failures": [
+            "Denied a citizen's right to complain",
+            "Legally incorrect — officers do not decide complaint grounds",
+            "Created evidence of rights denial on camera",
+            "Transformed a traffic stop into a civil rights issue"
+          ],
+          "consequences": "Denying complaint rights on camera creates evidence that any supervisor or lawyer will flag immediately.",
+          "trainingFocus": "Review citizen rights during traffic stops and the strategic value of transparency under scrutiny."
+        }
+      },
+      "keyLearningPoints": [
+        "Welcoming scrutiny builds authority; resisting it destroys it",
+        "Verbal identification on camera creates a record of professionalism",
+        "Affirming rights disarms hostility more effectively than any display of authority"
+      ]
+    },
+
+    "5": {
+      "stageName": "Unexpected Reach for the Glove Box",
+      "criticalSkills": ["Tactical Communication", "Safety Management", "Verbal Commands"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Sir, please put your hands back on the steering wheel. Thank you. I appreciate you letting me know about the insurance card, ma'am. Sir, when I tell you, reach slowly into the glove box. Tell me exactly where the card is before you reach.",
+          "strengths": [
+            "Clear, specific instruction — steering wheel",
+            "Acknowledged passenger's helpful input",
+            "Provided controlled path forward",
+            "Specificity eliminated ambiguity in a safety moment"
+          ],
+          "professionalImpact": "Precise verbal commands during safety moments prevent misunderstandings that can turn routine stops dangerous."
+        },
+        "partially_positive": {
+          "choiceText": "Sir, please stop. Keep your hands where I can see them. What are you reaching for?",
+          "adequate": [
+            "Issued verbal command",
+            "Asked for clarification"
+          ],
+          "missed": [
+            "Vague instruction — 'where I can see them' not specific",
+            "Did not acknowledge passenger's explanation",
+            "Situation secured but uncertainty lasted longer than necessary"
+          ],
+          "improvement": "Specific physical instructions ('hands on the wheel') differ from general ones ('where I can see them') in clarity and compliance speed."
+        },
+        "neutral": {
+          "choiceText": "Step back from the vehicle, hand on your holster, and wait silently for the driver to explain.",
+          "adequate": [
+            "Increased physical safety distance"
+          ],
+          "missed": [
+            "No verbal instructions given",
+            "Silence in a safety moment is a communication failure",
+            "Hand on holster with no words creates maximum fear for passenger",
+            "Driver left guessing what you want"
+          ],
+          "improvement": "Verbal commands must always precede or accompany tactical positioning. Silence increases risk rather than reducing it."
+        },
+        "negative": {
+          "choiceText": "Grab his arm and shout: 'What do you think you're doing?! Keep your hands where I can see them!'",
+          "failures": [
+            "Physical intervention before verbal warning",
+            "Raised voice escalated a routine document retrieval",
+            "Passenger witnessed her son being grabbed",
+            "Transformed compliance moment into use-of-force incident"
+          ],
+          "consequences": "Physical intervention without verbal warning first creates an incident report, a complaint, and video evidence of disproportionate force.",
+          "trainingFocus": "Verbal commands must always precede physical intervention. Review use-of-force continuum."
+        }
+      },
+      "keyLearningPoints": [
+        "Specific instructions produce faster, more certain compliance",
+        "Acknowledging helpful bystanders turns them into allies",
+        "Verbal commands must always precede physical intervention"
+      ]
+    },
+
+    "6": {
+      "stageName": "The Mother Speaks",
+      "criticalSkills": ["Empathic Listening", "Third-Party Engagement", "Boundary Respect"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Speak gently to Mrs. Novak: 'Ma'am, you don't need to apologize. I can see this is a difficult time for your family. Thank you for telling me — it helps me understand the situation.' Then redirect to Mr. Novak about wrapping up.",
+          "strengths": [
+            "Validated Mrs. Novak's emotional risk without pressing for details",
+            "Thanked her for sharing, signaling vulnerability is safe",
+            "Redirected to the driver with a note about his mother's care",
+            "Reframed the dynamic from adversarial to human"
+          ],
+          "professionalImpact": "Honoring a third party's disclosure without demanding more changes the primary subject's willingness to be vulnerable."
+        },
+        "partially_positive": {
+          "choiceText": "Nod to Mrs. Novak: 'I appreciate you saying that, ma'am. I can see this is stressful. We're almost done here.' Continue processing the documents.",
+          "adequate": [
+            "Polite acknowledgment of her words",
+            "Reassurance about timing"
+          ],
+          "missed": [
+            "Moved past her disclosure too quickly",
+            "Missed the opening for genuine connection",
+            "Transactional response to an emotional risk"
+          ],
+          "improvement": "When someone hints at a deeper story, engaging genuinely rather than politely creates a different kind of trust."
+        },
+        "neutral": {
+          "choiceText": "Address Mr. Novak directly, ignoring the mother's comments: 'Sir, I'm finishing up the paperwork. You'll have your documents back shortly.'",
+          "adequate": [
+            "Maintained procedural focus"
+          ],
+          "missed": [
+            "Ignored the mother's vulnerable disclosure entirely",
+            "Reinforced driver's negative perception of the stop",
+            "Closed the window of human connection",
+            "Mother embarrassed for having spoken"
+          ],
+          "improvement": "Ignoring someone who has spoken up in vulnerability teaches them that reaching out to authority is pointless."
+        },
+        "negative": {
+          "choiceText": "Lean down and ask Mrs. Novak directly: 'What do you mean, you almost lost someone? Is there something I should know about?'",
+          "failures": [
+            "Pressed for details she deliberately withheld",
+            "Violated her boundary — she stopped herself mid-sentence",
+            "Turned openness into an interrogation",
+            "Triggered protective response from the driver"
+          ],
+          "consequences": "Demanding information someone chose not to share reverses the dynamic — the ally becomes someone you are pressuring.",
+          "trainingFocus": "Practice the difference between listening to what someone offers and demanding more than they are ready to give."
+        }
+      },
+      "keyLearningPoints": [
+        "Third-party disclosures bridge adversarial dynamics to human ones",
+        "Honoring voluntary vulnerability builds trust; pressing for more destroys it",
+        "A mother's intervention can shift a hostile driver's willingness to cooperate"
+      ]
+    },
+
+    "7": {
+      "stageName": "Personal Situation Revealed",
+      "criticalSkills": ["Compassionate Discretion", "Human Connection", "Proportionate Judgment"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "I appreciate your honesty, sir, and I'm sorry about your daughter. I can see you're under enormous pressure. This time I'm going to issue a warning — the speeding is noted but no fine. Please drive carefully. Your family needs you safe, not fast.",
+          "strengths": [
+            "Appropriate administrative discretion for first-time violation",
+            "Acknowledged the apology and validated the distress",
+            "Reframed safe driving as something he does for his family",
+            "Closed with a human note that builds lasting trust"
+          ],
+          "professionalImpact": "Discretion in the right moment transforms a negative encounter into one that builds trust in policing for an entire family."
+        },
+        "partially_positive": {
+          "choiceText": "I'm sorry to hear about your situation. I'll issue the fine as required, but I want you to know I appreciate your honesty and your apology. Please drive safely — your family needs you in one piece.",
+          "adequate": [
+            "Genuine acknowledgment of his situation",
+            "Caring personal note about family safety",
+            "Procedural integrity maintained"
+          ],
+          "missed": [
+            "This was an appropriate moment for discretion — a warning was legally sound",
+            "Fine may not have been necessary for a first-time 25 km/h violation",
+            "Trust improves but not as much as proportionate discretion would achieve"
+          ],
+          "improvement": "When the law gives you room for a warning, weigh the impact of a fine versus a warning on future compliance and public trust."
+        },
+        "neutral": {
+          "choiceText": "I'm sorry to hear that, but I still have to issue a fine. I'll write it up right away so you can continue on your way.",
+          "adequate": [
+            "Basic empathy expressed",
+            "Efficient processing"
+          ],
+          "missed": [
+            "'I have to' deflects responsibility — you have discretion",
+            "Rigid application without flexibility",
+            "Driver views officer as procedurally correct but emotionally absent"
+          ],
+          "improvement": "When you say 'I have to issue a fine,' ask yourself whether that is true — or whether you are choosing to and avoiding ownership of the choice."
+        },
+        "negative": {
+          "choiceText": "I understand, but that doesn't excuse speeding. You were 25 over — that's a safety issue. Here's your fine.",
+          "failures": [
+            "Dismissive at the moment of maximum vulnerability",
+            "Punished the driver for being honest and apologetic",
+            "Mother heard her granddaughter's illness dismissed",
+            "Created compliance through resentment, not respect"
+          ],
+          "consequences": "Dismissing vulnerability at the moment someone opens up produces compliance without trust — the most fragile form of law enforcement.",
+          "trainingFocus": "Review administrative discretion and the difference between compliance earned through respect versus extracted through indifference."
+        }
+      },
+      "keyLearningPoints": [
+        "Discretion is not weakness — it is professional judgment",
+        "A warning can serve road safety and public trust better than a fine",
+        "How you close a traffic stop determines the driver's lasting memory of policing"
+      ]
+    },
+
+    "8": {
+      "stageName": "Debrief and Reveal",
+      "criticalSkills": ["Self-Reflection", "Integration of Lessons"],
+      "choiceAnalysis": {},
+      "keyLearningPoints": [
+        "Traffic stops shape how millions perceive law enforcement",
+        "Every provocation is an invitation to escalate — declining that invitation is professional strength",
+        "The warning was not weakness but judgment that shaped how a man in crisis views policing"
+      ]
+    }
+  },
+  
+  "comprehensiveMetrics": {
+    "emotionalIntelligence": {
+      "description": "Ability to recognize and respond to emotional states",
+      "indicators": {
+        "excellent": [
+          "Recognized frustration and stress",
+          "Didn't take attacks personally",
+          "Showed appropriate empathy",
+          "Maintained emotional control"
+        ],
+        "poor": [
+          "Missed emotional cues",
+          "Reacted to provocations",
+          "Lacked empathy",
+          "Let emotions drive decisions"
+        ]
+      }
+    },
+    
+    "professionalCommunication": {
+      "description": "Quality of verbal interaction and information delivery",
+      "indicators": {
+        "excellent": [
+          "Clear introduction and explanation",
+          "Professional tone throughout",
+          "Active listening demonstrated",
+          "Appropriate language choices"
+        ],
+        "poor": [
+          "No introduction or explanation",
+          "Informal or threatening tone",
+          "Ignored citizen concerns",
+          "Unprofessional language"
+        ]
+      }
+    },
+    
+    "deescalationTechniques": {
+      "description": "Application of tension reduction strategies",
+      "indicators": {
+        "excellent": [
+          "Acknowledged concerns",
+          "Offered practical solutions",
+          "Remained calm under attack",
+          "Used discretion appropriately"
+        ],
+        "poor": [
+          "Escalated through threats",
+          "Dismissed concerns",
+          "Took attacks personally",
+          "Rigid rule enforcement"
+        ]
+      }
+    },
+    
+    "discretionApplication": {
+      "description": "Appropriate use of officer discretion based on circumstances",
+      "indicators": {
+        "excellent": [
+          "Considered totality of circumstances before deciding",
+          "Used discretion as a tool for justice, not avoidance",
+          "Explained reasoning transparently",
+          "Balanced enforcement with compassion"
+        ],
+        "poor": [
+          "Applied rules rigidly without considering context",
+          "Framed mercy as conditional on good behavior",
+          "Used discretion inconsistently or as leverage",
+          "Failed to articulate reasoning for decision"
+        ]
+      }
+    },
+
+    "communityOrientation": {
+      "description": "Focus on building positive community relations",
+      "indicators": {
+        "excellent": [
+          "Treated citizen with dignity",
+          "Showed compassion for circumstances",
+          "Used discretion wisely",
+          "Left positive impression"
+        ],
+        "poor": [
+          "Treated citizen as adversary",
+          "No compassion shown",
+          "Rigid enforcement",
+          "Damaged community trust"
+        ]
+      }
+    }
+  },
+  
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Outstanding traffic stop management. You maintained professionalism under verbal attack, recognized the human crisis beneath the hostile behavior, used discretion wisely, and handled the passenger interaction with genuine empathy. This is exactly the kind of policing that builds community trust.",
+      "mostlyPositive": "Strong performance overall. You kept your composure and showed good instincts for reading the situation. A few moments where you could have been more specific or empathetic, but the outcome reflects solid de-escalation skills.",
+      "mixed": "You showed some good instincts but missed key opportunities. The moments where you defaulted to procedure over empathy are worth examining — this stop had layers that required reading people, not just following protocol.",
+      "mostlyNegative": "This stop revealed significant gaps in communication and emotional awareness. When the driver escalated, you matched his energy rather than absorbing it. The passenger's distress was a signal you missed. Review the principles of verbal de-escalation and tactical empathy.",
+      "allNegative": "This stop went poorly from start to finish. Every interaction point was an opportunity to reduce tension, and each one was missed or made worse. Mandatory retraining in professional communication, de-escalation techniques, and discretionary judgment is strongly recommended."
+    }
+  },
+
+  "mistakePatterns": {
+    "authoritarian": {
+      "pattern": "Over-reliance on authority and threats",
+      "examples": ["Immediate threats", "Power assertions", "Rigid enforcement"],
+      "impact": "Creates adversarial relationships and increases risk",
+      "correction": "Build cooperation through respect and explanation"
+    },
+    
+    "dismissive": {
+      "pattern": "Failing to acknowledge citizen concerns",
+      "examples": ["Ignoring frustrations", "Cold responses", "No empathy"],
+      "impact": "Increases tension and damages rapport",
+      "correction": "Active listening and acknowledgment calm situations"
+    },
+    
+    "reactive": {
+      "pattern": "Taking provocations personally",
+      "examples": ["Responding to attacks", "Threatening retaliation", "Emotional responses"],
+      "impact": "Escalates situations and appears unprofessional",
+      "correction": "Maintain professional detachment and focus on mission"
+    },
+    
+    "inflexible": {
+      "pattern": "Rigid application of rules without discretion",
+      "examples": ["No consideration of circumstances", "By-the-book only", "Missing human element"],
+      "impact": "Misses opportunities to build community trust",
+      "correction": "Use discretion as a tool for justice and community building"
+    },
+
+    "passengerNeglect": {
+      "pattern": "Ignoring or dismissing the passenger's emotional state",
+      "examples": ["Overlooking Mrs. Novak's distress", "Pressing for information she withheld", "Failing to check on the mother"],
+      "impact": "Misses critical context clues and leaves a vulnerable person unsupported",
+      "correction": "Passengers are witnesses and people in their own crisis — acknowledge them without interrogating."
+    }
+  },
+  
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "'Good afternoon. I'm Officer [Name]. I stopped you because...'",
+      "'I understand you're in a hurry. I'll make this as quick as possible'",
+      "'I can see you're frustrated. Many people feel stressed during traffic stops'",
+      "'Given the circumstances, I'm issuing a warning today'",
+      "'Ma'am, I can see this is stressful for you too. Take your time.'",
+      "'I'm not going to pretend I know what you're going through, but I can see it's serious.'"
+    ],
+
+    "poorPhrases": [
+      "'Calm down immediately or there will be consequences'",
+      "'Your meeting isn't my problem'",
+      "'Keep talking like that and you'll be getting more than just a speeding ticket'",
+      "'Everyone has problems. Here's your ticket'",
+      "'I used my discretion tonight because you're a good man'",
+      "'Ma'am, what exactly were you about to say? I need to know.'"
+    ],
+    
+    "analysisCriteria": {
+      "professionalism": "Did it maintain appropriate professional standards?",
+      "empathy": "Did it acknowledge emotional states?",
+      "clarity": "Was the message clear and understandable?",
+      "effectiveness": "Did it move toward resolution?",
+      "respect": "Did it maintain citizen dignity?",
+      "awareness": "Did it account for the passenger and broader context?"
+    }
+  },
+  
+  "scenarioSpecificLessons": {
+    "1": "Every traffic stop is an opportunity to build or damage community trust",
+    "2": "Professional introduction and explanation reduce defensive responses",
+    "3": "Acknowledging concerns doesn't mean excusing violations",
+    "4": "Verbal attacks often mask fear, frustration, or personal crisis",
+    "5": "Discretion is a powerful tool for building community support",
+    "6": "The end of an interaction leaves the strongest impression",
+    "7": "Emotional intelligence is as important as tactical skills",
+    "8": "Your demeanor can escalate or de-escalate any situation"
+  },
+  
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Advanced Verbal Judo",
+        "Training Others in De-escalation",
+        "Community Policing Leadership"
+      ],
+      "good": [
+        "Enhanced Communication Skills",
+        "Discretion in Law Enforcement",
+        "Emotional Intelligence Development"
+      ],
+      "average": [
+        "Basic De-escalation Techniques",
+        "Professional Communication",
+        "Stress Management"
+      ],
+      "poor": [
+        "Mandatory De-escalation Training",
+        "Emotional Regulation Workshop",
+        "Professional Standards Review",
+        "Community Relations Fundamentals"
+      ]
+    }
+  },
+  
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Overall Performance Summary",
+        "content": ["Score", "Performance Level", "Key Strengths", "Areas for Improvement"]
+      },
+      {
+        "title": "Communication Analysis",
+        "content": ["Professional Standards", "Empathy Demonstrated", "De-escalation Applied"]
+      },
+      {
+        "title": "Critical Decision Points",
+        "content": ["Initial Approach", "Escalation Response", "Attack Management", "Discretion Use"]
+      },
+      {
+        "title": "Community Impact Assessment",
+        "content": ["Trust Building", "Perception Management", "Long-term Effects"]
+      },
+      {
+        "title": "Passenger and Third-Party Management",
+        "content": ["Passenger Awareness", "Third-Party Engagement", "Emotional Context Reading"]
+      },
+      {
+        "title": "Discretion and Closure",
+        "content": ["Discretion Decision Quality", "Closure Communication", "Follow-Through Commitment"]
+      },
+      {
+        "title": "Professional Development",
+        "content": ["Immediate Training Needs", "Skill Enhancement Areas", "Career Development Path"]
+      }
+    ]
+  }
+}

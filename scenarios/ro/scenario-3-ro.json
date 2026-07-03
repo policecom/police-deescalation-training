@@ -1,0 +1,456 @@
+{
+    "id": 3,
+    "title": "Interacțiune cu tineri — Patrulare în parc",
+    "description": "Scenariu avansat care implică o plângere de zgomot despre adolescenți într-un parc public, o vecină în vârstă anxioasă, adolescenți defensivi care se tem de profilare rasială și un trecător care complică tabloul. Ofițerul trebuie să echilibreze o preocupare legitimă legată de zgomot cu dreptul tinerilor la spațiul public, construind în același timp încredere cu tineri a căror percepție pe viață despre poliție poate fi modelată de această singură întâlnire.",
+    "icon": "🛹",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Sergent Patel",
+        "avatar": "👮‍♂️",
+        "introduction": "Întâlnirile cu tinerii sunt printre cele mai importante interacțiuni din activitatea polițienească — nu pentru că implică infracțiuni grave, ci pentru că modelează modul în care o întreagă generație percepe forțele de ordine. Cercetările arată constant că adolescenții care au contacte negative cu poliția dezvoltă o neîncredere durabilă care le influențează cooperarea, implicarea civică și chiar alegerile profesionale pentru decenii. Scenariul de astăzi implică o plângere de zgomot despre adolescenți într-un parc. Nu este nicio infracțiune în desfășurare. Apelanta este o rezidentă în vârstă preocupată de zgomot și activitate necunoscută. Adolescenții fac ceea ce fac adolescenții — socializează, fac skateboarding, ascultă muzică. Provocarea dumneavoastră este triplă: abordați preocuparea legitimă a reclamantei, evitați să întăriți frica tinerilor că sunt profilați și lăsați fiecare tânăr din acel parc cu o imagine mai pozitivă despre poliție decât avea înainte de sosirea dumneavoastră. Modul în care gestionați asta va conta mult după ce muzica se oprește."
+    },
+    "timedChoices": true,
+    "completionBadges": [
+        "scenario-3-complete"
+    ],
+    "perfectBadge": "perfect-scenario-3",
+    "finalMessage": {
+        "revelation": "Marcus Williams este un elev de 17 ani cu rezultate excelente și căpitanul echipei de dezbateri a școlii. Este liderul informal al acestui grup de prieteni încă din gimnaziu — protector, deschis și profund conștient de modul în care tinerii de culoare sunt percepuți de poliție. Atitudinea lui defensivă nu era ostilitate; era un comportament de supraviețuire învățat din experiența fratelui mai mare, care a fost oprit și percheziționat de trei ori într-o singură vară pentru că „se potrivea unui semnalment.” Jaylen Carter, 15 ani, este vecinul lui Marcus. Este un tânăr liniștit cu tulburare de anxietate care s-a mutat în cartier acum opt luni după divorțul părinților. Grupul de skateri este primul lui cerc real de prieteni. Când a spus „ni se întâmplă mereu asta,” vorbea din experiență — în vechiul lui cartier era o activitate polițienească agresivă, iar o percheziție pe stradă la 13 ani i-a lăsat o frică persistentă de agenți. După interacțiune, Marcus a postat despre asta într-un grup de chat cu 200 de adolescenți de la patru școli. Ce a scris a modelat modul în care acei 200 de tineri gândesc despre poliție. Doamna Chen a adus mai târziu fursecuri în parc și s-a prezentat adolescenților. Domnul Rivera a menționat întâlnirea la o ședință a asociației de cartier ca exemplu de bună activitate polițienească comunitară.",
+        "keyLessons": [
+            "Întâlnirile cu tineri modelează percepțiile pe viață despre forțele de ordine — fiecare contact cu un adolescent este o investiție sau o retragere de încredere",
+            "Comportamentul defensiv al tinerilor este adesea autoprotecție învățată, nu sfidare — recunoașterea acestui lucru vă schimbă răspunsul",
+            "Corectitudinea procedurală înseamnă să explicați de ce sunteți acolo înainte de a pune întrebări sau de a face solicitări",
+            "Abordarea directă și sinceră a temerilor de profilare este mai eficientă decât ignorarea sau devierea lor",
+            "Validarea preocupării unui reclamant nu necesită invalidarea drepturilor celeilalte părți",
+            "Adolescenții care se simt ascultați și respectați devin ambasadori ai legitimității poliției în rețelele lor de colegi",
+            "Scopul contactelor non-infracționale cu tinerii nu este conformarea — ci încrederea"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Locul faptei",
+            "sceneUpdate": {
+                "emoji": "🛹",
+                "title": "Parcul Riverside — Sâmbătă după-amiază târziu",
+                "desc": "Ajungeți la un mic parc de cartier într-o sâmbătă caldă după-amiază. Apăsați butonul camerei corporale — dubla vibrație confirmă că înregistrează. Cinci adolescenți stau pe bănci lângă zona de skate, alți doi exersează kickflip-uri pe aleea de beton. Un difuzor Bluetooth difuzează hip-hop la volum moderat. Cutii goale de suc și pungi de chipsuri stau pe bancă. Peste drum, o femeie în vârstă privește de la fereastra unui apartament de la etajul trei. Un bărbat împinge un copil mic pe leagăne în apropiere."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unitate care răspunde la Parcul Riverside, Strada Ulmilor 45. Apelanta este doamna Chen de la apartamentul 3B de peste drum — raportează adolescenți suspecți care vagabondează în parc, muzică tare, posibilă activitate cu droguri. Apelanta declară că sunt acolo de peste două ore. Niciun apel anterior despre acest grup."
+                },
+                {
+                    "character": "officer",
+                    "text": "(la radio) Dispecerat, Unitatea 14 la fața locului în Parcul Riverside, Strada Ulmilor 45. Am aproximativ șapte minori, skateboard-uri și un difuzor. Nicio armă vizibilă, niciun semn de activitate cu droguri. Inițiez contactul pe baza unei plângeri de zgomot. Camera corporală este activă."
+                }
+            ],
+            "prompt": "Ați ajuns în parc. Vedeți adolescenți care fac skateboard și socializează — nicio activitate infracțională vizibilă. Cum abordați situația?",
+            "options": [
+                {
+                    "text": "Mergeți direct spre grup cu pași hotărâți, umerii drepți, o mână sprijinită ușor pe centura de echipament. Vă opriți în fața băncilor și le scanați fețele pe rând, stabilind contact vizual cu fiecare. Cu un ton profesional dar ferm, întrebați ce fac acolo și dacă locuiesc în cartier — apelanta a menționat activitate suspectă, deci stabilirea motivului prezenței lor în acest parc este primul pas logic. Limbajul corpului dumneavoastră transmite clar că așteptați răspunsuri concrete înainte de a decide cum evoluează situația.",
+                    "feedback": "De ce: A aborda adolescenții cu „ce faceți aici?” și „locuiți în cartier?” implică faptul că trebuie să-și justifice prezența într-un parc public. Nu aveți nicio suspiciune rezonabilă de activitate infracțională. Această abordare le spune că sunt suspecți, nu cetățeni. Cercetările despre activitatea polițienească cu tineri arată că solicitarea justificării prezenței legale este cel mai dăunător tip de contact. | CONSECINȚE: Adolescenții se tensionează imediat. Marcus se ridică și își încrucișează brațele. Jaylen se ascunde în spatele grupului. Fiecare tânăr din parc tocmai a primit confirmarea că poliția îi vede ca pe niște probleme. Interacțiunea începe adversarial. | Reflecție: Când adolescenții nu fac nimic ilegal într-un spațiu public, ce comunică faptul că le cereți să-și justifice prezența?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Parcați mașina la o distanță scurtă și mergeți spre grup în mod relaxat — mâinile vizibile pe lângă corp, postură destinsă, fără nicio mână pe centură. Vă luați un moment să observați scena cu calm: volumul muzicii, skateboarding-ul pe aleea de beton, atmosfera generală din parc. Notați bărbatul care împinge un copil pe leagăne și femeia în vârstă care privește de la fereastra de sus. Lăsați limbajul corpului să transmită prezența unui vecin care trece prin zonă, nu a unui ofițer la un apel. Construiți o imagine completă înainte de a aborda pe cineva.",
+                    "feedback": "De ce: Parcarea la distanță evită intimidarea apropierii directe cu mașina. Mersul relaxat cu mâinile vizibile semnalează că nu abordați o amenințare. Observarea întâi vă oferă informații critice: muzica este la volum moderat, skateboarding-ul este pe aleea de beton, nu sunt vizibile droguri sau alcool, iar un părinte cu un copil mic folosește confortabil același parc. Femeia de la fereastră este probabil apelanta. Acum aveți contextul că descrierea dispeceratului a exagerat. | CONSECINȚE: Adolescenții vă observă, dar nu i-ați individualizat. Îl vedeți pe domnul Rivera împingând fiica pe leagăne, relaxat, ceea ce vă spune că atmosfera nu este amenințătoare. Aveți o imagine completă înainte de primul cuvânt. | Reflecție: Cum schimbă 90 de secunde de observare calmă calitatea fiecărei decizii care urmează?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Traversați strada și intrați în holul clădirii doamnei Chen, blocnotesul în mână, pentru a obține plângerea completă înainte de a aborda adolescenții. Urcați la etaj, bateți la ușă și luați notițe detaliate despre preocupările ei specifice — muzica, prezența prelungită, suspiciunea de droguri. Ea a făcut apelul, deci înțelegerea exactă a ceea ce a văzut și auzit vă va oferi o bază solidă pentru evaluarea situației. Vreți să aveți toate informațiile de la reclamantă înainte de prima discuție cu grupul de tineri.",
+                    "feedback": "De ce: Obținerea poveștii complete a reclamantei are valoare, dar mergerea mai întâi la apartamentul ei înseamnă că adolescenții urmăresc cum o mașină de poliție sosește și un ofițer dispare în clădirea de peste drum. Știu că cineva a sunat despre ei. Până când ieșiți, sunt anxioși, defensivi sau au plecat — și ați pierdut șansa de a vedea situația așa cum este natural. | CONSECINȚE: Când ieșiți din clădire, Marcus spune tare: „Gata, ne-a turnat cineva.” Jaylen pare că vrea să fugă. Garda grupului este complet ridicată înainte să spuneți un cuvânt. Aveți și doar perspectiva doamnei Chen, care poate fi colorată de prejudecăți. | Reflecție: Când colectarea informațiilor de la reclamant mai întâi vă dezavantajează de fapt capacitatea de a evalua situația obiectiv?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Treceți pe lângă grupul de adolescenți cu un pas lejer, fără a le acorda atenție directă, și vă îndreptați spre bărbatul care împinge fetița pe leagăne. Pare o parte neutră care a stat suficient de mult în parc ca să vă ofere o imagine sinceră. Vă opriți lângă leagăne și îl întrebați discret, cu voce scăzută, ce a observat — nivelul zgomotului, comportamentul tinerilor, dacă ceva l-a deranjat. Perspectiva lui de trecător dezinteresat vă va ajuta să calibrați situația înainte de a vorbi direct cu grupul.",
+                    "feedback": "De ce: Căutarea unei perspective neutre este un instinct investigativ inteligent. Totuși, a trece pe lângă adolescenți pentru a intervieva un alt adult despre ei — în timp ce ei privesc — transmite un mesaj clar: adunați dovezi împotriva lor. De asemenea, îl tratează pe domnul Rivera ca pe o resursă de supraveghere, nu ca pe un alt utilizator al parcului. | CONSECINȚE: Adolescenții vă văd vorbind cu tatăl și uitându-vă în direcția lor. Marcus le spune celorlalți: „Întreabă despre noi.” Anxietatea lui Jaylen crește. Domnul Rivera este de ajutor, dar se simte incomod fiind pozitionat ca informator în fața adolescenților care pot vedea conversația. | Reflecție: Cum afectează colectarea vizibilă de informații despre oameni — în loc de la ei — disponibilitatea lor de a interacționa cu dumneavoastră?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Primul contact",
+            "sceneUpdate": {
+                "emoji": "💬",
+                "title": "Băncile — Întâlnirea cu Marcus",
+                "desc": "Vă apropiați de grup. Doi adolescenți opresc skateboarding-ul și se îndreaptă spre bănci. Difuzorul redă o melodie Drake la volum conversațional. Marcus, 17 ani, înalt, purtând un hanorac de baschet al școlii, se ridică când vă apropiați. Postura lui este tensionată dar nu agresivă — brațele pe lângă corp, maxilarul încleștat. Copiii mai mici din spatele lui privesc cu ochii mari. Jaylen, 15 ani, stă pe capătul îndepărtat al băncii, cu mâinile înfundate în buzunare. Treceți prin lista mentală de verificare: parc public, ore de funcționare, nicio încălcare de nivel sonor la acest volum, nicio recuzită de droguri vizibilă — nu există bază legală pentru evacuare sau reținere. Aceasta este o întâlnire consensuală, nu o oprire."
+            },
+            "npcDialogue": [
+                {
+                    "character": "marcus",
+                    "text": "Gata, a început. De ce sunteți aici? Nu facem nimic rău. Ăsta e parc public. Avem tot dreptul să fim aici."
+                }
+            ],
+            "prompt": "Marcus vă provoacă direct — nu agresiv, dar ferm. Cum vă prezentați și explicați prezența?",
+            "options": [
+                {
+                    "text": "Ridicați o mână calm, cu palma deschisă, și mențineți un ton liniștit, fără grabă: «Ai dreptate — acesta este un parc public și aveți tot dreptul să fiți aici. Sunt Ofițer [nume]. Nu sunt aici pentru că ați făcut ceva greșit. O vecină a sunat despre zgomot, și când primim un apel, venim să verificăm. Asta e tot. Nu am venit să deranjez pe nimeni.» Mențineți contactul vizual cu Marcus, calm și respectuos, lăsând cuvintele să ajungă la el fără presiune.",
+                    "feedback": "De ce: Afirmarea dreptului lor de a fi în parc mai întâi — înainte de orice altceva — abordează direct frica nerostită. Prezentarea pe nume creează responsabilitate și umanitate. Explicarea plângerii de zgomot în mod transparent le oferă „de ce-ul” fără a-i face suspecți. „Nu am venit să deranjez pe nimeni” le numește îngrijorarea și o dezamorsează. Cercetările privind dreptatea procedurală arată că explicarea motivului contactului înainte de orice interogare este cel mai puternic predictor al rezultatelor pozitive. | CONSECINȚE: Maxilarul lui Marcus se relaxează ușor. Nu se așază, dar postura lui trece de la defensivă la precaută. Adolescenții mai mici nu se mai uită unii la alții nervos. Jaylen ridică privirea de pe pământ. V-ați câștigat șansa de a avea o conversație reală. | Reflecție: De ce schimbă traiectoria unei întâlniri cu tineri faptul de a începe cu drepturile lor — în loc de autoritatea dumneavoastră?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Rămâneți calm și profesional — picioarele plantate ferm, mâinile împreunate în față, vocea măsurată și neutră. Priviți-l pe Marcus direct: «Sunt Ofițer [nume]. Am primit o plângere despre zgomot și activitate în parc. Trebuie să verific situația. Îmi puteți spune de cât timp sunteți aici și ce faceți?» Expresia dumneavoastră rămâne neutră, blocnotesul pregătit, tratând asta ca pe orice alt apel care necesită o scurtă clarificare înainte de a închide cazul.",
+                    "feedback": "De ce: Profesional și structurat, dar „trebuie să verific situația” și „ce faceți?” încadrează interacțiunea ca o investigație. Întrebarea cât timp au fost acolo implică faptul că durata este suspectă. Adolescenții aud: „Cineva s-a plâns și acum trebuie să vă verific povestea.” Nu le-ați recunoscut dreptul de a fi acolo și nu ați explicat că nu se observă nicio faptă ilegală. | CONSECINȚE: Marcus spune sec: „Suntem aici de câteva ore. Facem skate. Ne relaxăm. Ca în fiecare weekend.” Tonul este cooperant dar rece. Copiii mai mici nu spun nimic. Obțineți conformare, nu încredere. | Reflecție: Care este diferența dintre un adolescent care cooperează pentru că se simte respectat și unul care cooperează pentru că simte că nu are de ales?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Treceți pe lângă Marcus fără a-i recunoaște provocarea și vă adresați întregului grup cu o voce mai puternică, parcurgând băncile din priviri: «Hei, tuturor, doar verific situația. Am primit un apel despre zgomot.» Apoi, trecând la un ton mai oficial, cu mâinile pe centură: «Are cineva act de identitate la el? Arătați-mi niște acte ca să pot clarifica situația.» Așteptați cu mâinile pe șolduri, scanând grupul pentru reacții de conformare.",
+                    "feedback": "De ce: Ocolirea lui Marcus — care a pășit în față ca purtător de cuvânt al grupului — lipsește de respect dinamica socială. Solicitarea actului de identitate de la adolescenți care nu sunt suspectați de nicio infracțiune nu are bază legală în majoritatea jurisdicțiilor și semnalează că aceasta este o oprire, nu o conversație. „Doar verific situația” este vag și nu le satisface dreptul de a ști de ce este poliția acolo. | CONSECINȚE: Marcus face un pas înainte: „Act de identitate? Pentru ce? Stăm într-un parc.” Mai mulți adolescenți scot telefoanele — nu pentru a arăta acte, ci pentru a începe să filmeze. Jaylen pare panicat. Ați escaladat o plângere de zgomot într-o confruntare despre drepturile civile. | Reflecție: În ce circumstanțe puteți solicita legal identificarea cuiva și ce se întâmplă când o cereți fără bază legală?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Ridicați ambele mâini, cu palmele deschise spre exterior, și schițați un zâmbet relaxat — încercând o abordare degajată, neamenințătoare: «Ușor, ușor — abia am ajuns. Nici eu nu caut probleme. Cineva a sunat despre zgomot, m-am gândit să trec pe aici.» Dați din umeri lejer, aruncați o privire prin parc ca pentru a confirma că totul pare în ordine, și lăsați energia să se liniștească de la sine: «Sunteți în regulă.» Nu mai adăugați nimic — nicio întrebare, nicio solicitare.",
+                    "feedback": "De ce: Tonul casual și dezarmant vă umanizează, dar „sunteți în regulă” închide interacțiunea înainte de a fi abordat plângerea de zgomot. Mai aveți o reclamantă care privește de la fereastră. De asemenea, „ușor, ușor” poate fi citit ca condescendent — ca și cum Marcus ar fi fost nerezonabil, când de fapt doar își afirma drepturile. | CONSECINȚE: Marcus se relaxează, dar pare confuz — dacă sunt în regulă, de ce sunteți aici? Doamna Chen privește de la fereastră, văzând un ofițer care discută scurt și pleacă fără să-i abordeze preocuparea. Radio-ul dumneavoastră se activează: sună din nou. | Reflecție: Cum echilibrați dezescaladarea atitudinii defensive a adolescenților cu abordarea motivului pentru care ați fost chemat?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Temerile de profilare",
+            "sceneUpdate": {
+                "emoji": "😔",
+                "title": "Băncile — Jaylen vorbește",
+                "desc": "Tensiunea inițială s-a schimbat, dar nu s-a dizolvat. Marcus vă urmărește atent, cu brațele încă încrucișate. Ceilalți adolescenți au format un semicerc — nu amenințător, dar unit. Apoi Jaylen, tânărul tăcut de 15 ani de la capătul băncii, vorbește pentru prima dată. Vocea lui tremură. Ceilalți adolescenți tac și se uită la el. Un gând vă trece prin minte: dacă un minor ridică probleme de profilare, politica departamentului este clară — notați-o în rezumatul incidentului și semnalați-o supervizorului. Nu pentru că cineva a greșit, ci pentru că plângerea contează și documentarea protejează pe toată lumea."
+            },
+            "npcDialogue": [
+                {
+                    "character": "jaylen",
+                    "text": "Ni se întâmplă mereu asta. De fiecare dată când ne relaxăm undeva, cineva cheamă poliția. În vechiul meu cartier era și mai rău — ne opreau când mergeam acasă de la școală. Nici atunci nu făceam nimic."
+                }
+            ],
+            "prompt": "Jaylen a exprimat frica cea mai profundă a grupului — că sunt vizați pentru cine sunt, nu pentru ce fac. Cum răspundeți?",
+            "options": [
+                {
+                    "text": "Vă întoarceți spre Jaylen — nu copleșitor, ci la un unghi ușor, cu vocea joasă și fermă: «Te aud. Și nu o să mă prefac că nu se întâmplă asta, pentru că se întâmplă. Oamenii cheamă poliția pe tineri doar pentru că există în spații publice, și nu e corect. Am privit scena înainte de a veni la voi și văd adolescenți într-un parc într-o sâmbătă — exact scopul parcurilor. Sunt aici doar din cauza unei plângeri de zgomot, și o rezolvăm împreună.»",
+                    "feedback": "De ce: Acesta este cel mai dificil și cel mai important moment din întâlnire. Declarația lui Jaylen nu este o plângere — este o dezvăluire traumatică. Recunoașterea faptului că profilarea există — fără defensivitate sau deviere — validează experiența trăită. A spune „văd adolescenți într-un parc, ceea ce este exact scopul parcurilor” le recadrează prezența ca normală. „O rezolvăm împreună” îi include în soluție. Cercetările arată că recunoașterea de către poliție a preocupărilor legate de prejudecăți — chiar fără a admite o vină personală — este cea mai puternică acțiune de construire a încrederii cu tinerii. | CONSECINȚE: Parcul devine tăcut pentru un moment. Jaylen ridică privirea, surprins. Marcus își desface brațele pentru prima dată. Un adolescent din spate șoptește: „Bine, chiar ascultă.” Nu ați reparat activitatea polițienească sistemică, dar ați dovedit că această întâlnire este diferită. | Reflecție: De ce este recunoașterea faptului că profilarea există — fără a fi defensiv — mai eficientă decât insistarea că personal nu sunteți părtinitor?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Faceți o pauză, privindu-l pe Jaylen cu o expresie preocupată, apoi răspundeți pe un ton egal, sincer — alegându-vă cuvintele cu grijă: «Înțeleg de ce ați putea simți așa, și îmi pare rău că asta a fost experiența ta. Nu pot vorbi despre ce s-a întâmplat în vechiul tău cartier — nu am fost acolo. Dar vreau să știi că doar răspund la un apel astăzi. Vă tratez la fel cum aș trata pe oricine în această situație.» Postura dumneavoastră rămâne deschisă, sperând că sinceritatea din voce transmite mesajul.",
+                    "feedback": "De ce: Bine intenționat, dar cade în capcana „tratez pe toată lumea la fel”, care cercetările arată că este contraproductivă cu tineri care au experimentat profilarea. Implicit neagă experiența lor pivotând spre propriile intenții. „Nu pot vorbi despre ce s-a întâmplat” creează distanță față de problema sistemică în loc să se angajeze cu ea. Adolescenții aud: „Experiențele tale din trecut nu sunt problema mea.” | CONSECINȚE: Marcus mormăie: „Asta spun toți.” Jaylen tace din nou și se uită la pământ. Nu ați pierdut grupul, dar ați ratat momentul. Zidul rămâne ridicat. | Reflecție: Când cineva împărtășește o experiență de profilare, care este diferența între „tratez pe toți la fel” și a se angaja cu adevărat cu ce a spus?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă schimbați greutatea de pe un picior pe altul, aruncați o privire scurtă spre grup, apoi redirecționați conversația pe un ton ferm și practic: «Uite, nu sunt aici să profilez pe nimeni. Am primit o plângere de zgomot și îmi fac treaba. Hai să nu facem din asta mai mult decât este. Putem vorbi despre volumul muzicii?» Faceți un gest spre difuzor, semnalând că vreți să treceți peste momentul emoțional și să ajungeți la problema concretă, ca toată lumea să poată continua cu după-amiaza.",
+                    "feedback": "De ce: Respingerea unui moment vulnerabil ca „a face din asta mai mult decât este” le spune lui Jaylen — și fiecărui adolescent care privește — că experiențele și temerile lor sunt un deranj pentru dumneavoastră. Grăbirea peste conținutul emoțional pentru a ajunge la problema tranzacțională (volumul muzicii) comunică faptul că eficiența contează mai mult decât demnitatea lor. Acesta este tipul de interacțiune pe care tinerii o descriu în cercetări ca „nu le-a păsat.” | CONSECINȚE: Jaylen se închide complet. Maxilarul lui Marcus se strânge: „Da. Nu e niciodată ceva important când ni se întâmplă nouă.” Garda grupului se ridică din nou. Puteți încă rezolva problema zgomotului, dar ați pierdut oportunitatea de a construi încredere. Întâlnirea va fi amintită ca încă o dată când poliției nu i-a păsat. | Reflecție: Când un tânăr își asumă riscul de a împărtăși ceva vulnerabil, ce vă costă să faceți o pauză și să vă angajați — și ce îl costă pe el când nu o faceți?",
+                    "type": "negative",
+                    "points": -10
+                },
+                {
+                    "text": "Dați din cap cu simpatie, înclinați capul într-o parte și lăsați expresia feței să se îmblânzească — chiar simțiți empatie pentru băiat: «Sună greu, băiete. Îmi pare rău că ai trecut prin asta. Nimeni n-ar trebui să treacă prin așa ceva, mai ales când doar mergi acasă de la școală.» Apoi, aplecându-vă ușor în față cu ce sperați să fie o expresie de căldură: «Dar hei, eu sunt dintre cei buni — nu sunt așa. Rămâneți pe-aici și o să vedeți. Vă promit că de data asta e altfel.» Sunteți sincer în fiecare cuvânt.",
+                    "feedback": "De ce: Empatia este autentică, dar „sunt dintre cei buni” este un ucigaș de încredere bine documentat. Le cere adolescenților să vă evalueze ca excepție individuală în loc să se angajeze cu preocuparea sistemică. De asemenea, pune sarcina pe ei să vă verifice afirmația. „O să vezi” le cere să acorde o încredere care a fost încălcată în mod repetat de alți ofițeri. Se centrează pe propria imagine în loc de experiența lor. | CONSECINȚE: Marcus aproape că râde: „Și asta spun toți.” Grupul face schimb de priviri complice. Ați declanșat un scenariu pe care l-au mai auzit. Sinceritatea dumneavoastră se pierde într-o expresie care sună exact ca ceea ce a spus fiecare ofițer nepăsător. | Reflecție: De ce pretinția de a fi diferit de alți ofițeri eșuează de obicei cu tineri care au avut experiențe negative cu poliția?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Reclamanta",
+            "sceneUpdate": {
+                "emoji": "🏢",
+                "title": "Apartamentul doamnei Chen — Peste drum",
+                "desc": "Vă îndepărtați de grup pentru a vorbi cu doamna Chen. A coborât la intrarea holului clădirii — o femeie de peste 70 de ani, mică, purtând un halat cu flori. Se ține de tocul ușii. În spatele dumneavoastră, adolescenții privesc de pe bănci. Marcus nu vă slăbește din ochi. Domnul Rivera își împinge fiica pe leagăne, uitându-se ocazional."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_chen",
+                    "text": "Mulțumesc că ați venit, domnule agent. Nu vreau să fac probleme. Dar copiii ăia — sunt acolo în fiecare weekend, muzica e tare, și nu-i cunosc. Soțul meu a murit anul trecut și sunt singură aici. Îi văd de la fereastră și mă îngrijorez. Dacă se droghează? Dacă fac necazuri? Vreau doar să mă simt în siguranță."
+                }
+            ],
+            "prompt": "Plângerea doamnei Chen este motivată atât de o preocupare legitimă legată de zgomot, cât și de anxietate față de tineri necunoscuți. Cum o abordați?",
+            "options": [
+                {
+                    "text": "Vorbiți blând, coborând vocea și relaxându-vă postura: «Doamnă Chen, îmi pare rău de soțul dumneavoastră — a trăi singură poate face totul să pară mai îngrijorător. Am fost și am vorbit cu copiii. Sunt adolescenți din zonă — fac skateboard, ascultă muzică, se relaxează. Fără droguri, fără probleme. Muzica e puțin tare și mă voi ocupa de asta. Dar vreau să fiu sinceră: au tot dreptul să folosească parcul. Pot să vă întreb — zgomotul chiar ajunge la apartament, sau este mai degrabă faptul că îi vedeți și vă simțiți neliniștită?»",
+                    "feedback": "De ce: Recunoașterea pierderii și singurătății validează rădăcina emoțională a apelului — izolarea și anxietatea. Raportarea a ceea ce ați observat de fapt (fără droguri, fără probleme) corectează narațiunea dispeceratului cu fapte. A fi sincer că adolescenții au dreptul de a folosi parcul stabilește o limită împotriva folosirii poliției pentru a îndepărta oameni din spații publice. Întrebarea finală — zgomot versus neliniște — este crucială: o invită blând să examineze dacă plângerea ei este despre sunet sau despre frica de tineri necunoscuți. | CONSECINȚE: Doamna Chen face o pauză. „Ei bine... aud muzica uneori. Dar mai ales îi văd și mă îngrijorez.” Este sinceră — problema reală este anxietatea, nu zgomotul. Acum știți problema reală de rezolvat, care este izolarea și frica ei, și puteți aborda zgomotul ca element concret. | Reflecție: De ce este important să ajutați un reclamant să distingă între o deranjare concretă și o teamă generalizată — și cum vă schimbă asta răspunsul?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă apropiați un pas, puneți un zâmbet cald și reconfortant, și vorbiți pe tonul cel mai liniștitor: «Nu vă faceți griji, doamnă Chen. Am vorbit cu ei și totul e sub control — mă voi asigura că mențin zgomotul scăzut. Sunt doar niște copii care se relaxează, nimic periculos. Dacă vă mai fac probleme, sunați-ne din nou și venim imediat. Nu trebuie să stați acolo sus îngrijorându-vă.» Îi atingeți ușor brațul și dați din cap spre clădire, lăsând-o să știe că poate urca liniștită.",
+                    "feedback": "De ce: Caldă și receptivă, dar „dacă vă mai fac probleme” încadrează adolescenții ca sursă de probleme, nu ca utilizatori ai parcului. Încurajarea de a suna din nou oricând o transformă în esență într-un supraveghetor al adolescenților. Aceasta creează un tipar în care adolescenții sunt supuși repetat contactului cu poliția pentru că o vecină anxioasă îi urmărește de la fereastră. | CONSECINȚE: Doamna Chen se simte validată, dar acum se vede ca o gardian împotriva activității adolescenților. Sâmbăta viitoare, sună din nou — adolescenții sunt la volum normal, dar „i s-a părut că a auzit ceva.” Ați creat un ciclu. Adolescenții încep să numească parcul „zona de supraveghere.” | Reflecție: Care este diferența dintre a răspunde la o plângere și a permite un tipar de plângeri?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "O expediați politicos dar scurt — aveți și alte apeluri care se acumulează. Dați din cap: «Am verificat, doamnă Chen. Copiii doar se relaxează — nimic infracțional. Voi vorbi cu ei despre zgomot. Lucrurile astea se rezolvă de obicei de la sine.» Aruncați o privire la ceas și începeți să vă întoarceți: «O seară bună.» Considerați că plângerea e înregistrată, zgomotul va fi abordat și treaba e închisă — nu simțiți nevoia să zăboviți pe detaliile personale pe care le-a împărtășit.",
+                    "feedback": "De ce: Eficient, dar disprețuitor față de conținutul emoțional al apelului ei. V-a povestit despre moartea soțului, singurătatea ei și teama — iar dumneavoastră ați răspuns cu logistică. „Se rezolvă de obicei de la sine” nu este reconfortant pentru cineva care se simte în pericol. Ați abordat plângerea, dar nu persoana. | CONSECINȚE: Doamna Chen dă din cap, dar se simte neascultată. Se întoarce sus și privește de la fereastră, mai anxioasă decât înainte. Problema zgomotului se poate ameliora, dar frica ei rămâne. Va suna din nou — nu pentru că adolescenții sunt mai zgomotoși, ci pentru că nimic nu i-a abordat îngrijorarea de bază. | Reflecție: Când o plângere este motivată de singurătate și anxietate, rezolvarea problemei de suprafață rezolvă cu adevărat problema?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă îndreptați spatele și vorbiți cu convingere, potrivind energia ei îngrijorată cu autoritate decisivă: «Ați făcut foarte bine că ați sunat, doamnă Chen. Copiii n-ar trebui să facă atâta gălăgie într-o zonă rezidențială. O să-i pun să oprească muzica și să se mute de aici — acesta ar trebui să fie un cartier liniștit. Nu ar trebui să suportați asta în fiecare weekend.» Lăsați certitudinea din voce să o liniștească, făcând clar că prioritatea dumneavoastră este confortul ei și intenționați să puneți capăt deranjului imediat.",
+                    "feedback": "De ce: Acesta este cel mai periculos răspuns. „Copiii n-ar trebui să facă gălăgie într-o zonă rezidențială” — sunt într-un parc, care există tocmai pentru recreere. „O să-i pun să plece” înseamnă eliminarea adolescenților dintr-un spațiu public pentru că o vecină este incomodată. „Nu ar trebui să suportați asta” validează ideea că adolescenții într-un parc sunt o povară. Întăriți prejudecățile și vă angajați la o aplicare disproporționată. | CONSECINȚE: Vă întoarceți în parc și le spuneți adolescenților să oprească muzica și să plece. Marcus izbucnește: „Să plecăm?! E parc public!” Adolescenții simt exact ce se temeau — un adult s-a plâns și poliția i-a eliminat. Ochii lui Jaylen se umplură de lacrimi. Întâlnirea devine povestea pe care Marcus o spune ani de zile despre de ce nu poți avea încredere în poliție. | Reflecție: Când validați perspectiva unui reclamant fără să o puneți sub semnul întrebării, drepturile cui sunt sacrificate?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Găsirea echilibrului",
+            "sceneUpdate": {
+                "emoji": "⚖️",
+                "title": "Înapoi în parc — Construirea punții",
+                "desc": "Vă întoarceți la grupul de adolescenți. Domnul Rivera a terminat la leagăne și merge cu fetița spre bănci. Se oprește lângă dumneavoastră și vorbește încet. Adolescenții urmăresc schimbul. Marcus stă cu un picior pe skateboard, așteptând."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dad_rivera",
+                    "text": "(încet, în trecere) Domnule agent — doar să știți, sunt aici de patruzeci și cinci de minute. Copiii ăia au fost perfect în regulă. Au salutat-o pe fiica mea, au ridicat o minge pe care a aruncat-o. Muzica nu e atât de tare. Sincer, sunt mai bine crescuți decât unii adulți pe care îi văd aici."
+                },
+                {
+                    "character": "marcus",
+                    "text": "(urmărindu-vă cum vă întoarceți) Deci? Ce a zis doamna? Ne dă afară?"
+                }
+            ],
+            "prompt": "Acum aveți imaginea completă: adolescenți cu dreptul de a fi acolo, o plângere de zgomot motivată parțial de anxietate și un trecător care confirmă că adolescenții sunt bine crescuți. Cum mediați o soluție?",
+            "options": [
+                {
+                    "text": "Fiți transparent cu Marcus, privire directă și ton deschis: «Nimeni nu e dat afară. Uite care e situația — vecina de peste drum e o femeie în vârstă care locuiește singură, și muzica ajunge la apartamentul ei. Nu vrea să vă facă rău — e doar îngrijorată pentru că nu vă cunoaște. Zgomotul este singurul lucru despre care am de fapt motiv să vorbesc. Ați fi dispuși să dați volumul mai jos cu câteva trepte? Nu oprit, doar mai încet. Continuați cu skateboarding-ul, continuați să vă relaxați. Acesta e dreptul vostru.»",
+                    "feedback": "De ce: Transparență completă — a împărtăși cine s-a plâns și de ce — tratează adolescenții ca adulți capabili de empatie. Umanizarea doamnei Chen („în vârstă, locuiește singură, nu vă cunoaște”) invită la compasiune în loc de resentiment. A le cere să dea mai încet — nu să oprească — le respectă activitatea abordând în același timp singura preocupare legitimă. Afirmarea „acesta e dreptul vostru” întărește faptul că aceasta este o negociere între egali, nu un ordin din partea autorității. Acest lucru modelează corectitudinea procedurală: voce, transparență, respect, neutralitate. | CONSECINȚE: Marcus privește spre clădirea de apartamente. „Îi e frică de noi? Venim aici în fiecare weekend de luni de zile.” Un adolescent din spate spune: „Și bunica mea se îngrijorează pentru orice.” Schimbarea empatică este vizibilă. Marcus se întinde și dă volumul difuzorului mai jos fără să i se mai ceară. | Reflecție: Ce se întâmplă când le oferiți adolescenților aceleași informații contextuale pe care le aveți dumneavoastră și îi lăsați să ia decizia?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Încrucișați ușor brațele, adoptați un ton rezonabil dar autoritar și vă adresați întregului grup: «Uite care e treaba — plângerea de zgomot e justificată, deci trebuie să dați muzica mai încet. Mențineți-o la un nivel rezonabil și nu o să fie nicio problemă. Puteți rămâne — nimeni nu vă dă afară — doar fiți atenți la vecini. Volumul e singura problemă aici.» Faceți un gest scurt spre difuzor și așteptați, transmițindu-le clar că aceasta e o directivă pe care o așteptați respectată prompt.",
+                    "feedback": "De ce: Funcțional și corect la suprafață, dar „uite care e treaba” și „trebuie să” încadrează asta ca pe o directivă, nu ca pe o soluție colaborativă. Nu ați împărtășit contextul — cine s-a plâns sau de ce — lăsând adolescenții să tragă propriile concluzii. „Nu o să fie nicio problemă” este o amenințare subtilă. Adolescenții se conformează, dar se simt gestionați, nu respectați. | CONSECINȚE: Marcus dă muzica mai încet fără a protesta, dar le spune prietenilor: „Același lucru de fiecare dată — cineva se plânge, ni se spune ce să facem.” Conformare fără adeziune. Muzica rămâne încet astăzi, dar resentimentul crește. | Reflecție: Care este diferența dintre supunere și cooperare și care produce o schimbare durabilă de comportament?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Dați din umeri neglijent — ați petrecut suficient timp aici și situația e clar fără prioritate. Faceți un gest larg spre grup: «Uite, vecina a sunat despre zgomot. Dați-l mai încet și o să fie bine. Mai am și alte apeluri de rezolvat.» Nu așteptați răspuns. Începeți să mergeți înapoi la mașină cu pași rapizi, scoțând stația radio să verificați coada de apeluri. Plângerea e tehnic rezolvată — le-ați spus, au auzit, ar trebui să fie suficient pentru a închide cazul fără alte complicații.",
+                    "feedback": "De ce: Minimizarea interacțiunii pentru a ajunge la următorul apel tratează această întâlnire ca pe o simplă bifare. Ați investit timp construind raport și abordând temerile de profilare — și acum aruncați totul cu o ieșire tranzacțională. Adolescenții învață: chiar și când un ofițer pare ok, tot vrea doar să proceseze și să plece. Nicio legătură durabilă, nicio mediere, nicio rezolvare. | CONSECINȚE: Marcus vă urmărește cum plecați: „A fost degeaba.” Jaylen nu spune nimic. Muzica revine la nivel normal în zece minute pentru că nu a existat un acord real — doar o instrucțiune în trecere de la cineva care abia aștepta să plece. Doamna Chen sună din nou la 18:00. | Reflecție: Cum afectează timpul pe care îl investiți în încheierea unei întâlniri faptul dacă rezoluția chiar funcționează?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă plantați picioarele ferm, vă îndreptați spatele și vă adresați grupului cu o voce care nu lasă loc de discuție: «Am auzit ambele părți. Vecina are dreptul la liniște, deci muzica trebuie oprită complet. Puteți face skate — nu am nimic împotrivă — dar difuzorul rămâne oprit cât timp sunteți lângă clădirile rezidențiale. Nu e negociabil.» Rămâneți pe poziție, cu brațele încrucișate, menținând contact vizual susținut cu Marcus pentru a semnala că aceasta e o decizie finală, nu o deschidere pentru dezbateri.",
+                    "feedback": "De ce: „Dreptul la liniște” este un concept juridic pentru proprietăți închiriate, nu pentru parcuri publice în timpul zilei. A ordona oprirea completă a muzicii — în loc de a cere un volum rezonabil — este disproporționat. „Nu e negociabil” le elimină vocea din proces. Adolescenții într-un parc public au dreptul la niveluri rezonabile de zgomot. Această abordare îi învață că poliția impune reguli în loc să faciliteze soluții. | CONSECINȚE: Marcus se uită fix la dumneavoastră: „Nu e negociabil? Suntem într-un parc public, nu într-o bibliotecă.” O fată din grup spune: „Tata e avocat — nu puteți face asta.” Întâlnirea se îndreaptă spre o confruntare juridică pe care o veți pierde. Jaylen pare că o să plângă. | Reflecție: Când prezentați o cerere ca ne-negociabilă, ce comunică asta despre importanța perspectivei celuilalt?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Construirea acordului",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Băncile din parc — O schimbare de ton",
+                "desc": "Tensiunea s-a diminuat vizibil. Marcus a dat muzica mai încet. Câțiva adolescenți s-au întors la skateboarding. Jaylen stă mai drept pe bancă. Marcus stă în față, cu fața la dumneavoastră — încă precaut, dar limbajul corpului s-a relaxat. Aduce o idee."
+            },
+            "npcDialogue": [
+                {
+                    "character": "marcus",
+                    "text": "Uitați... e un skatepark pe Strada Miller, la vreo zece minute de aici. De obicei mergem acolo, dar se închide la șase în weekenduri din nu știu ce motiv. Venim aici după aceea pentru că nu avem unde altundeva. Dacă volumul e problema, îl putem ține scăzut aici. Sau am putea merge la skatepark dacă ar fi deschis mai târziu. Dar da — îl ținem mai încet."
+                }
+            ],
+            "prompt": "Marcus oferă o soluție cooperantă și împărtășește motivul real pentru care vin în acest parc. Cum răspundeți la această deschidere?",
+            "options": [
+                {
+                    "text": "Dați din cap cu respect autentic, privirea deschisă: «Marcus, apreciez asta — serios. Faptul că skateparkul se închide la șase în weekenduri nu are sens. E o problemă de administrația parcurilor și merită ridicată. Uite ce fac — o menționez la următoarea ședință de legătură comunitară. Nu pot promite nimic, dar cineva trebuie să știe că închiderea timpurie vă împinge spre parcuri lângă zone rezidențiale. Menținerea volumului scăzut aici e un acord corect. Ați fost foarte rezonabili în toată treaba asta.»",
+                    "feedback": "De ce: Recunoașterea lui Marcus pe nume și laudarea soluției sale îl tratează ca participant civic, nu ca o problemă de gestionat. Validarea faptului că închiderea skateparkului este nerezonabilă arată că puteți vedea probleme sistemice, nu doar comportament individual. Oferirea de a ridica problema la o ședință comunitară demonstrează că vă vedeți ca un avocat, nu doar un executant. „Ați fost foarte rezonabili” întărește comportamentul cooperant prin recunoaștere autentică. | CONSECINȚE: Marcus clipește — nu se aștepta ca un ofițer să ia preocuparea lui în serios, cu atât mai puțin să ofere advocacy. Un adolescent din spate spune: „Stai, chiar ați face asta?” Dinamica s-a schimbat de la adversarială la colaborativă. Jaylen ridică privirea și aproape zâmbește. Ați modelat cum arată implicarea civică. | Reflecție: Ce se întâmplă când un ofițer de poliție tratează observația unui adolescent despre comunitatea lui ca pe o preocupare civică validă?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Zâmbiți și dați din cap aprobator, sincer mulțumit de cooperarea lor: «Mi se pare bine. Volumul era cu adevărat singura problemă, și ați gestionat-o foarte bine — apreciez că sunteți cooperanți în toată povestea asta. Cu skateparkul — asta e un punct valid. Ați putea încerca să contactați administrația parcurilor despre prelungirea programului de weekend. Au un formular de sugestii online și ar putea fi deschiși dacă mai mulți oameni solicită.» Le faceți un semn de aprobare și lăsați conversația să se stingă natural.",
+                    "feedback": "De ce: Pozitiv și apreciativ. Sugestia de a contacta administrația parcurilor este rezonabilă, dar pune întreaga povară a advocacy-ului civic pe umerii adolescenților. Dumneavoastră aveți acces la canale de legătură comunitară la care ei nu au. Răspunsul este încurajator, dar pierde oportunitatea de a modela cum arată când o figură de autoritate îți ia preocuparea și acționează în baza ei. | CONSECINȚE: Marcus dă din cap: „Da, poate.” Nu o să sune la administrația parcurilor — are 17 ani și nu a interacționat niciodată cu un departament municipal. Situația imediată este rezolvată bine, dar oportunitatea de advocacy este pierdută. Adolescenții pleacă cu o impresie decentă, dar nu una transformatoare. | Reflecție: Când un adolescent identifică o problemă sistemică, care este diferența între a-i spune să o rezolve și a-l ajuta să o rezolve?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Dați din cap scurt, mulțumit — problema e rezolvată, apelul e gestionat. Acceptați înțelegerea la valoarea ei nominală: «Sună bine. Mențineți zgomotul scăzut și suntem rezolvați.» Aruncați o privire la ceas, apoi înapoi la grup: «Aveți grijă de voi.» Vă întoarceți și începeți să mergeți spre mașină la un pas liniștit. Marcus a menționat skateparkul și programul de închidere, dar asta e o chestiune municipală — nu ceva ce puteți rezolva într-o sâmbătă după-amiază. Plângerea e închisă, tinerii rămân, radioul a fost prea tăcut.",
+                    "feedback": "De ce: Încheiere tranzacțională. Problema e rezolvată, interacțiunea s-a terminat, și treceți mai departe. Dar Marcus tocmai a arătat vulnerabilitate — a explicat de ce sunt aici, a oferit o soluție și a dezvăluit o lipsă în infrastructura comunitară. A răspunde cu „sună bine, aveți grijă” tratează un moment de conexiune ca pe o tranzacție de încheiat. Adolescenții au cooperat, dar ați lăsat relația acolo unde ați găsit-o. | CONSECINȚE: Marcus se întoarce spre prieteni: „Măcar n-a fost nesimțit.” Acesta este plafonul a ceea ce produce o întâlnire tranzacțională — a nu fi amintit ca nesimțit. Jaylen nu spune nimic. Adolescenții dau muzica puțin mai tare odată ce ați plecat, pentru că nu a existat o adeziune reală, doar conformare. | Reflecție: Când un adolescent se deschide despre comunitatea lui, ce pierdeți tratând asta ca pe o tranzacție de închis?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Dați din umeri la comentariul despre skatepark și treceți la aspectul practic: «Skateparkul are regulile lui și nu pot face nimic în privința asta. Deocamdată, cu asta lucrăm. Mențineți volumul la acest nivel sau mai jos când sunteți aici.» Apoi, parcurgând zona băncilor din priviri, observați cutiile de suc și pungile de chipsuri: «Și v-aș sugera să strângeți și cutiile și pungile alea — gunoiul aruncat le dă oamenilor un motiv în plus să sune. Nu vreți să le oferiți muniție suplimentară.» Încrucișați brațele și așteptați.",
+                    "feedback": "De ce: Adăugarea comentariului despre gunoi — când nu făcea parte din plângere — pare că adunați critici. Marcus a oferit cooperare și v-a arătat rădăcina problemei, iar răspunsul dumneavoastră a fost să adăugați o nouă critică. „Nu pot face nimic în privința asta” modelează neputința în loc de advocacy. Adolescenții aud: „Preocuparea ta sistemică nu contează, și apropo, sunteți și murdari.” | CONSECINȚE: Fața lui Marcus se întărește: „Aveam de gând să strângem înainte de plecare. Facem mereu asta.” Un adolescent apucă sacul de gunoi pe care l-au adus și îl ridică: „Avem saci proprii.” Ați presupus ce e mai rău despre obiceiurile lor și ați greșit. Încrederea primește o lovitură la linia de sosire. | Reflecție: Când cineva oferă cooperare, ce se întâmplă cu relația dacă răspundeți găsind lucruri noi de criticat?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Încheierea",
+            "sceneUpdate": {
+                "emoji": "🌅",
+                "title": "Parcul Riverside — Apusul se apropie",
+                "desc": "Întâlnirea se apropie de final. Muzica se aude încet. Doi adolescenți fac cercuri leneșe pe skateboard. Marcus și Jaylen stau pe bancă. Doamna Chen s-a retras de la fereastră. Domnul Rivera face semn de pe alee când pleacă acasă cu fiica pe umeri. Lumina de după-amiază târziu este caldă. Acesta este ultimul moment cu grupul. Notați mental să înregistrați asta ca un contact comunitar — fără sancțiuni, plângere de zgomot rezolvată prin conformare voluntară. Veți include preocuparea de profilare pe care a ridicat-o Jaylen și o veți semnala Sergentului Patel în raportul de activitate."
+            },
+            "npcDialogue": [
+                {
+                    "character": "jaylen",
+                    "text": "(încet, aproape pentru sine, dar suficient de tare ca să auziți) N-a fost atât de rău cum credeam că o să fie."
+                },
+                {
+                    "character": "marcus",
+                    "text": "(pe jumătate zâmbind) Da, bine... mulțumesc că nu ați fost ciudat cu noi. De cele mai multe ori, când vin polițiștii, ni se spune doar să plecăm."
+                }
+            ],
+            "prompt": "Atât Marcus, cât și Jaylen au oferit un feedback rar și vulnerabil. Cum încheiați această interacțiune într-un mod care lasă o impresie pozitivă durabilă?",
+            "options": [
+                {
+                    "text": "Zâmbiți cu sinceritate, lăsând căldura să se vadă în privire: «Mulțumesc că spuneți asta — amândoi. Marcus, ai gestionat asta ca un lider și sunt serios. Jaylen, ce ai spus mai devreme despre cum se întâmplă mereu — mă bucur că de data asta a fost diferit, și vreau să știi că ceea ce simți contează. Dacă aveți vreodată o problemă în cartier — nu doar ceva legat de poliție, orice — puteți întreba de mine la secție. Ofițer [nume]. Prefer să ne sunați decât să simțiți că nu puteți. Seară bună.»",
+                    "feedback": "De ce: Numirea lui Marcus ca lider îi întărește identitatea pozitivă în loc de rolul de „perturbator” pe care întâlnirile cu poliția îl atribuie de obicei. Revenirea la ce a spus Jaylen mai devreme — fără a fi patronant — arată că ați ascultat cu adevărat și că cuvintele lui au avut impact. Oferirea numelui dumneavoastră și a unei uși deschise transformă o întâlnire unică într-o relație permanentă. „Prefer să ne sunați decât să simțiți că nu puteți” abordează direct problema de bază a relațiilor tineri-poliție: convingerea că poliția nu este pentru ei. Așa construiți o punte care durează mai mult decât o singură sâmbătă. | CONSECINȚE: Jaylen se uită la dumneavoastră pentru prima dată cu altceva decât frică. Marcus dă din cap încet — acel tip de înclinare care înseamnă ceva. Pe când plecați, auziți un adolescent spunând: „Chiar a fost ok.” Marcus postează în acea seară într-un grup de chat: „A venit un polițist în parc azi. Chiar ne-a ascultat. Ne-a dat numele lui.” Două sute de adolescenți citesc acel mesaj. | Reflecție: Care este valoarea pe termen lung a unei singure întâlniri pozitive între poliție și tineri și cât de departe se propagă?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Răspundeți cald, relaxându-vă postura și lăsând un zâmbet sincer să apară: «Apreciez că ați fost cooperanți. Serios — majoritatea oamenilor nu realizează că nici noi nu vrem ca aceste apeluri să fie ceva complicat. Sunteți copii buni — bucurați-vă de restul serii.» Apoi, cu o grimasă jucăușă în timp ce începeți să vă îndepărtați: «Și mențineți muzica încet!» Faceți un semn prietenos cu mâna și vă îndreptați spre mașină, simțindu-vă bine despre cum a decurs totul, tonul rămânând lejer până la final.",
+                    "feedback": "De ce: Cald și uman, cu raport autentic. Dar „sunteți copii buni” este subtil patronant — implică faptul că i-ați evaluat și aprobat, ceea ce întărește o dinamică de putere. „Mențineți muzica încet!” ca replică de despărțire — chiar în mod jucăuș — face ca ultimul cuvânt să fie despre conformare, nu despre conexiune. Interacțiunea se termină bine, dar nu își atinge potențialul maxim. | CONSECINȚE: Marcus chicotește la comentariul despre muzică. Adolescenții se simt ok în legătură cu întâlnirea — nici bine, nici rău. Va fi amintită ca „acea dată când un polițist a fost destul de relaxat.” Un rezultat decent, dar nu genul care schimbă modul în care gândesc despre poliție. | Reflecție: Care este diferența dintre o întâlnire care „n-a fost rea” și una care schimbă presupunerile cuiva despre poliție?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Dați din cap profesional, îndreptându-vă umerii și împreunându-vă mâinile în față — postura standard de încheiere a unui apel: «Mă bucur că am putut rezolva situația. Amintiți-vă — dacă sunt probleme, mențineți zgomotul rezonabil și n-o să ne mai auziți. Aveți grijă de voi.» Vă întoarceți cu mișcări precise și mergeți înapoi la mașină cu un pas constant. Niciun nume schimbat, niciun follow-up oferit — doar o încheiere curată a unei plângeri de rutină privind zgomotul.",
+                    "feedback": "De ce: Profesional și inofensiv, dar complet tranzacțional. „N-o să ne mai auziți” prezintă contactul cu poliția ca pe o consecință negativă de evitat, nu ca pe o resursă accesibilă. Nu există nicio conexiune personală, nicio recunoaștere a momentelor vulnerabile care au avut loc și nicio punte spre viitor. Interacțiunea se rezolvă curat, dar nu lasă niciun impact durabil. | CONSECINȚE: Marcus spune „pa” fără să ridice privirea. Jaylen nu spune nimic. Întâlnirea devine un punct de date neutru — nici negativ, dar nici pozitiv. Într-o lume în care tinerii au nevoie de motive să aibă încredere în poliție, neutralitatea este o oportunitate ratată. | Reflecție: Când ștacheta relațiilor tineri-poliție este atât de scăzută încât „n-a fost rău” pare o victorie, ce este necesar pentru a o ridica efectiv?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă sprijiniți de balustrada băncii, mergând pe o abordare casual și personală — încercând să creați o legătură: «Hei, și eu făceam skate când eram de vârsta voastră — credeți sau nu. Am petrecut jumătate din verile mele în parcuri exact ca ăsta. Îmi amintiți de grupul meu.» Apoi, trecând la un ton mai serios, aproape părintesc: «Doar stați departe de necazuri, da? Lumea e destul de grea fără a avea un dosar. Credeți-mă.» Îi aruncați lui Marcus o privire semnificativă, sperând că sfatul e recepționat ca grijă autentică.",
+                    "feedback": "De ce: Intenția este conexiunea, dar „stați departe de necazuri” și „fără a avea un dosar” introduc criminalitatea într-o conversație despre adolescenți într-un parc. Nu au fost niciodată în necazuri. Nu au fost niciodată în pericol de a avea un dosar. Proiectarea riscului infracțional asupra unor tineri care existau pur și simplu în spațiu public este exact dinamica de care se temeau. Nostalgia („și eu făceam skate”) vă centrează povestea în loc de a lor. | CONSECINȚE: Fața lui Marcus devine inexpresivă: „Departe de necazuri? Ce necazuri? Ne relaxam într-un parc.” Jaylen tresare la „a avea un dosar.” Impresia finală anulează bunăvoința pe care ați construit-o. Adolescenții pleacă amintindu-și nu empatia dumneavoastră, ci implicarea că sunt la o alegere greșită distanță de sistemul judiciar. | Reflecție: De ce avertizarea adolescenților despre necazuri în care nu au fost niciodată întărește exact narativa profilării pe care ați petrecut întâlnirea încercând să o contracarați?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debriefing",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Debriefing la secție — Sala de instruire",
+                "desc": "Înapoi la secție. Sergentul Patel vă evaluează performanța în acest scenariu de interacțiune cu tineri, concentrându-se pe modul în care ați echilibrat plângerea de zgomot, temerile de profilare ale adolescenților, anxietatea reclamantei și impactul pe termen lung asupra încrederii tineri-poliție."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "Acest scenariu testează ceva ce nu apare în statisticile infracționale, dar definește activitatea polițienească comunitară pentru o generație: modul în care tratați tinerii care nu au făcut nimic greșit. Fiecare alegere pe care ați făcut-o — de la abordare, la modul în care ați gestionat conversația despre profilare, până la ultimele cuvinte — fie a depus încredere, fie a retras-o. Să analizăm ce s-a întâmplat."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "Ați intrat într-un parc plin de adolescenți care făceau exact ce ar trebui să facă adolescenții — socializau într-un spațiu public într-o sâmbătă. Dispeceratul a spus „activitate suspectă.” Ochii dumneavoastră au spus „copii într-un parc.” Modul în care ați reconciliat aceste două lucruri a determinat tot ce a urmat. Să analizăm deciziile care au contat cel mai mult."
+                },
+                {
+                    "character": "officer",
+                    "text": "Momentul care m-a marcat a fost Jaylen. Când a spus „ni se întâmplă mereu asta,” am vrut să spun lucrul potrivit, dar nu am vrut nici să vorbesc în numele unor experiențe pe care nu le-am trăit. Nu eram sigur cât de departe să merg."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Și acea incertitudine este exact corectă — pentru că răspunsul greșit la acel moment este să te prefaci că ai toate răspunsurile. Scopul nu este să fii „dintre cei buni.” Această expresie este o capcană — le cere adolescenților să te evalueze ca excepție individuală în loc să se angajeze cu preocuparea sistemică pe care au ridicat-o. Scopul real este să faci sistemul mai puțin dăunător, câte o întâlnire o dată. Nu repari activitatea polițienească într-o singură vizită în parc. Dar poți să te asiguri că acest grup particular de adolescenți pleacă cu un punct de date care contrazice cele mai negre presupuneri ale lor."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Încă ceva — notarea în jurnalul de activitate a fost inteligentă. Documentarea acestui lucru ca un contact comunitar fără sancțiuni, inclusiv preocuparea de profilare a lui Jaylen și transmiterea ei pe lanțul de comandă, protejează pe toată lumea. Vă protejează pe dumneavoastră, protejează adolescenții și creează o evidență că departamentul a luat preocuparea în serios. Prea mulți ofițeri tratează documentația contactelor fără arestare ca opțională. Nu este. Acea documentație este ceea ce transformă o singură întâlnire bună în responsabilitate instituțională."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Și iată ceva ce majoritatea ofițerilor pierd din vedere: grupul de chat al lui Marcus a ajuns la două sute de adolescenți în acea seară. Ce a scris despre această întâlnire a modelat modul în care două sute de tineri de la patru școli gândesc despre poliție. Asta nu e o metaforă — este mecanismul real prin care încrederea sau neîncrederea se propagă printr-o comunitate. Singura dumneavoastră după-amiază de sâmbătă a avut un efect multiplicator pe care nu îl veți vedea niciodată în totalitate. Acum permiteți-mi să vă spun ce s-a întâmplat după ce ați părăsit acel parc."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "officer": {
+            "name": "Tu (Ofițer)",
+            "avatar": "👮"
+        },
+        "dispatcher": {
+            "name": "Dispecerat",
+            "avatar": "📻"
+        },
+        "marcus": {
+            "name": "Marcus Williams (adolescent, 17)",
+            "avatar": "🧑‍🦱"
+        },
+        "jaylen": {
+            "name": "Jaylen Carter (adolescent, 15)",
+            "avatar": "👦"
+        },
+        "mrs_chen": {
+            "name": "Doamna Chen (vecină, 70+)",
+            "avatar": "👵"
+        },
+        "dad_rivera": {
+            "name": "Dl. Rivera (trecător, tată)",
+            "avatar": "👨‍👧"
+        },
+        "instructor": {
+            "name": "Sergent Patel",
+            "avatar": "👮‍♂️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Implicare excepțională cu tinerii",
+            "emoji": "🌟",
+            "feedback": "Ați demonstrat standardul de aur pentru contactele non-infracționale cu tineri: evaluare calmă înainte de abordare, explicație transparentă a prezenței, recunoaștere sinceră a temerilor de profilare, gestionare empatică a unei reclamante anxioase, mediere colaborativă și o încheiere care a lăsat fiecare adolescent din acel parc cu o imagine fundamental mai bună despre forțele de ordine. Mesajul lui Marcus în grupul de chat va ajunge la 200 de adolescenți de la patru școli. Acesta este efectul de propagare al unei singure întâlniri excepționale."
+        },
+        "good": {
+            "title": "Interacțiune puternică cu tinerii",
+            "emoji": "👍",
+            "feedback": "Ați gestionat bine o situație nuanțată cu mai multe părți, menținând profesionalismul și arătând preocupare autentică pentru experiența adolescenților. Ați rezolvat preocuparea legată de zgomot fără a înstrăina tinerii. Câteva oportunități de conexiune mai profundă sau o încheiere cu mai mult impact au fost ratate, dar abordarea dumneavoastră a fost respectuoasă și proporționată — adolescenții vor aminti asta ca o întâlnire pozitivă."
+        },
+        "average": {
+            "title": "Adecvat, dar superficial",
+            "emoji": "📋",
+            "feedback": "Ați rezolvat plângerea de zgomot fără incidente majore, dar ați ratat oportunități critice în această întâlnire — în special în ceea ce privește abordarea temerilor de profilare, umanizarea reclamantei pentru adolescenți sau construirea unei punți durabile. Adolescenții au părăsit parcul cu conformare, dar fără încredere. În activitatea polițienească cu tineri, o întâlnire care este doar „nu a fost rea” reprezintă o oportunitate ratată."
+        },
+        "poor": {
+            "title": "Necesită îmbunătățiri semnificative",
+            "emoji": "⚠️",
+            "feedback": "Abordarea dumneavoastră a întărit chiar dinamicile pe care acest scenariu a fost conceput să le testeze. Fie prin solicitarea justificării prezenței legale, respingerea preocupărilor de profilare, supra-validarea reclamantei sau plecarea cu amenințări implicite, adolescenții din această întâlnire au plecat cu o imagine mai proastă despre poliție decât când ați sosit. În contactele cu tineri, această daună se acumulează — recapitulați cercetările privind dezvoltarea adolescenților, principiile dreptății procedurale și impactul pe termen lung al contactelor cu poliția asupra tinerilor."
+        }
+    },
+    "metrics": {
+        "youthEngagement": {
+            "name": "Implicarea cu tinerii",
+            "description": "Comunicarea cu adolescenții în mod respectuos și adecvat vârstei — tratându-i ca pe oameni, nu ca pe probleme",
+            "icon": "🧑‍🤝‍🧑"
+        },
+        "proceduralFairness": {
+            "name": "Corectitudine procedurală",
+            "description": "Explicarea motivului prezenței, transparența privind plângerea și oferirea vocii tuturor părților înainte de a lua decizii",
+            "icon": "⚖️"
+        },
+        "communityMediation": {
+            "name": "Mediere comunitară",
+            "description": "Echilibrarea preocupării legitime a reclamantei cu dreptul tinerilor la spațiul public — găsirea soluțiilor care respectă ambele părți",
+            "icon": "🤝"
+        },
+        "profilingAwareness": {
+            "name": "Conștientizarea profilării",
+            "description": "Recunoașterea și abordarea sinceră a temerii adolescenților de a fi vizați, fără defensivitate sau deviere",
+            "icon": "🔍"
+        },
+        "trustBuilding": {
+            "name": "Construirea încrederii",
+            "description": "Lăsarea tinerilor cu o imagine mai pozitivă despre poliție decât aveau înainte de întâlnire — crearea de ambasadori, nu de adversari",
+            "icon": "🌱"
+        }
+    }
+}

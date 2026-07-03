@@ -1,0 +1,437 @@
+{
+  "id": "custody-exchange",
+  "title": "Spor o předání dítěte — Mezi dvěma ohni",
+  "description": "Pokročilý scénář procvičující deeskalaci a neutrální mediaci během vysoce konfliktního předávání dítěte v rámci střídavé péče mezi nepřátelskými rozvedenými rodiči. Na místě je přítomno sedmileté dítě v tísni.",
+  "icon": "⚖️",
+  "instructor": {
+    "name": "Seržant Davis",
+    "avatar": "👮‍♂️",
+    "introduction": "Tento scénář vás staví do jedné z nejcitlivějších situací, jakou může strážník zažít — spor o předání dítěte, kde oba rodiče věří, že mají pravdu, hraje roli soudní rozhodnutí a vyděšené dítě je chyceno uprostřed. Nejste soudce, nejste právník a nejste rodinný poradce — ale právě teď jste jediný člověk, který může zabránit tomu, aby se situace vymkla kontrole. Při deeskalaci předávání dítěte je vaším nejmocnějším nástrojem viditelná neutralita — každé slovo, každé gesto, každé rozhodnutí musí prokazovat spravedlnost oběma stranám. Ve chvíli, kdy kterýkoli z rodičů získá dojem, že jste zaujatý, spolupráce se zhroutí a nejvíc trpí dítě. Zůstaňte neutrální, zůstaňte lidští a pamatujte: dítě sleduje všechno, co děláte."
+  },
+  "timedChoices": true,
+  "completionBadges": [
+    "scenario-custody-exchange-complete"
+  ],
+  "perfectBadge": "perfect-scenario-custody-exchange",
+  "finalMessage": {
+    "revelation": "Po vaší intervenci se Mark a Eve dohodli na používání aplikace pro spolurodičovství ke koordinaci budoucích předávání. Eve poskytla zdravotní informace o Jacobovi a Mark jí po celý víkend posílal aktualizace. Jacob následující týden řekl školnímu poradci, že ‚ten policista byl hodný a přiměl mámu s tátou přestat křičet'. O dva měsíce později oba rodiče požádali o školní parkoviště jako pravidelné místo předávání s vědomím, že personál a bezpečnostní kamery zajistí zodpovědnost. Váš klidný, vyvážený přístup zasadil semínko pro lepší komunikaci mezi rodiči.",
+    "keyLessons": [
+      "Neutralita je aktivní, ne pasivní — musíte prokazovat spravedlnost oběma stranám prostřednictvím transparentního postupu",
+      "Oddělení znepřátelených stran je vždy první prioritou před jakoukoliv věcnou diskusí",
+      "Soudní rozhodnutí má váhu, ale jeho prosazování vyžaduje vyslechnout obě strany a pochopit kontext",
+      "Děti ve sporech o péči nesou obrovský pocit viny — přímé ujištění, že to není jejich chyba, je klíčové",
+      "Kreativní řešení problémů, která zohledňují obavy obou stran, mění dynamiku výhra/prohra ve spolupráci",
+      "Policie není soukromý vymahač — vaší rolí je usnadnit řešení, ne vybrat vítěze",
+      "Všechno, co před dítětem řeknete a uděláte, se stane součástí jeho chápání konfliktu a autority"
+    ]
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "Příjezd a posouzení",
+      "sceneUpdate": {
+        "emoji": "🏫",
+        "title": "Školní parkoviště — První kontakt",
+        "desc": "Pozdní páteční odpoledne. Dva dospělí se hlasitě hádají u stříbrného sedanu na školním parkovišti. Na zadním sedadle je vidět sedmiletý chlapec, který svírá plyšového medvídka. Nedaleko stojí školní strážník a tváří se rozpačitě."
+      },
+      "npcDialogue": [
+        {
+          "character": "dispatcher",
+          "text": "Jednotka vyjíždí k základní škole Riverside. Dva rodiče ve sporu o předání dítěte, hádají se na parkovišti. Školní personál požádal o policejní asistenci. Na místě je přítomno dítě. Pozor — v systému je předchozí hlášení o domácím násilí na tuto adresu. Předběžné opatření bylo vydáno před šesti měsíci."
+        }
+      ],
+      "prompt": "Přijíždíte na místo. Oba rodiče na sebe křičí u auta a dítě sleduje zevnitř. Jak přistoupíte?",
+      "options": [
+        {
+          "text": "Zamíříte rázným krokem přímo mezi oba rodiče, zvednete ruku v gestu zastavení a hlasem, který bez problémů přehlučí jejich hádku, oznámíte: ‚Policie. Potřebuji, abyste oba okamžitě přestali a odstoupili od sebe.' Postavíte se pevně do mezery mezi nimi, navážete důrazný oční kontakt střídavě s každým z rodičů a ukážete otci k jednomu konci parkoviště, matce k druhému. Váš autoritativní postoj nedává prostor pro diskusi.",
+          "feedback": "Proč: Ustavuje autoritu a vytváří fyzické oddělení, což je potřeba. Nicméně hlasitý, rozkazovací přístup může vyděsit už tak vystresované dítě a vyvolat vzdorovitou reakci u rozrušených rodičů. | DŮSLEDKY: Poslechnutí je pravděpodobné, ale s nelibostí. Oba rodiče vás mohou vnímat jako agresivního spíše než nápomocného, což ztěžuje spolupráci v dalších krocích. Tíseň dítěte se může prohloubit. | Reflexe: Jak váš úvodní tón nastavuje trajektorii celé interakce?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Projdete kolem obou křičících rodičů, aniž byste je oslovili — odznak je viditelný, ale váš pohled směřuje ke školnímu strážníkovi u vchodu. Přitáhnete si ho stranou a tiše se ho zeptáte na časový průběh — kdo přijel první, kdo začal hádku, jestli někdo vyhrožoval. Pozorně si zapamatujete každý detail, zatímco v pozadí pokračuje hlasitá výměna názorů u stříbrného sedanu a chlapec na zadním sedadle sleduje dění skrze okénko.",
+          "feedback": "Proč: Shromažďovat informace před zahájením akce je v mnoha situacích moudré. Probíhající konfrontace v blízkosti dítěte však vyžaduje okamžitější zásah — každá vteřina rodičovského konfliktu, kterou dítě zažívá, způsobuje měřitelnou emoční újmu. | DŮSLEDKY: Rodiče se dál hádají, zatímco vy sbíráte informace. Otec k vám může netrpělivě přistoupit. Dítě zůstává uvězněno uprostřed. | Reflexe: Kdy naléhavost situace převáží nad hodnotou kontextových informací?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Přistoupíte klidně z úhlu — ne čelně — a navážete oční kontakt postupně s oběma rodiči. Zastavíte se v konverzační vzdálenosti, ruce uvolněně podél těla, a řeknete pevným, ale zdrženlivým tónem: ‚Dobré odpoledne. Jsem strážník [jméno]. Vidím, že je to stresující situace. Pojďme to vyřešit — ale nejdřív vás oba prosím, abyste udělali krok zpět.' Vaše otevřená, nekonfrontační řeč těla modeluje klid, který od nich chcete vidět.",
+          "feedback": "Proč: Profesionální představení, uznání stresu a jasný pokyn bez agrese. Klidný přístup modeluje chování, které od nich chcete vidět. Přístup z úhlu místo čelně je méně konfrontační. Neoslovení jednoho z rodičů jako prvního se vyhýbá signalizaci zaujatosti. | DŮSLEDKY: Oba rodiče se cítí uznáni. Zdrženlivý tón kontrastuje s jejich křikem a vytváří přirozenou deeskalaci. Dítě vidí dospělého, který je klidný. | Reflexe: Jak v praxi funguje ‚modelování' emočního stavu, který chcete, aby ostatní převzali?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Zamíříte nejprve k matčinu autu, abyste získali její verzi příběhu — je nejblíž dítěti a může mít klíčový kontext o situaci. Projdete kolem otce bez jediného slova, nakloníte se k okénku řidiče a tlumeným hlasem se matky zeptáte, co se děje. Otec stojí o pár metrů dál se zkříženýma rukama a viditelně registruje, že jste si zvolili promluvit nejprve s ní. Jeho čelist se napíná, jak sleduje každou vteřinu vaší konverzace.",
+          "feedback": "Proč: Zní to jako rozumná strategie shromažďování informací a oslovení rodiče nejblíže dítěti se jeví logicky. Nicméně přistoupit k jednomu rodiči jako prvnímu — zvláště k tomu, který má dítě — signalizuje zaujatost dříve, než jste oběma stranám řekli jediné slovo. Otec vidí, jak ho míjíte a jdete k matčinu autu, a každá vteřina, kterou tam strávíte, posiluje jeho přesvědčení, že systém zvýhodňuje matky. | DŮSLEDKY: Otec se stává rozrušenějším a konfrontačnějším, protože od první chvíle vnímá, že straníte matce. Vaše neutralita je narušena dříve, než jste vůbec promluvili s oběma stranami. Dynamika je nyní nevyvážená — cokoliv později otci řeknete, je filtrováno skrze jeho přesvědčení, že jste si již vybrali stranu. | Reflexe: Jak upřednostníte shromažďování informací a zároveň udržíte viditelnou nestrannost vůči všem přítomným stranám?",
+          "type": "negative",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Oddělení rodičů",
+      "sceneUpdate": {
+        "emoji": "🤝",
+        "title": "Dvě strany, jedno dítě",
+        "desc": "Navázali jste první kontakt. Oba rodiče se okamžitě obracejí na vás, každý chce, abyste byli na jeho straně. Otec mává složeným dokumentem. Matka se ochranně postaví ke dveřím auta."
+      },
+      "npcDialogue": [
+        {
+          "character": "father",
+          "text": "Konečně! Řekněte jí, že mi musí předat mého syna. Mám tady soudní rozhodnutí!"
+        },
+        {
+          "character": "mother",
+          "text": "Je nemocný! Nedám ho nikomu, když má horečku!"
+        }
+      ],
+      "prompt": "Oba rodiče požadují vaši okamžitou podporu. Jak budete pokračovat?",
+      "options": [
+        {
+          "text": "Jemně zvednete ruku a řeknete: ‚Chápu, že oba to berete velmi vážně. Budu s každým z vás mluvit zvlášť, abych pochopil celou situaci. Pane, mohl byste chvíli počkat u mého vozu? Paní, zůstaňte prosím tady u auta.' Navážete klidný oční kontakt střídavě s oběma a dodáte: ‚Budu k vám oběma spravedlivý — oba dostanete stejnou příležitost mi vysvětlit svou stranu, než cokoliv vyřešíme.'",
+          "feedback": "Proč: Oddělení stran je klíčový krok deeskalace — zabraňuje předvádějícím hádkám a umožňuje každému mluvit upřímně. Slib spravedlnosti udržuje důvěru obou stran. Odvedení otce od auta je takticky správné — dítě zůstává na místě a nedáváte najevo preferenci ohledně péče. | DŮSLEDKY: Oba rodiče se cítí vyslyšeni. Konfrontace ustává. Vytvoříte prostor pro skutečný dialog. | Reflexe: Proč je mluvení s každou stranou zvlášť často produktivnější než skupinová mediace?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Natáhnete ruku směrem k otci a řeknete: ‚Ukažte mi nejdřív to soudní rozhodnutí. Vyřídíme to podle toho, co říkají dokumenty.' Vezmete složený papír, pečlivě ho rozložíte a začnete pročítat odstavce přímo tady mezi oběma rodiči. Očima přejíždíte po řádcích, zatímco oba stojí po stranách, ukazují na různé pasáže a překřikují se navzájem, aby vám vysvětlili, co to doopravdy znamená.",
+          "feedback": "Proč: Jít přímo k právnímu dokumentu se zdá logické a efektivní. Nicméně jeho prohlížení před oběma rodiči je vyzývá k hádce o jeho výklad. Také jste neřešili emoční teplotu ani neoddělili strany. | DŮSLEDKY: Otec se cítí uznávaný, ale matka se cítí ignorována. Oba mohou začít hádat o tom, co dokument ‚opravdu znamená'. Emoční rozměr zůstává zcela neřešený. | Reflexe: Je spor o předání dítěte primárně právní, nebo emoční problém?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Významně pohlédnete směrem k Jacobovi na zadním sedadle, pak se obrátíte na oba rodiče a řeknete: ‚Potřebuji, abyste oba ztišili hlas — přímo tady je dítě, které slyší všechno, co říkáte.' Ukážete směrem k volnému prostranství na chodníku kousek od auta. ‚Pojďme se přesunout tamhle a v klidu to probrat, ať Jacob nemusí poslouchat celou tu diskusi.' Gestem naznačíte oběma, aby vás následovali.",
+          "feedback": "Proč: Dobré povědomí o blahu dítěte a prosba je rozumná. Nicméně žádat oba, aby se přesunuli společně bez oddělení, často jen přemístí hádku jinam. Připomenutí dítěte může na chvíli vyvolat krátkou poslušnost ze studu, ale neřeší základní nepřátelskou dynamiku. | DŮSLEDKY: Chvilková pauza v křiku, ale bez fyzického oddělení se hádka během několika minut obnoví. Nestanovili jste postup ani časový rámec. | Reflexe: Jaký je rozdíl mezi pozastavením konfliktu a jeho deeskalací?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Obrátíte se k matce se skeptickým výrazem a zeptáte se přímo: ‚Paní, je to dítě opravdu nemocné? Máte nějakou lékařskou dokumentaci, která by to dokazovala — lékařskou zprávu, recept, potvrzení z pohotovosti, cokoliv na papíře?' Váš tón je plochý a procedurální, jako byste sepisovali protokol, zatímco otec vedle vás energicky přikyvuje. Matce se do tváře hrne červeň, když si uvědomí, že důkazní břemeno dopadlo výhradně na ni.",
+          "feedback": "Proč: Okamžité zpochybnění tvrzení matky vyjadřuje nedůvěru a staví vás do kvazi-vyšetřovatelské pozice. Otec se cítí potvrzen, zatímco matka se cítí obviněna. Nenavázali jste vztah, neoddělili strany ani neposoudili celkovou situaci. | DŮSLEDKY: Matka se stává defenzivní a nepřátelskou vůči vám. Otec tlačí silněji a cítí výhodu. Konflikt se zesiluje a vy jste do něj vtaženi jako vnímaný protivník. | Reflexe: Jak pořadí, v němž řešíte obavy stran, ovlivňuje vnímání vaší neutrality oběma stranami?",
+          "type": "negative",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Soudní rozhodnutí",
+      "sceneUpdate": {
+        "emoji": "📋",
+        "title": "Právní papír, lidský problém",
+        "desc": "Úspěšně jste oddělili rodiče. Mark je u vašeho vozu a ukazuje vám ověřenou kopii soudního rozhodnutí o péči. Třesou se mu ruce — vztek nebo úzkost, těžko říct."
+      },
+      "npcDialogue": [
+        {
+          "character": "father",
+          "text": "Vidíte? Každý druhý víkend od pátku od 16:00. Už je 16:15. Dělá to pokaždé — zdržování, výmluvy, cokoliv, aby Jacoba ke mně nepustila. Chci ji zatknout za pohrdání soudem."
+        }
+      ],
+      "prompt": "Otec požaduje okamžité prosazení a zatčení matky. Jak odpovíte?",
+      "options": [
+        {
+          "text": "Pomalu přikývnete a tónem plným porozumění řeknete: ‚Vidím, že to je opakující se vzorec, Marku. To musí být neuvěřitelně frustrující — muset pokaždé bojovat o čas, který vám soud již přidělil. Promluvím s ní o dodržování rozvrhu.' Vrátíte mu soudní rozhodnutí do ruky s uklidňujícím poklepáním na rameno a už se obracíte směrem k Evinu autu, připraveni jí vysvětlit, jak to s rozvrhem chodí.",
+          "feedback": "Proč: Zní to jako empatické aktivní naslouchání a budování vztahu — učebnicové deeskalační dovednosti. Nicméně potvrzení jeho narativu o ‚vzorci' obstrukce před vyslechnutím druhé strany mění empatii v souhlasné stanovisko. Říct mu, že ‚s ní promluvíte o dodržování rozvrhu', staví matku do role problému a vás do role jeho zástupce. Bez nezávislého posouzení jste převzali celý jeho rámec. | DŮSLEDKY: Matka okamžitě vycítí, že jste si vybrali stranu, až k ní přistoupíte. Konfrontace eskaluje a vy jste nyní sladěni s otcovým narativem. Jakékoliv vyvážené řešení se stává téměř nemožným, protože vaše důvěryhodnost jako neutrální strany je pryč. | Reflexe: Kde je hranice mezi uznáním něčí emoční zkušenosti a převzetím jeho verze událostí za fakt?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Vezmete dokument, podržíte si ho ve čtecí vzdálenosti a řeknete: ‚Vidím, že jde o platné soudní rozhodnutí. Nechte mě pečlivě projít přesné podmínky, než promluvím s vaší bývalou manželkou o situaci.' Prstem přejíždíte po odstavcích a potichu si přeříkáváte klíčové pasáže, zatímco Mark přešlapuje z nohy na nohu a netrpělivě čeká, až dokončíte svůj důkladný rozbor a konečně mu potvrdíte, co podle něj i tak musí platit.",
+          "feedback": "Proč: Uznat dokument je na místě, ale ‚nechte mě pečlivě projít podmínky' vytváří právnickou, byrokratickou atmosféru. Otec chce empatii a akci, ne právní rozbor. Použití termínu ‚vaše bývalá manželka' místo jejího jména ji redukuje na roli v nepřátelském rámci. | DŮSLEDKY: Otec má dojem, že otálíte. Právnický rámec udržuje interakci v režimu konfliktu místo směřování k řešení. | Reflexe: Jak vaše volba jazyka rámuje to, zda jde o právní bitvu, nebo o rodičovskou situaci?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Podíváte se mu zpříma do očí a řeknete věcně: ‚Rozumím vaší frustraci a vidím, že jde o soudní rozhodnutí. Nicméně nemohu nikoho zatknout za občanskoprávní záležitost péče o dítě — takhle prosazování nefunguje. Mou rolí je pomoci vám oběma dosáhnout řešení ještě dnes. Nechte mě vyslechnout i její stranu a pak společně vymyslíme další krok.' Vrátíte mu dokument a vykročíte směrem k Evinu autu.",
+          "feedback": "Proč: Správně vyjasňuje omezení policie a nastavuje realistická očekávání. Nicméně strohé konstatování ‚nemohu nikoho zatknout' může působit odmítavě na otce, který věří, že mu jsou systematicky porušována práva. Říci ‚nechte mě vyslechnout její stranu' bez předchozího uznání jeho emoční zkušenosti vytváří odstup. | DŮSLEDKY: Mark se cítí procesně informován, ale osobně nevyslyšen. Spolupracuje, ale jeho základní frustrace z opakovaných obstrukcí zůstává neřešena. | Reflexe: Jak vyvážit řízení očekávání s uznáním něčí emoční zkušenosti?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Dokument přijmete s respektem a řeknete: ‚Děkuji, že jste mi to ukázal, Marku. Beru to vážně — soudní rozhodnutí má skutečnou váhu. Potřebuji vyslechnout i Evu, abych pochopil její obavy, a pak s vámi oběma najdu řešení ještě dnes. Mým cílem je, aby Jacob mohl strávit víkend s vámi co nejhladčeji.' Papír mu pečlivě vracíte zpět a setkáte se s jeho pohledem, abyste mu beze slov naznačili, že svá slova myslíte vážně.",
+          "feedback": "Proč: Uznání otcova právního postavení a použití jména buduje osobní vztah. Vysvětluje postup transparentně — promluví i s matkou — takže to nepůsobí jako stranění. Formulace cíle okolo Jacobova času s otcem Marka ubezpečuje, že pracujete směrem k výsledku zamýšlenému soudem, zatímco ‚co nejhladčeji' signalizuje, že záleží i na způsobu. | DŮSLEDKY: Mark se cítí respektován, právně potvrzen a přesvědčen, že strážník směřuje k předání. Je ochoten počkat, zatímco mluvíte s Evou. | Reflexe: Jak pomáhá brzy pojmenovat žádoucí výsledek oběma stranám sladit svá očekávání?",
+          "type": "positive",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Postoj matky",
+      "sceneUpdate": {
+        "emoji": "💊",
+        "title": "Strach matky",
+        "desc": "Přistupujete k Eve u jejího auta. Jacob je vidět na zadním sedadle, pevně svírá plyšáka. Vypadá trochu bledě, ale momentálně je klidný. Eve má červené oči — plakala."
+      },
+      "npcDialogue": [
+        {
+          "character": "mother",
+          "text": "Prosím, nenuťte mě ho předat. Celou noc kašlal, skoro nespal. Mark se o něj pořádně nepostará, když je nemocný — ani neví, jaké léky Jacob bere. Nesnažím se být obtížná, jen... bojím se o svého syna."
+        }
+      ],
+      "prompt": "Matka je emocionální a zmiňuje obavy o zdraví dítěte. Jak to zvládnete?",
+      "options": [
+        {
+          "text": "Zkřížíte ruce na hrudi a zeptáte se plochým, procedurálním tónem: ‚Máte lékařskou zprávu nebo nějaký lékařský důkaz, že je Jacob příliš nemocný na to, aby šel s otcem? Potvrzení z pohotovosti, recept na léky — cokoliv zdokumentovaného, na co se můžu podívat?' Čekáte s perem připraveným nad poznámkovým blokem a bedlivě sledujete její výraz, zatímco horečně hledá důkaz, který si v zápalu odpoledne možná nestihla opatřit.",
+          "feedback": "Proč: Oprávněná procedurální otázka, ale začínat požadavkem na důkaz působí obviňujícně a klinicky. Většina rodičů v opravdové tísni ohledně péče nemyslí dopředu na to, že by si měli obstarat dokumentaci. Tento přístup zachází s interakcí jako se shromažďováním důkazů místo lidského rozhovoru. | DŮSLEDKY: Eve se cítí vyslýchána, ne vyslyšena. Stává se defenzivní: ‚Takže mi taky nevěříte?' Emoční zeď se zvedá a řešení je mnohem těžší. | Reflexe: Jaký je rozdíl mezi shromažďováním informací a vyslýcháním někoho?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Uvolníte postoj, trochu skloníte hlavu a řeknete měkkým tónem: ‚Slyším, jak moc se o Jacoba bojíte, Evo. Na jeho zdraví záleží. Můžete mi říct víc o jeho příznacích — kdy to začalo, byl u lékaře?' Necháte ji odpovědět, než opatrně pokračujete: ‚Zároveň s vámi musím být upřímný: Mark má na tento víkend soudní rozhodnutí a to je něco, s čím musím počítat. Chci, abychom společně našli cestu, jak Jacoba ochránit.'",
+          "feedback": "Proč: Uznává její emoce, používá její jméno a klade otevřené otázky o zdravotním stavu — dává jí prostor být vyslyšena. Zároveň transparentně komunikuje právní realitu místo toho, aby ji nechal budovat si naději, že předání zablokujete. Vyvažuje empatii s upřímností. | DŮSLEDKY: Eve se cítí vyslyšena a respektována. Může se rozplakat, ale je méně pravděpodobné, že bude útočná. Upřímný rámec ohledně soudního rozhodnutí ji připraví na pravděpodobný výsledek, aniž by ji později zasáhl jako blesk z čistého nebe. | Reflexe: Proč je včasná upřímnost laskavější než odložená špatná zpráva?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Zavrtíte hlavou a řeknete: ‚Rozumím vaší obavě, ale soudní rozhodnutí říká, že tento víkend jde k otci. Pokud nemáte lékařskou dokumentaci — něco od doktora, z pohotovosti — opravdu s tím nemohu nic dělat.' Pohlédnete směrem k Markovi u služebního vozu a pak zpět na Eve, váš tón jasně naznačuje, že rozhovor je v podstatě u konce a výsledek je už rozhodnutý, ať se jí to líbí nebo ne.",
+          "feedback": "Proč: Odmítavý přístup k opravdové mateřské obavě. Rigidní právnický rámec bez jakékoliv empatie. ‚Nemohu nic dělat' je jak nepřesné, tak odcizující — možnosti pro usnadnění hladšího předání existují. Tento přístup může spustit reakci boj-nebo-útěk. | DŮSLEDKY: Eve může fyzicky odmítnout pustit Jacoba z auta, pokusit se odjet, nebo se emocionálně zhroutit. Kterýkoliv z těchto výsledků dramaticky zhorší situaci pro všechny, zejména pro Jacoba. | Reflexe: Když někdo řekne ‚nemohu nic dělat', jakou zprávu druhý člověk ve skutečnosti slyší?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Nakloníte se k okénku auta, abyste se na Jacoba podívali, a řeknete: ‚Chci se také ujistit, že je Jacob v pořádku. Nechte mě se na něj rychle podívat, jak na tom je.' Chvíli zkoumáte chlapcovu tvář — bledost, trochu skelné oči — pak se narovnáte a obrátíte se zpět k Eve: ‚Pokud je opravdu nemocný, možná můžeme probrat nějaké možnosti. Ale měla byste vědět, že Mark má platné soudní rozhodnutí, takže to musíme zohlednit.'",
+          "feedback": "Proč: Projevujete starost o dítě a nabízíte přímo posoudit situaci, což působí proaktivně. Nicméně policista provádějící neformální zdravotní posouzení vás staví do role, na kterou nemáte kvalifikaci. Pokud určíte, že dítě ‚vypadá v pořádku', matka se cítí zneplatněna. Pokud souhlasíte, že dítě ‚vypadá nemocně', otec bude tvrdit, že straníte jí. | DŮSLEDKY: Nyní jste v nevýherní pozici jako amatérský zdravotní posuzovatel. Oba rodiče budou zpochybňovat vaše posouzení bez ohledu na to, jakým směrem se vydáte. | Reflexe: Jak projevíte starost o zdraví dítěte, aniž byste překročili svou profesní roli?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Dítě promluví",
+      "sceneUpdate": {
+        "emoji": "👦",
+        "title": "Jacobův svět",
+        "desc": "Zatímco mluvíte s Evou, Jacob stáhne okénko auta. Oči má široké a vlhké. Poslouchal všechno — hádky, rozhovory, napětí. Pevněji svírá plyšového medvídka."
+      },
+      "npcDialogue": [
+        {
+          "character": "child",
+          "text": "Nechci, aby se maminka a tatínek pořád hádali... Nemůžu prostě zůstat ve škole?"
+        }
+      ],
+      "prompt": "Vystresovaný sedmiletý chlapec je nyní přímo součástí rozhovoru. Jak odpovíte?",
+      "options": [
+        {
+          "text": "Pomalu si dřepnete u okénka auta, jednu ruku položíte na rám dveří, abyste byli s Jacobem tváří v tvář. Řeknete jemným hlasem: ‚Ahoj Jacobe, vím, že je to opravdu těžké. Chci, abys věděl, že nic z toho není tvoje chyba, ano? Maminka i tatínek tě oba moc milují. Dospělí to vyřeší.' Na chvíli se odmlčíte, než se tiše zeptáte: ‚Je něco, co bys mi chtěl říct?'",
+          "feedback": "Proč: Dostat se na fyzickou úroveň dítěte je klíčové pro budování důvěry a snížení zastrašujícího dojmu. Ujištění, že to není jeho vina, přímo řeší jádro pocitu viny, který děti ve sporech o péči prožívají. Otevřené pozvání k hovoru mu dává prostor a hlas, aniž by ho nutilo volit mezi rodiči. | DŮSLEDKY: Jacob se cítí viděn a slyšen klidnou autoritou. Jeho tíseň se viditelně snižuje. Oba rodiče, pokud jsou na doslech, si připomenou, na čem opravdu záleží. Tato chvíle se často stává emočním bodem obratu celé intervence. | Reflexe: Jak přímé oslovení nevyslovených pocitů viny dítěte mění dynamiku rodinného sporu?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Nakloníte se k otevřenému okénku s vřelým úsměvem a hravě poklepete na jeho plyšového medvídka, abyste odlehčili atmosféru. Řeknete: ‚Neboj se, kamaráde. Všechno bude v pořádku. Rodiče si jen potřebují pár věcí promluvit, ano? Bude to vyřešené, než se naděješ. Ty zatím vydrž tady.' Pak se narovnáte a s jistotou, že uklidnění stačilo, se otočíte zpět k dospělým, abyste pokračovali v řešení situace.",
+          "feedback": "Proč: Dobře míněné a uklidňující v tónu. Nicméně ‚všechno bude v pořádku' může působit jako prázdný slib — dítě vidí a slyší konflikt a děti jsou pozoruhodně vnímavé vůči neupřímnosti. Neřeší jeho vyjádřené přání, aby hádky skončily, ani jeho pocit uvěznění. | DŮSLEDKY: Jacob možná zdvořile přikývne, ale jeho úzkost zůstává nezměněna. Uklidnění neodpovídá jeho realitě. Promarněná příležitost poskytnout smysluplnou emoční podporu. | Reflexe: Kdy je uklidňování užitečné a kdy pouze zlehčuje opravdovou tíseň?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Jacobových slov se chopíte jako katalyzátoru — okamžitě se obrátíte na oba rodiče a řeknete rázně: ‚Slyšeli jste ho. Pojďme to efektivně uzavřít, aby Jacob mohl pokračovat ve svém večeru. Evo, soudní rozhodnutí je jasné — Jacob jde k otci. Marku, usaďme Jacoba do vašeho auta i s jeho věcmi. Čím rychleji to vyřešíme, tím míň toho musí vidět.' Energicky gestikulujete mezi oběma vozidly a řídíte logistiku přesunu.",
+          "feedback": "Proč: Zní to jako praktická efektivita zaměřená na dítě — zdánlivě přístup orientovaný na dítě. Nicméně využívá Jacobovu zranitelnou chvíli jako nástroj k urychlení procesu místo toho, aby řešil jeho emoční potřeby. Dítě promluvilo a hledalo útěchu a ujištění; místo toho jsou jeho slova přesměrována k nátlaku na dospělé k rychlé transakci. Jacob se naučí, že promluvit vede k tomu, že ho ignorují, zatímco dospělí dělají to, co plánovali. | DŮSLEDKY: Jacobova tíseň se prohlubuje — vyjádřil pocit a dostal logistický plán. Eve se cítí tlačena rychlostí a její zdravotní obavy zůstávají neřešeny. ‚Efektivní' řešení je křehké a neřeší ničí základní obavy. | Reflexe: Když je emoční chvíle dítěte využita jako důvod k urychlení místo k pozastavení, co se dítě naučí o hodnotě vyjadřování pocitů?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Pohlédnete na Jacoba a dáte mu krátké přikývnutí: ‚Vydrž, ano, kamaráde?' Pak se okamžitě otočíte zpět k Eve a ztišíte hlas do věcného tónu: ‚Opravdu to teď musíme vyřešit. Škola se brzy zavírá a nemůžeme tady zůstat věčně. Napadá vás nějaký způsob, jak to dnes zvládnout — nějaké uspořádání, které by zohlednilo vaše obavy a zároveň dostalo Jacoba tam, kam potřebuje?' Pro důraz poklepete na hodinky.",
+          "feedback": "Proč: Krátké uznání je lepší než dítě zcela ignorovat. Ale je to odmítavé vůči opravdovému emočnímu okamžiku — Jacob nashromáždil odvahu promluvit a dvousekundová odpověď signalizuje, že jeho pocity nejsou pro dospělé v pozici odpovědnosti důležité. Okamžité přesměrování zpět na logistiku posiluje dítěti pocit neviditelnosti. | DŮSLEDKY: Jacob se stáhne a cítí se ignorován. Je méně pravděpodobné, že znovu vyjádří své pocity. Kritické okno pro navázání spojení se zavře. Břemeno řešení je položeno zcela na matku. | Reflexe: Když dítě během krize promluví, co ho vaše reakce naučí o hodnotě jeho hlasu?",
+          "type": "neutral",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Otcovo ultimátum",
+      "sceneUpdate": {
+        "emoji": "⚡",
+        "title": "Dochází trpělivost",
+        "desc": "Mark už nechce čekat. Přichází od služebního vozu, zaťatá čelist, mobil v ruce. Řeč těla je napjatá — stažená ramena, rychlé kroky, ukazující prst."
+      },
+      "npcDialogue": [
+        {
+          "character": "father",
+          "text": "Už jsem čekal dost dlouho! Evidentně straníte jí — pokaždé to samé. Volám právníka a podávám stížnost na vás. Pokud můj syn nebude za pět minut v mém autě, vezmu si ho sám."
+        }
+      ],
+      "prompt": "Otec eskaluje, obviňuje vás ze zaujatosti a hrozí, že si věci vyřídí sám. Jak odpovíte?",
+      "options": [
+        {
+          "text": "Vykročíte Markovi vstříc s otevřenými dlaněmi a řeknete: ‚Marku, rozumím vaší frustraci a respektuji vaše právní nároky — četl jsem to rozhodnutí a vím, co říká. Ale hrozit, že si Jacoba vezmete silou, vaší věci nepomůže — mohlo by to naopak dát Evině právníkovi munici proti vám u soudu. Pojďme najít řešení, které nechá všechny v dobré pozici. Jsem blízko k vyřešení — dejte mi ještě pár minut na práci s ní.'",
+          "feedback": "Proč: Dobrá kombinace uznání a jasného vymezení hranic. Nicméně ‚nepomůže vaší věci' rámuje interakci v právních a nepřátelských termínech, což může Marka držet v bojovém režimu místo přesunu ke spolupráci. ‚Všechny v dobré pozici' může působit, jako byste ředili jeho legitimní právní nárok. | DŮSLEDKY: Mark se pozastaví, ale jeho základní frustrace z vnímaného vzorce obstrukcí zůstává neřešena. Spolupracuje neochotně, ale zůstává nedůvěřivý. | Reflexe: Jak nastavíte hranice, aniž byste používali jazyk, který druhého udržuje v nepřátelském nastavení?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Zvednete ruku a řeknete stroze: ‚Pane, musíte se uklidnit. Dělám svou práci a nařčení z podjatosti si nezasloužím.' Zkřížíte paže a zpevníte postoj. ‚Chcete-li volat právníka, prosím, to je vaše právo. Ale dítě si silou vzít nemůžete — to by pro vás vytvořilo úplně jinou právní situaci. Teď se prosím vraťte k mému vozu a počkejte, než dokončím rozhovor s matkou.'",
+          "feedback": "Proč: Fakticky správně a nastavuje nutnou hranici. Nicméně ‚musíte se uklidnit' je široce uznáván jako jedna z nejvíce kontraproduktivních frází v deeskalaci — zneplatňuje emoce daného člověka a naznačuje, že jedná iracionálně. Často vyvolá přesný opak zamýšleného účinku. | DŮSLEDKY: Mark dále eskaluje: ‚Neříkejte mi, abych se uklidnil!' Situace se zhoršuje. Ztratili jste vztah a přiblížili se fyzické konfrontaci. | Reflexe: Proč ‚uklidněte se' téměř nikdy nevyvolá klid?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Postavíte se Markovi přímo do cesty a řeknete klidným, jistým hlasem: ‚Marku, nezapomněl jsem na vás ani na soudní rozhodnutí — beru to vážně a pracuji na tom, aby k předání dnes došlo. Potřeboval jsem vyslechnout obě strany, což je standardní postup. Mluvil jsem s Evou a jsem blízko řešení. Ale kdybyste si Jacoba vzal sám, vznikne policejní záležitost tam, kde žádná teď není, a to by mohlo ublížit vaší pozici ohledně péče. Pojďme to udělat správně.'",
+          "feedback": "Proč: Přímo řeší jeho hlavní obavu — že byl zapomenut a že jste zaujatý. Znovu potvrzuje právní platnost jeho pozice bez výhrad. Vysvětluje postup transparentně. Varování před fyzickým jednáním je rámováno jako ochrana jeho zájmů, ne jako hrozba z vaší strany. Fráze ‚správně' apeluje na jeho touhu po spravedlnosti. | DŮSLEDKY: Markův hněv výrazně opadne. Cítí se vyslyšen, respektován a přesvědčen, že předání proběhne. Odloží telefon. | Reflexe: Jak rámování důsledků jako vlastního zájmu místo hrozeb mění něčí ochotu spolupracovat?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Vstoupíte Markovi přímo do cesty a rezolutně ukážete směrem ke služebnímu vozu: ‚Pokud přistoupíte k tomu autu nebo se pokusíte vzít dítě, budu muset fyzicky zasáhnout. Okamžitě ustupte k mému vozu.' Vaše ruka se přesouvá k opasku a rozkročíte se do širšího postoje — celá interakce se z rodinné mediace mění na policejní konfrontaci. Markovi oči sklouznou k vaší ruce a jeho čelist se zatíná. Na parkovišti se rozhostí napjaté ticho.",
+          "feedback": "Proč: Čistě represivní reakce. Zatímco vymezení bezpečnostní hranice je nutné při bezprostřední fyzické hrozbě, skok k naznačené fyzické konfrontaci, když Mark zatím eskaluje pouze verbálně, mění rodinný spor v policejní konfrontaci. Zcela ignoruje jeho emoční stav, jeho legitimní právní pozici a jeho strach ze ztráty času se synem. | DŮSLEDKY: Mark buď neochotně ustoupí — později podá stížnost a při budoucích předáních bude méně spolupracovat — nebo vás fyzicky vyzve. V obou případech Jacob vidí, jak je jeho otec ohrožován strážníkem. | Reflexe:V jakém okamžiku verbální výhrůžka opravňuje k fyzickému zásahu a jaké jsou náklady na předčasný zásah?",
+          "type": "negative",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Usnadnění řešení",
+      "sceneUpdate": {
+        "emoji": "🔑",
+        "title": "Cesta vpřed",
+        "desc": "Oba rodiče na vás vyčkávavě hledí. Hádka ochladla, ale nic není vyřešeno. Jacob přestal plakat, ale úzkostně sleduje skrz okénko auta. Blíží se školní strážník."
+      },
+      "npcDialogue": [
+        {
+          "character": "security",
+          "text": "Strážníku, škola se za patnáct minut zavírá. Potřebujeme uvolnit parkoviště."
+        }
+      ],
+      "prompt": "Časový tlak roste. Jak dosáhnete řešení?",
+      "options": [
+        {
+          "text": "Obrátíte se k Eve a řeknete věcným tónem: ‚Soudní rozhodnutí říká, že Jacob jde tento víkend k otci. Evo, doporučuji vám, abyste rozhodnutí dodržela — bránit se mu tady nic nezmění na právní realitě a mohlo by vám to způsobit komplikace. Pokud se domníváte, že by uspořádání mělo být změněno, můžete v pondělí podat návrh k soudu. Pojďme teď sbalit Jacobovy věci a udělat z předání co nejhladší záležitost.' Gestem ukážete směrem k autu.",
+          "feedback": "Proč: Právně přesné a procesně správné. Nicméně strohý pokyn ‚dodržet' působí donucovacím dojmem a redukuje matku na někoho, kdo musí poslechnout, místo na rodiče s legitimními obavami. Odkaz na soudní akci v pondělí působí vzdáleně a nepomocně pro její současný emoční stav. Není žádný plán pro přechod dítěte ani jeho zdravotní potřeby. | DŮSLEDKY: Eve předá Jacoba s nelibostí. Předání proběhne, ale špatně — Jacob vnímá matčinu tíseň. Nebyl postaven žádný most pro budoucí předávání. Příští bude stejně špatné nebo horší. | Reflexe: Je ‚úspěšné' předání takové, při kterém dítě fyzicky přechází z ruky do ruky, nebo takové, kdy se dítě během přechodu cítí v bezpečí?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Přivoláte oba rodiče na doslech a řeknete: ‚Navrhuji následující. Evo, zapsala byste Jacobovy příznaky, jeho léky a dávkování a telefonní číslo na pediatra pro Marka? Marku, byl byste ochoten poslat Eve večer SMSku s aktualizací, jak se Jacob cítí — třeba s fotkou? Jacob tak stráví víkend s tátou podle soudního rozhodnutí a oba budete vědět, že je o něj postaráno.' Pak si dřepnete k Jacobovi: ‚Maminka dá tatínkovi všechny informace o tvých lécích, takže o tebe bude dobře postaráno.'",
+          "feedback": "Proč: Kreativní řešení problémů, které reaguje na opravdové zdravotní obavy matky, respektuje právní nároky otce a dává oběma rodičům aktivní a důstojnou roli. Mění konflikt z dynamiky výhra/prohra na spolupracující rodičovství. Přímé ujištění dítěte mu ukazuje, že dospělí našli řešení společně. Konkrétní, specifické kroky to dělají proveditelným místo vágním. | DŮSLEDKY: Eve souhlasí — sepsání zdravotních informací jí dává pocit kontroly a účelu. Mark souhlasí s SMSovými aktualizacemi — malý ústupek, který ho nic nestojí. Jacob vidí své rodiče spolupracovat dnes poprvé. Předání proběhne hladce. | Reflexe: Jak dávání konstruktivního úkolu oběma stranám směřuje jejich energii pryč od konfliktu?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Zvednete obě ruce a uděláte krok zpět: ‚Podívejte, chápu, že je to pro vás oba těžké, ale nemohu nikoho z vás k ničemu nutit — jde o občanskoprávní záležitost, ne trestní. Musíte si to vyřešit mezi sebou, nebo to v pondělí vrátit k soudu. Udělal jsem všechno, co jsem mohl.' Vytáhnete poznámkový blok, zapíšete číslo události a každému rodiči podáte kopii — signalizujete, že vaše zapojení dosáhlo svého limitu a cokoliv bude dál, je mezi nimi.",
+          "feedback": "Proč: Zbavení se zodpovědnosti v kritickém okamžiku. Zatímco policie má omezenou pravomoc v občanských věcech péče o dítě, stažení se od sporu s přítomným vystresovaným dítětem je selháním povinnosti. ‚Udělal jsem všechno, co jsem mohl' signalizuje, že jste přestali investovat úsilí, což nechává oba rodiče s pocitem, že byli opuštěni jedinou neutrální stranou. | DŮSLEDKY: Hádka se znovu roznítí ve chvíli, kdy odejdete. Školní strážník zavolá 911 znovu do dvaceti minut. Jacob projde dalším kolem rodičovského konfliktu. Vaše intervence nic nepřinesla. | Reflexe: Jaký je rozdíl mezi ‚nemohu nikoho nutit' a ‚nemohu vůbec pomoct'?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Obrátíte se na oba rodiče a navrhnete kompromis: ‚Mark má soudní rozhodnutí, takže předání by mělo proběhnout dnes — v tom je jasno. Ale Evo, co kdyby Mark souhlasil, že vezme Jacoba k lékaři nebo na pohotovost, pokud se mu o víkendu příznaky zhorší? Marku, šlo by to? Řešilo by to Evinu obavu o Jacobovo zdraví a zároveň by platil rozvrh, který soud stanovil.' Díváte se střídavě z jednoho na druhého a čekáte na odpovědi.",
+          "feedback": "Proč: Pokouší se o kompromis a řeší matkou uvedenou obavu. Nicméně implicitně podmiňujete soudem nařízené předání tím, že otec přijme další podmínky, což překračuje vaši roli a podkopává právní rámec. Pokud Mark odmítne, vytvořili jste nový bod konfliktu. Pokud souhlasí pod tlakem, může to nesnášet. | DŮSLEDKY: Mark může neochotně souhlasit nebo odmítnout z principu. V obou případech jste se nechtěně postavili do role vyjednavače, který znovu projednává podmínky péče — role, která náleží soudům. Precedent může povzbudit více obstrukčního chování při budoucích předáních. | Reflexe: Kde je hranice mezi usnadněním řešení a znovuvyjednáním soudního rozhodnutí?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Vyhodnocení a odhalení",
+      "sceneUpdate": {
+        "emoji": "🏁",
+        "title": "Výcvikový debrief",
+        "desc": "Zpět na stanici. Seržant Davis hodnotí váš výkon v této složité intervenci při předávání dítěte."
+      },
+      "npcDialogue": [],
+      "prompt": "",
+      "options": [],
+      "dialogueSequence": [
+        {
+          "character": "trainer",
+          "text": "Předávání dítěte jsou jedny z emocionálně nejzatěžovanějších volání, která kdy budete řešit. Oba rodiče přicházejí s přesvědčením, že ten rozumný je on a ten druhý je překážka. Vaší prací není s někým souhlasit — je to dosáhnout toho, aby oba upřímně věřili, že je vidíte jako lidi, ne jako problémy. To je to, co neutralita skutečně znamená. Neznamená zacházet s oběma rodiči stejně. Znamená, že se oba rodiče cítí viděni."
+        },
+        {
+          "character": "officer",
+          "text": "Nejtěžší chvíle byla, když mě Mark obvinil ze stranění Eve. Strávil jsem s ní sotva dvě minuty a on už byl přesvědčený, že jsem zaujatý. Měl jsem pocit, že ať udělám cokoliv, jeden z nich mě bude vnímat jako nepřítele."
+        },
+        {
+          "character": "trainer",
+          "text": "Ten pocit je ta práce. A chyba, kterou dělá většina strážníků, je snažit se to vyřešit tím, že budou dokonale symetričtí — stejný čas s každým rodičem, stejný tón, stejná slova. To je mechanická neutralita a lidé ji prohlédnou. Skutečná neutralita není o tom zacházet s oběma rodiči identicky — jde o to, aby oba rodiče věřili, že je vidíte jako lidské bytosti s legitimními obavami. Mark potřeboval slyšet, že na jeho soudním rozhodnutí záleží. Eve potřebovala slyšet, že na jejím strachu o Jacobovo zdraví záleží. Jacob potřeboval slyšet, že nic z toho není jeho chyba. Když jste oslovili všechny tři potřeby, nevybírali jste si stranu — udělal jste jedinou věc, která opravdu funguje."
+        },
+        {
+          "character": "trainer",
+          "text": "Kreativní řešení — poznámky o lécích, SMS aktualizace, přímé zapojení Jacoba — dosáhlo něčeho, co žádný donucovací zásah nedokáže. Dalo oběma rodičům úkol, který po nich vyžadoval spolupracovat místo soutěžit. To je rozdíl mezi vyřešením sporu a zasazením semínka. To, co jste udělal na tom parkovišti, nevyřešilo jen jedno páteční odpoledne. Změnilo to způsob, jakým dva rodiče komunikují do budoucna. Nechte mě vám říct, co se stalo potom."
+        }
+      ]
+    }
+  ],
+  "characters": {
+    "dispatcher": {
+      "name": "Dispečink",
+      "avatar": "📻"
+    },
+    "father": {
+      "name": "Mark (otec)",
+      "avatar": "😤"
+    },
+    "mother": {
+      "name": "Eve (matka)",
+      "avatar": "😰"
+    },
+    "child": {
+      "name": "Jacob (dítě, 7 let)",
+      "avatar": "👦"
+    },
+    "security": {
+      "name": "Školní strážník",
+      "avatar": "🔒"
+    },
+    "officer": {
+      "name": "Vy (strážník)",
+      "avatar": "👮"
+    },
+    "trainer": {
+      "name": "Seržant Davis",
+      "avatar": "👮‍♂️"
+    }
+  },
+  "performanceReviews": {
+    "perfect": {
+      "title": "Vynikající mediace!",
+      "emoji": "🌟",
+      "feedback": "Prokázali jste výjimečnou neutralitu, empatii a schopnost řešit problémy pod tlakem. Vaše schopnost uznat oba rodiče a zároveň upřednostnit emoční pohodu dítěte je přesně to, co tato situace vyžaduje. Kreativní řešení, které jste usnadnili, zasadilo semínko pro zdravější budoucí předávání. Učebnicový výkon."
+    },
+    "good": {
+      "title": "Silný výkon",
+      "emoji": "✅",
+      "feedback": "Zvládli jste složitou třístrannou situaci dobře, udrželi jste rozumnou neutralitu a dosáhli použitelného výsledku. Některé příležitosti k hlubší empatii nebo kreativnějšímu řešení problémů byly promarněny, ale celkový přístup byl profesionální a účinný."
+    },
+    "average": {
+      "title": "Adekvátní reakce",
+      "emoji": "📊",
+      "feedback": "Vyřešili jste bezprostřední situaci, ale zmeškali jste několik příležitostí k opravdové deeskalaci a budování vztahu. Emoční potřeby dítěte nemusely být plně osloveny. Projděte si techniky aktivního naslouchání, kreativní mediace a komunikace citlivé k dětem."
+    },
+    "poor": {
+      "title": "Vyžaduje výrazné zlepšení",
+      "emoji": "⚠️",
+      "feedback": "Váš přístup prokázal zřetelnou zaujatost vůči jedné straně, spíše eskaloval než snižoval napětí a nedostatečně řešil emoční tíseň dítěte. Ve sporech o předání dítěte vnímaná nespravedlnost ze strany strážníka často zhoršuje budoucí předávání. Projděte si principy neutrality, deeskalaci založenou na empatii a dopad rodičovského konfliktu na děti."
+    }
+  },
+  "metrics": {
+    "neutrality": {
+      "name": "Nestrannost a neutralita",
+      "description": "Udržování viditelné spravedlnosti vůči oběma stranám bez upřednostňování pozice jednoho rodiče",
+      "icon": "⚖️"
+    },
+    "rapport": {
+      "name": "Vztah a důvěra",
+      "description": "Budování důvěry prostřednictvím aktivního naslouchání, používání jmen a empatické komunikace",
+      "icon": "🤝"
+    },
+    "emotional": {
+      "name": "Emoční inteligence",
+      "description": "Rozpoznávání a vhodná reakce na emoce všech stran včetně dítěte",
+      "icon": "💚"
+    },
+    "procedure": {
+      "name": "Procesní a právní povědomí",
+      "description": "Chápání omezení policie v občanskoprávních záležitostech a odpovídající řízení očekávání",
+      "icon": "📋"
+    },
+    "childwelfare": {
+      "name": "Přístup zaměřený na dítě",
+      "description": "Upřednostňování emoční bezpečnosti dítěte, snižování jeho vystavení konfliktu a pocitům viny",
+      "icon": "🛡️"
+    }
+  }
+}

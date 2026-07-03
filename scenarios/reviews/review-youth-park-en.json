@@ -1,0 +1,623 @@
+{
+  "scenarioId": "youth-park",
+  "reviewVersion": "1.0",
+  "title": "Deep Analysis — Youth in the Park",
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Phase 1 — Arrival at the Park",
+      "criticalSkills": [
+        "De-escalation",
+        "Transparency",
+        "Community communication"
+      ],
+      "choiceAnalysis": {
+        "negative": {
+          "choiceText": "'(Short siren blast) Police! Stop that immediately!'",
+          "failures": [
+            "Unnecessarily threatening entrance for a verbal conflict",
+            "Triggers shock and defensiveness."
+          ],
+          "consequences": "Group resistance grows and your legitimacy weakens.",
+          "trainingFocus": "When should you not use the siren and how else can you make your presence known?"
+        },
+        "positive": {
+          "choiceText": "'This is the city police. Can we have a word?'",
+          "strengths": [
+            "A low-key entrance reduces tension, preserves dignity, and opens dialogue."
+          ],
+          "professionalImpact": "The group notices your presence without panic. They'll be more willing to cooperate going forward."
+        },
+        "neutral": {
+          "choiceText": "Wait at a distance, call for backup 'just in case,' then approach.",
+          "adequate": [
+            "Caution is legitimate, but for a verbal dispute it can come across as premature criminalization."
+          ],
+          "missed": [
+            "When is backup an asset and when is it a burden?"
+          ],
+          "improvement": "When is backup an asset and when is it a burden?"
+        },
+        "partially_positive": {
+          "choiceText": "Approach slowly on foot, making yourself visible from a distance, then say:",
+          "adequate": [
+            "Making yourself visible before speaking avoids the surprise factor",
+            "Introducing yourself by name is strong rapport-building",
+            "Asking 'mind if I come over?' models consent and respect"
+          ],
+          "missed": [
+            "Casual tone may understate the urgency of two boys in a physical standoff",
+            "The confrontation between Krystof and Jarda continues for another half-minute while you approach without urgency",
+            "Balance between approachability and timely intervention was slightly off"
+          ],
+          "improvement": "When a physical confrontation is imminent, adjust your pace and directness to match the urgency — approachability is valuable but should not delay intervention when violence is seconds away."
+        }
+      }
+    },
+    "2": {
+      "stageName": "Phase 2 — First Contact and Transparency",
+      "criticalSkills": [
+        "De-escalation",
+        "Transparency",
+        "Community communication"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "'Good afternoon, I'm Officer Norton. I received a report about loud music and an argument. I want things to be calm and everyone to be okay. Can you tell me what's going on here?'",
+          "strengths": [
+            "Transparency + acknowledging their right to public space = legitimacy and openness."
+          ],
+          "professionalImpact": "Defensiveness drops; through building trust, willingness to talk increases."
+        },
+        "neutral": {
+          "choiceText": "'Good afternoon, tell me what's going on here and why you're arguing.'",
+          "adequate": [
+            "Doesn't escalate, but overlooks their concerns about unfairness."
+          ],
+          "missed": [
+            "How would the relationship with the group change if the reasons for the intervention weren't taken lightly?"
+          ],
+          "improvement": "How would the relationship with the group change if the reasons for the intervention weren't taken lightly?"
+        },
+        "negative": {
+          "choiceText": "'I'm here because of a report about loud music and an argument. Don't try anything with me — I'm the one asking questions.'",
+          "failures": [
+            "Authoritarian tone increases resistance and confirms stereotypes."
+          ],
+          "consequences": "Closes the path to dialogue and overall opposition from the group grows.",
+          "trainingFocus": "How can you respond to 'why' instead of suppressing it?"
+        },
+        "partially_positive": {
+          "choiceText": "'Afternoon. We got a noise complaint and someone mentioned an argument. Look, I'm",
+          "adequate": [
+            "Casual, human tone signals you are not there to punish",
+            "Showing awareness that police presence can feel intrusive",
+            "Mentioning the complaint gives context for your presence"
+          ],
+          "missed": [
+            "Did not give your name, keeping you anonymous and less trustworthy",
+            "Did not explicitly acknowledge their right to be in the park",
+            "The approach works but lacks the full transparency that builds genuine rapport"
+          ],
+          "improvement": "Add your name and explicitly acknowledge their right to public space — full transparency requires name, reason, and intention, not just a casual tone."
+        }
+      }
+    },
+    "3": {
+      "stageName": "Phase 3 — Stopping the Argument from Escalating",
+      "criticalSkills": [
+        "De-escalation",
+        "Transparency",
+        "Community communication"
+      ],
+      "choiceAnalysis": {
+        "neutral": {
+          "choiceText": "Step between them with open palms: 'Let's give each other some space. You here, you there. I'll listen to you one at a time.'",
+          "adequate": [
+            "Safe spatial management",
+            "Lacks emotional work."
+          ],
+          "missed": [
+            "What could you add to achieve emotional calming as well?"
+          ],
+          "improvement": "What could you add to achieve emotional calming as well?"
+        },
+        "negative": {
+          "choiceText": "'That's enough. If you don't stop, you're coming with me to the station.'",
+          "failures": [
+            "Threat silences but builds resentment and shame."
+          ],
+          "consequences": "Short-term calm, but builds long-term resentment within the group.",
+          "trainingFocus": "Why do threats fail with young people?"
+        },
+        "positive": {
+          "choiceText": "'Guys, I can see you're both upset — and I can tell this matters. Krystof, the video being shared again makes this worse, I get that. Jarda, I hear you too. But we're not doing this with fists. (To Mrs. Kovářová) Ma'am, I'm handling this — please give me a few minutes.'",
+          "strengths": [
+            "Using names, validation, and a fair framework move the conflict into words",
+            "Acknowledging the video being re-shared shows understanding of the digital dimension of humiliation",
+            "Briefly acknowledging Mrs. Kovářová without letting her dictate the approach manages community pressure without losing focus",
+            "The promise of equal time addresses the fairness instinct that is hypersensitive at this age"
+          ],
+          "professionalImpact": "Krystof's fists unclench — someone understood that the video being shared again is part of the problem. Mrs. Kovářová, having been acknowledged, steps back. The shouting subsides, you gain both facts and trust."
+        },
+        "partially_positive": {
+          "choiceText": "Step between them with open palms: 'Okay, that's enough. Let's give each",
+          "adequate": [
+            "Physical positioning between them breaks the escalation geometry",
+            "Open palms signal non-aggression",
+            "Clear directions for separation reduce ambiguity"
+          ],
+          "missed": [
+            "Addressed the physical risk without doing any emotional work",
+            "Separated bodies but did not acknowledge feelings — anger persists under the surface",
+            "Without emotional validation, tension can reignite the moment you step away"
+          ],
+          "improvement": "Combine physical separation with emotional acknowledgment — naming their emotions while creating space addresses both the immediate risk and the underlying tension."
+        }
+      }
+    },
+    "4": {
+      "stageName": "Phase 4 — Root of the Problem and Working with Emotions",
+      "criticalSkills": [
+        "De-escalation",
+        "Transparency",
+        "Community communication"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "'I'm sorry about what you're going through, Krystof. It makes sense that it hit you hard. Jarda, tell him specifically what you're sorry for and what you'll do to make it right.'",
+          "strengths": [
+            "Validation + facilitated apology = deeper reconciliation, learning for the group."
+          ],
+          "professionalImpact": "The apology is genuine, tension drops, the relationship between the boys is restored."
+        },
+        "neutral": {
+          "choiceText": "'Jarda, delete the post and apologize. Krystof, calm down and shake hands.'",
+          "adequate": [
+            "Solves the technical problem but doesn't work with the emotional experience",
+            "Risk of lingering resentment."
+          ],
+          "missed": [
+            "What's missing for a lasting reconciliation?"
+          ],
+          "improvement": "What's missing for a lasting reconciliation?"
+        },
+        "negative": {
+          "choiceText": "'I don't have time for these petty arguments. If you don't start behaving normally, I'll call your parents and deal with it differently.'",
+          "failures": [
+            "Dismissing their pain + threats → shame, resistance, collapse of trust."
+          ],
+          "consequences": "Emotions flare up again, cooperation collapses.",
+          "trainingFocus": "Why does minimizing someone's pain increase the risk of re-escalation?"
+        },
+        "partially_positive": {
+          "choiceText": "'That sounds like it's been really tough, Krystof. Jarda, it's good that you've",
+          "adequate": [
+            "Acknowledged Krystof's pain with genuine empathy",
+            "Identified the practical action needed — deleting the video",
+            "Recognized Jarda's apology as a positive step"
+          ],
+          "missed": [
+            "Rushed past the emotional work that makes reconciliation stick",
+            "Krystof was not given space to respond to the apology",
+            "Jarda was not asked to understand the impact — only to delete the evidence"
+          ],
+          "improvement": "Allow space for the emotional exchange before jumping to practical solutions — ask Jarda to articulate specifically what he is sorry for rather than just fixing the technical problem."
+        }
+      }
+    },
+    "5": {
+      "stageName": "Phase 5 — Noise, Rights, and Expectations",
+      "criticalSkills": [
+        "De-escalation",
+        "Transparency",
+        "Community communication"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "'Eli, you're absolutely right — you have every right to be here, and the park is for everyone. That includes Mrs. Kovářová over there, who also comes here to enjoy her afternoon. Here's what I need: keep the volume at this level or lower, and no more arguments. If you can do that, there's no reason for fines or any further action. Fair?'",
+          "strengths": [
+            "Validates Eli's assertion directly — 'you're absolutely right' — instead of dismissing it",
+            "Explains the competing interest (Mrs. Kovářová) without making the teens the villains",
+            "Expectations are specific and achievable — 'this level or lower'",
+            "'No reason for fines or further action' clarifies the positive consequence of compliance",
+            "Ending with 'Fair?' invites agreement rather than imposing rules, producing voluntary compliance"
+          ],
+          "professionalImpact": "Eli nods. The group accepts the terms because they feel like a negotiation, not a dictation. Mrs. Kovářová hears the exchange and is satisfied. Both parties feel their interests have been respected."
+        },
+        "neutral": {
+          "choiceText": "'Things are fine now, carry on as you like, but no arguments or fights.'",
+          "adequate": [
+            "Doesn't address community needs, doesn't use the teachable moment."
+          ],
+          "missed": [
+            "How do you balance rights and the needs of the surroundings?"
+          ],
+          "improvement": "How do you balance rights and the needs of the surroundings?"
+        },
+        "negative": {
+          "choiceText": "'If I hear about you one more time, I'll fine every one of you.'",
+          "failures": [
+            "Threats instead of explanation → short-term effect, long-term resentment."
+          ],
+          "consequences": "Silent tension, worse relationship going forward.",
+          "trainingFocus": "Why is education more effective than preemptive sanctions?"
+        },
+        "partially_positive": {
+          "choiceText": "'You do have the right to be here. Just keep it reasonable — the",
+          "adequate": [
+            "Acknowledged their right to be in the park",
+            "The core message is correct — they can stay if they keep it reasonable",
+            "Tone is friendly and non-punitive"
+          ],
+          "missed": [
+            "'I don't want to have to come back' is a veiled threat that undercuts the positive tone",
+            "'Reasonable' is vague — different standards for teens vs. retirees",
+            "Did not address Mrs. Kovářová's concern directly, leaving the community side unresolved"
+          ],
+          "improvement": "Set specific, measurable expectations rather than vague standards, and address all stakeholders — not just the group in front of you — to produce a durable agreement."
+        }
+      }
+    },
+    "6": {
+      "stageName": "Phase 6 — Collaborative Solution",
+      "criticalSkills": [
+        "De-escalation",
+        "Transparency",
+        "Community communication"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "'That's a really thoughtful solution — you came up with that yourselves, and it works for everyone. The skate area is a great spot. Let's go with your plan, and I'll swing by in a bit to see how it's working out. Nice work.'",
+          "strengths": [
+            "'You came up with that yourselves' gives them ownership — this is their agreement, not your order",
+            "'It works for everyone' validates that they considered others, not just themselves",
+            "'I'll swing by' provides light accountability without threat — trust with presence",
+            "'Nice work' is specific positive reinforcement that signals responsible behavior is noticed and respected",
+            "Treating teenagers as capable problem-solvers rather than problems to be managed is transformative"
+          ],
+          "professionalImpact": "The group brightens visibly. Eli smiles. They start gathering their things to move. Mrs. Kovářová nods approvingly. The agreement has high durability because it belongs to them."
+        },
+        "negative": {
+          "choiceText": "'We'll do it my way: you can stay here, but the music stays off.'",
+          "failures": [
+            "A rigid approach punishes the effort to compromise."
+          ],
+          "consequences": "Demotivation, lower voluntary cooperation.",
+          "trainingFocus": "When is directiveness necessary and how do you justify it?"
+        },
+        "neutral": {
+          "choiceText": "'Fine, do whatever you think is best — I won't interfere.'",
+          "adequate": [
+            "Hands off responsibility but doesn't acknowledge their effort; weak impact on the relationship."
+          ],
+          "missed": [
+            "Why is acknowledgment important for the sustainability of an agreement?"
+          ],
+          "improvement": "Why is acknowledgment important for the sustainability of an agreement?"
+        },
+        "partially_positive": {
+          "choiceText": "'That could work. Go ahead and try it — but remember, keep it",
+          "adequate": [
+            "Accepted the group's proposal rather than overriding it",
+            "Allowed them to implement their own solution",
+            "Did not impose unnecessarily strict conditions"
+          ],
+          "missed": [
+            "Immediately undercut the proposal with a conditional threat ('different approach')",
+            "'Try it' implies you expect it to fail",
+            "Failed to acknowledge that they generated the solution themselves — a missed opportunity for positive reinforcement"
+          ],
+          "improvement": "When a group offers a reasonable solution, endorse it with genuine praise rather than conditional approval — ownership and positive reinforcement produce more durable compliance than trailing threats."
+        }
+      }
+    },
+    "7": {
+      "stageName": "Phase 7 — Closing on Scene",
+      "criticalSkills": [
+        "De-escalation",
+        "Transparency",
+        "Community communication"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "'Thank you for your cooperation — all of you. Eli, Nela, thanks for talking to me instead of shutting me out. Krystof, I hope things get better for your dad. Jarda, what you did back there took guts. If any of you ever need help — you can ask.'",
+          "strengths": [
+            "Using names personalizes the encounter — they are individuals, not 'a group of teens'",
+            "Acknowledging Krystof's family situation shows you listened and cared",
+            "Praising Jarda's apology reinforces the reconciliation",
+            "Offering future help redefines the police-youth relationship from adversarial to supportive",
+            "'Enjoy your afternoon' returns their day to them"
+          ],
+          "professionalImpact": "Nela smiles. Krystof nods quietly. Jarda looks surprised to be praised. Eli waves. They walk away carrying a fundamentally different experience of police. Trust in the police as a source of help increases."
+        },
+        "negative": {
+          "choiceText": "'Watch out next time, or you'll be getting a fine.'",
+          "failures": [
+            "A scolding tone destroys the trust that was built."
+          ],
+          "consequences": "Bitterness, lower willingness to cooperate next time.",
+          "trainingFocus": "How do you keep your own frustration in check at the end of an intervention?"
+        },
+        "neutral": {
+          "choiceText": "'Alright, this time we'll let it slide, but next time there could be a fine.'",
+          "adequate": [
+            "Clear boundaries without acknowledging their effort."
+          ],
+          "missed": [
+            "When is a warning sufficient and when does it do harm?"
+          ],
+          "improvement": "When is a warning sufficient and when does it do harm?"
+        },
+        "partially_positive": {
+          "choiceText": "'Thanks for working with me on this. You handled it well. Have a",
+          "adequate": [
+            "Warm, appreciative, and genuinely friendly closing",
+            "Positive reinforcement acknowledging their maturity",
+            "Tone matches the situation — casual and respectful"
+          ],
+          "missed": [
+            "Did not address individuals — particularly Krystof, who shared something deeply personal",
+            "Jarda's difficult step of apologizing went unrecognized",
+            "Generic group acknowledgment instead of individual recognition that carries enormous weight with teenagers"
+          ],
+          "improvement": "Invest an extra thirty seconds in individual recognition — addressing each person by name and acknowledging their specific contribution turns a positive interaction into a memorable one."
+        }
+      }
+    }
+  },
+  "comprehensiveMetrics": {
+    "youthEngagement": {
+      "description": "Overall quality of verbal and non-verbal communication",
+      "indicators": {
+        "excellent": [
+          "Active listening demonstrated consistently",
+          "Appropriate tone for each situation",
+          "Clear, concise information delivery",
+          "Effective use of silence and patience"
+        ],
+        "poor": [
+          "Interrupting or talking over parties",
+          "Aggressive or dismissive tone",
+          "Confusing or contradictory messages",
+          "Failure to read non-verbal cues"
+        ]
+      }
+    },
+    "proceduralFairness": {
+      "description": "Adherence to legal and departmental requirements",
+      "indicators": {
+        "excellent": [
+          "Compliance with all legal requirements",
+          "Proper documentation",
+          "Activation of appropriate services",
+          "Maintaining safety protocols"
+        ],
+        "poor": [
+          "Missed mandatory reporting",
+          "Failure to follow safety procedures",
+          "Ignoring legal requirements",
+          "Incomplete or no documentation"
+        ]
+      }
+    },
+    "emotionalIntelligence": {
+      "description": "Ability to recognize and respond to emotions",
+      "indicators": {
+        "excellent": [
+          "Accurate recognition of emotional states",
+          "Responding with appropriate empathy",
+          "Managing own emotional reactions",
+          "De-escalation through emotional validation"
+        ],
+        "poor": [
+          "Overlooking obvious emotional distress",
+          "Responding with judgment or criticism",
+          "Letting personal feelings influence the response",
+          "Escalation through emotional invalidation"
+        ]
+      }
+    },
+    "proportionateResponse": {
+      "description": "Awareness and respect for cultural factors",
+      "indicators": {
+        "excellent": [
+          "Recognizing cultural dynamics",
+          "Showing respect for family structure",
+          "Avoiding cultural assumptions",
+          "Appropriate adjustment of approach"
+        ],
+        "poor": [
+          "Creating cultural stereotypes",
+          "Ignoring cultural factors",
+          "Imposing own cultural values",
+          "Showing cultural insensitivity"
+        ]
+      }
+    },
+    "communityRelations": {
+      "description": "Quality of engagement with community stakeholders and long-term relationship building",
+      "indicators": {
+        "excellent": [
+          "Balancing needs of all parties present",
+          "Building trust through transparent communication",
+          "Acknowledging community concerns respectfully",
+          "Leaving a positive lasting impression"
+        ],
+        "poor": [
+          "Ignoring community stakeholder concerns",
+          "Favoring one party over others",
+          "Dismissive attitude toward public concerns",
+          "Damaging long-term police-community trust"
+        ]
+      }
+    }
+  },
+  "mistakePatterns": {
+    "escalation": {
+      "pattern": "Choices that increased tension",
+      "examples": [
+        "Aggressive entry",
+        "Accusations",
+        "Threats"
+      ],
+      "impact": "Each escalation makes resolution harder and increases the risk of violence",
+      "correction": "Practice calm presence and non-threatening communication"
+    },
+    "missingCues": {
+      "pattern": "Failure to recognize critical indicators",
+      "examples": [
+        "Suicide risk",
+        "Child trauma",
+        "Power dynamics"
+      ],
+      "impact": "Overlooking cues can lead to tragic outcomes",
+      "correction": "Develop systematic assessment skills and observation techniques"
+    },
+    "judgmental": {
+      "pattern": "Imposing personal values or criticism",
+      "examples": [
+        "Scolding",
+        "Moralizing",
+        "Blaming"
+      ],
+      "impact": "Judgment destroys trust and prevents disclosure",
+      "correction": "Maintain professional neutrality and focus on safety"
+    },
+    "procedural": {
+      "pattern": "Over-reliance on procedure without humanity",
+      "examples": [
+        "Robotic responses",
+        "Checklist approach",
+        "No empathy"
+      ],
+      "impact": "Reduces compliance and overlooks critical information",
+      "correction": "Balance procedure with human connection"
+    }
+  },
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Excellent performance! You demonstrated exceptional communication skills during this complex scenario. Your ability to balance empathy with enforcement, recognize the emotional dynamics, and provide comprehensive support while maintaining safety shows mastery of modern policing principles. Your approach built genuine trust with the youth group.",
+      "mostlyPositive": "Strong overall performance with excellent crisis management skills. You showed good emotional intelligence and made mostly correct decisions. Key strength: [SPECIFIC_STRENGTH]. Area for growth: [SPECIFIC_IMPROVEMENT]. Your compassionate approach truly made a difference for this group.",
+      "mixed": "You handled some aspects well but missed critical opportunities. Strengths included [SPECIFIC_STRENGTHS]. However, [SPECIFIC_WEAKNESSES] need attention. Remember that interactions with youth require balancing authority with respect and understanding. Review [TRAINING_AREAS] to improve your response.",
+      "mostlyNegative": "This scenario revealed significant gaps in crisis communication skills. While you [MINOR_POSITIVE], most of your choices escalated tension or overlooked critical emotional needs. Specifically, [MAJOR_FAILURES]. Immediate training recommended in: [CRITICAL_TRAINING]. These situations shape young people's long-term relationship with police.",
+      "allNegative": "Your approach during this scenario was concerning and potentially counterproductive. Consistent escalation, overlooked emotional needs, and lack of empathy could have led to lasting distrust. Mandatory corrective training required in: crisis intervention, de-escalation techniques, and emotional intelligence. Remember: your communication shapes how youth view the police for years to come."
+    }
+  },
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "'I understand this is personal, but we're here because someone might be in danger.'",
+      "'I'm sorry you're going through this. It sounds overwhelming, but your family needs you.'",
+      "'Hey, you're not in trouble. We're here to help everyone be safe.'",
+      "'You mentioned being afraid. I'm listening. Can you tell me more?'"
+    ],
+    "poorPhrases": [
+      "'Stop right there. Who's yelling and why?'",
+      "'Don't behave like that with a child here!'",
+      "'Don't be so dramatic. Pull yourself together.'",
+      "'I don't know, that's for the courts.'"
+    ],
+    "analysisCriteria": {
+      "tone": "Was it appropriate for the emotional context?",
+      "clarity": "Was the message clear and unambiguous?",
+      "empathy": "Did it acknowledge feelings and show understanding?",
+      "effectiveness": "Did it achieve the intended outcome?",
+      "safety": "Did it prioritize everyone's safety?"
+    }
+  },
+  "scenarioSpecificLessons": {
+    "1": "The initial approach in the park affects youth cooperation.",
+    "2": "A transparent explanation of the reason for the intervention builds trust.",
+    "3": "De-escalation and active listening are more effective than threats.",
+    "4": "Validating emotions and guiding toward an apology support reconciliation.",
+    "5": "Clear expectations about noise lead to voluntary compliance.",
+    "6": "A jointly found solution increases the group's commitment.",
+    "7": "A positive closing strengthens the youth–police relationship."
+  },
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Advanced crisis negotiation",
+        "Training others in de-escalation",
+        "Specialized family crisis team"
+      ],
+      "good": [
+        "Extended mental health response",
+        "Advanced domestic violence dynamics",
+        "Child psychology in crisis"
+      ],
+      "average": [
+        "Basic crisis intervention",
+        "Active listening skills",
+        "Emotional intelligence development"
+      ],
+      "poor": [
+        "Mandatory de-escalation training",
+        "Crisis intervention certification",
+        "Empathy and communication workshop",
+        "Domestic violence response protocol"
+      ]
+    }
+  },
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Overall Performance Summary",
+        "content": [
+          "Score",
+          "Performance level",
+          "Key strengths",
+          "Critical weaknesses"
+        ]
+      },
+      {
+        "title": "Step-by-Step Analysis",
+        "content": [
+          "Choice made",
+          "Impact",
+          "Alternative approaches",
+          "Learning points"
+        ]
+      },
+      {
+        "title": "Communication Effectiveness",
+        "content": [
+          "Best moments",
+          "Missed opportunities",
+          "Dialogue analysis"
+        ]
+      },
+      {
+        "title": "Critical Decision Points",
+        "content": [
+          "Mental health recognition",
+          "Child safety",
+          "Legal resolution"
+        ]
+      },
+      {
+        "title": "Pattern Analysis",
+        "content": [
+          "Consistent strengths",
+          "Recurring mistakes",
+          "Decision-making trends"
+        ]
+      },
+      {
+        "title": "Professional Development",
+        "content": [
+          "Immediate training needs",
+          "Long-term skill development",
+          "Recommended resources"
+        ]
+      },
+      {
+        "title": "Real-World Application",
+        "content": [
+          "How this translates to fieldwork",
+          "Common scenarios",
+          "Best practices"
+        ]
+      }
+    ]
+  }
+}

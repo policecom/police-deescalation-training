@@ -1,0 +1,660 @@
+{
+  "scenarioId": "domestic-crisis",
+  "reviewVersion": "1.0",
+  "title": "Namų konfliktas su psichikos sveikatos krize \u2014 veiklos analiz\u0117",
+
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Išsiuntimas ir atvykimas",
+      "criticalSkills": ["Pradinis įvertinimas", "Pirmas įspūdis", "Saugumo sąmoningumas"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Trumpai paklausyti prie durų, tada švelniai pasibelsti: \u201ePolicija. Esame čia padėti. Ar galiu užeiti pasikalbėti?\u201c",
+          "strengths": [
+            "Surinko situacinę informaciją prieš įsitraukdamas",
+            "Negrėsmingas pirminis kontaktas sukūrė pasitikėjimą",
+            "Parodė kantrybę ir profesionalumą",
+            "Nuo pat pradžių sukūrė ramią atmosferą"
+          ],
+          "professionalImpact": "Jūsų apgalvotas požiūris greičiausiai išvengė eskaliacijos ir nustatė bendradarbiavimo toną visai interakcijai."
+        },
+        "neutral": {
+          "choiceText": "Tvirtai pasibelsti ir paskelbti: \u201ePolicija, labas vakaras, prašau atidaryti duris.\u201c",
+          "adequate": [
+            "Laikėsi pagrindinės procedūros",
+            "Pranešė apie savo buvimą"
+          ],
+          "missed": [
+            "Nesurinkta informacija prieš kontaktą",
+            "Praleista galimybė įvertinti grėsmės lygį",
+            "Standartinis požiūris neparodė deeskalacijos įgūdžių"
+          ],
+          "improvement": "Apsvarstykite galimybę pasiklausyti prieš belsdami. Informacijos rinkimas yra lemiamas pareigūno saugumui ir taktiniams sprendimams."
+        },
+        "negative": {
+          "choiceText": "Tvirtai pasibelsti ir autoritetingai paskelbti: \u201ePolicija \u2014 turime patvirtinti visų saugumą. Atidarykite duris dabar, prašau. Laikas svarbus.\u201c",
+          "failures": [
+            "Projektuotas skubumas prieš įvertinant situaciją viduje",
+            "Importuotas pareigūno adrenalinas į namų aplinką",
+            "Gyventojai priversti į paklusnumo arba pasipriešinimo dvimatę erdvę",
+            "Perimta tarpdurio kontrolė, bet prarasta emocinės aplinkos kontrolė"
+          ],
+          "consequences": "Jūsų skubumu paremtas požiūris privertė paklusti, bet sukėlė nerimą abiem suaugusiems ir sustiprino vaiko sunkumą prieš turint bet kokį situacinį suvokimą.",
+          "trainingFocus": "Praktikuokite skirtumą tarp tikro taktinio skubumo ir projektuojamo skubumo. Įvertinkite prieš priimdami savo tempą scenai."
+        },
+        "partially_positive": {
+          "choiceText": "Trumpai paklausyti prie durų, tada tvirtai pasibelsti: \u201ePolicija. Gavome pranešimą apie triukšmą. Ar viskas gerai?\u201c",
+          "adequate": [
+            "Sustojo pasiklausyti prieš įsitraukdamas, rinkdamas naudingą kontekstą",
+            "Beldimas buvo pasitikintis, bet ne agresyvus",
+            "Aiškiai identifikavo policiją"
+          ],
+          "missed": [
+            "Formuluotė sutelkta į skundą, o ne pagalbos siūlymą",
+            "Klinikinis tonas gali mažinti norą bendradarbiauti",
+            "Praleista galimybė formuluoti buvimą kaip palaikantį, o ne tiriamąjį"
+          ],
+          "improvement": "Formuluokite savo atėjimą apie pagalbos siūlymą, o ne reagavimą į skundą — \u201eesame čia padėti\u201c kviečia bendradarbiavimą efektyviau nei \u201egavome pranešimą apie triukšmą\u201c."
+        }
+      },
+      "keyLearningPoints": [
+        "Pirmasis kontaktas nustato toną visai interakcijai",
+        "Informacijos rinkimas prieš įsitraukimą gerina rezultatus",
+        "Rami buvimo maniera mažina gynybinius atsakus"
+      ]
+    },
+
+    "2": {
+      "stageName": "Pirmas kontaktas viduje",
+      "criticalSkills": ["Vietos kontrolė", "Pasitikėjimo kūrimas", "Saugumo vertinimas"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Ramiai: \u201eSuprantu, kad tai asmeniška, bet esame čia, nes kažkas gali būti pavojuje. Įsitikinkime, kad visi saugūs. Kas atsitiko šį vakarą?\u201c",
+          "strengths": [
+            "Validavo jų privatumo rūpesčius paaiškinant pareigą",
+            "Naudojo atviro tipo klausimus skatinti dialogą",
+            "Palaikė ramų profesionalų elgesį",
+            "Kūrė ryšį per pagarbų bendravimą"
+          ],
+          "professionalImpact": "Šis požiūris maksimizavo savanorišką paklusnumą ir informacijos dalinimąsi, esminius tiksliam įvertinimui."
+        },
+        "neutral": {
+          "choiceText": "Tvirtai: \u201eReikia, kad abu nusiramintuote. Pone, eikite čia. Ponia, likite ten. Viską išsiaiškinsime po vieną.\u201c",
+          "adequate": [
+            "Laikėsi saugumo protokolų",
+            "Sumažino tiesioginės konfrontacijos riziką"
+          ],
+          "missed": [
+            "Parodyta minimali empatija",
+            "Autoritarinis požiūris gali didinti pasipriešinimą",
+            "Prarasta galimybė savanoriškam bendradarbiavimui"
+          ],
+          "improvement": "Nors atskyrimas svarbus, paaiškinkite kodėl ir parodykite susirūpinimą jų gerove — tai pagerina paklusnumą."
+        },
+        "negative": {
+          "choiceText": "Profesionaliai: \u201ePirmiausia turiu apsaugoti vietą. Pone, prašau atsistoti prie sienos, rankos matomos. Ponia, prašau likti, kur esate. Apklausiu jus abu atskirai, kai vieta bus saugi.\u201c",
+          "failures": [
+            "Taktinis vietos apsaugos protokolas pritaikytas namų krizės kontekstui",
+            "Abiem pusėms perduota, kad jie apdorojami kaip įtariamieji",
+            "Savanoriškas atskleidimas sustabdytas sukuriant paklusnumu paremtą dinamiką",
+            "Procedūrinė kalba techniškai teisinga, bet emociškai neraštinga šiai aplinkai"
+          ],
+          "consequences": "Taktinės komandos pasiekė fizinę kontrolę, bet užvėrė emocines žaliuzes — nė viena pusė savanoriškai nepateiks reikiamos informacijos, nes jūsų požiūris formulavo tai kaip baudžiamąjį, o ne krizinį reikalą.",
+          "trainingFocus": "Atskirkite scenas, reikalaujančias taktinės kontrolės, nuo scenų, reikalaujančių emocinio įsitraukimo. Namų krizės iškvietimai retai turi naudos iš nusikaltimo vietos protokolų."
+        },
+        "partially_positive": {
+          "choiceText": "Ramiai: \u201eSuprantu, kad tai jaučiasi kaip įsibrovimas. Esu čia įsitikinti, kad visi saugūs. Pone, ar galite papasakoti, kas atsitiko? Ponia, su jumis pasikalbėsiu atskirai netrukus.\u201c",
+          "adequate": [
+            "Pripažino įsibrovimą ir pradėjo nuo saugumo",
+            "Planavo kalbėti su kiekvienu žmogumi atskirai",
+            "Palaikė ramų ir pagarbų toną"
+          ],
+          "missed": [
+            "Kalbėjimas su vyru pirma gali prioritetizuoti jo pasakojimą",
+            "Žmona pasitraukė prieš būdama išgirsta, praleidžiant apimančią pradžią",
+            "Nepakviesta abiem pusėms dalintis vienu metu prieš atskiriant"
+          ],
+          "improvement": "Apsvarstykite apimančią pradžią, kreipiančią į abi puses kartu prieš atskiriant — tai užtikrina, kad nė vieno pasakojimas netampa numatytuoju."
+        }
+      },
+      "keyLearningPoints": [
+        "Pasitikėjimo kūrimas leidžia geriau rinkti informaciją",
+        "Veiksmų paaiškinimas sumažina suvoktą grėsmę",
+        "Neutralumas apsaugo nuo gynybinių atsakų"
+      ]
+    },
+
+    "3": {
+      "stageName": "Informacijos rinkimas",
+      "criticalSkills": ["Aktyvus klausymasis", "Nešališkumas", "Informacijos vertinimas"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Vyrui: \u201ePone, aš taip pat išklausysiu jūsų pusę. Prašau, leiskite jai kalbėti.\u201c Žmonai: \u201eMinėjote, kad išsigandote. Aš klausau. Ar galite papasakoti daugiau?\u201c",
+          "strengths": [
+            "Parodė puikius aktyvaus klausymosi įgūdžius",
+            "Rodė nešališkumą pripažindamas abi perspektyvas",
+            "Skatino atskleidimą per neteisiamą požiūrį",
+            "Pastebėjo neverbalinės bauginimo užuominas"
+          ],
+          "professionalImpact": "Jūsų subalansuotas požiūris greičiausiai atskleidė svarbią informaciją apie situacijos dinamiką ir rizikos veiksnius."
+        },
+        "neutral": {
+          "choiceText": "Dalykiškai: \u201eReikia faktų. Pone, ar buvo fizinio kontakto? Ponia, ar esate sužeista?\u201c",
+          "adequate": [
+            "Gavo pagrindinius faktus",
+            "Palaikė profesinę distanciją"
+          ],
+          "missed": [
+            "Ribotas emocinis ryšys",
+            "Galėjo praleisti gilesnes problemas",
+            "Sąrašo tipo požiūris stokoja niuansų"
+          ],
+          "improvement": "Derinkite faktų rinkimą su empatišku įsitraukimu. Emocinis ryšys dažnai atskleidžia svarbią saugumo informaciją."
+        },
+        "negative": {
+          "choiceText": "Žmonai: \u201ePonia, jis sakė, kad tai buvo tik ginčas, bet jūs minėjote daiktų mėtymą. Turiu tiksliai žinoti, kas buvo mėtoma ir ar tai buvo nukreipta į jus ar vaiką. Papasakokite įvykių seką.\u201c",
+          "failures": [
+            "Supriešino vyro versiją su žmonos jo akivaizdoje",
+            "Sukūrė teismo salės dinamiką, pastačiusią žmoną kaip liudytoją prieš vyrą",
+            "Teismo salės formuluotė prioritetizavo ataskaitą, o ne aukos saugumą",
+            "Netyčia išmokė žmoną minimizuoti, kad apsisaugotų po pareigūno išvykimo"
+          ],
+          "consequences": "Žmona atsitraukė ir minimizavo, nes jūsų faktų rinkimo požiūris padarė jai nesaugų kalbėti sąžiningai, vyrui stebint — kruopšti apklausa tapo netyčiniu nutildymo įrankiu.",
+          "trainingFocus": "Niekada nesupriešinkite vienos pusės versijos su kitos jų akivaizdoje. Atskirkite prieš ieškodami detalių neatitikimų — tyrimas tarnauja saugumui, o ne atvirkščiai."
+        },
+        "partially_positive": {
+          "choiceText": "Žmonai: \u201eMinėjote, kad išsigandote \u2014 tai svarbu. Ar galite papasakoti daugiau?\u201c Tada vyrui: \u201eNetrukus turėsiu išgirsti ir jūsų pusę.\u201c",
+          "adequate": [
+            "Teisingai identifikavo baimę kaip kritinį saugumo indikatorių",
+            "Pažadėjo vyrui jo eilę, rodydamas tam tikrą teisingumą",
+            "Sutelkė dėmesį į distresą išreiškiantį asmenį"
+          ],
+          "missed": [
+            "Neadresavo vyro bauginančio žvilgsnio žmonos link",
+            "Neginčijo prievartinės dinamikos kambaryje",
+            "Žmona gali nenorėti laisvai kalbėti, vyrui neiššauktai stebint"
+          ],
+          "improvement": "Kai pastebite, kad viena pusė bando kontroliuoti kitos pasakojimą per bauginimą, adresuokite tai tiesiogiai — sukurkite erdvę sąžiningam atskleidimui įvardydami dinamiką."
+        }
+      },
+      "communicationTechniques": {
+        "effective": [
+          "Atviro tipo klausimai: \u201eAr galite papasakoti daugiau?\u201c",
+          "Refleksija: \u201eMinėjote, kad išsigandote...\u201c",
+          "Validavimas: \u201eSuprantu, kad tai sunku\u201c"
+        ],
+        "ineffective": [
+          "Versijų supriešinimas abiejų akivaizdoje: \u201eJis sakė X, bet jūs sakėte Y\u201c",
+          "Teismo salės formuluotė, sukurianti teismo dinamiką: \u201eTuriu tiksliai žinoti, kas buvo mėtoma\u201c",
+          "Atmetanti kalba: \u201eTiesiog pasakykite man faktus\u201c"
+        ]
+      }
+    },
+
+    "4": {
+      "stageName": "Vaiko buvimas",
+      "criticalSkills": ["Vaikų psichologija", "Šeimos dinamika", "Emocijų reguliavimas"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Pritūpti prie vaiko lygio: \u201eSveika, tu neturi jokių problemų. Mes čia, kad visiems būtų saugu.\u201c Tėvui: \u201eŽinau, kad jūs ja rūpinatės. Visi kartu giliai įkvėpkime dėl jos.\u201c",
+          "strengths": [
+            "Išskirtinis emocinis intelektas",
+            "Amžiui tinkamas bendravimas su vaiku",
+            "Performulavo situaciją bendro pagrindo link",
+            "Sumažino vaiko traumą per raminimą"
+          ],
+          "professionalImpact": "Jūsų požiūris apsaugojo vaiko emocinę gerovę, kartu palaikant tėvų bendradarbiavimą — lemiamas dalykas ilgalaikiam šeimos saugumui."
+        },
+        "neutral": {
+          "choiceText": "Pragmatiškai: \u201eJūsų dukra nusiminusi. Gal vienas iš jūsų galėtumėte nuvesti ją į kitą kambarį, kol aš kalbuosi su kitu?\u201c",
+          "adequate": [
+            "Pašalino vaiką iš tiesioginio konflikto",
+            "Laikėsi vaikų saugumo protokolų"
+          ],
+          "missed": [
+            "Jokio emocinio raminimo vaikui",
+            "Neadresavo tėvo gėdos konstruktyviai",
+            "Procedūriška, bet beasmenė"
+          ],
+          "improvement": "Trumpas raminimas vaikams užtrunka sekundes, bet reikšmingai sumažina traumą. Apsvarstykite ilgalaikį poveikį vaikui."
+        },
+        "negative": {
+          "choiceText": "Švelniai Annai: \u201eMieloji, tau nebereikia bijoti. Policija dabar čia ir mes neleisime nieko blogo atsitikti. Ar gali ateiti su manimi į koridorių, kur tylu?\u201c",
+          "failures": [
+            "Paprašė šešiametės eiti su uniformuotu nepažįstamuoju tolyn nuo jos vienintelio saugumo šaltinio",
+            "Netiesiogiai patvirtino, kad kažkas blogo vyksta, ką vaikas internalizuos",
+            "Atėmė abiem tėvams veiksnumą dėl jų vaiko, dar labiau užkurstydamas tėvo apsauginį instinktą",
+            "Geranoriška apsaugos pastanga tapo nauju baimės šaltiniu kambaryje"
+          ],
+          "consequences": "Vaikas suriko ir glaudėsi prie mamos. Tėvas tapo konfliktuojantis. Jūsų apsauginis instinktas sukūrė naują krizę, nes vaiko atskyrimas nuo prieraišos figūros ūminio streso metu sustiprina traumą, o ne ją palengvina.",
+          "trainingFocus": "Studijuokite prieraišos teoriją vaikų krizių reagavime. Vaiko saugumas geriausiai palaikomas per patikimą globėją, o ne pašalinant prie nepažįstamojo — raminkite vietoje prieš svarstydami atskyrimą."
+        },
+        "partially_positive": {
+          "choiceText": "Tėvui: \u201eSuprantu, kad nerimaujate dėl Annos. Ji mūsų prioritetas taip pat.\u201c Motinai: \u201eAr padėtų, jei Anna akimirkai eitų į savo kambarį, kol mes pasikalbėsime?\u201c",
+          "adequate": [
+            "Validavo tėvo susirūpinimą dėl dukters",
+            "Centravo vaiko gerovę pokalbyje",
+            "Pasiūlė pašalinti vaiką iš konflikto zonos"
+          ],
+          "missed": [
+            "Nesikreipė į Anną tiesiogiai — kalbėjo apie ją, o ne su ja",
+            "Praleido galingą deeskalaciją, kurią sukuria tiesioginis, šiltas ryšys su vaiku",
+            "Emocinis proveržis, kurį suteikia tiesioginis bendravimas su vaiku, buvo prarastas"
+          ],
+          "improvement": "Kreipkitės į vaiką tiesiogiai jo akių lygyje — net trumpas, malonus pripažinimas jus sužmogina ir keičia visos patalpos emocinę dinamiką efektyviau nei kalbėjimas apie vaiką tėvams."
+        }
+      },
+      "childWelfareConsiderations": [
+        "Vaikai dažnai kaltina save dėl tėvų konfliktų",
+        "Policijos interakcija gali būti traumuojanti be tinkamo požiūrio",
+        "Tėvų orumo palaikymas vaikų akivaizdoje yra lemiamas",
+        "Trumpi, malonūs žodžiai vaikams turi ilgalaikį teigiamą poveikį"
+      ]
+    },
+
+    "5": {
+      "stageName": "Psichikos sveikatos krizė iškyla",
+      "criticalSkills": ["Krizės atpažinimas", "Savižudybės prevencija", "Terapinis bendravimas"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Švelniai: \u201eMan labai gaila, kad tai patiriate. Tai skamba nepakeliama, bet jūsų šeima jūsų reikia \u2014 saugiai. Parūpinkime jums pagalbą. Galime iškviesti konsultantą.\u201c",
+          "strengths": [
+            "Iš karto atpažino savižudybės rizikos indikatorius",
+            "Validavo emocinį skausmą nepalaikydamas žalingo elgesio",
+            "Suteikė vilties ir konkrečios pagalbos",
+            "Pademonstravo krizių intervencijos mokymą"
+          ],
+          "professionalImpact": "Jūsų atsakas galimai išgelbėjo gyvybę. Tai pavyzdinė krizių intervencija — skausmo validavimas kartu suteikiant viltį."
+        },
+        "neutral": {
+          "choiceText": "Santūriai: \u201ePone, giliai įkvėpkite. Jūs po stresu. Jei galite pakenkti sau, galime iškviesti medikus.\u201c",
+          "adequate": [
+            "Atpažino intervencijos poreikį",
+            "Pasiūlė profesionalią pagalbą"
+          ],
+          "missed": [
+            "Stokojo emocinio ryšio",
+            "Galėjo visiškai neįtraukti asmens",
+            "Klinikinis požiūris mažiau efektyvus krizėje"
+          ],
+          "improvement": "Psichikos sveikatos krizėse emocinis ryšys dažnai nulemia, ar asmuo priima pagalbą. Derinkite saugumą su empatija."
+        },
+        "negative": {
+          "choiceText": "Tvirtai: \u201eGirdžiu jus, ir matau, kad tai buvo neįtikėtinai sunku. Bet dabar turime sutelkti dėmesį į šį vakarą \u2014 užtikrinti, kad visi saugūs, ir sugalvoti kitus praktinius žingsnius.\u201c",
+          "failures": [
+            "Iš karto persijungė prie logistikos po savižudiško teiginio, perdavęs, kad jo neviltis yra problema, kurią reikia valdyti, o ne skausmas, kurį reikia paliudyti",
+            "Pasiūlė įdarbinimo tarnybas reaguodamas į egzistencinę beviltiškumą — kategorijų neatitikimas",
+            "Savižudiški teiginys liko aiškiai neadresuotas, nors skamba pripažintas",
+            "Į sprendimus orientuotas požiūris uždengė ūminę krizę jos nepalietęs"
+          ],
+          "consequences": "Jis nutilo ir tapo paklusnus, kas atrodė kaip deeskalacija, bet iš tikrųjų buvo emocinis atsitraukimas. Savižudiška ideacija lieka nepaliesta po praktinių kitų žingsnių dangčiu. Jo žmona stebėjo, kaip jis užsidaro, ir žinojo, kad niekas nepasikeitė.",
+          "trainingFocus": "Kai asmuo išreiškia savižudišką ideaciją, pirmasis atsakas turi adresuoti pačią ideaciją — ne aplinkybes, kurios ją sukėlė. Praktinė pagalba yra esminė, bet tik po to, kai asmuo jaučia, kad jo tamsiausias teiginys buvo išgirstas ir švelniai paneigtas."
+        },
+        "partially_positive": {
+          "choiceText": "Ramiai: \u201eMatau, kad jūs išgyvenate labai sunkų laiką. Darbo praradimas sukuria didžiulį spaudimą žmogui. Pasirūpinkime, kad visi čia šį vakarą būtų saugūs, ir galiu jus sujungti su žmonėmis, kurie gali padėti.\u201c",
+          "adequate": [
+            "Pripažino jo skausmą ir normalizavo darbo praradimo stresą — \u201edidžiulis spaudimas žmogui\u201c validuoja be teisimo",
+            "Pasiūlė sujungti jį su žmonėmis, kurie gali padėti, rodydamas profesionalios paramos poreikio suvokimą",
+            "Palaikė užjaučiantį ir ramų toną visą laiką",
+            "Sutelkė dėmesį į visų esančiųjų saugumą"
+          ],
+          "missed": [
+            "Tiesiogiai neadresavo savižudiško teiginio (\u201egeriau be manęs\u201c) — pavojingiausia mintis liko neiššaukta",
+            "Savižudiškos ideacijos aplenkimas gali palikti žmogų jaučiantį, kad jo tamsiausia mintis buvo ignoruota arba per baisi, kad su ja būtų dirbama",
+            "Pagrindinė krizė — beviltiškumas ir savivertės žlugimas — liko neadresuota po užjaučiančių bendrybių"
+          ],
+          "improvement": "Kai asmuo išreiškia savižudišką ideaciją, pripažinkite tai aiškiai ir švelniai paneikite — \u201ejūsų šeima jūsų reikia, ir mes galime kartu rasti kelią\u201c adresuoja mintį tiesiogiai. Nukreipimas nuo jos, net su gerais ketinimais, palieka pavojingiausią teiginį neiššauktą."
+        }
+      },
+      "mentalHealthIndicators": {
+        "verbal": ["\u201eGeriau be manęs\u201c", "Beviltiškumo išraiškos", "Naštos teiginiai"],
+        "behavioral": ["Drebėjimas", "Greitas kvėpavimas", "Emocinio nepastovumo pokytis"],
+        "situational": ["Nesenas darbo praradimas", "Finansinis stresas", "Šeimos konfliktas"]
+      },
+      "crisisInterventionPrinciples": [
+        "Visus savižudiškus teiginius priimkite rimtai",
+        "Validuokite emocinį skausmą nepalaikydami žalingų sprendimų",
+        "Suteikite tiesioginę paramą ir išteklius",
+        "Niekada nepalikite savižudiško žmogaus vieno be plano"
+      ]
+    },
+
+    "6": {
+      "stageName": "Teisinis sprendimas",
+      "criticalSkills": ["Teisinės žinios", "Subalansuotas vykdymas", "Išteklių koordinavimas"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Pritaikyti 10 dienų iškeldinimą saugumui, pasirūpinti intervencijos centro parama, pranešti vaiko teisių apsaugai dėl pagalbos, o ne paėmimo, užtikrinti, kad vyras gautų pagalbą.",
+          "strengths": [
+            "Puikus Čekijos smurto artimoje aplinkoje teisės taikymas",
+            "Subalansuotas saugumas su šeimos išsaugojimu",
+            "Koordinuotos daugialypės paramos tarnybos",
+            "Parodyta vykdymas su užuojauta"
+          ],
+          "professionalImpact": "Šis sprendimas maksimizuoja saugumą, kartu suteikdamas kelią į atsigavimą. Pavyzdinis teisėsaugos ir socialinio darbo balansas."
+        },
+        "neutral": {
+          "choiceText": "Paprašyti savanoriško atsiskyrimo šią naktį be formalių nutarimų. Vyras sutinka pernakvoti pas brolį. Patikrinsite rytoj.",
+          "adequate": [
+            "Pasiektas tiesioginis saugumas",
+            "Išvengtas traumuojantis areštas"
+          ],
+          "missed": [
+            "Jokios teisinės apsaugos, jei situacija eskaluotų",
+            "Trūksta formalios dokumentacijos",
+            "Jokio automatinio paramos tarnybų aktyvavimo"
+          ],
+          "improvement": "Savanoriškiems susitarimams trūksta vykdymo galios. Apsvarstykite formalias priemones, kurios vis tiek išsaugo orumą ir santykius."
+        },
+        "negative": {
+          "choiceText": "Pritaikyti 10 dienų iškeldinimą, surašyti smurto artimoje aplinkoje protokolą ir pasirūpinti patrulinio automobilio transportavimu iki brolio adreso. Informuoti žmoną, kad vaiko teisių apsaugos tarnyba bus informuota kaip standartinė procedūra. Kruopščiai užpildyti dokumentus.",
+          "failures": [
+            "Krizėje esanti šeima sumažinta iki biurokratinių veiksmų sąrašo",
+            "Vyras apdorotas ir perkeltas niekam neadresavus jo psichikos sveikatos krizės",
+            "Vaiko teisių apsaugos tarnybos paminėjimas kaip \u201estandartinė procedūra\u201c be paaiškinimo išgąsdino žmoną",
+            "Visos procedūros atliktos, bet niekas realiai nesujungtas su pagalba"
+          ],
+          "consequences": "Vyras išvyko pažemintas ir be stebėsenos dėl savęs žalos. Žmona praleido naktį suparalyžiuota baimės, kad vaiko teisių apsauga paims Anną. Procedūriškai nepriekaištinga. Žmogiškai katastrofiška — sistema veikė, bet šeimai nebuvo tarnaujama.",
+          "trainingFocus": "Procedūra yra gero atsako skeletas, o ne visas kūnas. Kiekvienas procedūrinis žingsnis turi būti lydimas paaiškinimo, emocinio konteksto ir tiesioginio sujungimo su tikromis paramos tarnybomis."
+        },
+        "partially_positive": {
+          "choiceText": "Pritaikyti 10 dienų iškeldinimą saugumui, pasirūpinti, kad vyras šią naktį išvyktų, ir palikti žmonai kontaktų numerius paramos tarnybų. Planuoti patikrinimą rytoj.",
+          "adequate": [
+            "Teisingai panaudota teisinė iškeldinimo priemonė tiesioginiam saugumui",
+            "Užtikrintas fizinis šalių atskyrimas šią naktį",
+            "Žmonai pateikti kontaktų numeriai paramos tarnybų",
+            "Patikrinimo planavimas rytojui rodo suvokimą, kad vienos nakties intervencija nepakanka"
+          ],
+          "missed": [
+            "Palikta žmonai pačiai inicijuoti kontaktą su tarnybomis, o ne tiesiogiai jas organizuojant — krizėje esantis žmogus mažiausiai pajėgus naršyti biurokratijoje",
+            "Konkrečiai neadresuota vyro psichikos sveikatos krizė ar neužtikrinta jo prieiga prie konsultavimo šią naktį",
+            "Žmona palikta naršyti sistemoje viena traumatinę naktį tik su telefono numeriais"
+          ],
+          "improvement": "Eikite toliau nei telefono numerių pateikimas — aktyviai sujunkite abi puses su tarnybomis, o ne palikite joms pačioms inicijuoti kontaktą krizės metu, kai jos mažiausiai pajėgios tai daryti. Paskambinkite intervencijos centrui prieš išeidami, o ne po."
+        }
+      },
+      "legalConsiderations": [
+        "10 dienų iškeldinimas (vykázání) pagal Aktą 135/2006",
+        "Privalomas pranešimas dėl vaiko gerovės",
+        "Psichikos sveikatos intervencijos galimybės",
+        "Aukų paramos tarnybų aktyvavimas"
+      ]
+    },
+
+    "7": {
+      "stageName": "Parama po įvykio",
+      "criticalSkills": ["Aukų parama", "Informacijos teikimas", "Uždarymo įgūdžiai"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Nuraminiti su detalia informacija apie iškeldinimo procesą, intervencijos tarnybas, vaiko paramą (ne paėmimą) ir tolesnį sekimą. Validuoti jos jausmus.",
+          "strengths": [
+            "Pateikta išsami išteklių informacija",
+            "Validuoti aukos sudėtingi jausmai",
+            "Užtikrintas kitų žingsnių supratimas",
+            "Auka palikta įgalinta ir palaikoma"
+          ],
+          "professionalImpact": "Jūsų kruopšti po-intervencinė priežiūra greičiausiai pagerino apsaugos priemonių laikymąsi ir tarnybų naudojimą."
+        },
+        "neutral": {
+          "choiceText": "Trumpai ir procedūriškai: \u201eJis laikysis atstu. Tarnybos su jumis susisieks. Vaiko apsauga informuota. Sutvarkykite stiklą, užrakinkite duris. Štai mano vizitinė.\u201c",
+          "adequate": [
+            "Pagrindinė informacija perduota",
+            "Kontaktas pateiktas"
+          ],
+          "missed": [
+            "Jokios emocinės paramos",
+            "Minimali informacija apie išteklius",
+            "Beasmenis uždarymas"
+          ],
+          "improvement": "Krizėje esančios aukos dažnai neįsimena informacijos. Papildomo laiko skyrimas supratimui ir paguodai užtikrinti pagerina rezultatus."
+        },
+        "negative": {
+          "choiceText": "Raminančiai: \u201eŽinau, kad šis vakaras buvo sunkus, bet sąžiningai \u2014 tai geriausias dalykas, kuris galėjo atsitikti. Daug šeimų per tai praeina ir tampa stipresnės. Pasitikėkite procesu. Jums bus gerai.\u201c",
+          "failures": [
+            "Priešlaikinis optimizmas sumenkino krizės rimtumą",
+            "Pasakė jai \u201epasitikėti procesu\u201c nepaaiškinant, ką procesas apima",
+            "Užvėrė duris jos išreiškimui, kad jai nėra gerai",
+            "Raminimas tarnavo pareigūno poreikiui išeiti pozityvia gaida, o ne aukos poreikiui būti išgirstai ir pasiruošusiai"
+          ],
+          "consequences": "Ji linktelėjo ir pasakė \u201eačiū\u201c, bet neskambino nė vienu pateiktu numeriu. Ji nesuprato iškeldinimo terminų. Pareigūno optimizmas atrodė malonus, bet paliko ją vieną su kiekvienu neatsakytu klausimu.",
+          "trainingFocus": "Atskirkite raminimą, kuris paruošia žmogų, nuo raminimo, kuris jį numalšina. Aukai reikia konkrečios informacijos, o ne bendro optimizmo — baigiamosios interakcijos turi palikti ją informuotą, o ne tik paguostą."
+        },
+        "partially_positive": {
+          "choiceText": "Paaiškinti iškeldinimo procesą ir paminėti, kad tarnybos susisieks. \u201eJūs daug šį vakarą patyrėte. Jis taip pat gaus pagalbą. Jei ko nors reikia, štai mano vizitinė.\u201c",
+          "adequate": [
+            "Pateikta pagrįsta iškeldinimo proceso apžvalga",
+            "Parodyta asmeninė šiluma pripažįstant sunkią naktį",
+            "Paminėta, kad vyras taip pat gaus pagalbą"
+          ],
+          "missed": [
+            "Informacija bendra, o ne detali — spragos supratime apie terminus",
+            "Nepaaiškinta, ką vaiko tarnybų dalyvavimas iš tikrųjų reiškia",
+            "Ji gali nežinoti, kokios konkrečios paslaugos jai prieinamos šią naktį"
+          ],
+          "improvement": "Pateikite konkrečią, detalią informaciją, o ne bendrą apžvalgą — krizėje esantis žmogus turi suprasti terminus, kas su jais susisieks ir ką gali daryti dabar pat."
+        }
+      },
+      "victimSupportElements": [
+        "Aiškus teisinių procesų paaiškinimas",
+        "Rašytinė išteklių informacija",
+        "Emocinis validavimas",
+        "Saugumo planavimas",
+        "Tolesnio sekimo susitarimai"
+      ]
+    }
+  },
+
+  "comprehensiveMetrics": {
+    "rapport": {
+      "description": "Pasitikėjimo kūrimas per aktyvų klausymąsi ir empatiją",
+      "indicators": {
+        "excellent": [
+          "Nuosekliai demonstruotas aktyvus klausymasis",
+          "Sukurtas tikras ryšys su visomis pusėmis",
+          "Tinkamas tonas kiekvienai situacijai",
+          "Efektyvus tylos ir kantrybės naudojimas"
+        ],
+        "poor": [
+          "Pertraukinėjo arba kalbėjo per puses",
+          "Nepavyko sukurti pasitikėjimo su nė viena puse",
+          "Agresyvus arba atmetantis tonas",
+          "Nepastebėjo neverbalinių signalų"
+        ]
+      }
+    },
+
+    "procedure": {
+      "description": "Teisinių reikalavimų ir saugumo protokolų laikymasis",
+      "indicators": {
+        "excellent": [
+          "Laikėsi visų teisinių reikalavimų",
+          "Tinkamai dokumentavo",
+          "Aktyvavo atitinkamas tarnybas",
+          "Palaikė saugumo protokolus visą laiką"
+        ],
+        "poor": [
+          "Praleido privalomą pranešimą",
+          "Nesilaikė saugumo procedūrų",
+          "Ignoravo teisinius reikalavimus",
+          "Nepilna arba jokia dokumentacija"
+        ]
+      }
+    },
+
+    "emotional": {
+      "description": "Streso valdymas ir konstruktyvus reagavimas į emocijas",
+      "indicators": {
+        "excellent": [
+          "Tiksliai atpažino emocines būsenas",
+          "Reagavo su tinkama empatija",
+          "Valdė savo emocinius atsakus",
+          "Deeskalavo per emocinį validavimą"
+        ],
+        "poor": [
+          "Praleido akivaizdų emocinį distresą",
+          "Reagavo teisiamai arba kritikuodamas",
+          "Leido asmeniniams jausmams paveikti atsaką",
+          "Eskalavo per emocinį invalidavimą"
+        ]
+      }
+    },
+
+    "safety": {
+      "description": "Fizinio ir emocinio saugumo palaikymas visiems",
+      "indicators": {
+        "excellent": [
+          "Visą laiką prioritetizavo vaiko saugumą",
+          "Atpažino ir adresavo savižudybės riziką",
+          "Užtikrino fizinį atskyrimą, kai reikėjo",
+          "Sukūrė emociškai saugią aplinką atskleidimui"
+        ],
+        "poor": [
+          "Ignoravo pavojaus požymius pažeidžiamoms pusėms",
+          "Neatpažino savižudybės rizikos indikatorių",
+          "Paliko vaiką nebūtinai paveiktą konfliktu",
+          "Sukūrė aplinką, kuri didino riziką"
+        ]
+      }
+    }
+  },
+
+  "mistakePatterns": {
+    "escalation": {
+      "pattern": "Skubumo arba taktinio formulavimo importavimas į krizę, reikalaujančią emocinio įsitraukimo",
+      "examples": ["Laiko spaudimo projekavimas prie durų prieš vertinant", "Taktinių komandų davimas vietos apsaugai namų aplinkoje", "Teismo salės tipo apklausa tariamo agresoriaus akivaizdoje"],
+      "impact": "Kiekviena procedūrinė eskalacija užveria emocines žaliuzes ir neleidžia savanoriškam atskleidimui, kurio jums reikia tiksliai situacijai įvertinti",
+      "correction": "Pritaikykite savo tempą ir formulavimą scenos emociniams poreikiams, o ne standartiniams taktiniams protokolams"
+    },
+
+    "missingCues": {
+      "pattern": "Nukreipimas nuo kritinių indikatorių, o ne tiesioginis jų adresavimas",
+      "examples": ["Persijungimas prie praktinių žingsnių po savižudiškos ideacijos", "Įdarbinimo tarnybų siūlymas, kai asmuo išreiškia egzistencinę beviltiškumą", "Emocinio atsitraukimo traktavimas kaip sėkminga deeskalacija"],
+      "impact": "Paviršius atrodo ramus, bet pagrindinė krizė lieka nepaliesta — paklusnumas nėra atsigavimas",
+      "correction": "Kai asmuo išreiškia savo tamsiausią mintį, adresuokite tą mintį aiškiai prieš pereidami prie logistikos"
+    },
+
+    "judgmental": {
+      "pattern": "Geranoriški veiksmai, kurie netyčia pasirenka puses arba atima veiksnumą",
+      "examples": ["Versijų supriešinimas abiejų pusių akivaizdoje", "Bandymas pašalinti vaiką nuo prieraišos figūros", "Priešlaikinis raminimas, menkinantis krizės rimtumą"],
+      "impact": "Pareigūnas tiki, kad padeda, bet iš tikrųjų nutildo auką, išgąsdina vaiką arba užveria duris sąžiningam atskleidimui",
+      "correction": "Prieš veikdami pagal apsauginį instinktą, paklauskite, kieno saugumui ir kieno komfortui iš tikrųjų tarnaujate"
+    },
+
+    "procedural": {
+      "pattern": "Visų procedūrų laikymasis nieko realiai nesujungiant su pagalba",
+      "examples": ["Protokolų surašymas ir iškeldinimo pritaikymas nepaaiškinant, ką tai reiškia", "Vaiko teisių apsaugos tarnybos paminėjimas kaip \u201estandartinė procedūra\u201c be konteksto", "Biurokratinio sąrašo užpildymas, kol savižudiškas vyras transportuojamas be psichikos sveikatos paramos"],
+      "impact": "Dokumentai nepriekaištingi, bet šeima patiria sistemą kaip kažką, kas juos apdoroja, o ne jiems padeda",
+      "correction": "Kiekvienas procedūrinis žingsnis turi būti lydimas žmogiško paaiškinimo, emocinio konteksto ir tiesioginio sujungimo su paramos tarnybomis"
+    }
+  },
+
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Puikus pasirodymas! Parodėte išskirtinius bendravimo įgūdžius šiame sudėtingame scenarijuje. Jūsų gebėjimas subalansuoti empatiją su vykdymu, atpažinti psichikos sveikatos krizę ir suteikti išsamią paramą palaikant saugumą rodo šiuolaikinių policijos principų meistriškumą. Jūsų požiūris galimai išgelbėjo šią šeimą nuo tragedijos.",
+
+      "mostlyPositive": "Stiprus bendras pasirodymas su puikiais krizių valdymo įgūdžiais. Parodėte gerą emocinį intelektą ir priėmėte daugiausia tinkamų sprendimų. Pagrindinė stiprybė: [SPECIFIC_STRENGTH]. Tobulintina sritis: [SPECIFIC_IMPROVEMENT]. Jūsų užjaučiantis požiūris padarė tikrą skirtumą šiai šeimai.",
+
+      "mixed": "Kai kuriuos aspektus tvarkėte gerai, bet praleidote svarbių galimybių. Stiprybės apėmė [SPECIFIC_STRENGTHS]. Tačiau [SPECIFIC_WEAKNESSES] reikalauja dėmesio. Atminkite, kad namų situacijos reikalauja balansuoti kelis prioritetus — saugumą, teisėsaugą ir šeimos išsaugojimą. Peržiūrėkite [TRAINING_AREAS] savo reagavimui pagerinti.",
+
+      "mostlyNegative": "Šis scenarijus atskleidė reikšmingas krizinio bendravimo įgūdžių spragas. Nors jūs [MINOR_POSITIVE], dauguma jūsų pasirinkimų eskalavo įtampą arba praleido svarbiausius saugumo klausimus. Konkrečiai, [MAJOR_FAILURES]. Nedelsiant rekomenduojami mokymai: [CRITICAL_TRAINING]. Šios situacijos gali tapti tragiškos be tinkamų įgūdžių.",
+
+      "allNegative": "Jūsų požiūris šiame scenarijuje buvo keliantis susirūpinimą ir potencialiai pavojingas. Nuosekli eskalacija, praleista psichikos sveikatos krizė ir empatijos stoka galėjo baigtis tragedija. Privalomi taisoieji mokymai: krizių intervencija, deeskalacijos technikos ir emocinis intelektas. Atminkite: jūsų bendravimas gali išgelbėti arba kainuoti gyvybes."
+    }
+  },
+
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "\u201eSuprantu, kad tai asmeniška, bet esame čia, nes kažkas gali būti pavojuje\u201c",
+      "\u201eMan labai gaila, kad tai patiriate. Tai skamba nepakeliama, bet jūsų šeima jūsų reikia\u201c",
+      "\u201eSveika, tu neturi jokių problemų. Mes čia, kad visiems būtų saugu\u201c",
+      "\u201eMinėjote, kad išsigandote. Aš klausau. Ar galite papasakoti daugiau?\u201c"
+    ],
+
+    "poorPhrases": [
+      "\u201eLaikas svarbus\u201c — skubumo importavimas prieš situacijos vertinimą",
+      "\u201ePirmiausia turiu apsaugoti vietą. Rankos matomos.\u201c — taktinis formulavimas namų krizėje",
+      "\u201eTuriu tiksliai žinoti, kas buvo mėtoma\u201c — teismo salės tipo apklausa tariamo agresoriaus akivaizdoje",
+      "\u201eAr gali ateiti su manimi į koridorių?\u201c — vaiko prašymas eiti su nepažįstamuoju ūminio streso metu",
+      "\u201eTurime sutelkti dėmesį į kitus praktinius žingsnius\u201c — persijungimas nuo savižudiškos ideacijos prie logistikos",
+      "\u201ePasitikėkite procesu. Jums bus gerai.\u201c — priešlaikinis raminimas, užveriantis duris sąžiningam atskleidimui"
+    ],
+
+    "analysisCriteria": {
+      "tone": "Ar jis buvo tinkamas emociniam kontekstui?",
+      "clarity": "Ar žinutė buvo aiški ir nedviprasmiška?",
+      "empathy": "Ar pripažino jausmus ir parodė supratimą?",
+      "effectiveness": "Ar pasiekė numatytą rezultatą?",
+      "safety": "Ar prioritetizavo visų saugumą?"
+    }
+  },
+
+  "scenarioSpecificLessons": {
+    "1": "Smurto artimoje aplinkoje situacijos niekada nėra \u201etik ginčai\u201c — kruopštus vertinimas yra lemiamas",
+    "2": "Vaikai namų konfliktuose patiria traumą net be tiesioginio smurto — prioritetizuokite jų emocinį saugumą",
+    "3": "Darbo praradimas ir finansinis stresas yra pagrindiniai rizikos veiksniai smurto artimoje aplinkoje eskalacijai",
+    "4": "Psichikos sveikatos krizės dažnai slypi po namų konfliktais — būkite pasirengę pereiti nuo vykdymo prie intervencijos",
+    "5": "\u201e10 dienų iškeldinimo\u201c įstatymas suteikia svarbų atvėsimo laikotarpį palaikant teisinę apsaugą",
+    "6": "Aukos ambivalencija yra normali — teikite paramą be teisimo dėl pasilikimo ar išėjimo",
+    "7": "Jūsų elgesys ir bendravimo stilius tiesiogiai veikia, ar šeimos priima pagalbą",
+    "8": "Tolesnė stebėsena ir tarnybų koordinavimas yra tiek pat svarbūs kiek pirminė intervencija"
+  },
+
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Pažangios krizių derybos",
+        "Kitų mokymas deeskalacijos srityje",
+        "Specializuota šeimos krizių komanda"
+      ],
+      "good": [
+        "Išplėstinis psichikos sveikatos reagavimas",
+        "Pažangi smurto artimoje aplinkoje dinamika",
+        "Vaikų psichologija krizėje"
+      ],
+      "average": [
+        "Pagrindinė krizių intervencija",
+        "Aktyvaus klausymosi įgūdžiai",
+        "Emocinio intelekto ugdymas"
+      ],
+      "poor": [
+        "Privalomi deeskalacijos mokymai",
+        "Krizių intervencijos sertifikavimas",
+        "Empatijos ir bendravimo seminaras",
+        "Smurto artimoje aplinkoje reagavimo protokolas"
+      ]
+    }
+  },
+
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Bendras veiklos apibendrinimas",
+        "content": ["Balas", "Veiklos lygis", "Pagrindinės stiprybės", "Kritinės silpnybės"]
+      },
+      {
+        "title": "Etapų analizė",
+        "content": ["Pasirinkimas", "Poveikis", "Alternatyvūs požiūriai", "Mokymosi taškai"]
+      },
+      {
+        "title": "Bendravimo efektyvumas",
+        "content": ["Geriausi momentai", "Praleistos galimybės", "Dialogo analizė"]
+      },
+      {
+        "title": "Kritiniai sprendimų taškai",
+        "content": ["Psichikos sveikatos atpažinimas", "Vaiko saugumas", "Teisinis sprendimas"]
+      },
+      {
+        "title": "Modelių analizė",
+        "content": ["Nuoseklios stiprybės", "Pasikartojančios klaidos", "Sprendimų priėmimo tendencijos"]
+      },
+      {
+        "title": "Profesinis tobulėjimas",
+        "content": ["Skubūs mokymų poreikiai", "Ilgalaikis įgūdžių ugdymas", "Rekomenduojami ištekliai"]
+      },
+      {
+        "title": "Praktinis taikymas",
+        "content": ["Kaip tai verčiasi į lauko darbą", "Dažni scenarijai", "Geriausia praktika"]
+      }
+    ]
+  }
+}

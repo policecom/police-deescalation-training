@@ -1,0 +1,453 @@
+{
+    "id": 1,
+    "title": "Traffic Stop De-escalation",
+    "description": "Advanced scenario involving a nighttime traffic stop that reveals a family in crisis. Navigate a distressed driver, a teenage passenger filming the encounter, dispatcher updates, and a concerned bystander — all while maintaining professionalism, empathy, and officer safety.",
+    "icon": "🚗",
+    "difficulty": 2,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Sergeant Williams",
+        "avatar": "👨‍🏫",
+        "introduction": "Traffic stops are among the most common — and most dangerous — interactions in policing. They are also where community trust is built or broken, one encounter at a time. Tonight you will pull over a vehicle for a moving violation, but what begins as routine will become something far more complex. The driver is under enormous personal pressure you cannot see from the outside. There is a passenger whose behavior will challenge your composure. And every choice you make will be observed — by people in the car, by bystanders, and possibly by cameras. Research consistently shows that the officer's tone in the first thirty seconds predicts the trajectory of the entire stop. Your job is not just enforcement — it is communication, judgment, and humanity under pressure. How you handle this stop will define what kind of officer you are becoming."
+    },
+    "timedChoices": true,
+    "completionBadges": [
+        "scenario-1-complete"
+    ],
+    "perfectBadge": "perfect-scenario-1",
+    "finalMessage": {
+        "revelation": "Mr. Richard Davies is a 47-year-old high school history teacher and single father who has been quietly falling apart for weeks. Three days before your stop, his ex-wife filed an emergency custody motion claiming he was an unfit parent — a motion triggered not by abuse, but by a vindictive dispute over their son Marcus's school enrollment. Davies had not slept more than three hours a night since receiving the legal papers. The speeding was not recklessness — he was driving Marcus to his grandmother's house because he had just received a call that his mother, Eleanor, had fallen and was being taken to the hospital by ambulance. He was terrified of losing both his mother and his son in the same week. Marcus, the fifteen-year-old who filmed your encounter, posted an edited version of the video that night. In the version that went viral — viewed over 200,000 times — viewers saw a police officer who remained calm when shouted at, who treated a Black teenager with respect instead of suspicion, and who showed a family genuine compassion at their lowest moment. The full video was later used by three police academies as a training example of exemplary traffic stop communication. Mr. Davies's mother recovered fully. His custody case was resolved in his favor six weeks later. Marcus, who had previously told friends he wanted nothing to do with police, wrote a school essay titled 'The Night I Changed My Mind About Cops.' Your single traffic stop quietly reshaped an entire family's relationship with law enforcement.",
+        "keyLessons": [
+            "The first thirty seconds of a traffic stop set the emotional trajectory for everything that follows — tone, posture, and word choice matter enormously",
+            "When someone is hostile during a stop, there is almost always an invisible crisis driving the behavior — curiosity serves better than confrontation",
+            "A teenager filming a police encounter is exercising a legal right, not committing an act of defiance — how you respond to the camera defines the story",
+            "Discretion is not weakness — choosing a warning over a citation when circumstances warrant it is a sophisticated use of professional judgment",
+            "Acknowledging a person's pain does not compromise your authority; it strengthens it by demonstrating that power and empathy can coexist",
+            "Every traffic stop is observed by someone — the driver, passengers, bystanders, dashcams — and each observer forms a lasting impression of policing from what they witness",
+            "De-escalation is not a technique applied to difficult people; it is a communication discipline applied to every interaction, especially routine ones"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "The Stop",
+            "sceneUpdate": {
+                "emoji": "🚗",
+                "title": "Residential Street — 9:47 PM",
+                "desc": "You clock a dark blue SUV doing 52 in a 35 zone on a residential street. You activate your lights. The vehicle takes nearly a block to pull over, stopping unevenly with one wheel on the curb. Through your headlights you can see two occupants — an adult driver and what appears to be a teenage passenger in the front seat. The passenger immediately raises something — a phone."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unit 14, plate comes back to a Richard Davies, 47. Vehicle is registered and current. No warrants, no priors. One note — there's an active missing persons welfare check request on this vehicle from about an hour ago. A family member called concerned about the driver's state of mind. Proceed with awareness."
+                }
+            ],
+            "prompt": "Dispatch has flagged a welfare concern on this driver. You're about to make your approach. How do you begin?",
+            "options": [
+                {
+                    "text": "Approach on the driver's side with your flashlight angled low to avoid blinding anyone inside. Stop just behind the driver's window and speak in a calm, measured tone: 'Good evening, sir. I'm Officer [Name] with the city police. I pulled you over for going 52 in a 35. Before we get into that — is everything all right tonight? You took a while to pull over and I want to make sure you're okay.'",
+                    "feedback": "Why: Opening with your name and the reason for the stop satisfies procedural requirements immediately. Noting the slow pullover without accusation — and connecting it to a welfare question — integrates the dispatch information naturally. Asking 'is everything all right?' before demanding documents signals that you see a person, not just a violation. The flashlight positioning avoids the aggressive blinding effect that escalates tension. | CONSEQUENCES: Mr. Davies grips the wheel but his shoulders drop slightly at your tone. He doesn't answer immediately — he's processing that your voice isn't hostile. Marcus lowers his phone a fraction. You've created a three-second window of possibility. | Reflection: How does the sequence of what you say first — identification, reason, or welfare check — shape the driver's immediate emotional response?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Approach with standard positioning on the driver's side, flashlight in your dominant hand aimed at the interior. You skip the personal introduction and get straight to business, voice clipped and efficient: 'Evening. I clocked you at 52 in a 35. License and registration, please.' You glance at the passenger's raised phone, then add pointedly: 'And can you tell your passenger to put the phone down?'",
+                    "feedback": "Why: The speed statement and document request are procedurally correct, but the immediate demand about the phone is problematic. Filming police is a legal right. Asking the passenger to stop filming — especially before any rapport is established — signals defensiveness and suggests you are uncomfortable being observed. You also skipped introducing yourself, which is best practice. | CONSEQUENCES: Marcus's jaw sets — the phone goes higher, not lower. Mr. Davies snaps: 'He can film whatever he wants.' Your first exchange is now adversarial on two fronts. | Reflection: When you react to a camera before you've even introduced yourself, what story does that tell the person filming?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Approach cautiously from the rear of the vehicle, one hand resting near your belt, flashlight beam sweeping the back seat before reaching the window. Your posture is rigid, shoulders squared, jaw set. You speak in a sharp, commanding tone before making eye contact: 'Driver, keep your hands on the wheel. Passenger, I need to see both your hands right now. Nobody moves until I say so.' You pause, scanning the interior, then explain the reason for the stop.",
+                    "feedback": "Why: There is no articulable safety threat beyond two occupants and a phone. Issuing commands about hands and movement as your opening — without any safety indicators like furtive movement, visible weapons, or felony flags — is a disproportionate escalation. This communicates threat rather than service. The dispatch note indicated a welfare concern, not a danger alert. | CONSEQUENCES: Both occupants freeze. Marcus whispers 'I told you, Dad.' Mr. Davies's hands shake on the wheel. Whatever personal crisis is happening in this car just got buried under fear of the officer. The welfare check opportunity is gone. | Reflection: When does a 'safety first' approach actually create the danger it was trying to prevent?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Approach at a normal pace, flashlight held loosely at your side. You lean slightly toward the driver's window with a conversational but direct tone: 'Good evening. License and registration, please. I stopped you for speeding — 52 in a 35.' You pause briefly, studying the driver's face, then add in a straightforward voice: 'I also received a dispatch note about a welfare check on this vehicle. Can you tell me what's going on tonight?'",
+                    "feedback": "Why: Mentioning the welfare check directly is transparent, but revealing that someone called about the driver's 'state of mind' before any rapport exists can feel invasive or alarming. The driver may feel surveilled or betrayed by whoever made the call. Transparency is good, but timing matters. | CONSEQUENCES: Mr. Davies's face darkens: 'Who called about me? Was it Linda? She's trying to make me look unstable!' The welfare check — meant to help — has become a trigger. Marcus starts recording more intently. | Reflection: When you have sensitive background information, how do you use it without weaponizing it?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "The Passenger",
+            "sceneUpdate": {
+                "emoji": "📱",
+                "title": "Tension Inside the Vehicle",
+                "desc": "As Mr. Davies fumbles for his documents, you notice his hands are trembling and his eyes are red. The teenage passenger — his son Marcus, approximately 15 — has his phone pointed directly at you, recording. His expression is a mix of fear and defiance. The interior of the car is messy — fast food wrappers, a pillow, a duffel bag on the back seat. It looks like someone has been living out of this vehicle."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unit 14, supplemental on the passenger — Marcus Davies, 15. There's a note in the system: he filed a formal complaint against an officer six months ago regarding a stop-and-identify incident. Complaint was upheld. Just so you're aware."
+                },
+                {
+                    "character": "marcus",
+                    "text": "I'm recording this. I have every right to record. Don't try to take my phone."
+                },
+                {
+                    "character": "davies",
+                    "text": "Marcus, stop — just stop. (to you) I'm sorry, Officer. I know I was speeding. I just... I can't find my registration. It should be in the glove box but everything is... I'm sorry. Give me a second."
+                }
+            ],
+            "prompt": "The driver is flustered and apologetic. The teenager is confrontational about filming — and dispatch has flagged that he successfully filed a complaint against an officer before. How do you handle both simultaneously?",
+            "options": [
+                {
+                    "text": "Address Marcus first with a calm, unhurried nod, keeping your voice even and respectful: 'You're absolutely right — you can record. That's your right and I have no problem with it.' Then turn your body toward Mr. Davies, softening your posture slightly, hands visible and relaxed: 'Take your time with the registration, sir. There's no rush. I can see you've got a lot going on tonight. I'm not going anywhere.'",
+                    "feedback": "Why: Affirming Marcus's right to film immediately defuses the confrontation he was bracing for. When a teenager expects hostility and receives respect, the entire dynamic shifts. Telling Mr. Davies to take his time — while noting he has 'a lot going on' — shows observation without interrogation. You are gathering information through empathy rather than demands. | CONSEQUENCES: Marcus blinks, visibly surprised. His phone stays up but his posture softens. Mr. Davies exhales and finds the registration in the glove box. The temperature inside the car drops five degrees. Both occupants are now more willing to talk. | Reflection: What happens to a confrontation when you agree with the person before they finish fighting?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Focus entirely on Mr. Davies, deliberately turning your body away from Marcus as if the teenager hadn't spoken. Your voice is patient and measured: 'Sir, take your time finding the registration. I'll wait.' You stand quietly at the window, hands clasped in front of you, eyes on the driver. Marcus's declaration about filming hangs unanswered in the air between you.",
+                    "feedback": "Why: Focusing on the driver is reasonable, and patience with the document search is good. However, Marcus made a direct statement expecting a response. Ignoring a teenager who is anxious and adversarial doesn't neutralize the tension — it leaves it unresolved. He will interpret silence as either dismissal or as you choosing to deal with him later. | CONSEQUENCES: Marcus shifts uncomfortably. Your non-response makes him more suspicious, not less. He starts narrating into the phone: 'Officer isn't saying anything about the recording. We'll see.' You've left an open front. | Reflection: When someone challenges you and you say nothing, what story do they tell themselves about why?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Straighten up slightly and address Marcus in a firm, measured tone, one hand raised palm-out: 'Young man, I didn't say anything about your phone. Let's keep things calm here.' Then shift your attention to the driver, voice turning businesslike and brisk: 'Sir, I need that registration — check the glove box. Let's keep this moving so we can both get on with our evenings.'",
+                    "feedback": "Why: Correcting Marcus ('I didn't say anything about your phone') is factually true but misses the point. He wasn't responding to what you said — he was pre-empting what he expected you to do. Your correction sounds defensive. 'Let's keep things calm' implies things aren't calm, which can be a self-fulfilling label. | CONSEQUENCES: Marcus mutters 'Whatever' but the edge doesn't leave his voice. Mr. Davies hurries through the glove box, more anxious now. The interaction is functional but tense. | Reflection: When someone projects their fear onto you, is correcting the projection more effective than addressing the fear?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Lean down to the passenger window to look at Marcus directly, your face close to the glass, expression hard. You point at the phone with one finger and speak in a low, clipped voice: 'Kid, put the phone away. This is between me and the driver. You're making this harder than it needs to be.' You hold eye contact for a beat before turning back to Mr. Davies.",
+                    "feedback": "Why: Ordering a minor to stop filming is legally questionable and practically counterproductive. 'Kid' is dismissive. 'You're making this harder' blames a teenager for exercising a right. This is exactly the interaction that goes viral for the wrong reasons — an officer telling a Black teenager to stop recording a traffic stop. | CONSEQUENCES: Marcus's face hardens. 'I'm not putting anything away.' Mr. Davies panics: 'Officer, please, he's just scared.' The stop is now about the phone instead of the speeding or the welfare concern. You've created a conflict that didn't exist. | Reflection: When you make someone's lawful behavior into a problem, who actually made the situation harder?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "The Eruption",
+            "sceneUpdate": {
+                "emoji": "😤",
+                "title": "Emotions Boil Over",
+                "desc": "While you run Mr. Davies's documents, he sits in the car with his son. You can see them talking — Marcus gesturing, Mr. Davies shaking his head. When you return to the window, Mr. Davies's composure has cracked. His eyes are wet and his voice is rising."
+            },
+            "npcDialogue": [
+                {
+                    "character": "davies",
+                    "text": "You know what? Go ahead. Write the ticket. Add it to the pile. My ex-wife is trying to take my son. My mother is in the hospital right now — RIGHT NOW — and I'm sitting on the side of the road because I was going seventeen over. Seventeen! You want to ruin my night? Get in line. Everyone else already has."
+                },
+                {
+                    "character": "marcus",
+                    "text": "(quietly, to his father) Dad... don't. Please."
+                }
+            ],
+            "prompt": "Mr. Davies has erupted — not with aggression toward you, but with raw desperation. Marcus is trying to calm him. How do you respond?",
+            "options": [
+                {
+                    "text": "Pause. Let the silence hold for a full breath while his words settle in the air between you. Then lower your voice and lean slightly toward the window, your posture softening deliberately: 'Mr. Davies, I heard what you just said — your mother is in the hospital and you're dealing with a custody situation. That is an enormous amount of pressure for one person. I'm not here to add to it tonight. Can you tell me which hospital your mother is at?'",
+                    "feedback": "Why: The pause is critical — it lets his words land without being batted back. Repeating the specific details he shared proves you actually listened, which is rare in his experience right now. Asking which hospital shifts the conversation from punishment to problem-solving. You are not ignoring the violation — you are prioritizing the human. This is advanced de-escalation: meeting someone at the point of their pain. | CONSEQUENCES: Mr. Davies's voice breaks. He names the hospital — St. Catherine's, twenty minutes away. Marcus watches you with an expression that has shifted from suspicion to something closer to cautious hope. For the first time tonight, someone with authority has responded to pain with care. | Reflection: What does it cost you to listen to someone's worst moment? What does it cost them if you don't?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Nod sympathetically, your expression softening as you process what he's shared. You tilt your head slightly and reply in a genuine but measured tone: 'I'm sorry you're dealing with all that, sir. That sounds really difficult.' You pause just long enough for the empathy to register, then shift your weight and reach for your citation pad: 'But I still need to address the speeding. Let me write this up quickly so you can get where you're going.'",
+                    "feedback": "Why: The sympathy is genuine but the pivot to 'but I still need to address the speeding' lands like a door closing. He just laid his pain bare and your response is: acknowledged, now back to business. The speed of the pivot matters — it suggests his crisis was heard but weighed and found insufficient to change anything. | CONSEQUENCES: Mr. Davies slumps. 'Yeah. Sure. Whatever.' The emotional opening you had closes. Marcus shakes his head slowly at the phone. The stop will be completed professionally but the human moment is lost. | Reflection: When someone finally tells you what's really going on, what message does 'but' send?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Square your shoulders and keep your voice deliberately steady, projecting calm authority. You make direct eye contact and speak slowly, enunciating each word: 'Sir, I understand you're upset, but I need you to keep your voice down. There are things I can control here and things I can't. Let's focus on what's in front of us right now.' You hold position at the window, clipboard in hand, waiting for him to collect himself.",
+                    "feedback": "Why: 'Keep your voice down' when someone is crying about their mother in the hospital is tone-deaf. He wasn't yelling at you — he was breaking down. 'Things I can control' sounds like you are managing a problem, not talking to a person. The intent is professional but the execution misses the moment entirely. | CONSEQUENCES: Mr. Davies goes quiet — not calmed, just shut down. Marcus puts his hand on his father's arm. The silence in the car is heavy with unspoken grief. You have compliance but no connection. | Reflection: What's the difference between someone who has been calmed down and someone who has given up?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Maintain a steady professional tone, arms folded across your clipboard, expression composed. You speak without raising your voice, almost conversationally: 'Mr. Davies, I understand you're under a lot of stress, and I'm sorry about your mother. But that doesn't change the fact that you were doing 52 in a residential zone with your son in the car. The stress you're under is exactly why the speed matters more — not less. Let's get through this so you can be on your way.'",
+                    "feedback": "Why: This sounds professional and even logically coherent — stress does affect driving ability. But the timing is devastating. He just broke down and shared the worst night of his life, and your response is a calm, reasoned argument for why the ticket is even more justified now. You have taken his vulnerability and used it as evidence against him. The measured tone makes it worse, not better — it feels calculated rather than cruel, which to someone in crisis is indistinguishable. His son is filming an officer who responded to tears with a policy rationale. | CONSEQUENCES: Mr. Davies goes quiet — not calmed, but hollowed out. He signs whatever you put in front of him. Marcus watches with an expression beyond anger — it is the look of someone who has just confirmed something he always suspected about authority. 'You heard him, right?' he says into the phone. 'My dad's crying about grandma and the officer says that's why the ticket matters more.' | Reflection: When someone is in crisis and you use their own distress as part of your enforcement reasoning, what does that teach them — and their son — about what authority does with vulnerability?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "The Bystander",
+            "sceneUpdate": {
+                "emoji": "🏠",
+                "title": "A Neighbor Approaches",
+                "desc": "A woman in her 60s emerges from a house near where the SUV is stopped. She is wearing a housecoat and slippers and approaches cautiously from the sidewalk, staying about ten feet away. She is watching the scene with visible concern. A porch light behind her illuminates the sidewalk."
+            },
+            "npcDialogue": [
+                {
+                    "character": "neighbor",
+                    "text": "Officer? I'm sorry to interrupt. I'm Helen Marsh — I live right there. Is that Richard? Richard Davies? I know him — he teaches at Jefferson High. His mother Eleanor is my friend from church. Is everything okay? I heard Eleanor had a fall tonight."
+                },
+                {
+                    "character": "davies",
+                    "text": "(voice cracking) Mrs. Marsh... they called me an hour ago. I'm trying to get to St. Catherine's. I can't... I can't be stuck here."
+                }
+            ],
+            "prompt": "A neighbor who knows the family has appeared and is corroborating Mr. Davies's story. How do you handle this new element?",
+            "options": [
+                {
+                    "text": "Turn to Mrs. Marsh with a respectful nod, your posture open and unhurried despite the flashing lights behind you: 'Thank you, Mrs. Marsh. I appreciate you coming out — it genuinely helps to have that context.' Then turn back to the car, resting one hand on the roof, and speak to Mr. Davies in a warmer tone: 'Mr. Davies, I'm going to wrap this up and get you on your way to the hospital.'",
+                    "feedback": "Why: Acknowledging the bystander by name and thanking her treats her as a person contributing to the situation, not an interference. Her corroboration gives you additional context to justify discretion. Announcing your intent to Mr. Davies — that you are going to get him on his way — provides immediate relief and shows that new information changed your calculus. This is transparent, adaptive policing. | CONSEQUENCES: Mrs. Marsh's shoulders relax. Mr. Davies exhales audibly. Marcus lowers his phone to his lap for the first time. The entire scene transforms — a confrontation has become a community moment. Mrs. Marsh says quietly: 'Thank you, Officer.' | Reflection: When a bystander gives you information that helps you make a better decision, how does acknowledging that publicly affect everyone's trust?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Raise one hand toward Mrs. Marsh in a stop gesture, your voice polite but firm, carrying the practiced authority of someone citing procedure: 'Ma'am, thank you, but I need you to step back to your property. This is a traffic stop and I can't have civilians approaching the scene. I appreciate the concern but please stay back.' Then turn away from her and continue processing Mr. Davies's documents without further acknowledgment.",
+                    "feedback": "Why: Officer safety protocols around traffic stops are real, but Mrs. Marsh is a 60-year-old neighbor in slippers standing ten feet away on a sidewalk. Sending her away loses corroborating information and an emotional ally. 'Civilians approaching the scene' language makes a residential street sound like a crime scene. The rigidity undermines proportionality. | CONSEQUENCES: Mrs. Marsh retreats, hurt. 'I was just trying to help,' she says. Mr. Davies watches his neighbor being sent away and his faith in the interaction sinks. Marcus captures the moment. | Reflection: When protocol conflicts with common sense, which one builds more trust?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Glance at Mrs. Marsh and give a brief, professional nod without stepping toward her. Your tone is courteous but clipped, the kind of acknowledgment that closes a conversation rather than opening one: 'Thank you, ma'am. I'm handling the situation.' Then turn back to the driver's window and continue speaking with Mr. Davies in exactly the same tone and manner you were using before she appeared.",
+                    "feedback": "Why: Acknowledging her is polite but the lack of visible response to new information is a missed opportunity. You now have a neighbor corroborating the driver's crisis, yet your approach doesn't shift. This makes you appear rigid rather than adaptive. Officers who incorporate new information into their decisions demonstrate stronger judgment than those who stay on a fixed track. | CONSEQUENCES: Mrs. Marsh stays but feels ignored. Mr. Davies sees that his neighbor's testimony changed nothing. The bystander interaction was neutral — no harm, but no help either. | Reflection: When credible new information arrives mid-encounter, what does it signal when your approach doesn't adjust?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Look at Mrs. Marsh for a moment, then turn back to Mr. Davies with a concerned frown, your brow furrowed as if you've just made a clinical assessment. You speak in the careful, deliberate voice of someone delivering a difficult verdict: 'Sir, is there anyone who can come drive you and your son? You're clearly in no state to be behind the wheel tonight.' You gesture toward the neighbor: 'Ma'am, can you help with that?'",
+                    "feedback": "Why: Suggesting the driver is unfit to drive — when he is emotional but not impaired — pathologizes a normal human response to crisis. Enlisting his neighbor to manage him is infantilizing. You are treating grief like a safety hazard. This also opens liability questions: if you prevent a non-impaired driver from driving, on what authority? | CONSEQUENCES: Mr. Davies is humiliated in front of his neighbor and son. 'I'm not drunk. I'm upset. There's a difference.' Marcus: 'Dad, let's just go.' Mrs. Marsh looks uncomfortable being drafted into this. | Reflection: Where is the line between concern for someone's wellbeing and removing their agency?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "The Decision",
+            "sceneUpdate": {
+                "emoji": "⚖️",
+                "title": "Discretion Point",
+                "desc": "You have the full picture now. Mr. Davies was doing 52 in a 35 — a legitimate violation. But he is a man with no record, in genuine crisis, trying to reach his hospitalized mother while navigating a custody battle. His teenage son has been watching your every move. A neighbor stands nearby. Your dashcam is recording. This is the moment where enforcement meets judgment."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unit 14, update on that welfare check — the caller was the driver's sister. She says the family is going through a difficult time and she was worried he was driving upset. No criminal concern. She just wanted someone to check on him."
+                }
+            ],
+            "prompt": "Dispatch confirms the welfare concern was from a worried family member. How do you resolve this stop?",
+            "options": [
+                {
+                    "text": "Return to the window, documents in hand. Your tone is direct but warm: 'Mr. Davies, here's what I'm going to do. I'm issuing a written warning for the speed — it goes on record that we talked, but there's no fine and no points. Your record stays clean. But I need you to hear me: going 52 in a residential zone is dangerous regardless of why. If something happened to you or Marcus tonight, it wouldn't be one tragedy — it would be two. Please drive safely. Your mother needs you to arrive.'",
+                    "feedback": "Why: The written warning is proportionate — it acknowledges the violation without punishing a man in crisis. Explaining that his record stays clean removes the financial and legal anxiety. The safety message is reframed around his family — 'your mother needs you to arrive' — rather than around rules. This is discretion used wisely: not letting someone off, but choosing the response most likely to produce the best outcome for everyone. | CONSEQUENCES: Mr. Davies nods, emotion visible. 'Thank you, Officer. I mean it.' Marcus watches the exchange with an expression that is no longer hostile. Mrs. Marsh smiles quietly. The dashcam records an officer making a thoughtful, justified decision. | Reflection: What makes discretion wise rather than soft? How do you explain the difference in a report?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Pull the citation from your clipboard and return to the window. Your expression is apologetic but resolved, the look of someone who has weighed the options and landed somewhere uncomfortable. You hand the paperwork through: 'Mr. Davies, I have to write this ticket — 17 over is significant and I can't overlook it. But you can contest it in court, and given your circumstances, a judge may reduce or dismiss it. I'm noting the situation in my report. I'm sorry about your mother — please get there safely.'",
+                    "feedback": "Why: Honest and not unkind, but issuing a citation to a man with no record who is racing to his hospitalized mother — when you have full discretion not to — raises questions about judgment. Pointing him to court to fix what you could fix now adds burden to someone already overwhelmed. The note in the report is thoughtful but doesn't change his experience tonight. | CONSEQUENCES: Mr. Davies takes the ticket silently. Marcus shakes his head. Mrs. Marsh frowns. The outcome is legal but the emotional cost is high. | Reflection: When you have discretion and choose not to use it, what are you communicating about your priorities?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Hand back his license and registration through the window with a casual nod, stepping back from the vehicle. Your tone is light and breezy, as if the last fifteen minutes of tension simply evaporated: 'All right, Mr. Davies — you're free to go. No ticket tonight, no warning, nothing on the record. Just be careful out there on the roads. I hope your mom is okay.' You tap the roof of the car twice and start walking back toward your cruiser.",
+                    "feedback": "Why: The intent is kind but the execution is too casual. No mention of the speed, no safety message, no warning on record. Discretion without any acknowledgment of the violation teaches nothing and leaves no documentation. If Davies speeds again tomorrow and causes an accident, there is no record that you counseled him. Good discretion includes accountability. | CONSEQUENCES: Mr. Davies is relieved but the lack of substance makes the stop feel random — like it happened and then didn't. Marcus thinks: 'So what was the point?' There is no safety takeaway, no record, and no lasting impression beyond confusion. | Reflection: What is the difference between discretion and just letting someone go?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Process the citation and return to the window, your expression carrying genuine regret. You speak in a measured, earnest tone: 'Mr. Davies, I truly am sorry about what you're going through. But I need to treat everyone equally regardless of circumstances — that's what fairness means. If I waive this for a personal emergency, I'd have to do the same for the next person and the next. Issuing this is the fair and consistent thing to do. You can contest it in court, and I'll note the circumstances in my report.'",
+                    "feedback": "Why: This sounds like principled, equitable policing — treat everyone the same, no special treatment. But equality and fairness are not identical. Treating a verified family emergency the same as a routine speeding stop is not fairness — it is rigidity disguised as principle. Discretion exists precisely because circumstances differ. The officer is using the language of integrity to avoid the harder work of judgment. The offer to contest in court shifts the burden onto someone who is already overwhelmed. His son is watching an officer who sounds reasonable while doing something unreasonable. | CONSEQUENCES: Mr. Davies signs with a trembling hand. He does not argue — the logic sounded so principled he almost believes he is the one being unreasonable for wanting mercy. Marcus films silently. Mrs. Marsh walks back to her house, shaking her head. You have a defensible citation. You have also taught a fifteen-year-old that fairness is a word adults use when they mean inflexibility. | Reflection: When you invoke 'treating everyone equally' to justify a disproportionate response, who benefits from that equality — the citizen, or the officer who no longer has to make a difficult judgment call?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Marcus",
+            "sceneUpdate": {
+                "emoji": "👦",
+                "title": "A Teenager's Question",
+                "desc": "The formal part of the stop is over. Mr. Davies is composing himself. But Marcus, who has been quiet since his initial outburst, turns to look at you directly. His phone is in his lap now — not recording. His expression is not hostile. It is searching. He looks like a fifteen-year-old who wants to ask something but doesn't know if he's allowed to."
+            },
+            "npcDialogue": [
+                {
+                    "character": "marcus",
+                    "text": "Officer... can I ask you something? Why were you... like, normal? My friends all say when you get pulled over you just keep your mouth shut and don't move because cops will... I mean... you were actually just... nice. Is it always like this?"
+                }
+            ],
+            "prompt": "A teenager who expected the worst is asking you a genuine question about policing. This moment matters enormously. How do you respond?",
+            "options": [
+                {
+                    "text": "Look at him directly, unhurried, your expression open and without condescension: 'That's a fair question, Marcus, and I'm glad you asked it. No — it's not always like this, and I won't pretend it is. But this is what it's supposed to look like. Your dad was speeding and we had to talk about that — but he's also a person having a terrible night, and that matters too. Both things can be true at once. You had every right to film, and I'd rather you saw something worth recording.'",
+                    "feedback": "Why: Answering honestly — 'it's not always like this' — instead of defending all police builds credibility with a teenager who has already formed opinions. Acknowledging that his father was both speeding AND suffering demonstrates that nuance exists in law enforcement. 'Something worth recording' reframes the camera from adversarial to aspirational. You are planting a seed that may take years to grow. | CONSEQUENCES: Marcus is quiet for a long moment. Then he nods slowly. 'Okay.' One word — but it carries weight. Mr. Davies watches the exchange with something that looks like gratitude. This thirty-second conversation may reshape how Marcus talks about police for the rest of his life. | Reflection: When a young person asks you a genuine question about policing, what is the cost of a dishonest answer versus an honest one?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Give him a slight smile, your posture relaxing as you lean one arm on the car door frame. Your tone is warm and personal, like an uncle giving advice rather than an officer on duty: 'I try to treat people the way I'd want to be treated, Marcus. That's really all it is. We're not all what you see on the news — a lot of us got into this job because we actually want to help people.' You glance at Mr. Davies, then back at Marcus: 'Take care of your dad tonight, okay? He needs you.'",
+                    "feedback": "Why: Warm and human, but 'we're not all what you see on the news' is defensive framing that positions his concerns as media-driven rather than experience-driven. It subtly dismisses the reality that many people, including teenagers, have had negative encounters with police that aren't from the news. The redirect to 'take care of your dad' is kind but cuts the conversation short when he was genuinely reaching out. | CONSEQUENCES: Marcus half-smiles. It is a positive exchange but a shallow one. The deeper conversation he was opening the door to doesn't happen. A connection was made, but a stronger one was available. | Reflection: When you deflect systemic questions with personal virtue, whose reality are you centering?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Nod briefly, already shifting your weight toward the patrol car. Your expression is neutral, professional — the face of someone mentally closing a file. You give Marcus a polite but perfunctory glance: 'I'm just doing my job, Marcus. Stay safe tonight.' You straighten up, tap the roof of the car once out of habit, and turn to walk back to your cruiser. The conversation is over before it started.",
+                    "feedback": "Why: 'Just doing my job' is a non-answer to a vulnerable question. Marcus put down his phone and his guard and asked something real. Meeting that with a platitude and a departure tells him the vulnerability wasn't worth it. He asked about the system and you gave him a bumper sticker. | CONSEQUENCES: Marcus watches you walk away. He picks up his phone again. The wall goes back up. Next time he encounters an officer, the phone will stay up from the start. | Reflection: When a young person lowers their guard and you respond with a cliché, what lesson do they actually learn?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Lean toward Marcus with a sincere, earnest expression, making deliberate eye contact as if imparting an important lesson: 'Marcus, what you saw tonight is how a traffic stop is supposed to go — your dad was cooperative, I was professional, and we worked it out. Most stops go exactly like this. I hope you'll remember that the next time someone tells you to be scared of police. Cooperation makes everything easier for everyone.'",
+                    "feedback": "Why: This sounds like a genuine teaching moment — sharing a positive narrative about policing with a young person. But it subtly rewrites what actually happened. The stop was not routine — his father broke down crying about his dying mother, and the officer had to make a difficult judgment call. Framing it as 'this is how it normally goes' minimizes the crisis. 'Cooperation makes everything easier' implies the outcome depends on the citizen's behavior, not the officer's judgment. And telling a Black teenager to stop listening to people who warn him about police dismisses lived experience as misinformation. He asked a vulnerable question and received a PR talking point. | CONSEQUENCES: Marcus's expression shifts from openness to something cooler. 'Yeah... okay.' The phone stays in his lap, but the searching look is gone. He was reaching for a real conversation and got a public service announcement. Mr. Davies stares straight ahead. The moment for genuine connection has passed. | Reflection: When a young person opens up about their fears and you respond with a message about how policing is supposed to work, whose reality are you centering — his, or the institution's?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "The Send-Off",
+            "sceneUpdate": {
+                "emoji": "🌙",
+                "title": "Final Moments",
+                "desc": "The stop is nearly over. Mr. Davies has his documents back. Marcus is quiet. Mrs. Marsh still stands on her sidewalk, watching. The night is still. This is the last impression you will leave — on the driver, on his son, on the neighbor, and on the dashcam."
+            },
+            "npcDialogue": [
+                {
+                    "character": "davies",
+                    "text": "(steadier now) Officer, I want to apologize for earlier — raising my voice, the things I said. You didn't deserve that. I was just... I'm scared. About all of it. Thank you for understanding."
+                },
+                {
+                    "character": "neighbor",
+                    "text": "(from the sidewalk) Richard, give Eleanor my love. Tell her Helen is praying for her."
+                }
+            ],
+            "prompt": "Mr. Davies is apologizing and the scene is winding down. How do you close this encounter?",
+            "options": [
+                {
+                    "text": "Hold up a hand gently, shaking your head: 'Mr. Davies, you don't owe me an apology. You're a father trying to reach his sick mother while worrying about his son. I'd be upset too. You handled a hard night with more grace than you think.' Glance at Marcus with a slight nod: 'Both of you did.' Then lean toward the window: 'St. Catherine's is about twenty minutes — take Route 9, it's clearer this time of night. Drive safe. I hope your mother recovers well.'",
+                    "feedback": "Why: Refusing the apology — not dismissively, but by reframing his reaction as reasonable — restores his dignity. Including Marcus in the compliment honors the son's experience as equally valid. The driving directions are a small, practical act of care that has nothing to do with policing and everything to do with humanity. 'I hope your mother recovers well' names the thing that matters most. This closing will be remembered. | CONSEQUENCES: Mr. Davies grips the steering wheel and nods, unable to speak for a moment. Marcus says quietly: 'Thank you.' Mrs. Marsh waves from the sidewalk. As the SUV pulls away carefully, you have left three people with a profoundly different experience than the one they expected. The dashcam records an ending that any training officer would be proud of. | Reflection: What is the difference between ending a stop and leaving an impression?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Accept the apology with a gracious nod, your expression warm but slightly guarded, as if unsure how deep to let the moment go. You shift your weight and speak in a kind, even tone: 'I appreciate that, Mr. Davies. No hard feelings at all. I hope everything works out with your mother and with... everything else you're dealing with.' You step back from the window: 'Drive carefully tonight. Take it easy on those residential streets.'",
+                    "feedback": "Why: Gracious and warm. Accepting the apology and wishing him well is genuine. However, the vague 'everything else' avoids naming the custody situation — which he shared in vulnerability. The closing is pleasant but doesn't match the depth of what was shared. It is a good ending to an average conversation, not a great ending to an extraordinary one. | CONSEQUENCES: Mr. Davies smiles slightly and drives away. Marcus gives a small nod. The interaction closes positively but without the lasting power it could have had. | Reflection: When someone has trusted you with their deepest fears, does your closing need to match the depth of what they shared?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Nod once, your face carrying the flat, professional neutrality of someone who has already moved on to the next call mentally. You tuck your clipboard under your arm and deliver the closing in an efficient monotone: 'Apology accepted, sir. Just keep it under the speed limit from here on out.' You take a step back from the window and add over your shoulder: 'Have a good night.' You're halfway to the cruiser before the words finish landing.",
+                    "feedback": "Why: Functionally fine but emotionally flat. After a stop that included a man's breakdown, a teenager's transformation, and a neighbor's witness, 'have a good night' is anticlimactic. The final speed reminder, while technically appropriate, reduces the entire rich human interaction back to a traffic violation. | CONSEQUENCES: The SUV drives away. The stop is over. Nothing bad happened — but nothing memorable happened either. In a week, Mr. Davies will remember being pulled over. He won't remember what the officer said at the end. | Reflection: When a stop has been emotionally significant, what happens when the closing is emotionally generic?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Accept the apology warmly, placing one hand over your heart in a gesture of sincerity: 'Thank you, Mr. Davies — that means a lot. I want to be honest with you: I used my discretion tonight because I could see you're a good man in a tough spot. But I need you to understand that this was an exception, not the rule. The speed limit exists to protect families like yours. I hope tonight reminds you that the system does work when people treat each other with respect. Take care of your mother.'",
+                    "feedback": "Why: This sounds generous and earnest — but it wraps a lecture inside a kindness. 'I used my discretion because I could see you're a good man' implies that discretion is conditional on the officer's moral assessment of the citizen's character. What about a less sympathetic person in the same crisis? 'This was an exception, not the rule' reframes proportionate judgment as special treatment. 'The system works when people treat each other with respect' is a closing sermon that subtly credits the good outcome to Mr. Davies's compliance rather than to sound policing. The warmth obscures the paternalism — but Marcus, watching from the passenger seat, hears it clearly. | CONSEQUENCES: Mr. Davies nods and says 'Thank you' — but the thank-you feels extracted rather than natural. Marcus shifts in his seat. He heard 'the system works' and thought of every story where it didn't. The stop ends on a positive surface but the final message is: you were lucky, be grateful, and remember that this was a gift. The story Marcus tells will include the phrase 'he said it was an exception.' | Reflection: When your closing frames a good outcome as dependent on the citizen's character rather than your professional judgment, what happens to people who don't fit your image of 'a good man in a tough spot'?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debrief",
+            "sceneUpdate": {
+                "emoji": "👨‍🏫",
+                "title": "Training Debrief",
+                "desc": "Back at the station. Sergeant Williams reviews your performance in this traffic stop scenario."
+            },
+            "autoDialogue": true,
+            "finalScene": true,
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "That was a layered stop, Officer. What started as a speeding violation became a welfare check, a family crisis, a civil rights moment with the filming, and a community interaction with the neighbor. Let's talk about how you navigated each layer."
+                },
+                {
+                    "character": "officer",
+                    "text": "The hardest part was when Mr. Davies broke down. I had to decide in the moment whether the violation or the person in front of me mattered more."
+                },
+                {
+                    "character": "trainer",
+                    "text": "That's the wrong framing — and recognizing that is the lesson. It was never 'violation or person.' Both mattered. The question was how to honor both. That's what discretion is. Not choosing between law and compassion, but finding where they overlap."
+                },
+                {
+                    "character": "trainer",
+                    "text": "And the son — Marcus. That conversation at the end, if you handled it well, may be the most important thing you did tonight. That boy will encounter officers dozens more times in his life. What he saw tonight either confirmed his fears or challenged them. Now let me share what happened after this stop..."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {
+            "name": "Dispatcher",
+            "avatar": "📻"
+        },
+        "davies": {
+            "name": "Mr. Richard Davies (driver, 47)",
+            "avatar": "😰"
+        },
+        "marcus": {
+            "name": "Marcus Davies (son, 15)",
+            "avatar": "📱"
+        },
+        "neighbor": {
+            "name": "Helen Marsh (neighbor, 63)",
+            "avatar": "👵"
+        },
+        "officer": {
+            "name": "You (Officer)",
+            "avatar": "👮"
+        },
+        "trainer": {
+            "name": "Sgt. Williams",
+            "avatar": "👨‍🏫"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Exemplary Traffic Stop!",
+            "emoji": "🌟",
+            "feedback": "You demonstrated the gold standard for traffic stop communication: professional introduction, genuine empathy under pressure, appropriate use of discretion, respectful engagement with a filming teenager, and a closing that left every person in the encounter with a better impression of policing. This stop will be remembered as a turning point — not just for Mr. Davies and Marcus, but for every bystander who witnessed it."
+        },
+        "good": {
+            "title": "Strong Performance",
+            "emoji": "✅",
+            "feedback": "You handled a complex, emotionally charged traffic stop with professionalism and genuine care. Some opportunities for deeper connection or more nuanced communication were available, but your overall approach was sound and your judgment was appropriate."
+        },
+        "average": {
+            "title": "Adequate Response",
+            "emoji": "📊",
+            "feedback": "You completed the stop without major errors, but several opportunities for meaningful de-escalation and human connection were missed. The technical aspects of the stop were handled, but the emotional dimensions — the teenager, the crisis, the neighbor — needed more engagement."
+        },
+        "poor": {
+            "title": "Needs Significant Improvement",
+            "emoji": "⚠️",
+            "feedback": "Your approach escalated tension at multiple points, missed the human dimensions of the stop, and may have damaged community trust. A traffic stop involving a family in crisis, a filming teenager, and a concerned neighbor required empathy and judgment that were not sufficiently demonstrated. Review de-escalation principles, discretion guidelines, and communication techniques."
+        }
+    },
+    "metrics": {
+        "communication": {
+            "name": "Communication & Tone",
+            "description": "Setting the emotional trajectory through professional introduction, active listening, and language that de-escalates rather than provokes",
+            "icon": "🗣️"
+        },
+        "discretion": {
+            "name": "Professional Discretion",
+            "description": "Using enforcement judgment wisely — matching response to circumstances rather than applying rules mechanically",
+            "icon": "⚖️"
+        },
+        "empathy": {
+            "name": "Empathy Under Pressure",
+            "description": "Recognizing and responding to emotional crisis without sacrificing authority or professionalism",
+            "icon": "💚"
+        },
+        "youthEngagement": {
+            "name": "Youth & Community Engagement",
+            "description": "Treating young people and bystanders with respect, especially when being observed or filmed",
+            "icon": "👥"
+        },
+        "closingImpact": {
+            "name": "Lasting Impression",
+            "description": "Leaving every person in the encounter with an experience that builds trust in law enforcement",
+            "icon": "🌟"
+        }
+    }
+}

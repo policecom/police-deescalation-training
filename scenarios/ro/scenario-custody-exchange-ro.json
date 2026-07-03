@@ -1,0 +1,437 @@
+{
+  "id": "custody-exchange",
+  "title": "Dispută privind predarea copilului — Între două focuri",
+  "description": "Scenariu avansat de exersare a dezescaladării și medierii neutre în timpul unui schimb de custodie cu conflict ridicat între părinți divorțați ostili. Un copil de 7 ani este prezent și suferă.",
+  "icon": "⚖️",
+  "instructor": {
+    "name": "Sergent Davis",
+    "avatar": "👮‍♂️",
+    "introduction": "Acest scenariu te pune într-una dintre cele mai delicate situații pe care le poate întâlni un polițist — o dispută de custodie în care ambii părinți cred că au dreptate, există o hotărâre judecătorească, iar un copil speriat e prins la mijloc. Nu ești judecător, avocat sau consilier familial — dar acum ești singura persoană care poate împiedica escaladarea. La dezescaladarea schimburilor de custodie, cel mai puternic instrument al tău e neutralitatea vizibilă — fiecare cuvânt, fiecare gest, fiecare decizie trebuie să demonstreze corectitudine pentru ambele părți. În momentul în care un părinte te percepe ca părtinitor, cooperarea se prăbușește și copilul suferă cel mai mult. Rămâi neutru, rămâi uman și amintește-ți: copilul vede tot ce faci."
+  },
+  "timedChoices": true,
+  "completionBadges": [
+    "scenario-custody-exchange-complete"
+  ],
+  "perfectBadge": "perfect-scenario-custody-exchange",
+  "finalMessage": {
+    "revelation": "După intervenția ta, Mark și Eve au convenit să folosească o aplicație de co-parenting pentru a coordona predările viitoare. Eve i-a furnizat informațiile medicale ale lui Jacob și Mark i-a trimis actualizări pe tot parcursul weekendului. Jacob i-a spus consilierului școlar săptămâna următoare că 'polițistul a fost drăguț și i-a făcut pe mama și tata să nu mai strige'. Două luni mai târziu, ambii părinți au cerut parcarea școlii ca punct regulat de predare, știind că personalul și camerele oferă responsabilitate. Abordarea ta calmă și echilibrată a plantat sămânța pentru o comunicare mai bună între co-părinți.",
+    "keyLessons": [
+      "Neutralitatea e activă, nu pasivă — trebuie să demonstrezi corectitudine față de ambele părți printr-un proces transparent",
+      "Separarea părților aflate în conflict e mereu prima prioritate înainte de orice discuție de fond",
+      "Hotărârea judecătorească are greutate, dar aplicarea cere să auzi ambele părți și să înțelegi contextul",
+      "Copiii din dispute de custodie poartă o vinovăție uriașă — asigurarea directă că nu e vina lor e crucială",
+      "Rezolvarea creativă care abordează preocupările ambelor părți transformă câștig/pierdere în colaborare",
+      "Poliția nu sunt agenți de aplicare privată — rolul tău e să facilitezi rezolvarea, nu să alegi un câștigător",
+      "Tot ce spui și faci în fața copilului devine parte din înțelegerea lui despre conflict și autoritate"
+    ]
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "Sosire și evaluare",
+      "sceneUpdate": {
+        "emoji": "🏫",
+        "title": "Parcarea școlii — Primul contact",
+        "desc": "Târziu vineri după-amiază. Doi adulți se ceartă zgomotos lângă o mașină argintie în parcarea unei școli. Un băiat de 7 ani e vizibil pe bancheta din spate, îmbrățișând un animal de pluș. Un paznic școlar stă în apropiere, vizibil incomod."
+      },
+      "npcDialogue": [
+        {
+          "character": "dispatcher",
+          "text": "Unitate în drum la Școala Riverside. Doi părinți în dispută de custodie, certându-se în parcare. Personalul școlii a cerut asistență polițienească. Un copil este prezent la locul faptei. Atenție — există un raport anterior de violență domestică la această adresă. Un ordin de protecție a fost emis acum șase luni."
+        }
+      ],
+      "prompt": "Ajungi la locul faptei. Amândoi părinții strigă unul la altul lângă mașină, iar copilul privește din interior. Cum te apropii?",
+      "options": [
+        {
+          "text": "Mergi direct între cei doi părinți cu mâna ridicată într-un gest de stop și anunți cu voce fermă, tăioasă: 'Poliție. Am nevoie ca amândoi să vă opriți și să vă separați acum.' Te plasezi ferm în spațiul dintre ei, faci contact vizual hotărât cu fiecare părinte pe rând, vocea ta acoperind strigătele cu autoritate clară de comandă. Arăți cu degetul spre un capăt al parcării pentru tată și spre celălalt pentru mamă, menținând o postură amplă care nu lasă loc de discuție.",
+          "feedback": "De ce: Stabilește autoritatea și creează separare fizică, care e necesară. Dar abordarea zgomotoasă și poruncitoare poate speria copilul deja suferind și poate provoca o reacție de sfidare de la părinții agitați. | CONSECINȚE: Conformarea e probabilă dar plină de resentiment. Amândoi părinții te pot percepe ca agresiv în loc de util, făcând cooperarea mai grea la pașii următori. Suferința copilului poate crește. | Reflecție: Cum influențează tonul de deschidere traiectoria întregii interacțiuni?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Te apropii mai întâi de paznicul școlii pentru a obține un raport înainte de a vorbi cu vreun părinte. Treci pe lângă amândoi adulții care strigă fără să-i recunoști, cu legitimația vizibilă, și îl tragi pe paznic deoparte lângă intrarea în școală. Îl rogi să-ți descrie cronologic ce s-a întâmplat — când au sosit părinții, cine a început cearta, dacă cineva a făcut amenințări — luând note mentale atente înainte de a-ți îndrepta atenția spre cuplul de lângă mașină.",
+          "feedback": "De ce: Strângerea de informații înainte de acțiune e înțeleaptă în multe situații. Dar confruntarea în desfășurare lângă copil cere o intervenție mai imediată — fiecare secundă de conflict parental pe care copilul o vede cauzează prejudicii emoționale măsurabile. | CONSECINȚE: Părinții continuă să se certe în timp ce ești la raport. Tatăl poate veni la tine nerăbdător. Copilul rămâne prins la mijloc. | Reflecție: Când urgența situației depășește valoarea informațiilor de fundal?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Te apropii calm din unghi, nu frontal, faci contact vizual cu amândoi părinții pe rând. Te oprești la distanță de conversație și spui pe un ton ferm dar măsurat: 'Bună ziua. Sunt agentul [nume]. Văd că e o situație stresantă. Să o rezolvăm — dar mai întâi am nevoie ca amândoi să faceți un pas înapoi, vă rog.' Ții mâinile relaxate pe lângă corp, postura deschisă, modelând calmul pe care vrei să-l vezi oglindit de ei, fără a te adresa niciunui părinte cu prioritate.",
+          "feedback": "De ce: Prezentare profesională, recunoașterea stresului și direcție clară fără agresivitate. Abordarea calmă modelează comportamentul pe care vrei să-l vezi de la ei. A te apropia din unghi în loc de frontal e mai puțin confruntational. A nu te adresa niciunui părinte mai întâi evită semnalarea părtinirii. | CONSECINȚE: Amândoi părinții se simt recunoscuți. Tonul măsurat contrastează cu strigătele lor, creând un efect natural de dezescaladare. Copilul vede un adult calm. | Reflecție: Cum funcționează în practică 'modelarea' stării emoționale pe care vrei să o adopte ceilalți?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Te apropii mai întâi de mașina mamei pentru a-i afla versiunea înainte de a vorbi cu tatăl — e cea mai aproape de copil și poate avea context critic. Treci pe lângă tată fără un cuvânt, te apleci spre geamul șoferului și o întrebi pe mamă în șoaptă ce se întâmplă. Tatăl privește de la câțiva metri, cu brațele încrucișate, înregistrând vizibil că ai ales să vorbești cu ea prima, fiecare secundă confirmându-i suspiciunea că sistemul favorizează mereu mamele.",
+          "feedback": "De ce: Pare o strategie rezonabilă de strângere a informațiilor, iar a aborda părintele cel mai aproape de copil pare logic. Dar a te apropia de un părinte mai întâi — în special de cel cu copilul — semnalează părtinire înainte de a fi rostit un singur cuvânt ambelor părți. Tatăl te vede trecând pe lângă el direct la mașina mamei, și fiecare secundă pe care o petreci acolo îi confirmă că sistemul favorizează mamele. | CONSECINȚE: Tatăl devine mai agitat și confruntational, percepându-te ca luând partea mamei din primul moment. Neutralitatea ta e compromisă înainte să fi vorbit cu ambele părți. Dinamica e acum dezechilibrată — orice îi spui tatălui mai târziu e filtrat prin convingerea lui că deja ai ales o parte. | Reflecție: Cum dai prioritate strângerii de informații păstrând imparțialitate vizibilă față de toate părțile care privesc?",
+          "type": "negative",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Separarea părinților",
+      "sceneUpdate": {
+        "emoji": "🤝",
+        "title": "Două tabere, un copil",
+        "desc": "Ai făcut contactul inițial. Amândoi părinții se întorc imediat către tine, fiecare vrându-te de partea lui. Tatăl flutură un document pliat. Mama se poziționează protectiv lângă portiera mașinii."
+      },
+      "npcDialogue": [
+        {
+          "character": "father",
+          "text": "În sfârșit! Spune-i că trebuie să mi-l predea pe fiul meu. Am hotărârea judecătorească chiar aici!"
+        },
+        {
+          "character": "mother",
+          "text": "E bolnav! Nu-l las să plece când are febră!"
+        }
+      ],
+      "prompt": "Amândoi părinții cer sprijinul tău imediat. Cum procedezi?",
+      "options": [
+        {
+          "text": "Ridici ușor mâna și spui pe un ton calm, echilibrat: 'Înțeleg că amândoi simțiți puternic în legătură cu asta. O să vorbesc cu fiecare în parte, separat, ca să înțeleg situația completă. Domnule, ați putea aștepta lângă vehiculul meu un moment? Doamnă, rămâneți aici lângă mașină, vă rog.' Faci contact vizual stabil cu fiecare pe rând și adaugi: 'Voi fi corect cu amândoi — veți avea aceeași șansă să vă explicați punctul de vedere înainte să decidem împreună cum procedăm.'",
+          "feedback": "De ce: Separarea părților e esențială pentru dezescaladare — previne certurile de performanță și permite fiecăruia să vorbească sincer. Promisiunea de corectitudine menține încrederea din ambele părți. A muta tatăl departe de mașină e tactic solid — locația copilului rămâne stabilă și nu semnalezi preferință de custodie. | CONSECINȚE: Amândoi părinții se simt auziți. Conflictul de performanță se oprește. Creezi spațiu pentru dialog real. | Reflecție: De ce e adesea mai productiv să vorbești cu fiecare parte individual decât în mediere de grup?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Întinzi mâna spre tatăl și spui pe un ton procedural: 'Lasă-mă să văd mai întâi hotărârea judecătorească. Rezolvăm pe baza a ce scrie în acte.' Iei documentul pliat, îl desfaci cu atenție și începi să parcurgi paragrafele chiar acolo între cei doi părinți, ochii alunecându-ți pe pagină în timp ce amândoi stau de o parte și de alta, arătând fiecare spre secțiuni diferite și vorbind unul peste altul să-ți explice ce înseamnă fiecare clauză.",
+          "feedback": "De ce: A merge direct la documentul legal pare logic și eficient. Dar a-l examina în fața ambilor părinți îi invită să se certe despre interpretare. Nici nu ai abordat temperatura emoțională sau separat părțile. | CONSECINȚE: Tatăl se simte validat dar mama se simte ignorată. Amândoi pot începe să se certe despre ce 'înseamnă cu adevărat' documentul. Dimensiunea emoțională rămâne complet neabordată. | Reflecție: Disputa de custodie e în primul rând problemă legală sau emoțională?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Arunci o privire semnificativă spre Jacob pe bancheta din spate, apoi te întorci la amândoi părinții și spui pe un ton ferm dar controlat: 'Am nevoie ca amândoi să vă coborâți vocea — e un copil chiar aici care aude totul.' Faci un gest spre o porțiune deschisă de trotuar, departe de mașină: 'Să ne deplasăm puțin într-acolo și să discutăm calm, departe de vehicul, ca Jacob să nu fie nevoit să asculte fiecare cuvânt.' Începi să pășești spre locul indicat, așteptându-i să te urmeze.",
+          "feedback": "De ce: Conștientizare bună a bunăstării copilului, iar cererea e rezonabilă. Dar a le cere să se miște împreună fără a-i separa adesea doar mută cearta. Amintirea despre copil poate da o conformare scurtă bazată pe rușine, dar nu abordează dinamica adversarială de bază. | CONSECINȚE: Pauză scurtă în strigăte, dar fără separare fizică cearta reia în câteva minute. Nu ai stabilit un proces sau un calendar. | Reflecție: Care e diferența între a pune conflictul pe pauză și a-l dezescala?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Te întorci spre mamă cu o expresie sceptică și întrebi direct, pe un ton plat și procedural: 'Doamnă, copilul e cu adevărat bolnav? Aveți documentație medicală care să confirme asta — o adeverință de la doctor, o rețetă, ceva pe hârtie?' Stai cu pixul pregătit deasupra carnetului, în timp ce tatăl dă aprobator din cap lângă tine. Fața mamei se înroșește pe măsură ce realizează că întreaga sarcină a dovezii tocmai a căzut exclusiv pe umerii ei, fără să fi fost ascultată.",
+          "feedback": "De ce: A pune imediat la îndoială afirmația mamei semnalează neîncredere și o poziție cvasi-investigativă. Tatăl se simte validat iar mama se simte acuzată. Nu ai stabilit raport, nu ai separat părțile nici nu ai evaluat situația generală. | CONSECINȚE: Mama devine defensivă și ostilă față de tine. Tatăl insistă mai tare, simțind avantaj. Conflictul se intensifică cu tine acum perceput ca adversar. | Reflecție: Cum influențează ordinea în care abordezi preocupările percepția ambelor părți despre neutralitatea ta?",
+          "type": "negative",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Hotărârea judecătorească",
+      "sceneUpdate": {
+        "emoji": "📋",
+        "title": "Hârtie legală, problemă umană",
+        "desc": "Ai separat cu succes părinții. Mark e lângă vehiculul tău, arătându-ți o copie certificată a unei hotărâri judecătorești de custodie. Mâinile îi tremură — de furie sau anxietate, e greu de spus."
+      },
+      "npcDialogue": [
+        {
+          "character": "father",
+          "text": "Vedeți? O dată la două weekenduri, începând vineri de la 16:00. E deja 16:15. Face asta de fiecare dată — întârzieri, scuze, orice ca să-l țină pe Jacob departe de mine. Vreau s-o arestați pentru nesupunere la instanță."
+        }
+      ],
+      "prompt": "Tatăl cere aplicare imediată și arestarea mamei. Cum răspunzi?",
+      "options": [
+        {
+          "text": "Dai încet din cap și îi validezi frustrarea pentru a construi raport: 'Văd că a fost un tipar continuu, Mark. Trebuie să fie incredibil de frustrant — să fii nevoit să lupți pentru timp care ți-a fost deja acordat de instanță. Lasă-mă să vorbesc cu ea despre respectarea programului.' Îi pui hotărârea înapoi în mână cu o bătaie liniștitoare pe umăr, întorcându-te deja spre mașina Evei cu pași hotărâți, de parcă ai avea deja un plan stabilit în favoarea lui.",
+          "feedback": "De ce: Pare ascultare activă empatică și construire de raport — tehnici standard de dezescaladare. Dar validarea narativului lui despre un 'tipar' de obstrucție înainte de a auzi cealaltă parte transformă empatia în aliniere. A-i spune că vei 'vorbi cu ea despre respectarea programului' o poziționează pe mamă ca problemă și pe tine ca avocat al lui. I-ai adoptat complet cadrarea fără evaluare independentă. | CONSECINȚE: Mama va simți imediat că ai luat parte când te apropii de ea. Confruntarea escaladează cu tine acum aliniat narativului tatălui. Orice rezolvare echilibrată devine aproape imposibilă pentru că credibilitatea ta ca parte neutră e compromisă. | Reflecție: Unde e linia între validarea experienței emoționale a cuiva și adoptarea versiunii lui despre evenimente ca fapt?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Iei documentul, îl ții la distanță de citire și spui pe un ton procedural: 'Văd că e o hotărâre judecătorească validă. Lasă-mă să verific cu atenție termenii exacti înainte de a vorbi cu fosta dumneavoastră soție despre situație.' Treci cu degetul pe paragrafe, mișcându-ți buzele pe clauzele cheie, în timp ce Mark își mută greutatea de pe un picior pe altul, așteptând nerăbdător ca tu să termini revizuirea pagină cu pagină și să-i dai răspunsul pe care îl caută.",
+          "feedback": "De ce: Recunoașterea documentului e potrivită, dar 'lasă-mă să verific termenii cu atenție' creează o atmosferă juridică, birocratică. Tatăl vrea empatie și acțiune, nu o revizuire legală. Folosirea termenului 'fosta soție' în loc de numele ei o reduce la un rol într-un cadru adversarial. | CONSECINȚE: Tatăl simte că amâni. Cadrarea legalistică menține interacțiunea în mod conflict în loc să avanseze spre rezolvare. | Reflecție: Cum influențează alegerea limbajului dacă e percepută ca bătălie legală sau situație de parenting?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Îl privești în ochi și spui direct, fără ocolișuri: 'Înțeleg frustrarea dumneavoastră și văd că e o hotărâre judecătorească. Însă nu pot aresta pe nimeni pentru o chestiune civilă de custodie — nu așa funcționează aplicarea legii aici. Rolul meu e să vă ajut pe amândoi să ajungeți la o rezolvare astăzi. Trebuie să aud și partea Evei, apoi vom stabili împreună pașii următori.' Îi întinzi documentul înapoi și pornești spre mașina Evei cu un pas calm dar decis.",
+          "feedback": "De ce: Clarifică corect limitările poliției și stabilește așteptări realiste. Dar afirmația plată 'nu pot aresta pe nimeni' poate părea respingătoare unui tată care crede că drepturile lui legale sunt încălcate sistematic. A spune 'lasă-mă să aud și partea ei' fără să recunoști mai întâi experiența lui emoțională creează distanță. | CONSECINȚE: Mark se simte informat procedural dar neauzit personal. Cooperează, dar frustrarea lui de bază despre tiparul de obstrucție rămâne neabordată. | Reflecție: Cum echilibrezi gestionarea așteptărilor cu validarea experienței emoționale a cuiva?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Primești documentul cu respect și spui: 'Mulțumesc că mi-ați arătat, Mark. O iau în serios — o hotărâre judecătorească are greutate reală. Trebuie să aud și de la Eve pentru a-i înțelege preocupările, apoi voi lucra cu amândoi să rezolvăm asta azi. Scopul meu e să mă asigur că Jacob petrece timp cu dumneavoastră cât mai lin posibil.' Îi întinzi hârtia înapoi cu grijă, susținându-i privirea pentru a-i semnala că vorbești serios și că ești de partea rezultatului corect.",
+          "feedback": "De ce: Validează poziția legală a tatălui și îi folosește numele pentru raport personal. Explică procesul transparent — va vorbi și cu mama — ca să nu pară favoritism. Cadrarea scopului în jurul faptului că Jacob petrece timp cu tatăl îl liniștește pe Mark că lucrezi spre rezultatul prevăzut de instanță, iar 'cât mai lin posibil' semnalează că metoda contează. | CONSECINȚE: Mark se simte respectat, validat legal și încrezător că ofițerul lucrează spre predare. E dispus să aștepte cât vorbești cu Eve. | Reflecție: Cum ajută numirea rezultatului dorit devreme la alinierea așteptărilor ambelor părți?",
+          "type": "positive",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Poziția mamei",
+      "sceneUpdate": {
+        "emoji": "💊",
+        "title": "Frica unei mame",
+        "desc": "Te apropii de Eve la mașina ei. Jacob e vizibil pe bancheta din spate, îmbrățișând strâns animalul de pluș. Pare puțin palid, dar e calm deocamdată. Ochii Evei sunt roșii — a plâns."
+      },
+      "npcDialogue": [
+        {
+          "character": "mother",
+          "text": "Vă rog nu mă obligați să-l predau. A tușit toată noaptea, abia a dormit. Mark nu are grijă de el cum trebuie când e bolnav — nici nu știe ce medicamente ia Jacob. Nu încerc să fiu dificilă, doar... mi-e frică pentru fiul meu."
+        }
+      ],
+      "prompt": "Mama e emoțională și ridică preocupări de sănătate despre copil. Cum procedezi?",
+      "options": [
+        {
+          "text": "Încrucișezi brațele și întrebi pe un ton plat, procedural: 'Aveți o adeverință medicală sau vreo dovadă că Jacob e prea bolnav ca să meargă cu tatăl? O rețetă recentă, o vizită la urgențe — ceva documentat pe care să-l pot analiza?' Aștepți cu pixul pregătit deasupra carnetului, urmărindu-i expresia atent în timp ce ea caută în minte dovezi pe care probabil nu s-a gândit să le adune în graba după-amiezii, presiunea întrebării apăsând vizibil pe umerii ei.",
+          "feedback": "De ce: Întrebare procedurală validă, dar a conduce cu o cerere de dovezi pare acuzator și rece. Majoritatea părinților în suferință reală de custodie nu se gândesc să obțină documentație din timp. Abordarea tratează interacțiunea ca exercițiu de strângere de dovezi, nu conversație umană. | CONSECINȚE: Eve se simte interogată în loc de auzită. Devine defensivă: 'Deci nici dumneavoastră nu mă credeți?' Zidul emoțional se ridică, făcând rezolvarea mult mai grea. | Reflecție: Care e diferența între a strânge informații și a interoga pe cineva?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Îți relaxezi postura și spui cu blândețe: 'Aud cât de îngrijorată sunteți pentru Jacob, Eve. Sănătatea lui contează. Puteți să-mi spuneți mai mult despre simptomele lui — când au început, a fost la doctor?' Faci o pauză și o lași să răspundă înainte de a continua cu grijă: 'Trebuie să fiu și direct cu dumneavoastră: Mark are hotărârea judecătorească pentru acest weekend, și e ceva de care trebuie să țin cont. Vreau să găsim o cale prin asta care să-l păstreze pe Jacob în siguranță.'",
+          "feedback": "De ce: Validează emoțiile, îi folosește numele și pune întrebări deschise despre problema de sănătate — dându-i spațiu să fie auzită. Dar comunică și transparent realitatea legală, nu o lasă să-și construiască speranța că vei bloca predarea. Echilibrează empatia cu onestitatea. | CONSECINȚE: Eve se simte auzită și respectată. Poate deveni lăcrămoasă dar e mai puțin probabil să devină combativă. Cadrarea onestă despre hotărârea judecătorească o pregătește pentru rezultatul probabil fără să o prindă pe nepregătite. | Reflecție: De ce e mai blândă onestitatea devreme decât vestea rea întârziată?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Clatini ușor din cap și spui pe un ton rece, legalist: 'Înțeleg preocuparea dumneavoastră, dar hotărârea judecătorească spune clar că Jacob merge cu tatăl în weekendul acesta. Dacă nu aveți documentație medicală — ceva de la un doctor, o vizită la urgențe — chiar nu pot face nimic să schimb asta.' Te uiți spre Mark care stă lângă mașina de patrulare, apoi înapoi la Eve, tonul tău făcând clar că discuția e pe punctul de a se încheia și rezultatul a fost deja stabilit.",
+          "feedback": "De ce: Respingător față de preocuparea maternală genuină. Folosește cadrare rigidă legalistică fără empatie. 'Nu pot face nimic' e și inexact și alienant — ai opțiuni de facilitare a unei predări mai line. Abordarea poate declanșa răspuns de luptă-sau-fugă. | CONSECINȚE: Eve poate refuza fizic să-l lase pe Jacob să iasă din mașină, poate încerca să plece cu mașina sau poate cădea emoțional. Orice dintre acestea înrăutățește dramatic situația pentru toți, mai ales pentru Jacob. | Reflecție: Când cineva spune 'nu pot face nimic', ce mesaj aude de fapt cealaltă persoană?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Te apleci spre geamul deschis al mașinii și îl privești pe Jacob o clipă — paloarea, ochii ușor sticloși — apoi te ridici și te întorci la Eve: 'Vreau să mă asigur că Jacob e bine și eu. Lasă-mă să arunc o privire la el, să văd cum se simte. Dacă e cu adevărat rău, poate putem discuta niște opțiuni.' Studiezi fața băiatului câteva secunde, apoi adaugi cu grijă: 'Dar ar trebui să știți că Mark are o hotărâre judecătorească validă, și trebuie să luăm asta în calcul.'",
+          "feedback": "De ce: Arată grijă pentru copil și oferă să evalueze direct situația, ceea ce pare proactiv. Dar un polițist care face o evaluare de sănătate informală te pune într-un rol pentru care nu ești calificat. Dacă concluzionezi că copilul 'pare bine', mama se simte invalidată. Dacă ești de acord că 'pare bolnav', tatăl va pretinde că iei partea ei. | CONSECINȚE: Ești acum într-o poziție imposibilă ca evaluator medical amator. Amândoi părinții vor contesta evaluarea ta indiferent în ce direcție merge. | Reflecție: Cum arăți grijă pentru sănătatea copilului fără să depășești rolul profesional?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Copilul vorbește",
+      "sceneUpdate": {
+        "emoji": "👦",
+        "title": "Lumea lui Jacob",
+        "desc": "În timp ce vorbești cu Eve, Jacob coboară geamul mașinii. Ochii îi sunt mari și umezi. A ascultat totul — certurile, discuțiile, tensiunea. Își strânge mai tare ursulețul de pluș."
+      },
+      "npcDialogue": [
+        {
+          "character": "child",
+          "text": "Nu vreau ca mami și tati să se mai certe... Pot să rămân doar la școală?"
+        }
+      ],
+      "prompt": "Un copil de 7 ani suferind e acum direct parte din conversație. Cum răspunzi?",
+      "options": [
+        {
+          "text": "Te apleci încet la nivelul ochilor lui Jacob, sprijinindu-te cu un braț de cadrul portierei ca să fiți față în față. Vorbești cu blândețe: 'Hei Jacob, știu că e foarte greu ce se întâmplă acum. Vreau să știi că nimic din asta nu e vina ta, bine? Mama și tata te iubesc foarte mult amândoi. Marii o să rezolve totul.' Faci o pauză, lăsând cuvintele să ajungă la el, apoi întrebi ușor: 'E ceva ce ai vrea să-mi spui?'",
+          "feedback": "De ce: A coborî la nivelul fizic al copilului e crucial pentru construirea încrederii și reducerea intimidării. Asigurarea că nu e vina lui abordează direct vinovăția de bază pe care o simt copiii în dispute de custodie. Invitația deschisă de a vorbi îi dă agenție și voce fără a forța o alegere de loialitate între părinți. | CONSECINȚE: Jacob se simte văzut și auzit de o figură de autoritate calmă. Suferința lui scade vizibil. Amândoi părinții, dacă sunt în raza auzului, sunt amintiți de ce contează cu adevărat. Acest moment devine adesea punctul de cotitură emoțional al întregii intervenții. | Reflecție: Cum schimbă adresarea directă a vinovăției nespuse a copilului dinamica unei dispute familiale?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Te apleci spre geamul deschis cu un zâmbet cald și spui pe un ton ușor, prietenos: 'Nu-ți face griji, amice. Totul o să fie bine. Părinții tăi trebuie doar să discute câteva lucruri, da?' Atingi jucăria cu un gest glumeț, încercând să ușurezi atmosfera, și adaugi: 'Rezolvăm repede, să știi. Tu stai liniștit acolo.' Te ridici și te întorci spre adulți, convins că liniștirea a fost suficientă pentru moment.",
+          "feedback": "De ce: Bine intenționat și liniștitor ca ton. Dar 'totul o să fie bine' poate părea o promisiune goală — copilul poate vedea și auzi conflictul, iar copiii sunt remarcabil de perceptivi la nesinceritate. Nu abordează dorința lui exprimată ca certurile să înceteze nici sentimentul că e prins. | CONSECINȚE: Jacob poate da din cap politicos dar anxietatea rămâne neschimbată. Liniștirea nu se potrivește cu realitatea lui. Oportunitate ratată de a oferi sprijin emoțional real. | Reflecție: Când e utilă liniștirea și când respinge suferința genuină?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Transformi afirmația lui Jacob în catalizator pentru a accelera rezolvarea — te întorci imediat la amândoi părinții și spui ferm: 'Ați auzit ce a spus. Să finalizăm asta eficient ca Jacob să-și poată continua seara liniștit. Eve, hotărârea e clară — Jacob merge cu tatăl. Mark, să-l instalăm pe Jacob în mașina dumneavoastră cu lucrurile lui. Cu cât rezolvăm mai repede, cu atât mai puțin trebuie să vadă.' Gesticulezi energic între cele două vehicule, deja coordonând logistica.",
+          "feedback": "De ce: Pare eficiență practică focalizată pe minimizarea expunerii copilului la conflict — o abordare aparent centrată pe copil. Dar folosește momentul vulnerabil al lui Jacob ca instrument de a grăbi procesul în loc de a-i adresa nevoile emoționale. Copilul a vorbit căutând confort și liniștire; în schimb, cuvintele lui sunt redirecționate pentru a pune presiune pe adulți într-o tranzacție rapidă. Jacob învață că dacă vorbește, e ignorat în timp ce adulții fac ce intenționau oricum. | CONSECINȚE: Suferința lui Jacob se adâncește — a exprimat un sentiment și a primit un plan logistic. Eve se simte forțată de viteză, iar preocupările ei de sănătate rămân neabordate. Rezolvarea 'eficientă' e fragilă pentru că nu abordează preocupările de bază ale nimănui. | Reflecție: Când momentul emoțional al unui copil e folosit ca motiv de a grăbi în loc de a face o pauză, ce învață copilul despre valoarea exprimării sentimentelor?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Îi arunci lui Jacob o privire scurtă și un semn din cap: 'Ține-te bine, amice, bine?' Apoi te redirecționezi imediat spre Eve, coborându-ți vocea la un ton de afaceri: 'Chiar trebuie să rezolvăm asta acum. Școala se închide în curând și nu putem rămâne aici mult. Vă puteți gândi la vreo cale prin care putem face asta să funcționeze astăzi — ceva care să abordeze preocupările dumneavoastră?' Atingi ușor ceasul de la mână, subliniind presiunea timpului.",
+          "feedback": "De ce: Recunoașterea scurtă e mai bine decât să ignori complet copilul. Dar e respingătoare față de un moment emoțional real — Jacob a avut curaj să vorbească, iar un răspuns de două secunde semnalează că sentimentele lui nu sunt importante pentru adulții responsabili. Redirecționarea imediată înapoi la logistică întărește senzația copilului de invizibilitate. | CONSECINȚE: Jacob se retrage, simțindu-se ignorat. E mai puțin probabil să-și mai exprime sentimentele. Se închide o fereastră critică de legătură. Povara rezolvării e pusă în întregime pe mamă. | Reflecție: Când un copil vorbește în timpul unei crize, ce îl învață răspunsul tău despre valoarea vocii lui?",
+          "type": "neutral",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Ultimatumul tatălui",
+      "sceneUpdate": {
+        "emoji": "⚡",
+        "title": "Răbdarea se termină",
+        "desc": "Mark s-a săturat să aștepte. Vine de la mașina de patrulare, maxilarul încleștat, telefon în mână. Limbajul corporal e tensionat — umeri pătrați, pași rapizi, deget arătător."
+      },
+      "npcDialogue": [
+        {
+          "character": "father",
+          "text": "Am așteptat destul! Ești clar de partea ei — de fiecare dată e aceeași poveste. Sun avocatul și depun plângere împotriva ta. Dacă fiul meu nu e în mașina mea în cinci minute, îl iau eu."
+        }
+      ],
+      "prompt": "Tatăl escaladează, te acuză de părtinire și amenință că ia lucrurile în mâinile lui. Cum răspunzi?",
+      "options": [
+        {
+          "text": "Faci un pas spre Mark cu palmele deschise, vizibile, și spui pe un ton calm dar ferm: 'Mark, înțeleg frustrarea dumneavoastră și respect drepturile pe care vi le-a acordat instanța — am citit hotărârea și știu ce prevede. Dar amenințarea că îl luați pe Jacob cu forța nu vă ajută cazul; i-ar putea da avocatei Evei argumente împotriva dumneavoastră în instanță. Sunt aproape de o rezolvare — dați-mi câteva minute să lucrez cu ea și să finalizam predarea cum trebuie, într-un mod care vă protejează poziția.'",
+          "feedback": "De ce: Combinație bună de validare și stabilire clară a limitelor. Dar 'nu vă ajută cazul' încadrează interacțiunea în termeni legali și adversariali, ceea ce poate menține pe Mark în mod combativ. 'Toată lumea într-o poziție bună' poate părea că diluezi pretenția lui legală legitimă. | CONSECINȚE: Mark face o pauză, dar frustrarea lui despre tiparul perceput de obstrucție rămâne neabordată. Cooperează cu reținere dar rămâne suspicios. | Reflecție: Cum stabilești limite fără a folosi limbaj care menține pe cineva într-o mentalitate adversarială?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Ridici mâna și spui pe un ton plat, autoritar: 'Domnule, trebuie să vă calmați. Îmi fac treaba aici și nu apreciez acuzațiile.' Încrucișezi brațele și îți pătrezi umerii. 'Dacă vreți să sunați avocatul, e dreptul dumneavoastră, faceți-o. Dar nu puteți lua copilul cu forța — asta ar crea o cu totul altă situație juridică pentru dumneavoastră. Acum vă rog să mergeți înapoi la vehiculul meu și să așteptați acolo cât termin discuția cu mama.' Tonul tău nu lasă loc de negociere.",
+          "feedback": "De ce: Corect din punct de vedere factual și stabilește o limită necesară. Dar 'trebuie să vă calmați' e recunoscut pe scară largă ca una dintre cele mai contraproductive fraze la dezescaladare — invalidează emoțiile persoanei și implică că e irațională. Adesea provoacă exact opusul efectului dorit. | CONSECINȚE: Mark escaladează și mai mult: 'Nu-mi spune să mă calmez!' Situația se deteriorează. Ai pierdut raportul și te-ai apropiat de o confruntare fizică. | Reflecție: De ce 'calmați-vă' nu produce aproape niciodată calm?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Îl privești pe Mark direct și spui cu o voce sigură, asigurătoare: 'Mark, nu v-am uitat nici pe dumneavoastră, nici hotărârea — o iau în serios și lucrez pentru ca predarea să aibă loc astăzi. Trebuia să aud ambele părți, e procedură standard pentru orice ofițer. Iată situația: am vorbit cu Eve și sunt aproape de o rezolvare. Dar dacă îl luați pe Jacob cu forța, asta creează o problemă penală unde acum nu există una, și v-ar putea dăuna serios poziției de custodie. Să facem asta cum trebuie.'",
+          "feedback": "De ce: Abordează direct preocuparea lui de bază — că a fost uitat și că ești părtinitor. Reconfirmă validitatea legală a poziției lui fără limitări. Explică procesul transparent — procedură standard, nu favoritism. Avertismentul despre acțiunea fizică e cadrat ca protejându-i interesele, nu ca amenințare de la tine. 'Cum trebuie' face apel la dorința lui de dreptate. | CONSECINȚE: Mânia lui Mark scade semnificativ. Se simte auzit, respectat și încrezător că predarea va avea loc. Își pune telefonul înapoi. | Reflecție: Cum schimbă cadrarea consecințelor ca interes propriu în loc de amenințări disponibilitatea cuiva de a coopera?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Te plasezi direct în calea lui Mark și arăți ferm spre mașina de patrulare: 'Dacă vă apropiați de mașina aia sau încercați să luați copilul, va trebui să intervin fizic. Dați-vă înapoi la vehiculul meu acum.' Mâna ți se mișcă spre centură pe măsură ce îți lărgești poziția, mutând interacțiunea de la o mediere familială la o confruntare de aplicare a legii. Ochii lui Mark coboară spre mâna ta și maxilarul i se strânge și mai tare. Parcarea devine brusc tăcută.",
+          "feedback": "De ce: Răspuns de aplicare pură. Deși stabilirea unei limite de siguranță e necesară dacă există amenințare fizică iminentă, a sări la confruntare fizică implicată când Mark încă doar escaladează verbal transformă o dispută familială într-o confruntare polițienească. Ignoră complet starea lui emoțională, poziția lui legală legitimă și frica de a pierde timp cu fiul. | CONSECINȚE: Mark fie se retrage resentiment — depunând plângere mai târziu și cooperând mai puțin la predări viitoare — fie te provoacă fizic. În orice caz, Jacob asistă la cum tatăl lui e amenințat de un polițist. | Reflecție: În ce moment o amenințare verbală justifică un răspuns de aplicare fizică și care sunt costurile de a sări acolo prea devreme?",
+          "type": "negative",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Facilitarea rezolvării",
+      "sceneUpdate": {
+        "emoji": "🔑",
+        "title": "Drumul înainte",
+        "desc": "Amândoi părinții se uită la tine așteptând. Cearta s-a răcit, dar nimic nu e rezolvat. Jacob a încetat să plângă dar privește anxios prin geamul mașinii. Paznicul școlii se apropie."
+      },
+      "npcDialogue": [
+        {
+          "character": "security",
+          "text": "Domnule agent, școala se închide în cincisprezece minute. Trebuie eliberată parcarea."
+        }
+      ],
+      "prompt": "Presiunea timpului crește. Cum aduci asta la o rezolvare?",
+      "options": [
+        {
+          "text": "Te întorci la Eve și spui pe un ton direct, fără inflexiuni: 'Hotărârea judecătorească spune clar că Jacob merge cu tatăl în weekendul acesta. Eve, vă recomand să respectați hotărârea — a vă opune aici nu va schimba realitatea legală și v-ar putea crea probleme pe viitor. Dacă credeți că aranjamentul ar trebui modificat, puteți depune cerere la instanță luni.' Faci un gest spre mașină: 'Hai să strângem lucrurile lui Jacob și să facem tranziția cât mai lină pentru el.'",
+          "feedback": "De ce: Corect legal și procedural solid. Dar directiva brută de a 'respecta' pare coercitivă și o reduce pe mamă la cineva care trebuie să se supună, nu la un părinte cu preocupări legitime. Referința la acțiune la instanță luni pare îndepărtată și inutilă pentru starea ei emoțională actuală. Nu există plan pentru tranziția sau nevoile de sănătate ale copilului. | CONSECINȚE: Eve îl predă pe Jacob cu resentiment. Predarea are loc dar prost — Jacob simte suferința mamei. Nu s-a construit niciun pod pentru predări viitoare. Următoarea va fi la fel de rea sau mai rea. | Reflecție: O predare 'reușită' e una în care copilul schimbă fizic mâinile, sau una în care copilul se simte în siguranță în timpul tranziției?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Îi aduci pe amândoi părinții la distanță de auz și spui: 'Iată ce sugerez. Eve, aud preocuparea dumneavoastră despre sănătatea lui Jacob — ați fi dispusă să scrieți simptomele lui, medicamentele și dozele, și numărul pediatrului pentru Mark? Mark, ați fi de acord să o țineți la curent pe Eve cum se simte Jacob diseară — poate un mesaj scurt și o poză? Astfel Jacob își petrece weekendul cu tata cum prevede hotărârea, iar amândoi știți că e bine îngrijit.' Apoi te apleci la Jacob: 'Mama îi dă tatei informațiile despre medicamentele tale.'",
+          "feedback": "De ce: Rezolvare creativă care abordează preocuparea genuină de sănătate a mamei, respectă drepturile legale ale tatălui și dă ambilor părinți un rol activ și demn. Transformă conflictul din câștig/pierdere în parenting colaborativ. Asigurarea directă a copilului îi arată că adulții au găsit o soluție împreună. Pașii concreți, specifici îl fac acționabil, nu vag. | CONSECINȚE: Eve acceptă — scrierea informațiilor medicale îi dă senzație de control și scop. Mark acceptă să trimită actualizări — o concesie mică care nu-l costă nimic. Jacob vede părinții cooperând pentru prima dată azi. Predarea are loc lin. | Reflecție: Cum direcționează darea ambelor părți a unei sarcini constructive energia lor departe de conflict?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Ridici ambele mâini și faci un pas înapoi, semnalând retragerea: 'Uitați, înțeleg că e dificil pentru amândoi, dar nu pot forța pe niciunul dintre dumneavoastră să facă ceva — e o chestiune civilă, nu penală. Trebuie să vă înțelegeți între voi sau să o duceți înapoi la instanță luni dimineață. Am făcut tot ce am putut.' Scoți carnetul, notezi numărul incidentului și dai fiecărui părinte o copie, semnalând că implicarea ta a atins limita și ce urmează e strict treaba lor.",
+          "feedback": "De ce: Abdicare de responsabilitate în momentul critic. Deși poliția are autoritate limitată în chestiunile civile de custodie, a te retrage dintr-o dispută cu un copil suferind prezent e un eșec al datoriei. 'Am făcut tot ce am putut' semnalează că ai terminat de investit efort, ceea ce face ca amândoi părinții să se simtă abandonați de singura parte neutră. | CONSECINȚE: Certul se reaprinde în momentul în care pleci. Paznicul sună din nou la 112 în douăzeci de minute. Jacob suportă încă o rundă de conflict parental. Intervenția ta nu a realizat nimic. | Reflecție: Care e diferența între 'nu pot forța pe nimeni' și 'nu pot ajuta deloc'?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Te întorci la amândoi părinții și propui un teren de mijloc: 'Mark are hotărârea judecătorească, deci predarea ar trebui să aibă loc astăzi — partea asta e clară. Dar Eve, ce-ar fi dacă Mark e de acord să-l ducă pe Jacob la un doctor sau la urgențe dacă simptomele se înrăutățesc în weekend? Mark, asta v-ar conveni? Ar adresa preocuparea Evei despre sănătatea lui Jacob, respectând în același timp programul stabilit de instanță.' Te uiți de la unul la altul, așteptând fiecare să răspundă.",
+          "feedback": "De ce: Încearcă un compromis și abordează preocuparea declarată a mamei. Dar condiționezi implicit predarea hotărâtă de instanță de acceptarea de către tată a unor termeni suplimentari, ceea ce depășește rolul tău și subminează cadrul legal. Dacă Mark refuză, ai creat un nou punct de conflict. Dacă acceptă sub presiune, poate resimți. | CONSECINȚE: Mark poate accepta cu reținere sau refuza din principiu. În orice caz, te-ai poziționat inadvertent ca negociator care renegociază termenii de custodie — un rol care aparține instanțelor. Precedentul poate încuraja comportament mai obstructiv la predări viitoare. | Reflecție: Unde e linia între a facilita rezolvarea și a renegocia o hotărâre judecătorească?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Debriefing și dezvăluire",
+      "sceneUpdate": {
+        "emoji": "🏁",
+        "title": "Debriefing de formare",
+        "desc": "Înapoi la secție. Sergentul Davis evaluează performanța ta în această intervenție complexă de predare custodie."
+      },
+      "npcDialogue": [],
+      "prompt": "",
+      "options": [],
+      "dialogueSequence": [
+        {
+          "character": "trainer",
+          "text": "Predările de custodie sunt unele dintre cele mai încărcate emoțional apeluri pe care le vei primi vreodată. Amândoi părinții vin convinși că ei sunt cel rezonabil și celălalt e obstacol. Treaba ta nu e să fii de acord cu niciunul — e să-i faci pe amândoi să creadă, cu adevărat, că îi vezi ca oameni, nu ca probleme. Asta înseamnă de fapt neutralitatea. Nu înseamnă să tratezi ambii părinți la fel. Înseamnă să-i faci pe amândoi să se simtă văzuți."
+        },
+        {
+          "character": "officer",
+          "text": "Cel mai greu moment a fost când Mark m-a acuzat că iau partea Evei. Petrecusem abia două minute cu ea și era deja convins că sunt părtinitor. Am simțit că orice aș face, unul dintre ei mă va vedea ca pe inamic."
+        },
+        {
+          "character": "trainer",
+          "text": "Sentimentul ăla e treaba în sine. Și greșeala pe care o fac cei mai mulți polițiști e să încerce să o rezolve fiind perfect simetrici — același timp cu fiecare părinte, același ton, aceleași cuvinte. Asta e neutralitate mecanică, și oamenii o văd imediat. Neutralitatea reală nu e despre a trata amândoi părinții identic — e despre a-i face pe amândoi să creadă că îi vezi ca ființe umane cu temeri legitime. Mark trebuia să audă că hotărârea lui contează. Eve trebuia să audă că preocuparea ei pentru sănătatea lui Jacob contează. Jacob trebuia să audă că nimic din asta nu e vina lui. Când ai adresat toate cele trei nevoi, nu alegeai o parte — făceai singurul lucru care chiar funcționează."
+        },
+        {
+          "character": "trainer",
+          "text": "Soluția creativă — notele despre medicamente, un mesaj cu actualizare, implicarea directă a lui Jacob — a făcut ceva ce nicio acțiune de aplicare n-ar fi putut face vreodată. Le-a dat ambilor părinți o sarcină care le cerea să coopereze în loc să concureze. Asta e diferența între a rezolva o dispută și a planta o sămânță. Ce ai făcut în parcarea aia nu a rezolvat doar o vineri după-amiază. A schimbat felul în care doi părinți comunică de acum înainte. Lasă-mă să-ți spun ce s-a întâmplat apoi."
+        }
+      ]
+    }
+  ],
+  "characters": {
+    "dispatcher": {
+      "name": "Dispecerat",
+      "avatar": "📻"
+    },
+    "father": {
+      "name": "Mark (tată)",
+      "avatar": "😤"
+    },
+    "mother": {
+      "name": "Eve (mamă)",
+      "avatar": "😰"
+    },
+    "child": {
+      "name": "Jacob (copil, 7 ani)",
+      "avatar": "👦"
+    },
+    "security": {
+      "name": "Pază școală",
+      "avatar": "🔒"
+    },
+    "officer": {
+      "name": "Tu (polițist)",
+      "avatar": "👮"
+    },
+    "trainer": {
+      "name": "Sergent Davis",
+      "avatar": "👮‍♂️"
+    }
+  },
+  "performanceReviews": {
+    "perfect": {
+      "title": "Mediere remarcabilă!",
+      "emoji": "🌟",
+      "feedback": "Ai demonstrat neutralitate, empatie și rezolvare a problemelor excepționale sub presiune. Capacitatea ta de a valida ambii părinți punând în centru bunăstarea emoțională a copilului e exact ce cere situația. Rezolvarea creativă pe care ai facilitat-o a plantat semințele pentru predări mai sănătoase în viitor. Performanță de manual."
+    },
+    "good": {
+      "title": "Performanță puternică",
+      "emoji": "✅",
+      "feedback": "Ai gestionat bine o situație complexă cu trei părți, ai menținut neutralitate rezonabilă și ai obținut un rezultat funcțional. Au fost ratate câteva oportunități de empatie mai profundă sau rezolvare mai creativă, dar abordarea generală a fost profesională și eficientă."
+    },
+    "average": {
+      "title": "Răspuns adecvat",
+      "emoji": "📊",
+      "feedback": "Ai rezolvat situația imediată dar ai ratat câteva oportunități pentru dezescaladare și construire de raport reală. Nevoile emoționale ale copilului poate nu au fost abordate pe deplin. Revizuiește tehnici de ascultare activă, mediere creativă și comunicare sensibilă la copil."
+    },
+    "poor": {
+      "title": "Necesită îmbunătățire semnificativă",
+      "emoji": "⚠️",
+      "feedback": "Abordarea ta a arătat părtinire clară către o parte, a escaladat în loc să reducă tensiunea și a abordat inadecvat suferința emoțională a copilului. La disputele de custodie, necorectitudinea percepută de la ofițer face adesea predările viitoare mai rele. Revizuiește principiile neutralității, dezescaladarea bazată pe empatie și impactul conflictului parental asupra copiilor."
+    }
+  },
+  "metrics": {
+    "neutrality": {
+      "name": "Imparțialitate și neutralitate",
+      "description": "Menținerea corectitudinii vizibile față de ambele părți fără a favoriza poziția unui părinte",
+      "icon": "⚖️"
+    },
+    "rapport": {
+      "name": "Raport și încredere",
+      "description": "Construirea încrederii prin ascultare activă, folosirea numelor și comunicare empatică",
+      "icon": "🤝"
+    },
+    "emotional": {
+      "name": "Inteligență emoțională",
+      "description": "Recunoașterea și răspunsul potrivit la emoțiile tuturor părților, inclusiv copilul",
+      "icon": "💚"
+    },
+    "procedure": {
+      "name": "Conștientizare procedurală și legală",
+      "description": "Înțelegerea limitărilor poliției în chestiuni civile și gestionarea așteptărilor în consecință",
+      "icon": "📋"
+    },
+    "childwelfare": {
+      "name": "Abordare centrată pe copil",
+      "description": "Prioritizarea siguranței emoționale a copilului, reducerea expunerii la conflict și vinovăție",
+      "icon": "🛡️"
+    }
+  }
+}

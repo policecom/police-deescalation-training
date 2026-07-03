@@ -1,0 +1,477 @@
+{
+    "id": "youth-park",
+    "title": "Tineri în parc — După-amiaza de weekend",
+    "description": "Scenariu avansat: răspundeți la o plângere privind zgomotul și un conflict verbal între un grup de adolescenți (15-18 ani) într-un parc urban într-o după-amiază de weekend. Exersați dezescaladarea, transparența și inteligența emoțională pe măsură ce descoperiți o criză personală mai profundă sub suprafața certei. Echilibrați drepturile tinerilor în spațiul public cu așteptările comunității, construind încredere prin comunicare corectă și respectuoasă.",
+    "icon": "🌳",
+    "instructor": {
+        "name": "Sergenta Benešova",
+        "avatar": "👮‍♀️",
+        "introduction": "Întâlnirile cu tinerii sunt printre cele mai definitorii apeluri în activitatea de poliție comunitară. Modul în care tratați un grup de adolescenți astăzi determină dacă vor avea încredere sau vor avea frică de poliție în următorii cincizeci de ani. Aceștia nu sunt infractori — sunt tineri într-un spațiu public, care se confruntă cu emoții pe care abia le înțeleg. Sarcina dumneavoastră nu este să-i reduceți la tăcere sau să-i împrăștiați. Sarcina dumneavoastră este să înțelegeți ce se întâmplă cu adevărat, să abordați orice preocupare legitimă și să le lăsați experiența că autoritatea poate fi corectă, respectuoasă și umană. Rețineți: adolescenții sunt programați să reziste nedreptăților percepute. Dacă veniți în forță, veți primi rezistență — nu pentru că sunt răi, ci pentru că stadiul lor de dezvoltare o cere. Întâlniți-i acolo unde sunt. Folosiți numele lor. Explicați-vă. Ascultați înainte de a direcționa. Plângerea este despre zgomot și o ceartă — nu despre o scenă a crimei. Calibrați în consecință."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-youth-park-complete"],
+    "perfectBadge": "perfect-scenario-youth-park",
+    "finalMessage": {
+        "revelation": "Conflictul dintre Kryštof și Jarda era mai profund decât părea. Cu două săptămâni în urmă, tatăl lui Kryštof fusese internat în spital cu un episod cardiac grav. Familia era sub un stres enorm — facturi medicale, incertitudine, frică. În acea perioadă vulnerabilă, Jarda a postat pe rețelele de socializare un videoclip batjocoritor care făcea referire la absența lui Kryštof de la școală, fără să știe (sau fără să-i pese) de criza familiei. Videoclipul a fost distribuit pe scară largă în școala lor, iar Kryštof a îndurat zile de umilință pe lângă durerea și frica reală pentru tatăl său. Când grupul s-a reunit în parc în acea după-amiază, Kryštof l-a confruntat pe Jarda în public — nu pentru că voia să se bată, ci pentru că nu avea altă modalitate de a-și exprima durerea pe care nu o putea articula. Eli și Nela au încercat să medieze dar le lipseau instrumentele. Doamna Kovarova, vizitatoarea parcului care a sunat la poliție, era sincer îngrijorată de escaladare dar și anxioasă în privința propriei siguranțe. După intervenția dumneavoastră, Jarda a șters videoclipul și a scris o scuză sinceră pe care Kryštof a acceptat-o. Grupul s-a mutat într-o zonă mai liniștită a parcului și și-a respectat acordul privind volumul. Trei săptămâni mai târziu, tatăl lui Kryštof a fost externat din spital. Eli i-a spus mai târziu unui consilier școlar că ceea ce și-a amintit cel mai bine a fost că ofițerul le-a folosit numele și i-a întrebat ce s-a întâmplat înainte să le spună ce să facă.",
+        "keyLessons": [
+            "O abordare calmă, neamenințătoare păstrează demnitatea tinerilor și deschide ușa către cooperare",
+            "Transparența cu privire la motivul prezenței dumneavoastră — explicând plângerea fără a atribui vina — construiește legitimitate imediat",
+            "Folosirea numelor și validarea emoțiilor transformă o confruntare într-o conversație",
+            "Scuzele ghidate care cer ofensatorului să fie specific creează reconciliere autentică, nu conformitate de fațadă",
+            "Recunoașterea dreptului tinerilor la spațiu public stabilind în același timp așteptări clare produce conformare voluntară",
+            "Acceptarea și laudarea soluțiilor propuse de ei le oferă proprietate și crește angajamentul față de acord",
+            "Ultimele cuvinte pe care le rostiți într-o întâlnire determină ce își amintesc oamenii despre poliție"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Faza 1 — Sosirea în parc",
+            "sceneUpdate": {
+                "emoji": "🌳",
+                "title": "Parcul orașului — sâmbăta după-amiaza",
+                "desc": "O după-amiază caldă de weekend într-un parc public. Activați camera corporală în momentul în care coborâți din vehicul — practică standard pentru orice contact cu cetățenii. Un grup de cinci sau șase adolescenți sunt adunați în jurul unei bănci lângă aleea principală. Muzica se aude dintr-o boxă portabilă — suficient de tare pentru a se auzi în tot parcul. Doi băieți stau față în față în ceea ce pare începutul unei confruntări. Grupul nu v-a observat încă apropierea."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unitatea 3-4, avem o plângere de la un vizitator al parcului privind muzica tare și un conflict verbal între un grup de adolescenți. Fără arme raportate. Reclamantul a descris țipete și împingeri. Deplasați-vă și evaluați."
+                },
+                {
+                    "character": "officer",
+                    "text": "Dispecerat, Unitatea 3-4 la fața locului în Parcul Riverside. Am contact vizual cu un grup de șase minori lângă aleea principală, doi băieți în ceea ce pare o altercație verbală. Fără arme vizibile. Merg pe jos pentru a lua contact."
+                }
+            ],
+            "prompt": "Grupul nu v-a observat încă. Muzica e tare, doi băieți stau față în față. Cum alegeți abordarea?",
+            "options": [
+                {
+                    "text": "Mergeți spre grup cu un pas liniștit, fără grabă, cu mâinile vizibile și postura deschisă — fără mâna pe centură, fără pas alert. Când ajungeți la vreo cinci metri distanță, ridicați o mână într-un salut degajat și spuneți pe un ton conversațional: 'Poliția locală. Putem schimba câteva cuvinte?' Vă mențineți vocea suficient de tare pentru a se auzi peste boxă, fără a concura cu ea, semnalând calm autoritate și nu confruntare.",
+                    "feedback": "De ce: Un anunț verbal discret reduce tensiunea imediat. Păstrează demnitatea lor — nimeni nu este speriat, nimeni nu este încolțit. 'Putem schimba câteva cuvinte?' este o invitație, nu o comandă, ceea ce este adecvat pentru o plângere de zgomot și o ceartă verbală. Tonul dumneavoastră semnalează că aceasta este o conversație, nu o arestare. Elementele non-verbale contează și ele — mersul în ritm normal, mâinile vizibile, postura relaxată. | CONSECINȚE: Grupul se întoarce către dumneavoastră. Muzica scade ușor. Cei doi băieți se îndepărtează unul de altul. Aveți atenția lor fără frica lor. Fundația dialogului este așezată. | Reflecție: Care element non-verbal — ritmul, distanța, mâinile vizibile sau postura — este cel mai liniștitor când vă apropiați de un grup de adolescenți? Cum ați ajusta dacă confruntarea ar fi fost deja fizică?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Începeți să mergeți încet pe aleea principală, făcându-vă vizibil de la vreo treizeci de metri, astfel încât grupul să vă observe cu mult înainte de a ajunge. Mâinile vă stau lejer pe lângă corp, faceți un mic semn din cap unui alergător care trece pe lângă dumneavoastră, arătând că nu vă grăbiți. Când ajungeți la o distanță confortabilă de doi metri, vă opriți și spuneți: 'Bună, după-amiaza tuturor. Sunt agentul Norton — pot să mă apropii și să văd ce se întâmplă?'",
+                    "feedback": "De ce: A vă face vizibil înainte de a vorbi evită factorul surpriză, ceea ce e bine. Prezentarea pe nume este o construcție puternică de raport. 'Pot să mă apropii?' este respectuos și modelează consimțământul. Cu toate acestea, tonul casual poate subestima urgența a doi băieți într-o confruntare fizică — există un echilibru între accesibilitate și nevoia de a interveni într-o confruntare emergentă. S-ar putea să fie nevoie să fiți puțin mai direct pentru a întrerupe conflictul înainte de a escalada mai mult. | CONSECINȚE: Grupul vă vede venind. Unii se relaxează, dar cei doi băieți își continuă confruntarea încă vreo treizeci de secunde înainte să vă observe. Ajungeți fără urgență, ceea ce e liniștitor dar permite ca tensiunea între Kryštof și Jarda să crească puțin mai mult. | Reflecție: Când este adecvată o abordare relaxată și când necesită situația o intervenție cu mai multă iminență, menținând totodată calmul?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Rămâneți lângă mașina de patrulare, apăsați butonul de la stație și cereți o a doua echipă la intrarea în parc — 'pentru orice eventualitate.' Vă sprijiniți de capotă cu brațele încrucișate, cercetând grupul de la cincizeci de metri în timp ce așteptați. Când sosește al doilea ofițer, porniți amândoi spre bancă, în echipament complet, abordând din două unghiuri pentru acoperire vizuală a întregului grup, fără a rosti un cuvânt până nu ajungeți lângă ei.",
+                    "feedback": "De ce: Prudența este legitimă când nu puteți evalua pe deplin situația, dar pentru o dispută verbală între adolescenți neînarmați, solicitarea de întăriri înainte de orice contact poate părea criminalizare prematură. Doi ofițeri care se apropie de un grup de adolescenți într-un parc transmite un semnal disproporționat. Adolescenții vor citi asta ca 'cred că suntem periculoși', ceea ce declanșează exact defensivitatea pe care vreți să o evitați. | CONSECINȚE: Grupul observă doi ofițeri apropiindu-se și vigilența crește brusc. Limbajul corporal se închide — brațele încrucișate, umerii întorși, contactul vizual scade. Eli șoptește 'Ce am făcut?' Cooperarea va fi mai greu de câștigat. | Reflecție: Când sunt întăririle un avantaj tactic autentic și când semnalează cetățenilor că ați decis deja că sunt o amenințare? Cum citesc adolescenții în mod specific prezența mai multor ofițeri?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Activați sirena pentru o rafală scurtă de două secunde care răsună în tot parcul, tăind prin muzică și prin orice conversație din raza de auzire. Înainte ca ecoul să se stingă, pășiți deja rapid spre bancă, cu o mână pe centură și vocea ridicată la volum maxim de comandă: 'Poliția! Opriți imediat!' Alergătorul de pe alee îngheață. O femeie care plimba câinele strânge lesa. Toate privirile din parc se îndreaptă spre dumneavoastră.",
+                    "feedback": "De ce: O rafală de sirenă și o comandă strigată sunt instrumente pentru situații cu risc ridicat — suspecți în fugă, violență activă, opriri de urgență în trafic. Folosirea lor pe un grup de adolescenți care au o ceartă într-un parc este o supracalibrare masivă. Șocul declanșează reacții de luptă sau fugă. Unii vor îngheța, unii vor fugi, unii vor deveni ostili. Ați distrus orice șansă de conversație calmă înainte de a începe. Mai rău, fiecare adolescent prezent va purta această amintire: poliția ne tratează ca pe niște infractori pentru că suntem într-un parc. | CONSECINȚE: Grupul se împrăștie. Doi adolescenți fug. Kryštof și Jarda nu se mai ceartă — dar acum amândoi își îndreaptă ostilitatea către dumneavoastră. 'Ce naiba?!' Nela începe să filmeze cu telefonul. Legitimitatea dumneavoastră a dispărut înainte să fi rostit un cuvânt. | Reflecție: Când ar trebui să folosiți vreodată sirena pentru a vă anunța prezența pe jos? Care este costul pe termen lung al tratării unei plângeri de zgomot ca o oprire pentru o infracțiune gravă?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Faza 2 — Primul contact și transparența",
+            "sceneUpdate": {
+                "emoji": "💬",
+                "title": "Față în față cu grupul",
+                "desc": "Muzica a fost dată mai încet. Eli, o fată încrezătoare cu ochi ageri, pășește în față ca purtătoare de cuvânt neoficială a grupului. Nela stă în spate, arătând nervoasă și jucându-se cu telefonul. Jarda s-a întors, evitând contactul vizual. Kryštof stă rigid, cu maxilarul încleștat, evident încă supărat."
+            },
+            "npcDialogue": [
+                {
+                    "character": "eli",
+                    "text": "De ce ne deranjați? Nu facem nimic rău."
+                },
+                {
+                    "character": "nela",
+                    "text": "Doar am avut muzica puțin tare, atât..."
+                }
+            ],
+            "prompt": "Eli vă contestă prezența direct. Nela minimizează situația. Cum explicați de ce sunteți aici și setați tonul?",
+            "options": [
+                {
+                    "text": "Mențineți contactul vizual cu Eli, postura relaxată și vocea fermă dar liniștită: 'Bună ziua, sunt agentul Norton. Am primit o sesizare de la un alt vizitator al parcului despre muzica tare și o ceartă — acesta e singurul motiv pentru care sunt aici. Nu am venit să deranjez pe nimeni sau să vă alung. Vreau să mă asigur că toată lumea e bine și că lucrurile rămân calme. Îmi puteți spune ce se întâmplă aici?' Aruncați o privire scurtă către Nela cu un mic semn din cap, incluzând-o în conversație.",
+                    "feedback": "De ce: Acest răspuns atinge fiecare principiu al transparenței. Vă dați numele — umanizându-vă. Explicați motivul prezenței dumneavoastră — o sesizare, nu judecata dumneavoastră personală. 'Nu sunt aici să deranjez pe nimeni' abordează direct preocuparea lui Eli fără a fi defensiv. 'Vreau să mă asigur că toată lumea e bine' vă redefinește rolul de la agent de aplicare a legii la gardian. Întrebarea deschisă 'Ce se întâmplă?' invită narativul lor în loc să-l impuneți pe al dumneavoastră. | CONSECINȚE: Postura lui Eli se relaxează. Își desfășoară brațele. Nela se oprește din a se foi. Chiar și Jarda aruncă o privire înapoi. Ați stabilit că aceasta este o conversație, nu un interogatoriu. Defensivitatea grupului scade măsurabil. | Reflecție: Cum schimbă declararea motivului intervenției dumneavoastră fără a pune vina dinamica? De ce este folosirea numelui dumneavoastră deosebit de eficientă cu adolescenții?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Ridicați ușor din umeri, menținând mâinile la vedere, și vorbiți pe un ton degajat care se potrivește atmosferei de weekend: 'După-amiaza bună. Am primit o plângere de zgomot și cineva a menționat o ceartă. Uitați, nu încerc să vă stric ziua — trebuie doar să verific și să mă asigur că nu e nimeni rănit. Care e situația?' Înclinați ușor capul spre cei doi băieți, ca și cum ați invita-o pe Eli să vă pună în temă cu ce a urmărit.",
+                    "feedback": "De ce: Tonul casual, uman este bun — semnalează că nu sunteți acolo să pedepsiți. 'Nu încerc să vă stric ziua' arată că sunteți conștient că prezența poliției poate fi simțită ca intruzivă. Cu toate acestea, nu v-ați dat numele, ceea ce vă menține anonim și prin urmare mai puțin demn de încredere. De asemenea, nu ați recunoscut explicit dreptul lor de a fi în parc, ceea ce lasă această întrebare în suspans. Abordarea funcționează, dar îi lipsește transparența completă care construiește raport autentic. | CONSECINȚE: Grupul se relaxează oarecum. Eli dă din cap dar rămâne în gardă — așteaptă să vadă dacă asta e pe bune sau doar o capcană. Aveți o fereastră pe care să construiți, dar relația nu este încă stabilită. | Reflecție: Care este diferența dintre un ton casual și transparența autentică? Ce elemente specifice — numele, motivul, intenția — necesită transparență completă?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Scoateți un oftat scurt și aruncați o privire prin parc de parcă ați văzut scena asta de sute de ori, apoi vă întoarceți spre grup cu o expresie indiferentă: 'Sunt obișnuit ca lumea să se plângă mereu de ceva — jumătate din apelurile mele sunt de genul ăsta. Spuneți-mi ce se întâmplă aici și de ce vă certați, ca să-mi dau seama dacă e ceva de rezolvat sau pot să mă întorc la patrulare.' Tonul vă trădează lipsa de interes.",
+                    "feedback": "De ce: Nu escaladează, dar poartă mai multe probleme. 'Sunt obișnuit cu plângeri' trivializează preocuparea reclamantului și semnalează cinism. 'Spuneți-mi' este o comandă, nu o invitație. 'De ce vă certați' presupune răspunsul — ați definit deja situația înainte de a auzi perspectiva lor. Ați sărit și peste a vă da numele, a explica de ce sunteți aici sau a recunoaște că au dreptul să fie în acest spațiu. | CONSECINȚE: Grupul simte indiferența. Eli ridică din umeri — de ce s-ar deschide cuiva căruia în mod evident nu-i pasă? Incertitudinea rămâne. Relația nu se adâncește. | Reflecție: Cum s-ar schimba dinamica dacă ați explica motivul intervenției cu grijă autentică în loc de familiaritate disprețuită?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă îndreptați umerii, vă fixați picioarele în pământ și o priviți pe Eli cu o privire tăioasă, vocea scurtă și deliberată: 'Sunt aici din cauza unei sesizări despre muzica tare și o ceartă. Nu încercați nimic cu mine — eu sunt cel care pune întrebările aici.' Vă mutați privirea încet peste fiecare membru al grupului, lăsând tăcerea să lucreze, asigurându-vă că toți înțeleg dinamica înainte ca cineva să mai scoată un cuvânt.",
+                    "feedback": "De ce: O deschidere autoritară cu adolescenții este cea mai rapidă cale către rezistență. 'Nu încercați nimic' implică faptul că sunt suspecți, nu cetățeni. 'Eu sunt cel care pune întrebările' oprește reciprocitatea pe care dezescaladarea o necesită. Fiecare adolescent prezent și-a confirmat acum cea mai rea așteptare despre poliție: autoritate care nu ascultă, nu explică și nu-i pasă. Provocarea lui Eli era o invitație de a dovedi contrariul — ați respins-o. | CONSECINȚE: Grupul se închide. Brațele se încrucișează. Privirile se întăresc. Eli începe să filmeze. Nela scoate telefonul. Kryštof mormăie 'V-am spus.' Orice cale către dialog necesită acum repararea daunelor pe care această deschidere le-a cauzat. | Reflecție: Când un adolescent întreabă 'De ce sunteți aici?' — este sfidare, sau este o întrebare corectă care merită un răspuns corect? Cum vă modelează răspunsul dumneavoastră relația lor pe viață cu autoritatea?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Faza 3 — Oprirea escaladării certei",
+            "sceneUpdate": {
+                "emoji": "⚡",
+                "title": "Kryštof și Jarda — Tensiunea crește",
+                "desc": "Conversația a scos la iveală adevărata problemă. Kryštof și Jarda vorbesc unul peste altul, vocile urcând. Kryštof face un pas înainte, cu pumnii strânși. Jarda își umflă pieptul. Restul grupului urmărește anxios. Contactul fizic e la câteva secunde distanță. În spatele minții dumneavoastră, înregistrați că videoclipul menționat de Kryštof ar putea fi o probă relevantă dacă situația escaladează la o plângere formală — o tensiune între încurajarea ștergerii pentru reconciliere și păstrarea acestuia pentru orice proceduri viitoare."
+            },
+            "npcDialogue": [
+                {
+                    "character": "krystof",
+                    "text": "Crezi că poți să râzi de mine în fața tuturor și totul e în regulă?! Spune-mi în față! Și acum Nela zice că lumea distribuie din nou videoclipul ăla în grupul de chat — chiar ACUM, cât stăm aici!"
+                },
+                {
+                    "character": "jarda",
+                    "text": "Am zis deja că-mi pare rău! Ce mai vrei? Vrei să mă lovești? Hai, dă-i drumul!"
+                },
+                {
+                    "character": "mrs_kovar",
+                    "text": "(apropiindu-se de pe banca ei, cu voce tăioasă) Domnule agent, o să stați doar așa în timp ce băieții ăștia sunt pe punctul de a se bate? Îi urmăresc de zece minute. Dacă nu puteți să-i controlați, sun direct la secție — și o să scriu și la ziarul local despre asta. Parcul ăsta era sigur cândva."
+                }
+            ],
+            "prompt": "Kryštof și Jarda sunt la câteva secunde de o confruntare fizică. Kryštof este furios că videoclipul umilitor este distribuit din nou online. Doamna Kovarova cere să luați măsuri mai ferme și amenință că va escalada. Cum preveniți violența, gestionați doamna Kovarova și redirecționați către dialog?",
+            "options": [
+                {
+                    "text": "Pășiți calm între cei doi băieți cu palmele deschise către fiecare și vorbiți pe un ton măsurat: 'Băieți, văd că sunteți amândoi supărați — și pot să-mi dau seama că asta contează. Kryštof, te aud — faptul că videoclipul e distribuit din nou face totul mai rău, înțeleg. Jarda, și pe tine te aud. Dar nu rezolvăm asta cu pumnii.' Vă întoarceți scurt către doamna Kovarova: 'Doamnă, înțeleg îngrijorarea dumneavoastră — vă rog să-mi acordați câteva minute.' Apoi reveniți la băieți: 'Kryštof, spune-mi ce s-a întâmplat de la început. Jarda, rândul tău vine, promit.'",
+                    "feedback": "De ce: Aceasta este dezescaladarea din manual cu adolescenți, adaptată pentru presiuni multiple. Folosirea numelor lor semnalează că îi vedeți ca indivizi, nu ca 'copii'. Recunoașterea faptului că videoclipul este redistribuit îi arată lui Kryštof că înțelegeți dimensiunea digitală a umilinței sale — nu este doar o ceartă în parc, este hărțuire continuă online. 'Pot să-mi dau seama că asta contează' respectă gravitatea conflictului lor — crucial pentru că adolescenții se închid când adulții le minimizează sentimentele. Recunoașterea pe scurt a doamnei Kovarova fără a-i permite să vă dicteze abordarea arată că puteți gestiona presiunea comunitară fără a pierde focalizarea pe persoanele care au cea mai mare nevoie de dumneavoastră. Promisiunea de timp egal ('rândul tău vine') abordează instinctul de corectitudine care este hipersensibil la această vârstă. | CONSECINȚE: Pumnii lui Kryštof se desfac — cineva a înțeles cu adevărat că redistribuirea videoclipului face parte din problemă. Respiră adânc și începe să vorbească. Jarda face un pas înapoi, cu brațele încrucișate dar așteaptă. Doamna Kovarova, fiind recunoscută, se retrage pe bancă. Grupul expiră. Ați luat o confruntare fizică și ați transformat-o într-o narațiune. | Reflecție: Cum reduce numirea emoțiilor intensitatea lor? Când un trecător cere acțiune mai agresivă, cum îi recunoașteți preocuparea fără a escalada situația?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Pășiți între ei cu palmele ridicate la nivelul pieptului, plantându-vă ferm în spațiul dintre cei doi: 'Bine, ajunge. Să ne dăm puțin spațiu.' Ghidați pe Kryštof doi pași la stânga cu un gest blând, apoi îl arătați pe Jarda spre capătul opus al băncii: 'Kryštof, tu stai aici. Jarda, tu mergi acolo — am nevoie de câțiva metri între voi. Vă ascult pe fiecare pe rând și rezolvăm.' Vă poziționați corpul în unghi astfel încât să-i puteți vedea pe amândoi și restul grupului.",
+                    "feedback": "De ce: Poziționarea fizică între ei este o gestionare spațială solidă — rupe geometria escaladării și creează un tampon. Palmele deschise semnalează non-agresivitate. Direcțiile clare ('tu aici, tu acolo') reduc ambiguitatea. Cu toate acestea, această abordare abordează riscul fizic fără a face niciun lucru emoțional. Ați separat corpuri dar nu ați recunoscut sentimente. Furia este încă la volum maxim — doar îi lipsește o țintă pentru moment. Fără validare emoțională, tensiunea persistă sub suprafață și se poate reaprinde în momentul în care vă îndepărtați. | CONSECINȚE: Băieții se separă. Riscul imediat de bătaie scade. Dar amândoi rămân agitați — Kryštof merge nervos, Jarda lovește cu piciorul în pământ. Tensiunea nu s-a disipat, doar s-a deplasat. Ați câștigat timp dar nu ați construit încă încredere. | Reflecție: Ce ați putea adăuga la separarea fizică pentru a realiza și dezescaladare emoțională? De ce gestionarea spațială e necesară dar nu suficientă?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă deplasați în spațiul dintre ei fără un cuvânt, cu palmele deschise îndreptate în exterior. Abia după ce le captați atenția vorbiți, pe un ton plat și egal: 'Să ne dăm puțin spațiu. Tu aici, tu acolo.' Arătați spre capetele opuse ale băncii fără a folosi numele niciunuia dintre băieți. 'Vă ascult pe fiecare pe rând.' Rămâneți cu brațele lejer pe lângă corp, împărțind distanța egal, așteptând să se conformeze amândoi înainte de a mai spune ceva.",
+                    "feedback": "De ce: Gestionare spațială sigură care reduce riscul imediat de contact fizic. Dar e pur mecanică — fără nume, fără recunoaștere a emoțiilor, fără confirmare că acest conflict are o semnificație reală pentru ei. Gestionați corpuri, nu persoane. Adolescenții în special au nevoie să simtă că figura de autoritate înțelege ceva din situația lor înainte de a coopera. Fără asta, separarea pare represiune, nu mediere. | CONSECINȚE: Riscul de bătaie scade, dar tensiunea persistă. Ambii băieți se simt manipulați mai degrabă decât ascultați. Cooperarea va fi, în cel mai bun caz, cu reticență. | Reflecție: Care este diferența între a gestiona o situație și a te implica cu oamenii din ea? Ce ați putea adăuga pentru a face acest răspuns mai eficient?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Pășiți în față cu o expresie dură, ridicând vocea astfel încât întregul grup și doamna Kovarova să vă audă clar: 'Ajunge. Dacă voi doi nu vă opriți chiar acum, mergeți amândoi cu mine la secție.' Îl fixați mai întâi pe Kryštof cu privirea, apoi pe Jarda, lăsând amenințarea să plutească în tăcere. Restul grupului încremenește. Doamna Kovarova urmărește cu brațele încrucișate, așteptând acțiune. Stați rigid, așteptând supunere prin intimidare.",
+                    "feedback": "De ce: Amenințarea adolescenților cu secția pentru o ceartă verbală este o utilizare disproporționată a autorității care schimbă tăcerea pe termen scurt pe daune pe termen lung. Amenințarea poate produce conformitate prin frică, dar nu face nimic pentru a aborda conflictul de bază. Mai rău, îi umilește pe ambii băieți în fața colegilor lor — o lovitură devastatoare la o vârstă când statutul social înseamnă totul. Fiecare adolescent prezent vede acum poliția ca o amenințare de evitat, nu ca o resursă în care să aibă încredere. Conflictul va relua pur și simplu în momentul în care plecați, probabil mai intens. | CONSECINȚE: Ambii băieți tac, dar privirile lor spun totul. Maxilarul lui Kryštof se încordează cu furie reprimată. Jarda privește în pământ, rușinat. Grupul urmărește cu ostilitate rece. Ați redus cearta la tăcere dar ați plantat resentiment care va crește. | Reflecție: De ce amenințările eșuează în mod specific cu tinerii? Care este relația între rușine, prezența colegilor și conformarea viitoare?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Faza 4 — Miezul problemei și lucrul cu emoțiile",
+            "sceneUpdate": {
+                "emoji": "💔",
+                "title": "Adevărata poveste iese la suprafață",
+                "desc": "Kryštof a început să vorbească, și furia face loc la ceva mai brut. Vocea i se rupe. Grupul e liniștit — chiar și Jarda a încetat să mai pozeze și ascultă. Nu mai e vorba despre zgomot într-un parc."
+            },
+            "npcDialogue": [
+                {
+                    "character": "krystof",
+                    "text": "A făcut un videoclip în care își bătea joc de mine când nu eram la școală... tata e în spital. S-ar putea să nu... și Jarda l-a pus pe internet și toată lumea a râs. Toată lumea."
+                },
+                {
+                    "character": "jarda",
+                    "text": "(privind în jos) Eu... nu știam de tatăl lui. Îmi pare rău. Chiar îmi pare rău."
+                },
+                {
+                    "character": "officer",
+                    "text": "(calm, către amândoi) Vreau să înțelegeți amândoi un lucru. A posta un videoclip pentru a batjocori sau umili pe cineva — asta poate trece în sfera hărțuirii conform legislației privind hărțuirea digitală. Nu spun asta ca să te sperii, Jarda. Spun asta pentru că ceea ce s-a întâmplat aici nu este doar o chestiune personală — legea o ia în serios. De aceea contează cum rezolvăm asta."
+                }
+            ],
+            "prompt": "Cauza profundă este cyberbullying-ul în timpul unei crize de familie. Jarda și-a cerut scuze, dar sună superficial. Cum sprijiniți o rezolvare semnificativă?",
+            "options": [
+                {
+                    "text": "Vă coborâți vocea astfel încât conversația să pară privată chiar în mijlocul parcului: 'Îmi pare rău pentru ce trece familia ta, Kryštof. E mult de purtat pe umeri, și are perfect sens că ceea ce a făcut Jarda te-a lovit atât de tare.' Vă întoarceți către Jarda cu o privire fermă dar lipsită de ostilitate: 'Jarda — văd că scuzele tale sunt sincere. Poți să-i spui lui Kryštof în mod concret pentru ce îți ceri iertare și ce vei face ca să repari? Nu doar un simplu îmi pare rău — pentru ce anume îți pare rău?'",
+                    "feedback": "De ce: Aceasta este reconcilierea facilitată la cel mai înalt nivel. Validarea durerii lui Kryštof ('e mult de purtat pe umeri') îi spune că emoțiile sale sunt văzute și respectate. Recunoașterea intenției lui Jarda ('văd că scuzele tale sunt sincere') evită să-l rușineze în timp ce ridică ștacheta. Cererea de specificitate transformă un 'îmi pare rău' reflexiv într-o confruntare autentică cu răul provocat. Întrebarea 'ce vei face ca să repari?' introduce responsabilitatea și acțiunea reparatorie. Îi învățați pe ambii băieți — și grupul care urmărește — cum arată responsabilitatea reală. | CONSECINȚE: Jarda se uită la Kryštof: 'Îmi pare rău că am făcut videoclipul ăla. Nu știam de tatăl tău, dar chiar dacă aș fi știut — a fost greșit. O să-l șterg și o să le spun oamenilor să nu-l mai distribuie.' Kryštof dă din cap, cu ochii umezi. Grupul urmărește în tăcere. Ceva real s-a întâmplat aici. | Reflecție: Cum dirijați o scuză astfel încât să nu fie doar de fațadă? De ce cererea de specificitate face diferența între o scuză superficială și o reconciliere autentică?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Dați încet din cap în timp ce Kryštof termină de vorbit, lăsând un moment de liniște înainte de a răspunde: 'Se pare că a fost cu adevărat greu pentru tine, Kryštof. Jarda, e bine că ți-ai cerut scuze — asta cere ceva.' Vă îndreptați postura și treceți pe un ton mai directiv: 'Acum — Jarda, trebuie să ștergi videoclipul ăla astăzi, să te asiguri că a dispărut de pe fiecare platformă. Și amândoi trebuie să lăsați asta în urmă și să mergeți mai departe. Viața e prea scurtă pentru asta.'",
+                    "feedback": "De ce: Ați recunoscut durerea lui Kryštof și ați identificat acțiunea practică necesară — ștergerea videoclipului. Nu e greșit. Dar 'lăsați asta în urmă și mergeți mai departe' trece în grabă peste munca emoțională care face reconcilierea să țină. Kryštof nu a avut spațiu să răspundă la scuză. Jarda nu a fost rugat să înțeleagă impactul a ceea ce a făcut — doar să șteargă dovada. Instrucțiunea de a 'merge mai departe' tratează emoțiile ca obstacole de eliminat, nu ca semnale de procesat. Pacea pe care o obțineți va fi fragilă. | CONSECINȚE: Jarda dă din cap și scoate telefonul să șteargă videoclipul. Kryštof urmărește dar nu pare satisfăcut. Problema de suprafață e rezolvată, dar rana de dedesubt a fost doar bandajată, nu curățată. | Reflecție: Ce lipsește între o soluție practică (ștergerea videoclipului) și o reconciliere autentică? De ce grăbirea peste emoții produce rezultate fragile?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Bateți o dată din palme ca și cum ați chema situația la ordine și vorbiți pe un ton alert, pragmatic: 'Jarda, șterge postarea și cere-ți scuze cum trebuie — uită-te la el în ochi când o faci. Kryštof, calmează-te — ți-a spus că-i pare rău și videoclipul va dispărea. Acum dați-vă mâna ca oamenii mari și să mergem mai departe.' Faceți un gest nerăbdător între cei doi băieți, așteptând strângerea de mână ca să puteți trece la problema zgomotului.",
+                    "feedback": "De ce: Rezolvă problema tehnică — videoclipul se șterge, o scuză se obține — dar sare complet peste miezul emoțional. 'Calmează-te' îi spune lui Kryštof că sentimentele lui sunt un inconvenient. 'Ți-a spus că-i pare rău' tratează scuza ca suficientă fără a-i examina profunzimea. 'Dați-vă mâna' forțează un gest fizic de reconciliere pe care niciunul dintre băieți s-ar putea să nu-l simtă. Manufacturați aparența reconcilierii fără substanță. | CONSECINȚE: Strângerea de mână are loc, dar e moale și reticentă. Postarea se șterge. Dar Kryštof încă poartă durerea, iar Jarda tot nu înțelege pe deplin ce a făcut. Pacea obținută e fragilă — un comentariu greșit la școală luni și conflictul reapinde. | Reflecție: Care este diferența între o rezolvare forțată și una autentică? De ce 'calmează-te' are aproape întotdeauna efectul opus celui intenționat?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă uitați vizibil la ceas cu nerăbdare, scoateți un oftat tăios și tăiați peste ce spunea Kryštof: 'Nu am timp de aceste certuri mărunte. Dacă voi doi nu puteți să vă purtați normal, sun părinții și rezolvăm altfel — și vă garantez că discuția aia nu va fi plăcută pentru nimeni.' Scoateți telefonul pe jumătate din buzunar, pentru efect: 'Rezolvați chiar acum sau suportați consecințele. Alegerea vă aparține.'",
+                    "feedback": "De ce: A numi durerea cea mai profundă a unui adolescent 'mărunte' este unul dintre cele mai dăunătoare lucruri pe care le poate spune o figură de autoritate. Kryštof tocmai v-a spus că tatăl lui e în spital și că a fost umilit public în cea mai grea perioadă a vieții — și dumneavoastră ați numit-o mărunte. Amenințarea cu părinții transformă relațiile de familie în arme. 'Rezolvați' vă abandonează rolul de mediator. I-ați spus unui adolescent care suferă că durerea lui nu contează pentru persoana cu toată puterea în această situație. Daunele aduse încrederii sale în autoritate pot fi permanente. | CONSECINȚE: Fața lui Kryštof devine inexpresivă — privirea cuiva care s-a închis complet. Jarda se foiește incomod. Eli vă privește cu ură. Nela se uită în pământ. Grupul a învățat că poliției nu-i pasă. Conflictul merge sub suprafață, nerezolvat, și va reveni cu intensitate mai mare. | Reflecție: De ce minimizarea durerii cuiva crește riscul de re-escaladare? Care este costul pe termen lung al respingerii crizei emoționale a unui tânăr ca fiind 'mărunte'?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Faza 5 — Zgomot, drepturi și așteptări",
+            "sceneUpdate": {
+                "emoji": "🔊",
+                "title": "Stabilirea unor limite corecte",
+                "desc": "Criza emoțională dintre Kryštof și Jarda a fost abordată. Muzica e deja mai încet. Doamna Kovarova, vizitatoarea parcului care a făcut plângerea, urmărește de pe o bancă din apropiere. Grupul este receptiv dar încă sensibil la orice semn că sunt tratați nedrept."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_kovar",
+                    "text": "(de pe bancă, strigând) Domnule agent, o să țină muzica mai încet? Eu vin aici în fiecare weekend pentru puțin liniște."
+                },
+                {
+                    "character": "eli",
+                    "text": "(în șoaptă, către dumneavoastră) Avem și noi dreptul să fim aici, știți."
+                }
+            ],
+            "prompt": "Plângerea de zgomot încă are nevoie de rezolvare. Eli afirmă dreptul lor la parc. Doamna Kovarova vrea asigurări. Cum stabiliți reguli corecte fără a pedepsi?",
+            "options": [
+                {
+                    "text": "Vă întoarceți direct către Eli, dând din cap în timp ce ea vorbește, apoi răspundeți pe un ton care e ferm dar sincer respectuos: 'Eli, ai perfectă dreptate — aveți tot dreptul să fiți aici, și parcul e pentru toată lumea. Asta o include și pe doamna Kovarova de acolo, care vine și ea să se bucure de după-amiaza ei.' Faceți un gest spre banca unde stă femeia în vârstă: 'Iată ce am nevoie: să țineți volumul la nivelul ăsta sau mai jos, și fără certuri. Dacă puteți face asta, nu există niciun motiv pentru amenzi sau alte măsuri. Corect?'",
+                    "feedback": "De ce: Aceasta este stabilirea echilibrată și transparentă a așteptărilor la cel mai înalt nivel. Validați afirmația lui Eli ('ai perfectă dreptate') în loc să o respingeți. Explicați interesul concurent (doamna Kovarova) fără a-i face pe adolescenți vinovații. Așteptările sunt specifice și realizabile ('nivelul ăsta sau mai jos'). 'Nu există niciun motiv pentru amenzi sau alte măsuri' clarifică consecința pozitivă a conformării. Încheierea cu 'Corect?' invită acordul lor în loc să vă impuneți voința — ceea ce produce conformare voluntară în loc de supunere cu reticență. | CONSECINȚE: Eli dă din cap. Grupul acceptă termenii pentru că se simt ca o negociere, nu o impunere. Doamna Kovarova aude conversația și e satisfăcută. Ambele părți simt că interesele lor au fost respectate. Așteptări clare cu acceptare voluntară. | Reflecție: Cum formulați regulile astfel încât să pară acorduri corecte și nu pedepse? De ce recunoașterea intereselor legitime ale ambelor părți produce o conformare mai bună decât simpla emitere de ordine?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Dați degajat din cap și ridicați ușor din umeri, menținând energia conversațională: 'Aveți dreptul să fiți aici — nu contest asta nicio secundă. Doar țineți-o la un nivel rezonabil. Muzica e bine la volumul ăsta, și sincer aș prefera să nu fiu nevoit să mă întorc cu mașina într-o după-amiază frumoasă ca asta. Sună bine?' Aruncați o privire spre banca doamnei Kovarova fără a i vă adresa direct și fără a-i explica aranjamentul.",
+                    "feedback": "De ce: Tonul e prietenos și mesajul de bază e corect — pot rămâne, să țină volumul rezonabil. Dar 'nu vreau să fiu nevoit să mă întorc' introduce o amenințare voalată care subminează tonul altfel pozitiv. 'Rezonabil' e vag — ceea ce e rezonabil pentru un adolescent poate diferi de ceea ce consideră acceptabil un pensionar. De asemenea, nu ați recunoscut direct preocuparea doamnei Kovarova, ceea ce înseamnă că partea comunitară a ecuației rămâne neabordată. Abordarea funcționează, dar lasă lacune. | CONSECINȚE: Grupul e de acord lejer, dar standardul vag înseamnă că pot crește treptat volumul înapoi. Doamna Kovarova nu a auzit un angajament clar și rămâne neliniștită. Ați obținut un aranjament temporar, nu un acord de durată. | Reflecție: De ce așteptările specifice produc rezultate mai bune decât cele vagi? Cum întărește adresarea tuturor părților interesate — nu doar a grupului din fața dumneavoastră — o rezolvare?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Faceți un gest neglijent cu mâna, de parcă problema s-ar fi rezolvat de la sine și sunteți gata să treceți mai departe: 'Lucrurile sunt bine acum, continuați cum vreți, dar fără certuri sau bătăi.' Vă puneți carnetul la loc fără a nota nimic, aruncați o privire la ceas și faceți un pas înapoi spre alee — fără așteptări clare privind volumul muzicii și fără nicio recunoaștere a plângerii doamnei Kovarova sau a punctului lui Eli despre dreptul lor la spațiu.",
+                    "feedback": "De ce: Nu escaladează, dar abandonează un moment educativ. 'Continuați cum vreți' nu stabilește nicio așteptare privind zgomotul, care era plângerea inițială. Nu ați abordat preocuparea doamnei Kovarova și nu ați folosit această oportunitate pentru a ajuta grupul să înțeleagă că spațiile publice necesită echilibrarea nevoilor diferite. Mesajul către adolescenți este: nu ne pasă de zgomot, doar nu vă bateți. Mesajul către doamna Kovarova: plângerea dumneavoastră nu a fost luată în serios. | CONSECINȚE: Riscul de plângeri repetate este ridicat. Grupul nu are un standard clar de menținut. Doamna Kovarova pleacă nemulțumită și poate suna din nou în următoarea oră. | Reflecție: Cum echilibrați dreptul tinerilor de a se bucura de spațiul public cu nevoile legitime ale altor utilizatori ai parcului? Ce oportunitate a fost ratată aici?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă îndreptați la înălțimea completă, vocea coborând la un ton rece și tăios în timp ce vă treceți privirea peste întregul grup: 'Dacă mai aud de voi o singură dată astăzi — un singur apel, o singură plângere — vă amendez pe fiecare. Nu mă interesează cine a început. Țineți-o mai încet sau suportați consecințele.' Mențineți tăcerea o clipă, apoi vă întoarceți spre banca doamnei Kovarova și îi faceți un semn scurt din cap, semnalând că situația e rezolvată.",
+                    "feedback": "De ce: Amenințările colective împotriva unui grup de adolescenți pentru o plângere de zgomot sunt disproporționate, necorecte și contraproductive. A amenda 'pe fiecare' pedepsește pe trecătorii care nu au făcut nimic greșit — Eli și Nela nu se certau, și muzica e deja mai încet. Amenințarea transformă un moment de cooperare într-un moment de resentiment. Fiecare adolescent prezent pleacă cu lecția că poliția amenință mai întâi și gândește după. Conformarea pe care o obțineți se bazează pe frică și dispare în momentul în care nu mai sunteți în raza lor vizuală. | CONSECINȚE: Grupul amuțește, dar fețele lor sunt ostile. Eli își încrucișează brațele. Nela își pune telefonul la loc — nu vrea să-i fie confiscat. Cooperarea pe care ați construit-o în etapele anterioare este anulată. Vor fi mai gălăgioși weekendul viitor tocmai pentru că se simt vizați. | Reflecție: De ce pedeapsa colectivă este deosebit de distructivă pentru relația poliție-comunitate? De ce conformarea bazată pe frică eșuează în momentul în care ofițerul pleacă?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Faza 6 — Soluție colaborativă",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Propunerea grupului",
+                "desc": "Grupul se consultă pe scurt și revine cu o idee. Eli vorbește în numele grupului în timp ce ceilalți dau din cap aprobator. Chiar și Kryštof și Jarda stau unul lângă altul fără tensiune. Doamna Kovarova urmărește de pe bancă cu un optimism precaut."
+            },
+            "npcDialogue": [
+                {
+                    "character": "eli",
+                    "text": "Ce-ar fi dacă ne mutăm la băncile de lângă zona de skateboard? E mai departe de aleea principală. Vom ține muzica încet. Și le vom spune și altora care vin să o țină mai încet."
+                },
+                {
+                    "character": "nela",
+                    "text": "Da, e de fapt mai frumos acolo oricum. Mai mult spațiu."
+                }
+            ],
+            "prompt": "Grupul a propus propria soluție — să se mute într-o zonă mai puțin centrală și să se autoregleze în privința volumului. Cum răspundeți?",
+            "options": [
+                {
+                    "text": "Lăsați un zâmbet sincer să se vadă în timp ce ascultați planul lui Eli, apoi dați aprobator din cap: 'E o soluție foarte bine gândită — ați venit cu ea singuri și funcționează pentru toată lumea. Zona de skateboard e un loc excelent — mai mult spațiu, mai puțini oameni de deranjat.' Priviți pe rând fiecare membru al grupului, stabilind scurt contact vizual: 'Să mergem pe planul vostru. Voi trece pe acolo puțin mai târziu să văd cum merge — nu să vă controlez, ci doar să dau un salut. Bravo, tuturor.'",
+                    "feedback": "De ce: Acceptarea propunerii lor și laudarea explicită a inițiativei este puternică. 'Ați venit cu ea singuri' le oferă proprietate — acesta este acordul lor, nu ordinul dumneavoastră, ceea ce crește dramatic angajamentul. 'Funcționează pentru toată lumea' validează faptul că au luat în considerare și pe alții. 'Voi trece pe acolo' e o responsabilizare ușoară fără amenințare — spune 'am încredere în voi dar sunt prezent.' 'Bravo' este o întărire pozitivă specifică care semnalează: când acționați responsabil, autoritatea observă și respectă. Pentru adolescenți în special, a fi tratați ca rezolvatori capabili de probleme în loc de probleme care trebuie gestionate este transformator. | CONSECINȚE: Grupul se luminează vizibil. Eli zâmbește. Chiar și Jarda pare ușurat. Încep să-și strângă lucrurile pentru a se muta. Doamna Kovarova dă din cap cu aprobare. Ați transformat un apel de plângere într-un succes de mediere comunitară. Acordul are durabilitate ridicată pentru că le aparține lor. | Reflecție: Cum dați laude specifice tinerilor fără a fi condescendent? De ce proprietatea asupra unei soluții crește conformarea în comparație cu regulile impuse?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Dați nehotărât din cap, cu mâinile pe șolduri, cântărind ideea o clipă înainte de a răspunde pe un ton care amestecă aprobarea cu prudența: 'Ar putea merge. Zona de skateboard e destul de departe de aleea principală, deci zgomotul n-ar trebui să deranjeze pe nimeni. Încercați — dar țineți minte, să fie rezonabil pe acolo, altfel revin cu o altă abordare. Am încredere în voi să vă țineți de cuvânt.' Vă dați la o parte pentru a elibera drumul spre zona de skateboard.",
+                    "feedback": "De ce: Acceptați propunerea, ceea ce e important, dar o subminați imediat cu o amenințare condiționată. 'Încercați' implică faptul că vă așteptați să eșueze. 'Altă abordare' este amenințător de vag și reintroduce cadrul punitiv pe care ați lucrat să-l depășiți. De asemenea, nu ați recunoscut faptul că ei înșiși au generat soluția — o oportunitate ratată pentru genul de întărire pozitivă care formează comportamentul viitor. Propunerea e aprobată dar nu e valorificată. | CONSECINȚE: Grupul se mută, dar fără entuziasm. Efortul nerecunoscut și amenințarea din coadă lasă o senzație mutată. Acordul va ține, dar nu se simte ca o victorie pentru nimeni. | Reflecție: Care e diferența între aprobarea condiționată și susținerea autentică? Cum afectează amenințările din coadă durabilitatea acordurilor?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Ridicați din umeri și faceți un pas înapoi, privirea deja îndreptată spre parcarea unde vă așteaptă mașina, de parcă gândul v-a trecut deja la următorul apel: 'Bine, faceți ce credeți că e mai bine — nu mă bag. Vreți să mergeți la zona de skateboard, să rămâneți aici, oriunde, e treaba voastră.' Vă puneți carnetul în buzunarul de la vestă și faceți un gest vag de confirmare, fără nicio părere despre calitatea planului și fără încurajare pentru efortul depus.",
+                    "feedback": "De ce: Aceasta este dezangajare pasivă deghizată în permisivitate. 'Faceți ce credeți că e mai bine' sună acomodant dar comunică indiferență. Nu ați recunoscut efortul lor de a găsi o soluție. Nu ați validat calitatea propunerii lor. Nu v-ați exprimat nicio opinie. Pentru adolescenți care tocmai au luat inițiativa de a rezolva probleme cu un ofițer de poliție prezent, aceasta este o non-răspuns dezumflător. 'Nu mă bag' sună ca și cum vă spălați pe mâini de situație. | CONSECINȚE: Grupul se mută, dar energia e plată. Eli ridică din umeri — se aștepta la mai mult răspuns la efortul lor. Soluția se întâmplă, dar momentul de construire a relației e irosit. Încrederea nu e întărită. | Reflecție: De ce recunoașterea e importantă pentru sustenabilitatea unui acord voluntar? Ce vă costă să spuneți 'idee bună' — și ce câștigați?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Ridicați o mână pentru a o opri pe Eli la mijlocul propoziției, expresia vi se întărește în timp ce clătinați din cap: 'Facem cum spun eu. Puteți rămâne în parc — nu vă dau afară — dar muzica rămâne complet oprită. Fără boxă, fără zgomot. Puneți-o în geantă.' Arătați cu un gest sec spre boxa portabilă de pe bancă, ignorând complet comentariul Nelei despre zona de skateboard și înlocuind propunerea grupului cu propriile condiții mai stricte.",
+                    "feedback": "De ce: A înlocui propunerea lor cu o regulă mai strictă pedepsește inițiativa pe care tocmai au arătat-o. Au oferit un compromis rezonabil — relocare și volum mai mic — și ați răspuns interzicând muzica complet. Asta le spune: părerea voastră nu contează, și cooperarea nu vă aduce nimic. E deosebit de dăunătoare pentru că sunt adolescenți care tocmai au demonstrat exact genul de rezolvare responsabilă a problemelor pe care programele de implicare a tinerilor încearcă să-l cultive. I-ați învățat că dialogul cu autoritatea e o pierdere de timp. | CONSECINȚE: Expresia lui Eli se prăbușește. 'Tocmai am oferit să ne mutăm.' Grupul se conformează, dar boxa intră în geantă cu resentiment. Interzicerea muzicii se simte ca pedeapsă pentru o infracțiune care nu a fost comisă. Data viitoare, nu se vor mai obosi să ofere soluții — vor evita pur și simplu poliția. | Reflecție: Când e necesară directivitatea și când distruge tocmai cooperarea pe care încercați să o construiți? Ce a demonstrat propunerea grupului despre disponibilitatea lor de a se implica?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Faza 7 — Încheierea pe teren",
+            "sceneUpdate": {
+                "emoji": "👋",
+                "title": "Rămas-bun",
+                "desc": "Grupul își face bagajele pentru a se muta în zona de skateboard. Atmosfera e calmă — chiar ușoară. Kryštof și Jarda merg împreună, încă nu prieteni dar nu mai dușmani. Nela se apropie de dumneavoastră în timp ce ceilalți încep să se miște. Vă notați mental să completați un raport de contact comunitar când ajungeți înapoi la vehicul — nume, natura disputei, elementul de cyberbullying și rezoluția atinsă. Monitorizarea tiparelor la contactele cu tineri ajută departamentul să identifice probleme recurente înainte de a escalada."
+            },
+            "npcDialogue": [
+                {
+                    "character": "nela",
+                    "text": "Mulțumim că nu ne-ați trimis pur și simplu acasă. Majoritatea polițiștilor ne spun doar să plecăm."
+                },
+                {
+                    "character": "eli",
+                    "text": "(strigând din mers) Da... mulțumim, cred. Ne vedem, domnule agent."
+                }
+            ],
+            "prompt": "Întâlnirea se încheie. Nela vă mulțumește că i-ați tratat cu respect. Cum lăsați o impresie pozitivă de durată?",
+            "options": [
+                {
+                    "text": "Vă opriți o clipă să priviți pe fiecare dintre ei înainte de a vorbi, cu voce caldă și fără grabă: 'Vă mulțumesc pentru cooperare — tuturor. Eli, Nela, mulțumesc că ați vorbit cu mine în loc să mă excludeți — asta a făcut o diferență reală. Kryštof, sper din suflet că tatăl tău se va face bine. Jarda, ce ai făcut mai devreme a cerut curaj.' Faceți o pauză, apoi adăugați: 'Dacă vreunul dintre voi are nevoie vreodată de ajutor — nu doar chestiuni de poliție — puteți întreba. Bucurați-vă de după-amiază.'",
+                    "feedback": "De ce: Această încheiere este o clasă de maestru în conexiune umană. Mulțumirea lor pe nume personalizează întâlnirea — nu sunt 'un grup de adolescenți', sunt indivizi pe care îi amintiți. Recunoașterea situației familiale a lui Kryštof arată că ați ascultat și v-a păsat. Laudarea scuzelor lui Jarda întărește reconcilierea. Oferirea ajutorului viitor ('nu doar chestiuni de poliție') redefinește relația poliție-tineri de la adversarială la suportivă. 'Bucurați-vă de după-amiază' le returnează ziua. Ultimele cuvinte ale unei întâlniri sunt ceea ce oamenii își amintesc cel mai bine — și aceste cuvinte spun: contați, ați fost ascultați, și autoritatea poate fi blândă. | CONSECINȚE: Nela zâmbește. Kryštof dă din cap în liniște — recunoașterea tatălui său înseamnă mai mult decât știți. Jarda ridică privirea, surprins să fie lăudat. Eli face cu mâna. Pleacă purtând o experiență fundamental diferită a poliției față de ceea ce se așteptau. Aceasta este întâlnirea despre care le vor povesti prietenilor. | Reflecție: Cum afectează 'ultima propoziție' ceea ce oamenii iau din interacțiunea cu poliția? De ce numirea indivizilor dintr-un grup e deosebit de puternică la încheierea unei întâlniri?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Zâmbiți și le faceți grupului un semn degajat cu degetul mare în sus în timp ce încep să-și strângă lucrurile, menținând tonul lejer și sincer: 'Mulțumesc că ați cooperat cu mine — serios, v-ați descurcat foarte bine. Mulți oameni nu ar fi venit cu o soluție de unii singuri.' Faceți un pas înapoi spre aleea principală și ridicați mâna într-un salut relaxat: 'Să aveți o după-amiază frumoasă și țineți-o calmă pe acolo. Sunt prin zonă dacă aveți nevoie de ceva.'",
+                    "feedback": "De ce: Cald, apreciativ și sincer prietenos. 'V-ați descurcat bine' e o întărire pozitivă care le recunoaște maturitatea. Tonul se potrivește situației — casual, respectuos, fără exagerare. Cu toate acestea, ratați oportunitatea de a vă adresa indivizilor — în special lui Kryštof, care a împărtășit ceva profund personal, și lui Jarda, care a făcut un pas dificil. Într-un grup de adolescenți, recunoașterea individuală are o greutate enormă. Un 'voi toți' generic e bun; recunoașterea individuală e excepțională. | CONSECINȚE: Grupul pleacă cu o impresie pozitivă. Întâlnirea a fost bună — dar ar fi putut fi memorabilă. Fără recunoaștere individuală, amintirea va fi 'agentul ăla a fost ok' mai degrabă decât 'agentul ăla m-a văzut ca persoană.' | Reflecție: Care e diferența între o interacțiune pozitivă de grup și una care lasă indivizii să se simtă văzuți personal? Când investiția a încă treizeci de secunde de personalizare dă dividende?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă puneți carnetul la loc și vorbiți pe un ton plat, lipsit de căldură, care elimină orice urmă de apropiere din încheiere: 'Bine, de data asta trecem cu vederea — fără raport, fără amendă. Dar data viitoare ar putea fi o amendă, deci țineți-o mai încet și asigurați-vă că nu mai primesc un alt apel despre locul ăsta astăzi.' Vă întoarceți să plecați fără a folosi vreun nume, fără nicio recunoaștere a modului în care s-a desfășurat întâlnirea sau a efortului depus.",
+                    "feedback": "De ce: 'Trecem cu vederea' implică faptul că au comis o infracțiune pe care o ignorați cu generozitate — ceea ce reîncadrează o rezolvare cooperantă ca o grațiere. 'Data viitoare ar putea fi o amendă' reintroduce o amenințare exact în momentul în care încrederea e la maximum. Încheierea anulează bunăvoința etapelor precedente. Grupul nu aude 'mulțumesc' — aude 'ați avut noroc de data asta.' Pentru adolescenți, ultimul lucru pe care o figură de autoritate îl spune are o greutate disproporționată. Această încheiere le spune: poliția are întotdeauna o amenințare în rezervă. | CONSECINȚE: Atmosfera scade. Salutul lui Eli moare. Nela se uită în pământ. Conformarea continuă, dar sentimentele călduroase se evaporă. Pleacă cu impresia că toleranța poliției e condiționată și temporară. | Reflecție: Când e un avertisment suficient și când anulează raportul pe care l-ați construit? Cum schimbă încadrarea unui rezultat ca 'trecem cu vederea' dinamica puterii?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Arătați cu degetul spre grup, trecând de la un capăt la celălalt, vocea coborâtă la un avertisment deliberat și încet: 'Aveți grijă data viitoare. Dacă sunt chemat înapoi aici din orice motiv — zgomot, ceartă, orice — primiți toți amenzi, fiecare dintre voi. Nu voi mai fi atât de amabil.' Mențineți privirea fixă o clipă lungă, apoi vă întoarceți pe călcâie și vă îndreptați spre mașina de patrulare fără un rămas-bun și fără a privi înapoi.",
+                    "feedback": "De ce: O încheiere mustrătoare, amenințătoare după o întâlnire cooperantă este o trădare a încrederii care a fost construită. 'Aveți grijă' îi tratează ca viitori infractori. 'Nu voi mai fi atât de amabil' dezvăluie că vedeți propriul profesionalism ca o favoare mai degrabă decât un standard. Fiecare pas pozitiv al interacțiunii precedente este retroactiv reîncadrat: ofițerul nu era corect — era îngăduitor, și data viitoare își vor arăta adevărata față. Așa învață tinerii să nu aibă încredere permanent în poliție. Daunele unei încheieri proaste pot depăși beneficiul unei întâlniri întregi bune. | CONSECINȚE: Zâmbetul Nelei dispare. Kryštof mormăie 'Ca întotdeauna.' Jarda clatină din cap. Eli nu spune nimic — deja compune postarea pe rețele despre cum ofițerul a fost 'amabil până la final.' Grupul pleacă purtând amărăciune în loc de recunoștință. Tot ce ați construit a fost demolat în două propoziții. | Reflecție: Cum vă țineți în frâu propria frustrare sau cinism la sfârșitul unei intervenții? De ce pot două propoziții la final anula treizeci de minute de muncă bună?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Faza 8 — Debriefing și reflecție",
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Debriefing de instruire — Înapoi la secție",
+                "desc": "Sunteți înapoi la secție cu sergenta Benešova. Întâlnirea din parc s-a încheiat și e timpul să trecem în revistă ce s-a întâmplat, ce a funcționat și ce poate fi îmbunătățit."
+            },
+            "autoDialogue": true,
+            "finalScene": true,
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "Întâlnirile cu tinerii sunt momente definitorii — nu doar pentru apel, ci pentru următorii cincizeci de ani în care acei tineri se vor raporta la autoritate. Ați intrat într-o plângere de zgomot cu un grup de adolescenți și ați găsit o criză de cyberbullying stratificată peste o urgență de familie. Modul în care ați gestionat — nume, transparență, reconciliere ghidată și rezolvare colaborativă a problemei — i-a învățat pe acei adolescenți ceva ce vor purta cu ei decenii: că autoritatea poate asculta, poate fi corectă și poate ajuta."
+                },
+                {
+                    "character": "officer",
+                    "text": "Ce mi-a fost cel mai greu a fost să rezist impulsului de a impune pur și simplu o soluție. Când grupul lui Eli a propus mutarea în zona de skateboard, primul meu instinct a fost să adaug condiții — limite de volum mai stricte, o oră la care trebuie să plece. Să-i las să dețină soluția a simțit că renunț la control."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Și exact această concepție greșită vreau să o adresez. Cu adolescenții, impunerea soluției dumneavoastră e mai rapidă, dar a-i lăsa să o dețină e ceea ce funcționează cu adevărat. Diferența e între conformare și angajament. Când dictați termeni, obțineți conformare care se evaporă în momentul în care plecați cu mașina. Când ei înșiși generează soluția, sunt angajați față de ea pentru că e a lor. Propunerea lui Eli nu a fost o concesie pe care ați făcut-o — a fost cel mai bun rezultat posibil, pentru că un grup de adolescenți au ales în mod voluntar responsabilitatea. Asta nu e pierdere de control. Asta e forma cea mai înaltă a controlului."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Încă un lucru — partea procedurală. Ați făcut referire la statutul de hărțuire digitală când ați vorbit cu Jarda despre videoclip. A fost inteligent. A dat greutate medierii dumneavoastră fără a o transforma într-o procedură penală. Și raportul dumneavoastră de contact comunitar — documentând numele, elementul de cyberbullying, rezoluția — așa monitorizăm tiparele. Dacă numele lui Jarda apare din nou într-un context similar peste trei luni, existența acelei înregistrări înseamnă că putem interveni mai devreme, poate îl conectăm cu un consilier școlar înainte ca lucrurile să escaladeze. Documentarea contactelor cu tineri nu e birocrație — e prevenire."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Momentul care va rămâne cu mine e încheierea dumneavoastră — folosirea numelor lor, recunoașterea crizei de familie a lui Kryštof, laudarea curajului lui Jarda de a-și cere scuze. Eli i-a spus mai târziu unui consilier școlar că ceea ce și-a amintit cel mai bine a fost că ofițerul le-a folosit numele și i-a întrebat ce s-a întâmplat înainte să le spună ce să facă. Această singură observație surprinde totul. Nu i-ați împrăștiat. Nu i-ați redus la tăcere. I-ați întâlnit acolo unde erau, și ei s-au ridicat să vă întâlnească. Permiteți-mi să vă spun ce s-a întâmplat după aceea."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {
+            "name": "Dispecerat",
+            "avatar": "📻"
+        },
+        "eli": {
+            "name": "Eli (17, purtătoare de cuvânt a grupului)",
+            "avatar": "🧑‍🎤"
+        },
+        "nela": {
+            "name": "Nela (16, observatoare tăcută)",
+            "avatar": "👩‍🦰"
+        },
+        "krystof": {
+            "name": "Kryštof (17, tatăl în spital)",
+            "avatar": "😠"
+        },
+        "jarda": {
+            "name": "Jarda (16, a postat videoclipul)",
+            "avatar": "😒"
+        },
+        "mrs_kovar": {
+            "name": "Dna. Kovarova (vizitatoare a parcului)",
+            "avatar": "👵"
+        },
+        "officer": {
+            "name": "Tu (ofițer)",
+            "avatar": "👮"
+        },
+        "instructor": {
+            "name": "Sergenta Benešova",
+            "avatar": "👮‍♀️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Implicare excepțională cu tinerii!",
+            "emoji": "🌟",
+            "feedback": "Ați demonstrat competențe excepționale în fiecare dimensiune a dezescaladării centrate pe tineri. Abordarea dumneavoastră calmă a păstrat demnitatea, transparența a construit încredere, inteligența emoțională a ghidat o reconciliere autentică, iar încheierea a lăsat o impresie pozitivă de durată. Acești adolescenți au plecat cu o viziune fundamental diferită asupra poliției — și asta contează pentru decenii de acum încolo."
+        },
+        "good": {
+            "title": "Performanță puternică",
+            "emoji": "✅",
+            "feedback": "Ați gestionat bine întâlnirea, arătând instincte bune pentru dezescaladare și respect autentic față de tinerii implicați. Unele oportunități pentru o implicare emoțională mai profundă sau o încheiere mai personalizată au fost ratate, dar abordarea dumneavoastră generală a fost profesională, corectă și eficientă."
+        },
+        "average": {
+            "title": "Răspuns adecvat",
+            "emoji": "📊",
+            "feedback": "Ați rezolvat situația fără escaladare majoră, dar mai multe oportunități pentru conexiune semnificativă au fost ratate. Revizuiți tehnicile de validare emoțională, scuze facilitate și rezolvare colaborativă a problemelor cu tineri. Rezultatul tehnic a fost acceptabil, dar rezultatul relațional ar putea fi semnificativ mai puternic."
+        },
+        "poor": {
+            "title": "Necesită îmbunătățiri semnificative",
+            "emoji": "⚠️",
+            "feedback": "Abordarea dumneavoastră a escaladat tensiunile și a deteriorat relația dintre acești tineri și autoritățile de aplicare a legii. Amenințările, dismisivitatea și limbajul autoritar sunt deosebit de contraproductive cu adolescenții, care sunt programați din punct de vedere al dezvoltării să reziste nedreptăților percepute. Revizuiți principiile de implicare a tinerilor, fundamentele dezescaladării și costul comunitar pe termen lung al întâlnirilor negative poliție-tineri."
+        }
+    },
+    "metrics": {
+        "youthEngagement": {
+            "name": "Implicarea tinerilor",
+            "description": "Folosirea comunicării adecvate vârstei, numelor și respectului pentru a construi încredere cu tinerii",
+            "icon": "🧑‍🤝‍🧑"
+        },
+        "proceduralFairness": {
+            "name": "Corectitudine procedurală",
+            "description": "Explicarea prezenței dumneavoastră, ascultarea tuturor părților și aplicarea regulilor în mod transparent și imparțial",
+            "icon": "⚖️"
+        },
+        "emotionalIntelligence": {
+            "name": "Inteligență emoțională",
+            "description": "Recunoașterea, validarea și lucrul cu emoțiile în loc de a le reprima sau ignora",
+            "icon": "💚"
+        },
+        "proportionateResponse": {
+            "name": "Răspuns proporțional",
+            "description": "Corelarea nivelului intervenției cu gravitatea reală a situației fără a supradimensiona sau subdimensiona reacția",
+            "icon": "📏"
+        },
+        "communityRelations": {
+            "name": "Relații cu comunitatea",
+            "description": "Echilibrarea nevoilor tuturor părților interesate — adolescenți, vizitatori ai parcului și comunitatea extinsă — în timp ce construiți încredere pe termen lung",
+            "icon": "🏘️"
+        }
+    }
+}

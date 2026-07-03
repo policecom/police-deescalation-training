@@ -1,0 +1,747 @@
+{
+  "scenarioId": "road-rage",
+  "reviewVersion": "2.0",
+  "title": "Silniční agrese — střet na křižovatce — analýza výkonu",
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Místo nehody",
+      "criticalSkills": [
+        "Bezpečnost místa",
+        "Prioritizace kroků",
+        "Velitelská přítomnost"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Postavíte hlídkový vůz tak, aby chránil místo nehody. Zapnete výstražná světla. Pak rázně přistoupíte: ‚Potřebuji, abyste oba ustoupili na chodník. Hned. Vyřešíme to, ale nejdřív musí být všichni v bezpečí.'",
+          "strengths": [
+            "Hlídkový vůz vytváří fyzickou bariéru bránící sekundárním nehodám",
+            "Výstražná světla varují přijíždějící řidiče",
+            "Pokyn ustoupit na chodník řeší fyzickou bezpečnost jako první",
+            "Rázný, ale klidný tón ustanovuje autoritu bez eskalace"
+          ],
+          "professionalImpact": "Zajištění místa před čímkoli jiným brání sekundárním srážkám a ustanovuje správnou posloupnost priorit."
+        },
+        "partially_positive": {
+          "choiceText": "Rychle jdete k hatchbacku zkontrolovat plačící dítě — nejzranitelnější osobu na místě.",
+          "adequate": [
+            "Vynikající instinkt prioritizovat dítě",
+            "Zaměření na nejzranitelnější osobu"
+          ],
+          "missed": [
+            "Projití kolem hádajících se řidičů bez stabilizace",
+            "Místo zůstává nezajištěné před provozem",
+            "Hádka se může eskalovat, zatímco jste k nim zády"
+          ],
+          "improvement": "Instinkt ohledně dítěte je správný, ale nejdřív stabilizujte místo a oddělte dospělé. Nemůžete pomoci dítěti, zatímco se dva dospělí perou za vašimi zády."
+        },
+        "neutral": {
+          "choiceText": "Nejdřív zavoláte posily — místo je složité. Než cokoli uděláte, budete potřebovat další hlídku.",
+          "adequate": [
+            "Žádost o posily je takticky rozumná"
+          ],
+          "missed": [
+            "Nečinné přihlížení, zatímco se dospělí hádají na silnici",
+            "Nic se neřeší během čekání",
+            "Posily mohou dorazit za několik minut — situace se zhoršuje"
+          ],
+          "improvement": "Volejte posily a současně stabilizujte. Můžete vysílat a dávat pokyny zároveň."
+        },
+        "negative": {
+          "choiceText": "Jdete rovnou k hádajícím se řidičům: ‚Oba — přestaňte. Jsem tady. Kdo mi chce říct, co se stalo?'",
+          "failures": [
+            "Místo nezajištěno — riziko sekundární srážky",
+            "‚Kdo mi chce říct, co se stalo?' vybízí ke konkurenčním výpovědím",
+            "Dítě nezkontrolováno",
+            "Upřednostnění hádky před bezpečností"
+          ],
+          "consequences": "Zapojení se do hádky před zajištěním místa riskuje sekundární srážky a nechává dítě bez dozoru.",
+          "trainingFocus": "Projděte si protokoly bezpečnosti místa — nebezpečí, zranění a plynulost provozu musí být řešeny před vyšetřováním."
+        }
+      },
+      "keyLearningPoints": [
+        "Bezpečnost místa má přednost před vyšetřováním — vždy",
+        "Fyzické bariéry brání sekundárním nehodám",
+        "Rázné, ale klidné pokyny ustanovují autoritu bez eskalace"
+      ]
+    },
+    "2": {
+      "stageName": "Dítě",
+      "criticalSkills": [
+        "Posouzení péče o dítě",
+        "Zapojení rodiče",
+        "Lékařské rozhodování"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Řeknete jí: ‚Půjdu s vámi — podíváme se na Ellu spolu.' Jdete s ní k autu, opatrně otevřete dveře. Systematicky zkontrolujete dítě: oční kontakt a reaktivitu, modřiny nebo stopy od bezpečnostního pásu či popruhů, zda se šklebí při pohybu krkem nebo pažemi, zda jsou zornice stejné a reagují.",
+          "strengths": [
+            "Systematická kontrola dítěte — ne jen letmý pohled",
+            "Společná cesta s matkou ukazuje péči a udržuje přítomnost",
+            "Odborné oči kontrolují skrytá zranění — modřiny, omezený pohyb, zornice",
+            "Lékařské rozhodnutí založeno na skutečném posouzení, ne na předpokladu"
+          ],
+          "professionalImpact": "Systematická kontrola zdravotního stavu dítěte demonstruje profesionální kompetenci, která buduje hlubokou důvěru u rodiče."
+        },
+        "partially_positive": {
+          "choiceText": "Zavoláte sanitku na preventivní kontrolu, pak jdete k dítěti: ‚Pro Ellu jede sanitka. Teď za ní půjdu.'",
+          "adequate": [
+            "Přivolání lékařské pomoci pro dítě po nehodě je silné preventivní opatření",
+            "Ukazuje zájem o skrytá zranění"
+          ],
+          "missed": [
+            "Volání před posouzením — další minuta prodlení",
+            "Vizuální posouzení by mělo určit, zda je sanitka preventivní nebo urgentní",
+            "Matka se ptá, proč jste volali dřív, než jste zkontrolovali dceru"
+          ],
+          "improvement": "Nejdřív posoudit, pak volat — vaše vizuální posouzení určí naléhavost a nastaví požadavek na záchrannou službu."
+        },
+        "neutral": {
+          "choiceText": "Kývnete jí: ‚Ano, jděte — vezměte dceru a přiveďte ji na chodník. Potřebuji začít sepisovat výpovědi.'",
+          "adequate": [
+            "Umožnění matce vzít si dítě"
+          ],
+          "missed": [
+            "Matka poslána sama bez vaší kontroly Elly",
+            "Děti v dětských sedačkách mohou mít skrytá zranění",
+            "‚Potřebuji začít sepisovat výpovědi' signalizuje papírování před péčí o dítě"
+          ],
+          "improvement": "Osobně zkontrolujte dítě na místě nehody — skrytá zranění vyžadují odborné pozorování."
+        },
+        "negative": {
+          "choiceText": "Řeknete paní Bennett: ‚Zůstaňte, kde jste — potřebuji udržet všechny oddělené. Na dceru se podívám za chvíli.'",
+          "failures": [
+            "Princip oddělení aplikován nesprávně — rodič není nepřátelská strana",
+            "Omezení přístupu rodiče k vyděšenému dítěti je nepřiměřené",
+            "Každá minuta prodlení prohlubuje stres dítěte",
+            "Ze spojence se stal protivník"
+          ],
+          "consequences": "Bránění matce dostat se k vyděšenému dítěti okamžitě ničí důvěru a vytváří nový konflikt.",
+          "trainingFocus": "Projděte si, kdy je oddělení vhodné a kdy se stává nepřiměřeným."
+        }
+      },
+      "keyLearningPoints": [
+        "Systematická kontrola dítěte — ne jen letmý pohled — demonstruje profesionální kompetenci",
+        "Společná cesta s rodičem udržuje přítomnost a umožňuje útěchu",
+        "Lékařská rozhodnutí by měla vycházet z posouzení, ne z předpokladů"
+      ]
+    },
+    "3": {
+      "stageName": "Zajišťování výpovědí",
+      "criticalSkills": [
+        "Vyšetřovací posloupnost",
+        "Zajištění důkazů",
+        "Práce se svědky"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Zvednete obě ruce: ‚Slyším vás oba. Potřebuji mluvit s každým z vás zvlášť, abych vám mohl věnovat plnou pozornost. Pane Cooper — prosím počkejte u svého vozidla. Paní Bennett — zůstaňte s Ellou. Také potřebuji mluvit s tím pánem na rohu.' Přistoupíte nejdřív ke svědkovi.",
+          "strengths": [
+            "Oddělení výpovědí pro přesnost",
+            "Nezávislý svědek prioritizován — nejcennější a může odejít",
+            "‚Věnovat plnou pozornost' činí oddělení respektuplným",
+            "Základní výpověď získána před výpověďmi řidičů"
+          ],
+          "professionalImpact": "Nezávislý svědek je nejcennější výpověď na sporném místě — zajistit ho jako prvního je vyšetřovatelsky vynikající."
+        },
+        "partially_positive": {
+          "choiceText": "Zvednete ruku: ‚Jeden po druhém. Pane Cooper, počkejte u svého vozidla. Paní Bennett, řekněte mi, co se stalo.' Vezmete její výpověď první, protože má dítě.",
+          "adequate": [
+            "Správné oddělení výpovědí",
+            "Výběr matky jako první má praktické opodstatnění — potřeby dítěte"
+          ],
+          "missed": [
+            "Volba může být vnímána jako zaujatost",
+            "Cooper se vaří vzteky a je čím dál nepřátelštější",
+            "Svědek na rohu odchází — nejcennější důkaz"
+          ],
+          "improvement": "Zajistěte nejdřív nezávislého svědka — nemá na výsledku zájem a může rychle odejít."
+        },
+        "neutral": {
+          "choiceText": "Obrátíte se k paní Bennett: ‚Jste v pořádku? Řekněte mi, co se stalo.' Nejdřív se věnujete rozrušenější straně pro deeskalaci, pak přejdete ke Cooperovi.",
+          "adequate": [
+            "Pečující přístup k oběti",
+            "Nejdřív kontrola stavu"
+          ],
+          "missed": [
+            "Žádost o popis nehody zatímco drží plačící dítě není ideální",
+            "Svědek odchází — nejcennější zdroj důkazů",
+            "K oběma řidičům se můžete vrátit po zajištění svědka"
+          ],
+          "improvement": "Na sporném místě je nezávislý svědek nejcennější výpověď k zajištění jako první."
+        },
+        "negative": {
+          "choiceText": "Necháte oba řidiče mluvit a posloucháte obě verze — rozpory odhalí, kdo lže.",
+          "failures": [
+            "Současné výpovědi eskalují konflikt",
+            "Každá výpověď vyvolává protiargumenty",
+            "Detaily se ztrácejí v emotivních protinávrzích",
+            "Svědek odchází — kritický důkaz ztracen"
+          ],
+          "consequences": "Nechat rozzuřené strany argumentovat před sebou produkuje kontaminované výpovědi a riskuje fyzickou eskalaci.",
+          "trainingFocus": "Projděte si protokoly oddělených výpovědí a práci se svědky na sporných místech."
+        }
+      },
+      "keyLearningPoints": [
+        "Nezávislí svědci jsou nejcennější důkaz — zajistěte je jako první",
+        "Oddělené výpovědi produkují přesnější informace",
+        "Prezentování oddělení jako projevu respektu brání vnímání zaujatosti"
+      ]
+    },
+    "4": {
+      "stageName": "Agresivní řidič",
+      "criticalSkills": [
+        "Deeskalace pod agresí",
+        "Rozpoznání lidského okamžiku",
+        "Vyšetřovací dotazování"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Nejdřív potvrdíte lidský okamžik: ‚Ella je v pořádku — je vyděšená, ale nezraněná. Dětská sedačka splnila svůj účel.' Necháte to dolehnout, pak: ‚Chápu, že jste frustrovaný, a vím, že takhle jste si odpoledne nepředstavoval. Potřebuji slyšet vaši verzi — od začátku. Odkud jste jel a co se stalo, když jste se blížil ke křižovatce?'",
+          "strengths": [
+            "Odpověděl na jeho starost o Ellu — všiml si jeho lidskosti",
+            "Řekl Cooperovi, že není vnímán čistě jako agresor",
+            "Bezpečnost dítěte zarámována jako sdílená priorita",
+            "‚Odkud jste jel?' je současně deeskalace i vyšetřování"
+          ],
+          "professionalImpact": "Odpovědět na něčí starost o dítě — i když nehodu zavinil — změní celou dynamiku a zvýší pravděpodobnost, že bude mluvit upřímně."
+        },
+        "partially_positive": {
+          "choiceText": "Řeknete mu: ‚Chápu, že jste rozčílený, ale potřebuji, abyste se uklidnil. Křičením si nepomůžete. Nechte mě vám položit pár otázek.'",
+          "adequate": [
+            "Pokus o přesměrování",
+            "Přechod k dotazování"
+          ],
+          "missed": [
+            "‚Uklidněte se' má téměř vždy opačný efekt",
+            "‚Křičením si nepomůžete' je napomenutí, ne deeskalace",
+            "Starost o Ellu zůstala nepovšimnuta",
+            "Lidský okamžik promarněn"
+          ],
+          "improvement": "Nahraďte ‚uklidněte se' uznáním. Když někdo projeví starost o dítě, navažte na to — ta trhlina v agresivitě je vaší příležitostí."
+        },
+        "neutral": {
+          "choiceText": "Odpovíte mu přímo: ‚Pane Cooper, svědek potvrzuje, že jste projel stopku. Zavinil jste to. Píšu pokutu a odtud neodjedete, dokud nebude hlášení hotové.'",
+          "adequate": [
+            "Důkazy podporují závěr"
+          ],
+          "missed": [
+            "Oznámení výsledku před jeho výpovědí — podkopává řádný proces",
+            "Hlášení je napadnutelné právní cestou",
+            "Ignorování jeho starosti o Ellu — jeho jediný okamžik lidskosti",
+            "Konfrontační přístup k již agresivnímu muži"
+          ],
+          "improvement": "Nikdy neoznamujte závěry před dokončením vyšetřování. Vyslechněte všechny strany, pak určete zjištění."
+        },
+        "negative": {
+          "choiceText": "Řeknete mu, ať si sedne do auta a počká: ‚Pane Cooper, přijdu za vámi, až budu připravený. Prosím počkejte ve svém vozidle.'",
+          "failures": [
+            "Poslán zpět k vozidlu — riziko pro zajištění důkazů",
+            "Lidský okamžik ohledně Elly zcela propásnut",
+            "Izolace živí jeho pocit neúcty",
+            "Čas na odstranění důkazů z vozidla"
+          ],
+          "consequences": "Poslání řidiče bez dozoru zpět do vozidla riskuje odstranění důkazů a promrhání příležitosti vytvořené jeho starostí o dítě.",
+          "trainingFocus": "Projděte si zajištění důkazů a hodnotu zapojení lidských okamžiků během deeskalace."
+        }
+      },
+      "keyLearningPoints": [
+        "Když agresivní osoba projeví starost o dítě, to je vaše příležitost — navažte na ni",
+        "‚Odkud jste jel?' je současně deeskalace i vyšetřování",
+        "Lidské spojení přiměje lidi polevit v obraně — upřímné odpovědi následují"
+      ]
+    },
+    "5": {
+      "stageName": "Nenápadné známky",
+      "criticalSkills": [
+        "Detekce opojení",
+        "Konverzační vyšetřování",
+        "Přiměřená eskalace"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Pokračujete konverzačně: ‚Zmínil jste firemní akci — o jakou příležitost šlo?' Necháte ho popsat. Pak: ‚Bylo tam něco k pití? Ptám se, protože chci vše přesně zdokumentovat pro ochranu obou stran.' Na základě jeho odpovědi rozhodněte o testování.",
+          "strengths": [
+            "Konverzační přístup umožní přirozený popis akce",
+            "Vyšší pravděpodobnost upřímnosti, když je to zarámováno jako rutina",
+            "‚Pro ochranu obou stran' přerámuje z nepřátelského na procedurální",
+            "Fyzická pozorování plus přiznání poskytují důvody pro testování"
+          ],
+          "professionalImpact": "Konverzační detekce opojení produkuje lepší důkazy než konfrontace — klidní lidé mluví pravdu."
+        },
+        "partially_positive": {
+          "choiceText": "Zeptáte se přímo: ‚Pane Cooper, pil jste dnes alkohol?' Pokud přizná jakoukoli konzumaci, přistoupíte k testování střízlivosti.",
+          "adequate": [
+            "Procedurálně vhodné s pozorovatelnými známkami",
+            "Přímý přístup řeší problém"
+          ],
+          "missed": [
+            "Strohá otázka spouští obranné popírání",
+            "Konverzační přístup přinese upřímnější odpovědi",
+            "Spolupráce při testování bude obtížnější po konfrontační otázce"
+          ],
+          "improvement": "Konverzační přístup může přinést upřímné odpovědi, než se obrana plně aktivuje. Instinkt je správný, ale metoda by mohla být propracovanější."
+        },
+        "neutral": {
+          "choiceText": "Odstoupíte a okamžitě voláte jednotku pro řízení pod vlivem: ‚Cítím z vás alkohol. Žádám specializovanou jednotku. Prosím zůstaňte zde.'",
+          "adequate": [
+            "Znalost postupů — specializované jednotky existují"
+          ],
+          "missed": [
+            "Přeskok od pozorování k oznámení řízení pod vlivem",
+            "Žádná konverzace o množství nebo čase",
+            "Maximální nepřátelství z nepřiměřené reakce",
+            "V tomto bodě důkaz konzumace, ne opojení"
+          ],
+          "improvement": "Eskalujte reakci přiměřeně tomu, jak se hromadí důkazy. Pozorování opravňují konverzaci, ne okamžité postupy pro řízení pod vlivem."
+        },
+        "negative": {
+          "choiceText": "Známky si zapamatujete, ale nepronásledujete to — nezdá se opilý a nehoda je prostě nerespektování stopky. Testování by zbytečně eskalovalo.",
+          "failures": [
+            "Ignorování pozorovatelných známek alkoholu na místě nehody je zanedbání povinnosti",
+            "Intoxikace alkoholem maskována adrenalinem — snížená reakční doba není vždy viditelná",
+            "Více indikátorů: zarudnutí, pach, zornice, nekonzistence, původ",
+            "Pokud způsobí další nehodu dnes večer, měli jste šanci zasáhnout"
+          ],
+          "consequences": "Ignorování známek intoxikace alkoholem znamená, že v hlášení chybí kritické informace — a řidič odjíždí, aby potenciálně způsobil další incident.",
+          "trainingFocus": "Projděte si protokoly detekce opojení a povinnost vyšetřovat pozorovatelné známky bez ohledu na prvotní dojem."
+        }
+      },
+      "keyLearningPoints": [
+        "Konverzační detekce opojení produkuje lepší důkazy než konfrontace",
+        "Více nenápadných známek — zarudnutí, pach, zornice, nekonzistence — vyžaduje vyšetřování",
+        "Vyšetřování a deeskalace jsou tatáž dovednost — klidní lidé mluví pravdu"
+      ]
+    },
+    "6": {
+      "stageName": "Frustrace matky",
+      "criticalSkills": [
+        "Zvládání více stran",
+        "Komunikace průběhu",
+        "Podpora oběti"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Okamžitě k ní přijdete: ‚Paní Bennett, chápu vaši frustraci a máte právo být naštvaná. Bezpečnost vás a Elly je mou prioritou. Mluvil jsem se svědkem a zaznamenal jsem alkohol — právě to řeším. Musím dodržet určité kroky, aby vše obstálo. Může pro vás a Ellu někdo přijet, abyste nemusely čekat u poškozeného auta?'",
+          "strengths": [
+            "Potvrzení frustrace bez defenzivy",
+            "Informování o průběhu vyšetřování — svědek kontaktován, alkohol zaznamenán",
+            "Vysvětlení účelu prodlení — ‚aby vše obstálo'",
+            "Nabídka praktické cesty — odvoz pro ni a Ellu"
+          ],
+          "professionalImpact": "Informování čekající strany o průběhu mění její prožívání čekání z opuštěnosti na informovanou trpělivost."
+        },
+        "partially_positive": {
+          "choiceText": "Přikývnete: ‚Máte pravdu — jasně projel stopku a taky cítím ten alkohol. Nebojte se, dostane pokutu a bude dýchat na alkohol. Spravedlnosti bude učiněno zadost.'",
+          "adequate": [
+            "Emocionálně uspokojující pro oběť",
+            "Potvrzení jejích pozorování"
+          ],
+          "missed": [
+            "Sdělení závěrů vyšetřování jedné straně před dokončením",
+            "Potvrzení informací od svědka — kontaminace svědectví",
+            "Pokud se to dostane k soudu, obhajoba argumentuje zaujatostí a nesprávným sdílením"
+          ],
+          "improvement": "Uklidněte stěžovatele bez sdílení konkrétních detailů vyšetřování, které by mohly ohrozit případ."
+        },
+        "neutral": {
+          "choiceText": "Zvednete ruku: ‚Paní Bennett, vím, že to trvá, ale potřebuji být důkladný. Prosím počkejte — za chvíli se vám budu věnovat.'",
+          "adequate": [
+            "Není to špatně",
+            "Udržení procedurálního zaměření"
+          ],
+          "missed": [
+            "Klinická odpověď neřeší emoční stav",
+            "Žádné informace o průběhu",
+            "Zacházení jako s položkou v řadě",
+            "Důvěra stagnovala — žádný růst"
+          ],
+          "improvement": "Přidejte informace o průběhu a emoční uznání. ‚Prosím počkejte' je procedurální správnost bez lidského spojení."
+        },
+        "negative": {
+          "choiceText": "Řeknete jí důrazně: ‚Paní Bennett, obviňování z alkoholu není užitečné. Nechte mě dělat svou práci. Promluvím s vámi, až skončím s panem Cooperem.'",
+          "failures": [
+            "Odmítnutí pozorování, které sami vyšetřujete",
+            "‚Nechte mě dělat svou práci' říká občanům, že jejich podnět není vítán",
+            "‚Až skončím s ním' z ní dělá poslední prioritu",
+            "Vztah s obětí se zhroutil"
+          ],
+          "consequences": "Odmítnutí pozorování oběti a prioritizace řidiče, který zavinil nehodu, ničí důvěru poškozené strany.",
+          "trainingFocus": "Projděte si komunikaci s obětí a rozdíl mezi udržením integrity vyšetřování a odmítnutím podnětů občanů."
+        }
+      },
+      "keyLearningPoints": [
+        "Informování čekající strany o průběhu proměňuje její prožívání čekání",
+        "Uklidněte bez sdílení konkrétních detailů vyšetřování, které by mohly ohrozit případy",
+        "Když občan pozoruje to, co sami vyšetřujete, potvrďte bez specifikování"
+      ]
+    },
+    "7": {
+      "stageName": "Uzavření místa",
+      "criticalSkills": [
+        "Komplexní uzavření",
+        "Bezpečnostní poradenství",
+        "Podpora oběti"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Obrátíte se na Coopera: ‚Dávám vám pokutu za nerespektování stopky. Váš test byl pod zákonným limitem, ale 0,06 % ukazuje nedávnou konzumaci, která mohla ovlivnit váš reakční čas. Důrazně doporučuji dnes dál neřídit — zavolejte si taxi nebo nechte se vyzvednout.' Pak jdete k paní Bennett: ‚Tady je číslo hlášení pro vaši pojišťovnu. Doporučuji nechat Ellu v příštím dni nebo dvou prohlédnout pediatrem — děti mohou mít opožděné reakce na nárazy. Je vaše sestra blízko?'",
+          "strengths": [
+            "Pokuta předána s kontextem alkoholu jako bezpečnostním doporučením",
+            "‚Dál neřídit' je zodpovědná rada",
+            "Doporučení pediatrické kontroly ukazuje zdravotnické povědomí",
+            "Číslo hlášení předáno proaktivně",
+            "Vzpomínka na sestru ukazuje průběžnou péči"
+          ],
+          "professionalImpact": "Komplexní uzavření sloužící oběma stranám promění rutinní hlášení v setkání, které buduje trvalou důvěru."
+        },
+        "partially_positive": {
+          "choiceText": "Řeknete Cooperovi: ‚Nadýchal jste 0,06. Pod limitem, ale kdybyste vypil ještě jednu skleničku, vedli bychom úplně jiný rozhovor. Zamyslete se nad tím.' Pak popřejete paní Bennett vše dobré a uklidíte místo.",
+          "adequate": [
+            "Varování o alkoholu má dopad",
+            "Uznání vážnosti situace"
+          ],
+          "missed": [
+            "‚Zamyslete se nad tím' je mentorování — může vyvolat defenzivní reakci",
+            "Uzavření pro paní Bennett minimální — žádné číslo hlášení, žádné lékařské doporučení",
+            "Závěrečná energie věnována Cooperovi, ne oběti"
+          ],
+          "improvement": "Investujte závěrečnou pozornost do poškozené strany — číslo hlášení, lékařské doporučení, praktické další kroky."
+        },
+        "neutral": {
+          "choiceText": "Dáte Cooperovi pokutu a necháte ho odjet. Paní Bennett řeknete, aby si zítra vyzvedla číslo hlášení na stanici. Místo uklidíte.",
+          "adequate": [
+            "Pokuta udělena správně"
+          ],
+          "missed": [
+            "Žádná diskuse o důsledcích alkoholu",
+            "Paní Bennett nedostane žádné praktické informace",
+            "Žádné doporučení pediatrické kontroly",
+            "‚Vyzvedněte si hlášení zítra' je minimum snahy"
+          ],
+          "improvement": "Komplexní uzavření znamená, že obě strany odjíždějí s jasnými dalšími kroky, ne jen s papírováním."
+        },
+        "negative": {
+          "choiceText": "Svedete obě strany dohromady: ‚Vyměňte si přímo údaje pojišťoven, pak můžete jet. Pane Cooper, tady je vaše pokuta.' Usnadníte výměnu a uklidíte místo.",
+          "failures": [
+            "Svedení nepřátelských stran dohromady po hodinové konfrontaci",
+            "Cooper ponížen dechovou zkouškou — výbušný",
+            "Bennett rozzuřená kvůli všemu — výbušná",
+            "Vynucení osobního kontaktu riskuje opětovné rozpoutání hádky před Ellou"
+          ],
+          "consequences": "Svedení nepřátelských stran dohromady k administrativním účelům znovu roznítí konflikt a vystaví dítě další konfrontaci.",
+          "trainingFocus": "Projděte si protokoly uzavření — udržujte nepřátelské strany oddělené po celou dobu včetně administrativních kroků."
+        }
+      },
+      "keyLearningPoints": [
+        "Komplexní uzavření slouží oběma stranám s jasnými dalšími kroky",
+        "Doporučení pediatrické kontroly ukazuje zdravotnické povědomí, které rodiče často přehlížejí",
+        "Udržujte nepřátelské strany oddělené i při uzavírání — administrativní úkony mohou znovu roznítit konflikt"
+      ]
+    },
+    "8": {
+      "stageName": "Závěrečný rozbor",
+      "criticalSkills": [
+        "Sebereflexe",
+        "Integrace poučení"
+      ],
+      "choiceAnalysis": {},
+      "keyLearningPoints": [
+        "Vyšetřování a deeskalace jsou tatáž dovednost — klidní lidé mluví pravdu",
+        "Kontrola dítěte před kontrolou důkazů mění trvalou vzpomínku na setkání",
+        "Jednostranně agresivní řidič může mít lidský rozměr, který změní vše, pokud si ho všimnete"
+      ]
+    }
+  },
+  "comprehensiveMetrics": {
+    "sceneSafety": {
+      "description": "Zajištění místa nehody před sekundárními hrozbami, řízení provozu a zajištění fyzické bezpečnosti",
+      "indicators": {
+        "excellent": [
+          "Hlídkový vůz umístěn k ochraně místa před zapojením stran",
+          "Řidiči okamžitě odvedeni z vozovky",
+          "Dopravní rizika řešena před vyšetřováním",
+          "Průběžné povědomí o bezpečnosti místa"
+        ],
+        "poor": [
+          "Místo ponecháno nechráněné při jednání se stranami",
+          "Řidiči zůstávají na vozovce během konverzace",
+          "Riziko sekundární srážky neřešeno",
+          "Bezpečnost řešena jako doplněk místo první priority"
+        ]
+      }
+    },
+    "conflictSeparation": {
+      "description": "Fyzické a emocionální oddělení nepřátelských stran k prevenci eskalace a umožnění přesných výpovědí",
+      "indicators": {
+        "excellent": [
+          "Okamžité fyzické oddělení hádajících se stran",
+          "Výpovědi brány jednotlivě, aniž by jedna strana slyšela druhou",
+          "Oddělení udržováno přes uzavření — žádné zbytečné opětovné setkání",
+          "Oddělení vysvětleno jako respekt (‚plná pozornost') místo omezení"
+        ],
+        "poor": [
+          "Strany ponechány hádat se v přítomnosti druhého",
+          "Výpovědi brány současně, kontaminující oba účty",
+          "Strany svedeny dohromady k výměně pojistných údajů nebo konfrontaci",
+          "Oddělení nevhodně aplikováno na vztah rodič-dítě"
+        ]
+      }
+    },
+    "childWelfare": {
+      "description": "Věnování pozornosti dítěti jako zranitelné osobě vyžadující okamžitou pozornost a průběžnou péči",
+      "indicators": {
+        "excellent": [
+          "Dítě osobně posouzeno na zranění v rané fázi setkání",
+          "Matce umožněno a asistováno utěšit dítě",
+          "Lékařská kontrola doporučena při uzavření",
+          "Emocionální potřeby dítěte zohledněny průběžně — tlumení křiku, ochrana před konfliktem"
+        ],
+        "poor": [
+          "Dítě přehlíženo nebo deprioritizováno za papírováním",
+          "Rodiči zbytečně bráněno dostat se k dítěti",
+          "Žádné osobní posouzení zranění dítěte",
+          "Žádné doporučení lékařské kontroly při uzavření"
+        ]
+      }
+    },
+    "investigativeThoroughness": {
+      "description": "Detekce opojení, zajištění svědeckých výpovědí, zajištění důkazů a dodržování postupů",
+      "indicators": {
+        "excellent": [
+          "Nezávislý svědek zajištěn před jeho odchodem",
+          "Známky opojení rozpoznány a vyšetřeny konverzační technikou",
+          "Dechová zkouška provedena na základě nashromážděných důkazů",
+          "Důkazy zajištěny — vozidla nepřemístěna předčasně, řidič nevrácen do vozidla"
+        ],
+        "poor": [
+          "Nezávislý svědek ztracen",
+          "Známky opojení ignorovány nebo řešeny nepřiměřeně",
+          "Závěry oznámeny před dokončením vyšetřování",
+          "Zajištění důkazů ohroženo vrácením řidiče do vozidla"
+        ]
+      }
+    },
+    "communicationUnderPressure": {
+      "description": "Zvládání dvou nepřátelských stran současně s klidem, nestranností a profesionalitou",
+      "indicators": {
+        "excellent": [
+          "Obě strany se cítí vyslyšeny navzdory protichůdným tvrzením",
+          "Klidné vystupování udržováno bez ohledu na provokaci",
+          "Oběť informována o průběhu vyšetřování bez sdílení závěrů",
+          "Uzavření zahrnuje konkrétní další kroky pro obě strany"
+        ],
+        "poor": [
+          "Použití ‚uklidněte se' nebo jiných kontraproduktivních frází",
+          "Předčasné sdílení závěrů vyšetřování s jednou stranou",
+          "Pozorování oběti odmítnuta nebo znehodnocena",
+          "Závěrečná pozornost nepřiměřeně zaměřena na špatnou stranu"
+        ]
+      }
+    }
+  },
+  "mistakePatterns": {
+    "safetyDeprioritization": {
+      "pattern": "Zapojení do konfliktu před zajištěním místa před fyzickými hrozbami",
+      "examples": [
+        "Přístup k hádajícím se řidičům bez umístění hlídkového vozu",
+        "Sepisování výpovědí zatímco vozidla blokují aktivní provoz",
+        "Spěch k dítěti bez oddělení dospělých",
+        "Opomíjení, že riziko sekundární srážky zabíjí zasahující a kolemjdoucí"
+      ],
+      "impact": "Sekundární srážky na místech nehod jsou jednou z hlavních příčin úmrtí zasahujících a kolemjdoucích. Každá minuta, kdy je místo nezajištěné, je minuta, kdy může být někdo sražen.",
+      "correction": "Zajištění místa je vždy první krok. Umístěte vozidlo, zapněte světla, odveďte lidi z vozovky. Trvá to 30 sekund a může to zachránit životy."
+    },
+    "childNeglect": {
+      "pattern": "Přehlížení nebo deprioritizace dítěte na místě nehody",
+      "examples": [
+        "Soustředění na hádku zatímco dítě pláče v poškozeném autě",
+        "Bránění matce dostat se k dítěti pod záminkou ‚oddělení'",
+        "Osobní neposouzení dítěte na zranění",
+        "Žádné doporučení lékařské kontroly při uzavření"
+      ],
+      "impact": "Děti jsou nejzranitelnějšími stranami na místech nehod a často těmi nejpřehlíženějšími. Mohou mít skrytá zranění a emocionální dopad nehody a následného konfliktu dospělých může být značný.",
+      "correction": "Zkontrolujte dítě brzy — jděte s rodičem posoudit společně. Při uzavření doporučte pediatrickou kontrolu. Péče o dítě by měla být viditelná ve vašich prioritách po celou dobu."
+    },
+    "prematureConclusions": {
+      "pattern": "Oznamování zavinění nebo zjištění vyšetřování před jeho dokončením",
+      "examples": [
+        "Sdělení řidiči, který zavinil ‚vy jste zavinil' před převzetím jeho výpovědi",
+        "Sdílení detailů svědecké výpovědi s kteroukoliv stranou",
+        "Potvrzení pozorování alkoholu druhému řidiči",
+        "Slibování konkrétních výsledků před sepsáním hlášení"
+      ],
+      "impact": "Předčasné závěry podkopávají řádný proces, činí hlášení napadnutelným, kontaminují svědecké výpovědi a ohrožují nestrannost strážníka — základ každého dopravního vyšetřování.",
+      "correction": "Dokončete vyšetřování před oznamováním závěrů. Můžete ujistit strany transparentností procesu (‚jsem důkladný') bez sdílení konkrétních zjištění."
+    },
+    "impairmentAvoidance": {
+      "pattern": "Ignorování nebo nevyšetřování známek alkoholového nebo jiného opojení",
+      "examples": [
+        "Zaznamenání zápachu alkoholu, ale rozhodnutí to neřešit",
+        "Přijetí ‚jednu skleničku, před hodinami' bez ověření",
+        "Vyhýbání se vyšetřování opojení kvůli prevenci eskalace",
+        "Sepsání jednoduchého hlášení o nerespektování přednosti při přítomnosti známek opojení"
+      ],
+      "impact": "Řidič pod vlivem, který odjede z místa nehody bez vyšetření, může způsobit další — potenciálně smrtelnou — srážku. Vaše povinnost k veřejné bezpečnosti zahrnuje vyšetřování pozorovatelných známek, i když řidič nevypadá zjevně ‚opile.'",
+      "correction": "Vždy vyšetřujte, když jsou známky přítomny. Použijte konverzační techniku k detekci — ‚z jaké akce jste jel?' — před formálním testováním. Přiměřená eskalace: pozorovat, konverzovat, pak testovat."
+    },
+    "victimUnderservice": {
+      "pattern": "Investování nepřiměřené pozornosti do agresivní strany zatímco oběť čeká",
+      "examples": [
+        "Trávení delšího času s nepřátelským řidičem zatímco oběť sleduje s vyděšeným dítětem",
+        "Neinformování oběti o průběhu vyšetřování",
+        "Odmítnutí pozorování oběti jako ‚obviňování'",
+        "Minimální uzavření pro oběť — žádné číslo hlášení, žádné lékařské doporučení, žádná praktická podpora"
+      ],
+      "impact": "Zkušenost oběti s policejním setkáním utváří její dlouhodobou důvěru v orgány činné v trestním řízení. Matka s traumatizovaným dítětem, která se cítí ignorována nebo nedostatečně obsloužena, si toto setkání bude pamatovat roky — a řekne o tom každému.",
+      "correction": "Informujte oběť o průběhu. Věnujte přiměřenou pozornost. Při uzavření poskytněte konkrétní další kroky — číslo hlášení, pojistné poradenství, lékařská doporučení. Oběť od vás potřebuje víc než pokutovaný řidič."
+    }
+  },
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Výjimečná reakce na nehodu. Předvedli jste kompletní sadu dovedností: místo nejdřív zajištěno, dítě prioritizováno, strany odděleny, svědek okamžitě zajištěn, opojení detekováno konverzační technikou, oběť průběžně informována a komplexní uzavření pro obě strany. Takto se z dopravní nehody stává setkání budující důvěru, na které lidé vzpomínají pozitivně roky.",
+      "mostlyPositive": "Silné řízení nehody s dobrými instinkty pro bezpečnost, péči o dítě a vyšetřování. Některé příležitosti byly propásnuty — možná v posloupnosti výpovědí, technice detekce opojení nebo komplexním uzavření — ale váš celkový přístup byl profesionální, bezpečný a pečující. Projděte si propásnuté prvky pro posun ze silného na výjimečný.",
+      "mixed": "Některé prvky jste zvládli dobře, ale měli jste potíže s plnou složitostí tohoto vícestranného místa nehody. Klíčové silné stránky byly viditelné v určitých fázích, ale kritické příležitosti byly propásnuty v jiných — ať už v bezpečnosti místa, péči o dítě, vyšetřovací posloupnosti nebo komunikaci s obětí. Projděte si posloupnost priorit: bezpečnost, oddělení, zranitelné osoby, pak vyšetřování.",
+      "mostlyNegative": "Tento scénář odhalil značné mezery v prioritách reakce na nehodu. Ačkoli byly patrné dílčí pozitivní prvky, klíčové aspekty byly propásnuty — bezpečnost místa, péče o dítě, detekce opojení nebo komunikace s obětí utrpěly špatnou posloupností nebo chybným úsudkem. Dopravní nehody zahrnují všechny klíčové policejní dovednosti současně. Projděte si protokoly řízení místa a základy vyšetřovací posloupnosti.",
+      "allNegative": "Vaše reakce na nehodu prioritizovala špatné věci ve špatném pořadí. Bezpečnost nebyla zajištěna jako první, dítě bylo přehlíženo nebo deprioritizováno, známky opojení byly propásnuty nebo ignorovány a strany nebyly efektivně řízeny prostřednictvím oddělení a individuálního přístupu. Tento scénář vyžaduje zásadní revizi priorit na místě nehody, protokolů péče o dítě a technik řízení více stran."
+    }
+  },
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "Vyřešíme to, ale nejdřív musí být všichni v bezpečí.",
+      "Půjdu s vámi — podíváme se na Ellu spolu.",
+      "Potřebuji mluvit s každým z vás zvlášť, abych vám mohl věnovat plnou pozornost.",
+      "Ella je v pořádku — je vyděšená, ale nezraněná. Dětská sedačka splnila svůj účel.",
+      "Odkud jste jel a co se stalo, když jste se blížil ke křižovatce?",
+      "Bylo tam něco k pití? Ptám se, protože chci vše přesně zdokumentovat pro ochranu obou stran.",
+      "Mluvil jsem se svědkem a zaznamenal jsem alkohol — právě to řeším.",
+      "Doporučuji nechat Ellu prohlédnout pediatrem — děti mohou mít opožděné reakce na nárazy."
+    ],
+    "poorPhrases": [
+      "Kdo mi chce říct, co se stalo?",
+      "Zůstaňte, kde jste — potřebuji udržet všechny oddělené.",
+      "Potřebuji, abyste se uklidnil. Křičením si nepomůžete.",
+      "Svědek potvrzuje, že jste projel stopku. Zavinil jste to.",
+      "Obviňování z alkoholu není užitečné. Nechte mě dělat svou práci.",
+      "Vyzvedněte si číslo hlášení zítra na stanici.",
+      "Vyměňte si přímo údaje pojišťoven, pak můžete jet."
+    ],
+    "analysisCriteria": {
+      "safetyPriority": "Řešila fráze bezprostřední fyzickou bezpečnost před přechodem k vyšetřování?",
+      "childAwareness": "Projevila fráze povědomí a pozornost vůči péči o dítě a jeho emočním potřebám?",
+      "impartiality": "Udržela fráze neutralitu před zjištěním faktů, i s jednou agresivní stranou?",
+      "investigativeValue": "Sloužila fráze současně budování vztahu i shromažďování důkazů?",
+      "victimCare": "Projevila fráze přiměřenou pozornost zkušenosti oběti, jejím informačním potřebám a praktické situaci?",
+      "proportionality": "Odpovídala fráze závažnosti a naléhavosti okamžiku?"
+    }
+  },
+  "scenarioSpecificLessons": {
+    "1": "Posloupnost priorit na každém místě nehody je bezpečnost, oddělení, zranitelné osoby, pak vyšetřování. Zajištění místa před sekundárními srážkami trvá 30 sekund a může zachránit životy.",
+    "2": "Děti na místech nehod jsou nejzranitelnějšími a nejpřehlíženějšími stranami. Společná cesta s matkou ke kontrole Elly plní tři cíle současně: posouzení zranění, útěcha rodiče a budování důvěry.",
+    "3": "Nezávislý svědek je váš nejcennější a časově nejcitlivější zdroj důkazů na sporném místě nehody. Zajistěte jeho výpověď, než odejde — poskytuje základ pro posouzení tvrzení obou řidičů.",
+    "4": "Agresivní lidé mají lidské okamžiky — všimnout si Cooperovy starosti o Ellu a navázat na ni změní vše. ‚Odkud jste jel?' současně deeskaluje a vyšetřuje.",
+    "5": "Detekce opojení nevyžaduje, aby podezřelý byl zjevně opilý. Konverzační technika — ptát se na akci, pak přirozeně na alkohol — produkuje lepší důkazy a méně nepřátelství než přímé obvinění nebo okamžité postupy pro řízení pod vlivem.",
+    "6": "Když oběť učiní pozorování shodné s vašimi vlastními zjištěními vyšetřování, potvrďte ho bez sdílení závěrů. ‚Všiml jsem si téhož a řeším to' nic nestojí a zachovává případ.",
+    "7": "Komplexní uzavření věnuje přiměřenou pozornost — poškozená strana od vás potřebuje víc než pokutovaná strana. Čísla hlášení, lékařská doporučení pro dítě a praktická podpora promění rutinní hlášení v setkání, na které rodina vzpomíná pozitivně roky.",
+    "8": "Způsob, jakým řešíte nehodu, určuje, zda lidé důvěřují policii jako spravedlivé. Vyšetřování a deeskalace jsou tatáž dovednost — klidní lidé mluví pravdu."
+  },
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Pokročilé techniky vyšetřování míst nehod",
+        "Školení ostatních v řízení vícestranných míst",
+        "Komunitní policie prostřednictvím kvalitní dopravní reakce"
+      ],
+      "good": [
+        "Rozšířená detekce opojení — konverzační techniky pro podlimitní alkohol",
+        "Protokoly péče o dítě na místech nehod",
+        "Komunikace s obětí během složitých vyšetřování"
+      ],
+      "average": [
+        "Základní řízení místa nehody — bezpečnost, oddělení, posloupnost",
+        "Deeskalační alternativy k ‚uklidněte se' a dalším kontraproduktivním frázím",
+        "Identifikace a prioritizace nezávislých svědků"
+      ],
+      "poor": [
+        "Základy bezpečnosti místa nehody a prevence sekundárních hrozeb",
+        "Postupy výslechu — prevence kontaminace a posloupnost",
+        "Rozpoznávání opojení nad rámec zjevné intoxikace",
+        "Povědomí o péči o dítě na místech mimořádných událostí"
+      ]
+    }
+  },
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Celkové shrnutí výkonu",
+        "content": [
+          "Skóre a úroveň výkonu",
+          "Klíčové silné stránky",
+          "Kritické slabiny",
+          "Celkové hodnocení reakce na nehodu"
+        ]
+      },
+      {
+        "title": "Analýza fáze po fázi",
+        "content": [
+          "Volba v každé fázi",
+          "Dopad na oba řidiče, dítě a vyšetřování",
+          "Alternativní přístupy",
+          "Klíčové body poučení"
+        ]
+      },
+      {
+        "title": "Hodnocení bezpečnosti místa",
+        "content": [
+          "Načasování a kvalita zajištění místa",
+          "Řízení provozu",
+          "Prevence sekundárních hrozeb",
+          "Průběžné povědomí o bezpečnosti"
+        ]
+      },
+      {
+        "title": "Hodnocení péče o dítě",
+        "content": [
+          "Načasování posouzení dítěte",
+          "Kvalita screeningu zranění",
+          "Usnadnění kontaktu s rodičem",
+          "Doporučení lékařské kontroly"
+        ]
+      },
+      {
+        "title": "Kvalita vyšetřování",
+        "content": [
+          "Prioritizace a zajištění svědka",
+          "Oddělení výpovědí a prevence kontaminace",
+          "Metoda a účinnost detekce opojení",
+          "Zajištění důkazů"
+        ]
+      },
+      {
+        "title": "Efektivita komunikace",
+        "content": [
+          "Kvalita deeskalačních frází",
+          "Komunikace s obětí a informování o průběhu",
+          "Udržení nestrannosti",
+          "Úplnost závěrečného sdělení"
+        ]
+      },
+      {
+        "title": "Profesní rozvoj",
+        "content": [
+          "Okamžité vzdělávací potřeby",
+          "Dlouhodobé priority dovedností",
+          "Doporučené zdroje"
+        ]
+      },
+      {
+        "title": "Aplikace v reálném světě",
+        "content": [
+          "Jak se to vztahuje na každodenní výjezdy k nehodám",
+          "Budování důvěry prostřednictvím kvalitní dopravní reakce",
+          "Péče o dítě jako policejní priorita",
+          "Detekce opojení jako imperativ veřejné bezpečnosti"
+        ]
+      }
+    ]
+  }
+}

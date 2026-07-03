@@ -1,0 +1,437 @@
+{
+  "id": "road-rage",
+  "title": "Silniční agrese — střet na křižovatce",
+  "description": "Pokročilý scénář zahrnující dva řidiče ve vyhrocené konfrontaci po dopravní nehodě na rezidenční křižovatce. Jeden řidič má v autě malé dítě. Druhý vykazuje nenápadné známky konzumace alkoholu. Strážník musí zajistit místo nehody, oddělit nepřátelské strany, chránit zranitelné dítě, rozpoznat opojení a zvládat protichůdné požadavky — to vše při zachování nestrannosti před zjištěním zavinění.",
+  "icon": "🚗",
+  "instructor": {
+    "name": "Seržant Davis",
+    "avatar": "👮‍♂️",
+    "introduction": "Dopravní nehody jsou jedním z nejčastějších výjezdů, na které budete reagovat — a jedním z nejpodceňovanějších. Dva cizí lidé, oba zaplavení adrenalinem, oba přesvědčení, že za to může ten druhý, oba sledující, jak se jim rozpadají odpolední plány. Přidejte vyděšené dítě, možná intoxikace  a poškozená vozidla blokující provoz — a máte situaci s více prvky, než si lidé uvědomují. Vaše priority jsou: bezpečnost na prvním místě — vždy — pak oddělení, pak vyšetřování. Většina strážníků se snaží co nejrychleji zjistit, kdo je na vině . To je důležité, ale není to první věc. První věc je zajistit, aby se nikdo nezranil víc, než už je. Druhá je zajistit, aby dva rozzuření dospělí neeskalovali k násilí. Všechno ostatní přijde až potom."
+  },
+  "timedChoices": true,
+  "completionBadges": [
+    "scenario-road-rage-complete"
+  ],
+  "perfectBadge": "perfect-scenario-road-rage",
+  "finalMessage": {
+    "revelation": "Pan Cooper projel stopku poté, co odešel z firemní akce, kde za dvě hodiny vypil tři sklenice vína. Jeho hladina alkoholu v krvi byla 0,06 % — pod zákonným limitem, ale dost na zhoršení reakční doby a úsudku. Spěchal vyzvednout klienta a byl rozptýlen telefonem, když vjel do křižovatky. Stopku neviděl. Paní Bennett měla přednost a nemohla srážce zabránit. Její dcera Ella byla řádně připoutána v dětské sedačce a fyzicky se jí nic nestalo, ale náraz a křik ji hluboce vyděsily. Svědek, pan Peterson, potvrdil, že Cooper projel stopku. Po vaší intervenci byl Cooper pokutován za nerespektování stopky a dostal varování ohledně řízení po požití alkoholu. Jeho pojišťovna přijala plnou odpovědnost. Paní Bennett později řekla kamarádce, že to, co si nejvíc pamatuje, nebyla nehoda — bylo to, že strážník zkontroloval její dceru dřív, než dělal cokoli jiného. Ella stále mluví o ‚hodném policistovi, který se ujistil, že je v pořádku.'",
+    "keyLessons": [
+      "Bezpečnost místa má přednost před vyšetřováním — nebezpečí, zranění a plynulost provozu musí být řešeny okamžitě",
+      "Fyzické oddělení nepřátelských stran brání eskalaci z verbálního do fyzického násilí",
+      "Děti na místě nehody jsou často přehlíženy — měly by být mezi vašimi prvními prioritami",
+      "Nestrannost před vyšetřováním znamená zacházet s oběma stranami neutrálně, dokud nejsou zjištěna fakta",
+      "Nenápadné známky opojení vyžadují prověření — zarudlý obličej, zápach alkoholu a agitovanost vyžadují profesionální ověření",
+      "Oddělené výslechy produkují přesnější informace než současné hádky",
+      "Způsob, jakým řešíte dopravní nehodu, určuje, zda lidé důvěřují policii jako spravedlivé — může to být jejich jediný přímý kontakt s policií"
+    ]
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "Místo nehody",
+      "sceneUpdate": {
+        "emoji": "💥",
+        "title": "Rezidenční křižovatka — pozdní odpoledne",
+        "desc": "Přijíždíte k T-křižovatce v rezidenční oblasti. Dvě auta se srazila — tmavé BMW nabouralo do stříbrného hatchbacku z boku na straně řidiče. Obě vozidla stojí v křižovatce a částečně blokují provoz. Muž v obleku stojí u BMW a rozzuřeně gestikuluje. Žena u hatchbacku křičí zpět. Za překážkou se řadí auta. Z hatchbacku se ozývá pláč dítěte."
+      },
+      "npcDialogue": [
+        {
+          "character": "dispatcher",
+          "text": "Jednotka vyjíždí k dopravní nehodě na křižovatce Sadová a Březinova. Dvě vozidla, možná zranění. Volající hlásí, že se řidiči hádají na silnici. V jednom vozidle může být dítě."
+        }
+      ],
+      "prompt": "Dva rozzuření dospělí, poškozená vozidla blokující provoz a plačící dítě. Jaký je váš první krok?",
+      "options": [
+        {
+          "text": "Vystoupíte z hlídkového vozu a zamíříte rovnou ke dvěma řidičům, kteří stojí proti sobě uprostřed křižovatky a zvyšují hlasy. Protlačíte se mezi ně se zdviženýma rukama a promluví z vás autorita: ‚Oba — přestaňte. Jsem tady. Kdo mi chce říct, co se stalo?' Díváte se z jednoho na druhého, poznámkový blok už v ruce, a čekáte na první odpověď, zatímco za vraky se hromadí kolona aut.",
+          "feedback": "Proč: Váš instinkt zastavit hádku je správný, ale ‚kdo mi chce říct, co se stalo?' vybízí ke konkurenčním výpovědím. Nezajistili jste místo — vozidla blokují provoz a hrozí sekundární srážka. Dítě nebylo zkontrolováno. Upřednostnili jste hádku před bezpečností. | DŮSLEDKY: Oba řidiči mluví najednou. Auto objíždí vraky a málem vás srazí. Pláč dítěte se zesiluje. | Reflexe: Jaká bezprostřední nebezpečí na místě nehody musí být řešena dříve než jakékoli vyšetřování?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Postavíte hlídkový vůz šikmo za vraky, aby chránil místo nehody před přijíždějícím provozem. Zapnete výstražná světla, aby řidiči viděli překážku s předstihem. Pak vystoupíte a rázně přistoupíte k oběma řidičům s klidným, ale pevným hlasem: ‚Potřebuji, abyste oba ustoupili na chodník. Hned. Vyřešíme to, ale nejdřív musí být všichni v bezpečí.' Gestem je nasměrujete na protilehlé strany chodníku.",
+          "feedback": "Proč: Vynikající posloupnost. Hlídkový vůz vytváří fyzickou bariéru bránící sekundárním nehodám. Výstražná světla varují přijíždějící řidiče. Pokyn ustoupit na chodník řeší fyzickou bezpečnost. Rázný, ale klidný tón ustanovuje autoritu bez eskalace. ‚Vyřešíme to' slibuje řešení; ‚nejdřív musí být všichni v bezpečí' vysvětluje prioritu. | DŮSLEDKY: Řidiči přejdou na chodník. Provoz objíždí váš hlídkový vůz. Místo je bezpečnější. Nyní můžete posoudit zranění a dítě. | Reflexe: Proč má zajištění místa nehody přednost před čímkoli jiným? Jaké je riziko sekundární srážky?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Ignorujete hádající se dospělé a rychlým krokem zamíříte k hatchbacku, odkud je pláč dítěte slyšet i přes křik. Nahýbáte se k zadnímu oknu a snažíte se posoudit, jestli je malá holčička zraněná nebo jen vyděšená. Nejzranitelnější osoba na místě potřebuje pozornost jako první — dospělí mohou počkat, zatímco se ujistíte, že je dítě v bezpečí. Za vašimi zády se řidiči dál dohadují mezi stojícími vozy.",
+          "feedback": "Proč: Instinkt ohledně dítěte je vynikající. Ovšem projít kolem hádajících se řidičů bez povšimnutí a bez zajištění místa před provozem vytváří rizika. Hádka se může proměnit ve fyzický kontakt, zatímco jste k nim zády. Vozidla zůstávají nechráněná. | DŮSLEDKY: Dostanete se k dítěti — vyděšenému, ale nezraněnému. Ale za vašimi zády pan Cooper strčí do paní Bennett. Nyní máte dítě na ochranu a fyzickou potyčku zároveň. | Reflexe: Jak vyvážíte naléhavost ohledně dítěte se stabilizací celého místa?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Zůstanete u hlídkového vozu a okamžitě stisknete vysílačku: ‚Dispečink, jsem na místě — dvě vozidla, dva nepřátelští účastníci, v jednom autě dítě. Budu potřebovat další hlídku, než začnu jednat.' Sledujete, jak se řidiči dál hádají uprostřed silnice, zatímco čekáte na potvrzení. Usoudíte, že pro zvládnutí tak složité situace budete potřebovat dalšího strážníka a posily jsou na cestě.",
+          "feedback": "Proč: Žádost o posily je takticky rozumná, ale stát a nečinně přihlížet, zatímco dva dospělí se hádají na silnici, dítě pláče a auta kličkují kolem, znamená, že se nic neřeší. Posily mohou dorazit za několik minut. Musíte situaci stabilizovat okamžitě a posily volat souběžně. | DŮSLEDKY: Zatímco vysíláte, pan Cooper agresivně přistupuje k paní Bennett. Auto málem narazí do dveří BMW. Pláč dítěte se zesiluje. Situace se zhoršuje. | Reflexe: Jak skloubíte volání posil s okamžitým jednáním?",
+          "type": "neutral",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Dítě",
+      "sceneUpdate": {
+        "emoji": "👧",
+        "title": "Ella na zadním sedadle",
+        "desc": "Oddělili jste řidiče na opačné strany chodníku. Místo je zajištěno. Teď si všimnete zadního okna hatchbacku — malý obličej, asi pětiletý, připoutaný v dětské sedačce, tváře mokré od slz. Boční panely auta jsou promáčknuté, ale kabina pro cestující se zdá neporušená."
+      },
+      "npcDialogue": [
+        {
+          "character": "mother",
+          "text": "(S třesoucím se hlasem) Moje dcera — Ella — je v autě. Myslím, že je v pořádku, ale nepřestává plakat. Můžu pro ni jít? Prosím?"
+        }
+      ],
+      "prompt": "Dítě potřebuje pozornost a jeho matka se k němu chce dostat. Jak to vyřešíte?",
+      "options": [
+        {
+          "text": "Zdvihnete ruku směrem k paní Bennett a hlas udržíte klidný, ale pevný: ‚Zůstaňte, kde jste — potřebuji udržet všechny oddělené. Na vaši dceru se podívám za chvíli.' Držíte perimetr, který jste vybudovali, a sledujete obě strany chodníku. Dítě za prasklým zadním oknem pořád pláče, zatímco jeho matka stojí patnáct metrů daleko se zkříženýma rukama a zaťatou čelistí, oči upřené na hatchback.",
+          "feedback": "Proč: Oddělení slouží k zabránění konfrontace nepřátelských stran — ne k omezení přístupu rodiče k vyděšenému dítěti. Každou minutu prodlení se Ellin stres prohlubuje a důvěra matky se vytrácí. Neexistuje bezpečnostní důvod, proč bránit matce v utěšení dcery. | DŮSLEDKY: Paní Bennettové se rozšíří oči: ‚Vy mě nepustíte k mé dceři?!' Ella křičí hlasitěji. Ze spojence jste udělali protivníka. | Reflexe: Kdy se udržování oddělení stává nepřiměřeným?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Mávnete směrem k hatchbacku a krátce přikývnete: ‚Ano, jděte — vezměte dceru a přiveďte ji na chodník. Potřebuji začít sepisovat výpovědi.' Vytáhnete poznámkový blok a pohlédnete směrem k panu Cooperovi — pozornost se vám už přesouvá k vyšetřování. Matka spěchá k autu, odepíná Ellu a nese ji na chodník. Sami za ní nejdete a dítě osobně nekontrolujete, pozornost plně zaměřena na výpovědi.",
+          "feedback": "Proč: Umožnit matce vzít si dítě je správné, ale poslat ji samotnou bez osobní kontroly Elly znamená, že vám unikne posouzení zranění. Děti v dětských sedačkách mohou mít skrytá zranění. ‚Potřebuji začít sepisovat výpovědi' signalizuje papírování před péčí o dítě. | DŮSLEDKY: Paní Bennett přivede Ellu na chodník poblíž rozzuřeného muže. Nevíte, zda má dítě zranění. Pan Cooper zabručí něco posměšného a matčin hněv se znovu rozhoří. | Reflexe: Proč byste měli osobně zkontrolovat dítě na místě nehody?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Řeknete jí: ‚Půjdu s vámi — podíváme se na Ellu spolu.' Společně dojdete k autu a opatrně otevřete zadní dveře. Systematicky zkontrolujete dítě: oční kontakt a reaktivitu, modřiny od pásu nebo popruhů, jestli se při pohybu krku a paží nešklebí bolestí, zda jsou zornice stejné a reagují na světlo. Necháte matku utěšovat Ellu, zatímco sami pozorujete. Podle toho, co uvidíte, rozhodnete, jestli přivolat záchranku na pediatrickou kontrolu.",
+          "feedback": "Proč: Plní několik cílů současně. Posoudíte dítě odborným pohledem, zatímco matka poskytuje útěchu. Společná cesta ukazuje péči a udržuje vaši přítomnost. Systematická kontrola — reaktivita, modřiny, pohyb krku, zornice — je způsob, jak určit, zda Ella potřebuje lékařskou pomoc, nebo je jen vyděšená. Děti v dětských sedačkách mohou utrpět zranění, která nejsou okamžitě viditelná, proto je odborné vizuální posouzení nezbytné před rozhodnutím o záchranné službě. Matka vidí, že prioritizujete její dítě s kompetencí, čímž okamžitě budujete důvěru. | DŮSLEDKY: Opatrně otevřete dveře. Ella natahuje ruce k matce. Vaše kontrola odhalí: reaguje, žádné viditelné modřiny, pohybuje se volně, stejné zornice. Je vyděšená, ale fyzicky v pořádku — dětská sedačka splnila svůj účel. Zapíšete to do hlášení a poradíte paní Bennett, aby sledovala opožděné příznaky. Paní Bennett se na vás podívá s vděčností: ‚Děkuji — opravdu jste ji pořádně zkontroloval.' Nejzranitelnější osoba byla ošetřena někým, kdo ví, co hledat. | Reflexe: Proč systematická kontrola zdravotního stavu dítěte — ne jen letmý pohled — demonstruje profesionální kompetenci, která buduje hlubokou důvěru?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Okamžitě stisknete vysílačku a vyžádáte sanitku: ‚Dispečink, na místě je dítě asi pět let po bočním nárazu. Žádám záchranku na preventivní pediatrickou kontrolu.' Pak se otočíte k paní Bennett: ‚Pro Ellu jede sanitka. Teď za ní půjdu.' Vykročíte k hatchbacku — přivolání lékařské pomoci jste upřednostnili před vlastním vizuálním posouzením stavu dítěte, zatímco Ella za okýnkem stále vzlyká a natahuje ručičky.",
+          "feedback": "Proč: Přivolání lékařské pomoci pro dítě po nehodě je silné preventivní opatření — děti mohou mít skrytá zranění. Ale volání sanitky nejdřív znamená další minutu prodlení pro vyděšenou pětiletou holčičku. Zkontrolujte dítě nejdřív — vaše vizuální posouzení určí, zda je sanitka preventivní nebo urgentní. Pokud se zdá v pořádku, stále můžete doporučit pediatrickou kontrolu bez blokování zdrojů záchranné služby. | DŮSLEDKY: Lékařská pomoc je na cestě. Ale Ella plakala o minutu déle, zatímco jste volali. Matka sanitku oceňuje, ale říká si, proč jste volali dřív, než jste se podívali. Záchranáři přijedou, posoudí Ellu jako nezraněnou a odjedou. Správný výsledek, ale špatné pořadí. | Reflexe: Jak se rozhodujete: nejdřív posoudit nebo nejdřív volat — a co to pořadí říká rodiči o vašich prioritách?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Zajišťování výpovědí",
+      "sceneUpdate": {
+        "emoji": "📝",
+        "title": "Protichůdné verze",
+        "desc": "Ella je u matky a uklidňuje se. Pan Cooper přechází na druhé straně s telefonem v ruce. Na rohu stojí starší muž a pozoruje — mohl by být svědek."
+      },
+      "npcDialogue": [
+        {
+          "character": "aggressiveDriver",
+          "text": "(přichází, ukazuje prstem) Pane strážníku, vyjela odnikud. Měl jsem přednost. Ať se naučí řídit. Podívejte se na moje auto! Chci to v hlášení: ONA to zavinila."
+        },
+        {
+          "character": "mother",
+          "text": "(zezadu) To je LEŽ! Projel stopku! Ani nezpomalil! Moje dcera mohla být mrtvá!"
+        }
+      ],
+      "prompt": "Oba řidiči se vám snaží současně sdělit svou verzi a vzájemně si odporují. Jak výpovědi získáte?",
+      "options": [
+        {
+          "text": "Zvednete obě ruce dlaněmi vpřed a protnete hluk klidným, pevným hlasem: ‚Slyším vás oba. Potřebuji mluvit s každým z vás zvlášť, abych vám mohl věnovat plnou pozornost. Pane Cooper — prosím počkejte u svého vozidla. Paní Bennett — zůstaňte s Ellou.' Pak kývnete směrem ke staršímu muži na rohu: ‚Potřebuji mluvit i s tímto pánem.' Zamíříte nejdříve ke svědkovi, než se stihne vzdálit z místa.",
+          "feedback": "Proč: Vynikající posloupnost. Oddělení stran je nezbytné pro přesné výpovědi. Začít nezávislým svědkem je vyšetřovatelsky výborné — nemá na výsledku zájem a může brzy odejít. Jeho výpověď poskytuje základ pro posouzení tvrzení obou řidičů. ‚Věnovat plnou pozornost každému' činí oddělení respektuplným. Zmínění svědka signalizuje důkladnost. | DŮSLEDKY: Oba přijmou oddělení. Pan Peterson potvrdí, že BMW projelo stopku rychle. Máte nezávislý základ. Ani jeden řidič neví, co svědek řekl, takže výpovědi zůstávají nekontaminované. | Reflexe: Proč je nezávislý svědek nejcennější výpovědí na sporném místě?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Stojíte mezi oběma řidiči s otevřeným poznámkovým blokem a necháte je mluvit současně. Pozorně posloucháte obě verze a usoudíte, že rozpory mezi jejich výpověďmi prozradí, kdo lže. Necháte je hádat se před sebou navzájem a děláte si poznámky o tom, kde se jejich verze rozcházejí. Starší svědek na rohu se nervózně podívá na hodinky a přešlápne z nohy na nohu.",
+          "feedback": "Proč: Nechat dva rozzuřené lidi argumentovat před sebou eskaluje konflikt. Každá výpověď vyvolává protiargumenty. Hlasitost stoupá. Detaily se ztrácejí v emotivních protinávrzích. Výpovědi svědků získané tímto způsobem jsou kontaminovány navzájem. | DŮSLEDKY: Do třiceti sekund oba opět křičí. Ella začne plakat. Starší svědek zavrtí hlavou a odchází — chystáte se přijít o nejcennější důkaz. | Reflexe: Proč oddělené výpovědi produkují lepší důkazy?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Zvednete ruku a rázně protnete překřikování: ‚Jeden po druhém. Pane Cooper, počkejte u svého vozidla.' Pak se obrátíte k paní Bennett s poznámkovým blokem: ‚Paní Bennett, řekněte mi, co se stalo.' Vezmete její výpověď jako první, protože má u sebe vyděšené dítě a možná bude potřebovat dříve zajistit odvoz. Cooper stojí u svého BMW a sleduje vás přes chodník se zkříženýma rukama, viditelně nespokojen.",
+          "feedback": "Proč: Oddělení výpovědí je správné. Výběr matky jako první má praktické opodstatnění — vyděšené dítě, může potřebovat zajistit odvoz. Avšak volba může být vnímána jako zaujatost. Poslat Coopera ‚čekat' může působit odmítavě. Promluvit si nejdříve s „tím druhým řidičem“ může být vnímáno, jako byste se stavěli na jeho stranu.\nA svědek na rohu odchází. | DŮSLEDKY: Cooper zavrčí, ale poslechne. Paní Bennett podá jasnou výpověď. Ale Cooper se u auta vaří vzteky a je čím dál nepřátelštější. Svědek odchází. | Reflexe: Když berete výpovědi odděleně, jak zvolíte pořadí, aniž byste působili, že straníte jedné straně?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Obrátíte se k paní Bennett se starostlivým výrazem: ‚Jste v pořádku? Řekněte mi, co se stalo.' Věnujete se nejdřív rozrušenější straně v naději, že zmírníte její úzkost, než přejdete ke Cooperovi. Začne popisovat nehodu, zatímco drží Ellu a hlas se jí láme emocemi. Mezitím starší svědek na rohu znovu kontroluje hodinky, přenese váhu z nohy na nohu a pomalu se začne vzdalovat od místa nehody.",
+          "feedback": "Proč: Ptát se na její stav je pečující, ale žádat ji o popis nehody, zatímco drží plačící dítě poblíž rozzuřeného řidiče, není ideální pro přesné výpovědi. Nezávislý svědek na rohu odchází — svědci odcházejí rychle. Můžete se vrátit k oběma řidičům po zajištění svědka. | DŮSLEDKY: Paní Bennett podá emotivní, nechronologickou výpověď. Svědek se podívá na hodinky a odejde. Přišli jste o nejcennější zdroj důkazů. | Reflexe: Na sporném místě — kterou výpověď je nejdůležitější zajistit jako první?",
+          "type": "neutral",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Agresivní řidič",
+      "sceneUpdate": {
+        "emoji": "😡",
+        "title": "Požadavky pana Coopera",
+        "desc": "Mluvili jste se svědkem a paní Bennett. Teď přistupujete k panu Cooperovi. Přechází podél svého BMW — sako rozepnuté, tvář zarudlá, pohyby ostré. Byl na telefonu, zjevně rozčílený. Ale když se přiblížíte, něco se změní. Podívá se směrem k hatchbacku, kde paní Bennett drží Ellu, a jeho výraz se na okamžik změní — jen na chvíli — ze vzteku na něco jiného. Přejede si rukou po obličeji."
+      },
+      "npcDialogue": [
+        {
+          "character": "aggressiveDriver",
+          "text": "(začne agresivně, pak zaváhá) Konečně. Zavolal jsem svého právníka. Je to ztráta mého — (podívá se na Ellu, hlas se na chvíli ztlumí) Podívejte, je to dítě v pořádku? Já jsem... Když jsem vystoupil, viděl jsem tu sedačku a já... (vzpamatuje se, znovu zatvrdne) Jela příliš pomalu. Prakticky zastavila na silnici. Sotva jsem ji škrtl. Budete psát hlášení, nebo tu budeme stát celé odpoledne? Musím jet."
+        }
+      ],
+      "prompt": "Pan Cooper je agresivní a tlačí na vás — ale právě projevil krátký okamžik skutečného zájmu o dítě, než se schoval zpět za svou agresivitu. Jak ho zvládnete?",
+      "options": [
+        {
+          "text": "Zdvihnete ruku, abyste mu přerušili monolog, a gestem ukážete směrem k BMW: ‚Pane Cooper, přijdu za vámi, až budu připravený. Prosím počkejte ve svém vozidle.' Otočíte se bez toho, abyste reagovali na jeho otázku ohledně Elly, a očekáváte, že poslechne, zatímco vy dokončíte jednání s ostatními. Cooper na vás chvíli zírá se zaťatou čelistí, pak dojde k BMW a těžce dosedne na sedadlo řidiče. Práskne za sebou dveřmi.",
+          "feedback": "Proč: Zdá se, že to odstraní konfrontaci, ale posíláte ho zpět do vozidla, které se chystáte prověřovat. Pokud tam je něco, co nechce, abyste viděli — otevřené lahve, telefon s nedávnými hovory — má čas to uklidit. Horší je, že jste propásli jeho lidský okamžik — starost o Ellu. To byla trhlina v jeho agresivitě, příležitost k navázání kontaktu. Poslat ho do auta ji uzavře. S jeho osobností izolace živí pocit neúcty. | DŮSLEDKY: Cooper si sedne do BMW a vaří se vzteky. Okamžik zranitelnosti kvůli Elle je pryč. Když přistoupíte, deset minut se dusil a je nepřátelštější. Také si uklidil auto — sklenice na víno z dárkového balíčku firemní akce je teď v přihrádce. | Reflexe: Jaká rizika pro zajištění důkazů existují, když pošlete řidiče zpět do vozidla — a o jaké lidské příležitosti přicházíte?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Narovnáte se v ramenou a konfrontujete ho přímo: ‚Pane Cooper, svědek potvrzuje, že jste projel stopku. Zavinil jste to. Píšu pokutu a odtud neodjedete, dokud nebude hlášení hotové.' Udržujete pevný oční kontakt, dáváte jasně najevo, že závěr vyšetřování je hotový. Nereagujete na jeho otázku ohledně dítěte — teď se soustředíte výhradně na sdělení výsledku, aniž byste si vyslechli jeho verzi příběhu.",
+          "feedback": "Proč: Výpovědi svědka a paní Bennett to podporují, ale oznamovat výsledek před jeho výpovědí podkopává řádný proces. Prohlášení zavinění bez jeho vyslechnutí činí hlášení napadnutelným. ‚Odtud neodjedete' je konfrontační s již agresivním mužem. Také jste ignorovali jeho zájem o Ellu — jediný okamžik, kdy projevil lidskost — což znamená, že další slova z jeho úst budou čistě obranná. | DŮSLEDKY: Cooper vybuchne kvůli právníkům a šikaně. Začne vás natáčet. Krátké okno, kdy projevil starost o dítě, se prudce zavřelo. Konfrontace eskaluje a otrávili jste interakci. | Reflexe: Proč oznamování závěrů před dokončením vyšetřování podkopává proces i výsledek — a proč ignorování okamžiku zranitelnosti činí člověka agresivnějším?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Přistoupíte blíž a zdvihnete ruku dlaní vpřed: ‚Chápu, že jste rozčílený, ale potřebuji, abyste se uklidnil. Křičením si nepomůžete.' Počkáte, až sníží hlas, pak vytáhnete poznámkový blok: ‚Nechte mě vám položit pár otázek.' Přejdete rovnou k výslechu, aniž byste nějak reagovali na jeho krátkou otázku ohledně Elly. Začnete strukturovanou sérií faktických otázek o rychlosti, směru jízdy a okamžiku střetu.",
+          "feedback": "Proč: ‚Uklidněte se' je jedna z nejkontraproduktivnějších deeskalačních frází. Znehodnocuje emoční stav a naznačuje, že reakce je nevhodná — což rozzuřené lidi rozzuří ještě víc. ‚Křičením si nepomůžete' je napomenutí. Poučili jste ho, co nemá dělat, ale nenabídli jste mu, co má dělat místo toho. Jeho zájem o Ellu zůstal zcela nepovšimnut. | DŮSLEDKY: Cooperovi ztuhl čelist: ‚Neříkejte mi, ať se uklidním.' Jeho obrana se zatvrdí. Výpověď, kterou podá, je strohá a nepřátelská, chybí detaily, které potřebujete. Lidský okamžik je ztracen. | Reflexe: Proč má ‚uklidněte se' téměř vždy opačný efekt? Co dosáhne stejného cíle — a co se stane, když přehlédnete okamžik skutečné starosti?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Nejdřív potvrdíte ten lidský okamžik: ‚Ella je v pořádku — je vyděšená, ale nezraněná. Dětská sedačka splnila svůj účel.' Necháte to na chvíli dolehnout, pak pokračujete klidným, konverzačním tónem: ‚Chápu, že jste frustrovaný, a vím, že takhle jste si odpoledne nepředstavoval. Potřebuji slyšet vaši verzi — od začátku. Odkud jste jel a co se stalo, když jste se blížil ke křižovatce?' Dáte mu prostor mluvit vlastním tempem.",
+          "feedback": "Proč: Odpovědět na jeho otázku ohledně Elly dříve než na cokoli jiného udělá něco pozoruhodného — řekne Cooperovi, že jste si všimli jeho starosti, že ho nevidíte jen jako agresora a že bezpečnost dítěte je společnou prioritou. Tento jediný okamžik spojení ulehčí vše, co následuje. Pak mu nechat prostor pro ventilaci před přesměrováním je učebnicová deeskalace. ‚Odkud jste jel' je strategicky důležité — stanoví místo původu, potenciálně relevantní pro detekci možné intoxikace alkoholem. Začít od začátku produkuje sekvenční výpověď. | DŮSLEDKY: Cooperova ramena na okamžik poklesnou, když slyší, že Ella je v pořádku. Úleva probleskne, než se hněv znovu poskládá. Ale není tak silný. Zmíní obchodní akci na druhé straně města. Jeho výpověď má mezery a nesrovnalosti. A když stojíte blíž, zachytíte něco — slabý pach vína. Lidské spojení ho přimělo polevit v obraně. | Reflexe: Proč odpověď na něčí starost o dítě — i když nehodu zavinil — změní celou dynamiku? Jak ten okamžik sdílené lidskosti zvýší pravděpodobnost, že bude mluvit upřímně?",
+          "type": "positive",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Nenápadné známky",
+      "sceneUpdate": {
+        "emoji": "🍷",
+        "title": "Něco nesedí",
+        "desc": "Stojíte blíže k panu Cooperovi a všímáte si shluku příznaků, z nichž každý samostatně nemusí nic znamenat, ale dohromady tvoří vzorec: obličej výrazně zarudlejší, než by odpovídal samotnému adrenalinu, slabý, ale zřetelný pach vína z dechu, jasná řeč, ale nekonzistentní výpověď s výraznými mezerami v posloupnosti, zmínka o ‚firemní akci' jako výchozím místě, mírně rozšířené zornice a — když sahá po telefonu — sotva znatelná nestabilita ruky, která může být zlost nebo může být něco jiného."
+      },
+      "npcDialogue": [
+        {
+          "character": "aggressiveDriver",
+          "text": "(všimne si vašeho výrazu, sotva znatelně se zakymácí při přenášení váhy, utírá si ústa) Co? Na co se díváte? Říkal jsem vám — sotva jsem ji škrtl. (Šátrá/pátrá po telefonu, chytí ho, mluví o něco hlasitěji, než je nutné) Můžeme si vyměnit pojistky a být hotovi? Mám věci na práci. (opět ucítíte pach vína, když se nakloní blíž, a všimnete si, že jeho oči jsou pod tím vztekem mírně skelné)"
+        }
+      ],
+      "prompt": "Zachycujete nenápadné známky možné konzumace alkoholu. Jak to řešíte?",
+      "options": [
+        {
+          "text": "Uložíte si pozorování do paměti — zarudlý obličej, slabý pach vína, mírná nestabilita — ale rozhodnete se to dál neřešit. Nezdá se, že by byl zjevně pod vlivem, mluví jasně a nehoda je prosté nedodržení zastavení na stopce. Testování střízlivosti by zbytečně eskalovalo a tak už napjatou scénu. Vrátíte pozornost k sepisování hlášení a zaznamenáte dopravní přestupek, ale pozorování ohledně alkoholu z něj vynecháte.",
+          "feedback": "Proč: Ignorování pozorovatelných známek alkoholu na místě nehody je vážné zanedbání povinnosti. Intoxikace alkoholem ne vždy vypadá jako vrávorání — snížená reakční doba může být maskována adrenalinem. Máte více indikátorů: zarudlý obličej, pach alkoholu, rozšířené zornice, nekonzistentní výpověď, účastnil se akce, kde se podával alkohol. Nevyšetřovat znamená, že ve vašem hlášení chybí kritické informace — a pokud dnes večer způsobí další nehodu, měli jste šanci zasáhnout. | DŮSLEDKY: Napíšete jednoduché hlášení o nerespektování přednosti. Cooper odjede. O dvě hodiny později jeho BAC stoupla z nedávné konzumace. Vybočí do protisměru. Tentokrát nikdo nemá štěstí. | Reflexe: Jaká je vaše povinnost, když pozorujete možné známky intoxikace alkoholem, i když člověk nevypadá ‚opile'?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Pokračujete stejným neuspěchaným konverzačním tónem: ‚Zmínil jste firemní akci — o jakou příležitost šlo?' Necháte ho popsat to vlastními slovy, aniž byste ho přerušovali. Pak přirozeně navážete: ‚Bylo tam něco k pití? Ptám se, protože chci vše přesně zdokumentovat pro ochranu obou stran.' Na základě jeho odpovědi — v kombinaci s fyzickými známkami, které jste celou dobu katalogizovali — rozhodnete, zda je další testování oprávněné.",
+          "feedback": "Proč: Vyšetřovatelsky vynikající. Konverzační přístup mu umožní popsat akci bez spuštění obranných mechanismů. Je pravděpodobnější, že bude upřímný, když je to zarámováno jako rutina. ‚Pro ochranu obou stran' přerámuje z nepřátelského na procedurální. Jeho odpověď — v kombinaci s fyzickými známkami — dává důvody pro další testování. Pokud přizná pití, máte pozorování plus přiznání k odůvodnění dechové zkoušky. | DŮSLEDKY: Cooper, stále v toku konverzace, přizná: ‚Bylo tam víno. Dal jsem si pár skleniček, ale to bylo před víc než dvěma hodinami — jsem v pořádku.' Fyzická pozorování plus přiznání více skleniček. Jasné důvody pro orientační dechovou zkoušku. | Reflexe: Proč konverzační detekce intoxikace alkoholem produkuje lepší důkazy než konfrontace?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Uděláte rozvážný krok zpět od Coopera a bez dalšího rozhovoru stisknete vysílačku: ‚Dispečink, žádám jednotku pro řízení pod vlivem na mou pozici — z řidiče cítím alkohol.' Pak se otočíte zpět ke Cooperovi s kamenným výrazem: ‚Cítím z vás alkohol. Žádám specializovanou jednotku. Prosím zůstaňte zde a nevracejte se do vozidla.' Postavíte se mezi něj a BMW se zkříženýma rukama a čekáte.",
+          "feedback": "Proč: Žádost o specializovanou jednotku ukazuje znalost postupů, ale přeskočit od pozorování k oznámení řízení pod vlivem bez jakékoli konverzace dramaticky eskaluje. Nezjistili jste, kolik vypil ani kdy. Reakce je nepřiměřená aktuálním důkazům. Následuje maximální nepřátelství. | DŮSLEDKY: Cooper vybuchne: ‚Řízení pod vlivem?! Kvůli skleničce vína k obědu? Volám právníka. To je šikana!' Natáčí vás. Situace eskalovala z nehody na konfrontaci o právech. | Reflexe: Jak eskalujete reakci přiměřeně tomu, jak se hromadí důkazy?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Podíváte se Cooperovi do očí a položíte otázku přímo, bez okolků: ‚Pane Cooper, pil jste dnes alkohol?' Pozorně sledujete jeho obličej — mikroexprese před slovní odpovědí často prozradí víc než slova samotná. Pokud přizná jakoukoli konzumaci, okamžitě přistoupíte k orientační dechové zkoušce a fyzické známky, které jste si už všimli, použijete jako podpůrnou dokumentaci v hlášení.",
+          "feedback": "Proč: Přímá otázka je procedurálně vhodná s pozorovatelnými známkami. Avšak strohá otázka spouští obranné popírání nebo bagatelizaci. Konverzační přístup může přinést upřímnější odpovědi, než se obrana plně aktivuje. Instinkt je správný — musíte vyšetřovat — ale metoda by mohla být propracovanější. | DŮSLEDKY: Cooper ztuhne, pak odsekne: ‚Jednu skleničku vína, před hodinami. To je směšné.' Nyní je plně v defenzivě. Spolupráce při testování bude obtížnější. | Reflexe: Je pravděpodobnější, že přímá otázka nebo konverzační přístup přinese užitečné informace?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Frustrace matky",
+      "sceneUpdate": {
+        "emoji": "😰",
+        "title": "Trpělivost paní Bennett praskla",
+        "desc": "Řešili jste výpověď pana Coopera a otázku opojení. Mezitím paní Bennett s Ellou čekala a sledovala, jak trávíte čas s mužem, který naboural do jejího auta. Ella se tiskne k matce."
+      },
+      "npcDialogue": [
+        {
+          "character": "mother",
+          "text": "(přistupuje, hlas se jí třese) Pane strážníku, jak dlouho ještě? Moje dcera je vyděšená. Projel stopku přímo do nás a vy si s ním tady povídáte? Proč ještě nedýchal na alkohol? Já ten alkohol cítím odsud! Budete dělat svou práci, nebo ne?"
+        }
+      ],
+      "prompt": "Oběť je frustrovaná a ztrácí trpělivost. Cítí, že trávíte příliš mnoho času s vinným řidičem. Jak odpovíte?",
+      "options": [
+        {
+          "text": "Okamžitě k ní přijdete s otevřeným postojem a klidným hlasem: ‚Paní Bennett, chápu vaši frustraci a máte právo být naštvaná. Bezpečnost vás a Elly je mou prioritou. Mluvil jsem se svědkem a zaznamenal jsem alkohol — právě to řeším. Musím dodržet určité kroky, aby vše obstálo. Může pro vás a Ellu někdo přijet, abyste nemusely čekat u poškozeného auta?' Hlas udržujete vstřícný a zároveň profesionální.",
+          "feedback": "Proč: Potvrzuje frustraci bez defenzivy. Informuje ji o průběhu vyšetřování — svědek kontaktován, alkohol zaznamenán. Vysvětlení ‚aby vše obstálo' jí pomáhá pochopit prodlení. Nabídka odvozu ukazuje skutečnou péči a dává jí praktické východisko. | DŮSLEDKY: Paní Bennett si s úlevou oddychne. Zavolá sestře. Vědomí, že svědek potvrdil její verzi a vy řešíte alkohol, jí dává důvěru v proces. Ella se uklidní, protože se uklidní její matka. | Reflexe: Jak informování čekající strany o postupu mění její prožívání čekání?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Zdvihnete ruku v uklidňujícím gestu a udržujete hlas vyrovnaný: ‚Paní Bennett, vím, že to trvá, ale potřebuji být důkladný. Prosím počkejte — za chvíli se vám budu věnovat.' Nenabídnete žádné podrobnosti o tom, co jste zjistili, žádnou informaci o průběhu vyšetřování a nijak nepotvrdíte, co pozorovala z druhé strany chodníku. Pak se otočíte zpět směrem ke Cooperově straně, abyste pokračovali v práci.",
+          "feedback": "Proč: Není to špatně, ale je to klinické. ‚Dodržuji postup' neřeší její emoční stav, vyděšené dítě ani to, že čekala, zatímco jste mluvili s mužem, který jim ublížil. ‚Prosím počkejte' s ní zachází jako s položkou v řadě. Žádné informace o průběhu. | DŮSLEDKY: Ustoupí, ale cítí se odmítnuta. Důvěra nerostla — stagnovala. Bude spolupracovat, ale nebude se cítit obsloužena. | Reflexe: Jaký je rozdíl mezi procedurální správností a lidským spojením?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Energicky přikývnete a ztišíte hlas do důvěrného tónu: ‚Máte pravdu — jasně projel stopku a taky cítím ten alkohol. Nebojte se, dostane pokutu a bude dýchat na alkohol. Spravedlnosti bude učiněno zadost.' Navážete s ní oční kontakt, abyste podpořili ujištění, a sdílíte s ní závěry vyšetřování i výpověď svědka přímo ještě dřív, než je případ formálně uzavřen nebo než byla vydána jakákoli pokuta.",
+          "feedback": "Proč: Emocionálně uspokojující, ale procedurálně katastrofální. Sdělili jste závěry vyšetřování jedné straně před dokončením. Potvrdili jste informace od svědka (kontaminace svědectví) a sdíleli zjištění o alkoholu. Pokud se to dostane k soudu, obhajoba argumentuje zaujatostí a nesprávným sdílením důkazů. ‚Spravedlnosti bude učiněno zadost' je slib, který možná nekontrolujete. | DŮSLEDKY: Paní Bennett se cítí potvrzena — prozatím. Ale pokud Cooperův právník zjistí, že jste sdíleli zjištění s druhou stranou, případ je napadnutelný. Nestrannost obětována za útěchu. | Reflexe: Jak uklidníte stěžovatele bez sdílení detailů vyšetřování, které ohrožují případ?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Narovnáte se a promluvíte stroze, odměřeným tónem: ‚Paní Bennett, obviňování z alkoholu není užitečné. Nechte mě dělat svou práci. Promluvím s vámi, až skončím s panem Cooperem.' Gestem ji nasměrujete zpět na chodník, kde sedí Ella, a dáte jasně najevo, že rozhovor je prozatím ukončen. Její postřeh ohledně alkoholu — totéž, co sami vyšetřujete — zůstane zcela bez reakce, zatímco se otočíte zády a odcházíte.",
+          "feedback": "Proč: Pozoruje totéž co vy. Odmítnout její pozorování jako neužitečné je znehodnocující. ‚Nechte mě dělat svou práci' říká občanům, že jejich podnět není vítán. ‚Promluvím s vámi, až skončím s ním' z ní dělá poslední prioritu za mužem, který naboural do jejího auta. | DŮSLEDKY: Paní Bennett je ohromená, pak zuřivá. Vytáhne telefon a začne dokumentovat. Váš vztah s obětí se zhroutil. | Reflexe: Když občan pozoruje to, co sami vyšetřujete, jak byste měli reagovat?",
+          "type": "negative",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Uzavření místa",
+      "sceneUpdate": {
+        "emoji": "📋",
+        "title": "Závěrečné kroky",
+        "desc": "Pan Cooper projel stopku. Dechová zkouška: 0,06 % — pod zákonným limitem, ale důkaz nedávné konzumace. Svědek potvrdil přestupek. Paní Bennett s Ellou čekají na její sestru. Obě vozidla jsou pojízdná, ale poškozená."
+      },
+      "npcDialogue": [
+        {
+          "character": "aggressiveDriver",
+          "text": "(zklidněný po dechové zkoušce) Nadýchal jsem pod limit. Nejsem opilý. Byla to nehoda. Můžu dostat papíry od pojišťovny a jet?"
+        }
+      ],
+      "prompt": "Jak uzavřete místo nehody — pokuta Cooperovi, potřeby paní Bennett a další kroky?",
+      "options": [
+        {
+          "text": "Utrhnete pokutu z bloku a podáte ji Cooperovi bez dalšího komentáře, pak kývnete směrem k jeho BMW: ‚Můžete jet.' Přejdete k paní Bennett: ‚Číslo hlášení si můžete vyzvednout zítra ráno na stanici — budete ho potřebovat pro pojišťovnu.' Vrátíte se k hlídkovému vozu, zaznamenáte místo jako uklizené a odjedete. Obě strany mají základní papíry a křižovatka je zase průjezdná.",
+          "feedback": "Proč: Transakční a neúplné. Pokuta je správná, ale žádná diskuse o důsledcích alkoholu. Paní Bennett nedostane žádné informace o právech, pojistných nárocích nebo kontrole Elly. ‚Vyzvedněte si hlášení zítra' je minimum snahy. Papírování vyřízeno, lidé nedostatečně obslouženi. | DŮSLEDKY: Cooper odjede s 0,06 % BAC a agresivním postojem. Paní Bennett čeká s pocitem, že byla odbyta, nikoli že se jí dostalo pomoci. Ella nemá doporučení ke kontrole. Místo uklizeno, práce jen napůl. | Reflexe: Jaký je rozdíl mezi uzavřením místa a dokončením vaší služby?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Podáte Cooperovi pokutu a mírně se k němu nakloníte: ‚Nadýchal jste 0,06. Pod limitem, ale kdybyste vypil ještě jednu skleničku, vedli bychom úplně jiný rozhovor. Zamyslete se nad tím.' Udržíte oční kontakt o vteřinu déle, pak ho necháte jít. Přejdete k paní Bennett, řeknete, že doufáte, že se Ella brzy vzpamatuje, a popřejete jí hezký večer. Pak se vrátíte k hlídkovému vozu a uvolníte místo bez poskytnutí čísla hlášení či lékařského doporučení.",
+          "feedback": "Proč: Varování má dopad, ale ‚zamyslete se nad tím' je mentorování a může vyvolat defenzivní reakci. Důležitější je, že uzavření pro paní Bennett je minimální — žádné číslo hlášení, žádné doporučení lékařské kontroly pro Ellu, žádné praktické další kroky. Závěrečnou energii jste investovali do Coopera a podservisovali oběť. | DŮSLEDKY: Cooper je otřesený, ale rozhořčený. Paní Bennett odjíždí bez čísla hlášení, bez lékařského doporučení, bez pocitu, že jí bylo věnováno pozornost. Závěrečnou energii jste věnovali špatnému člověku. | Reflexe: Komu by měla směřovat většina vaší závěrečné pozornosti — pokutovanému, nebo poškozenému?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Obrátíte se na Coopera: ‚Dávám vám pokutu za nerespektování stopky. Váš test byl pod zákonným limitem, ale 0,06 % ukazuje nedávnou konzumaci, která mohla ovlivnit reakční čas. Důrazně doporučuji dnes dál neřídit — zavolejte si taxi nebo se nechte vyzvednout.' Pak přejdete k paní Bennett: ‚Tady je číslo hlášení pro pojišťovnu. Doporučuji nechat Ellu v příštích dnech prohlédnout pediatrem — děti mohou mít opožděné reakce na nárazy. Je vaše sestra blízko?'",
+          "feedback": "Proč: Komplexní uzavření sloužící oběma stranám. Pokuta je předána s kontextem alkoholu jako bezpečnostním doporučením. ‚Dál neřídit' je zodpovědná rada. Pro paní Bennett doporučení pediatrické kontroly ukazuje zdravotnické povědomí, které rodiče často přehlížejí. Proaktivní předání čísla hlášení jí ušetří cestu. Otázka na sestru ukazuje, že si pamatujete a záleží vám. Obě strany odjíždějí s jasnými dalšími kroky. | DŮSLEDKY: Cooper je otřesen celkovým dopadem — pokuta, dechová zkouška, profesionální strážník, který s ním jednal férově navzdory jeho chování. Zavolá si odvoz. Paní Bennett má jasnou cestu pro pojistné a lékařské kroky. Ella se uklidňuje. Oba zažili důkladnou, férovou a humánní policejní práci. | Reflexe: Jak komplexní uzavření promění rutinní hlášení v setkání, které buduje důvěru?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Mávnete obě strany doprostřed chodníku: ‚Pojďme to uzavřít. Vyměňte si přímo údaje pojišťoven — budu tady, kdyby bylo třeba. Pane Cooper, tady je vaše pokuta.' Podáte mu papír a ustoupíte se zkříženýma rukama, dohlížíte na výměnu. Oba řidiči stojí poprvé tváří v tvář od chvíle, kdy jste je před hodinou oddělili, a Ella je sleduje z matčina náručí s rozšířenýma očima.",
+          "feedback": "Proč: Svést dvě nepřátelské strany dohromady po hodinové konfrontaci je recept na opětovné vznícení. Cooper je ponížen dechovou zkouškou. Bennett je rozzuřená kvůli všemu. Vynucení osobního kontaktu riskuje opětovné rozpoutání hádky před Ellou. Informace sbírejte odděleně a zajistěte, aby každá strana měla, co potřebuje, prostřednictvím hlášení. | DŮSLEDKY: Výměna začne zdvořile, ale zhorší se. Cooper pronese odmítavou poznámku. Bennett odpoví kvůli Elle. Ella začne znovu plakat. Uzavírající scéna se znovu otevřela. | Reflexe: Kdy je třeba udržovat strany oddělené i při uzavírání?",
+          "type": "negative",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Závěrečný rozbor",
+      "sceneUpdate": {
+        "emoji": "🏁",
+        "title": "Výcvikový rozbor",
+        "desc": "Zpět na stanici. Seržant Davis hodnotí váš výkon."
+      },
+      "npcDialogue": [],
+      "prompt": "",
+      "options": [],
+      "dialogueSequence": [
+        {
+          "character": "trainer",
+          "text": "Dopravní nehody testují všechny dovednosti současně — bezpečnost místa, oddělení, péči o dítě, vyšetřování, detekci opojení, nestrannost a uzavření. Většina strážníků je bere jako papírování: zjistit zavinění, napsat hlášení, uvolnit silnici. Vy jste k tomuto případu přistoupili jako k tomu, čím skutečně byl — lidská krize zahrnující vyděšené dítě, zuřivou matku, muže, který mohl být pod vlivem, a svědka, který málem odešel. Posloupnost vašich rozhodnutí byla stejně důležitá jako rozhodnutí samotná."
+        },
+        {
+          "character": "officer",
+          "text": "Překvapilo mě, jak těžké bylo vyšetřovat a deeskalovat zároveň. Když jsem mluvil s Cooperem konverzačně o firemní akci, současně jsem se snažil rozpoznat intoxikaci alkoholem a uklidnit ho. Připadalo mi, že jsou to protichůdné cíle."
+        },
+        {
+          "character": "trainer",
+          "text": "To je přerámování, které si chci, abyste zapamatovali. Vyšetřování a deeskalace nejsou oddělené dovednosti — jsou to tatáž dovednost. Nejlepší vyšetřovatelé jsou ti, kteří lidi nejdřív uklidní, protože klidní lidé mluví pravdu. Když jste se Coopera zeptali, odkud jede, bylo to současně deeskalace — nechat ho mluvit — a vyšetřování — zjistit jeho výchozí bod a expozici alkoholu. Nemusel jste si vybírat mezi shromažďováním důkazů a zvládáním jeho emocí. Konverzační přístup dosáhl obojího, a proto přiznal víno dobrovolně místo toho, aby si zavolal právníka."
+        },
+        {
+          "character": "trainer",
+          "text": "Ale to, co posunulo váš výkon z kompetentního na výjimečný, byla Ella. Zkontrolovali jste pětiletou holčičku dřív než důkazy. Šli jste s její matkou k autu místo toho, abyste ji poslali samotnou. Paní Bennett později řekla, že to, co si nejvíc pamatuje, nebyla nehoda — bylo to, že strážník zkontroloval její dceru dřív, než dělal cokoli jiného. Ella stále mluví o hodném policistovi. To je odkaz správně zvládnuté nehody — ne pokuta, ne hlášení, ale první vzpomínka dítěte na to, že policie jsou lidé, kterým záleží. Dovolte, abych vám řekl, co se stalo potom."
+        }
+      ]
+    }
+  ],
+  "characters": {
+    "dispatcher": {
+      "name": "Dispečink",
+      "avatar": "📻"
+    },
+    "aggressiveDriver": {
+      "name": "Pan Cooper (řidič, 35)",
+      "avatar": "😡"
+    },
+    "mother": {
+      "name": "Paní Bennett (řidička, 28)",
+      "avatar": "😰"
+    },
+    "child": {
+      "name": "Ella (5 let)",
+      "avatar": "👧"
+    },
+    "witness": {
+      "name": "Pan Peterson (soused)",
+      "avatar": "👴"
+    },
+    "officer": {
+      "name": "Vy (strážník)",
+      "avatar": "👮"
+    },
+    "trainer": {
+      "name": "Seržant Davis",
+      "avatar": "👮‍♂️"
+    }
+  },
+  "performanceReviews": {
+    "perfect": {
+      "title": "Výjimečné řízení místa nehody!",
+      "emoji": "🌟",
+      "feedback": "Předvedli jste učebnicovou reakci na nehodu: místo zajištěno, dítě prioritizováno, strany odděleny, svědek zajištěn, opojení detekováno konverzačně a komplexní uzavření pro obě strany. Každé rozhodnutí ukázalo správné priority ve správném pořadí."
+    },
+    "good": {
+      "title": "Silný výkon",
+      "emoji": "✅",
+      "feedback": "Zvládli jste klíčové prvky dobře — bezpečnost místa, oddělení a vyšetřování. Některé příležitosti pro lepší posloupnost, uzavření nebo detekci opojení byly propásnuty, ale váš přístup byl profesionální a orientovaný na bezpečnost."
+    },
+    "average": {
+      "title": "Přiměřená reakce",
+      "emoji": "📊",
+      "feedback": "Nehodu jste vyřešili, ale propásli důležité aspekty řízení místa, péče o dítě nebo vyšetřovací důkladnosti. Existovaly příležitosti pro kompletnější reakci."
+    },
+    "poor": {
+      "title": "Vyžaduje výrazné zlepšení",
+      "emoji": "⚠️",
+      "feedback": "Kritické prvky reakce na nehodu byly propásnuty. Dopravní nehody zahrnují všechny klíčové policejní dovednosti: bezpečnost, deeskalaci, vyšetřování, nestrannost a lidskou péči. Projděte si protokoly řízení místa a vyšetřovací postupy."
+    }
+  },
+  "metrics": {
+    "sceneSafety": {
+      "name": "Bezpečnost a řízení místa",
+      "description": "Zajištění místa nehody před sekundárními hrozbami, řízení provozu a zajištění fyzické bezpečnosti",
+      "icon": "🚧"
+    },
+    "conflictSeparation": {
+      "name": "Oddělení konfliktu",
+      "description": "Fyzické a emocionální oddělení nepřátelských stran k prevenci eskalace a umožnění přesných výpovědí",
+      "icon": "↔️"
+    },
+    "childWelfare": {
+      "name": "Priorita péče o dítě",
+      "description": "Věnování pozornosti dítěti jako zranitelné osobě vyžadující okamžitou pozornost a průběžnou péči",
+      "icon": "👧"
+    },
+    "investigativeThoroughness": {
+      "name": "Vyšetřovací důkladnost",
+      "description": "Detekce opojení, zajištění svědeckých výpovědí, zajištění důkazů a dodržování postupů",
+      "icon": "🔍"
+    },
+    "communicationUnderPressure": {
+      "name": "Komunikace pod tlakem",
+      "description": "Zvládání dvou nepřátelských stran současně s klidem, nestranností a profesionalitou",
+      "icon": "🗣️"
+    }
+  }
+}

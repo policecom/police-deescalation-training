@@ -1,0 +1,427 @@
+{
+    "scenarioId": "4",
+    "reviewVersion": "2.0",
+    "title": "Psichikos sveikatos krizė — veiklos analizė",
+
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Atvykimo vertinimas",
+            "criticalSkills": ["Vietos stebėjimas prieš įsitraukimą", "Medicininių konteksto užuominų identifikavimas", "Atsparumas taktiniam formulavimui negrėsmingose situacijose", "Priėjimo atstumo valdymas"],
+            "learningObjective": "Įvertinti psichikos sveikatos krizės vietą stebėjimo, o ne veiksmo būdu, identifikuojant svarbius rodiklius, tokius kaip ligoninės apyrankė, neagresyvi poza ir aplinkos kontekstas, prieš kalbant su bet kuo.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Sustokite maždaug penkių metrų atstumu. Trisdešimt sekundžių stebėkite: atkreipkite dėmesį į Elenos kūno kalbą, ligoninės apyrankę, jos drabužius, atstumą nuo įėjimo. Ramiai užmeskite akį David ir poniai Walsh, kad pripažintumėte juos, neskubėdami prie nė vieno.",
+                    "strengths": ["CIT mokymams atitinkantis stebėjimo prieš įsitraukimą metodas atskleidžia svarbią informaciją dar neištarus nė žodžio", "Penkių metrų atstumo palaikymas praneša apie saugumą, o ne grėsmę krizę patiriančiam asmeniui", "Ligoninės apyrankės pastebėjimas performuoja visą susidūrimą iš įtartino elgesio į medicininį kontekstą", "Ramus akių kontaktas su David ir ponia Walsh pripažįsta abi šalis neteikiant pirmenybės nė vienai", "Trisdešimt sekundžių kantrybės užkerta kelią minutėms taisyti baimės reakciją, sukeltą skubėjimo"],
+                    "consequences": "Pastebite apyrankę, jos neagresyvią pozą ir tai, kad ji krūpteli nuo staigių garsų. David mato jus ramiai vertinantį. Ponia Walsh atrodo palengvėjusi. Turite svarbų kontekstą dar neištarę nė žodžio.",
+                    "trainingFocus": "Kaip trisdešimt sekundžių stebėjimo pakeičia visą jūsų požiūrį į psichikos sveikatos iškvietimą? Kokias detales atskleidžia ramybė, kurių veiksmas praleistų?"
+                },
+                "partially_positive": {
+                    "choiceText": "Prieikite prie Elenos tiesiogiai ir prisistatykite. Ji ta, kuriai reikia pagalbos — pasiekite ją greitai, kol situacija nepasikeitė.",
+                    "adequate": ["Geras instinktas teikti pirmenybę pagalbos reikalaujančiam asmeniui, o ne skundėjui", "Noras padėti yra nuoširdus ir empatija grįstas"],
+                    "missed": ["Vietos neįvertinus praleidžiama ligoninės apyrankė ir kitas svarbus kontekstas", "Greitas priėjimas prie psichikos sveikatos krizę patiriančio asmens gali sukelti kovos arba bėgimo reakciją", "Greitas judėjimas praneša apie skubumą, kurį išsigandęs žmogus skaito kaip grėsmę", "Galimi dirgikliai neidentifikuoti prieš įsitraukiant"],
+                    "improvement": "Nukreipkite norą padėti į apgalvotą stebėjimą. CIT mokymai moko, kad greičiausias būdas padėti krizę patiriančiam žmogui yra sulėtinti — įvertinti vietą, pastebėti medicininius rodiklius ir artintis tempu, kuris praneša ramybę, o ne skubumą."
+                },
+                "neutral": {
+                    "choiceText": "Eikite tiesiai prie David pirmiausia — jis skambino, todėl gaukite jo pasakojimą apie tai, kas nutiko, prieš prieindami prie Elenos.",
+                    "adequate": ["Logiška rinkti kontekstą iš skambinančiojo prieš įsitraukiant", "Informacijos ieškojimas prieš veikimą rodo procedūrinę discipliną"],
+                    "missed": ["Elena stebi, kaip jūs einate prie vyro, kuris iškviečė policiją dėl jos — pusės pasirinkimo optika", "Nepriklausomo vietos vertinimo nebuvimas reiškia pasitikėjimą David formulavimu", "Elenos nerimas stiprėja, kai du autoriteto asmenys tarasi apie ją", "Ponios Walsh potencialiai naudingesnių stebėjimų nesurenkama"],
+                    "improvement": "Trumpas stebėjimo laikotarpis prieš kreipiantis į bet ką išsaugo neutralumą. Krizę patiriantis asmuo skaito, su kuo kalbate pirmiausia, kaip signalą apie tai, kodėl jūs čia — kreipimasis į skundėją pasako jai, kad esate čia dėl skundo, o ne todėl, kad kažkam reikia priežiūros.",
+                    "consequences": "Gaunate David perspektyvą, bet Elena mato du autoriteto asmenis tariančius apie ją. Ji stipriau prispaudžia kelius ir pradeda greičiau linguoti. Požiūris signalizuoja tyrimą, ne rūpestį."
+                },
+                "negative": {
+                    "choiceText": "Nedelsdami iškvieskite pastiprinimą per radiją — nežinote, ką ji vartoja ar ką gali padaryti. Apsaugokite teritoriją ir laikykite praeivius atokiau, kol atvyks antras ekipažas.",
+                    "risks": ["Jokių pavojaus požymių — jokio ginklo, jokios agresijos, jokių grasinimų", "Pastiprinimo kvietimas ir perimetro užtikrinimas traktuoja psichikos sveikatos krizę kaip taktinę situaciją", "Praneša visiems, kad matote šią moterį kaip grėsmę", "Papildomų ekipažų atvykimas dramatiškai padidina baimę jau ir taip išsigandusiam žmogui", "Dispečerinė jau nurodė, kad ginklų nėra ir grasinimų nebuvo — pastiprinimas yra neproporcingas"],
+                    "consequences": "Elena mato jus skubiai kalbant į radiją. Atvyksta antras patrulio automobilis. Dar du pareigūnai prieina. Elena apsuptas uniformų, pradeda hiperventiliuoti ir verkti. Ponia Walsh protestuoja. Praeivis pradeda filmuoti. Situacija eskalavo nuo moters, sėdinčios ant šaligatvio, iki kelių ekipažų atsako.",
+                    "betterApproach": "Ramiai stebėkite iš saugaus atstumo. Nėra grėsmės rodiklių. Vienas pareigūnas su kantrybe ir CIT mokymu yra tinkamas resursas — papildomi ekipažai sukuria krizę, kurios užkirsti kelią buvo kviečiami."
+                }
+            },
+            "keyLearningPoints": ["Trisdešimt sekundžių stebėjimo atskleidžia daugiau nei dešimt minučių blogo pirmo priėjimo taisymo", "Ligoninės apyrankė, neagresyvi poza ir savęs raminimo elgesys yra svarbios konteksto užuominos, performuojančios visą susidūrimą", "Dispečerinės formulavimas — „elgiasi keistai, gal kažką vartoja“ — gali paveikti jūsų požiūrį, jei savarankiškai nepatikrinate", "Psichikos sveikatos iškvietimuose tai, prie ko prieinate pirmiausia ir kaip greitai judate, praneša daugiau nei jūsų žodžiai"]
+        },
+        "2": {
+            "stageName": "Pirmas kontaktas",
+            "criticalSkills": ["Tiesioginis kreipimasis į nurodytas baimes", "Fizinis pozicionavimas galios disbalanso mažinimui", "Tono kalibravimas krizės komunikacijai", "Pasitikėjimo kūrimas per konkretumą, o ne bendrą nuraminimą"],
+            "learningObjective": "Užmegzti pirmą žodinį kontaktą su ūmioje psichikos sveikatos krizėje esančiu asmeniu taip, kad tiesiogiai adresuotumėte jų išreikštą baimę, sumažintumėte galios disbalansą ir sukurtumėte pasitikėjimo pagrindą.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Lėtai nusileiskite iki jos akių lygio, laikykite rankas matomas, kalbėkite tyliai: „Mano vardas yra pareigūnas [vardas]. Aš neatėjau jūsų niekur išvežti. Niekas jūsų nepalies ir nevers eiti ten, kur nenorite. Matau, kad jums labai sunku. Ar galite pasakyti savo vardą?“",
+                    "strengths": ["Nusileidimas iki akių lygio fiziškai sumažina galios disbalansą — jūs nebestūksote virš sėdinčio asmens", "Matomos rankos signalizuoja, kad nėra fizinės grėsmės", "Tiesioginis kreipimasis į jos nurodytą baimę — „neatėjau jūsų niekur išvežti“ — taikosi į konkretų siaubą, kurį ji išreiškė", "Klausimas apie vardą pradeda atkurti jos tapatybę už „žmogaus ant šaligatvio“ ribų", "Tylus tonas atitinka emocinį registrą, kurio jai reikia, o ne procedūrinį policijos registrą"],
+                    "consequences": "Elenos kvėpavimas šiek tiek sulėtėja. Po ilgos pauzės ji pasidalija savo vardu. Trapus pasitikėjimo siūlas susiformuoja. Ji nepabėgo. Ji nesuriko. Tai yra pažanga.",
+                    "trainingFocus": "Kodėl tiesioginis kreipimasis į asmens nurodytą baimę yra efektyvesnis nei bendro pobūdžio nuraminimas? Kaip jūsų fizinė pozicija asmens krizėje atžvilgiu keičia jo norą bendrauti?"
+                },
+                "partially_positive": {
+                    "choiceText": "Likite stovėti, bet sušvelninkite toną: „Ponia, aš esu pareigūnas [vardas]. Gavau pranešimą apie asmenį, kuriam reikia pagalbos prie vaistinės. Ar jums viskas gerai? Ar jums reikia medicininės pagalbos?“",
+                    "adequate": ["Mandagus ir profesionalus tonas", "Prisistatymas vardu yra tinkamas"],
+                    "missed": ["Stovėjimas virš ant žemės sėdinčio asmens palaiko galios dinamiką, kuri jaučiasi grasimiai", "„Gavau pranešimą“ primena jai, kad kažkas apie ją pranešė — ji yra objektas, o ne priežiūros gaunantis asmuo", "„Ar jums reikia medicininės pagalbos?“ yra klinikinis taip-arba-ne klausimas, nekreipiantis dėmesio į jos emocinę būseną", "Jos aiški baimė būti grąžintai į ligoninę nėra pripažinta"],
+                    "improvement": "Nusileiskite iki jos akių lygio, kad praneštumėte lygybę, o ne autoritetą. Pakeiskite klinikinius klausimus atsakymais, adresuojančiais jos nurodytą baimę. Ji jums pasakė, kad nenori grįžti — pripažinkite tai prieš ką nors klausdami."
+                },
+                "neutral": {
+                    "choiceText": "Atsiklaupkite netoliese ir švelniai pasakykite: „Ei, viskas gerai. Jūs saugi. Pažadu, kad nieko blogo neatsitiks. Tiesiog pasikalbėkime, gerai? Viskas bus gerai.“",
+                    "adequate": ["Atsiklaupimas rodo gerą fizinio pozicionavimo instinktą", "Švelnus tonas yra tinkamas situacijai"],
+                    "missed": ["Pažadai, kurių negalite garantuoti — „nieko blogo neatsitiks“ — gali atsisukti prieš žmogų, girdėjusį šiuos žodžius prieš traumuojančias patirtis", "Bendro pobūdžio nuraminimas nekreipiant dėmesio į jos konkrečią baimę jaučiasi tuščiai", "Ji pasakė, kad nenori grįžti į ligoninę — ta baimė nepripažinta", "„Viskas bus gerai“ yra tokio tipo frazė, kuri popierė neištesėtus pažadus jos praeityje"],
+                    "improvement": "Pakeiskite bendrą komfortą konkrečiu pripažinimu. Vietoj „viskas bus gerai“ sakykite „aš neatėjau jūsų niekur vežti, kur nenorite eiti.“ Adresuokite baimę, kurią ji iš tikrųjų išreiškė, o ne baimę, kurią preziumuojate.",
+                    "consequences": "Elena žiūri į jus su įtarumu: „Taip sakė ir ligoninėje.“ Jūsų nuraminimas priminė jai neištesėtus pažadus. Pasitikėjimas nesusiformavo."
+                },
+                "negative": {
+                    "choiceText": "Palaikykite atstumą, bet kalbėkite tvirtai: „Ponia, jums reikia nusiraminti. Aš esu pareigūnas [vardas] ir esu čia, nes buvo gautas skundas. Ar galite atsistoti, kad galėtume pasikalbėti? Kokia situacija su ligoninės apyranke?“",
+                    "risks": ["„Nusiraminkite“ yra viena mažiausiai efektyvių frazių krizės intervencijoje — ji nuverta asmens emocinę būseną", "Prašymas atsistoti yra komanda, padidinanti galios skirtumą", "Skundo paminėjimas apibrėžia ją kaip problemą", "Apyrankės paminėjimas nesukūrus jokio ryšio jaučiasi kaip tardymas", "Tyrimai nuolat rodo, kad liepimas kažkam „nusiraminti“ duoda priešingą efektą"],
+                    "consequences": "Elena krūpteli nuo žodžio „skundas“. Ji uždengia apyrankę kita ranka, gėdydamasi. „Aš nesu pakvaišusi. Aš tiesiog — palikite mane ramybėje!“ Ji staigiai atsistoja ir atsitraukia. Situacija eskalavo.",
+                    "betterApproach": "Nusileiskite iki jos lygio, laikykite balsą tylų ir tiesiogiai adresuokite baimę, kurią ji išreiškė. Pradėkite nuo to, ko nedarėsite — „aš neatėjau jūsų niekur vežti“ — prieš ką nors klausdami."
+                }
+            },
+            "keyLearningPoints": ["Pirmieji žodžiai, kuriuos pasakote krizę patiriančiam asmeniui, nustato visą tolesnę trajektoriją", "Konkrečios asmens nurodytos baimės adresavimas yra galingesnis nei bet koks bendro pobūdžio nuraminimas", "Fizinis pozicionavimas praneša apie saugumą arba grėsmę prieš bet kokius žodžius — stūksojimas virš ant žemės esančio žmogaus yra galios aktas, ne rūpesčio", "Liepimas kažkam „nusiraminti“ psichikos sveikatos krizėje patikimai sukelia priešingą efektą"]
+        },
+        "3": {
+            "stageName": "Informacijos rinkimas",
+            "criticalSkills": ["Konkuruojančių suinteresuotų šalių perspektyvų valdymas", "Pašalinių stebėtojų pavertimas informacijos šaltiniais", "Rūpesčių patvirtinimas nesirenkant pusių", "Krizę patiriančio asmens apsaugojimas nuo gėdos"],
+            "learningObjective": "Subalansuoti verslo savininko, norinčio asmens pašalinimo, reikalavimus su apsauginio praeivio stebėjimais, kol Elena klausosi visko ir daro išvadas apie tai, kodėl jūs čia.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Kreipkitės į abu tiesiogiai. David: „Suprantu, kad tai veikia jūsų verslą, ir vertinu, kad paskambinote — aš tuo užsiimsiu. Ar galite man duoti kelias minutes?“ Poniai Walsh: „Ačiū, kad ją saugojote. Tai tikrai vertinga. Ar ji dar ką nors sakė, kas galėtų padėti man suprasti jos situaciją?“",
+                    "strengths": ["Pripažįsta abi šalis nesirenkant pusių Elenos akivaizdoje", "Prašymas David duoti laiko valdo jo lūkestį neatmesdamas jo susirūpinimo", "Padėka poniai Walsh ir klausimas dėl daugiau informacijos paverčia pašalinį stebėtoją resursu su potencialiai svarbia informacija", "Elena mato, kad jos situacija traktuojama kaip verta supratimo, o ne tik pašalinimo", "Informacijos rinkimas iš žmogaus, praleidusio laiką su Elena prieš jums atvykstant, yra taktiškai protingas"],
+                    "consequences": "David nenoriai linkčioja. Ponia Walsh papasakoja, kad Elena minėjo bijanti slaugytojos ir vis žiūri į vaistinės iškabą, tarsi ją atpažintų. Elena stebi kažką, renkantį informaciją, kad padėtų, o ne suimtų. Jos poza atsipalaiduoja.",
+                    "trainingFocus": "Kaip pašalinių stebėtojų pavertimas informacijos šaltiniais keičia dinamiką nuo teisėsaugos prie rūpesčio? Kodėl svarbu, ką klausote krizę patiriančio asmens akivaizdoje?"
+                },
+                "partially_positive": {
+                    "choiceText": "Sutelkite dėmesį į David, kadangi jis skambinantysis: „Ar ji kam nors grasino arba elgėsi agresyviai? Ar ji bandė įeiti į vaistinę arba fiziškai blokuoti duris?“",
+                    "adequate": ["Geri diagnostiniai klausimai, nustatantys, ar yra tikra saugumo ar prieigos problema", "Vykdytino pažeidimo atskyrimas nuo subjektyvaus diskomforto yra profesionalus policinis darbas"],
+                    "missed": ["Dėmesio sutelkimas tik į skambinantįjį, kol Elena klausosi, sukuria skundu grįstą dinamiką", "Ponios Walsh stebėjimai — potencialiai naudingesni — lieka nesurinkti", "Elena mato pareigūną, teikiantį pirmenybę verslo savininko pasakojimui", "Apsauginis praeivis, praleidęs trisdešimt minučių su Elena, yra geresnis informacijos šaltinis, nei jūs naudojate"],
+                    "improvement": "Gavę David pasakojimą, aktyviai ieškokite ponios Walsh stebėjimų. Ji praleido daugiau laiko su Elena nei bet kas kitas ir gali turėti svarbios informacijos apie Elenos būseną, pareiškimus ir poreikius."
+                },
+                "neutral": {
+                    "choiceText": "Pasakykite David: „Aš tuo pasirūpinsiu. Duokite man erdvės dirbti.“ Tada visą dėmesį nukreipkite atgal į Eleną, ignoruodami ponią Walsh.",
+                    "adequate": ["Grįžimas prie Elenos yra teisingas instinktas — ji yra žmogus, kuriam reikia pagalbos", "Erdvės prašymas iš David sumažina spaudimą sąveikai"],
+                    "missed": ["„Aš tuo pasirūpinsiu“ nustato neapibrėžtą lūkestį, kurį David užpildys savo prielaidomis", "David gali eskaluoti, jei jo rūpestis jaučiasi nepripažintas — skambins vadovui arba konfrontuos su Elena pats", "Ponia Walsh turi svarbią informaciją iš savo laiko su Elena, kuri dabar yra prarasta", "Abiejų šalių atmetimas kainuoja informaciją ir sąjungininkus"],
+                    "improvement": "Praleiskite trisdešimt sekundžių pripažindami tiek David, tiek ponią Walsh prieš grįždami prie Elenos. Trumpas David rūpesčio patvirtinimas ir klausimas poniai Walsh galėtų pateikti svarbų kontekstą, keičiantį visą jūsų požiūrį.",
+                    "consequences": "David atsitraukia, bet murma apie skambinimą rajono vadovui. Ponia Walsh atrodo įskaudinta ir nueina. Praradote sąjungininkę, galinčią padėti suprasti Elenos būseną. Dabar esate vienas su mažiau informacijos."
+                },
+                "negative": {
+                    "choiceText": "Pasakykite Elenai tiesiogiai: „Elena, vaistinės darbuotojas sako, kad jūs čia nuo pat ryto ir verčiate klientus jaustis nepatogiai. Man reikia suprasti, kas vyksta. Kodėl išėjote iš ligoninės?“",
+                    "risks": ["Tiesioginis skundo perdavimas Elenai ją gėdina — „verčiate klientus jaustis nepatogiai“ pasako pažeidžiamam žmogui, kad jis yra problema", "Reikalavimas paaiškinti, kodėl išėjo iš ligoninės, pažeidžia jos medicininę privatumą viešoje vietoje", "Šis požiūris teikia pirmenybę informacijos išgavimui, o ne pasitikėjimo kūrimui", "Elena girdi, kad pareigūno pagrindinis rūpestis yra skundas, o ne jos gerovė"],
+                    "consequences": "Elenos veidas susirauko. „Aš verčiu žmones jaustis nepatogiai? Atsiprašau. Atsiprašau. Aš eisiu.“ Ji pradeda stotis, dezorientuota ir sugėdinta. Ponia Walsh įsiterpia. Situacija destabilizuojasi.",
+                    "betterApproach": "Niekada neperduokite skundo tiesiogiai krizę patiriančiam asmeniui. Valdykite skundėją ir pašalinį stebėtoją atskirai, rinkite informaciją iš abiejų ir grįžkite prie Elenos su rūpesčiu — ne su kitų žmonių nusiskundimais."
+                }
+            },
+            "keyLearningPoints": ["Kai krizę patiriantis asmuo gali girdėti, ką klausote ir ką jie sako, kiekvienas žodis formuoja, ar jis jus mato kaip pagalbininką, ar kaip vykdytoją", "Pašaliniai stebėtojai, praleidę laiką su asmeniu, yra informacijos resursai — jų atmetimas kainuoja žvalgybą ir sąjungininkus", "Tiesioginis skundo perdavimas psichikos sveikatos krizę patiriančiam asmeniui sukelia gėdą ir destabilizaciją", "Konkuruojančių suinteresuotų šalių valdymas reikalauja kiekvienos patvirtinimo nesirenkant pusių pažeidžiamo asmens akivaizdoje"]
+        },
+        "4": {
+            "stageName": "Ryšio kūrimas",
+            "criticalSkills": ["Aktyvus klausymasis su konkrečiu patvirtinimu", "Veiksnumo atkūrimas per pasirinkimą", "Atsparumas norui spręsti problemas prieš žmogui pasiruošiant", "Gėdos performulavimas į supratimą"],
+            "learningObjective": "Gilinti pasitikėjimą su Elena, jai atskleidžiant vaistų pakeitimą, baisias haliucinacijas ir pabėgimą iš ligoninės, naudojant patvirtinimą ir pasirinkimą trapiam ryšiui palaikyti.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Pilnai išklausykite, tada atsakykite: „Elena, ačiū, kad man tai papasakojote. Vaistų pakeitimas, sukeliantis balsus, skamba tikrai baisiai — galiu suprasti, kodėl pajutote, kad turite išeiti. Jūs minėjote savo seserį Sofiją. Ar norėtumėte jai paskambinti? Galiu padėti, jei norite, arba galite tai padaryti pati — kaip jums atrodo geriau.“",
+                    "strengths": ["Konkrečios patirties patvirtinimas — „vaistų pakeitimas, sukeliantis balsus, skamba tikrai baisiai“ — parodo, kad klausėtės ir tikite ja", "Performuoja jos pasitraukimą iš ligoninės iš gėdingo bėgimo į suprantamą atsaką", "Pasirinkimo siūlymas, kaip susisiekti su Sofia — „galiu padėti arba galite tai padaryti pati“ — grąžina veiksnumą", "Kiekvienas pasiūlytas pasirinkimas atkuria kontrolės jausmą, kurį krizė atėmė", "„Kaip jums atrodo geriau“ yra kalba, sukalibruota žmogui, praradusiam visą kontrolės jausmą"],
+                    "consequences": "Elenos akys prisipildo palengvėjimo ašarų: „Jūs man tikite? Dėl vaistų?“ Ji išsitraukia telefoną ir paprašo jūsų pabūti, kol skambins Sofiai. Tikras žmogiškas ryšys susiformavo.",
+                    "trainingFocus": "Kodėl asmens pasirinkimo jausmo atkūrimas yra galingiausias krizės deeskalacijos įrankis? Ką tikėjimas kažkieno patirties pasakojimu praneša?"
+                },
+                "partially_positive": {
+                    "choiceText": "Linktelėkite ir pasakykite: „Tai skamba tikrai sunkiai, Elena. Leiskite man kažkam paskambinti — galime pakviesti jūsų seserį ir gal pasikalbėti su ligonine dėl jūsų vaistų. Tinka?“",
+                    "adequate": ["Empatiškas tonas ir nuoširdus susirūpinimas", "Veiksmui orientuotas požiūris, judantis link sprendimo"],
+                    "missed": ["„Leiskite man kažkam paskambinti“ perima iniciatyvą, o ne siūlo pasirinkimą — jūs sprendžiate, ne ji", "Ligoninės paminėjimas gali padidinti jos baimę — ji ką tik iš ten pabėgo", "Planų kūrimas jos vardu atspindi kontrolės praradimą, kurį ji patyrė ligoninėje", "Perėjimas prie sprendimų, kol Elena dar nėra pasiruošusi, gali užblokuoti besikuriantį pasitikėjimą"],
+                    "improvement": "Leiskite Elenai vadovauti. Siūlykite variantus, o ne perimkite iniciatyvą. Vietoj „leiskite man kažkam paskambinti“ klauskite „ar norėtumėte pati jai paskambinti, ar norite, kad padėčiau?“ Venkite minėti ligoninę, kol Elena pati nepradės — ji pradės, kai bus pasiruošusi."
+                },
+                "neutral": {
+                    "choiceText": "Pasakykite: „Gerai, Elena. Tai padeda man suprasti. Ar galite pasakyti ligoninės pavadinimą ir savo gydytojo vardą? Turėčiau jiems pranešti, kur esate, kad nesijaudintų.“",
+                    "adequate": ["Pripažinimas, kad jos informacija padeda jums suprasti, rodo, jog klausote", "Rūpestis dėl ligoninės informavimo apie jos buvimo vietą yra geranoriškas"],
+                    "missed": ["Ligoninės detalių prašymas ir pareiškimas, kad juos informuosite, Elenos galvoje verčiasi: „Pareigūnas pasakys ligoninei, kur esu, kad jie galėtų ateiti manęs paimti“", "Jūs persikėlėte iš pokalbio partnerio į ligoninės tarpininką — būtent vaidmenį, kurio ji bijo", "Trapus besikuriantis pasitikėjimas sugriūna po institucine kalba", "Iš Elenos perspektyvos, jūs ką tik tapote žmogumi, kuris atves ligoninę pas ją"],
+                    "improvement": "Nesiūlykite susisiekti su institucija, iš kurios asmuo pabėgo, kol jis aiškiai nepaprašys ar nesutiks. Sutelkite dėmesį į tai, ko nori Elena — ji minėjo Sofiją. Sekite jos vedimą, o ne savo procedūrinius instinktus.",
+                    "consequences": "Elenos trapus atvirumas sugriūna: „Ne! Neskambinkite jiems. Sakiau, kad negrįšiu!“ Ji atsistoja, susijaudinusi, ieškodama išėjimo. Prarastas reikšmingas progresas."
+                },
+                "negative": {
+                    "choiceText": "Pasakykite: „Elena, girdžiu jus. Bet yra vienas dalykas — jūs išėjote iš ligoninės be išrašymo, ir tai kelia susirūpinimą. Dėl jūsų saugumo manau, kad geriausia būtų jus grąžinti, kad gydytojai galėtų išspręsti vaistų problemą. Galiu jus ten nuvežti.“",
+                    "risks": ["Jūs pasakėte išsigandusiai moteriai, kuri maldavo jūsų negrąžinti, kad, jūsų nuomone, geriausia yra ją grąžinti", "Net pateikta kaip susirūpinimas, tai patvirtina jos didžiausią baimę: policija yra čia, kad ją grąžintų", "„Dėl jūsų saugumo“ yra frazė, kuri yra buvusi prieš daugybę priverstinių veiksmų prieš krizę patiriančius žmones", "Pasiūlymas ją nuvežti visiškai ignoruoja jos sutikimo nebuvimą", "CIT mokymai pabrėžia, kad priverstinis transportavimas turėtų būti rezervuotas tiesioginiam pavojui — Elena neatitinka to slenksčio"],
+                    "consequences": "Elena panikuoja: „Jūs melavote! Sakėte, kad manęs niekur nevešite!“ Ponia Walsh šaukia. David ateina prie durų. Keli praeiviai sustoja. Kruopščiu darbu sukurtas pasitikėjimas yra sugriautas.",
+                    "betterApproach": "Atskirkite tai, ko kažkam kliniškai reikia, nuo to, ko jam šiuo metu reikia, kad jaustųsi pakankamai saugiai priimti pagalbą. Elenai reikia vaistų koregavimo — bet ji tai priims savanoriškai tik jei jumis pasitikės. Šio pasitikėjimo sugriovimas, siekiant klinikinio rezultato, sunaikina abu."
+                }
+            },
+            "keyLearningPoints": ["Tikėjimas kažkieno patirties pasakojimu — „jūs man tikite dėl vaistų?“ — yra vienas galingiausių pasitikėjimo kūrimo aktų krizės intervencijoje", "Pasirinkimų siūlymas, o ne sprendimų priėmimas už kažką, atkuria veiksnumą, kurį psichikos sveikatos krizė atima", "Institucijos, iš kurios kažkas pabėgo, paminėjimas prieš žmogui pasiruošiant gali akimirksniu sugriauti trapų pasitikėjimą", "Skirtumas tarp to, ko kažkam kliniškai reikia, ir to, ko jam emociškai reikia šiuo momentu, yra pagrindinė krizės intervencijos įtampa"]
+        },
+        "5": {
+            "stageName": "Atvyksta sesuo",
+            "criticalSkills": ["Panikuojančio šeimos nario deeskalacija", "Emocinės re-eskalacijos prevencija", "Mažų užduočių naudojimas racionaliam mąstymui įjungti", "Sukurtos ramybės apsaugojimas"],
+            "learningObjective": "Valdyti Elenos sesers Sofijos, kuri panikuoja ir yra gynybinė, atvykimą taip, kad stabilizuotumėte Sofiją prieš jai sąveikaujant su Elena ir užkirstumėte kelią šeimos susitikimui panaikinti ramybę, kurią sukūrėte.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Kalbėkite su Sofia ramiai, bet aiškiai: „Sofia — atsikvėpkite. Elena nėra suimta. Niekas nėra suimamas. Mes su ja kalbamės, ir jai sekasi tikrai gerai. Žinau, kad turėjote sunkų rytą. Ar galite saugiai pastatyti automobilį ir tada prisijungti prie mūsų? Elena apie jus klausinėjo.“",
+                    "strengths": ["Sofiai reikia jos pačios deeskalacijos — jos panika yra tikra, bet, nesuvaldyta, iš naujo eskaluos Eleną", "„Atsikvėpkite“ yra direktyvu, bet rūpestinga — duoda jai kažką fiziškai padaryti", "„Elena nėra suimta“ tiesiogiai adresuoja Sofijos nurodytą baimę", "„Jai sekasi tikrai gerai“ performuoja Eleną iš aukos į asmenį su veiksnumu", "Prašymas Sofijos pastatyti automobilį suteikia mažą užduotį, vėl įtraukiančią racionalų mąstymą ir perkančią trisdešimt sekundžių ramybės", "„Elena apie jus klausinėjo“ suteikia Sofiai tikslą ir nuraminimą"],
+                    "consequences": "Sofia giliai įkvepia, linkčioja, pastato automobilį. Kai grįžta, jos tempas lėtesnis. Elena ištiesia ranką. Seserys apkabina viena kitą. Šeimos susitikimas pakeitė krizės eskalaciją.",
+                    "trainingFocus": "Kodėl maža praktinė užduotis — kaip automobilio pastatymas — padeda žmogui pereiti nuo panikos prie funkcinio buvimo? Kaip šeimos nario stabilizavimas apsaugo pažangą, pasiektą su krizę patiriančiu asmeniu?"
+                },
+                "partially_positive": {
+                    "choiceText": "Iš karto kreipkitės į Sofiją: „Jūs turbūt esate Sofia. Džiaugiuosi, kad esate čia. Elena jus minėjo. Ji gerai — mes tiesiog kalbamės. Ateikite, ji bus laiminga jus matydama.“",
+                    "adequate": ["Šilta ir svetinga — patvirtina Sofijos buvimą ir ryšį su Elena", "Sofijos identifikavimas vardu ir Elenos žodžių paminėjimas rodo dėmesingumą"],
+                    "missed": ["Sofijos emocinė būsena nesuvaldyta prieš vedant ją prie Elenos", "Sofia vis dar panikos būsenoje — verkia, panikuoja, balsu pakeltu", "Panikuojančios Sofijos privedimas prie trapios Elenos rizikuoja emociniu užtvindymu, panaikinančiu jūsų kruopštų darbą", "Nėra atvėsimo mechanizmo prieš susitikimą"],
+                    "improvement": "Įterpkite trumpą stabilizavimo žingsnį prieš leisdami kontaktą. Paprašykite Sofijos pastatyti automobilį, atsikvėpti arba tiesiog palaukti dešimt sekundžių. Trumpas delsimas paverčia paniką funkcionaliu buvimu ir apsaugo su Elena sukurtą ramybę."
+                },
+                "neutral": {
+                    "choiceText": "Ženkite link Sofijos ir nuleiskite balsą: „Ponia, jums reikia nusiraminti. Suprantu, kad esate nusiminusi, bet man reikia užduoti jums kelis klausimus apie Elenos medicininę situaciją — kokius vaistus ji vartoja, kada buvo išrašyta, kas jos gydytojas.“",
+                    "adequate": ["Bandymas valdyti Sofijos emocinę būseną rodo suvokimą, kad jos panika yra veiksnys", "Medicininiai klausimai galėtų duoti naudingos informacijos"],
+                    "missed": ["„Nusiraminkite“ atmeta Sofijos emocijas taip pat, kaip ir Elenos", "Iš karto pereinant prie medicininių klausimų, Sofia traktuojama kaip informacijos šaltinis, o ne kaip išsigandusi šeimos narė", "Elena girdi, kaip prašote jos privačių medicininių duomenų iš sesers viešai", "Apie Eleną kalbama, o ne su ja — ji tampa objektu, o ne dalyve"],
+                    "improvement": "Adresuokite Sofijos emocinę būseną prieš išgaunant informaciją. Nuraminkite ją, kad Elena yra saugi ir neturi teisinių problemų. Medicininiai klausimai gali palaukti — šiuo metu Sofiai reikia išgirsti, kad jos sesuo yra gerai, o Elenai nereikia girdėti, kaip jos privati medicininė istorija aptarinėjama viešai.",
+                    "consequences": "Sofia pateikia informaciją pro ašaras, bet Elena stebi su didėjančia kančia: „Liaukitės kalbėti apie mane, tarsi manęs čia nebūtų!“ Dinamika pasikeičia — autoriteto figūros aptaria objektą, o Elena nustumta į šalį."
+                },
+                "negative": {
+                    "choiceText": "Pakelkite ranką Sofijai: „Ponia, jums reikia sustoti. Tai aktyvi situacija, ir man reikia, kad palauktumėte, kol baigsiu vertinimą. Kai bus tinkama, aš jus pavesiu.“",
+                    "risks": ["Sesers blokavimas nuo pasiekimo savo išsigandusios giminaitės yra funkciškai žiauru, kai nėra jokios saugumo priežasties", "Elena prašė Sofijos — šio susitikimo atsisakymas netarnauja niekam", "„Aktyvi situacija“ ir „stokite“ yra taktinė kalba šeimos momentui", "Minia mato policijos pareigūną, neleidžiantį verkiančiai moteriai pasiekti savo sesers", "Kiekvienas ryšys, sukurtas su Elena, ponia Walsh ir praeiviais, sugriūna akimirksniu"],
+                    "consequences": "Sofia sprogsta: „Tai mano sesuo! Jūs negalite manęs nuo jos laikyti!“ Elena šaukia „Sofia!“ ir atsistoja, susijaudinusi. Ponia Walsh garsiai protestuoja. Kiekvienas sukurtas ryšys sugriūna.",
+                    "betterApproach": "Kai nėra saugumo priežasties neleisti šeimos nariui prieiti, palengvinkite susitikimą — bet pirmiausia suvaldykite šeimos nario emocinę būseną. Dešimties sekundžių pauzė Sofiai atsikvėpti apsaugo Eleną neatimdama iš jos asmens, kurio ji prašė."
+                }
+            },
+            "keyLearningPoints": ["Krizėje atvykstantiems šeimos nariams reikia jų pačių deeskalacijos — jų panika gali iš naujo eskaluoti asmenį, kurį jau nuraminate", "Maža praktinė užduotis kaip automobilio pastatymas per kelias sekundes paverčia paniką funkciniu mąstymu", "Asmens privačios medicininės informacijos aptarimas jo akivaizdoje ir viešai paverčia jį objektu, o ne dalyviu", "Kai nėra saugumo priežasties blokuoti šeimos susitikimą, tai darant tai patiriama kaip žiaurumas — šeimos ir kiekvieno stebinčio praeivio"]
+        },
+        "6": {
+            "stageName": "Sujungimas su pagalba",
+            "criticalSkills": ["Struktūruotų pasirinkimų siūlymas priežiūros plane", "Priimamojo atskyrimas nuo stacionarios priežiūros konkrečioms baimėms adresuoti", "Ne ligoninės krizės alternatyvų žinojimas", "Asmens palaikymas savo priežiūros centre"],
+            "learningObjective": "Palengvinti savanorišką priežiūros planą, adresuojantį Elenos realius medicininius poreikius, gerbiant jos atsisakymą grįžti į stacionarią palatą, naudojant struktūruotus pasirinkimus ir turimų krizės resursų žinojimą.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Kalbėkite su abiem: „Elena, tai, kad žinote, jog vaistų reikia imtis — tai man daug pasako — tam reikia tikros stiprybės. Štai keletas variantų, ir jūs renkitės: Sofia gali paskambinti daktarei Reeves dabar, pranešti apie šalutinius poveikius ir gauti skubias rekomendacijas. Taip pat galite su Sofia nuvykti į priimamąjį — ne į stacionarią palatą, o tik į priimamąjį, vaistų įvertinimui. Arba, jei norite, galiu iškviesti mūsų mobilią krizių komandą, kuri atvyktų čia ir padėtų jums nuspręsti dėl tolesnių žingsnių. Kas jums atrodo įveikiama?“",
+                    "strengths": ["Elenos savimonės patvirtinimas — „tam reikia tikros stiprybės“ — kuria orumą, o ne priklausomybę", "Trijų konkrečių variantų pateikimas su jos pasirinkimu visiškai atkuria veiksnumą", "Priimamojo atskyrimas nuo stacionarios palatos adresuoja jos konkrečią baimę tiksliai", "Mobilios krizių komandos paminėjimas rodo ne ligoninės alternatyvų žinojimą", "„Kas jums atrodo įveikiama?“ yra kalba, sukalibruota žmogui, kurio pasaulis atrodo neįveikiamas", "Kiekvienas elementas yra grįstas sutikimu ir pasirinkimu — CIT praktikos aukso standartas"],
+                    "consequences": "Elena žiūri į Sofiją: „Ar galime pirmiausia paskambinti daktarei Reeves? Ir tada... gal į priimamąjį, jei ji taip pasakys. Bet ne į palatą.“ Formuojasi planas — Elenos planas, ne jūsų.",
+                    "trainingFocus": "Kodėl struktūruotų pasirinkimų siūlymas duoda geresnius rezultatus nei vienos rekomendacijos teikimas? Kaip skirtingų medicinos įstaigų tipų atskyrimas adresuoja konkrečią baimę, o ne bendrą kategoriją?"
+                },
+                "partially_positive": {
+                    "choiceText": "Pasakykite Sofiai: „Manau, paskambinti daktarei Reeves yra gera pradžia. Jei ji rekomenduos priimamąjį, turėtumėte ten nuvežti Eleną. Galiu čia palaukti, kol skambinsite.“",
+                    "adequate": ["Praktiškas ir pagrįstas kelias į priekį", "Atsidavimas psichiatrės sprendimui yra mediciškai tinkamas", "Pasiūlymas palaukti rodo įsipareigojimą matyti situaciją iki galo"],
+                    "missed": ["Planas nukreiptas per Sofiją, apeidamas Eleną, kuri sėdi čia pat", "Elena išreiškė savo supratimą apie tai, ko jai reikia — kalbėjimas aplink ją tęsia kitų sprendimų priėmimą už ją", "Siūlomas tik vienas kelias, netyrinėjant alternatyvų kaip mobili krizių komanda", "Elena tampa pasyvi savo priežiūros plane, o ne sprendimų priėmėja"],
+                    "improvement": "Kreipkitės į Eleną tiesiogiai ir siūlykite kelis variantus. Net jei tikite, kad skambinti daktarei Reeves yra geriausias kelias, pateikite tai kaip vieną iš kelių pasirinkimų — įskaitant ne ligoninės alternatyvas — ir leiskite Elenai nuspręsti. Pasirinkimo procesas yra tiek pat terapeutinis kiek pats pasirinkimas."
+                },
+                "neutral": {
+                    "choiceText": "Pasakykite: „Girdžiu jus, Elena. Niekas jūsų nevers niekur eiti. Tiesiog neskubėkite. Kai būsite pasiruošusi, jūs su Sofia galėsite nuspręsti, ką daryti.“ Pasitraukite ir leiskite seserims kalbėtis.",
+                    "adequate": ["Visiškai gerbia Elenos autonomiją", "Neuždeda jokio veiksmų kurso", "Pasitraukimas sukuria erdvę seserims"],
+                    "missed": ["Pagarbu autonomijai, bet atsisako pareigūno kaip resursų jungiklio vaidmens", "Nei Elena, nei Sofia nėra padėtyje orientuotis sudėtinguose mediciniuose sprendimuose vienos šiuo metu", "Niekas, turintis žinių apie turimus krizės resursus, neveda proceso", "Pasyvios paramos nepakanka, kai kažkas yra ūmioje krizėje — jiems reikia informuotų variantų, o ne tik leidimo rinktis"],
+                    "improvement": "Autonomija nereiškia apleidimo. Informuotų variantų siūlymas — psichiatrė, priimamasis, mobili krizių komanda — nėra rezultato kontrolė. Tai resursų pateikimas, kurių kažkam reikia, kad prasmingai realizuotų savo autonomiją.",
+                    "consequences": "Seserys sėdi kartu. Laikas bėga. Nė viena nežino, ką daryti toliau. David išeina klausdamas, ar jos čia sėdės visą dieną. Judėjimo pirmyn stoka sukuria vakuumą, kurį užpildo frustracija."
+                },
+                "negative": {
+                    "choiceText": "Pasakykite: „Elena, suprantu, kad bijote ligoninės, bet vaistų situacija gali būti pavojinga. Manau, kad saugiausia būtų man organizuoti transportavimą į priimamąjį, kad medikai galėtų jus įvertinti. Sofia gali važiuoti kartu.“",
+                    "risks": ["„Organizuoti transportavimą į priimamąjį“ yra klinikinis pasakymas greitajai iškviesti — Elena tiksliai žino, ką tai reiškia", "Jūs perrašėte jos išreikštus norus remdamiesi savo medicininės rizikos vertinimu, kuris nėra jūsų ekspertizės sritis", "Ji aiškiai pasakė, kad negali susidurti su ligonine, o jūs dabar verčiate šiuo klausimu", "CIT mokymai pabrėžia, kad priverstinis transportavimas turėtų būti rezervuotas tiesioginiam pavojui sau ar kitiems — Elena neatitinka to slenksčio", "Sofia pasakė, kad nenori versti Elenos — dabar jūs esate tas, kuris verčia"],
+                    "consequences": "Elena atsitraukia: „Ne! Jūs sakėte, kad galėsiu rinktis! Jūs pažadėjote!“ Sofia atsistoja tarp jūsų ir Elenos. Trapus pasitikėjimas sugriūna. Elena gali pabėgti.",
+                    "betterApproach": "Kai jūsų medicininių poreikių vertinimas prieštarauja asmens išreikštiems norams ir nėra tiesioginio pavojaus, jų norai turi pirmenybę. Siūlykite alternatyvas, adresuojančias medicininį rūpestį, neiš naujo nepristatant baiminamos institucijos. Skambutis psichiatrei, mobilios krizių komandos vizitas arba savanoriškas apsilankymas priimamajame jos sąlygomis — visi keliai, gerbiantys ir saugumą, ir sutikimą."
+                }
+            },
+            "keyLearningPoints": ["Trijų struktūruotų pasirinkimų siūlymas sukuria savanorišką priežiūros planą; vienos rekomendacijos teikimas sukuria pasipriešinimą arba pasyvų sutikimą", "Skirtingų medicinos įstaigų tipų atskyrimas — priimamasis versus stacionari palata — adresuoja konkrečią baimę, o ne sukelia bendrą", "Ne ligoninės alternatyvų, tokių kaip mobilios krizių komandos, žinojimas yra būtinas CIT apmokytiems pareigūnams", "Asmens palaikymas savo priežiūros plano centre yra ne tik pagarbu — tai duoda geresnius ilgalaikius rezultatus nei kitų primesti planai"]
+        },
+        "7": {
+            "stageName": "Uždarymas",
+            "criticalSkills": ["Orumą atkuriantis uždarymas", "Krizės resursų pateikimas ateities poreikiams", "Pašalinių stebėtojų indėlio pripažinimas", "Atsiprašymo performulavimas į drąsą"],
+            "learningObjective": "Užbaigti sąveiką atkuriant Elenos orumą, pateikiant apčiuopiamus krizės resursus būsimiems epizodams ir pripažįstant bendruomenės paramą, prisidėjusią prie saugaus sprendimo.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Atsisėskite šalia Elenos ant suoliuko: „Elena, jums nereikia atsiprašyti. Jūs susidūrėte su kažkuo baisiu ir atsidūrėte saugioje vietoje ir paprašėte pagalbos — tam reikia drąsos, ne atsiprašymo. Prieš išeidamas noriu įsitikinti, kad turite tai.“ Užrašykite vietinės krizių linijos ir mobilios krizių komandos numerį. „Tai tam atvejui, jei kada nors prireiks paramos ir negalėsite pasiekti daktarės Reeves ar Sofijos. Jis veikia 24 valandas, ir jie atvyksta pas jus.“ Tada poniai Walsh: „Ačiū, kad pasilikote su ja — tai reiškė daugiau, nei galite įsivaizduoti.“",
+                    "strengths": ["Jos atsiprašymo performulavimas — „tam reikia drąsos, ne atsiprašymo“ — yra galinga orumą atkurianti frazė", "Raštiškai pateikti krizių resursai užtikrina, kad ji turės galimybių už šio susitikimo ribų", "Nurodant „24 valandas, jie atvyksta pas jus“ adresuojamas scenarijus būti vienai būsimos krizės metu", "Ponios Walsh pripažinimas patvirtina bendruomenės rūpestį ir skatina pašalinių stebėtojų paramą", "Sėdėjimas šalia ant suoliuko — ne stovėjimas virš — atitinka per visą sąveiką palaikytas lygybę", "Tai yra auksinys krizės sprendimo standartas: konkreti pagalba, emocinis patvirtinimas ir žmogiška šiluma"],
+                    "consequences": "Elena laiko popierių su krizių linijos numeriu. Ji turi planą, seserį, telefono numerį ir prisiminimą apie pareigūną, kuris su ja elgėsi kaip su žmogumi. Sofia tyliai ištaria „ačiū“. Susitikimas baigiasi ryšiu, ne vykdymu.",
+                    "trainingFocus": "Ką resursų pateikimas po krizės praneša apie tai, kaip matote to asmens ateitį? Koks skirtumas tarp incidento išsprendimo ir apsauginio tinklo sukūrimo kitam?"
+                },
+                "partially_positive": {
+                    "choiceText": "Šypsokitės ir pasakykite: „Džiaugiuosi, kad pavyko susitvarkyti, Elena. Esate gerose rankose su Sofia. Saugokite save.“ Linktelėkite poniai Walsh ir ruoškitės išeiti.",
+                    "adequate": ["Šiltas ir žmogiškas uždarymas, palaikantis per visą susitikimą sukurtą ryšį", "Nuoširdus džiaugsmas dėl rezultato yra emociškai tinkamas", "Sofijos vaidmens pripažinimas sustiprina šeimos paramos sistemą"],
+                    "missed": ["Jokių tolesnių resursų nepateikta — Elenos krizė neprasidėjo šiandien ir nesibaigs šiandien", "O kas trečią nakties, kai Sofia miegos ir balsai sugrįš?", "Geras pareigūnas išsprendžia momentą — išskirtinis pareigūnas aprūpina žmogų kitam momentui", "Ponia Walsh gauna linktelėjimą, bet ne pripažinimą, kurio nusipelno jos valandų tylusis saugojimas"],
+                    "improvement": "Prieš išeidami, užrašykite krizių linijos numerį ir mobilios krizių komandos kontaktą. Tai užtrunka trisdešimt sekundžių ir gali išgelbėti gyvybę kito epizodo metu. Skirtumas tarp gero sprendimo ir puikaus yra tai, ar asmuo yra geriau aprūpintas po jūsų išvykimo."
+                },
+                "neutral": {
+                    "choiceText": "Pasakykite: „Nereikia atsiprašyti, Elena. Tik įsitikinkite, kad lankysitės pas savo gydytoją ir kitą kartą neišeikite iš ligoninės be tinkamo išrašymo. Tai sukelia daug nerimo visiems.“",
+                    "adequate": ["Nereikalingo atsiprašymo nepriėmimas yra tinkamas", "Apsilankymas pas gydytoją yra pagrįstas medicininis patarimas"],
+                    "missed": ["„Kitą kartą neišeikite iš ligoninės“ yra švelnus priekaištas žmogui, kuris išėjo todėl, kad buvo išsigandęs", "„Tai sukelia daug nerimo visiems“ uždeda kitų žmonių emocijų naštą ant krizę patiriančio asmens", "Uždarymas paverčiamas iš užjautingo sprendimo pamoka", "Jokių krizės resursų nepateikta būsimiems epizodams"],
+                    "improvement": "Paskutiniai susitikimo žodžiai formuoja liekamąjį emocinį prisiminimą. Užbaikite su orumu ir resursais, o ne patarimais apie tai, ką ji turėjo daryti kitaip. Ji žino, kad paliko ligoninę — jai nereikia, kad jūs sakytumėte to daugiau nedaryti.",
+                    "consequences": "Elena tyliai linkčioja, šiluma dingsta iš jos veido. Ji girdi: „Sukėlėte problemą, stenkitės to daugiau nedaryti.“ Paskutiniai žodžiai palieka kartėlį, nuspalvinantį viso susitikimo prisiminimą."
+                },
+                "negative": {
+                    "choiceText": "Pasakykite: „Gerai. Leiskite man gauti jūsų sesers kontaktinę informaciją ir gydytojo vardą mano ataskaitai. Taip pat turėsiu pažymėti ligoninės apyrankę ir tai, kad išėjote be išrašymo. Tai standartinė dokumentacija.“",
+                    "risks": ["Perėjimas prie duomenų rinkimo ir dokumentacijos baigiamaisiais momentais paverčia žmogišką susitikimą biurokratiniu", "„Standartinė dokumentacija“ apie jos išėjimą iš ligoninės verčia Eleną jaustis kaip bylos failas", "Gydytojo vardo ir ligoninės detalių prašymas iš naujo iškviečia instituciją, kurios ji bijo", "Paskutinis įspūdis yra pareigūnas, užrašantis faktus apie jos krizę — ne žmogus, kuris rūpinosi", "Dokumentacija gali vykti vėliau arba per Sofiją privačiai — jai nereikia vykti šiuo metu"],
+                    "consequences": "Elenos veidas sustingsta. Ji monotoniškai padiktuoja informaciją. Sofia žiūri nusivylusi. Ponia Walsh nueina. Sprendimo šiluma išgaruoja. Elena prisimins šią pabaigą, o ne gerumą, kuris ją popierė.",
+                    "betterApproach": "Dokumentacija yra būtina — bet laikas svarbus. Užbaikite žmogišką sąveiką su orumu ir resursais. Surinkite dokumentacijos detales iš Sofijos vėliau arba per tolesnį skambutį. Paskutinės šešiasdešimt sekundžių formuoja liekamąjį viso susitikimo prisiminimą."
+                }
+            },
+            "keyLearningPoints": ["Paskutiniai krizės susitikimo žodžiai formuoja liekamąjį emocinį visos sąveikos prisiminimą", "Raštiškai pateikti krizės resursai — 24 valandų linija, mobili krizių komanda — paverčia incidento sprendimą ilgalaikiu apsauginiu tinklu", "Asmens atsiprašymo performulavimas į drąsos pripažinimą yra galingas orumą atkuriantis aktas", "Dokumentacija turi savo vietą, bet užjautingo sprendimo pavertimas duomenų rinkimo pratybomis sunaikina pasitikėjimą, kurį kūrėte visą valandą"]
+        }
+    },
+
+    "scoringExplanation": {
+        "maxPossibleScore": 87,
+        "scoreBreakdown": {
+            "stage1_atvykimoVertinimas": "12 taškų (teigiamas), 5 (iš dalies teigiamas), 2 (neutralus), -8 (neigiamas)",
+            "stage2_pirmasKontaktas": "12 taškų (teigiamas), 5 (iš dalies teigiamas), 2 (neutralus), -8 (neigiamas)",
+            "stage3_informacijosRinkimas": "12 taškų (teigiamas), 5 (iš dalies teigiamas), 2 (neutralus), -8 (neigiamas)",
+            "stage4_rysioKurimas": "12 taškų (teigiamas), 5 (iš dalies teigiamas), 2 (neutralus), -10 (neigiamas)",
+            "stage5_atvykstaSesuo": "12 taškų (teigiamas), 5 (iš dalies teigiamas), 2 (neutralus), -10 (neigiamas)",
+            "stage6_sujungimasSuPagalba": "12 taškų (teigiamas), 5 (iš dalies teigiamas), 2 (neutralus), -8 (neigiamas)",
+            "stage7_uzdarymas": "15 taškų (teigiamas), 5 (iš dalies teigiamas), 2 (neutralus), -5 (neigiamas)"
+        },
+        "performanceThresholds": {
+            "perfect": "80-87 taškai — Pavyzdinis krizės intervencijos atsakas: aukso standarto CIT atsakas su stebėjimu, sutikimu grįstu bendravimu, meistrišku šeimos valdymu ir visapusišku resursų sujungimu",
+            "good": "50-79 taškai — Stiprus krizės atsakas: empatiškas ir profesionalus požiūris su kai kuriomis praleistomis galimybėmis pasirinkimų siūlyme, šeimos valdyme ar resursų teikime",
+            "average": "20-49 taškai — Pakankamas, bet nepilnas: situacija išspręsta be didelės eskalacijos, bet praleistos svarbios CIT galimybės — procedūra teikta pirmenybė prieš rūpestį svarbiuose momentuose",
+            "poor": "Žemiau 20 taškų — Reikia rimtos CIT peržiūros: požiūris rėmėsi kontrole, komandomis ar procedūriniu laikymusi, o ne ramiu, sutikimu grįstu bendravimu, kurį pabrėžia CIT mokymai"
+        }
+    },
+
+    "comprehensiveMetrics": {
+        "crisisRecognition": {
+            "description": "Situacijos identifikavimas kaip psichikos sveikatos krizės, reikalaujančios rūpesčiu grįsto atsako, o ne traktavimas kaip nusikalstamas ar įtartinas elgesys",
+            "indicators": {
+                "excellent": ["Ligoninės apyrankė identifikuota pradinio stebėjimo metu ir naudota susidūrimui performuoti", "Elenos lingavimas ir kalbėjimas su savimi atpažinti kaip kančios rodikliai, o ne medžiagų vartojimo ar pavojaus požymiai", "Dispečerinės formulavimas („elgiasi keistai, gal kažką vartoja“) perrašytas savarankišku vertinimu", "Pastiprinimas nekviečiamas negrėsmingai situacijai — vieno pareigūno CIT požiūris išlaikytas", "Vaistų šalutiniai poveikiai suprasti kaip Elenos elgesio priežastis, o ne nusikalstamas ketinimas"],
+                "poor": ["Pastiprinimas prašytas nepaisant grėsmės rodiklių nebuvimo — taktinis atsakas medicininei situacijai", "Elenos kalbėjimas su savimi traktuotas kaip medžiagų vartojimo ar pavojaus požymis, o ne kaip kančia", "Ligoninės apyrankė nepastebėta arba naudota tardymo būdu, o ne kaip kontekstas", "Dispečerinės formulavimas priimtas be savarankiško vertinimo", "Elena traktuota kaip įtartinas asmuo, o ne kaip asmuo medicininėje krizėje"]
+            }
+        },
+        "calmPresence": {
+            "description": "Atstumo, tono, kūno kalbos ir neskubaus tempo naudojimas pranešant apie saugumą, o ne autoritetą",
+            "indicators": {
+                "excellent": ["Palaikytas penkių metrų atstumas pradinio stebėjimo metu — neskubama įsitraukti", "Nusileista iki Elenos akių lygio pirmo kontakto metu, o ne stovėta virš jos", "Tylus balsas ir matomos rankos naudotos per visą susitikimą", "Elenai duotos ilgos pauzės atsakyti neužpildant tylos komandomis", "Sąveikos tempas atitiko Elenos emocinę būseną, o ne procedūrinį skubumą"],
+                "poor": ["Greitas priėjimas, sukėlęs Elenos kovos arba bėgimo reakciją", "Stovėjimas virš sėdinčio asmens per visą pokalbį — galios disbalansas palaikytas", "Tvirtas ar komandinis tonas naudotas su išsigandusiu žmogumi", "„Nusiraminkite“ naudota kaip direktyva — tyrimai rodo, kad tai eskaluoja, o ne deeskaluoja", "Įsitraukimo greitis diktuotas procedūrinio efektyvumo, o ne Elenos pasiruošimo"]
+            }
+        },
+        "consentAndChoice": {
+            "description": "Pasirinkimų siūlymas vietoj komandų, veiksnumo grąžinimas žmogui, jaučiančiam, kad prarado visą kontrolę",
+            "indicators": {
+                "excellent": ["Keli pasirinkimai pasiūlyti susisiekiant su Sofia — „galiu padėti arba galite tai padaryti pati“", "Trys konkretūs priežiūros variantai pateikti planavimo stadijoje su Elena renkantis", "Priimamasis atskirtas nuo stacionarios palatos jos konkrečiai baimei tiksliai adresuoti", "Elenos atsisakymas grįžti į ligoninę gerbiamas be prievartos", "Kiekvienas sprendimo taškas suformuluotas kaip Elenos pasirinkimas — „kas jums atrodo įveikiama?“"],
+                "poor": ["Sprendimai priimti už Eleną ir komunikuoti kaip planai — „organizuosiu transportavimą“", "Grįžimas į ligoninę pateiktas kaip vienintelė ar geriausia galimybė nepaisant Elenos nurodytos baimės", "Priežiūros planas nukreiptas per Sofiją, visiškai apeinant Eleną", "Aiškus Elenos atsisakymas perrašytas remiantis pareigūno medicininės rizikos vertinimu", "Komandos naudotos ten, kur pasirinkimai būtų pasiekę savanorišką bendradarbiavimą"]
+            }
+        },
+        "serviceConnection": {
+            "description": "Asmens sujungimas su tinkamais psichikos sveikatos resursais, o ne numatytasis vykdymas ar ligoninės transportavimas",
+            "indicators": {
+                "excellent": ["Rašytinis krizių linijos numeris ir mobilios krizių komandos kontaktas pateikti prieš išvykstant", "Pademonstruotas ne ligoninės alternatyvų žinojimas — mobili krizių komanda pasiūlyta kaip variantas", "Daktarė Reeves ir esama paramos sistema integruota į priežiūros planą", "Resursai nurodyti kaip 24 valandų ir mobilūs — adresuojant naktinių krizių realybę", "Elena išeina turėdama daugiau paramos galimybių nei turėjo prieš susitikimą"],
+                "poor": ["Jokių krizės resursų nepateikta — susitikimas išsprendė momentą, bet ne nuolatinį poreikį", "Numatytas ligoninės transportavimas netyrinėjant alternatyvų", "Mobili krizių komanda ir krizių linija nepaminėtos ir nepasiūlytos", "Elena išeina turėdama tuos pačius resursus, kuriuos turėjo anksčiau — tik Sofiją ir daktarę Reeves", "Susitikimas išsprendė incidentą, bet nesukūrė apsauginio tinklo kitam"]
+            }
+        },
+        "stigmaAvoidance": {
+            "description": "Asmens traktavimas kaip kenčiančio žmogaus, o ne kaip problemos, kurią reikia valdyti, vengiant kalbos ir veiksmų, kriminalizuojančių psichinę ligą",
+            "indicators": {
+                "excellent": ["Elenos pasitraukimas iš ligoninės performuotas iš gėdingo bėgimo į suprantamą reakciją", "Jos atsiprašymas performuotas — „tam reikia drąsos, ne atsiprašymo“", "Skundas neperduotas Elenai — jai nepasakyta, kad ji „verčia žmones jaustis nepatogiai“", "Medicininė informacija neaptarinėta viešai ir neišgaunama iš Sofijos Elenos akivaizdoje", "Elenos savimonė dėl vaistų pagalbos poreikio patvirtinta kaip stiprybė, o ne kaip sutikimas"],
+                "poor": ["Skundas perduotas tiesiogiai Elenai — „jūs verčiate klientus jaustis nepatogiai“", "Ligoninės apyrankė paminėta tardymo būdu prieš sukuriant ryšį", "Elenos medicininė situacija aptarta tarp pareigūno ir Sofijos, Elenai klausant kaip objektui", "Elenai pasakyta kitą kartą neišeiti iš ligoninės — priekaištas, pateiktas kaip patarimas", "Dokumentacija ir duomenų rinkimas teikti pirmenybę prieš žmogišką uždarymą baigiamuosiuose momentuose"]
+            }
+        }
+    },
+
+    "mistakePatterns": {
+        "tacticalOverreaction": {
+            "pattern": "Psichikos sveikatos krizės traktavimas kaip taktinė situacija, reikalaujanti pastiprinimo, perimetro kontrolės ar greitos intervencijos",
+            "examples": ["Pastiprinimo kvietimas per radiją, kai nėra grėsmės rodiklių — jokio ginklo, jokios agresijos, jokių grasinimų", "Greitas priėjimas prie Elenos „padėti, kol situacija nepasikeitė“ — sukeliant jos kovos arba bėgimo reakciją", "Tvirto tono ir komandų naudojimas kaip „jums reikia nusiraminti“ ar „ar galite atsistoti“", "Teritorijos apsaugojimas ir praeivių laikymas atokiau, tarsi valdytumėte pavojingą vietą"],
+            "impact": "Taktinis psichikos sveikatos krizės formulavimas praneša asmeniui ir visiems stebintiems, kad individas matomas kaip grėsmė. Papildomi ekipažai, greitas priėjimas ir perimetro kontrolė padidina baimę jau ir taip išsigandusiam žmogui. Atsakas sukuria krizę, kurią turėjo užkirsti kelią.",
+            "correction": "Stebėkite prieš veikdami. Vienas pareigūnas su CIT mokymu ir kantrybe yra tinkamas resursas negrėsmingam psichikos sveikatos iškvietimui. Taupykite taktinius atsakus situacijoms su tikrais grėsmės rodikliais. Trisdešimt sekundžių ramybės užkerta kelią trisdešimčiai minučių eskalacijos."
+        },
+        "prematureProblemSolving": {
+            "pattern": "Šokimas prie sprendimų, ligoninės kontakto ar priežiūros planų prieš asmeniui sukūrus pakankamai pasitikėjimo priimti pagalbą",
+            "examples": ["Pasiūlymas susisiekti su ligonine prieš Elenai pasiruošiant — „turėčiau jiems pranešti, kur esate“", "Ligoninės paminėjimas, kai Elena ką tik pradėjo atsiverti apie savo baimę", "Planų kūrimas per Sofiją, kol Elena sėdi pasyviai — „leiskite man kažkam paskambinti“", "Transportavimo į priimamąjį siūlymas prieš pateikiant alternatyvas ar klausiant, ko nori Elena"],
+            "impact": "Problemų sprendimas prieš sukuriant pasitikėjimą jaučiasi kaip kontrolė, o ne rūpestis. Kai siūlomas sprendimas apima instituciją, iš kurios asmuo pabėgo, per ankstyvus problemų sprendimai patvirtina jų didžiausią baimę. Elenos trapus atvirumas sugriūna kiekvieną kartą, kai ligoninė pristatoma prieš jai pasiruošiant.",
+            "correction": "Sekite asmens vedimą. Kai Elena mini Sofiją, padėkite jai susisiekti su Sofia. Kai Elena pripažįsta vaistų pagalbos poreikį, tada siūlykite priežiūros variantus. Pasitikėjimo kūrimas ir sprendimo radimas yra nuoseklūs, ne vienu metu. Asmuo jums pasakys, kada bus pasiruošęs — klausykite to."
+        },
+        "agencyBypass": {
+            "pattern": "Sprendimų priėmimas už krizę patiriantį asmenį, o ne pasirinkimų siūlymas, net su gerais ketinimais",
+            "examples": ["Priežiūros plano nukreipimas per Sofiją — „manau, paskambinti daktarei Reeves yra gera pradžia“ — kol Elena sėdi pasyviai", "Transportavimo į priimamąjį organizavimas be Elenos sutikimo — „manau, saugiausia būtų man organizuoti transportavimą“", "Telefono skambučio Sofiai perėmimas, o ne pasirinkimo, kaip pasiekti seserį, siūlymas Elenai", "Visiškas pasitraukimas ir Elenos bei Sofijos palikimas dalykams išsiaiškinti be informuotų variantų"],
+            "impact": "Elenos krizė prasidėjo kontrolės praradimu — baisingos haliucinacijos, nepažįstama slaugytoja, ligoninė, iš kurios negalėjo išeiti. Kiekvienas momentas, kai kas nors kitas priima sprendimus už ją, pakartoja dinamiką, sukėlusią jos pabėgimą. Net geranoriški kitų primesti planai sukelia sutikimą, o ne įgalinimą.",
+            "correction": "Siūlykite struktūruotus pasirinkimus ir leiskite asmeniui rinktis. „Ar norėtumėte jai paskambinti pati, ar norite, kad padėčiau?“ „Štai trys variantai — kas jums atrodo įveikiama?“ Pasirinkimo procesas pats savaime yra terapeutinis žmogui, praradusiam visą kontrolės jausmą."
+        },
+        "familyMismanagement": {
+            "pattern": "Panikuojančio šeimos nario nestabilizavimas prieš leidžiant kontaktą su krizę patiriančiu asmeniu",
+            "examples": ["Tiesioginė Sofijos kvietimas prie Elenos, nesuvaldžius Sofijos panikos — vedantis prie emocinio užtvindymo", "Visiškas Sofijos blokavimas nuo Elenos pasiekimo, kai nėra saugumo priežasties", "Sofijos naudojimas kaip medicininio informacijos šaltinio Elenos akivaizdoje — „kokius vaistus ji vartoja?“", "Sofijos liepimas „nusiraminti“ ir iš karto medicininių detalių išgavimas"],
+            "impact": "Panikuojantis šeimos narys, ieškojęs valandų valandas, neša didžiulę emocinę energiją. Nesuvaldyta, ta energija užtvindo krizę patiriantį asmenį: Sofijos kūkčiojimas ir griebimas panaikina ramybę, sukurtą per kruopštų deeskalavimą. Visiškai užblokuotas, susitikimo atsisakymas yra patiriamas kaip žiaurumas visų dalyvių.",
+            "correction": "Stabilizuokite šeimos narį trumpa praktine užduotimi — „saugiai pastatykite automobilį, tada prisijunkite prie mūsų.“ Šis dešimties sekundžių perėjimas paverčia paniką funkciniu buvimu. Tada palengvinkite susitikimą. Aptarkite medicinines detales privačiai su šeimos nariu, ne krizę patiriančio asmens akivaizdoje."
+        },
+        "closureFailure": {
+            "pattern": "Susitikimo užbaigimas nepateikiant resursų arba užbaigimas priekaištais ar dokumentacija, ardančia per visą sąveiką sukurtą pasitikėjimą",
+            "examples": ["Išvykimas nepateikus krizių linijos numerio ar mobilios krizių komandos kontakto", "Elenai pasakymas kitą kartą neišeiti iš ligoninės — uždarymo pavertimas pamoka", "Perėjimas prie dokumentacijos ir duomenų rinkimo baigiamuosiuose momentuose — „man reikia gydytojo vardo mano ataskaitai“", "Pasakymas „tai sukelia daug nerimo visiems“ — kitų žmonių emocijų naštos uždėjimas ant Elenos"],
+            "impact": "Paskutinės šešiasdešimt susitikimo sekundžių formuoja liekamąjį emocinį visos sąveikos prisiminimą. Šiltas trisdešimties minučių pokalbis, po kurio seka priekaištas ar biurokratinis duomenų rinkimas, yra prisimenamas kaip priekaištas. Elenos prisiminimas apie šį susitikimą — kuris nulems, ar ji kada nors vėl pasitikės policija — yra nulemtas to, kaip jis baigiasi, o ne to, kaip prasideda.",
+            "correction": "Užbaikite su orumu ir resursais. Performuokite atsiprašymus į drąsos pripažinimą. Pateikite rašytinius krizių kontaktus. Pripažinkite pašalinių stebėtojų indėlius. Taupykite dokumentaciją žmogiškos sąveikos užbaigimui. Paskutiniai žodžiai svarbu labiausiai."
+        }
+    },
+
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Pavyzdinis krizės intervencijos atsakas nuo pirmo stebėjimo iki galutinio resursų perdavimo. Jūs pademonstavote pilną CIT įgūdžių rinkinį: kantrų stebėjimą, atskleidusį ligoninės apyrankę prieš ištariant žodį, akių lygio pozicionavimą ir tiesioginį Elenos nurodytų baimių pripažinimą, meistrišką konkuruojančių suinteresuotų šalių perspektyvų valdymą, pasirinkimu grįstą bendravimą, atkurusį Elenos veiksnumą kiekviename sprendimo taške, ramų Sofijos stabilizavimą prieš šeimos susitikimą ir visapusišką resursų teikimą, aprūpinusį Eleną kitai krizei, o ne tik šiai. Kiekvienas žmogus toje gatvėje — Elena, Sofia, ponia Walsh, David ir kiekvienas praeivis — matė pareigūną, kuris su psichikos sveikatos krizę patiriančiu žmogumi elgėsi kaip su žmogiška būtybe, nusipelniusia orumo ir pasirinkimo.",
+            "mostlyPositive": "Stiprus krizės intervencijos atsakas su nuoširdžia empatija ir CIT mokymams atitinkančiais instinktais. Jūs sukūrėte prasmingą ryšį su Elena ir dirbote link savanoriško sprendimo, gerbiančio jos autonomiją. Kai kurie momentai galėjo būti stipresni — galbūt daugiau struktūruotų pasirinkimų siūlyme, Sofijos emocinės būsenos valdyme prieš susitikimą, pilnesniam ponios Walsh kaip informacijos šaltinio panaudojime ar raštiškai pateikiant krizės resursus prieš išvykstant. Jūsų bendras požiūris traktavo Eleną kaip kenčiantį žmogų, o ne kaip problemą, kurią reikia išspręsti — tai yra efektyvaus krizės atsako pagrindas.",
+            "mixed": "Jūs parodėte kompetenciją kai kuriose šios psichikos sveikatos krizės srityse, bet susidūrėte su visu sutikimu grįsto bendravimo sudėtingumu. Buvo tikro ryšio su Elena momentų šalia momentų, kai procedūra, skubumas ar problemų sprendimo instinktai perrašė kantrybę, kurios reikalauja CIT mokymai. Peržiūrėkite konkrečius etapus, kai pasirinkimai pereina nuo rūpesčio prie kontrolės, ir pagalvokite, kaip pasirinkimų siūlymas, o ne sprendimų priėmimas už Eleną, galėjo pakeisti tuos rezultatus. Įgūdžiai yra — nuoseklumui reikia tobulėti.",
+            "mostlyNegative": "Šis scenarijus atskleidė reikšmingus atotrūkius tarp standartinių policijos instinktų ir rūpesčiu grįsto požiūrio, kurio reikalauja psichikos sveikatos krizės iškvietimai. Nors kai kurie momentai parodė Elenos pažeidžiamumo suvokimą, dauguma pasirinkimų linko prie taktinio atsako, komandiniu bendravimu, per ankstyvų problemų sprendimu ar procedūrinėmis prioritetais, eskalavusiais, o ne deeskalavusiais jos kančią. Elenai reikėjo pareigūno, kuris kuria saugumą per ramų buvimą, patvirtina jos konkrečias baimes ir siūlo pasirinkimus — ne tokio, kuris traktuoja jos krizę kaip situaciją, kurią reikia valdyti. Peržiūrėkite CIT pagrindus: priėjimo atstumą, toną, pasirinkimų siūlymą, nurodytų baimių gerbimą ir esminį skirtumą tarp pagalbos ir kontrolės.",
+            "allNegative": "Jūsų požiūris į Elenos psichikos sveikatos krizę rėmėsi kontrole, komandomis, taktiniu formulavimu ir procedūriniu laikymusi — priešingybė tam, ko moko CIT mokymai. Moteris ūmioje kančioje, bijanti ligoninės, maldaujanti negrąžinti, buvo sutikta pastiprinimo kvietimais, reikalavimais nusiraminti, ligoninės transportavimo planais ir dokumentacijos prašymais. Kiekvienas pasirinkimas eskalavo jos baimę, o ne kūrė pasitikėjimą, kurio jai reikėjo savanoriškai priimti pagalbą. Tyrimai aiškūs: psichikos sveikatos krizę patiriantys žmonės yra nepalyginamai labiau linkę tapti aukomis nei vykdytojais, ir sutikimu grįstas bendravimas duoda geresnius rezultatus nei prievarta beveik visose neatidėliotinose situacijose. Tam reikia fundamentalios perorientacijos nuo teisėsaugos mąstysenos prie rūpesčiu grįsto požiūrio."
+        }
+    },
+
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Aš neatėjau jūsų niekur išvežti. Niekas jūsų nepalies ir nevers eiti ten, kur nenorite.",
+            "Vaistų pakeitimas, sukeliantis balsus, skamba tikrai baisiai — galiu suprasti, kodėl pajutote, kad turite išeiti.",
+            "Galiu padėti, jei norite, arba galite tai padaryti pati — kaip jums atrodo geriau.",
+            "Suprantu, kad tai veikia jūsų verslą, ir vertinu, kad paskambinote — aš tuo užsiimsiu. Ar galite man duoti kelias minutes?",
+            "Ačiū, kad ją saugojote. Tai tikrai vertinga.",
+            "Elena nėra suimta. Niekas nėra suimamas. Mes su ja kalbamės, ir jai sekasi tikrai gerai.",
+            "Štai keletas variantų, ir jūs renkitės.",
+            "Elena, jums nereikia atsiprašyti. Jūs susidūrėte su kažkuo baisiu ir atsidūrėte saugioje vietoje ir paprašėte pagalbos — tam reikia drąsos, ne atsiprašymo."
+        ],
+        "poorPhrases": [
+            "Ponia, jums reikia nusiraminti. Aš esu pareigūnas [vardas] ir esu čia, nes buvo gautas skundas.",
+            "Ar galite atsistoti, kad galėtume pasikalbėti? Kokia situacija su ligoninės apyranke?",
+            "Elena, vaistinės darbuotojas sako, kad jūs čia nuo pat ryto ir verčiate klientus jaustis nepatogiai.",
+            "Dėl jūsų saugumo manau, kad geriausia būtų jus grąžinti, kad gydytojai galėtų išspręsti vaistų problemą. Galiu jus ten nuvežti.",
+            "Ponia, jums reikia sustoti. Tai aktyvi situacija, ir man reikia, kad palauktumėte, kol baigsiu vertinimą.",
+            "Manau, kad saugiausia būtų man organizuoti transportavimą į priimamąjį, kad medikai galėtų jus įvertinti.",
+            "Tik įsitikinkite, kad lankysitės pas savo gydytoją ir kitą kartą neišeikite iš ligoninės be tinkamo išrašymo. Tai sukelia daug nerimo visiems.",
+            "Leiskite man gauti jūsų sesers kontaktinę informaciją ir gydytojo vardą mano ataskaitai. Taip pat turėsiu pažymėti ligoninės apyrankę ir tai, kad išėjote be išrašymo."
+        ],
+        "analysisCriteria": {
+            "fearAcknowledgment": "Ar frazė tiesiogiai adresavo Elenos nurodytą baimę būti grąžintai į ligoninę, ar ją ignoravo arba sustiprino?",
+            "agencyRestoration": "Ar frazė pasiūlė Elenai pasirinkimą, ar priėmė sprendimą už ją — net su gerais ketinimais?",
+            "stigmaLanguage": "Ar frazė traktavo Eleną kaip kenčiantį žmogų, ar kaip problemą, kurią reikia valdyti, bylą, kurią reikia dokumentuoti, ar skundą, kurį reikia išspręsti?",
+            "emotionalCalibration": "Ar frazė atitiko Elenos emocinę būseną — tylų toną baimei, konkretumą sumaiščiai — ar uždėjo procedūrinį registrą žmogiškam momentui?",
+            "trustTrajectory": "Ar frazė rėmėsi ankstesniuose etapuose sukurtu pasitikėjimu, ar pristatė informaciją, reikalavimus ar institucines nuorodas, sugriuvusias trapią pažangą?",
+            "familySensitivity": "Kai Sofia buvo šalia, ar frazė palaikė Eleną savo priežiūros centre, ar traktavo Sofiją kaip patikimesnę pasakotoją ir sprendimų priėmėją?"
+        }
+    },
+
+    "scenarioSpecificLessons": {
+        "1": "Psichikos sveikatos krizę patiriantys žmonės yra nepalyginamai labiau linkę tapti aukomis nei vykdytojais. Dispečerinės formulavimas — „elgiasi keistai, gal kažką vartoja“ — gali sukurti įtarumo mąstyseną, neturinčią pagrindo tikroje vietoje. Jūsų trisdešimties sekundžių stebėjimas yra priešnuodis formulavimo šališkumui.",
+        "2": "Pirmosios šešiasdešimt sekundžių nustato psichikos sveikatos krizės iškvietimo trajektoriją. Atstumas, tonas, tempas ir kūno kalba praneša apie saugumą arba grėsmę prieš ištariant žodį. Nusileidimas iki akių lygio, rankų parodymas ir tylus kalbėjimas nėra neprivalomi mandagumai — jie yra intervencija.",
+        "3": "Tiesioginis kreipimasis į asmens nurodytą baimę yra galingesnis nei bet koks bendro pobūdžio nuraminimas. Elena pasakė, kad bijo būti grąžinta į ligoninę. Pasakymas „aš neatėjau jūsų niekur vežti“ taikosi į tą konkretų siaubą. Pasakymas „viskas bus gerai“ to nedaro.",
+        "4": "Pasirinkimų siūlymas vietoj komandų grąžina veiksnumą žmogui, jaučiančiam, kad prarado visą kontrolę. Vaistų pakeitimas, sukeliantis baisias haliucinacijas, ligoninė, kurioje sprendimai priimami už jus, slaugytoja, kurios nepažįstate, įeinanti į jūsų kambarį antrą nakties — visa Elenos krizė yra apie kontrolės praradimą. Kiekvienas jūsų siūlomas pasirinkimas pradeda ją atkurti.",
+        "5": "Krizėje atvykstantiems šeimos nariams reikia jų pačios deeskalacijos. Sofia valandų valandas vairavo, verkė, buvo išsigandusi. Jos panika yra tikra — bet jei ji pasiekia Eleną prieš jai stabilizuojantis, emocinis susidūrimas panaikina ramybę, kurią jūs kūrėte trisdešimt minučių. Maža užduotis kaip automobilio pastatymas paverčia paniką funkciniu buvimu.",
+        "6": "Asmens sujungimas su savanoriškomis paslaugomis duoda geresnius ilgalaikius rezultatus nei priverstinis transportavimas beveik visose neatidėliotinose situacijose. Elena grįžo į ligoninę savanoriškai su Sofia, pasirinkusi savo priežiūros planą. Jei ji būtų buvusi transportuota priverstimai, jos nepasitikėjimas policija, ligoninėmis ir psichikos sveikatos sistema būtų pagilėjęs — galbūt visam laikui.",
+        "7": "Tai, kaip policija tvarko psichikos sveikatos iškvietimus, formuoja bendruomenės pasitikėjimą tiek teisėsauga, tiek psichikos sveikatos sistema metų metus. Ponia Walsh, David, Sofia, kiekvienas praeivis ir kiekvienas žmogus, kuriam jie papasakos apie šį susitikimą, formuos savo lūkesčius apie tai, kas atsitinka, kai policija reaguoja į krizę patiriantį asmenį. Vienas gerai suvaldytas iškvietimas sklinda tolyn.",
+        "8": "Psichikos sveikatos krizės atsako tikslas nėra išspręsti krizę — tai sukurti pakankamai saugumo ir pasitikėjimo, kad asmuo galėtų pradėti ją spręsti pats. Elenos vaistų problema, jos psichiatrinė priežiūra, jos santykis su ligonine — nė vienas iš jų nėra jūsų taisyti. Jūsų vaidmuo — pastatyti tiltą tarp jos baimės ir jos noro priimti pagalbą."
+    },
+
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Pažangus CIT instruktoriaus sertifikavimas — kitų pareigūnų mokymas sutikimu grįstame krizės bendravime", "Šeimos krizės dinamika — atvykstančių šeimos narių valdymas psichikos sveikatos iškvietimų metu", "Bendruomenės psichikos sveikatos resursų žemėlapis — partnerysčių kūrimas su mobiliomis krizių komandomis, krizių linijomis ir savitarpio pagalbos tarnybomis"],
+            "good": ["Išplėstinė CIT scenarijų praktika — nuoseklumo kūrimas pasirinkimų siūlyme ir veiksnumo atkūrime visuose krizės susidūrimo etapuose", "Krizės resursų žinojimas — vietinės mobilios krizių komandos, 24 valandų krizių linijos ir ne ligoninės alternatyvos", "Šeimos deeskalacijos technikostų — panikuojančių artimųjų stabilizavimas prieš jiems sąveikaujant su krizę patiriančiu asmeniu"],
+            "average": ["Pagrindiniai CIT principai — stebėjimas prieš įsitraukimą, priėjimo atstumas, tono kalibravimas ir sutikimu grįstas bendravimas", "Aktyvus klausymasis krizėje — skirtumas tarp bendro pobūdžio nuraminimo ir konkrečių baimių pripažinimo", "Struktūruotų pasirinkimų siūlymas — variantų pateikimas vietoj rekomendacijų veiksnumui atkurti ūmioje krizėje"],
+            "poor": ["Privalomas CIT persertifikavimas su akcentu rūpesčiu grįstam, o ne kontrole grįstam požiūriui psichikos sveikatos iškvietimams", "Psichikos sveikatos krizės atpažinimas — medicininių krizių atskyrimas nuo nusikalstamo elgesio naudojant stebimus rodiklius", "Sutikimas ir autonomija krizės intervencijoje — kada priverstinis veiksmas yra pateisinamas ir kada ne", "Deeskalacijos pagrindai — priėjimo atstumas, kūno kalba, tonas ir dokumentuotas „nusiraminkite“ kaip krizės intervencijos technikos nesėkmė"]
+        }
+    },
+
+    "finalReportStructure": {
+        "sections": [
+            {
+                "title": "Bendras veiklos apibendrinimas",
+                "content": ["Bendras balas ir veiklos lygis", "Pagrindiniai krizės intervencijos požiūrio stiprieji pusės", "Svarbūs CIT įgūdžių taikymo trūkumai", "Bendra trajektorija: ar pasitikėjimas augo, ar nyko per septynis etapus?"]
+            },
+            {
+                "title": "Etapų krizės intervencijos analizė",
+                "content": ["Kiekviename etape padarytas pasirinkimas ir jo tiesioginis poveikis Elenai", "Pasitikėjimo trajektorija — kaip kiekvienas pasirinkimas rėmė ar pakenkė ankstesnei pažangai", "Alternatyvūs požiūriai ir jų tikėtinos pasekmės", "Pagrindiniai mokymosi taškai, specifiniai kiekvienam krizės susidūrimo etapui"]
+            },
+            {
+                "title": "Krizės atpažinimas ir vietos vertinimas",
+                "content": ["Ar ligoninės apyrankė buvo identifikuota ir naudota susidūrimui performuoti?", "Ar dispečerinės formulavimas buvo perrašytas savarankišku stebėjimu?", "Ar vieta vertinta kaip psichikos sveikatos krizė, ar traktuota kaip įtartino asmens iškvietimas?", "Ar grėsmės rodikliai buvo tiksliai įvertinti — ar negrėsmingas asmuo buvo traktuotas taktiškai?"]
+            },
+            {
+                "title": "Sutikimo, pasirinkimo ir veiksnumo vertinimas",
+                "content": ["Kiek sprendimo taškų pasiūlė Elenai tikrą pasirinkimą, o ne priėmė sprendimus už ją?", "Ar priežiūros planas buvo Elenos planas, ar pareigūno planas?", "Ar buvo tyrinėjamos ir pateiktos alternatyvos ligoninės transportavimui?", "Ar Elena išėjo jausdamasi įgalinta dalyvauti savo priežiūroje, ar pasyvi ir valdoma?"]
+            },
+            {
+                "title": "Suinteresuotų šalių valdymo vertinimas",
+                "content": ["David verslo rūpestis — pripažintas ir suvaldytas, ar teiktas pirmenybė, ar atmestas?", "Ponios Walsh stebėjimai — panaudoti kaip žvalgyba, ar ignoruoti?", "Sofijos atvykimas — stabilizuotas prieš kontaktą su Elena, ar leista iš naujo eskaluoti?", "Elena — palaikyta savo priežiūros centre per visą laiką, ar aptarinėta kaip objektas?"]
+            },
+            {
+                "title": "Komunikacijos ir dialogo efektyvumas",
+                "content": ["Efektyviausios frazės, naudotos susitikimo metu", "Frazės, eskalavusios ar pakenkusios pasitikėjimui", "Baimės pripažinimas — ar Elenos nurodyta baimė ligoninės buvo tiesiogiai adresuota?", "Baigiamojo teiginio poveikis — ar paskutiniai žodžiai atkūrė orumą, ar paliko kartėlį?"]
+            },
+            {
+                "title": "Resursų sujungimas ir tolesnė veikla",
+                "content": ["Ar krizių linijos ir mobilios krizių komandos kontaktai buvo pateikti?", "Ar pademonstruotas ne ligoninės alternatyvų žinojimas?", "Ar Elena išėjo turėdama daugiau paramos galimybių nei turėjo prieš susitikimą?", "Ar apsauginis tinklas sukurtas kitai krizei, o ne tik šiai?"]
+            },
+            {
+                "title": "Profesinis tobulėjimas ir pritaikymas realiame pasaulyje",
+                "content": ["Skubūs CIT įgūdžių tobulėjimo prioritetai remiantis šia veikla", "Kaip šis susitikimas verčiasi į tikrus psichikos sveikatos krizės iškvietimus", "Ilgalaikis bendruomenės pasitikėjimo poveikis, priklausantis nuo to, kaip policija tvarko psichikos sveikatos situacijas", "Rekomenduojami mokymo kursai ir resursai tolesniam augimui"]
+            }
+        ]
+    }
+}

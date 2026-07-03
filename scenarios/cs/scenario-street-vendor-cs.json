@@ -1,0 +1,414 @@
+{
+    "id": "street-vendor",
+    "title": "Pouliční prodejce — komunita v křížovém ohni",
+    "description": "Pokročilý scénář s neautorizovaným pouličním prodejcem jídla před obchodem, frustrovaným majitelem obchodu, který zavolal policii, podporujícími kolemjdoucími a natáčejícím davem. Strážník musí vyvážit povinnosti vymáhání práva, procesní spravedlnost, ekonomickou tíseň, vztahy s komunitou a dynamiku davu — to vše pod okem kamery.",
+    "icon": "🍜",
+    "instructor": {
+        "name": "Seržant Davis",
+        "avatar": "👮‍♂️",
+        "introduction": "Vymáhání práva u pouličních prodejců je jedna z nejpodceňovanějších výzev v policejní práci. Stojí na křižovatce zákona, ekonomiky, komunity a kultury — a téměř vždy se to natáčí. Prodejce málokdy je zločinec; obvykle je to někdo, kdo se snaží přežít. Stěžovatel má často legitimní obavy. A dav má silné názory na obě strany. Výzkum ukazuje, že agresivní vymáhání méně závažných přestupků narušuje legitimitu policie víc než téměř cokoli jiného. Ale ignorování oprávněných stížností ji rovněž podkopává. Vaším úkolem je najít cestu, která ctí zákon, respektuje důstojnost všech a posiluje — místo poškozuje — důvěru komunity ve vás. Jak to uděláte, záleží víc než co uděláte."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-street-vendor-complete"],
+    "perfectBadge": "perfect-scenario-street-vendor",
+    "finalMessage": {
+        "revelation": "Paní Tran prodává phở a bánh mì ze svého vozíku tři roky a vybudovala si věrnou klientelu v okolí. Je jí 62 let, je vietnamská imigrantka a vychovává dvě vnoučata po smrti dcery. O povolení k prodeji požádala před osmi měsíci, ale je na čekací listině — město má limit na povolení a čeká přes 400 lidí. Stížnost pana Harrise byla oprávněná — vozík částečně blokoval jeho vchod a přicházel o zákazníky. Později ale sousedovi přiznal, že mu bylo líto, že volal policii, když viděl, jak je paní Tran vystrašená. Po vaší intervenci paní Tran přesunula vozík na blízké místo, které neblokovalo žádný obchod. Místní komunitní organizace ji spojila s právníkem, aby urychlil její žádost o povolení. Pan Harris od ní začal v pátek kupovat oběd. Mladík, který setkání natočil, zveřejnil video s popiskem: ‚Tak by měla vypadat policejní práce.'",
+        "keyLessons": [
+            "Jak vymáháte, záleží víc než co vymáháte — výzkum procesní spravedlnosti ukazuje, že lidé přijmou i negativní výsledek, když se s nimi jedná důstojně",
+            "Vymáhání u pouličních prodejců nepoměrně dopadá na imigranty a nízkopříjmové komunity — povědomí o tomto kontextu formuje vhodnou reakci",
+            "Kolemjdoucí jsou součástí dynamiky, ne překážkou — jejich zapojení snižuje riziko eskalace",
+            "Edukace před vymáháním je doporučená osvědčená praxe u situací s prodejci",
+            "Kreativní řešení, která berou v úvahu legitimní zájmy všech stran, přinášejí trvanlivější výsledky než vymáhání s nulovým součtem",
+            "Být natáčen je příležitost ukázat profesionalitu, ne hrozba, kterou je třeba zvládnout",
+            "Diskreční pravomoc strážníka u méně závažného vymáhání je obrovská — jak ji použijete, určuje důvěru komunity na roky"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Místo činu",
+            "sceneUpdate": {
+                "emoji": "🍜",
+                "title": "Pěší zóna — sobotní dopoledne",
+                "desc": "Pozdní dopoledne na rušné obchodní ulici. Přijíždíte po výzvě od majitele obchodu kvůli ‚nelegálnímu prodejci blokujícímu jeho podnikání.' Vidíte malý potravinový vozík na širokém chodníku u řady obchodů. Starší žena obsluhuje dva zákazníky. Muž v zástěře stojí u vchodu do obchodu se zkříženýma rukama a sleduje vás. Několik lidí jí z papírových misek na nedaleké lavičce."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Jednotka vyjíždí ke stížnosti, Javorová 12. Majitel obchodu hlásí prodejce jídla bez povolení přímo před vchodem do jeho prodejny, blokuje přístup zákazníkům. Stěžovatel je pan Harris, majitel papírnictví. Prodejce tam zřejmě je od časného rána."
+                }
+            ],
+            "prompt": "Jste na místě. Jak začnete posuzovat situaci?",
+            "options": [
+                {
+                    "text": "Rázným krokem zamíříte přímo k vozíku, protlačíte se kolem zákazníků na lavičce a ještě než se rozhlédnete po okolí nebo kohokoli oslovíte, zastavíte se u pultu a požádáte prodejkyni o předložení povolení k prodeji. Stížnost je konkrétně na prodejce bez povolení, takže právní základ má přednost — vše ostatní se odvíjí od toho, jestli má platné dokumenty, nebo ne.",
+                    "feedback": "Proč: Přistoupit k prodejci jako první s okamžitou kontrolou dokumentů — bez pochopení celé situace — působí jako zastavení a výslech. Nevyhodnotili jste skutečné zablokování, nemluvili se stěžovatelem ani neodhadli atmosféru. Kolemjdoucím to signalizuje, že jste už rozhodli, kdo za to může. | DŮSLEDKY: Paní Tran vidí strážníka jít přímo k ní a žádat dokumenty. Strach zaplaví její tvář. Zákazníci ustoupí. Interakce začíná podezřením, ne komunikací. | Reflexe: Co to signalizuje, když první věc, kterou uděláte, je požadovat dokumenty od člověka, na kterého bylo podáno oznámení?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Zamíříte rovnou k panu Harrisovi u vchodu do obchodu, protože on podal stížnost. Profesionálně mu kývnete, vytáhnete zápisník a postavíte se tak, že zády částečně směřujete k vozíku. Vyslechnete celou jeho verzi — jak dlouho situace trvá, co přesně je blokováno, jestli už podobný problém řešil dřív — a teprve pak se rozhodnete, jak přistoupit k prodejci.",
+                    "feedback": "Proč: Přistoupit ke stěžovateli jako prvnímu je rozumné, protože výzvu inicioval. Prodejce a kolemjdoucí ale sledují, jak mluvíte s naštvaným mužem, který na ni ukazuje. Než k ní přijdete, je už defenzivní a vystrašená. Optika podkopává vaši neutralitu. | DŮSLEDKY: Máte dobrý kontext od pana Harrise, ale paní Tran vás sledovala, jak přikyvujete muži, který ji chce odstranit. Dynamika moci je všem viditelná. | Reflexe: Když kolemjdoucí vidí, s kým mluvíte jako prvním, jak to formuje jejich vnímání vaší spravedlnosti?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Zastavíte se v prostoru mezi vozíkem a vchodem do obchodu, zvednete ruku v klidném gestu ‚moment' a oslovíte obě strany najednou. Vyrovnaným hlasem řeknete: ‚Dobré dopoledne — jsem tady, protože se objevila obava ohledně umístění vozíku. Rád bych si vyslechl vás oba současně, abychom to mohli vyřešit transparentně, přímo tady na místě.'",
+                    "feedback": "Proč: Záměr je spravedlivý a transparentní. Postavit ale frustrovaného majitele obchodu tváří v tvář prodejci, na kterého podal oznámení, vytvoří okamžitou konfrontaci. Neznáte emoční teplotu, jazykové bariéry ani dynamiku moci. | DŮSLEDKY: Pan Harris okamžitě začne ukazovat na vozík a zvedat hlas. Paní Tran couvá. Vytvořili jste konfrontaci dřív, než jste získali informace. Kolemjdoucí začínají bedlivě sledovat. | Reflexe: Kdy je svolání obou stran produktivní a kdy to vytvoří konfrontaci?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Chvíli si v klidu, nespěšným krokem projdete celé místo — projdete kolem vozíku, všimnete si jeho polohy vůči vchodu do obchodu a šířce zbývajícího chodníku, krátce přátelsky navážete oční kontakt s prodejkyní i majitelem obchodu, aniž byste se zatím u kohokoli zastavovali. Získáte jasnou prostorovou představu o skutečném rozsahu blokování, než se rozhodnete, s kým promluvit jako prvním.",
+                    "feedback": "Proč: Obchůzka vám dá objektivní informace: Blokuje vozík opravdu vchod? Kolik místa na chodníku je? Přátelský oční kontakt s oběma stranami signalizuje neutralitu. Máte čas si všimnout detailů: věk prodejce, jazykové náznaky, nálada davu. | DŮSLEDKY: Obě strany vidí strážníka klidně posuzovat situaci. Kolemjdoucí vidí profesionalitu. Zjistíte, že vozík částečně — ale ne úplně — blokuje jednu stranu vchodu. Je místo na průchod, ale je to těsné. | Reflexe: Jak šedesát vteřin pozorování změní kvalitu každého rozhovoru, který následuje?",
+                    "type": "positive",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Stěžovatel",
+            "sceneUpdate": {
+                "emoji": "😤",
+                "title": "Stížnost pana Harrise",
+                "desc": "Přistupujete k panu Harrisovi. Je mu kolem padesáti, má zástěru, je viditelně podrážděný. Jeho papírnictví má skromný vchod a potravinový vozík stojí asi dva metry od jeho dveří — dost blízko na zúžení pěší cesty, ale ne úplné zablokování."
+            },
+            "npcDialogue": [
+                {
+                    "character": "shopowner",
+                    "text": "Konečně! Volal jsem před hodinou. Podívejte se na to — staví se přímo před můj obchod každý víkend. Ten zápach odhání zákazníky, lidé rozlévají jídlo u mého vchodu a já sotva dostanu zásilky dovnitř. Nemá povolení — ověřil jsem to. Já platím nájem, platím daně, dodržuju pravidla. Ona si prostě přijde a dělá, co chce. Chci ji pryč. Dnes."
+                }
+            ],
+            "prompt": "Pan Harris má legitimní obavy, ale žádá okamžité odstranění. Jak reagujete?",
+            "options": [
+                {
+                    "text": "Přikývnete a necháte ho domluvit, než odpovíte klidným, vyrovnaným tónem: ‚Slyším vaši frustraci, pane Harrisi, a vidím, že vozík je blízko vašeho vchodu. Měl jste pravdu, že jste zavolal — důkladně se tím budu zabývat. Řekněte mi: blokoval vozík někdy fyzicky zákazníkům vstup, nebo jde spíš o blízkost a zápach z vaření? A zkusil jste s ní o tom někdy promluvit přímo?'",
+                    "feedback": "Proč: Uznává jeho frustraci a právo si stěžovat. Konkrétní otázky oddělují různé typy újmy: fyzické zablokování (vymahatelné) versus blízkost a zápach (méně jasné). Zeptat se, jestli s ní mluvil, odhaluje dynamiku vztahu a to, jestli bylo eskalováno předčasně. | DŮSLEDKY: Pan Harris přizná, že zákazníci dovnitř mohou, ale ‚o to nejde.' S ní nemluvil — ‚to je vaše práce.' Teď chápete, že stížnost má legitimní i nadsazené složky, bez pokusu o přímé řešení. | Reflexe: Proč pochopení konkrétní povahy stížnosti mění rozsah vhodných reakcí?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Souhlasně přikývnete a s porozuměním v hlase řeknete: ‚Chápu vás úplně, pane Harrisi — vidím, že se s tím potýkáte už delší dobu a že to dopadá na vaše podnikání. Pokud nemá platné povolení, je v porušení předpisů a já se o to postarám. Dovolte mi, ať s ní teď promluvím a zjistím, jak je to s tou licencí. Dejte mi pár minut.'",
+                    "feedback": "Proč: Uznání stížnosti je dobré, ale slíbit vymáhání dřív, než ověříte fakta, vás zavazuje k výsledku. Nevíte nic o její situaci, co předpis vyžaduje ani jestli existují polehčující okolnosti. | DŮSLEDKY: Pan Harris je spokojený — prozatím. Ale dostal jste se do úzkých. Když později rozhodnete, že varování nebo přemístění je vhodnější, bude mít pocit, že jste porušil slib. | Reflexe: Jaké je riziko závazku k vymáhání dříve, než máte všechna fakta?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Zvednete ruku v uklidňujícím gestu a s věcným tónem řeknete: ‚Vidím, že je to frustrující, pane Harrisi, a vážím si vaší trpělivosti — vím, že čekáte už nějakou dobu. Půjdu rovnou promluvit s prodejkyní u vozíku a celou záležitost co nejdřív vyřešíme. Hned jak budu vědět, na čem jsme, vrátím se a dám vám vědět.'",
+                    "feedback": "Proč: Ukazuje ochotu reagovat, ale ‚rychle vyřešíme' naznačuje rychlé, rozhodné jednání, které nemusí být vhodné. Nepoložili jste žádné upřesňující otázky ke stížnosti. Přechod k akci před pochopením omezuje vaše možnosti. | DŮSLEDKY: Přistoupíte k prodejci bez pochopení rozměrů stížnosti. Když to rychle nevyřešíte, Harrisova trpělivost dojde dříve, protože jste nastavil očekávání rychlosti. | Reflexe: Jak nastavení očekávání rychlosti ovlivňuje vaši schopnost najít promyšlené řešení?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Pane Harrisi, vážím si toho, že jste zavolal, a chápu vaši frustraci, ale budu s vámi upřímný — tohle vypadá spíš na záležitost městského úřadu pro povolování než na čistě policejní věc. Mají inspektory, kteří řeší povolení prodejců a užívání chodníků. Zkoušel jste kontaktovat přímo úřad pro vydávání povolení? To by mohla být rychlejší cesta k trvalému řešení.",
+                    "feedback": "Proč: Byli jste vysláni k této výzvě. Říct stěžovateli, že to není policejní věc, poté, co hodinu čekal, působí odmítavě. Ztratí důvěru ve volání policie při budoucích problémech. | DŮSLEDKY: Pan Harris vybuchne: ‚Čekal jsem hodinu, abyste mi řekl, ať zavolám na radnici?!' Hlas mu nese. Kolemjdoucí zvednou hlavy. Situace eskaluje, než jste s prodejcem vůbec promluvil. | Reflexe: I když je pravomoc nejasná, jaká je cena za to, když působíte, že občanovu starost odmítáte?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "První kontakt s prodejcem",
+            "sceneUpdate": {
+                "emoji": "👵",
+                "title": "Setkání s paní Tran",
+                "desc": "Přistupujete k potravinovému vozíku. Prodejce je drobná starší žena — možná kolem šedesátky. Vozík je čistý a uklizený, s ručně psaným jídelníčkem ve vietnamštině a češtině. Vidí vás přicházet a ruce jí ztuhnou. Oči přeběhnou na pana Harrise, pak zpět na vás. Zákazník, který si objednával, ustoupí."
+            },
+            "npcDialogue": [
+                {
+                    "character": "vendor",
+                    "text": "(s přízvukem, ale srozumitelnou češtinou) Prosím... já nedělám problémy. Já tady jsem dlouho. Lidem chutná moje jídlo. Já žádala o povolení, ale trvá to velmi dlouho. Prosím, pane strážníku, takhle živím svá vnoučata."
+                }
+            ],
+            "prompt": "Paní Tran je zjevně vystrašená, ale snaží se vysvětlit svou situaci. Jak s ní budete jednat?",
+            "options": [
+                {
+                    "text": "Zastavíte se u vozíku s nohama pevně na zemi a rukama na opasku — postoj rozhodný, ale ne nepřátelský. Mluvíte jasně: ‚Paní Tran, chápu, že je to těžké, a vidím, že váš vozík je čistý a udržovaný. Ale realita je taková, že provoz bez platného povolení je porušení městských předpisů a majitel obchodu má právo na volný přístup. Budu potřebovat, abyste dnes začala vozík balit.'",
+                    "feedback": "Proč: Přeskočili jste od prvního kontaktu k vymáhání bez zjišťování faktů, mediace nebo hledání alternativ. Nevíte o její čekající žádosti, jak systém povolení vypadá ani jestli existuje kompromis. Osvědčená praxe u prodejců je edukace a varování před represivním postupem. | DŮSLEDKY: Paní Tran se zalijí oči slzami. Začne poslouchat, ruce se jí třesou. Někdo vytáhne telefon a začne natáčet. Scéna se chystá stát tím nejhorším druhem virálního videa. | Reflexe: Co říká osvědčená praxe o pořadí edukace, varování a vymáhání u méně závažných porušení?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Udržíte si profesionální odstup od vozíku a klidným, vyrovnaným tónem se zeptáte: ‚Paní, potřebuji se vás na něco zeptat. Máte platné povolení k prodeji na tomto místě? Majitel obchodu tamhle podal stížnost, že váš vozík stojí příliš blízko jeho vchodu a částečně blokuje přístup chodcům.' Čekáte na odpověď se zápisníkem připraveným v ruce.",
+                    "feedback": "Proč: Profesionální a přímé, ale okamžité zaměření na povolení potvrzuje její strach — jde o to, jestli je ‚legální.' Zmínka o stížnosti ji staví do role obviněné. Slyší: ‚někdo vás nahlásil a teď potřebuji vaše dokumenty.' | DŮSLEDKY: Úzkost paní Tran stoupne. Začne horečně prohledávat tašku, ruce se jí třesou. Zákazníci se rozptýlí. Interakce působí jako kontrola, ne rozhovor. | Reflexe: Jak se mění emoční dynamika, když vedete žádostí o dokumenty místo rozhovorem?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Zpomalíte krok na posledních metrech, tělo máte uvolněné s rukama volně podél boků, a jemným hlasem promluvíte: ‚Dobrý den. Jmenuji se [jméno]. Nikdo nemá problémy — jsem tady, protože majitel obchodu měl obavy ohledně umístění vozíku. Rád bych pochopil vaši situaci. Zmiňovala jste žádost o povolení — můžete mi o tom říct víc?'",
+                    "feedback": "Proč: Zpomalení a uvolněné tělo snižují strach. ‚Nikdo nemá problémy' reaguje na její nevyslovený děs. Představení se jménem buduje vztah. Zarámování problému jako ‚umístění vozíku' — ne ‚jste nelegální' — udržuje problém vně a řešitelný. Zeptat se na žádost ukazuje opravdový zájem a může odhalit systémové bariéry. | DŮSLEDKY: Paní Tran trochu uvolní ramena. Vysvětlí, že žádala před osmi měsíci, ale čekací listina je obrovská. Toto místo si vybrala kvůli frekvenci chodců a nemyslela, že něco blokuje. Nabídne ukázat potvrzení o podání žádosti. Začíná opravdový rozhovor. | Reflexe: Jak zarámování problému jako situačního místo osobního mění ochotu někoho spolupracovat?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Přistoupíte blíž s vřelým, uklidňujícím přikývnutím a trochu ztišíte hlas, aby rozhovor působil soukromě i uprostřed rušné ulice. Mluvíte měkce: ‚Vidím, že se bojíte, a nechci, abyste se bála. Jsem tady jenom zjistit, jak nejlíp zařídit umístění vozíku, aby to vyhovovalo všem. Dnes nikdo nebude zatčen ani pokutován, to vám slibuji.'",
+                    "feedback": "Proč: Silná empatie a uklidnění. Slíbit ‚dnes žádné pokuty' před posouzením situace ale zcela odstraňuje vaši diskreci. Když bude později vymáhání na místě — nebo to posoudí nadřízený — dal jste závazek, který může kolidovat s povinnostmi. Riskantní i v případě, že to stěžovatel zaslechne. | DŮSLEDKY: Paní Tran se výrazně uklidní. Pokud to ale pan Harris zaslechne, bude mít pocit, že jste přijel s předem daným výsledkem ve prospěch prodejce. | Reflexe: Jak uklidnit někoho bez předčasného závazku k výsledku?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Faktor davu",
+            "sceneUpdate": {
+                "emoji": "📱",
+                "title": "Telefony jdou nahoru",
+                "desc": "Váš rozhovor s paní Tran přitáhl pozornost. Tři lidé jedící na lavičce bedlivě sledují. Mladík v mikině drží telefon nahoře a zřetelně nahrává. Žena středního věku s nákupními taškami se zastavila, aby pozorovala. Pan Harris sleduje ze svých dveří se zkříženýma rukama."
+            },
+            "npcDialogue": [
+                {
+                    "character": "bystander1",
+                    "text": "(volá z lavičky) Hej, strážníku — nechte ji být! Je to jen stará paní, která se snaží uživit. Její jídlo je skvělé. Všichni ji tady máme rádi!"
+                },
+                {
+                    "character": "filmer",
+                    "text": "(drží telefon nahoře, zřetelně nahrává každý váš pohyb)"
+                }
+            ],
+            "prompt": "Kolemjdoucí hlasitě podporují prodejce a vy jste natáčeni. Jak zvládnete dynamiku davu?",
+            "options": [
+                {
+                    "text": "Pohled necháte upřený na paní Tran a kolemjdoucí nijak neberete na vědomí — žádný pohled, žádné kývnutí, žádná reakce. Pokračujete v rozhovoru, jako by skupina na lavičce a mladík s telefonem vůbec neexistovali. Zapojení davu by jen odvedlo pozornost od řešení, a věnovat jim pozornost by mohlo vyvolat další přerušování a ztížit celou situaci.",
+                    "feedback": "Proč: Ignorování hlasitých kolemjdoucích je neudělá neviditelnými — udělá je hlasitějšími. Výzkum ukazuje, že pocit, že je policie ignoruje, zvyšuje nepřátelství. Tvářit se, že dav neexistuje, signalizuje, že vás nezajímá postoj komunity. | DŮSLEDKY: Kolemjdoucí zavolá znovu, hlasitěji. Natáčející se přiblíží. Další chodci se zastaví. Dav roste, protože ho nikdo neuznává. | Reflexe: Kdy ignorování davu ve skutečnosti zesiluje jeho chování?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Krátce otočíte hlavu směrem ke kolemjdoucímu na lavičce a s klidným, upřímným přikývnutím promluvíte dostatečně nahlas, aby vás slyšela i skupinka i mladík s telefonem: ‚Slyším vás — a vidím, že paní Tran je v tomhle sousedství oblíbená. Nejsem tady nikoho zastavovat. Pracuji se všemi zúčastněnými na řešení, které bude fungovat pro celý blok.' Pak se plynule vrátíte plnou pozorností k paní Tran.",
+                    "feedback": "Proč: Uznání davu potvrzuje jejich starost, aniž byste se nechali vtáhnout do debaty. ‚Nejsem tady nikoho zastavovat' reaguje na jejich strach. ‚Pracuji se všemi na řešení' z vás dělá mediátora, ne vymáhajícího. Nereagovat na kameru signalizuje důvěru ve své jednání. Návrat k rozhovoru udržuje interakci v pohybu. | DŮSLEDKY: Kolemjdoucí se uklidní. Natáčející dál nahrává, ale nemá nic zásadního k zachycení. Dav přechází z konfrontačního do pozorovacího režimu — čeká, jestli to myslíte vážně. | Reflexe: Jak jedna věta ke kolemjdoucím změní celou atmosféru situace?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Omluvíte se paní Tran, přejdete ke skupině kolemjdoucích na lavičce a otevřeně jim vysvětlíte: ‚Chápu vaši starost o to, co se tady děje. Majitel obchodu zavolal, protože vozík částečně blokuje jeho vchod. Snažím se najít spravedlivé řešení, které bude fungovat pro všechny zúčastněné. Pokud máte nápady nebo návrhy, opravdu rád je vyslechnu.'",
+                    "feedback": "Proč: Transparentnost a otevřenost jsou chvályhodné. Fyzicky ale opustit paní Tran a obrátit se na dav vytváří dynamiku ‚radnice', kde soupeří více hlasů. Dav může nabídnout neproveditelné návrhy a vytvořit nová očekávání. | DŮSLEDKY: Kolemjdoucí ocení, že je někdo slyší, ale tři lidé mluví najednou. Pan Harris vidí, že místo řešení jeho stížnosti konzultujete dav, a jeho frustrace stoupne. Paní Tran stojí sama, nejistá. | Reflexe: Kdy zapojení komunity pomáhá řešení a kdy vytváří příliš mnoho účastníků?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Otočíte se čelem ke kolemjdoucímu a zaujmete rozhodný, ale ne agresivní postoj. Oslovíte ho přímo: ‚Chápu vaše pocity a vidím, že vám na paní Tran záleží. Ale potřebuji slyšet obě strany bez vnějších vlivů na rozhovor. Paní Tran i pan Harris si zaslouží férový proces, a to znamená, že s nimi potřebuji mluvit bez přerušování.'",
+                    "feedback": "Proč: Zní to jako zásadový závazek ke spravedlnosti — ochrana obou stran před vlivem davu během citlivého rozhovoru. Jazyk ‚férového procesu' a ‚obě strany si zaslouží' odráží hodnoty procesní spravedlnosti. Rámuje ale podporu komunity jako kontaminaci, ne jako informaci. Říká davu, že jejich hlasy nejsou na veřejném prostranství vítány, a izoluje paní Tran od sociální podpory, která jí pomáhá cítit se bezpečně. | DŮSLEDKY: Kolemjdoucí se cítí odmítnutý někým, kdo používá jazyk spravedlnosti k umlčení. Natáčející dál nahrává, ale teď má narativ: strážník umlčel hlasy komunity. Paní Tran, která čerpala útěchu z podpory sousedů, se teď cítí osamělejší. Energie davu se přesouvá z podpůrné na podezřívavou. | Reflexe: Kdy ochrana procesu před vnějšími vstupy přechází v umlčování komunity, které by měl proces sloužit?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Vyjednávání",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Hledání společného zájmu",
+                "desc": "Teď rozumíte oběma stranám. Pan Harris má legitimní starost ohledně blízkosti svého vchodu. Paní Tran má čekající žádost o povolení, čistý vozík, věrné zákazníky a vnoučata k uživení. Chodník je dost široký — jen ne na současném místě přímo u Harrisových dveří."
+            },
+            "npcDialogue": [
+                {
+                    "character": "vendor",
+                    "text": "(tiše) Já nevěděla, že to pro něj je problém. On mi nikdy nic neřekl. Já můžu... možná můžu přestěhovat? Ale kam?"
+                }
+            ],
+            "prompt": "Otevírá se prostor pro kreativní řešení. Jak ho usnadníte?",
+            "options": [
+                {
+                    "text": "Napřímíte se a nasadíte úřední tón. Jasně paní Tran sdělíte, že svůj vozík musí přemístit alespoň deset metrů od jakéhokoli vchodu do obchodu — bez výjimek — s okamžitou platností. Pak ji informujete, že jí udělujete formální ústní varování za prodej bez platného povolení a že varování zapíšete do svého hlášení pro spis.",
+                    "feedback": "Proč: Technicky vymahatelné, ale nepřiměřené. Libovolná vzdálenost s formálním varováním — když prodejce má čekající žádost a stěžovatel s ní ani nemluvil — zachází s mediací jako s čistým vymáháním. Osvědčená praxe je edukace před vymáháním. | DŮSLEDKY: Paní Tran vyhoví ze strachu. Kolemjdoucí vrtí hlavami. Natáčející zachytí starší imigrantku dostávající formální varování za prodej jídla. Pan Harris dostane, co chtěl, ale komunita vidí tvrdé vymáhání. | Reflexe: Když zákon dává diskreční pravomoc, jak rozhodujete mezi varováním a kreativním řešením?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vrátíte se k panu Harrisovi u vchodu do jeho obchodu a předložíte mu kompromisní návrh: ‚Co kdyby se přesunula asi o pět metrů dál po chodníku — pořád na tomto bloku a viditelná pro chodce, ale dostatečně daleko od vašeho vchodu a zásobovací trasy? Vyřešilo by to vaši starost?' Počkáte na jeho souhlas a teprve pak se vrátíte k paní Tran a sdělíte jí dohodnutý plán.",
+                    "feedback": "Proč: Praktické a zaměřené na řešení. Vyjednávat ale nejdřív se stěžovatelem a pak výsledek předat prodejci jako hotovou věc podkopává postavení paní Tran. Stává se předmětem dohody mezi autoritami, ne účastnicí vlastního řešení. Také to dává panu Harrisovi právo veta. | DŮSLEDKY: Řešení prakticky funguje, ale paní Tran má pocit, že jí řekli, co má dělat, místo že se jí zeptali. Kolemjdoucí vidí strážníka vyjednávat s majitelem obchodu a pak předávat pokyny prodejci. Dynamika moci je viditelná. | Reflexe: Kdo má být v centru řešení — stěžovatel, dotčená osoba, nebo oba?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Nakloníte se k paní Tran a tónem, který má být vstřícný, jí navrhněte, ať dnes vozík sbalí a vrátí se raději v pracovní den, kdy je obchodní ulice méně přeplněná a o chodník se nehlásí tolik lidí. Takhle se vyhne dalším stížnostem od majitelů obchodů a udrží nízký profil, dokud se její žádost o povolení nevyřídí.",
+                    "feedback": "Proč: Říct prodejci, ať odejde a přijde jindy, je odstranění ve zdvořilém balení. V pracovní dny je menší provoz — méně příjmů pro člověka, který živí vnoučata. Nastavujete precedens, že každá stížnost stojí prodejce denní výdělek. | DŮSLEDKY: Paní Tran sbalí a přijde o půl dne výdělku. Kolemjdoucí jsou pobouřeni. Natáčející zachytí strážníka, jak říká starší imigrantce, ať jde domů. Video vypráví příběh, který jste nezamýšlel. | Reflexe: Jaký je rozdíl mezi řešením, které problém řeší, a řešením, které odstraní člověka s problémem?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Společně s paní Tran se podíváte na rozložení ulice a ukážete rukou po chodníku: ‚Co kdybychom vám našli místo pořád na tomto bloku — s dobrým provozem chodců pro vaše podnikání — ale ne hned u dveří pana Harrise? Byla byste ochotná to zkusit?' Projdete s ní kousek po ulici a společně najdete vhodný prostor — třeba o patnáct metrů dál, kde je mezera mezi výlohami s dostatkem místa.",
+                    "feedback": "Proč: Společné řešení problému zohledňující zájmy obou stran. Jít s ní — ne ji posílat — s ní jedná jako s partnerkou. Společné hledání místa respektuje její znalost podnikání a zároveň řeší blokování. ‚Byla byste ochotná?' dává na výběr místo příkazu. | DŮSLEDKY: Paní Tran se rozzáří — mezera po prázdném obchodě ji nenapadla. Přesun trvá pět minut. Harrisův vchod je volný. Paní Tran si ponechá zákazníky. Kolemjdoucí vidí strážníka pomáhat starší ženě najít lepší místo. | Reflexe: Co společné řešení problému signalizuje každému kolemjdoucímu, který přihlíží?",
+                    "type": "positive",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Majitel obchodu tlačí",
+            "sceneUpdate": {
+                "emoji": "😠",
+                "title": "Námitka pana Harrise",
+                "desc": "Navrhli jste přemístění. Paní Tran souhlasí. Pan Harris ale přikráčí a vrtí hlavou."
+            },
+            "npcDialogue": [
+                {
+                    "character": "shopowner",
+                    "text": "Přestěhovat ji o kus dál?! To nic neřeší! Pořád prodává nelegálně! K čemu jsou povolení, když policie lidem pomáhá porušovat pravidla? Chci ji PRYČ — z celé ulice. Když vy svou práci neuděláte, zavolám vašeho nadřízeného."
+                }
+            ],
+            "prompt": "Stěžovatel eskaluje nad rámec své původní stížnosti. Jak na to reagujete?",
+            "options": [
+                {
+                    "text": "Klidně se obrátíte k panu Harrisovi s pevným, vyrovnaným hlasem: ‚Chápu, že to není přesně to, co jste si představoval. Ale vaše stížnost byla, že vozík blokuje váš vchod, a to jsme vyřešili. Otázka povolení je záležitost úřadu pro povolování, kterou jsem zaznamenal. Nemůžu někoho odstranit z veřejné ulice jen proto, že sousední firma ho tam nechce. Máte moje služební číslo — pokud nové umístění způsobí problém, zavolejte.'",
+                    "feedback": "Proč: Upřímné, jasné, respektující a zároveň vymezuje pevnou hranici. Odděluje legitimní stížnost (blokování — vyřešeno) od přestřelení (úplné odstranění). ‚Tak to nefunguje' je přímé bez hrubosti. Nabídka služebního čísla ukazuje odpovědnost a sebedůvěru. | DŮSLEDKY: Pan Harris je frustrovaný, ale nemá platný argument. Jeho stížnost byla vyřešena — jen ne tak, jak chtěl. Kolemjdoucí slyší strážníka klidně vysvětlovat přiměřenost. Hrozba nadřízeným ztrácí sílu, když jste sám nabídl své číslo. | Reflexe: Jak držíte hranici se stěžovatelem, který chce víc, než je přiměřené?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vtáhnete obě strany do rozhovoru a s otevřenou řečí těla se postavíte mezi ně. Oslovíte je společně: ‚Udělali jsme dnes skutečný pokrok. Paní Tran souhlasila s přestěhováním vozíku, čímž se váš vchod uvolní, pane Harrisi. Otázka povolení je záležitost příslušného úřadu. Můžeme se shodnout, že pro dnešek je to rozumný a spravedlivý výsledek pro obě strany?'",
+                    "feedback": "Proč: Zahrnující a pokus o společné uzavření. Ptát se ale ‚můžeme se shodnout?' dává panu Harrisovi právo veta nad přiměřeným řešením. Když řekne ne — což je při jeho náladě pravděpodobné — podkopali jste svou autoritu pozváním k odmítnutí. Hledání souhlasu se míjí účinkem, když jedna strana chce nepřiměřené výsledky. | DŮSLEDKY: Pan Harris řekne: ‚Ne, nemůžu souhlasit. Chci ji pryč.' Jste v úzkých — pozvali jste jednání, které jste nepotřebovali. | Reflexe: Kdy je hledání shody produktivní a kdy předává kontrolu špatné straně?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Fyzicky vstoupíte mezi ně, jednou rukou naznačíte panu Harrisovi, ať zachová odstup, a s neformální přímostí řeknete: ‚Pane Harrisi, vaši stížnost jsem vyslechl a řeším ji — paní Tran právě teď stěhuje vozík. Otázka povolení je nad rámec mých kompetencí, to je záležitost městského úřadu. Vy dva byste si měli do budoucna nějak ten sousedský vztah vyjasnit, protože příští víkend tady nejspíš bude zase.'",
+                    "feedback": "Proč: ‚Nad rámec mých kompetencí' je odmítavé. ‚Příští víkend tady asi bude taky' zní jako provokace. Říct jim ‚vyjasněte si to sami' hází odpovědnost na dvě strany, které to bez mediace nezvládnou. Vyřešíte dnes, zasejete konflikt na příští víkend. | DŮSLEDKY: Pan Harris zuří, odchází do obchodu. Zavolá vašeho nadřízeného. Paní Tran si není jistá příštím týdnem. Dnešní problém vyřešen, zítřejší vytvořen. | Reflexe: Jak vaše závěrečná formulace ovlivňuje, jestli řešení vydrží?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Zamyšleně přikývnete k Harrisově argumentu a viditelně změníte svůj postoj, jako byste se nechal přesvědčit: ‚Víte co, máte pravdu ohledně toho povolení — opravdu by bez něj prodávat neměla. Vrátím se k paní Tran a dám jí formální varování do záznamu. Vše důkladně zdokumentuji do hlášení, takže bude jasná papírová stopa pro případ, že by tato situace pokračovala i příští víkend.'",
+                    "feedback": "Proč: Uchlácholit stěžovatele eskalací vymáhání vůči prodejci. Prodejce už spolupracovala a přestěhovala se. Přidat formální varování po spolupráci ji trestá za to, že byla vstřícná. Je to vyhýbání se konfliktu na úkor prodejce. | DŮSLEDKY: Paní Tran, která právě plně spolupracovala, dostane formální varování. Je zmatená a zraněná. Kolemjdoucí vidí přesně, co se stalo: majitel obchodu tlačil a strážník ustoupil na úkor starší ženy. Důvěra zničena. | Reflexe: Když eskalujete vymáhání, abyste uspokojili stěžovatele, kdo za to skutečně platí?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Uzavření",
+            "sceneUpdate": {
+                "emoji": "✨",
+                "title": "Most vpřed",
+                "desc": "Bezprostřední krize je vyřešena — paní Tran přemístila vozík, Harrisův vchod je volný. Dobré řešení ale potřebuje víc než vyřešení dnešního problému. Paní Tran si utírá oči, jak se na novém místě rozestavuje. Kolemjdoucí pořád sledují. Natáčející pořád nahrává."
+            },
+            "npcDialogue": [
+                {
+                    "character": "vendor",
+                    "text": "(rozestavuje se na novém místě, hlas se jí třese) Děkuji, pane strážníku. Tak jsem se bála, když jsem vás viděla přicházet. Myslela jsem... myslela jsem, že mi vezmou vozík. To je všechno, co mám."
+                }
+            ],
+            "prompt": "Jak uzavřete tuto interakci a nastavíte udržitelný výsledek?",
+            "options": [
+                {
+                    "text": "Krátce přikývnete, když si paní Tran na novém místě rozkládá servírovací potřeby. Udržíte odlehčený tón, ale necháte prosvítat varovnou notu: ‚Není zač, paní Tran. Hlavně zůstaňte tady na tomhle místě a nevracejte se zpátky k vchodu pana Harrise. Když budu na tuhle adresu vyslaný znovu kvůli stejnému problému, bude pro mě o hodně těžší vám pomoct tak, jako jsem to udělal dneska.'",
+                    "feedback": "Proč: Skrytá hrozba (‚těžší vám pomoct') mění pozitivní řešení v podmíněnou milost. Naznačuje, že vaše pomoc byla laskavost, kterou lze odebrat, ne spravedlivý výsledek. Bude celý příští týden v úzkosti. | DŮSLEDKY: Paní Tran nervózně přikývne. Dobrá vůle je podkopána varováním. Kolemjdoucí zaslechnou skrytou hrozbu a jejich názor se v poslední chvíli zhorší. | Reflexe: Jak poslední věta, kterou řeknete, utváří trvalou vzpomínku na celou interakci?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Přistoupíte blíž a jemně ji pohladíte po rameni, úplně povolíte svůj postoj a s vřelým úsměvem řeknete: ‚Nemusíte se absolutně ničeho bát, paní Tran — nenechám nikoho vás tady obtěžovat. Máte věrné zákazníky a vaše jídlo úžasně voní. Prostě pokračujte přesně v tom, co děláte, a na nic z toho nemyslete. Všechno bude od teď úplně v pořádku.'",
+                    "feedback": "Proč: Vřelé a lidské, ale slibuje víc, než můžete splnit. Příští víkend tu nebudete. Také ignoruje otázku povolení, kterou je třeba vyřešit. Přehnané sliby ji vystaví riziku, až příště přijede jiný strážník a bude jednat jinak. | DŮSLEDKY: Paní Tran se dnes cítí skvěle. Příští sobotu stejnou stížnost řeší jiný strážník bez vašeho přístupu. Řekne: ‚Ale ten druhý strážník říkal, že mě nikdo nebude obtěžovat!' Nesoulad poškozuje důvěru víc než vaše nepřítomnost. | Reflexe: Kdy útěcha přeroste v přehnané sliby? Jak připravit někoho na realitu poté, co odejdete?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vřele se usmějete a necháte napětí odejít z postoje: ‚Jsem rád, že jsme to vyřešili, paní Tran. Klíč k tomu, aby to pro vás bylo trvalé a bezpečné, je vyřízení povolení. Víte o nějaké komunitní organizaci nebo právní poradně, která by mohla pomoct proces urychlit? Chci to vyřešit pořádně, abyste se nemusela každý víkend strachovat.' Pokud znáte místní podpůrné služby, nabídněte jí informace.",
+                    "feedback": "Proč: Vřele uzná vyřešení, pak přejde k dlouhodobé zranitelnosti — povolení. Místo ignorování právní otázky nebo jejího zneužití jí pomáháte ji vyřešit. Spojení s prostředky ukazuje opravdovou péči přesahující toto setkání. ‚Abyste se nemusela každý víkend strachovat' pojmenovává její úzkost a nabízí cestu ven. To je rozdíl mezi vyřešením incidentu a zlepšením života. | DŮSLEDKY: Paní Tran děkuje — nejen za dnešek, ale za směr. Kolemjdoucí zmíní místní centrum pro podporu imigrantů. Natáčející zachytí strážníka pomáhajícího prodejci najít dlouhodobou podporu. To je video, které buduje důvěru. | Reflexe: Jaký je rozdíl mezi vyřešením dnešního problému a přípravou někoho na příští týden?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Napřímíte se a s věcnou profesionalitou zaškrtnete interakci v hlavě jako vyřízenou: ‚Paní Tran, na novém místě je vše v pořádku. Situaci jsem zaznamenal do hlášení. Pokud budete mít v budoucnu jakékoli problémy s majitelem obchodu, volejte na neurgentní linku a odkažte se na číslo dnešního záznamu. Mějte se hezky.' Otočíte se a rázným krokem zamíříte zpět k vozidlu a další výzvě.",
+                    "feedback": "Proč: Zní to efektivně a profesionálně — zdokumentování situace, poskytnutí referenčního čísla a kanálu pro budoucí problémy. Zaškrtává procesní políčka. Zachází ale s uzavřením jako s administrativou, ne jako s lidským kontaktem. Paní Tran právě prožila jeden z nejděsivějších momentů svého týdne a dostane číslo záznamu místo opravdového spojení. Povolení — základní zranitelnost, kvůli které se policie k jejímu vozíku vrátí příští víkend — zůstává zcela neřešené. | DŮSLEDKY: Paní Tran má referenční číslo, ale žádnou cestu vpřed s povolením, které by ji skutečně chránilo. Příští sobotu se vrátí stejný strach. Setkání bylo procesně čisté, ale lidsky prázdné — byla zpracována, ne jí bylo pomoženo. Kolemjdoucí vidí strážníka, který zvládl papírování, ale minul člověka. | Reflexe: Když se profesionální efektivita stane náhražkou opravdové péče, co propadne skulinami?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Vyhodnocení a odhalení",
+            "sceneUpdate": {
+                "emoji": "🏁",
+                "title": "Školící vyhodnocení",
+                "desc": "Zpět na stanici. Seržant Davis hodnotí váš výkon v tomto scénáři vymáhání u pouličního prodejce."
+            },
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Vymáhání u pouličních prodejců je místo, kde se přiměřenost testuje nejviditelněji. Měl jste oprávněnou stížnost, technické porušení, kolemjdoucí s telefony a dvaašedesátiletou babičku, která živí svou rodinu. Každá akce, kterou jste podnikl — od počáteční obchůzky přes zapojení davu až po navržené řešení — byla hodnocena nejen lidmi na místě, ale i každým, kdo by si později pustil video. Otázka nikdy nebyla, jestli paní Tran provozovala bez povolení. Otázka byla, jestli vaše reakce odpovídala skutečné újmě."
+                },
+                {
+                    "character": "officer",
+                    "text": "Pořád jsem v hlavě přemítal nad tím povolením. Technicky porušovala předpisy. Část mě měla pocit, že když to nevymáhám, nedělám svou práci. Ale všechny možnosti vymáhání působily nepřiměřeně k tomu, co se skutečně dělo."
+                },
+                {
+                    "character": "trainer",
+                    "text": "A přesně tento vnitřní konflikt je místo, kde se rodí dobří strážníci. Přiměřenost neznamená být měkký. Znamená to přizpůsobit reakci skutečné újmě, ne technickému porušení. Újma zde byl částečně zablokovaný vchod — vyřešeno přemístěním. Technické porušení bylo chybějící povolení — zaznamenáno a předáno příslušnému úřadu. Vyřešil jste obojí, aniž byste kriminalizoval babičku prodávající polévku. To není shovívavost. To je přesnost. Strážníci, kteří zaměňují vymáhání se spravedlností, končí ve virálních videích z úplně špatných důvodů."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Co toto setkání udělalo výjimečným, byl závěr — propojení paní Tran s prostředky pro její žádost o povolení. Většina strážníků by skončila u přemístění a prohlásila to za úspěch. Vy jste šel dál, protože jste pochopil, že vyřešit dnešní problém bez řešení zítřejší zranitelnosti je jen polovina práce. Video, které kolemjdoucí zveřejnil, mělo popisek ‚tak by měla vypadat policejní práce.' To se neděje náhodou. Děje se to proto, že jste každé rozhodnutí činil s ohledem na zákon i na člověka. Teď vám řeknu, co se stalo potom."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispečink", "avatar": "📻"},
+        "shopowner": {"name": "Pan Harris (majitel obchodu, 55)", "avatar": "😤"},
+        "vendor": {"name": "Paní Tran (prodejce, 62)", "avatar": "👵"},
+        "bystander1": {"name": "Kolemjdoucí (podporující)", "avatar": "🧑"},
+        "filmer": {"name": "Mladík (natáčí)", "avatar": "📱"},
+        "officer": {"name": "Vy (strážník)", "avatar": "👮"},
+        "trainer": {"name": "Seržant Davis", "avatar": "👮‍♂️"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Výjimečná procesní spravedlnost!",
+            "emoji": "🌟",
+            "feedback": "Prokázali jste zlatý standard pro méně závažné vymáhání: důkladné posouzení před akcí, procesní spravedlnost vůči oběma stranám, kreativní řešení problému zohledňující legitimní zájmy všech, a opravdová péče o dlouhodobou situaci prodejce. Každý kolemjdoucí, který sledoval — a natáčel — viděl policejní práci, která buduje důvěru komunity."
+        },
+        "good": {
+            "title": "Silný výkon",
+            "emoji": "✅",
+            "feedback": "Zvládli jste složitou situaci s více stranami dobře, se spravedlností a snahou o řešení místo trestu. Některé příležitosti k hlubšímu zapojení nebo lepšímu zvládnutí davu byly propásnuty, ale váš přístup byl profesionální a přiměřený."
+        },
+        "average": {
+            "title": "Přiměřená reakce",
+            "emoji": "📊",
+            "feedback": "Vyřešili jste bezprostřední situaci, ale propásli jste důležité aspekty procesní spravedlnosti. Ať už šlo o spěch k vymáhání, nezapojení davu, nebo neřešení dlouhodobých potřeb prodejce — existovaly příležitosti pro udržitelnější řešení."
+        },
+        "poor": {
+            "title": "Potřeba výrazného zlepšení",
+            "emoji": "⚠️",
+            "feedback": "Váš přístup upřednostnil vymáhání před řešením problému a propásl klíčové příležitosti pro procesní spravedlnost. U méně závažného vymáhání u prodejců to, jak situaci zvládnete, určuje důvěru komunity na roky dopředu. Projděte si zásady procesní spravedlnosti, přiměřenost ve vymáhání a dynamiku davu."
+        }
+    },
+    "metrics": {
+        "proceduralJustice": {
+            "name": "Procesní spravedlnost",
+            "description": "Jednání se všemi stranami důstojně, transparentně a spravedlivě — aby proces působil spravedlivě bez ohledu na výsledek",
+            "icon": "⚖️"
+        },
+        "proportionality": {
+            "name": "Přiměřenost a diskrece",
+            "description": "Přizpůsobení reakce závažnosti, rozumné užití diskrece u méně závažného vymáhání",
+            "icon": "📏"
+        },
+        "crowdDynamics": {
+            "name": "Zvládání davu a kamery",
+            "description": "Konstruktivní zapojení kolemjdoucích a udržení profesionality pod pozorováním",
+            "icon": "👥"
+        },
+        "creativeSolutions": {
+            "name": "Kreativní řešení problémů",
+            "description": "Hledání výsledků zohledňujících legitimní zájmy všech stran místo vymáhání s nulovým součtem",
+            "icon": "💡"
+        },
+        "communityTrust": {
+            "name": "Dopad na důvěru komunity",
+            "description": "Budování dlouhodobé důvěry komunity v policii prostřednictvím kvality tohoto setkání",
+            "icon": "🤝"
+        }
+    }
+}

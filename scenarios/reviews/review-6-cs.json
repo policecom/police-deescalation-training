@@ -1,0 +1,362 @@
+{
+    "scenarioId": "6",
+    "reviewVersion": "2.0",
+    "title": "Přehled — Tržní spor: Klidné vyjednávání",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Příjezd na trh",
+            "criticalSkills": ["Sběr informací od třetích stran před zapojením", "Pozorování místa a prostorové posouzení", "Odolávání tlaku na předčasné řešení"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Zeptat se nejdřív Filipa na pár dalších věcí — existuje mapa nebo systém přidělování stánků? Stalo se tohle už dřív? Byl někdo z nich agresivní? Pak si na chvíli prohlédnout situaci z odstupu, než přistoupíte.",
+                    "strengths": ["Získává institucionální znalosti od správce trhu, než si utvoříte jakýkoli názor", "Otázka na mapu stánků zjišťuje, zda existují objektivní fakta, o která lze budoucí mediaci opřít", "Otázka na historii odhalí, že jde o opakující se vzorec, ne jednorázovou záležitost — zásadní pro kalibraci reakce", "Pozorování z odstupu odhaluje fyzické důkazy (bedny za křídovou čárou, stlačená výstava) bez toho, aby pro vás kterákoli strana hrála divadlo", "Modeluje vyšetřovací profesionalitu pro přihlížející — strážník sbírá fakta, než jedná"],
+                    "consequences": "Zjistíte, že mapa je zastaralá, spor se opakuje a žádná ze stran nebyla fyzicky násilná. Z odstupu vidíte, že bedny paní Petrové viditelně přesahují za vybledlou křídovou čáru a výstava pana Okonkwa je nepohodlně stlačená. Přistupujete s kontextem, který žádná ze stran nemůže svým podáním zkreslovat.",
+                    "trainingFocus": "Jak šedesát sekund dotazování třetí strany a nezávislého pozorování změní kvalitu každého následného rozhovoru? Co jste se od Filipa a z místa dozvěděli, co byste nemohli zjistit od samotných prodejců?"
+                },
+                "partially_positive": {
+                    "choiceText": "Říct Filipovi, že to zvládnete, a jít přímo za oběma prodejci a zeptat se, o co jde — vyslechnout obě strany najednou.",
+                    "adequate": ["Záměr vyslechnout obě strany signalizuje spravedlnost", "Přímé zapojení ukazuje ochotu jednat"],
+                    "missed": ["Žádné posouzení místa ani sběr faktů před zapojením", "Dva rozčilení lidé požádaní, aby mluvili současně, budou soupeřit o vaši pozornost, ne spolupracovat", "Filipovy institucionální znalosti — mapa stánků, historie — zůstávají nevyužity", "Přihlížející vidí strážníka vstupujícího do hádky místo aby přicházel s plánem"],
+                    "improvement": "Spravedlivý záměr potřebuje taktickou sekvenci. Nejprve získejte fakta od Filipa a z místa. Pak strany oddělte — naslouchání rozčileným lidem současně vybízí k předvádění, ne k upřímnosti."
+                },
+                "neutral": {
+                    "choiceText": "Říct Filipovi: „Tohle zní jako záležitost správy trhu, ne policejní věc. Přidělování stánků byste měl řešit vy. Zůstanu poblíž pro případ, že by to přešlo do fyzična.“",
+                    "adequate": ["Správně identifikuje, že přidělování stánků je zodpovědností správy", "Nabídka zůstat poblíž ukazuje určitou angažovanost"],
+                    "missed": ["Filip vám už řekl, že situaci nezvládá — předat mu ji zpět je cirkulární", "Dav vidí, jak policie přijede a odmítne jednat — důvěra v policejní pohotovost se oslabuje", "Přihlížející křikne na pana Okonkwa, protože nezasáhla žádná autoritativní osoba — situace se zhoršuje", "Rasová dimenze sporu zůstává zcela neřešena"],
+                    "improvement": "Když situace eskaluje za kapacity správy, policejní zapojení je oprávněné i v případě, že základní problém je administrativní. Převezměte iniciativu, pak zapojte správu do systémové nápravy."
+                },
+                "negative": {
+                    "choiceText": "Poděkovat Filipovi za zavolání, pak jít rovnou k hádajícím se prodejcům a říct jim oběma, ať okamžitě přestanou křičet — vyřešíte to, ale křik musí skončit.",
+                    "risks": ["Přikázání ticha bez jakéhokoli kontextu nebo navázání kontaktu z vás dělá autoritu vnucující pořádek, ne mediátora hledajícího řešení", "Netušíte, kdo eskaloval, o co jde ani co každá strana potřebuje", "Zahájení příkazem signalizuje, že nejhlasitější problém dostane nejrychlejší policejní reakci", "Oba prodejci zmlknou s odporem — hádka je potlačena, ne řešena"],
+                    "consequences": "Pan Okonkwo zatne čelist. Paní Petrová mumlá pod vousy. Přihlížející vidí strážníka, jak umlčí dva lidi, aniž by čemukoli porozuměl. Konflikt jde pod povrch místo aby byl řešen.",
+                    "betterApproach": "Nejdříve získejte informace od Filipa a prohlédněte si místo. Přistupte ke každé straně zvlášť s otázkami, ne příkazy. Umlčení konfliktu není totéž co zahájení jeho řešení."
+                }
+            },
+            "keyLearningPoints": ["Třetí strany jako správci trhů mají institucionální znalosti, které ukotvují mediaci ve faktech", "Nezávislé pozorování před zapojením odhaluje fyzické důkazy, které stranická podání mohou zkreslovat", "Odolávání tlaku na rychlost zachovává kvalitu každého následného kroku", "Ve vícestranných sporech to, s kým mluvíte nejdřív a jak přistupujete, formuje celý kontakt"]
+        },
+        "2": {
+            "stageName": "Výslech pana Okonkwa",
+            "criticalSkills": ["Aktivní naslouchání vrstveným stížnostem", "Uznání praktické i diskriminační dimenze", "Závazek k procesu bez předjímání výsledku"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Udržovat stálý oční kontakt a mluvit jasně: „Pane Okonkwo, děkuji vám, že jste mi to vysvětlil. Chci, abyste věděl, že beru vážně to, co jste popsal — všechno. Problém s prostorem i to, co vám bylo řečeno.“",
+                    "strengths": ["Děkuje mu za sdílení — potvrzuje emocionální cenu nahlášení rasového obtěžování policii", "Výslovně pojmenovává obě dimenze: zabírání prostoru a rasový komentář — odmítá je směšovat nebo zlehčovat", "„Nikomu by se nemělo říkat, že sem nepatří“ adresuje rasovou dimenzi přímo bez předjímání odsouzení paní Petrové", "Příslib kontroly skutečných přidělení signalizuje mediaci založenou na faktech, ne na předpokladech", "Závazek vrátit se před rozhodnutím demonstruje procesní spravedlnost — bude mít hlas ve výsledku"],
+                    "consequences": "Ramena pana Okonkwa trochu klesnou. Přikývne a tiše říká: „Děkuji vám, strážníku. To je vše, o co žádám — jen spravedlnost.“ Dav vidí klidný, respektující dialog. Důvěra se buduje, protože obě vrstvy jeho stížnosti byly vyslyšeny.",
+                    "trainingFocus": "Proč výslovné pojmenování obou dimenzí vrstvené stížnosti — praktické i diskriminační — buduje větší důvěru než řešení pouze té jednodušší? Co stojí člověka nahlásit policii rasové obtěžování a jak vaše první reakce formuje, zda to kdy udělá znovu?"
+                },
+                "partially_positive": {
+                    "choiceText": "Soucitně přikývnout: „Chápu, že je to frustrující, pane Okonkwo. Pojďme se soustředit na problém s prostorem — to je něco, co můžeme dnes vyřešit.“",
+                    "adequate": ["Projevuje empatii a záměr řešit", "Soustředí se na praktickou, řešitelnou dimenzi"],
+                    "missed": ["Nápadně obchází komentář „vrať se tam, odkud jsi přišel“ — těžší problém, který výslovně zmínil", "Pan Okonkwo vám řekl něco, co vyžadovalo odvahu; přeskočení toho mu říká, že rasová dimenze vás nezajímá", "Zmínil obě záležitosti; vy jste si vybrali tu pohodlnější — všímá si, co jste neřekli"],
+                    "improvement": "Adresujte obě dimenze výslovně. Nemusíte předjímat komentář — pouhé uznání, že jste ho slyšeli a berete ho vážně, potvrzuje osobu, aniž by ohrozilo proces."
+                },
+                "neutral": {
+                    "choiceText": "Zeptat se ho: „Slyšel to ještě někdo? Máte svědky? Protože jestli budeme ten komentář řešit, budu potřebovat potvrzení.“",
+                    "adequate": ["Rozpoznává důkazní dimenzi — svědci jsou důležití", "Bere komentář dostatečně vážně na to, aby zvažoval následné kroky"],
+                    "missed": ["První reakcí na bolestivé sdělení je křížový výslech — působí jako pochybnost, ne podpora", "Signalizuje, že jeho slovo samo o sobě nestačí, čímž podkopává důvěru dřív, než se vybuduje", "Sběr důkazů je důležitý, ale záleží na sekvenci — nejdříve uznejte, pak vyšetřujte", "Jeho hlas se zvedne a důvěra se zhroutí dříve, než může začít produktivní rozhovor"],
+                    "improvement": "Nejdříve uznejte zkušenost. Pak vysvětlete, že chcete situaci porozumět co nejúplněji — včetně dalších pohledů. Stejné otázky dopadnou úplně jinak po potvrzení."
+                },
+                "negative": {
+                    "choiceText": "Klidně zvednout ruku: „Pane Okonkwo, slyším vás, ale nedělejme z toho víc než spor o prostor. Lidi v hněvu říkají věci, které nemyslí vážně.“",
+                    "risks": ["Odmítnutí výroku „vrať se tam, odkud jsi přišel“ jako něčeho řečeného v hněvu normalizuje rasovou nepřátelskost", "Říká panu Okonkwovi, že jeho zkušenost s rasismem je přehnaná reakce", "Říká každému přihlížejícímu, který komentář slyšel, že ho policie nepovažuje za významný", "„Nedělejme z toho víc“ je pokyn zlehčovat jeho prožitou zkušenost"],
+                    "consequences": "Pan Okonkwo na vás zírá. Z jeho tváře zmizí veškerá vřelost. Tiše říká: „Rozumím. Takže takhle to je.“ Přestane spolupracovat. Přihlížející, který zaslechl, kroutí hlavou. Důvěra není jen ztracena — je aktivně zničena.",
+                    "betterApproach": "Nikdy nezlehčujte něčí zkušenost s diskriminací. Uznejte obě vrstvy stížnosti. Můžete vyšetřovat bez předjímání, ale nemůžete ignorovat bez následků."
+                }
+            },
+            "keyLearningPoints": ["Když někdo nahlásí praktický problém i diskriminační zkušenost, řešení pouze jednoho mu říká, že jste zvolili pohodlnou cestu", "První reakce na nahlášení rasového obtěžování formuje, zda dotyčná osoba kdy znovu uvěří policii", "Uznání újmy není totéž co předjímání odsouzení obviněné — potvrzení a vyšetřování mohou existovat souběžně", "Závazek k procesu („zkontroluju přidělení a vrátím se“) zachovává rozhodovací prostor a zároveň buduje důvěru"]
+        },
+        "3": {
+            "stageName": "Výslech paní Petrové",
+            "criticalSkills": ["Budování kontaktu s defenzivními osobami před konfrontací", "Adresování nacionalistického vyjadřování bez vyvolání uzavření", "Vytváření prostoru pro dobrovolné přiznání"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Nechat ji domluvit, pak říct pevně, ale s respektem: „Paní Petrová, vidím, že vám na vašem místě tady velmi záleží, a patnáct let je dlouhá doba. To respektuji. Potřebuji porozumět situaci s prostorem — podíváme se společně na skutečnou mapu stánků.“",
+                    "strengths": ["Nejprve potvrdí její dlouholeté působení a emocionální investici — potřebuje se cítit vyslyšená, než může naslouchat vám", "Zmínka o mapě stánků signalizuje objektivitu a proces založený na faktech", "Přechod k „padla slova“ místo „řekla jste rasistické věci“ jí dává prostor pro reflexi místo obrany", "Otázka „co bylo řečeno“ zve její verzi místo aby vyžadovala přiznání", "Sekvence — potvrzení, fakta, pak těžší otázka — vytváří podmínky pro upřímné přiznání"],
+                    "consequences": "Paní Petrová se zarazí a sklopí pohled. Přizná: „Já… možná jsem řekla něco, co jsem neměla. Byla jsem naštvaná.“ To není omluva, ale je to přiznání, na kterém můžete stavět — a stalo se jen proto, že přístup vytvořil prostor pro upřímnost.",
+                    "trainingFocus": "Jak vytvoření prostoru pro to, aby člověk uznal svá vlastní slova, vede k upřímnějším odpovědím než vyžadování přiznání? Proč záleží na sekvenci — potvrzení před konfrontací?"
+                },
+                "partially_positive": {
+                    "choiceText": "Přikývnout a říct: „Rozumím, paní Petrová. Patnáct let je dlouhá doba. Podívám se na mapu stánků a dáme to do pořádku.“",
+                    "adequate": ["Potvrzuje její zkušenost a projevuje empatii", "Posunuje se k objektivním důkazům prostřednictvím mapy stánků"],
+                    "missed": ["Diskriminační vyjádření není nikdy zmíněno — než se vrátíte s mapou, rasová dimenze je potichu upuštěna", "Paní Petrová dojde k závěru, že její komentář byl přijatelný, protože ho ani policie nezmínila", "Když se pan Okonkwo dozví, že jste komentář vůbec nezmínili, jeho důvěra v proces se zcela zhroutí", "Zvolili jste snadnou cestu za cenu nezbytného rozhovoru"],
+                    "improvement": "Po potvrzení jejího působení přejděte k těžší otázce. Nemusíte obviňovat — otázka „co bylo řečeno během hádky“ vytvoří otevření bez přímého obvinění."
+                },
+                "neutral": {
+                    "choiceText": "Konfrontovat ji přímo: „Paní Petrová, pan Okonkwo mi řekl, že jste mu řekla, ať se vrátí tam, odkud přišel. To je vážný výrok. Řekla jste to?“",
+                    "adequate": ["Rasový komentář musí být řešen a tento přístup ho řeší", "Ukazuje ochotu konfrontovat nepohodlné pravdy"],
+                    "missed": ["Začít přímým obviněním bez jakéhokoli navázání kontaktu ji staví okamžitě před soud", "Bude popírat nebo se stane defenzivní — plný obranný mód blokuje upřímnou komunikaci", "Rozhovor se stočí na komentář izolovaně místo na podstatný konflikt", "Na každou další otázku narazíte na zeď, protože vztah začal konfrontací"],
+                    "improvement": "Záleží na sekvenci: navázání kontaktu před konfrontací. Potvrdí její zkušenost, zmíníte mapu pro objektivitu, pak otevřete dveře k těžší otázce. Stejná pravda dopadne jinak podle toho, kdy a jak je sdělena."
+                },
+                "negative": {
+                    "choiceText": "Přerušit ji: „Paní Petrová, nepotřebuji tu historii. Otázka je jednoduchá: jsou vaše bedny na jeho straně, nebo ne? Protože z toho, co vidím, tam jsou.“",
+                    "risks": ["Přerušení uprostřed vysvětlování a okamžité přiklonění k pozorovatelnému důkazu je despektující a předčasné", "Přidělení jste si ještě neověřili — mapa nebyla zkontrolována", "„Nepotřebuji tu historii“ jí říká, že patnáct let kontextu je irelevantních", "I kdyby bedny byly přes čáru, její prožitek sporu je pro kvalitu řešení důležitý"],
+                    "consequences": "Paní Petrová vybuchne: „Vy už jste na jeho straně! Ani jste se nepodíval na mapu!“ Dav slyší její výbuch. Uděláte si nepřítele z druhé strany za méně než třicet sekund a mediace se stává mnohem obtížnější.",
+                    "betterApproach": "Naslouchejte plně, potvrdíte emocionální investici, pak prezentujte fakta spolupracujícím způsobem. Lidé se podřizují výsledkům, když vnímají proces jako spravedlivý — ne když mají pocit, že jim bylo zaklapnuto ústa."
+                }
+            },
+            "keyLearningPoints": ["Defenzivní osoby potřebují potvrzení, než mohou slyšet obtížné pravdy", "Otázka „co bylo řečeno“ otevírá dveře, které „řekla jste to a to“ zabouchne", "Vyhýbání se obtížnému rozhovoru o diskriminačním vyjadřování ho nezpůsobí zmizet — způsobí, že se zahnisá", "Sekvence navázání kontaktu, fakta, pak konfrontace přináší dramaticky lepší výsledky než jakékoli jiné pořadí"]
+        },
+        "4": {
+            "stageName": "Posouzení důkazů",
+            "criticalSkills": ["Transparentní prezentace důkazů", "Přerámování osobní viny na systémové selhání", "Použití objektivních faktů k transformaci adversální dynamiky"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Vrátit se k oběma prodejcům a transparentně sdílet, co jste zjistili: „Podíval jsem se na mapu a značky. Vidím následující — paní Petrová, vaše bedny přesahují asi o 40 centimetrů přes hraniční čáru na stranu pana Okonkwa.“",
+                    "strengths": ["Transparentní sdílení důkazů s oběma stranami je zlatý standard procesní spravedlnosti", "Pojmenování konkrétního přesahu dá paní Petrové fakt, se kterým nemůže polemizovat", "Okamžité zasazení do kontextu — čáry byly nejasné, systém selhal u obou — zabrání tomu, aby nález působil jako rozsudek", "„Systém selhal u vás obou“ přerámovává z osobní viny na institucionální odpovědnost", "Otevírá prostor pro spolupráci na řešení místo výhry a prohry"],
+                    "consequences": "Paní Petrová sklopí zrak — vidí, že bedny jsou přes čáru. Pan Okonkwo přikývne — potvrzen bez vítězoslavy. Oba se podívají na Filipa. Dynamika se posunula od „kdo je viník“ k „co se pokazilo“ — a tady se mediace stává možnou.",
+                    "trainingFocus": "Jak prezentace faktů spolu se systémovým kontextem zabrání tomu, aby se faktický nález stal osobním útokem? Proč „systém selhal u vás obou“ otevírá prostor pro spolupráci, který „máte chybu“ uzavírá?"
+                },
+                "partially_positive": {
+                    "choiceText": "Říct Filipovi mezi čtyřma očima: „Tohle je váš průšvih. Čáry jsou vybledlé, mapa zastaralá a pana Okonkwa jste sem vmáčkli bez pořádného měření. Dnes to musíte napravit.“",
+                    "adequate": ["Správně identifikuje Filipovu institucionální odpovědnost", "Vytváří naléhavost pro systémovou opravu", "Drží odpovědnou osobu k zodpovědnosti"],
+                    "missed": ["Řešení mezi čtyřma očima a doručení výsledku jako rozhodnutí shora vylučuje oba prodejce z procesu", "Žádný z prodejců nevidí důkazy, nepodílí se na řešení ani neslyší vzájemné uznání", "Paní Petrová se cítí potrestaná, aniž by rozuměla proč", "Rasová stížnost pana Okonkwa zůstává v tomto přístupu neřešena"],
+                    "improvement": "Držte Filipa k zodpovědnosti a zároveň informujte oba prodejce. Transparentní sdílení důkazů zajišťuje přijetí. Zodpovědnost funguje lépe, když dotčené strany jsou svědky procesu."
+                },
+                "neutral": {
+                    "choiceText": "Ukázat paní Petrové mapu a čáru: „Paní Petrová, důkazy jsou jasné — vaše bedny jsou na jeho straně. Musíte je okamžitě přesunout zpátky do svého přiděleného prostoru.“",
+                    "adequate": ["Fakticky správné na základě shromážděných důkazů", "Přímé a realizovatelné"],
+                    "missed": ["Podáno jako rozsudek bez kontextu o vybledlých čárách nebo špatném řízení", "Vytváří jasného vítěze a poraženého — a poražení nespolupracují na řešení", "Paní Petrová je ponížena před davem, aniž by rozuměla systémovému selhání", "Prostorový problém je technicky vyřešen, ale vztah — a rasová dimenze — jsou zničeny"],
+                    "improvement": "Prezentujte fakta v kontextu. Čáry byly vybledlé. Mapa nebyla nikdy aktualizována. Systém selhal u obou. Stejný faktický nález dopadne úplně jinak, když je doprovázen systémovým kontextem."
+                },
+                "negative": {
+                    "choiceText": "Rozhodnout, že jde vlastně o občanskoprávní záležitost mezi prodejci a správou trhu. Říct oběma stranám: „Podíval jsem se na mapu a je tu problém s hranicemi. Tohle musí vyřešit Filip a správa trhu.“",
+                    "risks": ["Předání problému zpět správě, která jeho vzniku nezabránila, je cyklické neřešení", "Filip už řekl, že to nezvládá — proto volal policii", "Říct dvěma lidem v aktivním konfliktu, ať „spolupracují“ s osobou, která nechala konflikt narůst, je příprava na další konfrontaci", "Rasová dimenze zůstává zcela neřešena", "Patnáct minut sběru důkazů následovaných předáním problému zpět ničí důvěryhodnost"],
+                    "consequences": "Oba prodejci na vás nevěřícně zírají. Filip vypadá zděšeně. Dav mumlá. Shromáždili jste důkazy a pak odmítli je využít. Příští sobotu bude policie zavolána znovu — ale s menší důvěrou a větší frustrací.",
+                    "betterApproach": "Když odpovědná autorita již selhala, poskytněte strukturu pro řešení místo předání problému zpět. Využijte své důkazy k facilitaci — to je hodnota, kterou přidáváte."
+                }
+            },
+            "keyLearningPoints": ["Transparentní sdílení důkazů je zlatý standard procesní spravedlnosti — obě strany by měly vidět, co jste zjistili", "Přerámování „kdo je viník“ na „co se pokazilo“ otevírá prostor pro spolupráci, který obviňování uzavírá", "Systémový kontext proměňuje rozsudek ve sdílený problém k řešení", "Shromáždit důkazy a pak je nevyužít k facilitaci je horší než je neshromáždit vůbec"]
+        },
+        "5": {
+            "stageName": "Mediace",
+            "criticalSkills": ["Facilitace přímého přiznání mezi stranami", "Rozlišení mezi řešením prostoru a řešením rasové újmy", "Vytváření podmínek pro dobrovolnou omluvu místo vynuceného výkonu"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Obrátit se k paní Petrové: „Paní Petrová — pan Okonkwo zvedá důležitou věc. Předtím jste mi sama zmínila, že v zápalu hádky padla slova, kterých litujete.“",
+                    "strengths": ["Vytváří prostor pro dobrovolné přiznání místo vyžadování přiznání viny", "Odkazuje na její dřívější soukromé přiznání — připomíná jí její vlastní slova, aniž by je tvrdě odhaloval", "Uvádí fakta o legitimitě pana Okonkwa — platné povolení, platí poplatky, plné právo tu být — odstraňuje nejednoznačnost", "„Je něco, co byste mu chtěla říct“ jí dává kontrolu nad nápravou", "Omluva, která následuje, je nedokonalá, ale upřímná — protože byla facilitována, ne vynucena"],
+                    "consequences": "Paní Petrová je dlouho ticho. Pak se podívá na pana Okonkwa: „Neměla jsem to říkat. Byla jsem naštvaná kvůli bednám a řekla jsem něco ošklivého. Máte plné právo tu být. Omlouvám se.“ Pan Okonkwo pomalu přikývne. Několik přihlížejících si oddychne. Není to dokonalé, ale je to upřímné.",
+                    "trainingFocus": "Jak vytvoření prostoru pro dobrovolné přiznání vede k opravdovějšímu smíření než vynucená omluva? Proč odkaz na něčí vlastní dřívější přiznání vytváří most místo zdi?"
+                },
+                "partially_positive": {
+                    "choiceText": "Říct paní Petrové: „Paní Petrová, to, co jste panu Okonkwovi řekla, bylo nepřijatelné. Říkat někomu, ať se vrátí tam, odkud přišel, je diskriminační. Musíte se mu ihned omluvit.“",
+                    "adequate": ["Morální hodnocení je správné — výrok byl diskriminační", "Ukazuje ochotu konfrontovat rasovou dimenzi čelně", "Pan Okonkwo vidí, že strážník bere jeho stížnost vážně"],
+                    "missed": ["Vyžadovat omluvu „ihned“ před davem produkuje vynucený výkon, ne upřímné přiznání", "Paní Petrová buď odmítne (eskalace), nebo předloží dutou, zatrpklou omluvu, kterou pan Okonkwo okamžitě prokoukne", "Veřejné zahanbení starší ženy vytváří sympatii k ní, ne zodpovědnost", "Dav sleduje vynucenou omluvu — nikdo se z toho necítí dobře"],
+                    "improvement": "Facilitujte místo vyžadování. Odkažte na její vlastní dřívější soukromé přiznání. Uveďte fakta o legitimitě pana Okonkwa. Zeptejte se, zda je něco, co by mu chtěla říct. Stejná pravda přijde přes dveře, které otevře sama, místo těch, které vyrazíte vy."
+                },
+                "neutral": {
+                    "choiceText": "Obrátit se k oběma: „Myslím, že jsme udělali skutečný pokrok v otázce prostoru. Pane Okonkwo, chápu, že vás ten komentář hluboce zranil, ale paní Petrová souhlasila s přesunutím beden. Soustřeďme se na řešení a pokročme dál.“",
+                    "adequate": ["Uznává pokrok v otázce prostoru", "Projevuje povědomí o tom, že komentář způsobil bolest"],
+                    "missed": ["Staví na roveň vyřešení prostorového problému a vyřešení rasové újmy — nejsou to stejné věci", "Pan Okonkwo výslovně řekl, že komentář je samostatný problém — říct mu, ať „pokročí dál“, odmítá jeho vyjádřenou potřebu", "Upřednostňuje váš komfort a úhledné řešení před jeho důstojností", "Odchází s vědomím, že policista slyšel o rasistickém komentáři a rozhodl se ho zamést"],
+                    "improvement": "Když poškozená osoba výslovně žádá přímé přiznání, nedosazujte místo lidského spojení institucionální úhlednost. Řešení prostoru a řešení rasové újmy jsou oddělené záležitosti vyžadující oddělené řešení."
+                },
+                "negative": {
+                    "choiceText": "Přesměrovat: „Pane Okonkwo, naprosto chápu vaše pocity, a s paní Petrovou jsem o tom, co bylo řečeno, už mluvil. Nechte mě tu mezilidskou stránku řešit zvlášť — teď pojďme uzavřít dohodu o prostoru.“",
+                    "risks": ["Upírá panu Okonkwovi přiznání, o které výslovně žádal — řekl „potřebuji slyšet, že to ONA uzná“", "Směrování jeho potřeby přes vás jako prostředníka odstraňuje lidský moment, který by mohl zahájit nápravu", "„Nechte mě to řešit zvlášť“ znamená, že se to nikdy nestane — obě strany to vědí", "Prostorový problém je vyřešen, ale vztah zůstává rozbitý"],
+                    "consequences": "Pan Okonkwo mechanicky spolupracuje. Paní Petrová je ulehčená — nikdy nemusela čelit tomu, co řekla. Příští sobotu stojí vedle sebe v chladném, hořkém tichu. Spor je technicky vyřešen, ale rána hniloží.",
+                    "betterApproach": "Když někdo žádá přímé přiznání od osoby, která mu ublížila, vytvořte prostor pro ten moment místo aby jste se stavěli do role prostředníka. Facilitovaná přímá komunikace léčí; institucionální zprostředkování odkládá."
+                }
+            },
+            "keyLearningPoints": ["Vyřešení praktické dimenze sporu neřeší lidskou dimenzi — vyžadují oddělené řešení", "Facilitované dobrovolné omluvy vedou k opravdovému smíření; vynucené omluvy vedou k zatrpklému výkonu", "Když poškozená osoba žádá přímé přiznání, dosazení institucionálního vyřizování jí odebírá moment, který potřebuje", "Odkaz na něčí vlastní dřívější slova vytváří most k upřímnosti, který obvinění nemůže vybudovat"]
+        },
+        "6": {
+            "stageName": "Uzavření dohody",
+            "criticalSkills": ["Spolupráce na systémovém řešení problémů", "Zapojení všech dotčených stran do navrhování řešení", "Řešení příčin místo symptomů"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Oslovit všechny tři: „Filipe, paní Petrová, pane Okonkwo — základní problém tu nejste vy dva, ale to, že systém byl nejasný. Tak to napravme společně. Filipe, můžete dnes překreslit čáry s řádným měřením — a můžete u toho oba být, abyste viděli a odsouhlasili nové hranice? Také bych navrhl písemná přidělení pro každého prodejce a vyvěšený postup pro řešení sporů dřív, než dosáhnou tohoto bodu. Zní to všem spravedlivě?“",
+                    "strengths": ["Zapojení všech tří stran zajišťuje přijetí — řešení je spoluvytvořené, ne vnucené", "„Základní problém tu nejste vy dva“ odosobňuje vinu a otevírá prostor pro spolupráci", "Přítomnost obou prodejců při přeměřování z nových čar dělá jejich dohodu, ne nařízení", "Otázka „zní to všem spravedlivě“ dává každé osobě důstojnost souhlasu", "Písemná přidělení pro každého prodejce a vyvěšený postup pro řešení sporů adresují systémovou příčinu selhání", "Řešení má systémovou trvanlivost, protože se na něm podíleli všichni"],
+                    "consequences": "Pan Okonkwo přikývne: „To je spravedlivé. Chci vidět měření.“ Paní Petrová: „Dobře — pokud můj prostor bude stejný jako u všech ostatních.“ Filip se zavazuje překreslit během polední přestávky. Všichni tři souhlasili. Řešení vydrží, protože bylo navrženo společně.",
+                    "trainingFocus": "Proč zapojení všech dotčených stran do navrhování řešení zvyšuje pravděpodobnost jeho trvání oproti vnucení stejného řešení shora? Jaký je rozdíl mezi souhlasem a pouhým podřízením?"
+                },
+                "partially_positive": {
+                    "choiceText": "Říct Filipovi: „Musí se stát následující. Zaprvé, dnes překreslete čáry stánků — jasné, viditelné značky. Zadruhé, dejte panu Okonkwovi i paní Petrové písemnou kopii jejich přidělení s přesnými rozměry.“",
+                    "adequate": ["Systémové, konkrétní a realizovatelné — řeší příčiny", "Vytváří naléhavost se závazkem „dnes“", "Písemná přidělení eliminují budoucí nejednoznačnost", "Postup pro řešení sporů předchází budoucí eskalaci"],
+                    "missed": ["Dáváte Filipovi pokyny bez konzultace s prodejci — nebyli dotázáni na svůj názor", "Paní Petrová se obává, jestli ji nové čáry neomezí", "Pan Okonkwo se obává, jestli písemné přidělení bude odpovídat tomu, co mu bylo slíbeno", "Struktura je správná, ale přijetí je neúplné, protože byla navržena bez nich"],
+                    "improvement": "Zapojte dotčené strany do navrhování vlastního řešení. „Zní to všem spravedlivě?“ proměňuje instrukci ve společnou dohodu."
+                },
+                "neutral": {
+                    "choiceText": "Říct oběma prodejcům: „Podívejte, čáry byly nejasné — to je Filipova chyba. Ale do budoucna zůstaňte ve svých prostorech. Pokud bedny znovu přelezou přes čáru, pane Okonkwo, zavolejte nejdřív Filipovi, ne policii.“",
+                    "adequate": ["Identifikuje selhání správy jako příčinu", "Dává praktické pokyny pro budoucí chování"],
+                    "missed": ["„Selský rozum“ je despektující — kdyby to byl selský rozum, nepotřebovali by policii", "Veřejné obviňování Filipa podkopává autoritu, kterou potřebuje k prosazování budoucích pravidel", "Posílat pana Okonkwa zpět za osobou, která mu měsíce selhávala, je cirkulární", "Bez systémové opravy — příští sobotu stejné vybledlé čáry a stejná nejednoznačnost"],
+                    "improvement": "Vytvořte strukturu místo udílení rad. Překreslené čáry, písemná přidělení a postup pro řešení sporů jsou systémová řešení. „Zůstaňte ve svých prostorech“ je instrukce, která vyprší okamžikem vašeho odchodu."
+                },
+                "negative": {
+                    "choiceText": "Navrhnout oddělení: „Filipe, bylo by možné přesunout jeden ze stánků na jiné místo na trhu? Tak nebudou vedle sebe a tohle se nemůže opakovat.“",
+                    "risks": ["Oddělení obchází skutečný problém a vyvolává devastující otázku: koho přesunout?", "Přesunout pana Okonkwa — osobu, na jejíž prostor bylo zasahováno a která byla rasově napadena — vysílá zprávu, že oběť bude přemístěna", "Přesunout paní Petrovou ji trestá a odděluje od patnáctiletých věrných zákazníků", "Oddělení je to, co děláte, když řešení selže, ne náhražka pokusu o něj"],
+                    "consequences": "Oba prodejci reagují špatně. Pan Okonkwo: „Neměl bych se stěhovat kvůli tomu, že někdo jiný narušil můj prostor.“ Paní Petrová: „Jsem tu patnáct let — nikam se nestěhuju!“ Návrh je sjednotí proti vám a proti jakémukoli řešení.",
+                    "betterApproach": "Napravte systém, který způsobil konflikt — jasné čáry, písemná přidělení, postup pro řešení sporů. Fyzické oddělení se problému vyhýbá; systémová oprava ho řeší."
+                }
+            },
+            "keyLearningPoints": ["Řešení navržená se všemi dotčenými stranami vydrží déle než řešení vnucená shora", "Odosobnění viny („systém selhal“) otevírá prostor pro spolupráci, který obviňování uzavírá", "Systémové opravy — překreslené čáry, písemná přidělení, postup pro řešení sporů — řeší příčiny", "Fyzické oddělení je únikem, ne řešením — problém přesouvá místo aby ho řešilo"]
+        },
+        "7": {
+            "stageName": "Uzavření a následné kroky",
+            "criticalSkills": ["Personalizované uzavření pro každou stranu", "Zodpovědnost s přiměřenými důsledky", "Potvrzení příslušnosti a uznání růstu"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Usmát se na pana Okonkwa: „Máte právo tu být a nenechte nikoho, aby vám namluvil opak. Dnes jste se zachoval s opravdovou důstojností.“ Pak se zastavit u stánku paní Petrové: „Paní Petrová, to, co jste předtím řekla, vyžadovalo odvahu. To je důležité.“",
+                    "strengths": ["Potvrzuje panu Okonkwovi jeho příslušnost jako fakt, ne jako laskavost — hluboce smysluplné po letech pocitu marginalizace", "Uznává obtížný moment upřímnosti paní Petrové bez přehnaného chválení nebo zahanbování", "Drží Filipa k zodpovědnosti s konkrétním, přiměřeným důsledkem — příští rozhovor bude s jeho nadřízeným", "Každá osoba dostane soukromé, přizpůsobené uzavření — nikdo není předváděn", "Procházka trhem před odchodem signalizuje, že jste součástí této komunity, ne jen kolemjdoucí"],
+                    "consequences": "Pan Okonkwo se trochu narovná. Paní Petrová jednou přikývne — slyšela vás a přemýšlí. Filip vytáhne metr, ještě než jste odešli. Přihlížející kývne: „Dobrá práce, strážníku.“ Řešení vydrží, protože každá osoba má důvod, aby fungovalo.",
+                    "trainingFocus": "Proč osobní, soukromé uzavření s každou stranou přináší lepší dlouhodobé výsledky než jedno společné rozloučení? Jak potvrzení něčí příslušnosti — jako faktu, ne jako ústupku — mění jeho vztah k autoritě?"
+                },
+                "partially_positive": {
+                    "choiceText": "Oslovit oba prodejce společně: „Jste sousedé na tomhle trhu. To, co se dnes stalo, nemusí definovat váš vztah. Buďte k sobě shovívaví — možná zjistíte, že máte víc společného, než si myslíte.“",
+                    "adequate": ["Hřejivý a nadějný sentiment", "Rámuje budoucnost pozitivně", "Povzbuzuje vztah za hranicemi konfliktu"],
+                    "missed": ["Obecná rada — „buďte k sobě shovívaví“ nikoho nedrží k zodpovědnosti", "Nepotvrzuje konkrétní zkušenost pana Okonkwa ani neuznává konkrétní růst paní Petrové", "Obě strany dostávají stejný vzkaz, přestože měly dnes velmi odlišné zkušenosti", "Žádný mechanismus zodpovědnosti pro Filipa — čáry možná nikdy nebudou překresleny"],
+                    "improvement": "Personalizujte. Pan Okonkwo potřebuje slyšet, že jeho právo tu být je nezpochybnitelné. Paní Petrová potřebuje slyšet, že si její upřímnosti všiml. Filip potřebuje termín a důsledek. Různí lidé potřebují různá uzavření."
+                },
+                "neutral": {
+                    "choiceText": "Říct oběma: „Dobře, tohle je vyřešené. Pokud budou další problémy, volejte na neurgentní linku. Filipe, zajistěte ty čáry. Hezký den všem.“",
+                    "adequate": ["Potvrzuje vyřešení a poskytuje kontaktní informace pro budoucí problémy", "Připomíná Filipovi jeho závazek"],
+                    "missed": ["Transakční a neosobní — po kontaktu zahrnujícím rasovou újmu, emocionální zranitelnost a systémové selhání", "Žádné uznání toho, čím si oba prodejci prošli", "Žádný mechanismus zodpovědnosti pro Filipa kromě „zajistěte“", "Vděčnost pana Okonkwa zůstane bez odezvy; obtížné přiznání paní Petrové je ponecháno bez komentáře"],
+                    "improvement": "Když byli lidé během policejního kontaktu zranitelní, lidské uzavření trvá třicet sekund a mění trvalou vzpomínku na celý kontakt. Uzavřete to s osobou, ne jen se spisem."
+                },
+                "negative": {
+                    "choiceText": "Před odchodem oznámit přihlížejícím: „Všechno je vyřešené — jen nedorozumění ohledně prostoru stánku. Oba prodejci zůstávají a správce trhu domluví značení.“",
+                    "risks": ["Předvedení řešení pro dav proměňuje soukromý, smysluplný proces ve veřejné oznámení", "Nazvat to „jen nedorozuměním“ vymazává rasovou dimenzi, která byla jádrem sporu", "Pan Okonkwo slyší svou zkušenost — kdy mu bylo řečeno, ať se „vrátí tam, odkud přišel“ — popsanou jako „nedorozumění ohledně prostoru stánku“", "Paní Petrová se uvolní — veřejný příběh ji zbavuje zodpovědnosti za růst, který začínala prodělávat"],
+                    "consequences": "Dav je uklidněn, ale pan Okonkwo odvrátí pohled. Právě slyšel, jak policista veřejně definoval jeho zkušenost jako triviální. Pokrok dosažený v soukromí je zrušen veřejným výkonem, který zlehčuje vše, na čem záleželo.",
+                    "betterApproach": "Vaším publikem není dav — jsou to lidé, jejichž životy vaše rozhodnutí ovlivňuje. Uzavřete kontakt s nimi, pro ně, o jejich konkrétních zkušenostech a dalších krocích."
+                }
+            },
+            "keyLearningPoints": ["Poslední slova kontaktu formují trvalou vzpomínku na celou interakci", "Různé strany potřebují různá uzavření — personalizace ukazuje, že jste viděli každou osobu jako jednotlivce", "Zodpovědnost bez termínu a důsledku je návrh, ne zodpovědnost", "Veřejné předvedení řešení při zlehčení jeho složitosti ruší pokrok dosažený v soukromí"]
+        }
+    },
+    "comprehensiveMetrics": {
+        "impartialMediation": {
+            "description": "Demonstrování viditelné spravedlnosti vůči všem stranám — stejné naslouchání panu Okonkwovi i paní Petrové, neutrální prezentace důkazů z mapy stánků a spolupráce na navrhování řešení místo vnucování rozsudků",
+            "indicators": {
+                "excellent": ["Pan Okonkwo i paní Petrová se po celou dobu kontaktu cítí vyslyšeni a respektováni", "Důkazy z mapy stánků sdíleny transparentně s oběma stranami, nepoužity jako zbraň proti žádné z nich", "Čas a pozornost rozloženy rovnoměrně — žádný z prodejců není považován za výchozí autoritu nebo výchozí problém", "Proces vnímán přihlížejícími jako spravedlivý bez ohledu na faktický výsledek"],
+                "poor": ["S jedním prodejcem jednáno jako s legitimním a s druhým jako s vetřelcem na základě délky působení nebo původu", "Důkazy prezentovány jako rozsudek proti jedné straně bez systémového kontextu", "Přistoupení k jedné straně jako první nebo výrazně více času stráveno s jednou stranou", "Přihlížející vnímají, že strážník zaujal stranu od začátku"]
+            }
+        },
+        "culturalAwareness": {
+            "description": "Rozpoznání a přímé řešení rasových a kulturních dimenzí sporu — komentáře „vrať se tam, odkud jsi přišel“, nacionalistických podtónů ve vyjadřování paní Petrové a zkušenosti pana Okonkwa jako prodejce-přistěhovalce",
+            "indicators": {
+                "excellent": ["Rasový komentář výslovně uznán jako oddělená, vážná záležitost — nesměšován se sporoem o prostor", "Nacionalistické vyjadřování paní Petrové řešeno facilitací, ne obviňováním — vytvoření prostoru pro dobrovolné přiznání", "Právo pana Okonkwa na příslušnost potvrzeno jako fakt, ne jako ústupek", "Kulturní dimenze vpleteny do řešení místo aby byly obcházeny nebo připojeny jako dodatečný nápad"],
+                "poor": ["Rasový komentář zlehčen jako „něco řečeného v hněvu“ nebo zcela ignorován", "Nacionalistické podtóny ve vyjadřování paní Petrové ponechány bez komentáře", "Zkušenost pana Okonkwa s diskriminací považována za vedlejší oproti „skutečnému“ prostorovému problému", "Strážník obchází kulturní dimenzi, protože prostorový problém se řeší snáze"]
+            }
+        },
+        "factFinding": {
+            "description": "Sběr objektivních důkazů — mapa přidělení stánků, fyzické uspořádání, vybledlé křídové čáry, Filipovo přiznání, potvrzení přihlížejícího — před formováním závěrů nebo přijetím opatření",
+            "indicators": {
+                "excellent": ["Mapa stánků prozkoumána před jakýmkoli úsudkem o tom, kdo je na vině", "Fyzické důkazy (bedny za čárou, stlačená výstava) pozorovány nezávisle před výpovědí kterékoli strany", "Filipovy institucionální znalosti a přiznání selhání správy zapracovány do analýzy", "Pozorování přihlížejícího použito k potvrzení vzorce místo spoléhání na soupeřící výpovědi"],
+                "poor": ["Úsudek utvořen na základě toho, kdo mluvil první nebo hlasitěji", "Fyzické důkazy ignorovány ve prospěch výpovědi jedné strany", "Filipova role v systémovém selhání nevyšetřována nebo neřešena", "Žádné nezávislé ověření — mediace založená výhradně na tvrzeních místo faktů"]
+            }
+        },
+        "conflictResolution": {
+            "description": "Budování systémových, trvalých dohod řešících příčiny — nejasné hranice stánků, zastaralé mapy, chybějící postup řešení sporů — místo dočasných oprav potlačujících symptomy",
+            "indicators": {
+                "excellent": ["Systémové řešení zahrnuje překreslené čáry, písemná přidělení a vyvěšený postup řešení sporů", "Oba prodejci zapojeni do navrhování řešení — souhlas místo pouhého podřízení", "Příčina (selhání správy v udržování jasných hranic) řešena přímo", "Řešení je trvalé — předchází opakování stejného konfliktu příští sobotu"],
+                "poor": ["Prostorový problém vyřešen dnes bez systémové změny předcházející opakování", "Řešení vnuceno bez vstupu dotčených stran", "Příčina (nejasné hranice, chybějící proces) ponechána neřešena", "Problém předán zpět správě, která ho již nedokázala vyřešit"]
+            }
+        },
+        "communityTrust": {
+            "description": "Posilování důvěry tržní komunity v policii prostřednictvím kvality, spravedlnosti a lidskosti tohoto kontaktu — zvláště pro prodejce-přistěhovalce a pozorně přihlížející",
+            "indicators": {
+                "excellent": ["Každá viditelná akce posiluje, že policie zprostředkovává spravedlivě místo zaujímání stran", "Pan Okonkwo — prodejce-přistěhovalec — odchází s pocitem, že jeho právo na příslušnost bylo strážníkem potvrzeno", "Přihlížející byli svědky mediace založené na faktech, transparentní a s personalizovaným uzavřením", "Oba prodejci věří, že kontakt byl dostatečně spravedlivý na to, aby spolupracovali s výsledkem"],
+                "poor": ["Kontakt posiluje pocit pana Okonkwa, že ho instituce nechrání", "Přihlížející vnímají, že strážník stranil déle usazenému prodejci", "Řešení předvedeno pro dav při zlehčení rasové dimenze", "Důvěra zničena nepřiměřeným jednáním, odmítnutím diskriminace nebo performativním uzavřením"]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "culturalAvoidance": {
+            "pattern": "Vyhýbání se rasové a kulturní dimenzi, protože prostorový problém se řeší snáze",
+            "examples": ["Soustředění pouze na hranici stánku při ignorování komentáře „vrať se tam, odkud jsi přišel“", "Sdělení panu Okonkwovi „nedělejme z toho víc než spor o prostor“", "Nikdy nezmínit komentář v rozhovoru s paní Petrovou", "Veřejné popsání řešení jako „jen nedorozumění ohledně prostoru stánku“"],
+            "impact": "Pan Okonkwo se naučí, že nahlášení rasového obtěžování policii nic nezmění. Paní Petrová se naučí, že její vyjadřování nemá žádné důsledky. Každý přihlížející, který komentář slyšel, se naučí, že policie nepovažuje rasovou nepřátelskost za hodnou řešení. Prostorový problém může být vyřešen, ale lidská rána hniloží a stejná dynamika se vrací.",
+            "correction": "Adresujte obě dimenze výslovně. Uznejte rasový komentář jako oddělený, vážný problém. Vytvořte prostor pro paní Petrovou, aby dobrovolně uznala svá slova. Potvrďte právo pana Okonkwa na příslušnost. Vyhýbání se nepohodlí není nestrannost — je to volba status quo."
+        },
+        "prematureJudgment": {
+            "pattern": "Formování závěrů před sběrem důkazů nebo vyslechnutím všech stran",
+            "examples": ["Přikázání oběma prodejcům, ať zmlknou, bez porozumění konfliktu", "Sdělení paní Petrové, že její bedny jsou na jeho straně, před kontrolou mapy stánků", "Přijetí Filipova podání bez zpochybnění jeho role v selhání správy", "Požadavek na svědky od pana Okonkwa jako první reakce na jeho výpověď"],
+            "impact": "Strážník se stává vykonavatelem prvních dojmů místo mediátora založeného na faktech. Strana, která je předčasně posouzena, ztrácí důvěru v proces. Přihlížející vidí úsudek před vyšetřením a usuzují, že výsledek byl předem určen.",
+            "correction": "Na sekvenci záleží: prohlédněte si místo, vyzpovídejte správce, vyslechněte obě strany zvlášť, zkontrolujte důkazy, pak — a teprve pak — prezentujte zjištění. Šedesát sekund vyšetřování zabrání šedesáti minutám nápravy škod."
+        },
+        "systemicBlindness": {
+            "pattern": "Zacházení s konfliktem jako s osobním sporem při ignorování institucionálního selhání, které ho způsobilo",
+            "examples": ["Říkat prodejcům, ať „zůstanou ve svých prostorech“, když čáry jsou vybledlé a nikdo neví, kde ty prostory jsou", "Předání problému zpět Filipovi bez systémových požadavků na změnu", "Vyřešení dnešního přesahu bez řešení zastaralé mapy, chybějících písemných přidělení nebo absence postupu řešení sporů", "Obviňování paní Petrové za umístění beden, aniž by bylo zmíněno, že hranice byla prakticky neviditelná"],
+            "impact": "Stejný konflikt se opakuje příští sobotu se stejnými nejasnými čárami, stejnou nepřítomnou správou a stejnou frustrací — ale nyní s menší důvěrou v policejní zapojení. Léčení symptomů bez řešení systému je neúplná policejní práce.",
+            "correction": "Identifikujte příčinu a zabudujte systémové opravy do řešení. Překreslené čáry, písemná přidělení a vyvěšený postup řešení sporů adresují systém. Zapojte všechny strany — včetně správce — do navrhování a závazku k systémovému řešení."
+        },
+        "imbalancedListening": {
+            "pattern": "Přikládání větší váhy, času nebo důvěryhodnosti jedné straně na základě délky působení, obeznámenosti nebo vnímané autority",
+            "examples": ["Zacházení s patnáctiletým působením paní Petrové jako s inherentně legitimnějším než tříleté přítomnosti pana Okonkwa", "Více času stráveného s prodejcem, který mluví asertivněji nebo který „zavolal první“", "Přijetí Filipovy charakteristiky „zase ti dva“ bez zkoumání jeho selhání ve správě", "Ponechání paní Petrové rámovat se jako „Češka na českém trhu“ bez komentáře, zatímco tvrzení pana Okonkwa jsou přezkušována"],
+            "impact": "Nerovnoměrné naslouchání vytváří viditelnou nespravedlnost, která poškozuje důvěru v proces a jeho výsledek. Pan Okonkwo — již senzitivní na to, že je s ním zacházeno jako s méně hodnotným — vnímá každou asymetrii. Pozorně přihlížející si tvoří vlastní závěry o tom, čí hlas pro policii má váhu.",
+            "correction": "Rozložte čas, pozornost a důvěryhodnost rovnoměrně. Používejte důkazy místo tvrzení k určení faktů. Oba mají platné povolení a platí poplatky — délka působení nevytváří hierarchii na veřejném trhu."
+        },
+        "performativeClosure": {
+            "pattern": "Uzavření kontaktu pro publikum místo pro lidi v jádru sporu",
+            "examples": ["Oznámení davu, že „všechno je vyřešené“ při zlehčení rasové dimenze", "Obecné skupinové rozloučení místo personalizovaného uzavření pro každou stranu", "Popsání složitého, vrstveného sporu jako „jen nedorozumění“ pro veřejnou spotřebu", "Odchod bez potvrzení Filipových systémových závazků nebo stanovení jeho zodpovědnosti"],
+            "impact": "Veřejný příběh vymazává složitost, kterou soukromá mediace ctila. Pan Okonkwo slyší svou zkušenost zredukovanou na banalitu. Obtížný růst paní Petrové je zneviditelněn. Filip unikne zodpovědnosti, protože nebyl stanoven žádný termín ani důsledek. Dobré divadlo, špatné řešení.",
+            "correction": "Uzavřete soukromě s každou stranou. Potvrďte panu Okonkwovi jeho příslušnost. Uznejte upřímnost paní Petrové. Stanovte Filipovi termín s pojmenovaným důsledkem. Projděte se trhem před odchodem. Publikum, na kterém záleží, není dav — jsou to lidé, jejichž životy vaše rozhodnutí ovlivňuje."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Vynikající nestranná mediace. Předvedli jste kompletní sadu dovedností pro vícevrstvé tržní spory: důkladné zjišťování faktů před úsudkem, viditelnou nestrannost mezi oběma prodejci, přímé zapojení se do rasové dimenze, spolupráci na navrhování systémového řešení se zapojením všech stran včetně správce trhu a personalizované uzavření, které potvrdilo příslušnost pana Okonkwa, uznalo růst paní Petrové a drželo Filipa k zodpovědnosti. Každý přihlížející — každý stálý zákazník — viděl policejní práci, která buduje mosty v rozmanité komunitě. Toto je standard.",
+            "mostlyPositive": "Silný mediační výkon s dobrými instinkty pro spravedlnost a řešení založené na důkazech. Udrželi jste nestrannost mezi panem Okonkwem a paní Petrovou a pracovali směrem k systémovému řešení. Některé příležitosti byly promeškány — možná v plném řešení rasového komentáře, facilitaci přímého přiznání mezi prodejci, nebo personalizaci uzavření pro každou stranu — ale váš celkový přístup byl profesionální, důkladný a budoval důvěru.",
+            "mixed": "Prokázali jste kompetenci v některých oblastech, ale s plnou složitostí tohoto vícevrstvého tržního sporu jste se potýkali. Silné stránky zahrnovaly [KONKRÉTNÍ_POZITIVUM], ale klíčové příležitosti byly promeškány v [KONKRÉTNÍ_MEZERA]. Prostudujte si rovnováhu mezi řešením prostorového problému (snazší vrstva) a adresováním rasové dimenze (nezbytná vrstva) a procvičte facilitaci přímé komunikace mezi konfliktnímí stranami.",
+            "mostlyNegative": "Tento scénář odhalil výrazné mezery v nestranné mediaci a kulturním povědomí. I když jste řešili některý aspekt sporu, většina voleb se klonila k obcházení rasové dimenze, předčasnému úsudku nebo povrchnímu řešení bez systémového sledování. Tržní spory zahrnující kulturní tenze jsou místem, kde se důvěra komunity buduje nebo láme — prostudujte si zásady procesní spravedlnosti, protokoly kulturní citlivosti a mediační techniky založené na důkazech.",
+            "allNegative": "Váš přístup zacházel se složitým, vrstveným sporem jako s jednoduchým vynucovacím zásahem. Rasová dimenze byla ignorována nebo zlehčena. Zjišťování faktů bylo nedostatečné nebo chybělo. Systémová příčina — nejasné hranice a nepřítomná správa — zůstala neřešena. Zkušenost pana Okonkwa s diskriminací byla odmítnuta a řešení pravděpodobně nepřežije do příští soboty. To vyžaduje zásadní přeorientování směrem k nestranné mediaci, kulturnímu povědomí a policejní práci založené na důkazech."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Beru vážně to, co jste popsal — všechno. Problém s prostorem i to, co vám bylo řečeno.",
+            "Nikomu by se nemělo říkat, že na trh nepatří, když má platné povolení.",
+            "Vidím, že vám na vašem místě tady velmi záleží, a patnáct let je dlouhá doba. To respektuji.",
+            "Můžete mi říct, co bylo řečeno?",
+            "Systém selhal u vás obou. Tohle není zcela vina ani jednoho z vás — čáry měly být jasné od začátku.",
+            "Pan Okonkwo je vaším sousedem na tomhle trhu tři roky. Má platné povolení, platí poplatky a má plné právo tu být — stejně jako vy. Je něco, co byste mu chtěla říct?",
+            "Základní problém tu nejste vy dva, ale to, že systém byl nejasný. Tak to napravme společně.",
+            "Máte právo tu být a nenechte nikoho, aby vám namluvil opak. Dnes jste se zachoval s opravdovou důstojností.",
+            "Paní Petrová, to, co jste předtím řekla, vyžadovalo odvahu. To je důležité."
+        ],
+        "poorPhrases": [
+            "Nedělejme z toho víc než spor o prostor. Lidi v hněvu říkají věci, které nemyslí vážně.",
+            "Slyšel to ještě někdo? Máte svědky?",
+            "Nepotřebuji tu historii. Otázka je jednoduchá: jsou vaše bedny na jeho straně, nebo ne?",
+            "Tohle zní jako záležitost správy trhu, ne policejní věc.",
+            "Musíte se mu ihned omluvit.",
+            "Pokud budou další problémy, volejte na neurgentní linku. Hezký den všem.",
+            "Všechno je vyřešené — jen nedorozumění ohledně prostoru stánku.",
+            "Filipe, bylo by možné přesunout jeden ze stánků na jiné místo?"
+        ],
+        "analysisCriteria": {
+            "impartiality": "Demonstrovala fráze viditelnou neutralitu vůči všem stranám a pozorovatelům, nebo signalizovala přiklonění k jednomu prodejci?",
+            "culturalSensitivity": "Zabývala se fráze rasovými a kulturními dimenzemi respektujícím a přímým způsobem, nebo se jim vyhýbala či je zlehčovala?",
+            "evidenceBased": "Opírala se fráze o ověřená fakta — mapu stánků, fyzické uspořádání, svědectví — nebo o předpoklady a první dojmy?",
+            "agency": "Zacházela fráze s každým prodejcem jako s účastníkem vlastního řešení, nebo jako se subjektem autority přijímajícím instrukce?",
+            "facilitation": "Vytvářela fráze prostor pro upřímnou komunikaci mezi stranami, nebo dosazovala institucionální vyřizování místo lidského spojení?",
+            "sustainability": "Přispívala fráze k trvalému systémovému řešení, nebo k dočasné opravě, která vyprší do příští soboty?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Správci trhů mají institucionální znalosti — mapy stánků, historii, selhání správy — které ukotvují mediaci ve faktech. Šedesát sekund dotazování Filipa a nezávislého pozorování místa vám poskytlo kontext, který žádná z výpovědí prodejců sama o sobě nemohla poskytnout.",
+        "2": "Když někdo nahlásí praktický problém i diskriminační zkušenost, řešení pouze prostorového problému mu říká, že jste zvolili pohodlnou cestu. Nahlášení pana Okonkwa, že mu bylo řečeno, ať se „vrátí tam, odkud přišel“, vyžadovalo výslovné uznání — ne předjímání odsouzení paní Petrové, ale uznání, že obě vrstvy stížnosti byly vyslyšeny.",
+        "3": "Defenzivní osoby potřebují potvrzení, než mohou slyšet obtížné pravdy. Patnáctileté působení paní Petrové je pro ni skutečné a důležité — ctění toho před otázkou na rasový komentář vytvořilo podmínky pro upřímné přiznání, které by konfrontace zabránila.",
+        "4": "Důkazy proměňují spory z „tvrzení proti tvrzení“ v řešitelné problémy. Mapa stánků, vybledlé křídové čáry, Filipovo přiznání špatného řízení a potvrzení přihlížejícího posunuly dynamiku z osobní viny na systémové selhání — a systémová selhání mají systémová řešení.",
+        "5": "Facilitované dobrovolné přiznání léčí; vynucené omluvy předvádějí. Odkaz na vlastní dřívější soukromé přiznání paní Petrové a uvedení faktů o legitimitě pana Okonkwa vytvořily most, po kterém se mohla rozhodnout přejít. Nedokonalé, ale upřímné „omlouvám se“, které následovalo, mělo větší cenu než jakýkoli vynucený výkon.",
+        "6": "Řešení navržená se všemi dotčenými stranami vydrží déle než řešení vnucená shora. Zapojení pana Okonkwa, paní Petrové a Filipa do navrhování systémové opravy — překreslené čáry, písemná přidělení, postup řešení sporů — proměnilo pouhé podřízení v souhlas.",
+        "7": "Různí lidé potřebují různá uzavření. Potvrzení práva pana Okonkwa na příslušnost, uznání odvahy paní Petrové přiznat svá slova a stanovení zodpovědnosti Filipa s konkrétním důsledkem — každá osoba dostala to, co potřebovala, aby nesla řešení dál. Poslední slova kontaktu formují trvalou vzpomínku na celou interakci."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Pokročilá nestranná mediace — školení ostatních ve vícestranném řešení obchodních sporů", "Vedení v kulturní kompetenci — budování inkluzivního tržního a komunitního prostředí", "Systémové řešení problémů — navrhování institucionálních oprav přetrvávajících déle než jednotlivé zásahy", "Facilitativní dialogové techniky pro adresování rasových a kulturních tenzí"],
+            "good": ["Rozšířené mediační dovednosti — facilitace přímé komunikace mezi konfliktnímí stranami", "Prohlubování kulturního povědomí — rozpoznání a řešení nacionalistických a diskriminačních podtónů", "Řešení sporů založené na důkazech — použití fyzických důkazů a institucionálních záznamů k ukotvení mediace", "Techniky personalizovaného uzavření — přizpůsobení zakončení konkrétní zkušenosti každé strany"],
+            "average": ["Základní zásady nestranné mediace — viditelná spravedlnost, stejné naslouchání, transparentní sdílení důkazů", "Základy kulturní citlivosti — zapojení se do rasových dimenzí místo jejich obcházení", "Zjišťování faktů před úsudkem — role map stánků, fyzických důkazů a výpovědí třetích stran", "Systémové versus symptomatické řešení — budování dohod přetrvávajících déle než dnešní den"],
+            "poor": ["Základy procesní spravedlnosti — hlas, transparentnost, neutralita, respekt vůči všem stranám", "Protokoly kulturního povědomí a antidiskriminace — rozpoznání a reakce na rasovou nepřátelskost", "Policejní práce založená na důkazech v obchodních sporech — objektivní vyšetřování před subjektivním úsudkem", "Základy řešení konfliktů — spolupráce na řešení problémů versus vynucování v občanských sporech"]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Celkové shrnutí výkonu", "content": ["Celkové skóre a úroveň výkonu", "Klíčové silné stránky napříč sedmi fázemi", "Kritické slabiny a promeškané příležitosti", "Celková trajektorie — zlepšoval se výkon, nebo se zhoršoval v průběhu kontaktu?"]},
+            {"title": "Analýza jednotlivých fází", "content": ["Volba provedená v každé ze sedmi fází", "Dopad na pana Okonkwa, paní Petrovou, Filipa a přihlížející", "Alternativní přístupy a jejich pravděpodobné důsledky", "Klíčové poznatky z každé fáze"]},
+            {"title": "Hodnocení nestrannosti a spravedlnosti", "content": ["Dostali oba prodejci stejný čas, pozornost a důvěryhodnost?", "Byly důkazy prezentovány transparentně všem stranám?", "Bylo řešení navrženo spolupracujícím způsobem, nebo vnuceno?", "Jak přihlížející vnímali spravedlnost procesu?"]},
+            {"title": "Hodnocení kulturního povědomí", "content": ["Byl komentář „vrať se tam, odkud jsi přišel“ řešen výslovně?", "Bylo se nacionalistickým vyjadřováním paní Petrové zabýváno, nebo bylo obcházeno?", "Bylo právo pana Okonkwa na příslušnost jasně potvrzeno?", "Byly kulturní dimenze integrovány do řešení, nebo řešeny odděleně od „skutečného“ problému?"]},
+            {"title": "Kvalita zjišťování faktů a důkazů", "content": ["Byla mapa přidělení stánků prozkoumána před formováním závěrů?", "Byla Filipova role v selhání správy vyšetřena a řešena?", "Bylo potvrzení přihlížejícího použito k ověření vzorce?", "Byla zjištění transparentně sdílena s oběma stranami?"]},
+            {"title": "Kvalita systémového řešení", "content": ["Řeší dohoda příčiny — nejasné hranice, zastaralou mapu, chybějící postupy?", "Byly všechny dotčené strany zapojeny do navrhování řešení?", "Existuje zodpovědnost — kdo co udělá, do kdy, s jakým důsledkem za nesplnění?", "Vydrží toto řešení příští sobotu, nebo se stejný konflikt bude opakovat?"]},
+            {"title": "Efektivita komunikace", "content": ["Nejlepší dialogové momenty — fráze, které budovaly důvěru a otevíraly prostor", "Kontraproduktivní fráze — slova, která zavřela dveře nebo poškodila důvěru", "Kvalita facilitace — byla umožněna přímá komunikace mezi stranami, nebo nahrazena?", "Analýza závěrečného prohlášení — personalizované a odpovědné, nebo obecné a performativní?"]},
+            {"title": "Profesní rozvoj", "content": ["Bezprostřední potřeby školení na základě výkonnostních mezer", "Dlouhodobé priority rozvoje dovedností", "Doporučené zdroje pro nestrannou mediaci a kulturní kompetenci", "Aplikace v praxi — jak se to převádí do výjezdů na trhy, obchodních sporů a multikulturní komunitní policejní práce"]}
+        ]
+    }
+}

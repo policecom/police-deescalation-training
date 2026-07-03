@@ -1,0 +1,194 @@
+{
+  "loading": {
+    "title": "Načítání tréninkových modulů...",
+    "progress": "Načítání..."
+  },
+  "error": {
+    "title": "Nepodařilo se načíst tréninková data",
+    "message": "Zkontrolujte prosím připojení a zkuste to znovu.",
+    "retry": "Zkusit znovu",
+    "runtime": "Chyba běhu",
+    "scenarioLoad": "Nepodařilo se načíst scénář",
+    "languageSwitch": "Přepnutí jazyka se nezdařilo. Zkuste to prosím znovu."
+  },
+  "header": {
+    "title": "🚔 Trénink deeskalace konfliktů",
+    "subtitle": "Pokročilý systém policejní komunikace"
+  },
+  "welcome": {
+    "title": "Trénink policejní komunikace",
+    "selectScenario": "Vyberte scénář pro zahájení tréninku",
+    "mainTitle": "🎯 Trénink deeskalace konfliktů",
+    "description": "Osvojte si základní komunikační techniky prostřednictvím reálných scénářů. Naučte se deeskalovat konflikty, projevovat empatii a sloužit své komunitě s excelencí.",
+    "startButton": "Začít trénink",
+    "heroTitle": "Trénink policejní deeskalace",
+    "heroSubtitle": "Osvojte si základní komunikační techniky prostřednictvím reálných scénářů. Naučte se deeskalovat konflikty, projevovat empatii a sloužit své komunitě s excelencí.",
+    "selectLanguage": "Vyberte svůj jazyk",
+    "layoutLabel": "Použít na",
+    "layoutComputer": "Počítač",
+    "layoutPhone": "Telefon",
+    "chooseScenario": "Vyberte scénář níže a začněte"
+  },
+  "app": {
+    "title": "Trénink deeskalace"
+  },
+  "scenarios": {
+    "title": "Vyberte si tréninkový scénář",
+    "subtitle": "Dokončete scénáře, získejte odznaky a zlepšete své dovednosti",
+    "scenario": "Scénář",
+    "minutes": "min",
+    "available": "dostupných scénářů",
+    "stages": "fází",
+    "difficulty": {
+      "easy": "Snadný",
+      "medium": "Střední",
+      "hard": "Těžký",
+      "expert": "Expert"
+    }
+  },
+  "instructor": {
+    "defaultName": "Načítání...",
+    "defaultMessage": "Příprava briefingu scénáře...",
+    "beginButton": "Začít scénář"
+  },
+  "game": {
+    "score": "Skóre",
+    "stage": "Fáze",
+    "of": "z",
+    "choicePrompt": "Reakce policisty:",
+    "timeRemaining": "⏱️ Zbývající čas:",
+    "confidence": "Jistota:",
+    "submitButton": "Odeslat odpověď",
+    "retryNegative": "Zkuste prosím jiný přístup.",
+    "retryNeutral": "Můžete zkusit lepší přístup.",
+    "backToScenarios": "Zpět na scénáře",
+    "confirmLeave": "Opravdu chcete odejít? Váš postup v tomto scénáři bude ztracen.",
+    "tabChoices": "Volby",
+    "tabDialogue": "Dialog",
+    "whatDoYouDo": "Co uděláte?"
+  },
+  "trainer": {
+    "title": "Tréninkový instruktor",
+    "feedback": {
+      "excellent": "Vynikající odpověď!",
+      "good": "Dobrý přístup!",
+      "neutral": "To by mohlo fungovat, ale existuje lepší způsob.",
+      "poor": "Tento přístup potřebuje zlepšení."
+    }
+  },
+  "feedback": {
+    "excellent": "Výborná volba",
+    "acceptable": "Přijatelná volba",
+    "suboptimal": "Neoptimální volba",
+    "poor": "Špatná volba"
+  },
+  "review": {
+    "button": "📊 Zobrazit tréninkovou zprávu",
+    "title": "🏆 Přehled tréninkové relace",
+    "complete": "Trénink dokončen",
+    "wellDone": "Dobrá práce!",
+    "viewComplete": "Zobrazit kompletní přehled",
+    "perfect": "Perfektní!",
+    "excellent": "Vynikající",
+    "good": "Dobré",
+    "needsImprovement": "Potřebuje zlepšení",
+    "restart": "Začít znovu",
+    "scoreLabel": "Konečné skóre",
+    "mistakesLabel": "Celkem chyb",
+    "firstTryLabel": "Správně napoprvé",
+    "keyLessons": "Klíčové ponaučení",
+    "grade": "Známka",
+    "performanceSummary": "Shrnutí výkonu",
+    "whatReallyHappened": "Co se skutečně stalo",
+    "yourChoices": "Vaše volby",
+    "totalChoices": "Celkem voleb",
+    "optimal": "Optimální",
+    "acceptable": "Přijatelné",
+    "suboptimal": "Neoptimální",
+    "poor": "Špatné",
+    "retries": "Opakování",
+    "stageByStage": "Přehled po fázích",
+    "recommendedTraining": "Doporučený trénink",
+    "scenarioInsights": "Poznatky ze scénáře",
+    "startNew": "Zahájit nový trénink",
+    "performanceLevel": {
+      "outstanding": "Vynikající výkon",
+      "good": "Dobrý výkon",
+      "average": "Průměrný výkon",
+      "needsImprovement": "Potřebuje zlepšení"
+    }
+  },
+  "stageReview": {
+    "attempts": "{{count}} pokusů",
+    "attempt": "Pokus {{number}}",
+    "partial": "Částečné",
+    "keyLearningPoints": "Klíčové ponaučení"
+  },
+  "badge": {
+    "earned": "Odznak získán!",
+    "continue": "Pokračovat",
+    "types": {
+      "completion": "Scénář dokončen",
+      "perfect": "Perfektní běh",
+      "master": "Mistr komunikace"
+    }
+  },
+  "choiceType": {
+    "positive": "Pozitivní",
+    "negative": "Negativní",
+    "neutral": "Neutrální",
+    "partially_positive": "Částečné"
+  },
+  "polcomModules": {
+    "AL": "Naslouchání",
+    "RNDC": "Respekt",
+    "CHPS": "Pod tlakem",
+    "CDR": "Deeskalace",
+    "NPT": "Vyjednávání",
+    "EIC": "Emoc. intel."
+  },
+  "messages": {
+    "selectLanguage": "Vybrat jazyk",
+    "languageChanged": "Jazyk úspěšně změněn",
+    "savingProgress": "Ukládání postupu...",
+    "progressSaved": "Postup uložen"
+  },
+  "reviewManager": {
+    "stageByStageAnalysis": "📊 Analýza podle fází",
+    "attempt": "Pokus",
+    "yourChoice": "Vaše volba",
+    "goodChoice": "Dobrá volba!",
+    "poorChoice": "Špatná volba:",
+    "neutralChoice": "Neutrální volba:",
+    "strengths": "Silné stránky:",
+    "issues": "Problémy:",
+    "missedOpportunities": "Zmeškaná příležitosti:",
+    "trainingFocus": "📚 Zaměření výcviku:",
+    "keyLessons": "🎯 Klíčové poznatky z této fáze:",
+    "mistakesSummary": "❌ Souhrn chyb",
+    "mistakesMade": "Udělali jste",
+    "incorrectChoices": "nesprávných voleb",
+    "duringScenario": "během tohoto scénáře. Zde je to, co si zapamatovat:",
+    "stage": "Fáze",
+    "patternsToAddress": "⚠️ Vzorce k řešení",
+    "recommendedTraining": "📚 Doporučený výcvik",
+    "keyTakeaways": "🎯 Klíčová ponaučení",
+    "choiceFallback": "Volba byla provedena"
+  },
+  "custom": {
+    "ribbon": "Vlastní",
+    "edit": "Upravit",
+    "export": "Export",
+    "delete": "Smazat",
+    "addTitle": "Vlastní scénář",
+    "addSub": "Vytvořit, nahrát a zahrát vlastní scénář",
+    "chooserTitle": "Vlastní scénář",
+    "chooserLead": "Vytvořte si vlastní výcvikový scénář, nebo nahrajte hotový soubor a zahrajte si ho se svou skupinou.",
+    "create": "Vytvořit v editoru",
+    "upload": "Nahrát soubor(y)",
+    "uploadHint": "Nahrajte soubor scénáře (a volitelně soubor review). Před uložením se ověří struktura.",
+    "deleteConfirm": "Opravdu smazat vlastní scénář",
+    "exportError": "Export se nezdařil",
+    "deleteError": "Smazání se nezdařilo"
+  }
+}

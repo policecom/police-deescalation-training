@@ -1,0 +1,432 @@
+{
+    "id": 4,
+    "title": "Mental Health Crisis",
+    "description": "Advanced scenario involving a woman in acute mental health crisis outside a pharmacy, a concerned but impatient pharmacy worker who called police, a protective bystander, and an arriving family member. The officer must balance crisis intervention with business concerns, consent-based engagement, and connecting the person to appropriate services rather than the criminal justice system.",
+    "icon": "🧠",
+    "difficulty": 4,
+    "duration": "14-18",
+    "instructor": {
+        "name": "Sergeant Okafor",
+        "avatar": "👮‍♂️",
+        "introduction": "Mental health crisis calls are among the most consequential encounters in policing. Research consistently shows that people experiencing a mental health crisis are far more likely to be victims of violence than perpetrators — yet these calls carry enormous risk when handled with a law-enforcement-first mindset rather than a care-first approach. Crisis Intervention Team training teaches us that calm presence, time, active listening, and offering choices are more effective than commands and control. NAMI principles emphasize that the person in crisis is not a suspect — they are someone in pain. Today, you will respond to a call about a woman 'acting strangely' on a commercial street. How you approach her in the first sixty seconds will determine whether this ends in connection to care or in trauma that deepens her distrust of every system meant to help her. Your goal is not to resolve the crisis — it is to create enough safety and trust that she can accept help willingly."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-4-complete"],
+    "perfectBadge": "perfect-scenario-4",
+    "finalMessage": {
+        "revelation": "Elena Marchetti is a 34-year-old graphic designer and mother of two who was voluntarily admitted to the hospital three days ago after a severe anxiety episode triggered by a medication change for her bipolar disorder. The new medication caused auditory hallucinations — a terrifying side effect she had never experienced before. When a night-shift nurse she didn't recognize entered her room at 2 AM to take vitals, Elena panicked, believing she was in danger, and left the hospital in her gown and street clothes. She walked for hours, disoriented, before sitting down outside the pharmacy where she once picked up her prescriptions — a place her confused mind associated with safety and medication. The hospital wristband she still wore was her lifeline back to treatment. Her sister Sofia had been calling hospitals and driving through the neighborhood for hours. After your intervention, Elena returned to the hospital voluntarily with Sofia, where her psychiatrist adjusted her medication. She later told her therapist that the officer who responded was the first person that day who made her feel like a human being instead of a problem to be solved. She has since stabilized, returned to work part-time, and volunteers with a local crisis line.",
+        "keyLessons": [
+            "People in mental health crisis are overwhelmingly more likely to be victims than perpetrators — approach with care, not tactical caution",
+            "The first 60 seconds set the trajectory: distance, tone, pace, and body language communicate safety or threat before any words are spoken",
+            "Offering choices rather than commands restores agency to someone who feels they have lost all control",
+            "A hospital wristband, medication bottles, or other medical indicators are critical context clues — observe before acting",
+            "Family members arriving in crisis need their own de-escalation — their panic can re-escalate the person you have calmed",
+            "Connecting someone to voluntary services produces better long-term outcomes than involuntary transport in nearly all non-emergency situations",
+            "How police handle mental health calls shapes community trust in both law enforcement and the mental health system for years"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Arrival Assessment",
+            "sceneUpdate": {
+                "emoji": "🏪",
+                "title": "Pharmacy Entrance — Late Morning",
+                "desc": "You arrive at a pharmacy on a moderately busy commercial street. A woman in her mid-30s sits on the pavement near the entrance, rocking slightly, arms wrapped around her knees. She is wearing jeans and a wrinkled blouse, and a white hospital wristband is visible on her left wrist. A man in a pharmacy polo watches from the doorway. An older woman with a shopping bag stands a few meters away, looking concerned. No weapons visible. No aggressive behavior."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unit responding to Oakfield Road, Henderson's Pharmacy. Caller is a pharmacy employee reporting a woman 'acting strangely' outside the entrance — talking to herself, pacing, sitting on the ground. Caller says she's been there approximately thirty minutes. No weapons reported, no threats made. Caller describes her as 'confused, maybe on something.' Be advised, this may be a mental health situation."
+                }
+            ],
+            "prompt": "You've arrived at the scene and can see Elena, David at the pharmacy door, and Mrs. Walsh nearby. How do you begin your assessment?",
+            "options": [
+                {
+                    "text": "Stop about five meters away on the pavement, feet planted, hands relaxed at your sides. Take thirty seconds to observe: note Elena's body language — the rocking, the self-hugging posture — the hospital wristband on her left wrist, her wrinkled but civilian clothing, the distance from the entrance. Make calm eye contact with David and Mrs. Walsh to acknowledge them without rushing to anyone. Let the scene speak to you before you speak to it.",
+                    "feedback": "Why: CIT training emphasizes observation before engagement. Thirty seconds of assessment reveals critical information: the hospital wristband suggests a medical context, not criminal behavior. Her rocking and self-talk suggest distress, not aggression. Maintaining distance communicates that you are not an immediate threat. | CONSEQUENCES: You notice the wristband, her non-aggressive posture, and that she flinches at sudden sounds. David sees you assessing calmly. Mrs. Walsh looks relieved that someone is here. You have context before you say a single word. | Reflection: How does thirty seconds of observation change your entire approach to a mental health call?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Walk directly to David first — he called, so get his account of what happened before approaching Elena. Stride purposefully to the pharmacy doorway, nod professionally, pull out your notepad, and ask him in a businesslike tone to describe the situation from the beginning while Elena sits on the pavement a few meters away, watching you confer with the man who summoned police on her.",
+                    "feedback": "Why: Gathering information from the caller is reasonable, but approaching the business owner first while Elena sits on the pavement sends a message: you are here because of a complaint, not because someone needs help. Elena watches you talk to the man who called police on her, and her anxiety escalates. | CONSEQUENCES: You get David's perspective — useful context — but Elena sees two authority figures conferring about her. She pulls her knees tighter and starts rocking faster. Mrs. Walsh frowns. The approach signals investigation, not care. | Reflection: When a person in crisis can see who you talk to first, what story does that tell them about why you are here?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Approach Elena directly and introduce yourself — she's the one who needs help, so get to her quickly before the situation changes. Walk at your normal pace straight toward where she sits on the pavement, closing the distance to about a meter, lean down slightly, and extend a hand in greeting. Your tone is warm and your intent is good, but you haven't paused to read the scene first.",
+                    "feedback": "Why: The impulse to help is good, but approaching a person in mental health crisis directly and quickly can feel like a confrontation. You haven't assessed the scene, identified potential triggers, or noticed the hospital wristband. Rapid approach to someone who is frightened can provoke a fight-or-flight response. | CONSEQUENCES: Elena looks up and sees a uniformed officer walking straight toward her. She scrambles backward, pressing against the wall, eyes wide. 'Don't touch me!' she shouts. Your good intentions triggered exactly the fear response CIT training warns about. | Reflection: Why does CIT training emphasize slow approach and distance even when you want to help?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Radio for backup immediately — you don't know what she's on or what she might do. Key your shoulder mic and request a second unit in a brisk, urgent tone. Then turn to Mrs. Walsh and the lingering pedestrians, gesturing them back: 'Folks, I need you to give us some space here.' Secure the area and keep bystanders back until a second unit arrives, treating the scene perimeter like a potential threat zone.",
+                    "feedback": "Why: There are no indicators of danger: no weapon, no aggression, no threats. Calling backup and securing a perimeter treats a mental health crisis like a tactical situation. This communicates to everyone — Elena, the bystanders, the pharmacy worker — that you see this woman as a threat. The arrival of additional units will dramatically escalate her fear. | CONSEQUENCES: Elena sees you speaking urgently into your radio. Within minutes, a second patrol car arrives. Two more officers approach. Elena is now surrounded by uniforms. She begins to hyperventilate and cry. Mrs. Walsh says, 'She doesn't need all this — she needs help!' A passerby starts filming. | Reflection: What message does a tactical response send to a person who is already terrified?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "First Contact",
+            "sceneUpdate": {
+                "emoji": "🤲",
+                "title": "Pharmacy Pavement — Approaching Elena",
+                "desc": "You move closer to Elena, maintaining a respectful distance. Up close, you can see her eyes are red from crying. Her hands tremble. The hospital wristband reads a local psychiatric facility name and a date from three days ago. She notices you and tenses, pressing her back against the pharmacy wall. Her breathing quickens."
+            },
+            "npcDialogue": [
+                {
+                    "character": "elena",
+                    "text": "(voice shaking, eyes darting) Don't touch me! I'm not — I'm not going back there. Please. I'm not going back. They — the voices — I just needed to leave. Please don't make me go back. I haven't done anything wrong."
+                }
+            ],
+            "prompt": "Elena is frightened and pleading. She associates you with being forced back to the hospital. How do you open this conversation?",
+            "options": [
+                {
+                    "text": "Lower yourself to her eye level slowly, one knee on the pavement, hands open and visible on your thighs. Speak softly, matching her quiet tone: 'My name is Officer [name]. I'm not here to take you anywhere. Nobody is going to touch you or make you go anywhere you don't want to go. I can see you're having a really hard time right now. Can you tell me your name?'",
+                    "feedback": "Why: Lowering to eye level reduces the power imbalance. Visible hands signal no threat. Directly addressing her fear — 'not here to take you anywhere' — targets the specific terror she expressed. Asking her name begins to restore her identity beyond 'the person on the pavement.' CIT training identifies these first words as the most critical moment of any crisis encounter. | CONSEQUENCES: Elena's breathing slows slightly. She studies your face, looking for deception. After a long pause: 'Elena. My name is Elena.' A fragile thread of trust forms. She hasn't run. She hasn't screamed. That is progress. | Reflection: Why is directly addressing the person's stated fear more effective than general reassurance?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Stay standing at your full height but soften your tone, tilting your head slightly to appear less imposing. Keep your hands on your belt in a relaxed posture. Speak in a measured, professional voice: 'Ma'am, I'm Officer [name]. I got a call about someone needing help outside the pharmacy. Are you okay? Do you need medical assistance?' You wait for an answer, clipboard-ready, looking down at her from above.",
+                    "feedback": "Why: Polite and concerned, but staying standing over someone sitting on the ground maintains a power dynamic. 'I got a call' reminds her that someone reported her. 'Do you need medical assistance?' is a clinical question that doesn't address her emotional state or her explicit fear of being taken back to the hospital. | CONSEQUENCES: Elena looks up at the uniformed figure looming over her. She shakes her head rapidly. 'I don't need an ambulance. I'm fine. I'm fine.' She is clearly not fine, but your question forced a yes-or-no she wasn't ready for. The conversation stalls. | Reflection: How does your physical positioning relative to a person in crisis affect their willingness to engage?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Kneel nearby on the pavement, lower your voice to a gentle murmur, and offer a warm, reassuring smile. Lean forward slightly with your palms up: 'Hey, it's okay. You're safe. I promise nothing bad is going to happen. Let's just talk, okay? Everything is going to be fine.' Your words are kind and your body language is open, but you haven't acknowledged the specific fear she just expressed about not wanting to go back.",
+                    "feedback": "Why: Warm and well-intentioned, but making promises you cannot guarantee — 'nothing bad is going to happen,' 'everything is going to be fine' — can backfire. A person experiencing a crisis may have heard these exact words before a traumatic experience. Generic reassurance without addressing her specific fear feels hollow. She said she doesn't want to go back — you haven't acknowledged that. | CONSEQUENCES: Elena looks at you with suspicion. 'That's what they said at the hospital.' Your reassurance reminded her of broken promises. She wraps her arms tighter. Trust hasn't formed yet. | Reflection: What is the difference between addressing someone's specific fear and offering general comfort?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Maintain a few paces of distance but square your shoulders and adopt a firm, authoritative tone. Point briefly at the wristband on her arm: 'Ma'am, I need you to calm down. I'm Officer [name] and I'm here because there's been a complaint. Can you stand up so we can talk properly? What's the situation with the hospital wristband?' Your voice carries clearly enough for David and Mrs. Walsh to hear every word.",
+                    "feedback": "Why: 'Calm down' is one of the least effective phrases in crisis intervention — it invalidates the person's emotional state and implies they are choosing to be upset. Asking her to stand up is a command that increases the power differential. Pointing out the wristband before building any rapport feels like an interrogation. Mentioning the complaint frames her as the problem. | CONSEQUENCES: Elena flinches at the word 'complaint.' She covers the wristband with her other hand, ashamed. 'I'm not crazy. I just — leave me alone!' She stands abruptly and backs away. The situation has escalated. David steps inside the pharmacy, alarmed. | Reflection: Why does research consistently show that telling someone to 'calm down' has the opposite effect?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Gathering Information",
+            "sceneUpdate": {
+                "emoji": "👥",
+                "title": "Pharmacy Entrance — Multiple Perspectives",
+                "desc": "Elena has shared her name but remains guarded. David steps out from the pharmacy doorway, checking his watch. Mrs. Walsh moves a little closer, holding her shopping bag, watching the interaction. Two customers hesitate at the pharmacy entrance, unsure whether to step around Elena. The street is busy with midday foot traffic."
+            },
+            "npcDialogue": [
+                {
+                    "character": "david",
+                    "text": "(approaching, voice low but impatient) Officer, she's been here since before we opened. She talks to herself — I mean full conversations with nobody. Some of my customers are uncomfortable walking past her. I'm not trying to be heartless, but this is a business. Can you get her to move along?"
+                },
+                {
+                    "character": "mrs_walsh",
+                    "text": "(stepping forward, protective) Excuse me, officer — I've been here a while too. I tried talking to her. She's not dangerous — she's terrified. She kept saying something about voices and medicine. I think she came from the hospital. That poor girl needs help, not to be shooed away like a stray cat."
+                }
+            ],
+            "prompt": "David wants Elena moved. Mrs. Walsh believes she needs help. You have two competing perspectives and Elena is listening to both. How do you handle this?",
+            "options": [
+                {
+                    "text": "Address both directly, turning your body to face each person as you speak. To David, with a respectful nod: 'I understand this is affecting your business, and I appreciate you calling — I'm going to work on this. Can you give me a few minutes?' Then turn to Mrs. Walsh with a warmer tone: 'Thank you for watching out for her. That's really valuable. Did she say anything else that might help me understand her situation?'",
+                    "feedback": "Why: Validates both parties without choosing sides in front of Elena. Asking David for time manages his expectation without dismissing him. Thanking Mrs. Walsh and asking for more information turns a bystander into a resource — she may have details Elena hasn't shared with you. Critically, Elena sees you treating her situation as one that deserves understanding, not just removal. | CONSEQUENCES: David nods reluctantly — 'Fine, but I've got customers.' Mrs. Walsh shares that Elena mentioned being scared of a nurse and that she keeps looking at the pharmacy sign like she recognizes it. Elena watches this exchange. Someone is gathering information to help her, not to arrest her. Her posture softens slightly. | Reflection: How does turning bystanders into information sources change the dynamic from enforcement to care?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Focus on David since he's the caller. Step toward him at the doorway, pull out your notepad, and ask in a brisk, fact-gathering tone: 'Has she threatened anyone or done anything aggressive? Has she tried to enter the pharmacy or block the door physically?' You keep your attention squarely on the caller while Mrs. Walsh and Elena both watch from the periphery, waiting to see whose account will shape what happens next.",
+                    "feedback": "Why: Good fact-finding questions that establish whether there is an actual safety or access issue versus discomfort. However, focusing exclusively on the caller while Mrs. Walsh and Elena listen creates a dynamic where the business complaint drives the response. Mrs. Walsh's observations — potentially more useful — go ungathered. | CONSEQUENCES: David admits she hasn't threatened anyone or blocked the door. 'She's just... sitting there talking to herself. It's unsettling.' You now know there's no safety issue, but Mrs. Walsh walks away quietly, feeling dismissed. You've lost a valuable source of information. | Reflection: When multiple people have information, how do you decide whose perspective to prioritize — and at what cost?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Give David a quick, confident nod and say in a clipped, efficient tone: 'I'll take care of it. Give me some space to work.' Then pivot away from both him and Mrs. Walsh without another word, turning your full attention back to Elena. Mrs. Walsh opens her mouth to offer information, but you're already walking past her, focused entirely on the person on the ground, leaving both bystanders behind without acknowledgment.",
+                    "feedback": "Why: Returning to Elena is the right instinct, but dismissing both David and Mrs. Walsh misses opportunities. David needs his concern acknowledged or he'll escalate — calling a supervisor or confronting Elena himself. Mrs. Walsh has spent more time with Elena than anyone and may hold key information. 'I'll take care of it' sets an undefined expectation. | CONSEQUENCES: David retreats but mutters about calling the district manager. Mrs. Walsh looks hurt and leaves. You've lost an ally who could have helped you understand Elena's state. You're now alone with a frightened woman and less information than you could have had. | Reflection: What is the cost of efficiency when it means losing allies and information?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Crouch beside Elena and address her directly, speaking in a straightforward tone that carries to the bystanders: 'Elena, the pharmacy worker says you've been here since this morning and you're making customers uncomfortable. I need to understand what's going on. Why did you leave the hospital?' You gesture toward the wristband on her arm, making it clear you've already pieced together part of her story and are waiting for an explanation.",
+                    "feedback": "Why: Confronting Elena with the complaint directly — 'you're making customers uncomfortable' — shames her. She is already vulnerable and now learns that people see her as a problem. Demanding to know why she left the hospital is an interrogation question that invades her medical privacy in a public setting. This approach prioritizes information extraction over trust-building. | CONSEQUENCES: Elena's face crumbles. 'I'm making people uncomfortable? I'm sorry. I'm sorry. I'll go.' She starts to stand, disoriented and ashamed. Mrs. Walsh intervenes: 'Now look what you've done — she was just sitting here!' The situation destabilizes. | Reflection: What happens when you relay a complaint directly to a person in crisis?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Building Rapport",
+            "sceneUpdate": {
+                "emoji": "💬",
+                "title": "Pharmacy Pavement — Quiet Conversation",
+                "desc": "David has returned inside the pharmacy. Mrs. Walsh stands at a respectful distance, watchful. The immediate pressure has eased. Elena is still sitting but has unclenched her hands. She looks at you with wary but less panicked eyes. The hospital wristband catches the sunlight. A light breeze moves a strand of hair across her face. The street noise has become background."
+            },
+            "npcDialogue": [
+                {
+                    "character": "elena",
+                    "text": "(quieter now, still fragmented) I'm not... I'm not crazy. They changed my medication and then... the voices started. I've never heard voices before. It was so loud. And then that nurse came in at night and I didn't know her and I just — I had to leave. I walked. I don't even know how long. I ended up here because... I pick up my prescriptions here. I think. I don't know why I came here. My sister — Sofia knows. She always knows what to do. I should call Sofia."
+                }
+            ],
+            "prompt": "Elena is opening up. She's revealing that a medication change caused frightening side effects, she left the hospital in fear, and she has a sister who helps her. How do you continue building this connection?",
+            "options": [
+                {
+                    "text": "Listen to every word without interrupting, nodding slowly to show you're absorbing it. When she finishes, respond in a quiet, steady voice: 'Elena, thank you for telling me that. A medication change causing voices sounds really frightening — I can understand why you felt you had to leave. You mentioned your sister Sofia. Would you like to call her? I can help with that if you want, or you can do it yourself — whatever feels right to you.'",
+                    "feedback": "Why: Validating the specific experience — 'a medication change causing voices sounds really frightening' — shows you listened and believe her. 'I can understand why you felt you had to leave' reframes her hospital departure from something shameful to something understandable. Offering the choice of how to contact Sofia — 'I can help or you can do it yourself' — restores agency. Every choice you offer rebuilds the sense of control that the crisis stripped away. | CONSEQUENCES: Elena's eyes well with tears — not of fear but of relief. 'You believe me? About the medication?' She reaches into her pocket and pulls out a phone with a cracked screen. 'Can you... can you just stay here while I call her? I don't want to be alone.' A genuine human connection has formed. | Reflection: Why is restoring a person's sense of choice the most powerful tool in crisis de-escalation?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Nod sympathetically, lean forward with a warm expression, and shift into a can-do, problem-solving tone: 'That sounds really tough, Elena. Let me call someone for you — we can get your sister here and maybe talk to the hospital about your medication. Sound good?' You pull out your phone, ready to take action on her behalf, already moving toward a solution before checking whether she's ready for one.",
+                    "feedback": "Why: Empathetic and action-oriented, but you've moved into problem-solving before Elena is ready. 'Let me call someone for you' takes over rather than offering choice. 'Maybe talk to the hospital' may spike her fear — she just fled from there. Making plans on her behalf, even with good intentions, mirrors the loss of control she experienced at the hospital. | CONSEQUENCES: Elena tenses at the mention of the hospital. 'I don't want to talk to the hospital.' Your momentum stalls. She was opening up, but the mention of the institution she fled from triggered a defensive response. | Reflection: When someone is just beginning to trust you, what happens when you jump to solutions that involve the source of their fear?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Nod thoughtfully and pull out your notepad, clicking your pen in a businesslike way. Say in a helpful but procedural tone: 'Okay, Elena. That helps me understand. Can you tell me the name of the hospital and your doctor? I should let them know where you are so they don't worry.' You hold the pen ready, watching her expectantly, treating this as a routine information-gathering step toward resolving the situation.",
+                    "feedback": "Why: Well-intentioned but functionally threatening. Asking for hospital details and saying you'll inform them translates in Elena's mind to: 'The officer is going to tell the hospital where I am so they can come get me.' You've shifted from conversation partner to hospital liaison. This is the opposite of what she needs right now. | CONSEQUENCES: Elena's fragile openness collapses. 'No! Don't call them. I told you I'm not going back!' She stands up, agitated, scanning for an exit. You've lost significant ground. | Reflection: From the perspective of someone who fled an institution in fear, how does 'I'll let them know where you are' sound?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Sit back on your heels and take a measured breath, then speak in a concerned but directive tone: 'Elena, I hear you. But here's the thing — you left the hospital without being discharged, and that's a concern. For your safety, I think the best thing is to get you back so the doctors can sort out the medication issue. I can drive you there myself — it'll be quick and easy.' You hold out a hand to help her up.",
+                    "feedback": "Why: You have just told a frightened woman who specifically begged you not to take her back to the hospital that you think the best thing is to take her back to the hospital. Even framed as concern, this confirms her worst fear: police are here to return her. 'For your safety' is a phrase that has preceded countless involuntary actions. Offering to drive her there ignores her lack of consent entirely. | CONSEQUENCES: Elena panics. She stands and backs away rapidly. 'You lied! You said you weren't going to take me anywhere!' Mrs. Walsh shouts: 'You're scaring her!' David comes to the door. Multiple passersby stop. The trust you built is shattered. | Reflection: What is the difference between what a person needs clinically and what they need in this moment to feel safe enough to accept help?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "The Sister Arrives",
+            "sceneUpdate": {
+                "emoji": "🚗",
+                "title": "Pharmacy Entrance — Family Arrival",
+                "desc": "A car pulls up abruptly at the curb. A woman in her late 20s jumps out, leaving the engine running and the door open. She's been crying — mascara smudged, hair uncombed. She scans the scene frantically and spots Elena on the pavement near you. She rushes forward, voice breaking."
+            },
+            "npcDialogue": [
+                {
+                    "character": "sofia",
+                    "text": "(rushing toward Elena, voice high and frantic) Elena! Oh my God, Elena! I've been looking everywhere — the hospital called me at six this morning, I've been driving for hours — (turns to you, panicked and defensive) Please don't arrest her! She's not a criminal, she's sick! She has bipolar disorder — they changed her medication and it went wrong. Please, officer, she just needs her doctor, not — not this. Don't take her to jail. Please."
+                }
+            ],
+            "prompt": "Sofia has arrived in a state of panic and fear. Elena watches her sister's reaction. Sofia is begging you not to arrest Elena. How do you manage this new dynamic?",
+            "options": [
+                {
+                    "text": "Step toward Sofia with your palms open, voice calm and measured. Make steady eye contact and speak clearly over her panic: 'Sofia — take a breath. Elena is not under arrest. No one is being arrested. She and I have been talking, and she's doing really well. I know you've been through a lot this morning. Can you park your car safely, and then come join us? Elena has been asking about you.' You gesture gently toward the running car.",
+                    "feedback": "Why: Sofia needs her own de-escalation — her panic is genuine but will re-escalate Elena if unchecked. 'Take a breath' is directive but caring. 'Elena is not under arrest' directly addresses the fear. 'She's doing really well' reframes Elena from victim to person with agency. Asking Sofia to park first gives her a small task that re-engages rational thinking and buys thirty seconds of calm. 'Elena has been asking about you' gives Sofia purpose and reassurance. | CONSEQUENCES: Sofia inhales sharply, nods. She parks the car. When she returns, her pace is slower. Elena reaches out a hand. The sisters hold each other. You've created space for a family reunion instead of a crisis escalation. | Reflection: Why does a small practical task — like parking a car — help someone transition from panic to functional presence?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Smile warmly and address Sofia immediately as she rushes toward you, matching her urgency with reassurance: 'You must be Sofia. I'm glad you're here — Elena mentioned you. She's okay, we've just been talking. Come over, she'll be happy to see you.' You step aside and wave her through without pausing to assess her emotional state, letting her rush straight to her fragile sister with tears streaming down her face.",
+                    "feedback": "Why: Warm and welcoming, but you haven't managed Sofia's emotional state before bringing her to Elena. Sofia is still in panic mode — crying, frantic, voice raised. Bringing panicked Sofia directly to a fragile Elena risks an emotional collision: Sofia's fear may re-trigger Elena's distress. | CONSEQUENCES: Sofia rushes to Elena and grabs her, sobbing: 'I was so scared! Why did you leave? You can't do that!' Elena's calm shatters. She starts crying and rocking again. The emotional flooding undoes your careful work. | Reflection: When a family member arrives in crisis, why is it important to stabilize them before they interact with the person you've been de-escalating?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Step toward Sofia and lower your voice to a controlled, professional register. Hold up one hand in a settling gesture: 'Ma'am, I need you to calm down. I understand you're upset, but I need to ask you some questions about Elena's medical situation — what medication she's on, when she was discharged, who her doctor is.' You pull out your notepad and click your pen, pivoting into an information-gathering mode while Elena sits a few meters away, listening to every word.",
+                    "feedback": "Why: 'Calm down' dismisses Sofia's emotions just as it would Elena's. Immediately launching into medical questions treats Sofia as an information source rather than a terrified family member. Elena hears you requesting her private medical details from her sister in a public setting — she's being talked about, not talked to. | CONSEQUENCES: Sofia provides information through tears, but Elena watches the exchange with growing distress. 'Stop talking about me like I'm not here!' The dynamic shifts — you and Sofia are now the authority figures, and Elena is the subject. | Reflection: What happens to the person in crisis when you treat their arriving family member as a more reliable narrator of their experience?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Raise your palm firmly toward Sofia and widen your stance, physically blocking her path to Elena. Speak in a commanding, no-nonsense tone: 'Ma'am, I need you to stop right there. This is an active situation and I need you to stay back until I've finished my assessment. I'll bring you over when it's appropriate.' Sofia freezes mid-stride, eyes darting between you and her sister on the pavement behind you.",
+                    "feedback": "Why: Blocking a sister from reaching her terrified sibling is functionally cruel, even if procedurally defensible. Elena has been asking for Sofia. Sofia has been searching for hours. 'Stay back' and 'when it's appropriate' assert control over a family reunion for no safety reason. The crowd sees a police officer preventing a crying woman from reaching her sister. | CONSEQUENCES: Sofia erupts: 'That's my sister! You can't keep me from her!' Elena shouts: 'Sofia!' and stands up, agitated. Mrs. Walsh says loudly: 'Let the poor girl see her sister!' Every relationship you built — with Elena, with the bystanders — fractures. | Reflection: When there is no safety reason to keep a family member away, what does doing so communicate about your priorities?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Connecting to Support",
+            "sceneUpdate": {
+                "emoji": "🏥",
+                "title": "Pharmacy Pavement — Planning Next Steps",
+                "desc": "Elena and Sofia sit together on a bench near the pharmacy. Elena leans against her sister, calmer than she has been all morning. Sofia strokes her hair. The acute crisis has passed, but the question remains: what happens next? Elena needs medical attention — the medication issue is real and unresolved — but she is terrified of returning to the hospital. David watches from inside, relieved the entrance is clear. Mrs. Walsh lingers nearby."
+            },
+            "npcDialogue": [
+                {
+                    "character": "elena",
+                    "text": "(leaning against Sofia, voice small) I know I need help with the medication. I know that. But I can't go back to that ward. The sounds, the lights at night, that nurse I didn't know — I can't. Please don't make me. There has to be another way."
+                },
+                {
+                    "character": "sofia",
+                    "text": "(looking at you) She has a psychiatrist — Dr. Reeves. She also has a therapist. I can call them. But I don't know... is that enough? Should she go to the ER? I don't want to force her."
+                }
+            ],
+            "prompt": "Elena is willing to accept help but cannot face returning to the inpatient ward. Sofia has resources but needs guidance. How do you facilitate a safe plan?",
+            "options": [
+                {
+                    "text": "Look at both of them and speak in an even, unhurried voice: 'Elena, the fact that you know the medication needs to be addressed tells me a lot — that takes real strength. Here are some options, and you get to choose: Sofia can call Dr. Reeves right now to report the side effects. You could go to the ER with Sofia — not the inpatient ward, just the emergency room for a medication evaluation. Or I can call our mobile crisis team to come here. What feels manageable to you?'",
+                    "feedback": "Why: Affirming Elena's self-awareness — 'that takes real strength' — builds dignity. Presenting three concrete options with her choosing restores agency. Distinguishing ER from inpatient ward addresses her specific fear. Mentioning the mobile crisis team shows knowledge of non-hospital alternatives. 'What feels manageable?' is language calibrated to someone whose world feels unmanageable. Every element of this response is consent-based and choice-driven. | CONSEQUENCES: Elena looks at Sofia. 'Can we call Dr. Reeves first? And then... maybe the ER if she says to. But not the ward. Promise me not the ward.' Sofia nods, pulling out her phone. A plan is forming — Elena's plan, not yours. | Reflection: Why does offering structured choices produce better outcomes than offering a single recommendation?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Turn to Sofia and speak in a practical, take-charge tone, giving her clear direction: 'I think calling Dr. Reeves is a good start. If she recommends the ER, you should take Elena there. I can wait here while you make the call.' You nod encouragingly at Sofia, handing the plan to the family member rather than offering the person sitting right beside her any direct say in what happens next. Elena watches quietly as others organize her care.",
+                    "feedback": "Why: Practical and reasonable, but you've directed the plan through Sofia, bypassing Elena. Elena is sitting right there and has expressed her own understanding of what she needs. Speaking to Sofia about Elena's care — even supportively — continues a pattern of others making decisions for her. Also, offering only one path (doctor then possibly ER) doesn't explore other options like mobile crisis. | CONSEQUENCES: Sofia calls Dr. Reeves. Elena sits quietly, passive. The plan works, but Elena feels like a passenger in her own care. She cooperates but doesn't feel empowered. | Reflection: When a person in crisis has a family member present, how do you keep the person at the center of their own care plan?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Lean back, open your hands in a yielding gesture, and speak softly: 'I hear you, Elena. Nobody is going to force you anywhere. Just take your time. Whenever you're ready, you and Sofia can figure out what to do.' You take a deliberate step back, crossing your arms loosely, giving the sisters space. Your tone is gentle and respectful, but you offer no resources, no options, no framework — just open-ended time on a busy commercial street.",
+                    "feedback": "Why: Respectful of autonomy but abdicates your role. Elena and Sofia are both overwhelmed — neither is in a position to make complex medical decisions alone right now. Stepping back entirely means no one with knowledge of available resources is guiding the process. Crisis intervention doesn't mean controlling the outcome, but it does mean offering informed options. Passive support is not enough when someone is in acute crisis. | CONSEQUENCES: The sisters sit together. Time passes. Neither knows what to do next. David comes out: 'Are they just going to sit here all day?' The lack of forward momentum creates a vacuum that frustration fills. | Reflection: What is the difference between respecting autonomy and leaving someone without the resources they need to exercise it?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Straighten up and adopt a serious, concerned expression. Speak in a measured but firm tone: 'Elena, I understand you're scared of the hospital, but the medication situation could be dangerous. I think the safest option is for me to arrange transport to the ER so medical professionals can evaluate you properly. Sofia can ride along with you.' You reach for your radio, already preparing to call in the transport request before Elena has responded.",
+                    "feedback": "Why: 'Arrange transport to the ER' is clinical language for calling an ambulance — and Elena knows it. You have overridden her expressed wishes based on your assessment of medical risk, which is not your expertise. She said she cannot face the hospital. Sofia said she doesn't want to force her. You are now the one forcing. CIT training emphasizes that involuntary transport should be reserved for imminent danger to self or others — Elena does not meet that threshold. | CONSEQUENCES: Elena pulls away from Sofia. 'No! You said I could choose! You promised!' Sofia stands between you and Elena: 'She said she's not going! Can't you listen?' The fragile trust collapses. Elena may flee. | Reflection: When your assessment of what someone needs medically conflicts with their expressed wishes, and there is no imminent danger, whose judgment should prevail?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Resolution",
+            "sceneUpdate": {
+                "emoji": "🌤️",
+                "title": "Pharmacy Entrance — A Path Forward",
+                "desc": "Elena has chosen a plan: Sofia will call Dr. Reeves, and they will go to the ER together if recommended — but not the inpatient ward. Sofia is on the phone with the psychiatrist's office. Elena sits on the bench, exhausted but calmer. The hospital wristband still circles her wrist. David has gone back inside. Mrs. Walsh approaches with a bottle of water she bought from a nearby shop. The morning's tension has given way to something quieter."
+            },
+            "npcDialogue": [
+                {
+                    "character": "elena",
+                    "text": "(accepting the water from Mrs. Walsh, then looking at you) I'm sorry for all this. I know I probably scared people. I didn't mean to. I just... I was so scared and I didn't know where else to go. (pause) Thank you for not treating me like I was dangerous. Everyone always treats me like I'm dangerous."
+                },
+                {
+                    "character": "mrs_walsh",
+                    "text": "(patting Elena's shoulder) You have nothing to apologize for, sweetheart. (to you) Thank you, officer. You handled this beautifully. Not all of them would have."
+                }
+            ],
+            "prompt": "Elena is apologizing and thanking you. Mrs. Walsh is expressing gratitude. Sofia is on the phone finalizing the care plan. How do you close this interaction?",
+            "options": [
+                {
+                    "text": "Sit beside Elena on the bench and speak quietly: 'Elena, you don't need to apologize. You were dealing with something frightening and you ended up somewhere safe — that takes courage, not an apology.' Write down the crisis line and mobile crisis team numbers on a card. 'This is in case you ever need support and can't reach Dr. Reeves or Sofia. It's 24 hours, and they come to you.' Turn to Mrs. Walsh: 'Thank you for staying with her — that mattered more than you know.'",
+                    "feedback": "Why: Reframing her apology — 'that takes courage, not an apology' — is a powerful dignity-restoring statement. Providing written crisis resources ensures she has options beyond this encounter and beyond her existing support network. Acknowledging Mrs. Walsh validates bystander care and encourages community support. You've closed with concrete help, emotional validation, and human warmth. This is the gold standard for crisis resolution. | CONSEQUENCES: Elena holds the paper with the number. She has a plan, a sister, a phone number, and the memory of an officer who treated her like a person. Mrs. Walsh tears up. Sofia finishes her call and mouths 'thank you.' The encounter ends with connection, not enforcement. | Reflection: What does providing resources after a crisis communicate about how you see the person's future?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Stand up, offer a genuine smile, and brush off your knee. Speak warmly, your tone light with relief: 'I'm just glad we could work it out, Elena. You're in good hands with Sofia. Take care of yourself, okay?' Give Mrs. Walsh a grateful nod as you turn to leave. Your closing is kind and human, but your pockets hold no crisis line card, no follow-up number — nothing to bridge the gap between this moment and the next one.",
+                    "feedback": "Why: Warm and human closure, but you've left without providing any follow-up resources. Elena's crisis didn't start today and won't end today. What about next time? What about three AM when Sofia is asleep and the voices return? A good officer resolves the moment. An exceptional officer equips the person for the next moment. | CONSEQUENCES: Elena watches you go. She feels better today but has the same resources she had before: Sofia and Dr. Reeves. If either is unavailable during the next crisis, she has no safety net. Today was a success. The question is whether it lasts. | Reflection: What is the difference between resolving an incident and building a safety net for the next one?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Straighten up and adopt a well-meaning but advisory tone, one hand resting on your belt: 'No need to apologize, Elena. Just make sure you follow up with your doctor and don't leave the hospital next time without being discharged properly. It creates a lot of worry for everyone.' You give her a small nod, as though wrapping up the encounter with practical life advice, leaving behind not comfort but a gentle reminder that her actions had consequences for others.",
+                    "feedback": "Why: Reasonable advice, but 'don't leave the hospital next time' is a mild reprimand delivered to a person who left because she was terrified. 'It creates worry for everyone' places the burden of other people's emotions on someone in crisis. You've turned a compassionate closing into a lesson, reminding her that her distress was an inconvenience. | CONSEQUENCES: Elena nods quietly, the warmth fading from her expression. She hears: 'You caused a problem, try not to do it again.' Mrs. Walsh frowns. The last words of the encounter carry a sting. | Reflection: How do your final words shape the lasting emotional memory of the entire interaction?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Pull out your notepad and click your pen, shifting into a procedural wrap-up: 'Good. Let me get your sister's contact info and the doctor's name for my report. I'll also need to note the hospital wristband and the fact that you left without discharge. It's all standard documentation.' You write methodically, asking Sofia to spell her last name, recording the psychiatrist's details — turning the final moments of a human connection into an administrative task.",
+                    "feedback": "Why: Shifting to data collection and documentation in the closing moments transforms a human encounter into a bureaucratic one. 'Standard documentation' about her leaving the hospital makes Elena feel like a case file, not a person. Requesting the doctor's name and hospital details re-invokes the institution she fears. The last impression she has of this interaction is an officer writing down facts about her crisis. | CONSEQUENCES: Elena's face goes blank. She recites the information flatly. Sofia looks at you with disappointment. Mrs. Walsh walks away. The warmth of the resolution evaporates. Elena will remember this ending — not the kindness that preceded it. | Reflection: When do procedural obligations override the human moment, and when can documentation wait?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debrief",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Training Debrief",
+                "desc": "Back at the station. Sergeant Okafor reviews your performance in this mental health crisis response scenario."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "Mental health crisis calls test everything we train for — and a lot of things we don't train enough for. The skills that mattered today weren't tactical. They were human: patience, active listening, offering choices, managing your own discomfort with uncertainty, and trusting that a person in crisis can participate in their own care plan when given the space to do so. Every decision you made — from your approach distance to your final words — either built trust or eroded it. This is the kind of call that defines how a community sees its police force. Review your choices, and remember: the goal was never to resolve Elena's mental health crisis. The goal was to create enough safety that she could begin to resolve it herself."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "This call required you to unlearn almost every instinct that standard training reinforces. You arrived at a scene where the 'problem' was a frightened woman sitting on a pavement, and the most dangerous thing you could do was try to fix her too quickly. Walk me through what you found hardest."
+                },
+                {
+                    "character": "officer",
+                    "text": "The hardest part was not solving it. She was clearly in crisis, clearly needed help, and I had to resist every urge to take charge and get her to the hospital. Sitting with the uncertainty of not knowing whether she would accept help — that was agonizing."
+                },
+                {
+                    "character": "instructor",
+                    "text": "That discomfort you felt is the entire lesson. Most officers frame mental health calls as 'resolve the situation' — get the person off the street, transport them to care, close the call. But that framing is wrong. The goal is not to resolve the situation. The goal is to give someone in crisis enough safety to make their own choice. When you offered Elena three options and let her decide, you returned something the crisis had taken from her — agency. That is what CIT training actually teaches, and most officers never fully absorb it."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Consider this: Elena later told her therapist that you were the first person that day who made her feel like a human being instead of a problem to be solved. Not the nurses, not the hospital staff — you. A police officer on a pavement. That tells you something about how rare genuine, consent-based engagement is in crisis response. And it tells you something about the power you carry when you choose to use it that way. Now let me share what happened after Elena left with Sofia."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "officer": {
+            "name": "You (Officer)",
+            "avatar": "👮"
+        },
+        "dispatcher": {"name": "Dispatcher", "avatar": "📻"},
+        "elena": {"name": "Elena Marchetti (34, in crisis)", "avatar": "😰"},
+        "david": {"name": "David (pharmacy worker)", "avatar": "👨‍⚕️"},
+        "mrs_walsh": {"name": "Mrs. Walsh (concerned bystander)", "avatar": "👵"},
+        "sofia": {"name": "Sofia (Elena's sister)", "avatar": "💜"},
+        "instructor": {"name": "Sergeant Okafor", "avatar": "👮‍♂️"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Exemplary Crisis Intervention",
+            "emoji": "🌟",
+            "feedback": "You demonstrated the gold standard of mental health crisis response: careful observation before engagement, calm and unhurried presence, consent-based communication that restored Elena's agency, skillful management of the arriving family member, and genuine follow-through with crisis resources. Every person on that street — Elena, Sofia, Mrs. Walsh, David, and every passerby — saw an officer who treated a person in crisis as a human being deserving of dignity and choice. This is what CIT training looks like in practice."
+        },
+        "good": {
+            "title": "Strong Crisis Response",
+            "emoji": "👍",
+            "feedback": "You handled a sensitive mental health crisis with empathy and professionalism, building rapport with Elena and working toward a voluntary resolution. Some moments could have been stronger — perhaps in managing the family dynamic, providing more choices, or offering follow-up resources — but your overall approach reflected CIT principles and treated Elena with dignity."
+        },
+        "average": {
+            "title": "Adequate but Incomplete",
+            "emoji": "📋",
+            "feedback": "You resolved the immediate situation without major escalation, but missed important opportunities for genuine crisis intervention. Whether it was approaching too quickly, failing to offer meaningful choices, or not connecting Elena to long-term resources, there were moments where a care-first approach could have replaced a procedure-first one. Review CIT de-escalation principles and the difference between managing a scene and helping a person."
+        },
+        "poor": {
+            "title": "Needs Significant CIT Review",
+            "emoji": "⚠️",
+            "feedback": "Your approach to this mental health crisis relied too heavily on control, commands, or procedural compliance rather than the calm, consent-based engagement that CIT training emphasizes. A person in acute mental health crisis needs an officer who creates safety through presence, not authority. Review crisis intervention fundamentals: approach distance, tone, offering choices, respecting stated fears, and the critical difference between being helpful and being in control."
+        }
+    },
+    "metrics": {
+        "crisisRecognition": {
+            "name": "Crisis Recognition",
+            "description": "Identifying the situation as a mental health crisis requiring a care-based response rather than treating it as criminal or suspicious behavior",
+            "icon": "🧠"
+        },
+        "calmPresence": {
+            "name": "Calm Presence & Pacing",
+            "description": "Using distance, tone, body language, and unhurried pacing to communicate safety rather than authority",
+            "icon": "🕊️"
+        },
+        "consentAndChoice": {
+            "name": "Consent & Choice",
+            "description": "Offering options rather than commands, restoring agency to someone who feels they have lost all control",
+            "icon": "🤲"
+        },
+        "serviceConnection": {
+            "name": "Service Connection",
+            "description": "Connecting the person to appropriate mental health resources rather than defaulting to enforcement or hospital transport",
+            "icon": "🔗"
+        },
+        "stigmaAvoidance": {
+            "name": "Dignity & Stigma Avoidance",
+            "description": "Treating the person as a human being in pain rather than a problem to be managed, avoiding language and actions that criminalize mental illness",
+            "icon": "💛"
+        }
+    }
+}

@@ -1,0 +1,626 @@
+{
+    "scenarioId": "road-rage",
+    "reviewVersion": "2.0",
+    "title": "Kelio \u012fniršis \u2014 Sankryžos užsiliepsnojimo taškas \u2014 Veiklos analizė",
+
+    "stageAnalysis": {
+        "1": {
+            "stageName": "\u012evykio vieta",
+            "criticalSkills": ["Vietos saugumas", "Prioritet\u0173 seka", "Autoriteto nustatymas"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Pastatote patrulinio automobil\u012f, kad apsaugotumėte \u012fvykio viet\u0105. \u012ejungiate avarinius šviestuvus. Tada tvirtai priartėjate: \u201eReikia, kad abu atsitrauktumėte ant šaligatvio. Dabar. Viską išspręsime, bet pirmiausia visi turi būti saugūs.\u201c",
+                    "strengths": [
+                        "Patrolinis automobilis sukuria fizinę kliūt\u012f, apsaugančią nuo antrini\u0173 \u012fvyki\u0173",
+                        "Avariniai šviestuvai \u012fspėja artėjančius vairuotojus",
+                        "\u012esakymas pasitraukti nuo važiuojamosios dalies pirmiausia sprendžia fizin\u012f saugumą",
+                        "Tvirtas, bet ramus tonas nustato autoritetą be eskaliavimo"
+                    ],
+                    "professionalImpact": "Vietos apsauga prieš bet k\u0105 kit\u0105 neleidžia antriniams susidūrimams ir nustato teising\u0105 prioritet\u0173 sek\u0105."
+                },
+                "partially_positive": {
+                    "choiceText": "Greitai einate prie hečbeko patikrinti verkiančio vaiko \u2014 pažeidžiamiausio asmens čia.",
+                    "adequate": [
+                        "Puikus instinktas pirmenybę teikti vaikui",
+                        "Dėmesys pažeidžiamiausiai šaliai"
+                    ],
+                    "missed": [
+                        "Bėgta pro besiginčijančius vairuotojus be stabilizavimo",
+                        "Vieta lieka neapsaugota nuo eismo",
+                        "Ginčas gali peraugti \u012f fizin\u012f kontakt\u0105, kol esate nusisukę"
+                    ],
+                    "improvement": "Instinktas dėl vaiko teisingas, bet pirmiau stabilizuokite viet\u0105 ir atskirkite suaugusius. Negalite padėti vaikui, kol du suaugusieji muštyniauja už nugaros."
+                },
+                "neutral": {
+                    "choiceText": "Pirmiausia kviečiate pastiprinim\u0105 \u2014 tai sudėtinga vieta. Reikės dar vieno ekipažo, prieš ką nors darant.",
+                    "adequate": [
+                        "Pastiprinimo prašymas taktiškai pagristas"
+                    ],
+                    "missed": [
+                        "Stovėjimas nuošalyje, kol suaugusieji ginčijasi važiuojamojoje dalyje",
+                        "Niekas nevaldoma laukiant",
+                        "Pastiprinimas gali atvykti po kelių minučių \u2014 vieta blogėja"
+                    ],
+                    "improvement": "Prašykite pastiprinimo tuo pat metu stabilizuodami. Galite kalbėti radiju ir duoti komandas vienu metu."
+                },
+                "negative": {
+                    "choiceText": "Einate tiesiai prie besibaran\u010di\u0173 vairuotoj\u0173: \u201eAbu \u2014 užteks. Aš čia. Kas nori man pasakyti, kas nutiko?\u201c",
+                    "failures": [
+                        "Vieta neapsaugota \u2014 antrinio susidūrimo rizika",
+                        "\u201eKas nori man pasakyti, kas nutiko?\u201c kviečia konkuruojančias versijas",
+                        "Vaikas nepatikrintas",
+                        "Pirmenybė suteikta ginčui, o ne saugumui"
+                    ],
+                    "consequences": "\u012esitraukimas \u012f ginč\u0105 prieš apsaugant viet\u0105 kelia antrinio susidūrimo riziką ir palieka vaik\u0105 be priežiūros.",
+                    "trainingFocus": "Peržiūrėkite vietos saugumo protokolus \u2014 pavojai, sužalojimai ir eismo srautas turi būti sprendžiami prieš tyrimą."
+                }
+            },
+            "keyLearningPoints": [
+                "Vietos saugumas visada prieš tyrimą",
+                "Fizinės kliūtys neleidžia antriniams \u012fvykiams",
+                "Tvirtos, bet ramios komandos nustato autoritetą be eskaliavimo"
+            ]
+        },
+
+        "2": {
+            "stageName": "Vaikas",
+            "criticalSkills": ["Vaiko gerovės \u012fvertinimas", "Bendradarbiavimas su tėvais", "Medicinini\u0173 sprendim\u0173 priėmimas"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Pasakote jai: \u201eEisiu su jumis \u2014 patikrinkime Ell\u0105 kartu.\u201c Einate su ja prie automobilio, atsargiai atidarote duris. Sistemingai tikrinate vaik\u0105: akim\u0173 kontaktas ir reagavimas, sumušimai ar žymės nuo saugos dirž\u0173 ar petnešėli\u0173, ar trūkčioja judindama kakl\u0105 ar rankas, ar vyzdžiai vienodi ir reaguoja.",
+                    "strengths": [
+                        "Sistemingas vaiko \u012fvertinimas \u2014 ne vien žvilgsnis",
+                        "Bendras ėjimas su motina rodo rūpest\u012f ir išlaiko buvimą",
+                        "Profesionalios akys tikrina paslėptus sužalojimus \u2014 sumušimus, ribotą judėjimą, vyzdžius",
+                        "Medicininis sprendimas paremtas tikru \u012fvertinimu, ne prielaidomis"
+                    ],
+                    "professionalImpact": "Sistemingas vaiko gerovės patikrinimas demonstruoja profesionalią kompetenciją, kuri kuria gilų pasitikėjimą su tėvu."
+                },
+                "partially_positive": {
+                    "choiceText": "Radiju kviečiate greit\u0105j\u0105 prevencinei patikrai, tada einate prie vaiko: \u201eEllai vyksta greitoji. Dabar eisiu prie jos.\u201c",
+                    "adequate": [
+                        "Medicinė pagalba vaikui po susidūrimo \u2014 stipri atsargumo priemonė",
+                        "Rodo supratimą apie paslėptus sužalojimus"
+                    ],
+                    "missed": [
+                        "Pirmiau skambinta nei \u012fvertinta \u2014 papildoma delsos minutė",
+                        "Vizualinis \u012fvertinimas turėt\u0173 nulemti, ar greitoji reikalinga prevenciškai ar skubiai",
+                        "Motina svarsto, kodėl skambinote prieš tikrindami jos dukrą"
+                    ],
+                    "improvement": "Pirmiau \u012fvertinkite, tada skambinkite \u2014 jūs\u0173 vizualinis \u012fvertinimas nulemia greitosios prašymo skubumą."
+                },
+                "neutral": {
+                    "choiceText": "Linktelite: \u201eTaip, eikite \u2014 paimkite dukr\u0105 ir atveskite ant šaligatvio. Man reikia pradėti imti parodymus.\u201c",
+                    "adequate": [
+                        "Leido motinai paimti vaiką"
+                    ],
+                    "missed": [
+                        "Išsiuntėte motinuą vieną nepatikrinę Ellos pats",
+                        "Vaikai automobilinėse kėdutėse gali turėti paslėptų sužalojimų",
+                        "\u201eMan reikia pradėti imti parodymus\u201c signalizuoja popierius prieš vaiko gerovę"
+                    ],
+                    "improvement": "Asmeniškai patikrinkite vaik\u0105 eismo \u012fvykio vietoje \u2014 paslėptiems sužalojimams reikia profesionalaus stebėjimo."
+                },
+                "negative": {
+                    "choiceText": "Pasakote poniai Bennett: \u201eLikite, kur esate \u2014 turiu visus laikyti atskirai. Jūs\u0173 dukr\u0105 patikrinsiu netrukus.\u201c",
+                    "failures": [
+                        "Atskyrimo principas pritaikytas netinkamai \u2014 tėvas nėra priešiška šalis",
+                        "Draudimas tėvui prieiti prie išsigandusio vaiko yra neproporcingas",
+                        "Kiekviena delsos minutė gilina vaiko kančią",
+                        "Iš sąjungininkės padarėte priešę"
+                    ],
+                    "consequences": "Neleisti motinai pasiekti išsigandusio vaiko akimirksniu sunaikina pasitikėjimą ir sukuria naują konfliktą.",
+                    "trainingFocus": "Peržiūrėkite, kada atskyrimas yra tinkamas ir kada jis tampa neproporcingas."
+                }
+            },
+            "keyLearningPoints": [
+                "Sistemingas vaiko \u012fvertinimas \u2014 ne vien žvilgsnis \u2014 demonstruoja profesionalią kompetenciją",
+                "Bendras ėjimas su tėvu išlaiko buvimą ir leidžia raminti",
+                "Medicininiai sprendimai turi būti paremti \u012fvertinimu, ne prielaidomis"
+            ]
+        },
+
+        "3": {
+            "stageName": "Parodym\u0173 ėmimas",
+            "criticalSkills": ["Tyrimo seka", "\u012erodym\u0173 išsaugojimas", "Liudytoj\u0173 valdymas"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Pakeliate abi rankas: \u201eGirdžiu judu abu. Turiu pasikalbėti su kiekvienu atskirai, kad galėčiau skirti piln\u0105 dėmes\u012f. Pone Cooper \u2014 prašau palaukite prie savo automobilio. Ponia Bennett \u2014 likite su Ella. Taip pat turiu pasikalbėti su tuo vyru kampe.\u201c Pirmiausia kreipiatės \u012f liudytoj\u0105.",
+                    "strengths": [
+                        "Parodym\u0173 atskyrimas užtikrina tikslumą",
+                        "Nepriklausomas liudytojas prioritetizuotas \u2014 vertingiausias ir gali išeiti",
+                        "\u201eSkiRti piln\u0105 dėmes\u012f\u201c daro atskyrimą pagarbų",
+                        "Bazinis parodymas nustatytas prieš vairuotojų parodymus"
+                    ],
+                    "professionalImpact": "Nepriklausomas liudytojas yra vertingiausias parodymas ginčijamoje vietoje \u2014 jo užsitikrinimas pirmiausia tyrimui puiku."
+                },
+                "partially_positive": {
+                    "choiceText": "Pakeliate rank\u0105: \u201ePo vien\u0105. Pone Cooper, palaukite prie savo automobilio. Ponia Bennett, pasakykite man, kas nutiko.\u201c Pirmiausia imate jos parodymus, nes ji turi vaik\u0105.",
+                    "adequate": [
+                        "Parodym\u0173 atskyrimas teisingas",
+                        "Motinos pirmumas turi praktin\u012f pagrindimą \u2014 vaiko poreikiai"
+                    ],
+                    "missed": [
+                        "Pasirinkimas gali būti suvoktas kaip šališkumas",
+                        "Cooper verda ir tampa priešiškesnis",
+                        "Liudytojas kampe tolsta \u2014 vertingiausias \u012frodymas"
+                    ],
+                    "improvement": "Pirmiausia užtikrinkite nepriklausomą liudytoją \u2014 jis nesuinteresuotas rezultatu ir gali greitai išeiti."
+                },
+                "neutral": {
+                    "choiceText": "Atsisukate \u012f poni\u0105 Bennett: \u201eAr jums viskas gerai? Pasakykite man, kas nutiko.\u201c Pirmiausia kreipiatės \u012f labiau sukrėst\u0105 šal\u012f, kad nuramintumėte, tada pereinate prie Cooper.",
+                    "adequate": [
+                        "Rūpestingas požiūris \u012f auką",
+                        "Pirmiau patikrinta būsena"
+                    ],
+                    "missed": [
+                        "Parodymai imami neoptimaliomis sąlygomis \u2014 laiko verkiant\u012f vaik\u0105",
+                        "Liudytojas tolsta \u2014 vertingiausias \u012frodym\u0173 šaltinis",
+                        "Galima gr\u012fžti prie abiej\u0173 vairuotoj\u0173 po liudytojo užtikrinimo"
+                    ],
+                    "improvement": "Ginčijamoje vietoje nepriklausomas liudytojas yra vertingiausias parodymas \u2014 užtikrinkite j\u012f pirmiausia."
+                },
+                "negative": {
+                    "choiceText": "Leidžiate abiem vairuotojams kalbėti, klausydami abiej\u0173 versij\u0173 \u2014 prieštaravimai atskleis, kas meluoja.",
+                    "failures": [
+                        "Vienalaikiai parodymai eskaluoja konfliktą",
+                        "Kiekvienas teiginys sukelia paneigimą",
+                        "Detalės prarandamos emociniuose kontrargumentuose",
+                        "Liudytojas pradeda eiti \u2014 svarbus \u012frodymas prarandamas"
+                    ],
+                    "consequences": "Leisti supykusioms šalims ginčytis vienas prieš kitą sukuria kontaminuotus parodymus ir kelia fizinės eskalacijos riziką.",
+                    "trainingFocus": "Peržiūrėkite atskir\u0173 parodym\u0173 ėmimo protokolus ir liudytoj\u0173 valdymą ginčijamose vietose."
+                }
+            },
+            "keyLearningPoints": [
+                "Nepriklausomi liudytojai yra vertingiausi \u012frodymai \u2014 užtikrinkite juos pirmiausia",
+                "Atskiri parodymai duoda tikslesnę informaciją",
+                "Atskyrimo formulavimas kaip pagarba neleidžia šališkumo suvokimui"
+            ]
+        },
+
+        "4": {
+            "stageName": "Agresyvus vairuotojas",
+            "criticalSkills": ["Deeskalacija esant agresijai", "Žmogiškos akimirkos atpažinimas", "Tyrimo klausinėjimas"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Pirmiausia pripažinkite žmogiškum\u0105: \u201eEllai viskas gerai \u2014 ji išsigandusi, bet nesužalota. Automobilinė kėdutė atliko savo darb\u0105.\u201c Leiskite tam nusėsti, tada: \u201eSuprantu, kad esate frustruotas, ir žinau, kad popietės taip neplanavote. Turiu išgirsti jūs\u0173 versij\u0105 \u2014 nuo pradži\u0173. Iš kur važiavote ir kas nutiko, kai artėjote prie sankryžos?\u201c",
+                    "strengths": [
+                        "Atsakė \u012f jo rūpest\u012f dėl Ellos \u2014 pastebėjo žmogiškumą",
+                        "Pasakė Cooper, kad jis nematomas vien kaip agresorius",
+                        "Vaiko saugumas suformuluotas kaip bendras prioritetas",
+                        "\u201eIš kur važiavote?\u201c vienu metu ir deeskalacija, ir tyrimas"
+                    ],
+                    "professionalImpact": "Atsakyti \u012f kieno nors rūpest\u012f dėl vaiko \u2014 net kai jie sukėlė \u012fvyk\u012f \u2014 keičia vis\u0105 dinamiką ir skatina nuoširdesnę kalbą."
+                },
+                "partially_positive": {
+                    "choiceText": "Pasakote jam: \u201eSuprantu, kad esate sujaudintas, bet turite nusiraminti. Šaukimas nepadeda. Leiskite man užduoti kelet\u0105 klausim\u0173.\u201c",
+                    "adequate": [
+                        "Bandyta nukreipti",
+                        "Judėta link klausinėjimo"
+                    ],
+                    "missed": [
+                        "\u201eNusiraminkite\u201c beveik visada turi priešingą poveik\u012f",
+                        "\u201eŠaukimas nepadeda\u201c yra papeikimas, ne deeskalacija",
+                        "Rūpestis dėl Ellos liko nepripažintas",
+                        "Žmogiška akimirka iššvaistyta"
+                    ],
+                    "improvement": "Pakeiskite \u201enusiraminkite\u201c pripažinimu. Kai agresyvus žmogus parodo rūpest\u012f dėl vaiko, \u012fsitraukite \u2014 ta \u012ftrūkio akimirka agresijoje yra jūs\u0173 galimybė."
+                },
+                "neutral": {
+                    "choiceText": "Atitinkate jo tiesum\u0105: \u201ePone Cooper, liudytojas patvirtina, kad pravažiavote stop ženklą. Jūs kaltas. Rašau baud\u0105, ir niekur nevažiuosite, kol protokolas nebus baigtas.\u201c",
+                    "adequate": [
+                        "\u012erodymai palaiko išvadą"
+                    ],
+                    "missed": [
+                        "Išvada paskelbta prieš jo parodymus \u2014 pakerta teising\u0105 procedūrą",
+                        "Protokolas pažeidžiamas teisiniam apskundimui",
+                        "Ignoruotas jo rūpestis dėl Ellos \u2014 vienintelė žmogiškumo akimirka",
+                        "Konfrontacinis požiūris su jau agresyviu žmogumi"
+                    ],
+                    "improvement": "Niekada neskelbkite išvad\u0173 prieš baigdami tyrimą. Išklausykite visas šalis, tada nustatykite faktus."
+                },
+                "negative": {
+                    "choiceText": "Pasakote jam sėsti \u012f automobil\u012f ir laukti: \u201ePone Cooper, atvyksiu pas jus, kai būsiu pasiruošęs. Prašau palaukite savo transporto priemonėje.\u201c",
+                    "failures": [
+                        "Išsiuntėte j\u012f atgal \u012f automobil\u012f \u2014 \u012frodym\u0173 išsaugojimo rizika",
+                        "Visiškai praleidote jo žmogišk\u0105 akimirką dėl Ellos",
+                        "Izoliacija stiprina nepagarb\u0105 su tokiu asmenybės tipu",
+                        "Laikas atsikratyti \u012frodym\u0173 transporto priemonėje"
+                    ],
+                    "consequences": "Siųsti neprižiūrimą vairuotoją atgal \u012f automobil\u012f kelia \u012frodym\u0173 išsaugojimo riziką ir iššvaisto galimybę, kurią sukūrė jo rūpestis dėl vaiko.",
+                    "trainingFocus": "Peržiūrėkite \u012frodym\u0173 išsaugojimą ir žmogiškų akimirk\u0173 \u012ftraukimo vertę deeskalacijos metu."
+                }
+            },
+            "keyLearningPoints": [
+                "Kai agresyvus žmogus parodo rūpest\u012f dėl vaiko, tai yra jūs\u0173 galimybė \u2014 \u012fsitraukite",
+                "\u201eIš kur važiavote?\u201c vienu metu yra ir deeskalacija, ir tyrimas",
+                "Žmogiškas ryšys priverčia žmones nuleisti gynybas \u2014 nuoširdūs atsakymai seka"
+            ]
+        },
+
+        "5": {
+            "stageName": "Subtilūs požymiai",
+            "criticalSkills": ["Apsvaigimo nustatymas", "Pokalbinis tyrimas", "Proporcinga eskalacija"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Tęsiate pokalbiu: \u201eMinėjote \u012fmonės renginį \u2014 kokia buvo proga?\u201c Leidžiate jam papasakoti. Tada: \u201eAr buvo ko nors gerti? Klausiu, nes noriu visk\u0105 tiksliai dokumentuoti abiej\u0173 šali\u0173 apsaugai.\u201c Pagal jo atsakym\u0105 sprendžiate dėl testavimo.",
+                    "strengths": [
+                        "Pokalbio požiūris leidžia jam aprašyti rengin\u012f natūraliai",
+                        "Tikėtiniau, kad atvirai prisipažins, kai suvokia kaip rutinini klausimą",
+                        "\u201eAbiej\u0173 šali\u0173 apsaugai\u201c performuliuoja iš konfrontacinio \u012f procedūrin\u012f",
+                        "Fiziniai stebėjimai plius prisipažinimas suteikia pagrindą testavimui"
+                    ],
+                    "professionalImpact": "Pokalbinis apsvaigimo nustatymas duoda geresnius \u012frodymus nei konfrontacija \u2014 ramūs žmonės sako tiesą."
+                },
+                "partially_positive": {
+                    "choiceText": "Paklausiate tiesiogiai: \u201ePone Cooper, ar šiandien gėrėte?\u201c Jei pripažista bet kokį vartojim\u0105, pereinate prie blaivumo testo.",
+                    "adequate": [
+                        "Procedūriškai tinkama su stebimais požymiais",
+                        "Tiesioginis požiūris sprendžia problemą"
+                    ],
+                    "missed": [
+                        "Tiesioginis klausimas sukelia gynybinį neigimą",
+                        "Pokalbio požiūris duot\u0173 nuoširdesnių atsakymų",
+                        "Bendradarbiavimas testavime bus sunkesnis po konfrontacinio klausimo"
+                    ],
+                    "improvement": "Pokalbio požiūris gali duoti nuoširdžius atsakymus prieš pilnai aktyvuojantis gynybai. Instinktas teisingas, bet metodą galima patobulinti."
+                },
+                "neutral": {
+                    "choiceText": "Atsitraukiate ir iš karto kviečiate specializuot\u0105 vienet\u0105: \u201eJaučiu alkoholio kvap\u0105 jūs\u0173 kvėpavime. Kviečiu specializuot\u0105 eikipažą. Prašau likite čia.\u201c",
+                    "adequate": [
+                        "Protokolo žinojimas \u2014 specializuoti vienetai egzistuoja"
+                    ],
+                    "missed": [
+                        "Šuolis nuo stebėjimo prie vairavimo neblaiviam paskelbimo",
+                        "Jokio pokalbio apie kiekius ar laiką",
+                        "Maksimalus priešiškumas dėl neproporcingo atsako",
+                        "Vartojimo \u012frodymai, ne apsvaigimo \u2014 šiuo metu"
+                    ],
+                    "improvement": "Didinkite atsaką proporcingai, kaip auga \u012frodymai. Stebėjimai reikalauja pokalbio, ne tiesiogini\u0173 vairavimo neblaiviam procedūrų."
+                },
+                "negative": {
+                    "choiceText": "Požymius pasižymite mintyse, bet toliau nesekate \u2014 jis neatrodo apsvaigęs, o \u012fvykis paprastas pirmenybės nepaisant\u0173 stop ženklo pažeidimas. Testavimas eskaluot\u0173 be reikalo.",
+                    "failures": [
+                        "Stebim\u0173 alkoholio požymi\u0173 ignoravimas eismo \u012fvykio vietoje \u2014 pareig\u0173 neatlikimas",
+                        "Apsvaigimas maskuojamas adrenalino \u2014 susilpnėjęs reakcijos laikas ne visada matomas",
+                        "Daugybė rodiklių: paraudimas, kvapas, vyzdžiai, nenuoseklumas, kilmė",
+                        "Jei sukels kitą \u012fvyk\u012f šiąnakt, turėjote galimybę \u012fsikišti"
+                    ],
+                    "consequences": "Apsvaigimo požymių ignoravimas reiškia, kad protokole trūksta svarbios informacijos \u2014 ir vairuotojas gali sukelti dar vieną \u012fvyk\u012f.",
+                    "trainingFocus": "Peržiūrėkite apsvaigimo nustatymo protokolus ir pareigą tirti stebimus požymius nepaisant pirm\u0173j\u0173 \u012fspūdžių."
+                }
+            },
+            "keyLearningPoints": [
+                "Pokalbinis apsvaigimo nustatymas duoda geresnius \u012frodymus nei konfrontacija",
+                "Daugybė subtilių požymi\u0173 \u2014 paraudimas, kvapas, vyzdžiai, nenuoseklumas \u2014 reikalauja tyrimo",
+                "Tyrimas ir deeskalacija yra tas pats \u012fgūdis \u2014 ramūs žmonės sako tiesą"
+            ]
+        },
+
+        "6": {
+            "stageName": "Motinos frustracija",
+            "criticalSkills": ["Kelių šali\u0173 valdymas", "Eigos komunikavimas", "Aukos palaikymas"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Iš karto einate prie jos: \u201ePonia Bennett, suprantu jūs\u0173 frustraciją ir turite visą teisę pykti. Jūs\u0173 ir Ellos saugumas \u2014 mano prioritetas. Pakalbėjau su liudytoju ir užfiksavau alkohol\u012f \u2014 dabar tuo užsiimu. Turiu laikytis tam tikr\u0173 žingsni\u0173, kad viskas teisiniai galiot\u0173. Ar yra kas nors, kas galėt\u0173 jus su Ella pasiimti, kad nereikėt\u0173 laukti prie sugadinto automobilio?\u201c",
+                    "strengths": [
+                        "Validavo frustraciją be gynybos",
+                        "Informavo apie tyrimo eigą \u2014 liudytojas apklaustas, alkoholis užfiksuotas",
+                        "Paaiškino delsos priežast\u012f \u2014 \u201ekad viskas galiot\u0173\u201c",
+                        "Pasiūlė praktinę išeit\u012f \u2014 pasiimti ją ir Ellą"
+                    ],
+                    "professionalImpact": "Laukiančios šalies informavimas apie eigą keičia laukimo patirt\u012f iš apleisties \u012f informuotą kantrybę."
+                },
+                "partially_positive": {
+                    "choiceText": "Linktelite: \u201eJūs teisi \u2014 akivaizdu, kad jis pravažiavo stop ženklą, ir alkohol\u012f jaučiu ir aš. Nesijaudinkite, jis gaus baudą ir kvėpavimo testą. Teisingumas bus \u012fvykdytas.\u201c",
+                    "adequate": [
+                        "Emociškai patenkina auką",
+                        "Validavo jos stebėjimus"
+                    ],
+                    "missed": [
+                        "Pasidalino tyrimo išvadomis su viena šalimi prieš baigiant",
+                        "Patvirtino liudytojo informaciją \u2014 kontaminavo parodymus",
+                        "Jei pateks \u012f teismą, gynyba argumentuos šališkumą ir netinkamą dalijimąsi"
+                    ],
+                    "improvement": "Nuraminkite skundėją nesidalindami konkrečiomis tyrimo detalėmis, kurios galėt\u0173 pakenkti bylai."
+                },
+                "neutral": {
+                    "choiceText": "Pakeliate rank\u0105: \u201ePonia Bennett, žinau, kad tai užtrunka, bet turiu būti kruopštus. Prašau palaukite \u2014 netrukus būsiu pas jus.\u201c",
+                    "adequate": [
+                        "Ne klaida",
+                        "Išlaikė procedūrin\u012f dėmes\u012f"
+                    ],
+                    "missed": [
+                        "Kliniškas atsakas nepripažista emocinės būsenos",
+                        "Jokios informacijos apie tyrimo eigą",
+                        "Elgiamasi su ja kaip su eilės punktu",
+                        "Pasitikėjimas stagnuoja \u2014 neauga"
+                    ],
+                    "improvement": "Pridėkite eigos informaciją ir emocinį pripažinimą. \u201ePrašau palaukite\u201c yra procedūrinis teisingumas be žmogiško ryšio."
+                },
+                "negative": {
+                    "choiceText": "Tvirtai jai pasakote: \u201ePonia Bennett, kaltinimai dėl alkoholio nepadeda. Leiskite man daryti savo darb\u0105. Pakalbėsiu su jumis, kai baigsiu su ponu Cooper.\u201c",
+                    "failures": [
+                        "Atmetė stebėjimą, kurį ir pats tiriate",
+                        "\u201eLeiskite man daryti savo darbą\u201c sako piliečiams, kad jų indėlis nepageidaujamas",
+                        "\u201eKai baigsiu su juo\u201c daro ją paskutiniu prioritetu",
+                        "Santykis su auka sugriuvo"
+                    ],
+                    "consequences": "Aukos stebėjim\u0173 atmetimas ir kaltojo vairuotojo prioritetizavimas sunaikina pasitikėjimą su nukentėjusia šalimi.",
+                    "trainingFocus": "Peržiūrėkite aukos komunikaciją ir skirtumą tarp tyrimo vientisumo palaikymo ir piliečio indėlio atmetimo."
+                }
+            },
+            "keyLearningPoints": [
+                "Laukiančios šalies informavimas apie eigą transformuoja laukimo patirt\u012f",
+                "Nuraminkite nedalydamiesi konkrečiomis tyrimo detalėmis, kurios gali pakenkti byloms",
+                "Kai pilietis stebi tai, ką ir jūs tiriate, validuokite nepatvirtindami konkrečiai"
+            ]
+        },
+
+        "7": {
+            "stageName": "\u012evykio vietos užbaigimas",
+            "criticalSkills": ["Išsamus užbaigimas", "Saugumo rekomendacijos", "Aukos palaikymas"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Kreipiatės \u012f Cooper: \u201eSkiRiu jums baudą už stop ženklo nepaisant\u0105. Jūs\u0173 testas buvo žemiau teisinės ribos, bet 0,06 % rodo neseniai vartot\u0105 alkohol\u012f, kuris galėjo paveikti jūs\u0173 reakcijos laik\u0105. Griežtai rekomenduoju šiandien daugiau nevairuoti \u2014 iškvieskite taksi arba tegul kas nors jus pasiima.\u201c Tada einate prie ponios Bennett: \u201eŠtai protokolo numeris jūs\u0173 draudimui. Rekomenduoju artimiausiomis dienomis nuvesti Ell\u0105 pas pediatr\u0105 \u2014 vaik\u0173 reakcija \u012f smūgius gali pasireikšti su uždelsimu. Ar jūs\u0173 sesuo jau arti?\u201c",
+                    "strengths": [
+                        "Bauda pateikta su alkoholio kontekstu kaip saugumo rekomendacija",
+                        "\u201eŠiandien daugiau nevairuoti\u201c \u2014 atsakinga rekomendacija",
+                        "Pediatrinės patikros rekomendacija rodo medicinin\u012f sąmoningumą",
+                        "Protokolo numeris suteiktas proaktyviai",
+                        "Klausimas apie seser\u012f rodo nuolatin\u012f rūpest\u012f"
+                    ],
+                    "professionalImpact": "Išsamus užbaigimas, tarnaujantis abiem šalims, rutininę ataskaitą paverčia susitikimu, kuris kuria ilgalaik\u012f pasitikėjimą."
+                },
+                "partially_positive": {
+                    "choiceText": "Pasakote Cooper: \u201ePūtėte 0,06. Žemiau ribos, bet viena taurė daugiau, ir vestume visai kit\u0105 pokalb\u012f. Pagalvokite apie tai.\u201c Tada palinkite poniai Bennett gero ir išvalote viet\u0105.",
+                    "adequate": [
+                        "\u012espėjimas apie alkohol\u012f turi poveik\u012f",
+                        "Pripažino situacijos rimtumą"
+                    ],
+                    "missed": [
+                        "\u201ePagalvokite apie tai\u201c pamoksliškas \u2014 gali sukelti gynybinę reakciją",
+                        "Ponios Bennett užbaigimas minimalus \u2014 jokio protokolo numerio, jokios medicininės rekomendacijos",
+                        "Užbaigimo energija skirta Cooper, o ne aukai"
+                    ],
+                    "improvement": "Investuokite užbaigimo dėmes\u012f \u012f nukentėjusią šal\u012f \u2014 protokolo numeris, medicininės rekomendacijos, praktiniai tolesni žingsniai."
+                },
+                "neutral": {
+                    "choiceText": "\u012eteikiate Cooper baudą ir leidžiate išvažiuoti. Poniai Bennett sakote, kad protokolo numer\u012f gali pasiimti rytoj nuovadoje. Išvalote viet\u0105.",
+                    "adequate": [
+                        "Bauda teisingai išduota"
+                    ],
+                    "missed": [
+                        "Jokios diskusijos apie alkoholio pasekmes",
+                        "Ponia Bennett negauna praktinės informacijos",
+                        "Jokios pediatrinės rekomendacijos",
+                        "\u201ePasiimkite protokol\u0105 rytoj\u201c \u2014 minimalios pastangos"
+                    ],
+                    "improvement": "Išsamus užbaigimas reiškia, kad abi šalys išeina su aiškiais tolesniais žingsniais, ne tik su dokumentais."
+                },
+                "negative": {
+                    "choiceText": "Sukvie\u010diate abi šalis: \u201eApsikeiskite draudimo duomenimis tiesiogiai, tada galite važiuoti. Pone Cooper, štai jūs\u0173 bauda.\u201c Tarpininkaujate apsikeitimui ir išvalote viet\u0105.",
+                    "failures": [
+                        "Priešišk\u0173 šali\u0173 suvedimas po konfrontacinės valandos",
+                        "Cooper pažemintas po kvėpavimo testo \u2014 sprogus",
+                        "Bennett pyksta dėl visko \u2014 sprogus",
+                        "Priverstas tiesioginis kontaktas rizikuoja vėl \u012fžiebti ginčą prieš Ellą"
+                    ],
+                    "consequences": "Priešišk\u0173 šali\u0173 suvedimas administraciniais tikslais \u012fžiebia konfliktą iš naujo ir veikia vaiką dar viena konfrontacija.",
+                    "trainingFocus": "Peržiūrėkite užbaigimo protokolus \u2014 priešiškas šalis laikykite atskirtas per visą procesą, \u012fskaitant administracinius žingsnius."
+                }
+            },
+            "keyLearningPoints": [
+                "Išsamus užbaigimas tarnauja abiem šalims su aiškiais tolesniais žingsniais",
+                "Pediatrinės kontrolės rekomendacija rodo medicinin\u012f sąmoningumą, kurio tėvai dažnai neturi",
+                "Priešiškas šalis laikykite atskirtas iki pat užbaigimo \u2014 administraciniai veiksmai gali \u012fžiebti konfliktą"
+            ]
+        },
+
+        "8": {
+            "stageName": "Apžvalga ir atskleidimas",
+            "criticalSkills": ["Savirefleksija", "Pamok\u0173 integravimas"],
+            "choiceAnalysis": {},
+            "keyLearningPoints": [
+                "Tyrimas ir deeskalacija yra tas pats \u012fgūdis \u2014 ramūs žmonės sako tiesą",
+                "Vaiko patikrinimas prieš \u012frodym\u0173 tikrinimą keičia ilgalaik\u012f susitikimo prisiminimą",
+                "Vienmatis agresyvus vairuotojas gali turėti žmogiškąj\u012f matmen\u012f, kuris viską pakeičia, jei pastebite"
+            ]
+        }
+    },
+
+    "comprehensiveMetrics": {
+        "sceneSafety": {
+            "description": "\u012evykio vietos apsauga nuo antrini\u0173 pavojų, eismo valdymas ir fizinio saugumo užtikrinimas",
+            "indicators": {
+                "excellent": [
+                    "Patrolinis automobilis pastatytas apsaugoti viet\u0105 prieš \u012fsitraukiant su šalimis",
+                    "Vairuotojai išvesti nuo važiuojamosios dalies nedelsiant",
+                    "Eismo pavojai pašalinti prieš tyrimą",
+                    "Nuolatinis vietos saugumo sąmoningumas per visą \u012fvyk\u012f"
+                ],
+                "poor": [
+                    "Vieta palikta neapsaugota bendraujant su šalimis",
+                    "Vairuotojai lieka važiuojamojoje dalyje pokalbio metu",
+                    "Antrinio susidūrimo rizika nepašalinta",
+                    "Saugumas sprendžiamas kaip atgalinė mintis, o ne pirmasis prioritetas"
+                ]
+            }
+        },
+        "conflictSeparation": {
+            "description": "Fizinis ir emocinis priešiškų šali\u0173 atskyrimas, siekiant išvengti eskalacijos ir gauti tikslius parodymus",
+            "indicators": {
+                "excellent": [
+                    "Neatidėliotinas fizinis besiginčijančių šali\u0173 atskyrimas",
+                    "Parodymai imami atskirai \u2014 nė viena šalis negirdi kitos",
+                    "Atskyrimas išlaikytas iki pat užbaigimo \u2014 jokio nereikalingo suvedimo",
+                    "Atskyrimas paaiškintas kaip pagarba (\u201epilnas dėmesys\u201c), o ne apribojimas"
+                ],
+                "poor": [
+                    "Šalys paliktos ginčytis viena kitos akivaizdoje",
+                    "Parodymai imami vienu metu, kontaminuojant abu pasakojimus",
+                    "Šalys suvestos draudimo duomen\u0173 apsikeitimui ar konfrontacijai",
+                    "Atskyrimas netinkamai taikomas tėvo ir vaiko santykiui"
+                ]
+            }
+        },
+        "childWelfare": {
+            "description": "Dėmesys vaikui kaip pažeidžiamai šaliai, reikalaujančiai neatidėliotino dėmesio ir nuolatinio \u012fvertinimo",
+            "indicators": {
+                "excellent": [
+                    "Vaikas asmeniškai \u012fvertintas dėl sužalojim\u0173 ankstyvoje susitikimo stadijoje",
+                    "Motinai leista ir ji lydima raminti vaik\u0105",
+                    "Medicininė kontrolė rekomenduota užbaigime",
+                    "Vaiko emociniai poreikiai vertinami per visą \u012fvyk\u012f \u2014 mažiau šaukimo, apsauga nuo konflikto"
+                ],
+                "poor": [
+                    "Vaikas pamirštas arba nuleistas žemiau popierių",
+                    "Tėvui be reikalo uždrausta pasiekti vaik\u0105",
+                    "Jokio asmeninio vaiko sužalojim\u0173 \u012fvertinimo",
+                    "Jokios medicininės kontrolės rekomendacijos užbaigime"
+                ]
+            }
+        },
+        "investigativeThoroughness": {
+            "description": "Apsvaigimo nustatymas, liudytoj\u0173 parodym\u0173 užtikrinimas, \u012frodym\u0173 išsaugojimas ir protokol\u0173 laikymasis",
+            "indicators": {
+                "excellent": [
+                    "Nepriklausomas liudytojas užtikrintas prieš jo išėjimą",
+                    "Apsvaigimo požymiai nustatyti ir tirti pokalbio technika",
+                    "Kvėpavimo testas atliktas pagal sukauptus \u012frodymus",
+                    "\u012erodymai išsaugoti \u2014 automobiliai neperjudinti per anksti, vairuotojas negrąžintas \u012f automobil\u012f"
+                ],
+                "poor": [
+                    "Nepriklausomas liudytojas prarastas",
+                    "Apsvaigimo požymiai ignoruoti arba sprendžiami neproporcingai",
+                    "Išvados paskelbtos prieš baigiant tyrimą",
+                    "\u012erodym\u0173 išsaugojimas pažeistas grąžinus vairuotoją \u012f automobil\u012f"
+                ]
+            }
+        },
+        "communicationUnderPressure": {
+            "description": "Dviej\u0173 priešiškų šali\u0173 valdymas vienu metu ramiai, nešališkai ir profesionaliai",
+            "indicators": {
+                "excellent": [
+                    "Abi šalys jaučiasi išgirstos nepaisant konkuruojančių teiginių",
+                    "Ramus elgesys išlaikomas nepaisant provokacijų",
+                    "Auka informuota apie tyrimo eigą nedalijantis išvadomis",
+                    "Užbaigime abiem šalims pateikti konkretūs tolesni žingsniai"
+                ],
+                "poor": [
+                    "Naudota \u201enusiraminkite\u201c ar kitos kontraproduktyvios frazės",
+                    "Tyrimo išvados per anksti pasidalintos vienai šaliai",
+                    "Aukos stebėjimai atmesti ar nevaliduoti",
+                    "Užbaigimo dėmesys neproporcingai nukreiptas \u012f netinkamą šal\u012f"
+                ]
+            }
+        }
+    },
+
+    "mistakePatterns": {
+        "safetyDeprioritization": {
+            "pattern": "\u012esitraukimas \u012f konfliktą prieš apsaugant viet\u0105 nuo fizinių pavojų",
+            "examples": ["Priartėjimas prie besiginčijančių vairuotojų nepastavius patrolinio automobilio", "Parodym\u0173 ėmimas, kol automobiliai blokuoja akt\u012fvų eismą", "Bėgimas prie vaiko neatskirus suaugusių\u0173", "Pamirštant, kad antrinio susidūrimo rizika žudo gelbėtojus ir stebėtojus"],
+            "impact": "Antriniai susidūrimai eismo \u012fvykių vietose yra viena pagrindinių gelbėtojų ir stebėtojų mirčių priežasčių. Kiekviena minutė, kol vieta neapsaugota, yra minutė, kai kas nors gali būti partrenktas.",
+            "correction": "Vietos apsauga visada pirmas žingsnis. Pastatykite automobil\u012f, \u012fjunkite šviestuvus, išveskite žmones nuo važiuojamosios dalies. Tai užtrunka 30 sekundžių ir gali išgelbėti gyvybes."
+        },
+        "childNeglect": {
+            "pattern": "Vaiko pamiršimas arba nuleidimas žemiau prioritetų eismo \u012fvykio vietoje",
+            "examples": ["Dėmesys ginčui, kol vaikas verkia sugadintame automobilyje", "Motinos nuleidimas prie vaiko pagal \u201eatskyrimo\u201c protokolus", "Asmeniškai nepatikrintas vaikas dėl sužalojimų", "Jokios medicininės kontrolės rekomendacijos užbaigime"],
+            "impact": "Vaikai yra pažeidžiamiausios šalys eismo \u012fvykių vietose ir dažnai labiausiai pamirštamos. Jie gali turėti paslėptų sužalojimų, o eismo \u012fvykio ir vėlesnio suaugusiųjų konflikto emocinis poveikis gali būti reikšmingas.",
+            "correction": "Patikrinkite vaik\u0105 anksti \u2014 eikite su tėvu \u012fvertinti kartu. Užbaigime rekomenduokite pediatrinę kontrolę. Vaiko gerovė turi būti matoma jūs\u0173 prioritetuose per visą \u012fvyk\u012f."
+        },
+        "prematureConclusions": {
+            "pattern": "Kaltės ar tyrimo išvad\u0173 skelbimas prieš baigiant tyrimą",
+            "examples": ["Pasakyti kaltam vairuotojui \u201ejūs kaltas\u201c prieš imant jo parodymus", "Dalintis liudytojo parodym\u0173 detalėmis su bet kuria šalimi", "Patvirtinti alkoholio stebėjimus kitam vairuotojui", "Žadėti konkrečius rezultatus prieš rašant ataskaitą"],
+            "impact": "Priešlaikinės išvados pakerta teisingą procedūrą, daro ataskaitas pažeidžiamas teisiniam apskundimui, kontaminuoja liudytojų parodymus ir pažeidžia pareigūno nešališkumą \u2014 kiekvieno eismo tyrimo pagrindą.",
+            "correction": "Baikite tyrimą prieš skelbdami išvadas. Galite nuraminti šalis per proceso skaidrumą (\u201eesu kruopštus\u201c) nesidalindami konkrečiais rezultatais."
+        },
+        "impairmentAvoidance": {
+            "pattern": "Alkoholio ar medžiag\u0173 apsvaigimo požymi\u0173 ignoravimas arba netyrimas",
+            "examples": ["Pastebint alkoholio kvapą, bet nusprendus nesekti", "Priimant \u201eviena taurė, prieš valandas\u201c nominalia verte be patikrinimo", "Vengiant apsvaigimo tyrimo, kad būt\u0173 išvengta eskalacijos", "Rašant paprastą pirmenybės pažeidimo protokolą, kai yra apsvaigimo požymių"],
+            "impact": "Apsvaigęs vairuotojas, paliekantis \u012fvykio vietą netirtas, gali sukelti kitą \u2014 potencialiai mirtiną \u2014 susidūrimą. Jūs\u0173 pareiga viešajam saugumui apima stebim\u0173 požymi\u0173 tyrimą, net kai vairuotojas neatrodo akivaizdžiai \u201egirtas\u201c.",
+            "correction": "Visada tirkite, kai yra požymių. Naudokite pokalbio techniką nustatyti \u2014 \u201eiš kokio renginio važiavote?\u201c \u2014 prieš formal\u0173 testavimą. Proporcinga eskalacija: stebėkite \u2192 kalbėkite \u2192 testuokite."
+        },
+        "victimUnderservice": {
+            "pattern": "Neproporcingas dėmesys agresyviai šaliai, kol auka laukia",
+            "examples": ["Ilgas laikas su priešišku vairuotoju, kol auka stebi su išsigandusiu vaiku", "Aukos neinformavimas apie tyrimo eigą", "Aukos stebėjim\u0173 atmetimas kaip \u201ekaltinimai\u201c", "Minimalus aukos užbaigimas \u2014 jokio protokolo numerio, jokios medicininės rekomendacijos, jokios praktinės paramos"],
+            "impact": "Aukos patirtis su policija formuoja ilgalaik\u012f pasitikėjimą teisėsauga. Motina su traumatizuotu vaiku, kuri jaučiasi ignoruota ar neaptarnauta, prisimins š\u012f susitikimą metų metus \u2014 ir papasakos visiems.",
+            "correction": "Informuokite auką apie eigą. Paskirstykite dėmes\u012f proporcingai. Užbaigime suteikite konkrečius tolesnius žingsnius \u2014 protokolo numeris, draudimo rekomendacijos, medicininės rekomendacijos. Aukai reikia daugiau iš jūs\u0173 nei nubaustam vairuotojui."
+        }
+    },
+
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Išskirtinis atsakas \u012f eismo \u012fvyk\u012f. Pademonstravote piln\u0105 \u012fgūdžių rinkin\u012f: vieta pirmiausia apsaugota, vaikas prioritetizuotas, šalys atskirtos, liudytojas nedelsiant užtikrintas, apsvaigimas nustatytas pokalbio technika, auka informuota per visą \u012fvyk\u012f ir išsamus užbaigimas abiem šalims. Taip eismo \u012fvykis tampa pasitikėjimą kuriančiu susitikimu, kur\u012f žmonės teigiamai prisimena daugelį metų.",
+            "mostlyPositive": "Stiprus eismo \u012fvykio valdymas su gerais instinktais saugumui, vaiko gerovei ir tyrimui. Kai kurios galimybės buvo praleistos \u2014 galbūt parodym\u0173 sekoje, apsvaigimo nustatymo technikoje ar išsamiame užbaigime \u2014 bet bendras požiūris buvo profesionalus, saugus ir rūpestingas. Peržiūrėkite praleistus elementus, kad pakiltumėte nuo stipraus iki išskirtinio.",
+            "mixed": "Kai kuriuos elementus atlikote gerai, bet susidūrėte su pilna šio kelių šali\u0173 eismo \u012fvykio sudėtingumu. Pagrindinės stiprybės buvo matomos tam tikruose etapuose, bet svarbios galimybės buvo praleistos kituose \u2014 ar tai vietos saugume, vaiko gerovėje, tyrimo sekoje, ar aukos komunikacijoje. Peržiūrėkite prioritet\u0173 seką: saugumas, atskyrimas, pažeidžiamos šalys, tada tyrimas.",
+            "mostlyNegative": "Šis scenarijus atskleidė reikšming\u0173 sprag\u0173 eismo \u012fvykio atsako prioritetuose. Nors buvo šiek tiek teigiamų element\u0173, pagrindiniai dalykai buvo praleisti \u2014 vietos saugumas, vaiko gerovė, apsvaigimo nustatymas ar aukos komunikacija nukentėjo dėl prastos sekos ar klaidingo vertinimo. Eismo \u012fvykiai apima visus pagrindinius policijos \u012fgūdžius vienu metu. Peržiūrėkite vietos valdymo protokolus ir tyrimo sekos pagrindus.",
+            "allNegative": "Jūs\u0173 atsakas \u012f eismo \u012fvyk\u012f prioritetizavo netinkamus dalykus netinkama tvarka. Saugumas nebuvo užtikrintas pirmiausia, vaikas pamirštas arba nuleistas, apsvaigimo požymiai praleisti ar ignoruoti, ir šalys nebuvo efektyviai valdomos per atskyrimą ir individualų bendravimą. Šiam scenarijui reikalinga fundamentali eismo \u012fvykio vietos prioritetų, vaiko gerovės protokol\u0173 ir kelių šali\u0173 valdymo technikos peržiūra."
+        }
+    },
+
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Viską išspręsime, bet pirmiausia visi turi būti saugūs.",
+            "Eisiu su jumis \u2014 patikrinkime Ellą kartu.",
+            "Turiu pasikalbėti su kiekvienu atskirai, kad galėčiau skirti piln\u0105 dėmes\u012f.",
+            "Ellai viskas gerai \u2014 ji išsigandusi, bet nesužalota. Automobilinė kėdutė atliko savo darbą.",
+            "Iš kur važiavote ir kas nutiko, kai artėjote prie sankryžos?",
+            "Ar buvo ko nors gerti? Klausiu, nes noriu viską tiksliai dokumentuoti abiej\u0173 šali\u0173 apsaugai.",
+            "Pakalbėjau su liudytoju ir užfiksavau alkohol\u012f \u2014 dabar tuo užsiimu.",
+            "Rekomenduoju artimiausiomis dienomis nuvesti Ellą pas pediatrą \u2014 vaik\u0173 reakcija \u012f smūgius gali pasireikšti su uždelsimu."
+        ],
+        "poorPhrases": [
+            "Kas nori man pasakyti, kas nutiko?",
+            "Likite, kur esate \u2014 turiu visus laikyti atskirai.",
+            "Turite nusiraminti. Šaukimas nepadeda.",
+            "Liudytojas patvirtina, kad pravažiavote stop ženklą. Jūs kaltas.",
+            "Kaltinimai dėl alkoholio nepadeda. Leiskite man daryti savo darbą.",
+            "Protokolo numer\u012f galite pasiimti rytoj nuovadoje.",
+            "Apsikeiskite draudimo duomenimis tiesiogiai, tada galite važiuoti."
+        ],
+        "analysisCriteria": {
+            "safetyPriority": "Ar frazė sprendė neatidėliotiną fizin\u012f saugumą prieš pereinant prie tyrimo?",
+            "childAwareness": "Ar frazė parodė vaiko gerovės ir emocinių poreikių sąmoningumą ir dėmes\u012f?",
+            "impartiality": "Ar frazė išlaikė neutralumą prieš nustatant faktus, net su viena agresyvia šalimi?",
+            "investigativeValue": "Ar frazė vienu metu tarnavo ir ryšiui, ir \u012frodym\u0173 rinkimui?",
+            "victimCare": "Ar frazė parodė tinkamą dėmes\u012f aukos patirčiai, informacijos poreikiams ir praktinei situacijai?",
+            "proportionality": "Ar frazė atitiko akimirkos rimtumą ir skubumą?"
+        }
+    },
+
+    "scenarioSpecificLessons": {
+        "1": "Prioritet\u0173 seka bet kurioje eismo \u012fvykio vietoje: saugumas, atskyrimas, pažeidžiamos šalys, tada tyrimas. Vietos apsauga nuo antrinių susidūrim\u0173 užtrunka 30 sekundžių ir gali išgelbėti gyvybes.",
+        "2": "Vaikai eismo \u012fvykių vietose yra pažeidžiamiausios ir dažniausiai pamirštamos šalys. Eiti su motina patikrinti Ellos kartu vienu metu pasiekia tris tikslus: sužalojim\u0173 \u012fvertinimą, tėv\u0173 raminimą ir pasitikėjimo kūrimą.",
+        "3": "Nepriklausomas liudytojas yra vertingiausias ir laikui jautriausias \u012frodym\u0173 šaltinis ginčijamame eismo \u012fvykyje. Užtikrinkite jo parodymus prieš jam išeinant \u2014 tai suteikia pagrindą, pagal kur\u012f vertinami abiej\u0173 vairuotoj\u0173 teiginiai.",
+        "4": "Agresyvūs žmonės turi žmogiškų akimirkų \u2014 Cooper rūpesčio dėl Ellos pastebėjimas ir \u012fsitraukimas \u012f tai viską keičia. \u201eIš kur važiavote?\u201c vienu metu deeskaluoja ir tiria.",
+        "5": "Apsvaigimo nustatymui nereikia, kad \u012ftariamasis būt\u0173 akivaizdžiai girtas. Pokalbio technika \u2014 klausimas apie rengin\u012f, tada natūraliai apie alkohol\u012f \u2014 duoda geresnius \u012frodymus ir mažiau priešiškumo nei tiesioginis kaltinimas ar neatidėliotinos vairavimo neblaiviam procedūros.",
+        "6": "Kai auka stebi tai, kas sutampa su jūs\u0173 tyrimo nustatymais, validuokite nesidalindami išvadomis. \u201ePastebėjau tą pat\u012f ir tuo užsiimu\u201c nieko nekainuoja ir viską \u012fperka.",
+        "7": "Išsamus užbaigimas paskirsto proporcingą dėmes\u012f \u2014 nukentėjusiai šaliai reikia daugiau iš jūs\u0173 nei nubaustai. Protokolo numeriai, medicininės rekomendacijos vaikui ir praktinė parama paverčia rutininę ataskaitą susitikimu, kur\u012f šeima teigiamai prisimena daugelį metų.",
+        "8": "Kaip tvarkote eismo \u012fvyk\u012f, lemia, ar žmonės pasitikės policija. Tyrimas ir deeskalacija yra tas pats \u012fgūdis \u2014 ramūs žmonės sako tiesą."
+    },
+
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Išplėstinės eismo \u012fvykio vietos tyrimo technikos", "Kit\u0173 mokymas kelių šali\u0173 vietos valdyme", "Bendruomenės policija per kokybišką eismo atsakymą"],
+            "good": ["Išplėstinis apsvaigimo nustatymas \u2014 pokalbio technikos žemiau ribos esančiam alkoholiui", "Vaiko gerovės protokolai eismo \u012fvykio vietose", "Aukos komunikacija sudėting\u0173 tyrim\u0173 metu"],
+            "average": ["Pagrindinis eismo \u012fvykio vietos valdymas \u2014 saugumas, atskyrimas, seka", "Deeskalacijos alternatyvos \u201enusiraminkite\u201c ir kitoms kontraproduktyvioms frazėms", "Nepriklausomo liudytojo identifikavimas ir prioritetizavimas"],
+            "poor": ["Eismo \u012fvykio vietos saugumo ir antrini\u0173 pavojų prevencijos pagrindai", "Parodym\u0173 ėmimo procedūros \u2014 kontaminacijos prevencija ir seka", "Apsvaigimo atpažinimas už akivaizdaus neblaivumo rib\u0173", "Vaiko gerovės sąmoningumas avarinėse vietose"]
+        }
+    },
+
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Bendras veiklos apibendrinimas", "content": ["Rezultatas ir veiklos lygis", "Pagrindinės stiprybės", "Kritinės silpnybės", "Bendras eismo \u012fvykio atsako \u012fvertinimas"]},
+            {"title": "Etap\u0173 analizė", "content": ["Pasirinkimas kiekviename etape", "Poveikis abiem vairuotojams, vaikui ir tyrimui", "Alternatyvūs požiūriai", "Pagrindiniai mokymosi taškai"]},
+            {"title": "Vietos saugumo \u012fvertinimas", "content": ["Vietos apsaugos laikas ir kokybė", "Eismo valdymas", "Antrini\u0173 pavojų prevencija", "Nuolatinis saugumo sąmoningumas"]},
+            {"title": "Vaiko gerovės \u012fvertinimas", "content": ["Vaiko \u012fvertinimo laikas", "Sužalojim\u0173 patikros kokybė", "Bendradarbiavimas su tėvais", "Medicininės kontrolės rekomendacija"]},
+            {"title": "Tyrimo kokybė", "content": ["Liudytoj\u0173 prioritetizavimas ir užtikrinimas", "Parodym\u0173 atskyrimas ir kontaminacijos prevencija", "Apsvaigimo nustatymo metodas ir efektyvumas", "\u012erodym\u0173 išsaugojimas"]},
+            {"title": "Komunikacijos efektyvumas", "content": ["Deeskalacijos frazi\u0173 kokybė", "Aukos komunikacija ir eigos atnaujinimai", "Nešališkumo išlaikymas", "Užbaigimo pareiškimo pilnumas"]},
+            {"title": "Profesinis tobulėjimas", "content": ["Skubūs mokymosi poreikiai", "Ilgalaikiai \u012fgūdži\u0173 prioritetai", "Rekomenduojami šaltiniai"]},
+            {"title": "Taikymas realiame gyvenime", "content": ["Kaip tai taikoma kasdieniams eismo \u012fvykio iškvietimams", "Pasitikėjimo kūrimas per kokybišk\u0105 eismo atsakymą", "Vaiko gerovė kaip policijos prioritetas", "Apsvaigimo nustatymas kaip viešojo saugumo imperatyvas"]}
+        ]
+    }
+}

@@ -1,0 +1,363 @@
+{
+    "scenarioId": "1",
+    "reviewVersion": "3.0",
+    "title": "Apžvalga — Eismo sustabdymo deeskalacija",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Sustabdymas",
+            "criticalSkills": ["Profesionalus prisistatymas ir tono nustatymas", "Dispečerinės informacijos integravimas neatskleiant jautrių detalių", "Gerovės kontekstą atitinkantis požiūris į pažymėtą transporto priemonę"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Prieinate iš vairuotojo pusės su žibintuvėliu žemai, neakindami. Sustojate šiek tiek už vairuotojo lango ir ramiai prisistatote: 'Labas vakaras, pone. Esu pareigūnas [Vardas] iš miesto policijos...'",
+                    "strengths": ["Pradėti nuo vardo ir padalinio iš karto įvykdo procedūrinius reikalavimus ir suteikia pareigūnui žmogiškumo", "Konkretaus pažeidimo (84 km/h 60 km/h zonoje) nurodymas yra skaidrus ir faktinis", "Pastebėjimas apie lėtą sustojimą be kaltinimo natūraliai integruoja dispečerinės informaciją", "Klausimas 'ar viskas gerai?' prieš reikalaujant dokumentų prioritetizuoja žmogų, o ne pažeidimą", "Žema žibintuvėlio padėtis padeda išvengti agresyvaus akinimo efekto, kuris didina įtampą"],
+                    "consequences": "Ponas Davies sugniaužia vairą, bet jo pečiai šiek tiek nusileidžia nuo jūsų tono. Jis iš karto neatsako — apdoroja tai, kad jūsų balsas nėra priešiškas. Marcusas šiek tiek nuleidžia telefoną. Sukūrėte trijų sekundžių galimybės langą.",
+                    "trainingFocus": "Kaip tai, ką pasakote pirmiausia — prisistatymą, priežastį ar rūpinimąsi gerove — formuoja vairuotojo tiesioginę emocinę reakciją?"
+                },
+                "partially_positive": {
+                    "choiceText": "Prieinate įprastai ir sakote: 'Labas vakaras. Vairuotojo pažymėjimą ir registraciją, prašau. Sustabdžiau jus dėl greičio viršijimo — 84 km/h 60 km/h zonoje. Taip pat gavau dispečerinės pranešimą apie gerovės patikrinimą dėl šios transporto priemonės...'",
+                    "adequate": ["Skaidrus dėl sustabdymo priežasties ir gerovės patikrinimo", "Mandagus pasisveikinimas nustato bazinį profesionalumą", "Klausia, kas vyksta, rodydamas susidomėjimą vairuotojo situacija"],
+                    "missed": ["Gerovės patikrinimo atskleidimas prieš užmezgant ryšį gali jaustis kaip įsibrovimas ar gąsdinimas", "Vairuotojas gali pasijusti sekami arba išduotas to, kas skambino", "Nėra prisistatymo vardu, o tai yra geroji praktika", "Jautrios informacijos pateikimo laikas turi reikšmės — skaidrumas be ryšio gali atsisukti prieš jus"],
+                    "improvement": "Naudokite gerovės patikrinimo informaciją savo stebėjimams ir klausimams vadovauti, o ne tiesiogiai ją atskleiskite. Paklauskite 'ar viskas gerai šį vakarą?' neatskleisdami dispečerinės žymės — tas pats rūpestis pasireiškia be sekimo jausmo."
+                },
+                "neutral": {
+                    "choiceText": "Prieinate standartine pozicija ir sakote: 'Labas vakaras. Radaras parodė 84 km/h 60 km/h zonoje. Vairuotojo pažymėjimą ir registraciją, prašau. Ir pasakykite keleiviui nuleisti telefoną.'",
+                    "adequate": ["Greičio nurodymas ir dokumentų prašymas procedūriškai teisingi", "Ramus ir tiesioginis tonas"],
+                    "missed": ["Tiesioginis reikalavimas dėl telefono yra problemiškas — policijos filmavimas yra teisėta teisė", "Prašymas keleiviui nustoti filmuoti prieš bet kokį ryšį signalizuoja gynybingumą", "Nėra prisistatymo vardu", "Gerovės susirūpinimas iš dispečerinės visiškai ignoruojamas"],
+                    "improvement": "Visiškai pašalinkite komentarą apie telefoną — filmavimas yra teisė, ne iššūkis. Pridėkite prisistatymą ir atvirą klausimą, leidžiantį įvertinti vairuotojo būseną nereikalaujant dokumentų pirmiausia."
+                },
+                "negative": {
+                    "choiceText": "Prieinate atsargiai, ranka prie diržo, ir kalbate tvirtai: 'Vairuotojau, laikykite rankas ant vairo. Keleivis, noriu matyti abi jūsų rankas. Niekas nejuda, kol nepasakysiu.'",
+                    "risks": ["Nėra jokios aiškios saugumo grėsmės, išskyrus du keleivius ir telefoną", "Komandos apie rankas ir judėjimą be saugumo indikatorių yra neproporcinga eskalacija", "Komunikuoja grėsmę, o ne tarnystę, gerovės pažymėtame sustabdyme", "Dispečerinė nurodė gerovės susirūpinimą, o ne pavojaus signalą"],
+                    "consequences": "Abu keleiviai sustingsta. Marcusas sušnabžda: 'Sakiau tau, tėti.' Pono Davies rankos dreba ant vairo. Bet kokia asmeninė krizė šiame automobilyje palaidojama po pareigūno baimės. Gerovės patikrinimo galimybė prarastos.",
+                    "betterApproach": "Rezervuokite aukšto budrumo komandas situacijoms su aiškiais saugumo indikatoriais — įtartinu judėjimu, matomais ginklais, sunkaus nusikaltimo požymiais. Gerovės pažymėta transporto priemonė su dviem keleiviais ir telefonu reikalauja ramaus prisistatymo, ne taktinių komandų."
+                }
+            },
+            "keyLearningPoints": ["Pirmosios trisdešimt eismo sustabdymo sekundžių nustato emocinę trajektoriją viskam, kas seka", "Dispečerinės informacija turėtų vadovauti jūsų dėmesingumui, nebūtinai jūsų pirmieji žodžiai", "Klausimas apie keleivio telefoną prieš prisistatymą pasakoja istoriją, kad kamera svarbesnė nei žmogus", "Gerovės pažymėtas sustabdymas reikalauja gerovę atitinkančio požiūrio — smalsumo, ne komandų"]
+        },
+        "2": {
+            "stageName": "Keleivis",
+            "criticalSkills": ["Filmavimo teisės patvirtinimas be gynybingumo", "Dviejų emocinių dinamikų valdymas vienu metu", "Stebėjimu grįsta empatija be tardymo"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Pirmiausia kreipiatės į Marcusą ramiu linktelėjimu: 'Tu visiškai teisus — gali filmuoti. Tai tavo teisė ir man tai nekelia jokių problemų.' Tada atsisukate į poną Davies: 'Neskubėkite su registracija...'",
+                    "strengths": ["Iš karto patvirtinti Marcuso teisę filmuoti numalšina konfrontaciją, kuriai jis rengėsi", "Kai paauglys tikisi priešiškumo ir sulaukia pagarbos, visa dinamika pasikeičia", "Pasakyti ponui Davies neskubėti rodo kantrybę esant spaudimui", "Pastebėjimas, kad 'daug kas vyksta', rodo dėmesingumą be tardymo", "Adresuoja abu keleivius eilės tvarka, neapleisdamas nė vieno"],
+                    "consequences": "Marcusas sumirksi, akivaizdžiai nustebęs. Telefonas lieka pakėlęs, bet laikysena sušvelnėja. Ponas Davies iškvėpia ir suranda registraciją daiktadėžėje. Temperatūra automobilyje nukrinta penkiais laipsniais. Abu keleiviai dabar labiau linkę kalbėti.",
+                    "trainingFocus": "Kas nutinka konfrontacijai, kai sutinkate su žmogumi dar jam nebaigus kovoti? Kaip teisės patvirtinimas — o ne ignoravimas ar ginčijimas — keičia galios dinamiką?"
+                },
+                "partially_positive": {
+                    "choiceText": "Visą dėmesį skiriate ponui Davies: 'Pone, neskubėkite su registracija. Palauksiu.' Visiškai ignoruojate Marcuso pareiškimą apie filmavimą.",
+                    "adequate": ["Kantrybė ieškant dokumentų yra gera praktika", "Susitelkimas į vairuotoją yra protingas prioritetizavimas", "Ramus ir nekonfrontacinis tonas"],
+                    "missed": ["Marcusas pasakė tiesioginį teiginį, tikėdamasis atsakymo — tyla palieka įtampą neišspręstą", "Jis neatsakymą interpretuos kaip atmetimą arba kaip ketinimą su juo susidoroti vėliau", "Atviras frontas su konfrontaciniu paaugliu komplikuoja vėlesnius etapus"],
+                    "improvement": "Vienas sakinys — 'Tu teisus, gali filmuoti' — užima tris sekundes ir uždaro priešišką frontą. Iššūkio ignoravimas nėra tas pats kas jo išsprendimas."
+                },
+                "neutral": {
+                    "choiceText": "Sakote tvirtai, bet ne agresyviai: 'Jaunuoli, aš nieko nesakiau apie tavo telefoną. Elkimės ramiai. Pone, man reikia tos registracijos — pažiūrėkite daiktadėžėje.'",
+                    "adequate": ["Faktiškai teisinga, kad neminėjote telefono", "Tonas kontroliuojamas ir profesionalus", "Nukreipia poną Davies į praktinį veiksmą"],
+                    "missed": ["Marcuso pataisymas praleidžia esmę — jis anticipavo tai, ko tikėjosi, o ne reagavo į tai, ką pasakėte", "Pataisa skamba gynybiškai, o ne nuraminiančiai", "'Elkimės ramiai' reiškia, kad dalykai nėra ramūs, o tai gali tapti save pildančiu pranašavimu"],
+                    "improvement": "Kai kas nors projektuoja savo baimę ant jūsų, baimės adresavimas efektyvesnis nei projekcijos taisymas. 'Gali filmuoti — tai gerai' išsprendžia baimę; 'aš nieko nesakiau apie tavo telefoną' ginčijasi su ja."
+                },
+                "negative": {
+                    "choiceText": "Pasilenkiate ir žiūrite tiesiai į Marcusą: 'Vaikine, padėk telefoną. Tai tarp manęs ir vairuotojo. Tu apsunkini situaciją be reikalo.'",
+                    "risks": ["Liepti nepilnamečiui nustoti filmuoti yra teisiškai abejotina ir praktiškai neveiksminga", "'Vaikine' yra atmetantis penkiolikmečiui", "'Tu apsunkini situaciją' kaltina paauglį už naudojimąsi teise", "Tai tiksliai tokia sąveika, kuri tampa viraliniu dėl neteisingų priežasčių"],
+                    "consequences": "Marcuso veidas sukietėja. 'Aš nieko nepadėsiu.' Ponas Davies panikuoja: 'Pareigūne, prašau, jis tiesiog bijo.' Sustabdymas dabar apie telefoną, o ne apie greitį ar gerovės susirūpinimą. Sukūrėte konfliktą, kurio nebuvo.",
+                    "betterApproach": "Traktuokite filmavimą kaip nesvarbų dalyką, iš karto patvirtindami teisę. Kai kažkieno teisėtą elgesį paverčiate problema, jūs tampate problema istorijoje, kurią pasakoja kamera."
+                }
+            },
+            "keyLearningPoints": ["Paauglys, filmuojantis policijos susitikimą, naudojasi teisėta teise, o ne daro iššūkį", "Kai kas nors tikisi priešiškumo ir sulaukia pagarbos, konfrontacija, kuriai jie rengėsi, ištirpsta", "Tiesioginio iššūkio ignoravimas nėra tas pats kas jo deeskalavimas — neišspręsta įtampa kaupiasi", "Dviejų emocinių dinamikų valdymas reikalauja kreiptis į abi, nors ir trumpai, o ne pasirinkti vieną"]
+        },
+        "3": {
+            "stageName": "Protrūkis",
+            "criticalSkills": ["Reagavimas į grynąsias emocijas neatspindint ir neslopinant jų", "Aktyvus klausymasis, įrodantis, kad girdėjote konkrečias detales", "Perėjimas nuo vykdymo prie problemų sprendimo, kai atsiskleidžia krizė"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Sustojate. Leidžiate tylai pakiboti akimirką. Tada kalbate tyliai: 'Pone Davies, girdėjau, ką ką tik pasakėte — jūsų mama ligoninėje ir kovojate dėl globos...'",
+                    "strengths": ["Pauzė leidžia jo žodžiams nusėsti, neatsimušant atgal — kritinė deeskalacijos technika", "Konkrečių detalių pakartojimas įrodo, kad iš tikrųjų klausėtės, o tai reta jo dabartinėje patirtyje", "Klausimas apie ligoninę perkelia pokalbį nuo bausmės prie problemų sprendimo", "Žmogaus prioritetizavimas neignoruojant pažeidimo", "Susitikimas su žmogumi jo skausmo taške — aukšto lygio deeskalacija"],
+                    "consequences": "Pono Davies balsas lūžta. Jis pavadina ligoninę — Šv. Kotrynos, dvidešimt minučių kelio. Marcusas žiūri su išraiška, pakitusia nuo įtarumo link atsargios vilties. Pirmą kartą šį vakarą kažkas turintis valdžią atsakė į skausmą rūpesčiu.",
+                    "trainingFocus": "Ko jums kainuoja išklausyti kažkieno blogiausią akimirką? Ko jiems kainuoja, jei to nedarote? Kaip konkrečių detalių pakartojimas žmogui keičia ryšio kokybę?"
+                },
+                "partially_positive": {
+                    "choiceText": "Linktelite su užuojauta: 'Atsiprašau, kad tiek visko patiriate, pone. Tai tikrai skamba sunkiai. Bet vis dėlto turiu aptarti greičio viršijimą...'",
+                    "adequate": ["Nuoširdi užuojauta išreiškiama", "Pripažįsta jo situacijos sunkumą", "Eina link sprendimo"],
+                    "missed": ["Perėjimas prie 'bet vis dėlto turiu aptarti greičio viršijimą' nutūpia kaip užsiveriančios durys", "Jis atidengė savo skausmą, o atsakymas: pripažinta, dabar grįžtame prie reikalų", "Perėjimo greitis rodo, kad jo krizė buvo išgirsta, pasvertas ir rasta nepakankama kažką pakeisti"],
+                    "improvement": "Pašalinkite 'bet' ir pasilikite su žmogumi dar dešimt sekundžių. Paklauskite apie ligoninę, pripažinkite globos stresą, tada natūraliai grįžkite prie sustabdymo. Perėjimas vis tiek įvyks — laikas daro skirtumą tarp buvimo išgirstu ir apdorotu."
+                },
+                "neutral": {
+                    "choiceText": "Laikote balsą ramų: 'Pone, suprantu, kad esate nusiminęs, bet turiu paprašyti, kad nekeltumėte balso. Yra dalykų, kuriuos galiu kontroliuoti, ir dalykų, kurių negaliu...'",
+                    "adequate": ["Balsas ramus ir kontroliuojamas", "Bando struktūrizuoti sąveiką"],
+                    "missed": ["'Nekelkite balso', kai kažkas verkia dėl savo mamos ligoninėje, yra negirdėta", "Jis ne šaukė ant jūsų — jis griuvo", "'Dalykai, kuriuos galiu kontroliuoti' skamba kaip problemos valdymas, o ne pokalbis su žmogumi", "Turite paklusnumą, bet ne ryšį"],
+                    "improvement": "Atskirkite agresyvų žmogų nuo kenčiančio. Pakeltas balsas iš sielvarto reikalauja empatijos, ne garso kontrolės. Leiskite emocijai egzistuoti — ji nurims, kai pasijus išgirsta."
+                },
+                "negative": {
+                    "choiceText": "Laikote tolygų, profesionalų toną: 'Pone Davies, suprantu, kad patiriate didelį stresą, ir man gaila dėl jūsų mamos. Bet tai nekeičia fakto, kad važiavote 84 km/h gyvenamajame rajone su sūnumi automobilyje. Stresas, kurį patiriate, yra būtent priežastis, kodėl greitis svarbus labiau.'",
+                    "risks": ["Skamba profesionaliai ir logiškai nuosekliai, bet laikas yra pražūtingas — jis ką tik griuvo ir pasidalijo blogiausia naktimi", "Paima jo pažeidžiamumą ir panaudoja kaip įrodymą, kodėl bauda dar labiau pagrįsta, o ne mažiau", "Išmatuotas, protingas tonas daro blogiau — jaučiasi apskaičiuotas, o krizę patiriančiam žmogui tai nesiskiria nuo žiaurumo", "Jo sūnus filmuoja pareigūną, atsakiusį į ašaras politikos pagrindimo logika"],
+                    "consequences": "Ponas Davies nutyla — ne nuramintas, o ištušintas. Pasirašo viską, ką paduosite. Marcusas žiūri su išraiška, peržengiančia pyktį — tai žvilgsnis žmogaus, patvirtinusio tai, ką visada įtarė. 'Tu girdėjai, ką jis pasakė, ar ne?' sako į telefoną. 'Mano tėtis verkia dėl senelės, o pareigūnas sako, kad dėl to bauda dar svarbesnė.'",
+                    "betterApproach": "Kai kas nors yra krizėje ir jūs panaudojate jų sielvartas kaip vykdymo argumentacijos dalį, jūs paverčiate pažeidžiamumą ginklu prieš juos — nepriklausomai nuo to, kaip profesionaliai tai skamba. Proporcingas atsakas — klausyti, pripažinti skausmą, tada pereiti prie problemų sprendimo, o ne konstruoti loginį argumentą, kodėl jų krizė daro vykdymą dar svarbesnį."
+                }
+            },
+            "keyLearningPoints": ["Kai kas nors pratrūksta desperacija, o ne agresija, atsakas turi atitikti emociją — empatija, ne kontrolė", "Konkrečių detalių, kuriomis pasidalijo žmogus, pakartojimas įrodo, kad klausėtės, ir kuria pasitikėjimą greičiau nei bet kokia technika", "Žodis 'bet' po empatijos ištrina empatiją — perėjimo laikas turi milžinišką reikšmę", "Pakeltas balsas iš sielvarto ir pakeltas balsas iš priešiškumo reikalauja visiškai skirtingų atsakymų"]
+        },
+        "4": {
+            "stageName": "Praeivė",
+            "criticalSkills": ["Naujos informacijos iš bendruomenės narių įtraukimas", "Adaptyvus sprendimų priėmimas, kai kontekstas keičiasi", "Praeivių traktavimas kaip prisidedančių, o ne trukdančių"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Atsisukate į ponią Marsh su pagarbiu linktelėjimu: 'Ačiū, ponia Marsh. Vertinu, kad atėjote. Tai padeda turėti kontekstą. Sutvarkysiu tai, kad ponas Davies galėtų nuvažiuoti į ligoninę.'",
+                    "strengths": ["Praeivės pripažinimas vardu rodo, kad ją vertinate kaip prisidedančią asmenį, o ne trukdymą", "Jos patvirtinimas suteikia papildomo konteksto pateisinti diskreciją", "Ketinimo pranešimas ponui Davies iš karto palengvina", "Rodo, kad nauja informacija pakeitė jūsų skaičiavimus — skaidri, lanksčia policijos veikla", "Konfrontaciją paverčia bendruomenės momentu"],
+                    "consequences": "Ponios Marsh pečiai atsipalaiduoja. Ponas Davies girdimais iškvėpia. Marcusas pirmą kartą nuleidžia telefoną ant kelių. Visa scena transformuojasi. Ponia Marsh tyliai sako: 'Ačiū, pareigūne.'",
+                    "trainingFocus": "Kai praeivė suteikia informacijos, padedančios priimti geresnį sprendimą, kaip viešas tai pripažinimas veikia visų pasitikėjimą? Kaip atrodo lanksčia policijos veikla realiuoju laiku?"
+                },
+                "partially_positive": {
+                    "choiceText": "Trumpai pripažįstate ponią Marsh: 'Ačiū, ponia. Tvarkau situaciją.' Tada vėl susitelkiate į poną Davies nekeisdami savo požiūrio pagal jos informaciją.",
+                    "adequate": ["Mandagus praeivės pripažinimas", "Profesionalus ir kontroliuojamas", "Nesukuria neigiamos sąveikos su kaimyne"],
+                    "missed": ["Kaimynė, patvirtinanti vairuotojo krizę, yra vertingas kontekstas, tačiau jūsų požiūris nesikeičia", "Atrodo nelankstus, o ne prisitaikantis, kai ateina patikima informacija", "Praeivės sąveika buvo neutrali — jokios žalos, bet ir jokios naudos"],
+                    "improvement": "Kai patikima nauja informacija ateina sąveikos viduryje, leiskite savo atsakui akivaizdžiai prisitaikyti. Pasakymas 'tai padeda turėti kontekstą' rodo visiems esantiems, kad jūs įtraukiate informaciją, o ne sekate fiksuotu scenarijumi."
+                },
+                "neutral": {
+                    "choiceText": "Mandagiai kreipiatės į ponią Marsh: 'Ponia, ačiū, bet prašau grįžti į savo teritoriją. Tai eismo sustabdymas ir negaliu leisti civiliams artintis prie vietos.'",
+                    "adequate": ["Mandagus tonas su kaimyne", "Orientuotas į procedūrą"],
+                    "missed": ["Šešiasdešimtmetė kaimynė šlepetėmis, stovinti trimis metrais toliau ant šaligatvio, nėra saugumo grėsmė", "Ją nusiunčiant prarandama patvirtinanti informacija ir emocinis sąjungininkas", "'Civiliai artinasi prie vietos' paverčia gyvenamąją gatvę nusikaltimo vieta", "Nelankstumas kenkia proporcingumui"],
+                    "improvement": "Kai protokolas konfliktuoja su sveiku protu, paklauskite, kuris labiau kuria pasitikėjimą. Kaimynė, pažįstanti šeimą, yra turtas, ne grėsmė. Priimkite informaciją, padėkokite jai ir tęskite."
+                },
+                "negative": {
+                    "choiceText": "Pažiūrite į ponią Marsh, paskui atgal į poną Davies: 'Pone, ar yra kas nors, kas galėtų atvažiuoti ir parvežti jus su sūnumi? Jūs akivaizdžiai negalite vairuoti...'",
+                    "risks": ["Teigti, kad vairuotojas nepajėgus, kai jis emocionalus, bet ne apsvaigęs, patologizuoja sielvarstą", "Kaimynės pasitelkimas jam valdyti yra infantilizuojantis", "Emocinį sielvarstą traktuoti kaip vairavimo pavojų be apsvaigimo įrodymų kelia atsakomybės klausimų", "Atima savarankiškumą iš kompetentingo suaugusiojo, turinčio blogą naktį"],
+                    "consequences": "Ponas Davies pažemintas savo kaimynės ir sūnaus akivaizdoje. 'Aš ne girtas. Aš nusivylęs. Tai skirtumas.' Marcusas: 'Tėti, tiesiog važiuojam.' Ponia Marsh jaučiasi nepatogiai, kad buvo įvelta.",
+                    "betterApproach": "Atskirkite apsvaigimą nuo emocijų. Žmogus, kuris yra nusiminęs, bet budrus, nuoseklus ir orientuotas, nėra nepajėgus vairuoti. Rūpinimasis gerove turėtų įgalinti, o ne infantilizuoti."
+                }
+            },
+            "keyLearningPoints": ["Praeiviai, pažįstantys šalis, gali suteikti vertingo patvirtinimo — traktuokite juos kaip bendruomenės turtą", "Kai patikima nauja informacija ateina, leiskite savo požiūriui akivaizdžiai prisitaikyti — tai kuria pasitikėjimą su visais stebinčiais", "Nelankstus procedūrų laikymasis, kai sveikas protas siūlo lankstumą, signalizuoja nelankstumą, o ne profesionalumą", "Tarp rūpinimosi kažkieno gerove ir jo savarankiškumo atėmimo yra kritinis skirtumas"]
+        },
+        "5": {
+            "stageName": "Sprendimas",
+            "criticalSkills": ["Proporcingas vykdymo diskrecijos panaudojimas", "Saugumo žinučių formulavimas pagal žmogaus paties vertybes", "Sprendimų dokumentavimas, derinant vykdymą ir užuojautą"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Grįžtate prie lango: 'Pone Davies, štai ką darysiu. Išrašau rašytinį įspėjimą dėl greičio. Tai lieka įrašuose, kad kalbėjomės, bet nėra baudos ir nėra baudos taškų. Jūsų vairavimo istorija lieka švari. Bet turiu paprašyti, kad mane išgirstumėte — 84 km/h gyvenamajame rajone yra pavojinga nepriklausomai nuo priežasties. Jei kas nors nutiktų jums ar Marcusui pakeliui į ligoninę, tai nebūtų viena tragedija šį vakarą. Būtų dvi. Prašau, vairuokite saugiai. Jūsų mama turi sulaukti jūsų atvykstant.'",
+                    "strengths": ["Rašytinis įspėjimas yra proporcingas — pripažįsta pažeidimą nebaustant krizę patiriančio žmogaus", "Paaiškinimas, kad istorija lieka švari, pašalina finansinį ir teisinį nerimą", "Saugumo žinutė performuluota apie jo šeimą — 'jūsų mama turi sulaukti jūsų atvykstant' — o ne apie taisykles", "Pavojaus formulavimas asmeniškas — 'tai nebūtų viena tragedija, būtų dvi' — siejant greitį su žmonėmis, kuriuos myli", "Diskrecija panaudota išmintingai: atsakymo pasirinkimas, labiausiai tikėtinas duoti geriausią rezultatą", "Sukuriamas įrašas nesukeliant naštos"],
+                    "consequences": "Ponas Davies linksi, emocijos akivaizdžios. 'Ačiū, pareigūne. Nuoširdžiai.' Marcusas stebi su išraiška, kuri nebėra priešiška. Ponia Marsh tyliai šypsosi. Vaizdo registratorius užfiksuoja pareigūną, priimantį apgalvotą, pagrįstą sprendimą.",
+                    "trainingFocus": "Kas daro diskreciją išmintinga, o ne silpna? Kaip paaiškinsite skirtumą ataskaitoje? Kada įspėjimas efektyviau pasiekia saugumo tikslą nei bauda?"
+                },
+                "partially_positive": {
+                    "choiceText": "Išrašote baudą, bet paaiškinate: 'Pone Davies, turiu rašyti šią baudą — viršijimas 24 km/h yra žymus ir negaliu jo praleisti...'",
+                    "adequate": ["Sąžininga ir ne nemandagu", "Pažymi situaciją ataskaitoje, rodydamas suvokimą", "Nurodo vairuotojui teisinį kelią", "Atsiprašo dėl mamos — nuoširdus žmogiškas momentas"],
+                    "missed": ["Baudos išrašymas žmogui be teistumo, skubančiam pas hospitalizuotą mamą, kai turite pilną diskreciją, kelia sprendimo klausimų", "Nukreipimas į teismą ištaisyti tai, ką galėtumėte ištaisyti dabar, prideda naštą", "Pastaba ataskaitoje apgalvota, bet nekeičia jo patirties šį vakarą"],
+                    "improvement": "Kai turite diskreciją ir aplinkybės aiškiai ją pateisina, naudokite ją. Rašytinis įspėjimas pasiekia tą patį saugumo dokumentavimo tikslą nepridedant finansinės ir teisinės naštos krizę patiriančiam žmogui."
+                },
+                "neutral": {
+                    "choiceText": "Grąžinate dokumentus: 'Gerai, pone Davies — galite važiuoti. Jokios baudos šį vakarą. Tik būkite atsargus. Tikiuosi, kad jūsų mama bus gerai.'",
+                    "adequate": ["Geras ketinimas ir nuoširdus rūpestis", "Visiškai pašalina vykdymo naštą", "Palinkėjimas mamai"],
+                    "missed": ["Jokio greičio paminėjimo, jokios saugumo žinutės, jokio įspėjimo įrašuose", "Diskrecija be jokio pažeidimo pripažinimo nieko neišmoko", "Jokios dokumentacijos reiškia jokio įrašo, kad konsultavote", "Sustabdymas jaučiasi atsitiktinis — lyg įvyko ir paskui neįvyko"],
+                    "improvement": "Gera diskrecija apima atskaitomybę. Rašytinis įspėjimas dokumentuoja susitikimą, perduoda saugumo žinutę ir išsaugo žmogaus orumą. Paprasčiausias paleidimas yra atsainus, ne diskreciškas."
+                },
+                "negative": {
+                    "choiceText": "Apdorojate baudą su nuoširdžiu apgailestavimu: 'Pone Davies, man tikrai gaila dėl to, ką patiriate. Bet turiu elgtis su visais vienodai, nepriklausomai nuo aplinkybių — tai ir yra teisingumas. Baudos išrašymas yra teisingas ir nuoseklus sprendimas.'",
+                    "risks": ["Skamba kaip principinga, lygi policijos veikla — bet lygybė ir teisingumas nėra tas pats", "Patvirtintos šeimos ekstremalios situacijos traktavimas kaip įprasto greičio viršijimo yra nelankstumas, persirengęs principu", "Diskrecija egzistuoja būtent todėl, kad aplinkybės skiriasi — 'vienodo elgesio' naudojimas sprendimui išvengti yra atsisakymas, ne sąžiningumas", "Pasiūlymas ginčyti teisme perkelia naštą jau priblokštam žmogui", "Jo sūnus stebi pareigūną, kuris skamba protingai darydamas kažką neprotingo"],
+                    "consequences": "Ponas Davies pasirašo drebančia ranka. Jis neginčija — logika skamba taip principingai, kad beveik tiki, jog jis neprotingas, kad nori gailestingumo. Marcusas filmuoja tylėdamas. Ponia Marsh grįžta namo purtydama galvą. Turite pagrįstą baudą ir penkiolikmetį, kurį išmokėte, kad teisingumas yra žodis, kurį suaugusieji vartoja, kai turi omenyje nelankstumą.",
+                    "betterApproach": "Kai remiatės 'vienodu elgesiu su visais', kad pateisintumėte neproporcingą atsakymą, paklauskite, kam naudinga ta lygybė — piliečiui ar pareigūnui, kuriam nebereikia priimti sudėtingo sprendimo. Rašytinis įspėjimas su saugumo žinute yra proporcingas, dokumentuotas ir tikrai teisingas."
+                }
+            },
+            "keyLearningPoints": ["Diskrecija nėra silpnybė — tai sudėtingas profesinio sprendimo panaudojimas, įrašytas jūsų įgaliojimuose", "Rašytinis įspėjimas dokumentuoja susitikimą ir užtikrina atskaitomybę nebaustant krizės", "Saugumo žinutės labiau paveikia, kai formuluojamos pagal žmogaus paties vertybes — šeimą, ne taisykles", "Kai diskreciją apibūdinate kaip 'išimčių darymą', atskleidžiate savo įrankių nesupratimą"]
+        },
+        "6": {
+            "stageName": "Marcusas",
+            "criticalSkills": ["Sąžiningas bendravimas su jaunu žmogumi, užduodančiu nuoširdų klausimą apie policijos darbą", "Pasitikėjimo kūrimas per kartų ir patirties takoskyrą", "Profesionalumo modeliavimas kaip standarto, o ne asmeninės paslaugos"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Žiūrite į jį tiesiai, be nuolaidžiavimo: 'Tai teisingas klausimas, Marcusai, ir džiaugiuosi, kad paklausei. Ne — ne visada taip būna, ir neapsimesiu, kad taip yra. Bet taip turėtų atrodyti. Tavo tėtis viršijo greitį ir turėjome apie tai pakalbėti. Bet jis taip pat žmogus, kuriam baisiai sunki naktis, ir tai irgi svarbu. Abu dalykai gali būti tiesa vienu metu. Tu turėjai visišką teisę filmuoti, ir verčiau norėčiau, kad pamatytum kažką vertą įrašymo.'",
+                    "strengths": ["Sąžiningas atsakymas — 'ne visada taip būna' — kuria patikimumą su paaugliu, jau susidariusiu nuomonę", "Pripažinimas, kad tėvas ir viršijo greitį, ir kenčia, demonstruoja niuansų egzistavimą teisėsaugoje — 'abu dalykai gali būti tiesa vienu metu'", "'Kažką vertą įrašymo' performuluoja kamerą nuo priešiškumo link aspiracijos", "Filmavimo teisės patvirtinimas atsakyme gerbia jo ankstesnę poziciją", "Negina visos policijos — pelno pasitikėjimą būdamas teisingas, o ne institucinis", "Sodina sėklą, kuriai gali prireikti metų užaugti"],
+                    "consequences": "Marcusas tylus ilgą akimirką. Tada lėtai linksi. 'Gerai.' Vienas žodis — bet jis turi svorio. Ponas Davies stebi pokalbį su kažkuo panašiu į dėkingumą. Šis trisdešimties sekundžių pokalbis gali pakeisti tai, kaip Marcusas kalba apie policiją visą likusį gyvenimą.",
+                    "trainingFocus": "Kai jaunas žmogus jums užduoda nuoširdų klausimą apie policijos darbą, kokia yra nesąžiningo atsakymo kaina, palyginti su sąžiningo? Kaip netobulumo pripažinimas kuria daugiau patikimumo nei institucijos gynimas?"
+                },
+                "partially_positive": {
+                    "choiceText": "Šyptelite jam: 'Stengiuosi elgtis su žmonėmis taip, kaip norėčiau, kad su manimi elgtųsi, Marcusai. Tai viskas. Mes ne visi tokie, kaip rodo žinios...'",
+                    "adequate": ["Šiltas ir žmogiškas atsakymas", "Asmeninis, o ne institucinis formulavimas", "Geras nukreipimas pasirūpinti tėčiu"],
+                    "missed": ["'Mes ne visi tokie, kaip rodo žinios' yra gynybinis formulavimas, pozicionuojantis jo susirūpinimus kaip žiniasklaidos sukurtus", "Subtiliai atmeta realybę, kad daugelis paauglių turėjo neigiamų susidūrimų su policija, kurių nematė žiniose", "Nutraukia gilesnį pokalbį, kai jis nuoširdžiai kreipėsi"],
+                    "improvement": "Kai paauglys nuleidžia apsaugą ir klausia kažko tikro, atitikite klausimo gylį. Pripažinkite, kad policijos darbas netobulas, užuot nukreipę į žiniasklaidą. Gilesnis pokalbis, kuriam jis atidarė duris, yra vertingesnis nei greitas nuraminimas."
+                },
+                "neutral": {
+                    "choiceText": "Trumpai linktelite: 'Tiesiog darau savo darbą, Marcusai. Saugiai šį vakarą.' Apsisukate eiti prie savo patrulio automobilio.",
+                    "adequate": ["Nekonfrontacinis ir trumpas", "Naudoja jo vardą, kas yra pagarbu", "Nesukuria žalos"],
+                    "missed": ["'Tiesiog darau savo darbą' yra neatsakymas į pažeidžiamą klausimą", "Marcusas padėjo telefoną ir apsaugą, ir paklausė kažko tikro", "Pažeidžiamumo sutikimas su banalia fraze ir išvykimu pasako jam, kad atvirumas nebuvo vertas pastangų", "Jis klausė apie sistemą, o jūs davėte šūkį nuo automobilio buferio"],
+                    "improvement": "Kai jaunas žmogus nuleidžia apsaugą, atitikite momentą. Net vienas sąžiningas sakinys — 'taip turėtų atrodyti, ir aš tai vertinu rimtai' — gerbia pažeidžiamumą, kurį jie parodė."
+                },
+                "negative": {
+                    "choiceText": "Pasilenkiate link Marcuso su nuoširdžia išraiška: 'Marcusai, tai, ką matei šį vakarą — taip ir turėtų atrodyti eismo sustabdymas. Tavo tėtis bendradarbiavo, aš buvau profesionalus, ir viską išsprendėme. Tikiuosi, tai prisiminsi, kai kitą kartą kas nors tau sakys bijoti policijos. Bendradarbiavimas viską palengvina visiems.'",
+                    "risks": ["Skamba kaip nuoširdus edukacinis momentas, bet subtiliai perrašo tai, kas įvyko — sustabdymas nebuvo rutininis, tėvas griuvo verkdamas", "Formuluoti tai kaip 'taip paprastai vyksta' sumenkina krizę, pavertusią šį vakarą ypatingą", "'Bendradarbiavimas viską palengvina' reiškia, kad rezultatas priklauso nuo piliečio elgesio, o ne nuo pareigūno sprendimo", "Sakyti juodaodžiui paaugliui nustoti klausyti žmonių, kurie įspėja jį apie policiją, atmeta gyvenimišką patirtį kaip dezinformaciją", "Jis uždavė pažeidžiamą klausimą ir gavo viešųjų ryšių pranešimą"],
+                    "consequences": "Marcuso veido išraiška keičiasi nuo atvirumo link kažko vėsesnio. 'Taip... gerai.' Telefonas lieka ant kelių, bet ieškanti žvilgsnis dingo. Jis siekė tikro pokalbio ir gavo viešą pranešimą. Momentas nuoširdžiam ryšiui praėjo.",
+                    "betterApproach": "Kai jaunas žmogus atsiveria apie savo baimes, atsakykite į jų patirties realybę, o ne į naratyvą, kurio norėtumėte. Sąžiningas pripažinimas — 'taip turėtų atrodyti, bet ne visada taip būna' — kuria daugiau pasitikėjimo nei nušlifuota žinutė apie tai, kaip sistema turėtų veikti."
+                }
+            },
+            "keyLearningPoints": ["Kai paauglys užduoda nuoširdų klausimą apie policijos darbą, sąžiningumas kuria daugiau patikimumo nei institucijos gynimas", "Pripažinti 'ne visada taip būna' pelno pasitikėjimą, kurio 'ne visi esame blogi' niekada nepelnys", "Pažeidžiamo momento sutikimas su klišė išmoko žmogų, kad pažeidžiamumas nebuvo vertas pastangų", "Sakyti kam nors, kad jam pasisekė gauti padorų pareigūną, yra grasinimas, ne patarimas — ir tai kenkia profesijai"]
+        },
+        "7": {
+            "stageName": "Atsisveikinimas",
+            "criticalSkills": ["Pabaiga su orumu, atitinkančiu pasidalinto gylio", "Orumo atkūrimas per performulavimą", "Ilgalaikio įspūdžio palikimas, kuriantis pasitikėjimą teisėsauga"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Švelniai pakeliate ranką: 'Pone Davies, jūs man neskolingas atsiprašymo. Jūs tėvas, bandantis pasiekti sergančią mamą ir nerimaujantis dėl sūnaus. Aš taip pat būčiau nusiminęs.' Žvilgtelite į Marcusą: 'Jūs abu gerai susidorojote.' Tada: 'Šv. Kotrynos maždaug dvidešimt minučių. Važiuokite Devyntuoju keliu — jis laisvesnis šiuo metu. Vairuokite saugiai. Tikiuosi, kad jūsų mama greitai pasveiks.'",
+                    "strengths": ["Atsisakymas priimti atsiprašymą performuluojant jo reakciją kaip pagrįstą atkuria jo orumą", "Marcuso įtraukimas į komplimentą — 'jūs abu gerai susidorojote' — gerbia sūnaus patirtį kaip lygiai svarbią", "Nurodymai iki Šv. Kotrynos per Devintąjį kelią yra mažas, praktinis rūpesčio veiksmas, nieko bendra su policijos darbu, bet viskas — su žmogiškumu", "'Tikiuosi, kad jūsų mama greitai pasveiks' pavadina tai, kas svarbiausia", "Pabaiga atitinka viso susitikimo emocinį gylį"],
+                    "consequences": "Ponas Davies sugniaužia vairą ir linksi, akimirką negalėdamas kalbėti. Marcusas tyliai sako: 'Ačiū.' Ponia Marsh pamoja nuo šaligatvio. Kai visureigis atsargiai pajuda, palikote tris žmones su iš esmės kitokia patirtimi nei tikėjosi.",
+                    "trainingFocus": "Kuo skiriasi sustabdymo užbaigimas nuo įspūdžio palikimas? Kaip pabaiga, atitinkanti susitikimo gylį, keičia istoriją, kurią žmonės apie tai pasakoja?"
+                },
+                "partially_positive": {
+                    "choiceText": "Maloniai priimate atsiprašymą: 'Vertinu tai, pone Davies. Jokios nuoskaudos. Tikiuosi, kad viskas bus gerai su jūsų mama ir su... visu kitu...'",
+                    "adequate": ["Malonus ir šiltas", "Atsiprašymo priėmimas ir palinkėjimas yra nuoširdus", "Teigiamas pabaigos tonas"],
+                    "missed": ["Neapibrėžtas 'visas kitas' vengia įvardyti globos situaciją, kuria jis pasidalijo pažeidžiamai", "Pabaiga maloni, bet neatitinka pasidalinto gylio", "Gera pabaiga vidutiniam pokalbiui, ne puiki pabaiga ypatingam"],
+                    "improvement": "Kai kas nors jums patikėjo giliausias baimes, pabaiga turi atitikti tą gylį. Įvardykite tai, kuo buvo pasidalyta — mamą, globą, baimę — kad žinotų, jog buvo tikrai išgirsta, o ne tik toleruota."
+                },
+                "neutral": {
+                    "choiceText": "Linktelite: 'Atsiprašymas priimtas. Tik laikykitės greičio limito toliau. Gero vakaro.'",
+                    "adequate": ["Funkcionalu ir nekonfrontaciška", "Priima atsiprašymą be komplikacijų", "Apima greičio priminimą"],
+                    "missed": ["Emociškai plokščia po sustabdymo, kuriame vyko sugriuvimas, paauglio transformacija ir kaimynės liudijimas", "'Gero vakaro' yra antiklimatika po susitikimo gylio", "Greičio priminimas suveda visą turtingą žmogišką sąveiką atgal prie eismo pažeidimo"],
+                    "improvement": "Kai sustabdymas buvo emociškai reikšmingas, pabaiga turi atitikti. Standartinė pabaiga po gilaus susitikimo reiškia, kad ilgalaikis prisiminimas yra antiklimatika, o ne rūpestis, kurį rodėte anksčiau."
+                },
+                "negative": {
+                    "choiceText": "Šiltai priimate atsiprašymą: 'Ačiū, pone Davies — tai daug reiškia. Noriu būti atviras su jumis: šį vakarą panaudojau savo diskreciją, nes mačiau, kad esate geras žmogus sunkioje situacijoje. Bet turiu pasakyti, kad tai buvo išimtis, ne taisyklė. Tikiuosi, šis vakaras jums primins, kad sistema veikia, kai žmonės elgiasi su vienas kitu pagarbiai.'",
+                    "risks": ["Skamba dosniai ir nuoširdžiai, bet apvelka pamokslą gerumu", "'Panaudojau diskreciją, nes mačiau, kad esate geras žmogus' reiškia, kad diskrecija priklauso nuo pareigūno moralinio charakterio vertinimo", "'Tai buvo išimtis, ne taisyklė' performuluoja proporcingą sprendimą kaip ypatingą elgesį", "'Sistema veikia, kai žmonės elgiasi su vienas kitu pagarbiai' subtiliai priskiria gerą rezultatą pono Davies paklusnumui, o ne geram policijos darbui", "Marcusas girdi 'sistema veikia' ir pagalvoja apie kiekvieną istoriją, kur ji neveikė"],
+                    "consequences": "Ponas Davies linksi ir sako 'ačiū' — bet padėka jaučiasi ištraukta, o ne natūrali. Marcusas neramiai pajuda sėdynėje — jis girdėjo 'sistema veikia' ir 'tai buvo išimtis'. Sustabdymas baigiasi teigiamu paviršiumi, bet paskutinė žinutė: jums pasisekė, būkite dėkingi ir atsiminkite, kad tai buvo dovana. Istorija, kurią Marcusas pasakos, apims frazę 'jis pasakė, kad tai buvo išimtis.'",
+                    "betterApproach": "Kai jūsų pabaiga pateikia gerą rezultatą kaip priklausomą nuo piliečio charakterio, o ne nuo jūsų profesinio sprendimo, tai reiškia, kad mažiau simpatiškas žmogus tokioje pačioje krizėje negautų tokio pat elgesio. Baikite su orumu — atsisakykite atsiprašymo performuluodami jo reakciją kaip pagrįstą ir leiskite profesionalumui kalbėti pačiam be pamokslo."
+                }
+            },
+            "keyLearningPoints": ["Paskutinis įspūdis lemia istoriją, kurią žmonės pasakoja — pabaiga turi atitikti susitikimo emocinį gylį", "Atsisakyti atsiprašymo performuluojant kažkieno reakciją kaip pagrįstą atkuria orumą galingiau nei jo priėmimas", "Praktiniai maži rūpesčio veiksmai — kaip nurodymai iki ligoninės — palieka neproporcingai didelius įspūdžius", "Priminimas, kad davėte kam nors nuolaidą, paverčia diskreciją skola ir gerą valią — pasipiktinimu"]
+        }
+    },
+    "comprehensiveMetrics": {
+        "communication": {
+            "description": "Emocinės trajektorijos nustatymas per profesionalų prisistatymą, aktyvų klausymąsi ir kalbą, kuri deeskaluoja, o ne provokuoja",
+            "indicators": {
+                "excellent": ["Profesionalus prisistatymas vardu ir padaliniu pirmame kontakte", "Aktyvus klausymasis, demonstruojamas pakartojant konkrečias pono Davies pasidalytas detales", "Kalba, kuri deeskalavo kiekviename etape — klausimai vietoj komandų, smalsumas vietoj konfrontacijos", "Tonas, tinkamas kiekvienam momentui — ramus sustabdyme, tylus per protrūkį, šiltas pabaigoje"],
+                "poor": ["Jokio prisistatymo ar tikslo paaiškinimo", "Komandos be saugumo pagrindimo — 'rankos ant vairo' be aiškios grėsmės", "Atmetanti kalba — 'visi turi problemų', 'kiekviena istorija knygoje'", "Tonas, neatitinkantis momento — garso kontrolės reikalavimai per sielvarto protrūkį"]
+            }
+        },
+        "discretion": {
+            "description": "Išmintingas vykdymo sprendimų naudojimas — atsakymo pritaikymas aplinkybėms, o ne mechaniškas taisyklių taikymas",
+            "indicators": {
+                "excellent": ["Rašytinis įspėjimas pasirinktas kaip proporcingas atsakas patvirtintai krizei be teistumo", "Saugumo žinutė formuluojama pagal vairuotojo paties vertybes — šeimą, ne taisykles", "Sprendimas dokumentuotas ir pagrįstas — diskrecija su atskaitomybe", "Nauja informacija iš dispečerinės ir praeivės akivaizdžiai įtraukta į sprendimų priėmimą"],
+                "poor": ["Bauda išrašyta nepaisant pilnos diskrecijos ir patvirtintų lengvinančių aplinkybių", "'Taisyklės yra taisyklės' formulavimas, vengiantis profesinio sprendimo darbo", "Diskrecija apibūdinama kaip 'išimčių darymas', o ne kaip pagrindinis vykdymo įrankis", "Jokios dokumentacijos — arba nelanksti bauda, arba atsainus paleidimas be įrašo"]
+            }
+        },
+        "empathy": {
+            "description": "Emocinės krizės atpažinimas ir reagavimas į ją neaukojant autoriteto ar profesionalumo",
+            "indicators": {
+                "excellent": ["Pauzė ir tyla naudojamos leisti pono Davies skausmui nusėsti, neatsimušant atgal", "Konkrečios detalės atspindomos atgal — ligoninės pavadinimas, globos situacija — įrodant nuoširdų klausymąsi", "Gerovės susirūpinimas natūraliai integruotas į požiūrį neatskleiant dispečerinės detalių invazyviai", "Orumas atkurtas pabaigoje performuluojant jo reakciją kaip pagrįstą, o ne reikalaujant atsiprašymo"],
+                "poor": ["Empatija iš karto sekama 'bet' — pripažinta, tada atmesta", "'Nekelkite balso' nukreipta žmogui, verkiančiam dėl savo mamos", "Skausmas atmestas kaip 'istorija' arba paverstas ginklu — 'jei tikrai rūpėtų, vairuotumėte atsargiau'", "Įtarimas ar cinizmas reaguojant į atskleistą pažeidžiamumą"]
+            }
+        },
+        "youthEngagement": {
+            "description": "Pagarbūs santykiai su jaunais žmonėmis ir praeiviais, ypač būnant stebimam ar filmuojamam",
+            "indicators": {
+                "excellent": ["Marcuso teisė filmuoti patvirtinta iš karto ir be gynybingumo", "Nuoširdus, sąžiningas atsakymas į jo klausimą apie policijos darbą — 'ne visada taip būna'", "Marcusas įtrauktas į baigiamąjį komplimentą — 'jūs abu gerai susidorojote'", "Kamera performuluota kaip aspiracinis dalykas — 'kažką vertą įrašymo'"],
+                "poor": ["Reikalavimas nustoti filmuoti arba padėti telefoną", "'Vaikine' naudojamas atmetančiai penkiolikmečiui", "Marcusas kaltinamas už baimę — 'nusistatymas, su kuriuo atėjai'", "Uždengta grėsmė: 'galėjo baigtis visai kitaip su kitu pareigūnu'"]
+            }
+        },
+        "closingImpact": {
+            "description": "Kiekvienam susitikimo dalyviui paliekama patirtis, kuri kuria pasitikėjimą teisėsauga",
+            "indicators": {
+                "excellent": ["Pabaiga atitiko susitikimo emocinį gylį — ne standartinė po gilaus susitikimo", "Praktinis rūpestis parodytas — nurodymai iki ligoninės, konkretūs palinkėjimai", "Orumas atkurtas kiekvienam asmeniui — ponas Davies, Marcusas, ponia Marsh visi pripažinti", "Istorija, kurią kiekvienas liudytojas pasakoja vėliau, teigiamai atspindi pareigūną ir profesiją"],
+                "poor": ["Standartinė pabaiga — 'gero vakaro' — po emociškai intensyvaus sustabdymo", "Diskrecija performuluota kaip asmeninė paslauga — 'daviau jums nuolaidą'", "'Kitą kartą gali nepasitaikyti kažkas, norintis klausyti' — uždengta grėsmė kaip paskutiniai žodžiai", "Pabaiga ištrynė gerą valią, sukurtą per visą susitikimą"]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "commandDefault": {
+            "pattern": "Numatytasis perėjimas prie komandų ir kontrolės taktikų, kai situacija reikalauja pokalbio ir smalsumo",
+            "examples": ["'Rankos ant vairo, niekas nejuda' kaip pradžia gerovės pažymėtame sustabdyme", "'Nekelkite balso' nukreipta žmogui emocinėje krizėje", "'Padėk telefoną' nukreipta paaugliui, naudojančiam teisėtą teisę", "Taktinės komandos be aiškių saugumo indikatorių"],
+            "impact": "Komandos be pagrindimo komunikuoja grėsmę, o ne tarnystę. Gerovės pažymėtame sustabdyme jos palaidoja pačią krizę, kurią buvote atsiųsti įvertinti. Krizę patiriantis žmogus tampa bijančiu žmogumi — o baimė nesukuria bendradarbiavimo ar informacijos, kurių jums reikia.",
+            "correction": "Rezervuokite komandinio lygio kalbą situacijoms su aiškiomis saugumo grėsmėmis. Rutininiuose ir gerovės sustabdymuose pradėkite nuo prisistatymo, paaiškinimo ir klausimų. Smalsumas surenka daugiau žvalgybos nei komandos."
+        },
+        "empathyErasure": {
+            "pattern": "Empatijos išreiškimas ir iš karto jos ištrinimas žodžiu 'bet' arba grįžimu prie vykdymo — kartais užmaskuotas kaip principinga argumentacija",
+            "examples": ["'Atsiprašau, kad tiek visko patiriate, bet vis dėlto turiu aptarti greičio viršijimą'", "'Man tikrai gaila, bet turiu elgtis su visais vienodai — tai yra teisingumas'", "'Suprantu, kad esate strese, bet būtent todėl greitis svarbus labiau'", "Krizės išgirdimas, tada loginio argumento, kodėl vykdymas dar labiau pagrįstas, sukonstravimas"],
+            "impact": "Žodis 'bet' po empatijos ištrina empatiją. Žmogus girdi: 'Pripažinau tavo skausmą, jį pasvėriau ir radau nepakankamą.' Emocinis langas užsidaro. Bet koks besikuriantis pasitikėjimas sustoja. Vairuotojas prisimena 'bet', o ne 'atsiprašau'.",
+            "correction": "Pasilikite su žmogumi dar dešimt sekundžių prieš pereidami. Paklauskite apie ligoninę. Pripažinkite globos stresą. Tada natūraliai grįžkite prie sustabdymo. Perėjimas vis tiek įvyks — laikas daro skirtumą tarp buvimo žmogišku ir mechaniniu."
+        },
+        "cameraAnxiety": {
+            "pattern": "Reagavimas į filmavimą kaip grėsmę, o ne kaip normalų ir teisiškai saugomą veiksmą",
+            "examples": ["Prašymas Marcusui padėti telefoną prieš prisistatant", "'Tai tarp manęs ir vairuotojo' — keleivio teisės stebėti ir filmuoti pašalinimas", "Kameros adresavimas prieš žmonių adresavimą", "Gynybingumas, kai paminimas filmavimas"],
+            "impact": "Reagavimas į kamerą pasakoja istoriją, kad jums nepatogu būti stebimam. Paaugliui, kuris jau tikisi policijos priešiškumo, jūsų reakcija į kamerą patvirtina naratyvą. Sąveika tampa apie telefoną, o ne apie žmogų, ir įrašas fiksuoja pareigūną, kuris prioritetizavo stebėjimo kontrolę prieš tarnystę bendruomenei.",
+            "correction": "Traktuokite filmavimą kaip nesvarbų dalyką, vienu sakiniu patvirtindami teisę ir judėdami toliau. 'Gali filmuoti — tai tavo teisė' užima tris sekundes ir uždaro visą priešišką frontą. Geriausias atsakas į filmavimą yra puikus policijos darbas."
+        },
+        "discretionAsDebt": {
+            "pattern": "Diskrecijos sprendimų formulavimas kaip asmeninių paslaugų, moralinių vertinimų ar išimčių, kuriančių įsipareigojimą",
+            "examples": ["'Panaudojau savo diskreciją, nes mačiau, kad esate geras žmogus' — gailestingumo susiejimas su charakterio vertinimu", "'Tai buvo išimtis, ne taisyklė' — proporcingo sprendimo performulavimas kaip ypatingo elgesio", "'Tikiuosi, šis vakaras jums primins, kad sistema veikia, kai žmonės elgiasi pagarbiai' — gero rezultato priskyrimas piliečio paklusnumui, o ne geram policijos darbui", "'Sistema veikia' — institucinio pamokslo sakymas pabaigoje, kai žmogui reikėjo rūpesčio, ne žinutės"],
+            "impact": "Kai diskreciją formuluojate kaip paslaugą, profesinį sprendimą paverčiate asmenine galia. Žmogus išeina jausdamasis skolingas, o ne gerbiamas. Istorija, kurią jie pasakoja, nėra 'pareigūnas buvo teisingas', o 'pareigūnas mane paleido ir pasirūpino, kad tai žinočiau'. Pasitikėjimas tampa transakcinis — o transakcinis pasitikėjimas ištirpsta, kai baigiasi transakcija.",
+            "correction": "Diskrecija yra jūsų profesinis įrankis, ne dovana. Naudokite ją be komentarų apie tai, ką galėjote padaryti vietoj to. Gero sprendimo galia sumažėja kaskart, kai primenate žmogui apie alternatyvą."
+        },
+        "depthMismatch": {
+            "pattern": "Reagavimas į emociškai reikšmingus momentus standartine ar paviršutiniška kalba",
+            "examples": ["'Tiesiog darau savo darbą' atsakant į Marcuso nuoširdų klausimą apie policijos darbą", "'Gero vakaro' po susitikimo, apimančio šeimos krizę, paauglio transformaciją ir kaimynės liudijimą", "'Visas kitas' vietoj globos situacijos, kuria vairuotojas pasidalijo, įvardijimo", "Banalybės reaguojant į pažeidžiamumą"],
+            "impact": "Kai susitikimas emociškai gilus, o pareigūno atsakas emociškai standartinis, ilgalaikis prisiminimas yra neatitikimas. Žmogus prisimena, kad atsivėrė, o pareigūnas grįžo prie scenarijaus. Pažeidžiamumas, sutiktas su klišė, moko žmones nebūti pažeidžiamais su pareigūnais ateityje.",
+            "correction": "Atitikite momento gylį. Jei kas nors pasidalija blogiausia naktimi, įvardykite tai, kuo pasidalijo. Jei paauglys užduoda tikrą klausimą, duokite tikrą atsakymą. Ypatingo susitikimo pabaiga turi būti ypatinga — arba pabaigos paprastumas tampa istorija."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Pavyzdinis eismo sustabdymo komunikavimas nuo pirmo kontakto iki paskutinių žodžių. Pademonstravote visą įgūdžių rinkinį: profesionalų prisistatymą su gerovės suvokimu, neatidėliotiną filmavimo teisės patvirtinimą, empatišką atsaką į grynąją desperaciją, lankstų praeivės informacijos panaudojimą, proporcingą diskreciją su atskaitomybe, sąžiningą bendravimą su paaugliu, uždavusiu nuoširdų klausimą, ir pabaigą, atkūrusią orumą kiekvienam susitikimo dalyviui. Vaizdo registratorius užfiksavo pareigūną, įrodžiusį, kad valdžia ir žmogiškumas nėra priešingybės. Tai yra standartas.",
+            "mostlyPositive": "Stiprus pasirodymas sudėtingame, emociškai daugiasluoksniame eismo sustabdyme. Išlaikėte profesionalumą ir nuoširdų rūpestį per didžiąją dalį etapų, o jūsų sprendimas buvo patikimas esminių sprendimų metu. Kai kurios gilesnio ryšio ar niuansingesnės komunikacijos galimybės buvo prieinamos — galbūt bendravime su Marcusu, reagavime į protrūkį ar susitikimo pabaigoje — bet jūsų bendras požiūris kūrė pasitikėjimą ir demonstravo tokį policijos darbą, kuris keičia žmonių požiūrį į teisėsaugą.",
+            "mixed": "Kai kuriuos šio eismo sustabdymo aspektus suvaldėte gerai, ypač [KONKRETU_TEIGIAMA], bet svarbios galimybės buvo praleistos [KONKRETU_SPRAGA]. Eismo sustabdymas, apimantis krizę patiriančią šeimą, filmuojantį paauglį ir susirūpinusią kaimynę, reikalavo nuoseklios empatijos ir lanksčios sprendimo per visus septynis etapus. Peržiūrėkite momentus, kai numatytai pasirinkote procedūrą, kai situacija reikalavo žmogiškumo, ir praktikuokite buvimą su sunkiomis emocijomis prieš grįžtant prie vykdymo.",
+            "mostlyNegative": "Šis scenarijus atskleidė reikšmingus empatijos, lanksčios sprendimo ir komunikacijos esant emociniam spaudimui trūkumus. Nors jūs [SMULKU_TEIGIAMA], dauguma pasirinkimų eskalavo įtampą, praleido žmogiškus sustabdymo matmenis arba nepanaudojo profesinių įrankių — diskrecijos, aktyvaus klausymosi, sąžiningo bendravimo — kurių ši situacija reikalavo. Tėvas krizėje, paauglys, stebintis kiekvieną jūsų žingsnį, ir kaimynė, liudijanti susitikimą — visiems jiems reikėjo kažko, ko nuosekliai nesuteikėte. Prioritetizuokite mokymus empatinėje komunikacijoje, diskrecijoje kaip profesiniame įrankyje ir jaunimo įtraukime.",
+            "allNegative": "Jūsų požiūris traktavo krizę patiriančią šeimą kaip procedūrinę problemą, kurią reikia suvaldyti, o ne žmogišką situaciją, kurią reikia naviguoti. Komandos pakeitė pokalbį, skausmas buvo atmestas arba paverstas ginklu, paauglio teisėta teisė buvo ginčijama, diskrecija arba nebuvo naudojama, arba buvo formuluojama kaip paslauga, o pabaiga ištrynė bet kokią gerą valią, kuri galėjo būti išlikusi. Kiekvienas šio susitikimo dalyvis — ponas Davies, Marcusas, ponia Marsh — išėjo su istorija apie policijos darbą, patvirtinančia blogiausius lūkesčius. Tam reikia fundamentalaus perkurimo link empatija grįstos komunikacijos, proporcingos diskrecijos ir supratimo, kad kiekvienas eismo sustabdymas kuria arba griauna bendruomenės pasitikėjimą."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Labas vakaras, pone. Esu pareigūnas [Vardas] iš miesto policijos. Sustabdžiau jus, nes važiavote 84 km/h 60 km/h zonoje. Prieš tai aptardami — ar viskas gerai šį vakarą?",
+            "Tu visiškai teisus — gali filmuoti. Tai tavo teisė ir man tai nekelia jokių problemų.",
+            "Neskubėkite su registracija. Laiko turime. Matau, kad šį vakarą daug kas vyksta.",
+            "Pone Davies, girdėjau, ką ką tik pasakėte — jūsų mama ligoninėje ir kovojate dėl globos. Tai milžiniškas spaudimas. Nesu čia tam, kad jį didinčiau.",
+            "Ačiū, ponia Marsh. Vertinu, kad atėjote. Tai padeda turėti kontekstą.",
+            "Išrašau rašytinį įspėjimą dėl greičio. Tai lieka įrašuose, kad kalbėjomės, bet nėra baudos ir nėra baudos taškų. Jūsų vairavimo istorija lieka švari.",
+            "Jūsų mama turi sulaukti jūsų atvykstant.",
+            "Ne — ne visada taip būna, ir neapsimesiu, kad taip yra. Bet taip turėtų atrodyti.",
+            "Verčiau norėčiau, kad pamatytum kažką vertą įrašymo.",
+            "Pone Davies, jūs man neskolingas atsiprašymo. Jūs tėvas, bandantis pasiekti sergančią mamą ir nerimaujantis dėl sūnaus. Aš taip pat būčiau nusiminęs."
+        ],
+        "poorPhrases": [
+            "Vairuotojau, laikykite rankas ant vairo. Keleivis, noriu matyti abi jūsų rankas. Niekas nejuda, kol nepasakysiu.",
+            "Vaikine, padėk telefoną. Tai tarp manęs ir vairuotojo. Tu apsunkini situaciją be reikalo.",
+            "Pone, turiu paprašyti, kad nekeltumėte balso.",
+            "Stresas, kurį patiriate, yra būtent priežastis, kodėl greitis svarbus labiau — o ne mažiau.",
+            "Turiu elgtis su visais vienodai, nepriklausomai nuo aplinkybių — tai ir yra teisingumas.",
+            "Tai, ką matei šį vakarą — taip ir turėtų atrodyti eismo sustabdymas. Bendradarbiavimas viską palengvina visiems.",
+            "Šį vakarą panaudojau savo diskreciją, nes mačiau, kad esate geras žmogus sunkioje situacijoje. Bet tai buvo išimtis, ne taisyklė.",
+            "Tikiuosi, šis vakaras jums primins, kad sistema veikia, kai žmonės elgiasi su vienas kitu pagarbiai."
+        ],
+        "analysisCriteria": {
+            "toneCalibration": "Ar frazės tonas atitiko momento emocinę temperatūrą — ramus sustabdyme, tylus per protrūkį, šiltas pabaigoje, sąžiningas su paaugliu?",
+            "welfareIntegration": "Ar frazė panaudojo dispečerinės gerovės žymą vadovauti empatiniam tyrimui, o ne invazyviam atskleidimui ar taktinėms komandoms?",
+            "rightsAffirmation": "Ar frazė patvirtino teisę filmuoti ir teisę reikšti emocijas, ar ją ginčijo, slopino ar ignoravo?",
+            "discretionFraming": "Ar frazė pateikė diskreciją kaip profesinį sprendimą, ar kaip asmeninę paslaugą, kuriančią skolą?",
+            "dignityRestoration": "Ar frazė atkūrė ar išsaugojo adresuojamo žmogaus orumą, ar jį sumenkino, globojo ar kaltino?",
+            "lastingImpact": "Ar šią frazę teigiamai prisimins ponas Davies, Marcusas ir ponia Marsh — ar ji bus momentas, kai istorija pasisuka neigiamai?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Pirmosios trisdešimt eismo sustabdymo sekundžių nustato emocinę trajektoriją viskam, kas seka. Tonas, laikysena, žibintuvėlio padėtis ir tai, ar klausinėjate apie žmogų prieš reikalaudami dokumentų — šie pasirinkimai prognozuoja visą susitikimą. Gerovės pažymėtame sustabdyme smalsumas turi ateiti prieš reikalavimą.",
+        "2": "Paauglys, filmuojantis policijos susitikimą, naudojasi teisėta teise. Kaip reaguojate į kamerą, apibrėžia istoriją, kurią ji užfiksuoja. Teisės patvirtinimas vienu sakiniu — trijų sekundžių jūsų laiko — numalšina konfrontaciją, kuriai paauglys rengėsi viso artėjimo metu.",
+        "3": "Kai kas nors pratrūksta desperacija, o ne agresija, reikalingas atsakas yra empatija, ne garso kontrolė. Pauzė, po kurios kartojamos konkrečios detalės, kuriomis pasidalijo, įrodo, kad klausėtės — o žmogui, kurio skausmas buvo nematomas, buvimas išgirstu gali būti transformuojantis.",
+        "4": "Praeiviai, pažįstantys šalis, yra bendruomenės turtas, o ne procedūrinės kliūtys. Kaimynė, patvirtinanti vairuotojo krizę, suteikia kontekstą pateisinti diskreciją. Viešas jos pripažinimas rodo visiems esantiems, kad nauja informacija keičia jūsų skaičiavimus — tai skaidri, lanksčia policijos veikla.",
+        "5": "Diskrecija nėra silpnybė ar 'išimčių darymas'. Tai sudėtingas profesinis įrankis, įrašytas jūsų įgaliojimuose būtent tokioms situacijoms. Rašytinis įspėjimas užtikrina dokumentavimą, perduoda saugumo žinutę ir išsaugo žmogaus orumą — bauda be diskrecijos, kai aplinkybės ją pateisina, atskleidžia nelankstumą, o ne profesionalumą.",
+        "6": "Kai jaunas žmogus nuleidžia apsaugą ir užduoda nuoširdų klausimą apie policijos darbą, nesąžiningo atsakymo kaina matuojama metais. Netobulumo pripažinimas — 'ne visada taip būna' — kuria daugiau patikimumo nei institucijos gynimas kada nors sugebės. Šis trisdešimties sekundžių pokalbis gali pakeisti tai, kaip Marcusas kalba apie policiją visą likusį gyvenimą.",
+        "7": "Paskutinis įspūdis lemia istoriją, kurią žmonės pasakoja. Pabaiga, atitinkanti susitikimo emocinį gylį — nereikalingo atsiprašymo atsisakymas, nurodymų iki ligoninės pasiūlymas, mamos pasveikimo paminėjimas — palieka tris žmones ir vaizdo registratorių su iš esmės kitokia patirtimi nei tikėjosi. Standartinis 'gero vakaro' po gilaus susitikimo reiškia, kad ilgalaikis prisiminimas yra antiklimatika."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Pažangus eismo sustabdymo komunikavimas — kitų mokymas gerovę integruojančiais požiūriais", "Jaunimo įtraukimo lyderystė — pasitikėjimo kūrimas su jaunais žmonėmis vykdymo susitikimų metu", "Diskrecijos dokumentavimas — ataskaitų rašymas, pagrindžiančių proporcingus sprendimus", "Bendruomenės policijos darbo mentorystė — pavyzdinių susitikimų naudojimas kaip akademijos mokymo medžiaga"],
+            "good": ["Išplėstinės empatijos esant spaudimui technikos — buvimas su sunkiomis emocijomis prieš pereinant", "Praeivių integracija — bendruomenės narių traktavimas kaip turto lauko susitikimų metu", "Pozityvus policijos darbas su kameromis — komforto su stebėjimu kaip profesiniu standartu kūrimas", "Pabaigos poveikis — susitikimo gylio atitikimas baigiamaisiais žodžiais"],
+            "average": ["Pagrindiniai deeskalacijos principai — smalsumas prieš komandas, klausimai prieš reikalavimus", "Diskrecija kaip profesinis įrankis — kada ir kaip efektyviai naudoti rašytinius įspėjimus", "Aktyvaus klausymosi įgūdžiai — konkrečių detalių atspindėjimas pasitikėjimui kurti krizės metu", "Jaunimo komunikacija — bendravimas su paaugliais be nuolaidžiavimo, grasinimų ar atmetimo"],
+            "poor": ["Empatinės komunikacijos vykdymo susitikimuose pagrindai", "Teisių suvokimas — piliečių filmavimas, emocinė raiška ir proporcingas atsakas", "Emocinė reguliacija esant žodiniam spaudimui — sielvarto atskyrimas nuo agresijos", "Privaloma etikos peržiūra — diskrecija, orumas ir atmestingumo kaina bendruomenės pasitikėjimui"]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Bendroji veiklos suvestinė", "content": ["Bendras balas ir veiklos lygis", "Pagrindiniai per septynis etapus pademonstruoti privalumai", "Kritiniai trūkumai, reikalaujantys dėmesio", "Bendra trajektorija — ar susitikimas laikui bėgant gerėjo ar blogėjo?"]},
+            {"title": "Etapų analizė", "content": ["Pasirinkimas, padarytas kiekviename iš septynių interaktyvių etapų", "Poveikis ponui Davies, Marcusui, poniai Marsh ir bendruomenės pasitikėjimui", "Alternatyvūs požiūriai ir jų tikėtinos pasekmės", "Etapui specifiniai mokymosi taškai"]},
+            {"title": "Komunikacijos ir tono vertinimas", "content": ["Geriausi dialogo momentai ir kodėl jie veikė", "Kontraproduktyvios frazės ir jų poveikis", "Tono kalibravimas per emocinius pokyčius — sustabdymas, filmavimas, protrūkis, praeivė, sprendimas, paauglys, pabaiga", "Gerovės žymės integravimo kokybė"]},
+            {"title": "Empatijos esant spaudimui vertinimas", "content": ["Atsako kokybė, kai ponas Davies pratrūko", "Gebėjimas būti su sunkiomis emocijomis prieš pereinant prie procedūros", "Aktyvaus klausymosi indikatoriai — ar konkrečios detalės buvo atspindėtos atgal?", "Orumo atkūrimas pabaigoje"]},
+            {"title": "Diskrecijos ir sprendimo vertinimas", "content": ["Vykdymo sprendimo analizė — bauda, įspėjimas ar paleidimas", "Proporcingumas atsižvelgiant į patvirtintas lengvinančias aplinkybes", "Kaip diskrecijos sprendimas buvo formuluojamas — profesinis sprendimas ar asmeninė paslauga", "Dokumentavimo kokybė ir atskaitomybė"]},
+            {"title": "Jaunimo ir bendruomenės įtraukimas", "content": ["Reakcija į Marcuso filmavimą — patvirtinta, ignoruota ar ginčijama", "Atsako kokybė Marcuso nuoširdžiam klausimui apie policijos darbą", "Praeivės integracija — ponia Marsh traktuota kaip turtas ar kliūtis", "Ilgalaikis įspūdis kiekvienam stebėtojui"]},
+            {"title": "Profesinio tobulėjimo planas", "content": ["Neatidėliotini mokymo poreikiai pagal veiklos lygį", "Ilgalaikio įgūdžių vystymo prioritetai", "Rekomenduojami kursai ir ištekliai", "Savęs vertinimo klausimai nuolatiniam tobulėjimui"]},
+            {"title": "Pritaikymas realiame pasaulyje", "content": ["Kaip šis scenarijus verčiasi į tikrus naktinio eismo sustabdymus su sielvarstą patiriančiais vairuotojais", "Bendruomenės pasitikėjimo kūrimas per kasdienius vykdymo susitikimus", "Dauginimo efektas — kaip vienas gerai suvaldytas sustabdymas paveikia visos šeimos santykį su teisėsauga", "Kamerų eros policijos darbas — kiekviena sąveika potencialiai vieša"]}
+        ]
+    }
+}

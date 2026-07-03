@@ -1,0 +1,660 @@
+{
+  "scenarioId": "domestic-crisis",
+  "reviewVersion": "1.0",
+  "title": "Domestic Dispute with Mental Health Crisis - Performance Analysis",
+  
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Dispatch and Arrival",
+      "criticalSkills": ["Initial Assessment", "First Impression", "Safety Awareness"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Listen briefly at the door, then knock softly",
+          "strengths": [
+            "Gathered situational awareness before engagement",
+            "Non-threatening initial contact established trust",
+            "Demonstrated patience and professionalism",
+            "Created calm atmosphere from the start"
+          ],
+          "professionalImpact": "Your measured approach likely prevented escalation and set a collaborative tone for the entire interaction."
+        },
+        "neutral": {
+          "choiceText": "Knock firmly and announce: 'Police, dobrý večer, please open the door.'",
+          "adequate": [
+            "Followed basic procedure",
+            "Made presence known"
+          ],
+          "missed": [
+            "Failed to gather pre-contact intelligence",
+            "Missed opportunity to assess threat level",
+            "Standard approach didn't demonstrate de-escalation skills"
+          ],
+          "improvement": "Consider pausing to listen before knocking. Information gathering is crucial for officer safety and tactical decisions."
+        },
+        "negative": {
+          "choiceText": "Knock firmly and announce with authority: 'Police — we need to confirm everyone's safety. Open the door now, please. Time is a factor here.'",
+          "failures": [
+            "Projected urgency before assessing the situation inside",
+            "Imported officer's adrenaline into the household environment",
+            "Forced occupants into compliance-or-resistance binary",
+            "Gained control of the doorway but lost control of the emotional environment"
+          ],
+          "consequences": "Your urgency-driven approach forced compliance but triggered anxiety in both adults and intensified the child's distress before you had any situational awareness.",
+          "trainingFocus": "Practice distinguishing between genuine tactical urgency and projected urgency. Assess before imposing your tempo on the scene."
+        },
+        "partially_positive": {
+          "choiceText": "Listen briefly at the door, then knock firmly: 'Police. We received a call",
+          "adequate": [
+            "Paused to listen before engaging, gathering useful context",
+            "Knock was confident without being aggressive",
+            "Mentioned police identity clearly"
+          ],
+          "missed": [
+            "Phrasing focused on the complaint rather than offering help",
+            "Clinical tone may reduce willingness to cooperate",
+            "Missed the opportunity to frame presence as supportive rather than investigative"
+          ],
+          "improvement": "Frame your opening around offering help rather than responding to a complaint — 'We're here to help' invites cooperation more effectively than 'We received a call about a disturbance.'"
+        }
+      },
+      "keyLearningPoints": [
+        "First contact sets the tone for entire interaction",
+        "Information gathering before engagement improves outcomes",
+        "Calm presence reduces defensive responses"
+      ]
+    },
+    
+    "2": {
+      "stageName": "First Contact Inside",
+      "criticalSkills": ["Scene Control", "Trust Building", "Safety Assessment"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Calmly: 'I understand this is personal, but we're here because someone might be",
+          "strengths": [
+            "Validated their privacy concerns while explaining duty",
+            "Used open-ended questions to encourage dialogue",
+            "Maintained calm professional demeanor",
+            "Built rapport through respectful communication"
+          ],
+          "professionalImpact": "This approach maximized voluntary compliance and information sharing, essential for accurate assessment."
+        },
+        "neutral": {
+          "choiceText": "Firmly: 'I need both of you to calm down. Sir, step over here.",
+          "adequate": [
+            "Followed safety protocols",
+            "Reduced immediate confrontation risk"
+          ],
+          "missed": [
+            "Minimal empathy shown",
+            "Authoritarian approach may increase resistance",
+            "Lost opportunity for voluntary cooperation"
+          ],
+          "improvement": "While separation is important, explaining why and showing concern for their wellbeing improves compliance."
+        },
+        "negative": {
+          "choiceText": "Professionally: 'I need to secure the scene first. Sir, stand against that wall, hands visible. Ma'am, please stay where you are. I'll take statements separately once the area is safe.'",
+          "failures": [
+            "Applied tactical scene-security protocol to a domestic crisis context",
+            "Communicated to both parties that they are being processed as suspects",
+            "Shut down voluntary disclosure by creating a compliance-based dynamic",
+            "Procedural language was technically correct but emotionally illiterate for the setting"
+          ],
+          "consequences": "Tactical commands achieved physical control but closed emotional shutters — neither party will volunteer the information you need because your approach framed this as a criminal matter, not a crisis.",
+          "trainingFocus": "Distinguish between scenes that require tactical control and scenes that require emotional engagement. Domestic crisis calls rarely benefit from crime-scene protocols."
+        },
+        "partially_positive": {
+          "choiceText": "Calmly: 'I understand this feels intrusive. I'm here to make sure everyone",
+          "adequate": [
+            "Acknowledged the intrusion and led with safety",
+            "Planned to speak to each person separately",
+            "Maintained a calm and respectful tone"
+          ],
+          "missed": [
+            "Speaking to the husband first may prioritize his narrative",
+            "Wife retreated before being heard, missing an inclusive opening",
+            "Did not invite both parties to share simultaneously before separating"
+          ],
+          "improvement": "Consider an inclusive opening that addresses both parties together before separating them — this ensures neither narrative is anchored as the default."
+        }
+      },
+      "keyLearningPoints": [
+        "Building trust enables better information gathering",
+        "Explaining actions reduces perceived threat",
+        "Neutrality prevents defensive responses"
+      ]
+    },
+    
+    "3": {
+      "stageName": "Gathering Information",
+      "criticalSkills": ["Active Listening", "Impartiality", "Information Assessment"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "To husband: 'Sir, I'll hear your side too. Please let her speak.' To wife:",
+          "strengths": [
+            "Demonstrated excellent active listening skills",
+            "Showed impartiality by acknowledging both perspectives",
+            "Encouraged disclosure through non-judgmental approach",
+            "Picked up on non-verbal intimidation cues"
+          ],
+          "professionalImpact": "Your balanced approach likely revealed crucial information about the situation's dynamics and risk factors."
+        },
+        "neutral": {
+          "choiceText": "Matter-of-fact: 'I need facts. Sir, did it get physical? Ma'am, are you",
+          "adequate": [
+            "Obtained basic facts",
+            "Maintained professional distance"
+          ],
+          "missed": [
+            "Limited emotional connection",
+            "May have missed underlying issues",
+            "Checklist approach lacks nuance"
+          ],
+          "improvement": "Combine fact-finding with empathetic engagement. Emotional rapport often reveals critical safety information."
+        },
+        "negative": {
+          "choiceText": "To wife: 'He said it was just an argument, but you mentioned he was throwing things. I need to know exactly what was thrown and whether any of it was directed at you or the child.'",
+          "failures": [
+            "Contrasted the husband's account against the wife's in his presence",
+            "Created a courtroom dynamic that positioned the wife as a witness against her husband",
+            "Forensic framing prioritized the report over the victim's safety",
+            "Inadvertently coached the wife into minimizing to protect herself after you leave"
+          ],
+          "consequences": "The wife backtracked and minimized because your fact-finding approach made it unsafe for her to speak honestly with her husband watching — thorough questioning became an inadvertent silencing tool.",
+          "trainingFocus": "Never contrast one party's account against the other's in their presence. Separate before seeking detailed discrepancies — the investigation serves safety, not the other way around."
+        },
+        "partially_positive": {
+          "choiceText": "To wife: 'You mentioned being scared — that's important. Can you tell",
+          "adequate": [
+            "Correctly identified fear as the critical safety indicator",
+            "Promised the husband his turn, showing some fairness",
+            "Focused attention on the person expressing distress"
+          ],
+          "missed": [
+            "Did not address the husband's intimidating look toward the wife",
+            "Failed to challenge the coercive dynamic in the room",
+            "Wife may be reluctant to speak freely with the husband watching unchallenged"
+          ],
+          "improvement": "When you notice one party attempting to control the other's narrative through intimidation, address it directly — create space for honest disclosure by naming the dynamic."
+        }
+      },
+      "communicationTechniques": {
+        "effective": [
+          "Open-ended questions: 'Can you tell me more?'",
+          "Reflection: 'You mentioned being scared...'",
+          "Validation: 'I understand this is difficult'"
+        ],
+        "ineffective": [
+          "Contrasting accounts in front of both parties: 'He said X, but you said Y'",
+          "Forensic framing that creates a courtroom dynamic: 'I need to know exactly what was thrown'",
+          "Dismissive language: 'Just tell me the facts'"
+        ]
+      }
+    },
+    
+    "4": {
+      "stageName": "Child's Presence",
+      "criticalSkills": ["Child Psychology", "Family Dynamics", "Emotional Regulation"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Crouch to child's level: 'Hi there, you're not in trouble. We're here to",
+          "strengths": [
+            "Exceptional emotional intelligence",
+            "Age-appropriate communication with child",
+            "Reframed situation toward common ground",
+            "Reduced child's trauma through reassurance"
+          ],
+          "professionalImpact": "Your approach protected the child's emotional wellbeing while maintaining parental cooperation - crucial for long-term family safety."
+        },
+        "neutral": {
+          "choiceText": "Pragmatically: 'Your daughter is upset. Perhaps one of you can take her to",
+          "adequate": [
+            "Removed child from immediate conflict",
+            "Followed child safety protocols"
+          ],
+          "missed": [
+            "No emotional reassurance to child",
+            "Didn't address father's shame constructively",
+            "Procedural but impersonal"
+          ],
+          "improvement": "Brief reassurance to children takes seconds but significantly reduces trauma. Consider the long-term impact on the child."
+        },
+        "negative": {
+          "choiceText": "Gently to Anna: 'Sweetie, you don't need to be scared anymore. The police are here now and we won't let anything bad happen. Can you come with me to the hallway where it's quiet?'",
+          "failures": [
+            "Asked a six-year-old to leave with a uniformed stranger away from her only source of safety",
+            "Implicitly confirmed that something bad was happening, which the child internalizes",
+            "Stripped both parents of agency over their child, inflaming the father's protective instinct",
+            "Well-intentioned protection attempt became the new source of fear in the room"
+          ],
+          "consequences": "The child screamed and clung to her mother. The father became combative. Your protective instinct created a new crisis because separating a child from her attachment figure during acute stress compounds the trauma rather than relieving it.",
+          "trainingFocus": "Study attachment theory in child crisis response. A child's safety is best maintained through the trusted caregiver, not by removal to a stranger — reassure in place before considering separation."
+        },
+        "partially_positive": {
+          "choiceText": "To father: 'I understand you're worried about Anna. She's our priority too.'",
+          "adequate": [
+            "Validated the father's concern about his daughter",
+            "Centered the child's welfare in the conversation",
+            "Suggested removing the child from the conflict zone"
+          ],
+          "missed": [
+            "Did not address Anna directly — talked about her rather than to her",
+            "Missed the powerful de-escalation of making a warm, direct connection with the child",
+            "The emotional breakthrough that direct child engagement provides was lost"
+          ],
+          "improvement": "Speak directly to the child at their eye level — even a brief, kind acknowledgment humanizes you and shifts the entire room's emotional dynamic more effectively than speaking about the child to the parents."
+        }
+      },
+      "childWelfareConsiderations": [
+        "Children often blame themselves for parental conflicts",
+        "Police interaction can be traumatic without proper approach",
+        "Maintaining parental dignity in front of children is crucial",
+        "Brief, kind words to children have lasting positive impact"
+      ]
+    },
+    
+    "5": {
+      "stageName": "Mental Health Crisis Emerges",
+      "criticalSkills": ["Crisis Recognition", "Suicide Prevention", "Therapeutic Communication"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Gently: 'I'm sorry you're going through this. It sounds overwhelming, but your family",
+          "strengths": [
+            "Recognized suicide risk indicators immediately",
+            "Validated emotional pain without endorsing harmful behavior",
+            "Provided hope and concrete assistance",
+            "Demonstrated crisis intervention training"
+          ],
+          "professionalImpact": "Your response potentially saved a life. This is textbook crisis intervention - validating pain while instilling hope."
+        },
+        "neutral": {
+          "choiceText": "Composed: 'Sir, take a deep breath. You're under stress. If you might hurt",
+          "adequate": [
+            "Recognized need for intervention",
+            "Offered professional help"
+          ],
+          "missed": [
+            "Lacked emotional connection",
+            "May not have fully engaged subject",
+            "Clinical approach less effective in crisis"
+          ],
+          "improvement": "In mental health crises, emotional connection often determines whether someone accepts help. Combine safety with empathy."
+        },
+        "negative": {
+          "choiceText": "Steadily: 'I hear you, and I can see this has been incredibly hard. But right now we need to focus on tonight — making sure everyone is safe and figuring out the next practical steps.'",
+          "failures": [
+            "Pivoted to logistics immediately after a suicidal statement, communicating that his despair is a problem to manage rather than a pain to witness",
+            "Offered employment services in response to existential hopelessness — a category mismatch",
+            "The suicidal statement went explicitly unaddressed despite sounding acknowledged",
+            "Solution-oriented approach papered over the acute crisis without touching it"
+          ],
+          "consequences": "He went quiet and compliant, which looked like de-escalation but was actually emotional withdrawal. The suicidal ideation remains untouched beneath a veneer of practical next steps. His wife watched him shut down and knew nothing had changed.",
+          "trainingFocus": "When someone expresses suicidal ideation, the first response must address the ideation itself — not the circumstances that produced it. Practical help is essential, but only after the person feels their darkest statement has been heard and gently countered."
+        },
+        "partially_positive": {
+          "choiceText": "Calmly: 'I can see you're going through a very difficult time. Losing a job puts enormous pressure on a person. Let's make sure everyone here is safe tonight, and I can connect you with people who can help.'",
+          "adequate": [
+            "Acknowledged his pain and normalized the stress of job loss — 'enormous pressure on a person' validates without judging",
+            "Offered to connect him with people who can help, showing awareness of the need for professional support",
+            "Maintained a compassionate and calm tone throughout",
+            "Focused on safety for everyone present"
+          ],
+          "missed": [
+            "Did not directly address the suicidal statement ('better off without me') — the most dangerous thought went unchallenged",
+            "Skipping over suicidal ideation can leave the person feeling their darkest thought was ignored or too frightening to engage with",
+            "The core crisis — hopelessness and self-worth collapse — remained unaddressed beneath compassionate generalities"
+          ],
+          "improvement": "When someone expresses suicidal ideation, acknowledge it explicitly and gently counter it — 'your family needs you, and we can find a way through this together' addresses the thought directly. Redirecting around it, even with good intentions, leaves the most dangerous statement unchallenged."
+        }
+      },
+      "mentalHealthIndicators": {
+        "verbal": ["'Better off without me'", "Hopelessness expressions", "Burden statements"],
+        "behavioral": ["Shaking", "Rapid breathing", "Emotional volatility shift"],
+        "situational": ["Recent job loss", "Financial stress", "Family conflict"]
+      },
+      "crisisInterventionPrinciples": [
+        "Take all suicidal statements seriously",
+        "Validate emotional pain without endorsing harmful solutions",
+        "Provide immediate support and resources",
+        "Never leave suicidal person alone without plan"
+      ]
+    },
+    
+    "6": {
+      "stageName": "Legal Resolution",
+      "criticalSkills": ["Legal Knowledge", "Balanced Enforcement", "Resource Coordination"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Invoke 10-day eviction for safety, arrange intervention center support, notify child protection",
+          "strengths": [
+            "Perfect application of Czech domestic violence law",
+            "Balanced safety with family preservation",
+            "Coordinated multiple support services",
+            "Showed enforcement with compassion"
+          ],
+          "professionalImpact": "This resolution maximizes safety while providing pathway to recovery. Exemplary balance of law enforcement and social work."
+        },
+        "neutral": {
+          "choiceText": "Request voluntary separation tonight without formal orders. Husband agrees to stay with",
+          "adequate": [
+            "Achieved immediate safety",
+            "Avoided traumatic arrest"
+          ],
+          "missed": [
+            "No legal protection if situation escalates",
+            "Lacks formal documentation",
+            "No automatic support service activation"
+          ],
+          "improvement": "Voluntary agreements lack enforcement power. Consider formal measures that still preserve dignity and relationships."
+        },
+        "negative": {
+          "choiceText": "Invoke the 10-day eviction, file the domestic violence report, arrange patrol car transport to his brother's address. Inform the wife that child protective services will be notified as standard procedure.",
+          "failures": [
+            "Reduced a family in crisis to a checklist of bureaucratic actions",
+            "The husband was processed and moved without anyone addressing his mental health emergency",
+            "Mentioning CPS as 'standard procedure' without explanation terrified the wife",
+            "Every procedure was followed but no one was actually connected with help"
+          ],
+          "consequences": "The husband left humiliated and unmonitored for self-harm. The wife spent the night terrified that CPS would remove Anna. Procedurally flawless, humanly catastrophic — the system functioned but the family was not served.",
+          "trainingFocus": "Procedure is the skeleton of a good response, not the whole body. Every procedural step must be accompanied by explanation, emotional context, and direct connection to actual support services."
+        },
+        "partially_positive": {
+          "choiceText": "Invoke the 10-day eviction for safety, arrange for the husband to leave tonight, and provide the wife with contact numbers for support services. Plan to follow up tomorrow.",
+          "adequate": [
+            "Correctly used the legal eviction measure for immediate safety",
+            "Ensured physical separation of parties tonight",
+            "Provided the wife with contact numbers for support services",
+            "Planning to follow up tomorrow shows awareness that one night's intervention is not enough"
+          ],
+          "missed": [
+            "Relied on the wife to initiate contact with services rather than arranging them directly — a person in crisis is least able to navigate bureaucracy",
+            "Did not specifically address the husband's mental health crisis or ensure he has access to counseling tonight",
+            "Left the wife to navigate the system alone during a traumatic night with only phone numbers"
+          ],
+          "improvement": "Go beyond providing phone numbers — actively connect both parties with services rather than leaving them to initiate contact during a crisis when they are least able to do so. Call the intervention center before you leave, not after."
+        }
+      },
+      "legalConsiderations": [
+        "10-day eviction (vykázání) under Act 135/2006",
+        "Mandatory reporting for child welfare concerns",
+        "Mental health intervention options",
+        "Victim support services activation"
+      ]
+    },
+    
+    "7": {
+      "stageName": "Aftermath Support",
+      "criticalSkills": ["Victim Support", "Information Provision", "Closure Skills"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Reassure with detailed information about the eviction process, intervention services, child support",
+          "strengths": [
+            "Comprehensive resource information provided",
+            "Validated victim's complex feelings",
+            "Ensured understanding of next steps",
+            "Left victim empowered and supported"
+          ],
+          "professionalImpact": "Your thorough aftercare likely improved compliance with protection measures and service engagement."
+        },
+        "neutral": {
+          "choiceText": "Brief and procedural: 'He'll stay away. Services will contact you. Child services",
+          "adequate": [
+            "Basic information conveyed",
+            "Contact provided"
+          ],
+          "missed": [
+            "No emotional support",
+            "Minimal detail on resources",
+            "Impersonal closure"
+          ],
+          "improvement": "Victims in crisis often don't retain information. Taking extra time to ensure understanding and provide comfort improves outcomes."
+        },
+        "negative": {
+          "choiceText": "Reassuringly: 'I know tonight was hard, but honestly — this is the best thing that could have happened. A lot of families go through this and come out stronger. Trust the process. You're going to be fine.'",
+          "failures": [
+            "Minimized the gravity of the crisis with premature optimism",
+            "Told her to 'trust the process' without explaining what the process actually involves",
+            "Closed the door on her expressing that she is not fine",
+            "Reassurance served the officer's need to leave on a positive note rather than the victim's need to be heard and prepared"
+          ],
+          "consequences": "She nodded and said 'thank you' but did not call any of the numbers provided. She did not understand the eviction timeline. The officer's optimism felt kind but left her alone with every unanswered question.",
+          "trainingFocus": "Distinguish between reassurance that prepares someone and reassurance that pacifies them. The victim needs specific information, not general optimism — closing interactions must leave them informed, not just comforted."
+        },
+        "partially_positive": {
+          "choiceText": "Explain the eviction process and mention that services will be in touch.",
+          "adequate": [
+            "Provided a reasonable overview of the eviction process",
+            "Showed personal warmth by acknowledging her difficult night",
+            "Mentioned that her husband would also receive help"
+          ],
+          "missed": [
+            "Information was general rather than detailed — gaps in understanding the timeline",
+            "Did not explain what child services involvement actually means",
+            "She may not know what specific resources are available to her tonight"
+          ],
+          "improvement": "Provide specific, detailed information rather than a general overview — a person in crisis needs to understand the timeline, who will contact them, and what they can do right now."
+        }
+      },
+      "victimSupportElements": [
+        "Clear explanation of legal processes",
+        "Written resource information",
+        "Emotional validation",
+        "Safety planning",
+        "Follow-up arrangements"
+      ]
+    }
+  },
+  
+  "comprehensiveMetrics": {
+    "rapport": {
+      "description": "Building trust through active listening and empathy",
+      "indicators": {
+        "excellent": [
+          "Active listening demonstrated consistently",
+          "Built genuine rapport with all parties",
+          "Appropriate tone for each situation",
+          "Effective use of silence and patience"
+        ],
+        "poor": [
+          "Interrupted or talked over parties",
+          "Failed to establish trust with any party",
+          "Aggressive or dismissive tone",
+          "Failed to read non-verbal cues"
+        ]
+      }
+    },
+
+    "procedure": {
+      "description": "Following legal requirements and safety protocols",
+      "indicators": {
+        "excellent": [
+          "Followed all legal requirements",
+          "Documented properly",
+          "Activated appropriate services",
+          "Maintained safety protocols throughout"
+        ],
+        "poor": [
+          "Missed mandatory reporting",
+          "Failed to follow safety procedures",
+          "Ignored legal requirements",
+          "Incomplete or no documentation"
+        ]
+      }
+    },
+
+    "emotional": {
+      "description": "Managing stress and responding to emotions constructively",
+      "indicators": {
+        "excellent": [
+          "Recognized emotional states accurately",
+          "Responded with appropriate empathy",
+          "Managed own emotional responses",
+          "De-escalated through emotional validation"
+        ],
+        "poor": [
+          "Missed obvious emotional distress",
+          "Responded with judgment or criticism",
+          "Let personal feelings affect response",
+          "Escalated through emotional invalidation"
+        ]
+      }
+    },
+
+    "safety": {
+      "description": "Maintaining physical and emotional safety for all",
+      "indicators": {
+        "excellent": [
+          "Prioritized child safety throughout",
+          "Recognized and addressed suicide risk",
+          "Ensured physical separation when needed",
+          "Created emotionally safe environment for disclosure"
+        ],
+        "poor": [
+          "Ignored signs of danger to vulnerable parties",
+          "Failed to recognize suicide risk indicators",
+          "Left child exposed to conflict unnecessarily",
+          "Created environment that increased risk"
+        ]
+      }
+    }
+  },
+  
+  "mistakePatterns": {
+    "escalation": {
+      "pattern": "Importing urgency or tactical framing into a crisis that requires emotional engagement",
+      "examples": ["Projecting time pressure at the door before assessing", "Issuing tactical commands to secure the scene in a domestic setting", "Forensic questioning in front of the alleged aggressor"],
+      "impact": "Each procedural escalation closes emotional shutters and prevents the voluntary disclosure you need to assess the situation accurately",
+      "correction": "Match your tempo and framing to the emotional needs of the scene, not to standard tactical protocols"
+    },
+
+    "missingCues": {
+      "pattern": "Redirecting past critical indicators rather than addressing them directly",
+      "examples": ["Pivoting to practical steps after suicidal ideation", "Offering employment services when someone expresses existential hopelessness", "Treating emotional withdrawal as successful de-escalation"],
+      "impact": "The surface appears calm but the underlying crisis remains untouched — compliance is not recovery",
+      "correction": "When someone expresses their darkest thought, address that thought explicitly before moving to logistics"
+    },
+
+    "judgmental": {
+      "pattern": "Well-intentioned actions that inadvertently take sides or strip agency",
+      "examples": ["Contrasting accounts in front of both parties", "Attempting to remove a child from their attachment figure", "Premature reassurance that minimizes the gravity of the crisis"],
+      "impact": "The officer believes they are helping but is actually silencing the victim, terrifying the child, or closing the door on honest disclosure",
+      "correction": "Before acting on protective instinct, ask whose safety and whose comfort you are actually serving"
+    },
+
+    "procedural": {
+      "pattern": "Following every procedure without connecting anyone to actual help",
+      "examples": ["Filing reports and invoking evictions without explaining what they mean", "Mentioning CPS as 'standard procedure' without context", "Completing a bureaucratic checklist while a suicidal man is transported without mental health support"],
+      "impact": "The paperwork is flawless but the family experiences the system as something that processes them rather than helps them",
+      "correction": "Every procedural step must be accompanied by human explanation, emotional context, and direct connection to support services"
+    }
+  },
+  
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Outstanding performance! You demonstrated exceptional communication skills throughout this complex scenario. Your ability to balance empathy with enforcement, recognize the mental health crisis, and provide comprehensive support while maintaining safety shows mastery of modern policing principles. Your approach likely saved this family from tragedy.",
+      
+      "mostlyPositive": "Strong overall performance with excellent crisis management skills. You showed good emotional intelligence and made mostly sound decisions. Key strength: [SPECIFIC_STRENGTH]. Area for growth: [SPECIFIC_IMPROVEMENT]. Your compassionate approach made a real difference for this family.",
+      
+      "mixed": "You handled some aspects well but missed critical opportunities. Strengths included [SPECIFIC_STRENGTHS]. However, [SPECIFIC_WEAKNESSES] need attention. Remember that domestic situations require balancing multiple priorities - safety, law enforcement, and family preservation. Review [TRAINING_AREAS] to improve your response.",
+      
+      "mostlyNegative": "This scenario revealed significant gaps in crisis communication skills. While you [MINOR_POSITIVE], the majority of your choices escalated tension or missed critical safety issues. Specifically, [MAJOR_FAILURES]. Immediate training recommended in: [CRITICAL_TRAINING]. These situations can turn tragic without proper skills.",
+      
+      "allNegative": "Your approach throughout this scenario was concerning and potentially dangerous. Consistent escalation, missed mental health crisis, and lack of empathy could have resulted in tragedy. Mandatory remedial training required in: crisis intervention, de-escalation techniques, and emotional intelligence. Remember: your communication can save or cost lives."
+    }
+  },
+  
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "'I understand this is personal, but we're here because someone might be in danger'",
+      "'I'm sorry you're going through this. It sounds overwhelming, but your family needs you'",
+      "'Hi there, you're not in trouble. We're here to help everyone be safe'",
+      "'You mentioned being scared. I'm listening. Can you tell me more?'"
+    ],
+    
+    "poorPhrases": [
+      "'Time is a factor here' — importing urgency before assessing the situation",
+      "'I need to secure the scene first. Hands visible.' — tactical framing in a domestic crisis",
+      "'I need to know exactly what was thrown' — forensic questioning in front of the alleged aggressor",
+      "'Can you come with me to the hallway?' — asking a child to leave with a stranger during acute stress",
+      "'We need to focus on the next practical steps' — pivoting past suicidal ideation to logistics",
+      "'Trust the process. You're going to be fine.' — premature reassurance that closes the door on honest disclosure"
+    ],
+    
+    "analysisCriteria": {
+      "tone": "Was it appropriate for the emotional context?",
+      "clarity": "Was the message clear and unambiguous?",
+      "empathy": "Did it acknowledge feelings and show understanding?",
+      "effectiveness": "Did it achieve the intended outcome?",
+      "safety": "Did it prioritize everyone's safety?"
+    }
+  },
+  
+  "scenarioSpecificLessons": {
+    "1": "Domestic violence situations are never 'just arguments' - thorough assessment is crucial",
+    "2": "Children in domestic disputes suffer trauma even without direct abuse - prioritize their emotional safety",
+    "3": "Job loss and financial stress are major risk factors for domestic violence escalation",
+    "4": "Mental health crises often underlie domestic disputes - be prepared to shift from enforcement to intervention",
+    "5": "The '10-day eviction' law provides crucial cooling-off period while maintaining legal protection",
+    "6": "Victim ambivalence is normal - provide support without judgment about staying or leaving",
+    "7": "Your demeanor and communication style directly impact whether families accept help",
+    "8": "Follow-up and service coordination are as important as the initial intervention"
+  },
+  
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Advanced Crisis Negotiation",
+        "Training Others in De-escalation",
+        "Specialized Family Crisis Team"
+      ],
+      "good": [
+        "Enhanced Mental Health Response",
+        "Advanced Domestic Violence Dynamics",
+        "Child Psychology in Crisis"
+      ],
+      "average": [
+        "Basic Crisis Intervention",
+        "Active Listening Skills",
+        "Emotional Intelligence Development"
+      ],
+      "poor": [
+        "Mandatory De-escalation Training",
+        "Crisis Intervention Certification",
+        "Empathy and Communication Workshop",
+        "Domestic Violence Response Protocol"
+      ]
+    }
+  },
+  
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Overall Performance Summary",
+        "content": ["Score", "Performance Level", "Key Strengths", "Critical Weaknesses"]
+      },
+      {
+        "title": "Stage-by-Stage Analysis",
+        "content": ["Choice Made", "Impact", "Alternative Approaches", "Learning Points"]
+      },
+      {
+        "title": "Communication Effectiveness",
+        "content": ["Best Moments", "Missed Opportunities", "Dialogue Analysis"]
+      },
+      {
+        "title": "Critical Decision Points",
+        "content": ["Mental Health Recognition", "Child Safety", "Legal Resolution"]
+      },
+      {
+        "title": "Pattern Analysis",
+        "content": ["Consistent Strengths", "Recurring Mistakes", "Decision-Making Trends"]
+      },
+      {
+        "title": "Professional Development",
+        "content": ["Immediate Training Needs", "Long-term Skill Development", "Recommended Resources"]
+      },
+      {
+        "title": "Real-World Application",
+        "content": ["How This Translates to Field Work", "Common Scenarios", "Best Practices"]
+      }
+    ]
+  }
+}

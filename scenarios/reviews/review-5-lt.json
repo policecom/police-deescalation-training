@@ -1,0 +1,403 @@
+{
+    "scenarioId": "5",
+    "reviewVersion": "2.0",
+    "title": "Triukšmo skundas — ramybės valandų tarpininkavimas — veiklos analizė",
+
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Atvykimas",
+            "criticalSkills": ["Skundėjo patirties patvirtinimas prieš veikiant", "Informacijos rinkimas iš skundėjo", "Kaimynų santykių istorijos vertinimas", "Atsparumas skubumo šališkumui gyvenimo kokybės iškvietimuose"],
+            "learningObjective": "Pademonstruoti, kad efektyvus atsakas į triukšmo skundą prasideda nuo konteksto supratimo — trukmės, istorijos, ankstesnių bandymų spręsti — o ne nuo skubėjimo vykdyti.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Ramiai linktelėkite ponui Novak: „Girdžiu muziką iš čia, todėl suprantu jūsų nusivylimą. Prieš lipant aukštyn noriu įsitikinti, kad turiu visą vaizdą. Kiek laiko tai trunka ir ar panašus dalykas buvo anksčiau? Ar bandėte su jais tiesiogiai pasikalbėti?“",
+                    "strengths": ["Iš karto patvirtina jo patirtį pripažindamas girdimą triukšmą — sukuria momentinį pasitikėjimą", "Renka konkrečią informaciją — trukmę, istoriją, ankstesnį bendravimą — kuri formuoja visą intervencijos strategiją", "Klausimas, ar jis bandė tiesiogiai bendrauti, atskleidžia kaimynų santykių dinamiką", "Demonstruoja kantrybę ir kruopštumą prieš veikiant, kas modeliuoja efektyvų policijos darbą"],
+                    "consequences": "Ponas Novak jaučiasi išgirstas ir pateikia naudingų detalių: tai pirmas kartas, kai buvo taip blogai, jis niekada su jais nekalbėjo ir net nežino jų vardų. Dabar suprantate, kad tai eskalacija nuo nulio — jokio ankstesnio santykio, jokių ankstesnių bandymų.",
+                    "trainingFocus": "Kaip supratimas, ar kaimynai kada nors bendravo, keičia jūsų teikiamos intervencijos tipą?"
+                },
+                "partially_positive": {
+                    "choiceText": "„Girdžiu jus, pone Novak. Ramybės valandos prasidėjo dešimtą ir jie aiškiai pažeidžia. Leiskite man lipti aukštyn ir tuo pasirūpinti dabar pat.“ Eikite tiesiai aukštyn.",
+                    "adequate": ["Greitas skundo patvirtinimas rodo reagavimą", "Faktiškai pripažįsta ramybės valandų pažeidimą"],
+                    "missed": ["Praleistas svarbus informacijos rinkimas — jokios istorijos, jokio santykio konteksto, jokių ankstesnių bandymų", "Atvykimas aukštyn turint tik skundėjo perspektyvą susiaurina požiūrį prie vykdymo", "Lūkesčiai ponui Novak dėl to, ką reiškia „pasirūpinti“, nenustatyti"],
+                    "improvement": "Investuokite šešiasdešimt sekundžių į konteksto klausimus prieš lipdami aukštyn. Žinojimas, kad tai pirmas incidentas ir kaimynai yra nepažįstamieji, paverčia jūsų požiūrį iš vykdymo į tarpininkavimą."
+                },
+                "neutral": {
+                    "choiceText": "„Gerai, girdžiu. Leiskite man lipti aukštyn ir pasbelsti, ir viską sutvarkysime.“ Trumpai linktelėkite ponui Novak ir lipkite laiptais.",
+                    "adequate": ["Pripažįsta, kad triukšmas yra tikras", "Rodo norą veikti"],
+                    "missed": ["„Viską sutvarkysime“ yra neaišku — nenustato jokių lūkesčių, kaip atrodys sprendimas", "Jokia informacija nesurinkta iš skundėjo", "Ponas Novak įsivaizduoja vakarėlio nutraukimą; jūs gal įsivaizduojate garsumo sumažinimą — atotrūkis sukelia problemų vėliau"],
+                    "improvement": "Prieš lipdami aukštyn, užduokite tris klausimus: kiek laiko, ar buvo anksčiau, ar kalbėjote su jais? Tada nustatykite aiškius lūkesčius dėl savo požiūrio.",
+                    "consequences": "Atvykstate prie vakarėlio buto beveik be jokio konteksto. Ponas Novak laukia apačioje, nežinodamas, ko tikėtis, vis labiau nerimauja su kiekviena minute."
+                },
+                "negative": {
+                    "choiceText": "„Pone Novak, tai šeštadienio vakaras — žmonės kartais rengia vakarėlius. Ar nebandėte tiesiog įsidėti ausų kamštukų? Aš nuliksiu aukštyn ir pakalbėsiu, bet negaliu garantuoti, kad jie visiškai liausis.“",
+                    "risks": ["Teisėto skundo atmetimas siūlant skundėjui prisitaikyti", "Ramybės valandos yra paskelbta pastato taisyklė, o ne asmeninė nuomonė — tai nuvertinti yra faktiškai neteisinga", "Žemų lūkesčių nustatymas dar neištyrus signalizuoja, kad jau nusprendėte vakarėlio šeimininkų naudai", "Griauna pasitikėjimą policija dėl gyvenimo kokybės klausimų — jis gali neskambinti kitą kartą, net dėl rimtų dalykų"],
+                    "consequences": "Pono Novak frustracija šoktelėja. Jis jaučiasi atmestas ir pradeda abejoti, ar skambutis buvo vertas. Jei sprendimas bus netobulas, jis skambins vėl — piktesnis ir mažiau pasitikintis.",
+                    "betterApproach": "Patvirtinkite skundą („girdžiu iš čia“), surinkite informaciją ir lipkite aukštyn su kontekstu, o ne išankstine nuomone."
+                }
+            },
+            "keyLearningPoints": ["Skundėjo patirties patvirtinimas („aš irgi girdžiu“) sukuria momentinį pasitikėjimą", "Šešiasdešimt sekundžių informacijos rinkimo formuoja visą intervencijos strategiją", "Klausimas, ar kaimynai kada nors bendravo, atskleidžia, ar tinkamas tarpininkavimas, ar vykdymas", "Siūlymas skundėjui toleruoti teisėtą pažeidimą griauna pasitikėjimą policija dėl gyvenimo kokybės skambučių"]
+        },
+        "2": {
+            "stageName": "Skundėjas",
+            "criticalSkills": ["Skaidrus skundėjo lūkesčių valdymas", "Sveikatos rūpesčių pripažinimas be perlenkimo", "Tarpininkavimo logikos paaiškinimas, siekiant pritarimo", "Aiškių eskalacijos kriterijų nustatymas"],
+            "learningObjective": "Pademonstruoti, kad skundėjo lūkesčių valdymas prieš veikiant yra tiek pat svarbus kaip pati intervencija — nes atotrūkis tarp to, ko jie tikisi, ir to, ką jūs pasiekiate, lemia jų pasitikėjimą rezultatu.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "„Pone Novak, jūsų sveikata svarbi ir jūsų teisė į ramybę po dešimtos yra teisėta — aš tai rimtai vertinu. Štai ką ketinu daryti: aš nuliksiu aukštyn, pakalbėsiu su jais ir sieksiu sustabdyti triukšmą šį vakarą. Noriu būti su jumis atviras — pirmam pažeidimui pradėsiu aiškiu įspėjimu ir konkrečiu susitarimu. Jei jie nepaklusys, vykdymas stiprėja. Bet mano patirtis rodo, kad tarpininkavimas tarp kaimynų veikia geriau ilgalaikėje perspektyvoje nei baudos. Ar duosite man galimybę pabandyti tokį požiūrį?“",
+                    "strengths": ["Patvirtina jo sveikatos rūpestį ir teisinę padėtį vienu metu", "Skaidrus apie požiūrį — įspėjimas prieš baudą — su aiškiu pagrindimas", "Paaiškina, kodėl tarpininkavimas veikia geriau nei baudos kaimynų ginčuose", "Klausimas „ar duosite man galimybę“ gerbia jo veiksnumą ir kviečia bendradarbiauti", "Nustato aiškius eskalacijos kriterijus, kad jis žinotų, kas vyksta, jei tarpininkavimas nepavyks"],
+                    "consequences": "Ponas Novak sustoja, tada nenoriai linkčioja. Jis pakankamai jumis pasitiki, kad leistų pabandyti tarpininkavimą. Jūs lipate aukštyn su jo sąlyginiu pritarimu, kuris suteikia erdvę tarpininkauti be jo jautimo, kad buvo išduotas.",
+                    "trainingFocus": "Kodėl savo argumentų paaiškinimas skundėjui — o ne tiesiog veiksmų pažadėjimas — kuria tvirtesnį pasitikėjimą?"
+                },
+                "partially_positive": {
+                    "choiceText": "„Visiškai suprantu, ir bauda tikrai yra galima. Leiskite man nulipti aukštyn ir pirmiausia įvertinti situaciją, tada nuspręsiu tinkamą veiksmą.“",
+                    "adequate": ["Baudos kaip galimybės pripažinimas yra techniškai tikslus", "Profesionali kalba ir ketinimas įvertinti prieš veikiant"],
+                    "missed": ["„Bauda tikrai yra galima“ padidina lūkesčius, kad vykdymas yra tikėtinas rezultatas", "Jei vėliau pasirinksite tarpininkavimą, ponas Novak jausis suklaidintas — atotrūkis tarp nuorodos ir rezultato griauna pasitikėjimą", "„Įvertinti situaciją“ yra neaišku ir jam neduoda nieko konkretaus, ko laikytis"],
+                    "improvement": "Būkite skaidrus apie savo numatomą požiūrį, o ne palikite durų atviras skundėjo pageidaujamam rezultatui. Paaiškinkite, kad tarpininkavimas yra jūsų pirmas žingsnis ir kodėl jis veikia geriau ilgainiui."
+                },
+                "neutral": {
+                    "choiceText": "„Aš eisiu tuo pasirūpinti. Pabandykite pailsėti, pone Novak. Grįšiu, kai pakalbėsiu su jais.“",
+                    "adequate": ["Geranoriška ir rodo norą veikti", "Prisimena grįžti pas skundėją — tai tinkama"],
+                    "missed": ["„Pasirūpinti“ nenustato jokių lūkesčių — ponas Novak užpildo neapibrėžtumą savo pageidaujamu rezultatu", "Jo sveikatos rūpesčio nepaminėta ir trukdymo poveikio nepatvirtinta", "Liepimas neišsimiegojusiam žmogui „pabandyti pailsėti“, kol bosas vis dar pulsuoja, yra nenuoširdus"],
+                    "improvement": "Pakeiskite neaiškius pažadus konkrečiais proceso aprašymais. Pasakykite jam, ką darysite, kiek tai gali užtrukti ir koks galimų rezultatų diapazonas.",
+                    "consequences": "Ponas Novak pasitraukia į savo butą ir guli nemiegodamas, klausydamasis. Kai grįžtate su kompromisu, jis suglumęs ir nusivylęs, nes „pasirūpinti“ jam reiškė ką kitą."
+                },
+                "negative": {
+                    "choiceText": "„Pone Novak, suprantu, kad tai vargina, bet aš negaliu tiesiog dalinti baudų. Paprastai šie dalykai susitvako patys — vakarėliai galiausiai baigiasi. Paprašysiu jų pritildyti, bet realiai gal tiesiog teks šį vakarą iškentėti.“",
+                    "risks": ["„Vakarėliai galiausiai baigiasi“ ir „iškentėti“ yra giliai nuvertinantys teisėtam skundui", "Ramybės valandos yra paskelbta taisyklė su aiškiu vykstančiu pažeidimu — ne kantrybės klausimas", "Liepimas žmogui su širdies liga iškentėti signalizuoja, kad jo skundas yra nepatogumas", "„Negaliu tiesiog dalinti baudų“ yra klaidinantis — jūs turite tokius įgaliojimus dėl triukšmo pažeidimų"],
+                    "consequences": "Ponas Novak jaučiasi apleistas sistemos, į kurią kreipėsi pagalbos. Jis gali eskaluoti — skambinti vadovui, konfrontuoti su kaimynais pats, arba tiesiog niekada nebepasitikėti policija dėl gyvenimo kokybės klausimų.",
+                    "betterApproach": "Patvirtinkite jo teisinę padėtį ir sveikatos rūpestį. Būkite skaidrus apie savo tarpininkavimo pirmiausia požiūrį ir paaiškinkite, kodėl jis duoda geresnius ilgalaikius rezultatus nei bauda."
+                }
+            },
+            "keyLearningPoints": ["Atotrūkis tarp to, ko skundėjas tikisi, ir to, ką jūs pasiekiate, lemia jų pasitikėjimą rezultatu", "Savo argumentų paaiškinimas — ne tik veiksmo — paverčia nenorią paklusnumą tikru pritarimu", "Skundėjų iškelti sveikatos rūpesčiai nėra retoriniai — jie formuoja jūsų atsako skubumą ir rimtumą", "Liepimas žmogui su teisėtu nusiskundimu „iškentėti“ griauna pasitikėjimą policija dėl visų būsimų gyvenimo kokybės skambučių"]
+        },
+        "3": {
+            "stageName": "Beldimas į duris",
+            "criticalSkills": ["Apsvaigusio asmens gynybinumo deeskalavimas", "Šventės pripažinimas prieš skundą", "Pradėjimas pokalbiu, o ne komandomis", "Proporcingas atsakas į gyvenimo kokybės pažeidimą"],
+            "learningObjective": "Pademonstruoti, kad pirmos trisdešimt sekundžių prie vakarėlio durų lemia, ar gausite pokalbį, ar konfrontaciją — ir kad šventės pripažinimas prieš pateikiant skundą dramatiškai sumažina gynybinumą.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Laikykite toną ramų ir pokalbinį: „Labas vakaras. Aš pareigūnas [vardas]. Matau, kad švenčiate — su gimtadieniu tam, kieno vakarėlis. Esu čia, nes jūsų kaimynas apačioje paskambino dėl triukšmo. Pastato ramybės valandos prasidėjo dešimtą, ir girdžiu muziką nuo pirmo aukšto. Norėčiau pakalbėti apie būdą, kaip leisti jums baigti vakarą netrukdant viso pastato. Ar galime minutėlę pakalbėti?“",
+                    "strengths": ["Prisistatymas vardu iš karto sužmogina sąveiką", "Šventės pripažinimas rodo, kad matote žmones, o ne tik pažeidimą", "Faktų neutralus pateikimas — kaimynas paskambino, ramybės valandos, girdima muzika — be kaltinimo", "„Rasti būdą leisti jums baigti vakarą“ signalizuoja, kad nesate čia jo nutraukti, kas dramatiškai sumažina gynybinumą", "Klausimas „ar galime pakalbėti“ suteikia jam veiksnumą ir atveria dialogą, o ne diktuoja įsakymus"],
+                    "consequences": "Tomáš gynybinumas suminkštėja. Jis nesitikėjo ramaus, protingo pareigūno. Jis žengia į durų angą ir nuleidžia balsą. Pokalbis prasidėjo vietoj konfrontacijos.",
+                    "trainingFocus": "Kaip šventės pripažinimas prieš skundą keičia žmogaus norą bendradarbiauti?"
+                },
+                "partially_positive": {
+                    "choiceText": "„Ei, suprantu — šeštadienio vakaras, gimtadienio vakarėlis. Pats buvau tokiose. Bet kaimynai skambina, ir ramybės valandos prasidėjo dešimtą. Žiūrėkite, nenoriu niekam sugadinti vakaro. Ar galite tiesiog šiek tiek pritildyti?“",
+                    "adequate": ["Draugiškas ir artimas tonas, sumažinantis pradinį gynybinumą", "Konteksto pripažinimas — šeštadienio vakaras, gimtadienis — rodo supratimą"],
+                    "missed": ["„Šiek tiek pritildyti“ yra per daug neaišku, kad sudarytų tikrą susitarimą — ką reiškia „šiek tiek“?", "Neprisistatyta, kas praleidžia lengvą ryšio galimybę", "Be konkretumų Tomáš sutinka tą minutę ir nieko reikšmingai nekeičia"],
+                    "improvement": "Išlaikykite draugišką toną, bet pakeiskite neaiškius prašymus konkrečiais pasiūlymais. Prisistatykite vardu. „Šiek tiek pritildyti“ tampa „pritildyti bosą, uždaryti balkoną ir sutarti dėl pabaigos laiko.“"
+                },
+                "neutral": {
+                    "choiceText": "„Labas. Gavome triukšmo skundą. Pastato ramybės valandos yra nuo dešimtos ir jau seniai praėjo. Man reikia, kad pritildytumėte muziką nedelsiant ir pakviestumėte tuos žmones nuo balkono.“",
+                    "adequate": ["Faktiškai teisinga ir tiesioginė dėl pažeidimo", "Identifikuoja konkrečius reikalingus veiksmus — muzika žemyn, balkonas atlaisvintas"],
+                    "missed": ["Prasideda reikalavimais, o ne dialogu — „man reikia, kad jūs“ yra įsakymas, ne pokalbio pradžia", "Neprisistatyta, šventė nepripažinta, susidomėjimo jo perspektyva neparodyta", "Šiek tiek apsvaigęs žmogus, gaunantis įsakymus iš nepažįstamojo prie savo durų, instinktyviai priešinsis"],
+                    "improvement": "Pradėkite trumpu situacijos pripažinimu, prisistatykite ir formuluokite prašymus kaip pasiūlymus, o ne įsakymus. Tas pats rezultatas pasiekiamas su kur kas mažesniu pasipriešinimu.",
+                    "consequences": "Tomáš susierzina ir prasideda galios kova. Kiekviena nuolaida dabar jaučiasi kaip pralaimėjimas."
+                },
+                "negative": {
+                    "choiceText": "„Pone, aš reaguoju į triukšmo pažeidimą. Pastato ramybės valandos paskelbtos nuo 22 iki 7 val. Jūs šiuo metu pažeidžiate. Man reikia pamatyti jūsų asmens tapatybės dokumentą, ir man reikia, kad muzika būtų išjungta dabar. Jei teks grįžti, jus laukia bauda.“",
+                    "risks": ["Asmens tapatybės dokumento reikalavimas dėl triukšmo skundo yra neproporcingai neadekvatus — tai ne kriminalinis tyrimas", "Pradėjimas grasinimais garantuoja maksimalų pasipriešinimą iš žmogaus savo namuose, kuris gėrė", "Konfrontacinis požiūris nuodija bet kokią tarpininkavimo galimybę", "Draugai susirenka už Tomáš, padauginant gynybinių žmonių skaičių, kurį turite valdyti"],
+                    "consequences": "Tomáš atsitraukia netikėdamas. Jo draugai susirenka už jo ir atmosfera tampa priešiška. Anna pasirodo, sunerimusi. Dabar susiduriate su kambariu gynybinių, šiek tiek apsvaigusių žmonių, o ne viena bendradarbiaujančia pora.",
+                    "betterApproach": "Atitinkite savo atsaką pažeidimui. Triukšmo skundas šeštadienio vakarą reikalauja pokalbio ir tarpininkavimo, ne dokumentų reikalavimų ir baudų grasinimų."
+                }
+            },
+            "keyLearningPoints": ["Pirmos trisdešimt sekundžių prie durų lemia pokalbį arba konfrontaciją", "Šventės pripažinimas prieš skundą sumažina gynybinumą daugiau nei per pusę", "Prisistatymas vardu paverčia valdžia–subjektas santykį į žmogus–žmogus santykį", "Asmens tapatybės dokumento reikalavimas dėl triukšmo skundo yra neproporcingas ir garantuoja eskalaciją"]
+        },
+        "4": {
+            "stageName": "Pasipriešinimas",
+            "criticalSkills": ["Jausmų patvirtinimas prieš kontrargumentą", "Bendradarbiaujančios šalies įtraukimas neapeinant gynybinės šalies", "Teisių performulavimas kaip bendrų, o ne konkuruojančių", "Savitvardos palaikymas verbaliame iššūkyje"],
+            "learningObjective": "Pademonstruoti, kad kai viena šalis yra gynybinė, o kita — bendradarbiaujanti, efektyvus tarpininkavimas pirmiausia patvirtina gynybinį asmenį, tada įtraukia bendradarbiaujantį — neleisdamas nė vienam jaustis apeidinėjamu.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Pirmiausia kreipkitės į Tomáš, pagarbiai, bet tvirtai: „Girdžiu jus — dirbti naktines pamainas kaip paramedikui ir pagaliau gauti šeštadienį su draugais, suprantu, kodėl tai jums svarbu. Ir jūs teisus, tai yra jūsų namai. Bet turiu būti su jumis tiesus: triukšmas šį vakarą yra gerokai didesnis nei normaliai. Girdžiu bosą nuo pirmo aukšto. Ramybės valandos egzistuoja, nes kiekvienas šiame pastate turi tokią pačią teisę į savo namus — ir žmogus apačioje minėjo, kad turi širdies ligą ir gydytojo vizitą šeštą. Jo sveikatos rūpestis yra realus. Aš ne čia nutraukti jūsų vakarėlio. Aš čia rasti vidurio kelią.“ Tada pasisukite į Anną: „Jūs minėjote, kad nesupratote, kaip garsu buvo — tai man sako, kad tai išsprendžiama. Ar galime pakalbėti apie konkretybes?“",
+                    "strengths": ["Tomáš jausmų patvirtinimas ir jo darbo grafiko pripažinimas — neutralizuoja gynybinumą", "„Jūs teisus, tai yra jūsų namai“ patvirtina jo autonomiją prieš pristatant atsvarą", "„Ne čia nutraukti jūsų vakarėlio“ panaikina konkrečią grėsmę, į kurią jis reaguoja", "Annos įtraukimas po Tomáš patvirtinimo nukreipia pokalbį link sprendimų jo neapeinant", "Teisių performulavimas kaip bendrų, o ne konkuruojančių — abi šalys turi vienodas pretenzijas į savo namus"],
+                    "consequences": "Tomáš iškvepia ir patvirtinimas jį pasiekia. Anna žengia pirmyn ir pradeda spręsti problemą. Dinamika keičiasi nuo konfrontacijos prie derybų.",
+                    "trainingFocus": "Kaip kažkieno pozicijos patvirtinimas prieš pristatant priešingą perspektyvą keičia jų gebėjimą jus girdėti?"
+                },
+                "partially_positive": {
+                    "choiceText": "Sutelkite dėmesį į Anną, nes ji labiau bendradarbiaujanti: „Ačiū — tai vertinu. Leiskite paaiškinti, ko man reikia: muzika turi gerokai sumažėti, ir balkonas turi būti atlaisvintas. Ar galite padėti tai įgyvendinti?“",
+                    "adequate": ["Bendradarbiaujančios šalies įtraukimas yra pragmatiškas ir dažnai efektyvus", "Nurodo konkrečius reikalingus veiksmus — muzika žemyn, balkonas atlaisvintas"],
+                    "missed": ["Kalbėjimas daugiausia su Anna, kol Tomáš konfrontuoja jus, gali jaustis kaip apėjimas", "Jo paties namuose, apėjimas jo merginai naudai ypač skauda", "Tomáš gali paklusti šį vakarą, bet prisimins, kad jautėsi atmestas"],
+                    "improvement": "Pirmiausia kreipkitės į gynybinį asmenį su patvirtinimu, tada pereikite prie bendradarbiaujančio asmens dėl sprendimų. Abu jaučiasi išgirsti ir nė vienas nesijaučia apeitas."
+                },
+                "neutral": {
+                    "choiceText": "„Žiūrėkite, nenoriu iš to daryti didelio dalyko. Jūs atrodote protingi. Tiesiog pabandykite pritildyti, gerai? Nenorėčiau grįžti.“",
+                    "adequate": ["Draugiškas tonas, vengiantis eskalacijos", "Rodo norą duoti jiems šansą"],
+                    "missed": ["„Pabandykite pritildyti“ nėra susitarimas — tai noras be konkretumų", "„Nenorėčiau grįžti“ yra pasyvus grasinimas, griaunantis draugišką toną", "Nei Tomáš gynybinumas, nei Annos noras bendradarbiauti nėra adresuojami ar panaudojami"],
+                    "improvement": "Pakeiskite neaiškų draugiškumą konkrečiu įsitraukimu. Patvirtinkite Tomáš jausmus, įtraukite Annos bendradarbiavimą ir pasiūlykite konkrečias sąlygas. Konkretumas yra tai, kas sukuria paklusnumą.",
+                    "consequences": "Tomáš traukteli pečiais ir uždaro duris. Muzika sumažėja dviem minutėms, tada grįžta. Ponas Novak skambina vėl 0:30."
+                },
+                "negative": {
+                    "choiceText": "„Pone, suprantu, kad tai jūsų butas, bet ramybės valandos yra ramybės valandos. Nesvarbu, kokia diena. Man reikia, kad muzika būtų išjungta ir svečiai — nuo balkono. Tai ne prašymas.“",
+                    "risks": ["„Tai ne prašymas“ eskaluoja triukšmo skundą į dominavimo konkursą", "Jokio lankstumo — muzika visiškai išjungta, svečiai apriboti — yra neproporcinga gimtadienio vakarėliui", "Tomáš suvokia tai kaip autoritarizmą ir įsitvirtina, o ne bendradarbiauja", "Annos pasiūlytas bendradarbiavimas iššvaistomas, nes konfrontacinis rėmas neleidžia jai tarpininkauti"],
+                    "consequences": "Tomáš atsistoja tiesiai ir sako rašyti baudą ir eiti. Pokalbis tampa priešiškas. Bet koks sprendimas jaučiamas kaip primeistas, o ne savanoriškas.",
+                    "betterApproach": "Patvirtinkite jo poziciją, panaikinkite suvokiamą grėsmę ir pasiūlykite vidurio kelią. Tas pats paklusnumas pasiekiamas pokalbiu, kuris reikalautų jėgos per konfrontaciją."
+                }
+            },
+            "keyLearningPoints": ["Patvirtinkite gynybinį asmenį prieš pristatydami priešingą perspektyvą — tai leidžia jiems jus girdėti", "Kai viena šalis bendradarbiaujanti, įtraukite ją sprendimams, bet neapeikite kitos", "„Ne čia nutraukti jūsų vakarėlio“ yra galingesnis nei bet koks reikalavimas, nes panaikina grėsmę, kuriai jie priešinasi", "Neaiškūs prašymai sukuria neaiškų paklusnumą — o neaiškus paklusnumas sukuria pakartotinius skambučius"]
+        },
+        "5": {
+            "stageName": "Sprendimo paieška",
+            "criticalSkills": ["Konkrečių, specifinių, įgyvendinamų sąlygų pasiūlymas", "Ribų gerbimas derybų metu", "Konkretaus pabaigos laiko kaip susitarimo inkaros nustatymas", "Pasiūlymų formulavimas kaip derybos, o ne dekreto"],
+            "learningObjective": "Pademonstruoti, kad trys specifiniai, pagrįsti prašymai — boso sumažinimas, balkono uždarymas, sutartas pabaigos laikas — sukuria dramatiškai geresnį paklusnumą nei vienas neaiškus reikalavimas, nes konkretumas sukuria atskaitomybę.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "„Palaukite minutėlę.“ Per radiją dispečerinei: „Ar galite siųsti greitąją patikrinti skundėjo — pagyvenęs vyras, praneša apie krūtinės spaudimą, turi žinomą širdies ligą. Prašomas profilaktinis patikrinimas.“ Tada pasisukite atgal į Tomáš: „Jūsų kaimynas praneša apie krūtinės skausmus. Jis turi širdies ligą. Iškviečiau greitąją jį patikrinti. Tai teisinga — neprašau jūsų nutraukti vakarėlio dabar pat. Bet situacija pasikeitė. Štai ką, manau, veiktų: pirma, pritildykite bosą — tai yra tai, kas keliauja per grindis. Antra, uždarykite balkono duris. Trečia, nustatykime pabaigos laiką — 0:30 duoda jums dar valandą ir duoda jam finišo liniją. Ar galite su tuo dirbti?“",
+                    "strengths": ["Trys konkretūs, specifiniai, įgyvendinami punktai — kiekvienas adresuoja atskirą triukšmo dimensiją", "Medicininis rūpestis adresuojamas profesionaliai — greitosios kvietimas, o ne bandymas diagnozuoti pačiam", "Paaiškinus, kodėl svarbus bosas (keliauja per grindis), mokoma, o ne diktuojama", "Pasiūlymas 0:30 duoda valandą — nei baudžiamasis, nei leidžiantis", "„Ar galite su tuo dirbti“ paverčia tai derybomis, išsaugant jų veiksnumą"],
+                    "consequences": "Tomáš žiūri į Anną. Ji linkčioja. Jie sutinka su 0:30. Konkretumas tai paverčia realiu — jie tiksliai žino, ko tikimasi. Bosas sumažėja, balkono durys užsidaromos ir vakarėlis pereina prie pokalbio.",
+                    "trainingFocus": "Kodėl trys specifiniai, pagrįsti prašymai sukuria geresnį paklusnumą nei vienas neaiškus reikalavimas?"
+                },
+                "partially_positive": {
+                    "choiceText": "„Kaip dėl to — tiesiog pritildykite muziką ir uždarykite balkoną? Tai turėtų pašalinti didžiąją dalį triukšmo. Paliksiu jums nuspręsti, kada protingai baigti. Man reikia eiti patikrinti jūsų kaimyno — jam negerai.“",
+                    "adequate": ["Dvi iš trijų pagrindinių triukšmo dimensijų adresuotos — muzikos garsumas ir balkonas", "Tonas yra bendradarbiaujantis ir nekonfrontacinis"],
+                    "missed": ["„Protingu laiku“ yra subjektyvu — vidurnaktis dvidešimt aštuoneriems ir vidurnaktis šešiasdešimtmečiui yra skirtingos sąvokos", "Be konkretaus pabaigos laiko vakarėlis gali tęstis iki 2 nakties, visiems jaučiant, kad laikėsi savo dalies", "Labiausiai ginčytina sąlyga — pabaigos laikas — palikta neapibrėžta"],
+                    "improvement": "Visada inkuruokite susitarimus konkrečiu pabaigos laiku. Tai yra svarbiausia sąlyga, nes duoda skundėjui finišo liniją ir vakarėlio šeimininkams aiškią ribą."
+                },
+                "neutral": {
+                    "choiceText": "„Paliksiu jums patiems susitvarkyti detales. Jūs atrodote protingi. Tiesiog pasirūpinkite, kad kaimynui apačioje nereikėtų vėl skambinti, gerai? Geriau negrįžčiau. Man reikia eiti jį patikrinti.“",
+                    "adequate": ["Nekonfrontacinis ir rodo pasitikėjimą jų sprendimu", "Pripažįsta, kad jie atrodo protingi"],
+                    "missed": ["Visiškas atidavimas nenustato jokių konkrečių sąlygų ar apsaugų", "Prašyti žmonių, kurie gėrė, savęs reguliuoti vidurnaktį yra žinomas nesėkmės taškas", "„Geriau negrįžčiau“ yra pasyvus perspėjimas, ne susitarimas"],
+                    "improvement": "Pasiūlykite konkrečias sąlygas — bosą žemyn, balkoną uždaryti, pabaigos laiką nustatyti — ir paprašykite jų sutikti. Konkretumas sukuria atskaitomybę; neapibrėžtumas sukuria pakartotinius skambučius.",
+                    "consequences": "Be konkrečių įsipareigojimų muzika lieka tokio pat lygio, balkonas lieka užimtas, ir ponas Novak vėl skambina 1 val. nakties, prašydamas kito pareigūno."
+                },
+                "negative": {
+                    "choiceText": "„Man reikia, kad muzika būtų visiškai išjungta ir vakarėlis baigtųsi per trisdešimt minučių. Ramybės valandos yra ramybės valandos, ir dabar jūsų kaimynas praneša apie medicininius simptomus.“",
+                    "risks": ["Muzikos visiškas išjungimas ir trisdešimties minučių uždarymas yra neproporcingas pirmam triukšmo skundui per gimtadienio vakarėlį", "Iš esmės įsakymas vakarėliui baigtis pažeidžia proporcingumo principą", "Tylos reikalavimas traktuoja šventę tarsi nusikaltimą", "Sukuria didžiulį pasipiktinimą — prieš policiją, prieš poną Novak, prieš pastatą"],
+                    "consequences": "Tomáš žandikaulis sustingsta. Anna atsitraukia, nusiminusi. Svečiai keičiasi piktais žvilgsniais. Net jei jie paklūsta, pasipiktinimas sukuria ilgalaikį konfliktą tarp kaimynų.",
+                    "betterApproach": "Pirmas įspėjimas dėl triukšmo skundo turėtų siekti proporcingo paklusnumo, o ne visiškos tylos. Boso sumažinimas, balkono uždarymas ir pagrįstas pabaigos laikas adresuoja skundą nebaudžiant šventės."
+                }
+            },
+            "keyLearningPoints": ["Konkrečios sąlygos sukuria atskaitomybę; neaiškios sąlygos sukuria pakartotinius skambučius", "Pabaigos laikas yra svarbiausia sąlyga — duoda skundėjui finišo liniją ir šeimininkams aiškią ribą", "Paaiškinti, kodėl kiekvienas prašymas svarbus (bosas keliauja per grindis, balkono triukšmas veikia visą pastatą), moko, o ne diktuoja", "Neproporcingai griežti reikalavimai pirmam triukšmo skundui sukuria pasipiktinimą, generuojantį mėnesius kaimynų konflikto"]
+        },
+        "6": {
+            "stageName": "Susitarimas",
+            "criticalSkills": ["Sąlygų pakartojimas žodinei sutarčiai sukurti", "Skundėjo sužmoginimas kitai šaliai", "Sėklų sodinimas tiesioginiam kaimynų santykiui", "Bendradarbiavimo sustiprinimas, o ne uždarymas grasinimais"],
+            "learningObjective": "Pademonstruoti, kad susitarimo formalizavimas, pono Novak sužmoginimas ir tiesioginio ateities kontakto pasiūlymas paverčia triukšmo skundo sprendimą tikra konfliktų prevencija.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "„Vertinu, kad abu dirbate su manimi — ir Tomáš, tai, kad paklausėte apie jį, man daug pasako. Jis stabilus — pakilęs kraujo spaudimas nuo streso ir neišsimiegojimo, bet paramedikas sakė, kad jam reikia pailsėti. Leiskite pakartoti, kad visi būtume tame pačiame puslapyje: bosas pritildytas, balkono durys uždarytos, svečiai lieka viduje, ir baiginsite iki 0:30. Jei tai laikysis, šį vakarą nėra problemų. Dar vienas dalykas — jūsų kaimynas ponas Novak, jis yra vyresnis vyras, gyvenantis vienas. Jis nebuvo tiek piktas, kiek išsekęs. Turi gydytojo vizitą šeštą ryto. Jei rasite progą, trumpas beldimas į jo duris rytoj prisistatyti galėtų daug nuveikti. Jis nežino, kad esate paramedikas, Tomáš — tai gali būti svarbu žmogui su širdies liga, gyvenančiam vienam. Kaimynai, kurie pažįsta vieni kitus, tokius dalykus susitvako patys.“",
+                    "strengths": ["Konkrečių sąlygų pakartojimas sukuria žodinę sutartį, kurią abi šalys pripažino", "Pagyrimas už bendradarbiavimą sustiprina elgesį, kurį norite matyti tęsiantis", "Pono Novak sužmoginimas — vyresnis, gyvenantis vienas, išsekęs, vizitas šeštą — paverčia jį iš „tipo, kuris iškviečia policiją“ į asmenį", "Pastebėjimas, kad paramedikas, gyvenantis virš žmogaus su širdies liga, galėtų būti turtas, performuoja visą kaimynystės dinamiką", "Tai yra konfliktų prevencija, o ne tik konfliktų sprendimas"],
+                    "consequences": "Annos veido išraiška sušvelnėja. Ji sako, kad nueis prisistatyti. Tomáš linkčioja, šiek tiek kaltai atrodydamas. Kaimynė priešais, klausydamasi pro prasivėrusias duris, šypsosi. Jūs ne tik išsprendėte triukšmo skundą — potencialiai sukūrėte palaikymo santykį.",
+                    "trainingFocus": "Kaip skundėjo sužmoginimas kitai šaliai keičia dinamiką iš priešiškos į santykiais grįstą?"
+                },
+                "partially_positive": {
+                    "choiceText": "„Džiaugiuosi, kad susitarėme. Turiu formaliai dokumentuoti šį vizitą ir noriu būti skaidrus: išrašau raštišką įspėjimą — ne baudą — už triukšmo pažeidimą. Tai formalus įrašas, kad ramybės valandos buvo pažeistos šį vakarą. Jei bus kitas pažeidimas per devyniasdešimt dienų, kitas atsakas automatiškai bus bauda. Tai ne bausmė — tai aiški riba. Jūs šį vakarą bendradarbiavote ir tai vertinu. Galvokite apie įspėjimą kaip liniją smėlyje, kuri apsaugo visus, įskaitant jus, nes suteikia ponui Novak pasitikėjimą, kad sistema veikė ir jam nereikia eskaluoti toliau.“",
+                    "adequate": ["Skaidrus apie formalų raštišką įspėjimą — paaiškina, kas tai yra ir kas nėra", "Įspėjimo formulavimas kaip apsauga abiem šalims palaiko geranoriškumą", "Aiškus eskalacijos kelias (bauda per devyniasdešimt dienų) suteikia abiem šalims institucinį užtikrinimą", "Pripažįsta jų bendradarbiavimą, sustiprinant teigiamą elgesį"],
+                    "missed": ["Ponas Novak nesužmogintas — jis lieka „tipu, kuris iškviečia policiją“, o ne asmeniu su istorija", "Tiesioginio ateities kaimynų kontakto nepasiūlyta — ta pati dinamika kitą mėnesį", "Formali dokumentacija suteikia užbaigimą, bet nekuria santykio, užkertančio kelią pakartotiniams skambučiams", "Tomáš nuoširdus klausimas apie pono Novak sveikatą lieka neadresuotas šiame požiūryje"],
+                    "improvement": "Raštiškas įspėjimas su aiškiais eskalacijos kriterijais yra proporcingas ir pagrindžiamas. Bet jo sujungimas su pono Novak sužmoginimu — jo amžiumi, vienatve, sveikata — ir pasiūlymu prisistatyti rytoj paverstų dokumentaciją į konfliktų prevenciją."
+                },
+                "neutral": {
+                    "choiceText": "„Gerai, tada viskas tvarkoje. Gero vakaro likučio.“ Apsisukite ir eikite laiptais žemyn.",
+                    "adequate": ["Mandagu ir negriauna susitarimo grasinimais", "Neeskaluoja po pasiekto susitarimo"],
+                    "missed": ["Sąlygų nepakartota — vadinasi nėra žodinės sutarties", "Ponas Novak nesužmogintas", "Ateities kaimynų santykių nepasiūlyta", "Mechanizmo užkirsti kelią tam pačiam skambučiui kitą mėnesį nėra"],
+                    "improvement": "Pakartokite konkrečias sąlygas, pasidalinkite kažkuo žmogišku apie poną Novak ir pasiūlykite prisistatyti. Skirtumas tarp incidento sprendimo ir kito prevencijos yra šešiasdešimt sekundžių pokalbio.",
+                    "consequences": "Tomáš ir Anna šį vakarą pakluso, nes susitikimas šviežias. Bet be santykio su ponu Novak, kitas vakarėlis generuoja tą patį skambutį."
+                },
+                "negative": {
+                    "choiceText": "„Taip. Pažymiu šį vizitą savo ataskaitoje. Jei bus kitas skundas iš šio pastato — šį vakarą ar bet kurį kitą — turėtumėte tikėtis baudos. Rekomenduočiau laikyti vakarėlius tyliau ateityje. Triukšmo pažeidimai eina į įrašus. Ir atvirai, su pagyvenusiu vyru, turinčiu krūtinės skausmus, apačioje, jums pasisekė, kad šį vakarą nebaudžiu.“",
+                    "risks": ["Biurokratinė, baudžiamoji kalba traktuoja išspręstą triukšmo skundą kaip kriminalinį perspėjimą", "Tomáš ir Anna bendradarbiavo savanoriškai — grąsinimas jiems įrašais ir baudomis baudžia bendradarbiavimą", "Griauna per tarpininkavimą sukurtą pasitikėjimą ir užtikrina pasipiktinimą tiek policijai, tiek ponui Novak", "Sukuria atgrasantį efektą: kitą kartą kilus konfliktui jie bus priešiški, o ne bendradarbiaujantys"],
+                    "consequences": "Šiluma visiškai išgaruoja. Tomáš murmėjo apie „įrašą“ dėl gimtadienio vakarėlio. Kitą kartą kilus konfliktui su ponu Novak, jie nebandys jo spręsti — bus priešiški.",
+                    "betterApproach": "Kai kas nors jau savanoriškai bendradarbiavo, pasekmių eskalavimas praneša, kad bendradarbiavimas neturi vertės. Užbaikite sustiprinimu ir santykių kūrimu, ne grasinimais."
+                }
+            },
+            "keyLearningPoints": ["Konkrečių sąlygų pakartojimas sukuria žodinę sutartį, kuri laiko geriau nei neaiškūs susitarimai", "Skundėjo sužmoginimas kitai šaliai paverčia dinamiką iš priešiškos į santykiais grįstą", "Tiesioginio kaimynų kontakto pasiūlymas yra konfliktų prevencija — vertingiausias bet kurio triukšmo skambučio rezultatas", "Uždarymas grasinimais po savanoriško bendradarbiavimo griauna per tarpininkavimą sukurtą geranoriškumą"]
+        },
+        "7": {
+            "stageName": "Ciklo uždarymas",
+            "criticalSkills": ["Konkrečios informacijos pateikimas skundėjui apie tai, dėl ko susitarta", "Kitos šalies sužmoginimas skundėjui", "Tiesioginio kaimynų bendravimo skatinimas", "Skundėjo teisės skambinti atgal patvirtinimas"],
+            "learningObjective": "Pademonstruoti, kad ciklo uždarymas su skundėju nėra neprivalomas — ponas Novak turi išgirsti konkrečias sąlygas, sužinoti savo kaimynų vardus ir jausti, kad jo skambutis davė reikšmingų rezultatų.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "„Pone Novak, pakalbėjau su jūsų kaimynais — jų vardai yra Tomáš ir Anna. Jie rengia gimtadienio vakarėlį draugui, kuris atvažiavo iš kito miesto. Jie nesuprato, kiek triukšmo eina per grindis. Štai dėl ko susitarėme: bosas pritildytas — turbūt jau girdite skirtumą — balkonas uždarytas, svečiai viduje, ir jie baigia iki 0:30. Taip pat papasakojau jiems šiek tiek apie jūsų situaciją — kad turite ankstyvą rytą ir reikia pailsėti. Jie jautėsi nuoširdžiai blogai. Paskatinčiau jus kada nors prisistatyti — kaimynai, kurie pažįsta vieni kitus, paprastai tokius dalykus sutvarko patys, nekviesdami mūsų. Jei triukšmas vėl padidės šį vakarą, turite visišką teisę skambinti dar kartą, ir bus eskaluota.“",
+                    "strengths": ["Kaimynų vardų ir konteksto pasidalinimas juos sužmogina — jie tampa žmonėmis, o ne „triukšmu viršuje“", "Konkrečių sąlygų detalizavimas parodo ponui Novak, kad jo skambutis davė konkrečių rezultatų", "Paminėjimas, kad jie jautėsi blogai, kuria empatiją tarp aukštų", "Tiesioginio kontakto skatinimas pasodina sėklą savarankiškam sprendimui ateityje", "Jo teisės skambinti atgal patvirtinimas patvirtina jo poziciją negriovant susitarimo"],
+                    "consequences": "Pono Novak pečiai nusitempia palengvėjimu. Jis sužino jų vardus pirmą kartą per aštuoniolika mėnesių. Pirmą kartą šį vakarą jis atrodo mažiau kaip nusivylęs skundėjas ir daugiau kaip kaimynas, kuris gali pabelsti į duris.",
+                    "trainingFocus": "Kaip konkrečios informacijos pasidalinimas — vardai, kontekstas, sąlygos — paverčia skundėją iš priešininko potencialiu kaimynu?"
+                },
+                "partially_positive": {
+                    "choiceText": "„Pakalbėjau su jais ir jie sutiko pritildyti muziką ir greitai baigti. Turėtumėte jau pastebėti skirtumą. Jei vėl prasidės, nedvejodami skambinkite.“",
+                    "adequate": ["Tikslus ir nuraminantis — patvirtina, kad veiksmai buvo atlikti", "Patvirtina jo teisę skambinti atgal, jei susitarimas nebus laikomasi"],
+                    "missed": ["„Pritildyti“ ir „greitai baigti“ yra neaiškūs — kada yra „greitai“?", "Jokių vardų, jokio konteksto, jokio kaimynų sužmoginimo", "Jokio tiesioginio kontakto pasiūlymo", "Ponas Novak gulės nemiegodamas, klausydamas kiekvieno garso, negalėdamas pasitikėti, kad „greitai“ reiškia greitai"],
+                    "improvement": "Pasidalinkite kaimynų vardais, konkrečiu pabaigos laiku ir kažkuo žmogišku apie juos. Detalės yra tai, kas paverčia nerimą palengvėjimu ir nepažįstamus kaimynais."
+                },
+                "neutral": {
+                    "choiceText": "„Viskas sutvarkyta, pone Novak. Muzika pritildyta. Pabandykite užmigti — turite vizitą ryte. Labanakt.“",
+                    "adequate": ["Efektyvus ir prisimena jo vizitą — rodo tam tikrą dėmesingumą", "Patvirtina, kad triukšmas sumažėjo"],
+                    "missed": ["„Viskas sutvarkyta“ jam nieko nepasako apie tai, dėl ko susitarta, kas gyvena virš jo ar kas bus toliau", "Jokių konkrečių sąlygų, jokių vardų, jokio sužmoginimo, jokio santykių kūrimo", "Traktuoja skundėją kaip užduotį, kurią reikia uždaryti, o ne kaip žmogų bendruomenėje"],
+                    "improvement": "Pakeiskite „viskas sutvarkyta“ konkrečiais dalykais: kas jie yra, dėl ko susitarta ir kada tai baigiasi. Skundėjas, kuris žino sąlygas, jaučiasi, kad viskas išspręsta; tas, kuris girdi „viskas sutvarkyta“, tik tikisi, kad tai tiesa.",
+                    "consequences": "Ponas Novak padėkoja ir uždaro duris, nepatenkintas, bet per daug pavargęs, kad spaudyti. Jis nežino savo kaimynų vardų, nežino pabaigos laiko ir nesijaučia įgalintas."
+                },
+                "negative": {
+                    "choiceText": "„Pakalbėjau su jais. Jie rengia gimtadienio vakarėlį — atrodė mieli vaikai. Pasakiau jiems pritildyti. Žiūrėkite, pone Novak, tokie dalykai vyksta daugiabučiuose. Jauni žmonės rengia vakarėlius. Pabandykite būti šiek tiek supratingesnis — jie irgi sunkiai dirba. Gal investuokite į ausų kamštukus tokiems vakarams.“",
+                    "risks": ["Vakarėlio šeimininkų palaikymas skundėjui — „mieli vaikai“, „būkite supratingesnis“, „ausų kamštukai“ — nuverta jo teisėtą skundą", "Jis laukė daugiau nei valandą policijos vidurnaktį ir jam dabar sakoma būti tolerantiškesniam ir pirkti ausų kamštukus", "Ramybės valandų pažeidimas buvo tikras, jo frustracija teisėta ir jo sveikatos rūpesčiai pagrįsti", "Tai yra veidrodinis atvaizdas vakarėlio šeimininkų atmetimo — jūs pasirinkote pusę"],
+                    "consequences": "Ponas Novak jaučiasi išduotas. Jo pasitikėjimas policija dėl gyvenimo kokybės klausimų smarkiai pažeistas. Jis kitą kartą neskambins — jis arba konfrontuos su jais pats, arba kentės tyloje ir neapkęs visų.",
+                    "betterApproach": "Dalinkitės tuo, dėl ko susitarta, needitorializuodami. Sužmoginkite kaimynus per faktus, ne per palaikymą. Leiskite ponui Novak pačiam susidaryti nuomonę apie juos, remdamasis jų vardais, kontekstu ir noru bendradarbiauti."
+                }
+            },
+            "keyLearningPoints": ["Ciklo uždarymas su skundėju nėra neprivalomas — tai lemia, ar jie jaučia, kad jų skambutis buvo svarbus", "Vardų ir konteksto pasidalinimas paverčia anonimiškus nepažįstamuosius tikrais kaimynais", "Konkrečios sąlygos (pabaigos laikas, bosas žemyn, balkonas uždarytas) suteikia skundėjui struktūrą paklusnumui vertinti", "Vienos šalies palaikymas kitai griauna skundėjo pasitikėjimą — dalinkitės faktais ir leiskite jiems patiems daryti išvadas"]
+        }
+    },
+
+    "scoringExplanation": {
+        "maxPossibleScore": 84,
+        "scoreBreakdown": {
+            "stage1_arrival": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -8 },
+            "stage2_complainant": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -8 },
+            "stage3_knocking": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -10 },
+            "stage4_pushback": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -8 },
+            "stage5_solution": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -8 },
+            "stage6_agreement": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -10 },
+            "stage7_closing_loop": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -10 }
+        },
+        "performanceThresholds": {
+            "perfect": { "range": "84", "description": "Visi teigiami pasirinkimai — išskirtinis tarpininkavimas kiekviename etape. Patvirtinote abi šalis, suderėjote konkrečias sąlygas, sužmoginote kaimynus vieniems kitiems ir pasodinote sėklas ilgalaikiam santykiui." },
+            "good": { "range": "50-83", "description": "Daugiausia teigiami su keliais iš dalies teigiamais pasirinkimais. Stiprūs tarpininkavimo instinktai su nedidelėmis praleistomis galimybėmis konkretumo, lūkesčių valdymo ar santykių kūrimo srityse." },
+            "average": { "range": "14-49", "description": "Mišrūs pasirinkimai — keletas gerų tarpininkavimo momentų šalia neaiškių susitarimų, praleisto lūkesčių valdymo ar nesugebėjimo sužmoginti šalių viena kitai. Šio vakaro triukšmas išspręstas, bet kito mėnesio nėra užkirsta." },
+            "poor": { "range": "Žemiau 14", "description": "Daugiausia neutralūs arba neigiami pasirinkimai — arba per daug vykdė gyvenimo kokybės klausimą, arba per mažai reagavo į teisėtą skundą. Tarpininkavimo įgūdžiai, proporcingumas arba skundėjų valdymas reikalauja esminių pokyčių." }
+        }
+    },
+
+    "comprehensiveMetrics": {
+        "mediationSkills": {
+            "description": "Abiejų šalių rūpesčių balansavimas, dialogo palengvinimas ir susitarimų, kuriuos abi pusės gali priimti, sudarymas",
+            "indicators": {
+                "excellent": ["Patvirtinote tiek pono Novak frustraciją, tiek Tomáš teisę švęsti savo namuose", "Įtraukėte Annos bendradarbiavimą neapeidami Tomáš", "Suderėjote konkretų trijų dalių susitarimą (bosas, balkonas, pabaigos laikas), kurį abi šalys priėmė savanoriškai", "Sužmoginote kiekvieną šalį kitai — ponas Novak sužinojo jų vardus, Tomáš ir Anna sužinojo apie pono Novak situaciją"],
+                "poor": ["Palaikėte vieną šalį prieš kitą — arba atmetėte pono Novak skundą, arba reikalavote vakarėlio nutraukimo", "Neįtraukėte Annos pasiūlyto bendradarbiavimo arba apėjote Tomáš jo paties namuose", "Nesuderėjote jokio konkretaus susitarimo arba pasitikėjote neaiškiomis sąlygomis kaip „pritildyti“ ir „greitai baigti“", "Palikote abi šalis kaip anonimiškas priešininkus be kelio tiesioginiam bendravimui"]
+            }
+        },
+        "proportionateResponse": {
+            "description": "Vykdymo atitikimas pažeidimo sunkumui — įspėjimas prieš baudą, pagrįsti lūkesčiai pirmam pažeidimui",
+            "indicators": {
+                "excellent": ["Traktavote tai kaip pirmą gyvenimo kokybės pažeidimą, reikalaujantį tarpininkavimo, o ne kriminalinį klausimą, reikalaujantį vykdymo", "Pasiūlėte sąlygas, leidžiančias vakarėliui tęstis sumažintu garsumu, o ne reikalavote visiškos tylos", "Nustatėte pagrįstą pabaigos laiką (0:30), balansuojantį abiejų šalių poreikius", "Laikėte baudos įgaliojimus kaip eskalacijos priemonę, o ne pirmą atsaką"],
+                "poor": ["Reikalavote asmens tapatybės dokumentų, grasinote baudomis arba įsakėte vakarėlį nutraukti pirmame kontakte", "Traktavote gimtadienio vakarėlį 23:30 kaip lygiavertį pakartotiniam ar rimtam pažeidimui", "Pasiūlėte tokias ribojančias sąlygas, kad jos sudarė bausmę, o ne kompromisą", "Siūlėte ponui Novak toleruoti triukšmą arba pirkti ausų kamštukus, per mažai reaguodami į teisėtą pažeidimą"]
+            }
+        },
+        "complainantManagement": {
+            "description": "Skundėjo rūpesčių patvirtinimas, skaidrus lūkesčių valdymas ir ciklo uždarymas su konkrečia informacija",
+            "indicators": {
+                "excellent": ["Patvirtinote pono Novak frustraciją ir sveikatos rūpestį prieš lipdami aukštyn", "Nustatėte aiškius lūkesčius apie tarpininkavimo pirmiausia požiūrį ir paaiškinote, kodėl jis veikia geriau nei baudos", "Grįžote pas poną Novak su konkrečiomis sąlygomis, kaimynų vardais ir kontekstu, kuris juos sužmogino", "Patvirtinote jo teisę skambinti atgal, skatindami ateities tiesioginį bendravimą"],
+                "poor": ["Atmetėte pono Novak skundą „vakarėliai būna“ arba „pabandykite ausų kamštukus“", "Nustatėte neaiškius ar klaidinančius lūkesčius — „pasirūpinsiu“ arba „bauda tikrai galima“", "Neuždarėte ciklo arba grįžote su neaiškia informacija — „viskas sutvarkyta“ arba „jie greitai baigs“", "Palaikėte vakarėlio šeimininkus pranešdami — „mieli vaikai, pabandykite suprasti“"]
+            }
+        },
+        "conflictPrevention": {
+            "description": "Ilgalaikių kaimynų santykių kūrimas, o ne tik šio vakaro problemos sprendimas — šalių sužmoginimas viena kitai ir tiesioginio bendravimo skatinimas",
+            "indicators": {
+                "excellent": ["Pasidalinote pono Novak situacija su Tomáš ir Anna — jo amžiumi, vienatve, sveikata, ankstyvuoju vizitu", "Pasidalinote Tomáš ir Annos vardais, kontekstu ir nuoširdžiu gailestimi su ponu Novak", "Pasiūlėte abiem šalims prisistatyti — sodinant sėklą tiesioginiam santykiui", "Supratote, kad kaimynai, kurie pažįsta vieni kitus, sprendžia triukšmo klausimus be policijos įsikišimo"],
+                "poor": ["Palikote poną Novak kaip „seną tipą apačioje, kuris iškviečia policiją“ Tomáš ir Annos akyse", "Palikote Tomáš ir Anną kaip anonimiškas „jaunus žmones, triukšmaujančius“ pono Novak akyse", "Nepasiūlėte jokio ateities tiesioginio bendravimo tarp kaimynų", "Užbaigėte grasinimais ar perspėjimais, užtikrinančiais, kad kitas kaimynų susidūrimas bus priešiškas"]
+            }
+        },
+        "professionalCommunication": {
+            "description": "Aiški, rami, pagarbinga komunikacija su visomis šalimis — įskaitant apsvaigusius, gynybinus ar nusivylusius asmenis",
+            "indicators": {
+                "excellent": ["Išlaikėte ramų, pokalbinį toną tiek su nusivylusiu ponu Novak, tiek su gynybišku, šiek tiek apsvaigusiu Tomáš", "Prisistatėte vardu vakarėlio šeimininkams, sužmogindami sąveiką", "Vartojote kalbą, atidarančią dialogą — „ar galime pakalbėti“, „ar galite su tuo dirbti“, „ar duosite man galimybę“", "Paaiškinote kiekvieno prašymo pagrindimą, o ne teikėte įsakymus be konteksto"],
+                "poor": ["Vartojote komandinę kalbą — „tai ne prašymas“, „man reikia, kad jūs“, „muzika išjungta dabar“", "Neprisistatėte arba vartojote biurokratinę, beasmenę kalbą", "Nenuoširdžios pastabos, tokios kaip „pabandykite pailsėti“, kol bosas pulsuoja per lubas", "Užbaigėte sąveikas grasinimais, kurie griovė per tarpininkavimą sukurtą bendradarbiaujantį toną"]
+            }
+        }
+    },
+
+    "mistakePatterns": {
+        "enforcementEscalation": {
+            "pattern": "Pagal nutylėjimą pasirenkant vykdymo priemones — baudas, dokumentų reikalavimus, nutraukimo įsakymus — kai situacija reikalauja tarpininkavimo",
+            "examples": ["Asmens tapatybės dokumento reikalavimas iš Tomáš dėl triukšmo skundo", "Muzikos visiško išjungimo ir vakarėlio nutraukimo per trisdešimt minučių įsakymas", "Baudų grasinimas kaip pirmas veiksmas, o ne jų laikymas nepaklusnumo atvejui", "Vizito pažymėjimas „ataskaitoje“ ir perspėjimas apie „triukšmo pažeidimus, einančius į įrašus“ po savanoriško bendradarbiavimo"],
+            "impact": "Neproporcingas pirmo triukšmo skundo vykdymas sukuria ilgalaikį pasipiktinimą tarp kaimynų ir prieš policiją. Tomáš ir Anna kitą kartą nebandys spręsti konflikto tiesiogiai — bus priešiški, nes „praeitą kartą policija mums grasino“. Bendruomenės pasitikėjimas policija dėl gyvenimo kokybės klausimų mažėja.",
+            "correction": "Atitikite atsaką pažeidimui. Pirmas triukšmo skundas šeštadienio vakarą reikalauja pokalbio, tarpininkavimo ir konkrečių susitarimų. Laikykite vykdymo priemones nepaklusnumo atvejui, o ne kaip pirmuosius veiksmus."
+        },
+        "vaguenessDefault": {
+            "pattern": "Pasitikėjimas neaiškia kalba — „pritildyti“, „greitai baigti“, „susitvarkyti“ — vietoj konkrečių, įgyvendinamų sąlygų pasiūlymo",
+            "examples": ["„Ar galite tiesiog šiek tiek pritildyti?“ nenurodant, ką „šiek tiek“ reiškia", "„Paliksiu jums nuspręsti, kada protingai baigti“ neapibrėžiant „protingai“", "„Eisiu tuo pasirūpinti“ nepasakant ponui Novak, ką „pasirūpinti“ reiškia", "„Paliksiu jums patiems susitvarkyti detales“ — visiškas atidavimas žmonėms, kurie gėrė"],
+            "impact": "Neaiškūs susitarimai sukuria neaiškų paklusnumą. Be konkrečių sąlygų — bosas žemyn, balkonas uždarytas, pabaigos laikas nustatytas — vakarėlio šeimininkai sutinka tą minutę ir per kelias minutes grįžta prie pradinio garsumo. Ponas Novak skambina vėl 1 val. nakties, pikčiau ir mažiau pasitikėdamas. Neapibrėžtumas yra pagrindinė pakartotinių triukšmo skambučių priežastis.",
+            "correction": "Visada inkuruokite susitarimus trimis konkrečiomis, įgyvendinamomis sąlygomis. Triukšmo skundams: garsumo/boso lygis, vidaus/lauko izoliavimas ir konkretus pabaigos laikas. Konkretumas sukuria atskaitomybę."
+        },
+        "complainantDismissal": {
+            "pattern": "Skundėjo teisėto nusiskundimo nuvertinimas ar atmetimas — siūlymas jam prisitaikyti, o ne adresuoti pažeidimą",
+            "examples": ["„Tai šeštadienio vakaras — žmonės kartais rengia vakarėlius. Ar nebandėte ausų kamštukų?“", "„Paprastai šie dalykai susitvako patys — vakarėliai galiausiai baigiasi“", "„Pabandykite būti šiek tiek supratingesnis — jie irgi sunkiai dirba. Gal investuokite į ausų kamštukus“", "Liepimas neišsimiegojusiam žmogui su širdies liga „iškentėti“"],
+            "impact": "Kai skundėjas su teisėtu nusiskundimu (paskelbtos ramybės valandos pažeistos, sveikatos rūpesčiai, miego trūkumas) jam sakoma toleruoti, jo pasitikėjimas policija dėl gyvenimo kokybės klausimų sunaikinamas. Jie nustoja skambinti — ne todėl, kad problemos liausis, o todėl, kad sužinojo, jog skambinimas nepadeda. Tai yra bendruomenės pasitikėjimo erozijos apibrėžimas.",
+            "correction": "Patvirtinkite skundą prieš jį adresuodami. Ramybės valandos yra paskelbtos taisyklės, ne pasiūlymai. Pripažinkite pažeidimą, patvirtinkite frustraciją ir paaiškinkite savo požiūrį — tada eikite jį adresuoti."
+        },
+        "closureNeglect": {
+            "pattern": "Nesugebėjimas uždaryti ciklo su skundėju — arba negrįžtant pas poną Novak, arba grįžtant su nepakankama informacija",
+            "examples": ["Negrįžimas pas poną Novak po susitarimo", "„Viskas sutvarkyta, pone Novak“ — jokių konkrečių detalių, dėl ko susitarta", "Grįžimas su neaišikiomis sąlygomis: „jie sutiko pritildyti ir greitai baigti“", "Nepasidalinimas kaimynų vardais, pabaigos laiku ar jokiu sužmoginančiu kontekstu"],
+            "impact": "Skundėjas, kuris paskambino sąžiningai ir laukė daugiau nei valandą, nežino, dėl ko susitarta, kada triukšmas baigsis ar kas gyvena virš jo. Jis guli nemiegodamas, klausydamasis, negalėdamas pasitikėti, kad problema buvo išspręsta. Kaimynai lieka anonimiški priešininkai. Tas pats skambutis kitą mėnesį.",
+            "correction": "Uždarykite ciklą su konkrečiais dalykais: pasidalinkite kaimynų vardais, sutartomis sąlygomis (bosas žemyn, balkonas uždarytas, pabaigos laikas) ir kažkuo, kas juos sužmogina. Pasiūlykite jiems prisistatyti. Skundėjo patirtis iš rezultato lemia jo pasitikėjimą policija."
+        },
+        "sidePickingBias": {
+            "pattern": "Vienos šalies palaikymas kitai — arba vakarėlio šeimininkų patvirtinimas skundėjui, arba skundėjo maksimalaus vykdymo reikalavimo patvirtinimas šeimininkams",
+            "examples": ["„Jie atrodė mieli vaikai — pabandykite būti šiek tiek supratingesnis“", "„Pone Novak, tokie dalykai vyksta daugiabučiuose. Jauni žmonės rengia vakarėlius“", "Liepimas vakarėlio šeimininkams „tas senas žmogus apačioje skundžiasi dėl visko“ (atkartojant Tomáš formulavimą)", "Sutikimas su ponu Novak, kad bauda turėtų būti išrašyta dar net nepakalbėjus su vakarėlio šeimininkais"],
+            "impact": "Kai palaikote vieną šalį, kita jaučiasi išduota institucijos, į kurią kreipėsi pagalbos. Ponas Novak girdi jus ginant „mielus vaikus“ ir daro išvadą, kad policija palaiko jaunus žmones. Tomáš girdi jus atkartojant pono Novak reikalavimus ir daro išvadą, kad policija yra skundėjų įrankis. Neutralumas yra tarpininkavimo pagrindas.",
+            "correction": "Dalinkitės faktais needitorializuodami. „Jų vardai yra Tomáš ir Anna, jie rengia gimtadienio vakarėlį, jie nesuprato, kaip garsu buvo, ir jie jautėsi blogai“ yra neutrali informacija. „Jie mieli vaikai, pabandykite suprasti“ yra palaikymas."
+        }
+    },
+
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Puikus triukšmo skundo tarpininkavimas — dažniausias iškvietimas policijos darbe ir tas, kuris labiausiai formuoja bendruomenės pasitikėjimą. Klausėtės pono Novak be perlenkimo, pradėjote su Tomáš taip, kad sumažintumėte jo gynybinumą, įtraukėte Annos bendradarbiavimą jo neapeidami, suderėjote tris konkrečias ir proporcingas sąlygas ir uždarėte ciklą sužmogindami abi šalis viena kitai. Svarbiausia — pasodinote sėklą tiesioginiam kaimynų santykiui, užkertančiam kelią būsimiems skambučiams. Tai yra bendruomenės policijos darbas geriausiu pavidalu — šio vakaro triukšmo sprendimas ir kito mėnesio prevencija.",
+            "mostlyPositive": "Stiprus tarpininkavimo rezultatas triukšmo skunde, reikalavusiame subalansuoti dvi teisėtas pozicijas — pono Novak teisę miegoti ir Tomáš bei Annos teisę švęsti savo namuose. Jūsų požiūris parodė gerus instinktus arba skundėjų valdymui, arba vakarėlio šeimininkų įtraukimui, su keliomis praleistomis galimybėmis konkretumo, lūkesčių nustatymo ar santykių kūrimo srityse. Sprendimas buvo proporcingas ir pagarbingas — konkretumo ir konfliktų prevencijos tobulinimas pakels jūsų požiūrį nuo gero iki išskirtinio.",
+            "mixed": "Išsprendėte šio vakaro triukšmo skundą, bet palikote svarbias tarpininkavimo dimensijas neadresuotas. Kai kurie etapai parodė stiprius instinktus — galbūt patvirtinant poną Novak ar įtraukiant Annos bendradarbiavimą — tuo tarpu kiti pasitikėjo neaiškomis sąlygomis, praleido lūkesčių valdymą ar nesužmogino šalių viena kitai. Tiesioginis triukšmas sustojo, bet jį sukėlusi kaimynų dinamika nepakito. Peržiūrėkite skirtumą tarp incidento sprendimo ir kito prevencijos.",
+            "mostlyNegative": "Šis triukšmo skundas atskleidė reikšmingas spragas tarpininkavimo įgūdžiuose ir proporcingame atsake. Nors ir atsakėte į iškvietimą, dauguma pasirinkimų arba per daug vykdė pirmo karto gyvenimo kokybės klausimą, arba per mažai reagavo į teisėtą skundą — abu griauna bendruomenės pasitikėjimą. Ponas Novak ir Tomáš abu nusipelnė patvirtinimo, konkrečių susitarimų ir kelio tiesioginiam bendravimui. Peržiūrėkite tarpininkavimo pagrindus, proporcingumo principus ir svarbų ciklo uždarymo su skundėju vaidmenį.",
+            "allNegative": "Jūsų požiūris traktavo tarpininkavimo situaciją arba kaip grynai vykdymo klausimą, arba kaip skambutį, kurį reikia atmesti. Triukšmo skundas reikalavo dviejų teisėtų pozicijų balansavimo su konkrečiais susitarimais, proporcingu atsaku ir nuoširdžiu rūpesčiu abiejų šalių ilgalaikiu santykiu. Vietoj to, pasirinkimai arba eskalavo gyvenimo kokybės klausimą į konfrontaciją, arba atmetė galiojantį skundą siūlydami skundėjui tiesiog toleruoti. Reikalingas esminis persiorientavimas link tarpininkavimo įgūdžių, proporcingumo ir skundėjų valdymo."
+        }
+    },
+
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Girdžiu muziką iš čia, todėl suprantu jūsų nusivylimą.",
+            "Noriu būti su jumis atviras — pirmam pažeidimui pradėsiu aiškiu įspėjimu ir konkrečiu susitarimu. Jei jie nepaklusys, vykdymas stiprėja.",
+            "Matau, kad švenčiate — su gimtadieniu tam, kieno vakarėlis.",
+            "Norėčiau pakalbėti apie būdą, kaip leisti jums baigti vakarą netrukdant viso pastato.",
+            "Girdžiu jus — dirbti naktines pamainas kaip paramedikui ir pagaliau gauti šeštadienį su draugais, suprantu, kodėl tai jums svarbu.",
+            "Aš ne čia nutraukti jūsų vakarėlio. Aš čia rasti vidurio kelią.",
+            "pritildykite bosą — tai yra tai, kas keliauja per grindis.",
+            "jūsų kaimynas ponas Novak, jis yra vyresnis vyras, gyvenantis vienas. Jis nebuvo tiek piktas, kiek išsekęs."
+        ],
+        "poorPhrases": [
+            "Pone Novak, tai šeštadienio vakaras — žmonės kartais rengia vakarėlius. Ar nebandėte tiesiog įsidėti ausų kamštukų?",
+            "Paprastai šie dalykai susitvako patys — vakarėliai galiausiai baigiasi.",
+            "Man reikia pamatyti jūsų asmens tapatybės dokumentą, ir man reikia, kad muzika būtų išjungta dabar.",
+            "ramybės valandos yra ramybės valandos. Nesvarbu, kokia diena. Man reikia, kad muzika būtų išjungta ir svečiai — nuo balkono. Tai ne prašymas.",
+            "Man reikia, kad muzika būtų visiškai išjungta ir vakarėlis baigtųsi per trisdešimt minučių.",
+            "Pažymiu šį vizitą savo ataskaitoje. Jei bus kitas skundas iš šio pastato — šį vakarą ar bet kurį kitą — turėtumėte tikėtis baudos.",
+            "jie atrodė mieli vaikai. Pasakiau jiems pritildyti. Žiūrėkite, pone Novak, tokie dalykai vyksta daugiabučiuose.",
+            "Geriau negrįžčiau."
+        ],
+        "analysisCriteria": {
+            "complainantValidation": "Ar frazė patvirtino pono Novak frustraciją ir teisinę padėtį prieš imantis veiksmų ar siūlant sprendimus?",
+            "defensivenessReduction": "Ar frazė sumažino Tomáš gynybinumą pripažindama jo perspektyvą prieš pristatant priešingą?",
+            "specificityOfTerms": "Ar frazė pasiūlė konkrečias, išmatuojamas sąlygas — ar pasitikėjo neaiškia kalba kaip „pritildyti“ ir „greitai“?",
+            "proportionalitySignal": "Ar frazė atitiko pirmo triukšmo skundo sunkumą — ar traktavo gimtadienio vakarėlį kaip kriminalinį klausimą?",
+            "relationshipBuilding": "Ar frazė sužmogino vieną šalį kitai ar pasodino sėklas tiesioginiam kaimynų bendravimui?",
+            "agencyPreservation": "Ar frazė traktavo asmenį kaip savo sprendimo dalyvį — „ar galite su tuo dirbti“ — ar kaip valdžios subjektą?"
+        }
+    },
+
+    "scenarioSpecificLessons": {
+        "1": "Triukšmo skundai yra ne apie triukšmą — jie apie pagarbą, miegą, autonomiją ir priklausymą. Ponas Novak skambina ne dėl decibelų; jis skambina, nes jaučiasi bejėgis savo namuose. Gilesnio poreikio supratimas formuoja geresnę intervenciją nei garsumo lygių vykdymas.",
+        "2": "Skundėjas yra jūsų pirmas kontaktas, bet ne vienintelė atsakomybė. Pono Novak lūkesčių valdymas prieš lipant aukštyn — paaiškinant savo tarpininkavimo pirmiausia požiūrį ir kodėl jis veikia geriau nei baudos — užkerta kelią frustracijai, kai sprendimas yra kompromisas, o ne nutraukimas.",
+        "3": "Pradėjimas empatija, o ne autoritetu kreipiantis į vakarėlio šeimininkus dramatiškai sumažina gynybinumą. Šventės pripažinimas ir prisistatymas vardu paverčia konfrontaciją pokalbiu per trisdešimt sekundžių.",
+        "4": "Kai viena šalis gynybinė, o kita bendradarbiaujanti, pirmiausia patvirtinkite gynybinį asmenį, tada įtraukite bendradarbiaujantį sprendimams. Tomáš jausmų adresavimas prieš pereinant prie Annos neleidžia nė vienam jaustis apeidinėjamam.",
+        "5": "Konkretūs, specifiniai susitarimai — boso lygis, balkono izoliavimas, konkretus pabaigos laikas — laiko geriau nei neaiškūs pažadai „pritildyti“. Trys specifiniai prašymai sukuria geresnį paklusnumą nei vienas neaiškus reikalavimas, nes konkretumas sukuria atskaitomybę.",
+        "6": "Skundėjo sužmoginimas vakarėlio šeimininkams yra galingiausias konfliktų prevencijos įrankis. Kai Tomáš ir Anna sužino, kad ponas Novak yra pagyvenęs našlys su širdies liga ir 6 val. ryto vizitu, jis nustoja būti „tipu, kuris iškviečia policiją“ ir tampa žmogumi.",
+        "7": "Ciklo uždarymas su skundėju nėra neprivalomas. Ponas Novak turi išgirsti konkrečias sąlygas, sužinoti savo kaimynų vardus ir jausti, kad jo skambutis davė reikšmingų rezultatų. Pareigūnai, kurie tarpininkauja ir tada uždaro ciklą, užkerta kelią pakartotiniams skambučiams, eikvojantiems patrulio resursus mėnesiais.",
+        "8": "Pareigūnai, kurie pagal nutylėjimą taiko baudžiamąjį vykdymą triukšmo skunduose, sukuria ilgalaikius kaimynų konfliktus. Tarpininkavimo įgūdžiai — aktyvus klausymasis, performulavimas, konkrečių kompromisų siūlymas — duoda kur kas tvaresnius rezultatus nei baudos, nes kaimynai, dalijantys pastatą, turi sugyventi dar ilgai po policijos išvykimo."
+    },
+
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Pažangus kaimynų tarpininkavimas — kitų mokymas daugiašalio gyvenamojo ginčo sprendime", "Bendruomenės policijos lyderystė — daugiabutyje kultūrų kūrimas, kurios pačios sprendžia triukšmo klausimus", "Konfliktų prevencijos technikos — pavienių intervencijų pavertimas ilgalaikiais kaimynų santykiais"],
+            "good": ["Išplėstiniai tarpininkavimo įgūdžiai — skundėjų lūkesčių balansavimas su proporcingu atsaku", "Konkretumas susitarimuose — sąlygų inkūravimas konkrečiais, išmatuojamais įsipareigojimais", "Ciklo uždarymas — visapusiškos skundėjų informavimo technikos gyvenamiesiems ginčams"],
+            "average": ["Pagrindiniai tarpininkavimo principai — visų šalių patvirtinimas, konkrečių susitarimų sudarymas, neutralumo palaikymas", "Lūkesčių valdymas su skundėjais — proceso lūkesčių nustatymas prieš veikiant", "Proporcingas atsakas gyvenimo kokybės skambučiams — įspėjimas prieš baudą, tarpininkavimas prieš vykdymą"],
+            "poor": ["Triukšmo skundo atsako pagrindai — tarpininkavimas prieš vykdymą kaimynų ginčuose", "Skundėjų valdymas — patvirtinimas, lūkesčių nustatymas ir ciklo uždarymas", "Proporcingumas pirmo karto situacijose — atsako atitikimas sunkumui", "Deeskalacija su gynybiniais ir apsvaigusiais asmenimis gyvenamosiose aplinkose"]
+        }
+    },
+
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Bendra veiklos santrauka", "content": ["Bendras balas ir veiklos lygis", "Pagrindinės pademonstruotos tarpininkavimo stiprybės", "Svarbios spragos skundėjų valdyme ar susitarimų konkretume", "Bendras proporcingumo ir neutralumo vertinimas"]},
+            {"title": "Etapų tarpininkavimo analizė", "content": ["Kiekviename etape padarytas pasirinkimas su vakarėlio šeimininkais ir ponu Novak", "Poveikis abiejų šalių norui bendradarbiauti", "Pasiektų susitarimų konkretumas prieš neaiškias sąlygas", "Svarbiausi mokymosi taškai kiekvienam sąveikos etapui"]},
+            {"title": "Skundėjų valdymo vertinimas", "content": ["Pradinio patvirtinimo kokybė — ar pono Novak frustracija ir sveikatos rūpestis buvo pripažinti?", "Lūkesčių nustatymas — ar tarpininkavimo požiūris buvo paaiškintas prieš lipant aukštyn?", "Ciklo uždarymas — ar konkrečios sąlygos, vardai ir sužmoginantis kontekstas buvo pasidalinti grįžus?", "Ar ponas Novak jautė, kad jo skambutis davė reikšmingų rezultatų?"]},
+            {"title": "Proporcingumo ir tarpininkavimo vertinimas", "content": ["Ar atsakas buvo kalibruotas pirmam triukšmo skundui, ar traktuotas kaip kriminalinis klausimas?", "Ar buvo pasiūlytos konkrečios, proporcingos sąlygos — ar vakarėlis buvo visiškai nutrauktas?", "Ar baudos įgaliojimai buvo laikyti nepaklusnumo eskalacijai, ar naudoti kaip pirma grėsmė?", "Ar sprendimas subalansavo pono Novak teisę miegoti su Tomáš ir Annos teise švęsti?"]},
+            {"title": "Konfliktų prevencijos vertinimas", "content": ["Ar ponas Novak buvo sužmogintas Tomáš ir Annai — amžius, situacija, sveikata, ankstyvasis vizitas?", "Ar Tomáš ir Anna buvo sužmoginti ponui Novak — vardai, kontekstas, nuoširdus gailestis?", "Ar buvo pasiūlytas tiesioginis kaimynų kontaktas ateities klausimams?", "Ar šie kaimynai savarankiškai išspręs kitą triukšmo klausimą, ar tas pats skambutis pasikartos?"]},
+            {"title": "Komunikacijos efektyvumo vertinimas", "content": ["Geriausi dialogo momentai — frazės, sumažinusios gynybinumą ar sukūrusios empatiją", "Kontrproduktyvios frazės — kalba, eskalavusi, atmetusi ar palikusi sąlygas neaiškias", "Tono kalibravimas — ramus ir pokalbinis prieš komandinį ar nuvertinantį", "Veiksnumą saugančios kalbos naudojimas — „ar galime pakalbėti“, „ar galite su tuo dirbti“"]},
+            {"title": "Profesinio tobulėjimo rekomendacijos", "content": ["Skubios tarpininkavimo įgūdžių spragos, kurias reikia adresuoti", "Ilgalaikės konfliktų prevencijos technikos, kurias reikia tobulinti", "Rekomenduojami mokymo moduliai pagal veiklos lygį"]},
+            {"title": "Pritaikymas realiame pasaulyje", "content": ["Kaip triukšmo skundo tarpininkavimo įgūdžiai taikomi visiems kaimynų ginčų skambučiams", "Daugiabutyje kultūrų kūrimas, kuriose gyventojai klausimus sprendžia tiesiogiai", "Pakartotinių skambučių, eikvojančių patrulio resursus mėnesiais, prevencija", "Ilgalaikis bendruomenės pasitikėjimo poveikis vieno gerai sutvarkytyo triukšmo skundo"]}
+        ]
+    }
+}

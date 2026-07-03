@@ -1,0 +1,437 @@
+{
+    "id": 5,
+    "title": "Plângere pentru zgomot \u2014 Medierea orelor de liniște",
+    "description": "Scenariu avansat care implică o plângere pentru zgomot pe timp de noapte într-un bloc de apartamente rezidențial. Un locatar în vârstă, epuizat, dl Novak, a sunat la poliție din cauza unei petreceri de ziua de naștere din apartamentul de deasupra, găzduită de un cuplu tânăr, Tomáš și Anna. Ofițerul trebuie să aplice orele de liniște în mod proporțional, mediind între vecini care vor continua să locuiască unul deasupra celuilalt mult timp după ce poliția pleacă.",
+    "icon": "\ud83d\udd0a",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Sergent Kowalski",
+        "avatar": "\ud83d\udc6e\u200d\u2642\ufe0f",
+        "introduction": "Plângerile pentru zgomot sunt cel mai frecvent tip de apel în multe jurisdicții \u2014 și unul dintre cele mai subestimate. Par cu mize mici, dar modelează percepția comunității despre poliție mai mult decât aproape orice alt tip de apel. Cercetările arată constant că modul în care ofițerii gestionează aceste întâlniri determină dacă rezidenții au suficientă încredere în poliție pentru a suna și în cazul unor probleme serioase. Provocarea aici este unică: ambele părți au poziții legitime. Orele de liniște există cu un motiv, iar sărbătorirea în propria casă este o libertate fundamentală. Misiunea dumneavoastră nu este să alegeți o tabără \u2014 este să mediați o rezoluție cu care ambele părți pot trăi, la propriu, pentru că locuiesc în aceeași clădire. Ofițerii care recurg implicit la aplicarea punitivă a legii în cazul plângerilor de zgomot creează conflicte de lungă durată între vecini, generând apeluri repetate timp de luni de zile. Abilitățile de mediere \u2014 ascultarea activă, reformularea, propunerea de compromisuri concrete \u2014 produc rezultate mult mai durabile decât amenzile."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-5-complete"],
+    "perfectBadge": "perfect-scenario-5",
+    "finalMessage": {
+        "revelation": "Tomáš lucrează ca paramedic, având ture de noapte de 12 ore, de trei sau patru ori pe săptămână. Petrecerea de ziua de naștere era pentru cel mai bun prieten al lui de la facultate, pe care îl vede rar. Anna este profesoară de învățământ primar și a organizat petrecerea ca o surpriză \u2014 s-a simțit groaznic când a sosit poliția și s-a învinuit că nu a stabilit o oră mai fermă de încheiere. Dl Novak este un pensionar văduv care și-a pierdut soția acum doi ani. Locuiește singur, iar zgomotul de noapte i-a intensificat singurătatea și frustrarea. Nu vorbise niciodată cu Tomáš sau Anna înainte de această noapte \u2014 fuseseră vecini de optsprezece luni fără o singură conversație reală. După intervenția dumneavoastră, Anna a copt o prăjitură și i-a adus-o dlui Novak a doua zi după-amiază, împreună cu o scuză scrisă. El a invitat-o înăuntru la o cafea. În lunile următoare, Tomáš a început să treacă pe la dl Novak după tură, iar dl Novak a început să participe la cinele lor mici de duminică. Vecinul care a asistat la întâlnirea din hol i-a spus mai târziu administratorului clădirii că abordarea ofițerului de poliție a transformat ceea ce ar fi putut fi o ceartă de ani de zile în începutul unei prietenii autentice.",
+        "keyLessons": [
+            "Plângerile pentru zgomot nu sunt despre zgomot \u2014 sunt despre respect, somn, autonomie și apartenență. Înțelegerea nevoilor mai profunde produce rezultate mai bune decât impunerea nivelurilor de volum.",
+            "Reclamantul este primul dumneavoastră contact, dar nu singura responsabilitate \u2014 gestionarea așteptărilor sale de la început previne frustrarea când urmăriți medierea în loc de pedeapsă.",
+            "Deschiderea cu empatie în loc de autoritate când contactați gazdele petrecerii reduce dramatic defensivitatea și crește conformarea voluntară.",
+            "Implicarea părții mai cooperante (Anna) ca aliat este mai eficientă decât încercarea de a depăși direct rezistența părții defensive.",
+            "Acordurile concrete, specifice \u2014 nivelul volumului, utilizarea balconului, ora de încheiere \u2014 funcționează mai bine decât promisiunile vagi de a \u201edă muzica mai încet\u201d.",
+            "Închiderea buclei cu reclamantul nu este opțională \u2014 dl Novak trebuie să audă ce s-a convenit și să simtă că apelul său a contat.",
+            "Ofițerii care mediază în loc să amendeze în disputele între vecini previn apelurile repetate care consumă resursele de patrulare timp de luni de zile."
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Sosirea",
+            "sceneUpdate": {
+                "emoji": "\ud83c\udfe2",
+                "title": "Bloc de apartamente \u2014 Sâmbătă 23:30",
+                "desc": "Ajungeți la un bloc rezidențial cu cinci etaje pe o stradă liniștită. Chiar de la intrare, puteți auzi basul înfundat al muzicii de la un etaj superior. Casa scării miroase a fum de țigară ce coboară de sus. Un bărbat în vârstă, în halat și papuci, așteaptă în holul de la parter, cu brațele încrucișate, vizibil agitat. Un afiș lângă cutiile poștale indică: \u201eOrele de liniște: 22:00 \u2014 07:00.\u201d"
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unitate care răspunde la o plângere de zgomot pe strada Lipová 14. Reclamantul este dl Novak, apartament la parter. Raportează muzică puternică și zgomot de petrecere din apartamentul direct de deasupra lui \u2014 în curs de la aproximativ ora 22. Clădirea are ore de liniște afișate începând cu ora 22. Niciun apel anterior la această adresă."
+                },
+                {
+                    "character": "novak",
+                    "text": "(grăbindu-se spre dumneavoastră prin hol) Slavă Domnului că ați venit. Am sunat acum mai bine de o oră! Durează de la zece \u2014 basul trece direct prin tavan. Nu am dormit nici un minut. Și acum au oameni pe balcon care strigă și fumează. Trebuie să mă trezesc la șase pentru programarea la doctor. Puteți, vă rog, pur și simplu să-i opriți?"
+                }
+            ],
+            "prompt": "Dl Novak este frustrat și lipsit de somn. Vrea acțiune imediată. Cum gestionați acest prim contact?",
+            "options": [
+                {
+                    "text": "Coborâți clipboard-ul într-o parte ca să nu pară că deja scrieți un raport, apoi îi dați dlui Novak o încuviințare calmă și directă: \u201eAud muzica de aici, domnule, așa că înțeleg perfect frustrarea dumneavoastră. Înainte de a urca, vreau să mă asigur că am imaginea completă de la dumneavoastră. De cât timp durează zgomotul la acest nivel? S-a mai întâmplat ceva similar cu acești vecini? Și ați încercat la vreun moment să vorbiți direct cu ei, sau este prima interacțiune reală?\u201d",
+                    "feedback": "De ce: Validarea imediată a experienței sale (\u201eaud și eu muzica\u201d) construiește încredere. Colectarea de informații specifice \u2014 durată, istoric, tentative anterioare de rezolvare \u2014 vă oferă context care modelează dacă este o petrecere ocazională sau un tipar. Întrebarea dacă a încercat comunicarea directă dezvăluie dinamica relației de vecinătate. | CONSECINȚE: Dl Novak se simte ascultat și oferă detalii utile: este prima dată când a fost atât de rău, nu a vorbit niciodată cu ei și nici nu le știe numele. Acum înțelegeți că aceasta este o escaladare de la zero \u2014 nicio relație anterioară, nicio tentativă anterioară. Asta vă modelează abordarea de sus. | Reflecție: Cum schimbă înțelegerea faptului dacă vecinii au comunicat vreodată tipul de intervenție pe care îl oferiți?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "\u201eVă aud, dle Novak. Orele de liniște au început la zece și în mod clar sunt încălcate \u2014 basul se aude până aici.\u201d Îi faceți un semn ferm, liniștitor, din cap și vă îndreptați hotărât spre casa scării, fără a pune vreo întrebare suplimentară \u2014 de cât timp este zgomotul la acest nivel, dacă s-a mai întâmplat așa ceva înainte sau dacă a încercat vreodată să bată el însuși la ușa lor. Pașii dumneavoastră rapizi pe scări răsună în holul liniștit.",
+                    "feedback": "De ce: Validarea rapidă și acțiunea decisivă par responsive, dar ați sărit peste colectarea de informații critice. Nu cunoașteți istoricul, relația sau ce a încercat deja dl Novak. Grăbindu-vă sus doar cu perspectiva reclamantului, ajungeți la petrecere cu o viziune unilaterală și fără strategie de mediere. | CONSECINȚE: Dl Novak este temporar mulțumit de hotărârea dumneavoastră. Dar bateți la ușa lui Tomáš fără alt context în afară de \u201eîncălcare\u201d, ceea ce vă îngustează abordarea spre aplicarea legii în loc de mediere. Dacă rezultatul este altceva decât oprirea completă a petrecerii, dl Novak se va simți dezamăgit. | Reflecție: Ce pierdeți când săriți peste colectarea de informații pentru a demonstra urgență?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "\u201eBine, aud muzica de aici, e clar.\u201d Îi faceți dlui Novak un semn scurt din cap, aruncați o privire în sus pe casa scării spre basul care pulsează și începeți să urcați treptele. Nicio întrebare despre de cât timp este zgomotul la acest nivel, dacă este o problemă recurentă sau ce ar însemna concret \u201erezolvat\u201d pentru el. Vă gândiți că veți evalua singur situația odată ce vedeți ce se întâmplă la etaj, și vă veți adapta din mers.",
+                    "feedback": "De ce: Recunoașterea zgomotului este bună, dar \u201evom rezolva asta\u201d este vag și nu stabilește așteptări. Nu ați colectat nicio informație de la reclamant, nu ați evaluat istoricul și nu ați gestionat așteptările dlui Novak despre ce înseamnă \u201erezolvat\u201d. El își imaginează petrecerea oprită; dumneavoastră poate vă imaginați o reducere a volumului. | CONSECINȚE: Ajungeți la apartamentul cu petrecerea aproape fără context. Dl Novak așteaptă jos fără să știe la ce să se aștepte, devenind mai anxios cu fiecare minut. Când vă întoarceți cu un compromis în loc de oprire completă, se simte trădat. | Reflecție: Cum creează eșecul de a stabili așteptări cu un reclamant probleme pentru orice rezoluție pe care o negociați?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Ridicați ușor din umeri, cu o expresie care sugerează că problema nu este chiar atât de gravă: \u201eDle Novak, este sâmbătă seara \u2014 oamenii mai fac petreceri uneori. Ați încercat să vă puneți dopuri de urechi? Știu că nu e ideal, dar în blocuri pereții sunt subțiri și zgomotul de weekend face parte din viața în comun. Urc să le spun o vorbă, să le cer să fie mai rezonabili, dar nu pot garanta că se vor opri complet. Aceste lucruri de obicei se termină singure.\u201d",
+                    "feedback": "De ce: Respingerea unei plângeri legitime sugerând că reclamantul ar trebui să se adapteze (\u201eîncercați dopuri de urechi\u201d) este profund invalidantă. A sunat pentru că orele de liniște sunt încălcate \u2014 o regulă afișată a clădirii, nu o preferință personală. Spunându-i să tolereze situația semnalează că preocupările lui nu contează. Stabilirea unor așteptări scăzute înainte de a investiga comunică faptul că ați decis deja în favoarea gazdelor petrecerii. | CONSECINȚE: Frustrarea dlui Novak explodează: \u201eDopuri de urechi? Nu ar trebui să port dopuri de urechi în propria casă la miezul nopții!\u201d Se simte respins și începe să se îndoiască dacă a meritat să sune. Dacă rezoluția este imperfectă, va suna din nou \u2014 și data viitoare va fi mai furios și mai neîncrezător. | Reflecție: Ce se întâmplă cu încrederea unui cetățean în poliție când plângerea sa legitimă este minimizată înainte de a fi investigată?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Reclamantul",
+            "sceneUpdate": {
+                "emoji": "\ud83d\ude2b",
+                "title": "Holul de la parter \u2014 Gestionarea așteptărilor",
+                "desc": "Dl Novak este la sfârșitul anilor șaizeci, cu părul nepieptănat și cearcăne negre. Se sprijină de ușa apartamentului de parcă i-ar fi greu să stea în picioare. Prin ușa deschisă, puteți vedea un televizor pe mut și o ceașcă de ceai neatinsă pe masa din bucătărie. Basul pulsează constant prin tavanul de deasupra."
+            },
+            "npcDialogue": [
+                {
+                    "character": "novak",
+                    "text": "Nu e prima dată când e zgomot, dar în seara asta e cel mai rău de departe. Nici nu știu cine locuiește acolo sus \u2014 niște tineri s-au mutat acum un an, poate mai mult. Nu am vorbit niciodată cu ei. Vreau doar să dorm. Am o afecțiune cardiacă și doctorul spune că stresul o agravează. Nu le puteți da pur și simplu o amendă? Asta i-ar învăța minte."
+                }
+            ],
+            "prompt": "Dl Novak vrea să fie emisă o amendă. Este obosit, frustrat și are o preocupare de sănătate. Cum îi gestionați așteptările înainte de a urca?",
+            "options": [
+                {
+                    "text": "Vă aplecați ușor spre el, coborând vocea la un ton calm și direct, ca să simtă că îl luați în serios: \u201eDle Novak, sănătatea dumneavoastră contează și dreptul la liniște după zece este legitim \u2014 iau asta în serios. Iată ce voi face: urc, vorbesc cu ei și lucrez să oprim zgomotul în seara asta. Vreau să fiu sincer \u2014 pentru o primă abatere, încep cu un avertisment clar și un acord specific. Dacă nu se conformează, aplicarea legii se intensifică. Dar experiența mea arată că medierea între vecini funcționează mai bine pe termen lung decât amenzile. Îmi acordați șansa să încerc această abordare?\u201d",
+                    "feedback": "De ce: Validează preocuparea lui de sănătate și statutul legal simultan. Transparent cu privire la abordare \u2014 avertisment înainte de amendă \u2014 explicând de ce medierea produce rezultate mai bune. Întrebarea \u201eîmi acordați șansa\u201d îi respectă autonomia și invită la colaborare în loc de dictare. Stabilirea unor criterii clare de escaladare (mai întâi avertisment, apoi aplicare) gestionează așteptările fără a le respinge. | CONSECINȚE: Dl Novak face o pauză, apoi dă din cap cu reticență: \u201eBine, dar dacă nu funcționează...\u201d Are suficientă încredere în dumneavoastră pentru a vă lăsa să încercați. Urcați cu acceptul lui condiționat, ceea ce vă oferă spațiu să mediați fără ca el să se simtă trădat. | Reflecție: De ce construiește explicarea raționamentului dumneavoastră unui reclamant \u2014 în loc să promiteți doar acțiune \u2014 o încredere mai durabilă?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "\u201eÎnțeleg pe deplin frustrarea dumneavoastră, și o amendă este cu siguranță posibilă \u2014 am această autoritate și, dacă situația o cere, opțiunea rămâne pe masă. Lăsați-mă să urc și să evaluez situația mai întâi, să vorbesc cu cine găzduiește petrecerea și să văd cum reacționează. În funcție de ce găsesc acolo sus, am mai multe variante: avertisment verbal, avertisment scris sau amendă directă. Mă întorc la dumneavoastră după aceea și vă spun exact ce s-a întâmplat și ce măsuri am luat.\u201d",
+                    "feedback": "De ce: Recunoașterea amenzii ca posibilitate este tehnic corectă. Totuși, \u201eo amendă este cu siguranță posibilă\u201d ridică așteptările dlui Novak că aplicarea legii este rezultatul probabil. Dacă alegeți ulterior medierea, se va simți indus în eroare. \u201eEvaluez situația\u201d este profesional dar vag \u2014 nu-i oferă nimic concret. | CONSECINȚE: Dl Novak aude \u201eamenda e posibilă\u201d și mental înregistrează \u201eamenda vine\u201d. Când vă întoarceți cu un acord voluntar, este frustrat: \u201eAți spus că amendă este posibilă!\u201d Diferența dintre implicație și rezultat erodează încrederea. | Reflecție: Cum creează limbajul pe care îl folosiți pentru a gestiona așteptările un contract în mintea reclamantului?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "\u201eMă duc să rezolv, dle Novak. Încercați să vă odihniți puțin \u2014 știu că aveți programarea aceea dimineață devreme. Urc acum să am o discuție cu cine e acolo sus și să le explic situația. Nu ar trebui să dureze mult \u2014 rămâneți liniștit și lăsați totul în seama mea.\u201d Vă întoarceți spre scări fără a-i adresa vreo întrebare despre cererea lui de amendă, fără a recunoaște afecțiunea cardiacă pe care tocmai a menționat-o și fără a clarifica ce înseamnă concret \u201erezolv\u201d din perspectiva dumneavoastră.",
+                    "feedback": "De ce: Bine intenționat, dar nu stabilește așteptări. \u201eRezolv\u201d poate însemna orice \u2014 oprire, avertisment, mediere. Dl Novak umple ambiguitatea cu rezultatul preferat: petrecerea se termină și se dă o amendă. Nicio mențiune a preocupării sale de sănătate, nicio validare a impactului perturbării. A-i spune unei persoane lipsite de somn să \u201eîncerce să se odihnească\u201d în timp ce basul pulsează este lipsit de sensibilitate. | CONSECINȚE: Dl Novak se retrage în apartament și stă treaz, ascultând tavanul. Când vă întoarceți cu un compromis, este confuz și dezamăgit pentru că \u201erezolv\u201d a însemnat altceva pentru el. Următorul apel vine mai repede. | Reflecție: Ce umple golul când nu stabiliți așteptări specifice?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "\u201eDle Novak, înțeleg că e frustrant, dar nu pot să dau amenzi pur și simplu pe loc \u2014 există o procedură clară pentru aceste lucruri. Și sincer, petrecerile se termină la un moment dat, așa e natura sâmbetelor seara. Urc să le cer să dea mai încet, dar realist vorbind, s-ar putea pur și simplu să trebuiască să treceți peste noaptea asta. E weekend, iar zgomotul de weekend în blocuri, știți cum e. Poate încercați să închideți fereastra din dormitor sau puneți ceva de fundal.\u201d",
+                    "feedback": "De ce: \u201ePetrecerile se termină la un moment dat\u201d și \u201eașteptați să treacă\u201d sunt fraze disprețuitoare. Orele de liniște nu sunt o sugestie \u2014 sunt o regulă afișată a clădirii, iar încălcarea este clară și în desfășurare. A-i spune unui bărbat de peste șaizeci de ani cu o afecțiune cardiacă să suporte semnalează că plângerea sa legitimă este un inconvenient pentru dumneavoastră. \u201eNu pot să dau amenzi\u201d este de asemenea înșelător \u2014 aveți această autoritate. | CONSECINȚE: Chipul dlui Novak se prăbușește. Se simte abandonat de sistemul pe care l-a chemat în ajutor. Dacă zgomotul continuă, poate escalada \u2014 sunând un supervizor, confruntând vecinii personal sau pur și simplu nemaiaavând încredere niciodată în poliție pentru problemele de calitate a vieții. | Reflecție: Când un reclamant are o nemulțumire clar legitimă, ce mesaj transmite \u201eașteptați să treacă\u201d despre valoarea apelării la poliție?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Bătaia la ușă",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udea9",
+                "title": "Palierul de la etajul doi \u2014 Apartamentul cu petrecerea",
+                "desc": "Urcați scările spre etajul doi. Muzica devine mai puternică cu fiecare treaptă \u2014 ritmuri electronice cu bas puternic vibrând prin pereți. Pe palier, o altă locatară \u2014 o femeie în jurul vârstei de patruzeci de ani \u2014 se uită din apartamentul de vizavi, vă aruncă o privire obosită și se retrage în spatele ușii fără să spună nimic. În fața apartamentului cu petrecerea, auziți râsete, ciocnit de pahare și voci multiple. Lumina se scurge pe sub ușă. Pe micul balcon vizibil prin fereastra scării, trei persoane stau fumând și vorbind tare."
+            },
+            "npcDialogue": [
+                {
+                    "character": "neighbor",
+                    "text": "(privindu-vă din ușa ei, încet) Mă bucur că a sunat cineva în cele din urmă. E așa de la zece. Nici copiii mei nu pot dormi. (Se retrage și închide ușa.)"
+                },
+                {
+                    "character": "tomas",
+                    "text": "(deschide ușa după a doua bătaie, cu o bere în mână, muzica bubuind în spatele lui, ușor congestionat la față) Da? (vede uniforma, expresia i se întărește) O, hai, serios? E o petrecere de ziua de naștere. E sâmbătă seara."
+                }
+            ],
+            "prompt": "Tomáš a deschis ușa, vizibil iritat și ușor în stare de ebrietate. Muzica bubuie în spatele lui. Cum deschideți această conversație?",
+            "options": [
+                {
+                    "text": "Păstrați un ton calm și conversațional, cu mâinile vizibile și relaxate pe lângă corp, fără nicio postură amenințătoare: \u201eBună seara. Sunt Agentul [nume]. Văd că sărbătoriți \u2014 la mulți ani celui care e la zi. Sunt aici pentru că vecinul de dedesubt a sunat din cauza zgomotului. Orele de liniște ale clădirii au început la zece, iar eu aud muzica de la parter. Aș vrea să vorbim despre cum puteți termina seara fără să țineți tot blocul treaz. Putem sta de vorbă un minut?\u201d",
+                    "feedback": "De ce: Prezentarea cu numele umanizează interacțiunea. Recunoașterea sărbătorii (\u201ela mulți ani\u201d) arată că îi vedeți ca oameni, nu doar ca o încălcare. Prezentarea faptelor neutru \u2014 vecinul a sunat, orele de liniște, muzica se aude de la parter \u2014 stabilește problema fără acuzații. \u201eCum puteți termina seara\u201d semnalează că nu ați venit să opriți totul, ceea ce reduce dramatic defensivitatea. Întrebarea \u201eputem sta de vorbă\u201d îi acordă autonomie. | CONSECINȚE: Defensivitatea lui Tomáš se diminuează ușor. Nu se aștepta la un ofițer calm și rezonabil. Face un pas în prag și coboară vocea: \u201eUitați, e ziua prietenului meu...\u201d A început o conversație în loc de o confruntare. | Reflecție: Cum schimbă recunoașterea sărbătorii cuiva înainte de a menționa plângerea disponibilitatea de a coopera?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "\u201eBună seara. Am primit o plângere de zgomot din partea vecinului dumneavoastră de la parter. Orele de liniște ale clădirii sunt afișate de la zece și le-ați depășit cu mult. Am nevoie să dați muzica mai încet imediat și să aduceți oamenii ăia de pe balcon înăuntru \u2014 fumatul și conversațiile de acolo se aud în toată casa scării. Să rezolvăm repede ca să nu fiu nevoit să revin în seara asta.\u201d",
+                    "feedback": "De ce: Corect factual și direct, dar deschide cu cerințe în loc de dialog. \u201eAm nevoie să\u201d este un ordin, nu o deschidere de conversație. Nu v-ați prezentat, nu ați recunoscut sărbătoarea și nu i-ați arătat lui Tomáš că vă interesează perspectiva lui. Când cineva ușor în stare de ebrietate primește ordine de la un necunoscut la propria ușă, instinctul este să reziste. | CONSECINȚE: Tomáš se încordează: \u201eAveți nevoie? E apartamentul meu.\u201d Prietena lui apare în spatele lui, îngrijorată. Ați început o luptă de putere în loc de o negociere. Fiecare concesie acum se simte ca o pierdere de demnitate. | Reflecție: Care este diferența între a da instrucțiuni și a deschide o negociere \u2014 și care produce conformare mai rapidă?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "\u201eHei, vă înțeleg perfect \u2014 sâmbătă seara, petrecere de ziua de naștere, am trecut și eu prin asta. Dar vecinii sună și orele de liniște au început de la zece. Uitați, chiar nu vreau să stric seara nimănui, nu pentru asta sunt aici. Puteți doar să mai dați puțin volumul mai încet? Poate aduceți oamenii de pe balcon înăuntru. Vă las pe voi să decideți exact cum gestionați detaliile.\u201d",
+                    "feedback": "De ce: Prietenos și relatabili, dar \u201emai dați puțin volumul mai încet\u201d este prea vag pentru a constitui un acord real. Ce înseamnă \u201epuțin\u201d? Basul care trece prin podea? Conversațiile de pe balcon? Volumul muzicii? Fără detalii specifice, Tomáš este de acord în acel moment și nu schimbă nimic semnificativ. De asemenea, nu v-ați prezentat, ratând o oportunitate ușoară de construire a raportului. | CONSECINȚE: Tomáš ridică din umeri: \u201eDa, sigur, nicio problemă.\u201d Închide ușa. Cinci minute mai târziu, volumul este marginal mai scăzut \u2014 tehnic s-a conformat. Treizeci de minute mai târziu, revine la nivelul inițial și dl Novak sună din nou. Nu ați rezolvat nimic. | Reflecție: De ce eșuează acordurile vagi și ce face un acord specific să funcționeze?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "\u201eDomn\u2019le, răspund la o încălcare de zgomot la această adresă. Orele de liniște ale clădirii sunt afișate de la 22:00 la 07:00 și sunteți în prezent în încălcare clară. Am nevoie să văd un act de identitate al titularului contractului de închiriere și am nevoie ca muzica să fie oprită \u2014 nu dată mai încet, oprită \u2014 chiar acum. Dacă trebuie să răspund la această adresă a doua oară în seara asta, vă așteaptă o amendă formală.\u201d",
+                    "feedback": "De ce: Cererea unui act de identitate și amenințarea cu amendă ca primă mișcare pentru o plângere de zgomot este complet disproporționat. Aceasta este un prim contact pentru o problemă de calitate a vieții, nu o investigație penală. Deschiderea cu amenințări și cereri de documente garantează rezistență din partea cuiva care este în propria casă, a consumat alcool și se simte îndreptățit să sărbătorească. Abordarea confruntativă otrăvește orice șansă de mediere. | CONSECINȚE: Tomáš face un pas înapoi: \u201eAct de identitate? Pentru o petrecere? Sunt arestat?\u201d Prietenii lui se adună în spatele lui, iar atmosfera devine ostilă. Anna apare, alarmată. Grupul de pe balcon intră înăuntru să vadă ce se întâmplă. Acum aveți în față o cameră de oameni defensivi, ușor în stare de ebrietate, în loc de un cuplu cooperant. | Reflecție: Cum arată proporționalitatea când răspundeți la o plângere de zgomot versus o infracțiune?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Rezistența",
+            "sceneUpdate": {
+                "emoji": "\ud83d\ude24",
+                "title": "Pragul apartamentului \u2014 Confruntarea",
+                "desc": "Stați în pragul apartamentului. În spatele lui Tomáš, puteți vedea un living decorat cu serpentine și un banner pe care scrie \u201eLa mulți ani\u201d. Aproximativ opt persoane stau la o masă acoperită cu mâncare, băuturi și un tort pe jumătate mâncat. Muzica a fost dată mai încet ușor de când s-a deschis ușa, dar basul încă pulsează. O tânără \u2014 Anna \u2014 apare la umărul lui Tomáš, evaluând rapid situația. Unul dintre oaspeți \u2014 un bărbat masiv de vreo treizeci de ani \u2014 se postează în spatele lui Tomáš cu brațele încrucișate, adăugând greutate fizică rezistenței."
+            },
+            "npcDialogue": [
+                {
+                    "character": "tomas",
+                    "text": "(făcând un pas înainte, cu vocea ridicată, sincer furios) Nu. Nu. M-am săturat să fiu politicos în privința asta. E apartamentul meu. Plătesc chirie. Lucrez ture de noapte de douăsprezece ore ca paramedic \u2014 văd oameni murind, domnule agent, și aceasta este singura sâmbătă din lună când reușesc să-mi văd prietenii. Omul ăla de jos a bătut în tavan de fiecare dată când am avut pe cineva în vizită \u2014 chiar și pentru o cină liniștită. A chemat poliția luna trecută pentru că cineva a râs prea tare. Nu mai negociez. Avem și noi dreptul să locuim aici."
+                },
+                {
+                    "character": "anna",
+                    "text": "(punându-i mâna pe braț lui Tomáš, vorbind mai încet dar și ea conflictuală) Tomáš, hai. (Se întoarce spre dumneavoastră) Îmi pare rău, domnule agent. Nu ne-am dat seama că e atât de tare. Ar fi trebuit să fim mai atenți. Dar nu greșește \u2014 dl Novak se plânge de orice. Ce aveți nevoie să facem?"
+                }
+            ],
+            "prompt": "Tomáš nu este doar defensiv \u2014 este sincer furios și are o nemulțumire legată de plângerile repetate. Prietenul lui îl susține fizic. Anna este mai cooperantă dar îi validează frustrarea. Cum vă angajați în această dinamică escaladată?",
+            "options": [
+                {
+                    "text": "Adresați-vă mai întâi lui Tomáš, cu o voce calmă dar fermă, menținând contactul vizual: \u201eVă aud \u2014 ture de noapte ca paramedic și în sfârșit o sâmbătă cu prietenii, înțeleg de ce contează. Aveți dreptate, este casa dumneavoastră. Dar zgomotul de astăzi este semnificativ peste normal \u2014 basul se aude de la parter. Dl Novak are o afecțiune cardiacă și o programare medicală la șase dimineața. Nu sunt aici să vă opresc petrecerea \u2014 sunt aici să găsesc un echilibru.\u201d Apoi vă întoarceți spre Anna: \u201eAți spus că nu v-ați dat seama cât de tare e \u2014 asta îmi spune că e rezolvabil. Putem vorbi despre câteva detalii concrete?\u201d",
+                    "feedback": "De ce: Validarea sentimentelor lui Tomáš și recunoașterea muncii sale de paramedic dezamorsează defensivitatea arătând respect pentru profesia lui. \u201eAveți dreptate, este casa dumneavoastră\u201d îi afirmă autonomia înainte de a introduce contraargumentul. Menționarea afecțiunii cardiace a dlui Novak umanizează reclamantul și reîncadrează situația de la \u201evecin enervant\u201d la \u201erisc pentru sănătate\u201d \u2014 ceea ce un paramedic va înțelege instinctiv. \u201eNu sunt aici să vă opresc petrecerea\u201d elimină amenințarea la care reacționează. Apoi implicarea Annei canalizează conversația spre soluții. | CONSECINȚE: Tomáš face o pauză la mențiunea afecțiunii cardiace \u2014 ca paramedic, știe ce fac stresul și lipsa de somn pacienților cardiaci. Prietenul lui își desfășoară brațele. Anna face un pas înainte: \u201eAm putea să dăm basul mai încet și să închidem ușa balconului...\u201d Dinamica se schimbă de la confruntare la negociere. | Reflecție: Cum schimbă validarea poziției cuiva și apoi introducerea unei nevoi concurente legitime \u2014 în special una care rezonează cu profesia lor \u2014 disponibilitatea de a face compromisuri?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Vă orientați spre Anna, deoarece pare mai deschisă la dialog, și coborâți tonul la un nivel conversațional: \u201eMulțumesc pentru deschidere \u2014 apreciez sincer. Lăsați-mă să vă explic ce am nevoie aici: muzica trebuie dată semnificativ mai încet, nu doar o notă \u2014 basul trece direct prin podea în apartamentul de dedesubt. Și balconul trebuie eliberat complet, pentru că fumatul și conversațiile de acolo se aud în toată clădirea la ora asta. Puteți ajuta să se realizeze aceste două lucruri? Dacă reușim, putem evita orice măsură formală.\u201d",
+                    "feedback": "De ce: Implicarea părții cooperante este pragmatică și adesea eficientă. Totuși, vorbind în principal cu Anna în timp ce Tomáš și prietenul lui vă confruntă poate părea că îi ocoliți. Tomáš poate percepe aceasta ca lipsă de respect \u2014 vorbiți cu prietena lui în loc să vi se adresați direct. În propria casă, cu prietenul susținându-l, acest lucru doare și mai mult. | CONSECINȚE: Anna dă din cap și începe să acționeze, dar Tomáš se simte ignorat: \u201eHei, sunt chiar aici.\u201d Prietenul adaugă: \u201eDa, vorbiți cu noi.\u201d Tomáš este mai puțin ostil acum, dar se simte marginalizat la propria ușă. Acordul poate ține în seara asta, dar Tomáš va ține minte că s-a simțit respins. | Reflecție: Când o parte este mai cooperantă, cum o implicați fără a face partea rezistentă să se simtă ignorată \u2014 mai ales când are pe cineva susținându-o fizic?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Faceți un pas mic înapoi din prag, ridicând ușor palmele într-un gest de conciliere, cu o expresie care transmite că nu vreți confruntare: \u201eUitați, chiar nu vreau să fac din asta o chestie mare \u2014 sunteți oameni rezonabili, se vede. Doar încercați să o mai dați încet de aici înainte, da? Poate mutați lucrurile mai departe de zona balconului și reduceți volumul cu câteva trepte. Chiar aș prefera să nu fiu nevoit să revin în seara asta \u2014 e hârtogăraie pentru mine și bătaie de cap pentru toată lumea.\u201d",
+                    "feedback": "De ce: Prietenos dar fără substanță \u2014 mai ales în fața rezistenței reale. Tomáš tocmai v-a spus că s-a săturat să negocieze, prietenul lui îl susține fizic, iar dumneavoastră ați răspuns cu \u201eîncercați să o mai dați încet.\u201d Acest lucru semnalează că rezistența funcționează și că împingerea înapoi obține un răspuns mai blând. Nu ați abordat nemulțumirea lui Tomáš legată de plângerile repetate, nu ați implicat disponibilitatea Annei de a coopera și nu ați stabilit nicio schimbare specifică. Vaguitatea asigură că nimic nu se schimbă. | CONSECINȚE: Prietenul lui Tomáš zâmbește ironic. Tomáš ridică din umeri: \u201eBineînțeles, domnule agent.\u201d Închide ușa. Muzica revine în cinci minute. Ați recompensat rezistența cu retragere. Dl Novak sună din nou la 00:30, menționând de data aceasta o strângere în piept. | Reflecție: Când cineva opune rezistență și răspunsul dumneavoastră este să dați înapoi, ce lecție i-ați predat despre cum să interacționeze cu poliția?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă îndreptați spatele și adoptați o postură fermă, oficială, vorbind pe un ton care nu lasă loc de negociere: \u201eDomn\u2019le, înțeleg că este apartamentul dumneavoastră, dar orele de liniște sunt orele de liniște \u2014 nu contează ce zi este și nu contează ce ocazie sărbătoriți. Am nevoie ca muzica să fie oprită complet și oaspeții să plece imediat de pe balcon. Nu este o rugăminte. Vecinul de dedesubt are o afecțiune medicală, iar zgomotul continuă de peste o oră și jumătate după orele de liniște.\u201d",
+                    "feedback": "De ce: \u201eNu este o rugăminte\u201d escaladează o plângere de zgomot într-un concurs de dominanță. Ați transformat o situație mediabilă într-o confruntare \u2014 și acum sunt doi bărbați în prag gata de confruntare. Orele de liniște sunt reale, dar abordarea dumneavoastră de aplicare nu are nicio flexibilitate. Pentru o petrecere de ziua de naștere la 23:30, este disproporționat și va fi perceput ca autoritarist. Prietenul lui Tomáš din spate se încordează, iar dinamica de grup se poate spirala. | CONSECINȚE: Tomáš se pune în gardă: \u201eNu e o rugăminte? Atunci scrieți-mi o amendă și plecați. Nu opresc muzica la ziua prietenului meu pentru că un polițist spune așa.\u201d Prietenul face și el un pas înainte. Anna îl trage pe Tomáš înapoi, dar conversația este acum adversarială cu două părți ostile. Orice rezoluție se va simți forțată. | Reflecție: Care este diferența între aplicarea unei reguli și exercitarea autorității \u2014 și cum răspund oamenii la fiecare, mai ales când au susținere de grup?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Găsirea unei soluții",
+            "sceneUpdate": {
+                "emoji": "\ud83e\udd1d",
+                "title": "Pragul apartamentului \u2014 Negocierea",
+                "desc": "Energia confruntativă s-a mai diminuat, dar a apărut o complicație. Stația dumneavoastră radio cârâie \u2014 dispeceratul transmite că dl Novak a sunat din nou, nu despre zgomot de data aceasta, ci despre o strângere în piept și dificultăți de respirație. Spune că ar putea fi afecțiunea cardiacă agravată de stres și lipsa de somn. Tomáš este încă în prag, mai puțin ostil acum, dar vă urmărește atent. Anna stă lângă el cu brațele încrucișate, ascultând. În spatele lor, petrecerea s-a liniștit considerabil."
+            },
+            "npcDialogue": [
+                {
+                    "character": "anna",
+                    "text": "Chiar nu am vrut să creăm probleme. E doar că \u2014 am planificat asta de săptămâni și Marek vine doar o dată sau de două ori pe an. Ce exact trebuie să facem? Nu vrem necazuri."
+                },
+                {
+                    "character": "tomas",
+                    "text": "(cu reticență) Bine. Dar nu-mi trimit toți prietenii acasă la miezul nopții. E ridicol. (aude stația radio, face o pauză) Stai \u2014 e despre vecin? E bine?"
+                }
+            ],
+            "prompt": "Dl Novak a raportat strângere în piept \u2014 posibil legată de stres, posibil o preocupare cardiacă reală care necesită ambulanță. Între timp, Tomáš a trasat o linie în legătură cu neîncheierea petrecerii. Trebuie să evaluați situația medicală și să găsiți o rezoluție. Ce faceți?",
+            "options": [
+                {
+                    "text": "\u201eAșteptați un moment.\u201d Ridicați stația radio și transmiteți calm: \u201eTrimiteți ambulanța la reclamant \u2014 bărbat în vârstă, strângere în piept, afecțiune cardiacă cunoscută. Evaluare preventivă.\u201d Apoi vă întoarceți spre Tomáš: \u201eVecinul dumneavoastră raportează dureri în piept \u2014 are afecțiune cardiacă. Am chemat echipa medicală. Nu vă cer să terminați petrecerea acum. Dar situația s-a schimbat. Iată ce propun: dați basul mai încet, asta trece prin podea. Închideți ușa balconului. Și să stabilim o oră de încheiere \u2014 12:30 vă dă încă o oră și îi oferă un punct final clar. Puteți lucra cu asta?\u201d",
+                    "feedback": "De ce: Prioritizare excelentă. Preocuparea medicală este abordată imediat și profesional \u2014 nu încercați să diagnosticați singur, solicitați ambulanța pentru o evaluare preventivă. Apoi pivotați spre rezoluția zgomotului cu termeni specifici, acționabili. Comunicarea durerii în piept lui Tomáš schimbă dinamica \u2014 ca paramedic, înțelege ce înseamnă stresul cardiac. Nu ați transformat situația medicală în armă, doar ați prezentat faptele. Trei solicitări concrete cu o oră de încheiere rezonabilă. | CONSECINȚE: Expresia lui Tomáš se schimbă la mențiunea durerii în piept \u2014 știe profesional ce înseamnă. \u201eE \u2014 bine, da. 12:30 e în regulă. Oricum ne pregăteam să terminăm.\u201d Anna închide imediat ușa balconului. Ambulanța îl verifică pe dl Novak și determină că este legat de stres, nu acut. Dar evaluarea a fost decizia corectă. | Reflecție: Cum demonstrează abordarea rapidă a unei preocupări medicale \u2014 chiar dacă se dovedește minoră \u2014 tipul de judecată profesională care schimbă modul în care ambele părți vă percep?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "\u201eCe-ați zice să procedăm așa \u2014 dați muzica mai încet, mai ales basul, și închideți ușa balconului. Asta ar trebui să rezolve cea mai mare parte din ce se aude prin clădire. Vă las pe voi să terminați la o oră rezonabilă \u2014 știți mai bine decât mine când se termină petrecerea în mod natural. Trebuie să cobor acum, totuși \u2014 vecinul dumneavoastră a sunat din nou și spune că nu se simte bine. Strângere în piept. Ar putea să nu fie nimic, ar putea fi stresul, dar trebuie să merg să verific personal. Suntem în regulă aici sus?\u201d",
+                    "feedback": "De ce: Două din cele trei aspecte cheie sunt abordate, dar \u201eoră rezonabilă\u201d este subiectiv. Ce este rezonabil pentru un tânăr de douăzeci și opt de ani la o petrecere diferă enorm de ce este rezonabil pentru un bărbat de șaizeci de ani cu dureri în piept. Fără o oră specifică de încheiere, petrecerea ar putea continua până la 2 noaptea cu toți simțind că și-au respectat partea. Verificați personal dl Novak, ceea ce este bine, dar nu ați chemat ambulanța \u2014 evaluarea simptomelor cardiace fără pregătire medicală este riscantă. | CONSECINȚE: Tomáš și Anna acceptă ușor \u2014 lipsa unei ore fixe de încheiere face acest lucru ușor de acceptat. Îl găsiți pe dl Novak palid dar respirând normal. Nu puteți determina dacă este anxietate sau ceva cardiac. La 1:15, zgomotul a revenit și starea dlui Novak s-a agravat. | Reflecție: Care este riscul de a lăsa nedefinit cel mai controversat termen \u2014 și de a evalua singur o preocupare medicală în loc de a chema profesioniști?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Adoptați un ton ferm și oficial, încrucișându-vă brațele: \u201eIată ce se va întâmpla acum. Am nevoie ca muzica să fie oprită complet \u2014 nu dată mai încet, oprită. Și petrecerea trebuie încheiată în maximum treizeci de minute. Orele de liniște sunt de mult depășite, și acum vecinul dumneavoastră de la parter raportează simptome medicale \u2014 strângere în piept. Situația a trecut dincolo de o simplă plângere de zgomot. Voi documenta această vizită, iar dacă nu se rezolvă, urmează amendă formală.\u201d",
+                    "feedback": "De ce: Muzica oprită complet și o încheiere în treizeci de minute este disproporționat pentru o primă plângere de zgomot la o petrecere de ziua de naștere. Folosirea raportului medical al dlui Novak ca un ciocan pentru a forța conformarea transformă o preocupare de sănătate în armă \u2014 situația medicală necesită propriul răspuns profesional (ambulanță), nu să fie folosită ca instrument de aplicare a legii. Practic ordonați ca petrecerea să se încheie, fără a solicita asistență medicală pentru plângerea reală de sănătate. | CONSECINȚE: Tomáš se retrage: \u201eFolosiți durerile lui de piept ca să-mi opriți petrecerea?\u201d Anna este supărată. Oaspeții schimbă priviri furioase. Preocuparea medicală a dlui Novak rămâne neabordată în timp ce vă concentrați pe aplicare. Ați folosit o problemă de sănătate ca armă și ați neglijat persoana care chiar avea nevoie de ajutor. | Reflecție: Când aplicarea legii este disproporționată și o preocupare medicală este folosită ca pârghie în loc să fie abordată profesional, cine suportă costul?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Faceți un pas înapoi din prag cu un gest larg al mâinii, lăsând lucrurile în seama lor: \u201eVă las pe voi să stabiliți detaliile \u2014 păreți niște oameni rezonabili și sunt sigur că puteți gestiona fără să vă dictez eu fiecare pas. Doar asigurați-vă că vecinul de dedesubt nu mai are motiv să sune din nou în seara asta, bine? Țineți balconul închis, mențineți un nivel la care oamenii pot dormi. Chiar aș prefera să nu revin. Acum trebuie să cobor \u2014 vecinul a sunat din nou, spune că nu se simte bine, și trebuie să verific.\u201d",
+                    "feedback": "De ce: Delegarea totală nu stabilește niciun termen specific. \u201eStabiliți detaliile\u201d cere unor oameni care au băut să se auto-regleze la miezul nopții. Instinctul de a-l verifica pe dl Novak este corect, dar nu ați chemat ambulanța și nu ați mediat nimic sus. Lăsați ambele probleme \u2014 zgomotul și preocuparea medicală \u2014 abordate inadecvat. | CONSECINȚE: Tomáš și Anna spun că se ocupă. Fără angajamente specifice, muzica rămâne la același nivel. Îl găsiți pe dl Novak palid și anxios. Nu aveți pregătire să evaluați simptome cardiace. La 1 noaptea, zgomotul se reia și starea dlui Novak nu a fost evaluată profesional. | Reflecție: Când mai multe probleme necesită atenție simultană, ce se întâmplă când nu abordați niciuna cu specificitatea necesară?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Acordul",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udcdd",
+                "title": "Pragul apartamentului \u2014 Formalizarea înțelegerii",
+                "desc": "Tomáš și Anna au acceptat termenii cheie: basul dat mai încet, ușa balconului închisă, oaspeții înăuntru, petrecerea se încheie până la 12:30. Anna deja se mișcă înăuntru, trăgând ușa balconului. Unul dintre oaspeți dă muzica mai încet. Ambulanța l-a verificat pe dl Novak \u2014 constantele sunt stabile, dar are tensiunea ridicată de la stres și lipsa de somn. Paramedicul a recomandat să doarmă curând. Holul se simte considerabil mai liniștit. De cealaltă parte a coridorului, ușa vecinei este ușor întredeschisă \u2014 ascultă."
+            },
+            "npcDialogue": [
+                {
+                    "character": "tomas",
+                    "text": "(mai calm acum, aproape apologetic) Uitați, nu am vrut să fiu nesimțit. E doar că \u2014 a fost o săptămână grea. Lucrez ture nebune și abia dacă îmi văd prietenii. Sincer nu credeam că e atât de tare. (face o pauză) E bine bătrânul? Am auzit că ați chemat ambulanța."
+                },
+                {
+                    "character": "anna",
+                    "text": "Chiar ne pare rău de vecin. Nu l-am întâlnit niciodată. E foarte supărat? Ar trebui să... mergem să-i spunem ceva?"
+                }
+            ],
+            "prompt": "Acordul este stabilit și tonul s-a schimbat. Tomáš a întrebat neprovocata despre sănătatea dlui Novak. Cum formalizați aceasta și creați condiții pentru a preveni un apel repetat în seara asta?",
+            "options": [
+                {
+                    "text": "\u201eApreciez că amândoi lucrați cu mine \u2014 iar Tomáš, faptul că ați întrebat de el spune mult. E stabil \u2014 tensiune ridicată de la stres și lipsa de somn, dar paramedicul a spus că are nevoie de odihnă. Să recapitulez: basul dat mai încet, balconul închis, oaspeții înăuntru, terminați până la 12:30. Îl cheamă dl Novak \u2014 pensionar văduv, locuiește singur. O bătaie la ușa lui mâine ca să vă prezentați ar conta enorm. Tomáš, nu știe că sunteți paramedic \u2014 asta ar putea însemna mult pentru un om cu afecțiune cardiacă care stă singur sub voi. Vecinii care se cunosc rezolvă aceste lucruri singuri.\u201d",
+                    "feedback": "De ce: Recapitularea termenilor specifici creează un contract verbal pe care ambele părți l-au recunoscut. Remarcarea faptului că Tomáš a întrebat despre dl Novak îi întărește empatia. Împărtășirea actualizării medicale transparent \u2014 tensiune ridicată, are nevoie de odihnă \u2014 dă greutatea potrivită situației de sănătate fără a o transforma în armă. Umanizarea dlui Novak ca pensionar văduv îl transformă din \u201etipul care a chemat poliția\u201d într-un vecin în vârstă singur. Observația că un paramedic care locuiește deasupra unui om cu probleme cardiace ar putea fi un atu, nu un conflict, reîncadrează întreaga dinamică de vecinătate. | CONSECINȚE: Expresia lui Tomáš se schimbă: \u201eE singur? Cu o afecțiune cardiacă? Și eu sunt...\u201d Anna îi atinge brațul: \u201eMergem mâine. Sigur.\u201d Vecina de vizavi, ascultând prin ușa crăpată, zâmbește. Nu ați rezolvat doar o plângere de zgomot \u2014 ați creat potențial o relație de sprijin. | Reflecție: Cum transformă conectarea punctelor forte ale oamenilor cu nevoile celuilalt un conflict în începutul unei comunități?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "\u201eMă bucur că am ajuns la o înțelegere. Vreau să fiu transparent cu privire la partea oficială: documentez această vizită și emit un avertisment scris \u2014 nu o amendă \u2014 pentru încălcarea orelor de liniște din seara asta. E un document formal care marchează că a existat o abatere. Dacă mai apare o încălcare în nouăzeci de zile, răspunsul următor va fi automat o amendă. Nu e o pedeapsă \u2014 e o limită clară care protejează pe toată lumea, inclusiv pe voi, pentru că îi dă dlui Novak certitudinea că sistemul funcționează și nu trebuie să escaladeze. Ați cooperat în seara asta și asta contează.\u201d",
+                    "feedback": "De ce: Uneori cel mai empatic răspuns este stabilirea unor limite clare. Un avertisment scris oficial \u2014 nu o amendă \u2014 este proporțional pentru o primă abatere cu o complicație medicală. Documentează incidentul, stabilește un traseu clar de escaladare și, paradoxal, dezescaladează situația mai amplă oferindu-i dlui Novak o garanție instituțională. Fără documentare, următoarea plângere pornește de la zero din nou. Cu ea, toți știu unde se află. Încadrarea avertismentului ca protecție pentru ambele părți \u2014 nu pedeapsă \u2014 menține bunăvoința. | CONSECINȚE: Tomáš ezită, apoi dă din cap: \u201eCorect. Un avertisment e corect.\u201d Anna este de acord. Formalitatea oferă de fapt o încheiere \u2014 este concretă, documentată și proporțională. Dl Novak primește dovada că plângerea sa a produs un rezultat, ceea ce îi reduce anxietatea legată de incidente viitoare. Documentul scris previne ciclul circular al apelurilor repetate fără memorie instituțională. | Reflecție: Când dezescaladează documentarea formală o situație în loc să o escaladeze \u2014 și cum previne oferirea unei garanții instituționale ambelor părți conflictele repetate?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "\u201eBun, atunci cred că suntem în regulă aici.\u201d Le faceți un semn prietenos din cap, aruncați o privire scurtă spre living-ul unde oaspeții stau mai liniștiți acum în jurul mesei, și vă pregătiți să plecați. \u201eO seară plăcută în continuare și bucurați-vă de ce a mai rămas din sărbătoare.\u201d Vă întoarceți spre scări fără a recapitula termenii conveniți, fără a menționa starea de sănătate a dlui Novak, fără a răspunde la întrebarea lui Tomáš despre vecin și fără vreo sugestie pentru relația viitoare de vecinătate. Coborâți treptele rapid.",
+                    "feedback": "De ce: Politicos dar incomplet. Nicio recapitulare a termenilor înseamnă niciun contract verbal. Nicio mențiune a stării de sănătate a dlui Novak sau a umanității sale. Nicio sugestie pentru relații viitoare de vecinătate. Niciun mecanism de prevenire a repetiției luna viitoare. Ați rezolvat problema imediată dar nu ați plantat semințele schimbării durabile. Tomáš a întrebat despre sănătatea dlui Novak \u2014 un moment autentic de empatie \u2014 și l-ați ignorat complet. | CONSECINȚE: Tomáš și Anna se conformează în seara asta pentru că întâlnirea este proaspătă. Dar fără o relație cu dl Novak, următoarea petrecere generează același apel. Întrebarea lui Tomáš despre sănătatea vecinului \u2014 o deschidere naturală pentru conexiune \u2014 a fost irosită. | Reflecție: Care este diferența între rezolvarea unui incident și prevenirea următorului \u2014 și ce se întâmplă când ratați un moment natural de conexiune umană?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Adoptați un ton birocratic și rece, scoțând carnetul de notițe: \u201eBun. Notez această vizită integral în raportul oficial \u2014 nume, număr de apartament, oră, toate detaliile. Dacă mai apare vreo plângere din această clădire, în seara asta sau oricând în următoarele nouăzeci de zile, să vă așteptați la o amendă formală. V-aș recomanda serios să vă țineți petrecerile mai silențioase pe viitor. Încălcările de zgomot rămân în dosar și se cumulează. Și sincer vorbind, cu un bătrân cu dureri de piept dedesubt din cauza stresului de la petrecerea voastră, aveți noroc că nu vă amendez chiar acum.\u201d",
+                    "feedback": "De ce: O încheiere birocratică, punitivă care transformă starea medicală a dlui Novak în armă. \u201eAveți noroc că nu vă amendez\u201d transformă o interacțiune cooperantă într-o amenințare. Folosirea durerilor lui de piept ca pârghie \u2014 în loc de o preocupare comună \u2014 otrăvește relația de vecinătate înainte să înceapă. Tomáš tocmai a întrebat de sănătatea dlui Novak cu îngrijorare sinceră, iar dumneavoastră ați răspuns folosind acea problemă de sănătate ca un băț împotriva lor. Aceasta distruge încrederea construită și asigură că vor resimți atât dumneavoastră cât și pe dl Novak. | CONSECINȚE: Îngrijorarea lui Tomáš pentru dl Novak evaporă: \u201eNoroc? A chemat poliția la o petrecere de ziua de naștere și acum noi avem noroc?\u201d Anna pare lovită. Data viitoare când dl Novak are o urgență de sănătate, nu vor bate la ușa lui \u2014 pentru că ofițerul de poliție i-a transformat sănătatea într-o armă împotriva lor. | Reflecție: Când cineva a cooperat deja și a arătat preocupare sinceră, ce comunică transformarea unei situații medicale în armă împotriva lor despre valoarea empatiei?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Închiderea buclei",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udd04",
+                "title": "Holul de la parter \u2014 Înapoi la dl Novak",
+                "desc": "Coborâți la parter. Diferența se aude \u2014 basul puternic a dispărut, înlocuit de un murmur scăzut de conversație de sus. Balconul este gol și întunecat. Ușa dlui Novak se deschide înainte să bateți. Încă e în halat, cu ochii roșii, căutându-vă privirea pentru răspunsuri. Holul e suficient de liniștit ca să auzi țevile vechi ale clădirii scârțâind."
+            },
+            "npcDialogue": [
+                {
+                    "character": "novak",
+                    "text": "(anxios) Ei? S-au oprit? Încă aud ceva acolo sus. O să primească amendă? Ce se întâmplă dacă reîncepe?"
+                }
+            ],
+            "prompt": "Dl Novak este anxios și vrea să știe rezultatul. Zgomotul este semnificativ redus dar nu complet dispărut. Cum încheiați această interacțiune cu reclamantul?",
+            "options": [
+                {
+                    "text": "\u201eDle Novak, am vorbit cu vecinii \u2014 îi cheamă Tomáš și Anna. Găzduiesc o petrecere de ziua de naștere pentru un prieten din alt oraș. Nu și-au dat seama cât de mult zgomot trecea prin podea. Iată ce am convenit: basul e dat mai încet \u2014 auziți deja diferența \u2014 balconul e închis, oaspeții sunt înăuntru, și termină până la 12:30. Le-am spus de programarea dumneavoastră de dimineață și de nevoia de odihnă \u2014 s-au simțit sincer vinovați. V-aș încuraja să vă prezentați la un moment dat \u2014 vecinii care se cunosc rezolvă aceste lucruri singuri. Dacă zgomotul crește din nou în seara asta, sunați și se va escalada.\u201d",
+                    "feedback": "De ce: Cuprinzător, transparent și orientat spre viitor. Împărtășirea numelor și contextului vecinilor îi umanizează. Detalierea acordului specific îi arată dlui Novak că apelul său a produs rezultate concrete. Menționarea că s-au simțit vinovați construiește empatie peste etaje. Încurajarea contactului direct plantează sămânța auto-rezolvării. Confirmarea dreptului de a suna înapoi îi validează poziția fără a submina acordul. Aceasta închide bucla complet \u2014 dl Novak știe ce s-a întâmplat, ce va urma și ce poate face. | CONSECINȚE: Umerii dlui Novak se relaxează cu ușurare. \u201eTomáš și Anna? Nici nu le știam numele.\u201d Pentru prima dată în seara asta, arată mai puțin ca un reclamant frustrat și mai mult ca un vecin care ar putea bate la o ușă. Vă mulțumește și închide ușa. Blocul e liniștit. | Reflecție: Cum transformă împărtășirea informațiilor specifice \u2014 nume, context, termeni \u2014 un reclamant din adversar în potențial vecin?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "\u201eVești bune, dle Novak \u2014 am vorbit cu ei și au acceptat să dea muzica mai încet și să termine curând. Ar trebui să observați deja o diferență \u2014 basul a scăzut considerabil de când am fost acolo sus. Au părut receptivi odată ce le-am explicat situația, și nu cred că și-au dat seama cât de mult sunet trecea prin podea. Dacă se reapucă în seara asta, nu ezitați nici o clipă să sunați din nou și o vom duce la nivelul următor. Încercați să vă odihniți acum \u2014 aveți nevoie pentru programarea de dimineață.\u201d",
+                    "feedback": "De ce: Corect și liniștitor, dar lipsesc detaliile specifice. \u201eDea muzica mai încet\u201d și \u201etermină curând\u201d sunt termenii vagi de care dlui Novak îi este teamă. Ce oră înseamnă \u201ecurând\u201d? Va sta treaz ascultând, incapabil să aibă încredere că \u201ecurând\u201d înseamnă curând. Fără nume, fără context, fără umanizarea vecinilor. Fără sugestie de contact direct viitor. Dl Novak va sta treaz ascultând fiecare sunet, incapabil să aibă încredere că acordul ține. | CONSECINȚE: Dl Novak dă din cap, parțial satisfăcut. Merge la culcare dar ascultă fiecare sunet, incapabil să aibă încredere că \u201ecurând\u201d înseamnă curând. Vecinii rămân necunoscuți anonimi deasupra lui. Luna viitoare, același apel. | Reflecție: Ce informații specifice are nevoie un reclamant pentru a se simți cu adevărat rezolvat, în loc de doar provizoriu liniștit?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "\u201eE rezolvat, dle Novak. Muzica e dată mai încet \u2014 puteți auzi diferența chiar de aici. Am fost sus, am vorbit cu ei și le-am transmis clar mesajul că orele de liniște sunt în vigoare. O să mențină lucrurile la un nivel acceptabil pentru restul nopții. Încercați să dormiți acum \u2014 aveți programarea aceea la doctor dimineață devreme și aveți nevoie de odihnă. Dacă se schimbă ceva, aveți numărul.\u201d Îi faceți un semn liniștitor din cap, verificați o ultimă dată că holul e liniștit și vă îndreptați spre ieșirea din clădire.",
+                    "feedback": "De ce: Eficient dar impersonal. \u201eE rezolvat\u201d nu îi spune nimic despre ce s-a convenit, cine locuiește deasupra lui sau ce urmează. Niciun termen specific, niciun nume, nicio umanizare, nicio construire de relații, nicio cale spre viitor. Reținerea programării arată oarecare atenție, dar închiderea generală tratează reclamantul ca pe un bilet de rezolvat, nu ca pe o persoană într-o comunitate. | CONSECINȚE: Dl Novak vă mulțumește și închide ușa, nesatisfăcut dar prea obosit să insiste. Nu știe numele vecinilor, nu știe ora de încheiere și nu se simte împuternicit. A auzit \u201ee rezolvat\u201d și speră că e adevărat. | Reflecție: Când este \u201ee rezolvat\u201d suficient și când merită un reclamant mai multe detalii?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "\u201eAm vorbit cu ei, dle Novak. Fac o petrecere de ziua de naștere pentru un prieten \u2014 păreau niște tineri simpatici, oameni de treabă. Le-am spus să dea muzica mai încet și au zis că o fac. Uitați, aceste lucruri se întâmplă când locuiești la bloc \u2014 face parte din viața în comun. Tinerii muncesc din greu și au și ei nevoie să se relaxeze uneori. Încercați să fiți puțin mai înțelegător \u2014 nu au vrut cu intenție să vă deranjeze. Poate investiți în niște dopuri de urechi pentru nopțile de genul ăsta, o să vă facă viața mult mai ușoară.\u201d",
+                    "feedback": "De ce: Pledarea pentru gazdele petrecerii către reclamant \u2014 \u201etineri simpatici\u201d, \u201efiți înțelegător\u201d, \u201edopuri de urechi\u201d \u2014 invalidează plângerea legitimă a dlui Novak. A așteptat peste o oră poliția la miezul nopții, iar dumneavoastră acum îi spuneți să fie mai tolerant și să cumpere dopuri de urechi. Aceasta este imaginea în oglindă a respingerii gazdelor petrecerii \u2014 ați ales o tabără. Încălcarea orelor de liniște a fost reală, frustrarea lui legitimă și preocupările de sănătate valide. | CONSECINȚE: Dl Novak se simte trădat: \u201eLe țineți partea? Eu sunt cel care a sunat! Am dreptul să dorm în propria casă!\u201d Încrederea lui în poliție pentru probleme de calitate a vieții este grav deteriorată. Nu va mai suna data viitoare \u2014 fie îi va confrunta personal, fie va suferi în tăcere și îi va resimți pe toți. | Reflecție: Când pledați pentru o parte în fața celeilalte, ce se întâmplă cu încrederea persoanei căreia tocmai i-ați spus să facă compromisuri?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Analiza",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "\ud83d\udccb",
+                "title": "Analiza",
+                "desc": "Înapoi la secție. Sergentul Kowalski analizează performanța dumneavoastră în scenariul de mediere a plângerii de zgomot."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "Plângerile pentru zgomot sunt locul unde poliția comunitară trăiește sau moare. Nu sunt spectaculoase, nu sunt periculoase și nu sunt complicate \u2014 dar sunt întâlnirile care modelează dacă oamenii obișnuiți au suficientă încredere în poliție pentru a suna când se întâmplă ceva serios. Fiecare alegere pe care ați făcut-o în seara asta \u2014 cum l-ați ascultat pe dl Novak, cum ați deschis conversația cu Tomáš, dacă ați mediat sau ați dictat, și dacă ați închis bucla \u2014 a trimis un mesaj despre ce înseamnă poliția în acel bloc. Să vedem cum v-ați descurcat."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "Ați răspuns la un apel pe care nouăzeci la sută din ofițeri l-ar fi tratat ca pe o comisie de cinci minute: spune-le să dea mai încet, spune-i bătrânului că e rezolvat, pleacă. În schimb, l-ați tratat ca ceea ce este de fapt \u2014 o mediere între două gospodării care împart un tavan și vor continua să-l împartă mult după plecarea dumneavoastră. Acea distincție contează enorm."
+                },
+                {
+                    "character": "officer",
+                    "text": "Ce m-a surprins a fost cât de mult am vrut pur și simplu să aplic legea. Orele de liniște erau încălcate, zgomotul era evident \u2014 o parte din mine voia să scriu amenda și să plec. Medierea a fost mai lentă și mai puțin satisfăcătoare pe moment."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Și acel impuls merită examinat, pentru că dezvăluie o concepție greșită. Majoritatea ofițerilor cred că misiunea lor este să oprească zgomotul. Nu este. Misiunea este să construiți o relație între vecini astfel încât să nu mai fie nevoie să vă sune. O amendă oprește zgomotul din seara asta. Medierea oprește apelul din luna viitoare, și pe cel de după, și pe cel de după. Nu sunteți aici să gestionați niveluri de volum \u2014 sunteți aici să creați condițiile în care doi necunoscuți devin vecini care pot rezolva lucrurile pe cont propriu."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Momentul în care le-ați spus Annei și lui Tomáš despre dl Novak \u2014 vârsta lui, singurătatea lui, programarea de dimineață devreme \u2014 l-ați transformat din \u201etipul care a chemat poliția\u201d într-o persoană. Acel singur act de umanizare este ceea ce a făcut-o pe Anna să coacă o prăjitură și să bată la ușa lui a doua zi. Aplicarea legii nu ar fi putut produce niciodată acel rezultat. Acum permiteți-mi să vă spun ce s-a întâmplat după ce ați plecat din acel bloc."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispecerat", "avatar": "\ud83d\udcfb"},
+        "tomas": {"name": "Tomáš (gazda petrecerii, 28)", "avatar": "\ud83e\uddd1"},
+        "anna": {"name": "Anna (prietena lui, 26)", "avatar": "\ud83d\udc69"},
+        "novak": {"name": "Dl Novak (reclamant, 60+)", "avatar": "\ud83d\udc74"},
+        "neighbor": {"name": "Vecina din hol", "avatar": "\ud83d\udea9"},
+        "officer": {"name": "Tu (agent)", "avatar": "\ud83d\udc6e"},
+        "instructor": {"name": "Sergent Kowalski", "avatar": "\ud83d\udc6e\u200d\u2642\ufe0f"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Mediere de vecinătate excepțională",
+            "emoji": "\ud83c\udf1f",
+            "feedback": "Ați demonstrat o mediere magistrală într-o plângere de zgomot \u2014 cel mai comun apel în poliție și cel care modelează cel mai mult încrederea comunității. Ați ascultat reclamantul fără a promite excesiv, ați deschis conversația cu gazdele petrecerii într-un mod care a redus defensivitatea, ați negociat termeni specifici și proporționali și ați închis bucla umanizând ambele părți una față de alta. Cel mai important, ați plantat sămânța unei relații directe între vecini care previne apelurile viitoare. Aceasta este poliția comunitară la cel mai înalt nivel."
+        },
+        "good": {
+            "title": "Mediere solidă de zgomot",
+            "emoji": "\ud83d\udc4d",
+            "feedback": "Ați gestionat plângerea de zgomot profesional și ați ajuns la o rezoluție funcțională. Abordarea dumneavoastră față de reclamant sau gazdele petrecerii a arătat instincte puternice de mediere. Unele oportunități de construire mai profundă a relațiilor sau acorduri mai specifice au fost ratate, dar intervenția în ansamblu a fost proporțională, respectuoasă și eficientă pentru seara aceasta."
+        },
+        "average": {
+            "title": "Răspuns adecvat",
+            "emoji": "\ud83d\udccb",
+            "feedback": "Ați rezolvat problema imediată de zgomot dar ați ratat dimensiuni importante ale medierii eficiente. Fie că a fost vorba de acorduri vagi, gestionare insuficientă a așteptărilor cu reclamantul sau eșecul de a umaniza părțile una față de alta, rezoluția a rezolvat problema de astăzi fără a aborda dinamica de vecinătate subiacentă. Așteptați-vă la un apel repetat în câteva săptămâni."
+        },
+        "poor": {
+            "title": "Necesită îmbunătățiri semnificative",
+            "emoji": "\u26a0\ufe0f",
+            "feedback": "Abordarea dumneavoastră față de această plângere de zgomot fie a aplicat excesiv legea pentru o problemă minoră de calitate a vieții, fie a subrespondat la o plângere legitimă \u2014 ambele deteriorând încrederea comunității. Plângerile de zgomot necesită abilități de mediere, răspuns proporțional și preocupare autentică pentru toate părțile. Revizuiți tehnicile de de-escaladare, principiile de proporționalitate și diferența dintre rezolvarea unui incident și prevenirea următorului."
+        }
+    },
+    "metrics": {
+        "mediationSkills": {
+            "name": "Abilități de mediere",
+            "description": "Echilibrarea preocupărilor ambelor părți, facilitarea dialogului și negocierea acordurilor pe care ambele părți le pot accepta",
+            "icon": "\u2696\ufe0f"
+        },
+        "proportionateResponse": {
+            "name": "Răspuns proporțional",
+            "description": "Adaptarea aplicării legii la gravitatea încălcării \u2014 avertisment înainte de amendă, așteptări rezonabile pentru o primă abatere",
+            "icon": "\ud83d\udccf"
+        },
+        "complainantManagement": {
+            "name": "Gestionarea reclamantului",
+            "description": "Validarea preocupărilor reclamantului, gestionarea transparentă a așteptărilor și închiderea buclei cu informații specifice",
+            "icon": "\ud83e\udd1d"
+        },
+        "conflictPrevention": {
+            "name": "Prevenirea conflictelor",
+            "description": "Construirea relațiilor de vecinătate pe termen lung în loc de simpla rezolvare a problemei de astăzi \u2014 umanizarea părților una față de alta și încurajarea comunicării directe",
+            "icon": "\ud83c\udfe0"
+        },
+        "professionalCommunication": {
+            "name": "Comunicare profesională",
+            "description": "Comunicare clară, calmă, respectuoasă cu toate părțile \u2014 inclusiv cu persoane în stare de ebrietate, defensive sau frustrate",
+            "icon": "\ud83d\udcac"
+        }
+    }
+}

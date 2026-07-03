@@ -1,0 +1,629 @@
+{
+    "scenarioId": "youth-park",
+    "reviewVersion": "1.0",
+    "title": "Analiza aprofundata — Tineri in parc",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Faza 1 — Sosirea in parc",
+            "criticalSkills": [
+                "Dezescaladare",
+                "Transparenta",
+                "Comunicare comunitara"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'Politia locala. Putem schimba cateva cuvinte?'",
+                    "strengths": [
+                        "O intrare discreta reduce tensiunea, pastreaza demnitatea si deschide dialogul.",
+                        "Tonul de invitatie ('Putem schimba cateva cuvinte?') semnaleaza conversatie, nu arestare",
+                        "Elementele non-verbale — ritmul normal, mainile vizibile, postura relaxata — intaresc mesajul verbal"
+                    ],
+                    "professionalImpact": "Grupul observa prezenta dumneavoastra fara panica. Muzica scade, baietii se indeparteaza. Fundatia dialogului este asezata."
+                },
+                "partially_positive": {
+                    "choiceText": "Va apropiati incet pe jos, facandu-va vizibil de la distanta, apoi spuneti: 'Buna, dupa-amiaza tuturor. Sunt agentul Norton — pot sa ma apropii si sa vad ce se intampla?'",
+                    "adequate": [
+                        "A va face vizibil inainte de a vorbi evita factorul surpriza",
+                        "Prezentarea pe nume este o constructie puternica de raport",
+                        "Intrebarea 'pot sa ma apropii?' modeleaza consimtamantul si respectul"
+                    ],
+                    "missed": [
+                        "Tonul casual poate subestima urgenta a doi baieti intr-o confruntare fizica",
+                        "Confruntarea intre Kryštof si Jarda continua inca treizeci de secunde in timp ce va apropiati fara urgenta",
+                        "Echilibrul intre accesibilitate si interventie oportuna a fost usor dezechilibrat"
+                    ],
+                    "improvement": "Cand o confruntare fizica e iminenta, ajustati-va ritmul si directitatea pentru a se potrivi urgentei — accesibilitatea e valoroasa dar nu ar trebui sa intarzie interventia cand violenta e la cateva secunde distanta."
+                },
+                "neutral": {
+                    "choiceText": "Asteptati la distanta, cereti intariri 'pentru orice eventualitate', apoi va apropiati impreuna.",
+                    "adequate": [
+                        "Prudenta e legitima, dar la o cearta verbala poate parea criminalizare prematura."
+                    ],
+                    "missed": [
+                        "Cand sunt intaririle un avantaj si cand o povara?"
+                    ],
+                    "improvement": "Cand sunt intaririle un avantaj si cand o povara?"
+                },
+                "negative": {
+                    "choiceText": "'(Rafala scurta de sirena) Politia! Opriti imediat!'",
+                    "failures": [
+                        "Intrare inutil de amenintatoare pentru un conflict verbal",
+                        "Declanseaza soc si defensivitate."
+                    ],
+                    "consequences": "Rezistenta grupului creste si legitimitatea dumneavoastra slabeste.",
+                    "trainingFocus": "Cand nu ar trebui sa folositi sirena si cum altfel va puteti face prezenta cunoscuta?"
+                }
+            }
+        },
+        "2": {
+            "stageName": "Faza 2 — Primul contact si transparenta",
+            "criticalSkills": [
+                "Dezescaladare",
+                "Transparenta",
+                "Comunicare comunitara"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'Buna ziua, sunt agentul Norton. Am primit o sesizare despre muzica tare si o cearta. Nu sunt aici sa deranjez pe nimeni — vreau sa ma asigur ca toata lumea e bine si ca lucrurile raman calme. Imi puteti spune ce se intampla aici?'",
+                    "strengths": [
+                        "Transparenta + recunoasterea dreptului lor la spatiul public = legitimitate si deschidere.",
+                        "Darea numelui umanizeaza ofiterul si construieste incredere",
+                        "Intrebarea deschisa invita narativul lor in loc sa-l impuna pe al dumneavoastra"
+                    ],
+                    "professionalImpact": "Defensivitatea scade; prin construirea increderii, creste disponibilitatea de a vorbi."
+                },
+                "partially_positive": {
+                    "choiceText": "'Dupa-amiaza buna. Am primit o plangere de zgomot si cineva a mentionat o cearta. Uitati, nu incerc sa va stric ziua — trebuie doar sa verific. Care e situatia?'",
+                    "adequate": [
+                        "Tonul casual, uman semnaleaza ca nu sunteti acolo sa pedepsiti",
+                        "Constientizarea ca prezenta politiei poate fi simtita ca intruziva",
+                        "Mentionarea plangerii ofera context pentru prezenta dumneavoastra"
+                    ],
+                    "missed": [
+                        "Nu v-ati dat numele, ramanand anonim si mai putin demn de incredere",
+                        "Nu ati recunoscut explicit dreptul lor de a fi in parc",
+                        "Abordarea functioneaza dar ii lipseste transparenta completa care construieste raport autentic"
+                    ],
+                    "improvement": "Adaugati numele dumneavoastra si recunoasteti explicit dreptul lor la spatiu public — transparenta completa necesita numele, motivul si intentia, nu doar un ton casual."
+                },
+                "neutral": {
+                    "choiceText": "'Sunt obisnuit ca lumea sa se planga mereu de ceva. Spuneti-mi ce se intampla aici si de ce va certati.'",
+                    "adequate": [
+                        "Nu escaladeaza, dar ignora ingrijorarile lor despre nedreptate."
+                    ],
+                    "missed": [
+                        "Cum s-ar schimba relatia cu grupul daca motivele interventiei nu ar fi luate cu usurinta?"
+                    ],
+                    "improvement": "Cum s-ar schimba relatia cu grupul daca motivele interventiei nu ar fi luate cu usurinta?"
+                },
+                "negative": {
+                    "choiceText": "'Sunt aici din cauza unei sesizari despre muzica tare si o cearta. Nu incercati nimic cu mine — eu sunt cel care pune intrebarile aici.'",
+                    "failures": [
+                        "Tonul autoritar creste rezistenta si confirma stereotipurile."
+                    ],
+                    "consequences": "Inchide calea catre dialog si opozitia generala a grupului creste.",
+                    "trainingFocus": "Cum puteti raspunde la 'de ce' in loc sa-l reprimati?"
+                }
+            }
+        },
+        "3": {
+            "stageName": "Faza 3 — Oprirea escaladarii certei",
+            "criticalSkills": [
+                "Dezescaladare",
+                "Transparenta",
+                "Comunicare comunitara"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'Baieti, vad ca sunteti amandoi suparati — si pot sa-mi dau seama ca asta conteaza. Kryštof, te aud — si faptul ca videoclipul e distribuit din nou face totul mai rau, inteleg. Jarda, si pe tine te aud. Dar nu rezolvam asta cu pumnii. (Se intoarce scurt catre doamna Kovarova) Doamna, inteleg ingrijorarea dumneavoastra si ma ocup — va rog sa-mi acordati cateva minute. (Inapoi catre baieti) Kryštof, spune-mi ce s-a intamplat — de la inceput. Jarda, randul tau vine, promit.'",
+                    "strengths": [
+                        "Folosirea numelor, validarea si un cadru echitabil muta conflictul in cuvinte",
+                        "Recunoasterea redistribuirii videoclipului arata intelegerea dimensiunii digitale a umilintei",
+                        "Recunoasterea pe scurt a doamnei Kovarova fara a-i permite sa dicteze abordarea gestioneaza presiunea comunitara fara pierderea focalizarii",
+                        "Promisiunea de timp egal abordeaza instinctul de corectitudine hipersensibil la aceasta varsta"
+                    ],
+                    "professionalImpact": "Pumnii lui Kryštof se desfac — cineva a inteles ca redistribuirea videoclipului face parte din problema. Doamna Kovarova, fiind recunoscuta, se retrage. Strigatele se potolesc, obtineti atat fapte cat si incredere."
+                },
+                "partially_positive": {
+                    "choiceText": "Va puneti intre ei cu palmele deschise: 'Bine, ajunge. Sa ne dam spatiu. Kryštof, tu stai aici. Jarda, tu mergi acolo. Va ascult pe fiecare pe rand.'",
+                    "adequate": [
+                        "Pozitionarea fizica intre ei rupe geometria escaladarii",
+                        "Palmele deschise semnaleaza non-agresivitate",
+                        "Directiile clare pentru separare reduc ambiguitatea"
+                    ],
+                    "missed": [
+                        "Abordeaza riscul fizic fara a face niciun lucru emotional",
+                        "Separa corpuri dar nu recunoaste sentimente — furia persista sub suprafata",
+                        "Fara validare emotionala, tensiunea se poate reaprinde in momentul in care va indepartati"
+                    ],
+                    "improvement": "Combinati separarea fizica cu recunoasterea emotionala — numirea emotiilor lor in timp ce creati spatiu abordeaza atat riscul imediat cat si tensiunea de baza."
+                },
+                "neutral": {
+                    "choiceText": "Va puneti intre ei cu palmele deschise: 'Sa ne dam spatiu. Tu aici, tu acolo. Va ascult pe fiecare pe rand.'",
+                    "adequate": [
+                        "Gestionare spatiala sigura",
+                        "Lipseste lucrul emotional."
+                    ],
+                    "missed": [
+                        "Ce ati putea adauga pentru a calma si emotional?"
+                    ],
+                    "improvement": "Ce ati putea adauga pentru a calma si emotional?"
+                },
+                "negative": {
+                    "choiceText": "'Ajunge. Daca voi doi nu va opriti imediat, mergeti amandoi cu mine la sectie.'",
+                    "failures": [
+                        "Amenintarea reduce la tacere dar construieste resentiment si rusine."
+                    ],
+                    "consequences": "Calm pe termen scurt, dar resentiment pe termen lung in grup.",
+                    "trainingFocus": "De ce amenintarile esueaza la tineri?"
+                }
+            }
+        },
+        "4": {
+            "stageName": "Faza 4 — Miezul problemei si lucrul cu emotiile",
+            "criticalSkills": [
+                "Dezescaladare",
+                "Transparenta",
+                "Comunicare comunitara"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'Imi pare rau pentru ce trece familia ta, Kryštof. E mult de purtat pe umeri, si are perfect sens ca ceea ce a facut Jarda te-a afectat atat de tare. Jarda — vad ca scuzele tale sunt sincere. Poti sa-i spui lui Kryštof in mod concret pentru ce iti ceri iertare si ce vei face ca sa repari? Nu doar 'imi pare rau' — pentru ce anume iti pare rau?'",
+                    "strengths": [
+                        "Validare + scuza facilitata = reconciliere mai profunda, invatare pentru grup.",
+                        "Cererea de specificitate transforma o scuza reflexiva intr-o confruntare autentica cu raul provocat",
+                        "Intrebarea 'ce vei face ca sa repari?' introduce responsabilitate si actiune reparatorie"
+                    ],
+                    "professionalImpact": "Scuza e sincera, tensiunea scade, relatia dintre baieti se restabileste."
+                },
+                "partially_positive": {
+                    "choiceText": "'Se pare ca a fost cu adevarat greu pentru tine, Kryštof. Jarda, e bine ca ti-ai cerut scuze. Acum — Jarda, trebuie sa stergi videoclipul ala. Si amandoi trebuie sa lasati asta in urma si sa mergeti mai departe.'",
+                    "adequate": [
+                        "Recunoaste durerea lui Kryštof cu empatie autentica",
+                        "Identifica actiunea practica necesara — stergerea videoclipului",
+                        "Recunoaste scuza lui Jarda ca un pas pozitiv"
+                    ],
+                    "missed": [
+                        "Trece in graba peste munca emotionala care face reconcilierea sa tina",
+                        "Kryštof nu a avut spatiu sa raspunda la scuza",
+                        "Jarda nu a fost rugat sa inteleaga impactul — doar sa stearga dovada"
+                    ],
+                    "improvement": "Lasati spatiu pentru schimbul emotional inainte de a sari la solutii practice — cereti-i lui Jarda sa articuleze specific pentru ce isi cere iertare in loc sa rezolvati doar problema tehnica."
+                },
+                "neutral": {
+                    "choiceText": "'Jarda, sterge postarea si cere-ti scuze cum trebuie. Kryštof, calmeaza-te — ti-a spus ca-i pare rau. Dati-va mana si sa mergem mai departe.'",
+                    "adequate": [
+                        "Rezolva problema tehnica dar nu lucreaza cu experienta emotionala",
+                        "Risc de resentiment persistent."
+                    ],
+                    "missed": [
+                        "Ce lipseste pentru o reconciliere durabila?"
+                    ],
+                    "improvement": "Ce lipseste pentru o reconciliere durabila?"
+                },
+                "negative": {
+                    "choiceText": "'Nu am timp de aceste certuri marunte. Daca voi doi nu puteti sa va purtati normal, sun parintii si rezolvam altfel. Terminati sau suportati consecintele.'",
+                    "failures": [
+                        "Minimizarea durerii lor + amenintari → rusine, rezistenta, prabusirea increderii."
+                    ],
+                    "consequences": "Emotiile se aprind din nou, cooperarea se prabuseste.",
+                    "trainingFocus": "De ce minimizarea durerii cuiva creste riscul re-escaladarii?"
+                }
+            }
+        },
+        "5": {
+            "stageName": "Faza 5 — Zgomot, drepturi si asteptari",
+            "criticalSkills": [
+                "Dezescaladare",
+                "Transparenta",
+                "Comunicare comunitara"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'Eli, ai perfecta dreptate — aveti tot dreptul sa fiti aici, si parcul e pentru toata lumea. Asta o include si pe doamna Kovarova de acolo, care vine si ea sa se bucure de dupa-amiaza ei. Iata ce am nevoie: sa tineti volumul la nivelul asta sau mai jos si sa nu mai fie certuri. Daca puteti face asta, nu exista niciun motiv pentru amenzi sau alte masuri. Corect?'",
+                    "strengths": [
+                        "Valideaza afirmatia lui Eli direct — 'ai perfecta dreptate' — in loc sa o respinga",
+                        "Explica interesul concurent (doamna Kovarova) fara a-i face pe adolescenti vinovatii",
+                        "Asteptarile sunt specifice si realizabile — 'nivelul asta sau mai jos'",
+                        "'Nu exista niciun motiv pentru amenzi sau alte masuri' clarifica consecinta pozitiva a conformarii",
+                        "Incheierea cu 'Corect?' invita acordul in loc sa impuna reguli, producand conformare voluntara"
+                    ],
+                    "professionalImpact": "Eli da din cap. Grupul accepta termenii pentru ca se simt ca o negociere, nu o impunere. Doamna Kovarova aude conversatia si e satisfacuta. Ambele parti simt ca interesele le-au fost respectate."
+                },
+                "partially_positive": {
+                    "choiceText": "'Aveti dreptul sa fiti aici. Doar tineti-o la un nivel rezonabil — muzica e bine acum si nu vreau sa fiu nevoit sa ma intorc. Suna bine?'",
+                    "adequate": [
+                        "Recunoaste dreptul lor de a fi in parc",
+                        "Mesajul de baza e corect — pot ramane daca tin volumul rezonabil",
+                        "Tonul e prietenos si non-punitiv"
+                    ],
+                    "missed": [
+                        "'Nu vreau sa fiu nevoit sa ma intorc' e o amenintare voalata care submineaza tonul pozitiv",
+                        "'Rezonabil' e vag — standarde diferite pentru adolescenti vs. pensionari",
+                        "Nu a abordat preocuparea doamnei Kovarova direct, lasand partea comunitara nerezolvata"
+                    ],
+                    "improvement": "Stabiliti asteptari specifice, masurabile in loc de standarde vagi, si adresati-va tuturor partilor interesate — nu doar grupului din fata dumneavoastra — pentru a produce un acord durabil."
+                },
+                "neutral": {
+                    "choiceText": "'Lucrurile sunt bine acum, continuati cum vreti, dar fara certuri sau batai.'",
+                    "adequate": [
+                        "Nu abordeaza nevoile comunitatii, nu foloseste momentul educativ."
+                    ],
+                    "missed": [
+                        "Cum echilibrati drepturile si nevoile imprejmilor?"
+                    ],
+                    "improvement": "Cum echilibrati drepturile si nevoile imprejmilor?"
+                },
+                "negative": {
+                    "choiceText": "'Daca mai aud de voi o singura data, va amendez pe fiecare. Tineti-o mai incet sau suportati consecintele.'",
+                    "failures": [
+                        "Amenintari in loc de explicatie → efect pe termen scurt, resentiment pe termen lung."
+                    ],
+                    "consequences": "Tensiune tacuta, relatie mai proasta pe viitor.",
+                    "trainingFocus": "De ce educatia e mai eficienta decat sanctiunile preventive?"
+                }
+            }
+        },
+        "6": {
+            "stageName": "Faza 6 — Solutie colaborativa",
+            "criticalSkills": [
+                "Dezescaladare",
+                "Transparenta",
+                "Comunicare comunitara"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'E o solutie foarte bine gandita — ati venit cu ea singuri si functioneaza pentru toata lumea. Zona de skateboard e un loc excelent. Sa mergem pe planul vostru, si voi trece eu pe acolo putin mai tarziu sa vad cum merge. Bravo.'",
+                    "strengths": [
+                        "'Ati venit cu ea singuri' le ofera proprietate — acesta e acordul lor, nu ordinul dumneavoastra",
+                        "'Functioneaza pentru toata lumea' valideaza faptul ca au luat in considerare si pe altii",
+                        "'Voi trece pe acolo' ofera responsabilizare usoara fara amenintare — incredere cu prezenta",
+                        "'Bravo' e intarire pozitiva specifica care semnaleaza ca comportamentul responsabil e observat si respectat",
+                        "Tratarea adolescentilor ca rezolvatori capabili de probleme in loc de probleme de gestionat este transformatoare"
+                    ],
+                    "professionalImpact": "Grupul se lumineaza vizibil. Eli zambeste. Incep sa-si stranga lucrurile. Doamna Kovarova da din cap cu aprobare. Acordul are durabilitate ridicata pentru ca le apartine lor."
+                },
+                "partially_positive": {
+                    "choiceText": "'Ar putea merge. Incercati — dar tineti minte, tineti-o rezonabil, altfel revin cu o alta abordare.'",
+                    "adequate": [
+                        "Accepta propunerea grupului in loc sa o suprascrie",
+                        "Le permite sa-si implementeze propria solutie",
+                        "Nu impune conditii inutil de stricte"
+                    ],
+                    "missed": [
+                        "Submineaza imediat propunerea cu o amenintare conditionata ('alta abordare')",
+                        "'Incercati' implica asteptarea esecului",
+                        "Nu recunoaste faptul ca ei insisi au generat solutia — oportunitate ratata pentru intarire pozitiva"
+                    ],
+                    "improvement": "Cand un grup ofera o solutie rezonabila, sustineti-o cu laude autentice in loc de aprobare conditionata — proprietatea si intarirea pozitiva produc conformare mai durabila decat amenintarile din coada."
+                },
+                "neutral": {
+                    "choiceText": "'Bine, faceti ce credeti ca e mai bine — nu ma bag.'",
+                    "adequate": [
+                        "Cedeaza responsabilitatea dar nu recunoaste efortul lor; impact slab asupra relatiei."
+                    ],
+                    "missed": [
+                        "De ce e recunoasterea importanta pentru sustenabilitatea acordului?"
+                    ],
+                    "improvement": "De ce e recunoasterea importanta pentru sustenabilitatea acordului?"
+                },
+                "negative": {
+                    "choiceText": "'Facem cum spun eu: puteti ramane in parc, dar muzica ramane complet oprita. Fara boxa, fara zgomot.'",
+                    "failures": [
+                        "Abordarea rigida pedepseste efortul de compromis."
+                    ],
+                    "consequences": "Demotivare, cooperare voluntara mai scazuta.",
+                    "trainingFocus": "Cand e directivitatea necesara si cum o justificati?"
+                }
+            }
+        },
+        "7": {
+            "stageName": "Faza 7 — Incheierea pe teren",
+            "criticalSkills": [
+                "Dezescaladare",
+                "Transparenta",
+                "Comunicare comunitara"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'Va multumesc pentru cooperare — tuturor. Eli, Nela, multumesc ca ati vorbit cu mine in loc sa ma excludeti. Kryštof, sper ca tatal tau se va face bine. Jarda, ce ai facut mai devreme a cerut curaj. Daca vreunul dintre voi are nevoie vreodata de ajutor cu ceva — nu doar chestiuni de politie — puteti intreba. Bucurati-va de dupa-amiaza.'",
+                    "strengths": [
+                        "Folosirea numelor personalizeaza intalnirea — sunt indivizi, nu 'un grup de adolescenti'",
+                        "Recunoasterea situatiei de familie a lui Kryštof arata ca ati ascultat si v-a pasat",
+                        "Laudarea scuzelor lui Jarda intareste reconcilierea",
+                        "Oferirea ajutorului viitor redefineste relatia politie-tineri de la adversariala la suportiva",
+                        "'Bucurati-va de dupa-amiaza' le returneaza ziua"
+                    ],
+                    "professionalImpact": "Nela zambeste. Kryštof da din cap in liniste. Jarda e surprins sa fie laudat. Eli face cu mana. Pleaca purtand o experienta fundamental diferita a politiei. Increderea in politie ca sursa de ajutor creste."
+                },
+                "partially_positive": {
+                    "choiceText": "'Multumesc ca ati cooperat. V-ati descurcat bine. Sa aveti o dupa-amiaza frumoasa si tineti-o calma pe acolo.'",
+                    "adequate": [
+                        "Incheiere calda, apreciativa si sincer prietenoasa",
+                        "Intarire pozitiva care recunoaste maturitatea lor",
+                        "Tonul se potriveste situatiei — casual si respectuos"
+                    ],
+                    "missed": [
+                        "Nu s-a adresat indivizilor — in special lui Kryštof, care a impartasit ceva profund personal",
+                        "Pasul dificil al lui Jarda de a-si cere scuze a ramas nerecunoscut",
+                        "Recunoastere generica de grup in loc de recunoastere individuala care are greutate enorma la adolescenti"
+                    ],
+                    "improvement": "Investiti inca treizeci de secunde in recunoasterea individuala — adresarea fiecarei persoane pe nume si recunoasterea contributiei lor specifice transforma o interactiune pozitiva intr-una memorabila."
+                },
+                "neutral": {
+                    "choiceText": "'Bine, de data asta trecem cu vederea, dar data viitoare ar putea fi o amenda. Tineti-o mai incet.'",
+                    "adequate": [
+                        "Limite clare fara recunoasterea efortului lor."
+                    ],
+                    "missed": [
+                        "Cand e avertismentul suficient si cand face rau?"
+                    ],
+                    "improvement": "Cand e avertismentul suficient si cand face rau?"
+                },
+                "negative": {
+                    "choiceText": "'Aveti grija data viitoare, altfel primiti toti amenzi. Nu voi mai fi atat de amabil.'",
+                    "failures": [
+                        "Tonul mustrator distruge increderea construita."
+                    ],
+                    "consequences": "Amaraciune, disponibilitate mai mica de cooperare data viitoare.",
+                    "trainingFocus": "Cum va tineti in frau propria frustrare la sfarsitul unei interventii?"
+                }
+            }
+        }
+    },
+    "comprehensiveMetrics": {
+        "youthEngagement": {
+            "description": "Calitatea generala a comunicarii verbale si non-verbale cu tinerii",
+            "indicators": {
+                "excellent": [
+                    "Ascultare activa demonstrata constant",
+                    "Ton adecvat pentru fiecare situatie",
+                    "Transmitere clara, concisa a informatiilor",
+                    "Folosire eficienta a tacerii si rabdarii"
+                ],
+                "poor": [
+                    "Intreruperea sau vorbirea peste parti",
+                    "Ton agresiv sau dismissiv",
+                    "Mesaje confuze sau contradictorii",
+                    "Nereusita de a citi semnalele non-verbale"
+                ]
+            }
+        },
+        "proceduralFairness": {
+            "description": "Respectarea cerintelor legale si de serviciu",
+            "indicators": {
+                "excellent": [
+                    "Conformitate cu toate cerintele legale",
+                    "Documentare corespunzatoare",
+                    "Activarea serviciilor potrivite",
+                    "Mentinerea protocoalelor de siguranta"
+                ],
+                "poor": [
+                    "Raportare obligatorie ratata",
+                    "Nerespectarea procedurilor de siguranta",
+                    "Ignorarea cerintelor legale",
+                    "Documentare incompleta sau inexistenta"
+                ]
+            }
+        },
+        "emotionalIntelligence": {
+            "description": "Capacitatea de a recunoaste si raspunde la emotii",
+            "indicators": {
+                "excellent": [
+                    "Recunoastere precisa a starilor emotionale",
+                    "Raspuns cu empatie potrivita",
+                    "Gestionarea propriilor reactii emotionale",
+                    "Dezescaladare prin validare emotionala"
+                ],
+                "poor": [
+                    "Ignorarea distresului emotional evident",
+                    "Raspuns cu judecata sau critica",
+                    "Lasarea sentimentelor personale sa influenteze raspunsul",
+                    "Escaladare prin invalidare emotionala"
+                ]
+            }
+        },
+        "proportionateResponse": {
+            "description": "Constientizare si respect fata de factorii culturali si contextuali",
+            "indicators": {
+                "excellent": [
+                    "Recunoasterea dinamicilor culturale",
+                    "Respect pentru structura familiala",
+                    "Evitarea presupunerilor culturale",
+                    "Ajustare potrivita a abordarii"
+                ],
+                "poor": [
+                    "Crearea stereotipurilor culturale",
+                    "Ignorarea factorilor culturali",
+                    "Impunerea propriilor valori culturale",
+                    "Insensibilitate culturala"
+                ]
+            }
+        },
+        "communityRelations": {
+            "description": "Calitatea implicarii cu partile interesate din comunitate si construirea relatiilor pe termen lung",
+            "indicators": {
+                "excellent": [
+                    "Echilibrarea nevoilor tuturor partilor prezente",
+                    "Construirea increderii prin comunicare transparenta",
+                    "Recunoasterea preocuparilor comunitatii cu respect",
+                    "Lasarea unei impresii pozitive de durata"
+                ],
+                "poor": [
+                    "Ignorarea preocuparilor partilor interesate din comunitate",
+                    "Favorizarea unei parti in detrimentul altora",
+                    "Atitudine dismissiva fata de preocuparile publice",
+                    "Deteriorarea increderii pe termen lung politie-comunitate"
+                ]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "escalation": {
+            "pattern": "Alegeri care au crescut tensiunea",
+            "examples": [
+                "Intrare agresiva",
+                "Acuzatii",
+                "Amenintari"
+            ],
+            "impact": "Fiecare escaladare face rezolvarea mai grea si creste riscul de violenta",
+            "correction": "Exersati prezenta calma si comunicarea neamenintatoare"
+        },
+        "missingCues": {
+            "pattern": "Nerecunoasterea indicatorilor critici",
+            "examples": [
+                "Risc de sinucidere",
+                "Trauma la copil",
+                "Dinamici de putere"
+            ],
+            "impact": "Ignorarea semnalelor poate duce la consecinte tragice",
+            "correction": "Dezvoltati competente de evaluare sistematica si tehnici de observatie"
+        },
+        "judgmental": {
+            "pattern": "Impunerea valorilor personale sau a criticii",
+            "examples": [
+                "Mustrare",
+                "Moralizare",
+                "Invinovatire"
+            ],
+            "impact": "Judecata distruge increderea si impiedica dezvaluirea",
+            "correction": "Mentineti neutralitatea profesionala si concentrati-va pe siguranta"
+        },
+        "procedural": {
+            "pattern": "Prea multa dependenta de procedura fara umanitate",
+            "examples": [
+                "Raspunsuri robotizate",
+                "Abordare tip checklist",
+                "Fara empatie"
+            ],
+            "impact": "Reduce conformarea si ignora informatii critice",
+            "correction": "Echilibrati procedura cu legatura umana"
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Performanta excelenta! Ati demonstrat competente exceptionale de comunicare in acest scenariu complex. Capacitatea de a echilibra empatia cu aplicarea legii, de a recunoaste dinamica emotionala si de a oferi suport cuprinzator mentinand siguranta arata stapanirea principiilor politiei moderne. Abordarea dumneavoastra a construit incredere autentica cu grupul de tineri.",
+            "mostlyPositive": "Performanta general puternica cu competente excelente de gestionare a crizelor. Ati aratat inteligenta emotionala buna si ati luat in mare parte decizii corecte. Punct forte cheie: [SPECIFIC_STRENGTH]. Domeniu de crestere: [SPECIFIC_IMPROVEMENT]. Abordarea dumneavoastra plina de compasiune a facut cu adevarat diferenta pentru acest grup.",
+            "mixed": "Ati gestionat bine unele aspecte dar ati ratat oportunitati critice. Punctele forte au inclus [SPECIFIC_STRENGTHS]. Totusi, [SPECIFIC_WEAKNESSES] necesita atentie. Amintiti-va ca interactiunile cu tinerii cer echilibrarea autoritatii cu respectul si intelegerea. Recapitulati [TRAINING_AREAS] pentru a va imbunatati raspunsul.",
+            "mostlyNegative": "Acest scenariu a relevat lacune semnificative in competentele de comunicare in criza. Desi [MINOR_POSITIVE], majoritatea alegerilor dumneavoastra au escaladat tensiunea sau au ignorat nevoi emotionale critice. In special, [MAJOR_FAILURES]. Formare imediata recomandata in: [CRITICAL_TRAINING]. Aceste situatii formeaza relatia pe termen lung a tinerilor cu politia.",
+            "allNegative": "Abordarea dumneavoastra in acest scenariu a fost ingrijoratoare si potential contraproductiva. Escaladare constanta, nevoi emotionale ignorate si lipsa empatiei ar fi putut duce la neincredere durabila. Formare corectiva obligatorie in: interventie in criza, tehnici de dezescaladare si inteligenta emotionala. Amintiti-va: comunicarea dumneavoastra formeaza modul in care tinerii vad politia pe ani de zile."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "'Inteleg ca e personal pentru voi, dar suntem aici pentru ca cineva ar putea fi in pericol.'",
+            "'Imi pare rau pentru ce treceti. Suna coplesitor, dar familia dumneavoastra are nevoie de voi.'",
+            "'Hei, nu sunteti in bucluc. Suntem aici ca toata lumea sa fie in siguranta.'",
+            "'Ati mentionat ca va e teama. Ascult. Imi puteti spune mai mult?'"
+        ],
+        "poorPhrases": [
+            "'Opriti-va acolo. Cine striga si de ce?'",
+            "'Nu va purtati asa cand e un copil aici!'",
+            "'Nu fiti atat de dramatici. Adunati-va.'",
+            "'Nu stiu, asta e pentru instante.'"
+        ],
+        "analysisCriteria": {
+            "tone": "A fost potrivit pentru contextul emotional?",
+            "clarity": "A fost mesajul clar si neambiguu?",
+            "empathy": "A recunoscut sentimentele si a aratat intelegere?",
+            "effectiveness": "A atins rezultatul intentionat?",
+            "safety": "A prioritizat siguranta tuturor?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Abordarea initiala in parc influenteaza cooperarea tinerilor.",
+        "2": "O explicatie transparenta a motivului interventiei construieste incredere.",
+        "3": "Dezescaladarea si ascultarea activa sunt mai eficiente decat amenintarile.",
+        "4": "Validarea emotiilor si ghidarea catre o scuza sprijina reconcilierea.",
+        "5": "Asteptari clare despre zgomot conduc la conformare voluntara.",
+        "6": "O solutie gasita impreuna creste angajamentul grupului.",
+        "7": "O incheiere pozitiva intareste relatia tineri-politie."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": [
+                "Negociere avansata in criza",
+                "Formarea altora in dezescaladare",
+                "Echipa specializata in criza familiala"
+            ],
+            "good": [
+                "Raspuns extins la sanatate mintala",
+                "Dinamici avansate ale violentei domestice",
+                "Psihologie infantila in criza"
+            ],
+            "average": [
+                "Interventie de baza in criza",
+                "Competente de ascultare activa",
+                "Dezvoltarea inteligentei emotionale"
+            ],
+            "poor": [
+                "Formare obligatorie in dezescaladare",
+                "Certificare interventie in criza",
+                "Atelier empatie si comunicare",
+                "Protocol raspuns la violenta domestica"
+            ]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {
+                "title": "Rezumat general al performantei",
+                "content": [
+                    "Scor",
+                    "Nivel de performanta",
+                    "Puncte forte cheie",
+                    "Slabiciuni critice"
+                ]
+            },
+            {
+                "title": "Analiza pas cu pas",
+                "content": [
+                    "Alegerea facuta",
+                    "Impact",
+                    "Abordari alternative",
+                    "Puncte de invatare"
+                ]
+            },
+            {
+                "title": "Eficacitate comunicare",
+                "content": [
+                    "Momentele cele mai bune",
+                    "Oportunitati ratate",
+                    "Analiza dialog"
+                ]
+            },
+            {
+                "title": "Puncte critice de decizie",
+                "content": [
+                    "Recunoasterea sanatatii mintale",
+                    "Siguranta copilului",
+                    "Rezolvare legala"
+                ]
+            },
+            {
+                "title": "Analiza tipare",
+                "content": [
+                    "Puncte forte consistente",
+                    "Greseli recurente",
+                    "Trenduri in luarea deciziilor"
+                ]
+            },
+            {
+                "title": "Dezvoltare profesionala",
+                "content": [
+                    "Nevoi imediate de formare",
+                    "Dezvoltare competente pe termen lung",
+                    "Resurse recomandate"
+                ]
+            },
+            {
+                "title": "Aplicare in practica",
+                "content": [
+                    "Cum se transpune in teren",
+                    "Scenarii frecvente",
+                    "Bune practici"
+                ]
+            }
+        ]
+    }
+}

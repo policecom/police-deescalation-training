@@ -1,0 +1,806 @@
+{
+  "scenarioId": "hospital-disturbance",
+  "reviewVersion": "v1",
+  "title": "Gili analizė — Sutrikimas ligoninėje",
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Skambutis ir koridorius",
+      "criticalSkills": [
+        "Žvalgybos rinkimas prieš įsitraukimą",
+        "Koordinavimas su medicinos personalu prieš kontaktą su paciento",
+        "Proporcingas saugumo įvertinimas"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Paklauskite sargybinio: 'Ar jis tiesiogiai grasino ką nors sužeisti? Ar jis ginkluotas? Ar kas nors pasiūlė jam skausmo valdymą? Ir kas vyriausioji slaugė — norėčiau trumpai su jais pasikalbėti prieš įeidamas.'",
+          "strengths": [
+            "Rinkia kritinę taktinę informaciją (ginklai, tiesioginės grėsmės) saugumo įvertinimui",
+            "Klausimas apie skausmo valdymą rodo supratimą, kad medicininiai veiksniai skatina agresiją ligoninėje",
+            "Prašymas susisiekti su vyriausiąja slauge nuo pradžių užmezga sveikatos priežiūros ir policijos bendradarbiavimą",
+            "30 sekundžių pasiruošimas reaktyvų atsakymą paverčia strateginiu"
+          ],
+          "consequences": "Įeinate su aiškia nuotrauka: jokių ginklų, jokių tiesioginių grėsmių konkretiems žmonėms, skausmo valdymas dar nepasiektas, vyriausioji slaugė laukia. Turite planą, ne tik buvimą.",
+          "trainingFocus": "Kaip 30 sekundžių pasiruošimas keičia kitų 30 minučių trajektoriją? Kokia informacija kritinė prieš įsitraukiant į ligoninės pacientą?"
+        },
+        "partially_positive": {
+          "choiceText": "Užduokite sargybinio kelis greitus klausimus — ar Pavelas ginkluotas, ar tiesiogiai grasino kam nors? Tada ramiai įeikite, laikydami sargybinį atsargą.",
+          "adequate": [
+            "Geras instinktas rinkti pagrindinę saugumo informaciją",
+            "Sargybos laikymas atsarga taktiškai pagrįstas"
+          ],
+          "missed": [
+            "Jokios koordinacijos su medicinos personalu — trūksta klinikinio konteksto už elgesio",
+            "Traktuojate kaip saugumo situaciją, kai tai pirmiausia sveikatos priežiūros situacija su saugumo dimensijomis",
+            "Be medicininio konteksto gali neteisingai įvertinti skausmu lėstą elgesį kaip agresija lėstą"
+          ],
+          "improvement": "Ligoninės aplinkoje kieno ekspertizė svarbiausia suprasti, kodėl pacientas elgiasi agresyviai? Ką koordinacija su kliniku personalu suteikia, ko sargyba negali?",
+          "consequences": "Esate saugus ir pakankamai informuotas, bet trūksta medicininio konteksto, kuris padėtų suprasti Pavelo elgesį ir efektyviai dirbti su priežiūros komanda."
+        },
+        "neutral": {
+          "choiceText": "Pasakykite sargybinio išvalyti laukimo kambarį nuo kitų pacientų dėl saugumo, tada pastatykitės prie triažo zonos įėjimo ir pašaukite Pavelą, kad policija atvyko.",
+          "adequate": [
+            "Saugumo sąmoningumas yra",
+            "Supratimas, kad kiti pacientai gali būti pavojuje"
+          ],
+          "missed": [
+            "Laukimo kambario evakuavimas dėl paciento, kuris metė žurnalų stovą, neproporcingas — sukuria chaosą ir vėluoja priežiūra dešimtims",
+            "Policijos atvykimo paskelbimas iš atstumo neasmeniškas ir sukelia galimo arešto suvokimą",
+            "Pavelas išgirs 'policija' prieš pamatydamas žmogų"
+          ],
+          "improvement": "Kaip įvertinate proporcingumą nusprendžiant apie saugumo priemones? Kuo skiriasi pacientas, kuris frustracijoje metė objektą, ir aktyvi grėsmė?",
+          "consequences": "Kiti pacientai panikuoja evakuojant laukimo kambarį. Pavelas girdi 'Policija!' ir adrenalinas pakyla. Suvokia tai kaip galimą arešto situaciją."
+        },
+        "negative": {
+          "choiceText": "Padėkojate apsaugos darbuotojui ir skubiai einate vidun — personalo saugumas yra prioritetas, ir kiekviena minutė, kol Paulius be policijos būna prie slaugų stoties, didina riziką. Medicininius duomenis galite sužinoti iš personalo stabilizavę situaciją.",
+          "risks": [
+            "Pulti be plano ar koordinacijos — reaktyvu, ne strategiška",
+            "Nežinote, kas bandyta, jo medicininės būklės ar ko reikia personalui",
+            "Pareigūnas, lenktyniaujantis link paciento, gali sukelti kovok ar bėk",
+            "Žodis 'konfrontuoti' atskleidžia nuostatą — priešišką, o ne bendradarbiaujančią"
+          ],
+          "consequences": "Įeinate be konteksto apie trigerius, medicinines problemas ar personalo bandymus. Pavelas mato pareigūną lenktyniaujantį link jo. Konfrontacija gali prasidėti prieš bet kokius žodžius.",
+          "trainingFocus": "Kuo skiriasi greitas atsakymas ir efektyvus atsakymas? Kada skubumas kenkia kokybei?"
+        }
+      },
+      "keyLearningPoints": [
+        "Žvalgybos rinkimas prieš įsitraukimą nėra delsimas — tai investicija į geresnį rezultatą",
+        "Ligoninėse koordinacija su kliniku personalu tok pat svarbi kaip taktinis įvertinimas",
+        "Medicinių agresijos variklių supratimas (skausmas, baimė, vaistų būklė) keičia jūsų požiūrį",
+        "Proporcingas atsakas reiškia paruošimo atitikimą tikram grėsmes lygiui, o ne blogiausiam scenarijui"
+      ]
+    },
+    "2": {
+      "stageName": "Pirmas kontaktas",
+      "criticalSkills": [
+        "Negrasinančios kūno kalbos ir padėties",
+        "Tiesioginis išreikštų baimių adresavimas",
+        "Skausmo kaip pagrindinio elgesio variklio validavimas"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Likite ramūs, laikykite rankas matomas ir atpalaiduotas šonuose, išlaikykite apie du metrus atstumą. Kalbėkite lėtai: 'Pavelai, nesu čia nieko areštuoti. Matau, kad labai skauda. Aš [vardas], ir esu čia padėti tai išsiaiškinti. Ar gali pasakyti, kas vyksta?'",
+          "strengths": [
+            "Matomos rankos signalizuoja jokios grėsmės — paslėptos rankos gali reikšti paslėptą ginklą",
+            "Du metrai gerbia asmeninę erdvę išlaikant pokalbio atstumą",
+            "Vardo naudojimas iš karto kuria asmeninį ryšį",
+            "Tiesioginis skausmo įvardijimas validuoja jo patirtį prieš viską kitą",
+            "Arešto ketinimo neigimas adresuoja jo aiškiai išreikštą baimę",
+            "Atviro tipo klausimas suteikia jam žodį — valandų bandė būti išgirstas",
+            "Lėtas kalbėjimas skatina jį pritapti prie jūsų tempo — įrodyta deeskalacijos technika"
+          ],
+          "consequences": "Pavelo gynėbiška poza šiek tiek atsipalaiduoja. Jis vis dar pyktas, bet jam suteikta erdvė ir kvietimas būti išgirstam — ko jam trūko keturias valandas.",
+          "trainingFocus": "Kodėl svarbu, kad kūno kalba atitiktų žodžius? Kas nutinka, kai pacientas jaučia neatitikimą tarp žodinio raminimo ir fizinės įtampos?"
+        },
+        "partially_positive": {
+          "choiceText": "Pakelkite abi rankas raminančia gesta: 'Ei, ramiai. Niekas nebus areštuotas. Tiesiog reikia, kad atsitrauktumėte žingsnį nuo slaugos stoties, ir galime pasikalbėti, kas vyksta.'",
+          "adequate": [
+            "Raminimas dėl arešto tinkamas",
+            "Deeskalacijos ketinimas aiškus"
+          ],
+          "missed": [
+            "'Ramiai' gali atrodyti globėjiškai kam nors ūminėje kančioje",
+            "Prašyti jį judėti prieš užmezgant ryšį atrodo kaip nurodymas, ne kvietimas",
+            "Gali interpretuoti 'atsitraukite' kaip fizinės kontrolės sekos pradžią",
+            "Jokio jo skausmo pripažinimo — pagrindinio jo elgesio variklio"
+          ],
+          "improvement": "Kuriame sąveikos momente tinkama daryti fizinius prašymus ir kas turi įvykti pirmiausia? Kaip kito skausmo pripažinimas keičia norą paklusti?",
+          "consequences": "Pavelas nejuda. Atsako: 'Nesakyk man atsitraukti — keturias valandas jau atsitraukiu!' Sąveika prasideda nesėkmingu prašymu, kas susilpnina jūsų poziciją."
+        },
+        "neutral": {
+          "choiceText": "Priartėkite šiek tiek kampu, sustokite kelis žingsnius toliau ir pasakykite išmatuotu tonu: 'Aš pareigūnas [vardas]. Suprantu, kad ilgai laukėte. Norėčiau išgirsti, kas nutiko.'",
+          "adequate": [
+            "Geras kampinis požiūris ir išmatuotas tonas",
+            "Profesionalus prisistatymas",
+            "Laukimo pripažinimas"
+          ],
+          "missed": [
+            "Neadresuoja 'dramblio kambaryje' — kad buvo iškviesta policija",
+            "Pavelas aiškiai išreiškė baimę būti areštuotam, ir šis atsakymas tai ignoruoja",
+            "Šokti tiesiai į 'kas nutiko' be skausmo validavimo gali atrodyti tyrimas",
+            "Neaiškumas dėl jūsų rolės kuria kliūtį tikrai komunikacijai"
+          ],
+          "improvement": "Kai kas nors aiškiai nurodo baimę, kokia kaina jos neadresuoti tiesiogiai? Kaip neaiškumas dėl jūsų tikslo veikia paciento norą įsitraukti?",
+          "consequences": "Pavelas atsako, bet saugosi. Nežino, ar čia padėti, ar jį pašalinti. Neaiškumas kuria kliūtį nuoširdžiai komunikacijai."
+        },
+        "negative": {
+          "choiceText": "Pastatykitės tarp Pavelo ir slaugų apsaugoti personą: 'Pone, reikia, kad sumažintumėte balsą ir atsitrauktumėte nuo stalo. Personas bando atlikti savo darbą.'",
+          "risks": [
+            "Fiziškai įsiterpti prieš bet kokį žodinį įsitraukimą — konfrontacinis",
+            "'Sumažinkite balsą' ir 'atsitraukite' — įsakymai, ne pokalbio pradžia",
+            "Formuluojant aplink personalo poreikius visiškai ignoruojama Pavelo patirtis",
+            "Jis girdi: 'Jūsų skausmas nesvarbus, jų patogumas — taip'"
+          ],
+          "consequences": "Pavelas suvokia jus kaip dar vieną autoritetą, jį atmetantį. Jo pyktis nukreipiamas nuo ligoninės į jus. Konfrontacija eskaluoja ir dialogas prarandamas.",
+          "trainingFocus": "Kaip apsaugoti personalo saugumą nepozicionuojant save kaip paciento priešą? Ar abu tikslai gali būti kartu?"
+        }
+      },
+      "keyLearningPoints": [
+        "Kūno kalba turi atitikti žodžius — jei ne, pacientas jaučia nesąžiningumą ir gali labiau sujaudinti",
+        "Kai kas nors aiškiai nurodo baimę (areštas), kritiška adresuoti tiesiogiai — ignoravimas patvirtina baimę",
+        "Paciento skausmo įvardijimas prieš viską kitą validuoja jų patirtį ir atveria duris komunikacijai",
+        "Fiziniai prašymai (atsitraukite, atsisėkite, sumažinkite balsą) turėtų sekti ryšį, o ne jį pirminti"
+      ]
+    },
+    "3": {
+      "stageName": "Paciento istorija",
+      "criticalSkills": [
+        "Aktyvus klausymasis ir emocinė validacija",
+        "Elgesio prašymų formuluojimas kaip savo interesas",
+        "Sąjungos kūrimas per konkrečius įsipareigojimus"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Girdžiu jus, ir tai tikrai baisu — nejautrumas ant skausmo yra bauginantis. Keturios valandos — ilgas laikas, kai taip kenti. Kalbėsiu su medicinos komanda apie jūsų situaciją. Bet turiu prašyti padėti man padėti jums — jei galime išlaikyti ramybę, turėsiu daug geresnę galimybę gauti jų dėmesį. Ar galime dirbti kartu?",
+          "strengths": [
+            "Validuoja ir fizinius simptomus (nejautrumas baisus), ir emocinę patirtį (keturios valandos — ilgas laikas)",
+            "Įsipareigojimas kalbėti su medicinos komanda konkretus ir įgyvendinamas, ne neaiškus",
+            "Ramiaus elgesio formuluojimas kaip savo reikalo pagalba suteikia jam agentiškumą ir motyvaciją",
+            "'Ar galime dirbti kartu' pozicionuoja jus kaip sąjungininką, o ne autoritetą",
+            "'Padėk man padėti tau' sukuria bendradarbiavimo sistemą, kur jo bendradarbiavimas tarnauja jo interesui"
+          ],
+          "consequences": "Pavelas linktelėja. Kas nors pripažino ir jo skausmą, ir baimę. Prašymas likti ramiam turi priežastį — tarnauja jo interesui. Bendradarbiavimui suteikiama paskirtis.",
+          "trainingFocus": "Kaip elgesio prašymo formuluojimas kaip savo interesas keičia motyvaciją paklusti? Kodėl 'padėk man padėti tau' veiksmingesnis nei 'nusiramink'?"
+        },
+        "partially_positive": {
+          "choiceText": "Matau, kad jaučiate stiprų skausmą ir rimtai vertinu tai, ką sakote apie nejautrumą. Leiskite dabar surasti gydytoją ir pamatyti, kur esate eilėje. Likite čia — sugrįšiu per kelias minutes.",
+          "adequate": [
+            "Rodo tikrą empatiją ir proaktyvią paramą",
+            "Rimtai vertina nejautrumo skundą",
+            "Siūlo konkretų veiksmą"
+          ],
+          "missed": [
+            "Palikti pacientą vieną iš karto po kontakto užmezgimo nutraukia ką tik sukurtą ryšį",
+            "'Likite čia' — įsakymas tam, kas dar nesutiko sekti jūsų pavyzdžiu",
+            "Jei greitai nerandate gydytojo, delsimas atrodo kaip dar vienas sulaužytas pažadas",
+            "Jokio mechanizmo išlaikyti ramybę jūsų nebuvimo metu"
+          ],
+          "improvement": "Kokia rizika duoti pažadus, priklausančius nuo kitų žmonių bendradarbiavimo? Kaip išlaikyti ryšį, kai reikia atsitraukti?",
+          "consequences": "Pavelas laukia nerimaudamas. Jei greitai sugrįšite su geromis žiniomis — veikia. Jei būsite ilgiau nei kelios minutės — jo pasitikėjimas išgaruoja ir sujaudinimas grįžta — blogiau nei anksčiau."
+        },
+        "neutral": {
+          "choiceText": "Tai tikrai skamba sunku, Pavelai. Skubios pagalbos skyrius šiąnakt labai užimtas ir suprantu, kad laukimas frustruoja. Bet daiktų mėtymas ir rėkimas į slauges nepaspartins priėmimo. Pabandykime tai išspręsti produktyviau.",
+          "adequate": [
+            "Pripažįsta sunkumą",
+            "Naudoja jo vardą"
+          ],
+          "missed": [
+            "Iš karto pereina nuo pripažinimo prie elgesio kritikos",
+            "'Daiktų mėtymas ir rėkimas' primena jam blogiausius momentus, o ne susitinka ten, kur jis dabar",
+            "'Produktyviau' neaišku ir šiek tiek globėjiška",
+            "Jis nemetė daiktų dėl linksmybių — metė, nes jautėsi nematomas"
+          ],
+          "improvement": "Kuo skiriasi praeities elgesio pripažinimas ir įsikibimas į jį? Kai kas nors nusiramino, ar verta priminti, ką darė blogiausiu momentu?",
+          "consequences": "Pavelo gynėbiškumas grįžta: 'Nebūčiau rėkęs, jei kas nors būtų iš klausęs iš pradžių!' Atvira akimirksnė prarandama ir prasideda pateisinimų ciklas."
+        },
+        "negative": {
+          "choiceText": "Suprantu, kad frustruojate, bet turiu būti nuoširdus — nesu gydytojas ir negaliu pakeisti jūsų vietos eilėje. Ligoninė turi triažo sistemą, kuri prioritetizuoja kritiškiausius atvejus. Esu tikras, kad personalas daro viską, ką gali.",
+          "risks": [
+            "Faktiškai teisinga, bet emociškai naikinanti",
+            "Pavelas neprašė būti gydytoju — jis prašė, kad kas nors rūpėtųsi",
+            "Triažo sistemos gynimas prilygina jus institucijai, kuri, jo nuomone, jį apklaido",
+            "'Esu tikras, kad personalas daro viską' atmeta jo gyvenimo patirtį būti ignoruojamam"
+          ],
+          "consequences": "Pavelo veidas sukietėja: 'Taigi ir jūs jų pusėje. Niekas visame pastate nerūpi.' Paskutinis pasitikėjimo tiltas griūva. Eskaliacija dabar labai tikėtina.",
+          "trainingFocus": "Kai kas nors jaučiasi paliktas sistemos — kas nutinka, kai ginate tą sistemą? Kaip pripažinti institucines ribas netapant institucinio gynėjo?"
+        }
+      },
+      "keyLearningPoints": [
+        "Fizinės ir emocinės patirties validavimas sukuria pagrindą elgesio bendradarbiavimui",
+        "Elgesio prašymai formuluojami kaip savo interesas ('padėk man padėti tau') daug veiksmingesni nei įsakymai ('nusiramink')",
+        "Įsikibimas į praeities neigiamą elgesį, kai kas nors jau nusiramino, vėl eskaluoja situaciją",
+        "Sistemos, kurią kas nors jaučia apklaidojusią, gynimas pozicionuoja jus kaip dalį problemos"
+      ]
+    },
+    "4": {
+      "stageName": "Slaugos perspektyva",
+      "criticalSkills": [
+        "Personalų traumos validavimas nepaliekant paciento",
+        "Rėmimas pervertinimu klinikiniais pagrindais, ne elgesio",
+        "Klinikinės autoriteto gerbimas ir reikalingos informacijos pabrėžimas"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Suprantu — kai į jus kažkas metė, tai baisu, ir turite pilną teisę jaustis nesaugiai. Nenoriu perrašyti jūsų triažo sprendimų — tai ne mano rolė. Bet kalbėjau su Pavelu ir čia gali būti medicininis susirūpinimas — jis aprašo kojos nejautrumą kartu su nugaros skausmu. Ar vyriausioji slaugė galėtų greitai pervertinti? Jei jo simptomai pasikeitė nuo pradinio triažo, tai gali pateisinti prioriteto atnaujinimą. Tuo tarpu liksiu šalia ir užtikrinsiu visų saugumą.",
+          "strengths": [
+            "Validuoja slaugės baimę neatinant — ji buvo užpuolta darbe",
+            "Aiškiai gerbia triažo sistemą ir jos profesinę autoritetą",
+            "Minima konkretūs simptomai (kojos nejautrumas) kaip įgyvendinama klinikinė informacija",
+            "Pervertinimą pateikia klinikiniais pagrindais, o ne kaip atlygį už blogą elgesį",
+            "Įsipareigojimas likti tiesiogiai adresuoja jos saugumo rūpestį",
+            "Išlaiko slaugės profesinį integritetą ir sistemos teisingumą"
+          ],
+          "consequences": "Slaugės Kovářová įtampa nusileidžia. Jai nesakoma pasiduoti — duodama klinikinė priežastis pervertinti. Ji susisiekia su vyriausiąja slauge. Sistema veikia kaip sukurta.",
+          "trainingFocus": "Kaip reikštis už pacientą nekenkiant personalui, kuris jaučiasi to paciento auka? Kuo skiriasi klinikinis reikšimas ir elgesio atlyginimas?"
+        },
+        "partially_positive": {
+          "choiceText": "Žinau, kad tai stresuoja. Kol kas jis nurimęs ir nemanau, kad jis pavojingas. Ar kas nors galėtų jį apžiūrėti ar bent pasakyti, kiek dar laukti? Kartais pakanka žinoti, kad niekas tavęs nepamitšo.",
+          "adequate": [
+            "Geras įžvalga, kad komunikacijos spragos skatina paciento agresiją",
+            "Praktinis pasiūlymas, adresuojantis pagrindinę priežastį",
+            "Supranta, kad pamirštumo jausmas — pagrindinis trigeris"
+          ],
+          "missed": [
+            "'Nemanau, kad jis pavojingas' sumažina slaugės patirtį — į ją buvo mesta į galvą",
+            "Prašyti ją dar daugiau daryti žmogui, kuris ją išgąsdino, ne visiškai pripažinus jos patirtį — netinkama",
+            "Jokios jos baimės validacijos prieš prašymus",
+            "Pasiūlymas pagrįstas, bet pirmiausia reikėjo empatijos slaugei"
+          ],
+          "improvement": "Kai tarpinaujate tarp dviejų pusių — kaip užtikrinti abiejų patirčių pilną validavimą prieš prašymus? Ar empatijos-tada-prašymo eilė svarbi?",
+          "consequences": "Slaugė jaučia, kad jos baimė neįvertinama rimtai. Gali nenoriai paklusti, bet auga nepasitenkinimas pareigūnu."
+        },
+        "neutral": {
+          "choiceText": "Girdžiu jus ir gailiuosi, kad tai nutiko. Tai turėjo būti baisu. Užtikrinsiu, kad jis daugiau jums netrukdys — jei sukels daugiau problemų, pašalinsiu jį iš teritorijos.",
+          "adequate": [
+            "Stipri empatija slaugei",
+            "Apsaugos pažadas atrodo raminantis"
+          ],
+          "missed": [
+            "Įsipareigoti pašalinti pacientą su galima medicinine skubu — etiškai ir teisiškai problematiška",
+            "Jei Pavelo nejautrumas rodo nervų suspaudimą, pašalinimas gali rimtai pakenkti",
+            "Pozicionavotės visiškai personalo pusėje, palikdami pacientą",
+            "Pažadas gali prieštarauti Pavelo medicininiams poreikiams"
+          ],
+          "improvement": "Ar galite apsaugoti personalą nepotencialiai palikdami paciento medicininius poreikius? Kaip balansuoti saugumo įsipareigojimus su sveikatos priežiūros įsipareigojimais?",
+          "consequences": "Slaugė jaučiasi apsaugota, bet davėte pažadą, kuris gali prieštarauti Pavelo medicininiams poreikiams. Rimtos atsakomybės pasekmės, jei jo būklė pablogėtų po pašalinimo."
+        },
+        "negative": {
+          "choiceText": "Žiūrėkite, suprantu — jis neturėjo nieko mesti. Bet nuoširdžiai, keturios valandos be jokio atnaujinimo? Galiu suprasti, kodėl pritrūko kantrybės. Gal jei kas nors būtų su juo anksčiau pakalbėjęs, dabar nebūtume čia.",
+          "risks": [
+            "Kaltina slaugę dėl paciento smurto — ji darbo vietos smurto auka",
+            "Pasakyti, kad iš dalies jos kaltė — sunaikina pareigūno ir personalo santykius",
+            "Kenkia bendradarbiavimui, reikalingam situacijai išspręsti",
+            "Kitas personalas, išgirdęs, nepasitikės jūsų buvimu"
+          ],
+          "consequences": "Slaugė Kovářová užsidaro. Ji nepadės palengvinti sprendimo. Kitas personalas nepasitiki jūsų buvimu. Praradote svarbiausius sąjungininkus pastate.",
+          "trainingFocus": "Net kai sisteminės klaidos prisideda prie situacijos — ar tinkama kaltinti priešais esantį asmenį? Kuo skiriasi sisteminė kritika ir asmeninė kaltė?"
+        }
+      },
+      "keyLearningPoints": [
+        "Sveikatos priežiūros darbuotojai, patyrę smurtą darbe, nusipelno pilnos validacijos prieš bet kokius tolesnius prašymus",
+        "Paciento reikšmas klinikiniais pagrindais (pasikeitę simptomai) išlaiko triažo integritetą — reikšmas elgesio pagrindais ('jis garsiausias') jį susilpnina",
+        "Policija turi gerbti ir palaikyti klinikinę autoritetą, o ne perrašyti",
+        "Pirmosios linijos personalo kaltinimas dėl sisteminių problemų sunaikina bendradarbiavimą, reikalingą situacijai išspręsti"
+      ]
+    },
+    "5": {
+      "stageName": "Atvyksta žmona",
+      "criticalSkills": [
+        "Naujų pusių, įsitraukiančių į deeskalaciją, valdymas",
+        "Potencialių komplikacijų pavertimas sąjungininkais",
+        "Pasakojimo formuluotės kontrolė"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Atsisukite į Lenką ramia, raminancia išraiška: 'Jūs tikriausiai Lenka — Pavelas minėjo. Aš pareigūnas [vardas]. Pavelas ne į jokią bėdą. Jis labai kentėjo ir sunku laukė. Kalbėjau su juo ir su medicinos personalu — dirbame, kad jį priimtų. Jūsų buvimas čia gali labai padėti — jam dabar reikia paramos.'",
+          "strengths": [
+            "Jos vardo naudojimas (iš Pavelo ankstesnio pokalbio) rodo, kad tikrai klausėtės",
+            "'Pavelas minėjo jus' subtiliai rodo įsitraukimą, ne tik valdymą",
+            "Tiesioginis arešto neigimas iš karto adresuoja jos baimę",
+            "Jos atvykimo formuluojimas kaip naudingas suteikia konstruktyvią rolę",
+            "'Jam reikia paramos' validuoja ir jos rūpestį, ir jo kančią",
+            "Nesikibama prie neigiamo elgesio — dėmesys dabartinei situacijai ir keliai į priekį"
+          ],
+          "consequences": "Lenkos baimė išnyksta. Ji pereina prie Pavelo. Pavelas matomai atsipalaiduoja — kas nors jo pusėje, ir pareigūnas tai palengvino. Emocinė temperatūra žymiai nusileidžia.",
+          "trainingFocus": "Kaip mylimo žmogaus įtraukimas kaip sąjungininko, o ne liudytojo, keičia dinamiką? Kokią informaciją iš ankstesnių pokalbių galite naudoti naujai atvykusiems kurti momentinį ryšį?"
+        },
+        "partially_positive": {
+          "choiceText": "Kreipkitės į abu: 'Lenka, prašau nesijaudinti. Pavelai, ar gali pasakyti žmonai, ką aptarėme? Manau, ji turėtų žinoti, kad darome progresą ir viskas bus gerai.'",
+          "adequate": [
+            "Apimantis požiūris, įtraukiantis abi puses",
+            "Optimistinis tonas",
+            "Suteikia Pavelui agentiškumą pasakoti savo istoriją"
+          ],
+          "missed": [
+            "Pavelą padaryti atsakingą už pasakojimą, kai jis vis dar emociškai įkaitęs — rizika iškraipyto perpasakojimo",
+            "'Viskas bus gerai' — pažadas, kurio negalite garantuoti",
+            "Lūkesčių, kurių negalite kontroliuoti, nustatymas paruošia visus nusivylimui",
+            "Jei pažadėtas 'progresas' greitai nepasiteisina — abu jaučiasi apgauti"
+          ],
+          "improvement": "Kaip įkvėpti pasitikėjimo nedarant pažadų, priklausančių nuo kitų? Kada geriau kontroliuoti pasakojimą, o kada leisti pacientui pasakyti savo versiją?",
+          "consequences": "Pavelo pasakojimas sutelkia dėmesį į skundus. Lenka sujaudinama. Kai progresas greitai nepasiteisina — abu jaučiasi apgauti."
+        },
+        "neutral": {
+          "choiceText": "Leiskite Pavelui pačiam paaiškinti žmonai situaciją, o jūs atsitraukite kelis metrus, suteikdami privatumo akimirką.",
+          "adequate": [
+            "Gerbia jų santykius",
+            "Suteikia asmeninę erdvę"
+          ],
+          "missed": [
+            "Atsižvelgiant į Pavelo dabartinę emocinę būseną, jo versija sustiprins jo aukos naratyvą",
+            "Auditorija (jo žmona) gali vėl eskaluoti jo pyktį per validaciją",
+            "Atsitraukimas reiškia įtakos praradimą kritiniu momentu",
+            "Dviejų žmonių bendra frustracija didesnė nei kiekvieno atskirai"
+          ],
+          "improvement": "Kada erdvės suteikimas padeda ir kada leidžia situacijai vėl eskaluoti? Kaip simpatiška auditorija keičia emocinę trajektoriją?",
+          "consequences": "Pavelas išlieja Lenkai, kuri vis labiau sujaudinama dėl jo. Jų bendra frustracija viršija tai, ką kiekvienas jautė vienas. Praradote moderuojančią įtaką."
+        },
+        "negative": {
+          "choiceText": "Priartėkite prie žmonos ir paaiškinkite: 'Ponia, jūsų vyras tapo trikdytoju ir mus iškvietė užtikrinti visų saugumą. Jis ne areštuotas, bet metė daiktus į personalą. Tvarkome situaciją.'",
+          "risks": [
+            "Pavelo aprašymas kaip 'trikdytojo' — blogiausia įmanoma formuluotė jo žmonai",
+            "Mestų daiktų pabrėžimas sukelia gynimo instinktus ar gėdą",
+            "'Tvarkome situaciją' neįtraukia jos į rolę",
+            "Potencialus sąjungininkas paverstas komplikacija"
+          ],
+          "consequences": "Lenka arba susigėdi ir bara Pavelą (eskaluodama jo žeminimą), arba gynėbiškai jo pusėje. Bet kuriuo atveju potencialus sąjungininkas tampa komplikacija.",
+          "trainingFocus": "Kaip jūsų aprašymas kito elgesio mylimajam formuoja tai, kas bus toliau? Kuri formuluotė tarnauja sprendimui, o kuri — atskaitingumui?"
+        }
+      },
+      "keyLearningPoints": [
+        "Krizės metu atvykę šeimos nariai gali būti didžiausias turtas ar didžiausia komplikacija — jūsų formuluotė nulemia",
+        "Informacijos iš ankstesnių pokalbių (vardai, santykiai) naudojimas kuria momentinį ryšį su naujai atvykusiais",
+        "Pasakojimo kontrolė nereiškia melavimo — reiškia pasirinkimą, kurios tiesos tarnauja sprendimui",
+        "Pažadų, kurių asmeniškai negalite garantuoti ('viskas bus gerai'), kūrimas sukuria atsakomybę ir gadina pasitikėjimą, kai realybė neatitinka"
+      ]
+    },
+    "6": {
+      "stageName": "Lūžio taškas",
+      "criticalSkills": [
+        "Fizinės ribos išlaikymas be konfrontacijos",
+        "Pasekmių formuluojimas kaip savęs pralaimėjimas, o ne bausmė",
+        "Konkretių laiko įsipareigojimų naudojimas erdvei įsigyti"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Ramiai pastatykitės tarp Pavelo ir gydymo zonos durų — neblokuodami, bet esant: 'Pavelai, žinau, kad tai nepakenčiama. Pažadėjau padėti ir turėjau omenyje. Grįžti ten sukurs naują problemą — toliau nuo gydytojo, ne arčiau. Duokite man penkias minutes — dabar surasiu vyriausiąją slauge. Lenka, ar gali likti su juo?'",
+          "strengths": [
+            "Fizinė padėtis sukuria natūralią pauzę be konfrontacijos — esate, neblokuojate",
+            "Skausmo pripažinimas kaip 'nepakenčiamas' validuoja eskaliaciją, o ne atmeta",
+            "Pasekmė formuluojama kaip savęs pralaimėjimas (toliau nuo gydytojo), o ne bausmė (sulaikysiu)",
+            "Ankstesnio pažado nuoroda rodo nuoseklumą ir patikimumą",
+            "Penkių minučių įsipareigojimas konkretus ir laiku ribotas — sukuria atskaitingumą",
+            "Lenkai suteikiant aktyvią rolę įtraukia ją kaip raminantį veiksnį"
+          ],
+          "consequences": "Pavelas svarsto. Validacijos, konkretaus laiko ir žmonos rankos ant jo rankos derinys sukuria pakankamai trinties sustabdyti judėjimą į priekį. Jis vėl atsisėda.",
+          "trainingFocus": "Kaip konkretaus laiko rėžio įvardijimas sukuria atskaitingumą ir suteikia erdvę? Kodėl 'tai nukreipia toliau nuo to, ko norite' veiksmingesnis nei 'turėsiu sustabdyti'?"
+        },
+        "partially_positive": {
+          "choiceText": "Ramiai pasakykite: 'Pavelai, suprantu. Bet įėjimas į gydymo zoną be leidimo gali būti laikomas įsibrovimu, ir tai pakeistų tai iš medicinos vizito į teisinį reikalą. Nenoriu to jums.'",
+          "adequate": [
+            "Faktiškai teisinga teisinė formuluotė",
+            "Tikrai susirūpinęs tonas",
+            "'Nenoriu to jums' rodo asmeninį įsipareigojimą"
+          ],
+          "missed": [
+            "Teisinė terminologija ('įsibrovimas', 'teisinis reikalas') perkelia sąveiką iš sveikatos priežiūros į baudžiamąjį teisingumą",
+            "Būtent to Pavelas bijojo nuo momento, kai pamatė uniformą",
+            "Net su gerais ketinimais teisinė kalba keičia suvokiamą rolę iš pagalbininko į vykdytoją",
+            "Jokios konkretaus alternatyvos — pasakoma, ko nedaryti, bet ne kas vietoj to nutiks"
+          ],
+          "improvement": "Kaip teisinė kalba keičia žmogaus suvokimą apie jūsų rolę net su gerais ketinimais? Kuo skiriasi teisinė įspėjimas ir praktinė pasekmė?",
+          "consequences": "Pavelas sustoja, bet jo pasitikėjimas jumis nukenčia. Dabar mato jus kaip pirmiausia policiją, paskui pagalbininką. Anksčiau sukurtas geros valios sugadintas."
+        },
+        "neutral": {
+          "choiceText": "Atsisukate į Laurą: „Laura, ar galėtumėte padėti? Ar galite pasikalbėti su Pauliumi ir pamėginti jį nuraminti, kol aš surasiu ką nors iš medicinos komandos?“",
+          "adequate": [
+            "Lenkos įtraukimas — geras instinktas",
+            "Pripažįsta poreikį rasti medicinos personalą"
+          ],
+          "missed": [
+            "Visiškas deeskalacijos delegavimas išsigandusiai sutuoktiniui nesąžininga — ji neturi autoriteto ar mokymo",
+            "Jei Pavelas jos neklausys — ji jo nesustabdys",
+            "Nesate vietoje įsikišti, jei situacija eskaluos",
+            "Palikti vietą didžiausios įtampos momentu — rizikinga"
+          ],
+          "improvement": "Kada delegavimas tinkamas ir kada atsisakymas nuo atsakomybės? Kokius išteklius turi šeimos narys — ir ko trūksta — lyginant su pareigūnu?",
+          "consequences": "Lenka bando, bet Pavelas prasilenkia. Ji sužeista ir užgriuvusi. Pavelas pasiekia gydymo zonos duris. Praradote kontrolę iš atstumo."
+        },
+        "negative": {
+          "choiceText": "Įžengiate jam į kelią ir nustatote aiškią ribą: „Pauliau, suprantu frustracijuą, bet turiu apsaugoti visus čia — įskaitant jus. Jei įėjsite į gydymo zoną be leidimo, tai taps saugumo incidentu, kurį turėsiu dokumentuoti ir pranešti. Tai jus įtrauks į sistemą kaip trukdantį pacientą, ir tai jus lydys. Leiskite man tai išspręsti teisingai.“",
+          "risks": [
+            "Grėsmės-įsakymo seka sunaikina visą per sąveiką sukurtą ryšį",
+            "'Laukti rankų grandinėse vietoj kėdės' — žeminanti ir priešiška",
+            "Vienu sakiniu eskaluoja nuo 'frustruoto paciento' iki 'galimo sulaikymo'",
+            "Jokių tarpinių žingsnių tarp žodinio įspėjimo ir grąsinamo sulaikymo"
+          ],
+          "consequences": "Pavelas arba atsitraukia su žeminimu — žmonos akivaizdoje — arba fiziškai iššaukia. Lenka gali įsikišti. Situacija dabar konfrontacija, ne deeskalacija.",
+          "trainingFocus": "Kiek tarpinių žingsnių yra tarp žodinio įspėjimo ir grąsinamo sulaikymo? Kokia kaina peršokti prie maksimalaus atsako?"
+        }
+      },
+      "keyLearningPoints": [
+        "Fizinė padėtis (esant, bet neblokuojant) sukuria natūralias pauzes be konfrontacijos",
+        "Pasekmės formuluojamos kaip 'tai nukreipia toliau nuo to, ko norite' — veiksmingesnės nei bausmės grėsmės",
+        "Konkretūs laiko įsipareigojimai ('penkios minutės') sukuria konkretų atskaitingumą ir rodo patikimumą",
+        "Deeskalacijos delegavimas neapmokytiems šeimos nariams didžiausios įtampos momentu rizikingas — likite vietoje ir įsitraukę"
+      ]
+    },
+    "7": {
+      "stageName": "Sprendimas ir priežiūra",
+      "criticalSkills": [
+        "Perėjimas iš krizės režimo į bendradarbiaujantį pacientą",
+        "Paciento patirties patvirtinimas kaip sprendimo dalis",
+        "Agentiškumo atkūrimas per mažus pasirinkimus"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Geros žinios, Pavelai — vyriausioji slaugė nori dabar pažiūrėti į jūsų nugarą ir tą nejautrumą. Žinau, kad šiandien buvo baisu ir kad kovojote būti išgirsti. Jūs buvote išgirsti. Tai kitas žingsnis. Ar ko nors reikia prieš pradedant — vandens, akimirkos atsikvėpti?",
+          "strengths": [
+            "Pervertinimą pateikia kaip jo reikšmo rezultatą, o ne atlygį už nusiraminimą",
+            "'Jūs buvote išgirsti' — viena galingiausių frazių tam, kas valandų jautėsi nematomas",
+            "Pasirinkimų siūlymas (vanduo, akimirka) atkuria agentiškumą ir signalizuoja pagarbą",
+            "Perėjimas nuo pareigūno palengvinto prie slaugės vedamo — sklandus ir bendradarbiaujantis",
+            "'Šiandien buvo baisu' pripažinimas validuoja visą patirtį, ne tik pabaigą",
+            "Krizė išspręsta, nes poreikis buvo patenkintas, o ne elgesys nuslopintas"
+          ],
+          "consequences": "Pavelas atsidūsta. Jo pečiai nusileidžia pirmą kartą per valandas. Slaugė pradeda įvertinimą su bendradarbiaujančiu paciento. Krize baigta, nes išspręsta, o ne nuslopinta.",
+          "trainingFocus": "Kaip kito patirties patvirtinimas sukuria emocinę erdvę bendradarbiavimui? Kodėl 'jūs buvote išgirsti' turi tokią galią tam, kuris jautėsi nematomas?"
+        },
+        "partially_positive": {
+          "choiceText": "Pavelai, slaugė jau pasiruošusi. Prašau visiškai bendradarbiauti — tai ko laukėte. Užtikrinkime, kad nuo čia viskas vyktų sklandžiai.",
+          "adequate": [
+            "Aišku ir palaikantis",
+            "Žiūrint į priekį",
+            "Skatina bendradarbiavimą"
+          ],
+          "missed": [
+            "'Visiškai bendradarbiauti' skamba kaip nurodymas, o ne kvietimas",
+            "'Tai ko laukėte' šiek tiek transakcinis — tarsi apžiūra suteikiama sąlygiškai",
+            "Nepripažįsta to, per ką jis praėjo",
+            "Patirties emocinė žaizda neadresuota"
+          ],
+          "improvement": "Kuo skiriasi paklusnumo pasiekimas ir sprendimo pasiekimas? Kaip paskutinis sąveikos momentas nuspalvina visą atmintį?",
+          "consequences": "Pavelas paklūsta, bet jaučiasi valdomas, o ne gerbiamas. Pasakos šią istoriją kaip 'mane ignoravo, kol palūžau' — ne 'pareigūnas padėjo gauti priežiūrą.'"
+        },
+        "neutral": {
+          "choiceText": "Kreipkitės į Pavelą ir Lenką kartu: 'Medicinos komanda dabar atidžiau pažiūrės. Atsitrauksiu ir suteiksiu privatumą. Jei ko nors reikės — būsiu prie durų.'",
+          "adequate": [
+            "Mandagu ir pagarbu",
+            "Siūlo tolesnį prieinamumą"
+          ],
+          "missed": [
+            "Visiškai praleidžia emocinį perėjimą",
+            "Pavelui reikia pripažinimo, kad jo patirtis svarbi — ne tik fizinės apžiūros",
+            "Atsitraukimas be uždarymo palieka emocinę lanką nebaigtą",
+            "Neadresuoja vyriausiosios slaugės prašymo padėti jį padaryti bendradarbiaujančiu"
+          ],
+          "improvement": "Ar jūsų darbas baigtas, kai tiesioginė krizė baigiasi, ar kai žmogus iš tikrųjų pasiruošęs kitam žingsniui? Kaip atrodo emocinis uždarymas deeskalacijoje?",
+          "consequences": "Pavelas vis dar emociškai disreguliuotas per apžiūrą — sunkiau ir ne taip išsamiai. Medicinos komanda norėtų, kad daugiau paruoštumėte."
+        },
+        "negative": {
+          "choiceText": "Informuojate Paulių apie laukiantus dalykus: „Gerai, Pauliau — vyresnioji slaugė čia dėl jūsuų. tai geros žinios. Tik turiu nustatyti lūkesčius: prašau pilnai bendradarbiaukite su tyrimu, vykdykite jos nurodymus ir išlaikykite ramybę. Pažymėsiu savo ataskaitoje, kad tai išspręsta be incidento, kas išlaiškys jūsų įrašą švarų. Gerai?“",
+          "risks": [
+            "'Gavote, ko norėjote' reiškia, kad medicininė priežiūra buvo nuolaida, o ne teisė",
+            "'Elgtis tinkamai' — infantiliuojanti suaugusiam skausme",
+            "Eskorto grasinimas sprendimo momentu apnuodija rezultatą",
+            "Sveikatos priežiūros sėkmę performuliuoja į elgesio ultimatumą"
+          ],
+          "consequences": "Pavelas priimamas, bet sąveika baigiasi žeminimo gaida. Prisimins pareigūną, kuris grąsino jį išmesti, kai jis kentėjo. Skundų laiškas rašosi pats.",
+          "trainingFocus": "Kaip paskutinis sąveikos momentas nuspalvina visą atmintį? Koks ilgalaikis poveikis — baigti grėsme ar patvirtinimu?"
+        }
+      },
+      "keyLearningPoints": [
+        "'Jūs buvote išgirsti' — viena galingiausių deeskalacijos frazių tam, kuris jautėsi nematomas",
+        "Mažų pasirinkimų (vanduo, akimirka) siūlymas sprendimo momentu atkuria orumą ir agentiškumą",
+        "Paskutinis sąveikos momentas neproporcingai formuoja visą atmintį — baikite patvirtinimu, ne grėsme",
+        "Tikras sprendimas reiškia, kad pagrindinis poreikis buvo patenkintas, o ne elgesys nuslopintas į paklusnumą"
+      ]
+    },
+    "8": {
+      "stageName": "Apžvalga ir atskleidimas",
+      "criticalSkills": [
+        "Refleksija",
+        "Rinkimų susiejimas su rezultatais",
+        "Sveikatos priežiūros ir policijos bendradarbiavimo įtvirtinimas"
+      ],
+      "choiceAnalysis": {
+        "positive": {},
+        "partially_positive": {},
+        "neutral": {},
+        "negative": {}
+      },
+      "keyLearningPoints": [
+        "Naudokite apžvalgą, kad įtvirtintumėte, kas pavyko: koordinacija su personalu, skausmo ir baimės įvertinimas ir proporcingas saugumas.",
+        "Apmąstykite, kaip medicininis kontekstas (skausmas, vaistai, triažas) formavo situaciją; agresija ligoninėje dažnai yra sveikatos priežiūros veikiama."
+      ]
+    }
+  },
+  "comprehensiveMetrics": {
+    "healthcarePoliceCollaboration": {
+      "description": "Efektyvus darbas su medicinos personalu neperrašant jų klinikinės autoriteto ir nepalikant savo saugumo rolės",
+      "indicators": {
+        "excellent": [
+          "Koordinavimas su vyriausiąja slauge ar kliniku personalu prieš įsitraukimą",
+          "Reikšmas pervertinimui klinikiniais pagrindais, ne elgesio",
+          "Triažo sprendimų gerbimas ir reikalingų simptomų pakeitimų pabrėžimas",
+          "Saugumo buvimo išlaikymas neįsikišant į medicininę priežiūrą"
+        ],
+        "poor": [
+          "Klinikinių sprendimų perrašymas pagal paciento elgesį",
+          "Personalų kaltinimas dėl sisteminių problemų (laukimas, trūkstantis personalas)",
+          "Situacijos traktavimas tik kaip saugumo reikalas be medicininio konteksto",
+          "Paciento pašalinimo pažadėjimas neįvertinant medicininių pasekmių"
+        ]
+      }
+    },
+    "patientEmpathy": {
+      "description": "Skausmo, baimės ir frustracijos kaip agresijos variklių atpažinimas ir atsakymas, o ne elgesio traktavimas kaip nusikaltimo",
+      "indicators": {
+        "excellent": [
+          "Tiesioginis paciento skausmo ir baimės įvardijimas ir validavimas",
+          "Supratimas, kad agresija ligoninėse dažniausiai reiškia kančią ar nepatenktą poreikį",
+          "Išreikštų baimių (areštas) tiesioginis ir iš karto adresavimas",
+          "Paciento patirties patvirtinimas sprendimo momentu ('jūs buvote išgirsti')"
+        ],
+        "poor": [
+          "Skausmu lėstos agresijos traktavimas kaip nusikaltimo elgesio",
+          "Paciento išreikštos patirties ignoravimas ar atmetimas",
+          "Sistemos, kurią pacientas jaučia jį apklaidojusią, gynimas",
+          "Medicininės priežiūros formuluojimas kaip atlygis už gerą elgesį, o ne teisė"
+        ]
+      }
+    },
+    "situationalSafety": {
+      "description": "Fizinio saugumo personalui, pacientui ir kitiems išlaikymas vengiant neproporcingų atsakų",
+      "indicators": {
+        "excellent": [
+          "Proporcingos saugumo priemonės atitinka tikrą grėsmes lygį",
+          "Matomos rankos, tinkamas atstumas, kampinė padėtis",
+          "Fizinis buvimas (neblokuojant) natūralioms pauzėms kurti",
+          "Tarpinių žingsnių naudojimas prieš eskaluojant į vykdymą"
+        ],
+        "poor": [
+          "Neproporcingi atsakai (laukimo kambario evakuavimas dėl mesto žurnalų stovo)",
+          "Šuolis nuo žodinio įspėjimo prie grąsinamo sulaikymo be tarpinių žingsnių",
+          "Fizinis įsiterpimas prieš bet kokį žodinį įsitraukimą",
+          "Vietos palikimas didžiausios įtampos momentu"
+        ]
+      }
+    },
+    "communicationEffectiveness": {
+      "description": "Tinkamos kalbos, tono ir kūno kalbos naudojimas; kontraproduktyvių frazių ir elgesio vengimas",
+      "indicators": {
+        "excellent": [
+          "Kūno kalba atitinka žodinius pranešimus",
+          "Lėtas kalbėjimas skatinti tempo pritaikymą",
+          "Nuoseklus vardų naudojimas ryšiui kurti",
+          "Atviro tipo klausimai, kviečiantys pacientą būti išgirstam"
+        ],
+        "poor": [
+          "Įsakymai prieš ryšį ('atsitraukite', 'sumažinkite balsą', 'atsisėskite')",
+          "Globėjiška kalba ('ramiai', 'elkitės tinkamai')",
+          "Teisinė terminologija, keičianti suvokimą iš pagalbininko į vykdytoją",
+          "Priminti kito blogiausią elgesį po to, kai jis nusiramino"
+        ]
+      }
+    },
+    "outcomeFocusedResolution": {
+      "description": "Darbas link tvaraus sprendimo, kai pagrindinis poreikis patenkinamas, o ne laikino elgesio slopinimo",
+      "indicators": {
+        "excellent": [
+          "Elgesio prašymų formuluojimas kaip paciento interesų tarnavimas",
+          "Konkrečių, laiku ribotų įsipareigojimų kūrimas ir įvykdymas",
+          "Šeimos narių įtraukimas kaip konstruktyvių sąjungininkų",
+          "Emocinio uždarymo užtikrinimas kartu su praktiniu sprendimu"
+        ],
+        "poor": [
+          "Paklusnumo pasiekimas grėsmėmis ar žeminimu",
+          "Pažadų, priklausančių nuo kitų bendradarbiavimo, kūrimas",
+          "Sąveikų pabaiga grėsmėmis ar sąlyginais ultimatumais",
+          "Krizės laikymas baigta, kai elgesys nuslopintas, o ne kai poreikiai patenkinami"
+        ]
+      }
+    }
+  },
+  "mistakePatterns": {
+    "securityMindset": {
+      "pattern": "Sveikatos priežiūros situacijos traktavimas pirmiausia kaip saugumo problemos",
+      "examples": [
+        "Pulti be medicininio konteksto ar personalo koordinacijos",
+        "Fiziškai įsiterpti prieš žodinį įsitraukimą",
+        "Zonų evakuavimas neproporcingai tikrai grėsmei",
+        "Paciento formuluojimas kaip įtariamojo, o ne kančioje esančio"
+      ],
+      "impact": "Patvirtina paciento baimę, kad policijos buvimas reiškia jų kančios kriminalizavimą. Eskaluoja, o ne sprendžia. Kenkia sveikatos priežiūros ir policijos bendradarbiavimui.",
+      "correction": "Performuluokite: tai sveikatos priežiūros situacija su saugumo dimensijomis, o ne saugumo situacija, atsitikusi ligoninėje. Pirmiausia koordinuokitės su medicinos personalu. Supraskite klinikinį vaizdą prieš įsitraukdami."
+    },
+    "prematureCommands": {
+      "pattern": "Fizinių nurodymų teikimas prieš užmezgant ryšį",
+      "examples": [
+        "'Atsitraukite nuo stalo'",
+        "'Sumažinkite balsą'",
+        "'Atsisėskite'",
+        "'Likite čia'"
+      ],
+      "impact": "Nesėkmingi prašymai susilpnina jūsų poziciją. Pacientas, atsisakęs pirmo nurodymo, dabar atvirai nepaklūsta — tai susiaurina galimybes. Ryšys turi pirminti prašymus.",
+      "correction": "Pirmiausia kurkite ryšį: prisistatymas, vardo naudojimas, skausmo pripažinimas, baimės adresavimas. Prašykite fizinio paklusnumo tik po to, kai pacientas parodė norą įsitraukti žodžiu."
+    },
+    "systemDefense": {
+      "pattern": "Institucijos, kurią pacientas suvokia jį apklaidojusią, gynimas",
+      "examples": [
+        "'Esu tikras, kad personalas daro viską, ką gali'",
+        "'Triažo sistema prioritetizuoja kritiškiausius atvejus'",
+        "'Skubios pagalbos skyrius šiąnakt labai užimtas'",
+        "'Nesu gydytojas ir negaliu pakeisti jūsų vietos'"
+      ],
+      "impact": "Pozicionuoja jus kaip sistemos, prieš kurią kovoja pacientas, dalį. Paskutinis pasitikėjimo tiltas griūva. Pacientas daro išvadą, kad niekas — nei ligoninė, nei policija — nėra jo pusėje.",
+      "correction": "Nereikia kritikuoti sistemos ar sutikti, kad ji suklupo. Vietoj to pripažinkite paciento patirtį neginant ir nekaltinant: 'Girdžiu — keturios valandos tokio skausmo — daug. Leiskite pažiūrėti, ką galiu padaryti.'"
+    },
+    "staffBlaming": {
+      "pattern": "Kaltės priskyrimas pirmosios linijos sveikatos priežiūros darbuotojams dėl sisteminių problemų",
+      "examples": [
+        "'Gal jei kas nors būtų su juo anksčiau pakalbėjęs, nebūtume čia'",
+        "Nuoroda, kad slaugės komunikacijos klaidos sukėlė agresiją",
+        "Slaugės baimės sumažinimas ('nemanau, kad jis pavojingas')",
+        "Nesugebėjimas validuoti darbo vietos smurto prieš prašymus"
+      ],
+      "impact": "Sunaikina pareigūno ir personalo santykius. Sveikatos priežiūros darbuotojai, jaučiantys kaltinamus, nebendradarbiaus. Kitas personalas, išgirdęs, nepasitikės policijos buvimu. Prarandate svarbiausius sąjungininkus.",
+      "correction": "Visada pirmiausia ir pilnai validuokite personalo patirtį. Atskirkite sisteminę kritiką (galiojančią) nuo asmeninės kaltės (destruktyvios). Paklauskite 'kas padėtų?' prieš siūlydami veiksmus."
+    },
+    "threatEscalation": {
+      "pattern": "Šuolis prie maksimalios vykdymo kalbos be tarpinių žingsnių",
+      "examples": [
+        "'Turėsiu sulaikyti'",
+        "'Lauksite rankų grandinėse vietoj kėdės'",
+        "'Išvesiu iš pastato'",
+        "'Tai pakeistų tai iš medicinos vizito į teisinį reikalą'"
+      ],
+      "impact": "Patvirtina paciento blogiausią baimę dėl policijos buvimo. Sunaikina per visą sąveiką sukurtą ryšį. Sukuria dvejetainį pasirinkimą (paklusti ar kovoti), kai yra tarpinių variantų. Paskutinė sąveikos atmintis — grėsmė.",
+      "correction": "Naudokite laipsniuotą atsaką: pripažinkite eskaliaciją, validuokite pagrindinį poreikį, formuluokite pasekmes kaip savęs pralaimėjimą, o ne bausmę, siūlykite konkrečius alternatyvius su konkrečiais laikotarpiais ir palikite vykdymo kalbą tikroms saugumo grėsmėms."
+    }
+  },
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Išskirtinas pasirodymas. Parodėte aukso standartą ligoninės sutrikimo atsakui: medicininio konteksto rinkimas prieš įsitraukimą, paciento skausmo ir baimės validavimas, bendradarbiavimas su medicinos personalu neperrašant klinikinės autoriteto, šeimos nario pavertimas konstruktyviu sąjungininku ir krizės sprendimas patenkinant pagrindinį poreikį, o ne slopinant elgesį. Pavelo laiškas jums padėką atspindi realybę — kai kas nors skausme pagaliau išgirstas, jie prisimena, kas klausėsi.",
+      "mostlyPositive": "Stiprus bendras pasirodymas su geru sveikatos priežiūros ir policijos bendradarbiavimu ir tikra paciento empatija. Išlaikėte saugumą traktuodami paciento kančią kaip tikrą ir galiojančią. Pagrindinė stiprybė: [SPECIFIC_STRENGTH]. Augimo sritis: [SPECIFIC_IMPROVEMENT]. Jūsų požiūris padėjo sukurti sąlygas priežiūrai, o ne konfrontacijai.",
+      "mixed": "Kai kuriuos aspektus tvarkėte gerai, bet praleidote kritines ryšio ar bendradarbiavimo progas. Stiprybės apėmė [SPECIFIC_STRENGTHS]. Tačiau [SPECIFIC_WEAKNESSES] reikalauja dėmesio. Ligoninės sutrikimai reikalauja vienu metu valdyti paciento kančią, personalo saugumą ir klinikinį bendradarbiavimą. Peržiūrėkite [TRAINING_AREAS], kad sustiprintumėte sritis, kuriose atsakas buvo silpnas.",
+      "mostlyNegative": "Šis scenarijus atskleidė reikšmingus spragas sveikatos priežiūros deeskalacijos įgūdžiuose. Nors jūs [MINOR_POSITIVE], dauguma pasirinkimų arba traktavo pacientą kaip saugumo grėsmę, kenkė medicinos personalo bendradarbiavimui arba naudojo vykdymo kalbą, patvirtinančią paciento baimę kriminalizacijai. Konkrečiai: [MAJOR_FAILURES]. Rekomenduojamas skubus mokymas: [CRITICAL_TRAINING].",
+      "allNegative": "Jūsų požiūris visiškai traktavo tai kaip saugumo problemą sveikatos priežiūros aplinkoje. Paciento teisėti medicininiai poreikiai buvo antrarūšiai elgesio kontrolei, medicinos personalo bendradarbiavimas trūko, o vykdymo kalba naudota ten, kur reikėjo deeskalacijos. Būtinas korekcinis mokymas: sveikatos priežiūros ir policijos bendradarbiavimas, skausmu lėstos agresijos atpažinimas, laipsniuotas atsakas ir empatija grindžiama deeskalacija. Atminkite: daugiau nei 75% darbo vietos smurto atvejų įvyksta sveikatos priežiūros įstaigose — policijos atsako kokybė tiesiogiai nulemia, ar tas skaičius auga, ar mažėja."
+    }
+  },
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "Ar kas nors pasiūlė jam skausmo valdymą? Ir kas vyriausioji slaugė — norėčiau trumpai su jais pasikalbėti prieš įeidamas.",
+      "Pavelai, nesu čia nieko areštuoti. Matau, kad labai skauda.",
+      "Girdžiu jus, ir tai tikrai baisu — nejautrumas ant skausmo yra bauginantis.",
+      "Turiu prašyti padėti man padėti jums — jei galime išlaikyti ramybę, turėsiu daug geresnę galimybę gauti jų dėmesį.",
+      "Nenoriu perrašyti jūsų triažo sprendimų — tai ne mano rolė. Bet jis aprašo kojos nejautrumą kartu su nugaros skausmu.",
+      "Jūs tikriausiai Lenka — Pavelas minėjo.",
+      "Grįžti ten sukurs naują problemą — toliau nuo gydytojo, ne arčiau. Duokite man penkias minutes.",
+      "Žinau, kad kovojote būti išgirsti. Jūs buvote išgirsti."
+    ],
+    "poorPhrases": [
+      "Pone, reikia, kad sumažintumėte balsą ir atsitrauktumėte nuo stalo.",
+      "Daiktų mėtymas ir rėkimas į slauges nepaspartins priėmimo.",
+      "Nesu gydytojas ir negaliu pakeisti jūsų vietos eilėje. Esu tikras, kad personalas daro viską, ką gali.",
+      "Gal jei kas nors būtų su juo anksčiau pakalbėjęs, dabar nebūtume čia.",
+      "Ponia, jūsų vyras tapo trikdytoju ir mus iškvietė užtikrinti visų saugumą.",
+      "Jei versti įsiveržti — turėsiu sulaikyti, ir tada lauksite rankų grandinėse vietoj kėdės.",
+      "Gavote, ko norėjote. Dabar reikia elgtis tinkamai."
+    ],
+    "analysisCriteria": {
+      "empathy": "Ar frazė validavo skausmą, baimę ar frustraciją prieš adresuojant elgesį?",
+      "collaboration": "Ar frazė palaikė sveikatos priežiūros ir policijos komandos darbą neperrašant klinikinės autoriteto?",
+      "framing": "Ar frazė formuliavo pasekmes kaip savęs pralaimėjimą, o ne bausmę?",
+      "congruence": "Ar žodinė žinutė atitiko aprašytą kūno kalbą ir padėtį?",
+      "resolution": "Ar frazė nukreipė link tvaraus sprendimo, o ne tik laikino paklusnumo?",
+      "dignity": "Ar frazė išlaikė paciento orumą ir personalo profesinę autoritetą?"
+    }
+  },
+  "scenarioSpecificLessons": {
+    "1": "30 sekundžių žvalgybos prieš įsitraukimą — įskaitant koordinaciją su medicinos personalu — paverčia reaktyvų atsakymą į strateginį",
+    "2": "Kai kas nors aiškiai nurodo baimę (areštas), kritiška adresuoti tiesiogiai ir iš karto — ignoravimas patvirtina baimę",
+    "3": "Elgesio prašymai formuluojami kaip savo interesas ('padėk man padėti tau') daug veiksmingesni nei įsakymai ('nusiramink') ar kritika ('neturėjote mesti daiktų')",
+    "4": "Sveikatos priežiūros darbuotojai, patyrę smurtą darbe, nusipelno pilnos validacijos prieš bet kokius tolesnius prašymus — o paciento reikšmas turi būti klinikiniais pagrindais, ne elgesio",
+    "5": "Krizės metu atvykę šeimos nariai gali būti didžiausias turtas ar didžiausia komplikacija — jūsų situacijos formuluotė nulemia",
+    "6": "Pasekmės formuluojamos kaip savęs pralaimėjimas ('tai nukreipia toliau nuo to, ko norite') veiksmingesnės nei vykdymo grėsmės — o konkretūs laiko įsipareigojimai įperka pasitikėjimą",
+    "7": "Paskutinis sąveikos momentas neproporcingai formuoja visą atmintį — 'jūs buvote išgirsti' sukuria ilgalaikį teigiamą poveikį, o 'elkitės tinkamai arba kitaip' — ilgalaikę žalą"
+  },
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Išplėstiniai sveikatos priežiūros ir policijos bendradarbiavimo protokolai",
+        "Kitių mokymas ligoninės deeskalacijoje",
+        "Krizės intervencijos komandos (CIT) vadovavimas sveikatos priežiūros aplinkoje"
+      ],
+      "good": [
+        "Išplėstinė deeskalacija sveikatos priežiūros aplinkoje",
+        "Skausmu lėstos agresijos ir medicininių sujaudinimo priežasčių supratimas",
+        "Daugiašalė mediacija institucinėse aplinkose"
+      ],
+      "average": [
+        "Pagrindiniai ligoninės sutrikimo atsako protokolai",
+        "Aktyvus klausymasis ir emocinė validacija krizės pacientams",
+        "Laipsniuotas atsakas ir proporcingumo įvertinimas"
+      ],
+      "poor": [
+        "Privalomas sveikatos priežiūros ir policijos bendradarbiavimo mokymas",
+        "Skausmas ir baimė kaip agresijos varikliai — seminaras",
+        "Empatija grindžiama deeskalacija medicininėse aplinkose",
+        "Proporcingas atsakas ir laipsniuotas vykdymas"
+      ]
+    }
+  },
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Bendras pasirodymo apžvalga",
+        "content": [
+          "Balas",
+          "Pasirodymo lygis",
+          "Pagrindinės stiprybės",
+          "Kritinės silpnybės"
+        ]
+      },
+      {
+        "title": "Etapų analizė",
+        "content": [
+          "Pasirinkimas kiekviename etape",
+          "Poveikis pacientui, personalui ir šeimai",
+          "Alternatyvūs požiūriai ir jų pasekmės",
+          "Pagrindinės mokymosi temos"
+        ]
+      },
+      {
+        "title": "Sveikatos priežiūros ir policijos bendradarbiavimo įvertinimas",
+        "content": [
+          "Koordinacijos prieš įsitraukimą kokybė",
+          "Klinikinės autoriteto pagarba",
+          "Reikšmo požiūris (klinikinis vs. elgesio pagrindai)",
+          "Personalų santykių valdymas"
+        ]
+      },
+      {
+        "title": "Paciento empatijos įvertinimas",
+        "content": [
+          "Skausmo ir baimės atpažinimas",
+          "Emocinės validacijos kokybė",
+          "Baimės adresavimas (arešto susirūpinimas)",
+          "Sprendimo formuluotė (poreikis patenkinamas vs. elgesys nuslopintas)"
+        ]
+      },
+      {
+        "title": "Komunikacijos efektyvumas",
+        "content": [
+          "Geriausi dialogų momentai",
+          "Naudotos kontraproduktyvios frazės",
+          "Kūno kalbos atitiktis",
+          "Pasakojimo formuluotės pasirinkimai"
+        ]
+      },
+      {
+        "title": "Raštų analizė",
+        "content": [
+          "Nuoseklios stiprybės etapuose",
+          "Pasikartojančios klaidos",
+          "Sprendimų tendencijos (saugumo nuostata vs. bendradarbiaujanti nuostata)"
+        ]
+      },
+      {
+        "title": "Profesinis tobulėjimas",
+        "content": [
+          "Skubūs mokymų poreikiai",
+          "Ilgalaikės įgūdžių plėtros prioritetai",
+          "Rekomenduojami ištekliai ir seminarai"
+        ]
+      },
+      {
+        "title": "Praktinis taikymas",
+        "content": [
+          "Kaip tai verčiasi į ligoninės skambučius lauke",
+          "Santykių su vietinėmis sveikatos priežiūros įstaigomis kūrimas",
+          "Pasikartojančių skambučių mažinimas kokybišku pirmuoju atsaku"
+        ]
+      }
+    ]
+  }
+}

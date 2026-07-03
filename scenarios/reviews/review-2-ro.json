@@ -1,0 +1,366 @@
+{
+    "scenarioId": 2,
+    "reviewVersion": "2.0",
+    "title": "Analiză — Negocierea unei plângeri de zgomot la hostel",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Sosirea la hostel",
+            "criticalSkills": ["Culegerea de informații înainte de implicare", "Evaluarea situației prin informarea personalului", "Rezistența la prejudecata urgenței în apelurile non-urgente de zgomot"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Puneți-i Martei întrebări cheie de urmărire: Hostelul are o politică de zgomot afișată sau ore de liniște? Care este data de check-out a grupului? Sunt toți într-o cameră? A fost cineva din grup agresiv sau doar zgomotos? Ce anume vrea omul de afaceri?",
+                    "strengths": ["Determină dacă aplicați regulile interne sau legislația ordinii publice — autorități fundamental diferite", "Data de check-out dezvăluie dacă aceasta este o problemă de o noapte sau recurentă", "Distingerea între \u201Eagresiv\u201D și \u201Ezgomotos\u201D vă calibrează întreaga abordare", "Înțelegerea cererii specifice a omului de afaceri previne presupunerile", "Două minute de pregătire economisesc douăzeci de minute de corecție"],
+                    "professionalImpact": "Cunoașterea politicii de zgomot, a datei de check-out și a dinamicii grupului permite ca fiecare decizie ulterioară să fie informată și calibrată."
+                },
+                "partially_positive": {
+                    "choiceText": "Mulțumiți-i Martei că a sunat și asigurați-o că vă veți ocupa. Rugați-o să vă arate camera comună ca să puteți evalua situația și să vă prezentați grupului.",
+                    "adequate": ["Profesional și liniștitor pentru o recepționeră stresată", "Arată receptivitate și orientare spre acțiune"],
+                    "missed": ["\u201EMă voi ocupa\u201D creează o așteptare vagă pe care s-ar putea să nu o puteți îndeplini", "Nicio întrebare despre orele de liniște, politici sau plângerile specifice", "Vă îndreptați într-acolo cu intenții bune dar informații puține", "A aduna informații din mers într-o cameră de oameni care au băut e mai greu decât a o întreba pe Marta mai întâi"],
+                    "improvement": "Asigurarea este bună — dar însoțiți-o cu întrebări specifice. Două minute cu Marta vă dau cadrul de politici, dinamica grupului și așteptările reclamanților de care aveți nevoie pentru a intra pregătit."
+                },
+                "neutral": {
+                    "choiceText": "Mergeți direct la camera comună pentru a confrunta grupul. Cu cât abordați mai repede sursa zgomotului, cu atât mai repede se rezolvă.",
+                    "adequate": ["Acțiune decisivă spre sursa zgomotului", "Arată disponibilitate de a se implica direct"],
+                    "missed": ["Intrarea într-o cameră de oameni care sărbătoresc și beau ca figură de autoritate neinformată", "Nicio cunoaștere a politicii de zgomot a hostelului, autorității Martei, barierelor lingvistice sau dinamicii grupului", "Rapiditatea pare eficientă dar costă pregătirea", "Prima impresie este un ofițer care a intrat căutând probleme"],
+                    "improvement": "Petreceți două minute cu Marta învățând cadrul de politici, compoziția grupului și așteptările reclamanților. Pregătirea nu este întârziere — este fundamentul implicării eficiente."
+                },
+                "negative": {
+                    "choiceText": "Spuneți-i Martei că aceasta este de fapt o problemă de management — ar trebui să continue să încerce să-și contacteze managerul și să o gestioneze ca o chestiune internă a hostelului. Nu puteți aplica reguli private de zgomot.",
+                    "failures": ["Ați respins un apel legitim de ajutor de la cineva care și-a epuizat propriile opțiuni", "Ați lăsat-o pe Marta blocată cu o situație care se înrăutățește și un manager care nu răspunde", "Ați ignorat că zgomotul după ora 23 poate intra și sub incidența ordonanțelor municipale", "Ați deteriorat încrederea în receptivitatea poliției pentru apelurile viitoare"],
+                    "consequences": "A pleca de la cineva care a cerut ajutor asigură o situație mai gravă când poliția va fi inevitabil chemată din nou. Douăzeci de minute mai târziu, domnul Kimura sună direct, și mai furios, iar o altă echipă găsește o scenă deteriorată.",
+                    "trainingFocus": "Revizuiți conștientizarea jurisdicțională și costul respingerii cererilor legitime de asistență. Chiar și când jurisdicția este împărțită cu managementul privat, asumați-vă responsabilitatea situației la care ați fost dispecerizat."
+                }
+            },
+            "keyLearningPoints": ["În apelurile la hosteluri și spații comune, cunoașterea politicilor proprii ale unității determină autoritatea dumneavoastră legală", "Distingerea între \u201Ezgomotos\u201D și \u201Eagresiv\u201D vă modelează fundamental abordarea", "Două minute de culegere de informații de la personal previn douăzeci de minute de corecție a greșelilor", "Grăbirea spre sursa zgomotului fără pregătire sacrifică fiecare avantaj tactic"]
+        },
+        "2": {
+            "stageName": "Reclamantul",
+            "criticalSkills": ["Separarea nevoilor de bază de cererile declarate", "Ascultare activă cu empatie sub presiune", "Gestionarea așteptărilor fără a se angaja la rezultate specifice"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Vorbiți cu respect calm, potrivindu-i formalitatea: \u201EDomnule Kimura, înțeleg perfect — a pierde somnul înainte de o prezentare importantă este extrem de frustrant și aveți dreptate să așteptați liniște la această oră. Vreau să știți că iau plângerea dumneavoastră în serios și mă voi ocupa personal. Înainte de a face asta, pot să întreb: preocuparea dumneavoastră principală este oprirea zgomotului, sau aveți nevoie specific ca grupul să fie îndepărtat? Pentru că ar putea exista mai mult de o modalitate de a rezolva asta pentru dumneavoastră. Voi reveni la ușa dumneavoastră după aceea pentru a confirma că situația s-a rezolvat.\u201D",
+                    "strengths": ["Validează frustrarea în mod autentic — menționarea prezentării arată ascultare activă", "\u201EAveți dreptate să așteptați liniște la această oră\u201D afirmă poziția lui fără a se angaja la cererea specifică", "Întrebarea cheie separă nevoia lui (somn) de soluția propusă (expulzare)", "Majoritatea oamenilor confundă nevoia cu soluția când sunt furioși — această întrebare le deznoadă", "Extinde spațiul de soluții de la o opțiune (expulzare) la multe"],
+                    "professionalImpact": "Separarea nevoilor de cereri vă extinde spațiul de soluții, iar sensibilitatea culturală construiește încredere care transcende barierele lingvistice."
+                },
+                "partially_positive": {
+                    "choiceText": "Dați din cap ferm: \u201EVă aud, domnule Kimura. Este inacceptabil. Mă duc acolo chiar acum și mă asigur că se oprește imediat.\u201D",
+                    "adequate": ["Validant și decisiv — domnul Kimura se simte auzit", "Arată urgență și angajament spre acțiune"],
+                    "missed": ["\u201EImediat\u201D este o promisiune pe care s-ar putea să nu o puteți ține", "Dacă negocierea durează douăzeci de minute, răbdarea domnului Kimura expiră contra propriului termen limită", "Încadrare unilaterală înainte de a auzi cealaltă parte", "Liniștire pe termen scurt schimbată contra unei constrângeri mai strânse asupra abordării"],
+                    "improvement": "Angajați-vă la proces, nu la viteză. \u201EMă duc să abordez asta chiar acum\u201D transmite urgență fără a promite un termen specific care vă constrânge negocierea."
+                },
+                "neutral": {
+                    "choiceText": "Explicați: \u201EDomnule Kimura, înțeleg că este frustrant. Totuși, trebuie să fiu transparent — îndepărtarea oaspeților dintr-o unitate privată nu este o decizie a poliției, ci a managementului hostelului. Ce pot face este să vorbesc cu grupul despre zgomot. Dar expulzarea este între dumneavoastră și hostel.\u201D",
+                    "adequate": ["Tehnic corect privind autoritatea de evacuare", "Onest și transparent privind limitările"],
+                    "missed": ["A începe cu ce nu puteți face pare deviere birocratică pentru un om lipsit de somn", "Nu-l interesează limitele jurisdicționale — îl interesează să doarmă", "Abordează cererea declarată dar ignoră nevoia reală", "Pentru cineva dintr-o cultură unde cererea ajutorului poliției necesita depășirea disconfortului, refuzul echivalează cu pierdere a demnității"],
+                    "improvement": "Începeți cu empatie și cu ce veți face, nu cu limitările procedurale. Abordați nevoia (liniște) înainte de a discuta limitele autorității dumneavoastră privind cererea (expulzare)."
+                },
+                "negative": {
+                    "choiceText": "Spuneți-i: \u201EDomnule, vă apreciez frustrarea, dar aceasta este un hostel — spațiile comune și un oarecare zgomot vin la pachet. Poate ați putea încerca dopuri de urechi? Voi cere grupului să fie mai liniștiți, dar nu pot garanta liniștea.\u201D",
+                    "failures": ["A sugera dopuri de urechi cuiva care nu a dormit de trei ore este disprețuitor și condescendent", "\u201EAcesta este un hostel\u201D îi spune unui oaspete plătitor că plângerea lui este invalidă din cauza locului ales", "Ați luat partea celor zgomotoși înainte de a-i cunoaște", "Domnul Kimura a rezervat specific o cameră privată și a depășit orele de liniște ale hostelului — plângerea lui este legitimă"],
+                    "consequences": "Domnul Kimura spune cu furie liniștită: \u201EVoi scrie departamentului dumneavoastră și conducerii hostelului. Noapte bună, ofițer.\u201D Ați pierdut încrederea unui participant în treizeci de secunde și l-ați făcut să piardă demnitatea.",
+                    "trainingFocus": "Revizuiți principiile de sensibilitate culturală și costul respingerii plângerilor legitime. Validați plângerea — este legitimă."
+                }
+            },
+            "keyLearningPoints": ["Separarea nevoii de bază a cuiva de cererea declarată este cel mai puternic instrument de negociere pe care îl aveți", "A începe cu empatie înainte de limitările procedurale construiește încredere; inversul o distruge", "Respingerea unei plângeri legitime — chiar și ușor — vă costă cooperarea participantului", "A promite viteză pentru a satisface o persoană supărată vă constrânge capacitatea de a găsi o soluție gândită"]
+        },
+        "3": {
+            "stageName": "Camera comună",
+            "criticalSkills": ["Menținerea limitelor profesionale sub presiune socială", "Stabilirea prezenței fără confruntare", "Citirea dinamicii de grup și identificarea jucătorilor cheie"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Intrați, nu luați berea, dar mențineți tonul cald și relaxat: \u201EHa — apreciez ospitalitatea, Liam, dar va trebui să refuz. Sunt Ofițer [nume]. Văd că aveți o seară grozavă.\u201D În timp ce vorbiți, scanați discret camera — numărați sticlele, verificați ochii și coordonarea, notați cine e lucid și cine nu. Apoi: \u201ENu sunt aici să opresc nimic — dar am nevoie de un minut din timpul vostru pentru că este o situație pe care trebuie s-o rezolvăm. Poate cineva să dea muzica mai încet ca să ne putem auzi?\u201D",
+                    "strengths": ["Refuzul berii e clar dar fără a face din asta o confruntare", "Folosirea numelui lui Liam (din informarea Martei) arată pregătire și personalizează interacțiunea", "Efectuarea evaluării vizuale a consumului de alcool în timp ce vorbiți cald este competență procedurală, nu paranoia", "\u201ENu sunt aici să opresc nimic\u201D coboară garda grupului", "A cere cuiva să dea muzica mai încet testează disponibilitatea de a coopera", "Refuzul cald menține simultan limitele și raportul"],
+                    "professionalImpact": "O evaluare non-confruntațională a consumului de alcool vă spune cine poate procesa instrucțiuni complexe și cine are nevoie de comunicare mai simplă — iar folosirea numelui lui Liam schimbă dinamica de la autoritate anonimă la implicare personală."
+                },
+                "partially_positive": {
+                    "choiceText": "Ignorați teatrul lui Liam complet. Treceți pe lângă el spre femeia mai liniștită de la fereastră, care pare mai rezonabilă, și începeți conversația acolo.",
+                    "adequate": ["Identificarea persoanei cooperante este tactic inteligentă", "Evită să fie atras în spectacolul lui Liam"],
+                    "missed": ["Ocolirea liderului social al grupului este o umilire publică în fața prietenilor", "Liam va escalada pentru a-și reafirma statutul — \u201EHei, vorbesc cu tine, prietene\u201D", "Dinamica de grup cere să interacționați mai întâi cu liderul, chiar și scurt", "Trecerea pe lângă el transformă un gălăgios jovial în cineva care se simte lipsit de respect"],
+                    "improvement": "Interacționați cu liderul social scurt și cald, apoi extindeți conversația pentru a include vocile cooperante. Ocolirea dinamicilor de statut se întoarce împotriva ta în situații de grup."
+                },
+                "neutral": {
+                    "choiceText": "Luați berea jucăuș și o puneți jos: \u201ETentant, dar sunt în serviciu. Uitați, văd că vă distrați bine — dar am primit plângeri despre zgomot și trebuie să discutăm despre asta.\u201D",
+                    "adequate": ["Umorul creează o intrare relaxată", "Punerea jos arată că nu acceptați cu adevărat"],
+                    "missed": ["A lua berea — chiar și pentru a o pune jos — depășește o limită profesională", "Grupul vede un ofițer acceptând o băutură de la cineva la care răspunde", "Liam va insista mai mult pentru că ați arătat flexibilitate la o limită care ar fi trebuit să fie fermă", "Autoritatea începe să se erodeze în primele treizeci de secunde", "Ați omis complet evaluarea nivelului de intoxicație a grupului"],
+                    "improvement": "Limitele profesionale contează cel mai mult în primele momente ale unei întâlniri. Refuzați clar dar cald — \u201Eapreciez oferta dar refuz\u201D — fără a atinge băutura."
+                },
+                "negative": {
+                    "choiceText": "Stați în pragul ușii cu o expresie severă: \u201ENimeni nu mai bea nimic în seara aceasta. Opriți muzica imediat. Am primit plângeri multiple și încălcați orele de liniște. Aceasta este singura avertizare.\u201D",
+                    "failures": ["Autoritate maximă cu raport zero — declanșează defensivitate de grup", "Șase persoane care au băut se unesc împotriva dumneavoastră ca adversar comun", "\u201EAceasta este singura avertizare\u201D este o amenințare care nu lasă loc de negociere", "A le spune adulților că nu pot bea în camera comună a unui hostel poate depăși autoritatea dumneavoastră", "Eșecul de a evalua nivelurile de intoxicație — a striga ultimatumuri la persoane intoxicate este contraproductiv"],
+                    "consequences": "Camera tace în ostilitate, nu în conformitate. Brațele se încrucișează. Cineva mormăie \u201EAsta e ridicol.\u201D Persoana cea mai intoxicată se ridică nesigur: \u201ENu ne poți spune ce să facem.\u201D Ați creat o confruntare șase contra unu care nu trebuia să existe.",
+                    "trainingFocus": "Revizuiți răspunsul proporțional și importanța raportului înainte de aplicarea legii în situații de grup. Intrarea cu autoritate maximă și raport zero creează solidaritate de grup împotriva dumneavoastră."
+                }
+            },
+            "keyLearningPoints": ["Limitele profesionale contează cel mai mult în primele treizeci de secunde — modul în care gestionați oferta de bere a lui Liam definește întreaga interacțiune", "În situații de grup, trebuie să interacționați cu liderul social înainte de a accesa membrii cooperanți", "Refuzul cald menține limitele și raportul; comenzile dure creează solidaritate de grup împotriva dumneavoastră", "Intrarea dumneavoastră stabilește cadrul: problemă comună de rezolvat, sau autoritate versus subiecți"]
+        },
+        "4": {
+            "stageName": "Stabilirea limitelor",
+            "criticalSkills": ["Validarea înainte de redirecționare", "Reîncadrarea de la conflict de drepturi la responsabilitate comună", "Menținerea empatiei în timp ce se stabilesc limite ferme"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Recunoașteți punctul lui, apoi reîncadrați: \u201ELiam, chiar înțeleg — ultima noapte împreună, sfârșitul unei călătorii importante. Contează. Și ai dreptate că hostelurile sunt locuri sociale. Dar iată chestia: orele de liniște au început la unsprezece, și sunt oameni sus care au plătit și ei douăzeci de euro și nu pot dormi. Drepturile voastre și ale lor nu sunt diferite. Deci întrebarea nu este dacă puteți sărbători — ci cum și unde. Aș prefera să vă ajut să găsiți o modalitate de a vă continua seara decât să o opresc. Dar volumul și locația trebuie să se schimbe.\u201D",
+                    "strengths": ["Validează contextul emoțional (ultima noapte, sfârșitul călătoriei) și argumentul logic (hostelurile sunt sociale)", "\u201EDrepturile voastre și ale lor nu sunt diferite\u201D este pivotul — reîncadrează de la noi-contra-ei la responsabilitate comună", "\u201EAș prefera să vă ajut să vă continuați seara decât să o opresc\u201D vă poziționează ca aliat, nu dușman", "Limita este clară (volumul și locația trebuie să se schimbe) dar soluția e deschisă pentru negociere", "Presiunea socială internă din grup se schimbă în favoarea dumneavoastră — \u201EAre dreptate, Liam\u201D"],
+                    "professionalImpact": "Validarea argumentului cuiva înainte de a-l redirecționa schimbă disponibilitatea de a face compromisuri — se simte auzit înainte de a i se cere să cedeze."
+                },
+                "partially_positive": {
+                    "choiceText": "Adresați-vă grupului în loc de doar lui Liam: \u201EToată lumea — vă aud și știu că aceasta este o noapte specială. Dar am un hostel plin de oaspeți care nu pot dormi și o recepționeră care cere de ore întregi. Cineva de sus are un angajament important de serviciu la ora 8 dimineață. Vă cer ajutorul — ce putem face ca să funcționeze pentru toți?\u201D",
+                    "adequate": ["Extinderea dincolo de Liam îi diluează dominanța", "Menționarea recepționerei și oaspetelui de sus umanizează reclamanții", "\u201EVă cer ajutorul\u201D poziționează grupul ca rezolvatori de probleme"],
+                    "missed": ["O întrebare deschisă adresată celor șase persoane care au băut poate produce șase răspunsuri diferite", "Fără un cadru propus, puteți pierde controlul conversației", "Priya spune ceva sensibil dar este acoperită", "Ați democratizat problema fără a oferi structură"],
+                    "improvement": "Extinderea este inteligentă, dar oferiți un cadru: validați, apoi propuneți opțiuni. O întrebare deschisă unui grup care a băut are nevoie de garduri de protecție, nu doar de intenții bune."
+                },
+                "neutral": {
+                    "choiceText": "Rămâneți ferm: \u201EÎnțeleg că e ultima noapte, dar regulile sunt reguli. Orele de liniște sunt ore de liniște. Dacă hostelul spune 23, e 23. Am nevoie ca muzica să fie oprită și vocile scăzute. Nu e negociabil.\u201D",
+                    "adequate": ["Limită clară și aplicabilă", "Nicio ambiguitate privind ce se cere"],
+                    "missed": ["\u201ERegulile sunt reguli\u201D este autoritate rigidă care ignoră contextul emoțional pe care Liam l-a împărtășit", "Nu i-ați recunoscut punctul de vedere, deci rezistă mai tare simțindu-se neauzit", "\u201ENu e negociabil\u201D închide toate ușile — conformare prin constrângere, nu acord", "Sărbătoarea este ucisă, nu rezolvată — bunăvoința distrusă"],
+                    "improvement": "Recunoașteți înainte de a aplica. \u201EÎnțeleg — ultima noapte împreună, contează. ȘI orele de liniște sunt în vigoare și pentru ceilalți oaspeți.\u201D ȘI-ul face diferența între rigid și ferm."
+                },
+                "negative": {
+                    "choiceText": "Râdeți și fiți de acord: \u201EȘtii ce, nu ai greșit — hostelurile sunt făcute pentru distracție. Știi ce, doar mențineți un zgomot de fond și eu îi spun recepționerei că e rezolvat. Înțeles?\u201D",
+                    "failures": ["Efectiv ați luat partea celor zgomotoși acordând necritic", "\u201EZgomot de fond\u201D nu este un standard aplicabil — înseamnă orice decide Liam după următoarea bere", "A-i spune Martei \u201Ee rezolvat\u201D când nimic concret nu s-a schimbat o pregătește pentru mai multe plângeri", "Ați prioritizat să fiți plăcut în locul eficienței"],
+                    "consequences": "Muzica revine în cincisprezece minute. Domnul Kimura sună din nou. Marta este furioasă. O altă echipă răspunde și constată că ați lăsat o situație nerezolvată.",
+                    "trainingFocus": "Revizuiți diferența dintre raport și capitulare — a fi plăcut nu este același lucru cu a fi eficient. Puteți fi de acord cu premisa redirecționând în același timp comportamentul."
+                }
+            },
+            "keyLearningPoints": ["Validarea argumentului cuiva înainte de a-l redirecționa nu înseamnă a fi de acord cu comportamentul — deblochează disponibilitatea de a face compromisuri", "Diferența dintre rigid (\u201Eregulile sunt reguli\u201D) și ferm (\u201Eînțeleg ȘI regulile se aplică tuturor\u201D) transformă rezistența în cooperare", "Întrebările deschise adresate grupurilor au nevoie de structură; fără un cadru, discuția democratică devine haos", "A fi plăcut nu e același lucru cu a fi eficient — concesiile vagi se dizolvă în câteva minute"]
+        },
+        "5": {
+            "stageName": "Găsirea compromisului",
+            "criticalSkills": ["Abilitarea membrilor cooperanți ai grupului", "Rezolvare colaborativă de probleme cu alternative creative", "Recompensarea comportamentului constructiv în timp ce se gestionează dinamica de grup"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Implicați-o pe Priya direct ca partener: \u201EPriya, mulțumesc — exact genul de gândire care ajută. Ai menționat un bar sau curtea interioară. Lasă-mă să verific cu recepționera despre curte — dacă e disponibilă și departe de dormitoare, ar putea funcționa ca pas intermediar. Sau dacă e un bar deschis noaptea pe aproape, asta e altă opțiune. Liam, ce zici — grupul vostru ar fi deschis la asta?\u201D",
+                    "strengths": ["Elevarea Priyei recompensează comportamentul cooperant și schimbă presiunea socială din grup", "Verificarea cu Marta despre curte arată minuțiozitate în loc de a face promisiuni", "Oferirea a două opțiuni (curte sau bar) le dă grupului autonomie", "Redirecționarea spre Liam pentru opinia lui îl readuce fără confruntare — ajunge să spună da în loc să se supună", "Rezolvare colaborativă de probleme de manual"],
+                    "professionalImpact": "Abilitarea unui membru cooperant al grupului schimbă presiunea socială mai eficient decât confruntarea celui rezistent. Permisiunea socială de la un egal realizează ce autoritatea ofițerului nu poate — conformare voluntară fără pierderea demnității."
+                },
+                "partially_positive": {
+                    "choiceText": "Acceptați compromisul imediat: \u201EIdee grozavă, Priya. Hai în curte. Liam, ia difuzorul și sticlele — puteți continua petrecerea acolo. Problemă rezolvată.\u201D",
+                    "adequate": ["Decisiv și orientat spre soluție", "Creditează ideea Priyei"],
+                    "missed": ["V-ați angajat la curte fără a verifica dacă e aproape de dormitoare", "A da undă verde unilateral pentru \u201Ea continua petrecerea\u201D afară poate încălca ordonanțele de zgomot", "A merge repede pare bine dar omite verificarea", "Dacă curtea e sub ferestrele oaspeților, ați mutat zgomotul, nu l-ați rezolvat"],
+                    "improvement": "Verificați înainte de a vă angaja. \u201ELasă-mă să verific cu Marta despre amplasarea curții\u201D costă treizeci de secunde și previne rezolvarea aceleiași probleme de două ori."
+                },
+                "neutral": {
+                    "choiceText": "Recunoașteți-o pe Priya, apoi concentrați-vă pe practic: \u201EPriya, apreciez asta. Iată ce aș sugera — puteți cu toții să începeți să încheiați aici? Terminați-vă băuturile, dar nicio muzică în camera comună diseară. Dacă vreți să continuați să vorbiți liniștit, e în regulă, dar cântatul și difuzorul trebuie să se oprească.\u201D",
+                    "adequate": ["Rezonabil și moderat", "\u201ETerminați-vă băuturile\u201D este uman, \u201Enicio muzică\u201D stabilește o limită clară"],
+                    "missed": ["Ați ignorat parțial alternativele creative ale Priyei — barul, curtea", "Mergând direct la modul de încheiere ați ales restricția în loc de relocare", "Grupul primește mai puțin decât ce a propus Priya — pare negociere de rea-credință", "\u201EVorbitul liniștit\u201D într-un grup de șase după câteva beri este aspirațional, nu realist"],
+                    "improvement": "Când o alternativă creativă este oferită, explorați-o înainte de a recurge la restricție. Relocarea păstrează sărbătoarea rezolvând problema de zgomot — restricția doar o suprimă temporar."
+                },
+                "negative": {
+                    "choiceText": "Treceți peste negociere: \u201EUitați, cea mai simplă soluție este aceasta — petrecerea s-a terminat pentru diseară. Strângeți-vă lucrurile, mergeți la camerele voastre, dormiți puțin. Ați avut o seară bună. E miezul nopții. E timpul să o lăsați.\u201D",
+                    "failures": ["Un membru cooperant al grupului oferea soluții creative și l-ați ocolit complet cu un ordin", "Priya și-a asumat un risc social vorbind împotriva liderului — ignorarea ei pedepsește exact comportamentul pe care vreți să-l încurajați", "\u201EPetrecerea s-a terminat\u201D este disproporționat când alternative există și vi se oferă", "Alegeți răspunsul cu cea mai mare autoritate când sunt disponibile opțiuni cu autoritate mai mică"],
+                    "consequences": "Fața Priyei cade — și-a băgat gâtul degeaba. Liam explodează. Grupul se unește împotriva dumneavoastră. Ați pierdut atât membrul rezistent cât și pe cel cooperant într-o singură propoziție.",
+                    "trainingFocus": "Când cineva oferă o soluție constructivă, construiți pe ea. A anula contribuția Priyei cu un ordin le spune tuturor persoanelor cooperante din cameră că a vorbi este inutil."
+                }
+            },
+            "keyLearningPoints": ["Abilitarea membrilor cooperanți ai grupului este mai eficientă decât confruntarea celor rezistenți", "Când o alternativă creativă este oferită, explorați-o — a o anula pedepsește comportamentul pe care îl doriți", "Verificați soluțiile înainte de a vă angaja — o curte neverificată poate recrea problema", "Permisiunea socială de la egali realizează ce autoritatea ofițerului nu poate — conformare voluntară fără pierderea demnității"]
+        },
+        "6": {
+            "stageName": "Asigurarea acordului",
+            "criticalSkills": ["Structurarea opțiunilor clare cu parametri specifici", "Consolidarea acordurilor cu detalii concrete și termene", "Menținerea bunăvoinței în momentele finale ale negocierii"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Prezentați termeni clari și specifici: \u201EIată ce aș sugera. Opțiunea A: curtea interioară este disponibilă și este departe de dormitoare — puteți lua băuturile și vorbi acolo, dar fără difuzor și mențineți vocile la nivel de conversație. Opțiunea B: barul The Night Owl este la două străzi în direcția aceea — puteți fi oricât de zgomotoși vreți acolo și e deschis toată noaptea. Oricum ar fi, camera comună trebuie eliberată și liniștită în următoarele zece minute. Liam, Priya — ce vi se potrivește?\u201D",
+                    "strengths": ["Două opțiuni clare cu parametri definiți — specific și structurat", "Termenul de zece minute este concret, nu deschis", "Numirea atât a lui Liam cât și a Priyei distribuie conducerea", "Opțiunea curte are condiții clare (fără difuzor, nivel de conversație)", "Opțiunea bar prezentată ca beneficiu (\u201Eoricât de zgomotoși vreți\u201D)", "Ați transformat o intervenție de aplicare a legii într-o alegere structurată"],
+                    "professionalImpact": "Alegerile specifice și structurate cu parametri clari produc acorduri auto-aplicabile deoarece toată lumea știe exact ce se așteaptă."
+                },
+                "partially_positive": {
+                    "choiceText": "Fiți ferm privind barul: \u201ECred că barul este cea mai bună variantă. Curtea interioară este tot proprietatea hostelului și nu pot garanta că nu se va plânge cineva din nou. Dacă mergeți la The Night Owl, puteți avea seara fără nicio restricție. V-aș recomanda puternic asta.\u201D",
+                    "adequate": ["Direcționarea spre bar elimină complet problema din hostel", "Soluție curată și eficientă"],
+                    "missed": ["\u201ERecomandarea puternică\u201D a unei opțiuni elimină alegerea pe care ar trebui s-o oferiți", "Unii s-ar putea să nu vrea să cheltuie bani la un bar", "Sentimentul de a fi forțat să plece din cazarea plătită creează resentiment", "Un backpacker se plânge ulterior: \u201EPoliția ne-a spus că nu putem folosi hostelul\u201D"],
+                    "improvement": "Prezentați opțiuni, nu alegeți pentru ei. Atât curtea cât și barul sunt valide — lăsați grupul să aleagă. Treaba dumneavoastră este să setați parametri, nu să selectați rezultate."
+                },
+                "neutral": {
+                    "choiceText": "Simplificați: \u201EDoar mutați-vă în curte. Luați ce vreți cu voi. Doar fiți liniștiți.\u201D",
+                    "adequate": ["Îi direcționează spre o soluție", "Permisiv cu privire la bunurile lor"],
+                    "missed": ["\u201EDoar fiți liniștiți\u201D este aceeași instrucțiune pe care Marta a dat-o de trei ori — a eșuat de trei ori", "Niciun parametru specific: nicio regulă pentru difuzor, niciun standard de volum, niciun termen", "Șase persoane cu beri în curte la miezul nopții fără limite vor deveni mai zgomotoase", "Ați relocat problema, nu ați rezolvat-o"],
+                    "improvement": "Specificitatea face diferența între un acord care rezistă și unul care se destramă. \u201EFără difuzor, nivel de conversație, doar curtea\u201D este aplicabil. \u201EFiți liniștiți\u201D nu este."
+                },
+                "negative": {
+                    "choiceText": "Adăugați o avertizare pentru a sigila acordul: \u201EBine, curte sau bar, alegerea voastră. Dar trebuie să fiu clar — dacă sunt chemat înapoi aici diseară pentru același lucru, nu va mai fi o conversație prietenoasă data viitoare. Vor fi amenzi și rapoarte formale de încălcare a normelor de zgomot. Am fost clar?\u201D",
+                    "failures": ["Acordul se forma deja — adăugarea unei amenințări otrăvește bunăvoința construită în douăzeci de minute", "\u201ENu va fi o conversație prietenoasă data viitoare\u201D este o amenințare voalată care reîncadrează întreaga interacțiune", "Oamenii își amintesc cum se termină lucrurile mai mult decât cum încep", "Memoria durabilă devine amenințarea, nu rezoluția corectă"],
+                    "consequences": "Camera devine liniștită. Expresia lui Liam se întunecă. Priya privește în altă parte. Grupul cooperează din frică, nu din acord. Liam va ține minte amenințarea, nu corectitudinea.",
+                    "trainingFocus": "Când o negociere reușește, lăsați-o să reușească. Adăugarea de avertismente la o rezoluție cooperantă anulează grija care a precedat-o. Încheiați cu cooperare, nu cu constrângere."
+                }
+            },
+            "keyLearningPoints": ["Alegerile specifice și structurate cu parametri clari produc acorduri auto-aplicabile", "Oamenii își amintesc cum se termină lucrurile mai mult decât cum încep — amenințările de închidere șterg douăzeci de minute de bunăvoință", "Prezentarea opțiunilor păstrează autonomia; direcționarea spre rezultatul preferat creează resentiment", "Instrucțiunile vagi (\u201Efiți liniștiți\u201D) eșuează repetat — specificitatea (\u201Efără difuzor, nivel de conversație\u201D) rezistă"]
+        },
+        "7": {
+            "stageName": "Închiderea cercului",
+            "criticalSkills": ["Urmărirea cu toți participanții afectați", "Abilitarea personalului localului cu recomandări sistemice", "Încheierea cu demnitate și suport orientat spre viitor"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Abordați preocupările Martei și pregătiți-o pentru succes: \u201EAți făcut bine că ați sunat, Marta. Grupul s-a mutat — unii în curte cu condiții clare, unii la un bar. Dacă grupul din curte devine zgomotos din nou, aveți dreptul să le cereți să intre sau să meargă la camerele lor — și ne puteți suna din nou. V-aș recomanda de asemenea să discutați cu managerul dumneavoastră despre o politică scrisă de zgomot cu consecințe clare. V-ar da mai multă autoritate să gestionați asta singură data viitoare.\u201D Apoi mergeți și bateți la ușa domnului Kimura: \u201EDomnule Kimura, camera comună este liberă și liniștită. Ar trebui să puteți dormi acum. Sper ca prezentarea de mâine să meargă bine.\u201D",
+                    "strengths": ["Închide cercul cu ambii participanți — Marta și domnul Kimura", "Marta primește validare, actualizare clară, permisiunea de a suna din nou și o sugestie sistemică", "Recomandarea unei politici scrise de zgomot ajută la prevenirea repetării vinerea viitoare", "Domnul Kimura primește actualizare personală care abordează preocuparea specifică (prezentarea)", "Ambele părți se simt văzute, auzite și respectate", "Urmărire completă — nu doar rezolvarea zilei de azi ci investiția în ziua de mâine"],
+                    "professionalImpact": "Urmărirea completă cu toți participanții — nu doar sursa zgomotului — definește dacă o rezoluție este cu adevărat completă."
+                },
+                "partially_positive": {
+                    "choiceText": "Liniștiți-o pe Marta rapid: \u201EAr trebui să fie bine acum. Dacă reîncepe, sunați-ne înapoi. Noapte bună.\u201D Apoi plecați fără a verifica la domnul Kimura — va observa liniștea și va adormi.",
+                    "adequate": ["Zgomotul e rezolvat și Marta are opțiunea de reapelare", "Profesional și eficient"],
+                    "missed": ["Domnul Kimura v-a interceptat personal și și-a împărtășit vulnerabilitatea — a nu face urmărire îl lasă simțindu-se uitat", "\u201EVa observa liniștea\u201D presupune că nu stă treaz anxios", "O bătaie la ușă de treizeci de secunde nu costă nimic și completează bucla umană", "Marta nu primește nicio îndrumare pentru data viitoare — ați rezolvat azi fără a investi în mâine"],
+                    "improvement": "Faceți urmărire cu fiecare participant care v-a abordat direct. Domnul Kimura e la treizeci de secunde distanță. Marta are nevoie de o sugestie despre o politică de zgomot. Ambele investiții aduc dividende cu mult dincolo de seara aceasta."
+                },
+                "neutral": {
+                    "choiceText": "Oferiți-i Martei o actualizare și lăsați-i datele dumneavoastră de contact: \u201ESituația este rezolvată deocamdată. Iată ce s-a întâmplat: grupul s-a împărțit între curte și un bar. Dacă grupul din curte devine zgomotos din nou, sunați-ne. Voi verifica la domnul Kimura pe drum spre ieșire.\u201D Rapid, eficient, profesional.",
+                    "adequate": ["Profesional și informativ — Marta știe ce s-a întâmplat", "Verificarea la domnul Kimura este inclusă"],
+                    "missed": ["Tranzacțional mai degrabă decât de susținere — Marta s-a ocupat de asta singură ore în șir", "Nicio validare că era într-o poziție dificilă fără suport din management", "Nicio sugestie pentru îmbunătățire sistemică", "Adecvare profesională, nu excelență profesională"],
+                    "improvement": "Adăugați elementul uman. \u201EAți făcut bine că ați sunat\u201D îi validează decizia. \u201EO politică scrisă de zgomot v-ar da mai multă autoritate data viitoare\u201D investește în viitor. Diferența dintre adecvat și excelent sunt treizeci de secunde de grijă autentică."
+                },
+                "negative": {
+                    "choiceText": "Spuneți-i Martei: \u201ES-au mutat. Dar sincer, Marta, ar fi trebuit să gestionezi asta înainte să ajungă în punctul ăsta. Ai trei ore până pleacă cineva — data viitoare, fii mai fermă mai devreme și nu va trebui să ne suni.\u201D",
+                    "failures": ["A da vina pe Marta — care a încercat de trei ori, al cărei manager nu răspunde — este nedrept și inexact", "A sunat la poliție pentru că a rămas fără opțiuni, nu pentru că era leneșă", "\u201EFii mai fermă\u201D ignoră problemele sistemice: nicio politică clară, niciun suport din management, nicio autoritate de expulzare", "Pedepsiți persoana care a cerut ajutor pentru că a avut nevoie de ajutor"],
+                    "consequences": "Ușurarea Martei se evaporă. Se simte criticată după ore de stres. Data viitoare va ezita să sune — iar situația va fi mai gravă când va escalada în cele din urmă.",
+                    "trainingFocus": "Revizuiți implicarea de susținere cu lucrătorii din prima linie și rezolvarea problemelor sistemice. Validați, nu dați vina. Dacă instrumentele ei sunt insuficiente, ajutați-o să obțină unele mai bune."
+                }
+            },
+            "keyLearningPoints": ["Urmărirea cu toți participanții definește dacă o rezoluție se simte completă sau abandonată", "Validarea lucrătorilor din prima linie care sună pentru ajutor asigură că vor suna din nou — criticarea lor asigură că nu vor mai suna", "Recomandările sistemice (politică de zgomot, protocoale de management) transformă un singur apel în îmbunătățire durabilă", "Ultimele treizeci de secunde ale unei întâlniri modelează memoria durabilă mai mult decât cele treizeci de minute precedente"]
+        },
+        "8": {
+            "stageName": "Debrief și dezvăluire",
+            "criticalSkills": ["Auto-reflecție", "Integrarea lecțiilor"],
+            "choiceAnalysis": {},
+            "keyLearningPoints": [
+                "Plângerile de zgomot modelează încrederea comunității mai mult decât aproape orice alt tip de apel",
+                "Managementul părților interesate — Marta, domnul Kimura, Liam, Priya — necesită servirea tuturor fără a trăda pe niciunul",
+                "Adevărata abilitate exersată nu a fost controlul volumului ci negocierea multi-party"
+            ]
+        }
+    },
+    "comprehensiveMetrics": {
+        "negotiationSkills": {
+            "description": "Găsirea de soluții acceptabile reciproc prin ascultare activă, reîncadrare, alegeri structurate și rezolvare colaborativă de probleme în loc de comenzi sau ultimatumuri",
+            "indicators": {
+                "excellent": ["Ați separat nevoia de bază a domnului Kimura (somn) de cererea declarată (expulzare)", "Ați validat argumentul lui Liam înainte de a-l redirecționa — deblocând disponibilitatea de compromis", "Ați abilitat-o pe Priya ca aliat cooperant în loc să-l confruntați direct pe Liam", "Ați prezentat opțiuni structurate cu parametri clari în loc de instrucțiuni vagi", "Grupul și-a ales propria rezoluție voluntar — acord auto-aplicabil"],
+                "poor": ["Ați tratat fiecare interacțiune ca pe o comandă de respectat în loc de o problemă de rezolvat", "Nu ați reușit să separați nevoile de cereri — ați luat plângerile la valoarea nominală", "Ați emis ultimatumuri care au închis spațiul de negociere", "Acorduri vagi (\u201Efiți liniștiți\u201D) care au eșuat repetat", "Ați impus soluții în loc să le construiți colaborativ"]
+            }
+        },
+        "culturalSensitivity": {
+            "description": "Conștientizarea și respectul pentru diferite norme culturale privind zgomotul, socializarea, autoritatea și spațiul personal într-un mediu internațional de hostel",
+            "indicators": {
+                "excellent": ["Ați recunoscut că informalitatea australiană a lui Liam era culturală, nu lipsă de respect", "Ați înțeles stilul de comunicare formală al domnului Kimura și importanța mizei profesionale", "Ați recunoscut că normele de hostel diferă cu adevărat de așteptările de hotel", "Ați adaptat stilul de comunicare pentru diferite contexte culturale fără a stereotipiza", "Ați recunoscut că \u201Eceea ce pare normal pentru o persoană pare scandalos pentru alta\u201D"],
+                "poor": ["Ați tratat toate părțile identic fără conștientizare culturală", "Ați respins plângerea domnului Kimura ca hipersensibilitate", "Ați interpretat informalitatea lui Liam ca lipsă de respect personală necesitând răspuns autoritar", "Nu ați recunoscut că așteptările culturale privind zgomotul și socializarea variază enorm", "Ați aplicat un singur stil de comunicare indiferent de public"]
+            }
+        },
+        "proportionateResponse": {
+            "description": "Potrivirea nivelului de intervenție cu severitatea reală — folosind autoritatea minimă necesară pentru a obține rezoluția într-o plângere de zgomot, nu o infracțiune violentă",
+            "indicators": {
+                "excellent": ["Ați calibrat răspunsul la situația reală: sărbătoare zgomotoasă, nu activitate infracțională", "Ați explorat relocarea înainte de restricție, restricția înainte de expulzare", "Ați folosit conversația și negocierea înainte de a invoca autoritatea", "Ați trasat o limită clară între plângere legitimă (zgomot) și cerere disproporționată (expulzare)", "Ați ales răspunsul cu cea mai mică autoritate care a obținut rezultatul"],
+                "poor": ["Ați tratat o plângere de zgomot cu aceeași intensitate ca o perturbare violentă", "Ați sărit la aplicare maximă (amenințări, amenzi, expulzare) fără a explora alternative", "Ați interzis alcoolul sau muzica fără a evalua dacă relocarea ar rezolva problema", "Ați escaladat autoritatea când situația cerea de-escaladare", "Ați emis avertismente formale într-o situație de prim contact, non-infracțională"]
+            }
+        },
+        "stakeholderManagement": {
+            "description": "Implicarea cu toate părțile afectate — grupul de backpackeri, domnul Kimura și Marta — și asigurarea că fiecare se simte auzit, abordat și urmărit",
+            "indicators": {
+                "excellent": ["Ați adunat informații de la Marta înainte de implicare", "Ați separat nevoia domnului Kimura de cererea lui prin ascultare activă", "V-ați implicat atât cu liderul grupului (Liam) cât și cu vocea cooperantă (Priya)", "Ați făcut urmărire atât cu Marta cât și cu domnul Kimura după rezoluție", "Ați oferit recomandări sistemice pentru prevenirea recurenței"],
+                "poor": ["V-ați concentrat pe o singură parte neglijând celelalte", "Nu ați făcut urmărire cu domnul Kimura după rezolvarea zgomotului", "Ați dat vina pe Marta în loc să-i validați eforturile", "Ați ignorat contribuția constructivă a Priyei", "Ați rezolvat problema imediată fără a aborda preocupările continue ale niciunui participant"]
+            }
+        },
+        "professionalBoundaries": {
+            "description": "Menținerea conduitei adecvate de ofițer — refuzarea invitațiilor sociale, evitarea luării de parte și echilibrarea căldurii cu autoritatea într-un cadru care invită la informalitate",
+            "indicators": {
+                "excellent": ["Ați refuzat oferta de bere a lui Liam cald dar ferm — limita menținută fără confruntare", "Ați menținut profesionalismul consecvent cu toate părțile indiferent de tonul lor", "Ați echilibrat căldura cu autoritatea — abordabil dar nu cooptabil", "Ați evitat să luați vizibil partea reclamantului sau a sursei de zgomot", "Ați încheiat întâlnirea profesional fără amenințări sau avertismente performative"],
+                "poor": ["Ați acceptat sau atins berea oferită — limita profesională depășită", "Ați adoptat tonul casual al lui Liam până la punctul de a pierde autoritatea", "Ați luat vizibil partea uneia — fie respingând domnul Kimura fie pedepsind grupul", "Ați adăugat amenințări sau avertismente după o negociere reușită, subminând bunăvoința", "Ați criticat-o pe Marta în loc s-o susțineți — transformând un aliat într-o victimă"]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "preparationSkipping": {
+            "pattern": "Grăbirea spre sursa zgomotului fără a aduna informații de la personalul disponibil",
+            "examples": ["Mergerea directă la camera comună fără a o întreba pe Marta despre orele de liniște sau politici", "Neaflarea dacă grupul a fost agresiv sau doar zgomotos", "Intrarea fără a cunoaște nevoile specifice ale reclamantului", "Neîntrebarea despre data de check-out sau aranjamentul camerelor grupului"],
+            "impact": "Fiecare decizie ulterioară este luată cu mai puțină informație decât cea disponibilă gratuit. Intrați într-o cameră de oameni care beau ca figură de autoritate neinformată, iar prima impresie semnalează un ofițer care caută probleme mai degrabă decât rezoluție.",
+            "correction": "Două minute cu Marta vă dau cadrul de politici, compoziția grupului, așteptările reclamanților și planul localului. Această investiție aduce dividende la fiecare etapă ulterioară."
+        },
+        "boundaryErosion": {
+            "pattern": "Permiterea presiunii sociale din grup să compromită limitele profesionale și autoritatea",
+            "examples": ["Luarea sau atingerea berii oferite, chiar și pentru a o pune jos", "Acordul prea ușor cu argumentul lui Liam \u201Ehostelurile sunt pentru distracție\u201D fără redirecționare", "Acceptarea unui \u201Ezgomot de fond\u201D ca standard aplicabil", "Prioritizarea de a fi plăcut de grup în locul eficienței pentru toți participanții"],
+            "impact": "Odată ce o limită este atenuată, grupul percepe fiecare limită ulterioară ca negociabilă. Liam insistă mai mult pentru că flexibilitatea timpurie a semnalat că autoritatea este opțională. Rezoluția se dizolvă în câteva minute deoarece se baza pe aprobare socială, nu pe acord clar.",
+            "correction": "Refuzați cald dar clar. Puteți fi prietenos fără a fi prieten. Limitele menținute cu căldură sunt respectate mai mult decât cele menținute cu agresivitate — dar trebuie menținute."
+        },
+        "cooperativeVoiceIgnoring": {
+            "pattern": "Eșecul de a identifica sau abilita persoanele cooperante din cadrul grupului",
+            "examples": ["Ocolirea Priyei pentru a trata doar cu Liam", "Anularea sugestiei Priyei de curte sau bar cu un ordin de a termina petrecerea", "Neredirecționarea spre Liam pentru opinia lui după ce Priya a oferit alternative", "Tratarea grupului ca un monolit în loc de o colecție de indivizi cu atitudini diferite"],
+            "impact": "Priya și-a asumat un risc social vorbind împotriva liderului grupului. Ignorarea contribuției ei pedepsește exact comportamentul pe care vreți să-l încurajați. Viitoarele voci cooperante învață că a vorbi este inutil. Între timp, confruntarea doar a membrului rezistent unește grupul împotriva dumneavoastră.",
+            "correction": "Identificați vocea cooperantă, elevați contribuția ei public și construiți soluția pe cadrul ei. Permisiunea socială de la un egal realizează ce autoritatea ofițerului nu poate — conformare voluntară fără pierderea demnității."
+        },
+        "goodwillPoisoning": {
+            "pattern": "Adăugarea de amenințări sau avertismente la o negociere reușită, subminând bunăvoința care a făcut-o să funcționeze",
+            "examples": ["\u201EDacă sunt chemat înapoi, nu va mai fi o conversație prietenoasă data viitoare\u201D", "\u201EVor fi amenzi și rapoarte formale de încălcare a normelor de zgomot\u201D", "Adăugarea unei amenințări voalate în timp ce grupul deja coopera", "Încheierea cu limbaj de aplicare a legii după douăzeci de minute de rezoluție colaborativă"],
+            "impact": "Oamenii își amintesc cum se termină lucrurile mai mult decât cum încep. O amenințare de închidere reîncadrează întreaga întâlnire ca un avertisment mai degrabă decât o colaborare. Grupul cooperează din frică, nu din acord. Liam va ține minte amenințarea, nu corectitudinea. Impresia durabilă este constrângere, nu competență.",
+            "correction": "Când o negociere reușește, lăsați-o să reușească. Încheiați cu acordul, nu cu ce se întâmplă dacă eșuează. Aveți încredere în procesul pe care l-ați construit în loc să-l asigurați cu intimidare."
+        },
+        "incompleteFollowUp": {
+            "pattern": "Rezolvarea zgomotului imediat fără închiderea cercului cu toți participanții",
+            "examples": ["Plecarea fără a verifica la domnul Kimura după ce și-a împărtășit vulnerabilitatea", "Nevalidarea deciziei Martei de a suna sau neofertirea de sfaturi sistemice", "Darea vinei pe Marta că nu a gestionat singură situația", "Rezolvarea zgomotului dar neabordarea politicii de zgomot lipsă a hostelului"],
+            "impact": "Domnul Kimura stă treaz întrebându-se dacă va dura. Marta se simte nesuportată sau vinovată. Hostelul nu are instrumente mai bune pentru vinerea viitoare. Întâlnirea rezolvă un incident dar nu îmbunătățește un sistem.",
+            "correction": "Faceți urmărire cu fiecare participant care v-a abordat direct. Validați-o pe Marta, actualizați-l pe domnul Kimura și sugerați o îmbunătățire sistemică. Treizeci de secunde per persoană transformă un incident rezolvat într-o relație durabilă."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Negociere multi-party remarcabilă. Ați demonstrat setul complet de abilități pentru disputele complexe în spații comune: pregătire minuțioasă prin informarea personalului, implicare empatică cu reclamantul, limite profesionale sub presiune socială, utilizare creativă a dinamicii de grup pentru a găsi aliați cooperanți, opțiuni structurate care au abilitat conformarea voluntară și urmărire autentică cu fiecare participant. Marta, domnul Kimura, Liam și Priya au plecat din această întâlnire simțindu-se auziți și respectați. Acesta este standardul pentru apelurile la hosteluri și cazări comune.",
+            "mostlyPositive": "Performanță solidă într-o plângere de zgomot cu mai mulți participanți. Ați menținut proporționalitatea, v-ați implicat cu diferite perspective culturale și ați lucrat spre rezoluție colaborativă mai degrabă decât aplicare. Unele oportunități au fost ratate — poate în pregătire, dinamica de grup, stabilirea limitelor sau urmărirea participanților — dar abordarea dumneavoastră generală a fost profesională, proporțională și constructivă pentru încredere.",
+            "mixed": "Ați arătat competență în unele zone dar v-ați confruntat cu complexitatea completă a acestei situații multi-party de hostel. Punctele forte au fost vizibile în anumite etape, dar oportunități critice au fost ratate în altele. Revizuiți echilibrul dintre autoritate și colaborare, importanța abilitării vocilor cooperante din grupuri și diferența între rezolvarea zgomotului de diseară și prevenirea apelului repetat de vinerea viitoare.",
+            "mostlyNegative": "Acest scenariu a relevat lacune semnificative în negociere și proporționalitate. Deși ați reușit să abordați plângerea de zgomot la un nivel de bază, majoritatea alegerilor au înclinat spre aplicare rigidă în loc de rezolvare colaborativă, eroziunea limitelor în loc de căldură profesională, sau urmărire incompletă în loc de grijă autentică pentru participanți. Plângerile de zgomot la hosteluri sunt locul unde abilitățile de negociere se construiesc sau se expun — revizuiți principiile de mediere multi-party, răspunsul proporțional și tehnica vocii cooperante.",
+            "allNegative": "Abordarea dumneavoastră a tratat o situație de negociere ca o chestiune pur de aplicare a legii. Sărbătoarea legitimă a backpackerilor, nevoia de bază a domnului Kimura de somn, inițiativa constructivă a Priyei și nevoia Martei de validare și suport sistemic au fost toate ratate. Apelurile de zgomot în cazări comune necesită conștientizare culturală, răspuns proporțional și rezolvare colaborativă de probleme — nu comenzi, amenințări sau vină. Aceasta necesită o reorientare fundamentală spre polițieneștea bazată pe negociere."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Văd că aveți o seară grozavă. Nu sunt aici să opresc nimic — dar am nevoie de un minut din timpul vostru pentru că este o situație pe care trebuie s-o rezolvăm.",
+            "A pierde somnul înainte de o prezentare importantă este extrem de frustrant și aveți dreptate să așteptați liniște la această oră.",
+            "Preocuparea dumneavoastră principală este oprirea zgomotului, sau aveți nevoie specific ca grupul să fie îndepărtat din clădire?",
+            "Liam, chiar înțeleg — ultima noapte împreună, sfârșitul unei călătorii importante. Contează. Și ai dreptate că hostelurile sunt locuri sociale.",
+            "Drepturile voastre și ale lor nu sunt diferite. Deci întrebarea nu este dacă puteți sărbători — ci cum și unde.",
+            "Aș prefera să vă ajut să găsiți o modalitate de a vă continua seara decât să o opresc.",
+            "Priya, mulțumesc — exact genul de gândire care ajută.",
+            "Opțiunea A: curtea interioară — puteți lua băuturile și vorbi acolo, dar fără difuzor. Opțiunea B: The Night Owl — puteți fi oricât de zgomotoși vreți.",
+            "Ați făcut bine că ați sunat, Marta. V-aș recomanda de asemenea să discutați cu managerul dumneavoastră despre o politică scrisă de zgomot.",
+            "Domnule Kimura, camera comună este liberă și liniștită. Sper ca prezentarea de mâine să meargă bine."
+        ],
+        "poorPhrases": [
+            "Aceasta este de fapt o problemă de management — ar trebui să continue să încerce managerul și să o gestioneze ca o chestiune internă a hostelului.",
+            "Aceasta este un hostel — spațiile comune și un oarecare zgomot vin la pachet. Poate ați putea încerca dopuri de urechi?",
+            "Nimeni nu mai bea nimic în seara aceasta. Opriți muzica imediat. Aceasta este singura avertizare.",
+            "Știi ce, nu ai greșit — doar mențineți un zgomot de fond și eu îi spun recepționerei că e rezolvat.",
+            "Regulile sunt reguli. Orele de liniște sunt ore de liniște. Nu e negociabil.",
+            "Petrecerea s-a terminat pentru diseară. Strângeți-vă lucrurile, mergeți la camerele voastre, dormiți puțin.",
+            "Dacă sunt chemat înapoi aici diseară, nu va mai fi o conversație prietenoasă data viitoare. Vor fi amenzi.",
+            "Sincer, Marta, ar fi trebuit să gestionezi asta înainte să ajungă în punctul ăsta."
+        ],
+        "analysisCriteria": {
+            "negotiationQuality": "A deschis fraza spațiu de negociere sau l-a închis? A creat opțiuni sau a emis ultimatumuri?",
+            "proportionality": "S-a potrivit fraza cu severitatea — conversație pentru o plângere de zgomot, nu comenzi pentru o scenă de infracțiune?",
+            "stakeholderAwareness": "A recunoscut fraza preocupările legitime ale tuturor părților, sau a prioritizat una în detrimentul celorlalte?",
+            "culturalSensitivity": "A respectat fraza diferite așteptări culturale privind zgomotul, autoritatea și normele sociale?",
+            "boundaryMaintenance": "A menținut fraza autoritatea profesională rămânând în același timp abordabilă și caldă?",
+            "sustainableResolution": "A contribuit fraza la o soluție durabilă sau doar la conformare temporară care s-ar dizolva în câteva minute?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "În apelurile la hosteluri și cazări comune, două minute cu recepționera vă dau cadrul de politici, compoziția grupului și așteptările reclamanților care modelează fiecare decizie ulterioară. A trece în grabă pe lângă Marta înseamnă a intra în camera comună orb.",
+        "2": "Separarea nevoii de bază a domnului Kimura (somn înainte de prezentare) de cererea declarată (expulzarea grupului) este cea mai puternică mișcare de negociere din acest scenariu. O singură întrebare a extins spațiul de soluții de la o opțiune la multe.",
+        "3": "Oferta de bere a lui Liam este testul definitoriu al limitelor profesionale. Modul în care o gestionați în primele treizeci de secunde determină dacă grupul vede un ofițer care poate fi farmecat sau unul care comandă respect prin căldură. Refuzați clar, refuzați cald și treceți mai departe.",
+        "4": "Validarea argumentului lui Liam (\u201Ehostelurile sunt locuri sociale\u201D) înainte de a-l redirecționa (\u201Edrepturile voastre și ale lor nu sunt diferite\u201D) transformă rezistența în disponibilitate. Oamenii care se simt auziți se mișcă; oamenii care se simt respinși se înrădăcinează. ȘI-ul dintre validare și limită este tehnica.",
+        "5": "Priya este cheia acestui scenariu. Și-a asumat un risc social vorbind împotriva liderului grupului. Abilitarea vocii ei, construirea pe sugestia ei și redirecționarea spre Liam pentru acord realizează ceea ce confruntarea nu ar fi putut niciodată — conformare voluntară cu salvarea demnității.",
+        "6": "Opțiunile specifice și structurate cu parametri clari (\u201Efără difuzor, nivel de conversație, zece minute pentru a elibera camera\u201D) produc acorduri auto-aplicabile. Instrucțiunile vagi (\u201Efiți liniștiți\u201D) sunt aceeași instrucțiune pe care Marta a dat-o de trei ori — și a eșuat de trei ori.",
+        "7": "Urmărirea cu Marta și domnul Kimura nu este curtoazie opțională — este ceea ce face rezoluția completă. Validarea Martei previne ezitarea la următorul apel. Actualizarea domnului Kimura onorează vulnerabilitatea pe care a împărtășit-o. Sugerarea unei politici de zgomot transformă un singur incident în îmbunătățire sistemică."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Negociere avansată multi-party — formarea altora în tehnici de mediere în spații comune", "Conducere în comunicare interculturală pentru contexte internaționale de poliție", "Rezolvare sistemică de probleme — ajutarea instituțiilor să dezvolte politici care previn apelurile repetate", "Identificarea și abilitarea vocii cooperante în dinamica de grup"],
+            "good": ["Abilități extinse de negociere — separarea nevoilor de cereri în dispute multi-party", "Sensibilitate culturală în medii internaționale de ospitalitate", "Tehnici de urmărire a participanților — închiderea cercului cu fiecare parte afectată", "Managementul dinamicii de grup — lucrul cu lideri și aliați din cadrul grupurilor"],
+            "average": ["Principii fundamentale de negociere — reîncadrare, opțiuni structurate, rezolvare colaborativă de probleme", "Limite profesionale sub presiune socială — căldură fără cooptare", "Răspuns proporțional în apeluri de zgomot și deranj de nivel scăzut", "Ascultare activă și implicare empatică cu reclamanții frustrați"],
+            "poor": ["Fundamentele negocierii și medierii multi-party", "Proporționalitate în discreția de aplicare — potrivirea răspunsului cu severitatea reală", "Limite profesionale și conduită în medii sociale", "Bazele managementului părților interesate — pregătire, implicare, urmărire cu toate părțile"]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Rezumat general al performanței", "content": ["Scor și nivel de performanță", "Puncte forte cheie în negocierea multi-party", "Slăbiciuni critice în managementul participanților sau proporționalitate", "Evaluare generală a gestionării plângerii de zgomot la hostel"]},
+            {"title": "Analiză etapă cu etapă", "content": ["Alegerea făcută la fiecare etapă", "Impactul asupra Martei, domnului Kimura, lui Liam, Priyei și grupului de backpackeri", "Abordări alternative și consecințele lor", "Puncte cheie de învățare per etapă"]},
+            {"title": "Evaluarea negocierii și medierii", "content": ["Calitatea separării nevoie vs. cerere — interacțiunea cu domnul Kimura", "Tehnica validare-apoi-redirecționare — interacțiunea cu Liam", "Abilitarea vocii cooperante — interacțiunea cu Priya", "Prezentarea opțiunilor structurate — asigurarea acordului"]},
+            {"title": "Evaluarea proporționalității și limitelor", "content": ["Calibrarea răspunsului la severitatea reală — plângere de zgomot, nu infracțiune violentă", "Menținerea limitelor profesionale — oferta de bere, presiunea socială", "Progresie prin opțiuni: relocare înainte de restricție înainte de expulzare", "Tonul de încheiere — bunăvoința păstrată sau otrăvită de avertismente"]},
+            {"title": "Analiza sensibilității culturale", "content": ["Adaptarea la informalitatea australiană a lui Liam", "Respectul pentru comunicarea formală a domnului Kimura și miza profesională", "Recunoașterea diferitelor așteptări culturale privind zgomotul și socializarea", "Demnitate consecventă în contexte culturale diferite"]},
+            {"title": "Calitatea urmăririi participanților", "content": ["Marta: validare, actualizare, recomandare sistemică", "Domnul Kimura: urmărire personală abordând preocuparea specifică", "Grupul de backpackeri: încheiere cu demnitate și acord voluntar", "Impact sistemic — recomandarea politicii de zgomot și prevenirea viitoare"]},
+            {"title": "Eficiența comunicării", "content": ["Cele mai bune momente de dialog și de ce au funcționat", "Fraze contraproductive și consecințele lor", "Analiza încadrării — problemă comună vs. întâlnire de aplicare a legii", "Impactul declarației de încheiere asupra memoriei durabile"]},
+            {"title": "Dezvoltare profesională", "content": ["Nevoi imediate de instruire bazate pe cele mai slabe zone", "Dezvoltare pe termen lung a abilităților de negociere și competență culturală", "Resurse recomandate pentru apeluri de cazare comună și plângeri de zgomot", "Aplicare la alte situații multi-party de aplicare a legii de nivel scăzut"]}
+        ]
+    }
+}

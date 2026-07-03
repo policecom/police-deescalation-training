@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Editor scénářů — POL-COM deeskalace</title>
+<style>
+  :root{
+    --blue:#1e40af; --blue2:#3b82f6; --blue-d:#1e3a8a;
+    --bg:#f1f5f9; --card:#ffffff; --line:#e2e8f0; --ink:#0f172a; --muted:#64748b;
+    --green:#16a34a; --teal:#0d9488; --amber:#d97706; --red:#dc2626;
+    --radius:14px; --shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.5;
+    -webkit-text-size-adjust:100%;
+  }
+  a{color:var(--blue2)}
+  /* ---------- Header / toolbar ---------- */
+  header{
+    position:sticky; top:0; z-index:40;
+    background:linear-gradient(135deg,var(--blue-d),var(--blue2));
+    color:#fff; box-shadow:var(--shadow);
+  }
+  .bar{max-width:1000px;margin:0 auto;padding:10px 14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .brand{display:flex;align-items:center;gap:10px;margin-right:auto;min-width:0}
+  .brand .logo{font-size:22px;line-height:1}
+  .brand h1{font-size:16px;margin:0;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .brand small{display:block;font-size:11px;opacity:.85;font-weight:400}
+  .tools{display:flex;flex-wrap:wrap;gap:6px}
+  button{font-family:inherit;font-size:14px;cursor:pointer}
+  .btn{
+    min-height:40px;padding:8px 12px;border-radius:10px;border:1px solid transparent;
+    background:rgba(255,255,255,.16);color:#fff;font-weight:600;display:inline-flex;align-items:center;gap:6px;
+  }
+  .btn:hover{background:rgba(255,255,255,.28)}
+  .btn.play{background:#fff;color:var(--blue)}
+  .btn.play:hover{background:#eef2ff}
+  /* ---------- Tabs ---------- */
+  nav.tabs{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:60px;z-index:30}
+  .tabs-inner{max-width:1000px;margin:0 auto;display:flex;gap:2px;overflow-x:auto;-webkit-overflow-scrolling:touch;padding:0 8px}
+  .tab{
+    flex:0 0 auto;min-height:46px;padding:10px 14px;border:none;background:none;color:var(--muted);
+    font-weight:600;border-bottom:3px solid transparent;white-space:nowrap;
+  }
+  .tab.active{color:var(--blue);border-bottom-color:var(--blue2)}
+  .tab .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-left:6px;vertical-align:middle}
+  .dot.err{background:var(--red)} .dot.warn{background:var(--amber)} .dot.ok{background:var(--green)}
+  /* ---------- Layout ---------- */
+  main{max-width:1000px;margin:0 auto;padding:16px 14px 140px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin-bottom:16px}
+  .card > h2{margin:0 0 4px;font-size:18px}
+  .card > .hint{margin:0 0 14px;color:var(--muted);font-size:13px}
+  .grid{display:grid;gap:14px}
+  @media(min-width:640px){.grid.two{grid-template-columns:1fr 1fr}.grid.three{grid-template-columns:2fr 1fr 1fr}}
+  label.field{display:block;margin-bottom:12px}
+  label.field > span{display:block;font-size:13px;font-weight:600;margin-bottom:4px;color:#334155}
+  label.field > span .req{color:var(--red)}
+  input[type=text],input[type=number],select,textarea{
+    width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;font-size:15px;
+    font-family:inherit;background:#fff;color:var(--ink);min-height:44px;
+  }
+  textarea{min-height:70px;resize:vertical;line-height:1.45}
+  input:focus,select:focus,textarea:focus{outline:2px solid var(--blue2);outline-offset:1px;border-color:var(--blue2)}
+  .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .spacer{flex:1}
+  .mini{min-height:38px;padding:6px 10px;font-size:13px;border-radius:9px;border:1px solid var(--line);background:#f8fafc;color:#334155;font-weight:600}
+  .mini:hover{background:#eef2ff}
+  .mini.danger{color:var(--red);border-color:#fecaca;background:#fef2f2}
+  .mini.danger:hover{background:#fee2e2}
+  .mini.add{color:var(--blue);border-color:#bfdbfe;background:#eff6ff}
+  /* ---------- Stage / option cards ---------- */
+  details.stage{border:1px solid var(--line);border-radius:12px;margin-bottom:12px;background:#fff;overflow:hidden}
+  details.stage>summary{list-style:none;cursor:pointer;padding:12px 14px;display:flex;align-items:center;gap:10px;background:#f8fafc;font-weight:700}
+  details.stage>summary::-webkit-details-marker{display:none}
+  details.stage[open]>summary{border-bottom:1px solid var(--line)}
+  .stage-idx{background:var(--blue);color:#fff;border-radius:8px;min-width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;font-size:13px}
+  .stage-body{padding:14px}
+  .opt{border:1px solid var(--line);border-left-width:5px;border-radius:10px;padding:12px;margin-bottom:12px;background:#fff}
+  .opt.positive{border-left-color:var(--green)}
+  .opt.partially_positive{border-left-color:var(--teal)}
+  .opt.neutral{border-left-color:var(--amber)}
+  .opt.negative{border-left-color:var(--red)}
+  .badge{display:inline-block;font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;color:#fff}
+  .badge.positive{background:var(--green)} .badge.partially_positive{background:var(--teal)}
+  .badge.neutral{background:var(--amber)} .badge.negative{background:var(--red)}
+  .fb3{display:grid;gap:8px;margin-top:8px}
+  .fb3 label{font-size:12px;font-weight:600;color:#475569;display:block}
+  .fb3 textarea{min-height:52px}
+  .line-item{display:flex;gap:8px;align-items:flex-start;margin-bottom:8px}
+  .line-item select{max-width:190px}
+  .line-item textarea{min-height:48px}
+  .chr{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+  .chr .emoji{width:56px;text-align:center;font-size:20px}
+  .chr .key{width:130px;font-size:13px;color:var(--muted)}
+  /* law table */
+  table.law{width:100%;border-collapse:collapse}
+  table.law td{padding:4px 4px 4px 0}
+  table.law input{min-height:40px}
+  /* ---------- Validation panel ---------- */
+  #valwrap{position:fixed;left:0;right:0;bottom:0;z-index:50;pointer-events:none}
+  #valpanel{
+    max-width:1000px;margin:0 auto;pointer-events:auto;background:#fff;border:1px solid var(--line);
+    border-bottom:none;border-radius:14px 14px 0 0;box-shadow:0 -6px 24px rgba(15,23,42,.12);
+    max-height:46vh;display:flex;flex-direction:column;
+  }
+  #valhead{display:flex;align-items:center;gap:10px;padding:10px 14px;cursor:pointer;border-bottom:1px solid var(--line)}
+  #valhead .status{font-weight:700}
+  #valbody{overflow:auto;padding:6px 14px 12px}
+  #valpanel.collapsed #valbody{display:none}
+  .vitem{font-size:13px;padding:6px 10px;border-radius:8px;margin:4px 0}
+  .vitem.err{background:#fef2f2;color:#991b1b;border:1px solid #fecaca}
+  .vitem.warn{background:#fffbeb;color:#92400e;border:1px solid #fde68a}
+  .vitem.ok{background:#f0fdf4;color:#166534;border:1px solid #bbf7d0}
+  .pill{font-size:12px;font-weight:700;padding:3px 9px;border-radius:999px}
+  .pill.err{background:#fee2e2;color:#991b1b} .pill.warn{background:#fef3c7;color:#92400e} .pill.ok{background:#dcfce7;color:#166534}
+  .chev{transition:transform .15s;font-size:12px;color:var(--muted)}
+  #valpanel.collapsed .chev{transform:rotate(180deg)}
+  /* ---------- Modal ---------- */
+  .modal-bg{position:fixed;inset:0;background:rgba(15,23,42,.5);z-index:60;display:flex;align-items:flex-start;justify-content:center;padding:24px 14px;overflow:auto}
+  .modal{background:#fff;border-radius:16px;max-width:560px;width:100%;box-shadow:var(--shadow);padding:18px}
+  .modal h3{margin:0 0 12px}
+  .open-item{display:flex;gap:10px;align-items:center;padding:10px;border:1px solid var(--line);border-radius:10px;margin-bottom:8px;cursor:pointer}
+  .open-item:hover{background:#eff6ff;border-color:#bfdbfe}
+  .open-item .ic{font-size:22px}
+  .open-item .meta{flex:1;min-width:0}
+  .open-item .meta b{display:block;font-size:14px}
+  .open-item .meta small{color:var(--muted);font-size:12px}
+  .drop{border:2px dashed #cbd5e1;border-radius:12px;padding:16px;text-align:center;color:var(--muted);font-size:13px;margin:10px 0}
+  .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(46vh + 12px);z-index:70;background:#0f172a;color:#fff;padding:10px 16px;border-radius:999px;font-size:14px;box-shadow:var(--shadow);opacity:0;transition:opacity .2s,bottom .2s;pointer-events:none}
+  .toast.show{opacity:1}
+  .helpbox{background:#eff6ff;border:1px solid #bfdbfe;color:#1e3a8a;border-radius:10px;padding:10px 12px;font-size:13px;margin-bottom:14px}
+  .emoji-in{width:70px;text-align:center;font-size:20px}
+  .hidden{display:none!important}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="brand">
+      <span class="logo">🎓</span>
+      <div>
+        <h1>Editor scénářů</h1>
+        <small>POL-COM · trénink deeskalace</small>
+      </div>
+    </div>
+    <div class="tools">
+      <button class="btn" data-action="new">➕ Nový</button>
+      <button class="btn" data-action="open">📂 Otevřít</button>
+      <button class="btn" data-action="save">💾 Uložit</button>
+      <button class="btn" data-action="export">⬇️ Export</button>
+      <button class="btn play" data-action="play">▶️ Zahrát</button>
+      <a class="btn" href="index.html">⬅️ Zpět do hry</a>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <div class="tabs-inner" id="tabs"></div>
+</nav>
+
+<main id="view"></main>
+
+<div id="valwrap">
+  <div id="valpanel" class="collapsed">
+    <div id="valhead">
+      <span class="status" id="valstatus">Kontrola…</span>
+      <span class="spacer" style="flex:1"></span>
+      <span class="pill" id="valpills"></span>
+      <span class="chev">▲</span>
+    </div>
+    <div id="valbody"></div>
+  </div>
+</div>
+
+<div id="toast" class="toast"></div>
+<div id="modalHost"></div>
+
+<!-- Reuse the game's helpers & APIs -->
+<script src="config.js?v=7"></script>
+<script src="custom-store.js?v=7"></script>
+<script src="custom-validator.js?v=7"></script>
+<script>
+"use strict";
+/* =========================================================================
+ * POL-COM de-escalation scenario editor.
+ * Self-contained; persists via CustomStore, validates via CustomValidator,
+ * escapes user text via esc() (all from the loaded game scripts).
+ * ========================================================================= */
+
+// -------- constants --------
+var TYPES = ['positive','partially_positive','neutral','negative'];
+var TYPE_LABEL = {positive:'Nejlepší', partially_positive:'Částečně správně', neutral:'Neutrální', negative:'Chybná'};
+var TYPE_POINTS_OPTS = {positive:[10,12], partially_positive:[5], neutral:[2], negative:[-8,-10]};
+var DEFAULT_POINTS = {positive:10, partially_positive:5, neutral:2, negative:-8};
+var LANGS = [['cs','Čeština'],['en','English'],['lt','Lietuvių'],['ro','Română']];
+var COMMON_ACTS = [
+  ['2008-273','Zákon o Policii ČR'],
+  ['2000-361','Silniční provoz'],
+  ['2009-40','Trestní zákoník'],
+  ['1961-141','Trestní řád'],
+  ['2011-372','Zdravotní služby'],
+  ['2013-292','Zvláštní řízení soudní'],
+  ['2016-251','Přestupky']
+];
+var MIN_STAGES = 3, MAX_STAGES = 10;
+
+// -------- app state --------
+var state = { id:null, scenario:null, review:null, tab:'meta' };
+var saveTimer = null;
+
+// -------- path get/set (numeric segments = array index) --------
+function getByPath(obj, path){
+  var segs = path.split('.'); var cur = obj;
+  for (var i=0;i<segs.length;i++){ if(cur==null) return undefined; cur = cur[segs[i]]; }
+  return cur;
+}
+function setByPath(obj, path, val){
+  var segs = path.split('.'); var cur = obj;
+  for (var i=0;i<segs.length-1;i++){ var k=segs[i]; if(cur[k]==null) cur[k]={}; cur=cur[k]; }
+  cur[segs[segs.length-1]] = val;
+}
+
+// -------- feedback compose / split --------
+function composeFeedback(o){
+  var why = (o._why||'').trim(), cons=(o._cons||'').trim(), refl=(o._refl||'').trim();
+  return 'Proč: '+why+' | DŮSLEDKY: '+cons+' | Reflexe: '+refl;
+}
+function splitFeedback(str){
+  var out = {_why:'', _cons:'', _refl:''};
+  if(!str){ return out; }
+  var parts = String(str).split(/\s*\|\s*/);
+  var mapped = {why:'_why', 'proč':'_why', proc:'_why',
+                'důsledky':'_cons', dusledky:'_cons', consequences:'_cons',
+                reflexe:'_refl', reflection:'_refl'};
+  var matchedAny = false;
+  parts.forEach(function(p, i){
+    var colon = p.indexOf(':');
+    if(colon>0 && colon<=24){
+      var label = p.slice(0,colon).trim().toLowerCase();
+      var body = p.slice(colon+1).trim();
+      var key = null;
+      Object.keys(mapped).forEach(function(m){ if(label.indexOf(m)===0) key = mapped[m]; });
+      if(key){ out[key]=body; matchedAny=true; return; }
+    }
+    // positional fallback for 3 unlabelled parts
+    if(parts.length===3){ out[['_why','_cons','_refl'][i]] = p.trim(); matchedAny=true; }
+  });
+  if(!matchedAny){ out._why = String(str).trim(); }
+  return out;
+}
+
+// -------- blank scenario factory --------
+function blankStage(idx){
+  var opts = TYPES.map(function(t){
+    return { text:'', feedback:'', type:t, points:DEFAULT_POINTS[t], _why:'', _cons:'', _refl:'' };
+  });
+  return {
+    id: idx,
+    title: 'Fáze '+idx,
+    sceneUpdate:{ emoji:'📍', title:'', desc:'' },
+    npcDialogue:[],
+    prompt:'',
+    options: opts
+  };
+}
+function blankFinalStage(idx){
+  return {
+    id: idx,
+    title:'Rozbor',
+    sceneUpdate:{ emoji:'👮‍♂️', title:'Výcvikový rozbor', desc:'' },
+    autoDialogue:true,
+    finalScene:true,
+    dialogueSequence:[
+      { character:'trainer', text:'' },
+      { character:'officer', text:'' },
+      { character:'trainer', text:'' }
+    ]
+  };
+}
+function blankScenario(){
+  var stages = [];
+  for(var i=1;i<=7;i++) stages.push(blankStage(i));
+  stages.push(blankFinalStage(8));
+  return {
+    id:'custom:draft',
+    title:'',
+    description:'',
+    icon:'🎓',
+    lang:'cs',
+    difficulty:3,
+    duration:'12-18',
+    instructor:{ name:'', avatar:'👨‍🏫', introduction:'' },
+    timedChoices:true,
+    finalMessage:{ revelation:'', keyLessons:['','','','',''] },
+    _lawRows:[],
+    stages: stages,
+    characters:{
+      officer:{ name:'Vy (policista)', avatar:'👮' },
+      trainer:{ name:'Instruktor', avatar:'👨‍🏫' }
+    },
+    performanceReviews:{
+      perfect:{ title:'', emoji:'🌟', feedback:'' },
+      good:{ title:'', emoji:'✅', feedback:'' },
+      average:{ title:'', emoji:'📊', feedback:'' },
+      poor:{ title:'', emoji:'⚠️', feedback:'' }
+    },
+    metrics:{
+      rapport:{ name:'Důvěra a vztah', description:'Budování důvěry klidem a empatií', icon:'🤝' },
+      procedure:{ name:'Zákonný postup', description:'Dodržení zákonného postupu', icon:'📋' },
+      emotional:{ name:'Emoční inteligence', description:'Zvládání klidu pod tlakem', icon:'💚' },
+      safety:{ name:'Bezpečnost a přiměřenost', description:'Volba nejmírnějšího účinného postupu', icon:'🛡️' }
+    }
+  };
+}
+
+// interactive stages helper
+function interactiveStages(sc){ return sc.stages.filter(function(s){ return !s.finalScene; }); }
+function finalStage(sc){ return sc.stages.filter(function(s){ return s.finalScene; })[0]; }
+function optOfType(stage, t){ return (stage.options||[]).filter(function(o){ return o.type===t; })[0]; }
+
+// renumber ids so interactive = 1..N, final = N+1
+function renumber(sc){
+  var n=0;
+  sc.stages.forEach(function(s){ if(!s.finalScene){ n++; s.id=n; } });
+  var f = finalStage(sc); if(f) f.id = n+1;
+}
+
+// -------- produce a clean, save/export-ready scenario --------
+function cleanScenario(){
+  var sc = JSON.parse(JSON.stringify(state.scenario));
+  // lawContext from rows
+  var law = {};
+  (state.scenario._lawRows||[]).forEach(function(r){
+    var num = (r.num||'').toString().trim().replace(/^§\s*/,'');
+    var act = (r.act||'').toString().trim();
+    if(num && act) law[num]=act;
+  });
+  sc.lawContext = law;
+  delete sc._lawRows;
+  // compose option feedback, drop editing fields
+  sc.stages.forEach(function(st){
+    (st.options||[]).forEach(function(o){
+      o.feedback = composeFeedback(o);
+      delete o._why; delete o._cons; delete o._refl;
+    });
+  });
+  // finalize identity fields
+  var id = state.id;
+  sc.id = id;
+  sc.completionBadges = ['scenario-'+id+'-complete'];
+  sc.perfectBadge = 'perfect-scenario-'+id;
+  // difficulty numeric
+  sc.difficulty = Number(sc.difficulty)||3;
+  return sc;
+}
+
+// =========================================================================
+// Review skeleton generation
+// =========================================================================
+function paraphrase(text){
+  var t = (text||'').replace(/\s+/g,' ').trim();
+  if(!t) return '(doplňte popis volby)';
+  if(t.length<=90) return t;
+  var cut = t.slice(0,90);
+  var lastDot = cut.lastIndexOf('. ');
+  if(lastDot>40) return cut.slice(0,lastDot+1);
+  return cut.replace(/\s\S*$/,'')+'…';
+}
+function generateReviewSkeleton(){
+  var sc = cleanScenario();
+  var inter = interactiveStages(sc);
+  var stageAnalysis = {};
+  inter.forEach(function(st, i){
+    var key = String(i+1);
+    stageAnalysis[key] = {
+      stageName: st.title || ('Fáze '+(i+1)),
+      criticalSkills: ['(klíčová dovednost 1)','(klíčová dovednost 2)','(klíčová dovednost 3)'],
+      choiceAnalysis: {
+        positive:{
+          choiceText: paraphrase((optOfType(st,'positive')||{}).text),
+          strengths:['(doplňte silné stránky této volby)'],
+          professionalImpact:'(doplňte, jaký profesionální dopad měla nejlepší volba)'
+        },
+        neutral:{
+          choiceText: paraphrase((optOfType(st,'neutral')||{}).text),
+          adequate:['(co bylo na neutrální volbě v pořádku)'],
+          missed:['(co neutrální volba promeškala)'],
+          improvement:'(jak to příště udělat lépe)'
+        },
+        negative:{
+          choiceText: paraphrase((optOfType(st,'negative')||{}).text),
+          failures:['(v čem chybná volba selhala)'],
+          consequences:'(jaké následky chybná volba měla)',
+          trainingFocus:'(na co zaměřit výcvik)'
+        },
+        partially_positive:{
+          choiceText: paraphrase((optOfType(st,'partially_positive')||{}).text),
+          adequate:['(co bylo na částečné volbě v pořádku)'],
+          missed:['(co částečná volba promeškala)'],
+          improvement:'(jak to příště udělat lépe)'
+        }
+      },
+      legalConsiderations:[],
+      keyLearningPoints:['(hlavní poučení 1)','(hlavní poučení 2)','(hlavní poučení 3)']
+    };
+  });
+
+  var metricKeys = Object.keys(sc.metrics||{rapport:1,procedure:1,emotional:1,safety:1});
+  var comprehensiveMetrics = {};
+  metricKeys.forEach(function(mk){
+    var m = (sc.metrics&&sc.metrics[mk])||{};
+    comprehensiveMetrics[mk] = {
+      description: m.description || '(popis metriky '+mk+')',
+      indicators:{ excellent:['(znak výborného výkonu)'], poor:['(znak slabého výkonu)'] }
+    };
+  });
+
+  var lessons = {};
+  inter.forEach(function(st,i){ lessons[String(i+1)] = '(poučení z fáze '+(i+1)+')'; });
+  lessons[String(inter.length+1)] = '(závěrečné poučení z rozboru)';
+
+  return {
+    scenarioId: sc.id,
+    reviewVersion:'1.0',
+    title:'Analýza — '+(sc.title||'vlastní scénář'),
+    stageAnalysis: stageAnalysis,
+    comprehensiveMetrics: comprehensiveMetrics,
+    mistakePatterns:{
+      escalation:{ pattern:'(vzorec zbytečné eskalace)', examples:['(příklad)'], impact:'(dopad)', correction:'(náprava)' },
+      missingCues:{ pattern:'(přehlížení signálů)', examples:['(příklad)'], impact:'(dopad)', correction:'(náprava)' },
+      judgmental:{ pattern:'(moralizování / osobní zaujetí)', examples:['(příklad)'], impact:'(dopad)', correction:'(náprava)' },
+      procedural:{ pattern:'(formální postup bez lidského rozměru)', examples:['(příklad)'], impact:'(dopad)', correction:'(náprava)' }
+    },
+    personalizedFeedback:{ templates:{
+      allPositive:'(zpětná vazba pro ukázkový výkon)',
+      mostlyPositive:'(zpětná vazba pro silný výkon) Silná stránka: [KONKRÉTNÍ_SILNÁ_STRÁNKA]. K rozvoji: [KONKRÉTNÍ_ZLEPŠENÍ].',
+      mixed:'(smíšený výkon) Silné stránky: [KONKRÉTNÍ_SILNÉ_STRÁNKY]. Rezervy: [KONKRÉTNÍ_SLABINY].',
+      mostlyNegative:'(převážně slabý výkon) Hlavní selhání: [HLAVNÍ_SELHÁNÍ]. Doporučen výcvik: [KRITICKÝ_VÝCVIK].',
+      allNegative:'(problematický výkon v celém scénáři) Nutný nápravný výcvik.'
+    }},
+    dialogueEffectivenessReview:{
+      excellentPhrases:['(příklad dobré formulace)'],
+      poorPhrases:['(příklad špatné formulace)'],
+      analysisCriteria:{
+        tone:'Byl tón přiměřený situaci?',
+        clarity:'Bylo sdělení jasné, včetně poučení?',
+        empathy:'Uznalo tíseň, aniž by ustoupilo od zákona?',
+        legality:'Odpovídalo jednání zákonu?',
+        safety:'Volilo nejmírnější účinný postup?'
+      }
+    },
+    scenarioSpecificLessons: lessons,
+    recommendedTraining:{ based_on_performance:{
+      perfect:['(doporučený rozvoj pro nejlepší výkon)'],
+      good:['(doporučený výcvik pro dobrý výkon)'],
+      average:['(doporučený výcvik pro průměrný výkon)'],
+      poor:['(povinný nápravný výcvik)']
+    }},
+    finalReportStructure:{ sections:[
+      { title:'Celkové shrnutí výkonu', content:['Skóre','Úroveň výkonu','Klíčové silné stránky','Zásadní slabiny'] },
+      { title:'Analýza podle fází', content:['Zvolená možnost','Dopad','Alternativní přístupy','Poučení'] },
+      { title:'Zákonnost postupu', content:['Poučovací povinnost','Zkoušky a postup','Sankce','Přiměřenost'] },
+      { title:'Efektivita komunikace', content:['Nejlepší momenty','Promeškané příležitosti','Analýza dialogu'] },
+      { title:'Klíčové body rozhodování', content:['Klíčové rozhodnutí 1','Klíčové rozhodnutí 2','Klíčové rozhodnutí 3'] },
+      { title:'Analýza vzorců', content:['Konzistentní silné stránky','Opakující se chyby','Rozhodovací trendy'] },
+      { title:'Profesní rozvoj', content:['Okamžité výcvikové potřeby','Dlouhodobý rozvoj','Doporučené zdroje'] }
+    ]}
+  };
+}
+
+// =========================================================================
+// Rendering
+// =========================================================================
+var TABS = [
+  ['meta','Metadata'],
+  ['chars','Postavy'],
+  ['stages','Fáze'],
+  ['final','Závěr'],
+  ['law','Právní kontext'],
+  ['review','Review']
+];
+var view = document.getElementById('view');
+var tabsEl = document.getElementById('tabs');
+
+function charOptions(sel){
+  var chars = state.scenario.characters||{};
+  return Object.keys(chars).map(function(k){
+    return '<option value="'+esc(k)+'"'+(k===sel?' selected':'')+'>'+esc(chars[k].name||k)+' ('+esc(k)+')</option>';
+  }).join('');
+}
+
+function renderTabs(){
+  var v = lastValidation;
+  tabsEl.innerHTML = TABS.map(function(t){
+    var dot='';
+    if(t[0]==='review'){
+      // handled below
+    }
+    return '<button class="tab'+(state.tab===t[0]?' active':'')+'" data-action="tab" data-tab="'+t[0]+'">'+esc(t[1])+'</button>';
+  }).join('');
+}
+
+function field(label, path, opts){
+  opts = opts||{};
+  var val = getByPath(state, path);
+  if(val==null) val='';
+  var req = opts.req ? ' <span class="req">*</span>' : '';
+  var attr = 'data-path="'+esc(path)+'"';
+  if(opts.number) attr += ' data-type="number"';
+  var control;
+  if(opts.textarea){
+    control = '<textarea '+attr+(opts.rows?' rows="'+opts.rows+'"':'')+' placeholder="'+esc(opts.ph||'')+'">'+esc(val)+'</textarea>';
+  } else if(opts.select){
+    control = '<select '+attr+'>'+opts.select.map(function(o){
+      return '<option value="'+esc(o[0])+'"'+(String(o[0])===String(val)?' selected':'')+'>'+esc(o[1])+'</option>';
+    }).join('')+'</select>';
+  } else {
+    var type = opts.number?'number':'text';
+    var extra = opts.number?(' min="'+(opts.min!=null?opts.min:1)+'" max="'+(opts.max!=null?opts.max:5)+'"'):'';
+    var cls = opts.emoji?' class="emoji-in"':'';
+    control = '<input type="'+type+'"'+cls+' '+attr+extra+' value="'+esc(val)+'" placeholder="'+esc(opts.ph||'')+'">';
+  }
+  return '<label class="field"><span>'+esc(label)+req+'</span>'+control+'</label>';
+}
+
+// ---- tab: metadata ----
+function renderMeta(){
+  var s = state.scenario;
+  var html = '<div class="card"><h2>Základní údaje</h2><p class="hint">Jak se scénář ukáže v nabídce a jak začne.</p>';
+  html += '<div class="grid two">';
+  html += field('Název scénáře','scenario.title',{req:true, ph:'např. Deeskalace při dopravní kontrole'});
+  html += field('Ikona (emoji)','scenario.icon',{emoji:true, ph:'🚗'});
+  html += '</div>';
+  html += field('Krátký popis','scenario.description',{textarea:true, rows:3, ph:'O čem scénář je (ukáže se v kartě v menu).'});
+  html += '<div class="grid three">';
+  html += field('Jazyk','scenario.lang',{select:LANGS});
+  html += field('Obtížnost (1–5)','scenario.difficulty',{number:true, min:1, max:5});
+  html += field('Délka (min)','scenario.duration',{ph:'12-18'});
+  html += '</div></div>';
+
+  html += '<div class="card"><h2>Instruktor</h2><p class="hint">Postava, která hráče uvede do scénáře a vede závěrečný rozbor.</p>';
+  html += '<div class="grid two">';
+  html += field('Jméno instruktora','scenario.instructor.name',{ph:'nprap. Roman Vlček'});
+  html += field('Avatar (emoji)','scenario.instructor.avatar',{emoji:true, ph:'👨‍🏫'});
+  html += '</div>';
+  html += field('Úvodní řeč instruktora','scenario.instructor.introduction',{textarea:true, rows:5, ph:'Uvítání a zasazení scénáře do kontextu.'});
+  html += '</div>';
+
+  html += '<div class="card"><h2>Metriky hodnocení</h2><p class="hint">Čtyři osy, na kterých se hráč hodnotí. Názvy můžete přizpůsobit tématu.</p>';
+  ['rapport','procedure','emotional','safety'].forEach(function(mk){
+    html += '<div class="grid three">';
+    html += field('Název ('+mk+')','scenario.metrics.'+mk+'.name',{});
+    html += field('Ikona','scenario.metrics.'+mk+'.icon',{emoji:true});
+    html += field('Popis','scenario.metrics.'+mk+'.description',{});
+    html += '</div>';
+  });
+  html += '</div>';
+  view.innerHTML = html;
+}
+
+// ---- tab: characters ----
+function renderChars(){
+  var chars = state.scenario.characters||{};
+  var html = '<div class="card"><h2>Postavy</h2><p class="hint">Postavy vystupující v dialozích. Klíč <b>officer</b> (hráč) a jedna postava trenéra pro závěrečný rozbor jsou povinné. Klíč postavy nejde měnit — smažte a přidejte novou.</p>';
+  html += '<div class="helpbox">Emoji avatar vlevo, zobrazované jméno vpravo. Postavy se pak nabízejí v dialozích fází i v závěrečném rozboru.</div>';
+  Object.keys(chars).forEach(function(k){
+    var locked = (k==='officer');
+    html += '<div class="chr">'
+      + '<input class="emoji-in" data-path="scenario.characters.'+esc(k)+'.avatar" value="'+esc(chars[k].avatar||'')+'" aria-label="avatar">'
+      + '<input type="text" data-path="scenario.characters.'+esc(k)+'.name" value="'+esc(chars[k].name||'')+'" placeholder="Jméno postavy">'
+      + '<span class="key">'+esc(k)+'</span>'
+      + (locked?'<button class="mini" disabled title="povinná postava">🔒</button>':'<button class="mini danger" data-action="delChar" data-key="'+esc(k)+'">🗑</button>')
+      + '</div>';
+  });
+  html += '<div class="row" style="margin-top:12px">'
+    + '<input type="text" id="newCharKey" placeholder="klíč (např. driver)" style="max-width:200px">'
+    + '<button class="mini add" data-action="addChar">➕ Přidat postavu</button>'
+    + '</div>';
+  html += '</div>';
+  view.innerHTML = html;
+}
+
+// ---- tab: stages ----
+function renderStages(){
+  var s = state.scenario;
+  var inter = interactiveStages(s);
+  var html = '<div class="card"><h2>Interaktivní fáze <span class="pill ok">'+inter.length+'</span></h2>'
+    + '<p class="hint">Každá fáze má scénu, repliky postav, otázku a 4 volby (po jedné z každého typu). Do zpětné vazby vyplňte Proč / Důsledky / Reflexe — hra je zobrazí odděleně.</p>';
+  inter.forEach(function(st){
+    var si = s.stages.indexOf(st);
+    html += renderStageCard(st, si);
+  });
+  html += '<div class="row">'
+    + '<button class="mini add" data-action="addStage"'+(inter.length>=MAX_STAGES?' disabled':'')+'>➕ Přidat fázi</button>'
+    + '<span class="hint" style="margin:0">Doporučeno 7 fází ('+MIN_STAGES+'–'+MAX_STAGES+').</span>'
+    + '</div></div>';
+  // Preserve which stage cards are expanded across a re-render — otherwise
+  // clicking an in-stage add/delete button (e.g. "➕ Replika") collapses the
+  // card and looks like nothing happened.
+  var openSet = {};
+  view.querySelectorAll('details.stage[open]').forEach(function(d){ openSet[d.getAttribute('data-si')] = true; });
+  view.innerHTML = html;
+  view.querySelectorAll('details.stage').forEach(function(d){
+    if(openSet[d.getAttribute('data-si')]) d.setAttribute('open','');
+  });
+}
+function renderStageCard(st, si){
+  var base = 'scenario.stages.'+si;
+  var inter = interactiveStages(state.scenario);
+  var canDel = inter.length>MIN_STAGES;
+  var h = '<details class="stage" data-si="'+si+'"><summary><span class="stage-idx">'+esc(st.id)+'</span>'
+    + '<span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+esc(st.title||'Fáze '+st.id)+'</span>'
+    + (canDel?'<button class="mini danger" data-action="delStage" data-si="'+si+'">🗑</button>':'')
+    + '</summary><div class="stage-body">';
+  h += field('Název fáze','' + base + '.title',{});
+  h += '<div class="grid three">';
+  h += field('Emoji scény',base+'.sceneUpdate.emoji',{emoji:true});
+  h += field('Titulek scény',base+'.sceneUpdate.title',{});
+  h += '<span></span></div>';
+  h += field('Popis scény',base+'.sceneUpdate.desc',{textarea:true, rows:2, ph:'Co hráč vidí a slyší.'});
+  // NPC dialogue
+  h += '<div style="margin:6px 0"><b style="font-size:13px">Repliky postav (NPC)</b></div>';
+  (st.npcDialogue||[]).forEach(function(d, di){
+    h += '<div class="line-item">'
+      + '<select data-path="'+base+'.npcDialogue.'+di+'.character">'+charOptions(d.character)+'</select>'
+      + '<textarea data-path="'+base+'.npcDialogue.'+di+'.text" placeholder="text repliky">'+esc(d.text||'')+'</textarea>'
+      + '<button class="mini danger" data-action="delNpc" data-si="'+si+'" data-di="'+di+'">✕</button>'
+      + '</div>';
+  });
+  h += '<button class="mini add" data-action="addNpc" data-si="'+si+'">➕ Replika</button>';
+  h += field('Otázka pro hráče (prompt)',base+'.prompt',{textarea:true, rows:2, ph:'Jak zareagujete?'});
+  // options
+  h += '<div style="margin:10px 0 4px"><b style="font-size:13px">Volby (4)</b></div>';
+  (st.options||[]).forEach(function(o, oi){
+    var ob = base+'.options.'+oi;
+    h += '<div class="opt '+o.type+'">'
+      + '<div class="row"><span class="badge '+o.type+'">'+esc(TYPE_LABEL[o.type])+'</span>'
+      + '<span class="spacer"></span>'
+      + '<label style="font-size:12px;color:#475569">Body '
+      + '<select data-path="'+ob+'.points" data-type="number" style="min-height:34px;width:auto;display:inline-block">'
+      + TYPE_POINTS_OPTS[o.type].map(function(p){ return '<option value="'+p+'"'+(Number(o.points)===p?' selected':'')+'>'+p+'</option>'; }).join('')
+      + '</select></label></div>';
+    h += '<label class="field" style="margin:8px 0 4px"><span>Text volby</span>'
+      + '<textarea data-path="'+ob+'.text" rows="2" placeholder="Co policista udělá / řekne">'+esc(o.text||'')+'</textarea></label>';
+    h += '<div class="fb3">'
+      + '<div><label>💡 Proč</label><textarea data-path="'+ob+'._why" placeholder="Proč je tato volba (ne)správná – právní/odborné zdůvodnění">'+esc(o._why||'')+'</textarea></div>'
+      + '<div><label>➡️ Důsledky</label><textarea data-path="'+ob+'._cons" placeholder="Co se ve scéně stane">'+esc(o._cons||'')+'</textarea></div>'
+      + '<div><label>🤔 Reflexe</label><textarea data-path="'+ob+'._refl" placeholder="Otázka k zamyšlení">'+esc(o._refl||'')+'</textarea></div>'
+      + '</div>';
+    h += '</div>';
+  });
+  h += '</div></details>';
+  return h;
+}
+
+// ---- tab: final / debrief ----
+function renderFinal(){
+  var s = state.scenario;
+  var f = finalStage(s);
+  var fi = s.stages.indexOf(f);
+  var html = '<div class="card"><h2>Závěrečný rozbor</h2><p class="hint">Automatický dialog mezi trenérem a policistou (officer), který uzavře scénář.</p>';
+  html += '<div class="grid two">';
+  html += field('Emoji scény','scenario.stages.'+fi+'.sceneUpdate.emoji',{emoji:true});
+  html += field('Titulek rozboru','scenario.stages.'+fi+'.sceneUpdate.title',{});
+  html += '</div>';
+  html += field('Popis scény rozboru','scenario.stages.'+fi+'.sceneUpdate.desc',{textarea:true, rows:2});
+  html += '<div style="margin:8px 0 4px"><b style="font-size:13px">Dialog rozboru</b> <span class="hint" style="margin:0">(střídejte trenéra a officer)</span></div>';
+  (f.dialogueSequence||[]).forEach(function(d, di){
+    html += '<div class="line-item">'
+      + '<select data-path="scenario.stages.'+fi+'.dialogueSequence.'+di+'.character">'+charOptions(d.character)+'</select>'
+      + '<textarea data-path="scenario.stages.'+fi+'.dialogueSequence.'+di+'.text" placeholder="replika">'+esc(d.text||'')+'</textarea>'
+      + '<button class="mini danger" data-action="delSeq" data-di="'+di+'">✕</button>'
+      + '</div>';
+  });
+  html += '<button class="mini add" data-action="addSeq">➕ Replika rozboru</button>';
+  html += '</div>';
+
+  html += '<div class="card"><h2>Závěrečné odhalení</h2><p class="hint">Co hráč po dohrání zjistí (skryté pozadí příběhu) + 5 hlavních ponaučení.</p>';
+  html += field('Odhalení (revelation)','scenario.finalMessage.revelation',{textarea:true, rows:5});
+  html += '<div><b style="font-size:13px">Klíčová ponaučení (5)</b></div>';
+  (s.finalMessage.keyLessons||[]).forEach(function(l, li){
+    html += '<div class="line-item"><span class="stage-idx">'+(li+1)+'</span>'
+      + '<textarea data-path="scenario.finalMessage.keyLessons.'+li+'" placeholder="ponaučení '+(li+1)+'">'+esc(l||'')+'</textarea>'
+      + (s.finalMessage.keyLessons.length>1?'<button class="mini danger" data-action="delLesson" data-li="'+li+'">✕</button>':'')
+      + '</div>';
+  });
+  html += '<button class="mini add" data-action="addLesson">➕ Ponaučení</button>';
+  html += '</div>';
+
+  html += '<div class="card"><h2>Hodnocení podle výkonu</h2><p class="hint">Souhrnné hodnocení, které hráč uvidí podle dosaženého skóre.</p>';
+  [['perfect','Perfektní'],['good','Dobrý'],['average','Průměrný'],['poor','Slabý']].forEach(function(pr){
+    var pb = 'scenario.performanceReviews.'+pr[0];
+    html += '<div class="opt '+(pr[0]==='perfect'?'positive':pr[0]==='good'?'partially_positive':pr[0]==='average'?'neutral':'negative')+'">';
+    html += '<div class="grid three">';
+    html += field(pr[1]+' – titulek',pb+'.title',{});
+    html += field('Emoji',pb+'.emoji',{emoji:true});
+    html += '<span></span></div>';
+    html += field('Zpětná vazba',pb+'.feedback',{textarea:true, rows:2});
+    html += '</div>';
+  });
+  html += '</div>';
+  view.innerHTML = html;
+}
+
+// ---- tab: law context ----
+function renderLaw(){
+  var rows = state.scenario._lawRows||[];
+  var datalist = '<datalist id="acts">'+COMMON_ACTS.map(function(a){ return '<option value="'+esc(a[0])+'">'+esc(a[1])+'</option>'; }).join('')+'</datalist>';
+  var html = '<div class="card"><h2>Právní kontext</h2><p class="hint">Namapujte holé odkazy „§ číslo“ na konkrétní zákon (slug), aby v textech byly klikací. Slug např. <b>2008-273</b> = Zákon o Policii ČR.</p>';
+  html += datalist;
+  html += '<div class="helpbox">Běžné zákony: '+COMMON_ACTS.map(function(a){ return '<code>'+esc(a[0])+'</code> '+esc(a[1]); }).join(' · ')+'</div>';
+  html += '<table class="law"><tbody>';
+  rows.forEach(function(r, ri){
+    html += '<tr>'
+      + '<td style="width:110px"><input type="text" data-path="scenario._lawRows.'+ri+'.num" value="'+esc(r.num||'')+'" placeholder="§ 11"></td>'
+      + '<td><input type="text" list="acts" data-path="scenario._lawRows.'+ri+'.act" value="'+esc(r.act||'')+'" placeholder="2008-273"></td>'
+      + '<td style="width:44px"><button class="mini danger" data-action="delLaw" data-ri="'+ri+'">✕</button></td>'
+      + '</tr>';
+  });
+  html += '</tbody></table>';
+  html += '<button class="mini add" data-action="addLaw" style="margin-top:8px">➕ Řádek</button>';
+  html += '</div>';
+  view.innerHTML = html;
+}
+
+// ---- tab: review ----
+function renderReview(){
+  var html = '<div class="card"><h2>Review (rozbor výkonu)</h2>'
+    + '<p class="hint">Review pohání závěrečný report. Nejdřív vygenerujte kostru ze scénáře, pak ji upravte. Bez review hra funguje také (zobrazí jen skóre).</p>';
+  html += '<div class="row"><button class="mini add" data-action="genReview">✨ Vygenerovat kostru review</button>';
+  if(state.review) html += '<button class="mini danger" data-action="dropReview">🗑 Zahodit review</button>';
+  html += '</div></div>';
+
+  if(!state.review){
+    html += '<div class="card"><p class="hint" style="margin:0">Zatím není žádné review. Klikněte na „Vygenerovat kostru review“ – vytvoří se platná kostra podle fází scénáře, kterou pak upravíte.</p></div>';
+    view.innerHTML = html; return;
+  }
+
+  var r = state.review;
+  html += '<div class="card"><h2>Obecné</h2>';
+  html += field('Titulek review','review.title',{});
+  html += '</div>';
+
+  var keys = Object.keys(r.stageAnalysis||{});
+  keys.forEach(function(k){
+    var b = 'review.stageAnalysis.'+k;
+    var blk = r.stageAnalysis[k];
+    html += '<details class="stage"><summary><span class="stage-idx">'+esc(k)+'</span>'
+      + '<span style="flex:1">'+esc(blk.stageName||('Fáze '+k))+'</span></summary><div class="stage-body">';
+    html += field('Název fáze',b+'.stageName',{});
+    html += arrField('Kritické dovednosti (řádek = položka)',b+'.criticalSkills',blk.criticalSkills);
+    // per type
+    TYPES.forEach(function(t){
+      var tb = b+'.choiceAnalysis.'+t;
+      var ca = (blk.choiceAnalysis||{})[t]||{};
+      html += '<div class="opt '+t+'"><span class="badge '+t+'">'+esc(TYPE_LABEL[t])+'</span>';
+      html += field('Popis volby (choiceText)',tb+'.choiceText',{textarea:true, rows:2});
+      if(t==='positive'){
+        html += arrField('Silné stránky',tb+'.strengths',ca.strengths);
+        html += field('Profesionální dopad',tb+'.professionalImpact',{textarea:true, rows:2});
+      } else if(t==='negative'){
+        html += arrField('Selhání',tb+'.failures',ca.failures);
+        html += field('Následky',tb+'.consequences',{textarea:true, rows:2});
+        html += field('Zaměření výcviku',tb+'.trainingFocus',{textarea:true, rows:2});
+      } else {
+        html += arrField('V pořádku',tb+'.adequate',ca.adequate);
+        html += arrField('Promeškáno',tb+'.missed',ca.missed);
+        html += field('Zlepšení',tb+'.improvement',{textarea:true, rows:2});
+      }
+      html += '</div>';
+    });
+    html += arrField('Klíčová poučení',b+'.keyLearningPoints',blk.keyLearningPoints);
+    html += '</div></details>';
+  });
+
+  // scenario specific lessons
+  html += '<div class="card"><h2>Ponaučení podle fází</h2><p class="hint">Krátké shrnutí za každou fázi (+ závěrečný rozbor).</p>';
+  Object.keys(r.scenarioSpecificLessons||{}).forEach(function(k){
+    html += field('Fáze '+k,'review.scenarioSpecificLessons.'+k,{textarea:true, rows:2});
+  });
+  html += '</div>';
+
+  html += '<div class="card"><h2>Šablony osobní zpětné vazby</h2>';
+  Object.keys((r.personalizedFeedback||{}).templates||{}).forEach(function(k){
+    html += field(k,'review.personalizedFeedback.templates.'+k,{textarea:true, rows:2});
+  });
+  html += '</div>';
+
+  view.innerHTML = html;
+}
+// array-as-textarea field (one item per line)
+function arrField(label, path, arr){
+  var val = (arr||[]).join('\n');
+  return '<label class="field"><span>'+esc(label)+'</span>'
+    + '<textarea data-arraypath="'+esc(path)+'" rows="'+Math.max(2,(arr||[]).length)+'" placeholder="jedna položka na řádek">'+esc(val)+'</textarea></label>';
+}
+
+// -------- main render dispatch --------
+function render(){
+  renderTabs();
+  if(state.tab==='meta') renderMeta();
+  else if(state.tab==='chars') renderChars();
+  else if(state.tab==='stages') renderStages();
+  else if(state.tab==='final') renderFinal();
+  else if(state.tab==='law') renderLaw();
+  else if(state.tab==='review') renderReview();
+  refreshValidation();
+}
+
+// =========================================================================
+// Validation panel
+// =========================================================================
+var lastValidation = { errors:[], warnings:[] };
+function refreshValidation(){
+  var sc = cleanScenario();
+  var vs = CustomValidator.validateScenario(sc);
+  var errors = vs.errors.slice();
+  var warnings = vs.warnings.slice();
+  if(state.review){
+    var vr = CustomValidator.validateReview(state.review, sc);
+    vr.errors.forEach(function(e){ errors.push('Review: '+e); });
+    vr.warnings.forEach(function(w){ warnings.push('Review: '+w); });
+  } else {
+    warnings.push('Scénář nemá review — hra zobrazí jen skóre. Vygenerujte kostru v záložce Review.');
+  }
+  lastValidation = { errors:errors, warnings:warnings, ok:vs.ok };
+
+  var statusEl = document.getElementById('valstatus');
+  var pillsEl = document.getElementById('valpills');
+  var bodyEl = document.getElementById('valbody');
+  if(errors.length){
+    statusEl.textContent = '⛔ '+errors.length+' chyb — nelze hrát';
+    pillsEl.className='pill err'; pillsEl.textContent=errors.length+' chyb';
+  } else if(warnings.length){
+    statusEl.textContent='⚠️ '+warnings.length+' upozornění — hratelné';
+    pillsEl.className='pill warn'; pillsEl.textContent=warnings.length+' upozornění';
+  } else {
+    statusEl.textContent='✅ Platné a kompletní';
+    pillsEl.className='pill ok'; pillsEl.textContent='OK';
+  }
+  var body = '';
+  if(!errors.length && !warnings.length){
+    body += '<div class="vitem ok">Scénář i review prošly validací bez připomínek.</div>';
+  }
+  errors.forEach(function(e){ body += '<div class="vitem err">⛔ '+esc(e)+'</div>'; });
+  warnings.forEach(function(w){ body += '<div class="vitem warn">⚠️ '+esc(w)+'</div>'; });
+  bodyEl.innerHTML = body;
+}
+
+// =========================================================================
+// Editing events
+// =========================================================================
+document.addEventListener('input', function(e){
+  var t = e.target;
+  if(t.hasAttribute && t.hasAttribute('data-arraypath')){
+    var arr = t.value.split('\n').map(function(x){ return x.trim(); }).filter(function(x){ return x.length; });
+    setByPath(state, t.getAttribute('data-arraypath'), arr);
+    onEdit(true); return;
+  }
+  if(t.hasAttribute && t.hasAttribute('data-path')){
+    var v = t.value;
+    if(t.getAttribute('data-type')==='number') v = Number(v);
+    setByPath(state, t.getAttribute('data-path'), v);
+    onEdit(true);
+  }
+});
+document.addEventListener('change', function(e){
+  var t = e.target;
+  if(t.tagName==='SELECT' && t.hasAttribute('data-path')){
+    var v=t.value; if(t.getAttribute('data-type')==='number') v=Number(v);
+    setByPath(state, t.getAttribute('data-path'), v);
+    onEdit(true);
+  }
+});
+
+var editTimer=null;
+function onEdit(light){
+  refreshValidation();
+  if(saveTimer) clearTimeout(saveTimer);
+  saveTimer = setTimeout(function(){ doSave(true); }, 1200);
+}
+
+// -------- click / actions --------
+document.addEventListener('click', function(e){
+  var el = e.target.closest && e.target.closest('[data-action]');
+  if(!el) return;
+  var a = el.getAttribute('data-action');
+  if(a==='tab'){ state.tab = el.getAttribute('data-tab'); render(); return; }
+  if(el.tagName==='A') return; // let links work
+  e.preventDefault();
+  handleAction(a, el);
+});
+
+function handleAction(a, el){
+  var s = state.scenario;
+  switch(a){
+    case 'new': confirmNew(); break;
+    case 'open': openDialog(); break;
+    case 'save': doSave(false); break;
+    case 'export': doExport(); break;
+    case 'play': doPlay(); break;
+    case 'addChar': addChar(); break;
+    case 'delChar': delChar(el.getAttribute('data-key')); break;
+    case 'addStage': addStage(); break;
+    case 'delStage': delStage(+el.getAttribute('data-si')); break;
+    case 'addNpc': { var si=+el.getAttribute('data-si'); s.stages[si].npcDialogue.push({character:firstNpcChar(),text:''}); render(); break; }
+    case 'delNpc': { var si2=+el.getAttribute('data-si'); s.stages[si2].npcDialogue.splice(+el.getAttribute('data-di'),1); render(); break; }
+    case 'addSeq': { finalStage(s).dialogueSequence.push({character:'trainer',text:''}); render(); break; }
+    case 'delSeq': { finalStage(s).dialogueSequence.splice(+el.getAttribute('data-di'),1); render(); break; }
+    case 'addLesson': s.finalMessage.keyLessons.push(''); render(); break;
+    case 'delLesson': s.finalMessage.keyLessons.splice(+el.getAttribute('data-li'),1); render(); break;
+    case 'addLaw': s._lawRows.push({num:'',act:''}); render(); break;
+    case 'delLaw': s._lawRows.splice(+el.getAttribute('data-ri'),1); render(); break;
+    case 'genReview': state.review = generateReviewSkeleton(); toast('Kostra review vygenerována'); render(); onEdit(); break;
+    case 'dropReview': state.review = null; render(); onEdit(); break;
+  }
+}
+
+function firstNpcChar(){
+  var keys = Object.keys(state.scenario.characters||{});
+  var nonOfficer = keys.filter(function(k){ return k!=='officer' && k!=='trainer'; });
+  return (nonOfficer[0]||keys[0]||'officer');
+}
+
+function addChar(){
+  var inp = document.getElementById('newCharKey');
+  var raw = (inp && inp.value || '').trim().toLowerCase().replace(/[^a-z0-9_]+/g,'_').replace(/^_+|_+$/g,'');
+  if(!raw){ toast('Zadejte klíč postavy (např. driver)'); return; }
+  if(state.scenario.characters[raw]){ toast('Klíč už existuje'); return; }
+  state.scenario.characters[raw] = { name:'', avatar:'🙂' };
+  render(); onEdit();
+}
+function delChar(k){
+  if(k==='officer'){ toast('officer je povinný'); return; }
+  delete state.scenario.characters[k];
+  render(); onEdit();
+}
+function addStage(){
+  var s = state.scenario;
+  if(interactiveStages(s).length>=MAX_STAGES) return;
+  var fi = s.stages.indexOf(finalStage(s));
+  s.stages.splice(fi, 0, blankStage(fi+1));
+  renumber(s); render(); onEdit();
+}
+function delStage(si){
+  var s = state.scenario;
+  if(interactiveStages(s).length<=MIN_STAGES){ toast('Minimum jsou '+MIN_STAGES+' fáze'); return; }
+  s.stages.splice(si,1);
+  renumber(s); render(); onEdit();
+}
+
+// =========================================================================
+// Persistence: save / load / import / export / play
+// =========================================================================
+function doSave(silent){
+  if(!CustomStore){ toast('Úložiště není dostupné'); return Promise.resolve(); }
+  var sc = cleanScenario();
+  var meta = CustomValidator.deriveMeta(sc);
+  return CustomStore.save(state.id, sc, state.review, meta).then(function(){
+    if(!silent) toast('Uloženo ✓');
+  }).catch(function(err){ toast('Chyba ukládání: '+err.message); });
+}
+function doExport(){
+  var sc = cleanScenario();
+  var slug = (state.id||'scenar').replace(/^custom:/,'');
+  downloadJSON('scenario-'+slug+'.json', sc);
+  if(state.review) setTimeout(function(){ downloadJSON('review-'+slug+'.json', state.review); }, 150);
+  toast('Export stažen');
+}
+function downloadJSON(name, obj){
+  var blob = new Blob([JSON.stringify(obj,null,2)], {type:'application/json'});
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement('a');
+  a.href=url; a.download=name; document.body.appendChild(a); a.click();
+  setTimeout(function(){ document.body.removeChild(a); URL.revokeObjectURL(url); }, 100);
+}
+function doPlay(){
+  doSave(true).then(function(){ window.location.href = 'index.html'; });
+}
+function confirmNew(){
+  if(confirm('Začít nový scénář? Neuložené změny se ztratí (aktuální je průběžně ukládán jako koncept).')){
+    startNew();
+  }
+}
+function startNew(){
+  state.scenario = blankScenario();
+  state.review = null;
+  state.id = CustomStore.newId('scenar');
+  state.tab='meta';
+  render();
+}
+
+// load a scenario object into the editor (splitting feedback back to 3 fields)
+function loadScenarioObject(sc, review, id){
+  sc = JSON.parse(JSON.stringify(sc));
+  // ensure structural defaults
+  if(!sc.instructor) sc.instructor={name:'',avatar:'👨‍🏫',introduction:''};
+  if(!sc.finalMessage) sc.finalMessage={revelation:'',keyLessons:['','','','','']};
+  if(!sc.finalMessage.keyLessons) sc.finalMessage.keyLessons=[];
+  if(!sc.characters) sc.characters={officer:{name:'Vy (policista)',avatar:'👮'}};
+  if(!sc.characters.officer) sc.characters.officer={name:'Vy (policista)',avatar:'👮'};
+  if(!sc.metrics) sc.metrics=blankScenario().metrics;
+  if(!sc.performanceReviews) sc.performanceReviews=blankScenario().performanceReviews;
+  // lawContext -> rows
+  sc._lawRows = [];
+  if(sc.lawContext && typeof sc.lawContext==='object'){
+    Object.keys(sc.lawContext).forEach(function(k){ sc._lawRows.push({num:k, act:sc.lawContext[k]}); });
+  }
+  delete sc.lawContext;
+  // options: split feedback into _why/_cons/_refl
+  (sc.stages||[]).forEach(function(st){
+    if(st.finalScene) return;
+    (st.options||[]).forEach(function(o){
+      var parts = splitFeedback(o.feedback);
+      o._why=parts._why; o._cons=parts._cons; o._refl=parts._refl;
+    });
+    if(!Array.isArray(st.npcDialogue)) st.npcDialogue=[];
+  });
+  var fs = finalStage(sc);
+  if(!fs){
+    sc.stages = sc.stages||[];
+    sc.stages.push(blankFinalStage(sc.stages.length+1));
+  } else if(!Array.isArray(fs.dialogueSequence)){ fs.dialogueSequence=[]; }
+  state.scenario = sc;
+  state.review = review || null;
+  state.id = id || (CustomStore.isCustomId(sc.id) ? sc.id : CustomStore.newId(sc.title||'scenar'));
+  state.tab='meta';
+  render();
+}
+
+// -------- open modal --------
+function closeModal(){ document.getElementById('modalHost').innerHTML=''; }
+function openDialog(){
+  var host = document.getElementById('modalHost');
+  host.innerHTML = '<div class="modal-bg" id="mbg"><div class="modal">'
+    + '<h3>Otevřít scénář</h3>'
+    + '<div id="storeList"><p class="hint">Načítám uložené…</p></div>'
+    + '<div class="drop">📤 Nebo nahrajte JSON soubor(y) scénáře a případně review:<br>'
+    + '<input type="file" id="fileIn" accept="application/json,.json" multiple style="margin-top:8px"></div>'
+    + '<div class="row"><span class="spacer" style="flex:1"></span><button class="mini" id="mClose">Zavřít</button></div>'
+    + '</div></div>';
+  document.getElementById('mbg').addEventListener('click', function(e){ if(e.target.id==='mbg') closeModal(); });
+  document.getElementById('mClose').addEventListener('click', closeModal);
+  document.getElementById('fileIn').addEventListener('change', handleFiles);
+  CustomStore.list().then(function(rows){
+    var el = document.getElementById('storeList');
+    if(!el) return;
+    if(!rows.length){ el.innerHTML='<p class="hint">Zatím nemáte žádné uložené scénáře.</p>'; return; }
+    rows.sort(function(a,b){ return (b.updatedAt||0)-(a.updatedAt||0); });
+    el.innerHTML = rows.map(function(r){
+      return '<div class="open-item" data-openid="'+esc(r.id)+'">'
+        + '<span class="ic">'+esc(r.icon||'🎓')+'</span>'
+        + '<span class="meta"><b>'+esc(r.title||'(bez názvu)')+'</b>'
+        + '<small>'+esc(r.lang||'cs')+' · obtížnost '+esc(r.difficulty||'?')+' · '+(r.hasReview?'s review':'bez review')+'</small></span>'
+        + '<button class="mini danger" data-delid="'+esc(r.id)+'">🗑</button>'
+        + '</div>';
+    }).join('');
+    el.querySelectorAll('[data-openid]').forEach(function(it){
+      it.addEventListener('click', function(e){
+        if(e.target.hasAttribute('data-delid')) return;
+        var id = it.getAttribute('data-openid');
+        CustomStore.get(id).then(function(rec){
+          if(rec){ loadScenarioObject(rec.scenario, rec.review, rec.id); closeModal(); toast('Načteno'); }
+        });
+      });
+    });
+    el.querySelectorAll('[data-delid]').forEach(function(b){
+      b.addEventListener('click', function(e){
+        e.stopPropagation();
+        var id=b.getAttribute('data-delid');
+        if(confirm('Smazat tento scénář z úložiště?')) CustomStore.delete(id).then(function(){ openDialog(); });
+      });
+    });
+  }).catch(function(){ var el=document.getElementById('storeList'); if(el) el.innerHTML='<p class="hint">Úložiště nedostupné.</p>'; });
+}
+
+function handleFiles(e){
+  var files = Array.prototype.slice.call(e.target.files||[]);
+  if(!files.length) return;
+  var loaded = { scenario:null, review:null };
+  var pending = files.length;
+  files.forEach(function(f){
+    var reader = new FileReader();
+    reader.onload = function(){
+      try{
+        var obj = JSON.parse(reader.result);
+        if(obj && obj.stageAnalysis) loaded.review = obj;
+        else if(obj && obj.stages) loaded.scenario = obj;
+        else toast('Neznámý JSON: '+esc(f.name));
+      }catch(err){ toast('Neplatný JSON: '+esc(f.name)); }
+      if(--pending===0) finishImport(loaded);
+    };
+    reader.readAsText(f);
+  });
+}
+function finishImport(loaded){
+  if(loaded.scenario){
+    var vs = CustomValidator.validateScenario(loaded.scenario);
+    if(!vs.ok){
+      alert('Scénář má chyby a nelze načíst:\n\n'+vs.errors.join('\n'));
+      return;
+    }
+    var review = null;
+    if(loaded.review){
+      var vr = CustomValidator.validateReview(loaded.review, loaded.scenario);
+      if(vr.ok) review = loaded.review;
+      else toast('Review vynecháno (nevalidní)');
+    }
+    loadScenarioObject(loaded.scenario, review, null);
+    closeModal();
+    toast('Import načten'+(vs.warnings.length?(' ('+vs.warnings.length+' upozornění)'):''));
+  } else if(loaded.review){
+    if(!state.scenario){ toast('Nejdřív načtěte scénář'); return; }
+    var vr2 = CustomValidator.validateReview(loaded.review, cleanScenario());
+    if(vr2.ok){ state.review = loaded.review; closeModal(); render(); onEdit(); toast('Review načteno'); }
+    else alert('Review nelze načíst:\n\n'+vr2.errors.join('\n'));
+  }
+}
+
+// -------- toast --------
+var toastTimer=null;
+function toast(msg){
+  var el=document.getElementById('toast');
+  el.textContent=msg; el.classList.add('show');
+  if(toastTimer) clearTimeout(toastTimer);
+  toastTimer=setTimeout(function(){ el.classList.remove('show'); }, 2200);
+}
+
+// -------- validation panel toggle --------
+document.getElementById('valhead').addEventListener('click', function(){
+  document.getElementById('valpanel').classList.toggle('collapsed');
+});
+
+// =========================================================================
+// Boot
+// =========================================================================
+function boot(){
+  var params = new URLSearchParams(window.location.search);
+  var id = params.get('id');
+  if(id && CustomStore.isCustomId(id)){
+    CustomStore.get(id).then(function(rec){
+      if(rec){ loadScenarioObject(rec.scenario, rec.review, rec.id); }
+      else { startNew(); toast('Scénář nenalezen — nový'); }
+    }).catch(function(){ startNew(); });
+  } else {
+    startNew();
+  }
+}
+
+CustomStore.ready().then(boot).catch(function(err){
+  document.getElementById('view').innerHTML =
+    '<div class="card"><h2>⚠️ Úložiště nedostupné</h2>'
+    + '<p class="hint">Editor potřebuje IndexedDB, ale prohlížeč ho neposkytl ('+esc(err.message)+'). '
+    + 'Zkuste jiný prohlížeč nebo vypněte anonymní režim. Export do souboru bude fungovat, ukládání ne.</p></div>';
+  // still allow basic editing without persistence
+  try{ startNewNoStore(); }catch(e){}
+});
+function startNewNoStore(){
+  state.scenario = blankScenario();
+  state.review = null;
+  state.id = 'custom:local-'+Date.now().toString(36);
+  render();
+}
+</script>
+</body>
+</html>

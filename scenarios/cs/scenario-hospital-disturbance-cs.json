@@ -1,0 +1,441 @@
+{
+  "id": "hospital-disturbance",
+  "title": "Narušení pořádku v nemocnici — bolest, strach a agrese",
+  "description": "Pokročilý scénář procvičující deeskalaci s agresivním pacientem na pohotovosti. Chování pacienta je vedeno silnou bolestí, dlouhým čekáním a strachem — ne trestným úmyslem. Strážníci musí spolupracovat s lékařským personálem a zároveň chránit bezpečí všech.",
+  "icon": "🏥",
+  "instructor": {
+    "name": "Seržant Davis",
+    "avatar": "👮‍♂️",
+    "introduction": "Tento scénář vás staví do jedné z nejrychleji rostoucích oblastí policejní práce — narušení pořádku v nemocnicích. Více než 75 % napadení na pracovišti se odehrává ve zdravotnických zařízeních a policie je stále častěji volána na pomoc. Výzva: člověk před vámi není zločinec — je to pacient v bolesti, vystrašený a s pocitem, že ho nikdo nevnímá. Vaše uniforma to může zlepšit, nebo výrazně zhoršit. V nemocničním prostředí deeskalace vyžaduje úzkou spolupráci se zdravotnickým personálem — oni rozumí stavu pacienta a vy poskytujete bezpečnostní rámec, který jim umožní vykonávat jejich práci. Přehlížení zdravotníků nebo řešení situace čistě jako bezpečnostního incidentu téměř vždy věci zhoršuje. Pamatujte: agresivní chování v nemocnici téměř vždy vyjadřuje tíseň nebo nenaplněnou potřebu. Vaším úkolem je tu potřebu najít, ne jen potlačit chování."
+  },
+  "timedChoices": true,
+  "completionBadges": [
+    "scenario-hospital-disturbance-complete"
+  ],
+  "perfectBadge": "perfect-scenario-hospital-disturbance",
+  "finalMessage": {
+    "revelation": "Paulova agrese pramenila z kombinace silné bolesti způsobené výhřezem ploténky tlačícím na nerv, čtyř hodin pocitu neviditelnosti v přeplněné pohotovosti a rostoucího strachu, že je s jeho tělem něco vážně v nepořádku. Po vaší intervenci vedoucí sestra urychlila jeho přehodnocení triáže a byl vyšetřen do 30 minut. MRI potvrdilo výhřez a byl odeslán na urgentní neurochirurgickou konzultaci. Paul později napsal nemocnici dopis, v němž ocenil strážníka, který ‚skutečně naslouchal, když nikdo jiný nechtěl'. Sestra Collinsová řekla kolegyním, že přístup strážníka ji o deeskalaci naučil víc než jakýkoli workshop, kterého se zúčastnila.",
+    "keyLessons": [
+      "Agresivní chování ve zdravotnictví téměř vždy vyjadřuje tíseň nebo nenaplněnou potřebu — ne trestný úmysl",
+      "Přítomnost policie může situaci zklidnit i vyhrotit — záleží čistě na přístupu a postoji",
+      "Spolupráce s lékařským personálem místo jejich přehlížení vede k lepším výsledkům pro všechny",
+      "Nabídnout volby — i malé — vrací pocit kontroly někomu, kdo se cítí bezmocný",
+      "Řeč těla mluví hlasitěji než slova, když je někdo v akutní tísni — soulad je zásadní",
+      "Porozumět strachu pacienta neznamená souhlasit s jeho chováním — můžete uznat pocity a zároveň nastavit jasné hranice",
+      "Vaše role není léčit, diagnostikovat ani rozhodovat o léčbě — je vytvořit podmínky, aby personál mohl bezpečně vykonávat svou práci"
+    ]
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "Výzva a chodba",
+      "sceneUpdate": {
+        "emoji": "🏥",
+        "title": "Pohotovost — příjezd",
+        "desc": "Večerní směna. Přijíždíte na pohotovost po výzvě od ostrahy. Čekárna je plná — asi 30 lidí. Zpoza závěsu triáže slyšíte zdvižené hlasy, ještě než vejdete. Strážník nemocniční ostrahy vás u vchodu vítá s úlevou."
+      },
+      "npcDialogue": [
+        {
+          "character": "security",
+          "text": "Díky bohu, že jste tady. Máme mužského pacienta, kolem čtyřicítky, čeká asi čtyři hodiny. Má velké bolesti — myslím, že úraz zad. Před dvaceti minutami začal křičet na sestry, hodil stojan na časopisy a teď stojí v triážové zóně a odmítá odejít. Nikoho neudeřil, ale personál má strach. Jmenuje se Paul."
+        }
+      ],
+      "prompt": "Máte chvíli před tím, než vstoupíte do kontaktu s pacientem. Jak se připravíte?",
+      "options": [
+        {
+          "text": "Poděkujete strážníkovi ostrahy krátkým přikývnutím a rovnou zamíříte dovnitř svižným, rozhodným krokem — bezpečí personálu je priorita a každou minutou, co Paul stojí u sesterské stanice bez přítomnosti policie, roste riziko pro celý tým. Upravíte si vestu, projedete dvojitými dveřmi a zdravotní podrobnosti necháte na později. Kontext získáte od personálu, až stabilizujete bezprostřední situaci a zajistíte kontrolu nad prostorem.",
+          "feedback": "Proč: Zní to jako rozumný taktický přístup — upřednostnění bezpečí personálu a neprodlévání se zásahem. Logika ‚nejdřív stabilizovat, pak získat kontext' se hodí na mnoho policejních situací. Narušení v nemocnici vyvolané bolestí a frustrací ale není scénář aktivní hrozby. Vstup bez znalosti toho, co už bylo vyzkoušeno, jaký je zdravotní stav a co personál od vás potřebuje, znamená, že reagujete, ne že odpovídáte strategicky. | DŮSLEDKY: Vstupujete bez kontextu o tom, co eskalaci spustilo, jaké zdravotní problémy hrají roli ani co personál už zkusil. Paul vidí strážníka, který na něj cílevědomě míří — což může spustit reakci boj nebo útěk u někoho, kdo se už bojí, že ho kriminalizují za to, že hledá pomoc. | Reflexe: Kdy naléhavost jednat rychle převáží nad hodnotou jednat efektivně? Jak rozlišíte skutečnou časovou naléhavost od předsudku naléhavosti?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Zastavíte se u vchodu, nakloníte se mírně blíž ke strážníkovi ostrahy a zeptáte se klidným, soustředěným tónem: „Hrozil někomu přímo ublížením? Je ozbrojen nebo má u sebe něco nebezpečného? Nabídl mu někdo tišení bolesti od doby, co přišel? A kdo je dnes vedoucí sestra — rád bych s ní před vstupem krátce promluvil, ať jdu dovnitř s jasným obrázkem situace.”",
+          "feedback": "Proč: Získáváte klíčový taktický a zdravotní kontext před kontaktem. Dotaz na tišení bolesti ukazuje, že chápete pravděpodobnou příčinu jeho chování. Spojení s vedoucí sestrou nastoluje spolupráci s lékařským týmem místo jejich přehlížení. Posouzení rizika zbraně je standardní bezpečnostní postup. | DŮSLEDKY: Vstupujete s jasným obrázkem: žádné zbraně, žádné přímé výhrůžky konkrétním lidem, tišení bolesti dosud neposkytnuto, vedoucí sestra vás očekává. Máte plán, ne jen přítomnost. | Reflexe: Jak třicet vteřin přípravy změní průběh dalších třiceti minut?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Otočíte se ke strážníkovi ostrahy a rázným tónem mu nařídíte, ať kvůli bezpečnosti okamžitě začne vyklízet čekárnu od ostatních pacientů — směrovat je na chodbu nebo k vedlejšímu vchodu. Sami se pak zaujmete pozici u vstupu do triážové zóny, zaujmete široký velitelský postoj a hlasitě směrem k Paulovi zavoláte, že dorazila policie a že má zůstat na místě.",
+          "feedback": "Proč: Evakuace čekárny kvůli pacientovi, který hodil stojan na časopisy, je nepřiměřená reakce — vyvolá chaos a oddálí péči desítkám pacientů. Oznámení příjezdu policie z dálky je neosobní a může působit jako eskalace — Paul uslyší ‚policie' dřív, než uvidí člověka. | DŮSLEDKY: Ostatní pacienti panikaří při evakuaci. Paul slyší ‚Policie!' a adrenalín stoupá. Vnímá to jako možné zatčení, ne jako pomoc. | Reflexe: Jak posuzujete přiměřenost při rozhodování o bezpečnostních opatřeních?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Položíte strážníkovi ostrahy pár rychlých otázek — je Paul ozbrojen, přímo někomu vyhrožoval, kde přesně v triážové zóně stojí? Když máte základní bezpečnostní přehled, vstoupíte klidným, odměřeným krokem dovnitř a gestem naznačíte strážníkovi, ať drží pozici pár metrů za vámi jako zálohu pro případ, že by se situace zvrhla. Zdravotní kontext si zjistíte, až uvidíte věci na vlastní oči.",
+          "feedback": "Proč: Dobrý instinkt zjistit základní bezpečnostní informace. Vynechání koordinace s personálem ale znamená, že budete s pacientem jednat bez znalosti jeho zdravotního stavu, co už bylo zkuseno a co personál potřebuje. Jednáte s tím jako s bezpečnostní situací, zatímco jde především o zdravotní situaci s bezpečnostní dimenzí. | DŮSLEDKY: Jste v bezpečí a máte rozumné informace, ale chybí vám zdravotní kontext, který by pomohl pochopit Paulovo chování a efektivně spolupracovat s týmem péče. | Reflexe: V nemocničním prostředí — čí odbornost nejvíc rozhoduje o tom, proč se pacient chová agresivně?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "První kontakt",
+      "sceneUpdate": {
+        "emoji": "😡",
+        "title": "Triáž — tváří v tvář",
+        "desc": "Vstupujete do triáže. Paul stojí u sesterské stanice, jednou rukou se opírá o pult, druhou svírá spodní část zad. Tvář má zkřivenou bolestí. Na zemi leží převrácený stojan na časopisy. Dvě sestry jsou za stanicí a drží odstup. Paul vidí vaši uniformu a jeho výraz se změní — mix vzteku a něčeho, co vypadá jako strach."
+      },
+      "npcDialogue": [
+        {
+          "character": "patient",
+          "text": "Skvělé. Teď na mě zavolali policajty. Já potřebuju pomoc a oni pošlou POLICII? Co mi uděláte, zatknete mě za to, že mám bolesti?!/že mě něco bolí?!"
+        }
+      ],
+      "prompt": "Paul je konfrontační, ale je zjevně v silné fyzické bolesti. Jak navážete první kontakt?",
+      "options": [
+        {
+          "text": "Zvednete obě ruce dlaněmi vpřed v uklidňujícím gestu a uděláte pomalý půlkrok směrem k Paulovi. Hlas máte klidný, ale sebejistý: „Hele, klid. Nikdo nikoho nezatýká — to není důvod, proč jsem tady. Potřebuju jen, abyste ustoupil kousek od sesterské stanice, ať máme trochu prostoru, a pak si v klidu promluvíme o tom, co se dneska děje a jak vám pomoct.”",
+          "feedback": "Proč: Záměr je dobrý — uklidnění a deeskalace. ‚Klid' ale může působit povýšeně na někoho v akutní tísni. Žádat ho o pohyb, než jste navázali jakýkoli vztah, působí jako příkaz, ne pozvání. Může vnímat ‚ustoupit' jako začátek fyzické kontroly. | DŮSLEDKY: Paul se nehne. Odpoví: „Neříkejte mi ustoupit — ustupuju už čtyři hodiny!“ Interakce začíná neúspěšnou žádostí, což oslabuje vaši pozici. | Reflexe: V jakém bodě interakce je vhodné činit fyzické požadavky a co musí nejdřív nastat?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Cílevědomě se přesunete a postavíte se přímo mezi Paula a sesterskou stanici, rameny vytvoříte fyzickou bariéru chránící personál za vámi. Upřete na Paula pohled a promluvíte pevným, autoritativním tónem: „Pane, potřebuju, abyste ztišil hlas a ustoupil od pultu. Personál se tady snaží dělat svou práci a já nedovolím, aby jim v tom kdokoli bránil.”",
+          "feedback": "Proč: Ochrana personálu je legitimní, ale fyzicky se vložit před jakoukoli slovní komunikací je konfrontační. ‚Ztišit hlas' a ‚ustoupit' jsou příkazy, ne úvod do rozhovoru. Rámování kolem potřeb personálu ignoruje Paulovu zkušenost — uslyší: ‚tvoje bolest nezáleží, jejich pohodlí ano.' | DŮSLEDKY: Paul vás vnímá jako další autoritu, která ho odbývá. Jeho vztek se přesměruje z nemocnice na vás. Konfrontace eskaluje a ztratili jste šanci na dialog. | Reflexe: Jak chránit bezpečí personálu a přitom nevystupovat jako protivník pacienta?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Přistoupíte v mírném úhlu, ne čelně, zastavíte se asi dva metry od Paula a necháte postoj otevřený — ruce volně podél těla, viditelné. Hlas máte vyrovnaný a klidný, bez náznaku spěchu: „Jsem strážník [jméno]. Chápu, že tady čekáte už hodně dlouho a že je to frustrující. Rád bych slyšel, co se stalo — z vaší strany.”",
+          "feedback": "Proč: Dobrý úhel přístupu a klidný tón. Neřešení „slona v místnosti“ — že byla přivolána policie — ale nechává Paulův strach nevyřešený. Výslovně vyjádřil obavu ze zatčení a tato odpověď to neuznává. Skok rovnou na „co se stalo“ bez uznání bolesti může působit jako vyšetřování, ne podpora. | DŮSLEDKY: Paul odpovídá, ale je ostražitý. Neví, jestli jste tu pomoct, nebo ho odvést. Nejistota vytváří bariéru pro opravdovou komunikaci. | Reflexe: Když někdo výslovně řekne svůj strach, jaká je cena za to, že to neřešíte přímo?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Zůstanete klidný (pokud se jedná o jednotné číslo), ruce viditelné a uvolněné podél těla, udržujete asi dva metry odstupu — dost blízko na rozhovor, dost daleko, abyste respektovali jeho prostor. Mluvíte pomalu a zřetelně: „Paule, nejsem tady, abych nikoho zatýkal. Vidím, že máte velké bolesti. Jmenuji se [jméno] a jsem tady, abych vám to pomohl vyřešit. Můžete mi říct, co se děje?”",
+          "feedback": "Proč: Viditelné ruce signalizují, že nehrozíte — skryté ruce mohou evokovat zbraň. Dva metry respektují osobní prostor a zároveň vás drží v dosahu rozhovoru. Použití jména hned buduje vztah. Pojmenování bolesti uznává jeho prožitek. Popření záměru zatýkat reaguje na vyjádřený strach. Otevřená otázka mu dává slovo. Pomalá řeč vede k tomu, že zpomalí i on. | DŮSLEDKY: Paulův obranný postoj trochu povolí. Pořád je naštvaný, ale dostal prostor a pozvání být vyslechnut — což mu čtyři hodiny chybělo. | Reflexe: Proč je důležité, aby vaše řeč těla byla v souladu se slovy?",
+          "type": "positive",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Příběh pacienta",
+      "sceneUpdate": {
+        "emoji": "🗣️",
+        "title": "Naslouchání Paulovi",
+        "desc": "Paulův postoj se změnil — pořád napjatý, ale mluví místo křiku. Neustále přenáší váhu, grimasy. Ruka se mu stále vrací ke spodní části zad. Oči má vlhké — bolestí, frustrací nebo obojím."
+      },
+      "npcDialogue": [
+        {
+          "character": "patient",
+          "text": "Jsem tady od dvou odpoledne. ČTYŘI hodiny. Sotva stojím. Říkal jsem jim, že je něco špatně — noha mi brní a ta bolest je... nedokážu to popsat. A pokaždé, když se zeptám, říkají ‚až vás zavolají'. Nikdo se na mě ani nepodívá. Nejsem nějaký opilec, co dělá výtržnosti — je se mnou něco vážně v nepořádku a nikoho to nezajímá!"
+        }
+      ],
+      "prompt": "Paul sdílel svou zkušenost. Jak reagujete?",
+      "options": [
+        {
+          "text": "Pomalu přikývnete, výraz máte soucitný, ale věcný: „To opravdu zní těžce, Paule. Vidím, že pohotovost má dnes večer napilno, a vím, že to čekání je neskutečně frustrující. Ale upřímně — házení věcí a křik na sestry, i když tomu rozumím, vás k vyšetření nedostane ani o minutu rychleji. Obvykle to věci spíš zpomalí. Zkusme najít cestu, jak to řešit produktivněji a posunout vás blíž k lékaři.”",
+          "feedback": "Proč: Uznáváte obtížnost, ale hned přecházíte ke kritice chování. ‚Házení věcí a křik' mu připomíná nejhorší chvíle místo toho, abyste ho potkali tam, kde teď je. ‚Produktivněji' je vágní a trochu povýšené. Neházel věcmi pro zábavu — házel jimi, protože se cítil neviditelný. | DŮSLEDKY: Paulova defenziva se vrací: „Nekřičel bych, kdyby mě byl někdo poslouchal od začátku!“ Ztratili jste chvíli otevřenosti a spustili koloběh ospravedlňování. | Reflexe: Jaký je rozdíl mezi uznáním minulého chování a zabýváním se jím?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Zkřížíte volně ruce na hrudi a promluvíte věcným, přímým tónem: „Chápu, že jste frustrovaný, Paule, ale musím být upřímný — nejsem lékař a nemám pravomoc změnit vaše místo ve frontě. Nemocnice funguje na triážovém systému, který upřednostňuje nejkritičtější případy, a o tom rozhoduje personál, ne já. Jsem si jist, že dělají, co můžou, i když to dnes večer vypadá jinak.”",
+          "feedback": "Proč: Fakticky správné, ale emocionálně zničující. Paul nechtěl, abyste byl lékař — chtěl, aby někdo projevil zájem. Obhajoba triážového systému vás staví na stranu instituce, která ho podle něj zklamala. ‚Personál dělá, co může' znevažuje jeho prožitou zkušenost, že ho ignorovali. Připojili jste se k těm, kdo mu říkají, ať je trpělivý. | DŮSLEDKY: Paulův výraz ztvrdne. „Takže vy jste taky na jejich straně. V celý budově nikoho nezajímám.“ Poslední most důvěry padá. Eskalace je teď velmi pravděpodobná. | Reflexe: Když někdo cítí, že ho systém zklamal, co se stane, když ten systém obhajujete?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Mírně se nakloníte vpřed a podíváte se Paulovi do očí starostlivým pohledem: „Slyším vás, Paule, a zní to opravdu děsivě — brnění navíc k takové bolesti je strašidelné. Čtyři hodiny jsou hrozně dlouhá doba. Promluvím s lékařským týmem o vaší situaci. Potřebuju ale, abyste mi pomohl pomoct vám — pokud udržíme věci v klidu, mám mnohem větší šanci upoutat jejich pozornost. Můžeme na tom spolupracovat?”",
+          "feedback": "Proč: Uznáváte fyzické příznaky (brnění je děsivé) i emoční prožitek (čtyři hodiny jsou dlouhé). Závazek promluvit s týmem je konkrétní, ne vágní. Rámování klidného chování jako pomoci jemu samému mu dává pocit moci a motivaci. ‚Můžeme spolupracovat' z vás dělá spojence, ne autoritu. | DŮSLEDKY: Paul přikývne. Poprvé někdo uznal jeho bolest i strach. Prosba zůstat v klidu teď má důvod — slouží jeho zájmu. Je ochoten spolupracovat, protože spolupráce dostala smysl. | Reflexe: Jak ovlivňuje motivaci ke spolupráci to, když behaviorální požadavek zarámujete jako vlastní zájem?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Krátce položíte ruku na pult vedle Paula, dáte mu najevo blízkost, a promluvíte s upřímnou naléhavostí v hlase: „Vidím, že vás to hodně bolí, a to, co říkáte o brnění, beru naprosto vážně — to se nemá ignorovat. Teď hned půjdu najít lékaře a zjistit, kde přesně ve frontě jste. Zůstaňte tady, prosím — za pár minut jsem zpátky s konkrétní odpovědí.”",
+          "feedback": "Proč: Projevuje upřímnou empatii a aktivní podporu. Odchod od pacienta hned po navázání kontaktu ale láme vztah, který jste právě vytvořili. ‚Zůstaňte tady' je příkaz pro někoho, kdo ještě nesouhlasil, že vás bude poslouchat. Pokud lékaře rychle nenajdete, zpoždění bude další zlomený slib v dni plném zklamání. | DŮSLEDKY: Paul čeká úzkostně. Pokud se vrátíte brzy s dobrou zprávou, funguje to. Pokud jste pryč déle než pár minut, důvěra zmizí a neklid se vrátí — horší než dřív, protože teď ho opustil i strážník. | Reflexe: Jaké je riziko slibů závislých na spolupráci druhých?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Pohled sestry",
+      "sceneUpdate": {
+        "emoji": "👩‍⚕️",
+        "title": "Za pultem",
+        "desc": "Zatímco Paul sedí na židli v čekárně, kterou jste mu našli, odcházíte promluvit se sestrou Collinsovou. Je viditelně otřesená — ruce se jí lehce třesou. Druhá sestra sleduje Paula zpoza stanice."
+      },
+      "npcDialogue": [
+        {
+          "character": "nurse",
+          "text": "Ten stojan hodil těsně kolem mé hlavy. Vím, že ho to bolí/má velké bolesti, ale mám třicet dalších pacientů, kteří taky čekají. Máme málo lidí a nemůžu ho předřadit jen proto, že křičí nejvíc. Kdybych to udělala, každý pacient se naučí, že řev znamená rychlejší vyšetření. Chci ho odsud pryč. A potřebuju sepsat hlášení o incidentu — nemocniční předpisy to vyžadují u jakékoli fyzické agrese. Můžete mi zajistit vaše číslo odznaku a stručné vyjádření, než odejdete?"
+        }
+      ],
+      "prompt": "Sestra se cítí ohrožená a chce Paula odvést. Jak zvládnete její obavy?",
+      "options": [
+        {
+          "text": "Chápu — když po vás někdo hodí předmět, je to děsivé a máte plné právo se cítit v ohrožení. Nechci přepisovat vaše triážová rozhodnutí, to není moje role. Paul ale popisuje brnění nohy spolu s bolestí zad. Mohla by vedoucí sestra udělat rychlé přehodnocení? Pokud se příznaky změnily, mohlo by to odůvodnit změnu priority na klinickém základě. Mezitím zůstanu nablízku a pohlídám bezpečí.",
+          "feedback": "Proč: Uznáváte strach sestry bez zlehčování. Výslovně respektujete triážový systém a její odbornou autoritu — nepřepisujete, upozorňujete na možnou klinickou změnu. Zmínka konkrétních příznaků (brnění nohy) jí dává využitelné lékařské informace, které odůvodňují přehodnocení z klinických důvodů, ne behaviorálních. Závazek zůstat řeší její obavu o bezpečí. | DŮSLEDKY: Napětí sestry Collinsové klesne. Nikdo jí neříká, aby ustoupila — dostává klinický důvod k přehodnocení, což zachovává její profesní integritu a spravedlnost systému. Kontaktuje vedoucí sestru. | Reflexe: Jak hájit pacienta a přitom nepodrývat personál, který se cítí obětí toho pacienta?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Přistoupíte blíž k sestře a ztišíte hlas, aby to vyznělo důvěrně a solidárně: „Slyším vás a je mi upřímně líto, že k tomu došlo. Mít stojan letící kolem hlavy — to muselo být děsivé a nikdo by to v práci neměl zažít. Máte mé slovo: zajistím, aby vás ani kolegyně už neobtěžoval. Pokud způsobí jakékoli další problémy, okamžitě ho odvedu z areálu.”",
+          "feedback": "Proč: Silná empatie k sestře a slib ochrany působí uklidňujícím dojmem. Slib odvést pacienta z nemocnice — někoho, kdo může mít závažný zdravotní stav — je ale eticky a právně problematický. Pokud Paulovo brnění ukazuje na kompresi nervu, odvedení by mohlo způsobit vážnou újmu. Také jste se zcela postavili na stranu personálu a opustili pacienta. | DŮSLEDKY: Sestra se cítí chráněná, ale dali jste slib, který může kolidovat s Paulovými zdravotními potřebami. Pokud ho odvedete a jeho stav se zhorší, jsou vážné právní důsledky pro všechny. | Reflexe: Můžete chránit personál a zároveň neopouštět zdravotní potřeby pacienta?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Opřete se volně o pult a snažíte se udržet konverzační tón, ne úřední: „Vím, že je to pro vás strašně stresující, a vážím si toho, jak to zvládáte. Pro teď se uklidnil a upřímně nemyslím, že je reálně nebezpečný. Mohl by ho někdo z týmu krátce zkontrolovat, nebo mu alespoň říct, jak dlouho ještě bude čekat? Podle mé zkušenosti někdy stačí vědět, že na vás nikdo nezapomněl.”",
+          "feedback": "Proč: Dobrý postřeh, že mezery v komunikaci vedou k agresi pacientů. Návrh je praktický a řeší příčinu. Minimalizuje to ale zkušenost sestry — ‚nemyslím, že je nebezpečný' zlehčuje její strach. Po hlavě jí prolétl předmět. Žádat ji, aby pro toho, kdo ji vyděsil, dělala víc, aniž byste nejdřív plně uznali její prožitek, může působit necitlivě. | DŮSLEDKY: Sestra má pocit, že její strach neberete vážně. Možná neochotně vyhoví, ale roste zášť. Návrh sám dává smysl, ale přednes potřeboval víc empatie k sestře. | Reflexe: Při mediaci mezi dvěma stranami — jak zajistíte, že plně uznáte prožitek obou?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Přenesete váhu a letmo se ohlédnete směrem k čekárně, než se s upřímným výrazem obrátíte zpět k sestře Collinsové: „Hele, chápu — rozhodně neměl nic házet a to nijak neomlouvám. Ale upřímně, čtyři hodiny tam venku v takových bolestech, bez jediné informace, bez kontaktu? Chápu, proč to nevydržel. Kdyby s ním někdo dřív promluvil a dal mu aspoň nějaký časový odhad, možná bychom tady teď vůbec nestáli.”",
+          "feedback": "Proč: Postřeh o mezerách v komunikaci může být správný, ale tato odpověď obviňuje sestru z pacientova násilí. Je obětí napadení na pracovišti a teď jí říkáte, že je to částečně její vina. Tím zničíte vztah s personálem a podkopete spolupráci, kterou potřebujete. | DŮSLEDKY: Sestra Collinsová se uzavře. Nebude vám pomáhat s řešením. Může podat stížnost. Ostatní, kdo to slyší, vám přestanou důvěřovat. Ztratili jste nejdůležitější spojence v budově. | Reflexe: I když systémové selhání situaci přispívá, je vhodné svalovat vinu na konkrétního člověka před vámi?",
+          "type": "negative",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Příchod manželky",
+      "sceneUpdate": {
+        "emoji": "👩",
+        "title": "Nový hlas",
+        "desc": "Do pohotovosti vběhne žena a úzkostlivě prohlíží místnost. Spatří Paula a spěchá k němu — pak ztuhne, když vidí vás v uniformě stát poblíž. V její tváři se rychle střídají úleva, zmatení a strach."
+      },
+      "npcDialogue": [
+        {
+          "character": "wife",
+          "text": "Paule! Bože — proč je tady policie?! Co se stalo? Zatýkají tě?!"
+        },
+        {
+          "character": "patient",
+          "text": "O mě jim nejde, Lauro. Nikomu. Jsem tady hodiny a místo doktora poslali policajty."
+        }
+      ],
+      "prompt": "Příchod manželky znovu přinesl úzkost a může znovu roznítit Paulovu frustraci. Jak na to reagujete?",
+      "options": [
+        {
+          "text": "Přistoupíte k manželce s profesionálním, věcným vystupováním a mírně zvednete ruku, jako byste předávali hlášení: „Paní, váš manžel narušoval pořádek v čekárně a nemocniční ostraha nás přivolala zajistit bezpečnost všech přítomných. V tuto chvíli není zatčen, ale musíte vědět, že dříve házel předměty po personálu. Situaci máme pod kontrolou a řešíme ji.”",
+          "feedback": "Proč: Fakticky správné, ale podáno nejhorším možným rámováním. Popis Paula jako ‚narušujícího pořádek' a zdůraznění házení předmětů před manželkou probudí její ochranitelský instinkt nebo stud — ani jedno nepomáhá. ‚Situaci řešíme' ji vylučuje z role, i když by mohla být vaší největší oporou. | DŮSLEDKY: Laura je buď v rozpacích a začne Paula kárat (eskalace jeho ponížení), nebo se ho zastane. Tak či tak jste z potenciální spojenkyně udělali komplikaci. | Reflexe: Jak to, jak popíšete chování někomu blízkému, ovlivní to, co přijde potom?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Usoudíte, že tohle je soukromá rodinná chvíle a nejlepší, co můžete udělat, je nezasahovat. Necháte Paula, ať manželce situaci vysvětlí sám, vlastními slovy, po svém. Ustoupíte o několik kroků směrem ke zdi, volně zkřížíte ruce a dáte jim jasnou bublinu soukromí. Paul svou ženu zná nejlíp — najde správný způsob, jak ji uvést do obrazu, bez toho, abyste ovlivňovali vyprávění.",
+          "feedback": "Proč: Respekt k jejich vztahu a poskytnutí prostoru je ohleduplné. V Paulově současném emočním stavu ale jeho verze může posílit jeho pocit oběti a znovu roznítit vztek — zvlášť před publikem. Ustoupit také znamená ztratit vliv v kritický okamžik. | DŮSLEDKY: Paul si u Laury vylévá srdce, ona je čím dál víc naštvaná s ním. Jejich společná frustrace je větší než u každého zvlášť. Ztratili jste zklidňující vliv, který jste budovali. | Reflexe: Kdy je dát prostor užitečné a kdy to umožní situaci znovu vyhrotit?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Obrátíte se na Lauru klidně a uklidňujícím tónem/způsobem, postoj máte otevřený a vstřícný: „Vy musíte být Laura — Paul vás zmiňoval. Jsem strážník [jméno]. Paul nemá žádné problémy se zákonem. Hodně ho bolí a měl dnes opravdu náročné čekání. Mluvil jsem s ním i s personálem a pracujeme na tom, aby byl co nejdřív vyšetřen. Vaše přítomnost mu teď může hodně pomoct — potřebuje podporu blízkého člověka.”",
+          "feedback": "Proč: Použití jejího jména (z Paulova dřívějšího rozhovoru) hned ukazuje, že jste informovaní a zapojení. ‚Paul vás zmiňoval' nenápadně ukazuje, že jste ho poslouchali, ne jen řídili. Popření zatčení přímo reaguje na její strach. Rámování jejího příchodu jako pomoci jí dává konstruktivní roli. ‚Potřebuje podporu' uznává její obavu i jeho utrpení bez zabývání se negativním chováním. | DŮSLEDKY: Lauřin strach zmizí. Jde k Paulovi a vezme ho za ruku. Paul viditelně změkne — konečně je někdo na jeho straně a strážník to umožnil místo toho, aby to blokoval. Emoční teplota výrazně klesne. | Reflexe: Jak změní dynamiku to, když blízkého zapojíte jako spojence místo pouhého svědka?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Otočíte se tak, abyste oslovili oba najednou, a gestem zahrnete Lauru i Paula do společného kruhu: „Lauro, prosím neznepokojujte se — všechno je pod kontrolou. Paule, proč manželce neřeknete, o čem jsme spolu mluvili a kam jsme se posunuli? Myslím, že by měla slyšet přímo od vás, že děláme pokroky a že to odteď bude v pořádku.”",
+          "feedback": "Proč: Zahrnující a optimistické. Svěřit Paulovi vedení vyprávění, když je pořád emočně nabitý, ale riskuje zkreslený výklad. Říct ‚bude to v pořádku' je slib, který nemůžete zaručit — co když vedoucí sestra nepřehodnotí? Co když čekání pokračuje? Nastavovat očekávání, která neovládáte, připravuje všechny na zklamání. | DŮSLEDKY: Paulův výklad se soustředí na křivdy. Laura se rozruší. Když slibované ‚pokroky' nepřijdou rychle, oba mají pocit, že jste lhali. | Reflexe: Jak vzbudit důvěru bez slibů závislých na druhých?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Zlomový bod",
+      "sceneUpdate": {
+        "emoji": "⚡",
+        "title": "Trpělivost praská",
+        "desc": "Uběhlo patnáct minut. Vedoucí sestra se ještě neobjevila. Paul sedí s Laurou, ale bolest je viditelně horší — neustále se vrtí, zatnutá čelist, těžce dýchá. Najednou vstane s grimasou a udělá krok k sesterské stanici."
+      },
+      "npcDialogue": [
+        {
+          "character": "patient",
+          "text": "Tak DOST. Už nečekám. Když mi nikdo nepomůže, půjdu do ošetřovny sám. Je mi jedno, kdo se mi v tom pokusí zabránit — POTŘEBUJU doktora TEĎ!"
+        }
+      ],
+      "prompt": "Paul se chystá vtrhnout do ošetřovny. Bolest je reálná, ale hranice taky. Jak reagujete?",
+      "options": [
+        {
+          "text": "Vstoupíte mu do cesty, nohy pevně na zemi, a nastavíte jasnou hranici ztišeným, ale důrazným hlasem: „Paule, chápu frustraci — věřte mi. Ale musím chránit bezpečí všech, včetně vašeho. Pokud vstoupíte do ošetřovny bez povolení, stane se z toho bezpečnostní incident, který budu muset zdokumentovat. To vás zařadí do systému jako problémového pacienta a bude vás to provázet. Nechte mě to vyřešit správně.”",
+          "feedback": "Proč: Zní to rozvážně a dokonce starostlivě — varování rámováno jako ochrana Paula před institucionálními důsledky. Zavedení dokumentace, ‚systému' a nálepky ‚problémový pacient' v okamžiku nejvyšší tísně ale proměňuje vaši roli z obhájce v byrokratickou hrozbu. Informace o důsledcích může být přesná, ale podaná někomu v nesnesitelné bolesti, kdo je zoufalý z nedostatku péče, působí jako využití jeho zranitelnosti proti němu. | DŮSLEDKY: Paul couvne, ale ne proto, že vám důvěřuje — protože se teď bojí institucionální odvety. Vztah budovaný celou interakcí je nahrazen souhlasem vynuceným strachem. Laura přihlíží, jak je její manžel varován před ‚systémem', zatímco se svíjí bolestí. Emoční škody jsou neviditelné, ale trvalé. | Reflexe: Když jsou přesné informace o důsledcích podány v nejhorší možnou chvíli, slouží tomu člověku, nebo ho kontrolují?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Klidně se postavíte mezi Paula a dveře ošetřovny — neblokujete ho, ale jste přítomni a stabilní: „Paule, vím, že je to nesnesitelné. Slíbil jsem, že pomůžu, a myslel jsem to vážně. Když tam teď půjdete, vytvoříte nový problém, který vás od doktora oddálí, ne přiblíží. Dejte mi pět minut — jdu najít vedoucí sestru a přinesu odpověď. Lauro, zůstanete s ním?”",
+          "feedback": "Proč: Postavení vytváří přirozenou pauzu bez konfrontace. Uznání bolesti jako ‚nesnesitelné' validuje eskalaci místo zlehčování. Rámování důsledku jako sebepoškozujícího místo trestního apeluje na jeho zájem. Závazek na pět minut je konkrétní a časově ohraničený. Dát Lauře aktivní roli z ní dělá zklidňující vliv. | DŮSLEDKY: Paul váhá. Kombinace uznání, konkrétního časového rámce a manželčiny ruky na jeho paži vytvoří dost tření, aby zastavila pohyb vpřed. Znovu si sedne a počítá minuty. | Reflexe: Jak vytvoření konkrétního časového rámce vytváří odpovědnost a zároveň získá čas?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Mírně zvednete jednu ruku v uklidňujícím gestu a promluvíte klidným, odměřeným hlasem: „Paule, chápu, kde teď jste, opravdu chápu. Ale musím být přímý — vstup do ošetřovny bez povolení může být právně považován za neoprávněné vniknutí a z lékařské návštěvy by se rázem stala právní záležitost. To pro vás opravdu nechci. Nepouštějme se tou cestou.”",
+          "feedback": "Proč: Právní rámování je fakticky správné a tón je upřímně starostlivý. Zavedení právní terminologie (‚neoprávněné vniknutí', ‚právní záležitost') ale posouvá interakci ze zdravotní péče do trestní justice — což je přesně to, čeho se Paul bál od chvíle, kdy viděl vaši uniformu. Může to působit jako skrytá výhrůžka v zdvořilém balení. | DŮSLEDKY: Paul se zarazí, ale důvěra ve vás utrpí. Teď vás vnímá především jako policistu a až pak jako pomocníka. Sedne si, ale dobrá vůle z dřívějška je poškozená. | Reflexe: Jak mění právní jazyk vnímání vaší role, i když je podán s dobrým úmyslem?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Obrátíte se na Lauru s upřímným, téměř prosebným výrazem a vložíte váhu celé chvíle na její ramena: „Lauro, opravdu potřebuju vaši pomoc. Můžete s Paulem promluvit, zůstat u něj a zkusit ho udržet v klidu a na místě, zatímco já půjdu najít někoho z lékařského týmu? Myslím, že od vás to pro něj teď bude znamenat víc než ode mě. Budu co nejrychleji zpátky.”",
+          "feedback": "Proč: Zapojit Lauru je chytré, ale nechat na ní celou deeskalaci a odejít je riskantní. Žádáte vyděšenou manželku, aby sama fyzicky zvládala naštvaného muže v bolesti — roli, kterou by neměla nést sama. Když ji Paul neposlechne, nemá žádnou autoritu ho zastavit a vy tam nejste. | DŮSLEDKY: Laura to zkusí, ale Paul ji odstrčí: „Ty taky nezačínej!“ Je zraněná a přetížená. Paul dojde ke dveřím ošetřovny. Ztratili jste kontrolu nad situací na dálku. | Reflexe: Kdy je delegace vhodná a kdy je to zbavení se odpovědnosti?",
+          "type": "neutral",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Řešení a péče",
+      "sceneUpdate": {
+        "emoji": "🩺",
+        "title": "Most",
+        "desc": "Vedoucí sestra přišla. Prošla Paulovu dokumentaci a potvrdila, že příznaky mohou odůvodnit přehodnocení. Potřebuje ale Paula v součinnosti pro řádné neurologické vyšetření. Je vyčerpaný, v bolesti a sotva drží pohromadě. Laura sedí vedle něj a drží ho za ruku."
+      },
+      "npcDialogue": [
+        {
+          "character": "chargenurse",
+          "text": "Můžu ho teď vyšetřit, ale potřebuji, aby byl klidný a spolupracoval, abych mohl provést řádné neurologické vyšetření. Strážníku, můžete to usnadnit?"
+        }
+      ],
+      "prompt": "Lékařský tým je připraven, ale Paul potřebuje přejít z režimu krize do režimu pacienta. Jak to zprostředkujete?",
+      "options": [
+        {
+          "text": "Informujete Paula o tom, co se očekává, tónem profesionálním a věcným: „Dobře, Paule, vedoucí sestra je tu pro vás — to je dobrá zpráva. Potřebuju ale nastavit očekávání: prosím spolupracujte s vyšetřením, řiďte se jejími pokyny a udržte klid. Ve svém hlášení poznamenám, že se to vyřešilo bez incidentu, což vám uchová čistý záznam. Domluveno?”",
+          "feedback": "Proč: Zní to profesionálně a dokonce podpůrně — jasné nastavení očekávání a rámování spolupráce jako přínosu pro Paulův záznam. ‚Poznamenám ve svém hlášení' a ‚uchová vám čistý záznam' ale vnášejí transakční, kvazilegalní rámování v okamžiku, kdy Paul nejvíc potřebuje lidský přístup. Naznačuje to, že lékařská péče je podmíněna dobrým chováním a že jste celou dobu počítali body. Výraz ‚Domluveno?' vyžaduje souhlas s podmínkami, ne pozvání k úlevě a uzdravení. | DŮSLEDKY: Paul vyhoví, ale poslední dojem je strážník, který spíš spravoval složku než se staral o člověka. Bude tuto zkušenost vyprávět jako ‚jednali se mnou jako s podezřelým, i když mě vyšetřovali'. Vedoucí sestra začíná vyšetření s pacientem, který je ostražitý a transakční, místo uvolněného a spolupracujícího. | Reflexe: Když chvíle volá po lidské vřelosti, jaká je cena automatického přechodu na profesionální proceduru?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Oslovíte Paula i Lauru zdvořilým přikývnutím a hlas máte teplý, ale stručný: „Dobrá zpráva — lékařský tým vás teď důkladněji prohlédne a podívá se na ty záda i to brnění. Já ustoupím stranou a nechám vás oba v soukromí při vyšetření. Kdybyste cokoli potřebovali, budu hned za závěsem. Jste v dobrých rukou.”",
+          "feedback": "Proč: Zdvořilé a respektující, ale úplně přeskočí emoční přechod. Paul nepotřebuje jen fyzické vyšetření — potřebuje uznání, že jeho prožitek záležel. Odejít bez tohoto mostu nechává emoční oblouk nedokončený. Také ho nepřipravíte na vyšetření ani neřešíte prosbu vedoucí sestry o pomoc s jeho součinností. | DŮSLEDKY: Sestra začne, ale Paul je pořád emočně rozladěný. Během vyšetření je podrážděný, což jej ztěžuje/což ho činí obtížnějším a znesnadňuje důkladnost. Tým by si přál, abyste ho víc připravili. | Reflexe: Končí vaše práce, když skončí bezprostřední krize, nebo když je člověk opravdu připraven na to, co přijde?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Lehce tleskněte dlaněmi k sobě a nasadíte povzbudivý, energický tón: „Paule, sestra je na vás připravená — přesně na tohle jste celý večer čekal. Potřebuju, abyste s ní při vyšetření spolupracoval, ať může získat jasný obraz toho, co se děje. Ať odteď všechno proběhne hladce. Lauro, klidně zůstaňte po celou dobu po jeho boku.”",
+          "feedback": "Proč: Jasné a podpůrné, ale ‚plně spolupracujte' zní jako direktiva, ne pozvání. ‚Na to jste čekal' je pravda, ale trochu transakční — jako by vyšetření bylo podmíněně uděleno. Neuznává obtížnost toho, čím prošel. | DŮSLEDKY: Paul vyhoví, ale cítí se řízen, ne respektován. Vyšetření proběhne, ale emoční rána ze zážitku není řešena. Bude to vyprávět jako ‚ignorovali mě, dokud jsem se nerozpadl'. | Reflexe: Jaký je rozdíl mezi dosažením spolupráce a dosažením skutečného vyřešení?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Dobré zprávy, Paule — vedoucí sestra vás teď chce prohlédnout a podívat se blíž na to s vašimi zády a tím brněním. Vím, že byl dnešek strašný, a vím, že jste bojoval, aby vás někdo slyšel. Byl jste slyšen. Tohle je další krok. Potřebujete před tím něco — sklenici vody, chvíli se v klidu nadechnout?",
+          "feedback": "Proč: Rámuje přehodnocení jako přímý důsledek jeho úsilí o vyslechnutí, ne odměnu za uklidnění. ‚Byl jste slyšen' je pro někoho, kdo hodiny cítil, že je neviditelný, jedna z nejsilnějších vět. Nabídka voleb (voda, chvíle) vrací pocit moci a signalizuje respekt. Přechod od strážníkem zprostředkovaného k vedení sestry je plynulý a podporující spolupráci. | DŮSLEDKY: Paul se nadechne. Poprvé po hodinách mu klesnou ramena. Přikývne. Laura mu stiskne ruku. Sestra začíná vyšetření se spolupracujícím pacientem. Krize je u konce — ne proto, že byla potlačena, ale protože byla vyřešena. | Reflexe: Jak uznání něčího prožitku vytváří emoční prostor pro spolupráci?",
+          "type": "positive",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Vyhodnocení a odhalení",
+      "sceneUpdate": {
+        "emoji": "🏁",
+        "title": "Školící vyhodnocení",
+        "desc": "Zpět na stanici. Seržant Davis vyhodnocuje váš výkon při této intervenci v nemocnici."
+      },
+      "npcDialogue": [],
+      "prompt": "",
+      "options": [],
+      "dialogueSequence": [
+        {
+          "character": "trainer",
+          "text": "Narušení pořádku v nemocnicích testuje dovednost, na kterou většina strážníků nemá výcvik: poznat, kdy nejste primárním záchranářem. Vstoupili jste do budovy plné zdravotnických odborníků, kteří rozumí Paulovu stavu lépe, než kdy budete vy. Vaším úkolem nebylo diagnostikovat, léčit ani rozhodovat, kdy bude vyšetřen. Vaším úkolem bylo vytvořit bezpečnostní rámec — fyzický i emoční — který umožní zdravotníkům dělat jejich práci. Tento rozdíl je celým scénářem."
+        },
+        {
+          "character": "officer",
+          "text": "Nejtěžší pro mě bylo napětí mezi ochranou sester a obhajobou Paula. Sestře Collinsové prolétl předmět kolem hlavy — zasloužila si ochranu. Ale Paul byl v opravdových bolestech a čtyři hodiny ho ignorovali. Měl jsem pocit, že pomáhat jednomu znamená zklamat druhého."
+        },
+        {
+          "character": "trainer",
+          "text": "Toto napětí není problém k vyřešení — je to rovnováha, kterou je třeba udržet. A klíčem bylo najít cestu, která poslouží oběma, aniž by zradila kohokoli. Když jste uznali strach sestry a zároveň upozornili na Paulovy nové příznaky z klinických důvodů, dali jste jí důvod k přehodnocení, který zachoval její profesní integritu. Nepřepsali jste ji. Neodmítli jste Paula. Našli jste úzký pruh, kde obhajoba pacienta a bezpečí personálu koexistují. To je to, co znamená být bezpečnostním rámcem místo rozhodovacím orgánem v cizí doméně."
+        },
+        {
+          "character": "trainer",
+          "text": "Paul později napsal dopis, ve kterém ocenil strážníka, který ‚skutečně naslouchal, když nikdo jiný nechtěl'. Ten dopis existuje, protože jste pochopili něco zásadního: agresivní chování v nemocnici téměř vždy vyjadřuje tíseň, ne trestný úmysl. Strážníci, kteří v těchto situacích selhávají, jsou ti, kdo každý zvýšený hlas vnímají jako hrozbu k potlačení. Ti, kdo uspějí, jsou ti, kdo slyší bolest pod vztekem a reagují na ni. Dovolte mi sdílet, co se stalo po vašem odchodu."
+        }
+      ]
+    }
+  ],
+  "characters": {
+    "dispatcher": {
+      "name": "Dispečink",
+      "avatar": "📻"
+    },
+    "security": {
+      "name": "Nemocniční ostraha",
+      "avatar": "🔒"
+    },
+    "patient": {
+      "name": "Paul (pacient, 45)",
+      "avatar": "😡"
+    },
+    "nurse": {
+      "name": "Sestra Collinsová",
+      "avatar": "👩‍⚕️"
+    },
+    "chargenurse": {
+      "name": "Vedoucí sestra",
+      "avatar": "🩺"
+    },
+    "wife": {
+      "name": "Laura (manželka)",
+      "avatar": "👩"
+    },
+    "officer": {
+      "name": "Vy (strážník)",
+      "avatar": "👮"
+    },
+    "trainer": {
+      "name": "Seržant Davis",
+      "avatar": "👮‍♂️"
+    }
+  },
+  "performanceReviews": {
+    "perfect": {
+      "title": "Výjimečná deeskalace ve zdravotnictví!",
+      "emoji": "🌟",
+      "feedback": "Prokázali jste vynikající spolupráci s lékařským personálem, upřímnou empatii k pacientovi v krizi a mistrovskou deeskalaci pod tlakem. Vaše schopnost uznat utrpení pacienta i strach sestry — bez stranění — je zlatý standard pro nemocniční intervence. Vytvořili jste podmínky pro péči místo podmínek pro konfrontaci."
+    },
+    "good": {
+      "title": "Silný výkon",
+      "emoji": "✅",
+      "feedback": "Zvládli jste složitou nemocniční situaci zahrnující více stran dobře, s projevy empatie k pacientovi a rozumnou spoluprácí s personálem. Některé příležitosti k hlubšímu spojení nebo efektivnější mediaci byly promarněny, ale celkový přístup byl profesionální a přispěl k pozitivnímu výsledku."
+    },
+    "average": {
+      "title": "Přiměřená reakce",
+      "emoji": "📊",
+      "feedback": "Vyřešili jste bezprostřední bezpečnostní obavu, ale promarnili jste několik příležitostí řešit příčiny pacientovy tísně. Personál možná potřeboval víc podpory a emoční prožitek pacienta nebyl plně uznán. Projděte techniky spolupráce policie a zdravotnictví a deeskalaci založenou na empatii."
+    },
+    "poor": {
+      "title": "Potřeba výrazného zlepšení",
+      "emoji": "⚠️",
+      "feedback": "Váš přístup řešil situaci jako bezpečnostní problém místo zdravotní situace s bezpečnostní dimenzí. Oprávněné zdravotní potřeby pacienta byly druhořadé vůči kontrole chování a personál možná nedostal potřebnou podporu ke spolupráci. Projděte zásady deeskalace zaměřené na pacienta, spolupráci policie a zdravotnictví a porozumění agresi vyvolané bolestí."
+    }
+  },
+  "metrics": {
+    "collaboration": {
+      "name": "Spolupráce zdravotnictví a policie",
+      "description": "Efektivní spolupráce s lékařským personálem bez přehlížení jejich klinické autority nebo opuštění vaší bezpečnostní role",
+      "icon": "🤝"
+    },
+    "empathy": {
+      "name": "Empatie k pacientovi",
+      "description": "Rozpoznání a reakce na bolest, strach a frustraci jako hybatele agrese",
+      "icon": "💚"
+    },
+    "safety": {
+      "name": "Bezpečnost situace",
+      "description": "Udržení fyzického bezpečí pro personál, pacienta a ostatní při vyhýbání se nepřiměřeným reakcím",
+      "icon": "🛡️"
+    },
+    "communication": {
+      "name": "Účinnost komunikace",
+      "description": "Vhodný jazyk, tón a řeč těla; vyhýbání se kontraproduktivním formulacím",
+      "icon": "🗣️"
+    },
+    "resolution": {
+      "name": "Řešení zaměřené na výsledek",
+      "description": "Směřování k udržitelnému řešení místo dočasného potlačení chování",
+      "icon": "🎯"
+    }
+  }
+}

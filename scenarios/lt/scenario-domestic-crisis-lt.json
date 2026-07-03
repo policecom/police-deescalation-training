@@ -1,0 +1,441 @@
+{
+  "id": "domestic-crisis",
+  "title": "Namų konfliktas su psichikos sveikatos krize",
+  "description": "Pažengusio lygio scenarijus, apimantis didelio streso namų konfliktą tarp sutuoktinių, psichikos sveikatos krizę ir mažo vaiko buvimą. Pareigūnas turi orientuotis nepastoviose emocijose, atpažinti savižudybės ideacijos požymius ir taikyti deeskalacijos bei empatijos metodus, kartu užtikrinant teisinį atitikimą ir vaiko saugumą.",
+  "icon": "\ud83c\udfe0",
+  "instructor": {
+    "name": "Seržantas Davis",
+    "avatar": "\ud83d\udc6e\u200d\u2642\ufe0f",
+    "introduction": "Namų konfliktai yra vieni pavojingiausių ir emociškai sudėtingiausių iškvietimų policijos darbe. Šį vakarą jūs tvarkysitės su situacija, kurioje dalyvauja krizę išgyvenantys sutuoktiniai, tarp jų įstrigęs mažas vaikas ir gilesnės psichikos sveikatos problemos po paviršiumi. Tyrimai nuolat rodo, kad pareigūno elgesys per pirmąsias trisdešimt sekundžių nulemia visos situacijos trajektoriją — rami buvimo maniera deeskaluoja, o agresija atspindi ir sustiprina smurtą, dėl kurio buvote iškviesti. Jums reikės subalansuoti empatiją su autoritetu, atpažinti, kada ginčas pereina į psichikos sveikatos krizę, ir priimti teisinius sprendimus, saugančius visus dalyvaujančius — įskaitant žalą darančią pusę. Atminkite, kad vaikai tokiose situacijose absorbuoja viską: jūsų toną, kūno kalbą ir kaip aplinkiniai suaugusieji reaguoja į valdžią. Jūsų bendravimo įgūdžiai nulems, ar ši šeima gaus reikiamą pagalbą, ar sistema juos nuvils tuo momentu, kai jiems labiausiai reikia."
+  },
+  "timedChoices": true,
+  "completionBadges": [
+    "scenario-domestic-crisis-complete"
+  ],
+  "perfectBadge": "perfect-scenario-domestic-crisis",
+  "finalMessage": {
+    "revelation": "Vyras, kuriam padėjote, ponas K, jau daugiau nei mėnesį slėpė darbo praradimą nuo savo giminių, grimzdamas į sunkų depresijos epizodą, maitinamą gėdos, augančių skolų ir nemigos. Jis neturėjo smurto istorijos — tos nakties protrūkis buvo pirmas kartas, kai jo neviltis virto fizine agresija, išprovokuota paslėpto pranešimo apie vėluojamą nuomą. Jo žmona Maria savaitėmis jautė, kad kažkas negerai, bet pilno masto nesuvokė iki to vakaro. Jūsų empatiškas požiūris krizės metu leido jam priimti siuntimą pas psichikos sveikatos konsultantą, kur jam vėliau buvo diagnozuotas sunkus depresijos sutrikimas ir pradėtas gydymas. Intervencijos centras padėjo šeimai gauti skubią finansinę paramą ir skolų konsultacijas. Anna dabar lanko kassavaitinius užsiėmimus su vaikų psichologu ir rodo atsigavimo požymius. Maria vėliau socialinei darbuotojai pasakė, kad tai, kaip jūs kalbėjote su jos vyru — tvirtai, bet be paniekos — buvo priežastis, kodėl jis sutiko ramiai išeiti ir priimti pagalbą.",
+    "keyLessons": [
+      "Aktyvus klausymasis ir empatija gali deeskaluoti net nestabilias situacijas",
+      "Psichikos sveikatos krizės požymių atpažinimas yra lemiamas tinkamam reagavimui",
+      "Vaiko saugumas visada turi būti prioritetas, kartu išlaikant užuojautą",
+      "Teisinių procedūrų laikymasis saugo aukas ir užtikrina tinkamą paramą",
+      "Kultūrinis jautrumas ir pagarba išlaiko orumą sunkiomis akimirkomis"
+    ]
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "Išsiuntimas ir atvykimas",
+      "sceneUpdate": {
+        "emoji": "\ud83d\ude94",
+        "title": "Daugiabutis — koridorius",
+        "desc": "Vėlyvas vakaras, gyvenamasis rajonas. Pranešta apie šauksmą ir dūžtantį stiklą. Už durų girdimas vaiko verksmas."
+      },
+      "npcDialogue": [
+        {
+          "character": "dispatcher",
+          "text": "Ekipažas 7-2, informuojame, namų konfliktas Ąžuolų gatvė 12, trečias aukštas. Skambinantysis minėjo muštynių garsus ir verkiantį vaiką. Vykite atsargiai."
+        }
+      ],
+      "prompt": "Esate prie buto durų. Girdisi prislopinti šauksmai ir kūkčiojimas. Kaip elgsitės?",
+      "options": [
+        {
+          "text": "Priėję prie durų nesustojate klausytis ir iš karto tvirtai pasibeldate kumščio šonu — trys aiškūs smūgiai, kurių aidas nuvilnija koridoriumi. Autoritetingu, tvirtu balsu paskelbiate: 'Policija, labas vakaras, prašau atidaryti duris.' Stovite tiesiai priešais durų akutę, rankos laisvai nuleistos šonuose ir matomos, kūnas atpalaiduotas, bet pasiruošęs. Laukiate atsakymo, kol prislopinti garsai viduje staiga nutrūksta.",
+          "feedback": "Kodėl: Tvirtas beldimas ir policijos paskelbimas atitinka standartinę procedūrą, bet įėjimas prieš tai nepasiklausius praleidžia galimybę surinkti kontekstą apie tai, kas vyksta viduje — balsus, vaiko garsus, pavojaus lygį. | PASEKMĖS: Šauksmai akimirkai nutyla. Šiurkštus vyriškas balsas atsako. Jūs pranešėte apie savo buvimą, bet interakcija prasideda be žvalgybos. | Refleksija: Ką galite sužinoti per dešimt sekundžių prieš beldimą, kas pakeičia visą jūsų požiūrį?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Sustojate prie durų ir kelias sekundes tyliai klausotės, galvą šiek tiek pakreipę — girdite pakeltą vyrišką balsą, tylesnį moterišką maldavimą ir vaiko kūkčiojimą. Fiksuojate žmonių skaičių ir emocinę temperatūrą, prieš imdamiesi veiksmų. Tada du kartus ramiai, bet aiškiai pasibeldate ir paskelbiate neskubiu, šiltu tonu: 'Policija. Esame čia padėti. Ar galiu užeiti pasikalbėti?' Žengiate žingsnį į šoną nuo durų ir kantriai laukiate.",
+          "feedback": "Kodėl: Sustojimas surinkti informaciją prieš veikiant yra kvalifikuoto krizių reagavimo požymis — išgirstate svarbų kontekstą apie žmonių skaičių, emocinę temperatūrą ir galimas rizikas prieš įsipareigodami požiūriui. Ramus paskelbimas signalizuoja negrėsmingą buvimą. | PASEKMĖS: Durys praveriamos ir nervinga moteris žvilgteli. Jūsų kantrybė iš karto kuria ryšį, nustatydama bendradarbiavimo toną. | Refleksija: Kaip per tas kelias klausymosi sekundes gauta informacija formuoja kiekvieną tolesnį sprendimą?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Žengiate tiesiai prie durų, adrenalinas aštrindamas kiekvieną judesį, ir delno kraštu trenkiate tris greitus, sunkius smūgius, nuo kurių sudrebėja stakta. Nelaukdami atsakymo pakeliate balsą, kad pralaužtumėte garsus viduje: 'Policija — turime patvirtinti visų saugumą. Atidarykite duris dabar, prašau. Laikas svarbus.' Stovite tiesiogiai priešais duris, kūno svoris perkelta į priekį, visa laikysena sigalizuojanti, kad vilkinimas nepriimtinas.",
+          "feedback": "Kodėl: Greičio ir ryžtingo veiksmo prioritetas atrodo kaip geras policijos darbas, bet namų krizėje jūsų projektuojamas skubumas tampa visos situacijos emociniu tonu. Apibrėždami laiką kaip kritinį prieš įvertindami, kas vyksta viduje, jūs importuojate savo adrenaliną į namų aplinką ir verčiate gyventojus į paklusnumo arba pasipriešinimo dvimatę erdvę prieš jiems turėjus akimirką susitvarkyti. | PASEKMĖS: Durys greitai atidaromos, bet vyras viduje jau sustingęs nuo nerimo ir moteris atrodo panikuojanti — jie reaguoja į jūsų skubumą, ne į savo pasiruošimą. Vaiko verksmas sustiprėja. Jūs kontroliuojate tarpduryje, bet ne emocinę aplinką. | Refleksija: Kada pareigūno skubumo pojūtis tarnauja situacijai, o kada jis panaikina gyventojų gebėjimą savanoriškai bendradarbiauti?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Atsistojate šone nuo durų ir kelias sekundes klausotės, fiksuodami ginčo ritmą ir vaiko verksmą, prieš nuspręsdami veikti. Pasibeldate tvirtai, bet ne agresyviai — trys apgalvoti, tolygūs beldimo garsai — ir profesionaliu, ramiu tonu paskelbiate: 'Policija. Gavome pranešimą apie triukšmą. Ar viskas gerai?' Laikysena atsipalaidavusi, bet budri, rankos matomos prie šonų, kantriai laukiate, kas atidarys.",
+          "feedback": "Kodėl: Jūs pirmiausia sustojate pasiklausyti, kas suteikia naudingą kontekstą, ir jūsų beldimas yra pasitikintis, bet ne grėsmingas. Tačiau formuluotė \u201egavome pranešimą apie triukšmą\u201c yra šiek tiek kliniškesnė nei kviečianti — dėmesys sutelkiamas į skundą, o ne į pagalbos siūlymą. | PASEKMĖS: Šauksmai nutyla. Po pauzės durys atsargiai atidaromos. Moteris atrodo budri, bet ne priešiška. Turite tinkamą pradžią. | Refleksija: Kaip jūsų buvimo formulavimas kaip \u201eesame čia padėti\u201c prieš \u201ereaguojame į skundą\u201c keičia gyventojų norą jus įsileisti?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Pirmas kontaktas viduje",
+      "sceneUpdate": {
+        "emoji": "\ud83c\udfe0",
+        "title": "Butas — svetainė",
+        "desc": "Matomi kovos pėdsakai. Apversta lempa, sudaužytas paveikslų rėmas. Moteris su mėlyne ant dilbio, vyras sugniaužtais kumščiais, mažas vaikas žvilgčioja iš miegamojo."
+      },
+      "npcDialogue": [
+        {
+          "character": "wife",
+          "text": "Prašau... atsiprašau, kad trukdome. Tai buvo tik ginčas. Viskas gerai, tikrai."
+        },
+        {
+          "character": "husband",
+          "text": "Viskas tvarkoje, pareigūne. Mums nereikia jūsų čia. Tai privatus šeimos reikalas."
+        }
+      ],
+      "prompt": "Turite perimti kontrolę ir užtikrinti visų saugumą. Ką sakote?",
+      "options": [
+        {
+          "text": "Laikote balsą žemą ir ramų, rankos atviros prie šonų, akimis apžvelgiate kambarį nespoksodami į nuniokojimą. Kreipiatės į abu vienu metu: 'Suprantu, kad tai asmeniška, ir aš čia ne tam, kad teisčiau jūsų šeimą. Bet esame čia, nes kažkas gali būti pavojuje, ir mano pareiga — įsitikinti, kad visi šiame bute saugūs, įskaitant jus abu ir jūsų vaiką. Kas atsitiko šį vakarą?' Laikotės ramios, atviros laikysenos ir paliekate jiems erdvę atsakyti.",
+          "feedback": "Kodėl: Ramus tonas kartu su atviro tipo klausimais rodo tikrą susirūpinimą be kaltinimų — kviečia abi puses dalintis, o ne gintis. Jų privatumo pripažinimas kartu paaiškinant savo pareigą subalansuoja pagarbą su atsakomybe. | PASEKMĖS: Abi pusės lieka įsitraukusios. Pasitikėjimas pradeda kurtis, nes jie jaučia teisingumą ir saugumą jūsų požiūryje. Gaurate vertingą informaciją per dialogą, o ne per apklausą. | Refleksija: Kaip frazė \u201ekažkas gali būti pavojuje\u201c išlaiko dėmesį saugume, o ne kaltėje?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Užimate tvirtą poziciją kambario centre, atsistodami tarp poros. Jūsų balsas kontroliuotas, bet nepaliekantis vietos deryboms: 'Reikia, kad abu nusiramintuote dabar. Pone, prašau pereiti čia, prie lango. Ponia, likite ten, kur esate. Viską išsiaiškinsime, bet po vieną — niekas nekalba vienas per kitą.' Aiškiais gestais nurodote kiekvienam jo vietą, pirmiausia užtikrindami fizinį atskyrimą, prieš ką nors kitą.",
+          "feedback": "Kodėl: Šalių atskyrimas yra standartinis saugumo protokolas, mažinantis tolesnės konfrontacijos riziką. Tačiau pradėjimas nuo \u201enusiraminkite\u201c ir komandų davimas be ryšio užmezgimo rodo minimalią empatiją ir gali atrodyti autoritariškai. | PASEKMĖS: Emocinė įtampa išlieka aukšta, nors fizinis atskyrimas sumažina tiesioginę riziką. Abi pusės paklūsta, bet lieka užsidariusios. | Refleksija: Kas nutiktų, jei pripažintumėte jų sunkumus prieš duodami nurodymus?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Žengiate vidun ir iš karto perjungiate į taktinį režimą — akys skenuoja kambarį ieškodamos ginklų ar pavojų. Balsas trumpas ir profesionalus: 'Pirmiausia turiu apsaugoti vietą. Pone, prašau pereiti prie tos sienos, rankos visą laiką matomos. Ponia, prašau likti tiksliai ten, kur esate, ir nejudėti. Apklausiu jus abu atskirai, kai patvirtinsiu, kad aplinka saugi.' Užimate poziciją su aiškia regėjimo linija į abu, traktuodami butą kaip galimą nusikaltimo vietą.",
+          "feedback": "Kodėl: Vietos apsauga yra teisėtas prioritetas, ir šalių atskyrimas su aiškia pozicija yra standartinė pareigūno saugumo procedūra. Tačiau namų krizės traktavimas kaip nusikaltimo vietos — taktinių komandų davimas išgąsdintai žmonai ir vyrui, kuris jums negrasino — signalizuoja, kad matote įtariamuosius, o ne krizėje esančius žmones. Procedūrinė kalba yra techniškai teisinga, bet emociškai neraštinga šiam kontekstui. | PASEKMĖS: Abu mechaniškai paklūsta, bet žmonos akys sustingsta ir vyro žandikaulis suspaudžiamas. Fiziškai kontroliuojate kambarį, bet emocinės žaliuzės užsivėrė. Nė viena pusė savanoriškai nepateiks jums reikiamos informacijos, nes jūsų požiūris perdavė, kad jie yra apdorojami, o ne kad jiems padedama. | Refleksija: Kada taktinės procedūros laikymasis namų aplinkoje signalizuoja, kad jau nusprendėte — tai baudžiamoji byla, o ne krizė?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Laikote toną santūrų ir nekonfliktišką, lengvu galvos linktelėjimu pripažindami situacijos nepatogumą. Sakote: 'Suprantu, kad tai jaučiasi kaip įsibrovimas, ir žinau, kad turėti policiją namuose nėra lengva. Esu čia tik tam, kad įsitikinčiau, jog visi saugūs — daugiau nieko. Pone, ar galite papasakoti, kas atsitiko šį vakarą?' Trumpai pasisukate į žmoną: 'Ponia, su jumis pasikalbėsiu atskirai netrukus — noriu išgirsti jus abu.' Laikotės neutraliai tarp jų.",
+          "feedback": "Kodėl: Pripažįstate įsibrovimą ir pradedate nuo saugumo, kas yra gerai. Planas kalbėti su kiekvienu atskirai rodo sąmoningumą. Tačiau kalbėjimas su vyru pirma, kol žmona laukia, gali netyčia suteikti pirmenybę jo pasakojimui ir palikti ją jaučiantis nepastebėta iš pradžių. | PASEKMĖS: Vyras atsargiai įsitraukia, kol žmona pasitraukia į miegamąjį su vaiku. Gaurate vieną perspektyvą pirma, bet praleidžiate galimybę apimančiai pradžiai. | Refleksija: Kaip tvarka, kuria kalbinate šalis, formuoja, kieno versija tampa jūsų supratimo pagrindu?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Informacijos rinkimas",
+      "sceneUpdate": {
+        "emoji": "\ud83d\udcac",
+        "title": "Įtempta diskusija",
+        "desc": "Vyras sustingęs ir ginasi, žmona dreba ir verkia. Iš miegamojo girdisi vaiko kūkčiojimai."
+      },
+      "npcDialogue": [
+        {
+          "character": "husband",
+          "text": "Tai juokinga... Mes tiesiog pasisamščiavome. Teisybė, Maria? Pasakyk jiems, kad tau viskas gerai."
+        },
+        {
+          "character": "wife",
+          "text": "Aš... mes... Tai buvo dėl pinigų ir tavo darbo... Aš išsigandau, kai pradėjai mėtyti daiktus... bet man gerai."
+        }
+      ],
+      "prompt": "Vyras svaido jai aštrų žvilgsnį, kai ji pamini daiktų mėtymą. Kaip elgsitės toliau?",
+      "options": [
+        {
+          "text": "Pastebite aštrų žvilgsnį, kurį vyras meta žmonai, ir švelniai įsiterpiate. Pirmiausia kreipiatės į jį ramiu, bet tvirtu tonu: 'Pone, matau, kad norite kažką pasakyti, ir aš tikrai išklausysiu jūsų pusę — pažadu. Bet dabar prašau leisti jai baigti.' Tada pasisukate į žmoną, sušvelnindami balsą: 'Minėjote, kad išsigandote. Tai man svarbu. Aš klausau. Ar galite papasakoti daugiau apie tai, kas atsitiko?' Kūnu išlaikote kampą, apimantį abu, signalizuodami teisingumą.",
+          "feedback": "Kodėl: Užtikrinimas vyrui, kad jis bus išklausytas, tuo pat metu kviečiant žmoną tęsti, demonstruoja nešališkumą ir aktyvų klausymąsi — abi pusės jaučiasi gerbiamos ir nė viena nenutildoma. Ši technika surenka daugiausia informacijos, kartu palaikant pasitikėjimą. | PASEKMĖS: Abu jaučiasi išgirsti, kas reikšmingai kuria pasitikėjimą. Žmona dalinasi daugiau detalių ir vyro gynybinis elgesys palaipsniui švelninasi. Gaurate vertingą informaciją apie situaciją. | Refleksija: Kaip garantija, kad kiekvienas turės balsą, keičia informacijos rinkimo dinamiką?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Perkertate emocinę įtampą tiesioginiu, dalykišku požiūriu, išsitraukdami užrašų knygelę ir spragtelėdami rašikliu. Balsas lygus ir procedūrinis: 'Man reikia faktų, prieš nusprendžiant, kas čia įvyko. Pone, ar ginčas bet kuriuo momentu perėjo į fizinį kontaktą — ar kas nors buvo stumiamas, griebiamas ar smūgiuojamas? Ponia, ar esate sužeista? Man reikia, kad abu atsakytumėte sąžiningai, kad galėčiau įvertinti situaciją ir nuspręsti dėl tolesnių veiksmų.' Žvelgiate iš vieno į kitą, laukdami tiesioginių atsakymų.",
+          "feedback": "Kodėl: Tiesioginių faktų ieškojimas yra efektyvus ir patvirtina informaciją apie mestus daiktus, bet klinikinis požiūris visiškai praleidžia emocinį matmenį — krizėje esantiems žmonėms reikia jaustis išgirstiems, ne tik apklausiamiems. | PASEKMĖS: Gaumate faktinę informaciją, bet praleidžiate gilesnį ryšį, kuris atskleistų daugiau apie pagrindinę situaciją. Interakcija primena tardymą. | Refleksija: Kada apklausos efektyvumas kainuoja jums reikiamos informacijos?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Visą dėmesį sutelkiate į žmoną, nurodydami neatitikimą jų versijose: 'Ponia, jūsų vyras sakė, kad tai buvo tik ginčas, bet jūs minėjote daiktų mėtymą. Tai dvi skirtingos situacijos, ir man reikia suprasti, kuri iš jų įvyko. Turiu tiksliai žinoti, kas buvo mėtoma, ar kas nors iš to buvo nukreipta į jus arba vaiką, ir kokia tvarka viskas vyko šį vakarą. Papasakokite įvykių seką nuo pradžių.' Vyro žandikaulis suspaudžiamas, kol jūs kalbate.",
+          "feedback": "Kodėl: Tikslios laiko juostos siekimas skamba kaip kruopštus policijos darbas, ir skirtumas tarp iš nusivylimo mestų daiktų ir į žmogų nukreiptų yra teisiškai reikšmingas. Tačiau iš karto supriešindami vyro versiją su žmonos jo akivaizdoje, jūs pastatėte ją kaip savo liudytoją prieš jį — ji mato, kaip jo veidas sustingsta, ir supranta, kad kalbėti toliau kelia jai pavojų po to, kai jūs išeisite. Teismo salės formuluotė teikia pirmenybę jūsų ataskaitai, o ne jos saugumui. | PASEKMĖS: Žmona pažvelgia į vyrą ir atsitraukia: \u201eTai nebuvo tikrai į mane, daiktai tiesiog nukrito.\u201c Vyras sukryžiuoja rankas, pasijutęs reabilituotas. Jūs netyčia ją išmokėte minimizuoti, nes jūsų faktų rinkimas sukūrė teismo salės dinamiką svetainėje. | Refleksija: Kaip tai, kaip formuluojate klausimus abiejų pusių akivaizdoje, nulemia, kieno saugumą iš tikrųjų prioritetizuojate — aukos ar tyrimo?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Sutelkiate dėmesį į žmonos emocinę būseną, atpažindami, kad jos baimė yra svarbiausias signalas kambaryje. Šiek tiek pasilenkiate jos link ir pritildote balsą: 'Minėjote, kad išsigandote — tai man labai svarbu, ir aš tai vertinu rimtai. Ar galite papasakoti daugiau apie tai, kas šį vakarą jus išgąsdino?' Tada trumpai pažvelgiate į vyrą: 'Pone, man netrukus reikės išgirsti ir jūsų perspektyvą, tad prašau minutėlę palaukti.' Pastebite vyro aštrų žvilgsnį žmonai, bet kol kas tiesiogiai jo nekomentuojate.",
+          "feedback": "Kodėl: Teisingai sutelkiate dėmesį į žmonos baimę, kuri yra kritinis saugumo indikatorius. Pažadas vyrui, kad jo eilė ateis, rodo tam tikrą teisingumą. Tačiau aktyviai nesustabdėte vyro bauginančio žvilgsnio ir neadresavote jo bandymo kontroliuoti jos pasakojimą, kas gali versti ją nenorėti laisvai kalbėti. | PASEKMĖS: Žmona atsargiai dalinasi, žvilgčiodama į vyrą. Gaumate šiek tiek informacijos, bet prievartinė dinamika kambaryje lieka neginčijama. | Refleksija: Kaip sukuriate erdvę kam nors sąžiningai kalbėti, kai žmogus, kurio jie bijo, stebi?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Vaiko buvimas",
+      "sceneUpdate": {
+        "emoji": "\ud83d\udc67",
+        "title": "Emocinis sudėtingumas",
+        "desc": "6 metų Anna pasirodo, glaudžiasi prie mamos, tyliai verkia. Tėvų veido išraiškos keičiasi — tėvas rodo gėdą ir gynybą."
+      },
+      "npcDialogue": [
+        {
+          "character": "child",
+          "text": "Mama... man baisu."
+        },
+        {
+          "character": "wife",
+          "text": "Viskas gerai, mieloji... viskas gerai. Mama čia."
+        },
+        {
+          "character": "husband",
+          "text": "Matot, dabar jūs išgąsdinote mano dukrą! Todėl nenorėjau policijos! Mes patys susitvarkome."
+        }
+      ],
+      "prompt": "Tėvas kaltina jūsų buvimą dėl vaiko išgąsdinimo. Kaip elgsitės šiuo kritiniu momentu?",
+      "options": [
+        {
+          "text": "Lėtai pritūpiate ant vieno kelio, kad būtumėte vaiko akių lygyje, judesius laikydami švelniais, o veido išraišką šiltą. Ramiu, tyliu balsu kreipiatės tiesiai į Anną: 'Sveika, mažyte. Tu neturi absoliučiai jokių problemų. Mes čia tam, kad visiems būtų saugu ir gerai.' Tada atsistojate ir pasisukate į tėvą, laikydami balsą tvirtą, bet pagarbų: 'Matau, kaip labai jūs ja rūpinatės. Padarykime tai kartu dėl Annos — jai reikia, kad visi dabar būtume ramūs.' Palaikote akių kontaktą, kviesdami bendradarbiauti, o ne reikalaudami.",
+          "feedback": "Kodėl: Tiesioginis kreipimasis į vaiką su gerumu jos akių lygyje akimirksniu jus sužmogina ir nuimia įtampą — visas kambarys persijungia nuo konflikto prie rūpesčio. Tėvo meilės pripažinimas performuluoja situaciją bendro pagrindo link, o ne priešpriešos. | PASEKMĖS: Visi reikšmingai nusiramina. Vaikas atsipalaiduoja, mama jaučiasi apsaugota, ir tėvo gėda pradeda virsti bendradarbiavimu. Emocinė temperatūra drastiškai nukrinta. | Refleksija: Kaip ryšys su pažeidžiamiausiu žmogumi kambaryje keičia visų kitų elgesį?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Greitai įvertinate situaciją ir nusprendžiate, kad prioritetas — pašalinti vaiką iš konflikto zonos. Jūsų tonas pragmatiškas ir santūrus, ne nešvelnus, bet sutelktas į logiką: 'Jūsų dukra akivaizdžiai nusiminusi, ir ji neturėtų būti to viduryje. Gal vienas iš jūsų galėtumėte nuvesti ją į kitą kambarį — gal miegamąjį — kur tyliau ir ji galėtų nusiraminti, o aš tuo metu pasikalbėsiu su kitu iš jūsų. Suaugusiųjų pokalbį galime sutvarkyti atskirai.' Mostu nurodote koridorių miegamųjų link.",
+          "feedback": "Kodėl: Vaiko atskyrimas nuo konflikto zonos yra pagrįstas saugumo sprendimas ir atitinka geriausią nepilnamečių apsaugos praktiką. Tačiau pragmatinis tonas praleidžia galimybę emociniam ryšiui, kuris galėjo transformuoti visą dinamiką. | PASEKMĖS: Mama nuveda Anną. Artimiausia aplinka yra procedūriškai teisinga, bet emociškai plokščia. Tęsiate be galingos deeskalacijos, kurią būtų suteikusi empatija vaikui. | Refleksija: Koks skirtumas tarp vaiko pašalinimo iš situacijos ir vaiko saugumo pojūčio sukūrimo?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Pritūpiate ir ištiesiate ranką link verkiančio vaiko, balsas švelnus ir raminantis: 'Mieloji, tau nebereikia bijoti. Policija dabar čia ir mes neleisime, kad kas nors blogo atsitiktų, gerai? Ar gali ateiti su manimi čia, į koridorių, kur gražiai tylu? Tavo mama ir tėtis tiesiog turi su mumis truputį pasikalbėti, ir paskui viskas bus gerai.' Šiltai nusišypsote Annai ir mostu nurodote buto duris, laukdami, kol ji paims jūsų ranką.",
+          "feedback": "Kodėl: Noras fiziškai pašalinti vaiką iš konflikto zonos atrodo instinktyviai apsaugomai, ir kalba yra šilta. Tačiau paprašyti šešiametės eiti su uniformuotu nepažįstamuoju — tolyn nuo mamos, vienintelio saugumo šaltinio, kuriuo ji pasitiki — yra bauginanti iš vaiko perspektyvos. Frazė \u201eneleisime nieko blogo atsitikti\u201c netiesiogiai patvirtina, kad kažkas blogo vyko, ir vaikas tai internalizuos. Taip pat pašalinote abu tėvus iš sprendimo dėl jų vaiko, kas atima jų veiksnumą ir dar labiau užkursto tėvą. | PASEKMĖS: Anna surinka ir dar stipriau glaudžiasi prie mamos. Tėvas žengia į priekį, apsauginis instinktas dominuoja: \u201eJūs niekur nevedate mano dukros.\u201c Mama jaučiasi plyšoma tarp jūsų autoriteto ir vaiko sielvarto. Jūsų geranoriška apsaugos pastanga tapo nauju baimės šaltiniu kambaryje. | Refleksija: Kada vaiko apsauga nuo vieno baimės šaltinio netyčia tampa nauju baimės šaltiniu — ir kaip atskiriate?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Pirmiausia kreipiatės į tėvą, ramiu linktelėjimu pripažindami jo apsauginį instinktą: 'Suprantu, kad nerimaujate dėl Annos, pone. Ji yra mūsų prioritetas taip pat — norime, kad ji jaustųsi saugi labiau už viską.' Tada pasisukate į motiną, balsą laikydami tylų ir atidų: 'Ar padėtų, jei Anna akimirkai nueitų į savo kambarį, kol mes pasikalbėsime? Ten jai gali būti ramiau su kažkuo pažįstamu.' Sprendimą paliekate tėvams, pozicionuodami save kaip partnerį, o ne valdžią, primetančią pasirinkimą.",
+          "feedback": "Kodėl: Validuojate tėvo susirūpinimą ir centruojate vaiko gerovę, kas yra gerai. Pasiūlymas vaikui išeiti suteikia šiek tiek apsaugos. Tačiau nesikreipėte į Anną tiesiogiai — tokio amžiaus vaikas, apie kurį kalbama, o ne su kuriuo, gali jaustis ignoruojamas, ir praleidote galingą deeskalaciją, kurią sukuria tiesioginis, šiltas ryšys su ja. | PASEKMĖS: Mama nuveda Anną į miegamąjį. Tėvas šiek tiek nurimsta, bet nėra tikrai nuginkluotas. Situacija pagerėja, bet be emocinio proveržio, kurį būtų sukūręs tiesioginis bendravimas su vaiku. | Refleksija: Kaip tiesioginis kreipimasis į išsigandusį vaiką, o ne kalbėjimas apie jį, keičia emocinę dinamiką visiems kambaryje?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Psichikos sveikatos krizė iškyla",
+      "sceneUpdate": {
+        "emoji": "\ud83e\udde0",
+        "title": "Krizės taškas",
+        "desc": "Vyro pyktis užleidžia vietą matomai nevilčiai. Rankos dreba, greitas kvėpavimas, lūžio požymiai."
+      },
+      "npcDialogue": [
+        {
+          "character": "husband",
+          "text": "Aš... praradau darbą prieš mėnesį. Niekam nesakiau... Sąskaitos... skolos... Aš nuvyliau savo šeimą... Gal jums visiems būtų geriau be manęs..."
+        },
+        {
+          "character": "wife",
+          "text": "Brangusis... prašau, nesakyk taip. Mes galime tai įveikti, tik... ne taip."
+        }
+      ],
+      "prompt": "Vyras rodo savižudybės ideacijos požymius. Dabar tai psichikos sveikatos krizė. Kaip reaguosite?",
+      "options": [
+        {
+          "text": "Žengiate lėtą žingsnį arčiau ir pritildote balsą, žiūrėdami jam tiesiai į akis. Kalbate švelniai, bet su giliu įsitikinimu: 'Man labai gaila, kad tai patiriate. Prarasti darbą ir nešti tą naštą vienam ištisą mėnesį — tai skamba nepakeliama, ir aš suprantu tą svorį. Bet turiu, kad išgirstumėte: jūsų šeima jūsų reikia. Ne taip, ne krizėje — saugiai. Parūpinkime jums pagalbą šį vakarą. Galiu iškviesti krizių konsultantą, kuris tiksliai žino, kaip padėti tokioje situacijoje.'",
+          "feedback": "Kodėl: Jo jausmų validavimas kartu švelniai kontrargumentuojant savižudines mintis konkrečia priežastimi gyventi demonstruoja aukštą emocinį intelektą ir tinkamą krizių intervenciją — normalizuojate jo skausmą nepriimant jo išvados, kad šeimai būtų geriau be jo. | PASEKMĖS: Jis linktelėja, išsekęs, bet priimantis. Konsultanto pasiūlymas duoda jam kelią į priekį. Tiesioginė krizė pradeda spręstis, nes jis jaučiasi tikrai išgirstas ir palaikomas. | Refleksija: Kaip paprastas veiksmas — įvardyti kieno nors skausmą ir pasiūlyti konkretų kitą žingsnį — keičia krizės trajektoriją?",
+          "type": "positive",
+          "points": 12
+        },
+        {
+          "text": "Laikotės santūriai ir ramiai, išlaikydami atstumą, kad suteiktumėte jam erdvės, bet likdami pakankamai arti, kad galėtumėte įsikišti, jei reikės. Balsas tvirtas ir kontroliuotas: 'Pone, pirmiausia prašau giliai įkvėpti. Jūs šiuo metu po milžinišku stresu, ir tai viską verčia atrodyti blogiau, nei yra iš tikrųjų. Jei yra bet kokia tikimybė, kad galėtumėte pakenkti sau šią naktį, noriu, kad man pasakytumėte — galime iškviesti medikus, kurie yra apmokyti padėti. Jokios gėdos dėl to.' Atidžiai stebite jo rankas ir kvėpavimą.",
+          "feedback": "Kodėl: Įžeminimas kvėpavimo nurodymu ir profesionalios pagalbos siūlymas yra metodiškas ir orientuotas į saugumą. Tačiau šiek tiek beasmenis tonas praleidžia emocinį ryšį, kurio krizėje esantis žmogus desperatiškai reikia — pasakyti kam nors kvėpuoti gali atrodyti kaip nuvertinimas, kai žmogus yra nevyltyje. | PASEKMĖS: Jis neprieštarauja, bet ir aktyviai nesutinka. Tiesioginis pavojus atslūgsta, bet be tikro įsitraukimo. Atsakas adresuoja riziką, bet ne žmogų. | Refleksija: Koks skirtumas tarp krizės valdymo ir ryšio su krizėje esančiu žmogumi?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Linktelite lėtai, balsą laikydami tvirtą ir orientuotą į sprendimus: 'Girdžiu jus, ir matau, kad tai buvo neįtikėtinai sunku — nešti tokią paslaptį ištisą mėnesį sugniuždytų bet ką. Bet dabar turime sutelkti dėmesį į šį vakarą ir užtikrinti, kad visi šiame bute būtų saugūs, o tada sugalvoti kitus praktinius žingsnius. Yra žmonių, kurie gali padėti su darbo situacija — įdarbinimo tarnybos, finansinės konsultacijos, skolų pagalba. Viena problema vienu metu. Nereikia visko išspręsti šiąnakt.' Palaikote akių kontaktą, bandydami perteikti ramų profesionalumą.",
+          "feedback": "Kodėl: Šis atsakas skamba produktyviai ir net užjaučiančiai — pripažįsta jo skausmą, siūlo praktinę pagalbą ir bando nepakeliamą situaciją suskaidyti į valdomas dalis. Daugelis gerai apmokytų pareigūnų pagal nutylėjimą taiko šį į sprendimus orientuotą požiūrį. Tačiau kai kas nors sako \u201ejums visiems būtų geriau be manęs\u201c, jis neprašo įdarbinimo tarnybų. Iš karto persijungdami prie logistikos, jūs perduodate, kad jo savižudiška neviltis yra problema, kurią reikia valdyti, o ne skausmas, kurį reikia paliudyti. Teiginys, kuris išgąsdino jo žmoną, lieka neadresuotas, ir jis išmoksta, kad net profesionalas kambaryje negali būti šalia to, ką jis jaučia. | PASEKMĖS: Jis linktelėja mechaniškai ir nutyla — kas atrodo kaip bendradarbiavimas, bet iš tikrųjų yra atsitraukimas. Ūminė emocinė krizė buvo užklijuota darbų sąrašu. Jis gali paklusti šį vakarą, bet neviltis, pagimdžiusi savižudišką teiginį, lieka visiškai nepaliesta. Jo žmona stebi, kaip jis užsidaro, ir žino, kad iš tikrųjų niekas nepasikeitė. | Refleksija: Kai kas nors išreiškia, kad jo šeimai būtų geriau be jo, ką tai perduoda, kai jūsų atsakas yra kalbėti apie įdarbinimo tarnybas?",
+          "type": "negative",
+          "points": -10
+        },
+        {
+          "text": "Laikote balsą ramų ir neskubų, leisdami jo prisipažinimo svoriui pabūti kambaryje, užuot skubėję pro jį: 'Matau, kad jūs išgyvenate labai sunkų laiką, ir noriu, kad žinotumėte — tai, ką jaučiate, yra suprantama. Darbo praradimas sukuria didžiulį spaudimą žmogui, ypač kai bandote viską išlaikyti dėl šeimos. Pasirūpinkime, kad visi čia šį vakarą būtų saugūs — tai pirmas žingsnis — ir tada galiu jus sujungti su žmonėmis, kurie yra apmokyti padėti būtent tokiose situacijose.'",
+          "feedback": "Kodėl: Pripažįstate jo skausmą ir normalizuojate darbo praradimo stresą, kas yra užjaučiančia. Pagalbos siūlymas yra teisingas instinktas. Tačiau tiesiogiai neadresavote jo savižudiško teiginio — \u201egal jums visiems būtų geriau be manęs\u201c — kurį reikia švelniai, bet aiškiai paneigti. Savižudiškos ideacijos aplenkimas, net siūlant pagalbą, gali palikti žmogų jaučiantį, kad jo tamsiausia mintis buvo ignoruota. | PASEKMĖS: Jis šiek tiek nusiramina, jaučiasi iš dalies išgirstas. Krizė stabilizuojasi, bet pagrindinė savižudiška ideacija lieka neadresuota. Jis gali paklusti šį vakarą, bet giluminė neviltis tęsiasi. | Refleksija: Kodėl svarbu aiškiai pripažinti savižudiškus teiginius, o ne nukreipti dėmesį nuo jų?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Teisinis sprendimas",
+      "sceneUpdate": {
+        "emoji": "\u2696\ufe0f",
+        "title": "Sprendimo laikas",
+        "desc": "Tiesioginė emocinė krizė slūgsta. Vyras sėdi ant sofos suglebęs, išsekęs ir nualintas, o žmona stovi prie miegamojo durų, kur miega Anna. Dabar turite nuspręsti dėl tinkamų teisinių priemonių ir paramos tarnybų, kad užtikrintumėte visų saugumą šią naktį ir artimiausiomis dienomis."
+      },
+      "npcDialogue": [
+        {
+          "character": "wife",
+          "text": "Kas dabar bus? Jis nėra blogas žmogus, tik po dideliu spaudimu."
+        }
+      ],
+      "prompt": "Dabar turite teisiškai išspręsti situaciją ir užtikrinti saugumą. Kokių veiksmų imsitės?",
+      "options": [
+        {
+          "text": "Kruopščiai paaiškiniate kiekvieną žingsnį, palaikydami akių kontaktą su abiem pusėmis. Pritaikote 10 dienų iškeldinimo nutarimą pagal įstatymą, užtikrindami saugų atvėsimo laikotarpį, tada iš karto skambinate vietiniam intervencijos centrui, kad suorganizuotumėte krizės paramą žmonai ir vaikui šią naktį. Pranešate vaiko teisių apsaugos tarnybai, formuluodami pranešimą kaip šeimos pagalbą, o ne kaip grėsmę paimti vaiką, ir pasirūpinate, kad vyras prieš išvykdamas iš buto būtų sujungtas su psichikos sveikatos krizių konsultantu. Kiekvienam žmogui paaiškinate, kas bus toliau.",
+          "feedback": "Kodėl: Šis atsakas puikiai atitinka Čekijos įstatymus, kartu demonstruodamas užuojautą — 10 dienų iškeldinimas suteikia teisinį atvėsimo laikotarpį, intervencijos centro parama sprendžia tiesioginę krizę, o vaiko teisių apsaugos formulavimas kaip pagalba, o ne paėmimas, išsaugo šeimos orumą, kartu užtikrindamas vaiko gerovę. | PASEKMĖS: Saugumas užtikrintas teisinėmis priemonėmis. Parama surengta visiems šeimos nariams. Subalansuotas vykdymo su empatija požiūris suteikia šiai šeimai geriausią šansą atsigavimui. | Refleksija: Kuo skiriasi kiekvieno turimo teisinio įrankio panaudojimas su užuojauta nuo baudžiamojo panaudojimo?",
+          "type": "positive",
+          "points": 12
+        },
+        {
+          "text": "Nusprendžiate viską išlaikyti neformaliai, tikėdamiesi apsaugoti gerą valią ir išvengti formalių procedūrų svorio ant jau trapios šeimos. Paklausiate vyro, ar jis sutiktų savanoriškai pernakvoti kur nors kitur šią naktį — pas brolį, pas draugą, bet kur toliau nuo buto. Jis tyliai sutinka. Žmonai pasakote, kad patikrinsite rytoj ryte ir pažiūrėsite, kaip sekasi, ir pasiūlote paskambinti, jei kas nors pasikeis per naktį. Išeinate nesurašę formalių dokumentų, pasitikėdami, kad savanoriškas susitarimas atsilaikys.",
+          "feedback": "Kodėl: Savanoriškas kompromisas išvengia formalių dokumentų ir išsaugo šiek tiek geros valios, bet jam trūksta teisinės apsaugos, kurią suteikia formalios priemonės — jei jis grįš šią naktį krizėje, nėra vykdytino nutarimo, kuris tai sustabdytų. Geri ketinimai be teisinio pagrindo palieka šeimą pažeidžiamą. | PASEKMĖS: Dalinis sprendimas su rizika ateityje. Artimiausia naktis greičiausiai saugi, bet nėra formalių apsaugos priemonių ar paramos tarnybų. | Refleksija: Kada bandymas būti maloniu vengiant formalių priemonių iš tikrųjų kelia didesnę riziką žmonėms?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Metodiškai atliekate kiekvieną procedūrinį žingsnį. Pritaikote 10 dienų iškeldinimą ir pradedate pildyti smurto artimoje aplinkoje protokolą planšetėje. Radijo ryšiu iškviečiate patrulinį automobilį vyro transportavimui iki brolio adreso. Dalykišku tonu informuojate žmoną, kad vaiko teisių apsaugos tarnyba bus informuota kaip standartinė procedūra bylose, kuriose dalyvauja nepilnamečiai. Kruopščiai užpildote kiekvieną dokumentą, fiksuodami apverstą lempą ir sudaužytą rėmą. Konsultantas nekviečiamas, intervencijos centras nekontaktuojamas — dokumentacija yra jūsų dėmesio centras.",
+          "feedback": "Kodėl: Kiekvienas atskiras žingsnis čia yra pagrindžiamas — iškeldinimas yra teisiškai tinkamas, protokolas yra privalomas, transportavimas yra naudingas, ir pranešimas vaiko teisių apsaugai atitinka protokolą. Tai atrodo kaip pavyzdinė policija popieriuje. Tačiau šis atsakas krizėje esančią šeimą sumažina iki biurokratinių veiksmų sąrašo. Vyras yra apdorojamas ir perkeliamas niekam neadresavus jo psichikos sveikatos krizės. Žmona girdi \u201evaiko teisių apsaugos tarnyba\u201c ir panikuoja, įsivaizduodama, kad jos dukra bus paimta. Konsultantas neiškviečiamas, intervencijos centras nekontaktuojamas, niekas nepaaiškina, ką visa tai reiškia jos šeimai rytoj. Jūs laikėtės visų procedūrų ir nepadėjote niekam. | PASEKMĖS: Vyras išvyksta patruliniu automobiliu, pažemintas ir be stebėsenos dėl savęs žalos. Žmona praleidžia naktį suparalyžiuota baimės, kad vaiko teisių apsauga paims Anną, bijodama skambinti bet kuriuo jūsų paliktu numeriu, nes dabar \u201esistemą\u201c sieja su šeimos netekimu dalimis. Procedūriškai nepriekaištinga. Žmogiškai katastrofiška. | Refleksija: Kai laikotės visų procedūrų, bet nieko nesujungiate su tikra pagalba, kieno poreikius tenkino dokumentai?",
+          "type": "negative",
+          "points": -10
+        },
+        {
+          "text": "Pritaikote 10 dienų iškeldinimo nutarimą fiziniam atskyrimui ir saugumui, tada padedate vyrui susirinkti keletą daiktų nakčiai ir sutvarkyti jo išvykimą iš buto šį vakarą. Prieš išeidami paduodate žmonai spausdintą kortelę su telefono numeriais intervencijos centro, smurto artimoje aplinkoje pagalbos linijos ir bendrosios paramos tarnybos. Pasakote, kad šios organizacijos gali padėti, ir kad planuojate rytoj atvykti patikrinti, kaip sekasi jai ir Annai. Sujungimą su tarnybomis paliekate jos iniciatyvai.",
+          "feedback": "Kodėl: Teisingai naudojate teisinę iškeldinimo priemonę ir užtikrinate tiesioginį fizinį atskyrimą, kas sprendžia saugumą. Kontaktų numerių pateikimas rodo paramos poreikių suvokimą. Tačiau pasiliekate prie to, kad žmona pati inicijuos kontaktą su tarnybomis, o ne tiesiogiai jas organizuosite, ir konkrečiai neadresavote vyro psichikos sveikatos krizės ar neužtikrinote, kad jis šią naktį turėtų prieigą prie konsultavimo. | PASEKMĖS: Fizinis saugumas užtikrintas. Žmona turi informaciją, bet turi pati naršyti sistemoje traumatinę naktį. Vyras išvyksta be suorganizuotos psichikos sveikatos paramos. | Refleksija: Koks skirtumas tarp telefono numerio paliktinimo ir tikro žmogaus sujungimo su pagalba?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Parama po įvykio",
+      "sceneUpdate": {
+        "emoji": "\ud83e\udd1d",
+        "title": "Raminimas",
+        "desc": "Vyras išvyko, vaikas miega mamos glėbyje. Tylusas paskutinės interakcijos momentas."
+      },
+      "npcDialogue": [
+        {
+          "character": "wife",
+          "text": "Ačiū, pareigūne... Atsiprašau, kad iki to priėjo. Jis nėra blogas, tiesiog po tokiu dideliu spaudimu. Kas bus toliau?"
+        }
+      ],
+      "prompt": "Paskutinė interakcija su žmona. Kaip suteiksite užbaigimą ir paramą?",
+      "options": [
+        {
+          "text": "Atsisėdate priešais ją, balsą laikydami šiltą ir neskubų, nepaisant vėlyvos valandos. Žingsnis po žingsnio paaiškinate 10 dienų iškeldinimo terminą — kada jis gali grįžti, kokios sąlygos galioja, kam skambinti, jei jis pasirodytų anksčiau. Paaiškinate, kad intervencijos centras susisieks rytoj ir kad vaiko tarnybos yra čia palaikyti šeimą, ne paimti Annos. Tiesiogiai validuojate jos jausmus: 'Jūs teisi, kad jis nėra blogas žmogus. Tai, kas atsitiko šį vakarą, jo neapibrėžia, ir pagalbos prašymas buvo teisingas žingsnis.' Patvirtinate tolesnio sekimo detales prieš išeidami.",
+          "feedback": "Kodėl: Išsamios, užjaučiančios informacijos pateikimas pabaigoje užtikrina, kad ji supranta kiekvieną turimą išteklių ir kiekvieną tolesnį žingsnį — jos jausmų validavimas dėl vyro, kad jis \u201enėra blogas\u201c, rodo, kad visą laiką klausėtės ir gerbėte jos perspektyvą. Ši baigiamoji interakcija nulemia, ar ji kreipsis į tarnybas, ar pasitrauks. | PASEKMĖS: Ji jaučiasi tikrai palaikoma ir informuota. Žino visus išteklius, supranta procesą ir jaučia, kad sistema dirba su jos šeima, o ne prieš ją. Puikus pareigų ir empatijos balansas. | Refleksija: Kaip paskutinis paliktas įspūdis nulemia, ar šeima kreipsis į pagalbą, kurią suorganizavote?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Baigiamąją sąveiką laikote trumpą ir transakcinę, trumpais sakiniais pereidami prie esmės, kol jau siekiate radijo stoties. Pasakote jai: 'Iškeldinimo nutarimas reiškia, kad jis laikysis atstu dešimt dienų. Socialinės tarnybos su jumis susisieks. Vaiko apsauga informuota kaip standartinė procedūra. Sutvarkykite sudaužytą stiklą, kol Anna nepabudo, ir įsitikinkite, kad užrakinsite priekines duris šią naktį. Štai mano vizitinė — skambinkite nuovadai, jei kas nors iškils.' Paduodate kortelę, vieną kartą linktelite ir pasisukate durų link.",
+          "feedback": "Kodėl: Padengiami esminiai procedūriniai pagrindai — saugumas, tarnybos, kontaktinė informacija — bet pristatymui trūksta šilumos, kurios reikia traumuotam žmogui. Po krizės nakties, sąrašo formos atsakymas atrodo beasmenis ir gali palikti ją jaučiantis kaip bylos numeris, o ne žmogus. | PASEKMĖS: Informacija pateikta, bet minimaliai paguosta. Ji turi faktus, bet ne emocinį užtikrinimą pagal juos veikti. Pakankama, bet neįsimintina. | Refleksija: Ką jums kainuoja pridėti trisdešimt sekundžių tikros šilumos prie procedūrinio uždarymo?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Atsiremiate į durų staktą ir siūlote jai drąsinančiausią šypseną, balsas šiltas ir pakilus: 'Žinau, kad šis vakaras buvo neįtikėtinai sunkus, bet sąžiningai — tai geriausias dalykas, kuris galėjo atsitikti. Patikėkite manimi, daug šeimų praeina tiksliai per tai ir iš kito galo išeina stipresnės. Jis gaus reikiamą pagalbą, jūs turėsite erdvės atsikvėpti, ir viskas susitvarkys, kai visi turės laiko apdoroti. Pasitikėkite procesu — sistema veikia, kai žmonės su ja bendradarbiauja. Jums bus gerai.' Raminamai linktelite prieš žengdami į koridorių.",
+          "feedback": "Kodėl: Šis atsakas yra šiltas, optimistinis ir aiškiai geranoriškas — pareigūnas tikrai tiki, kad suteikia paguodą. Tačiau pasakyti moteriai, kurios vyras ką tik išreiškė savižudines mintis ir buvo pašalintas iš namų, kad tai \u201egeriausias dalykas, kuris galėjo atsitikti\u201c, sumenkina tai, ką ji patyrė. \u201ePasitikėkite procesu\u201c numano sistemą, kurioje ji niekada nenavigavo ir kuri sklandžiai veiks. \u201eJums bus gerai\u201c užveria duris jos išreiškimui, kad jai nėra gerai — tai raminimas, tarnaujantis pareigūno poreikiui išeiti pozityvia gaida, o ne aukos poreikiui būti išgirstai. | PASEKMĖS: Ji linktelėja ir pasako \u201eačiū\u201c, nes socialinis scenarijus to reikalauja, bet neskambina nė vienu jūsų paliktu numeriu. Ji nesupranta iškeldinimo terminų. Ji sėdi nemiega galvodama, ar jos vyras saugus, neturėdama ko paklausti. Jūsų optimizmas tą akimirką atrodė malonus, bet paliko ją vieną su kiekvienu neatsakytu klausimu. | Refleksija: Kada raminimas tampa pareigūno būdu jaustis gerai dėl išėjimo, o ne aukos pasiruošimu tam, kas bus toliau?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Pateikiate bendrą apžvalgą, kas bus toliau, paaiškindami, kad iškeldinimo nutarimas galioja dešimt dienų ir kad įvairios paramos tarnybos artimiausiu metu su ja susisieks. Sušvelninate toną ir priduriate: 'Jūs šį vakarą patyrėte daugiau, nei kas nors turėtų patirti. Noriu, kad žinotumėte — jis taip pat gaus pagalbą. Tai ne tik apie atskyrimą, bet apie tai, kad visi gautų reikiamą paramą. Jei ko nors reikia arba kažkas jus neramina, štai mano vizitinė — prašau nesivaržyti skambinti.' Paduodate kortelę tvirtai žvelgdami jai į akis.",
+          "feedback": "Kodėl: Pateikiate pagrįstą apžvalgą ir rodote asmeninę šilumą pripažindami jos sunkią naktį. Paminėjimas, kad jos vyras taip pat gaus pagalbą, adresuoja jos susirūpinimą dėl jo. Tačiau informacija bendra, o ne detali — ji gali nesuprasti terminų, ką vaiko tarnybų dalyvavimas iš tikrųjų reiškia, ar kokios konkrečios paslaugos jai prieinamos šią naktį. | PASEKMĖS: Ji jaučiasi šiek tiek nuraminta, bet lieka su spragomis savo supratime. Turi jūsų vizitinę, bet gali nežinoti, kokius klausimus užduoti ar kam skambinti pirmiausia. | Refleksija: Kiek detalių krizėje esantis žmogus reikia, kad jaustųsi tikrai pasiruošęs, o ne užverstas?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Aptarimas ir refleksija",
+      "sceneUpdate": {
+        "emoji": "\ud83d\udccb",
+        "title": "Mokymo aptarimas",
+        "desc": "Grįžtate į nuovadą. Seržantas Davis vertina jūsų veiklą šiame namų krizės scenarijuje, nagrinėdamas, kaip subalansavote deeskalaciją, psichikos sveikatos atpažinimą, vaiko gerovę ir teisinį sprendimą."
+      },
+      "autoDialogue": true,
+      "finalScene": true,
+      "dialogueSequence": [
+        {
+          "character": "trainer",
+          "text": "Papasakokite apie momentą, kuris šį vakarą jums labiausiai įstrigo."
+        },
+        {
+          "character": "officer",
+          "text": "Kai jis pasakė, kad jo šeimai būtų geriau be jo. Dalis manęs norėjo tiesiog jį iškeldinti iš buto — atskirti grėsmę ir judėti toliau. Bet jis pats buvo didžiausiame pavojuje. Sunkiausia buvo su tuo pabūti, o ne šokti prie logistikos."
+        },
+        {
+          "character": "trainer",
+          "text": "Tas instinktas pašalinti ir išspręsti yra dažniausia klaida. Štai permąstymas, kurį noriu, kad nešiotumėtės: dauguma pareigūnų mano, kad namų iškvietimai yra apie pykčio valdymą — suvaldyti agresiją, atskirti šalis, surašyti protokolą. Bet šie konfliktai nėra apie pyktį. Jie apie galią, kontrolę ir neviltį. Tą akimirką, kai agresoriuje matote tik pavojų, o ne ir neviltį, prarandate gebėjimą deeskaluoti. Maria jį gynė, nes žino, kas nutinka po standartinio arešto — sistema jį apdoroja ir grąžina piktesnį. Jūsų darbas buvo sukurti kitokį kelią."
+        },
+        {
+          "character": "trainer",
+          "text": "Ir štai kaip atrodo tas kelias: jūs šią naktį neišgelbėjote tos šeimos. Jūs sukūrėte keturiasdešimt aštuonių valandų langą, kuriame kažkas kito gali įvykti. Tai yra krizių intervencija — ne sprendimas, o galimybė. Patyrę pareigūnas Prahoje man sakė, kad atsigauna ne tos šeimos, kuriose pareigūnas viską išsprendė vietoje. Atsigauna tos, kuriose pareigūnas išlaikė erdvę atvirą pakankamai ilgai, kad konsultantas ir intervencijos centras atliktų savo darbą. Jūsų keturiasdešimt aštuonios valandos yra tiltas."
+        }
+      ]
+    }
+  ],
+  "characters": {
+    "dispatcher": {
+      "name": "Dispečerinė",
+      "avatar": "\ud83d\udcfb"
+    },
+    "husband": {
+      "name": "Ponas K (vyras)",
+      "avatar": "\ud83d\ude24"
+    },
+    "wife": {
+      "name": "Ponia K (žmona)",
+      "avatar": "\ud83d\ude30"
+    },
+    "child": {
+      "name": "Anna (vaikas)",
+      "avatar": "\ud83d\udc67"
+    },
+    "officer": {
+      "name": "Jūs (pareigūnas)",
+      "avatar": "\ud83d\udc6e"
+    },
+    "trainer": {
+      "name": "Seržantas Davis",
+      "avatar": "\ud83d\udc6e\u200d\u2642\ufe0f"
+    }
+  },
+  "performanceReviews": {
+    "perfect": {
+      "title": "Puikus krizių valdymas!",
+      "emoji": "\ud83c\udf1f",
+      "feedback": "Parodėte išskirtinį emocinį intelektą, puikų procedūrų laikymąsi ir meistrišką deeskalaciją. Jūsų empatiškas požiūris, kartu palaikant saugumo ribas, yra pavyzdingas. Šeima gavo maksimalią paramą dėka jūsų bendravimo įgūdžių."
+    },
+    "good": {
+      "title": "Stiprus pasirodymas",
+      "emoji": "\u2705",
+      "feedback": "Gerai susidorojote su sudėtinga situacija, parodydami gerą empatiją ir teisingai laikydamiesi daugumos procedūrų. Nedideli patobulinimai anksčiau atpažįstant psichikos sveikatos požymius galėtų sustiprinti jūsų reakciją."
+    },
+    "average": {
+      "title": "Pakankamas reagavimas",
+      "emoji": "\ud83d\udcca",
+      "feedback": "Išsprendėte situaciją, bet praleidote keletą galimybių deeskalacijai ir ryšio kūrimui. Peržiūrėkite aktyvaus klausymosi technikas ir psichikos sveikatos krizės indikatorius."
+    },
+    "poor": {
+      "title": "Reikia ryškaus tobulėjimo",
+      "emoji": "\u26a0\ufe0f",
+      "feedback": "Jūsų požiūris eskalavo įtampą ir praleido kritinius psichikos sveikatos perspėjimo požymius. Peržiūrėkite deeskalacijos technikas, empatijos bendravime ir krizių intervencijos protokolus. Atminkite: agresija gimdo agresiją."
+    }
+  },
+  "metrics": {
+    "rapport": {
+      "name": "Ryšys ir pasitikėjimas",
+      "description": "Pasitikėjimo kūrimas per aktyvų klausymąsi ir empatiją",
+      "icon": "\ud83e\udd1d"
+    },
+    "procedure": {
+      "name": "Procedūrų laikymasis",
+      "description": "Teisinių reikalavimų ir saugumo protokolų laikymasis",
+      "icon": "\ud83d\udccb"
+    },
+    "emotional": {
+      "name": "Emocinis intelektas",
+      "description": "Streso valdymas ir konstruktyvus reagavimas į emocijas",
+      "icon": "\ud83d\udc9a"
+    },
+    "safety": {
+      "name": "Situacinis saugumas",
+      "description": "Fizinio ir emocinio saugumo palaikymas visiems",
+      "icon": "\ud83d\udee1\ufe0f"
+    }
+  }
+}

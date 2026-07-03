@@ -1,0 +1,360 @@
+{
+    "scenarioId": "street-vendor",
+    "reviewVersion": "1.0",
+    "title": "Ap\u017evalga \u2014 Gatv\u0117s pardav\u0117ja: Bendruomen\u0117s kry\u017emin\u0117 ugnis",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "\u012evykio vieta",
+            "criticalSkills": ["Situacijos \u012fvertinimas prie\u0161 \u012fsitraukim\u0105", "Neutrali k\u016bno kalba ir pad\u0117tis", "Prie\u0161inimasis pirmalaikiam\u0173 i\u0161vad\u0173 darymui pagal dispe\u010derin\u0117s informacij\u0105"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Skiriate akimirk\u0105 ramiai apeiti vis\u0105 viet\u0105 \u2014 praeinate pro ve\u017eim\u0117l\u012f, pastebite jo pad\u0117t\u012f parduotuv\u0117s \u012f\u0117jimo at\u017evilgiu ir \u0161aligatvio plot\u012f, trumpai draugi\u0161kai u\u017emezgate akiu kontakt\u0105 su abiem pus\u0117mis, dar nekal\u010dami n\u0117 su viena. Gaunate erdvin\u012f supratim\u0105 prie\u0161 pasirinkdami, su kuo kalb\u0117ti.",
+                    "strengths": ["Renka objektyvi\u0105 erdvin\u0119 informacij\u0105 prie\u0161 bet kok\u012f pokalb\u012f", "Draugi\u0161kas aki\u0173 kontaktas su abiem pus\u0117mis signalizuoja neutralum\u0105 visiems stebin\u010diems", "Priešinasi skubos nuokrypiui, kur\u012f gali sukelti dispe\u010derin\u0117s formuluot\u0117 (\u201enelegali pardav\u0117ja\u201c)", "Suteikia laiko pasteb\u0117ti svarbias detales: pardav\u0117jos am\u017ei\u0173, kalbos \u017eenklus, minios nuotaik\u0105", "Modeliuoja profesionalum\u0105 pra\u0117jiams \u2014 pirmas \u012fsp\u016bdis yra ramus \u012fvertinimas"],
+                    "consequences": "Abi pus\u0117s mato pareig\u016bn\u0105, tyrin\u0117jant\u012f, o ne skubant\u012f sprend\u017eimuose. Atrandate, kad ve\u017eim\u0117lis i\u0161 dalies, bet ne visi\u0161kai blokuoja vien\u0105 \u012f\u0117jimo pus\u0119 \u2014 svarbus niuansas, formuojantis vis\u0105 j\u016bs\u0173 reakcij\u0105.",
+                    "trainingFocus": "Kaip 60 sekund\u017ei\u0173 steb\u0117jimas pakei\u010dia kiekvieno v\u0117lesnio pokalbio kokyb\u0119? Kokias detales atskleid\u017eia ap\u0117jimas, kuri\u0173 neatskleist\u0173 kalbantis pirma su viena puse?"
+                },
+                "partially_positive": {
+                    "choiceText": "Prieinate prie pardav\u0117jos ir parduotuv\u0117s savininko vienu metu \u2014 sukvie\u010diate juos ir paai\u0161kinate, kad esate \u010dia i\u0161siai\u0161kinti pade\u0165ties.",
+                    "adequate": ["Ketinimas teisingas ir skaidrus \u2014 abejoms pus\u0117ms elgiamasi vienodai", "Signalizuoja nor\u0105 i\u0161girsti abi puses"],
+                    "missed": ["N\u0117ra situacijos \u012fvertinimo prie\u0161 \u012fsitraukim\u0105", "Frustruoto skund\u0117jo pastatymas akis \u012f ak\u012f su pardav\u0117ja sukuria tiesiogini\u0105 konfrontacij\u0105", "Kalbos barjerai, galios dinamika ir baim\u0117s reakcijos dar ne\u012fvertintos"],
+                    "improvement": "Teisingas ketinimas reikalauja taktinio suvokimo. Pirma savaranki\u0161kai \u012fvertinkite viet\u0105, tada nuspr\u0119skite, ar \u0161ali\u0173 sukvietimas kartu yra saugus, ar reikia atskir\u0173 pokalbi\u0173."
+                },
+                "neutral": {
+                    "choiceText": "Pirmiausia prieinate prie parduotuv\u0117s savininko, nes jis pateik\u0117 skund\u0105 \u2014 su\u017einote jo versij\u0105 prie\u0161 sprend\u017eiant, kaip elgtis su pardav\u0117ja.",
+                    "adequate": ["Logi\u0161ka prad\u0117ti nuo skund\u0117jo, kuris inicijavo i\u0161kvietim\u0105", "Konteksto rinkimas prie\u0161 art\u0117jant prie pardav\u0117jos"],
+                    "missed": ["Pardav\u0117ja ir pra\u0117jiai stebi, kaip einate tiesiai prie pikto vyro, rodan\u010dio \u012f j\u0105 \u2014 optinis \u0161ali\u0161kumo \u012fsp\u016bdis", "N\u0117ra savaranki\u0161ko vietos \u012fvertinimo, tod\u0117l remiasi vien tik vienos pus\u0117s pasakojimu", "Kol prieinate prie pardav\u0117jos, ji jau steb\u0117jo, kaip linksit vyrui, norin\u010diam j\u0105 pa\u0161alinti"],
+                    "improvement": "Trumpas vietos ap\u0117jimas prie\u0161 \u012fsitraukiant su bet kuria puse i\u0161saugo neutralum\u0105 ir suteikia savaranki\u0161k\u0173 fakt\u0173 abiej\u0173 pusi\u0173 tvirtinimams vertinti."
+                },
+                "negative": {
+                    "choiceText": "Einate tiesiai prie pardav\u0117jos ir pra\u0161ote parodyti leidim\u0105. Skundas d\u0117l nelicencijuotos pardav\u0117jos, tod\u0117l pirmiausia nustatote teisin\u012f pagrind\u0105.",
+                    "risks": ["Dokument\u0173 prioriteto po\u017ei\u016bris i\u0161sigandusiam \u017emogui atrodo kaip sustabdymas ir reikalavimas", "Nepatikrinote tikrojo skundo \u2014 ar jis d\u0117l leidim\u0173, ar d\u0117l blokavimo?", "Signalizuoja pra\u0117jiams, kad jau nusprend\u0117te, kas kaltas", "Vyresn\u0117 imigrant\u0117, matanti policij\u0105, eianti\u0105 tiesiai link jos ir pra\u0161an\u010di\u0105 dokument\u0173, patiria didziausią baimę", "Dispe\u010derin\u0117s formuluot\u0117s pri\u0117mimas (\u201enelicencijuota pardav\u0117ja\u201c) be savaranki\u0161ko \u012fvertinimo nulemia \u0161ali\u0161k\u0105 po\u017ei\u016br\u012f"],
+                    "consequences": "Ponia Tran sustingsta i\u0161 baim\u0117s. S\u0105veika prasideda \u012ftarimu. Bendradarbiavimas tampa pagr\u012fstas paklusimu, o ne laisva valia \u2014 o pra\u0117jiai mato vykdym\u0105, ne problem\u0173 sprendim\u0105.",
+                    "betterApproach": "Steb\u0117kite viet\u0105, tada art\u0117kite su pokalbiu \u2014 ne dokument\u0173 pra\u0161ymu. Leidim\u0173 klausimus galima aptarti u\u017emezgus ry\u0161\u012f."
+                }
+            },
+            "keyLearningPoints": ["Dispe\u010derin\u0117s formuluot\u0117 gali nulemy j\u016bs\u0173 po\u017ei\u016br\u012f \u2014 tikrinkite savaranki\u0161kai", "Su kuo kalbate pirma, formuoja vis\u0105 susitikim\u0105", "60 sekund\u017ei\u0173 steb\u0117jimas vertingesnis nei 10 minu\u010di\u0173 blogo pirmo \u012fsp\u016bd\u017eio taisymas", "Daugia\u0161al\u0117se situacijose su pra\u0117jiais kiekvienas veiksmas vertinamas teisingumo aspektu"]
+        },
+        "2": {
+            "stageName": "Skund\u0117jas",
+            "criticalSkills": ["Aktyvus klausymas su diagnostiniais klausimais", "Teis\u0117t\u0173 r\u016bpes\u010di\u0173 atskyrimas nuo per\u017eingio", "L\u016bkes\u010di\u0173 valdymas ne\u012fsipareigojant rezultatui"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Girdžiu jūsų nusivylimą, pone Harris, ir matau, kad vežimėlis arti jūsų įėjimo. Teisingai padarėte, kad paskambinote \u2014 aš tuo užsiimsiu. Ar galite pasakyti: ar vežimėlis kada nors fiziškai užblokavo klientams įėjimą, ar labiau dėl artumo ir kvapo? Ir ar kada nors kalbėjote su ja tiesiogiai apie tai?",
+                    "strengths": ["Pripa\u017e\u012fsta nusivylim\u0105 ir jo teis\u0119 skustis \u2014 procesinio teisingumo \u201ebalso\u201c principas", "Diagnostiniai klausimai atskiria vykdom\u0105 \u017eal\u0105 (blokavim\u0105) nuo subjektyvi\u0173 r\u016bpes\u010di\u0173 (kvapo)", "Klausimas, ar kalb\u0117jo su ja, atskleid\u017eia, ar eskalacija buvo per ankstyva", "\u201eA\u0161 tuo u\u017esiimsiu\u201c \u012fsipareigoja procesui, ne rezultatui \u2014 i\u0161saugant diskretin\u0119 gali\u0105"],
+                    "consequences": "Ponas Harris pripa\u017e\u012fsta, kad klientai gali \u012feiti ir su pardav\u0117ja nekalb\u0117jo. Dabar \u017einote, kad skundas turi teis\u0117t\u0173 ir perd\u0117t\u0173 komponent\u0173, be bandymo tiesiogiai spr\u0119sti.",
+                    "trainingFocus": "Kaip diagnostiniai klausimai kei\u010dia galim\u0173 tinkam\u0173 reakcij\u0173 spektr\u0105? Kod\u0117l svarbu suprasti, ar \u0161alys anks\u010diau tiesiogiai bendravo?"
+                },
+                "partially_positive": {
+                    "choiceText": "Suprantu, pone Harris. Jei ji neturi leidimo, tai pažeidimas, ir aš tuo pasirūpinsiu. Duokite man kelias minutes su ja pasikalbėti.",
+                    "adequate": ["Pripa\u017e\u012fsta jo skund\u0105 ir rodo reakcij\u0105", "Profesionalu ir orientuota \u012f veiksm\u0105"],
+                    "missed": ["\u012esipareigoja vykdymui prie\u0161 patikrinant faktus", "Neu\u017eduoda diagnostini\u0173 klausim\u0173 apie problemos pob\u016bd\u012f", "\u012espaud\u017eia jus \u012f vykdym\u0105, apsunkinant diskretin\u0117s galios panaudojim\u0105 v\u0117liau"],
+                    "improvement": "\u012esipareigokite procesui (\u201etuo u\u017esiimsiu\u201c), o ne rezultatui (\u201etuo pasir\u016bpinsiu\u201c). Pateikite klausimus, atskleid\u017eian\u010dius tikr\u0105sias skundo dimensijas, prie\u0161 \u017ead\u0117dami veiksm\u0105."
+                },
+                "neutral": {
+                    "choiceText": "Matau, kad tai erzina. Eisiu pakalbėti su pardavėja ir greitai viską sutvarkysime.",
+                    "adequate": ["Rodo empatij\u0105 ir reaguoja", "Juda link veiksmo"],
+                    "missed": ["\u201eGreitai sutvarkyti\u201c nustato grei\u010dio l\u016bkes\u010dius, ribojan\u010dius kokyb\u0119", "Joki\u0173 diagnostini\u0173 klausim\u0173 \u2014 art\u0117jama prie pardav\u0117jos nesuprantant skundo mast\u0173", "Jei sprendimas u\u017etrunka, skund\u0117jo kantryb\u0117 grei\u010diau i\u0161seks"],
+                    "improvement": "Investuokite papildom\u0105 minut\u0119 suprasdami skund\u0105, prie\u0161 pereidami prie sprendimo. Greitis svarbu ma\u017eiau nei kokyb\u0117 kuriant ilgalaik\u012f pasitik\u0117jim\u0105."
+                },
+                "negative": {
+                    "choiceText": "Pone Harris, vertinu, kad paskambinote, tačiau tai labiau atrodo kaip savivaldybės licencijavimo klausimas nei policijos reikalas. Ar bandėte kreiptis į licencijavimo skyrių?",
+                    "risks": ["Buvote i\u0161si\u0173stas \u012f \u0161\u012f i\u0161kvietim\u0105 \u2014 pasakyti, kad tai ne j\u016bs\u0173 reikalas, yra atmetimas", "Jis lauk\u0117 valand\u0105; peradresavimas yra gi\u0142iai ignoruojantis", "Signalizuoja, kad policijai ner\u016bpi teis\u0117ti verslo r\u016bpes\u010diai", "Jo pyktis d\u0117l atmetimo eskaluoja situacij\u0105 prie\u0161 jums kreipiantis \u012f pardav\u0117j\u0105"],
+                    "consequences": "Ponas Harris \u012ft\u016b\u017eta. Pakelt bals\u0105 patraukia d\u0117mes\u012f. Susitikimas eskaluoja prie\u0161 prasid\u0117damas \u2014 d\u0117l skund\u0117jo atmetimo.",
+                    "betterApproach": "Net kai jurisdikcija neai\u0161ki, prisiimkite atsakomyb\u0119 u\u017e situacij\u0105, \u012f kuri\u0105 buvote i\u0161si\u0173stas. Galite \u012ftraukti kitas institucijas, kartu teikdami tiesiogin\u0119 paslaug\u0105."
+                }
+            },
+            "keyLearningPoints": ["\u012esipareigojimas procesui i\u0161saugo diskretin\u0119 gali\u0105; \u012fsipareigojimas rezultatui j\u0105 panaikina", "Diagnostiniai klausimai atskleid\u017eia, ar skundas yra d\u0117l tikros \u017ealos, ar teritorinio nusivylimo", "Ar \u0161alys tiesiogiai bendravo anks\u010diau \u2014 svarbu kalibruojant reakcij\u0105", "Skundo atmetimas turi grandininius pasitik\u0117jimo padarinius u\u017e \u0161io susitikimo rib\u0173"]
+        },
+        "3": {
+            "stageName": "Pirmas kontaktas su pardav\u0117ja",
+            "criticalSkills": ["Baim\u0117s de-eskalacija pa\u017eid\u017eiamuose asmenyse", "Pokalbio pirmenybė prie\u0161 dokument\u0173 pra\u0161ym\u0105", "Klausim\u0173 formulavimas kaip situacini\u0173, ne asmenini\u0173"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Sul\u0117tinate \u017eingsn\u012f, kūnas atviras, kalbate \u0161velniai: \u201eLabas rytas. Mano vardas [vardas]. Niekas neturi b\u0117d\u0173 \u2014 esu \u010dia, nes parduotuv\u0117s savininkas nerimavo d\u0117l ve\u017eim\u0117lio vietos. Nor\u0117\u010diau suprasti j\u016bs\u0173 situacij\u0105. Min\u0117jote parai\u0161k\u0105 d\u0117l leidimo \u2014 ar galite daugiau apie tai papasakoti?\u201c",
+                    "strengths": ["Sul\u0117tinimas ir atvira k\u016bno laikysena fiziškai mažina baimę", "\u201eNiekas neturi b\u0117d\u0173\u201c reaguoja \u012f jos nei\u0161sakyt\u0105 siaub\u0105", "Prisistatymas vardu paverčia autoritetą-pavaldinį \u012f \u017emog\u0173-\u017emog\u0173", "Formulavimas kaip \u201eve\u017eim\u0117lio vieta\u201c laiko problem\u0105 i\u0161orine ir i\u0161sprendžiama", "Klausimas apie parai\u0161k\u0105 rodo tikr\u0105 susidom\u0117jim\u0105 ir gali atskleisti sistemines kli\u016btis"],
+                    "consequences": "Ponios Tran pe\u010diai truput\u012f atsipalaiduoja. Ji paai\u0161kina apie 8 m\u0117nesi\u0173 laukim\u0105, savo vietos pasirinkimo priežastį ir pasi\u016blo parodyti parai\u0161kos kvit\u0105. Prasideda tikras pokalbis.",
+                    "trainingFocus": "Kaip problemos formulavimas kaip situacinės, o ne asmenin\u0117s, kei\u010dia nor\u0105 bendradarbiauti? Kod\u0117l baim\u0117s de-eskalacija svarbi net be fizin\u0117s gr\u0117sm\u0117s?"
+                },
+                "partially_positive": {
+                    "choiceText": "Raminamai linktelite: \u201eMatau, kad nerimaujate, ir nenoriu, kad taip b\u016bt\u0173. A\u0161 \u010dia tik d\u0117l to, kur stovi ve\u017eim\u0117lis. \u0160iandien niekas nebus nei are\u0161tuotas, nei baud\u017eiamas, pa\u017eadu.\u201c",
+                    "adequate": ["Stipri empatija ir raminimas", "\u012evardija jos nerim\u0105 \u2014 pripa\u017e\u012fsta jos patirt\u012f", "Formulavimas apie viet\u0105 yra geras"],
+                    "missed": ["Pa\u017eadas \u201e\u0161iandien joki\u0173 baud\u0173\u201c panaikina diskretin\u0119 gali\u0105 prie\u0161 \u012fvertinant", "Jei skund\u0117jas i\u0161girsta, tai signalizuoja i\u0161 anksto nusprend\u012f rezultat\u0105", "Vir\u0161ininko per\u017ei\u016bra gal\u0117t\u0173 pažymėti per ankstyvus \u012fsipareigojimus"],
+                    "improvement": "Raminkite elgsena ir formulavimu, o ne pa\u017eadais d\u0117l rezultat\u0173. \u201eNiekas neturi b\u0117d\u0173\u201c reaguoja \u012f baim\u0119 ne\u012fsipareigojant konkre\u010diam vykdymo sprendimui."
+                },
+                "neutral": {
+                    "choiceText": "Kalbate ramiai: \u201ePonia, turiu paklausti \u2014 ar turite galiojant\u012f pardavimo leidim\u0105? Parduotuv\u0117s savininkas pateik\u0117 skund\u0105 d\u0117l j\u016bs\u0173 ve\u017eim\u0117lio, blokuojan\u010dio jo \u012f\u0117jim\u0105.\u201c",
+                    "adequate": ["Profesionalu ir tiesmu\u0161ka", "Ramus tonas tinkamas"],
+                    "missed": ["Pirmenybė leidimui patvirtina jos didžiausi\u0105 baim\u0119 \u2014 ar ji \u201elegali\u201c", "Skundo paminėjimas verčia j\u0105 jaustis kaltinama ir prane\u0161ta", "Jokio ry\u0161io k\u016brimo prieš reikalavim\u0105", "Klientai i\u0161siskirsto \u2014 sukuriant trikd\u012f, d\u0117l kurio skund\u0117si parduotuv\u0117s savininkas"],
+                    "improvement": "Prad\u0117kite pokalbiu, ne dokumentu pra\u0161ymu. Pirma u\u017emeskite \u017emogi\u0161k\u0105 ry\u0161\u012f \u2014 leidimo klausimus galima aptarti, kai pasitik\u0117jimas u\u017emegztas ir \u017emogus jau\u010diasi saugiai."
+                },
+                "negative": {
+                    "choiceText": "Ponia Tran, suprantu, kad tai sunku. Bet realybė tokia, kad veikla be leidimo yra pažeidimas, o parduotuvės savininkas turi teisę į netrukdomą priėjimą. Man reikės, kad pradėtumėte krautis vežimėlį.",
+                    "risks": ["Per\u0161oka nuo pirmo kontakto prie vykdymo be joki\u0173 fakt\u0173", "Ne\u017eino apie jos laukian\u010di\u0105 parai\u0161k\u0105 ar leidim\u0173 sistem\u0105", "Geriausia praktika: \u0161vietimas, tada \u012fsp\u0117jimas, tada vykdymas \u2014 ne vykdymas i\u0161 karto", "Vyresn\u0117 moteris a\u0161aromis, kraunanti ve\u017eim\u0117l\u012f, kol filmuojama \u2014 blogiausias galimas vaizdas"],
+                    "consequences": "Ponios Tran akys prisipildo a\u0161ar\u0173. Telefonai i\u0161traukiami. Susitikimas virsta viraliniu vaizdo \u012fra\u0161u, rodančiu policij\u0105, verčiančią vyresn\u0119 imigrant\u0119 u\u017edaryti savo pragyvenimo \u0161altin\u012f be bandymo suprasti.",
+                    "betterApproach": "Laikykit\u0117s \u0161vietimas-\u012fsp\u0117jimas-alternatyvos-vykdymas sekos. Pirmas kontaktas yra pokalbiui, ne reikalavimams paklusti."
+                }
+            },
+            "keyLearningPoints": ["Pa\u017eid\u017eiamiems asmenims pirmos 30 sekund\u017ei\u0173 lemia bendradarbiavim\u0105 arba paklusim\u0105", "Problem\u0173 formulavimas kaip situacini\u0173, o ne asmenini\u0173, transformuoja nor\u0105 su jumis dirbti", "Dokument\u0173 pra\u0161ymas jau\u010diasi skirtingai pokalbio prad\u017eioje nei viduryje", "Geriausia praktika ma\u017eesnio sunkumo vykdymui: \u0161vieskite, \u012fsp\u0117kite, ie\u0161kokite alternatyv\u0173, vykdykite kaip paskutin\u0119 priemon\u0119"]
+        },
+        "4": {
+            "stageName": "Minios veiksnys",
+            "criticalSkills": ["Pra\u0117ji\u0173 \u012ftraukimas neprarandant d\u0117mesio", "Profesionalumas kameros steb\u0117jime", "Minios dinamikos skaitymas kaip informacijos, ne gr\u0117sm\u0117s"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Trumpai ramiai linktelite pra\u0117j\u0117jui: \u201eGirdžiu jus \u2014 ir matau, kad ponia Tran \u010dia yra vertinama. Nesu \u010dia niekam verslo u\u017edaryti. Dirbu su visais, kad rastume sprendim\u0105, kuris tikt\u0173.\u201c Tada gr\u012f\u017etate prie ponios Tran.",
+                    "strengths": ["Pripa\u017e\u012fsta minios jausm\u0105 ne\u012fsitraukiant \u012f diskusij\u0105", "\u201ePonia Tran yra vertinama\u201c pripa\u017e\u012fsta bendruomen\u0117s ry\u0161\u012f", "\u201eNesu \u010dia niekam verslo u\u017edaryti\u201c reaguoja \u012f minios pagrindin\u0119 baim\u0119", "\u201eDirbu su visais\u201c formuoja rol\u0119 kaip tarpininko, ne vykdytojo", "Nereagavimas \u012f kamer\u0105 signalizuoja pasitik\u0117jim\u0105 savo elgesiu", "Gr\u012f\u017eimas prie pokalbio i\u0161laiko progren\u0105"],
+                    "consequences": "Pra\u0117jys nusiramina. Filmuotojui n\u0117ra k\u0105 provokuojan\u010dio u\u017efiksuoti. Minia pereina nuo prie\u0161i\u0161kumo prie steb\u0117jimo. Vienas sakinys pak\u0117it\u0117 vis\u0105 atmosfer\u0105.",
+                    "trainingFocus": "Kaip vienas sakinys pra\u0117jiams kei\u010dia emocin\u0119 temperat\u016br\u0105? Kod\u0117l minios pripa\u017einimas efektyvesnis nei ignoravimas ar u\u017eginčijimas?"
+                },
+                "partially_positive": {
+                    "choiceText": "Prieinate prie pra\u0117ji\u0173 grup\u0117s ir paai\u0161kinate: \u201eSuprantu j\u016bs\u0173 susir\u016bpinim\u0105. Parduotuv\u0117s savininkas skambino, nes ve\u017eim\u0117lis i\u0161 dalies blokuoja jo \u012f\u0117jim\u0105. Stengiuosi rasti teising\u0105 sprendim\u0105. Jei turite pasi\u016blym\u0173, mielai i\u0161klausysiu.\u201c",
+                    "adequate": ["Tikras skaidrumas apie skund\u0105 ir j\u016bs\u0173 ketinimus", "Atvirumas bendruomen\u0117s \u012fna\u0161ui \u2014 pasi\u016blym\u0173 pra\u0161ymas rodo pagarb\u0105", "Pripa\u017e\u012fsta j\u0173 susir\u016bpinim\u0105 tiesioginiu \u012fsitraukimu"],
+                    "missed": ["Fizinis pasitraukimas nuo ponios Tran perkelia svorio centr\u0105 nuo pirmin\u0117s situacijos", "Sukuria \u201emiesto tarybos\u201c dinamik\u0105 su konkukuojan\u010diais balsais ir nevaldomomis l\u016bkes\u010diais", "Ponas Harris mato konsultacij\u0105 su minia vietoj skundo sprendimo, ir jo frustracija auga", "Nei\u012fgyvendinami pasi\u016blymai sukuria l\u016bkes\u010dius, kuri\u0173 negalite patenkinti"],
+                    "improvement": "Pripa\u017einkite i\u0161 ten, kur esate. Trumpo sakinio pakanka \u2014 neatidarykite grupin\u0117s diskusijos. Sprendimas yra tarp pirmin\u0117s \u0161ali\u0173; miniai reikia nuraminimo, ne vaidmens."
+                },
+                "neutral": {
+                    "choiceText": "Visi\u0161kai ignoruojate pra\u0117jius ir t\u0119siate su ponia Tran. Minios \u012ftraukimas tik atitrauks nuo klausimo sprendimo.",
+                    "adequate": ["I\u0161laiko d\u0117mes\u012f pirminei s\u0105veikai", "Neeskaluoja konfrontuodamas mini\u0105"],
+                    "missed": ["Garsi\u0173 pra\u0117ji\u0173 ignoravimas j\u0173 nenutildo \u2014 padaro garsesnius", "Jausmas, kad tavęs nepastebi, didina prie\u0161i\u0161kum\u0105", "Minia auga, nes niekas j\u0173 nepripa\u017e\u012fsta", "Jei j\u016bs neformuojate, kas vyksta, minia kuria savo naratyv\u0105"],
+                    "improvement": "Trumpas pripa\u017einimas kainuoja 10 sekund\u017ei\u0173 ir u\u017ekiranta 10 minu\u010di\u0173 eskalacij\u0105. Pripa\u017einkite, nuraminkite, gr\u012f\u017ekite prie darbo."
+                },
+                "negative": {
+                    "choiceText": "Kreipiat\u0117s \u012f pra\u0117j\u012f tiesiai, bet tvirtai: \u201eSuprantu j\u016bs\u0173 jausmus, bet man reikia i\u0161girsti abi puses be pa\u0161alini\u0173 \u012ftak\u0173. Ponia Tran ir ponas Harris abu nusipelno teisingo proceso, o tai rei\u0161kia, kad turiu su jais kalbėti be pertraukimų.\u201c",
+                    "risks": ["Skamba kaip principingas \u012fsipareigojimas procesiniam teisingumui \u2014 apsaugoti abi puses nuo minios \u012ftakos", "Ta\u010diau pateikia bendruomen\u0117s param\u0105 kaip u\u017eter\u0161im\u0105, o ne informacij\u0105", "Sako miniai, kad j\u0173 balsai nepageidaujami vie\u0161oje erdv\u0117je", "Atskiria poni\u0105 Tran nuo socialin\u0117s paramos, padedan\u010dios jai jaustis saugiai", "Minios energija pereina nuo palaikymo prie \u012ftarumo"],
+                    "consequences": "Pra\u0117jys jau\u010diasi atmestas per teisingumo kalb\u0105. Ponia Tran, i\u0161 kaimyn\u0173 palaikymo s\u0117musi stipryb\u0117s, dabar jau\u010diasi vieni\u0161esn\u0117. Minios naratyvas tampa: pareig\u016bnas nutild\u0117 bendruomen\u0119.",
+                    "betterApproach": "Pripa\u017einkite bendruomen\u0117s susir\u016bpinim\u0105 trumpu sakiniu ir gr\u012f\u017ekite prie pokalbio. Bendruomen\u0117s balsai yra dinamikos dalis, ne kli\u016btis teisingam procesui."
+                }
+            },
+            "keyLearningPoints": ["Pra\u0117jiai yra dinamikos dalis \u2014 ignoravimas sustiprina, u\u017eginčijimas eskaluoja", "Vienas trumpas sakinys perkelia mini\u0105 nuo prie\u0161i\u0161kumo prie steb\u0117jimo", "B\u016bti filmuojamam \u2014 proga profesionalumui, ne gr\u0117sm\u0117, kuri\u0105 reikia valdyti", "Naratyvo vakuumas: jei j\u016bs nepaai\u0161kinate, kas vyksta, minia kuria savo istorij\u0105"]
+        },
+        "5": {
+            "stageName": "Derybos",
+            "criticalSkills": ["Bendras problem\u0173 sprendimas daugia\u0161al\u0117se situacijose", "Šalių traktavimas kaip sprendim\u0173 dalyviais", "K\u016brybin\u0117s alternatyvos vietoj nulin\u0117s sumos vykdymo"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Kartu su ponia Tran ap\u017ei\u016brit gatv\u0117s i\u0161d\u0117stym\u0105: \u201eO jei rastume viet\u0105, vis dar \u0161iame bloke \u2014 geras p\u0117s\u010di\u0173j\u0173 srautas \u2014 bet ne tiesiai prie pono Harris dur\u0173? Ar sutiktumėte pabandyti?\u201c Einate su ja ir ie\u0161kote tinkamos vietos \u2014 gal penkiolika metr\u0173 toliau, kur yra tarpas prie tu\u0161\u010dios parduotuv\u0117s.",
+                    "strengths": ["Bendras formulavimas \u2014 \u201erastume viet\u0105\u201c daro j\u0105 partnere", "\u0116jimas su ja i\u0161saugo orum\u0105 ir veiksmum\u0105", "\u201eAr sutiktum\u0117te?\u201c si\u016blo pasirinkim\u0105, ne \u012fsakym\u0105", "Tu\u0161\u010dios parduotuv\u0117s tarpas yra prakti\u0161ka ir gerbia jos verslo žinias", "Atsi\u017evelgia \u012f abi puses: laisvas \u012f\u0117jimas ir t\u0119stin\u0117 veikla", "Pra\u0117jiai mato pagalb\u0105, ne bausm\u0119"],
+                    "consequences": "Ponia Tran nušvinta. Perk\u0117limas trunka penkias minutes. Pono Harris \u012f\u0117jimas laisvas. Klientai i\u0161saugoti. Pra\u0117jiai mato k\u016brybin\u012f policijos darb\u0105, kuriantį bendruomenę.",
+                    "trainingFocus": "K\u0105 bendras problem\u0173 sprendimas signalizuoja pra\u0117jiams? Kaip \u017emogaus traktavimas kaip partnerio kei\u010dia ilgalaik\u012f paklusim\u0105?"
+                },
+                "partially_positive": {
+                    "choiceText": "Einate pas pon\u0105 Harris ir si\u016blote: \u201eO jei ji persikeltų maždaug penkis metrus toliau \u2014 vis dar tame bloke, bet toliau nuo j\u016bs\u0173 \u012f\u0117jimo? Ar tai i\u0161spr\u0119stų problem\u0105?\u201c Pirma gaunate jo sutikim\u0105, tada plan\u0105 perduodate poniai Tran.",
+                    "adequate": ["Prakti\u0161ka ir orientuota \u012f sprendim\u0105 \u2014 nurodomas konkretus, pasiekiamas erdvinis sprendimas", "Tiesiogiai sprend\u017eia teis\u0117t\u0105 erdvin\u012f r\u016bpest\u012f", "Siekia patenkinti skund\u0117jo pagrindin\u012f nusiskund\u012fm\u0105 prie\u0161 \u012ftraukiant pardav\u0117j\u0105"],
+                    "missed": ["Derybos su skund\u0117ju pirmiausia, o tada plano pristatymas pardav\u0117jai kaip \u012fvykusio fakto kenkia ponios Tran veiksmumui", "Ji tampa autoriteto figūrų susitarimo objektu, o ne dalive savo pa\u010dios sprendime", "Suteikia ponui Harris veto teis\u0119", "Matoma galios dinamika \u2014 pareig\u016bnas ir parduotuv\u0117s savininkas nusprendžia, pardav\u0117ja gauna nurodymus \u2014 pra\u0117jiai tai mato ai\u0161kiai"],
+                    "improvement": "\u012etraukite pavestą asmenį \u012f j\u0173 pačių sprendim\u0105. Eikite su ponia Tran, u\u017euot nuspr\u0119sdami u\u017e j\u0105. Procesas svarbus tiek pat, kiek rezultatas."
+                },
+                "neutral": {
+                    "choiceText": "Pasakote poniai Tran, kad ji turi persikelti bent de\u0161imt metr\u0173 nuo bet kurio parduotuv\u0117s \u012f\u0117jimo. Duodate jai formalų \u017eodin\u012f \u012fsp\u0117jim\u0105 d\u0117l veiklos be leidimo ir tai \u012fra\u0161ote \u012f protokol\u0105.",
+                    "adequate": ["Techni\u0161kai sprend\u017eia blokavim\u0105", "Dokumentuoja susitikim\u0105"],
+                    "missed": ["Savali\u0161kas atstumas su formaliu \u012fsp\u0117jimu nepropor\u010dingas, kai yra laukianti parai\u0161ka ir nebuvo bendravimo", "\u012esp\u0117jimas patenka \u012f byl\u0105 ir padidina pasekmes u\u017e bendradarbiavim\u0105", "Joki\u0173 alternatyv\u0173 netyrin\u0117ta prie\u0161 formal\u0173 vykdym\u0105", "Geriausia praktika: \u0161vietimas prie\u0161 vykdym\u0105 mažesnio sunkumo pažeidimams"],
+                    "improvement": "Kai \u012fstatymas suteikia diskretin\u0119 gali\u0105, klauskite, ar formalus vykdymas, ar k\u016brybinis problem\u0173 sprendimas geriau tarnauja bendruomenei. Bendradarbiaujamasis perk\u0117limas pasiekia tą pat\u012f rezultat\u0105 be atgrasom\u0173j\u0173 poveik\u0173."
+                },
+                "negative": {
+                    "choiceText": "Si\u016blote poniai Tran \u0161iandien susikrauti ir sugr\u012f\u017eti darbo dien\u0105, kai ma\u017eiau \u017emoni\u0173, kad i\u0161vengtu tolesni\u0173 skund\u0173.",
+                    "risks": ["Pa\u0161alinimas su mandagiu apvalkalu", "Darbo dienomis ma\u017eiau p\u0117s\u010di\u0173j\u0173 srauto reiškia ma\u017eiau pajam\u0173 \u017emogui, maitinan\u010diam an\u016bkus", "Nustato precedent\u0105, kad bet koks skundas kainuoja dienos u\u017edarb\u012f", "Nespr\u0117ndžia erdvin\u0117s problemos \u2014 tas pats skundas kit\u0105 savaitgal\u012f", "Pa\u0161alina \u017emog\u0173 u\u017euot spr\u0119stu problem\u0105"],
+                    "consequences": "Ponia Tran susikrauna ir praranda pus\u0119 dienos u\u017edarbio. Pra\u0117jiai pasipiktin\u0119. Filmuotojas u\u017efiksuoja policij\u0105, liepiančią vyresnei imigrantei eiti namo. Vaizdo \u012fra\u0161as papasakoja nenor\u0117t\u0105 istorij\u0105 apie gali\u0105.",
+                    "betterApproach": "Klauskite: ar \u0161iai problemai reikia pa\u0161alinti \u017emog\u0173, ar galima situacij\u0105 pakoreguoti? Erdvin\u0117s problemos turi erdvinius sprendimus."
+                }
+            },
+            "keyLearningPoints": ["K\u016brybiniai sprendimai, atsi\u017evelgiantys \u012f vis\u0173 interesus, duoda tvirtesnius rezultatus nei nulin\u0117s sumos vykdymas", "\u0116jimas su \u017emogumi ie\u0161kant sprendimo prieš nurodymą \u2014 procesas formuoja supratimą", "\u0160vietimas ir alternatyvos prie\u0161 formalius \u012fsp\u0117jimus ar pa\u0161alinim\u0105", "Erdvin\u0117s problemos turi erdvinius sprendimus \u2014 \u017emogaus pa\u0161alinimas retai yra proporcingas"]
+        },
+        "6": {
+            "stageName": "Parduotuv\u0117s savininkas spaud\u017eia",
+            "criticalSkills": ["Rib\u0173 nustatymas su skund\u0117jais", "Teis\u0117to nusiskundimo atskyrimas nuo neproporcingo reikalavimo", "Proporcingumo i\u0161laikymas socialiniame spaudime"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Ramiai kreipiat\u0117s \u012f pon\u0105 Harris: \u201eSuprantu, kad tai ne visai tas, ko tik\u0117jot\u0117s. Bet leiskite pasakyti tiesiai \u2014 j\u016bs\u0173 skundas buvo, kad ve\u017eim\u0117lis blokuoja j\u016bs\u0173 \u012f\u0117jim\u0105, ir tai i\u0161spr\u0119s\u0117me. Leidimo klausimas yra licencijavimo reikalas, kur\u012f u\u017efiksavau ir spr\u0119siu tinkamais kanalais. Negaliu pa\u0161alinti \u017emogaus i\u0161 vie\u0161os gatv\u0117s vien tod\u0117l, kad gretimas verslas jo ten nenori \u2014 taip neveikia. Jei nauja vieta kels problem\u0173, turite mano \u017eenklo numer\u012f ir galite v\u0117l skambinti.\u201c",
+                    "strengths": ["Sąžininga, ai\u0161ku, pagarbu ir kartu tvirta riba", "\u201eSuprantu, kad tai ne visai tai, ko tik\u0117jot\u0117s\u201c pripa\u017e\u012fsta jo nusivylim\u0105 prie\u0161 nukreipiant", "Atskiria teis\u0117t\u0105 skund\u0105 (blokavimas \u2014 i\u0161spr\u0119stas) nuo per\u017eingio (visi\u0161kas pa\u0161alinimas)", "\u201eTaip neveikia\u201c \u0161vie\u010dia be grubumo", "\u012esipareigojimas sekti leidim\u0105 tinkamais kanalais pripa\u017e\u012fsta teisin\u0119 dimensij\u0105 be jos panaudojimo kaip ginklo", "\u017denklo numerio pasi\u016blymas ir kvietimas skambinti v\u0117l rodo atskaitomyb\u0119, pasitik\u0117jim\u0105 ir atvirum\u0105 per\u017ei\u016brai"],
+                    "consequences": "Ponas Harris frustr\u016botas, bet neturi galiojancio kontrargumento. Jo skundas buvo i\u0161spr\u0119stas. Pra\u0117jiai girdi pareig\u016bn\u0105, ramiai ai\u0161kinant\u012f proporcingum\u0105. S\u0105veika modeliuoja pagarb\u0173 rib\u0173 nustatym\u0105.",
+                    "trainingFocus": "Kai skund\u0117jas reikalauja daugiau nei proporcinga, kaip pripa\u017e\u012fstate nusivylim\u0105 i\u0161laikydami sprendim\u0105? Kod\u0117l \u017eenklo numerio pasi\u016blymas neutralizuoja gresimus vir\u0161ininku?"
+                },
+                "partially_positive": {
+                    "choiceText": "Kreipiat\u0117s \u012f abu: \u201ePadar\u0117me pažangą. Ponia Tran sutiko persikelti, jūsų \u012f\u0117jimas laisvas. Pone Harris, leidimas yra licencijavimo institucijos reikalas. Ar galime sutikti, kad tai \u0161iandien yra protingas rezultatas?\u201c",
+                    "adequate": ["\u012etraukus ir bando bendrai uždaryti tarp abiej\u0173 \u0161ali\u0173", "Sąžiningai apibendrinta \u2014 pripa\u017e\u012fsta perk\u0117lim\u0105 ir leidimo persiuntimą", "Leidimo klausimą perduoda tinkamam autoritetui, u\u017euot j\u012f panaudojus kaip ginkl\u0105"],
+                    "missed": ["\u201eAr galime sutikti?\u201c suteikia ponui Harris veto teis\u0119 proporcingam sprendimui", "Jei jis pasakys ne \u2014 tik\u0117tina \u2014 j\u016bs susilpninote savo autoritet\u0105 pakviesdami atsisakym\u0105", "Sutarimo paie\u0161ka nepavyksta, kai viena pus\u0117 nori neproporcingų rezultat\u0173 u\u017e pradinio skundo ribų"],
+                    "improvement": "Kai sprendimas proporcingas, ai\u0161kinkite j\u012f \u2014 neprašykite sutikimo. \u201eTai i\u0161sprendžia j\u016bs\u0173 skund\u0105\u201c yra efektyviau nei \u201ear galime sutikti?\u201c"
+                },
+                "neutral": {
+                    "choiceText": "Atsistojate tarp j\u0173: \u201ePone Harris, i\u0161girdau j\u016bs\u0173 skund\u0105 ir j\u012f sprendžiu. Ponia Tran persikelia. Likusios problemos \u2014 ne mano kompetencija. Jūs abu tur\u0117tum\u0117te i\u0161siaiškinti santykius ateityje, nes ji tikriausiai bus čia ir kit\u0105 savaitgal\u012f.\u201c",
+                    "adequate": ["Pripa\u017e\u012fsta, kad skundas i\u0161girdytas", "Nurodo, kad sprendimas vyksta"],
+                    "missed": ["\u201eNe mano kompetencija\u201c yra atsiribojimas nuo atsakomyb\u0117s", "\u201eKit\u0105 savaitgal\u012f tikriausiai bus\u201c skamba kaip provokacija", "\u201eI\u0161siaiškinkite\u201c meta atsakomyb\u0119 \u0161alims, kurioms reikia tarpininkavimo", "\u0160iandien i\u0161spr\u0119sta, bet kito savaitgalio konfliktas pas\u0117tas"],
+                    "improvement": "Prisiimkite atsakomyb\u0119 u\u017e sukurt\u0105 sprendim\u0105. Ai\u0161kiai j\u012f paai\u0161kinkite ir pasi\u016blykite profesional\u0173 keli\u0105 likusiems r\u016bpes\u010diams."
+                },
+                "negative": {
+                    "choiceText": "Pasakote jam: \u201eTiesa d\u0117l leidimo. Duosiu poniai Tran formalų \u012fsp\u0117jim\u0105 ir viską u\u017edokumentuosiu. Bus popierin\u0117 pėdsakų istorija, jei tai t\u0119sis.\u201c",
+                    "risks": ["Vykdymo eskalavimas siekiant nuraminti nepatenkin\u0105 skund\u0117j\u0105", "Pardav\u0117ja jau bendradarbiavo \u2014 \u012fsp\u0117jimo prid\u0117jimas po paklusimo baudžia u\u017e sutikimą", "I\u0161moko pardav\u0117j\u0105, kad bendradarbiavimas baudžiamas, o skund\u0117j\u0105, kad didesnis spaudimas duoda rezultat\u0173", "Pra\u0117jiai mato: parduotuv\u0117s savininkas paspaud\u0117, pareig\u016bnas pasidav\u0117, senesn\u0117 moteris sumok\u0117jo"],
+                    "consequences": "Ponia Tran \u2014 visiškai bendradarbiavusi \u2014 gauna formalų \u012fsp\u0117jim\u0105. Ji sutrikusi ir \u012fskaudinta. Pasitik\u0117jimas aktyv\u012bai griaunamas, ne tik prarandamas.",
+                    "betterApproach": "Niekada neeskaluokite vykdymo, kad patenkintum\u0117te emocinius reikalavimus. Kai proporcingas atsakymas pristatytas, laikykite rib\u0105 \u2014 su u\u017euo\u010dzia, bet tvirtai."
+                }
+            },
+            "keyLearningPoints": ["Skund\u0117jo nepasitenkinimas proporcing\u016b sprendimu nereiškia, kad sprendimas neteisingas", "Vykdymo eskalavimas siekiant nuraminti skund\u0117j\u0105 baudžia bendradarbiaujančią pusę", "Sutikimo prašymas suteikia veto teis\u0119 \u2014 proporcingus sprendimus aiškinkite, nesiderėkite dėl jų", "\u017denklo numerio pasi\u016blymas rodo pasitik\u0117jim\u0105; \u201ene mano kompetencija\u201c rodo vengi\u0105"]
+        },
+        "7": {
+            "stageName": "U\u017ebaigimas",
+            "criticalSkills": ["\u017dmoni\u0173 sujungimas su ilgalaikiais i\u0161tekliais", "U\u017ebaigimas su orumu ir kryptimi", "Paguodos atskyrimas nuo per dideli\u0173 pa\u017ead\u0173"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "\u0160iltai nu\u0161ypsot\u0117s: \u201eD\u017eiaugiuosi, kad i\u0161sprendėme, ponia Tran. Leidimo paraiška yra raktas, kad visa tai taptu tvaru ir saugu jums. Ar \u017einote, ar yra kokia nors bendruomen\u0117s organizacija ar teisin\u0117s pagalbos tarnyba, kuri gal\u0117t\u0173 pad\u0117ti? Noriu, kad tai b\u016bt\u0173 i\u0161spr\u0119sta tinkamai, kad nereik\u0117t\u0173 kiekvien\u0105 savaitgal\u012f nerimauti.\u201c Jei \u017einote vietines paramos tarnybas, pasi\u016blykite informacij\u0105.",
+                    "strengths": ["\u0160iltas pripa\u017einimas, tada per\u0117jimas prie ilgalaik\u0117s pažeidžiamumo \u2014 leidimo", "Pad\u0117ti jai i\u0161spr\u0119sti teisin\u012f klausim\u0105, u\u017euot j\u012f ignoravus ar panaudojus kaip ginkl\u0105", "Sujungimas su i\u0161tekliais rodo tikr\u0105 r\u016bpest\u012f u\u017e \u0161io susitikimo rib\u0173", "\u201eKad nereik\u0117t\u0173 kiekvien\u0105 savaitgal\u012f nerimauti\u201c \u012fvardija jos nerim\u0105 ir si\u016blo i\u0161eit\u012f", "Skirtumas tarp incidento i\u0161sprendimo ir gyvenimo pagerinimo", "Pra\u0117jys i\u0161girsta ir prisideda \u2014 bendruomen\u0117s-policijos bendradarbiavimas realiuoju laiku"],
+                    "consequences": "Ponia Tran d\u0117koja ne tik u\u017e \u0161iandien, bet u\u017e krypt\u012f. Filmuotojas u\u017efiksuoja policijos pareig\u016bn\u0105, padedant\u012f pardav\u0117jai rasti ilgalaik\u0119 param\u0105. \u0160is vaizdo \u012fra\u0161as kuria pasitik\u0117jim\u0105.",
+                    "trainingFocus": "Koks skirtumas tarp \u0161iandienos problemos i\u0161sprendimo ir \u017emogaus paruo\u0161imo kitai savaitei? Kaip \u017emoni\u0173 sujungimas su i\u0161tekliais kei\u010dia ilgalaik\u0119 policijos-bendruomen\u0117s dinamik\u0105?"
+                },
+                "partially_positive": {
+                    "choiceText": "Lengvai paliec\u0161iat per pet\u012f: \u201eNeturite d\u0117l ko nerimauti. Neleisiu niekam j\u016bs\u0173 trikdyti. Tiesiog darykite puik\u0173 maist\u0105.\u201c",
+                    "adequate": ["\u0160ilta, \u017emogi\u0161ka, empati\u0161ka", "Rodo tikr\u0105 r\u016bpest\u012f"],
+                    "missed": ["Asmenin\u0117 garantija, kurios negalite i\u0161laikyti \u2014 kito savaitgalio \u010dia neb\u016bsite", "Ignoruoja tikr\u0105 teisin\u012f pa\u017eid\u017eiamum\u0105, kur\u012f reikia i\u0161spr\u0119sti", "Kitas pareig\u016bnas kit\u0105 \u0161e\u0161tadien\u012f sukurs nenuoseklum\u0105, griaunant\u012f pasitik\u0117jim\u0105 labiau nei j\u016bs\u0173 nebuvimas"],
+                    "improvement": "Guoskite per veiksm\u0105, ne pa\u017eadus. Sujungimas su i\u0161tekliais suteikia ilgalaik\u012f saugum\u0105 \u2014 j\u016bs\u0173 nuraminimas baigiasi, kai baigiasi j\u016bs\u0173 pamaina."
+                },
+                "neutral": {
+                    "choiceText": "Joki\u0173 problem\u0173, ponia Tran. Tiesiog likite \u0161ioje vietoje ir negrįžkite prie pono Harris parduotuvės. Jei gausiu dar vien\u0105 i\u0161kvietim\u0105, man bus sunkiau jums pad\u0117ti.",
+                    "adequate": ["Prakti\u0161ki nurodymai d\u0117l naujos vietos", "Ai\u0161kūs l\u016bkes\u010diai"],
+                    "missed": ["Paslepta gresm\u0117 paverčia teigiamą sprendimą sąlygine malone", "Reiškia, kad pagalba buvo dovana, o ne teisingas rezultatas", "Ji vis\u0105 kit\u0105 savait\u0119 nerimaus dėl kiekvieno policijos automobilio", "Jokio kelio \u012f priek\u012f d\u0117l leidimo \u2014 pagrindinis pa\u017eid\u017eiamumas i\u0161lieka"],
+                    "improvement": "U\u017ebaikite su kryptimi ir parama, ne \u012fsp\u0117jimais. \u201eLeiskite pad\u0117ti susitvarkyti leidim\u0105\u201c palieka visi\u0161kai kitok\u012f \u012fsp\u016bd\u012f nei \u201ekit\u0105 kart\u0105 bus sunkiau\u201c."
+                },
+                "negative": {
+                    "choiceText": "U\u017ebaigiate glaustai ir profesionaliai: \u201ePonia Tran, esate \u012fsik\u016brusi naujoje vietoje. Situacij\u0105 u\u017efiksavau \u017eurnale. Jei ateityje kilt\u0173 problem\u0173 su parduotuv\u0117s savininku, skambinkite nebendruoju numeriu ir nurodykite \u0161iandienos protokol\u0105. Viso gero.\u201c Vykstate prie kito i\u0161kvietimo.",
+                    "risks": ["Skamba efektyviai ir profesionaliai \u2014 \u012fra\u0161as padarytas ir ateities kanalas nurodytas", "Ta\u010diau u\u017ebaigim\u0105 traktuoja kaip administracin\u012f, o ne \u017emogi\u0161k\u0105", "Ponia Tran k\u0105 tik i\u0161gyveno baiminančią akimirk\u0105 ir gauna \u017eurnalo numer\u012f vietoj tikro ry\u0161io", "Leidimas \u2014 pagrindinis pa\u017eid\u017eiamumas \u2014 visai neaptartas"],
+                    "consequences": "Ponia Tran turi nuorodos numer\u012f, bet jokio kelio \u012f priek\u012f d\u0117l leidimo. Kit\u0105 \u0161e\u0161tadien\u012f ta pati baim\u0117 gr\u012f\u017eta. Susitikimas buvo proced\u016bri\u0161kai švarus, bet asmeni\u0161kai tu\u0161\u010dias \u2014 ji buvo apdorota, o ne jai buvo pad\u0117ta.",
+                    "betterApproach": "Profesionalus u\u017ebaigimas n\u0117ra tas pats, kas prasmingas u\u017ebaigimas. Spr\u0119skite ilgalaikį pažeidžiamumą \u2014 leidim\u0105 \u2014 ir sujunkite su i\u0161tekliais, kurie veikia po j\u016bs\u0173 pamainos pabaigos."
+                }
+            },
+            "keyLearningPoints": ["Paskutinis j\u016bs\u0173 sakinys formuoja ilgalaik\u012f visos s\u0105veikos atminim\u0105", "Sujungimas su i\u0161tekliais \u2014 skirtumas tarp incidento i\u0161sprendimo ir gyvenimo pagerinimo", "Paguoda per pa\u017eadus baigiasi su j\u016bs\u0173 pamaina; paguoda per veiksm\u0105 i\u0161lieka", "Demonstratyvus u\u017ebaigimas d\u0117l minios n\u0117ra prasmingas u\u017ebaigimas centre esan\u010diam \u017emogui"]
+        }
+    },
+    "comprehensiveMetrics": {
+        "proceduralJustice": {
+            "description": "Elgesys su visomis pus\u0117mis oriai, skaidriai ir teisingai \u2014 u\u017etikrinant, kad procesas b\u016bt\u0173 teisingas nepriklausomai nuo rezultato",
+            "indicators": {
+                "excellent": ["Tiek skund\u0117jas, tiek pardav\u0117ja jau\u010diasi i\u0161girsti ir gerbiami per vis\u0105 s\u0105veik\u0105", "Skaidrus d\u0117l savo vaidmens, samprotavimo ir \u012fgaliojim\u0173 rib\u0173", "Nuoseklus orumo tonas ir k\u016bno kalba su visomis \u0161alimis", "Procesas suvokiamas kaip teisingas, net jei n\u0117 viena pus\u0117 negavo to, ko nor\u0117jo"],
+                "poor": ["Viena pus\u0117 traktuojama kaip autoritetas, kita kaip pavaldinys", "Samprotavimas neai\u0161kinamas \u2014 sprendimai atrodo savivali\u0161ki", "Skirtingas tonas ar pagarbos lygis skirtingoms pus\u0117ms", "Rezultatas primetamas, o ne kur\u012bamas per dialog\u0105"]
+            }
+        },
+        "proportionality": {
+            "description": "Reakcijos pritaikymas prie sunkumo, protingas diskretin\u0117s galios naudojimas ma\u017eesnio sunkumo vykdyme",
+            "indicators": {
+                "excellent": ["Reakcija kalibruota pagal tikr\u0105j\u0105 \u017eal\u0105 \u2014 dalin\u012f blokavim\u0105, ne nusikaltim\u0105", "\u0160vietimas ir alternatyvos i\u0161tyrinti prie\u0161 formal\u0173 vykdym\u0105", "Diskretin\u0117 galia panaudota proporcingiems rezultatams, o ne maksimaliam vykdymui", "Ai\u0161ki riba tarp teis\u0117to skundo ir neproporcingo reikalavimo"],
+                "poor": ["Vykdymas maksimizuotas nepaisant aplinkybi\u0173 ar bendradarbiavimo", "Formalūs \u012fsp\u0117jimai ar pa\u0161alinimas i\u0161 pirmo kontakto be alternatyv\u0173", "Vykdymo eskalavimas siekiant patenkinti nepatenkin\u0105 skund\u0117j\u0105", "Erdvinis gin\u010das traktuojamas kaip baudžiamasis reikalas"]
+            }
+        },
+        "crowdDynamics": {
+            "description": "Konstruktyvus pra\u0117ji\u0173 \u012ftraukimas ir profesionalumo i\u0161laikymas b\u016bnant stebimu",
+            "indicators": {
+                "excellent": ["Trumpas minios pripa\u017einimas ne\u012fsitraukiant \u012f debatus", "Kamera traktuojama kaip neutrali ar teigiama \u2014 jokio bandymo kontroliuoti filmavim\u0105", "Minios naratyvas valdomas per skaidrum\u0105 d\u0117l ketinimo", "Pra\u0117ji\u0173 energija perorientuota nuo prie\u0161i\u0161kumo prie steb\u0117jimo"],
+                "poor": ["Minia ignoruojama (eskaluoja) arba konfrontuojama (filmavimas tampa istorija)", "Bandymas kontroliuoti filmavim\u0105 \u2014 teisi\u0161kai problemati\u0161ka ir opti\u0161kai katastrofi\u0161ka", "Demonstratyvūs veiksmai d\u0117l kameros, o ne tikras tarnavimas", "\u012esitraukimas, suskaldantis sprendim\u0105 \u012f miesto tarybos diskusij\u0105"]
+            }
+        },
+        "creativeSolutions": {
+            "description": "Rezultat\u0173 paie\u0161ka, atsi\u017evelgianti \u012f vis\u0173 \u0161ali\u0173 teis\u0117tus interesus, u\u017euot taikiusi nulin\u0117s sumos vykdym\u0105",
+            "indicators": {
+                "excellent": ["Perk\u0117limo sprendimas nustatytas pardav\u0117jai, parduotuv\u0117s savininkui ir visuomenei", "Pardav\u0117ja traktuojama kaip partner\u0117 ie\u0161kant sprendimo, ne \u012fsakym\u0173 gav\u0117ja", "Ilgalaikis pa\u017eid\u017eiamumas sprend\u017eiamas per sujungim\u0105 su i\u0161tekliais", "Sprendimas tvarus \u2014 u\u017ekiranta kartotiniai i\u0161kvietimai ir b\u016bsimi konfliktai"],
+                "poor": ["Nulin\u0117s sumos rezultatas: viena pus\u0117 laimi, kita pralaimi", "Pa\u0161alinimas, kai perk\u0117limas i\u0161sprendžia problem\u0105", "Joki\u0173 alternatyv\u0173 netyrin\u0117ta prie\u0161 formal\u0173 vykdym\u0105", "\u0160iandien i\u0161spr\u0119sta, bet kito savaitgalio konfliktas aktyv\u012bai pas\u0117tas"]
+            }
+        },
+        "communityTrust": {
+            "description": "Ilgalaikio bendruomen\u0117s pasitik\u0117jimo k\u016brimas per \u0161io susitikimo kokyb\u0119",
+            "indicators": {
+                "excellent": ["Kiekvienas matomas veiksmas sustiprina, kad policija padeda, o ne kenkia", "Pa\u017eid\u017eiamam bendruomen\u0117s nariui elgiamasi su orumu ir sujungiama su parama", "Pra\u0117jiai i\u0161eina su teigiamu \u012fsp\u016bd\u017eiu, kur\u012f pasidalint\u0173 ar paskelbt\u0173", "Abi pus\u0117s pasitiki, kad skambinti policijai buvo verta"],
+                "poor": ["Susitikimas sustiprina baim\u0119 prie\u0161 policij\u0105 imigrant\u0173 ar ma\u017eas pajamas gaunan\u010dioje bendruomen\u0117je", "Neproporcingas vykdymas tampa pla\u010diai platinama \u012fsp\u0117jamąja istorija", "Vaizdo \u012fra\u0161as pasakoja galios disbalanso, ne bendruomen\u0117s tarnyst\u0117s istorij\u0105", "Paklusimas i\u0161gautas per baim\u0119, o ne u\u017etarnautas per pagarb\u0105"]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "enforcementDefault": {
+            "pattern": "Numatytasis per\u0117jimas prie vykdymo, kai situacija reikalauja tarpininkavimo",
+            "examples": ["Pirmenybė dokumentų tikrinimui prieš ryšio užmezgimą", "Formalių įspėjimų teikimas, kai pakanka žodinio nurodymo", "\u012esakymas pašalinti, kai perkėlimas išsprendžia problemą", "Leidimo klausimo traktavimas kaip pagrindinio, kai skundas dėl blokavimo"],
+            "impact": "Neproporcingas mažesnio sunkumo pažeidimų vykdymas yra didžiausias policijos legitimumo griovėjas pagal procesinio teisingumo tyrimus. Bendruomenė išmoksta, kad skambinti policijai reiškia bausmę, o ne problemų sprendimą.",
+            "correction": "Laikykit\u0117s \u0161vietimas-\u012fsp\u0117jimas-alternatyvos-vykdymas sekos. Klauskite: ar tam reikia viso vykdymo svorio, ar t\u0105 pat\u012f rezultat\u0105 galima pasiekti pokalbiu ir bendradarbiavimu?"
+        },
+        "complainantCapture": {
+            "pattern": "Skund\u0117jo reikalavim\u0173 leidimas diktuoti reakcij\u0105 u\u017e proporcingumo rib\u0173",
+            "examples": ["Vykdymo pažadėjimas prieš patikrinant faktus", "Eskalavimas iki formalių įspėjimų siekiant nuraminti nepasitenkinimą", "Skund\u0117jui suteikta veto teis\u0117 teisingam sprendimui", "Skund\u0117jas traktuojamas kaip klientas, o pardav\u0117ja kaip problema"],
+            "impact": "Pareig\u016bnas tampa vienos pus\u0117s nor\u0173 \u012fankiu. Pardav\u0117ja i\u0161moksta, kad kas turi policijos telefono numer\u012f, tas turi gali\u0105 d\u0117l j\u0173 pragyvenimo \u0161altinio. Pasitik\u0117jimas policijos teisingumu sunaikintas.",
+            "correction": "J\u016bs\u0173 pareiga yra proporcingas teisingumas, o ne skund\u0117jo pasitenkinimas. Pripa\u017einkite teis\u0117tus r\u016bpes\u010dius, i\u0161spr\u0119skite juos ir laikykite proporcingumo rib\u0105, net kai spaudžiami."
+        },
+        "crowdAvoidance": {
+            "pattern": "Nesugebėjimas \u012fsitraukti su pra\u0117ji\u0173 dinamika \u2014 ignoruojant arba konfrontuojant",
+            "examples": ["Apsimesti, kad minios nėra, kol \u012ftampa auga", "Sakyti žmonėms atsitraukti ar nustoti filmuoti", "Pozavimas kamerai, u\u017euot tarnavus \u0161alims", "Pra\u0117ji\u0173 susirūpinimo traktavimas kaip trukdymo"],
+            "impact": "Ignoruojamos minios gars\u0117ja. Konfrontuojamos minios tampa prie\u0161i\u0161kos. Bet kuriuo atveju minia tampa istorija. Kaip tvarkot\u0117s su steb\u0117jimu, lemia, ar vaizdo \u012fra\u0161as padeda, ar kenkia.",
+            "correction": "Vienas trumpas pripa\u017einimo sakinys transformuoja mini\u0105 i\u0161 prie\u0161i\u0161kos \u012f stebimą. Traktuokite kamer\u0105 kaip s\u0105junginink\u0105, fiksuojan\u010d\u012f j\u016bs\u0173 profesionalum\u0105."
+        },
+        "overpromising": {
+            "pattern": "Pa\u017ead\u0173 davimas, viryjantis j\u016bs\u0173 \u012fgaliojimus ar buvim\u0105",
+            "examples": ["Pa\u017eadas, kad nebus baud\u0173, prieš \u012fvertinant situacij\u0105", "Apsaugos garantavimas, kurios negalite palaikyti kit\u0105 savaitgal\u012f", "\u012esipareigojimas rezultatams prie\u0161 surenkant faktus", "Greičio l\u016bkes\u010di\u0173 nustatymas, ribojantis sprendimo kokyb\u0119"],
+            "impact": "Per dideli pa\u017eadai sukuria pa\u017eid\u017eiamum\u0105, kai realyb\u0117 skiriasi. Kitas pareig\u016bnas kit\u0105 savaitgal\u012f atskleid\u017eia tarp\u0105 tarp pa\u017eado ir realyb\u0117s \u2014 nenuoseklumas kenkia pasitik\u0117jimui labiau nei pirmin\u0117 problema.",
+            "correction": "\u012esipareigokite procesui, ne rezultatams. Raminkite per elgsen\u0105 ir veiksmus. Sujunkite \u017emones su i\u0161tekliais, kurie veikia po j\u016bs\u0173 pamainos pabaigos."
+        },
+        "closureNeglect": {
+            "pattern": "Tiesioginės situacijos i\u0161sprendimas nesprend\u017eiant ilgalaikio pa\u017eid\u017eiamumo",
+            "examples": ["Ve\u017eim\u0117lio perk\u0117limas neaptariant leidimo kelio", "U\u017ebaigimas su \u012fsp\u0117jimais vietoj i\u0161tekli\u0173", "U\u017ebaigimas d\u0117l minios, o ne d\u0117l centre esan\u010dio \u017emogaus", "Erdvin\u0117s problemos i\u0161sprendimas ignoruojant sistemin\u0119"],
+            "impact": "Ta pati situacija pasikartos kit\u0105 savaitgal\u012f su tuo pa\u010diu pa\u017eid\u017eiamumu. Susitikimas i\u0161sprendžia incident\u0105, bet nepagerina gyvenimo.",
+            "correction": "Klauskite: kai i\u0161eisiu, ar \u0161is \u017emogus geriau paruo\u0161tas kitam savaitgaliui? Sujungimas su teisin\u0117s pagalbos ar bendruomen\u0117s organizacijomis transformuoja vien\u0105 susitikim\u0105 \u012f ilgalaik\u012f poveik\u012f."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "I\u0161skirtinis procesinis teisingumas. Parod\u0117te piln\u0105 \u012fg\u016bd\u017ei\u0173 rinktin\u012f sud\u0117tingam gatvės lygio vykdymui: kruop\u0161t\u0173 \u012fvertinim\u0105, procesin\u012f teisingum\u0105 visoms \u0161alims, k\u016brybin\u012f problem\u0173 sprendim\u0105, efektyv\u0173 minios valdym\u0105, proporcing\u0105 rib\u0173 nustatym\u0105 ir tikr\u0105 investicij\u0105 \u012f pardav\u0117jos ilgalaik\u0119 gerov\u0119. Kiekvienas pra\u0117jys \u2014 ir kamera \u2014 u\u017efiksavo policijos darb\u0105, kuriantį bendruomen\u0117s pasitik\u0117jim\u0105. Tai yra standartas.",
+            "mostlyPositive": "Stiprus pasirodymas su gerais instinktais teisingumui ir k\u016brybiniam problem\u0173 sprendimui. I\u0161laikė proporcingum\u0105 ir elg\u0117si su abiem pus\u0117mis oriai. Kai kurios galimyb\u0117s buvo praleistos \u2014 gal minios valdyme, rib\u0173 nustatyme su skund\u0117ju ar pardav\u0117jos sujungime su i\u0161tekliais \u2014 bet bendras po\u017ei\u016bris buvo profesionalus ir pasitik\u0117jim\u0105 kuriantis.",
+            "mixed": "Parod\u0117te kompetencij\u0105 kai kuriose srityse, bet sunkiai susidorojote su visa \u0161ios daugia\u0161al\u0117s situacijos sud\u0117tingumu. Stipryb\u0117s apėmė [SPECIFIC_POSITIVE], bet svarbios galimyb\u0117s praleistos [SPECIFIC_GAP]. Per\u017ei\u016br\u0117kite balans\u0105 tarp vykdymo ir tarpininkavimo bei per\u0117jim\u0105 nuo \u0161iandienos problemos sprendimo prie kitos savait\u0117s u\u017ekirimo.",
+            "mostlyNegative": "\u0160is scenarijus atskleid\u0117 reik\u0161ming\u0173 sprag\u0173 proporcingumo ir procesinio teisingumo srityse. Nors j\u016bs [MINOR_POSITIVE], dauguma pasirinkim\u0173 krypo \u012f vykdym\u0105, o ne problem\u0173 sprendim\u0105, skund\u0117jo patenkinim\u0105, o ne teisingum\u0105, ar pavir\u0161in\u012f sprendim\u0105, o ne tikr\u0105 r\u016bpest\u012f. Gatv\u0117s pardav\u0117j\u0173 susitikimai yra vieta, kur bendruomen\u0117s pasitik\u0117jimas kuriamas arba griaunamas \u2014 per\u017ei\u016br\u0117kite procesinio teisingumo principus ir \u0161vietimo prie\u0161 vykdym\u0105 sek\u0105.",
+            "allNegative": "J\u016bs\u0173 po\u017ei\u016bris traktavo tarpininkavimo situacij\u0105 kaip gryno vykdymo klausim\u0105. Pardav\u0117jos pa\u017eid\u017eiamumas, minios susir\u016bpinimas ir k\u016brybinio sprendimo galimyb\u0117 \u2014 visa tai buvo praleista. Tyrimai ai\u0161k\u016bs: agresyvus ma\u017eesnio sunkumo pa\u017eeidim\u0173 vykdymas griauna policijos legitimum\u0105 labiau nei beveik bet kas kitas. Tam reikia esmin\u0117s perorientacijos procesinio teisingumo link."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Niekas neturi b\u0117d\u0173 \u2014 esu \u010dia, nes parduotuv\u0117s savininkas nerimavo d\u0117l ve\u017eim\u0117lio vietos.",
+            "Nor\u0117\u010diau suprasti j\u016bs\u0173 situacij\u0105. Min\u0117jote parai\u0161k\u0105 d\u0117l leidimo \u2014 ar galite daugiau apie tai papasakoti?",
+            "Girdžiu jus \u2014 ir matau, kad ponia Tran \u010dia yra vertinama. Nesu \u010dia niekam verslo u\u017edaryti.",
+            "O jei rastume viet\u0105, vis dar šiame bloke \u2014 geras pėsčiųjų srautas \u2014 bet ne tiesiai prie pono Harris durų? Ar sutiktum\u0117te pabandyti?",
+            "J\u016bs\u0173 skundas buvo, kad ve\u017eim\u0117lis blokuoja j\u016bs\u0173 \u012f\u0117jim\u0105, ir tai i\u0161spr\u0119s\u0117me.",
+            "Negaliu pa\u0161alinti \u017emogaus i\u0161 vie\u0161os gatv\u0117s vien tod\u0117l, kad gretimas verslas jo ten nenori \u2014 taip neveikia.",
+            "Leidimo parai\u0161ka yra raktas, kad visa tai taptu tvaru ir saugu jums.",
+            "Noriu, kad tai b\u016bt\u0173 i\u0161spr\u0119sta tinkamai, kad nereik\u0117t\u0173 kiekvien\u0105 savaitgal\u012f nerimauti."
+        ],
+        "poorPhrases": [
+            "Ar turite galiojant\u012f pardavimo leidim\u0105? Parduotuv\u0117s savininkas pateik\u0117 skund\u0105.",
+            "Jei ji neturi leidimo, tai pa\u017eeidimas, ir a\u0161 tuo pasir\u016bpinsiu.",
+            "Man reikia i\u0161girsti abi puses be pa\u0161alini\u0173 \u012ftak\u0173.",
+            "Ponia Tran ir ponas Harris abu nusipelno teisingo proceso be pertraukimų.",
+            "Man reikės, kad pradėtumėte krautis vežimėlį.",
+            "Jei gausiu dar vien\u0105 i\u0161kvietim\u0105, man bus sunkiau jums padėti.",
+            "Likusios problemos \u2014 ne mano kompetencija."
+        ],
+        "analysisCriteria": {
+            "proceduralFairness": "Ar fraz\u0117 perteik\u0117 neutralum\u0105, skaidrum\u0105 ir pagarb\u0105 visoms \u0161alims?",
+            "proportionality": "Ar fraz\u0117 atitiko sunkum\u0105 \u2014 pokalbis ma\u017eesnio sunkumo klausimui, ne \u012fsakymai?",
+            "agency": "Ar fraz\u0117 traktavo \u017emog\u0173 kaip savo sprendimo dalyv\u012f ar autoriteto objekt\u0105?",
+            "framing": "Ar fraz\u0117 formulavo klausim\u0105 kaip situacin\u012f (i\u0161sprendžiam\u0105) ar asmenin\u012f (kaltinant\u012f)?",
+            "sustainability": "Ar fraz\u0117 prisid\u0117jo prie ilgalaikio sprendimo, ar tik prie laikino paklusimo?",
+            "trustBuilding": "Ar fraz\u0117 sustiprino, ar susilpnino bendruomen\u0117s pasitik\u0117jim\u0105 \u2014 atsi\u017evelgiant, kas dar klausosi?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Dispe\u010derin\u0117s formuluot\u0117 gali nulemy j\u016bs\u0173 po\u017ei\u016br\u012f. \u201eNelegali pardav\u0117ja, blokuojanti versl\u0105\u201c sukuria skubos ir kaltumo \u012fsp\u016bd\u012f, kuris gali neatitikti realyb\u0117s. J\u016bs\u0173 60 sekund\u017ei\u0173 vietos \u012fvertinimas \u2014 priešnuodis formuluot\u0117s nuokrypiui.",
+        "2": "Diagnostiniai klausimai transformuoja skund\u0105 i\u0161 reikalavimo \u012f informacij\u0105. Supratimas, ar \u017eala yra fizinis blokavimas, ar artumo diskomfortas \u2014 ir ar \u0161alys bendravo \u2014 lemia vis\u0105 j\u016bs\u0173 proporcing\u0173 reakcij\u0173 spektr\u0105.",
+        "3": "Pa\u017eid\u017eiamiems asmenims pirmos 30 sekund\u017ei\u0173 viską lemia. Pokalbis pirma, o ne dokumentų reikalavimas, baim\u0117s \u012fvardijimas ir klausimo formulavimas kaip situacinio, o ne asmeninio, transformuoja paklusi\u0105 \u012f bendradarbiavimą.",
+        "4": "Kiekvienas gatv\u0117s susitikimas gali b\u016bti filmuojamas. Geriausias atsakas \u012f kamer\u0105 yra puikus policijos darbas. Vienas pripa\u017einimo sakinys perkelia mini\u0105 i\u0161 prie\u0161i\u0161kos \u012f stebimą \u2014 5 sekund\u0117s u\u017ekiranta 5 minu\u010di\u0173 eskalacij\u0105.",
+        "5": "Erdvin\u0117s problemos turi erdvinius sprendimus. Kai klausimas yra, kur stovi ve\u017eim\u0117lis \u2014 o ne ar \u017emogus nusipelno dirbti \u2014 bendras perk\u0117limas patenkina vis\u0173 r\u016bpes\u010dius neatimant niekam pragyvenimo \u0161altinio.",
+        "6": "Skund\u0117jo nepasitenkinimas proporcing\u016b sprendimu nedar\u0117 sprendimo neteisingu. J\u016bs\u0173 pareiga yra teisingas teisingumas, o ne maksimalus skund\u0117jo pasitenkinimas. Vykdymo eskalavimas d\u0117l spaudimo baudžia bendradarbiaujančią pusę.",
+        "7": "\u0160iandienos incidento i\u0161sprendimas nesprend\u017eiant rytojaus pa\u017eid\u017eiamumo yra ne\u016bbaigtas policijos darbas. Ponios Tran sujungimas su teisin\u0117s pagalbos tarnyba trunka 60 sekund\u017ei\u0173 ir transformuoja vien\u0105 susitikim\u0105 \u012f ilgalaik\u012f poveik\u012f."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["I\u0161pl\u0117stinis procesinis teisingumas \u2014 kit\u0173 mokymas daugia\u0161alia\u0161 gatv\u0117s tarpininkavime", "Bendruomeninio policijos darbo lyderyst\u0117 \u2014 pardav\u0117j\u0173-policijos kaimynyst\u0117s santyki\u0173 k\u016brimas", "Netiesioginis \u0161ali\u0161kumas ir vykdymo diskretin\u0117 galia ma\u017eesnio sunkumo pa\u017eeidim\u0173 susitikimuose"],
+            "good": ["I\u0161pl\u0117stinis procesinis teisingumas \u2014 skund\u0117jo l\u016bkes\u010di\u0173 balansavimas su proporcingumu", "Minios dinamika ir pra\u0117ji\u0173 valdymas filmuojamuose susitikimuose", "I\u0161tekli\u0173 sujungimo mokymai \u2014 vietin\u0117s bendruomen\u0117s organizacijos ir teisin\u0117s pagalbos tarnybos"],
+            "average": ["Pagrindini\u0173 procesinio teisingumo princip\u0173 \u2014 balso, skaidrumo, teisingumo, ne\u0161ali\u0161kumo", "\u0160vietimas-prie\u0161-vykdym\u0105 seka ma\u017eesnio sunkumo pa\u017eeidimams", "De-eskalacija su pa\u017eid\u017eiamomis grup\u0117mis \u2014 imigrantais, vyresnio am\u017eiaus, ekonomi\u0161kai marginalizuotais"],
+            "poor": ["Procesinio teisingumo ir policijos legitimumo tyrim\u0173 pagrindai", "Proporcingumas vykdymo diskretin\u0117je galioje \u2014 reakcijos pritaikymas \u017ealos sunkumui", "Teisi\u0173 ži\u0161ojimas \u2014 pilie\u010di\u0173 filmavimas, pardav\u0117j\u0173 teis\u0117s, teisingas procesas gatv\u0117s vykdyme", "Kult\u016brin\u0117 kompetencija ir imigrant\u0173 bendruomen\u0117s \u012ftraukimas"]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Bendr\u0117 veikimo santrauka", "content": ["Ta\u0161kai", "Veikimo lygis", "Pagrindin\u0117s stipryb\u0117s", "Kritin\u0117s silpnyb\u0117s"]},
+            {"title": "Etapo po etapo analiz\u0117", "content": ["Kiekviename etape padarytas pasirinkimas", "Poveikis pardav\u0117jai, parduotuv\u0117s savininkui, pra\u0117jiams ir bendruomenei", "Alternatyv\u016bs po\u017ei\u016briai ir pasekm\u0117s", "Pagrindin\u0117s mokymosi i\u0161vados"]},
+            {"title": "Procesinio teisingumo vertinimas", "content": ["Balsas \u2014 ar visos \u0161alys buvo i\u0161girdytos?", "Skaidrumas \u2014 ar samprotavimas buvo paai\u0161kintas?", "Teisingumas \u2014 ar \u0161alims buvo elgiamasi su vienodu orumu?", "Ne\u0161ali\u0161kumas \u2014 ar procesas atrod\u0117 neutraliai steb\u0117tojams?"]},
+            {"title": "Proporcingumo ir diskretin\u0117s galios vertinimas", "content": ["Reakcijos kalibravimas pagal tikr\u0105j\u0105 \u017eal\u0105", "\u0160vietimas-\u012fsp\u0117jimas-vykdymas sekos laikymasis", "Rib\u0173 nustatymas su skund\u0117ju", "K\u016brybin\u0117s alternatyvos tyrin\u0117tos prie\u0161 formal\u0173 veiksm\u0105"]},
+            {"title": "Minios ir kameros valdymas", "content": ["Pra\u0117ji\u0173 pripa\u017einimo kokyb\u0117", "Atsakas \u012f filmavim\u0105", "Naratyvo valdymas \u2014 kas kontrol\u012bvo istorij\u0105?", "Minios energijos trajektorija per vis\u0105 susitikim\u0105"]},
+            {"title": "Komunikacijos efektyvumas", "content": ["Geriausi dialogo momentai", "Kontraproduktyvios fraz\u0117s", "Formulavimo analiz\u0117 \u2014 situacinis ar asmeninis", "U\u017ebaigimo sakinio poveikis"]},
+            {"title": "Profesinis tobul\u0117jimas", "content": ["Neatid\u0117liotini mokymo poreikiai", "Ilgalaikio \u012fg\u016bd\u017ei\u0173 tobulinimo prioritetai", "Rekomenduojami i\u0161tekliai ir seminarai"]},
+            {"title": "Taikymas realiame pasaulyje", "content": ["Kaip tai perkelia pardav\u0117j\u0173 i\u0161kvietimams ir ma\u017eesnio sunkumo vykdymui", "Kaimynyst\u0117s santyki\u0173 k\u016brimas, u\u017ekertantis kartotinius i\u0161kvietimus", "Bendruomen\u0117s i\u0161tekli\u0173 \u017einojimas kaip policijos \u012frankis", "Vieno gerai sutvarkto susitikimo ilgalaikis poveikis pasitik\u0117jimui"]}
+        ]
+    }
+}

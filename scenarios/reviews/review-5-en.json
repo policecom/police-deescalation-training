@@ -1,0 +1,403 @@
+{
+    "scenarioId": "5",
+    "reviewVersion": "2.0",
+    "title": "Noise Complaint — Quiet Hours Mediation — Performance Analysis",
+
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Arrival",
+            "criticalSkills": ["Validating complainant experience before acting", "Information gathering from the complainant", "Assessing neighbor relationship history", "Resisting urgency bias in quality-of-life calls"],
+            "learningObjective": "Demonstrate that effective noise complaint response begins with understanding context — duration, history, prior attempts at resolution — rather than rushing to enforce.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Give Mr. Novak a calm nod: 'I can hear the music from here, so I understand your frustration. Before I go up, I want to make sure I have the full picture. How long has this been going on, and has anything like this happened before? Have you tried speaking to them directly?'",
+                    "strengths": ["Validates his experience immediately by acknowledging the audible noise — builds instant credibility", "Gathers specific information — duration, history, prior communication — that shapes the entire intervention strategy", "Asking whether he tried direct communication reveals the neighbor relationship dynamic", "Demonstrates patience and thoroughness before acting, which models effective policing"],
+                    "consequences": "Mr. Novak feels heard and provides useful details: this is the first time it has been this bad, he has never spoken to them, and he does not even know their names. You now understand this is an escalation from zero — no prior relationship, no prior attempts.",
+                    "trainingFocus": "How does understanding whether neighbors have ever communicated change the type of intervention you provide?"
+                },
+                "partially_positive": {
+                    "choiceText": "'I hear you, Mr. Novak. Quiet hours started at ten and they're clearly in violation. Let me go up and deal with this right now.' Head straight upstairs.",
+                    "adequate": ["Quick validation of the complaint shows responsiveness", "Acknowledges the quiet hours violation factually"],
+                    "missed": ["Skipped critical information gathering — no history, no relationship context, no prior attempts", "Arriving upstairs with only the complainant's perspective narrows approach to enforcement", "No expectation-setting with Mr. Novak about what 'deal with this' means"],
+                    "improvement": "Invest sixty seconds in context questions before heading upstairs. Knowing this is the first incident and the neighbors are strangers transforms your approach from enforcement to mediation."
+                },
+                "neutral": {
+                    "choiceText": "'Okay, I can hear it. Let me go up and knock on the door, and we'll get this sorted.' Give Mr. Novak a brief nod and head up the stairs.",
+                    "adequate": ["Acknowledges the noise is real", "Shows willingness to take action"],
+                    "missed": ["'Get this sorted' is vague — sets no expectations about what resolution looks like", "Zero information gathered from the complainant", "Mr. Novak imagines the party shut down; you might imagine a volume reduction — the gap causes problems later"],
+                    "improvement": "Before heading upstairs, ask three questions: how long, has this happened before, have you spoken to them? Then set clear expectations about your approach.",
+                    "consequences": "You arrive at the party apartment with almost no context. Mr. Novak waits downstairs with no idea what to expect, growing more anxious with every minute."
+                },
+                "negative": {
+                    "choiceText": "'Mr. Novak, it's a Saturday night — people are going to have parties sometimes. Have you tried just putting in earplugs? I'll go up and have a word, but I can't guarantee they'll stop entirely.'",
+                    "risks": ["Dismisses a legitimate complaint by suggesting the complainant should adapt", "Quiet hours are a posted building rule, not a personal preference — minimizing this is factually wrong", "Setting low expectations before investigating signals you have already sided with the party hosts", "Erodes trust in police for quality-of-life issues — he may not call next time, even for serious matters"],
+                    "consequences": "Mr. Novak's frustration spikes. He feels dismissed and begins doubting whether calling was worth it. If the resolution is imperfect, he will call again — angrier and less trusting.",
+                    "betterApproach": "Validate the complaint ('I can hear it from here'), gather information, and head upstairs with context rather than prejudgment."
+                }
+            },
+            "keyLearningPoints": ["Validating what the complainant experiences ('I can hear it too') builds immediate credibility", "Sixty seconds of information gathering shapes the entire intervention strategy", "Asking about prior communication between neighbors reveals whether mediation or enforcement is appropriate", "Suggesting a complainant should tolerate a legitimate violation destroys trust in police for quality-of-life calls"]
+        },
+        "2": {
+            "stageName": "The Complainant",
+            "criticalSkills": ["Managing complainant expectations transparently", "Acknowledging health concerns without overpromising", "Explaining mediation rationale to gain buy-in", "Setting escalation criteria clearly"],
+            "learningObjective": "Demonstrate that managing a complainant's expectations before acting is as important as the intervention itself — because the gap between what they expect and what you deliver determines their trust in the outcome.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'Mr. Novak, your health matters and your right to quiet after ten PM is legitimate — I take that seriously. Here's what I'm going to do: I'll go upstairs, speak with them, and work to get the noise stopped tonight. I want to be honest with you — for a first offense, I'll start with a clear warning and a specific agreement. If they don't comply, enforcement escalates. But my experience is that mediation between neighbors works better long-term than fines. Will you give me a chance to try that approach?'",
+                    "strengths": ["Validates his health concern and legal standing simultaneously", "Transparent about the approach — warning before citation — with clear reasoning", "Explains why mediation works better than fines for neighbor disputes", "Asking 'will you give me a chance' respects his agency and invites collaboration", "Sets clear escalation criteria so he knows what happens if mediation fails"],
+                    "consequences": "Mr. Novak pauses, then nods reluctantly. He trusts you enough to let you try mediation. You head upstairs with his conditional buy-in, which gives you room to mediate without him feeling betrayed.",
+                    "trainingFocus": "Why does explaining your reasoning to a complainant — rather than just promising action — build more durable trust?"
+                },
+                "partially_positive": {
+                    "choiceText": "'I completely understand, and a fine is definitely possible. Let me go up and assess the situation first, and then I'll determine the appropriate action.'",
+                    "adequate": ["Acknowledging the fine as possible is technically accurate", "Professional language and intent to assess before acting"],
+                    "missed": ["'A fine is definitely possible' raises expectations that enforcement is the likely outcome", "If you later choose mediation, Mr. Novak will feel misled — the gap between implication and outcome erodes trust", "'Assess the situation' is vague and gives him nothing concrete to hold onto"],
+                    "improvement": "Be transparent about your intended approach rather than leaving the door open to the complainant's preferred outcome. Explain that mediation is your first step and why it works better long-term."
+                },
+                "neutral": {
+                    "choiceText": "'I'll go take care of it. Try to get some rest, Mr. Novak. I'll come back down after I've spoken with them.'",
+                    "adequate": ["Well-intentioned and shows willingness to act", "Remembering to come back to the complainant is appropriate"],
+                    "missed": ["'Take care of it' sets no expectations — Mr. Novak fills the ambiguity with his preferred outcome", "No mention of his health concern or validation of the disruption's impact", "Telling a sleep-deprived person to 'try to get some rest' while the bass still thumps is tone-deaf"],
+                    "improvement": "Replace vague promises with specific process descriptions. Tell him what you will do, how long it might take, and what the range of outcomes looks like.",
+                    "consequences": "Mr. Novak retreats to his apartment and lies awake listening. When you return with a compromise, he is confused and disappointed because 'take care of it' meant something different to him."
+                },
+                "negative": {
+                    "choiceText": "'Mr. Novak, I understand it's frustrating, but I can't just hand out fines. These things usually sort themselves out — parties end eventually. I'll ask them to turn it down, but realistically, you might just need to wait it out tonight.'",
+                    "risks": ["'Parties end eventually' and 'wait it out' are deeply dismissive of a legitimate complaint", "Quiet hours are a posted rule with a clear ongoing violation — not a matter of patience", "Telling a man with a heart condition to endure it signals his complaint is an inconvenience", "'I can't just hand out fines' is misleading — you have that authority for noise violations"],
+                    "consequences": "Mr. Novak feels abandoned by the system he called for help. He may escalate — calling a supervisor, confronting the neighbors himself, or simply never trusting police again for quality-of-life issues.",
+                    "betterApproach": "Validate his legal standing and health concern. Be transparent about your mediation-first approach and explain why it produces better long-term results than a citation."
+                }
+            },
+            "keyLearningPoints": ["The gap between what a complainant expects and what you deliver determines their trust in the outcome", "Explaining your reasoning — not just your action — converts reluctant compliance into genuine buy-in", "Health concerns raised by complainants are not rhetorical — they shape the urgency and seriousness of your response", "Telling someone with a legitimate grievance to 'wait it out' damages trust in police for all future quality-of-life calls"]
+        },
+        "3": {
+            "stageName": "Knocking on the Door",
+            "criticalSkills": ["De-escalating defensiveness in an intoxicated person", "Acknowledging the celebration before addressing the complaint", "Opening with conversation rather than commands", "Proportionate response to a quality-of-life violation"],
+            "learningObjective": "Demonstrate that the first thirty seconds at the party door determine whether you get a conversation or a confrontation — and that acknowledging the celebration before stating the complaint dramatically reduces defensiveness.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Keep your tone calm and conversational: 'Good evening. I'm Officer [name]. I can see you're celebrating — happy birthday to whoever's having the party. I'm here because your downstairs neighbor called about the noise. The building's quiet hours started at ten, and I can hear the music from the ground floor. I'd like to talk about finding a way to let you finish your evening without keeping the building awake. Can we chat for a minute?'",
+                    "strengths": ["Introducing yourself by name humanizes the interaction immediately", "Acknowledging the celebration shows you see people, not just a violation", "Stating facts neutrally — neighbor called, quiet hours, audible noise — without accusation", "'Finding a way to let you finish your evening' signals you are not here to shut it down, which dramatically reduces defensiveness", "Asking 'can we chat' gives him agency and opens dialogue rather than issuing orders"],
+                    "consequences": "Tomas's defensiveness softens. He did not expect a calm, reasonable officer. He steps into the doorway and lowers his voice. A conversation has begun instead of a confrontation.",
+                    "trainingFocus": "How does acknowledging someone's celebration before addressing the complaint change their willingness to cooperate?"
+                },
+                "partially_positive": {
+                    "choiceText": "'Hey, I get it — Saturday night, birthday party. I've been there. But your neighbors are calling, and quiet hours started at ten. Look, I don't want to ruin anyone's night. Can you guys just keep it down a bit?'",
+                    "adequate": ["Friendly and relatable tone that reduces initial defensiveness", "Acknowledges the context — Saturday night, birthday — which shows understanding"],
+                    "missed": ["'Keep it down a bit' is too vague to constitute a real agreement — what does 'a bit' mean?", "No self-introduction, missing an easy rapport opportunity", "Without specifics, Tomas agrees in the moment and changes nothing meaningful"],
+                    "improvement": "Keep the friendly tone but replace vague requests with specific proposals. Introduce yourself by name. 'Keep it down a bit' becomes 'turn the bass down, close the balcony, and agree on an end time.'"
+                },
+                "neutral": {
+                    "choiceText": "'Evening. We've had a noise complaint. Building quiet hours are ten PM and it's well past that. I need you to turn the music down immediately and bring those people in from the balcony.'",
+                    "adequate": ["Factually correct and direct about the violation", "Identifies specific actions needed — music down, balcony cleared"],
+                    "missed": ["Opens with demands rather than dialogue — 'I need you to' is an order, not a conversation starter", "No self-introduction, no acknowledgment of the celebration, no interest in his perspective", "An intoxicated person receiving orders from a stranger at their front door will instinctively push back"],
+                    "improvement": "Lead with a brief acknowledgment of the situation, introduce yourself, and frame requests as proposals rather than orders. The same outcome is achieved with far less resistance.",
+                    "consequences": "Tomas bristles and a power struggle begins. Every concession now feels like losing face."
+                },
+                "negative": {
+                    "choiceText": "'Sir, I'm responding to a noise violation. Building quiet hours are posted as ten PM to seven AM. You are currently in violation. I need to see some identification, and I need the music turned off now. If I have to come back, you're looking at a citation.'",
+                    "risks": ["Demanding identification for a noise complaint is wildly disproportionate — this is not a criminal investigation", "Leading with threats guarantees maximum resistance from someone in their own home who has been drinking", "The confrontational approach poisons any chance of mediation", "Friends gather behind Tomas, multiplying the number of defensive people you must manage"],
+                    "consequences": "Tomas steps back in disbelief. His friends gather behind him and the atmosphere turns hostile. Anna appears, alarmed. You now face a room of defensive, slightly intoxicated people instead of one cooperative couple.",
+                    "betterApproach": "Match your response to the offense. A noise complaint on a Saturday night warrants conversation and mediation, not document demands and citation threats."
+                }
+            },
+            "keyLearningPoints": ["The first thirty seconds at the door determine conversation or confrontation", "Acknowledging the celebration before stating the complaint reduces defensiveness by over half", "Self-introduction by name transforms authority-subject into person-person", "Demanding identification for a noise complaint is disproportionate and guarantees escalation"]
+        },
+        "4": {
+            "stageName": "The Pushback",
+            "criticalSkills": ["Validating feelings before presenting the counterargument", "Engaging the cooperative party without sidelining the defensive party", "Reframing rights as shared rather than competing", "Maintaining composure under verbal challenge"],
+            "learningObjective": "Demonstrate that when one party is defensive and another is cooperative, effective mediation validates the defensive person first, then engages the cooperative person — without making either feel bypassed.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Address Tomas first, respectfully: 'I hear you — working night shifts and finally getting a Saturday with friends, I understand why this matters to you. And you're right, it is your home. But quiet hours exist because everyone in this building has the same right to their home, including the man downstairs who has to be up at six. I'm not here to end your party. I'm here to find a middle ground.' Then turn to Anna: 'You mentioned you didn't realize how loud it was — that tells me this is solvable. Can we talk about some specifics?'",
+                    "strengths": ["Validates Tomas's feelings and acknowledges his work schedule — defuses defensiveness", "'You're right, it is your home' affirms his autonomy before introducing the counterweight", "'I'm not here to end your party' removes the specific threat he is reacting to", "Engaging Anna after validating Tomas channels conversation toward solutions without sidelining him", "Reframes rights as shared rather than competing — both parties have equal claims to their home"],
+                    "consequences": "Tomas exhales and the validation reaches him. Anna steps forward and starts problem-solving. The dynamic shifts from confrontation to negotiation.",
+                    "trainingFocus": "How does validating someone's position before presenting the opposing perspective change their ability to hear you?"
+                },
+                "partially_positive": {
+                    "choiceText": "Focus on Anna since she is more cooperative: 'Thank you — I appreciate that. Let me explain what I need: the music needs to come down significantly, and the balcony needs to be cleared. Can you help make that happen?'",
+                    "adequate": ["Engaging the cooperative party is pragmatic and often effective", "Specifies concrete actions needed — music down, balcony cleared"],
+                    "missed": ["Speaking primarily to Anna while Tomas challenged you can feel like going around him", "In his own home, being bypassed in favor of his girlfriend stings", "Tomas may comply tonight but will remember feeling dismissed"],
+                    "improvement": "Address the defensive person first with validation, then pivot to the cooperative person for solutions. Both feel heard, and neither feels bypassed."
+                },
+                "neutral": {
+                    "choiceText": "'Look, I don't want to make this a big deal. You guys seem reasonable. Just try to keep it down, okay? I don't want to have to come back.'",
+                    "adequate": ["Friendly tone that avoids escalation", "Shows willingness to give them a chance"],
+                    "missed": ["'Try to keep it down' is not an agreement — it is a wish with no specifics", "'I don't want to have to come back' is a passive threat that undermines the friendly tone", "Neither Tomas's defensiveness nor Anna's willingness to cooperate is addressed or utilized"],
+                    "improvement": "Replace vague friendliness with specific engagement. Validate Tomas's feelings, engage Anna's cooperation, and propose concrete terms. Specificity is what produces compliance.",
+                    "consequences": "Tomas shrugs and closes the door. The music dips for two minutes, then returns. Mr. Novak calls again at 12:30 AM."
+                },
+                "negative": {
+                    "choiceText": "'Sir, I understand this is your apartment, but quiet hours are quiet hours. It doesn't matter what day it is. I need the music off and the guests off the balcony. That's not a request.'",
+                    "risks": ["'That's not a request' escalates a noise complaint into a dominance contest", "Zero flexibility — music off entirely, guests restricted — is disproportionate for a birthday party", "Tomas perceives this as authoritarian and digs in rather than cooperating", "Anna's offered cooperation is wasted because the confrontational frame prevents her from mediating"],
+                    "consequences": "Tomas squares up and tells you to write a fine and leave. The conversation becomes adversarial. Any resolution will feel forced rather than voluntary.",
+                    "betterApproach": "Validate his position, remove the perceived threat, and propose a middle ground. The same compliance is achieved through conversation that would require force through confrontation."
+                }
+            },
+            "keyLearningPoints": ["Validate the defensive person before presenting the opposing perspective — it makes them able to hear you", "When one party is cooperative, engage them for solutions but do not bypass the other", "'I'm not here to end your party' is more powerful than any demand because it removes the threat they are resisting", "Vague requests produce vague compliance — and vague compliance produces repeat calls"]
+        },
+        "5": {
+            "stageName": "Finding a Solution",
+            "criticalSkills": ["Proposing concrete, specific, actionable terms", "Respecting boundaries while negotiating compromise", "Setting a definite end time as the anchor of the agreement", "Framing proposals as negotiation rather than decree"],
+            "learningObjective": "Demonstrate that three specific, reasonable requests — bass reduction, balcony closure, agreed end time — produce dramatically better compliance than one vague demand, because specificity creates accountability.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'That's fair — I'm not asking you to end it right now. Here's what I think works for everyone: first, turn the bass down or switch to something quieter — the bass is what travels through the floor. Second, close the balcony door and keep guests inside — the outdoor noise is affecting the whole building. Third, let's set an end time. What about 12:30? That gives you another hour, and your neighbor can sleep knowing there's a finish line. Can you work with that?'",
+                    "strengths": ["Three concrete, specific, actionable items — each addressing a distinct noise dimension", "'I'm not asking you to end it right now' respects Tomas's stated boundary", "Explaining why the bass matters (travels through the floor) educates rather than dictates", "Proposing 12:30 AM gives them an hour — neither punitive nor permissive", "'Can you work with that' makes it a negotiation, preserving their agency"],
+                    "consequences": "Tomas looks at Anna. She nods. They agree to 12:30. The specificity makes it real — they know exactly what is expected. The bass drops, the balcony door closes, and the party shifts to conversation.",
+                    "trainingFocus": "Why do three specific, reasonable requests produce better compliance than one vague demand?"
+                },
+                "partially_positive": {
+                    "choiceText": "'How about you just turn the music down and close the balcony? That should take care of most of the noise. I'll leave it to you to wrap up at a reasonable time.'",
+                    "adequate": ["Two of the three key noise dimensions are addressed — music volume and balcony", "Tone is collaborative and non-confrontational"],
+                    "missed": ["'Reasonable time' is subjective — midnight to a twenty-eight-year-old and midnight to a sixty-year-old are different concepts", "Without a specific end time, the party could drift to 2 AM with everyone feeling they upheld their end", "The most contentious term — the end time — is the one left undefined"],
+                    "improvement": "Always anchor agreements with a specific end time. It is the single most important term because it gives the complainant a finish line and the party hosts a clear boundary."
+                },
+                "neutral": {
+                    "choiceText": "'I'll leave it to you guys to figure out the specifics. You seem reasonable. Just make sure the neighbor downstairs doesn't have to call again, all right? I'd rather not come back.'",
+                    "adequate": ["Non-confrontational and shows trust in their judgment", "Acknowledges they seem reasonable"],
+                    "missed": ["Deferring entirely sets no specific terms or guardrails", "Asking people who have been drinking to self-regulate at midnight is a known failure point", "'I'd rather not come back' is a passive warning, not an agreement"],
+                    "improvement": "Propose specific terms — bass down, balcony closed, end time set — and ask them to agree. Specificity creates accountability; vagueness creates repeat calls.",
+                    "consequences": "Without specific commitments, the music stays the same, the balcony remains occupied, and Mr. Novak calls again at 1 AM requesting a different officer."
+                },
+                "negative": {
+                    "choiceText": "'I need the music off entirely and the party wrapped up within thirty minutes. Quiet hours are quiet hours.'",
+                    "risks": ["Music off entirely and a thirty-minute shutdown is disproportionate for a first-offense birthday party", "Essentially ordering the party to end violates the proportionality principle", "Demanding silence treats a celebration as though it were a crime", "Creates enormous resentment — toward police, toward Mr. Novak, toward the building"],
+                    "consequences": "Tomas's jaw tightens. Anna steps back, upset. The guests exchange angry looks. Even if they comply, the resentment creates a lasting conflict between neighbors.",
+                    "betterApproach": "A first warning for a noise complaint should seek proportionate compliance, not total silence. Bass reduction, balcony closure, and a reasonable end time address the complaint without punishing the celebration."
+                }
+            },
+            "keyLearningPoints": ["Specific terms create accountability; vague terms create repeat calls", "The end time is the most important term — it gives the complainant a finish line and the hosts a clear boundary", "Explaining why each request matters (bass travels through floors, balcony noise affects the building) educates rather than dictates", "Disproportionate demands for a first-offense noise complaint create resentment that generates months of neighbor conflict"]
+        },
+        "6": {
+            "stageName": "The Agreement",
+            "criticalSkills": ["Recapping terms to create a verbal contract", "Humanizing the complainant to the other party", "Planting seeds for direct neighbor relationships", "Reinforcing cooperation rather than closing with threats"],
+            "learningObjective": "Demonstrate that formalizing the agreement, humanizing Mr. Novak, and suggesting future direct contact transforms a noise complaint resolution into genuine conflict prevention.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'I appreciate you both working with me — that tells me a lot about the kind of neighbors you are. Let me recap so we're all on the same page: bass turned down, balcony door closed, guests stay inside, and you'll wrap up by 12:30. If those hold, there's no problem tonight. One more thing — your neighbor Mr. Novak, he's an older guy living alone. He wasn't angry so much as exhausted. He's got a doctor's appointment at six. If you get a chance, a quick knock on his door tomorrow to introduce yourselves could go a long way. Neighbors who know each other work these things out themselves.'",
+                    "strengths": ["Recapping specific terms creates a verbal contract both parties have acknowledged", "Complimenting their cooperation reinforces the behavior you want to see continue", "Humanizing Mr. Novak — older, living alone, exhausted, doctor at six — transforms him from 'the guy who called the cops' into a person", "Suggesting a knock on his door tomorrow plants the seed for a direct relationship that prevents future calls", "This is conflict prevention, not just conflict resolution"],
+                    "consequences": "Anna's expression softens. She says they will go introduce themselves. Tomas nods, looking slightly guilty. The neighbor across the hall smiles. You have not just resolved a noise complaint — you have potentially started a neighbor relationship.",
+                    "trainingFocus": "How does humanizing the complainant to the other party change the dynamic from adversarial to relational?"
+                },
+                "partially_positive": {
+                    "choiceText": "'I'm glad we got this sorted. I need to document this visit formally, and I want to be transparent: I'm issuing a written warning — not a fine — for the noise violation. This is a formal record that quiet hours were violated tonight. If there's another violation within ninety days, the next response will be a citation automatically. This isn't punishment — it's a clear boundary. You've cooperated tonight and I appreciate that. Think of the warning as a line in the sand that protects everyone, including you, because it gives Mr. Novak confidence that the system worked and he doesn't need to escalate further.'",
+                    "adequate": ["Transparent about the formal written warning — explains what it is and what it is not", "Framing the warning as protection for both parties maintains goodwill", "Clear escalation path (citation within ninety days) gives both parties institutional assurance", "Acknowledges their cooperation, reinforcing the positive behavior"],
+                    "missed": ["No humanization of Mr. Novak — he remains 'the guy who called the cops' rather than a person with a story", "No suggestion for future direct neighbor contact — same dynamic next month", "Formal documentation provides closure but does not build the relationship that prevents repeat calls", "Tomáš's genuine question about Mr. Novak's health goes unaddressed in this approach"],
+                    "improvement": "A written warning with clear escalation criteria is proportionate and defensible. But pairing it with humanization of Mr. Novak — his age, his loneliness, his health — and suggesting they introduce themselves tomorrow would transform documentation into conflict prevention."
+                },
+                "neutral": {
+                    "choiceText": "'All right, we're good then. Have a good rest of your evening.' Turn and head back downstairs.",
+                    "adequate": ["Polite and non-confrontational", "Does not undermine the agreement with threats"],
+                    "missed": ["No recap of the terms — no verbal contract", "No humanization of Mr. Novak", "No suggestion for future neighbor relations", "No mechanism to prevent the same call next month"],
+                    "improvement": "Recap the specific terms, share something human about Mr. Novak, and suggest they introduce themselves. The difference between resolving an incident and preventing the next one is sixty seconds of conversation.",
+                    "consequences": "Tomas and Anna comply tonight because the encounter is fresh. But without a relationship with Mr. Novak, the next party generates the same call."
+                },
+                "negative": {
+                    "choiceText": "'Right. I'm noting this visit in my report. If there's another complaint from this building — tonight or any other night — you should expect a fine. I'd recommend keeping your parties quieter in the future. Noise violations go on record.'",
+                    "risks": ["Bureaucratic, punitive language treats a resolved noise complaint like a criminal warning", "Tomas and Anna cooperated voluntarily — threatening them with records and fines punishes cooperation", "Destroys the trust built during mediation and ensures resentment toward both police and Mr. Novak", "Creates a chilling effect: next time there is a conflict, they will be hostile rather than cooperative"],
+                    "consequences": "The warmth evaporates entirely. Tomas mutters about having 'a record' for a birthday party. The next time there is a conflict with Mr. Novak, they will not try to resolve it — they will be hostile.",
+                    "betterApproach": "When someone has already cooperated voluntarily, escalating consequences communicates that cooperation has no value. Close with reinforcement and relationship-building, not threats."
+                }
+            },
+            "keyLearningPoints": ["Recapping specific terms creates a verbal contract that holds better than vague agreements", "Humanizing the complainant to the other party transforms the dynamic from adversarial to relational", "Suggesting direct neighbor contact is conflict prevention — the most valuable outcome of any noise call", "Closing with threats after voluntary compliance destroys the goodwill that mediation built"]
+        },
+        "7": {
+            "stageName": "Closing the Loop",
+            "criticalSkills": ["Providing specific information to the complainant about what was agreed", "Humanizing the other party to the complainant", "Encouraging direct neighbor communication", "Validating the complainant's right to call back if needed"],
+            "learningObjective": "Demonstrate that closing the loop with the complainant is not optional — Mr. Novak needs to hear specific terms, learn his neighbors' names, and feel his call produced meaningful results.",
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'Mr. Novak, I spoke with your neighbors — their names are Tomas and Anna. They're hosting a birthday party for a friend who's visiting from out of town. They didn't realize how much noise was carrying through the floor. Here's what we agreed: the bass is turned down — you can probably hear the difference already — the balcony is closed, guests are inside, and they're wrapping up by 12:30. I also told them a bit about your situation — that you have an early morning and need your rest. They felt genuinely sorry. I'd encourage you to introduce yourselves sometime — neighbors who know each other tend to sort these things out without needing to call us. If the noise picks up again tonight, you have every right to call back, and it will be escalated.'",
+                    "strengths": ["Sharing neighbors' names and context humanizes them — they become people, not 'the noise upstairs'", "Detailing specific terms shows Mr. Novak his call produced concrete results", "Mentioning they felt sorry builds empathy across the floor", "Encouraging direct contact plants the seed for self-resolution of future issues", "Confirming his right to call back validates his standing without undermining the agreement"],
+                    "consequences": "Mr. Novak's shoulders drop with relief. He learns their names for the first time in eighteen months. For the first time tonight, he looks like a neighbor who might knock on a door rather than a frustrated complainant.",
+                    "trainingFocus": "How does sharing specific information — names, context, terms — transform a complainant from adversary to potential neighbor?"
+                },
+                "partially_positive": {
+                    "choiceText": "'I spoke with them and they've agreed to turn the music down and wrap up soon. You should notice a difference already. If it starts up again, don't hesitate to call back.'",
+                    "adequate": ["Accurate and reassuring — confirms action was taken", "Affirms his right to call back if the agreement fails"],
+                    "missed": ["'Turn down' and 'wrap up soon' are vague — what time is 'soon'?", "No names, no context, no humanization of the neighbors", "No suggestion for future direct contact", "Mr. Novak will lie awake listening, unable to trust that 'soon' means soon"],
+                    "improvement": "Share the neighbors' names, the specific end time, and something human about them. The details are what transform anxiety into relief and strangers into neighbors."
+                },
+                "neutral": {
+                    "choiceText": "'It's handled, Mr. Novak. The music is down. Try to get some sleep — you've got your appointment in the morning. Good night.'",
+                    "adequate": ["Efficient and remembers his appointment — shows some attentiveness", "Confirms the noise is reduced"],
+                    "missed": ["'It's handled' tells him nothing about what was agreed, who lives above him, or what happens next", "No specific terms, no names, no humanization, no relationship-building", "Treats the complainant as a ticket to be resolved rather than a person in a community"],
+                    "improvement": "Replace 'it's handled' with specifics: who they are, what was agreed, and when it ends. A complainant who knows the terms feels resolved; one who hears 'it's handled' just hopes it is true.",
+                    "consequences": "Mr. Novak thanks you and closes his door, unsatisfied but too tired to press. He does not know his neighbors' names, does not know the end time, and does not feel empowered."
+                },
+                "negative": {
+                    "choiceText": "'I talked to them. They're having a birthday party — they seemed like nice kids. I told them to keep it down. Look, Mr. Novak, these things happen in apartment buildings. Young people have parties. Try to be a little understanding — they work hard too. Maybe invest in some earplugs for nights like this.'",
+                    "risks": ["Advocating for the party hosts to the complainant — 'nice kids,' 'be understanding,' 'earplugs' — invalidates his legitimate complaint", "He waited over an hour for police at midnight and is now told to be more tolerant and buy earplugs", "The quiet hours violation was real, his frustration legitimate, and his health concerns valid", "This is the mirror image of dismissing the party hosts — you have picked a side"],
+                    "consequences": "Mr. Novak feels betrayed. His trust in police for quality-of-life issues is severely damaged. He will not call next time — he will either confront them himself or suffer in silence and resent everyone.",
+                    "betterApproach": "Share what was agreed without editorializing. Humanize the neighbors through facts, not advocacy. Let Mr. Novak form his own opinion of them based on their names, their context, and their willingness to cooperate."
+                }
+            },
+            "keyLearningPoints": ["Closing the loop with the complainant is not optional — it is what determines whether they feel their call mattered", "Sharing names and context transforms anonymous strangers into real neighbors", "Specific terms (end time, bass down, balcony closed) give the complainant a framework for evaluating compliance", "Advocating for one party to the other destroys the complainant's trust — share facts and let them form their own conclusions"]
+        }
+    },
+
+    "scoringExplanation": {
+        "maxPossibleScore": 84,
+        "scoreBreakdown": {
+            "stage1_arrival": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -8 },
+            "stage2_complainant": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -8 },
+            "stage3_knocking": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -10 },
+            "stage4_pushback": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -8 },
+            "stage5_solution": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -8 },
+            "stage6_agreement": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -10 },
+            "stage7_closing_loop": { "positive": 12, "partially_positive": 5, "neutral": 2, "negative": -10 }
+        },
+        "performanceThresholds": {
+            "perfect": { "range": "84", "description": "All positive choices — exceptional mediation across every stage. Validated both parties, brokered specific terms, humanized neighbors to each other, and planted seeds for a lasting relationship." },
+            "good": { "range": "50-83", "description": "Mostly positive with some partially positive choices. Strong mediation instincts with minor missed opportunities in specificity, expectation management, or relationship-building." },
+            "average": { "range": "14-49", "description": "Mixed choices — some good mediation moments alongside vague agreements, missed expectation-setting, or failure to humanize parties to each other. Tonight's noise is resolved but next month's is not prevented." },
+            "poor": { "range": "Below 14", "description": "Predominantly neutral or negative choices — either over-enforced a quality-of-life issue or under-responded to a legitimate complaint. Mediation skills, proportionality, or complainant management need fundamental improvement." }
+        }
+    },
+
+    "comprehensiveMetrics": {
+        "mediationSkills": {
+            "description": "Balancing both parties' concerns, facilitating dialogue, and brokering agreements that both sides can accept",
+            "indicators": {
+                "excellent": ["Validated both Mr. Novak's frustration and Tomas's right to celebrate in his own home", "Engaged Anna's cooperation without sidelining Tomas", "Brokered a specific three-part agreement (bass, balcony, end time) that both parties accepted voluntarily", "Humanized each party to the other — Mr. Novak learned their names, Tomas and Anna learned about Mr. Novak's situation"],
+                "poor": ["Sided with one party against the other — either dismissing Mr. Novak's complaint or demanding the party end entirely", "Failed to engage Anna's offered cooperation or bypassed Tomas in his own home", "Brokered no specific agreement or relied on vague terms like 'keep it down' and 'wrap up soon'", "Left both parties as anonymous adversaries with no path to direct communication"]
+            }
+        },
+        "proportionateResponse": {
+            "description": "Matching enforcement to the severity of the violation — warning before citation, reasonable expectations for a first offense",
+            "indicators": {
+                "excellent": ["Treated this as a first-offense quality-of-life issue warranting mediation, not a criminal matter requiring enforcement", "Proposed terms that allowed the party to continue at reduced volume rather than demanding total silence", "Set a reasonable end time (12:30 AM) that balanced both parties' needs", "Reserved citation authority as an escalation tool rather than a first response"],
+                "poor": ["Demanded identification, threatened citations, or ordered the party shut down entirely on first contact", "Treated a birthday party at 11:30 PM as equivalent to a repeated or serious violation", "Proposed terms so restrictive they constituted punishment rather than compromise", "Suggested Mr. Novak should tolerate the noise or buy earplugs, under-responding to a legitimate violation"]
+            }
+        },
+        "complainantManagement": {
+            "description": "Validating the complainant's concerns, managing expectations transparently, and closing the loop with specific information",
+            "indicators": {
+                "excellent": ["Validated Mr. Novak's frustration and health concern before heading upstairs", "Set clear expectations about the mediation-first approach and explained why it works better than citations", "Returned to Mr. Novak with specific terms, neighbors' names, and context that humanized them", "Confirmed his right to call back while encouraging future direct communication"],
+                "poor": ["Dismissed Mr. Novak's complaint with 'parties happen' or 'try earplugs'", "Set vague or misleading expectations — 'I'll take care of it' or 'a fine is definitely possible'", "Failed to close the loop or returned with vague information — 'it's handled' or 'they'll wrap up soon'", "Advocated for the party hosts when reporting back — 'they're nice kids, try to be understanding'"]
+            }
+        },
+        "conflictPrevention": {
+            "description": "Building long-term neighbor relations rather than just solving tonight's problem — humanizing parties to each other and encouraging direct communication",
+            "indicators": {
+                "excellent": ["Shared Mr. Novak's situation with Tomas and Anna — his age, loneliness, health, early appointment", "Shared Tomas and Anna's names, context, and genuine remorse with Mr. Novak", "Suggested both parties introduce themselves — planting the seed for a direct relationship", "Recognized that neighbors who know each other resolve noise issues without police involvement"],
+                "poor": ["Left Mr. Novak as 'the old guy downstairs who called the cops' in the minds of Tomas and Anna", "Left Tomas and Anna as anonymous 'young people making noise' in Mr. Novak's mind", "Made no suggestion for future direct communication between neighbors", "Closed with threats or warnings that ensured the next interaction between neighbors would be hostile"]
+            }
+        },
+        "professionalCommunication": {
+            "description": "Clear, calm, respectful communication with all parties — including intoxicated, defensive, or frustrated individuals",
+            "indicators": {
+                "excellent": ["Maintained a calm, conversational tone with both the frustrated Mr. Novak and the defensive, slightly intoxicated Tomas", "Introduced yourself by name to the party hosts, humanizing the interaction", "Used language that opened dialogue — 'can we chat,' 'can you work with that,' 'will you give me a chance'", "Explained reasoning behind each request rather than issuing orders without context"],
+                "poor": ["Used commanding language — 'that's not a request,' 'I need you to,' 'music off now'", "Failed to introduce yourself or used bureaucratic, impersonal language", "Tone-deaf statements like 'try to get some rest' while bass thumps through the ceiling", "Closed interactions with threats that undermined the cooperative tone built during mediation"]
+            }
+        }
+    },
+
+    "mistakePatterns": {
+        "enforcementEscalation": {
+            "pattern": "Defaulting to enforcement tools — citations, identification demands, shutdown orders — when the situation calls for mediation",
+            "examples": ["Demanding identification from Tomas for a noise complaint", "Ordering the music turned off entirely and the party ended within thirty minutes", "Threatening citations as an opening move rather than reserving them for non-compliance", "Noting the visit 'in my report' and warning about 'noise violations going on record' after voluntary cooperation"],
+            "impact": "Disproportionate enforcement of a first-offense noise complaint creates lasting resentment between neighbors and toward police. Tomas and Anna will not try to resolve the next conflict directly — they will be hostile because 'last time, the cops threatened us.' Community trust in police for quality-of-life issues erodes.",
+            "correction": "Match your response to the offense. A first-offense noise complaint on a Saturday night warrants conversation, mediation, and specific agreements. Reserve enforcement tools for non-compliance, not as opening moves."
+        },
+        "vaguenessDefault": {
+            "pattern": "Relying on vague language — 'keep it down,' 'wrap up soon,' 'sort it out' — instead of proposing specific, actionable terms",
+            "examples": ["'Can you guys just keep it down a bit?' without specifying what 'a bit' means", "'I'll leave it to you to wrap up at a reasonable time' without defining 'reasonable'", "'I'll go take care of it' without telling Mr. Novak what 'take care of it' means", "'I'll leave it to you guys to figure out the specifics' — deferring entirely to people who have been drinking"],
+            "impact": "Vague agreements produce vague compliance. Without specific terms — bass down, balcony closed, end time set — party hosts comply in the moment and drift back to the original volume within minutes. Mr. Novak calls again at 1 AM, angrier and less trusting. Vagueness is the primary driver of repeat noise calls.",
+            "correction": "Always anchor agreements with three specific, actionable items. For noise complaints: volume/bass level, indoor/outdoor containment, and a definite end time. Specificity creates accountability."
+        },
+        "complainantDismissal": {
+            "pattern": "Minimizing or dismissing the complainant's legitimate grievance — suggesting they should adapt rather than having the violation addressed",
+            "examples": ["'It's a Saturday night — people are going to have parties sometimes. Have you tried earplugs?'", "'These things usually sort themselves out — parties end eventually'", "'Try to be a little understanding — they work hard too. Maybe invest in some earplugs'", "Telling a sleep-deprived man with a heart condition to 'wait it out'"],
+            "impact": "When a complainant with a legitimate grievance (posted quiet hours violated, health concerns, sleep deprivation) is told to tolerate it, their trust in police for quality-of-life issues is destroyed. They stop calling — not because problems stop, but because they have learned that calling does not help. This is the definition of community trust erosion.",
+            "correction": "Validate the complaint before addressing it. Quiet hours are posted rules, not suggestions. Acknowledge the violation, validate the frustration, and explain your approach — then go address it."
+        },
+        "closureNeglect": {
+            "pattern": "Failing to close the loop with the complainant — either not returning to Mr. Novak or returning with inadequate information",
+            "examples": ["Not going back to Mr. Novak after the agreement", "'It's handled, Mr. Novak' — no specifics about what was agreed", "Returning with vague terms: 'they agreed to turn it down and wrap up soon'", "Failing to share the neighbors' names, the end time, or any humanizing context"],
+            "impact": "The complainant who called in good faith and waited over an hour does not know what was agreed, when the noise will end, or who lives above him. He lies awake listening, unable to trust that the problem was solved. The neighbors remain anonymous adversaries. Same call next month.",
+            "correction": "Close the loop with specifics: share the neighbors' names, the agreed terms (bass down, balcony closed, end time), and something that humanizes them. Suggest they introduce themselves. The complainant's experience of the outcome determines their trust in police."
+        },
+        "sidePickingBias": {
+            "pattern": "Advocating for one party to the other — either validating the hosts to the complainant or validating the complainant's demand for maximum enforcement to the hosts",
+            "examples": ["'They seemed like nice kids — try to be a little understanding'", "'Mr. Novak, these things happen in apartment buildings. Young people have parties'", "Telling the party hosts 'the old guy downstairs complains about everything' (echoing Tomas's framing)", "Agreeing with Mr. Novak that a fine should be issued before even speaking to the party hosts"],
+            "impact": "When you advocate for one party, the other party feels betrayed by the institution they called for help. Mr. Novak hears you defending 'nice kids' and concludes police side with young people. Tomas hears you echoing Mr. Novak's demands and concludes police are tools of complainants. Neutrality is the foundation of mediation.",
+            "correction": "Share facts without editorializing. 'Their names are Tomas and Anna, they're hosting a birthday party, they didn't realize how loud it was, and they felt sorry' is neutral information. 'They're nice kids, try to be understanding' is advocacy."
+        }
+    },
+
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Outstanding noise complaint mediation — the most common call in policing and the one that shapes community trust the most. You listened to Mr. Novak without over-promising, opened with Tomas in a way that defused his defensiveness, engaged Anna's cooperation without sidelining him, brokered three specific and proportionate terms, and closed the loop by humanizing both parties to each other. Most importantly, you planted the seed for a direct neighbor relationship that prevents future calls. This is community policing at its finest — resolving tonight's noise and preventing next month's.",
+            "mostlyPositive": "Strong mediation performance in a noise complaint that required balancing two legitimate positions — Mr. Novak's right to sleep and Tomas and Anna's right to celebrate in their home. Your approach showed good instincts for either complainant management or party host engagement, with some missed opportunities in specificity, expectation-setting, or relationship-building. The resolution was proportionate and respectful — refining the details of closure and conflict prevention will elevate your approach from good to exceptional.",
+            "mixed": "You resolved tonight's noise complaint but left important mediation dimensions unaddressed. Some stages showed strong instincts — perhaps in validating Mr. Novak or engaging Anna's cooperation — while others relied on vague terms, missed expectation management, or failed to humanize the parties to each other. The immediate noise stopped, but the neighbor dynamic that caused it remains unchanged. Review the difference between resolving an incident and preventing the next one.",
+            "mostlyNegative": "This noise complaint revealed significant gaps in mediation skills and proportionate response. While you addressed the call, most choices either over-enforced a first-offense quality-of-life issue or under-responded to a legitimate complaint — both of which erode community trust. Mr. Novak and Tomas both deserved validation, specific agreements, and a path toward direct communication. Review mediation fundamentals, proportionality principles, and the critical importance of closing the loop with the complainant.",
+            "allNegative": "Your approach treated a mediation situation as either a pure enforcement matter or a call to be dismissed. The noise complaint required balancing two legitimate positions with specific agreements, proportionate response, and genuine care for both parties' long-term relationship. Instead, choices either escalated a quality-of-life issue into a confrontation or dismissed a valid complaint by suggesting the complainant should simply tolerate it. Fundamental reorientation toward mediation skills, proportionality, and complainant management is needed."
+        }
+    },
+
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "I can hear the music from here, so I understand your frustration.",
+            "I want to be honest with you — for a first offense, I'll start with a clear warning and a specific agreement. If they don't comply, enforcement escalates.",
+            "I can see you're celebrating — happy birthday to whoever's having the party.",
+            "I'd like to talk about finding a way to let you finish your evening without keeping the building awake.",
+            "I hear you — working night shifts and finally getting a Saturday with friends, I understand why this matters to you.",
+            "I'm not here to end your party. I'm here to find a middle ground.",
+            "turn the bass down or switch to something quieter — the bass is what travels through the floor.",
+            "your neighbor Mr. Novak, he's an older guy living alone. He wasn't angry so much as exhausted."
+        ],
+        "poorPhrases": [
+            "Mr. Novak, it's a Saturday night — people are going to have parties sometimes. Have you tried just putting in earplugs?",
+            "These things usually sort themselves out — parties end eventually.",
+            "I need to see some identification, and I need the music turned off now.",
+            "quiet hours are quiet hours. It doesn't matter what day it is. I need the music off and the guests off the balcony. That's not a request.",
+            "I need the music off entirely and the party wrapped up within thirty minutes.",
+            "I'm noting this visit in my report. If there's another complaint from this building — tonight or any other night — you should expect a fine.",
+            "they seemed like nice kids. I told them to keep it down. Look, Mr. Novak, these things happen in apartment buildings.",
+            "I'd rather not come back."
+        ],
+        "analysisCriteria": {
+            "complainantValidation": "Did the phrase validate Mr. Novak's frustration and legal standing before taking action or offering solutions?",
+            "defensivenessReduction": "Did the phrase reduce Tomas's defensiveness by acknowledging his perspective before presenting the opposing one?",
+            "specificityOfTerms": "Did the phrase propose concrete, measurable terms — or rely on vague language like 'keep it down' and 'soon'?",
+            "proportionalitySignal": "Did the phrase match the severity of a first-offense noise complaint — or treat a birthday party like a criminal matter?",
+            "relationshipBuilding": "Did the phrase humanize one party to the other or plant seeds for direct neighbor communication?",
+            "agencyPreservation": "Did the phrase treat the person as a participant in their own solution — 'can you work with that' — or as a subject of authority?"
+        }
+    },
+
+    "scenarioSpecificLessons": {
+        "1": "Noise complaints are not about noise — they are about respect, sleep, autonomy, and belonging. Mr. Novak is not calling about decibels; he is calling because he feels powerless in his own home. Understanding the deeper need shapes a better intervention than enforcing volume levels.",
+        "2": "The complainant is your first contact but not your only responsibility. Managing Mr. Novak's expectations before heading upstairs — explaining your mediation-first approach and why it works better than citations — prevents frustration when the resolution is a compromise rather than a shutdown.",
+        "3": "Opening with empathy rather than authority when contacting party hosts dramatically reduces defensiveness. Acknowledging the celebration and introducing yourself by name converts a confrontation into a conversation within thirty seconds.",
+        "4": "When one party is defensive and another cooperative, validate the defensive person first, then engage the cooperative person for solutions. Addressing Tomas's feelings before pivoting to Anna prevents either from feeling bypassed.",
+        "5": "Concrete, specific agreements — bass level, balcony containment, definite end time — hold better than vague promises to 'keep it down.' Three specific requests produce better compliance than one vague demand because specificity creates accountability.",
+        "6": "Humanizing the complainant to the party hosts is the single most powerful conflict prevention tool available. When Tomas and Anna learn that Mr. Novak is an older widower with a heart condition and a 6 AM appointment, he stops being 'the guy who called the cops' and becomes a person.",
+        "7": "Closing the loop with the complainant is not optional. Mr. Novak needs to hear specific terms, learn his neighbors' names, and feel that his call produced meaningful results. Officers who mediate and then close the loop prevent the repeat calls that consume patrol resources for months.",
+        "8": "Officers who default to punitive enforcement in noise complaints create lasting neighbor conflicts. Mediation skills — active listening, reframing, proposing concrete compromises — produce far more durable outcomes than citations ever do, because neighbors who share a building must coexist long after the police leave."
+    },
+
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Advanced neighbor mediation — training others in multi-party residential dispute resolution", "Community policing leadership — building apartment building cultures that self-resolve noise issues", "Conflict prevention techniques — transforming single interventions into lasting neighbor relationships"],
+            "good": ["Extended mediation skills — balancing complainant expectations with proportionate response", "Specificity in agreement-making — anchoring terms with concrete, measurable commitments", "Closing the loop — comprehensive complainant follow-through techniques for residential disputes"],
+            "average": ["Core mediation principles — validating all parties, brokering specific agreements, maintaining neutrality", "Expectation management with complainants — setting process expectations before acting", "Proportionate response for quality-of-life calls — warning before citation, mediation before enforcement"],
+            "poor": ["Fundamentals of noise complaint response — mediation versus enforcement in neighbor disputes", "Complainant management — validation, expectation-setting, and closing the loop", "Proportionality in first-offense situations — matching response to severity", "De-escalation with defensive and intoxicated individuals in residential settings"]
+        }
+    },
+
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Overall Performance Summary", "content": ["Total score and performance level", "Key mediation strengths demonstrated", "Critical gaps in complainant management or agreement specificity", "Overall assessment of proportionality and neutrality"]},
+            {"title": "Stage-by-Stage Mediation Analysis", "content": ["Choice made at each stage with the party hosts and Mr. Novak", "Impact on both parties' willingness to cooperate", "Specificity of agreements reached versus vague terms used", "Key learning points for each interaction stage"]},
+            {"title": "Complainant Management Assessment", "content": ["Quality of initial validation — was Mr. Novak's frustration and health concern acknowledged?", "Expectation-setting — was the mediation approach explained before heading upstairs?", "Loop closure — were specific terms, names, and humanizing context shared on return?", "Did Mr. Novak feel his call produced meaningful results?"]},
+            {"title": "Proportionality and Mediation Evaluation", "content": ["Was the response calibrated to a first-offense noise complaint or treated as a criminal matter?", "Were specific, proportionate terms proposed — or was the party shut down entirely?", "Was citation authority reserved for non-compliance or used as an opening threat?", "Did the resolution balance Mr. Novak's right to sleep with Tomas and Anna's right to celebrate?"]},
+            {"title": "Conflict Prevention Assessment", "content": ["Was Mr. Novak humanized to Tomas and Anna — age, situation, health, early appointment?", "Were Tomas and Anna humanized to Mr. Novak — names, context, genuine remorse?", "Was direct neighbor contact suggested for future issues?", "Will these neighbors self-resolve the next noise issue, or will the same call repeat?"]},
+            {"title": "Communication Effectiveness", "content": ["Best dialogue moments — phrases that reduced defensiveness or built empathy", "Counterproductive phrases — language that escalated, dismissed, or left terms vague", "Tone calibration — calm and conversational versus commanding or dismissive", "Use of agency-preserving language — 'can we chat,' 'can you work with that'"]},
+            {"title": "Professional Development Recommendations", "content": ["Immediate mediation skill gaps to address", "Long-term conflict prevention techniques to develop", "Recommended training modules based on performance level"]},
+            {"title": "Real-World Application", "content": ["How noise complaint mediation skills apply to all neighbor dispute calls", "Building apartment building cultures where residents resolve issues directly", "Preventing the repeat calls that consume patrol resources for months", "The long-term community trust impact of a single well-handled noise complaint"]}
+        ]
+    }
+}

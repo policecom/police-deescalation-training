@@ -1,0 +1,437 @@
+{
+    "id": "custody-exchange",
+    "title": "Vaiko perdavimo gin\u010das \u2014 Tarp dviej\u0173 ugni\u0173",
+    "description": "I\u0161pl\u0117stinis scenarijus, kuriame praktikuojamas deeskalavimas ir neutrali mediacija auk\u0161to konflikto vaiko glob\u0117jimo perdavimo metu tarp prie\u0161i\u0161kai nusiteikusi\u0173 i\u0161siskyrus\u0173 t\u0117v\u0173. Vietoje yra septynmetis vaikas, kuris yra i\u0161sigand\u0119s ir \u012ftemptas.",
+    "icon": "\u2696\ufe0f",
+    "instructor": {
+        "name": "Ser\u017eantas Davis",
+        "avatar": "\ud83d\udc6e\u200d\u2642\ufe0f",
+        "introduction": "\u0160is scenarijus pastato jus \u012f vien\u0105 jautriausi\u0173 situacij\u0173, su kuriomis pareig\u016bnas gali susidurti \u2014 glob\u0117jimo gin\u010das, kai abu t\u0117vai tiki, kad jie teis\u016bs, galioja teismo nutartis, ir i\u0161sigand\u0119s vaikas \u012fstrig\u0119s viduryje. J\u016bs nesate teis\u0117jas, ne advokatas ir ne \u0161eimos konsultantas \u2014 bet \u0161iuo metu esate vienintelis \u017emogus, galintis sustabdyti \u0161i\u0105 spiral\u0119. Glob\u0117jimo perdavimo deeskalavime j\u016bs\u0173 galingiausias \u012frankis yra matomas neutralumas \u2014 kiekvienas \u017eodis, kiekvienas gestas, kiekvienas sprendimas turi parodyti teisingum\u0105 abiem pus\u0117ms. T\u0105 akimirk\u0105, kai bet kuris i\u0161 t\u0117v\u0173 suvokia jus kaip \u0161ali\u0161k\u0105, bendradarbiavimas \u017elunga ir labiausiai kenčia vaikas. I\u0161likite neutralus, i\u0161likite \u017emogi\u0161kas ir prisiminkite: vaikas stebi visk\u0105, k\u0105 darote."
+    },
+    "timedChoices": true,
+    "completionBadges": [
+        "scenario-custody-exchange-complete"
+    ],
+    "perfectBadge": "perfect-scenario-custody-exchange",
+    "finalMessage": {
+        "revelation": "Po j\u016bs\u0173 intervencijos Markas ir Ieva susitar\u0117 naudoti bendro t\u0117vyst\u0117s programėlę b\u016bsimiems perdavimams koordinuoti. Ieva pateik\u0117 Jacobo medicinin\u0119 informacij\u0105, o Markas jai siunt\u0117 atnaujinimus vis\u0105 savaitgal\u012f. Jacobas savo mokyklos konsultantui kit\u0105 savait\u0119 pasak\u0117: \u201ePareig\u016bnas buvo mielas ir privert\u0117 mam\u0105 ir t\u0117t\u012f nustoti r\u0117kti.\u201c Po dviej\u0173 m\u0117nesi\u0173 abu t\u0117vai papra\u0161\u0117 mokyklos aik\u0161tel\u0117s kaip nuolatin\u0117s perdavimo vietos, \u017einodami, kad personalas ir apsaugos kameros u\u017etikrina atskaitomyb\u0119. J\u016bs\u0173 ramus, subalansuotas po\u017ei\u016bris \u012fski\u0117pijo geresnio bendravimo tarp t\u0117v\u0173 s\u0117kl\u0105.",
+        "keyLessons": [
+            "Neutralumas yra aktyvus, ne pasyvus \u2014 turite parodyti teisingum\u0105 abiem pus\u0117ms per skaidr\u0173 proces\u0105",
+            "Prie\u0161ing\u0173 \u0161ali\u0173 atskyrimas visada yra pirmas prioritetas prie\u0161 bet koki\u0105 esmin\u0119 diskusij\u0105",
+            "Teismo nutartis turi svor\u012f, bet vykdymas reikalauja i\u0161klausyti abi puses ir suprasti kontekst\u0105",
+            "Vaikai glob\u0117jimo gin\u010duose ne\u0161a did\u017eiul\u0119 kalt\u0119 \u2014 tiesioginis nuraminimas, kad tai ne j\u0173 kalt\u0117, yra kriti\u0161kai svarbus",
+            "K\u016brybi\u0161ki sprendimai, \u012fvertinantys abiej\u0173 \u0161ali\u0173 r\u016bpes\u010dius, paverčia laim\u0117jim\u0105/pralaim\u0117jim\u0105 \u012f bendradarbiavim\u0105",
+            "Policija n\u0117ra privatus vykdymo agentas \u2014 j\u016bs\u0173 vaidmuo yra palengvinti sprendim\u0105, o ne parinkti nugal\u0117toj\u0105",
+            "Viskas, k\u0105 pasakote ir darote prie\u0161 vaik\u0105, tampa dalimi jo supratimo apie konflikt\u0105 ir autoritet\u0105"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Atvykimas ir \u012fvertinimas",
+            "sceneUpdate": {
+                "emoji": "\ud83c\udfeb",
+                "title": "Mokyklos aik\u0161tel\u0117 \u2014 Pirmas kontaktas",
+                "desc": "V\u0117lyvas penktadienio popiet\u0117. Du suaugusieji garsiai ginčijasi prie sidabrinio sedano mokyklos aik\u0161tel\u0117je. U\u017epakalin\u0117je s\u0117dyn\u0117je matosi septynmetis berniukas, apsikab\u0119s pliu\u0161in\u012f gyv\u016bn\u0117l\u012f. Mokyklos apsaugos darbuotojas stovi netoliese ir atrodo nejaukiai."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Ekipa\u017eas vyksta \u012f Riverside pradin\u0119 mokykl\u0105. Du t\u0117vai gin\u010dijasi d\u0117l vaiko perdavimo aik\u0161tel\u0117je. Mokyklos personalas papra\u0161\u0117 policijos pagalbos. Vietoje yra vaikas. D\u0117mesio \u2014 \u0161iuo adresu yra ankstesn\u0117 prane\u0161imas d\u0117l smurto \u0161eimoje. Apsaugos orderis buvo i\u0161duotas prie\u0161 \u0161e\u0161is m\u0117nesius."
+                }
+            ],
+            "prompt": "Atvykstate \u012f viet\u0105. Abu t\u0117vai r\u0117kia vienas ant kito prie automobilio, vaikas stebi i\u0161 vidaus. Kaip prieisite?",
+            "options": [
+                {
+                    "text": "Einate tiesiai tarp tėvų su pakelta ranka stabdymo gestu ir tvirtai paskelbiate: \u201ePolicija. Prašau abiejų nustoti ir iš karto atsitraukti vienas nuo kito.\u201c Įsitaisote tiesiai tarp jų, užimdami fizinę erdvę, ir palaikote tvirtą akių kontaktą su kiekvienu iš eilės. Jūsų balsas kerta rėkimą neginčijamu valdžios autoritetu. Pirštu rodote tėvui į vieną aikštelės galą, motinai — į kitą.",
+                    "feedback": "Kod\u0117l: Nustato autoritet\u0105 ir sukuria fizin\u012f atskyrim\u0105, kuris reikalingas. Ta\u010diau garsus, \u012fsakyminis po\u017ei\u016bris gali i\u0161g\u0105sdinti jau i\u0161sigandus\u012f vaik\u0105 ir sukelti prie\u0161i\u0161k\u0105 reakcij\u0105 i\u0161 suerzint\u0173 t\u0117v\u0173. | PASEKM\u0116S: Paklusnumas tik\u0117tinas, bet su nepasitenkinimu. Abu t\u0117vai gali jus suvokti kaip agresyvius, o ne padedančius, tod\u0117l bendradarbiavimas tolesniuose \u017eingsniuose bus sunkesnis. Vaiko \u012ftampa gali padid\u0117ti. | Refleksija: Kaip j\u016bs\u0173 \u012f\u017eanginis tonas nustato visos interakcijos trajektorij\u0105?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Pirmiausia prieinate prie mokyklos apsaugos darbuotojo, kad gautumėte informaciją apie tai, kas nutiko, prieš kreipdamiesi į bet kurį iš tėvų. Praeinate pro abu rėkiančius suaugusiuosius jų nepripažindami, ženklelis matomas ant krūtinės, ir pasitraukiate su sargu prie mokyklos įėjimo. Klausinėjate apie įvykių seką — kada atvyko tėvai, kas pradėjo ginčą, ar buvo grasinimai — kruopščiai viską įsimindami, kol tėvai toliau šaukia prie automobilio.",
+                    "feedback": "Kod\u0117l: Informacijos rinkimas prie\u0161 veiksm\u0105 i\u0161mintingas daugelyje situacij\u0173. Ta\u010diau vykstanti konfrontacija \u0161alia vaiko reikalauja greitesnio \u012fsiki\u0161imo \u2014 kiekviena t\u0117v\u0173 konflikto sekund\u0117, kuri\u0105 vaikas mato, sukelia i\u0161matuojam\u0105 emocin\u0119 \u017eal\u0105. | PASEKM\u0116S: T\u0117vai toliau gin\u010dijasi, kol j\u016bs informuojat\u0117s. T\u0117vas gali nekantriai priart\u0117ti prie j\u016bs\u0173. Vaikas lieka \u012fstrig\u0119s viduryje. | Refleksija: Kada situacijos skubumas pranoksta kontekstin\u0117s informacijos vert\u0119?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Prieinate ramiai iš kampo, ne tiesiai, ir užmezgate akių kontaktą su abiem tėvais paeiliui. Sustojate pokalbio atstumu ir tvirtu, bet valdomu tonu sakote: \u201eLabas. Aš pareigūnas [vardas]. Matau, kad tai įtempta situacija. Išspręskime — bet pirmiausia prašau abiejų žingsnį atgal.\u201c Rankos atpalaiduotos prie šonų, laikysena atvira — modeliuojate ramybę, kurios norite iš jų.",
+                    "feedback": "Kod\u0117l: Profesionalus prisistatymas, streso pripa\u017einimas ir ai\u0161ki kryptis be agresijos. Ramus po\u017ei\u016bris modeliuoja elges\u012f, kurio norite i\u0161 j\u0173. Art\u0117jimas i\u0161 kampo yra ma\u017eiau konfrontacinis. Nesikreipimas pirmiausia \u012f vien\u0105 t\u0117v\u0105 signalizuoja ne\u0161ali\u0161kum\u0105. | PASEKM\u0116S: Abu t\u0117vai jaučiasi pripa\u017einti. Valdomas tonas kontrastuoja su j\u0173 r\u0117kimu ir sukuria nat\u016bral\u0173 deeskalavimo efekt\u0105. Vaikas mato rami\u0105 suaugus\u012fj\u012f. | Refleksija: Kaip norimos emocin\u0117s b\u016bsenos \u201emodeliavimas\u201c veikia praktikoje?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Prieinate pirmiausia prie motinos automobilio, kad sužinotumėte jos pusę — ji arčiausiai vaiko ir gali turėti svarbaus konteksto. Praeinate pro tėvą be žodžio, pasilenkiate prie vairuotojo lango ir žemu balsu klausinėjate motinos, kas vyksta. Tėvas stebi iš kelių metrų, sukryžiavęs rankas ant krūtinės, akivaizdžiai registruodamas, kad pasirinkote kalbėti pirmiausia su ja.",
+                    "feedback": "Kod\u0117l: Tai skamba kaip prot\u0117ingas informacijos rinkimo b\u016bdas, ir kreiptis \u012f t\u0117v\u0105, esant\u012f ar\u010diausiai vaiko, atrodo logi\u0161ka. Ta\u010diau pirmiausia prieiti prie vieno t\u0117vo \u2014 ypa\u010d prie to, kuris su vaiku \u2014 signalizuoja \u0161ali\u0161kum\u0105 dar neprak\u0161nus n\u0117 \u017eod\u017eio abiem pus\u0117ms. T\u0117vas mato, kaip j\u016bs praeinate pro j\u012f prie motinos automobilio, ir kiekviena j\u016bs\u0173 ten praleista sekund\u0117 sustiprina jo \u012fsitikinimus, kad sistema palankesn\u0117 motinoms. | PASEKM\u0116S: T\u0117vas tampa labiau suerzintas ir konfrontaci\u0161kas, suvokdamas, kad j\u016bs palaikote motin\u0105 nuo pirmos akimirkos. J\u016bs\u0173 neutralumas pa\u017eeid\u017eiamas dar nepra\u0161nekinus abiej\u0173 \u0161ali\u0173. Dinamika dabar nesubalansuota \u2014 viskas, k\u0105 v\u0117liau pasakysite t\u0117vui, filtruojama per jo \u012fsitikinimus, kad jau pasirinkote pus\u0119. | Refleksija: Kaip suteikti pimenybę informacijos rinkimui i\u0161laikant matom\u0105 ne\u0161ali\u0161kum\u0105 visoms stebinciosios \u0161alims?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "T\u0117v\u0173 atskyrimas",
+            "sceneUpdate": {
+                "emoji": "\ud83e\udd1d",
+                "title": "Dvi pus\u0117s, vienas vaikas",
+                "desc": "U\u017emezg\u0117te pirm\u0105 kontakt\u0105. Abu t\u0117vai i\u0161 karto kreipiasi \u012f jus, kiekvienas norėdamas, kad b\u016btum\u0117te jo pus\u0117je. T\u0117vas mosikuoja sulankstytu dokumentu. Motina atsistoja gynybiškai prie automobilio dur\u0173."
+            },
+            "npcDialogue": [
+                {
+                    "character": "father",
+                    "text": "Pagaliau! Pasakykite jai, kad turi perduoti man s\u016bn\u0173. Turiu teismo nutart\u012f \u0161ia!"
+                },
+                {
+                    "character": "mother",
+                    "text": "Jis serga! Nepaleisiu jo, kai jis kar\u0161\u010diuoja!"
+                }
+            ],
+            "prompt": "Abu t\u0117vai reikalauja neatid\u0117liotinos j\u016bs\u0173 paramos. Kaip t\u0119site?",
+            "options": [
+                {
+                    "text": "Švelniai pakeliate ranką ir ramiu, tvirtu balsu sakote: \u201eSuprantu, kad abu dėl to jaučiatės stipriai. Kalbėsiu su kiekvienu atskirai, kad suprasčiau visą situaciją. Pone, ar galėtumėte trumpam palaukti prie mano automobilio? Ponia, likite čia, prašau.\u201c Palaikote nuoseklų akių kontaktą su kiekvienu iš jų ir pridedate: \u201eBūsiu teisingas abiem — kiekvienas gausite vienodą galimybę paaiškinti savo pusę, kol nuspręsime kartu.\u201c",
+                    "feedback": "Kod\u0117l: \u0160ali\u0173 atskyrimas yra esminis deeskalavimui \u2014 jis sustabdo vaidinam\u0105 gin\u010d\u0105 ir leid\u017eia kiekvienam kalb\u0117ti atvirai. Teisingumo pa\u017eadas palaiko pasitik\u0117jim\u0105 i\u0161 abiej\u0173 pusi\u0173. T\u0117vo atitraukimas nuo automobilio takti\u0161kai tinkamas \u2014 vaiko vieta lieka stabili, ir j\u016bs nesignalizuojate glob\u0117jimo pirmenybės. | PASEKM\u0116S: Abu t\u0117vai jaučiasi i\u0161girsti. Vaidinamas konfliktas nust\u016bna. Sukuriate erdv\u0119 tikram dialogui. | Refleksija: Kod\u0117l kalb\u0117jimas su kiekviena \u0161alimi atskirai da\u017enai yra vasingesnis nei grupin\u0117 mediacija?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Ištiesiate ranką tėvo link ir sakote: \u201ePirmiausia parodykite tą teismo nutartį. Išspręsime pagal tai, ką sako dokumentai.\u201c Paimote sulankstytą popierių, atsargiai jį išlankstote ir čia pat, tarp abiejų tėvų, pradedate skaityti pastraipas — akimis slystelite per eilutes, kol abu tėvai stovi iš šonų, kiekvienas rodydamas į skirtingus skyrius ir vienas per kitą aiškinantys, ką dokumentas reiškia.",
+                    "feedback": "Kod\u0117l: Eiti tiesiai prie teisinio dokumento atrodo logi\u0161ka ir efektyvu. Ta\u010diau per\u017ei\u016br\u0117jimas prie\u0161 abu t\u0117vus kvie\u010dia gin\u010dyti jo interpretacij\u0105. J\u016bs taip pat nekreip\u0117te d\u0117mesio \u012f emocin\u0119 temperat\u016br\u0105 ir neatskyrete \u0161ali\u0173. | PASEKM\u0116S: T\u0117vas jaučiasi patvirtintas, ta\u010diau motina ignoruota. Abu gali prad\u0117ti gin\u010dytis d\u0117l to, k\u0105 dokumentas \u201eti\u0161krai rei\u0161kia\u201c. Emocinis aspektas lieka visi\u0161kai neadresuotas. | Refleksija: Ar glob\u0117jimo gin\u010das pirmiausia yra teisin\u0117, ar emocin\u0117 problema?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Reikšmingai žvilgtelite Jacobo link užpakalinėje sėdynėje, tada atsisukate į abu tėvus ir sakote: \u201ePrašau abiejų prašnekinti tyliau — čia vaikas, kuris viską girdi, ką sakote.\u201c Mostu rodote nuo automobilio link atviros šaligatvio atkarpos: \u201ePasitraukime kartu ten ir pakalbėkime ramiai, toliau nuo automobilio, kad Jacobas neturėtų viso to klausytis.\u201c Jūsų balsas tvirtas, bet ne agresyvus — bandote pažadinti tėviškos atsakomybės jausmą.",
+                    "feedback": "Kod\u0117l: Geras vaiko gerov\u0117s suvokimas, ir pra\u0161ymas yra protingas. Ta\u010diau pra\u0161yti abiej\u0173 jud\u0117ti kartu j\u0173 neatskiriant da\u017enai tik perkelia gin\u010d\u0105 \u012f kit\u0105 viet\u0105. Priminimas apie vaik\u0105 gali sukelti trump\u0105 paklusnumą d\u0117l g\u0117dos, bet neadresuoja pagrindinio prie\u0161i\u0161kumo. | PASEKM\u0116S: Trumpa r\u0117kimo pauz\u0117, bet be fizinio atskyrimo ginčas per kelias minutes atsinaujins. Nenustat\u0117te proceso nei laiko plano. | Refleksija: Koks skirtumas tarp konflikto sustabdymo ir deeskalavimo?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Atsisukate į motiną skeptišku žvilgsniu ir tiesiai klausinėjate: \u201ePonia, ar vaikas tikrai serga? Ar turite kokios nors medicininės dokumentacijos tai patvirtinti — gydytojo pažymą, receptą, ką nors popieriuje?\u201c Tonas lygus ir procedūrinis, tarsi pildytumėte protokolą, kol tėvas energingai linkčioja šalia jūsų. Motinos veidas parausta, kai ji suvokia, kad visa įrodinėjimo našta nukrito ant jos pečių.",
+                    "feedback": "Kod\u0117l: I\u0161 karto suabejoti motinos teiginiu signalizuoja nepasitik\u0117jim\u0105 ir quasi-tiriamojo pozicij\u0105. T\u0117vas jaučiasi patvirtintas, o motina \u2014 apkaltinta. Nesukūr\u0117te ry\u0161io, neatskyrete \u0161ali\u0173 ir ne\u012fvertinote bendros situacijos. | PASEKM\u0116S: Motina tampa gynybi\u0161ka ir prieki\u0161ka jums. T\u0117vas spaud\u017eia stipriau, jausdamas prana\u0161um\u0105. Konfliktas intensyveja su jumis \u012ftrauktais kaip suvokiamu prie\u0161ininku. | Refleksija: Kaip klausim\u0173 sprendimo eili\u0161kumas veikia abiej\u0173 \u0161ali\u0173 j\u016bs\u0173 neutralumo suvok\u0105?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Teismo nutartis",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udccb",
+                "title": "Teisinis popierius, \u017emogaus problema",
+                "desc": "S\u0117kmingai atskyrte t\u0117vus. Markas stovi prie j\u016bs\u0173 automobilio ir rodo jums patvirtint\u0105 teismo i\u0161duotos glob\u0117jimo nutarties kopij\u0105. Jo rankos dreba \u2014 i\u0161 pyk\u010dio ar nerimo, sunku pasakyti."
+            },
+            "npcDialogue": [
+                {
+                    "character": "father",
+                    "text": "Matote? Kas antr\u0105 savaitgal\u012f, nuo penktadienio 16:00. Jau 16:15. Ji tai daro kiekvien\u0105 kart\u0105 \u2014 delsimas, pasiteisinimai, bet kas, kad tik neduot\u0173 man Jacobo. Noriu, kad j\u0105 are\u0161tuotum\u0117te u\u017e teismo nutarties nevykdym\u0105."
+                }
+            ],
+            "prompt": "T\u0117vas reikalauja neatid\u0117liotino vykdymo ir motinos are\u0161to. Kaip atsakysite?",
+            "options": [
+                {
+                    "text": "Lėtai linktelite ir pradedate tvirtinti jo frustraciją, kad sukurtumėte ryšį: \u201eMatau, kad tai pasikartojantis modelis, Markai. Tai turi būti nepaprastai frustruojanti — kovoti dėl laiko, kuris jums jau buvo suteiktas teismo. Pakalbėsiu su ja apie grafiko gerbimą.\u201c Grąžinate teismo nutartį į jo rankas su nuraminimu ir jau sukate link Ievos automobilio, palikdami Marką su įspūdžiu, kad esate jo pusėje.",
+                    "feedback": "Kod\u0117l: Tai skamba kaip empati\u0161kas aktyvus klausymasis ir ry\u0161io k\u016brimas \u2014 klasikinis deeskalavimo metodas. Ta\u010diau jo pasakojimo apie \u201emodel\u012f\u201c patvirtinimas prie\u0161 i\u0161klausant kit\u0105 pus\u0119 pavir\u0161ina empatij\u0105 \u012f \u0161ali\u0161kum\u0105. Pasakyti, kad \u201epakalbsite su ja apie grafiko gerbim\u0105\u201c, pozicionuoja motin\u0105 kaip problem\u0105, o jus \u2014 kaip jo advokat\u0105. J\u016bs perimate vis\u0105 jo vertinim\u0105 be savaranki\u0161ko \u012fvertinimo. | PASEKM\u0116S: Motina i\u0161 karto pajus, kad stojate vienos pus\u0117s, kai prieisite. Konfrontacija eskaluoja, nes dabar esate sutapatinti su t\u0117vo versija. Bet koks subalansuotas sprendimas tampa beveik ne\u012fmanomas, nes j\u016bs\u0173 kaip neutralios \u0161alies patikimumas prarastas. | Refleksija: Kur yra riba tarp kieno nors emocin\u0117s patirties pripa\u017einimo ir j\u0173 \u012fvyki\u0173 versijos pri\u0117mimo kaip fakto?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Paimote dokumentą, laikote skaitymo atstumu ir sakote: \u201eMatau, kad tai galiojanti teismo nutartis. Leiskite atidžiai peržiūrėti tikslias sąlygas, kol pakalbėsiu su jūsų buvusia žmona apie situaciją.\u201c Pirštu vedžiojate per pastraipas, tyliai murmėdami esminius sakinius, kol Markas nerimauja, perstumdamas svorį nuo vienos kojos ant kitos, laukdamas, kada baigsite lapas po lapo peržiūrą.",
+                    "feedback": "Kod\u0117l: Dokumento pripa\u017einimas yra tinkamas, bet \u201eatid\u017eiai per\u017ei\u016br\u0117ti s\u0105lygas\u201c sukuria teisin\u0119, biurokratin\u0119 atmosfer\u0105. T\u0117vas nori empatijos ir veiksm\u0173, o ne teisin\u0117s per\u017ei\u016bros. Terminas \u201ej\u016bs\u0173 buvusi \u017emona\u201c vietoj jos vardo suma\u017eina j\u0105 iki vaidmens prie\u0161i\u0161kame kontekste. | PASEKM\u0116S: T\u0117vas jaučiasi, kad vilkinate. Teisin\u0117 formuluot\u0117 i\u0161laiko interakcij\u0105 konflikto re\u017eime, u\u017euot perkeldama link sprendimo. | Refleksija: Kaip j\u016bs\u0173 kalbos pasirinkimas nustato, ar tai teisin\u0117 kova, ar t\u0117vyst\u0117s situacija?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Žiūrite jam tiesiai į akis ir atvirai sakote: \u201eSuprantu jūsų frustraciją ir matau, kad tai teismo nutartis. Tačiau negaliu nieko areštuoti dėl civilinio globėjimo klausimo — taip vykdymas neveikia. Mano vaidmuo čia — padėti abiem pusėms pasiekti sprendimą šiandien. Leiskite išklausyti ir jos pusę, o tada kartu nuspręsime, koks kitas žingsnis.\u201c Grąžinate dokumentą ir pradedate eiti Ievos link.",
+                    "feedback": "Kod\u0117l: Teisingai ai\u0161kina policijos ribas ir nustato realius l\u016bkes\u010dius. Ta\u010diau plok\u0161\u010dias pareiškimas \u201enegaliu nieko are\u0161tuoti\u201c gali skamb\u0117ti atstumian\u010diai t\u0117vui, kuris tiki, kad jo teis\u0117s sistemingai pa\u017eeid\u017eiamos. Pasakymas \u201eleiskite i\u0161klausyti jos pus\u0119\u201c be ankstesnio jo emocin\u0117s patirties pripa\u017einimo sukuria atstum\u0105. | PASEKM\u0116S: Markas jaučiasi proced\u016bri\u0161kai informuotas, ta\u010diau asmeniškai neišgirstas. Bendradarbiauja, bet jo pagrindin\u0117 frustracija d\u0117l pasikartojančio trukdymo lieka neadresuota. | Refleksija: Kaip subalansuoti l\u016bkes\u010di\u0173 valdym\u0105 ir kieno nors emocin\u0117s patirties pripa\u017einim\u0105?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Pagarbiai priimate dokumentą ir sakote: \u201eAčiū, kad parodėte, Markai. Aš tai vertinu rimtai — teismo nutartis turi tikrą svorį. Reikia išklausyti ir Ievą, kad suprasčiau jos rūpesčius, o tada dirbsiu su abiem, kad šiandien išspręstume. Mano tikslas — užtikrinti, kad Jacobas galėtų laiką su jumis praleisti kuo sklandžiau.\u201c Grąžinate popierių atsargiai, sutikdami jo žvilgsnį, kad pajustų — jums tai tikrai svarbu.",
+                    "feedback": "Kod\u0117l: Patvirtina t\u0117vo teisin\u0119 pad\u0117t\u012f ir vardo vartojimas kuria asmeninius santykius. Procesas paaiškintas skaidriai \u2014 kalb\u0117sit\u0117s ir su motina \u2014 tad tai neatrodo kaip šališkumas. Tikslas suformuluotas apie Jacobo laiką su t\u0117vu, o tai nuramina Marką, kad dirbate link teismo numatomo rezultato, tuo tarpu \u201ekuo sklandžiau\u201c signalizuoja, kad b\u016bdas yra svarbus. | PASEKM\u0116S: Markas jaučiasi gerbiamas, teisi\u0161kai patvirtintas ir tikras, kad pareig\u016bnas dirba link perdavimo. Jis nori palaukti, kol pakalbsite su Ieva. | Refleksija: Kaip norimo rezultato \u012fvardijimas anksti padeda abiem pus\u0117ms suderinti l\u016bkest\u010dius?",
+                    "type": "positive",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Motinos pozi\u0161ja",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udc8a",
+                "title": "Motinos baim\u0117",
+                "desc": "Prieinate prie Ievos prie jos automobilio. Jacobas matomas u\u017epakalin\u0117je s\u0117dyn\u0117je, tvirtai laikantis pliušin\u012f gyv\u016bn\u0117l\u012f. Jis atrodo truput\u012f i\u0161blyšk\u0119s, bet \u0161iuo metu yra ramus. Ievos akys raudonos \u2014 ji verk\u0117."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mother",
+                    "text": "Prašau, nepriverskite manęs jo perduoti. Vis\u0105 nakt\u012f kos\u0117jo, beveik nemiegojo. Markas neprižiūr\u0117s jo tinkamai, kai jis serga \u2014 jis net nežino, kokius vaistus Jacobas vartoja. Nebandau b\u016bti sunki, tiesiog... bijau d\u0117l savo s\u016bnaus."
+                }
+            ],
+            "prompt": "Motina emocinga ir kelia sveikatos r\u016bpes\u010dius d\u0117l vaiko. Kaip tai sprsite?",
+            "options": [
+                {
+                    "text": "Sukryžiuojate rankas ir lygiu, procedūriniu tonu klausinėjate: \u201eAr turite gydytojo pažymą ar bet kokį medicininį įrodymą, kad Jacobas per daug serga, kad eitų su tėvu? Receptą, skubiosios pagalbos vizitą — ką nors dokumentuoto, ką galėčiau peržiūrėti?\u201c Laukiate su tušinuku paruoštu virš užrašų knygelės, stebėdami jos išraišką, kol ji ieško įrodymų, kurių greičiausiai nesuspėjo surinkti popietės skuboje.",
+                    "feedback": "Kod\u0117l: Teisingas proceduirinis klausimas, ta\u010diau prad\u0117ti reikalavimu pateikti \u012frodym\u0105 jau\u010diasi kaltinant ir \u0161altai. Dauguma t\u0117v\u0173 tikrojo glob\u0117jimo streso metu negalvoja apie i\u0161ankstin\u012f dokumentavim\u0105. Šis po\u017ei\u016bris \u012f interakcij\u0105 \u017ei\u016bri kaip \u012f \u012frodymu grindžiam\u0105 pratim\u0105, o ne \u017emogišk\u0105 pokalb\u012f. | PASEKM\u0116S: Ieva jaučiasi apklausiama, o ne i\u0161girsta. Ji tampa gynybinė: \u201eTad ir j\u016bs man netikite?\u201c Emocin\u0117 siena pakyla ir sprendimas tampa daug sunkesnis. | Refleksija: Koks skirtumas tarp informacijos rinkimo ir apklausos?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Sušvelninate laikyseną — pečiai atsipalaiduoja, rankos nuleidžiamos — ir sakote: \u201eGirdžiu, kaip labai jums rūpi Jacobas, Ieva. Jo sveikata yra svarbi. Ar galite papasakoti daugiau apie jo simptomus — kada jie prasidėjo, ar buvo pas gydytoją?\u201c Padarote pauzę ir leidžiate jai atsakyti, tada švelniai tęsiate: \u201eTaip pat turiu būti atviras su jumis: Markas turi teismo nutartį šiam savaitgaliui, ir tai yra dalykas, į kurį turiu atsižvelgti. Noriu, kad rastume kelią, kuris Jacobą apsaugotų.\u201c",
+                    "feedback": "Kod\u0117l: Pripa\u017e\u012fsta jos emocijas, vartoja jos vard\u0105 ir pateikia atvirus klausimus apie sveikatos problem\u0105 \u2014 suteikdamas jai erdv\u0117s b\u016bti i\u0161girstai. Ta\u010diau taip pat skaidriai informuoja apie teisin\u0119 realyb\u0119, u\u017euot leid\u0119s jai \u012fsivaiduoti, kad sustabdysite perdavim\u0105. Subalansuoja empatij\u0105 ir s\u0105\u017einingum\u0105. | PASEKM\u0116S: Ieva jaučiasi i\u0161girsta ir gerbiama. Ji gali apsiverkti, bet ma\u017eiau tik\u0117tina, kad taps konfrontaci\u0161ka. S\u0105\u017einingas po\u017ei\u016bris \u012f teismo nutart\u012f paruošia j\u0105 tik\u0117tinam rezultatui be netik\u0117to sm\u016bgio v\u0117liau. | Refleksija: Kod\u0117l anksti pasakytas teis\u0117s yra geresnis nei atid\u0117tos blogos \u017einios?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Papurtote galvą ir sakote: \u201eSuprantu jūsų rūpestį, bet teismo nutartis sako, kad jis šį savaitgalį eina su tėčiu. Jei neturite medicininės dokumentacijos — gydytojo pažymos, skubiosios pagalbos vizito — aš tikrai nieko negaliu padaryti, kad tai pakeisčiau.\u201c Žvilgtelite Marko link prie tarnybinio automobilio, tada atgal į Ievą — jūsų tono aiškumas palieka mažai abejonių, kad pokalbis iš esmės baigtas, o sprendimas jau priimtas.",
+                    "feedback": "Kod\u0117l: Atstumiantis tikr\u0105 motinos susir\u016bpinim\u0105. Stand\u017eiai teisin\u0117 formuluot\u0117 be jokios empatijos. \u201eNieko negaliu padaryti\u201c yra ir netikslu, ir atšaldanti \u2014 galimybi\u0173 yra. \u0160is po\u017ei\u016bris gali sukelti kovos ar b\u0117gimo reakcij\u0105. | PASEKM\u0116S: Ieva gali fizi\u0161kai atsisakyti i\u0161leisti Jacob\u0105 i\u0161 automobilio, pabandyti nuva\u017eiuoti arba emociškai suirti. Bet kuris i\u0161 \u0161i\u0173 variant\u0173 dramati\u0161kai pablogina situacij\u0105 visiems, ypa\u010d Jacobui. | Refleksija: Kai kas nors pasako \u201enieko negaliu padaryti\u201c, k\u0105 kitas \u017emogus i\u0161 tikr\u0173j\u0173 i\u0161girsta?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Pasilenkiate prie atviro automobilio lango, kad pažiūrėtumėte į Jacobą, ir sakote: \u201eNoriu įsitikinti, kad Jacobui viskas gerai. Leiskite greitai pažiūrėti, kaip jis jaučiasi.\u201c Akimirką studijuojate berniuko veidą — blyškumą, truputį stiklines akis — tada atsitiesiate ir kreipiatės į Ievą: \u201eJei jis tikrai serga, gal galime aptarti galimybes. Bet turėčiau jus informuoti, kad Markas turi galiojančią teismo nutartį, tad turime tai irgi įvertinti.\u201c",
+                    "feedback": "Kod\u0117l: Rodo r\u016bpest\u012f vaiku ir si\u016blo tiesiogiai \u012fvertinti situacij\u0105, kas atrodo proaktyviai. Ta\u010diau policijos pareig\u016bnas, atliekantis neformali\u0105 sveikatos patikr\u0105, pereina \u012f vaidmen\u012f, kuriam nesate kvalifikuotas. Jei nustatysite, kad vaikas \u201eatrodo gerai\u201c, motina jausis nepripa\u017einta. Jei sutiksite, kad vaikas \u201eatrodo sergantis\u201c, t\u0117vas teigs, kad \u0161ali\u0161ki jai. | PASEKM\u0116S: Dabar esate nepavyd\u0117tinoje pad\u0117tyje kaip m\u0117g\u0117ji\u0161kas medicininis vertintojas. Abu t\u0117vai ginčys j\u016bs\u0173 \u012fvertinim\u0105, kad ir kuria kryptimi jis eit\u0173. | Refleksija: Kaip parodyti r\u016bpest\u012f vaiko sveikata neperžengiand profesinio vaidmens?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Vaikas prabyla",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udc66",
+                "title": "Jacobo pasaulis",
+                "desc": "Kol kalbat\u0117s su Ieva, Jacobas nuleidžia automobilio lang\u0105. Jo akys plačios ir drėgnos. Jis klausė visk\u0105 \u2014 gin\u010dus, pokalbius, \u012ftamp\u0105. Jis dar stipriau spaud\u017eia pliu\u0161in\u012f me\u0161kutą."
+            },
+            "npcDialogue": [
+                {
+                    "character": "child",
+                    "text": "Nenoriu, kad mama ir t\u0117tis daugiau pe\u0161t\u0173si... Ar negaliu tiesiog likti mokykloje?"
+                }
+            ],
+            "prompt": "\u012ftemptas septynmetis dabar tiesiogiai dalyvauja pokalbyje. Kaip atsakysite?",
+            "options": [
+                {
+                    "text": "Lėtai priklaupiate iki Jacobo akių lygio prie automobilio lango, vieną ranką atsargiai padėdami ant durų rėmo, kad būtumėte veidas į veidą su juo. Švelniai sakote: \u201eEi, Jacobai, žinau, kad tai tikrai sunku. Noriu, kad žinotum — niekas iš to nėra tavo kaltė, gerai? Tavo mama ir tėtis tave abu labai myli. Suaugusieji tai išspręs.\u201c Padarote pauzę, leisdami žodžiams nusėsti, ir tyliai paklausiate: \u201eAr yra ką nors, ką nori man pasakyti?\u201c",
+                    "feedback": "Kod\u0117l: Nusileisti iki vaiko fizinio lygio yra kriti\u0161kai svarbu pasitik\u0117jimui kurti ir baimei ma\u017einti. Nuraminiams, kad tai ne jo kalt\u0117, tiesiogiai adresuoja pagrindin\u012f kalt\u0117s jausm\u0105, kur\u012f vaikai jau\u010dia glob\u0117jimo gin\u010duose. Atviras kvietimas kalb\u0117ti suteikia jam erdv\u0119 ir bals\u0105 be \u012fpareigojimo rinktis tarp t\u0117v\u0173. | PASEKM\u0116S: Jacobas jaučiasi matomas ir i\u0161girstas ramos autoriteto. Jo nerimas matomai suma\u017e\u0117ja. Abu t\u0117vai, jei girdi, primena, kas i\u0161 ties\u0173 svarbu. \u0160is momentas dažnai tampa visos intervencijos emociniu l\u016b\u017eio ta\u0161ku. | Refleksija: Kaip tiesioginis vaiko nei\u0161sakytos kaltės adresavimas keičia \u0161eimos gin\u010do dinamik\u0105?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Pasilenkiate prie atviro lango su šilta šypsena ir sakote: \u201eNesijaudink, drauge. Viskas bus gerai. Tavo tėvams tiesiog reikia kelis dalykus aptarti, gerai?\u201c Žaismingai palietėte jo pliušinio meškučio ausį, bandydami palengvinti nuotaiką, ir pridedate: \u201eViską sutvarkysime greičiau, nei manai. Tu tiesiog pabūk čia.\u201c Atsitiesiate ir atsigręžiate atgal į suaugusiuosius, tikras, kad nuraminimo pakako.",
+                    "feedback": "Kod\u0117l: Gerai sumanyta ir \u0161iltai. Ta\u010diau \u201eviskas bus gerai\u201c gali jaustis kaip tu\u0161\u010dias pažadas \u2014 vaikas mato ir girdi konflikt\u0105, o vaikai yra nepaprastai jautr\u016bs ne nuoširdumui. Tai neadresuoja jo i\u0161reik\u0161to noro, kad pe\u0161tyn\u0117s liaut\u0173si, nei jo jausmo b\u016bti \u012fstrigusiam. | PASEKM\u0116S: Jacobas gali mandagiai link\u0117ti, bet jo nerimas lieka nepakitęs. Nuraminiams neatitinka jo tikrov\u0117s. Praleista galimyb\u0117 suteikti prasm\u0117s turin\u010di\u0105 emocin\u0119 param\u0105. | Refleksija: Kada nuraminimas padeda, o kada jis numojia rankomis ties tikr\u0105 baim\u0119?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Naudojate Jacobo žodžius kaip katalizatorių paspartinti sprendimą — iš karto atsisukate į abu tėvus ir tvirtai sakote: \u201eGirdėjote jį. Greitai išspręskime tai, kad Jacobas galėtų tęsti savo vakarą. Ieva, teismo nutartis aiški — Jacobas eina su Marku. Markai, įkurdinkime Jacobą jūsų automobilyje su jo daiktais. Kuo greičiau išspręsime, tuo mažiau jis turės matyti.\u201c Energingai mostelite tarp dviejų automobilių, jau tvarkydami logistiką.",
+                    "feedback": "Kod\u0117l: Tai skamba kaip praktinis efektyvumas, orientuotas \u012f vaiko konflikto patirties mažinim\u0105 \u2014 tar\u0161i vaiko-centri\u0161kas po\u017ei\u016bris. Ta\u010diau tai naudoja Jacobo pa\u017eid\u017eiam\u0105 akimirk\u0105 kaip \u012frank\u012f procesui paspartinti, u\u017euot adresuodamas jo emocinius poreikius. Vaikas prakalbo, ie\u0161kodamas paguodos ir nuraminimo; vietoj to jo \u017eod\u017eiai panaudoti spausti suaugusiesiems greičiau užbaigti. Jacobas i\u0161moksta, kad pasisakymas veda prie buvimo ignoruojamam, kol suaugusieji daro tai, k\u0105 vis tiek buvo keting\u0119. | PASEKM\u0116S: Jacobo \u012ftampa gilin\u0117ja \u2014 jis i\u0161reikš\u0117 jausm\u0105, o gavo logistikos plan\u0105. Ieva jaučiasi perva\u017eiuota d\u0117l tempo, o jos sveikatos r\u016bpes\u010diai lieka neadresuoti. \u201eEfektyvus\u201c sprendimas yra tra\u017eus ir neadresuoja nieko pagrindini\u0173 r\u016bpes\u010di\u0173. | Refleksija: Kai vaiko emocin\u0117 akimirka panaudojama kaip priežastis skub\u0117ti u\u017euot pristabdyti, ko vaikas i\u0161moksta apie jausm\u0173 i\u0161rai\u0161kos vert\u0119?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Žvilgtelite į Jacobą ir trumpai linktelite: \u201eKiek dar, gerai, drauge?\u201c Tada iš karto atsigręžiate atgal į Ievą, nuleisdami balsą iki dalykiško tono: \u201eTikrai dabar turime tai išspręsti. Mokykla greitai užsidarys ir čia negalėsime likti. Ar galite sugalvoti būdą, kaip šiandien tai įgyvendinti — kokį nors susitarimą, kuris adresuotų jūsų rūpesčius ir leistų Jacobui nuvykti, kur jam reikia?\u201c Pažvelgiate į laikrodį, pabrėždami skubą.",
+                    "feedback": "Kod\u0117l: Trumpas pripa\u017einimas geriau nei vaik\u0105 ignoruoti. Bet tai yra atstumiantis tikram emociniam momentui \u2014 Jacobas \u012fd\u0117jo dr\u0105sos pasisakyti, ir dviej\u0173 sekundi\u0173 atsakymas signalizuoja, kad jo jausmai suaugusiesiems nesvarb\u016bs. Momentinis gr\u012f\u017eimas prie logistikos sustiprina vaiko nematomumo jausm\u0105. | PASEKM\u0116S: Jacobas atsitraukia, jausdamasis ignoruojamas. Jis ma\u017eiau linkęs v\u0117l i\u0161reik\u0161ti savo jausmus. Kritinis ry\u0161io langas u\u017esidaro. Sprendimo na\u0161ta tenka vien motinai. | Refleksija: Kai vaikas prabyla kriz\u0117s metu, ko j\u016bs\u0173 reakcija moko j\u012f apie jo balso vert\u0119?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "T\u0117vo ultimatumas",
+            "sceneUpdate": {
+                "emoji": "\u26a1",
+                "title": "Kantrybė baigiasi",
+                "desc": "Markui \u012fgryso laukti. Jis priart\u0117ja nuo tarnybinio automobilio, suk\u0105sti \u017eandikauliai, telefonas rankoje. Jo k\u016bno kalba \u012ftempta \u2014 i\u0161tiesti pe\u010diai, greit\u0173 \u017eingsni\u0173, rodomas pirštas."
+            },
+            "npcDialogue": [
+                {
+                    "character": "father",
+                    "text": "Jau pakankamai laukiau! Ai\u0161kiai stojate jos pus\u0117je \u2014 kiekvien\u0105 kart\u0105 tas pats. Skambinu advokatui ir pateikiu skund\u0105 d\u0117l j\u016bs\u0173. Jei mano s\u016bnus nebus mano automobilyje per penkias minutes, paimsiu j\u012f pats."
+                }
+            ],
+            "prompt": "T\u0117vas eskaluoja, kaltina jus \u0161ali\u0161kumu ir grasina imtis veiksm\u0173 pats. Kaip atsakysite?",
+            "options": [
+                {
+                    "text": "Žengiate Marko link su atidarytais delnais ir ramiu, tvirtų balsu sakote: \u201eMarkai, suprantu jūsų frustraciją ir gerbiu jūsų teisinius reikalavimus — perskaičiau nutartį ir žinau, ką ji sako. Bet grasinimas paimti Jacobą jėga nepadės jūsų bylai — tai tik duotų Ievos advokatui amuniciją prieš jus teisme. Raskime sprendimą, kuris visiems bus naudingas. Esu arti sprendimo — duokite man dar kelias minutes dirbti su ja.\u201c",
+                    "feedback": "Kod\u0117l: Geras frustracijos pripa\u017einimo ir ai\u0161kios ribos nustatymo derinys. Ta\u010diau \u201enepad\u0117s j\u016bs\u0173 bylai\u201c r\u0117muoja interakcij\u0105 teisini\u0173 ir prieki\u0161k\u0173 termin\u0173, kurie gali i\u0161laikyti Mark\u0105 koviniam re\u017eime u\u017euot perjungiant \u012f bendradarbiavim\u0105. \u201eVisiems naudingas\u201c gali jausti kaip jo teis\u0117to reikalavimo susilpninim\u0105. | PASEKM\u0116S: Markas sustoja, bet jo pagrindin\u0117 frustracija d\u0117l suvokiamo trukdymo modelio lieka neadresuota. Bendradarbiauja nenoriai ir lieka \u012ftariai. | Refleksija: Kaip nustatyti ribas nenaudojant kalbos, kuri laiko \u017emog\u0173 prie\u0161i\u0161kame režime?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Pakeliate ranką ir lygiu tonu sakote: \u201ePone, turite nusiraminti. Aš čia darau savo darbą ir nevertinu kaltinimų.\u201c Sukryžiuojate rankas ir ištiesinat pečius: \u201eJei norite skambinti advokatui, prašom, tai jūsų teisė. Bet vaiko jėga paimti negalite — tai sukurtų visai kitokią teisinę situaciją jums. Dabar grįžkite prie mano automobilio ir palaukite, kol baigsiu su motina.\u201c",
+                    "feedback": "Kod\u0117l: Fakt\u0173 at\u017evilgiu teisinga ir nustato b\u016btinas ribas. Ta\u010diau \u201eturite nusiraminti\u201c yra pla\u010diai pripa\u017einta kaip viena kontraproduktyviausiu frazi\u0173 deeskalavime \u2014 ji atme\u010dia \u017emogaus emocijas ir u\u017euomina, kad jis elgiasi iracionaliai. Da\u017enai sukelia tik priešing\u0105 ketintam efekt\u0105. | PASEKM\u0116S: Markas eskaluoja toliau: \u201eNesakykite man nusiraminti!\u201c Situacija prastėja. Prarandate ry\u0161\u012f ir priart\u0117jate prie fizin\u0117s konfrontacijos. | Refleksija: Kod\u0117l \u201enusiraminkite\u201c beveik niekada nesukel\u012fa nusiraminimo?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Stojate tiesiai prieš Marką ir ramiu, užtikrintu balsu sakote: \u201eMarkai, nei jūsų, nei teismo nutarties nepamirštau — vertinu tai rimtai ir dirbu, kad šis perdavimas įvyktų šiandien. Reikėjo išklausyti abi puses, tai standartinė procedūra. Pakalbėjau su Ieva ir esu arti sprendimo. Bet jei jį pagriebsite, tai sukurs policijos reikalą, kurio dabar nėra, ir gali pakenkti jūsų globėjimo pozicijai. Padarykime tai teisingai.\u201c",
+                    "feedback": "Kod\u0117l: Tiesiogiai adresuoja jo pagrindin\u012f r\u016bpest\u012f \u2014 kad jis pamir\u0161tas ir jūs \u0161ali\u0161ki. Dar kart\u0105 patvirtina jo pozicijos teisin\u0119 galią be i\u0161lyg\u0173. Paai\u0161kina proces\u0105 skaidriai. Perspėjimas d\u0117l fizinio veiksmo pateiktas kaip jo interes\u0173 apsauga, o ne kaip gr\u0117sm\u0117 i\u0161 j\u016bs\u0173. Fraz\u0117 \u201eteisingai\u201c atitinka jo teisingumo jausm\u0105. | PASEKM\u0116S: Marko pyktis gerokai nusl\u016bgsta. Jis jaučiasi i\u0161girstas, gerbiamas ir tikras, kad perdavimas \u012fvyks. Pad\u0117jo telefon\u0105. | Refleksija: Kaip pasekmi\u0173 r\u0117mavimas kaip savo interesas, o ne grėsm\u0117, keičia \u017emogaus nor\u0105 bendradarbiauti?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Žengiate tiesiai į Marko kelią ir tvirtai rodote link tarnybinio automobilio: \u201eJei priartėsite prie to automobilio ar bandysite paimti vaiką, turėsiu fiziškai įsikišti. Atsitraukite prie mano automobilio tuoj pat.\u201c Jūsų ranka nuslenka prie diržo, kol praplatinate poziciją — interakcija iš šeimos mediacijos virsta teisėsaugos konfrontacija. Marko akys nusileidžia prie jūsų rankos ir jo žandikaulis sutvirtėja.",
+                    "feedback": "Kod\u0117l: Grynai represinis atsakas. Nors saugumo ribos nustatymas b\u016btinas, kai yra tiesiogn\u0117 fizin\u0117 gr\u0117sm\u0117, \u0161okti prie numanomos fizin\u0117s konfrontacijos, kai Markas kol kas tik \u017eod\u017eiu eskaluoja, paverčia \u0161eimos gin\u010d\u0105 \u012f policijos konfrontacij\u0105. Tai visiškai ignoruoja jo emocin\u0119 b\u016bsen\u0105, teis\u0117t\u0105 teisin\u0119 pozicij\u0105 ir baim\u0119 prarasti laik\u0105 su s\u016bnumi. | PASEKM\u0116S: Markas arba atsitraukia su nepasitenkinimu \u2014 pateikdamas skund\u0105 v\u0117liau ir tapdamas ma\u017eiau bendradarbiaujantis b\u016bsimuose perdavimuose \u2014 arba fiziškai iš\u0161aukia jus. Bet kuriuo atveju Jacobas mato, kaip jo t\u0117vui grasina policijos pareig\u016bnas. | Refleksija: Kuriuo momentu \u017eodin\u0117 gr\u0117sm\u0117 pateisina fizinio vykdymo atsaką, ir kokios per anksto \u0161okimo pasekmės?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Sprendimo palengvinimas",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udd11",
+                "title": "Kelias \u012f priek\u012f",
+                "desc": "Abu t\u0117vai \u017ei\u016bri \u012f jus l\u016bkesčiu kupinais žvilgsniais. Ginčas atv\u0117so, bet niekas nei\u0161spręsta. Jacobas nustojo verkti, bet nerimastingai stebi pro automobilio lang\u0105. Mokyklos apsaugos darbuotojas priart\u0117ja."
+            },
+            "npcDialogue": [
+                {
+                    "character": "security",
+                    "text": "Pareig\u016bne, mokykla u\u017esidaro po penkiolikos minu\u010di\u0173. Reikia atlaisvinti aik\u0161tel\u0119."
+                }
+            ],
+            "prompt": "Laiko spaudimas didja. Kaip pasieksite sprendim\u0105?",
+            "options": [
+                {
+                    "text": "Atsisukate į Ievą ir dalykišku tonu sakote: \u201eTeismo nutartis sako, kad Jacobas šį savaitgalį eina su tėvu. Ieva, rekomenduoju ją vykdyti — priešinimasis čia nepakeis teisinės realybės ir gali jums sukelti problemų ateityje. Jei manote, kad susitarimas turėtų būti pakeistas, pirmadienį galite pateikti prašymą teismui. O dabar surinkime Jacobo daiktus ir padarykime tai kuo sklandžiau jam.\u201c Mostu rodote automobilio link.",
+                    "feedback": "Kod\u0117l: Teisi\u0161kai teisinga ir proced\u016bri\u0161kai tinkama. Ta\u010diau tiesmukos nurodymas \u201evykdyti\u201c jau\u010diasi priverstinai ir sumažina motin\u0105 iki to, kas turi paklusti, u\u017euot b\u016bti t\u0117vu su teisėtais r\u016bpes\u010diais. Nuoroda \u012f teismo veiksmą pirmadieniui jau\u010diasi toli ir nepadeda esam\u0105j\u0105 emocin\u0119 b\u016bsen\u0105. N\u0117ra plano vaiko perėjimui ar sveikatos poreikiams. | PASEKM\u0116S: Ieva perduoda Jacob\u0105 nenoriai. Perdavimas \u012fvyksta, bet blogai \u2014 Jacobas suvokia motinos \u012ftamp\u0105. Tiltas b\u016bsimiems perdavimams nepastatytas. Kitas bus toks pat blogas ar dar blogssnis. | Refleksija: Ar \u201es\u0117kmingas\u201c perdavimas yra tas, kai vaikas fizi\u0161kai pereina, ar tas, kai vaikas jaučiasi saugus per\u0117jimo metu?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Sukvietiate abu tėvus girdimo atstumo ir sakote: \u201eŠtai ką siūlau. Ieva, ar galėtumėte užrašyti Jacobo simptomus, vaistus ir dozavimą bei pediatro numerį Markui? Markai, ar sutiktumėte šį vakarą parašyti Ievai trumpą žinutę, kaip Jacobas jaučiasi — gal žinutę ir nuotrauką?\u201c Žvilgtelite į abu: \u201eTaip Jacobas praleis savaitgalį su tėvu, kaip numato nutartis, ir abu žinosite, kad juo rūpinamasi.\u201c Priklaupiate prie Jacobo: \u201eMama duos tėčiui visą informaciją apie tavo vaistus, tad šį savaitgalį tavimi bus gerai pasirūpinta.\u201c",
+                    "feedback": "Kod\u0117l: K\u016bribiškas problem\u0173 sprendimas, kuris adresuoja motinos tikr\u0105 sveikatos r\u016bpest\u012f, gerbia t\u0117vo teisines teises ir suteikia abiem t\u0117vams aktyvi\u0105 ir ori\u0105 rol\u0119. Paverčia konflikt\u0105 i\u0161 laim\u0117jimo/pralaim\u0117jimo \u012f bendradarbiaujan\u010di\u0105 t\u0117vyst\u0119. Tiesioginis vaiko nuraminimas rodo jam, kad suaugusieji rado sprendim\u0105 kartu. Konkret\u016bs, \u012fgyvendinami \u017eingsniai daro tai \u012fgyvendinamu, o ne neapi\u0161kriu. | PASEKM\u0116S: Ieva sutinka \u2014 medicinin\u0117s informacijos u\u017era\u0161ymas suteikia jai kontrol\u0117s ir prasmės jausm\u0105. Markas sutinka si\u0173sti atnaujinimus \u2014 nedidelis nuolaidumas, kuris jam nieko nekainuoja. Jacobas mato t\u0117vus bendradarbiaujant pirm\u0105 kart\u0105 \u0161iandien. Perdavimas vyksta sklandžiai. | Refleksija: Kaip konstruktyvios u\u017ebuoties suteikimas abiem pus\u0117ms nukreipia j\u0173 energij\u0105 nuo konflikto?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Pakeliate abi rankas ir žengiate žingsnį atgal: \u201eKlausykite, suprantu, kad tai sunku abiem, bet negaliu nieko priversti čia — tai civilinis reikalas, ne baudžiamasis. Turite tai išspręsti tarpusavyje arba grįžti į teismą pirmadienį. Padariau viską, ką galėjau.\u201c Išsitraukiate užrašų knygelę, užsirašote incidento numerį ir paduodate kiekvienam tėvui kopiją — signalas, kad jūsų dalyvavimas pasiekė ribą ir kas nutiks toliau — jų pačių reikalas.",
+                    "feedback": "Kod\u0117l: Atsakomyb\u0117s atsisakymas kritiniu momentu. Nors policija turi ribot\u0105 autoritetą civiliniuose glob\u0117jimo klausimus, pasitraukti i\u0161 ginčo, kai vietoje yra \u012ftemptas vaikas, yra pareigos nevykdymas. \u201ePadariau visk\u0105, k\u0105 galiu\u201c signalizuoja, kad baigete investuoti pastangas, o tai palieka abu t\u0117vus jausti, kad juos paliko vienintel\u0117 neutrali \u0161alis. | PASEKM\u0116S: Gin\u010das i\u0161naujo u\u017esidega, kai tik pasitraukiate. Mokyklos apsaugos darbuotojas per dvidešimt minu\u010diu vel vėl skambina 112. Jacobas patirs dar vien\u0105 t\u0117v\u0173 konflikto rat\u0105. J\u016bs\u0173 intervencija nieko nepasiek\u0117. | Refleksija: Koks skirtumas tarp \u201enegaliu nieko priversti\u201c ir \u201enegaliu visai pad\u0117ti\u201c?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Atsisukate į abu tėvus ir siūlote vidurio kelią: \u201eMarkas turi teismo nutartį, todėl perdavimas turėtų įvykti šiandien — ta dalis aiški. Bet Ieva, o jei Markas sutiktų nuvežti Jacobą pas gydytoją ar skubiosios pagalbos skyrių, jei savaitgalį simptomai pablogėtų? Markai, ar tai tiktų jums? Tai adresuotų Ievos rūpestį dėl Jacobo sveikatos ir kartu gerbtų teismo nustatytą grafiką.\u201c Žiūrite iš vieno į kitą, laukdami atsakymų.",
+                    "feedback": "Kod\u0117l: Bando kompromis\u0105 ir adresuoja motinos i\u0161sakyt\u0105 r\u016bpest\u012f. Ta\u010diau j\u016bs netie\u0161iogiai s\u0105lygojate teismo nutart\u012f nurodyt\u0105 perdavim\u0105 papildomomis s\u0105lygomis, kurias t\u0117vas turi priimti, o tai per\u017eengia j\u016bs\u0173 vaidmen\u012f ir pakerta teisin\u012f pagrind\u0105. Jei Markas atsisako, suk\u016br\u0117te nauj\u0105 konflikto ta\u0161k\u0105. Jei jis sutinka d\u0117l spaudimo, gali to nepa\u017e\u012fstami. | PASEKM\u0116S: Markas gali nenoriai sutikti arba atsisakyti i\u0161 principo. Bet kuriuo atveju j\u016bs netyčia \u012fsitaisyte kaip derybininkas, pernegociavuojantis glob\u0117jimo s\u0105lygas \u2014 o tai yra teismo vaidmuo. Precedentas gali skatinti daugiau trukdymo b\u016bsimuose perdavimuose. | Refleksija: Kur riba tarp sprendimo palengvinimo ir teismo nutarties per\u017ei\u016br\u0117jimo?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Apžvalga ir atskleidimas",
+            "sceneUpdate": {
+                "emoji": "\ud83c\udfc1",
+                "title": "Mokymo ap\u017evalga",
+                "desc": "Atgal \u012f post\u0105. Seržantas Davis vertina j\u016bs\u0173 veikim\u0105 \u0161ioje sud\u0117tingoje vaiko perdavimo intervencijoje."
+            },
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Vaiko glob\u0117jimo perdavimai yra vieni emoci\u0161kai \u012fkrautiausiu i\u0161kvietim\u0173, su kuriais kada nors susidursite. Abu t\u0117vai ateina \u012fsitikinę, kad b\u016btent jie yra protingi, o kitas yra kli\u016btis. J\u016bs\u0173 u\u017ebuotis n\u0117ra sutikti n\u0117 su vienu \u2014 o padaryti taip, kad abu nuoirdžiai tik\u0117t\u0173, jog matote juos kaip \u017emones, o ne kaip problemas. B\u016btent tai i\u0161 tikr\u0173j\u0173 rei\u0161kia neutralumas. Tai n\u0117ra vienodas elgimasis su abiem t\u0117vais. Tai yra padaryti taip, kad abu t\u0117vai jaustusi matomi."
+                },
+                {
+                    "character": "officer",
+                    "text": "Sunkiausias momentas buvo, kai Markas apkaltino mane, kad palaikau Iev\u0105. Praleidau vos dvi minutes su ja, o jis jau buvo \u012fsitikinęs, kad esu šali\u0161kas. Jau\u010diau, kad k\u0105 beda\u0159y\u010diau, vienas i\u0161 j\u0173 vis tiek mane matys kaip prie\u0161\u0105."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Tas jausmas ir yra \u0161is darbas. O klaida, kuri\u0105 daro dauguma pareig\u016bn\u0173 \u2014 bandyti tai i\u0161spr\u0119sti b\u016bnant tob\u016blai simetri\u0161kais \u2014 vienodas laikas su kiekvienu t\u0117vu, vienodas tonas, vienodi \u017eodžiai. Tai yra mechaninis neutralumas, ir \u017emon\u0117s tai iš karto permato. Tikras neutralumas \u2014 tai ne vienodas elgimasis su abiem t\u0117vais. Tai padaryti taip, kad abu t\u0117vai tik\u0117t\u0173, jog matote juos kaip \u017emones su teis\u0117tomis baim\u0117mis. Markui reik\u0117jo i\u0161girsti, kad jo teismo nutartis svarbi. Ievai reik\u0117jo i\u0161girsti, kad jos r\u016bpestis Jacobo sveikata svarbus. Jacobui reik\u0117jo i\u0161girsti, kad niekas iš to n\u0117ra jo kalt\u0117. Kai adresavote visus tris poreikius, j\u016bs nestat\u0117te nei vienos pus\u0117s \u2014 j\u016bs dar\u0117te vienintel\u012f dalyką, kuris iš ties\u0173 veikia."
+                },
+                {
+                    "character": "trainer",
+                    "text": "K\u016brybinis sprendimas \u2014 vaist\u0173 u\u017era\u0161ai, \u017einut\u0117s atnaujinimai, tiesioginis Jacobo \u012ftraukimas \u2014 padar\u0117 tai, ko jokia prievertin\u0117 priemon\u0117 niekada nesugebėtų. Jis suteik\u0117 abiem t\u0117vams u\u017eduot\u012f, kuri reikalavo bendradarbiavimo, o ne var\u017eymosi. Tai yra skirtumas tarp gin\u010do i\u0161sprendimo ir s\u0117klos pasodininmo. Tai, k\u0105 padar\u0117te toje aik\u0161tel\u0117je, ne tik i\u0161spr\u0117nd\u0117 vien\u0105 penktadienio popiet\u0119. Tai pakeit\u0117 tai, kaip du t\u0117vai bendrauja toliau. Leiskite papasakoti, kas nutiko po to."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {
+            "name": "Dispe\u010derin\u0117",
+            "avatar": "\ud83d\udcfb"
+        },
+        "father": {
+            "name": "Markas (t\u0117vas)",
+            "avatar": "\ud83d\ude24"
+        },
+        "mother": {
+            "name": "Ieva (motina)",
+            "avatar": "\ud83d\ude30"
+        },
+        "child": {
+            "name": "Jacobas (vaikas, 7 m.)",
+            "avatar": "\ud83d\udc66"
+        },
+        "security": {
+            "name": "Mokyklos apsauga",
+            "avatar": "\ud83d\udd12"
+        },
+        "officer": {
+            "name": "J\u016bs (pareig\u016bnas)",
+            "avatar": "\ud83d\udc6e"
+        },
+        "trainer": {
+            "name": "Seržantas Davis",
+            "avatar": "\ud83d\udc6e\u200d\u2642\ufe0f"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Puiki mediacija!",
+            "emoji": "\ud83c\udf1f",
+            "feedback": "Parod\u0117te i\u0161skiritni neutralum\u0105, empatij\u0105 ir problem\u0173 sprendim\u0105 esan\u010d spaudimui. J\u016bs\u0173 geb\u0117jimas pripa\u017einti abu t\u0117vus ir kartu suteikti pirmenybę vaiko emocineei gerovei yra b\u016btent tai, ko \u0161i situacija reikalauja. K\u016brybi\u0161kas sprendimas, kur\u012f palengvinote, \u012fski\u0117pijo s\u0117klas sveikesniems b\u016bsimiems perdavimams. Pavyzdinis pasirodymas."
+        },
+        "good": {
+            "title": "Stiprus pasirodymas",
+            "emoji": "\u2705",
+            "feedback": "Gerai susidorojote su sud\u0117tinga trij\u0173 \u0161ali\u0173 situacija, i\u0161laik\u0117te protinga neutralum\u0105 ir pasiek\u0117te veik\u0161m\u012f rezultat\u0105. Kai kurios galimyb\u0117s gilesnei empatijai ar k\u016brybingesniam problem\u0173 sprendimui buvo praleistos, ta\u010diau bendras po\u017ei\u016bris buvo profesionalus ir veiksmingas."
+        },
+        "average": {
+            "title": "Tinkama reakcija",
+            "emoji": "\ud83d\udcca",
+            "feedback": "I\u0161sprendėte skubi\u0105 situacij\u0105, bet praleidote kelias svarbias galimybes tikram deeskalavimui ir ry\u0161io k\u016brimui. Vaiko emociniams poreikiai gal\u0117jo b\u016bti ne visiškai patenkinti. Peržiur\u0117kite aktyvaus klausymo, k\u016brybiškos mediacijos ir vaikui jautrios komunikacijos metodus."
+        },
+        "poor": {
+            "title": "Reikalingas žymus pagerinimas",
+            "emoji": "\u26a0\ufe0f",
+            "feedback": "J\u016bs\u0173 po\u017ei\u016bris parod\u0117 ai\u0161k\u0173 \u0161ali\u0161kum\u0105 vienai pusei, eskalavo \u012ftamp\u0105, u\u017euot j\u0105 ma\u017einęs, ir nepakankamai sprend\u0117 vaiko emocin\u0119 \u012ftamp\u0105. Glob\u0117jimo gin\u010duose suvokiamas pareig\u016bno neteisingumas da\u017enai pablogina b\u016bsimus perdavimus. Per\u017ei\u016brekite neutralumo principus, empatija grindžiam\u0105 deeskalavim\u0105 ir t\u0117v\u0173 konflikto poveik\u012f vaikams."
+        }
+    },
+    "metrics": {
+        "neutrality": {
+            "name": "Ne\u0161ali\u0161kumas ir neutralumas",
+            "description": "Matomo teisingumo abiem pus\u0117ms i\u0161laikymas be vieno t\u0117vo pozicijos pirmenybės",
+            "icon": "\u2696\ufe0f"
+        },
+        "rapport": {
+            "name": "Ry\u0161ys ir pasitik\u0117jimas",
+            "description": "Pasitik\u0117jimo k\u016brimas aktyviu klausymu, vard\u0173 vartojimu ir empati\u0161ku bendravimu",
+            "icon": "\ud83e\udd1d"
+        },
+        "emotional": {
+            "name": "Emocinis intelektas",
+            "description": "Vis\u0173 \u0161ali\u0173, \u012fskaitant vaik\u0105, emocij\u0173 atpa\u017einimas ir tinkama reakcija",
+            "icon": "\ud83d\udc9a"
+        },
+        "procedure": {
+            "name": "Proced\u016brinis ir teisinis suvokimas",
+            "description": "Policijos ribojim\u0173 civiliniuose reikaluose supratimas ir atitinkamas l\u016bkes\u010di\u0173 valdymas",
+            "icon": "\ud83d\udccb"
+        },
+        "childwelfare": {
+            "name": "Vaiko-centri\u0161kas po\u017ei\u016bris",
+            "description": "Vaiko emocinio saugumo pirmenybės teikimas, jo kontakto su konfliktu ir kalt\u0117s jausmo mažinimas",
+            "icon": "\ud83d\udee1\ufe0f"
+        }
+    }
+}

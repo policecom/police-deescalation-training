@@ -1,0 +1,430 @@
+{
+    "id": "traffic-stop",
+    "title": "Control de trafic — Escaladare și comunicare",
+    "description": "Scenariu avansat ce implică un control de trafic de rutină care escaladează când șoferul, deja stresat din cauza problemelor personale și întârziat la o întâlnire critică, devine din ce în ce mai ostil. Ofițerul trebuie să echilibreze aplicarea fermă a legii cu empatia, navigând printre insulte, filmare, preocupări de siguranță, anxietatea unui pasager și o dezvăluire personală — totul menținând transparența procedurală și calmul profesional.",
+    "icon": "🚗",
+    "instructor": {
+        "name": "Sergent Miller",
+        "avatar": "👮‍♂️",
+        "introduction": "Controalele de trafic sunt cea mai frecventă interacțiune directă între poliție și public, și ele modelează modul în care milioane de oameni percep forțele de ordine. Cercetările arată în mod constant că dreptatea procedurală în timpul controalelor de trafic — explicarea motivului opririi, prezentarea dumneavoastră și tratarea șoferului cu demnitate — are un impact mai mare asupra încrederii publice decât rezultatul în sine. Șoferul pe care îl opriți poate avea cea mai proastă zi din viața sa: un copil bolnav, un loc de muncă în pericol, o relație care se destramă. Nimic din toate acestea nu scuză depășirea vitezei, dar toate modelează modul în care el experimentează autoritatea dumneavoastră. Provocarea dumneavoastră este să fiți atât ferm cât și uman — să aplicați legea tratând în același timp persoana de la volan ca pe cineva a cărui cooperare o câștigați prin profesionalism, nu ca pe cineva a cărui supunere o extrageți prin putere. Modul în care deschideți conversația, cum răspundeți la ostilitate, cum gestionați momentele de siguranță și cum încheiați interacțiunea vor determina dacă acest șofer le spune celor din jur că poliția este corectă sau că poliția este problema."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-traffic-stop-complete"],
+    "perfectBadge": "perfect-scenario-traffic-stop",
+    "finalMessage": {
+        "revelation": "Domnul Novak are 38 de ani și este tată singur a doi copii. Fiica sa de șapte ani a fost diagnosticată cu leucemie acum trei luni, iar facturile medicale au fost devastatoare. Conducea cu viteză spre o întâlnire cu supervizorul său, care făcuse aluzie că urmează concedieri — pierderea acestui loc de muncă ar fi însemnat pierderea asigurării de sănătate care acoperea tratamentul fiicei sale. Pasagera, doamna Novak, este mama sa, care supraveghea copiii pentru ca el să poată participa la întâlnire. Era deja neliniștită pentru că știa cât de multă presiune este pe fiul ei și se temea că oprirea îl va costa slujba. După interacțiunea cu dumneavoastră, domnul Novak a ajuns cu cincisprezece minute întârziere, dar calm. Supervizorul său i-a observat comportamentul liniștit și i-a oferit un program flexibil pentru a gestiona programările fiicei sale. Ulterior, le-a spus colegilor că ofițerul care l-a oprit a fost prima figură de autoritate din ultimele luni care l-a tratat ca pe o persoană, nu ca pe o problemă. Modul în care ați gestionat oprirea nu a însemnat doar aplicarea unei legi de trafic — a modelat modul în care un om aflat în criză vede întreaga instituție a poliției.",
+        "keyLessons": [
+            "O prezentare profesională cu numele dumneavoastră și încălcarea specifică stabilește imediat legitimitatea și reduce suspiciunea șoferului că oprirea este arbitrară sau discriminatorie",
+            "Recunoașterea presiunii de timp sau a frustrării nu slăbește autoritatea — semnalează că vedeți șoferul ca pe o persoană cu o viață dincolo de această oprire, ceea ce câștigă cooperare în loc să extragă supunere",
+            "Insultele personale în timpul controalelor de trafic sunt aproape întotdeauna expresii ale stresului de fond, nu atacuri reale — reîncadrarea spre misiunea dumneavoastră de siguranță rutieră vă menține deasupra conflictului și modelează comportamentul pe care îl doriți",
+            "Transparența sub presiune — furnizarea numărului de insignă și afirmarea dreptului de a depune plângere — dezarmează ostilitatea mai eficient decât orice demonstrație de autoritate",
+            "Comenzile verbale clare și specifice în momentele de siguranță previn neînțelegerile care pot transforma controalele de rutină în situații periculoase — a-i spune șoferului exact unde să-și pună mâinile și când să se miște face diferența între control și haos",
+            "Discreția administrativă nu este slăbiciune — a ști când un avertisment servește mai bine siguranța rutieră și încrederea publică decât o amendă demonstrează maturitate și judecată profesională",
+            "Modul în care încheiați un control de trafic determină amintirea durabilă a șoferului despre întreaga interacțiune și ce le spune altora despre poliție — ultimele treizeci de secunde au un impact disproporționat asupra încrederii publice"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Dispeceratul și oprirea",
+            "sceneUpdate": {
+                "emoji": "🚓",
+                "title": "Marginea drumului — Primul contact",
+                "desc": "Târziu după-amiaza pe un drum arterial aglomerat. Ați oprit o berlină închisă la culoare pentru depășirea limitei de viteză cu 25 km/h. Șoferul, un bărbat la sfârșitul anilor treizeci purtând o cămașă șifonată, strânge volanul cu putere și este vizibil agitat. O femeie în vârstă pe locul pasagerului privește în jos, în poala ei, evitând contactul vizual."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unitate, verificarea înmatriculării berlinei închise la culoare arată un cazier curat. Proprietarul înregistrat este Novak, fără mandate active, fără opriri anterioare în sistem."
+                },
+                {
+                    "character": "driver",
+                    "text": "De ce m-ați oprit? N-am făcut nimic greșit!"
+                }
+            ],
+            "prompt": "Cum alegeți comunicarea inițială?",
+            "options": [
+                {
+                    "text": "Vă apropiați de geamul șoferului cu o postură calmă și măsurată, stabilind contactul vizual. 'Bună ziua, domnule. Sunt Ofițer Norton. V-am oprit pentru că radarul a înregistrat depășirea limitei de viteză cu 25 km/h la intersecția de acolo. Înțeleg că a fi oprit este frustrant, dar trebuie să vă informez motivul specific. Pot să văd permisul de conducere și certificatul de înmatriculare, vă rog?' Mențineți mâinile vizibile și tonul conversațional pe tot parcursul.",
+                    "feedback": "De ce: Prezentarea pe nume, încălcarea specifică și o cerere politicoasă de documente stabilesc un cadru profesional din prima propoziție. Șoferul știe cine sunteți, de ce a fost oprit și ce aveți nevoie — eliminând ambiguitatea și suspiciunea că oprirea este arbitrară. | CONSECINȚE: Domnul Novak strânge din maxilar dar întinde mâna după documente. Știe că este legitim. Mama sa de pe locul pasagerului se relaxează ușor — ofițerul sună profesional, nu agresiv. Interacțiunea are o bază de transparență. | Reflecție: Cum schimbă furnizarea numelui dumneavoastră și a încălcării specifice din prima propoziție întreaga traiectorie a unui control de trafic?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă apropiați de geamul șoferului la un unghi ușor, cu o mână pe centură, și vă aplecați să vorbiți prin fereastra deschisă. 'Bună ziua. V-am oprit pentru depășirea vitezei pe drumul principal. Voi avea nevoie de permis și certificatul de înmatriculare, vă rog.' Aruncați o scurtă privire spre pasageră, observându-i postura anxioasă, apoi vă întoarceți atenția la șofer, așteptând cu o expresie neutră documentele, fără a vă oferi numele sau viteza exactă.",
+                    "feedback": "De ce: Menționați motivul opririi și rămâneți politicos, ceea ce este mai bine decât o cerere rece de documente. Însă omiteți să vă prezentați și nu specificați detaliile încălcării, lăsând șoferul fără transparența completă care construiește încredere. | CONSECINȚE: Șoferul se conformează dar rămâne sceptic în legătură cu legitimitatea opririi. Pasagera aruncă o privire nervoasă în sus. Tensiunea nu crește dar nici încrederea nu se stabilește pe deplin. | Reflecție: Cât de multe detalii despre încălcare ar trebui să oferiți de la început pentru a preveni ca șoferul să simtă că oprirea este arbitrară?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă apropiați de geam cu o expresie plată, de afaceri, și bateți de două ori pe plafonul mașinii pentru a atrage atenția șoferului. 'Bună ziua, permisul și certificatul de înmatriculare, vă rog.' Întindeți mâna spre șofer, cu palma deschisă, și așteptați. Fără nume, fără explicație, fără contact vizual cu pasagera — doar o cerere procedurală seacă, livrată pe un ton monoton care nu îi oferă șoferului absolut nicio informație despre motivul opririi.",
+                    "feedback": "De ce: Non-confrontațional dar rece. Lipsa unei prezentări și a motivului opririi înseamnă că șoferul nu are nicio informație despre de ce a fost oprit. Umple acel gol cu suspiciune și resentiment. | CONSECINȚE: Domnul Novak se uită fix la dumneavoastră: 'Pentru ce? Ce am făcut?' Mama sa șoptește ceva. Cooperarea continuă dar tensiunea persistă pentru că nu ați răspuns la cea mai elementară întrebare din mintea lui. | Reflecție: Ce v-ar ajuta pe dumneavoastră personal să acceptați o intervenție cu mai puțină rezistență?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă apropiați hotărât de geam cu maxilarul încleștat și vă aplecați aproape de fața șoferului. Îndreptați un deget direct spre pieptul lui și vorbiți pe un ton scăzut, tăios: 'Calmați-vă și arătați-mi documentele, altfel va fi mai rău pentru dumneavoastră.' Cealaltă mână se sprijină vizibil pe centura de echipament. Femeia în vârstă de pe locul pasagerului tresare la tăișul vocii dumneavoastră. Vă mențineți poziția, fixându-l pe șofer cu privirea, făcând clar că aceasta este o comandă, nu o conversație.",
+                    "feedback": "De ce: O amenințare chiar de la început escaladează o situație care era doar tensionată într-una adversarială. Șoferul nu a făcut nimic care să justifice o amenințare — și-a exprimat frustrarea. Deschiderea cu intimidare semnalează că această oprire este despre putere, nu despre siguranță. | CONSECINȚE: Ochii domnului Novak se măresc, apoi se îngustează. 'Mă amenințați?' Mama sa întinde mâna după telefon. Dinamica pasagerilor s-a schimbat — acum ambii ocupanți percep pericol. Fiecare interacțiune ulterioară poartă greutatea acestei deschideri. | Reflecție: Cât de des amenințările de la începutul unui control de trafic duc de fapt la cooperare versus sfidare?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Șoferul grăbit",
+            "sceneUpdate": {
+                "emoji": "🕒",
+                "title": "Presiune nervoasă de timp",
+                "desc": "Șoferul bate nerăbdător pe volan, uitându-se repetat la ceas. Mama sa îi pune o mână pe braț, încercând să-l calmeze. Stresul din mașină este palpabil — în mod clar este vorba de ceva mai mult decât o amendă de viteză."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "Putem grăbi? Întârzii la o întâlnire care ar putea decide dacă îmi păstrez slujba!"
+                },
+                {
+                    "character": "passenger",
+                    "text": "(încet, către șofer) Cooperează, te rog..."
+                }
+            ],
+            "prompt": "Cum răspundeți la presiunea de timp fără a pierde autoritatea?",
+            "options": [
+                {
+                    "text": "Dați ușor din cap și coborâți clipboard-ul lângă corp, oferindu-i șoferului toată atenția dumneavoastră. 'Înțeleg că vă grăbiți și că această întâlnire contează pentru dumneavoastră — văd stresul. Voi face tot posibilul să rezolv cât mai repede, vă promit. Dacă cooperăm și trecem împreună prin asta, veți fi din nou pe drum în curând.' Aruncați o scurtă privire spre mama sa, recunoscându-i îngrijorarea tăcută, apoi vă întoarceți la documente cu eficiență concentrată.",
+                    "feedback": "De ce: Empatie plus încurajare la cooperare. Recunoașteți preocuparea specifică — întâlnirea — în loc să o respingeți. Încadrarea cooperării ca cea mai rapidă cale înainte oferă urgenței șoferului o ieșire productivă. Mama sa aude un ofițer profesionist care este rezonabil. | CONSECINȚE: Domnul Novak expiră. Bătutul pe volan încetează. Înmânează documentele fără alte proteste. Ușurarea tacită a mamei sale este vizibilă. Interacțiunea trece de la confruntare la colaborare pentru că i-ați validat realitatea fără a vă abandona procesul. | Reflecție: Cum transformă legarea cooperării de viteză urgența șoferului dintr-un obstacol într-un aliat?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Ridicați privirea de la documentele pe care le verificați și faceți o scurtă pauză. 'Înțeleg că vă grăbiți — nimeni nu vrea să stea blocat pe marginea drumului. Să procesez asta cât mai repede posibil.' Vă întoarceți atenția la acte, lucrând metodic dar fără a încetini deliberat, dând un scurt semn din cap pentru a recunoaște situația, fără a-i oferi însă vreo încadrare despre cum cooperarea lui ar putea grăbi lucrurile și mai mult.",
+                    "feedback": "De ce: Recunoașteți presiunea de timp și vă angajați la eficiență, ceea ce arată o oarecare empatie. Însă ratați ocazia de a încadra cooperarea ca cea mai rapidă cale înainte — fără această încadrare, șoferul poate continua să insiste și să întrerupă în loc să ajute procesul să avanseze. | CONSECINȚE: Șoferul este oarecum liniștit dar continuă să întrebe cât mai durează. Mama sa oftează. Oprirea continuă fără fricțiuni majore dar și fără cooperare deplină. | Reflecție: Cum schimbă legarea explicită a cooperării de viteză comportamentul șoferului în timpul opririi?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Mențineți privirea fixată pe permisul din mână și răspundeți pe un ton plat, tăios, fără a ridica ochii. 'Vă rog cooperați ca să putem termina rapid.' Întoarceți permisul pe verso, verificați spatele, apoi începeți să scrieți pe clipboard. Nicio recunoaștere a întâlnirii, nicio reacție la grija întipărită pe fața lui, nicio indicație că ați înregistrat altceva dincolo de sarcina procedurală din fața dumneavoastră. Cererea plutește în aer ca o instrucțiune dintr-un manual.",
+                    "feedback": "De ce: Faptic dar lipsit de empatie. Cereți cooperare fără a recunoaște motivul din spatele urgenței sale. Șoferul aude o instrucțiune, nu înțelegere. | CONSECINȚE: Domnul Novak mormăie ceva. Mama sa vă urmărește atent. Construirea relației este minimă și tensiunea dintre dumneavoastră și șofer persistă pe tot parcursul opririi. | Reflecție: Ce singură propoziție ați putea adăuga pentru ca acest răspuns să sune ca o persoană care vorbește, nu ca o procedură care vorbește?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Ridicați privirea de la documente și îl fixați cu o privire dură, maxilarul încordându-vi-se. 'Întâlnirea dumneavoastră nu e problema mea. Trebuia să vă gândiți la asta înainte de a conduce cu 25 peste limită.' Lăsați cuvintele să cadă greu, apoi vă uitați din nou la acte și continuați să scrieți fără să vă grăbiți. Mâna mamei se strânge pe brațul fiului ei. Tăcerea care urmează este mai grea decât orice ceartă — tocmai i-ați spus unui om disperat că disperarea lui este vina lui.",
+                    "feedback": "De ce: Respingător și condescendent. I-ați spus unui om a cărui existență este în joc că preocupările lui sunt irelevante pentru dumneavoastră. Aceasta este faptic adevărat dar emoțional devastator — și emoția dictează comportamentul în timpul controalelor de trafic. | CONSECINȚE: Fața domnului Novak se întărește. 'Incredibil.' Mama sa pare lovită. Impresia de hărțuire se formează imediat și riscul unei plângeri — sau al unui videoclip viral — crește dramatic. | Reflecție: Cum afectează respingerea stresului real al cuiva percepția lui asupra fiecărui lucru pe care îl spuneți și faceți ulterior?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Atacuri personale",
+            "sceneUpdate": {
+                "emoji": "💢",
+                "title": "Abuz verbal",
+                "desc": "Frustrarea șoferului a dat în clocot. Acum insultă deschis poliția — numind oprirea 'hărțuire' și 'o pierdere inutilă de timp'. Vocea îi este ridicată și fața îi este roșie. Mama sa este vizibil supărată, rugându-l încet să se oprească."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "N-aveți nimic mai bun de făcut decât să hărțuiți oamenii cumsecade?! Asta e hărțuire — hărțuire pură!"
+                },
+                {
+                    "character": "passenger",
+                    "text": "(supărată) Te rog, fiule, lasă-l pe ofițer să-și facă treaba..."
+                }
+            ],
+            "prompt": "Șoferul este verbal abuziv și pasagera este supărată. Cum răspundeți?",
+            "options": [
+                {
+                    "text": "Trageți o respirație lentă, deliberată, și vă mențineți vocea stabilă, vorbind pe un ton calm care trece prin țipetele lui fără a concura cu ele. 'Înțeleg că sunteți stresat și că vă grăbiți — aud asta și nu o resping. Datoria mea este să asigur siguranța rutieră, și acesta este singurul motiv pentru care sunt aici astăzi. Să încheiem asta calm ca să puteți ajunge la întâlnire.' Mențineți un limbaj corporal deschis și aruncați o scurtă privire spre mama sa, recunoscându-i suferința.",
+                    "feedback": "De ce: Recunoașterea emoției validează omul din spatele insultei. Reîncadrarea spre siguranța rutieră mută conversația de la 'dumneavoastră contra mine' la 'amândoi contra problemei'. Includerea întâlnirii arată că ați ascultat mai devreme. Mama sa aude profesionalism sub presiune — exact ceea ce recomandă cercetările de dezescaladare. | CONSECINȚE: Domnul Novak face o pauză. Reîncadrarea funcționează — când oprirea este despre siguranța rutieră și nu despre autoritate, insultele lui își pierd ținta. Mama sa mișcă buzele 'mulțumesc'. Intensitatea scade pentru că ați dat frustrării un loc unde să se ducă fără a o egala. | Reflecție: Cum schimbă încadrarea misiunii dumneavoastră în loc de apărarea personală zona creierului din care răspunde șoferul?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă mutați ușor greutatea înapoi de la geam, acordându-i puțin mai mult spațiu, și răspundeți cu o voce măsurată când apare o pauză în țipetele lui. 'Vă aud frustrarea, domnule — chiar o aud. Să termin de procesat asta și puteți merge mai departe.' Vă uitați în jos la acte și continuați să lucrați eficient, sperând că ritmul calm îl va liniști, dar nu explicați de ce contează oprirea și nu reîncadrați interacțiunea în jurul scopului ei de siguranță rutieră.",
+                    "feedback": "De ce: Recunoașteți pe scurt frustrarea șoferului, ceea ce este mai bine decât să o ignorați complet. Însă nu reîncadrați oprirea în jurul scopului ei — siguranța rutieră — ceea ce înseamnă că șoferul continuă să o vadă ca hărțuire inutilă în loc de datorie legitimă. Fără acea reîncadrare, calmați momentul dar nu resentimentul de bază. | CONSECINȚE: Insultele încetează temporar dar șoferul rămâne convins că oprirea a fost nejustificată. Mama sa se relaxează ușor. Conformarea se îmbunătățește fără schimbarea genuină a atitudinii. | Reflecție: Care este diferența între a recunoaște frustrarea și a o redirecționa spre înțelegerea scopului dumneavoastră?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Expresia dumneavoastră devine goală și controlată, o mască deliberată. Vă îndreptați ușor spatele și lăsați o clipă de tăcere să treacă înainte de a vorbi pe un ton scăzut, egal. 'Nu voi răspunde la insulte. Continui cu procedura.' Vă întoarceți atenția la documente fără a recunoaște frustrarea lui sau suferința mamei sale — fără empatie, fără reîncadrare, fără recunoașterea faptului că un om tocmai a strigat la dumneavoastră din frică. Tăcerea care urmează este rigidă și fragilă.",
+                    "feedback": "De ce: Aceasta previne o ceartă și vă menține demnitatea, dar nu face nimic pentru a calma situația. Ignorarea unei emoții puternice fără recunoaștere lasă șoferul să se simtă neauzit, ceea ce cercetările arată că perpetuează ostilitatea în loc să o rezolve. | CONSECINȚE: Domnul Novak își dă ochii peste cap dar încetează să strige. Mama sa se uită între voi doi nesigur. Tensiunea persistă ca o respirație ținută — fără escaladare, dar fără dezescaladare. Restul opririi se desfășoară într-o tăcere rece și fragilă. | Reflecție: Când este eficient să ignorați emoția și când pur și simplu îngheață un conflict în loc să îl rezolve?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Simțiți cum vi se urcă sângele în cap și, înainte să vă puteți opri, vă aplecați în geam și îndreptați un deget spre șofer. 'Aveți grijă la cuvinte. Continuați așa și ați putea primi mai mult decât o amendă de viteză.' Vocea vi se coboară la un ton amenințător. Mama lui, care îl ruga încet pe fiul ei să se calmeze, acum vă privește pe dumneavoastră cu ochii mari — amenințarea a mutat frica de la comportamentul fiului ei la al dumneavoastră. Confruntarea a trecut într-o treaptă nouă.",
+                    "feedback": "De ce: Amenințările ca răspuns la insulte sunt cea mai rapidă cale de escaladare într-un control de trafic. Șoferul v-a insultat verbal — ați răspuns cu o amenințare implicită de consecințe juridice suplimentare. Aceasta este disproporționată și transformă o persoană frustrată într-una ostilă. Mama sa devine martoră la intimidare. | CONSECINȚE: Domnul Novak explodează: 'Este o amenințare?! Vreau numărul dumneavoastră de insignă ACUM.' Mama sa începe să filmeze cu telefonul. Oprirea a trecut de la tensiune la conflict real — și este pe cameră. | Reflecție: Ce vă împiedică să luați atacurile personale personal și ce se întâmplă când nu reușiți să mențineți această graniță?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Înregistrare și identificare",
+            "sceneUpdate": {
+                "emoji": "📱",
+                "title": "Vreau datele dumneavoastră",
+                "desc": "Șoferul și-a scos telefonul și filmează interacțiunea. Mama sa de pe locul pasagerului ține și ea telefonul, deși îl ține mai jos, mai puțin confruntațional. Șoferul cere numele și numărul dumneavoastră de insignă, amenințând cu o plângere formală."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "Filmez totul și depun plângere. Cum vă numiți și care e numărul de insignă? Vreau totul înregistrat."
+                }
+            ],
+            "prompt": "Două persoane vă filmează și șoferul cere identificarea dumneavoastră. Cum gestionați asta transparent?",
+            "options": [
+                {
+                    "text": "Stați calm, cu umerii drept spre cameră, fără a tresări sau a vă feri. 'A depune o plângere este absolut dreptul dumneavoastră, domnule, și îl respect. Sunt Ofițer John Norton, număr de insignă 45879.' Vorbiți clar spre telefon ca înregistrarea să capteze fiecare cuvânt. 'Sunteți binevenit să filmați — nu am nimic de ascuns. Voi continua acum cu procedura legală.' Faceți un scurt semn profesional din cap și vă întoarceți la documente, cu o atitudine care radiază încredere sub scrutin.",
+                    "feedback": "De ce: Transparență deplină, afirmarea explicită a drepturilor și continuarea cu încredere. Afirmarea simultană a dreptului de a depune plângere și a dreptului de a filma dezarmează armele șoferului. 'Nu am nimic de ascuns' semnalează o cultură a responsabilității pe care majoritatea cetățenilor nu au întâlnit-o niciodată din partea poliției. | CONSECINȚE: Domnul Novak clipește — se aștepta la rezistență. Mama sa coboară ușor telefonul. Amenințarea cu plângerea își pierde puterea când o primiți cu bucurie. Înregistrarea devine un document al profesionalismului în loc de o captură. | Reflecție: De ce construiește primirea favorabilă a controlului mai multă autoritate decât rezistența la acesta?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Aruncați o scurtă privire spre telefon, neimpresionat, și răspundeți pe un ton cooperant. 'Desigur. Sunt Ofițer Norton.' Indicați insigna prinsă pe piept. 'Numărul meu de insignă este aici pe uniformă — îl puteți citi clar.' Faceți o pauză scurtă, apoi adăugați: 'Să continuăm.' Nu afirmați explicit dreptul șoferului de a depune plângere sau de a filma, iar faptul că indicați uniforma în loc să rostiți numărul verbal lasă pe umerii șoferului efortul de a-l citi singur.",
+                    "feedback": "De ce: Furnizați numele și indicați insigna, ceea ce arată disponibilitate de a fi identificat. Însă nu afirmați explicit dreptul șoferului de a depune plângere, și a indica uniforma în loc de a spune numărul verbal poate părea ușor disprețuitor — mai ales când șoferul filmează și dorește o înregistrare verbală clară. | CONSECINȚE: Șoferul vă notează numele dar rămâne ușor nesatisfăcut. Mama sa continuă să filmeze. Interacțiunea continuă fără conflict major dar fără încrederea deplină pe care o construiește transparența explicită. | Reflecție: De ce afirmarea verbală a dreptului cuiva de a depune plângere — chiar și când este ostil — construiește mai multă încredere decât simpla conformare cu cererea?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Abia aruncați o privire spre telefonul îndreptat în direcția dumneavoastră și lăsați o expirație scurtă, disprețuitoare, prin nas. 'Depuneți plângere dacă doriți — datele mele sunt pe uniformă.' Faceți un gest vag spre insignă ridicând bărbia, apoi vă întoarceți la acte fără a vă rosti numele sau numărul cu voce tare. Tonul se situează undeva între indiferență și provocare, de parcă l-ați provoca să ducă plângerea până la capăt, în loc să îi susțineți dreptul de a o face.",
+                    "feedback": "De ce: Formal corect dar tonul spune 'nu-mi pasă de sentimentele dumneavoastră'. A indica insigna de pe uniformă în timp ce sunteți filmat creează o impresie de indiferență care arată prost pe video. Șoferul dorea un răspuns verbal; i-ați dat un gest. | CONSECINȚE: Domnul Novak citește singur insigna și o rostește cu voce tare pentru cameră. Mama sa filmează insigna de aproape. Tensiunea scade ușor dar interacțiunea pare adversarială mai degrabă decât profesională. Sunteți documentat, nu vi se cooperează. | Reflecție: Ce ați putea adăuga la acest răspuns pentru ca acesta să nu sune arogant sau disprețuitor pentru cineva care îl va viziona ulterior pe video?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă încordați vizibil, iar vocea capătă o nuanță defensivă. 'Nu aveți niciun temei de plângere — am făcut totul conform regulilor și o știți foarte bine.' Vă încrucișați brațele pe piept pentru o clipă, apoi realizați că telefonul încă filmează și vă lăsați mâinile pe lângă corp. 'Voi continua acum cu procedura legală.' Mama sa ajustează unghiul telefonului. Tocmai ați negat dreptul unui cetățean de a depune plângere în timp ce erați filmat — cuvinte pe care orice supervizor le va auzi.",
+                    "feedback": "De ce: Negarea dreptului unui cetățean de a depune plângere este atât incorect din punct de vedere legal cât și catastrofal strategic. Nu dumneavoastră decideți dacă cineva are temei de plângere — aceasta este pentru procesul de evaluare. A spune asta pe cameră creează dovada negării drepturilor pe care orice supervizor sau avocat o va semnala imediat. | CONSECINȚE: Domnul Novak este uluit: 'Tocmai ați spus că nu pot depune plângere?' Mama sa face zoom. Acest clip, dacă este postat, își scrie singur titlul. Oprirea a devenit o problemă de drepturi civile în loc de o amendă de viteză. | Reflecție: Ce se întâmplă când un ofițer neagă drepturile procedurale ale unui cetățean pe cameră și cum umbrește acel singur moment tot ce ați făcut corect?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Mișcare neașteptată către torpedou",
+            "sceneUpdate": {
+                "emoji": "✋",
+                "title": "Mâinile vizibile",
+                "desc": "În timp ce procesați documentele, șoferul se apleacă brusc spre torpedou. Mama sa tresare la mișcarea bruscă. Șoferul mormăie ceva despre cartela de asigurare. Acesta este un moment critic de siguranță a ofițerului — mișcarea neașteptată în timpul unei opriri necesită un răspuns imediat și clar."
+            },
+            "npcDialogue": [
+                {
+                    "character": "passenger",
+                    "text": "(speriată) Oh! Are nevoie doar de cartela de asigurare, domnule ofițer — este în torpedou."
+                }
+            ],
+            "prompt": "Șoferul a făcut o mișcare bruscă spre torpedou. Pasagera încearcă să ajute cu o explicație. Cum echilibrați siguranța și comunicarea calmă?",
+            "options": [
+                {
+                    "text": "Ridicați o mână într-un gest clar de oprire și vorbiți pe un ton ferm dar controlat. 'Domnule, vă rog puneți mâinile înapoi pe volan chiar acum. Mulțumesc.' Odată ce mâinile sunt pe volan, vă întoarceți spre pasageră cu un semn din cap. 'Apreciez că m-ați informat despre cartela de asigurare, doamnă — ajută foarte mult.' Apoi din nou către șofer: 'Domnule, când vă spun eu, vreau să vă întindeți încet în torpedou. Înainte să vă mișcați, spuneți-mi exact unde este cartela ca amândoi să știm ce urmează.'",
+                    "feedback": "De ce: Instrucțiune clară și specifică urmată de recunoașterea contribuției utile a pasagerei. Ați abordat mai întâi preocuparea de siguranță, apoi ați validat explicația, apoi ați oferit o cale controlată înainte. Specificitatea — volan, încet, spuneți-mi unde — elimină ambiguitatea. Mulțumirea adresată mamei o include ca aliată în loc să o ignore. | CONSECINȚE: Domnul Novak își pune mâinile pe volan. Mama sa se relaxează — a fost auzită. Șoferul spune 'în partea dreaptă, în dosar' și se întinde încet când i se indică. O potențială criză devine un moment de siguranță din manual pentru că toată lumea știa exact ce să facă și când. | Reflecție: Cum schimbă oferirea de instrucțiuni specifice — 'volan' față de 'unde le pot vedea' — viteza și certitudinea conformării?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Faceți un pas rapid înapoi de la geam, cu mâna mișcându-se instinctiv spre centură dar fără a ajunge la toc. 'Domnule, vă rog opriți-vă. Țineți mâinile unde le pot vedea.' Vocea dumneavoastră este ascuțită dar nu panicată. Faceți o pauză, apoi adăugați: 'După ce vă întindeți?' Pasagera a explicat deja că este cartela de asigurare, dar nu o recunoașteți pe ea — atenția dumneavoastră este în totalitate pe șofer, lăsând-o ignorată, iar instrucțiunea destul de vagă încât niciunul din ocupanți nu știe exact ce doriți.",
+                    "feedback": "De ce: Emiteți o comandă verbală și cereți clarificare, ceea ce este mai bine decât intervenția fizică sau tăcerea. Însă 'țineți mâinile unde le pot vedea' fără a specifica unde — volanul — este vag, și întrebați după ce se întinde fără a securiza mai întâi situația. Pasagera v-a spus deja, dar nu ați recunoscut-o. | CONSECINȚE: Șoferul face o pauză și explică că este cartela de asigurare. Mama sa se repetă, simțindu-se ignorată. Situația se stabilizează dar momentul de incertitudine durează mai mult decât era necesar pentru că instrucțiunile dumneavoastră au fost lipsite de specificitate. | Reflecție: Cum diferă o instrucțiune fizică specifică ('mâinile pe volan') de una generală ('mâinile unde le pot vedea') în termeni de claritate și conformare?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă retrageți de la vehicul într-o singură mișcare rapidă, cu mâna pe toc, și așteptați în tăcere ca șoferul să explice. Nicio comandă verbală, nicio recunoaștere a explicației pasagerei — doar semnalul vizual al unui ofițer care a trecut într-o postură defensivă. Șoferul îngheață, privind fix mâna dumneavoastră pe armă, nesigur dacă să vorbească, să se miște sau să stea perfect nemișcat. Mama sa vede un ofițer înarmat și nicio vorbă, ceea ce umple tăcerea cu maximă incertitudine și teamă.",
+                    "feedback": "De ce: Crește siguranța dumneavoastră fizică dar fără instrucțiuni verbale incertitudinea crește pentru toți din mașină. Șoferul nu știe ce doriți de la el. Mama sa vede un ofițer cu mâna pe armă și fără cuvinte — teamă maximă. Tăcerea într-un moment de siguranță este un eșec al comunicării. | CONSECINȚE: Domnul Novak îngheață, confuz. Mama sa exclamă și îl apucă pe fiul ei de braț. Șoferul își ridică încet mâinile de unul singur, ghicind ce doriți. Momentul se rezolvă dar frica pe care a generat-o persistă pe tot restul opririi. | Reflecție: Când crește tăcerea riscul în loc să îl reducă și ce comunică o mână pe toc unui pasager care nu știe ce se întâmplă?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Reacționați din instinct — mâna vi se strecoară prin geam și îl apucați tare de braț, trăgându-l înapoi de la torpedou. 'Ce credeți că faceți?!' strigați, vocea reverberând în interiorul mașinii. 'Țineți mâinile unde le pot vedea!' Șoferul tresare de șoc și durere, cotul lovind consola centrală. Mama sa țipă și se lipește de portiera pasagerului. Telefonul pe care îl ținea captează strigătul și apucarea în audio clar și video tremurând.",
+                    "feedback": "De ce: Intervenție fizică și voce ridicată fără un avertisment verbal prealabil. Șoferul întindea mâna după o cartelă de asigurare — un document de care veți avea nevoie. Mama sa este în mașină, urmărind cum îl apucați pe fiul ei. Aceasta transformă un moment de conformare într-un moment de folosire a forței cu un martor care filmează totul. | CONSECINȚE: Domnul Novak tresare de șoc și durere. Mama sa țipă. Telefonul pe care îl ținea captează audio-ul strigătului și al apucării. Cartela de asigurare cade pe podea. O recuperare de rutină a unui document a devenit un raport de incident, o plângere și posibil un videoclip viral. | Reflecție: Cum vă asigurați că comenzile verbale preced întotdeauna intervenția fizică și care este costul inversării acestei secvențe?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Mama vorbește",
+            "sceneUpdate": {
+                "emoji": "👵",
+                "title": "Îngrijorarea unei mame",
+                "desc": "Momentul cu torpedoul a trecut. Mâinile domnului Novak sunt înapoi pe volan, cartela de asigurare recuperată. Dar spaima de moment a schimbat atmosfera. Doamna Novak, care a urmărit în tăcere întreaga oprire, vorbește brusc. Vocea ei este fermă dar încordată — nu furioasă, ci purtând greutatea a ceva ce a ținut în ea. Vă privește direct."
+            },
+            "npcDialogue": [
+                {
+                    "character": "passenger",
+                    "text": "(privind în sus spre dumneavoastră, voce încordată dar controlată) Domnule ofițer, vreau să-mi cer scuze pentru comportamentul fiului meu. Nu este așa de obicei. Este un om bun — un tată bun. Dar a fost sub atâta presiune în ultima vreme. Aproape am pierdut... (se oprește, aruncând o privire spre fiul ei) Abia doarme. Muncește toată ziua și stă în spitale noaptea. L-am pus să mă aducă azi pentru că altfel nu mânca. Vă rog — spuneți-mi doar ce trebuie să facem și vom face."
+                },
+                {
+                    "character": "driver",
+                    "text": "(încet, fără să se uite la dumneavoastră) Mama, nu."
+                }
+            ],
+            "prompt": "Doamna Novak a dezvăluit indicii ale unei crize familiale mai profunde încercând să-și protejeze fiul. Șoferul a amuțit. Cum răspundeți la această schimbare?",
+            "options": [
+                {
+                    "text": "Vă înmuiați postura și vorbiți blând către doamna Novak, coborând vocea astfel încât să transmită căldură în loc de autoritate. 'Doamnă, nu trebuie să vă cereți scuze. Văd că este o perioadă dificilă pentru familia dumneavoastră și apreciez că mi-ați spus — mă ajută să înțeleg mai bine situația. Voi termina cât mai repede posibil.' Vă întoarceți spre domnul Novak cu un semn respectuos din cap. 'Domnule, mama dumneavoastră veghează asupra dumneavoastră. Să rezolvăm asta ca să puteți pleca amândoi unde trebuie să ajungeți.'",
+                    "feedback": "De ce: Recunoașterea dezvăluirii doamnei Novak fără a insista pe detalii îi respectă limitele validând în același timp riscul emoțional pe care l-a asumat. Mulțumirea pentru ce a împărtășit semnalează că vulnerabilitatea este în siguranță cu dumneavoastră. Redirecționarea către domnul Novak cu o notă despre grija mamei sale reîncadrează dinamica — el nu este un șofer ostil care este procesat, este un fiu a cărui mamă este îngrijorată. Trecerea de la adversarial la uman este acum aproape completă. | CONSECINȚE: Ochii doamnei Novak se umezesc. Strânsoarea domnului Novak pe volan se relaxează. Pentru prima dată în timpul opririi, niciunul dintre ocupanți nu vă vede ca pe inamic. Intervenția mamei a făcut punte peste tensiune, iar răspunsul dumneavoastră a onorat-o. Scena este pregătită pentru ca orice urmează să aibă un impact diferit. | Reflecție: Când o terță persoană dezvăluie context emoțional, cum schimbă răspunsul dumneavoastră față de ea disponibilitatea subiectului principal de a fi vulnerabil?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Dați politicos din cap spre doamna Novak, stabilind un scurt contact vizual. 'Apreciez că ați spus asta, doamnă. Văd că este stresant pentru amândoi și îmi pare rău că treceți prin asta. Am aproape terminat aici.' Tonul dumneavoastră este amabil dar expeditiv — lăsați sentimentul să se înregistreze o clipă, apoi vă uitați din nou la documente și continuați să le procesați. Nu vă adresați separat domnului Novak și nu construiți pe deschiderea pe care mama lui tocmai a oferit-o. Momentul de conexiune este recunoscut dar nu aprofundat.",
+                    "feedback": "De ce: Politicos și empatic la suprafață, dar ați trecut rapid peste dezvăluirea ei fără a vă implica cu adevărat. Ea și-a asumat un risc emoțional — a vorbit pentru fiul ei, a făcut aluzie la ceva grav — și a primit o respingere politicoasă. 'Am aproape terminat' este liniștitor dar tranzacțional. Momentul a fost o deschidere pentru o conexiune genuină, și ați lăsat-o să se închidă. | CONSECINȚE: Doamna Novak dă din cap dar privește din nou în jos. Domnul Novak rămâne tăcut. Tensiunea s-a redus ușor pentru că ea a vorbit, dar răspunsul dumneavoastră nu a aprofundat încrederea pe care ea o oferea. Oprirea continuă profesional dar fără profunzimea umană pe care acest moment ar fi putut-o oferi. | Reflecție: Când cineva face aluzie la o poveste mai profundă, care este costul recunoașterii ei politicoase versus implicării genuine?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Aruncați o scurtă privire spre doamna Novak pe când termină de vorbit, dar nu îi răspundeți deloc. În schimb, vă adresați direct domnului Novak pe un ton de afaceri. 'Domnule, termin actele. Veți primi documentele înapoi în curând.' Vă întoarceți la clipboard fără a recunoaște nimic din ce a spus femeia în vârstă — nici scuzele ei, nici aluzia la o criză familială, nici rugămintea ei. Este ca și cum nu ar fi vorbit niciodată. Ea se retrage în scaunul ei, vizibil jenată.",
+                    "feedback": "De ce: Concentrat pe procedură dar surd emoțional. Doamna Novak tocmai s-a făcut vulnerabilă — a vorbit pentru fiul ei, a făcut aluzie la o criză familială, și-a cerut scuze pentru comportamentul lui. A o ignora complet semnalează că nimic din ce a spus nu a contat. Pentru domnul Novak, urmărind un ofițer cum respinge cuvintele mamei sale, reîntărește tot ce crede deja despre această oprire. Pentru doamna Novak, a fi ignorată după ce a vorbit o învață că a apela la autoritate a fost inutil. | CONSECINȚE: Doamna Novak privește în altă parte, jenată că a vorbit. Maxilarul domnului Novak se încordează — mama sa a fost ignorată. Scurta fereastră de conexiune umană se închide. Restul opririi se desfășoară într-o tăcere procedurală rece. | Reflecție: Când ignorați pe cineva care a vorbit în vulnerabilitate, ce îl învață asta despre a vorbi cu autoritatea în viitor?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă aplecați mai aproape de geamul pasagerei, cu ochii îngustându-se cu interes, și vă adresați doamnei Novak pe un ton investigativ. 'Ce vreți să spuneți cu aproape am pierdut pe cineva? Există ceva ce ar trebui să știu?' Ea se oprise deliberat la mijlocul frazei — aruncase o privire spre fiul ei și se retrasese — iar acum îi cereți să dezvăluie exact ce a ales să rețină. Domnul Novak se încordează lângă ea. Întrebarea o pune pe femeia în vârstă într-o poziție imposibilă: să expună criza privată a fiului ei sau să refuze și să pară evazivă.",
+                    "feedback": "De ce: A insista pentru detalii când cineva s-a oprit deliberat la mijlocul frazei este invaziv. Doamna Novak a ales să se rețină — s-a uitat la fiul ei și s-a retras. A cere informația pe care a ales să nu o împărtășească îi încalcă limitele și o pune într-o poziție imposibilă: să dezvăluie criza privată a fiului ei unui ofițer de poliție în timpul unui control de trafic, sau să refuze și să pară evazivă. Ați transformat deschiderea ei într-un interogatoriu. | CONSECINȚE: Doamna Novak îngheață. Domnul Novak răsare: 'A spus nu — lăsați-mi mama în pace.' Dinamica se inversează instantaneu. Mama care era aliata dumneavoastră este acum cineva pe care sunteți perceput că o presați. Fiul care se înmuia este acum protector și din nou ostil. | Reflecție: Care este diferența între a asculta ce oferă cineva și a cere mai mult decât este gata să dea?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Situația personală dezvăluită",
+            "sceneUpdate": {
+                "emoji": "😔",
+                "title": "Adevărata poveste",
+                "desc": "Tensiunea s-a rupt. Umerii domnului Novak se lasă iar vocea îi scade. Mama sa întinde mâna și îi strânge mâna. Furia l-a părăsit, înlocuită de epuizare și vulnerabilitate. Ceea ce a început ca ostilitate s-a dezvăluit ca disperare."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "Îmi pare rău, domnule ofițer. Îmi pare rău pentru tot ce am spus. Fiica mea are leucemie. Are șapte ani. Și compania mea face concedieri — mă grăbeam la o întâlnire cu supervizorul meu pentru că cred că numele meu este pe listă. Dacă pierd slujba, pierd asigurarea ei de sănătate. Asta e tot la ce mă gândesc."
+                },
+                {
+                    "character": "passenger",
+                    "text": "(cu vocea frântă) E adevărat, domnule ofițer. Micuța Anicka a fost diagnosticată acum trei luni. El a ținut totul pe picioare de unul singur. Vă rog..."
+                }
+            ],
+            "prompt": "Șoferul și-a cerut scuze și a dezvăluit suferința personală reală. Mama sa a confirmat. Cum încheiați această chestiune cu considerație și legalitate?",
+            "options": [
+                {
+                    "text": "Faceți o pauză, lăsând cuvintele lui să se așeze, apoi vorbiți cu o voce liniștită și stabilă. 'Vă apreciez onestitatea, domnule, și îmi pare sincer rău pentru fiica dumneavoastră. Văd că sunteți sub o presiune enormă și respect faptul că mi-ați spus.' Închideți carnetul de citații și îl glisați înapoi în vestă. 'De data aceasta voi emite un avertisment — depășirea de viteză este notată în sistem dar fără amendă. Vă rog conduceți cu grijă de aici înainte. Familia dumneavoastră are nevoie de dumneavoastră în siguranță, nu în viteză. Mergeți la întâlnire.'",
+                    "feedback": "De ce: Discreție administrativă potrivită pentru o primă încălcare moderată cu circumstanțe atenuante reale. Recunoașteți scuzele, validați suferința, exercitați o judecată proporțională și încheiați cu o notă umană care reîncadrează condusul sigur ca ceva ce face pentru familia sa — nu pentru dumneavoastră. | CONSECINȚE: Ochii domnului Novak se umezesc. Mama sa mișcă buzele 'mulțumesc'. Șoferul va ajunge la întâlnire cu cincisprezece minute întârziere dar calm — și le va spune colegilor că ofițerul care l-a oprit a fost decent și corect. Încrederea în poliție crește cu o familie. | Reflecție: Cum recunoașteți când un avertisment servește mai bine siguranța rutieră și încrederea publică decât o amendă — și ce vă dă încrederea să folosiți această discreție?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Priviți șoferul cu simpatie sinceră, dând încet din cap pe când termină de vorbit. 'Îmi pare rău să aud de situația dumneavoastră — cu adevărat. Este o povară grea de dus.' Scoateți citația de pe clipboard și începeți să completați suma. 'Voi emite amenda conform procedurii, dar vreau să știți că vă apreciez onestitatea și scuzele. A fost nevoie de curaj să spuneți asta.' Îi înmânați bonul și adăugați: 'Vă rog conduceți cu prudență — familia dumneavoastră are nevoie de dumneavoastră întreg.'",
+                    "feedback": "De ce: Recunoașteți situația cu sinceritate și adăugați o notă personală de grijă despre familia sa. Emiterea amenzii menține integritatea procedurală. Însă, pentru o primă încălcare de 25 km/h cu circumstanțe atenuante clare, acesta era un moment potrivit pentru discreție administrativă — un avertisment ar fi fost legal corect și mai proporțional. | CONSECINȚE: Șoferul apreciază nota umană dar pleacă cu o amendă pe care poate nu ar fi fost nevoie să o primească. Mama sa pare dezamăgită. Vă vede ca pe un om bun dar rigid. Încrederea se îmbunătățește oarecum dar nu la fel de mult cât ar fi realizat discreția. | Reflecție: Când legea vă dă loc pentru un avertisment, cum cântăriți impactul unei amenzi versus al unui avertisment asupra conformării viitoare și încrederii publice?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Dați un scurt semn încordat din cap — recunoscând că l-ați auzit fără a lăsa asta să schimbe ceva. 'Îmi pare rău să aud asta, dar tot trebuie să emit o amendă. Aceasta este procedura.' Scoateți formularul de citație, completați detaliile cu mișcări eficiente și mecanice, și rupți copia. 'O completez imediat ca să puteți continua drumul.' Îi înmânați bonul fără alt comentariu, transferând responsabilitatea pentru decizie în spatele cuvântului 'trebuie', de parcă nu ar fi fost o alegere.",
+                    "feedback": "De ce: Arată empatie minimă dar aplică rigid sancțiunea fără flexibilitate. 'Tot trebuie' nu este adevărat — aveți discreție. A spune că 'trebuie' când nu este cazul transferă responsabilitatea pentru alegerea pe care o faceți. | CONSECINȚE: Domnul Novak acceptă amenda în tăcere. Mama sa privește pe geam. Șoferul îl vede pe ofițer ca procedural corect dar emoțional absent — genul de întâlnire care confirmă convingerea că poliției nu îi pasă. | Reflecție: Când spuneți 'trebuie să emit o amendă', este adevărat — sau alegeți să o faceți și evitați asumarea acelei alegeri?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Ascultați mărturisirea lui cu o expresie plată, nemișcat. Când termină, răspundeți pe un ton pragmatic: 'Înțeleg, dar asta nu scuză depășirea de viteză. Ați depășit cu 25 peste limită — aceasta este o problemă de siguranță indiferent de ce se întâmplă în viața personală.' Scoateți citația deja completată de pe clipboard și o țineți întinsă. 'Iată amenda dumneavoastră.' Mama sa, care tocmai a confirmat diagnosticul de leucemie al nepoatei, vă privește cum îi înmânați fiului ei o penalizare fără nici măcar o clipire de recunoaștere.",
+                    "feedback": "De ce: Formal corect dar respingător în cel mai nepotrivit moment. Șoferul tocmai s-a făcut vulnerabil — și-a cerut scuze, a dezvăluit boala fiicei sale, a arătat suferință genuină. A răspunde cu 'asta nu scuză' îi spune că vulnerabilitatea este pedepsită, nu recunoscută. Mama sa v-a auzit respingând leucemia nepoatei ei ca irelevantă. | CONSECINȚE: Domnul Novak ia amenda fără un cuvânt. Mama sa plânge în tăcere. Șoferul nu va mai depăși viteza — dar nu din respect față de lege. Din frică și resentiment. Aceasta este conformare fără încredere, care este cea mai fragilă formă de aplicare a legii. | Reflecție: Care este diferența între conformarea câștigată prin respect și conformarea extrasă prin indiferență — și care durează?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Evaluare și dezvăluire",
+            "sceneUpdate": {
+                "emoji": "🏁",
+                "title": "Evaluare de formare",
+                "desc": "Înapoi la secție. Sergentul Miller evaluează performanța dumneavoastră în acest scenariu de control de trafic, examinând fiecare fază a întâlnirii de la abordarea inițială până la dezvăluirea personală și decizia dumneavoastră finală."
+            },
+            "autoDialogue": true,
+            "finalScene": true,
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Controalele de trafic sunt cea mai frecventă întâlnire directă între poliție și public, și majoritatea merg prost în primele cincisprezece secunde. Ați avut de-a face cu un șofer ostil din momentul în care ați ajuns la geam — insultând, cerând, filmând, amenințând cu plângeri. Fiecare dintre aceste provocări a fost o invitație la escaladare. Nu ați acceptat-o. Această reținere nu este pasivitate. Este cea mai înaltă formă de control profesional."
+                },
+                {
+                    "character": "officer",
+                    "text": "Insultele au fost cel mai greu. Când a numit oprirea hărțuire, când a cerut numărul meu de insignă de parcă aș fi făcut ceva greșit — am simțit furia crescând. A fost nevoie de un efort real să nu îi egalez energia."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Și aceasta este reîncadrarea pe care vreau să o internalizați. Ostilitatea șoferului nu era despre dumneavoastră. Fiecare insultă era un răspuns la stres — un om care privește cum asigurarea de sănătate a fiicei sale dispare, întârziat la o întâlnire care ar putea determina supraviețuirea familiei sale, și acum oprit de un ofițer pentru ceva ce i se părea trivial comparativ cu ce ducea pe umeri. Furia lui nu avea nimic personal cu dumneavoastră. Treaba dumneavoastră era să nu mușcați momeala, și exact asta ați făcut. Ofițerii care eșuează la controalele de trafic sunt cei care aud 'aceasta este hărțuire' și răspund ca și cum caracterul lor ar fi pus la încercare. Cei care reușesc aud stresul de dedesubt și răspund la acesta."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Când domnul Novak s-a prăbușit în cele din urmă și v-a spus despre fiica sa, acea vulnerabilitate a fost posibilă doar pentru că ați petrecut întreaga oprire câștigând-o — prin transparență, prin calm, prin refuzul de a-i pedepsi frica cu autoritatea dumneavoastră. Avertismentul pe care l-ați emis nu a fost slăbiciune. A fost judecată. Și a modelat modul în care un om în criză va vedea fiecare ofițer pe care îl întâlnește pentru restul vieții. Permiteți-mi să vă spun ce s-a întâmplat când a ajuns la acea întâlnire."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispecerat", "avatar": "📻"},
+        "driver": {"name": "Dl. Novak (șofer, 38)", "avatar": "😤"},
+        "passenger": {"name": "Dna. Novak (mamă, 65)", "avatar": "👵"},
+        "officer": {"name": "Dumneavoastră (Ofițer)", "avatar": "👮"},
+        "trainer": {"name": "Sergent Miller", "avatar": "👮‍♂️"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Control de trafic exemplar!",
+            "emoji": "🌟",
+            "feedback": "Ați demonstrat profesionalism remarcabil pe parcursul întregului control de trafic. Prezentarea dumneavoastră clară a stabilit tonul, empatia sub insulte a arătat stăpânire emoțională, transparența când ați fost filmat a demonstrat responsabilitate, comenzile precise de siguranță în momentul cu torpedoul au arătat competență tactică, iar folosirea discreției la final a arătat judecată matură. Șoferul și mama sa au plecat de la această oprire cu încrederea în poliție consolidată."
+        },
+        "good": {
+            "title": "Conduită profesională solidă",
+            "emoji": "✅",
+            "feedback": "Ați gestionat bine acest control de trafic în ansamblu, menținând profesionalismul pe parcursul unei interacțiuni încărcate emoțional. Comunicarea dumneavoastră a fost în mare parte clară și ați gestionat frustrarea crescândă a șoferului fără a o egala. Câteva oportunități de empatie mai profundă, comenzi de siguranță mai precise sau transparență mai încrezătoare au fost ratate, dar abordarea dumneavoastră a fost solidă."
+        },
+        "average": {
+            "title": "Adecvat dar cu loc de creștere",
+            "emoji": "📊",
+            "feedback": "Ați finalizat oprirea fără incidente majore dar ați ratat mai multe oportunități de a dezescalada tensiunea, de a construi raportul sau de a demonstra genul de dreptate procedurală care transformă controalele de trafic din întâlniri negative în momente de construire a încrederii. Recapitulați tehnicile de recunoaștere a frustrării șoferului, de furnizare a motivelor clare pentru acțiuni și de echilibrare a aplicării legii cu empatia."
+        },
+        "poor": {
+            "title": "Necesită îmbunătățire semnificativă",
+            "emoji": "⚠️",
+            "feedback": "Abordarea dumneavoastră în timpul acestui control de trafic a escaladat tensiunea și a deteriorat încrederea publică. Fie prin amenințări, respingere, eșecul de a comunica clar, sau aplicare rigidă când discreția era justificată, interacțiunea a devenit o confruntare în loc de o întâlnire profesională. Un om care se confruntă cu boala fiicei sale și potențiala pierdere a locului de muncă a plecat de la această oprire văzând poliția ca parte a problemei sale în loc de parte a comunității sale. Recapitulați principiile de dezescaladare, transparență și discreție."
+        }
+    },
+    "metrics": {
+        "professionalCommunication": {
+            "name": "Comunicare profesională",
+            "description": "Calitatea comunicării verbale în timpul controlului de trafic — prezentare, claritate, ton și capacitatea de a explica acțiunile în mod transparent",
+            "icon": "🗣️"
+        },
+        "emotionalResilience": {
+            "name": "Reziliență emoțională",
+            "description": "Menținerea calmului și profesionalismului sub presiune verbală, insulte și provocări fără a lua atacurile personal",
+            "icon": "💚"
+        },
+        "proceduralTransparency": {
+            "name": "Transparență procedurală",
+            "description": "Respectarea cerințelor legale menținând în același timp deschidere privind identitatea, procesul și drepturile șoferului",
+            "icon": "📋"
+        },
+        "tacticalSafety": {
+            "name": "Siguranță tactică",
+            "description": "Gestionarea siguranței ofițerului și ocupanților prin comenzi verbale clare, instrucțiuni de mișcare controlată și conștientizare situațională",
+            "icon": "🛡️"
+        },
+        "discretionApplication": {
+            "name": "Discreție și proporționalitate",
+            "description": "Folosirea potrivită a discreției ofițerului — echilibrarea aplicării legii cu proporționalitatea, contextul și judecata umană",
+            "icon": "⚖️"
+        }
+    }
+}

@@ -1,0 +1,443 @@
+{
+    "id": 2,
+    "title": "Hostel Noise Complaint Negotiation",
+    "description": "Advanced scenario involving a late-night noise complaint at a city hostel, where a group of international backpackers are celebrating loudly in a shared common room. The officer must balance competing interests — frustrated hotel guests, a night receptionist caught in the middle, cultural differences, alcohol involvement, and the fine line between enforcement and hospitality norms — all while maintaining professional boundaries in a commercial setting.",
+    "icon": "🏨",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Sergeant Novak",
+        "avatar": "👮‍♂️",
+        "introduction": "Noise complaints in shared accommodation settings are among the most common and most nuanced calls you will handle. They sit at the crossroads of private property rules, public order law, hospitality culture, and interpersonal conflict. Tonight you are responding to a hostel — a place where strangers from different countries, with different expectations, share walls and common spaces. The complainant is a businessman with a legitimate need for quiet. The source of the noise is a group of young backpackers who believe they are doing exactly what hostels exist for. And caught between them is a receptionist with limited authority who called you because she ran out of options. Your challenge is not to pick a side. It is to find a resolution that respects everyone's legitimate needs, maintains proportionality, and leaves every party feeling they were heard. Heavy-handed enforcement will alienate the group and may go viral. Passive avoidance will fail the complainant and the receptionist. The sweet spot is somewhere in the middle — and how you find it will define your effectiveness."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-2-complete"],
+    "perfectBadge": "perfect-scenario-2",
+    "finalMessage": {
+        "revelation": "The group of backpackers had been traveling together for three weeks across Europe. Tonight was their last night before going separate ways — Liam back to Melbourne, Priya to a research internship in Berlin, the others scattering across continents. They were celebrating the end of a trip that had been planned for two years. Liam's loudness masked genuine sadness about the group breaking apart. Priya had been trying to get the group to quiet down for over an hour before you arrived but didn't want to ruin the mood. Mr. Kimura's presentation the next morning was for a contract worth three years of his division's revenue — the stress behind his anger was enormous. Marta, the receptionist, had been working night shifts alone for six months and had asked management repeatedly for clearer noise policies and better authority to handle disputes; she received neither. After your intervention, the group moved their farewell to a nearby late-night cafe. Mr. Kimura slept well and nailed his presentation. Marta submitted a formal proposal to management for a noise policy, citing your visit as the catalyst. Liam posted on a travel forum: 'Got a visit from the police on our last night — and honestly, the officer was brilliant about it.'",
+        "keyLessons": [
+            "In shared accommodation settings, both the noisy party and the complainant often have legitimate positions — resolution requires acknowledging both",
+            "Cultural expectations around noise, socializing, and police authority vary enormously — what feels normal to one person feels outrageous to another",
+            "Commercial settings like hostels have their own responsibility for policies and enforcement — the police role is to support, not replace, private management",
+            "Alcohol involvement requires calibrated communication — not accusation, but awareness that people process information differently when drinking",
+            "Identifying cooperative individuals within a group (like Priya) and empowering them as allies is more effective than confronting the loudest voice",
+            "Professional boundaries matter — accepting a drink, joining the party, or taking sides all undermine your authority and neutrality",
+            "Follow-up with all stakeholders — not just the noise source — builds trust and prevents repeat calls"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Arrival at the Hostel",
+            "sceneUpdate": {
+                "emoji": "🏨",
+                "title": "City Hostel — Reception Desk",
+                "desc": "Friday night, 11:40 PM. You arrive at a mid-range city hostel. Through the glass doors you can already hear music thumping from somewhere deeper in the building. The reception area is clean but tired-looking — worn sofas, a community board covered in tour flyers. A woman in her 40s behind the desk waves you in urgently. She looks exhausted and relieved to see you."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unit responding to a noise complaint at Europa Hostel, Havlickova 34. Night receptionist reports a group of guests playing loud music and refusing to lower volume despite repeated requests. Multiple other guests have complained. Receptionist reports no violence or threats, but the situation is escalating as more guests become upset."
+                },
+                {
+                    "character": "marta",
+                    "text": "Thank God you're here. I'm Marta, the night receptionist. There's a group of six backpackers in the common room — they've been partying since about nine. Music, singing, drinking. I've asked them three times to keep it down. The first time they turned the music down for maybe ten minutes, then it crept back up. The second time the Australian one — Liam — just laughed and said 'It's a hostel, not a library.' The third time he told me to relax. I've had four complaints from other guests now, and a Japanese businessman is threatening to leave and demand a refund. I don't have the authority to kick them out — that's a manager decision and she won't answer her phone. I didn't know what else to do."
+                }
+            ],
+            "prompt": "Marta has given you a detailed briefing. How do you begin your approach?",
+            "options": [
+                {
+                    "text": "Give Marta a quick nod and head straight to the common room to confront the group. You walk briskly through the hallway, shoulders squared, following the sound of thumping bass. The sooner you address the noise source directly, the sooner this whole thing is resolved. You don't pause to ask Marta anything further — the situation seems clear enough from what she's already told you, and every minute you spend at reception is another minute the other guests can't sleep.",
+                    "feedback": "Why: Moving directly to the noise source without gathering more context means you enter a room full of drinking, celebrating people as an uninformed authority figure. You don't know the hostel's noise policy, Marta's actual authority, whether there are language barriers, or what the group dynamic looks like. Speed feels efficient but costs you preparation. | CONSEQUENCES: You push open the common room door. Six startled faces turn toward you. Liam holds up his beer in mock salute. You have no plan, no policy context, and no understanding of who's who. The group sees a police officer who walked in looking for trouble. | Reflection: How does entering a situation without preparation affect your ability to control it?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Lean against the reception counter, keeping your voice calm and professional, and ask Marta key follow-up questions: Does the hostel have a posted noise policy or quiet hours? What's the group's check-out date? Are they all in one room? Has anyone in the group been aggressive or just loud? What exactly does the businessman want — silence, a refund, or the group removed? You pull out your notebook and jot down the key details as she answers.",
+                    "feedback": "Why: Excellent intelligence gathering. Knowing the noise policy determines whether you're enforcing house rules or public order law — very different authorities. Check-out date tells you if this is a one-night problem or recurring. Distinguishing 'aggressive' from 'loud' shapes your approach. Understanding the businessman's specific demand prevents you from assuming. This preparation costs two minutes and saves twenty. | CONSEQUENCES: Marta tells you quiet hours are 11 PM per the booking terms — it's now past that. The group checks out tomorrow. They're in a six-bed dorm but the party is in the common room. Nobody has been threatening, just dismissive. Mr. Kimura wants quiet — he hasn't specifically demanded ejection. You enter the situation informed and calibrated. | Reflection: How does two minutes of preparation change the quality of every decision that follows?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Fold your arms and shake your head slightly, adopting a matter-of-fact tone. Tell Marta this is really a management issue — she should keep trying her manager and handle it as an internal hostel matter. You explain that you can't enforce private noise rules, that this falls under the hostel's own policies, and that the best course of action is for her to reach the manager by phone or text and have management make the call on whether to warn or eject the guests. You turn toward the door.",
+                    "feedback": "Why: It's true that hostel noise policies are private rules. But Marta called police because she exhausted her own options. Telling her to keep trying a manager who won't answer leaves her stranded with a worsening situation. You were dispatched to this call — dismissing it damages her trust in police and leaves other guests suffering. Noise past 11 PM may also fall under municipal noise ordinances anyway. | CONSEQUENCES: Marta's face falls. She says: 'But they won't listen to me. What am I supposed to do?' You leave. Twenty minutes later, Mr. Kimura calls the police himself, angrier. A different unit responds and finds a worse situation. | Reflection: Even when jurisdiction is shared with private management, what's the cost of walking away from someone who asked for help?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Put a reassuring hand up and give Marta a warm, steady look. Thank her sincerely for calling and tell her you'll handle it from here — she doesn't need to worry anymore. Ask her to point you toward the common room so you can go assess the situation firsthand and introduce yourself to the group. You straighten your vest, give her a confident nod, and head in the direction she indicates without asking anything further about policies, quiet hours, or what the other guests specifically want.",
+                    "feedback": "Why: Professional and reassuring to Marta, which is good — she's been under stress for hours. But 'I'll handle it' is vague and sets an expectation you may not be able to meet. You haven't asked about quiet hours, policies, or the specific complaints. You're heading in with good intentions but thin information. | CONSEQUENCES: You walk toward the common room with a general sense of the problem but no specific details about policies, the group composition, or what the complainants actually want. Workable, but you'll be gathering information on the fly in a room full of people who've been drinking. | Reflection: When you reassure someone that you'll 'handle it,' what expectation does that create, and can you always deliver?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "The Complainant",
+            "sceneUpdate": {
+                "emoji": "😤",
+                "title": "Hallway — Mr. Kimura's Frustration",
+                "desc": "As you move from reception toward the common room, a door opens in the hallway. A man in his 50s steps out in a hotel robe, looking haggard. His room is directly above the common room. He sees your uniform and intercepts you immediately. His English is precise but accented, his posture rigid despite his exhaustion. He bows slightly before speaking — a reflex of formality. His frustration is barely contained beneath a veneer of composure, but you notice his hands are trembling slightly. In Japanese culture, the fact that he is confronting you directly — rather than handling this privately through management — signals how desperate the situation has become."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mr_kimura",
+                    "text": "Officer. Thank you for coming. I am Takeshi Kimura. I have a very important presentation tomorrow morning at 8 AM — a conference at the Hilton. I specifically chose a private room in this hostel because the conference hotels were fully booked. I have been unable to sleep for three hours. The music, the shouting — it comes through the floor. I have asked the receptionist repeatedly. Nothing changes. I paid for a room. I have a right to sleep. In my country this would never be tolerated. These people have no consideration for others. I want them removed from the building tonight."
+                }
+            ],
+            "prompt": "Mr. Kimura is formally polite but deeply frustrated, and he's demanding the group be ejected. His directness itself signals how far past his comfort zone he has been pushed. How do you respond?",
+            "options": [
+                {
+                    "text": "Match his formality, speaking with calm respect: 'Mr. Kimura, I understand — losing sleep before an important presentation is extremely frustrating. I take your complaint seriously and I will address it personally. May I ask: is your main concern the noise stopping, or do you specifically need the group removed? There may be more than one way to solve this. I will come back to your door afterward to confirm the situation is resolved.'",
+                    "feedback": "Why: Validates his frustration authentically — naming his presentation shows you were listening. Matching his formal register shows cultural awareness. 'I take your complaint seriously' directly addresses the fear that no one will act. Promising to return to his door is critical — in Japanese business culture, follow-through and personal accountability carry enormous weight. The key question separates his need (sleep) from his proposed solution (ejection), expanding your options. | CONSEQUENCES: Mr. Kimura pauses. The promise to return personally reassures him — this is how accountability works in his world. He admits: 'I just need it to stop. I need to sleep. If they can be quiet, that is sufficient.' His demand softens from ejection to silence. You've earned trust through cultural attunement. | Reflection: Why is separating someone's underlying need from their stated demand one of the most powerful negotiation techniques — and how does cultural awareness shape how you deliver it?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Nod firmly and plant your feet, squaring your shoulders to project decisive authority. You look Mr. Kimura directly in the eye and speak with crisp conviction: 'I hear you, Mr. Kimura. That's unacceptable. You have every right to sleep in a room you paid for, and I understand your presentation tomorrow is critical. I'll go down there right now and make sure this stops immediately. You won't be disturbed again tonight.' Your tone leaves no room for ambiguity — you are making a personal guarantee.",
+                    "feedback": "Why: Validating and decisive — Mr. Kimura feels heard. But 'I'll make sure this stops immediately' is a promise you may not be able to keep instantly. If the group pushes back, negotiation takes time, and Mr. Kimura's patience is now calibrated to 'immediately.' You've also framed the situation as one-sided before hearing from the other party. | CONSEQUENCES: Mr. Kimura nods, satisfied — for now. But his expectation is set: immediate silence. If your negotiation with the group takes twenty minutes, he'll be in the hallway again, angrier. You've traded short-term reassurance for a tighter deadline. | Reflection: When you promise speed to satisfy an upset person, how does that constrain your ability to find a thoughtful solution?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Hold up both hands in a calming gesture and adopt a measured, explanatory tone. You speak carefully, choosing each word with bureaucratic precision: 'Mr. Kimura, I understand this is frustrating. However, I should be transparent — removing guests from a private establishment isn't a police decision, it's the hostel management's call. What I can do is talk to the group about the noise. But ejection is between you and the hostel. I'd suggest continuing to contact the manager directly for that particular request.'",
+                    "feedback": "Why: Technically accurate — eviction is a management decision. But leading with what you can't do, to a man who's been awake for three hours before a career-defining presentation, feels like a bureaucratic deflection. He doesn't care about jurisdictional boundaries; he cares about sleeping. Worse, for someone from a culture where seeking police help already required overcoming significant discomfort, being told 'not my department' feels like a loss of face for having asked at all. You've addressed his stated demand but ignored his actual need. | CONSEQUENCES: Mr. Kimura's face tightens. 'So the police cannot help either.' He retreats to his room feeling that no one — not the receptionist, not the police — can solve his problem. He has lost face by asking for help that was refused. His frustration turns to resignation, which is worse than anger. | Reflection: When someone is in distress, what happens when you lead with procedural limitations instead of empathy — especially when asking for help was already culturally difficult for them?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Shrug lightly and tilt your head with a sympathetic but slightly dismissive expression. You speak in a tone that's meant to be practical but lands as patronizing: 'Sir, I appreciate your frustration, but this is a hostel — shared spaces and some noise come with the territory. It's not a four-star hotel. Perhaps you could try earplugs? The reception might have some. I'll swing by and ask the group to keep it down, but honestly, I can't guarantee silence in a place like this.'",
+                    "feedback": "Why: Suggesting earplugs to a man who hasn't slept in three hours is dismissive and patronizing. 'This is a hostel' effectively tells a paying guest that his complaint is invalid because of where he chose to stay. You've sided with the noise-makers before meeting them. For Mr. Kimura specifically, being publicly dismissed after overcoming the cultural reluctance to seek help in the first place is deeply humiliating — a loss of face that will not be forgotten. Mr. Kimura specifically booked a private room and is past the hostel's own quiet hours. His complaint is legitimate. | CONSEQUENCES: Mr. Kimura stares at you, then says with quiet fury: 'I see. I will be writing to your department and to the hostel's management. Goodnight, officer.' The door closes. You've lost a stakeholder's trust in thirty seconds and caused him to lose face — something his culture considers a serious harm. | Reflection: When you minimize someone's legitimate complaint, what does it cost you in terms of cooperation and trust — and how much worse is it when the person's culture makes the act of complaining an extraordinary step?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "The Common Room",
+            "sceneUpdate": {
+                "emoji": "🎶",
+                "title": "Common Room — The Party",
+                "desc": "You push open the common room door. The scene is exactly what you expected and more. A Bluetooth speaker on the table pumps out rock music at considerable volume. Six people in their 20s and 30s are scattered around — two dancing, one strumming a guitar, others sitting with beers. The table is littered with bottles, snack wrappers, and playing cards. A tall, sunburned Australian man in a tank top spots you first and breaks into a massive grin. You count at least a dozen empty beer bottles on the table and note that one person near the back is swaying slightly even while seated. The room smells strongly of beer and takeaway food. A quieter Indian woman near the window looks up from her phone with an expression that's half embarrassment, half relief."
+            },
+            "npcDialogue": [
+                {
+                    "character": "liam",
+                    "text": "(loudly, grinning, holding up a beer, eyes slightly glassy) Ohhh, the cavalry's arrived! G'day, officer! Come in, come in — grab a beer, mate! We've got plenty. Don't worry, it's good stuff, not that cheap rubbish. Pull up a chair! (turns to the group) Oi, everyone — we've got a special guest!"
+                }
+            ],
+            "prompt": "Liam is greeting you like a party guest, offering you alcohol, and performing for his friends. You notice signs of significant alcohol consumption in the group. How do you handle this first moment while also assessing the intoxication level?",
+            "options": [
+                {
+                    "text": "Smile and reach out to take the beer from Liam in a playful gesture, wrapping your fingers around the bottle before setting it down on the nearest table with a grin. You keep your tone light and buddy-like: 'Tempting, but I'm on duty, mate. Look, I can see you're all having a great time in here — the music's solid, the vibe's good, I get it. But I've had complaints about the noise and we need to talk about it. No one's in trouble, I just need a quick word.' You don't scan the room for intoxication levels or take note of who's sober and who isn't.",
+                    "feedback": "Why: Taking the beer — even to set it down — crosses a professional boundary. In that split second, the group sees an officer accepting a drink from someone they're responding to. It sends a signal that you're approachable to the point of being co-optable. Even setting it down doesn't erase the moment. Liam will push further because you showed flexibility on a boundary that should have been firm. You've also completely skipped assessing the group's intoxication level, which determines how you need to communicate — intoxicated people process information differently and require simpler, shorter instructions. | CONSEQUENCES: Liam laughs triumphantly: 'See? The cop's alright! Come on, just one sip!' The group relaxes too much — they see you as someone who can be charmed out of enforcement. Your authority is already eroding. And you still have no read on how drunk anyone is. | Reflection: Why do professional boundaries matter most in the first thirty seconds of an encounter — and why does assessing intoxication level early change your entire communication strategy?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Step inside without taking the beer, keeping your tone warm and relaxed: 'Ha — appreciate the hospitality, Liam, but I'll have to pass. I'm Officer [name].' While speaking, casually scan the room — count the bottles, check eyes and coordination, note who's coherent and who isn't. Then: 'I'm not here to shut anything down — but I do need a minute of your time because there's a situation we need to sort out. Can someone turn the music down so we can actually hear each other?'",
+                    "feedback": "Why: Declining the beer clearly but without making it a confrontation. Using his name (from Marta's briefing) shows preparation and personalizes the interaction. Crucially, while speaking warmly, you conduct a visual alcohol assessment — this is procedural skill, not paranoia. Knowing who is mildly buzzed versus significantly impaired tells you who can process complex instructions and who cannot. 'I'm not here to shut anything down' lowers the group's defenses. Asking to turn down the music tests their willingness to cooperate. | CONSEQUENCES: Liam looks mildly surprised that you know his name. Your scan reveals: Liam is moderately intoxicated but functional, two others are similar, Priya appears largely sober, and one person in the back is heavily intoxicated but quiet. Priya reaches over and turns down the speaker. The room gets quieter. You now know who you can reason with and who needs simpler instructions. | Reflection: How does a quick, non-confrontational intoxication assessment change the way you communicate with a group — and why is it important to know who is sober enough to be your ally?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Plant yourself in the doorway, feet wide apart, blocking the exit with your body. Your jaw is set and your expression is stone-cold. You don't smile, you don't greet anyone, and you don't acknowledge Liam's outstretched beer. You project pure authority from the first syllable: 'Nobody is drinking anything else tonight. Turn that music off immediately. I've had multiple complaints and you're in violation of quiet hours. This is your one warning.' You make no effort to assess who in the room is sober or intoxicated.",
+                    "feedback": "Why: Maximum authority, zero rapport. You've entered a room of six people who've been drinking and celebrating, and your opening move is to ban alcohol and issue an ultimatum. This triggers group defensiveness — they'll unite against you. 'Your one warning' is a threat that leaves no room for negotiation. Telling adults they can't drink in a hostel common room may also exceed your authority. You have also failed to assess intoxication levels, which means your communication approach isn't calibrated — shouting ultimatums at intoxicated people is particularly counterproductive because alcohol impairs their ability to process threats and makes them more likely to resist. | CONSEQUENCES: The room goes silent — but not in compliance. In hostility. Liam's grin vanishes. Arms cross. Someone mutters 'This is ridiculous.' The most intoxicated person in the back stands up unsteadily: 'You can't tell us what to do.' You've created a six-against-one confrontation that didn't need to exist. | Reflection: When you enter a group situation with maximum authority and zero rapport, what dynamic do you create — and how does alcohol make that dynamic worse?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Ignore Liam's theatrics entirely — don't take the beer, don't smile, don't even make eye contact with him. Instead, you look past his shoulder and walk straight across the room to the quieter woman by the window, who seems far more reasonable and approachable. You offer her a polite nod and lower your voice to start a calm, private conversation there, hoping to get the real picture from someone who isn't performing for an audience. Behind you, Liam stands with his beer still extended, grin fading.",
+                    "feedback": "Why: Identifying the cooperative person is smart, but bypassing the group's social leader is a tactical error. By walking past Liam without acknowledging him, you signal that you're dismissing him. In front of his friends, this is a public slight. He'll escalate to reassert his status. The group dynamic demands you engage the leader first, even if briefly. | CONSEQUENCES: Liam's face changes. 'Oi, I'm talking to you, mate.' His voice is louder and no longer friendly. The rest of the group tenses. Priya looks uncomfortable. You've turned a jovial loudmouth into someone who feels disrespected. | Reflection: In a group situation, why does ignoring the social leader usually backfire?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Establishing Boundaries",
+            "sceneUpdate": {
+                "emoji": "💪",
+                "title": "Common Room — Liam Pushes Back",
+                "desc": "The music is lower but Liam isn't ready to concede. He's leaning against the table, beer in hand, performing for his audience. His tone is still friendly on the surface but there's a challenge underneath. The other backpackers watch the exchange closely — their body language will mirror however Liam responds. Priya is watching from the side, clearly wanting the situation to resolve but not wanting to contradict Liam in front of the group."
+            },
+            "npcDialogue": [
+                {
+                    "character": "liam",
+                    "text": "Look, officer, no disrespect, yeah? But this is a hostel. A HOSTEL. This is literally what hostels are for — meeting people, having a laugh, sharing stories. We're not breaking anything, we're not fighting anyone. If people want peace and quiet, they should book a hotel, not a twenty-euro-a-night dorm. We've been travelling for three weeks together and this is our last night. You can't take that from us."
+                }
+            ],
+            "prompt": "Liam is making his case — and it's not entirely unreasonable. But quiet hours are in effect and other guests are suffering. How do you respond?",
+            "options": [
+                {
+                    "text": "Acknowledge his point, then reframe: 'Liam, I actually get it — last night together, end of a big trip. That matters. And you're right that hostels are social places. But quiet hours started at eleven, and there are people upstairs who also paid their twenty euros and can't sleep. Your rights and theirs aren't different. So the question isn't whether you can celebrate — it's how and where. I'd rather help you find a way to keep your night going than shut it down. But the volume and setting have to change.'",
+                    "feedback": "Why: Validates his emotional context (last night, end of trip) and his logical argument (hostels are social) before introducing the counterpoint. 'Your rights and theirs aren't different' is the pivot — it reframes the situation from 'us vs. them' to shared responsibility. 'I'd rather help you keep your night going than shut it down' positions you as an ally to their celebration, not an enemy of it. The boundary is clear: volume and setting must change. But you've left the solution open for negotiation. | CONSEQUENCES: Liam's posture shifts. He hasn't lost face — you agreed with his premise before redirecting. One of the other backpackers says: 'He's got a point, Liam.' The social pressure within the group begins to work in your favor. | Reflection: How does validating someone's argument before redirecting it change their willingness to move?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Stand firm, keeping your posture rigid and your expression unmoved by Liam's emotional appeal. You cross your arms and speak in a flat, uncompromising tone that makes clear you're not here to debate: 'I understand it's your last night, but the rules are the rules. Quiet hours are quiet hours. If the hostel says 11 PM, it's 11 PM. I need the music off and voices down right now. That's not negotiable.' You hold eye contact with Liam without blinking, waiting for compliance.",
+                    "feedback": "Why: Clear and enforceable — but 'rules are rules' is the language of rigid authority, and it dismisses the emotional context Liam just shared. You haven't acknowledged his point, which means he hasn't been heard. People resist harder when they feel unheard. 'Not negotiable' closes all doors. You may achieve compliance tonight, but through coercion, not agreement. | CONSEQUENCES: Liam's jaw tightens. 'Right. Rules are rules.' He turns the music off with exaggerated compliance. The room goes cold. Someone mutters about police in this country. The celebration is killed, not resolved. Compliance achieved, goodwill destroyed. | Reflection: What's the difference between compliance and cooperation, and which produces more durable outcomes?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Break into a genuine laugh, clapping your hands together once as if Liam just made a great point. You lean against the doorframe, posture relaxed and chummy, mirroring the group's casual energy: 'You know what, you're not wrong — hostels are absolutely meant to be fun. I've been to a few myself. Tell you what, just keep it to a dull roar and I'll go tell the receptionist it's sorted. Enjoy your last night — just maybe not at concert volume. Deal?' You extend a fist bump toward Liam.",
+                    "feedback": "Why: By agreeing with Liam and asking for a vague 'dull roar,' you've effectively sided with the noise-makers. 'Keep it to a dull roar' is not an enforceable standard — it means whatever Liam decides it means after his next beer. Telling Marta 'it's sorted' when nothing concrete has changed sets her up for another three hours of complaints. You've prioritized being liked over being effective. | CONSEQUENCES: Liam grins: 'Legend!' The music goes back up within fifteen minutes. Mr. Kimura calls again. Marta is furious. A different unit responds and finds you left a situation unresolved. | Reflection: When does being agreeable become a failure to do your job?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Step around Liam and address the entire group, sweeping your gaze across every face in the room to make each person feel included in the conversation. You raise your voice just enough to carry over the lowered music: 'Everyone — I hear you, and I know this is a special night. But I've got a hostel full of guests who can't sleep, and a receptionist who's been asking nicely for hours. Someone upstairs has a major work commitment at 8 AM. I'm asking for your help here — what can we do to make this work for everyone?'",
+                    "feedback": "Why: Broadening the conversation beyond Liam is tactically smart — it dilutes his dominance and invites other voices. Mentioning the receptionist and the guest upstairs humanizes the complainants. 'I'm asking for your help' positions the group as problem-solvers rather than rule-breakers. However, an open question to six people who've been drinking may produce six different answers and no clear direction. Without a proposed framework, you may lose control of the conversation. | CONSEQUENCES: Several people talk at once. Priya says something sensible but gets talked over. Liam repeats his hostel argument louder. The group discussion is well-intentioned but chaotic. You've democratized the problem without providing structure. | Reflection: When is opening the floor to a group productive, and when does it need a proposed framework to work?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Finding the Middle",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Common Room — Priya Steps In",
+                "desc": "The conversation has shifted. Liam is still resistant but less combative. The other backpackers are looking at each other, gauging the mood. Priya, who's been listening quietly, stands up and moves closer. She's clearly the group's conscience — articulate, sober enough to read the room, and visibly uncomfortable with the standoff. She addresses both you and Liam."
+            },
+            "npcDialogue": [
+                {
+                    "character": "priya",
+                    "text": "(speaking carefully, looking between you and Liam) Liam, he's right. We've been really loud. I've been wanting to say something for a while. The receptionist asked us three times. (to you) Officer, I'm sorry about this. We really are celebrating our last night — it's genuine, not just people being idiots. But we should have been more considerate. Is there somewhere else we could go? Like, is there a bar nearby that's still open? Or could we take it outside to the courtyard maybe? I just... I don't want this to end badly. It's supposed to be a good memory."
+                }
+            ],
+            "prompt": "Priya is offering to broker a compromise and suggesting alternatives. How do you work with this opening?",
+            "options": [
+                {
+                    "text": "Turn toward Priya with a warm, respectful nod and engage her directly as a partner: 'Priya, thank you — that's exactly the kind of thinking that helps. You mentioned a bar or the courtyard. Let me check with the receptionist about the courtyard — if it's available and away from the bedrooms, that could work as a middle step. Or if there's a late bar nearby, that's another option. Liam, what do you think — would your group be up for moving somewhere else?'",
+                    "feedback": "Why: Elevating Priya as a constructive voice rewards cooperative behavior and shifts social pressure within the group. Checking with Marta about the courtyard shows you're being thorough rather than making promises. Offering two options — courtyard or bar — gives the group agency. Redirecting to Liam for his opinion brings him back in without confrontation; he gets to say yes rather than submit. This is textbook collaborative problem-solving. | CONSEQUENCES: Liam looks at Priya, then at you. The dynamic has shifted — Priya has given him social permission to cooperate without losing face. 'The courtyard could work,' he says, slower than before. Another backpacker pulls up maps on their phone looking for bars. The group is now solving the problem themselves. | Reflection: How does empowering a cooperative group member change the dynamic more effectively than confronting the resistant one?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Jump on Priya's suggestion immediately with visible enthusiasm, snapping your fingers as though the problem is already solved. You turn to the group with an upbeat tone: 'Great idea, Priya. Let's do the courtyard — that's perfect. Liam, grab your speaker and bottles, round everyone up. You can keep the party going out there, no worries at all. Problem solved, everyone's happy.' You start gathering beer bottles off the table to help speed the move along, without checking with Marta whether the courtyard is near any bedrooms.",
+                    "feedback": "Why: Decisive and solution-oriented, but you've committed to the courtyard without checking with Marta or assessing whether it's near bedrooms. If the courtyard is directly below guest windows, you've moved the noise, not solved it. Also, giving a unilateral green light to 'keep the party going' outside may violate municipal noise ordinances. Moving fast feels good but skips verification. | CONSEQUENCES: The group heads to the courtyard enthusiastically. Fifteen minutes later, guests on the ground floor complain about noise from directly outside their windows. Marta calls you: 'They're even louder now and I can't close the courtyard.' Speed created a new problem. | Reflection: Why does verifying a solution before implementing it prevent you from solving the same problem twice?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Hold up your hand to cut through the back-and-forth, your patience visibly wearing thin. You speak with clipped authority, ignoring Priya's suggestion entirely as though she hadn't spoken: 'Look, the simplest solution is this — party's over for tonight. No courtyard, no bar, no alternatives. Pack up, go to your rooms, get some sleep. You've had a perfectly good night already. It's midnight and people are trying to sleep. Time to call it.' You gesture toward the hallway and fold your arms, waiting for them to start moving.",
+                    "feedback": "Why: You had a cooperative group member offering creative solutions, and you bypassed her entirely with an order. Priya took social risk by speaking up against her group leader — ignoring her contribution punishes the exact behavior you want to encourage. 'Party's over' is also disproportionate when alternatives exist. You're choosing the highest-authority response when lower-authority options are available and being offered to you. | CONSEQUENCES: Priya's face falls — she stuck her neck out for nothing. Liam erupts: 'That's bollocks! She just offered to move and you're shutting us down anyway?' The group unites against you. You've lost both the resistant and the cooperative members. | Reflection: When someone offers a constructive solution, what message does it send when you override it with a command?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Acknowledge Priya with a brief nod, then pivot to the practical without exploring her courtyard or bar suggestions. You lower your voice to a reasonable, moderate tone: 'Priya, I appreciate that. Here's what I'd suggest — could everyone start wrapping things up here? Finish your drinks, but no more music in the common room tonight. If you want to keep talking quietly, that's fine, but the singing and the speaker need to stop. The common room stays open but it needs to be at a sleeping-hours volume from this point forward.'",
+                    "feedback": "Why: Reasonable and moderate. 'Finish your drinks' is humane, and 'no more music' sets a clear boundary. But you've partially ignored Priya's creative alternatives — the bar, the courtyard. By going straight to wind-down mode, you've chosen restriction over relocation. The group gets less than what Priya proposed, which may feel like negotiation in bad faith. Also, 'talking quietly' in a group of six after several beers is aspirational, not realistic. | CONSEQUENCES: The group complies grudgingly. The speaker goes off. But the 'quiet talking' gets louder as drinks continue. Within thirty minutes, Marta is back to where she started. The restriction worked short-term but had no sustainable mechanism. | Reflection: When a creative alternative is offered, what's the cost of choosing restriction over relocation?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Securing Agreement",
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Common Room — Terms",
+                "desc": "The group is coming around. Priya's intervention shifted the dynamic. Liam is still grumbling but the other backpackers are ready to move on — one is already packing the cards, another is putting on shoes. The key now is to lock in a specific, workable agreement before the momentum fades. Marta has confirmed that the courtyard is on the far side of the building, away from bedrooms, and that there's a 24-hour bar called The Night Owl two blocks away."
+            },
+            "npcDialogue": [
+                {
+                    "character": "liam",
+                    "text": "(grudgingly, but with less fight) Alright, alright. So what, we go sit in the courtyard? Or find this bar? (looks at the group) What do you reckon?"
+                },
+                {
+                    "character": "priya",
+                    "text": "(to Liam, smiling) The bar could actually be fun. Somewhere new for our last night. And we won't have to worry about anyone complaining. (to you) Can we take the beers with us if we go to the courtyard, or is that a problem?"
+                }
+            ],
+            "prompt": "The group is ready to move but the details matter. How do you finalize the agreement?",
+            "options": [
+                {
+                    "text": "Lay out clear, specific terms with a structured tone: 'Here's what I'd suggest. Option A: the courtyard — it's away from bedrooms, you can take your drinks and talk there, but no speaker and keep voices conversational. Option B: The Night Owl bar, two blocks that way — you can be as loud as you want there, open all night. Either way, the common room needs to be cleared and quiet within ten minutes. Liam, Priya — which works for you?'",
+                    "feedback": "Why: Specific, structured, and empowering. Two clear options with defined parameters. The ten-minute timeframe is concrete, not open-ended. Naming both Liam and Priya distributes leadership. The courtyard option has a clear condition (no speaker, conversation level). The bar option is framed as a benefit ('as loud as you want'). You've turned an enforcement encounter into a structured choice. | CONSEQUENCES: The group immediately debates options — but constructively. Two want the bar, three prefer the courtyard. They split amicably. Liam goes with the bar group, Priya stays in the courtyard. Within eight minutes, the common room is empty and quiet. The agreement is specific, voluntary, and self-enforcing. | Reflection: Why do specific, structured choices produce better compliance than vague agreements?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Wave your hand toward the back door in a casual, loose gesture. You keep your tone breezy and offhand, as though the details don't really matter now that the group is willing to move: 'Simple — just move to the courtyard. Take whatever you want, the beers, the speaker, the cards, all of it. Just keep it down out there and we're all good. I'll let the receptionist know you've relocated.' You step aside to let the group file through, offering no specific conditions about volume levels or what happens if complaints resume.",
+                    "feedback": "Why: 'Just keep it down' is the same instruction Marta gave three times and it failed three times. Without specific parameters — no speaker, conversation level, what happens if it gets loud again — you've moved the noise without managing it. 'Take whatever you want' is permissive to the point of abdicating responsibility. Six people with beers in a courtyard at midnight with no clear boundaries will get louder. | CONSEQUENCES: The group moves to the courtyard with the speaker. The party resumes at outdoor volume. Guests on the courtyard side now complain. You've relocated the problem, not resolved it. | Reflection: What makes the difference between an agreement that holds and one that immediately breaks down?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Lean forward and speak in a practical, advisory tone that clearly favors one option over the other. You make eye contact with Liam and Priya in turn: 'I think the bar is your best bet, honestly. The courtyard is still hostel property and I can't guarantee someone won't complain again if you're out there laughing and talking at midnight. If you go to The Night Owl, you can have your night exactly the way you want without any restrictions or worrying about noise. I'd strongly recommend that route.'",
+                    "feedback": "Why: Steering them toward the bar removes the problem entirely from the hostel, which is clean and effective. But 'strongly recommending' one option over another removes the choice you should be offering. If the group later feels they were pushed out of the hostel they're paying for, resentment builds. Also, some may not want to spend more money at a bar. Your job is to present options, not pick for them. | CONSEQUENCES: Most of the group goes to the bar, but two backpackers who are tired and low on money stay behind, feeling they were pressured to leave accommodation they paid for. One complains at reception: 'The police told us we couldn't use the hostel.' Not what you said, but how it felt. | Reflection: What's the difference between presenting options and steering someone toward the outcome you prefer?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Nod as the group starts to organize, then raise a finger and harden your expression just as the cooperative mood is peaking. You shift your weight forward and lower your voice to a warning register: 'Right, courtyard or bar, your call. But I need to be clear — if I get called back here tonight for the same thing, it won't be a friendly conversation next time. There will be fines and formal noise violation reports filed against each of you individually. Understood?' You scan the room with a pointed look, making sure each person registers the threat.",
+                    "feedback": "Why: The agreement was already forming. The group was cooperating. Adding a threat at the moment of resolution poisons the goodwill you spent twenty minutes building. 'It won't be a friendly conversation next time' is a veiled threat that reframes the entire interaction as a warning rather than a collaboration. People remember how things end more than how they begin. You've just ensured the lasting memory is the threat, not the fair resolution. | CONSEQUENCES: The room goes quiet. Liam's expression hardens. Priya looks away. The group leaves — for the bar, not the courtyard — because the hostel now feels hostile. They cooperate, but out of fear, not agreement. Liam will remember the threat, not the fairness. | Reflection: When does adding a warning to a successful negotiation undermine everything you achieved?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Closing the Loop",
+            "sceneUpdate": {
+                "emoji": "✅",
+                "title": "Reception — Follow-Up",
+                "desc": "The common room is quiet. The backpackers have dispersed — some to the courtyard, some to The Night Owl. You can hear distant, low conversation from the courtyard but nothing that would disturb sleep. The building feels calm. You return to reception where Marta is waiting. You still need to follow up with Mr. Kimura. How you close this encounter will determine whether tonight's resolution holds and whether all parties feel the situation was handled fairly."
+            },
+            "npcDialogue": [
+                {
+                    "character": "marta",
+                    "text": "(visibly relieved) It's quiet. I can't believe it — I've been trying for three hours. Thank you, officer. Really. (hesitates) Do you think they'll stay quiet? And... should I check on Mr. Kimura? He was very upset earlier."
+                }
+            ],
+            "prompt": "The immediate crisis is resolved. How do you close out the encounter with Marta and Mr. Kimura?",
+            "options": [
+                {
+                    "text": "Address Marta with validation and practical guidance: 'You did the right thing calling, Marta. The group has moved — some to the courtyard with clear conditions, some to a bar. If the courtyard group gets loud again, you can ask them to return to their rooms, and you can call us again. I'd also recommend asking your manager about a written noise policy — it would give you more authority next time.' Then knock on Mr. Kimura's door: 'Mr. Kimura, the common room is clear. You should be able to sleep. I hope your presentation goes well.'",
+                    "feedback": "Why: Closes the loop with both stakeholders. Marta gets validation, a clear update, permission to call again, and a constructive suggestion about systemic improvement. You're not just solving tonight — you're helping prevent next Friday. Mr. Kimura gets a personal update addressing his specific concern (the presentation), which shows you listened and remembered. Both feel seen, heard, and respected. This is what complete follow-through looks like. | CONSEQUENCES: Marta writes down the policy suggestion — she's been wanting to raise this with management and now has a police recommendation to back it up. Mr. Kimura opens his door, nods gratefully, and says simply: 'Thank you. You are very professional.' Both parties feel the system worked for them tonight. | Reflection: Why does follow-up with all stakeholders — not just the noise source — define whether a resolution is truly complete?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Give Marta a quick, professional reassurance without going into detail. You check your watch and keep the wrap-up brisk: 'It should be fine now, Marta. The group has moved along. If it starts up again, just call us back — we'll come out again, no problem. Have a good rest of your shift.' You offer a brief smile, then head toward the exit. As you pass Mr. Kimura's floor, you decide not to knock — he'll notice the quiet and go to sleep on his own. No need to disturb him further.",
+                    "feedback": "Why: The noise is handled, and technically Marta has the callback option. But Mr. Kimura intercepted you personally, shared his vulnerability about the presentation, and was promised action. Not following up leaves him feeling forgotten — like a complaint number, not a person. 'He'll notice the quiet' assumes he's not lying awake anxious. A thirty-second door knock costs nothing and completes the human loop. Also, Marta gets no guidance for next time — you've solved today without investing in tomorrow. | CONSEQUENCES: Marta feels helped but unsupported. Mr. Kimura lies in bed hearing silence, unsure if it will last, and remembers that the officer never came back. The resolution holds but feels incomplete to the people who needed it most. | Reflection: What's the difference between a resolved situation and a situation where every person involved feels resolved?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Lean against the reception counter and adopt a blunt, lecture-like tone, shaking your head slowly as you speak. You make eye contact with Marta and deliver your assessment: 'They've moved out, so the noise is done. But honestly, Marta, you should have handled this before it got to this point. You had three hours and six requests to get the situation under control. Next time, be firmer earlier — set clear boundaries on the first ask, not the third — and you won't need to call us for something like this.'",
+                    "feedback": "Why: Blaming Marta — who tried three times, whose manager won't answer the phone, and who lacks the authority to eject guests — is unfair and inaccurate. She called police because she ran out of options, not because she was lazy. Telling a frontline worker to 'be firmer' ignores the systemic issues: no clear policy, no management backup, no authority. You're punishing the person who asked for help for needing help. | CONSEQUENCES: Marta's relief evaporates. She feels criticized after hours of stress. Next time there's a noise problem, she'll hesitate to call police — she'll try to handle it alone, and the situation will be worse when it finally escalates. You've damaged a working relationship and made future calls less likely. | Reflection: When a frontline worker calls for support, what does criticizing them do to future cooperation?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Provide Marta with a factual status update in a clipped, efficient tone, pulling out a card from your pocket. You don't sit down or linger: 'The situation is resolved for now. Here's what happened: the group split between the courtyard and a bar nearby. If the courtyard group gets loud again, here are my details — call us directly. I'll check on Mr. Kimura on my way out to let him know it's handled.' You hand over the card, give a curt nod, and head for the stairs. Quick, efficient, professional.",
+                    "feedback": "Why: Professional and informative — Marta knows what happened and what to do. Checking on Mr. Kimura is good. But the interaction is transactional rather than supportive. Marta has been dealing with this alone for hours and the resolution is delivered like a status report. No validation, no suggestion for systemic improvement, no acknowledgment that she was in a difficult position. Efficient, but missing the human element that builds lasting trust. | CONSEQUENCES: Mr. Kimura appreciates the update. Marta is grateful but the interaction feels clinical. She won't hesitate to call again, but she won't remember this as exceptional police work either. Professional adequacy, not professional excellence. | Reflection: What's the difference between a professional transaction and a professional relationship?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debrief and Reveal",
+            "sceneUpdate": {
+                "emoji": "🏁",
+                "title": "Training Debrief",
+                "desc": "Back at the station. Sergeant Novak reviews your performance in this hostel noise complaint scenario."
+            },
+            "npcDialogue": [],
+            "autoDialogue": true,
+            "finalScene": true,
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "That was a deceptively complex call, Officer. What looked like a simple noise complaint turned into a multi-party negotiation involving cultural differences, commercial liability, personal vulnerability, and the fine line between enforcement and facilitation. Let's talk about how you navigated the layers."
+                },
+                {
+                    "character": "officer",
+                    "text": "Honestly, the hardest part was Liam. He was charming and loud and pushing every boundary with a smile. I kept second-guessing whether I was being too lenient or too strict."
+                },
+                {
+                    "character": "trainer",
+                    "text": "That tension you felt is the lesson. Most officers think noise complaints are boring calls — low stakes, straightforward, move on. That is exactly the wrong framing. Noise complaints are the single most common interaction between police and the public. They shape community trust more than any other call type. The hostel owner who calls us next month for a serious incident, the tourist who tells friends about their experience with Czech police, the businessman who decides whether this city is professional — all of those outcomes were seeded tonight by how you handled one loud birthday party."
+                },
+                {
+                    "character": "trainer",
+                    "text": "And the real skill you practiced tonight was not volume control — it was stakeholder management. Marta needed support and systemic change. Mr. Kimura needed acknowledgment and sleep. Liam needed his pride intact. Priya needed permission to be the voice of reason. You had to serve all four without betraying any of them. Now let me tell you what happened after you left that hostel."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "officer": {
+            "name": "You (Officer)",
+            "avatar": "👮"
+        },
+        "dispatcher": {
+            "name": "Dispatcher",
+            "avatar": "📻"
+        },
+        "marta": {
+            "name": "Marta (night receptionist, 42)",
+            "avatar": "🙋‍♀️"
+        },
+        "liam": {
+            "name": "Liam (Australian backpacker, 26)",
+            "avatar": "🎒"
+        },
+        "priya": {
+            "name": "Priya (Indian backpacker, 24)",
+            "avatar": "👩"
+        },
+        "mr_kimura": {
+            "name": "Mr. Kimura (Japanese businessman, 53)",
+            "avatar": "👔"
+        },
+        "trainer": {
+            "name": "Sergeant Novak",
+            "avatar": "👮‍♂️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Exceptional Negotiation!",
+            "emoji": "🌟",
+            "feedback": "You demonstrated outstanding multi-party negotiation skills in a complex shared-space environment. Your approach balanced every stakeholder's legitimate needs: the backpackers' desire to celebrate, Mr. Kimura's right to sleep, Marta's need for support, and the hostel's operational requirements. You gathered intelligence before acting, maintained professional boundaries under social pressure, identified and empowered a cooperative ally within the group, and closed the loop with every person involved. Every choice reflected cultural awareness, proportionality, and genuine care for sustainable outcomes over quick fixes."
+        },
+        "good": {
+            "title": "Strong Performance",
+            "emoji": "✅",
+            "feedback": "You handled a multi-stakeholder noise complaint well, showing fairness and working toward resolution rather than simple enforcement. You engaged with the group's perspective and found a workable solution. Some opportunities for deeper cultural sensitivity, better follow-up, or more strategic use of group dynamics were missed, but your approach was professional and proportionate."
+        },
+        "average": {
+            "title": "Adequate Response",
+            "emoji": "📊",
+            "feedback": "You resolved the immediate noise problem, but your approach missed important dimensions of the situation. Whether by rushing past preparation, failing to engage all stakeholders, or choosing enforcement over collaboration, the resolution was functional but fragile. Review your approach to multi-party negotiation, cultural sensitivity, and the difference between compliance and cooperation."
+        },
+        "poor": {
+            "title": "Needs Significant Improvement",
+            "emoji": "⚠️",
+            "feedback": "Your approach created unnecessary conflict in a situation that was loud but not dangerous. Noise complaints in shared accommodation require negotiation, cultural awareness, and proportionality — not heavy-handed enforcement. By failing to prepare, dismissing legitimate perspectives, or escalating through rigid authority, you left multiple stakeholders worse off than when you arrived. Review negotiation fundamentals, proportionate response, and stakeholder management."
+        }
+    },
+    "metrics": {
+        "negotiationSkills": {
+            "name": "Negotiation Skills",
+            "description": "Ability to find mutually acceptable solutions through active listening, reframing, structured choices, and collaborative problem-solving rather than commands",
+            "icon": "🤝"
+        },
+        "culturalSensitivity": {
+            "name": "Cultural Sensitivity",
+            "description": "Awareness of and respect for different cultural norms around noise, socializing, authority, and personal space in an international environment",
+            "icon": "🌍"
+        },
+        "proportionateResponse": {
+            "name": "Proportionate Response",
+            "description": "Matching the level of intervention to the actual severity of the situation — using the minimum authority necessary to achieve resolution",
+            "icon": "⚖️"
+        },
+        "stakeholderManagement": {
+            "name": "Stakeholder Management",
+            "description": "Engaging with all affected parties — noise source, complainants, and venue staff — and ensuring each feels heard and addressed",
+            "icon": "👥"
+        },
+        "professionalBoundaries": {
+            "name": "Professional Boundaries",
+            "description": "Maintaining appropriate officer conduct — declining social overtures, avoiding side-taking, and balancing warmth with authority",
+            "icon": "🛡️"
+        }
+    }
+}

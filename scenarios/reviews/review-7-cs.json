@@ -1,0 +1,768 @@
+{
+  "scenarioId": "7",
+  "reviewVersion": "1.0",
+  "title": "Pouliční potyčka u nočního klubu — Analýza výkonu",
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Posouzení situace",
+      "criticalSkills": [
+        "Rychlé posouzení scény v chaosu bez tunelového vidění",
+        "Nastolení slovní autority a výzvy před fyzickým zásahem",
+        "Souběžné ohlášení na OPIS a přivolání ZZS ke zraněné"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Věnujete tři vteřiny přehledu celé scény, hlásíte na OPIS a žádáte ZZS, pak vykročíte s odznakem a výzvou: „Policie. Jménem zákona zanechte jednání. Oba — pět kroků od sebe.“",
+          "strengths": [
+            "Třísekundový přehled zabrání tunelovému vidění — nejnebezpečnější chybě v chaosu (soulad s § 11, aby nikomu nevznikla bezdůvodná újma)",
+            "Souběžné přivolání ZZS respektuje, že zdraví má přednost před řešením konfliktu",
+            "Výzva „jménem zákona“ opírá pokyn o § 5 zák. o přestupcích a § 53 zák. o policii",
+            "„Pět kroků zpět“ je konkrétní proveditelný úkol místo abstraktního „uklidněte se“",
+            "Krátká pauza signalizuje kontrolu, ne váhání — autorita začíná klidem"
+          ],
+          "professionalImpact": "Váš uvážený vstup vytvořil chvilkovou pauzu, která přerušila eskalační smyčku, a přehled zachytil zraněnou i řeč těla vyhazovače dřív, než vás cokoli mohlo překvapit."
+        },
+        "neutral": {
+          "choiceText": "Zůstanete u vozidla a vysíláte žádost o okamžité posily, než se přiblížíte — scéna je prý příliš nestabilní na samostatný zásah.",
+          "adequate": [
+            "Bezpečnost strážníka je legitimní priorita",
+            "Vyžádání posil je rozumné vzhledem k nestabilní scéně"
+          ],
+          "missed": [
+            "Posily jsou už na cestě a budou za osm minut — čekání u vozidla znamená opuštění povinnosti zasáhnout",
+            "Pozice vyhazovače slábne každou vteřinou a hrozí přechod ke rvačce",
+            "Zraněná sedí bez pomoci, zatímco vyčkáváte v autě"
+          ],
+          "improvement": "Bezpečnost strážníka neznamená čekat na ideální podmínky. Slovní zásah z bezpečné vzdálenosti (§ 53 umožňuje výzvu bez okamžitého donucení) zvládá bezpečnost i povinnost současně."
+        },
+        "negative": {
+          "choiceText": "Bez zastavení se vrhnete mezi Dannyho a Viktora a nataženýma rukama je od sebe odtlačujete hrubou silou, podrážky zapřené o dlažbu, hlavu otočenou střídavě k jednomu a druhému.",
+          "failures": [
+            "Fyzické vsunutí mezi dva opilé agresivní muže bez posouzení scény vás vystavuje extrémnímu riziku",
+            "Obrací zákonné pořadí § 53 — donucení bez předchozí výzvy a výstrahy",
+            "Žádné informace o zbraních, nepřátelství davu nebo poloze zraněné",
+            "Fyzický kontakt před slovním pokynem konfrontaci nezabrání, ale vyvolá ji"
+          ],
+          "consequences": "Dannyho ruka vás zasáhne do ramene, Viktor vnímá váš tlak jako agresi a zaujme bojový postoj, dav se pohrne dopředu. Stojíte uprostřed třísměrné konfrontace bez posil a bez přehledu — a vaše případné zranění ponechá scénu bez kontroly.",
+          "trainingFocus": "Nacvičte pořadí slovní autorita → posouzení → přiměřené donucení. Fyzický zásah bez slovního základu spouští u opilých reakci boj-nebo-útěk."
+        },
+        "partially_positive": {
+          "choiceText": "Přejdete rovnou k vyhazovači, ztišíte hlas a řeknete: „Dobrá práce. Udržíte linii ještě minutu, než zavolám záchranku a začnu je oddělovat?“ — zatímco aktéři dál křičí.",
+          "adequate": [
+            "Zapojení vyhazovače je chytré — je už na pozici a zná aktéry",
+            "Rozpoznává ho jako spojence a oceňuje jeho úsilí",
+            "Prokazuje týmový přístup místo přístupu osamělého hrdiny"
+          ],
+          "missed": [
+            "Zaměřit se výhradně na vyhazovače dřív než na aktéry ztrácí okno autority z vašeho příjezdu",
+            "Danny a Viktor potřebují slyšet váš hlas okamžitě, jinak pauza vyprchá",
+            "Dav čte boční rozhovor jako nerozhodnost, ne velení"
+          ],
+          "improvement": "Nejdřív nastolte autoritu u aktérů krátkou výzvou, teprve pak zapojte vyhazovače do plánu oddělení. První vteřiny příjezdu jsou vaše nejcennější aktivum."
+        }
+      },
+      "legalConsiderations": [
+        "§ 11 zák. č. 273/2008 Sb. — přiměřenost: zásah nesmí překročit míru nezbytnou k účelu; nekonáním nesmí ohroženým vzniknout bezdůvodná újma",
+        "§ 53 zák. č. 273/2008 Sb. — před donucením zásadně výzva a výstraha; upustit lze jen při nebezpečí z prodlení nebo ohrožení života/zdraví",
+        "Procesní krok: ohlášení na OPIS, vyžádání posil a přivolání ZZS ke zraněné (zdraví má přednost)"
+      ],
+      "keyLearningPoints": [
+        "Tři vteřiny pozorování zabrání třem minutám chaosu — nejdřív přehled, pak zásah",
+        "První slova nastaví tón celého zákroku — udělejte je velitelská, konkrétní a opřená o zákon",
+        "V davových situacích váš příjezd vytváří přirozenou pauzu — toto okno je vaše nejcennější aktivum"
+      ]
+    },
+    "2": {
+      "stageName": "Oddělení",
+      "criticalSkills": [
+        "Práce se zdroji — využití vyhazovače a přítelkyně jako spojenců",
+        "Dosažení fyzického oddělení aktérů delegováním",
+        "Vyhýbání se předčasným hrozbám donucení bez naplnění § 53"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Využijete vyhazovače i Terezu: Radka pošlete odvést Viktora ke stání taxi, Terezu oceníte a zapojíte k Dannymu, Dannymu slíbíte, že vyslechnete jeho verzi — „deset kroků, nic víc“.",
+          "strengths": [
+            "Brilantní práce se zdroji — Radek má fyzickou přítomnost a je už u Viktora",
+            "Ocenění Terezy z ní udělá uklidňující přítomnost místo emoční proměnné",
+            "Slib vyslechnout Dannyho verzi mu dá důvod ke spolupráci s oddělením",
+            "„Deset kroků“ je konkrétní a splnitelné pro narušené vnímání opilého",
+            "Každá osoba na scéně dostane konstruktivní roli — chaos se mění v koordinaci"
+          ],
+          "professionalImpact": "Oddělení aktérů jako první fyzická akce odebralo konfliktu palivo; deset metrů odstupu dosažených delegováním viditelně snížilo napětí davu, aniž jste sám vstoupil do rizika."
+        },
+        "neutral": {
+          "choiceText": "Řeknete vyhazovači, ať oba muže odvede zpět dovnitř do klubu do oddělených místností, kde je ticho a pryč od davu.",
+          "adequate": [
+            "Pokouší se přesunout aktéry z prostředí davu",
+            "Hledá klidnější prostředí pro vysvětlení"
+          ],
+          "missed": [
+            "Klub je zdrojem konfliktu — návrat je znovu vystavuje hluku, alkoholu a spouštěčům",
+            "Vyhazovač je vyhodil; vést je zpět podkopává jeho autoritu a vedení může vstup odmítnout",
+            "Ztratíte přehled o zraněné a davu venku (naráží na povinnost neodkládat péči, § 11)"
+          ],
+          "improvement": "Využijte prostředí, které máte. Ulici lze zvládnout oddělením vzdáleností; přesun ke zdroji konfliktu plodí nové problémy a opouští lidi, kteří vás venku potřebují."
+        },
+        "negative": {
+          "choiceText": "Křičíte na oba: „PŘESTAŇTE mluvit. Nezajímá mě, kdo to začal. Oba skončíte v poutech, jestli se HNED neoddělíte.“",
+          "failures": [
+            "Hlasitost a hrozba poutu u opilých vyprovokují vzdor stejně pravděpodobně jako podřízení",
+            "Předčasná hrozba donucení bez naplnění pořadí § 53 (výzva → výstraha → donucení) a bez titulu ke spoutání dle § 54",
+            "„Nezajímá mě, kdo to začal“ odmítá obě jejich stížnosti — jedinou věc, na které jim záleží nejvíc",
+            "Hrozba pouty před davem a kamerami dělá z ústupu ponížení"
+          ],
+          "consequences": "Danny křičí: „Tak mě zatkněte!“ Viktor se nafoukne: „Chci podat stížnost!“ Nikdo se nehne, Tereza pláče. Eskalovali jste do souboje vůlí, který nevyhrajete bez použití síly.",
+          "trainingFocus": "Nahraďte hrozby konkrétním směrováním a důstojnými volbami. Pouta jsou institut vůči osobě zajišťované či omezené na svobodě (§ 54), ne pohrůžka do davu."
+        },
+        "partially_positive": {
+          "choiceText": "Zaměříte se nejdřív výhradně na Dannyho (zdá se rozbouřenější), ztišíte hlas a vedete ho ke zdi — zatímco se otáčíte zády k dosud agresivnímu Viktorovi.",
+          "adequate": [
+            "S Dannym dobrá deeskalace — ztišený hlas, uznání, konkrétní žádost",
+            "Upřednostňuje rozbouřenějšího aktéra",
+            "Využívá empatii a aktivní naslouchání k budování vztahu"
+          ],
+          "missed": [
+            "Otočit se zády k dosud agresivnímu a nezajištěnému Viktorovi je taktické riziko",
+            "Nechat Viktora jen s vyčerpaným vyhazovačem ho může povzbudit k dalšímu jednání",
+            "Viktor to čte jako stranění — „Proč mluvíte jen s ním?!“"
+          ],
+          "improvement": "Oslovte oba aktéry současně přes delegování. Oddělovat po jednom funguje, jen když je druhý zajištěný — využijte Radka a Terezu jako násobič sil."
+        }
+      },
+      "legalConsiderations": [
+        "§ 53 zák. č. 273/2008 Sb. — pořadí výzva → výstraha → přiměřené donucení; hrozba poutem bez naplnění podmínek je předčasná",
+        "§ 54 zák. č. 273/2008 Sb. — pouta se použijí vůči osobě zajišťované, předváděné nebo omezené na svobodě, která klade odpor či je agresivní; ne jako výhrůžka",
+        "§ 11 — udržení přehledu o obou aktérech i o nezúčastněných osobách"
+      ],
+      "keyLearningPoints": [
+        "Oddělení je nejdůležitější první fyzická akce — přerušení očního a fyzického kontaktu odebere konfliktu palivo",
+        "Zapojení lidí, kteří jsou na scéně, násobí vaši efektivitu, když jste sám s posilami osm minut daleko",
+        "Hrozba donucením před publikem dělá z podřízení ponížení — opilí volí vzdor před ztrátou tváře"
+      ]
+    },
+    "3": {
+      "stageName": "Zvládání Dannyho",
+      "criticalSkills": [
+        "Deeskalace u opilých osob přizpůsobená narušenému vnímání",
+        "Uznání emocí bez souhlasu se spornou verzí",
+        "Využití vztahové kotvy (Tereza) k uzemnění rozrušeného člověka"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Stojíte nehybně, krátké uznávající věty: „Vidím, že jste naštvaný... Nejsem tu, abych rozhodoval, kdo má pravdu — jsem tu, aby se všichni dostali bezpečně domů. Řekněte mi popořádku, co se stalo.“",
+          "strengths": [
+            "Nehybné stání proti přecházení vytváří klidný kotevní bod — nehybnost je nakažlivá",
+            "Krátké věty odpovídají zhoršenému zpracování informací opilého",
+            "„Vidím, že jste naštvaný“ uznává emoci bez souhlasu s verzí",
+            "„Nejsem tu, abych rozhodoval, kdo má pravdu“ odstraňuje soudní dynamiku a chrání nestrannost (§ 11)",
+            "Žádost o vyprávění od začátku vyžaduje sekvenční myšlení, které rozrušení zpomaluje"
+          ],
+          "professionalImpact": "Danny přestal přecházet, adrenalin se vybil slovy místo pěstí a Tereza se stala vaší spojenkyní — vytvořil jste podmínky pro klidné a nekontaminované vysvětlení."
+        },
+        "neutral": {
+          "choiceText": "Odvrátíte se od Dannyho a s vytaženým zápisníkem oficiálně vyslýcháte Terezu v jeho přítomnosti — „Řekněte mi přesně, co jste viděla uvnitř.“",
+          "adequate": [
+            "Tereza je střízlivá a soudržná, její výpověď je spolehlivější",
+            "Ztotožnění a výslech svědků patří do postupu (§ 63)"
+          ],
+          "missed": [
+            "Vyslýchat přítelkyni před opilým Dannym z něj dělá odsunutého z vlastního příběhu",
+            "Danny už jí odporuje — oficiální forma ho ponižuje a bere mu tvář",
+            "Deeskalace se mění ve výslech, Danny cítí spolčení přítelkyně a policie"
+          ],
+          "improvement": "Oddělte svědky před výslechem. Danny potřebuje být nejdřív uklidněn, než v jeho přítomnosti formálně zachytíte cizí verzi. Na pořadí záleží víc než na rychlosti."
+        },
+        "negative": {
+          "choiceText": "Zkřížíte ruce a vyložíte fakta: „Vaše přítelkyně mi právě řekla, že to byla nehoda. Podávat oznámení, když jste strčil první vy, vám nepomůže. Jděte domů a vyspěte se z toho.“",
+          "failures": [
+            "Vyvrací jeho verzi, podkopává loajalitu přítelkyně a naznačuje, že je agresor — vše najednou",
+            "Opilí nereagují na logiku, ale na emoce",
+            "Útok na hrdost i vztah zároveň vytváří výbušný hněv",
+            "„Vaše přítelkyně mi právě řekla“ mění Terezu z jeho spojenkyně ve vnímanou zrádkyni"
+          ],
+          "consequences": "Danny se obrátí na Terezu: „Tys mu řekla, že je to moje vina?!“ Tereza se rozpláče, Dannyho zlost se přesměruje na vás a na ni, udělá krok k vám. Situace je horší než před vaší první větou.",
+          "trainingFocus": "Nikdy nepředkládejte rozporné důkazy opilé osobě jako konfrontaci. Uznejte emoci, přerámujte cíl na bezpečnost a nechte fakta přirozeně vyplynout z jeho vlastního vyprávění."
+        },
+        "partially_positive": {
+          "choiceText": "Stručně: „Slyším vás — máte pocit, že jste byl vyprovokovaný. Jdu si promluvit s tím druhým. Zůstaňte tady s Terezou, nechoďte k němu. Jasný?“ — a hned odejdete.",
+          "adequate": [
+            "Efektivní a stanoví jasnou hranici",
+            "„Slyším vás“ nabízí minimální uznání",
+            "Oznámit, že zjistíte druhou stranu, je transparentní"
+          ],
+          "missed": [
+            "Interakce je příliš krátká na skutečnou deeskalaci — uznal jste ho, ale neuklidnil",
+            "Nechat opilého jen s přítelkyní jako dozorem, bez bariéry a autority, je riskantní",
+            "„Jasný?“ může opilému uchu znít konfrontačně; bez trvalého kontaktu se adrenalin vrátí"
+          ],
+          "improvement": "Investujte další minutu do emoční deeskalace, než odejdete — nechte Dannyho mluvit, ne přecházet. Minimální míra zapojení musí stačit k přepnutí z režimu boj-nebo-útěk do režimu vyprávění."
+        }
+      },
+      "communicationTechniques": {
+        "effective": [
+          "Uznání emoce bez souhlasu: „Vidím, že jste naštvaný“",
+          "Přerámování cíle: „aby se dnes všichni dostali bezpečně domů“",
+          "Vztahová kotva: odvolání na Terezu, které Danny důvěřuje",
+          "Sekvenční úkol: „řekněte mi popořádku, co se stalo, od začátku“"
+        ],
+        "ineffective": [
+          "Konfrontace verzí: „Vaše přítelkyně mi právě řekla...“",
+          "Logika proti opilé emoci: „Podávat oznámení vám nepomůže“",
+          "Oficiální výslech svědka v přítomnosti aktéra"
+        ]
+      },
+      "keyLearningPoints": [
+        "Opilí zpracovávají pokyny pomalu — krátké, klidné, opakované instrukce fungují lépe než argumenty",
+        "Uznání emoce není souhlas s příběhem — „vidím, že jste naštvaný“ funguje tam, kde „máte pravdu“ selhává",
+        "Vztahové kotvy jako Tereza mohou být největším aktivem i největším rizikem podle toho, jak je využijete"
+      ]
+    },
+    "4": {
+      "stageName": "Zvládání Viktora",
+      "criticalSkills": [
+        "Deeskalace vnímané nespravedlnosti a strachu z předpojatosti",
+        "Fyzické pozicování a péče o zranění jako signál důvěry",
+        "Správné načasování ztotožnění dle § 63"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Sednete si vedle něj, řešíte nejdřív zranění, potvrdíte Radkovu verzi a řeknete: „Nejsem tu, abych stranil... suďte mě podle toho, co udělám teď. Popište mi krok za krokem, co se stalo.“",
+          "strengths": [
+            "Posadit se snižuje mocenskou nerovnováhu — silný deeskalační signál a respekt k důstojnosti (§ 11)",
+            "Řešit zranění jako první ukazuje, že zdraví má přednost, a otevírá dveře k ošetření a dokumentaci (§ 146)",
+            "Potvrzení Radkovy verze validuje Viktora bez předjímání celkové kvalifikace",
+            "„Suďte mě podle toho, co udělám“ je přesvědčivější než prázdné prohlášení o férovosti",
+            "Žádost o postupný popis mu dává iniciativu a získává nekontaminované vysvětlení (§ 63)"
+          ],
+          "professionalImpact": "Viktorova ramena klesla, začal metodicky vyprávět a přihlížející viděli policistu, jak sedí se zraněným a naslouchá — nejsilnější možný důkaz nestrannosti pod kamerami."
+        },
+        "neutral": {
+          "choiceText": "Narovnáte se a řešíte jeho pocit křivdy prohlášením: „Váš původ ani minulé zkušenosti nemají žádný vliv. Ke všem přistupuju stejně. Oba jste byli do incidentu zapojení.“",
+          "adequate": [
+            "Záměr je dobrý — přímé řešení obav",
+            "Profesionální a jasné prohlášení nestrannosti"
+          ],
+          "missed": [
+            "„Ke všem přistupuju stejně“ je tvrzení, kterému Viktor nemá důvod od cizího člověka věřit",
+            "Taková prohlášení často působí spíš odmítavě než konejšivě",
+            "„Oba jste byli zapojení“ staví zraněného na roveň útočníkovi a předjímá kvalifikaci před fakty"
+          ],
+          "improvement": "Prokazujte férovost činy, ne prohlášeními. Posadit se, zkontrolovat ret a vyslechnout výpověď demonstruje nestrannost mnohem přesvědčivěji než slova."
+        },
+        "negative": {
+          "choiceText": "Zůstanete stát, cvaknete propiskou a bez úvodu žádáte doklady: „Potřebuju vaše celé jméno, datum narození a adresu. A budu potřebovat vidět doklad totožnosti.“",
+          "failures": [
+            "Ztotožnění je zákonné (§ 63), ale okamžitě žádat doklady od člověka, který právě řekl „vždycky to schytám já“, potvrzuje jeho nejhorší obavu",
+            "Žádné uznání jeho zranění, výpovědi ani pocitu křivdy",
+            "Procedura není chybná sama o sobě — chybné je její načasování",
+            "Před přihlížejícími se to jeví jako potvrzení předpojatosti"
+          ],
+          "consequences": "Viktor ztuhne: „Vidíte? Vždycky doklady.“ Zkříží ruce, přestane spolupracovat, Radek se nesvůj zavrtí a přihlížející si vymění pohledy. Každé jeho slovo o zaujatosti se zdánlivě potvrdilo.",
+          "trainingFocus": "Když vám někdo řekne, že se cítí být terčem, vaše příští akce ten strach buď potvrdí, nebo vyvrátí. Začněte péčí a vztahem — doklady (§ 63) mohou přijít vzápětí."
+        },
+        "partially_positive": {
+          "choiceText": "Opřete se vedle něj a vřele řeknete: „Věřím vám. Ten druhý byl zjevně agresor. Postarám se, ať je to spravedlivé, a pomůžu vám podat oznámení.“",
+          "adequate": [
+            "Empatické a dobře míněné",
+            "Přímo validuje Viktorovu zkušenost",
+            "Prokazuje zájem o jeho zranění a křivdu"
+          ],
+          "missed": [
+            "„Věřím vám“ a „zjevně agresor“ před dokončením šetření vás zavazuje k výsledku",
+            "Pokud důkazy později Viktorovu verzi byť zčásti vyvrátí, důvěryhodnost se zhroutí",
+            "Slib pomoci s oznámením před posouzením vhodnosti může eskalovat věc, která mohla skončit podáním ruky"
+          ],
+          "improvement": "Validujte zkušenost bez prohlášení za oficiální pravdu. „Poznamenal jsem si to — je to důležité“ se liší od „věřím vám“: prvé zachovává vaši schopnost posoudit, druhé vás předčasně zavazuje."
+        }
+      },
+      "legalConsiderations": [
+        "§ 63 zák. č. 273/2008 Sb. — výzva k prokázání totožnosti osoby podezřelé z přestupku/TČ; rozsah přiměřený účelu; načasování rozhoduje o důvěře",
+        "§ 146 zák. č. 40/2009 Sb. — ublížení na zdraví: řešit ret jako první, dokumentovat mechanismus a dobu léčení, pokud vyžaduje ošetření",
+        "§ 11 — respekt k důstojnosti; sednout si vedle jako signál nestrannosti"
+      ],
+      "keyLearningPoints": [
+        "Když někdo vyjádří strach z nespravedlnosti, vaše příští akce ten strach buď potvrdí, nebo vyvrátí — volte opatrně",
+        "Fyzické pozicování mluví víc než slova — sedět vedle říká „partner“, stát nad říká „autorita“",
+        "Řešení zranění před kladením otázek buduje důvěru rychleji než jakékoli slovní ujištění"
+      ]
+    },
+    "5": {
+      "stageName": "Faktor davu",
+      "criticalSkills": [
+        "Psychologie davu v prostředí pod vlivem alkoholu",
+        "Přeměna diváků na spolupracující občany a svědky",
+        "Respekt k právu natáčet a souběžná péče o zraněnou"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Oslovíte dav klidnou autoritou, poděkujete za trpělivost, nabídnete dvě cesty (bezpečně domů, nebo zůstat jako svědek), zmíníte zraněnou a požádáte kolemjdoucího, ať se na ni podívá.",
+          "strengths": [
+            "„Děkuju za trpělivost“ přerámuje diváky ve spolupracující občany",
+            "Vysvětlení „situace je taková“ nasytí potřebu informací — davy houstnou, když nevědí, co se děje",
+            "Dvě jasné cesty dají pasivním lidem roli",
+            "Zmínka o zraněné přesměruje pozornost od zábavy k empatii",
+            "Nikoho nenutíte schovat telefon — právo natáčet se respektuje (§ 11)"
+          ],
+          "professionalImpact": "Tón se změnil, část davu odešla, dva svědci zůstali, provokatér ztratil publikum a telefony teď zachycují kompetenci místo podívané."
+        },
+        "neutral": {
+          "choiceText": "Otočíte se k davu zády a úplně ho ignorujete jako kulisu, zaměříte se jen na aktéry a poznámky, přecházíte mezi nimi s hlavou skloněnou k zápisníku.",
+          "adequate": [
+            "Udržuje zaměření na primární interakci",
+            "Vyhýbá se přímé eskalaci s davem"
+          ],
+          "missed": [
+            "Provokatér „nechte je se poprat“ přímo zvyšuje adrenalin obou aktérů",
+            "Ignorovat dav znamená ignorovat zraněnou — selhání povinné péče (§ 11)",
+            "Davy před kluby v 1:30 se nenudí — opijí se a přešlapují; aktéři začnou předvádět pro publikum"
+          ],
+          "improvement": "Krátké oslovení stojí deset vteřin a zabrání deseti minutám eskalace. Dav není rozptýlení, ale aktivní proměnná, kterou je třeba řídit."
+        },
+        "negative": {
+          "choiceText": "Křičíte na dav: „Všichni nezúčastnění — ODEJDĚTE. Kdo bude zasahovat, bude zadržen za maření. Schovejte telefony a jděte dál!“",
+          "failures": [
+            "Rozkaz 15–20 opilým lidem k rozchodu v 1:30 málokdy funguje",
+            "Hrozba zadržením za „maření“ na veřejném chodníku je právně pochybná a nevymahatelná",
+            "Výzva schovat telefony je zásah do práva natáčet bez zákonného důvodu",
+            "Agrese vůči davu riskuje jeho sjednocení proti vám — nejnebezpečnější výsledek"
+          ],
+          "consequences": "Nikdo neodejde, provokatér se směje: „Tak nás zatkněte všechny!“ Telefony zůstávají nahoře, pár lidí se ze vzdoru přiblíží, Danny i Viktor reagují na křik. Eskalovali jste dav a destabilizovali aktéry současně.",
+          "trainingFocus": "Nahraďte příkazy informacemi a volbami; kameru berte jako spojence, který zachytí vaši profesionalitu. Telefony se bez zákonného důvodu nezabavují."
+        },
+        "partially_positive": {
+          "choiceText": "Prorazíte davem k provokatérovi a tiše mu vyhrožujete odpovědností — „jestli se někdo zraní, bude to na vás“ — záda otočená k oběma aktérům.",
+          "adequate": [
+            "Řeší nejdestabilizujícího jedince přímo",
+            "Tichý hlas zabraňuje veřejné konfrontaci",
+            "Žádost zarámuje v kontextu důsledků, ne holé autority"
+          ],
+          "missed": [
+            "Vyčlenit jednoho z opilého davu vyprovokuje vzdor stejně snadno jako podřízení",
+            "Odejít od aktérů ke konfrontaci s křiklounem snižuje kontrolu nad hlavní scénou",
+            "Pokud provokatér eskaluje, máte tři souběžné problémy místo jednoho"
+          ],
+          "improvement": "Oslovte dav jako celek místo vyčleňování nejhlasitějšího hlasu. Krátká věta pro všechny zmenší provokatérovo publikum, aniž mu dáte reflektor."
+        }
+      },
+      "legalConsiderations": [
+        "§ 5 zák. č. 251/2016 Sb. — přestupky proti veřejnému pořádku (neuposlechnutí výzvy, noční klid, veřejné pohoršení); pokuta zpravidla do 10 000 Kč",
+        "Právo natáčet ve veřejném prostoru — telefony se bez zákonného důvodu nezabavují; opak je nezákonný zásah",
+        "§ 11 — přiměřenost oslovení davu; nekonáním nesmí zraněné vzniknout bezdůvodná újma"
+      ],
+      "keyLearningPoints": [
+        "Dav zesiluje převládající emoční tón — klidná autorita je nakažlivá stejně jako panika",
+        "Přidělení konstruktivní role (svědek, pomocník) snižuje touhu davu po roli destruktivní",
+        "Každý natáčející telefon je potenciální výcvikové video, nebo skandál — rozhoduje vaše profesionalita"
+      ]
+    },
+    "6": {
+      "stageName": "Řešení",
+      "criticalSkills": [
+        "Správná právní kvalifikace jednání (přestupek vs. výtržnictví vs. rvačka)",
+        "Přiměřenost a moudré využití diskrece (§ 11)",
+        "Volba mezi domluvou, zajištěním (§ 26) a zadržením podezřelého (§ 76 tr. řádu)"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Neutrálně shrnete fakta, vyloučíte rvačku i výtržnost, pojmenujete přestupkovou rovinu řešitelnou domluvou, nikoho nezajišťujete, požádáte každého o malý ústupek a pošlete je domů oddělenými taxíky.",
+          "strengths": [
+            "Správně vylučuje § 158 (rvačka žádá tři a více aktivních účastníků — dva ne)",
+            "Váží, že strkanice bez vážného zranění nedosahuje intenzity výtržnictví § 358 (NS: napadení musí mít vyšší intenzitu)",
+            "Když nikdo nechce oznámení, je nezajišťování a nezadržování v souladu s přiměřeností (§ 11)",
+            "Neutrální shrnutí zbaví příběh hrdinů a padouchů",
+            "Oddělené směry taxi brání opětovnému setkání; závěrečná věta je hranice bez hrozby"
+          ],
+          "professionalImpact": "Noc skončila bez obvinění, bez zranění a bez virálního videa selhání; obě strany odešly s pocitem, že byly vyslyšeny, a přiměřenost zákroku obstojí i pod kamerami."
+        },
+        "neutral": {
+          "choiceText": "Vytáhnete kompletní formuláře, odeberete podrobné výpovědi od obou i svědků, vyžádáte lékařská posouzení a sepíšete kompletní hlášení — „ať rozhodne systém“.",
+          "adequate": [
+            "Procedurálně důkladné a podle předpisů",
+            "Formálně řeší obě lékařské potřeby"
+          ],
+          "missed": [
+            "Kompletní výpovědi a hlášení pro drobnou strkanici, kde nikdo nechce formální postup, zaberou hodiny",
+            "V sobotu v 1:30 stáhne kapacitu potřebnou pro další výjezdy",
+            "Nutí Viktora na stanici navzdory ranní směně a povyšuje bagatelní věc na nezastavitelnou mašinérii",
+            "Neváží přiměřenost (§ 11) ani možnost domluvy"
+          ],
+          "improvement": "Když vám zákon dává diskreci a nikdo nechce formální řízení, ptejte se, zda důkladnost slouží spravedlnosti, nebo jen generuje papíry. Zdraví zraněné řešte vždy, zbytek přiměřeně."
+        },
+        "negative": {
+          "choiceText": "Vytáhnete pouta a zadržíte Dannyho pro podezření z výtržnictví — „strčil první, to je útok; Viktor je oběť, Radek svědek, jasnej případ“.",
+          "failures": [
+            "Strkanice kvůli politému drinku bez vážného zranění nedosahuje intenzity výtržnictví § 358 a rozhodně není rvačka § 158",
+            "Zadržení podezřelého (§ 76 tr. řádu) předpokládá trestný čin a důvod vazby — nic z toho zde není",
+            "Zákrok je nepřiměřený (§ 11), povyšuje bagatelní věc na trestní záznam",
+            "Klíčový svědek (vyhazovač) začne minimalizovat vlastní hrubé zacházení, jakmile poteče formální řízení"
+          ],
+          "consequences": "Danny vybuchne, Tereza je hysterická, Viktor protestuje — o tohle nežádal. Radek zmlkne. Zadržení před telefony se stane virálním. Bagatelní incident je najednou trestní kauza, ze které nemá nikdo prospěch.",
+          "trainingFocus": "Pravomoc zakročit není totéž co povinnost trestat. Než sáhnete po zadržení, ověřte, zda jsou naplněny znaky TČ a důvody vazby — a zda zákrok slouží spravedlnosti, nebo ji podkopává."
+        },
+        "partially_positive": {
+          "choiceText": "Vyhlásíte verdikt se zkříženýma rukama: „Mohl bych vás oba zajistit za narušení veřejného pořádku, ale nechám to být. Jděte domů, jinak strávíte noc na cele.“",
+          "adequate": [
+            "Výsledek je rozumný — žádné zajištění, jít domů",
+            "Využívá diskreci místo maximálního vymáhání",
+            "Stanoví jasná očekávání ohledně budoucího chování"
+          ],
+          "missed": [
+            "„Mohl bych vás oba zajistit“ staví hrozbu nad milosrdný akt — podřízení působí jako vděčnost za shovívavost",
+            "Nerozlišuje, kdo začal a kdo má oprávněnou stížnost",
+            "Viktor, který dostal ránu, slyší, že je stejně vinen; chybí pojmenování kvalifikace"
+          ],
+          "improvement": "Pojmenujte fakta neutrálně místo vyhrožování tím, co byste mohl udělat. Uznejte asymetrii a přitom oba směrujte ke stejnému důstojnému východu — přiměřené řešení neznamená identické zacházení."
+        }
+      },
+      "legalConsiderations": [
+        "§ 358 zák. č. 40/2009 Sb. — výtržnictví: chodník před klubem je místo veřejnosti přístupné, ale napadení musí dosáhnout vyšší intenzity (judikatura NS); ne každé strčení je výtržnost",
+        "§ 158 zák. č. 40/2009 Sb. — rvačka vyžaduje nejméně tři aktivní účastníky; potyčka dvou mužů NENÍ rvačka",
+        "§ 76 odst. 1 zák. č. 141/1961 Sb. — zadržení osoby podezřelé policejním orgánem předpokládá TČ a některý z důvodů vazby; § 26 zák. č. 273/2008 Sb. — zajištění osoby u přestupku (nejdéle 24 hodin)",
+        "§ 5 a § 7 zák. č. 251/2016 Sb. — přestupková rovina (veřejný pořádek / občanské soužití); mezi cizími osobami netřeba souhlas s projednáním; § 11 — přiměřenost a diskrece"
+      ],
+      "keyLearningPoints": [
+        "Přiměřenost je znakem zkušeného policisty — reakce se přizpůsobuje skutečné škodě, ne maximální právní pravomoci",
+        "Střízlivá kvalifikace: dva aktéři nejsou rvačka (§ 158) a bez vyšší intenzity nejde o výtržnictví (§ 358)",
+        "Otázka není, zda máte pravomoc zadržet, ale zda zadržení slouží spravedlnosti — u bagatelní věci bez zájmu stran zpravidla ne"
+      ]
+    },
+    "7": {
+      "stageName": "Uzavření",
+      "criticalSkills": [
+        "Péče o opomíjené a zraněné osoby (zdraví má přednost)",
+        "Konstruktivní reakce na dobrovolné přiznání vyhazovače",
+        "Uzavření scény s péčí, ne jen s efektivitou"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Dáte přednost zraněné, kleknete si k ní, oslovíte ji jménem, zavoláte ZZS a zůstanete s ní; poté odměníte Radkovu upřímnost a nasměrujete ho ke školení místo okamžité formalizace.",
+          "strengths": [
+            "Zraněná byla nejopomíjenější osobou na scéně — zdraví má přednost a včasná péče je i právně relevantní (§ 146: dokumentace mechanismu a doby léčení)",
+            "Oslovit jménem, zkontrolovat zranění, přivolat ZZS a zůstat jsou akce budující důvěru",
+            "U Radka je upřímnost odměněna upřímností — uznat přiznání bez okamžité formalizace je dnes přiměřené",
+            "Přitom nezapomínáte, že i vyhazovač mohl naplnit § 146 či § 358, a proto ho směrujete k nápravě",
+            "Poslední obraz noci — policista sedící se zraněnou dívkou — buduje důvěru u všech, kdo ještě sledují"
+          ],
+          "professionalImpact": "Míša se uleví a získá péči, Radek přikyvuje, protože jste posílil jeho lepší verzi, a scéna je uzavřena tak, že poslední zachycený obraz komunikuje kompetenci a lidskost."
+        },
+        "neutral": {
+          "choiceText": "Obrátíte se okamžitě k Radkovu přiznání jako k závažné věci a žádáte, ať přesně sepíše průběh vyhazování — zatímco zraněná dál čeká na obrubníku.",
+          "adequate": [
+            "Brát přiznání vážně je profesionálně správné",
+            "Nadměrná síla vyhazovače může naplnit § 146, případně § 358"
+          ],
+          "missed": [
+            "Zraněná čeká přes půl hodiny — upřednostnit proces před akutní péčí obrací pořadí priorit (zdraví má přednost)",
+            "Radek nabídl upřímnost dobrovolně; okamžité formální důsledky zajistí, že příště už žádný vyhazovač upřímný nebude",
+            "Ztratíte spolupracujícího svědka i komunitního spojence"
+          ],
+          "improvement": "Péče nejdřív, proces potom. Postarejte se o zraněnou okamžitě, pak reagujte na Radkovu upřímnost způsobem, který podpoří budoucí transparentnost — uznejte, nasměrujte a navažte později."
+        },
+        "negative": {
+          "choiceText": "Řeknete zraněné, ať si sama zavolá 155 nebo jede na pohotovost, popíšete jí cestu a otáčíte se k vozidlu psát hlášení.",
+          "failures": [
+            "Poslat zraněnou, opuštěnou devatenáctiletou dívku, ať si sama zavolá záchranku, je zanedbání povinné péče (§ 11)",
+            "Sedí na studeném obrubníku půl hodiny a čeká na pomoc",
+            "Nasměrovat ji k svépomoci, abyste mohl dělat papíry, jí říká, že hlášení je důležitější než její kotník",
+            "Stane se z toho příběh, který bude vyprávět léta"
+          ],
+          "consequences": "Míše spadne obličej, zavolá 155 sama ve dvě ráno. Radek kroutí hlavou. Poslední kolemjdoucí natáčejí strážníka nasedajícího do auta, zatímco zraněná sedí sama. Toto video se stane virálním — ale ne z dobrých důvodů.",
+          "trainingFocus": "Vy jste pomoc na místě. Sedněte si k ní, zkontrolujte zranění, sám zavolejte ZZS a zůstaňte, než přijde pomoc. Hlášení může počkat — člověk před vámi ne."
+        },
+        "partially_positive": {
+          "choiceText": "Vyřídíte věci efektivně: vyžádáte sanitku pro zraněnou, stručně poradíte Radkovi přehodnotit postupy a zamíříte zpět k vozidlu — vše je technicky vyřízeno.",
+          "adequate": [
+            "V jádru správné akce — sanitka pro Míšu, rada pro Radka",
+            "Efektivní a akčně orientované",
+            "Řeší oba zbývající problémy"
+          ],
+          "missed": [
+            "Míša nepotřebuje jen sanitku — je sama, zraněná a vystrašená ve dvě ráno",
+            "Přivolaná sanitka bez rozhovoru z ní udělá logistický problém",
+            "Radek se právě otevřel se skutečnou věcí — rychlý pokyn ten moment přehlédne"
+          ],
+          "improvement": "Rozdíl mezi uzavřenou a dobře uzavřenou scénou je lidské spojení. Sedněte si na dvě minuty k Míše a upřímně poděkujte Radkovi — čekající výjezdy počkají, člověk na obrubníku ne."
+        }
+      },
+      "legalConsiderations": [
+        "§ 146 zák. č. 40/2009 Sb. — ublížení na zdraví: zadokumentovat mechanismus úrazu a dobu léčení podvrtnutého kotníku pro případnou kvalifikaci",
+        "§ 11 zák. č. 273/2008 Sb. — nekonáním nesmí ohrožené osobě vzniknout bezdůvodná újma; povinnost neodkládat péči",
+        "Vyhazovač jako možný pachatel: nadměrná síla může naplnit § 146 (ublížení na zdraví) či § 358 (výtržnictví) — nepřijímat jeho verzi nekriticky"
+      ],
+      "keyLearningPoints": [
+        "To poslední, co na místě uděláte, si lidé pamatují nejvíc — uzavírejte s péčí, ne jen s efektivitou",
+        "Včasná péče o zraněné mění vnímání policie davem z hrozby na ochránce",
+        "Když někdo dobrovolně přizná chybu, vaše reakce určí, zda budou on i ostatní k policii někdy opět upřímní"
+      ]
+    }
+  },
+  "comprehensiveMetrics": {
+    "rapport": {
+      "description": "Budování důvěry a spolupráce s opilými aktéry, přítelkyní, vyhazovačem i davem prostřednictvím uznání emocí a respektu",
+      "indicators": {
+        "excellent": [
+          "Uznání emocí bez souhlasu se spornou verzí — „vidím, že jste naštvaný“",
+          "Ocenění a zapojení Terezy i Radka jako spojenců místo překážek",
+          "Sednutí si vedle zraněného Viktora jako signál partnerství, ne nadvlády",
+          "Přeměna davu na svědky a pomocníky přidělením konstruktivní role"
+        ],
+        "poor": [
+          "Konfrontace opilého rozpornými fakty v přítomnosti přítelkyně",
+          "Prohlášení o férovosti místo prokázané férovosti činy",
+          "Ignorování nebo napadání davu, které ho sjednotí proti vám",
+          "Neschopnost číst emoční tón aktérů i publika"
+        ]
+      }
+    },
+    "procedure": {
+      "description": "Správná právní kvalifikace, přiměřenost zákroku a dodržení pořadí výzva–výstraha–donucení, ztotožnění a volba mezi domluvou, zajištěním a zadržením",
+      "indicators": {
+        "excellent": [
+          "Střízlivá kvalifikace — přestupek, ne rvačka (§ 158) ani výtržnictví (§ 358) bez vyšší intenzity",
+          "Dodržení pořadí výzva → výstraha → přiměřené donucení (§ 53)",
+          "Ztotožnění (§ 63) ve správném načasování, po navázání vztahu",
+          "Přiměřené využití diskrece (§ 11) — bez zbytečného zajištění či zadržení"
+        ],
+        "poor": [
+          "Zadržení pro podezření z výtržnictví u bagatelní strkanice bez naplnění znaků TČ",
+          "Předčasná hrozba poutu bez naplnění § 53 a titulu dle § 54",
+          "Nepřiměřená procedurální mašinérie na desetiminutový problém",
+          "Chybné označení potyčky dvou osob za rvačku (§ 158)"
+        ]
+      }
+    },
+    "emotional": {
+      "description": "Zvládání vlastního adrenalinu a čtení emočního tónu opilých jedinců i davu; komunikace přizpůsobená narušenému vnímání",
+      "indicators": {
+        "excellent": [
+          "Klidná, nižší intonace a nehybný postoj jako kotevní bod proti přecházení",
+          "Krátké, konkrétní věty odpovídající rychlosti zpracování opilé osoby",
+          "Regulace vlastní řeči těla pod tlakem davu a kamer",
+          "Využití nakažlivosti klidné autority místo zrcadlení paniky"
+        ],
+        "poor": [
+          "Reakce na křik hlasitějším křikem, který dav zesílí",
+          "Vnesení vlastního adrenalinu do scény unáhleným fyzickým zásahem",
+          "Přehlédnutí emočního podtónu Viktorovy křivdy a Dannyho strachu",
+          "Moralizování nebo ironie vůči opilým aktérům"
+        ]
+      }
+    },
+    "safety": {
+      "description": "Rychlé posouzení scény, taktický přehled, oddělení nestabilních stran a péče o zraněnou i o bezpečnost strážníka",
+      "indicators": {
+        "excellent": [
+          "Třísekundový přehled identifikuje aktéry, spojence, zraněnou, dav i východy",
+          "Slovní autorita nastolena před jakýmkoli fyzickým zásahem",
+          "Nikdy se neotáčí zády k nezajištěné agresivní osobě",
+          "Zraněná začleněna do plánu řízení scény a včas předána ZZS"
+        ],
+        "poor": [
+          "Vrhnutí se mezi aktéry bez posouzení a slovních příkazů",
+          "Tunelové vidění na jednoho aktéra, zatímco druhý zůstává nezajištěný",
+          "Zraněná ignorovaná až téměř do uzavření scény",
+          "Vyčkávání u vozidla, zatímco hrozí přechod ke rvačce"
+        ]
+      }
+    }
+  },
+  "mistakePatterns": {
+    "escalation": {
+      "pattern": "Fyzický zásah nebo hlasitá hrozba dřív než klidná slovní autorita a naplnění pořadí výzva–výstraha–donucení",
+      "examples": [
+        "Vrhnutí se mezi Dannyho a Viktora a jejich odtlačování bez posouzení a výzvy",
+        "Křik na oba s hrozbou pouty bez naplnění § 53 a § 54",
+        "Křik na dav s hrozbou zadržením za „maření“ na veřejném chodníku",
+        "Reakce na provokatéra hlasitějším křikem, který dav otočí proti vám"
+      ],
+      "impact": "Fyzická nebo verbální eskalace u opilých spouští reakci boj-nebo-útěk, sjednocuje dav proti policii a obrací zákonné pořadí donucení; s posilami osm minut daleko je to nejrizikovější volba.",
+      "correction": "Nejdřív přehled a klidná výzva opřená o zákon, teprve pak přiměřené donucení. Nahraďte hrozby konkrétním směrováním a důstojnými volbami."
+    },
+    "missingCues": {
+      "pattern": "Přehlédnutí kritických signálů — zraněné, Viktorovy křivdy, Radkova přiznání — kvůli zaměření na nejhlasitější stranu",
+      "examples": [
+        "Zraněná sedí na obrubníku přes půl hodiny bez oficiální pozornosti",
+        "Okamžité požadování dokladů od Viktora poté, co vyjádřil strach z předpojatosti",
+        "Ignorování davu, který mezitím zesiluje agresi obou aktérů",
+        "Interpretace ticha opilého po hrozbě jako úspěšné deeskalace"
+      ],
+      "impact": "Povrch vypadá klidně, ale skutečná potřeba — péče o zraněnou, důvěra Viktora, spolupráce vyhazovače — zůstává nedotčena; opomíjená zraněná je nejsympatičtější osobou a její zanedbání se stane virálním videem.",
+      "correction": "Sledujte i tiché signály. Zraněnou začleňte do řízení scény od začátku a na vyjádřený strach či dobrovolné přiznání reagujte přímo a s péčí."
+    },
+    "judgmental": {
+      "pattern": "Předjímání viny nebo falešná ekvivalence — zacházení s oběma stranami stejně navzdory jasné asymetrii, nebo předčasné prohlášení jedné verze za pravdu",
+      "examples": [
+        "„Oba jste byli zapojení do incidentu“ řečené Viktorovi, který dostal ránu",
+        "„Mohl bych vás oba zajistit“ bez rozlišení, kdo začal a kdo má oprávněnou stížnost",
+        "Zadržení Dannyho jako jednoznačného agresora u bagatelní strkanice",
+        "„Věřím vám, zjevně agresor“ řečené Viktorovi před dokončením šetření"
+      ],
+      "impact": "Falešná ekvivalence je nespravedlivá k tomu, kdo má oprávněnou stížnost, a předčasné závěry vás zavazují k výsledku, který důkazy nemusí unést — obojí boří důvěru a naráží na nestrannost (§ 11).",
+      "correction": "Uznávejte asymetrii bez kriminalizace kterékoli strany a validujte zkušenost bez prohlášení za oficiální pravdu — „poznamenal jsem si to“ místo „věřím vám“."
+    },
+    "procedural": {
+      "pattern": "Nepřiměřené použití procedury — buď maximální byrokracie na bagatelní věc, nebo formalizace tam, kde stačí péče a domluva",
+      "examples": [
+        "Kompletní výpovědi, lékařská posouzení a hlášení pro drobnou strkanici, kterou nikdo nechce hnát dál",
+        "Zadržení podezřelého (§ 76) bez naplnění znaků TČ a důvodu vazby",
+        "Okamžitá formalizace Radkova přiznání místo jeho nasměrování ke školení",
+        "Poslání zraněné k svépomoci, abyste stihl sepsat hlášení"
+      ],
+      "impact": "Procedura nasazená bez ohledu na přiměřenost (§ 11) stáhne kapacitu, traumatizuje strany, umlčí spolupracující svědky a odsune akutní péči; systém formálně funguje, ale nikomu neposlouží.",
+      "correction": "Kalibrujte proceduru k závažnosti. Zdraví zraněné řešte vždy, u zbytku vážte, zda formální postup slouží spravedlnosti, nebo jen generuje papíry."
+    }
+  },
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Vynikající velení scény v jednom z nejchaotičtějších policejních prostředí. Posoudil jste situaci před jednáním, oddělil aktéry pomocí každého dostupného zdroje — Radka, Terezy, samotného davu — deeskaloval dva opilé muže empatií a klidnou autoritou, zvládl nestabilní dav přidělením konstruktivních rolí, střízlivě a správně kvalifikoval jednání (přestupek, ne výtržnictví ani rvačka) a v mezích přiměřenosti dosáhl řešení zachovávajícího důstojnost všech, a scénu jste uzavřel péčí o osobu, na kterou všichni zapomněli. Každý telefon, který vás natáčel, zachytil policejní práci budující důvěru komunity. Toto je standard.",
+      "mostlyPositive": "Silný výkon pod vysokým tlakem. Zachoval jste klid v chaotické scéně u nočního klubu a dosáhl rozumného, přiměřeného výsledku. Prokázal jste dobré instinkty pro oddělení, deeskalaci nebo kvalifikaci. Klíčová silná stránka: [KONKRÉTNÍ_SILNÁ_STRÁNKA]. Oblast k rozvoji: [KONKRÉTNÍ_ZLEPŠENÍ]. Některé příležitosti byly zmeškány — možná ve zvládání davu, dřívější péči o zraněnou nebo konstruktivnějším řešení Radkova přiznání — ale celkový přístup byl profesionální a scéna skončila bez vážné eskalace.",
+      "mixed": "Prokázal jste kompetenci v některých oblastech, ale měl jste potíže s plnou komplexností této mnohostranné scény. Mezi silné stránky patřilo [KONKRÉTNÍ_SILNÉ_STRÁNKY]. Avšak [KONKRÉTNÍ_SLABINY] vyžadují pozornost. Souběžné zvládání opilých aktérů, nestabilního davu, zraněné a vyhazovače žádá prioritizaci a delegování — a řešení žádá střízlivou právní kvalifikaci. Projděte si [OBLASTI_VÝCVIKU] pro zlepšení své reakce.",
+      "mostlyNegative": "Tento scénář odhalil významné mezery v deeskalaci a přiměřenosti. Přestože jste [DROBNÉ_POZITIVUM], většina voleb eskalovala místo uklidnění — hrozbami, konfrontací, zanedbáním zraněné nebo nepřiměřeným vymáháním. Konkrétně [HLAVNÍ_SELHÁNÍ]. Incidenty u nočních klubů jsou místem, kde se důvěra v jednom zásahu buduje, nebo boří. Doporučen výcvik v: [KRITICKÝ_VÝCVIK].",
+      "allNegative": "Váš přístup k tomuto incidentu způsobil víc problémů, než vyřešil. Fyzický zásah bez slovní autority, hrozby provokující vzdor, zanedbání zraněné a nepřiměřené vymáhání vystupňovaly zvladatelnou situaci v krizi. Každý telefon natáčel strážníka, který chaotickou scénu zhoršoval. Vyžadováno zásadní přeorientování: slovní před fyzickým, klid před příkazy, přiměřenost a střízlivá kvalifikace před maximálním vymáháním, péče před papíry."
+    }
+  },
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "„Policie. Jménem zákona zanechte jednání. Oba — pět kroků od sebe. Hned.“",
+      "„Radku, potřebuju, abyste Viktora odvedl deset metrů tamhle ke stání taxíků. Jděte a klidně přitom mluvte.“",
+      "„Děláte správnou věc. Pomozte mi dostat Dannyho sem ke zdi.“",
+      "„Danny, vidím, že jste naštvaný... Nejsem tu, abych rozhodoval, kdo má pravdu — jsem tu, aby se dnes všichni dostali bezpečně domů.“",
+      "„Viktore, vidím, že jste zraněný a je mi to líto. Ukažte mi ten ret — potřebuje ošetřit? ...Suďte mě podle toho, co udělám teď.“",
+      "„Děkuju za trpělivost. Mám tu dva lidi, kteří potřebují mou pozornost, a někoho zraněného na obrubníku, kdo potřebuje pomoc.“",
+      "„Intenzita nedosáhla úrovně, kterou by řešil soud — nejde o rvačku ani výtržnost, spíš o přestupek, který se dá vyřešit domluvou.“",
+      "„Omlouvám se, že jste čekala — ukažte mi to. Jak se jmenujete? ...Míšo, dobře. Hýbou se vám prsty?“"
+    ],
+    "poorPhrases": [
+      "„OBA — PŘESTAŇTE mluvit. Nezajímá mě, kdo to začal. Oba skončíte v poutech.“ — předčasná hrozba donucení bez naplnění § 53",
+      "„Vaše přítelkyně mi právě řekla, že to byla nehoda.“ — konfrontace opilého rozpornými fakty v přítomnosti přítelkyně",
+      "„Potřebuju vaše celé jméno, datum narození a doklad.“ — okamžité doklady po Viktorově vyjádřeném strachu z předpojatosti",
+      "„Všichni nezúčastnění — ODEJDĚTE. Schovejte ty telefony.“ — nezákonný zásah do práva natáčet, sjednocení davu proti vám",
+      "„Danny, zadržuju vás pro podezření z výtržnictví.“ — nepřiměřená kvalifikace bagatelní strkanice bez znaků TČ",
+      "„Mohl bych vás oba zajistit, ale nechám to být.“ — hrozba nad milosrdenstvím, falešná ekvivalence",
+      "„Slečno, měla byste si zavolat 155 nebo jet na pohotovost.“ — zanedbání povinné péče o zraněnou (§ 11)"
+    ],
+    "analysisCriteria": {
+      "tone": "Byl tón přiměřený emočnímu kontextu opilé scény — klidná autorita, ne křik ani ironie?",
+      "clarity": "Byl příkaz krátký, konkrétní a proveditelný pro narušené vnímání opilého? „Pět kroků zpět“ versus „uklidněte se“",
+      "empathy": "Uznala fráze emoční stav osoby, aniž by podpořila její spornou verzi příběhu?",
+      "legality": "Odpovídala fráze zákonu — pořadí výzva–výstraha–donucení (§ 53), přiměřenost (§ 11), respekt k právu natáčet?",
+      "proportionality": "Odpovídala kvalifikace i řešení skutečné závažnosti — přestupek, ne trestný čin, u drobné strkanice?",
+      "safety": "Prokázala fráze péči o zranitelné a udržení taktického přehledu nad všemi stranami?"
+    }
+  },
+  "scenarioSpecificLessons": {
+    "1": "Tři vteřiny přehledu před zásahem zabrání minutám chaosu. Rychlý přehled identifikuje všechny prvky scény a souběžné přivolání ZZS respektuje, že zdraví má přednost. První slova opřená o výzvu „jménem zákona“ (§ 5, § 53) nastaví tón pro vše, co následuje.",
+    "2": "Oddělení je nejdůležitější první fyzická akce. Využití spojenců — Radka pro Viktora, Terezy pro Dannyho — násobí vaši efektivitu, když jste sám. Hrozba poutu bez naplnění pořadí výzva–výstraha–donucení (§ 53) a titulu dle § 54 je předčasná a dělá z ústupu ponížení.",
+    "3": "Opilí zpracovávají pokyny pomalu a reagují na emoce, ne na logiku. Krátké, klidné, opakované instrukce fungují lépe než argumenty. Uznání Dannyho hněvu bez souhlasu s jeho verzí deeskaluje bez závazku; nikdy nepoužívejte svědectví přítelkyně proti někomu v jeho přítomnosti.",
+    "4": "Když Viktor řekne „vždycky to schytám já“, vaše úplně příští akce ten pocit buď potvrdí, nebo vyvrátí. Sednout si vedle něj, ošetřit ret jako první (§ 146) a vyslechnout ho demonstruje nestrannost přesvědčivěji než prohlášení „ke všem přistupuju stejně“. Doklady (§ 63) mohou přijít vzápětí.",
+    "5": "Dav zesiluje převládající emoční tón. Dát lidem informace a volby — jít bezpečně domů, nebo zůstat jako svědci — mění diváky ve spolupracovníky. Zmínka o zraněné posune psychologii davu od zábavy k empatii. Právo natáčet se respektuje; telefony se bez zákonného důvodu nezabavují.",
+    "6": "Střízlivá kvalifikace je jádro fáze: strkanice dvou opilých není rvačka (§ 158 žádá tři a víc účastníků) a bez vyšší intenzity ani výtržnictví (§ 358) — zbývá přestupek řešitelný domluvou. Otázka není, zda máte pravomoc zadržet (§ 76), ale zda zadržení slouží spravedlnosti; u bagatelní věci bez zájmu stran zpravidla ne (§ 11).",
+    "7": "To poslední, co na místě uděláte, si lidé pamatují nejvíc. Sednout si ke zraněné, ošetřit kotník a zůstat, než přijde ZZS, mění poslední obraz noci z efektivity na péči (§ 11, § 146). A když Radek přizná, že byl příliš hrubý, vaše reakce určí, zda budou vyhazovači k policii někdy opět upřímní — a nezapomeňte, že pachatelem může být i on.",
+    "8": "Rozbor spojuje vše: příjezd sám není nevýhoda, když využijete lidi na místě; pravomoc zakročit není povinnost trestat; a scéna se uzavírá péčí a přiměřeností, ne silou. Koordinace, střízlivá kvalifikace a péče o opomíjené jsou znakem zkušeného strážníka pořádkové služby."
+  },
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Pokročilá dynamika davu a deeskalace hromadných událostí — školení ostatních ve zvládání nočních scén",
+        "Vedení v mnohostranných nestabilních prostředích — koordinace spojenců pod tlakem",
+        "Jemná právní kvalifikace hraničních jednání (přestupek vs. TČ) v terénu",
+        "Budování důvěry komunity přiměřeným policejním přístupem v nočním životě"
+      ],
+      "good": [
+        "Rozšířená deeskalace u opilých osob — komunikace přizpůsobená narušenému vnímání",
+        "Psychologie davu v prostředí pod vlivem alkoholu — přeměna diváků na spojence",
+        "Přiměřené řešení a využití diskrece (§ 11) — důstojné východy u drobných incidentů",
+        "Uzavření scény a prioritizace péče o přehlížené a zraněné"
+      ],
+      "average": [
+        "Základní techniky oddělení — fyzický odstup delegováním a slovní autoritou",
+        "Základy deeskalace u opilých — krátké příkazy, uznání emocí, klidné kotvení",
+        "Základy zvládání davu — informace místo příkazů, volby místo hrozeb",
+        "Právní minimum: pořadí výzva–výstraha–donucení (§ 53) a přiměřenost (§ 11)"
+      ],
+      "poor": [
+        "Slovní autorita a výzva před fyzickým zásahem — přehled, výzva, pak akce (§ 53)",
+        "Komunikace s opilými — proč logika selhává a emoce uspívá",
+        "Právní kvalifikace jednání — rvačka (§ 158), výtržnictví (§ 358), přestupek a přiměřenost",
+        "Povinná péče o zraněné jako základní odpovědnost, ne dodatečný nápad (§ 11)"
+      ]
+    }
+  },
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Celkový souhrn výkonu",
+        "content": [
+          "Skóre a úroveň výkonu",
+          "Klíčové silné stránky ve scéně u nočního klubu",
+          "Zásadní slabiny — kde se mohl zákrok zvrtnout",
+          "Srovnání s optimálním přístupem v každém rozhodovacím bodě"
+        ]
+      },
+      {
+        "title": "Analýza po jednotlivých fázích",
+        "content": [
+          "Volba učiněná v každé fázi — od posouzení situace po uzavření",
+          "Dopad na Dannyho, Viktora, Terezu, Radka, Míšu i dav",
+          "Alternativní přístupy a jejich pravděpodobné důsledky",
+          "Klíčové poučení specifické pro každou fázi"
+        ]
+      },
+      {
+        "title": "Bezpečnost, oddělení a taktický přehled",
+        "content": [
+          "Kvalita počátečního přehledu scény — co bylo identifikováno, co přehlédnuto",
+          "Účinnost strategie oddělení — využití Radka, Terezy a fyzické vzdálenosti",
+          "Taktický přehled v průběhu — otáčení se zády k nezajištěným osobám",
+          "Řízení času — jak dlouho trvalo, než se zraněné dostalo pozornosti"
+        ]
+      },
+      {
+        "title": "Deeskalace u opilých osob",
+        "content": [
+          "Přizpůsobení komunikace narušenému vnímání — délka vět, volba slov",
+          "Uznání emocí versus souhlas s příběhem — rozhovor s Dannym",
+          "Reakce na Viktorův pocit křivdy a strach z předpojatosti",
+          "Volby fyzického pozicování — stání versus sezení, nehybnost versus pohyb"
+        ]
+      },
+      {
+        "title": "Zvládání davu a kamer",
+        "content": [
+          "Kvalita oslovení davu — informace versus příkazy",
+          "Reakce na provokatéra — přímá konfrontace versus zmenšení publika",
+          "Respekt k právu natáčet — telefony jako spojenec, ne hrozba",
+          "Zraněná jako spouštěč empatie davu — zda byla zmíněna, nebo ignorována"
+        ]
+      },
+      {
+        "title": "Právní kvalifikace a přiměřenost řešení",
+        "content": [
+          "Kalibrace kvalifikace ke skutečné škodě — přestupek, ne rvačka (§ 158) ani výtržnictví (§ 358)",
+          "Volba mezi domluvou, zajištěním (§ 26) a zadržením podezřelého (§ 76 tr. řádu)",
+          "Uznání asymetrie — Danny strčil první, Viktor byl zraněn",
+          "Přiměřenost zákroku (§ 11) a moudré využití diskrece"
+        ]
+      },
+      {
+        "title": "Uzavření a péče",
+        "content": [
+          "Zraněná — doba čekání, kvalita pozornosti, zajištění ZZS, dokumentace úrazu (§ 146)",
+          "Radkovo přiznání — přijato s povzbuzením, nebo formálními důsledky; vyhazovač jako možný pachatel",
+          "Poslední obraz scény — co zachytili poslední kolemjdoucí a kamery",
+          "Rozdíl mezi uzavřenou scénou a dobře uzavřenou scénou"
+        ]
+      },
+      {
+        "title": "Profesní rozvoj",
+        "content": [
+          "Okamžité výcvikové priority na základě nejslabších fází",
+          "Dlouhodobý rozvoj — dynamika davu, deeskalace u opilých, právní kvalifikace, přiměřené řešení",
+          "Doporučené scénáře k dalšímu procvičování",
+          "Aplikace v praxi — sobotní noční výjezdy v zábavních čtvrtích"
+        ]
+      }
+    ]
+  }
+}

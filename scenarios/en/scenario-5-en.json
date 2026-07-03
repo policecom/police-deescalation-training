@@ -1,0 +1,437 @@
+{
+    "id": 5,
+    "title": "Noise Complaint — Quiet Hours Mediation",
+    "description": "Advanced scenario involving a late-night noise complaint in a residential apartment building. An exhausted older tenant, Mr. Novak, has called police about a birthday party in the apartment above hosted by a young couple, Tomáš and Anna. The officer must enforce quiet hours proportionately while mediating between neighbors who will continue living above and below each other long after the police leave.",
+    "icon": "🔊",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Sergeant Kowalski",
+        "avatar": "👮‍♂️",
+        "introduction": "Noise complaints are the single most common call for service in many jurisdictions — and one of the most underestimated. They seem low-stakes, but they shape community perceptions of police more than almost any other call type. Research consistently shows that how officers handle these encounters determines whether residents trust police enough to call about serious matters. The challenge here is unique: both parties have legitimate positions. Quiet hours exist for a reason, and celebrating in your own home is a basic freedom. Your job is not to pick a side — it is to mediate a resolution that both parties can live with, literally, because they share a building. Officers who default to punitive enforcement in noise complaints create lasting neighbor conflicts that generate repeat calls for months. Mediation skills — active listening, reframing, proposing concrete compromises — produce far more durable outcomes than citations ever do."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-5-complete"],
+    "perfectBadge": "perfect-scenario-5",
+    "finalMessage": {
+        "revelation": "Tomáš works as a paramedic, pulling 12-hour night shifts three or four days a week. The birthday party was for his closest friend from university, someone he rarely gets to see. Anna is a primary school teacher who organized the party as a surprise — she felt terrible when police arrived and blamed herself for not setting a firmer end time. Mr. Novak is a retired widower who lost his wife two years ago. He lives alone, and the late-night noise intensified his loneliness and frustration. He had never spoken to Tomáš or Anna before this night — they had been neighbors for eighteen months without a single real conversation. After your intervention, Anna baked a cake and brought it to Mr. Novak the following afternoon with a written apology. He invited her in for coffee. Over the next several months, Tomáš began checking on Mr. Novak after his shifts, and Mr. Novak started attending their small Sunday dinners. The neighbor who witnessed the encounter in the hallway later told the building manager that the police officer's approach turned what could have been a years-long feud into the beginning of a genuine friendship.",
+        "keyLessons": [
+            "Noise complaints are not about noise — they are about respect, sleep, autonomy, and belonging. Understanding the deeper needs produces better outcomes than enforcing volume levels.",
+            "The complainant is your first contact but not your only responsibility — managing their expectations early prevents frustration when you pursue mediation over punishment.",
+            "Opening with empathy rather than authority when contacting the party hosts dramatically reduces defensiveness and increases voluntary compliance.",
+            "Engaging the more cooperative party (Anna) as an ally is more effective than trying to break through the defensive party's resistance directly.",
+            "Concrete, specific agreements — volume level, balcony use, end time — hold better than vague promises to 'keep it down.'",
+            "Closing the loop with the complainant is not optional — Mr. Novak needs to hear what was agreed and feel his call mattered.",
+            "Officers who mediate rather than cite in neighbor disputes prevent the repeat calls that consume patrol resources for months."
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Arrival",
+            "sceneUpdate": {
+                "emoji": "🏢",
+                "title": "Apartment Building — Saturday 11:30 PM",
+                "desc": "You arrive at a five-story residential building on a quiet street. Even from the entrance, you can hear the muffled thump of bass music from an upper floor. The stairwell smells of cigarette smoke drifting down from above. An older man in a bathrobe and slippers is waiting in the ground-floor hallway, arms crossed, visibly agitated. A posted sign near the mailboxes reads: 'Quiet hours: 10:00 PM — 7:00 AM.'"
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unit responding to a noise complaint at Lipová Street 14. Complainant is a Mr. Novak, ground-floor apartment. Reports loud music and party noise from the apartment directly above him — ongoing since approximately 10 PM. Building has posted quiet hours starting at 10 PM. No prior calls to this address."
+                },
+                {
+                    "character": "novak",
+                    "text": "(hurrying toward you in the hallway) Thank God you're here. I called over an hour ago! It's been going on since ten — the bass goes right through the ceiling. I haven't slept a minute. And now they've got people out on the balcony shouting and smoking. I have to be up at six for my doctor's appointment. Can you please just make it stop?"
+                }
+            ],
+            "prompt": "Mr. Novak is frustrated and sleep-deprived. He wants immediate action. How do you handle this first contact?",
+            "options": [
+                {
+                    "text": "Give Mr. Novak a calm nod and lower your clipboard to your side so you don't look like you're already writing a report: 'I can hear the music from here, so I understand your frustration completely. Before I go up, I want to make sure I have the full picture from you. How long has this been going on at this volume, and has anything like this happened before with these neighbors? Have you tried speaking to them directly at any point, or is this your first real interaction?'",
+                    "feedback": "Why: Validating his experience immediately ('I can hear it too') builds trust. Gathering specific information — duration, history, prior attempts at resolution — gives you context that shapes whether this is a one-off party or a pattern. Asking whether he tried direct communication reveals the neighbor relationship dynamic. | CONSEQUENCES: Mr. Novak feels heard and provides useful details: this is the first time it has been this bad, he has never spoken to them, and he does not even know their names. You now understand this is an escalation from zero — no prior relationship, no prior attempts. That shapes your approach upstairs. | Reflection: How does understanding whether neighbors have ever communicated change the type of intervention you provide?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "'I hear you, Mr. Novak. Quiet hours started at ten and they're clearly in violation — I can hear the bass from down here. I'm going to head up there right now and address this directly.' You give him a firm, reassuring nod and head straight for the stairwell without asking any follow-up questions — how long the noise has been at this level, whether this has happened before, or whether he has ever tried knocking on their door himself.",
+                    "feedback": "Why: Quick validation and decisive action feel responsive, but you have skipped critical information gathering. You do not know the history, the relationship, or what Mr. Novak has already tried. Rushing upstairs with only the complainant's perspective means you arrive at the party with a one-sided view and no mediation strategy. | CONSEQUENCES: Mr. Novak is temporarily satisfied by your decisiveness. But you knock on Tomáš's door with no context beyond 'violation,' which narrows your approach to enforcement rather than mediation. If the outcome is anything less than shutting the party down entirely, Mr. Novak will feel shortchanged. | Reflection: What do you lose when you skip information gathering to demonstrate urgency?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "'Okay, I can hear it from here. Let me go up and knock on the door, and we'll get this sorted out.' You give Mr. Novak a brief nod, glance up the stairwell toward the thumping bass, and start walking. No follow-up questions about how long it has been this loud, whether this is a recurring problem, or what 'sorted' would actually look like for him. You figure you will assess the situation yourself once you see what is happening upstairs.",
+                    "feedback": "Why: Acknowledging the noise is good, but 'get this sorted' is vague and sets no expectations. You have not gathered any information from the complainant, have not assessed the history, and have not managed Mr. Novak's expectations about what 'sorted' means. He is imagining the party shut down; you might be imagining a volume reduction. | CONSEQUENCES: You arrive at the party apartment with almost no context. Mr. Novak waits downstairs with no idea what to expect, growing more anxious with every minute. When you return with a compromise rather than a shutdown, he feels betrayed. | Reflection: How does failing to set expectations with a complainant create problems for any resolution you broker?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "'Mr. Novak, it's a Saturday night — people are going to have parties sometimes. Have you tried just putting in earplugs? I know it's not ideal, but apartments have thin walls and weekend noise is part of shared living. I'll go up and have a word with them, ask them to keep it reasonable, but I can't guarantee they'll stop entirely. These things usually wind down on their own by one or two in the morning.'",
+                    "feedback": "Why: Dismissing a legitimate complaint by suggesting the complainant should adapt ('try earplugs') is deeply invalidating. He called because quiet hours are being violated — a posted building rule, not a personal preference. Telling him to tolerate it signals his concerns do not matter. Setting low expectations before even investigating communicates that you have already decided in favor of the party hosts. | CONSEQUENCES: Mr. Novak's frustration spikes: 'Earplugs? I shouldn't have to wear earplugs in my own home at midnight!' He feels dismissed and begins doubting whether calling was worth it. If the resolution is imperfect, he will call again — and next time he will be angrier and less trusting. | Reflection: What happens to a citizen's trust in police when their legitimate complaint is minimized before it is even investigated?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "The Complainant",
+            "sceneUpdate": {
+                "emoji": "😫",
+                "title": "Ground Floor Hallway — Managing Expectations",
+                "desc": "Mr. Novak is in his late sixties, hair uncombed, dark circles under his eyes. He leans against his apartment doorframe as if standing takes effort. Through his open door, you can see a television on mute and an untouched cup of tea on the kitchen table. The bass pulses steadily through the ceiling above."
+            },
+            "npcDialogue": [
+                {
+                    "character": "novak",
+                    "text": "This isn't the first time there's been noise, but tonight is the worst by far. I don't even know who lives up there — some young people moved in a year ago, maybe more. I've never spoken to them. I just want to sleep. I have a heart condition and the doctor says stress makes it worse. Can't you just write them a fine? That would teach them."
+                }
+            ],
+            "prompt": "Mr. Novak wants a citation issued. He is tired, frustrated, and has a health concern. How do you manage his expectations before heading upstairs?",
+            "options": [
+                {
+                    "text": "'Mr. Novak, your health matters and your right to quiet after ten PM is legitimate — I take that seriously. Here's what I'm going to do: I'll go upstairs, speak with them, and work to get the noise stopped tonight. I want to be honest with you — for a first offense, I'll start with a clear warning and a specific agreement. If they don't comply, enforcement escalates. But my experience is that mediation between neighbors works better long-term than fines do. Will you give me a chance to try that approach first?'",
+                    "feedback": "Why: Validates his health concern and his legal standing. Transparent about your approach — warning before citation — while explaining why mediation produces better outcomes. Asking 'will you give me a chance' respects his agency and invites collaboration rather than dictating. Setting clear escalation criteria (warning first, then enforcement) manages expectations without dismissing them. | CONSEQUENCES: Mr. Novak pauses, then nods reluctantly: 'Fine, but if it doesn't work...' He trusts you enough to let you try. You head upstairs with his conditional buy-in, which gives you room to mediate without him feeling betrayed. | Reflection: Why does explaining your reasoning to a complainant — rather than just promising action — build more durable trust?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "'I completely understand your frustration, and a fine is definitely possible — I have that authority and if the situation warrants it, that option is on the table. Let me go up and assess the situation first, talk to whoever is hosting the party, see how they respond. Depending on what I find up there, we could be looking at a verbal warning, a written warning, or a citation. I'll come back down afterward and let you know exactly what happened.'",
+                    "feedback": "Why: Acknowledging the fine as possible without committing is technically accurate. However, 'a fine is definitely possible' raises Mr. Novak's expectations that enforcement is the likely outcome. If you later choose mediation, he will feel misled. 'Assess the situation' is professional but vague — it gives him nothing to hold onto. | CONSEQUENCES: Mr. Novak hears 'fine is possible' and mentally files it as 'fine is coming.' When you return with a voluntary agreement instead, he is frustrated: 'You said a fine was possible!' The gap between implication and outcome erodes trust. | Reflection: How does the language you use to manage expectations create a contract in the complainant's mind?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "'I'll go take care of it, Mr. Novak. Try to get some rest — I know you've got that appointment in the morning. I'll head upstairs, have a word with them about the noise, and come back down once I've spoken to whoever's up there. Shouldn't take long — just sit tight and leave it with me.' You turn toward the stairs without addressing his request for a fine or acknowledging his mention of a heart condition.",
+                    "feedback": "Why: Well-intentioned but sets no expectations. 'Take care of it' could mean anything — shutdown, warning, mediation. Mr. Novak fills the ambiguity with his preferred outcome: the party ends and a fine is issued. No mention of his health concern, no validation of the disruption's impact. Telling a sleep-deprived person to 'try to get some rest' while the bass still thumps is tone-deaf. | CONSEQUENCES: Mr. Novak retreats to his apartment and lies awake, listening to the ceiling. When you return with a compromise, he is confused and disappointed because 'take care of it' meant something different to him. The next call comes faster. | Reflection: What fills the gap when you do not set specific expectations?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "'Mr. Novak, I understand it's frustrating, but I can't just hand out fines on the spot — there's a process for these things. And honestly, parties end eventually, that's the nature of Saturday nights. I'll go up and ask them to turn it down, but realistically, you might just need to ride it out tonight. It's the weekend, and weekend noise in apartment buildings — you know how it goes. Maybe close your bedroom window or try some white noise in the background.'",
+                    "feedback": "Why: 'Parties end eventually' and 'ride it out' are dismissive. Quiet hours are not a suggestion — they are a posted building rule, and the violation is clear and ongoing. Telling a sixty-something man with a heart condition to simply endure it signals that his legitimate complaint is an inconvenience to you. 'I can't just hand out fines' is also misleading — you have that authority. | CONSEQUENCES: Mr. Novak's face falls. He feels abandoned by the system he called for help. If the noise continues, he may escalate — calling a supervisor, confronting the neighbors himself, or simply never trusting police again for quality-of-life issues. | Reflection: When a complainant has a clearly legitimate grievance, what message does 'wait it out' send about the value of calling police?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Knocking on the Door",
+            "sceneUpdate": {
+                "emoji": "🚪",
+                "title": "Second Floor Landing — The Party Apartment",
+                "desc": "You climb the stairs to the second floor. The music grows louder with each step — bass-heavy electronic beats vibrating through the walls. On the landing, another resident — a woman in her forties — peers out from the apartment across the hall, gives you a weary look, and retreats behind her door without speaking. Outside the party apartment, you can hear laughter, clinking glasses, and multiple voices. Light spills from under the door. On the small balcony visible through the stairwell window, three people stand smoking and talking loudly."
+                },
+            "npcDialogue": [
+                {
+                    "character": "neighbor",
+                    "text": "(peering from her doorway, quietly) I'm glad someone finally called. It's been like this since ten. My kids can't sleep either. (She retreats and closes her door.)"
+                },
+                {
+                    "character": "tomas",
+                    "text": "(opens the door after the second knock, beer in hand, music blasting behind him, slightly flushed) Yeah? (sees the uniform, expression hardens) Oh, come on. Seriously? It's a birthday party. It's Saturday night."
+                }
+            ],
+            "prompt": "Tomáš has opened the door, visibly annoyed and slightly intoxicated. Music blares behind him. How do you open this conversation?",
+            "options": [
+                {
+                    "text": "Keep your tone calm and conversational: 'Good evening. I'm Officer [name]. I can see you're celebrating — happy birthday to whoever's having the party. I'm here because your downstairs neighbor called about the noise. The building's quiet hours started at ten, and I can hear the music from the ground floor. I'd like to talk about finding a way to let you finish your evening without keeping the building awake. Can we chat for a minute?'",
+                    "feedback": "Why: Introducing yourself by name humanizes the interaction. Acknowledging the celebration ('happy birthday') shows you see them as people, not just a violation. Stating the facts neutrally — neighbor called, quiet hours, audible from downstairs — establishes the issue without accusation. 'Finding a way to let you finish your evening' signals you are not here to shut it down, which dramatically reduces defensiveness. Asking 'can we chat' gives him agency. | CONSEQUENCES: Tomáš's defensiveness softens slightly. He did not expect a calm, reasonable officer. He steps into the doorway and lowers his voice: 'Look, it's my buddy's birthday...' A conversation has begun instead of a confrontation. | Reflection: How does acknowledging someone's celebration before addressing the complaint change their willingness to cooperate?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "'Evening. We've had a noise complaint from your downstairs neighbor. Building quiet hours started at ten PM and it's well past that now. I'm going to need you to turn the music down immediately and bring those people in from the balcony — the smoking and the conversations up there are carrying down the whole stairwell. Let's get this resolved quickly so I don't have to come back tonight.'",
+                    "feedback": "Why: Factually correct and direct, but opens with demands rather than dialogue. 'I need you to' is an order, not a conversation starter. You have not introduced yourself, acknowledged the celebration, or given Tomáš any sense that you are interested in his perspective. When someone slightly intoxicated receives orders from a stranger at their front door, the instinct is to push back. | CONSEQUENCES: Tomáš bristles: 'You need me to? It's my apartment.' His girlfriend appears behind him looking worried. You have started a power struggle instead of a negotiation. Every concession now feels like losing face. | Reflection: What is the difference between giving instructions and opening a negotiation — and which one produces faster compliance?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "'Hey, I get it — Saturday night, birthday party. I've been there myself, I know how it goes. But your neighbors are calling in complaints, and quiet hours started about an hour and a half ago. Look, I really don't want to ruin anyone's night here. Can you guys just keep it down a bit? Maybe pull the people in off the balcony and lower the music some? I'll leave it to your judgment on how to handle the details.'",
+                    "feedback": "Why: Friendly and relatable, but 'keep it down a bit' is too vague to constitute a real agreement. What does 'a bit' mean? The bass that goes through the floor? The balcony conversations? The music volume? Without specifics, Tomáš agrees in the moment and changes nothing meaningful. You also have not introduced yourself, which misses an easy rapport opportunity. | CONSEQUENCES: Tomáš shrugs: 'Yeah sure, no problem.' He closes the door. Five minutes later the volume is marginally lower — technically he complied. Thirty minutes later it creeps back up and Mr. Novak calls again. You have solved nothing. | Reflection: Why do vague agreements fail, and what makes a specific agreement hold?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "'Sir, I'm responding to a noise violation at this address. Building quiet hours are posted as ten PM to seven AM and you are currently in clear violation. I'm going to need to see some identification from the leaseholder, and I need the music turned off — not turned down, off — right now. If I have to respond to this address a second time tonight, you're looking at a formal citation with a fine attached. Do you understand?'",
+                    "feedback": "Why: Demanding identification and threatening a citation as your opening move for a noise complaint is wildly disproportionate. This is a first contact for a quality-of-life issue, not a criminal investigation. Leading with threats and document demands guarantees resistance from someone who is in their own home, has been drinking, and feels entitled to celebrate. The confrontational approach also poisons any chance of mediation. | CONSEQUENCES: Tomáš steps back: 'ID? For a party? Am I under arrest?' His friends gather behind him, and the atmosphere turns hostile. Anna appears, alarmed. The balcony group comes inside to see what is happening. You now face a room of defensive, slightly intoxicated people instead of one cooperative couple. | Reflection: What does proportionality look like when you are responding to a noise complaint versus a crime?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "The Pushback",
+            "sceneUpdate": {
+                "emoji": "😤",
+                "title": "Apartment Doorway — The Standoff",
+                "desc": "You are standing in the doorway of the apartment. Behind Tomáš, you can see a living room decorated with streamers and a 'Happy Birthday' banner. About eight people sit or stand around a table covered with food, drinks, and a half-eaten cake. The music has been turned down slightly since the door opened, but the bass still throbs. A young woman — Anna — appears at Tomáš's shoulder, reading the situation quickly. One of the party guests — a stocky man in his thirties — steps up behind Tomáš with his arms crossed, adding physical weight to the resistance."
+            },
+            "npcDialogue": [
+                {
+                    "character": "tomas",
+                    "text": "(stepping forward, voice raised, genuinely angry) No. No. I'm done being polite about this. It's my apartment. I pay rent. I work twelve-hour night shifts as a paramedic — I see people die, officer, and this is the one Saturday a month I get to see my friends. That man downstairs has banged on his ceiling every single time I've had anyone over — even for a quiet dinner. He called the police because someone laughed too loud last month. I'm not negotiating anymore. We have a right to live here too."
+                },
+                {
+                    "character": "anna",
+                    "text": "(placing a hand on Tomáš's arm, speaking more quietly but also conflicted) Tomáš, come on. (Turns to you) I'm sorry, officer. We didn't realize it was that loud. We should have been more careful. But he's not wrong — Mr. Novak complains about everything. What do you need us to do?"
+                }
+            ],
+            "prompt": "Tomáš is not just defensive — he is genuinely angry and has a grievance about repeated complaints. His friend is physically backing him up. Anna is more cooperative but validates his frustration. How do you engage with this escalated dynamic?",
+            "options": [
+                {
+                    "text": "Address Tomáš directly: 'I hear you — working night shifts as a paramedic and finally getting a Saturday with friends, I understand why this matters. And you're right, it is your home. But the noise tonight is significantly beyond normal — I can hear the bass from the ground floor. Mr. Novak mentioned he has a heart condition and a six AM medical appointment. I'm not here to end your party — I'm here to find a middle ground.' Then turn to Anna: 'You said you didn't realize how loud it was — that tells me this is solvable. Can we talk specifics?'",
+                    "feedback": "Why: Validating Tomáš's feelings and acknowledging his work as a paramedic defuses defensiveness by showing respect for his profession. 'You're right, it is your home' affirms his autonomy before introducing the counterweight. Mentioning Mr. Novak's heart condition humanizes the complainant and reframes the situation from 'annoying neighbor' to 'health risk' — which a paramedic will understand instinctively. 'I'm not here to end your party' removes the threat he is reacting to. Then engaging Anna channels the conversation toward solutions. | CONSEQUENCES: Tomáš pauses at the mention of a heart condition — as a paramedic, he knows what stress and sleep deprivation do to cardiac patients. His friend uncrosses his arms. Anna steps forward: 'We could turn the bass down and close the balcony door...' The dynamic shifts from confrontation to negotiation. | Reflection: How does validating someone's position and then introducing a competing legitimate need — especially one that resonates with their profession — change their willingness to compromise?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Turn to Anna, since she seems more open to dialogue: 'Thank you for that — I appreciate your willingness to work with me on this. Let me explain what I'm going to need here: the music needs to come down significantly, not just a notch — the bass is traveling straight through the floor into the apartment below. And the balcony needs to be cleared, because the smoking and conversations are carrying across the whole building at this hour. Can you help make that happen? If we can get those two things sorted, I think we can avoid any formal action tonight.'",
+                    "feedback": "Why: Engaging the cooperative party is pragmatic and often effective. However, speaking primarily to Anna while Tomáš and his friend are the ones confronting you can feel like you are going around them. Tomáš may perceive it as disrespect — talking to his girlfriend instead of addressing him directly. In his own home, with his friend backing him up, that stings even more. | CONSEQUENCES: Anna nods and starts to act, but Tomáš feels bypassed: 'Hey, I'm standing right here.' His friend adds: 'Yeah, talk to us.' Tomáš is less hostile now but feels marginalized in his own doorway. The agreement may hold tonight but Tomáš will remember feeling dismissed. | Reflection: When one party is more cooperative, how do you engage them without making the resistant party feel ignored — especially when they have someone physically backing them?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "'Sir, I understand this is your apartment and I understand you feel strongly about this, but quiet hours are quiet hours — they apply every night, including Saturdays, including birthdays. I don't make the rules, but I do enforce them. I need the music turned off and the guests brought in from the balcony. That's not a request. Your neighbor downstairs has a medical condition, and this has been going on for over ninety minutes past the posted quiet hours. We can discuss it further if you'd like, but the music goes off first.'",
+                    "feedback": "Why: 'That's not a request' escalates a noise complaint into a dominance contest. You have turned a mediatable situation into a confrontation — and now there are two men physically squared up in the doorway. Quiet hours are real, but your enforcement approach has zero flexibility. For a birthday party at 11:30 PM, this is disproportionate and will be perceived as authoritarian. Tomáš's friend behind him tenses, and the group dynamics could spiral. | CONSEQUENCES: Tomáš squares up: 'Not a request? Then write me a fine and leave. I'm not turning off music at my friend's birthday because some cop says so.' His friend steps forward too. Anna pulls Tomáš back, but the conversation is now adversarial with two hostile parties. Any resolution will feel forced. | Reflection: What is the difference between enforcing a rule and wielding authority — and how do people respond to each, especially when they have group backing?",
+                    "type": "negative",
+                    "points": -10
+                },
+                {
+                    "text": "'Look, I really don't want to make this into a big deal — you guys seem like reasonable people, and I can see it's a birthday celebration. I'm not trying to kill the fun here. Just try to keep it down from here on out, yeah? Maybe move things away from the balcony side and lower the volume a couple of notches. I'd rather not have to come back out here tonight — it's paperwork for me and hassle for everyone.' You step back from the doorway with an apologetic half-shrug.",
+                    "feedback": "Why: Friendly but toothless — especially in the face of genuine resistance. Tomáš just told you he is done negotiating, his friend is physically backing him up, and you responded with 'try to keep it down.' This signals that resistance works and that pushing back gets you a softer response. You have not addressed Tomáš's grievance about repeated complaints, have not engaged Anna's willingness to cooperate, and have not established any specific changes. The vagueness ensures nothing changes. | CONSEQUENCES: Tomáš's friend smirks. Tomáš shrugs: 'Sure thing, officer.' He closes the door. The music goes back up within five minutes. You have rewarded resistance with retreat. Mr. Novak calls again at 12:30 AM, this time mentioning chest tightness. | Reflection: When someone pushes back hard and your response is to back off, what lesson have you taught them about how to interact with police?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Finding a Solution",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Apartment Doorway — Negotiation",
+                "desc": "The confrontational energy has eased somewhat, but a complication has emerged. Your radio crackles — dispatch relays that Mr. Novak has called back, not about noise this time, but about chest tightness and shortness of breath. He says it might be his heart condition acting up from the stress and sleeplessness. Tomáš is still in the doorway, less hostile now but watching you carefully. Anna stands beside him with her arms folded, listening. Behind them, the party has quieted noticeably."
+            },
+            "npcDialogue": [
+                {
+                    "character": "anna",
+                    "text": "We really didn't mean to cause problems. It's just — we planned this for weeks and Marek only visits once or twice a year. What exactly do we need to do? We don't want trouble."
+                },
+                {
+                    "character": "tomas",
+                    "text": "(grudgingly) Fine. But I'm not sending everyone home at midnight. That's ridiculous. (hears your radio, pauses) Wait — is that about the neighbor? Is he okay?"
+                }
+            ],
+            "prompt": "Mr. Novak has reported chest tightness — possibly stress-related, possibly a genuine cardiac concern requiring EMS. Meanwhile, Tomáš has drawn a line about not ending the party. You need to assess the medical situation and find a resolution. What do you do?",
+            "options": [
+                {
+                    "text": "'Hold on one moment.' Radio dispatch: 'Can you send EMS to check on the complainant — elderly male, reported chest tightness, known heart condition. Precautionary assessment requested.' Then turn back to Tomáš: 'Your neighbor is reporting chest pains — he has a heart condition. I've called medical to check on him. I'm not asking you to end the party. But the situation has changed. Here's what I think works: turn the bass down — that's what travels through the floor. Close the balcony door. And let's set an end time — 12:30 gives you another hour and gives him a finish line. Can you work with that?'",
+                    "feedback": "Why: Excellent prioritization. The medical concern is addressed immediately and professionally — you do not try to diagnose it yourself, you request EMS for a precautionary assessment. Then you pivot to the noise resolution with specific, actionable terms. Telling Tomáš about the chest pains changes the dynamic — as a paramedic, he understands what cardiac stress means. You have not weaponized the medical situation, just stated facts. Three concrete requests with a reasonable end time. | CONSEQUENCES: Tomáš's face changes at the mention of chest pains — he knows what that means professionally. 'Is he — okay, yeah. Twelve-thirty is fine. We were winding down anyway.' Anna immediately closes the balcony door. EMS checks on Mr. Novak and determines it is stress-related, not acute. But the assessment was the right call. | Reflection: How does addressing a medical concern quickly — even if it turns out to be minor — demonstrate the kind of professional judgment that changes how both parties view you?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "'How about we do this — you turn the music down, especially the bass, and close the balcony door. That should take care of most of what's carrying through the building. I'll trust you to wrap things up at a reasonable hour — you know better than me when the party's naturally winding down. I need to head downstairs now, though — your neighbor called back and he's not feeling well. Chest tightness. Could be nothing, could be the stress getting to him, but I should go check on him in person. Are we good up here?'",
+                    "feedback": "Why: Two of the three key items are addressed, but 'reasonable time' is subjective. What is reasonable to a twenty-eight-year-old at a birthday party differs wildly from what is reasonable to a sixty-year-old with chest pains. Without a specific end time, the party could drift to 2 AM with everyone feeling they upheld their end. You are checking on Mr. Novak personally, which is good, but you have not called EMS — assessing cardiac symptoms yourself without medical training is risky. | CONSEQUENCES: Tomáš and Anna agree readily — the lack of a hard end time makes this easy to accept. You find Mr. Novak downstairs, pale but breathing normally. You cannot determine if this is anxiety or something cardiac. At 1:15 AM, the noise has crept back up and Mr. Novak's distress has worsened. | Reflection: What is the risk of leaving the most contentious term undefined — and of assessing a medical concern yourself rather than calling professionals?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "'All right, here's what's happening. I need the music off entirely — not turned down, off. And I need this party wrapped up within thirty minutes. Quiet hours are quiet hours, it's now well past midnight, and your neighbor downstairs is reporting medical symptoms — chest tightness. This has gone beyond a simple noise complaint at this point. I'll be documenting this visit in my report, and if the situation isn't resolved when I check back, we're moving to a formal citation. Thirty minutes, music off, party done.'",
+                    "feedback": "Why: Music off entirely and a thirty-minute shutdown is disproportionate for a first noise complaint at a birthday party. Using Mr. Novak's medical report as a hammer to force compliance weaponizes a health concern — the medical situation requires its own professional response (EMS), not to be leveraged as an enforcement tool. You are essentially ordering the party to end while failing to call medical assistance for the actual health complaint. | CONSEQUENCES: Tomáš recoils: 'You're using his chest pains to shut down my party?' Anna is upset. The guests exchange angry looks. Mr. Novak's medical concern goes unaddressed while you focus on enforcement. You have used a health issue as a weapon and neglected the person who actually needed help. | Reflection: When enforcement is disproportionate and a medical concern is used as leverage rather than addressed professionally, who bears the cost?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "'I'll leave the specifics to you two — you seem reasonable and I think you can figure out what needs to change without me spelling out every detail. Just make sure the neighbor downstairs doesn't have reason to call again tonight, all right? Keep the balcony closed, keep the volume at a level where people can sleep through it. I'd really rather not have to come back out here. I need to head downstairs now and check on your neighbor — he called back saying he's not feeling well. Just handle things up here sensibly.'",
+                    "feedback": "Why: Deferring entirely to the party hosts sets no specific terms. 'Figure out the specifics' asks people who have been drinking to self-regulate at midnight. The instinct to check on Mr. Novak is correct, but you have not called EMS and you have mediated nothing upstairs. You are leaving both problems — the noise and the medical concern — inadequately addressed. | CONSEQUENCES: Tomáš and Anna say they will handle it. Without specific commitments, the music stays at the same level. You find Mr. Novak pale and anxious. You are not trained to assess cardiac symptoms. At 1 AM, the noise resumes and Mr. Novak's condition has not been professionally evaluated. | Reflection: When multiple problems need simultaneous attention, what happens when you address neither one with the specificity it requires?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "The Agreement",
+            "sceneUpdate": {
+                "emoji": "📝",
+                "title": "Apartment Doorway — Formalizing the Deal",
+                "desc": "Tomáš and Anna have agreed to the key terms: bass down, balcony door closed, guests inside, party wrapping up by 12:30 AM. Anna is already moving inside, pulling the balcony door shut. One of the guests turns the music down. EMS has checked on Mr. Novak — his vitals are stable but his blood pressure is elevated from stress and sleeplessness. The paramedic recommended he sleep soon. The hallway feels noticeably quieter. Across the hall, the neighbor's door is slightly ajar — she is listening."
+            },
+            "npcDialogue": [
+                {
+                    "character": "tomas",
+                    "text": "(calmer now, almost apologetic) Look, I didn't mean to be a jerk. I just — it's been a long week. I work crazy shifts and I barely see my friends. I honestly didn't think it was that loud. (pauses) Is the old man okay? I heard you called an ambulance."
+                },
+                {
+                    "character": "anna",
+                    "text": "We really are sorry about the neighbor. We've never even met him. Is he very angry? Should we... go say something?"
+                }
+            ],
+            "prompt": "The agreement is in place and the tone has shifted. Tomáš asked about Mr. Novak's health unprompted. How do you formalize this and set up conditions to prevent a repeat call tonight?",
+            "options": [
+                {
+                    "text": "'I appreciate you both working with me — and Tomáš, the fact that you asked about him says a lot. He's stable — elevated blood pressure from stress and no sleep, but the paramedic said he needs rest. Let me recap so we're clear: bass down, balcony closed, guests inside, wrapping up by 12:30. His name is Mr. Novak — retired widower, lives alone. A quick knock on his door tomorrow to introduce yourselves could go a long way. He doesn't know you're a paramedic, Tomáš — that might matter to a man with a heart condition who lives alone beneath you.'",
+                    "feedback": "Why: Recapping the specific terms creates a verbal contract both parties have acknowledged. Noting that Tomáš asked about Mr. Novak reinforces his empathy. Sharing the medical update transparently — elevated blood pressure, needs rest — gives the health situation proper weight without weaponizing it. Humanizing Mr. Novak as a retired widower transforms him from 'the guy who called the cops' into a lonely elderly neighbor. The observation that a paramedic living above a man with heart problems could be an asset, not a conflict, reframes the entire neighbor dynamic. | CONSEQUENCES: Tomáš's expression shifts: 'He's alone? With a heart condition? And I'm a...' Anna touches his arm: 'We'll go tomorrow. Definitely.' The neighbor across the hall, listening through her cracked door, smiles. You have not just resolved a noise complaint — you have potentially created a support relationship. | Reflection: How does connecting people's strengths to each other's needs transform a conflict into the beginning of community?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "'I'm glad we've reached an agreement. I want to be transparent about the formal side of this: I'm issuing a written warning — not a fine — for the noise violation tonight. This is a formal record that quiet hours were violated. If there's another violation within ninety days, the next response will be a citation automatically. I know that sounds harsh, but think of it this way — it's a clear boundary that protects everyone, including you, because it gives Mr. Novak confidence that the system worked and he doesn't need to escalate further. You've cooperated tonight and I genuinely appreciate that.'",
+                    "feedback": "Why: Sometimes the most empathetic response is clear boundaries. A formal written warning — not a fine — is proportionate for a first offense with a medical complication. It documents the incident, sets a clear escalation path, and paradoxically de-escalates the broader situation by giving Mr. Novak institutional assurance. Without documentation, the next complaint starts from zero again. With it, everyone knows where they stand. Framing the warning as protection for both parties — not punishment — maintains the goodwill. | CONSEQUENCES: Tomáš hesitates, then nods: 'Fair enough. A warning is fair.' Anna agrees. The formality actually provides closure — it is concrete, documented, and proportionate. Mr. Novak receives evidence that his complaint produced a result, which reduces his anxiety about future incidents. The written record prevents the circular pattern of repeat calls with no institutional memory. | Reflection: When does formal documentation de-escalate a situation rather than escalate it — and how does giving both parties institutional assurance prevent repeat conflicts?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "'All right, I think we're in a good place here. You've been really cooperative and I genuinely appreciate it — a lot of people wouldn't have been this reasonable about it. Have a good rest of your evening and enjoy what's left of the birthday celebration.' You give them a friendly nod, a brief wave to the party guests visible inside the apartment, and take a last glance at the now-closed balcony door before turning toward the stairwell to head back downstairs and update Mr. Novak on the outcome.",
+                    "feedback": "Why: Polite but incomplete. No recap of the terms means no verbal contract. No mention of Mr. Novak's health status or humanity. No suggestion for future neighbor relations. No mechanism to prevent this from happening next month. You resolved the immediate issue but planted no seeds for lasting change. Tomáš asked about Mr. Novak's health — a genuine moment of empathy — and you ignored it entirely. | CONSEQUENCES: Tomáš and Anna comply tonight because the encounter is fresh. But without a relationship with Mr. Novak, the next party generates the same call. Tomáš's question about the neighbor's health — a natural opening for connection — was wasted. | Reflection: What is the difference between resolving an incident and preventing the next one — and what happens when you miss a natural moment of human connection?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "'Right. I'm noting this entire visit in my official report — names, apartment number, time, the full details. If there is another complaint from this building tonight or any other night in the next ninety days, you should expect a formal citation with a fine attached. I'd strongly recommend keeping your gatherings quieter in the future. Noise violations go on record and they add up. And frankly, with an elderly man downstairs having chest pains because of the stress from your party, you're lucky I'm not citing you tonight.'",
+                    "feedback": "Why: A bureaucratic, punitive close that weaponizes Mr. Novak's medical condition. 'You're lucky I'm not citing you' transforms a cooperative interaction into a threat. Using his chest pains as leverage — rather than a shared concern — poisons the neighbor relationship before it starts. Tomáš just asked about Mr. Novak's health with genuine concern, and you responded by using that health issue as a stick. This destroys the trust you built and ensures they resent both you and Mr. Novak. | CONSEQUENCES: Tomáš's concern for Mr. Novak evaporates: 'Lucky? He called the cops on a birthday party and now we're lucky?' Anna looks stricken. The next time Mr. Novak has a health scare, they will not knock on his door — because the police officer turned his health into a weapon against them. | Reflection: When someone has already cooperated and shown genuine concern, what does weaponizing a medical situation against them communicate about the value of empathy?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Closing the Loop",
+            "sceneUpdate": {
+                "emoji": "🔄",
+                "title": "Ground Floor Hallway — Back to Mr. Novak",
+                "desc": "You walk back down to the ground floor. The difference is audible — the heavy bass is gone, replaced by a low murmur of conversation from above. The balcony is empty and dark. Mr. Novak's door opens before you knock. He is still in his bathrobe, eyes red, searching your face for answers. The hallway is quiet enough to hear the building's old pipes creaking."
+            },
+            "npcDialogue": [
+                {
+                    "character": "novak",
+                    "text": "(anxiously) Well? Did they stop? I can still hear something up there. Are they going to get a fine? What happens if it starts again?"
+                }
+            ],
+            "prompt": "Mr. Novak is anxious and wants to know the outcome. The noise is significantly reduced but not completely gone. How do you close this interaction with the complainant?",
+            "options": [
+                {
+                    "text": "'Mr. Novak, I spoke with your neighbors — their names are Tomáš and Anna. They're hosting a birthday for a friend visiting from out of town. They didn't realize how much noise was carrying through the floor. Here's what we agreed: the bass is turned down — you can hear the difference already — the balcony is closed, guests are inside, and they're wrapping up by 12:30. They felt genuinely sorry when they learned about your situation. I'd encourage you to introduce yourselves sometime — neighbors who know each other sort these things out on their own. If the noise picks up again tonight, call back and it will be escalated.'",
+                    "feedback": "Why: Comprehensive, transparent, and forward-looking. Sharing the neighbors' names and context humanizes them. Detailing the specific agreement shows Mr. Novak his call produced concrete results. Mentioning they felt sorry builds empathy across the floor. Encouraging direct contact plants the seed for self-resolution. Confirming his right to call back validates his standing without undermining the agreement. This closes the loop completely — Mr. Novak knows what happened, what will happen, and what he can do. | CONSEQUENCES: Mr. Novak's shoulders drop with relief. 'Tomáš and Anna? I didn't even know their names. They really said sorry?' For the first time tonight, he looks less like a frustrated complainant and more like a neighbor who might knock on a door. He thanks you and closes his door. The building is quiet. | Reflection: How does sharing specific information — names, context, terms — transform a complainant from adversary to potential neighbor?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "'Good news, Mr. Novak — I spoke with them and they've agreed to turn the music down and wrap things up soon. You should notice a difference already — the bass has come down quite a bit since I was up there. They seemed receptive once I explained the situation, and I don't think they realized how much sound was carrying through the floor. If it starts up again tonight, don't hesitate to call back and we'll take it to the next level. Try to get some rest now — you need it for that appointment in the morning.'",
+                    "feedback": "Why: Accurate and reassuring, but lacks specifics. 'Turn down' and 'wrap up soon' are the vague terms Mr. Novak dreads. What time is 'soon'? He will lie awake listening, wondering if each sound means they have broken the agreement. No names, no context, no humanization of the neighbors, no suggestion for future direct contact. This is adequate incident closure but not mediation follow-through. | CONSEQUENCES: Mr. Novak nods, partially satisfied. He goes to bed but listens to every sound, unable to trust that 'soon' means soon. The neighbors remain anonymous strangers above him. Next month, same call. | Reflection: What specific information does a complainant need to feel genuinely resolved rather than provisionally reassured?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "'It's handled, Mr. Novak. The music is down — you can probably hear the difference from here. I went up, spoke with them, made it clear that quiet hours are in effect, and they understood the message. They're going to keep things down for the rest of the night. Try to get some sleep now — you've got your doctor's appointment at six and you need the rest. If anything changes, you know the number to call. Have a good night.' You give him a reassuring nod and step back toward the building entrance.",
+                    "feedback": "Why: Efficient but impersonal. 'It's handled' tells him nothing about what was agreed, who he is living below, or what happens next. No specific terms, no humanization, no relationship-building, no path forward. Remembering his appointment shows some attentiveness, but the overall close treats the complainant as a ticket to be resolved rather than a person in a community. | CONSEQUENCES: Mr. Novak thanks you and closes his door, unsatisfied but too tired to press. He does not know his neighbors' names, does not know the end time, and does not feel empowered. He heard 'it's handled' and hopes that is true. | Reflection: When is 'it's handled' enough, and when does a complainant deserve more detail?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "'I talked to them — they're having a birthday party for a friend, seems like nice kids. I told them to keep it down and they said they would. Look, Mr. Novak, these things happen when you live in an apartment building — it's part of shared living. Young people work hard and they need to blow off steam sometimes too. Try to be a little understanding — I know it's frustrating, but they've got every right to enjoy their home as well. Maybe invest in some earplugs for nights like this, it'll make the whole thing easier on everyone.'",
+                    "feedback": "Why: Advocating for the party hosts to the complainant — 'nice kids,' 'be understanding,' 'earplugs' — invalidates Mr. Novak's legitimate complaint. He waited over an hour for police at midnight, and you are now telling him to be more tolerant and buy earplugs. This is the mirror image of dismissing the party hosts — you have picked a side. The quiet hours violation was real, his frustration was legitimate, and his health concerns are valid. | CONSEQUENCES: Mr. Novak feels betrayed: 'You're taking their side? I'm the one who called! I have a right to sleep in my own home!' His trust in police for quality-of-life issues is severely damaged. He will not call next time — he will confront them himself, or he will suffer in silence and resent everyone. | Reflection: When you advocate for one party to the other, what happens to the trust of the person you just told to compromise?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debrief",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Debrief",
+                "desc": "Back at the station. Sergeant Kowalski reviews your performance in the noise complaint mediation scenario."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "Noise complaints are where community policing lives or dies. They're not glamorous, they're not dangerous, and they're not complicated — but they are the encounters that shape whether ordinary people trust police enough to call when something serious happens. Every choice you made tonight — how you listened to Mr. Novak, how you opened with Tomáš, whether you mediated or dictated, and whether you closed the loop — sent a message about what policing means in that building. Let's look at how you did."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "You responded to a call that ninety percent of officers would have treated as a five-minute errand: tell them to keep it down, tell the old man it is handled, drive away. Instead, you treated it as what it actually is — a mediation between two households that share a ceiling and will continue sharing it long after you leave. That distinction matters enormously."
+                },
+                {
+                    "character": "officer",
+                    "text": "What surprised me was how much I wanted to just enforce. Quiet hours were being violated, the noise was obvious — part of me wanted to write the citation and move on. Mediating felt slower and less satisfying in the moment."
+                },
+                {
+                    "character": "instructor",
+                    "text": "And that impulse is worth examining, because it reveals a misconception. Most officers think the job is to stop the noise. It is not. The job is to build a relationship between neighbors so they stop calling you. A citation stops tonight's noise. Mediation stops next month's call, and the one after that, and the one after that. You are not here to manage volume levels — you are here to create the conditions under which two strangers become neighbors who can work things out on their own."
+                },
+                {
+                    "character": "instructor",
+                    "text": "The moment you told Anna and Tomáš about Mr. Novak — his age, his loneliness, his early appointment — you transformed him from 'the guy who called the cops' into a person. That single act of humanization is what made Anna bake a cake and knock on his door the next day. Enforcement could never have produced that outcome. Now let me tell you what happened after you left that building."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispatcher", "avatar": "📻"},
+        "tomas": {"name": "Tomáš (party host, 28)", "avatar": "🧑"},
+        "anna": {"name": "Anna (his girlfriend, 26)", "avatar": "👩"},
+        "novak": {"name": "Mr. Novak (complainant, 60s)", "avatar": "👴"},
+        "neighbor": {"name": "Hallway Neighbor", "avatar": "🚪"},
+        "officer": {"name": "You (officer)", "avatar": "👮"},
+        "instructor": {"name": "Sergeant Kowalski", "avatar": "👮‍♂️"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Exceptional Neighborhood Mediation",
+            "emoji": "🌟",
+            "feedback": "You demonstrated masterful mediation in a noise complaint — the most common call in policing and the one that shapes community trust the most. You listened to the complainant without over-promising, opened with the party hosts in a way that reduced defensiveness, brokered specific and proportionate terms, and closed the loop by humanizing both parties to each other. Most importantly, you planted the seed for a direct neighbor relationship that prevents future calls. This is community policing at its finest."
+        },
+        "good": {
+            "title": "Solid Noise Mediation",
+            "emoji": "👍",
+            "feedback": "You handled the noise complaint professionally and reached a workable resolution. Your approach to either the complainant or the party hosts showed strong mediation instincts. Some opportunities for deeper relationship-building or more specific agreements were missed, but the overall intervention was proportionate, respectful, and effective for tonight."
+        },
+        "average": {
+            "title": "Adequate Response",
+            "emoji": "📋",
+            "feedback": "You resolved the immediate noise issue but missed important dimensions of effective mediation. Whether it was vague agreements, insufficient expectation management with the complainant, or failure to humanize the parties to each other, the resolution solved tonight's problem without addressing the underlying neighbor dynamic. Expect a repeat call within weeks."
+        },
+        "poor": {
+            "title": "Needs Significant Improvement",
+            "emoji": "⚠️",
+            "feedback": "Your approach to this noise complaint either over-enforced a low-level quality-of-life issue or under-responded to a legitimate complaint — both of which damage community trust. Noise calls require mediation skills, proportionate response, and genuine care for all parties. Review de-escalation techniques, proportionality principles, and the difference between resolving an incident and preventing the next one."
+        }
+    },
+    "metrics": {
+        "mediationSkills": {
+            "name": "Mediation Skills",
+            "description": "Balancing both parties' concerns, facilitating dialogue, and brokering agreements that both sides can accept",
+            "icon": "⚖️"
+        },
+        "proportionateResponse": {
+            "name": "Proportionate Response",
+            "description": "Matching enforcement to the severity of the violation — warning before citation, reasonable expectations for a first offense",
+            "icon": "📏"
+        },
+        "complainantManagement": {
+            "name": "Complainant Management",
+            "description": "Validating the complainant's concerns, managing expectations transparently, and closing the loop with specific information",
+            "icon": "🤝"
+        },
+        "conflictPrevention": {
+            "name": "Conflict Prevention",
+            "description": "Building long-term neighbor relations rather than just solving tonight's problem — humanizing parties to each other and encouraging direct communication",
+            "icon": "🏘️"
+        },
+        "professionalCommunication": {
+            "name": "Professional Communication",
+            "description": "Clear, calm, respectful communication with all parties — including intoxicated, defensive, or frustrated individuals",
+            "icon": "💬"
+        }
+    }
+}

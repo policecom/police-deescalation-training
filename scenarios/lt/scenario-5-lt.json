@@ -1,0 +1,460 @@
+{
+    "id": 5,
+    "title": "Triukšmo skundas — ramybės valandų tarpininkavimas",
+    "description": "Sudėtingas scenarijus, kuriame vėlų vakarą gyvenamajame daugiabutyje gaunamas triukšmo skundas. Išsekęs vyresnis nuomininkas, ponas Novak, paskambino policijai dėl gimtadienio vakarėlio bute viršuje, kurį rengia jauna pora, Tomáš ir Anna. Pareigūnas turi proporcingai užtikrinti ramybės valandas, tarpininkaudamas tarp kaimynų, kurie gyvens vienas virš kito dar ilgai po policijos išvykimo.",
+    "icon": "🔊",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Seržantas Kowalski",
+        "avatar": "👮‍♂️",
+        "introduction": "Triukšmo skundai yra vienas dažniausių iškvietimų daugelyje jurisdikcijų — ir vienas labiausiai nuvertinamų. Jie atrodo mažos rizikos, bet formuoja bendruomenės suvokimą apie policiją labiau nei beveik bet koks kitas iškvietimo tipas. Tyrimai nuolat rodo, kad tai, kaip pareigūnai tvarko šiuos susidūrimus, lemia, ar gyventojai pakankamai pasitiki policija, kad skambintų dėl rimtų dalykų. Čia iššūkis yra unikalus: abi šalys turi teisėtas pozicijas. Ramybės valandos egzistuoja ne be reikalo, o šventimas savo namuose yra pagrindinė laisvė. Jūsų darbas — ne pasirinkti pusę, o tarpininkauti sprendimą, su kuriuo abi šalys galės gyventi, tiesiogine prasme, nes jos dalijasi pastatu. Pareigūnai, kurie pagal nutylėjimą taiko baudžiamąjį vykdymą triukšmo skunduose, sukuria ilgalaikius kaimynų konfliktus, generuojančius pakartotinius iškvietimus mėnesių mėnesius. Tarpininkavimo įgūdžiai — aktyvus klausymasis, performulavimas, konkrečių kompromisų siūlymas — duoda kur kas tvaresnius rezultatus nei baudos."
+    },
+    "timedChoices": true,
+    "completionBadges": [
+        "scenario-5-complete"
+    ],
+    "perfectBadge": "perfect-scenario-5",
+    "finalMessage": {
+        "revelation": "Tomáš dirba paramedikas, dirbdamas 12 valandų naktines pamainas tris ar keturias dienas per savaitę. Gimtadienio vakarėlis buvo skirtas jo artimiausiam draugui iš universiteto, kurį jis retai mato. Anna yra pradinių klasių mokytoja, kuri suorganizavo vakarėlį kaip siurprizą — ji jautėsi baisiai, kai atvyko policija, ir kaltino save, kad nenustatė griežtesnio pabaigos laiko. Ponas Novak yra pensininkas našlys, praradęs žmoną prieš dvejus metus. Jis gyvena vienas, ir vėlyvas naktinis triukšmas sustiprino jo vienatvę ir frustraciją. Jis niekada nebuvo kalbėjęs su Tomáš ar Anna iki šios nakties — jie buvo kaimynai aštuoniolika mėnesių be nė vieno tikro pokalbio. Po jūsų intervencijos Anna iškepė pyragą ir kitą popietę nunešė jį ponui Novak su rašytiniu atsiprašymu. Jis pakvietė ją kavos. Per kelis ateinančius mėnesius Tomáš pradėjo tikrinti, kaip laikosi ponas Novak po savo pamainų, o ponas Novak pradėjo lankytis jų mažuose sekmadienio pietuose. Kaimynas, matęs susidūrimą koridoriuje, vėliau pasakojo namo valdytojui, kad policijos pareigūno požiūris pavertė tai, kas galėjo būti metų metus trukusiu nesutarimu, tikros draugystės pradžia.",
+        "keyLessons": [
+            "Triukšmo skundai yra ne apie triukšmą — jie apie pagarbą, miegą, autonomiją ir priklausymą. Gilesnių poreikių supratimas duoda geresnius rezultatus nei garsumo lygių vykdymas.",
+            "Skundėjas yra jūsų pirmas kontaktas, bet ne vienintelė atsakomybė — jo lūkesčių valdymas anksti užkerta kelią frustracijai, kai siekiate tarpininkavimo, o ne baudos.",
+            "Pradėjimas empatija, o ne autoritetu kreipiantis į vakarėlio šeimininkus dramatiškai sumažina gynybinumą ir padidina savanorišką bendradarbiavimą.",
+            "Bendradarbiaujančios šalies (Anna) įtraukimas kaip sąjungininkės yra efektyvesnis nei bandymas tiesiogiai pralaužti gynybinės šalies pasipriešinimą.",
+            "Konkretūs, specifiniai susitarimai — garsumo lygis, balkono naudojimas, pabaigos laikas — laiko geriau nei neaiškūs pažadai „pritildyti“.",
+            "Ciklo uždarymas su skundėju nėra neprivalomas — ponas Novak turi išgirsti, dėl ko susitarta, ir jausti, kad jo skambutis buvo svarbus.",
+            "Pareigūnai, kurie tarpininkauja, o ne baudžia kaimynų ginčuose, užkerta kelią pakartotiniams iškvietimams, eikvojantiems patrulio resursus mėnesių mėnesius."
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Atvykimas",
+            "sceneUpdate": {
+                "emoji": "🏢",
+                "title": "Daugiabutis — šeštadienis 23:30",
+                "desc": "Atvykstate prie penkių aukštų gyvenamojo pastato ramioje gatvėje. Net nuo įėjimo girdite duslų boso muzikos garsą iš viršutinio aukšto. Laiptinė kvepia cigarečių dūmais, sklindančiais iš viršaus. Vyresnis vyras chalatu ir šlepetėmis laukia pirmojo aukšto koridoriuje, sukryžiavęs rankas, aiškiai susijaudinęs. Prie pašto dėžučių pakabintas skelbimas: „Ramybės valandos: 22:00 — 7:00.“"
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Ekipažas reaguoja į triukšmo skundą, Lipová gatvė 14. Skundėjas yra ponas Novak, pirmo aukšto butas. Praneša apie garsią muziką ir vakarėlio triukšmą iš buto tiesiai virš jo — vyksta maždaug nuo 22 val. Pastate paskelbtos ramybės valandos nuo 22 val. Ankstesnių iškvietimų šiuo adresu nebuvo."
+                },
+                {
+                    "character": "novak",
+                    "text": "(skubėdamas link jūsų koridoriuje) Ačiū Dievui, kad esate čia. Skambinau prieš daugiau nei valandą! Vyksta nuo dešimtos — bosas eina tiesiai per lubas. Neužmigau nė minutės. Ir dabar jie turi žmonių balkone, kurie rėkia ir rūko. Man reikia keltis šeštą pas gydytoją. Ar galite tiesiog priversti juos liautis?"
+                }
+            ],
+            "prompt": "Ponas Novak yra nusivylęs ir neišsimiegojęs. Jis nori neatidėliotinų veiksmų. Kaip tvarkysite šį pirmą kontaktą?",
+            "options": [
+                {
+                    "text": "Ramiai linktelėkite ponui Novak ir nuleiskite iškarpinę prie šono, kad neatrodytumėte taip, lyg jau rašytumėte protokolą: „Girdžiu muziką iš čia, todėl puikiai suprantu jūsų nusivylimą. Prieš lipant aukštyn noriu įsitikinti, kad turiu visą vaizdą iš jūsų pusės. Kiek laiko tai trunka šitokiu garsumu ir ar panašaus dalyko buvo anksčiau su šiais kaimynais? Ar bandėte su jais tiesiogiai pasikalbėti, ar tai pirma tikra sąveika?“",
+                    "feedback": "Kodėl: Iš karto patvirtinant jo patirtį („aš irgi girdžiu“) sukuriamas pasitikėjimas. Konkrečios informacijos rinkimas — trukmė, istorija, ankstesni bandymai spręsti — suteikia kontekstą, formuojantį, ar tai vienkartinis vakarėlis, ar pasikartojantis modelis. Klausimas, ar jis bandė tiesiogiai bendrauti, atskleidžia kaimynų santykių dinamiką. | PASEKMĖS: Ponas Novak jaučiasi išgirstas ir pateikia naudingų detalių: tai pirmas kartas, kai buvo taip blogai, jis niekada su jais nekalbėjo ir net nežino jų vardų. Dabar suprantate, kad tai eskalacija nuo nulio — jokio ankstesnio santykio, jokių ankstesnių bandymų. Tai formuoja jūsų požiūrį viršuje. | Refleksija: Kaip supratimas, ar kaimynai kada nors bendravo, keičia jūsų teikiamos intervencijos tipą?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "„Girdžiu jus, pone Novak. Ramybės valandos prasidėjo dešimtą ir jie aiškiai pažeidžia — bosą girdžiu net iš čia, nuo pirmo aukšto. Tuoj pat lipu aukštyn ir adresuoju tai tiesiogiai.“ Ryžtingai linktelėkite ir eikite tiesiai prie laiptinės, nepaklausę jokių papildomų klausimų — nei kiek laiko triukšmas tokio lygio, nei ar panašaus dalyko būta anksčiau, nei ar jis bandė belstis į jų duris pats.",
+                    "feedback": "Kodėl: Greitas patvirtinimas ir ryžtingi veiksmai jaučiasi reikliai, bet jūs praleidote svarbų informacijos rinkimą. Nežinote istorijos, santykio ar to, ką ponas Novak jau bandė. Lipimas aukštyn turint tik skundėjo perspektyvą reiškia, kad atvykstate prie vakarėlio su vienpusiu požiūriu ir be tarpininkavimo strategijos. | PASEKMĖS: Ponas Novak laikinai patenkintas jūsų ryžtingumu. Bet jūs beldžiate į Tomáš duris be jokio konteksto, išskyrus „pažeidimas“, kas siaurina jūsų požiūrį prie vykdymo, o ne tarpininkavimo. Jei rezultatas bus kažkas mažiau nei visiškas vakarėlio nutraukimas, ponas Novak jausis apgautas. | Refleksija: Ką prarandate, kai praleidžiate informacijos rinkimą, norėdami parodyti skubumą?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "„Gerai, girdžiu iš čia apačioje. Leiskite lipti aukštyn ir pasbelsti — viską sutvarkysime.“ Trumpai linktelėkite ponui Novak, pažvelkite aukštyn laiptinės link, iš kur sklinda dusli boso vibracija, ir pradėkite lipti. Jokių papildomų klausimų — nei kiek laiko taip garsu, nei ar tai pasikartojantis dalykas, nei ką „sutvarkyti“ jam iš tikrųjų reiškia. Nusprendžiate viską įvertinti patys viršuje.",
+                    "feedback": "Kodėl: Triukšmo pripažinimas yra geras, bet „viską sutvarkysime“ yra neaiškus ir nenustato jokių lūkesčių. Nesurinkote jokios informacijos iš skundėjo, neįvertinote istorijos ir nesuvaldėte pono Novak lūkesčių, ką reiškia „sutvarkyti“. Jis įsivaizduoja vakarėlio nutraukimą; jūs gal įsivaizduojate garsumo sumažinimą. | PASEKMĖS: Atvykstate prie vakarėlio buto beveik be jokio konteksto. Ponas Novak laukia apačioje, nežinodamas, ko tikėtis, vis labiau nerimauja su kiekviena minute. Kai grįšite su kompromisu, o ne su nutraukimu, jis jausis išduotas. | Refleksija: Kaip lūkesčių nesuvaldymas su skundėju sukuria problemas bet kokiam sprendimui, kurį suderėsite?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "„Pone Novak, tai šeštadienio vakaras — žmonės kartais rengia vakarėlius. Ar nebandėte tiesiog įsidėti ausų kamštukų? Žinau, kad ne idealu, bet daugiabučiuose sienos plonos ir savaitgalio triukšmas yra bendro gyvenimo dalis. Nuliksiu aukštyn ir paprašysiu, kad laikytųsi proto ribose, bet negaliu garantuoti, kad jie visiškai liausis. Tokios situacijos paprastai pačios nurims iki pirmos ar antros nakties.“",
+                    "feedback": "Kodėl: Teisėto skundo atmetimas siūlant skundėjui prisitaikyti („pabandykite ausų kamštukus“) yra giliai nuvertinantis. Jis skambino, nes ramybės valandos pažeidžiamos — tai paskelbta pastato taisyklė, o ne asmeninė nuomonė. Liepdami jam toleruoti signalizuojate, kad jo rūpesčiai nesvarbu. Žemų lūkesčių nustatymas net neištyrus praneša, kad jau nusprendėte vakarėlio šeimininkų naudai. | PASEKMĖS: Pono Novak frustracija šoktelėja: „Ausų kamštukai? Man neturėtų reikėti dėvėti ausų kamštukų savo namuose vidurnaktį!“ Jis jaučiasi atmestas ir pradeda abejoti, ar skambutis buvo vertas. Jei sprendimas bus netobulas, jis skambins vėl — ir kitą kartą bus piktesnis ir mažiau pasitikintis. | Refleksija: Kas atsitinka su piliečio pasitikėjimu policija, kai jo teisėtas skundas sumenkinama dar neištyrus?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Skundėjas",
+            "sceneUpdate": {
+                "emoji": "😫",
+                "title": "Pirmojo aukšto koridorius — lūkesčių valdymas",
+                "desc": "Ponas Novak yra maždaug šešiasdešimties, plaukai nesušukuoti, tamsūs ratilai po akimis. Jis remiasi į savo buto durų staktą, tarsi stovėti reikėtų pastangų. Pro atviras duris matote nutildytą televizorių ir neliestą arbatos puodelį ant virtuvės stalo. Bosas tolygiai pulsuoja per lubas virš galvos."
+            },
+            "npcDialogue": [
+                {
+                    "character": "novak",
+                    "text": "Tai ne pirmas kartas, kai būna triukšmo, bet šį vakarą blogiausia iki šiol. Aš net nežinau, kas ten gyvena — kažkokie jauni žmonės atsikraustė prieš metus, gal daugiau. Niekada su jais nekalbėjau. Aš tik noriu miegoti. Turiu širdies ligą ir gydytojas sako, kad stresas ją blogina. Ar negalite tiesiog jiems išrašyti baudos? Tai juos pamokytų."
+                }
+            ],
+            "prompt": "Ponas Novak nori baudos. Jis pavargęs, nusivylęs ir turi sveikatos rūpestį. Kaip valdysite jo lūkesčius prieš lipant aukštyn?",
+            "options": [
+                {
+                    "text": "Žengkite arčiau pono Novak ir prabilkite ramiu balsu: „Pone Novak, jūsų sveikata svarbi ir jūsų teisė į ramybę po dešimtos yra teisėta. Lipu aukštyn, kalbu su jais ir siekiu sustabdyti triukšmą šį vakarą. Pirmam pažeidimui pradėsiu aiškiu įspėjimu ir konkrečiu susitarimu. Jei nepaklusys, vykdymas stiprėja. Bet tarpininkavimas tarp kaimynų veikia geriau ilgalaikėje perspektyvoje nei baudos. Ar duosite man galimybę pabandyti tokį požiūrį pirma?“",
+                    "feedback": "Kodėl: Patvirtina jo sveikatos rūpestį ir teisinę padėtį. Skaidrus apie jūsų požiūrį — įspėjimas prieš baudą — paaiškinant, kodėl tarpininkavimas duoda geresnius rezultatus. Klausimas „ar duosite man galimybę“ gerbia jo veiksnumą ir kviečia bendradarbiauti, o ne diktuoja. Aiškių eskalacijos kriterijų nustatymas (pirmiausia įspėjimas, tada vykdymas) valdo lūkesčius jų neatmesdamas. | PASEKMĖS: Ponas Novak sustoja, tada nenoriai linkčioja: „Gerai, bet jei nesuveiks...“ Jis pakankamai jumis pasitiki, kad leistų pabandyti. Jūs lipate aukštyn su jo sąlyginiu pritarimu, kuris suteikia erdvę tarpininkauti be jo jautimo, kad buvo išduotas. | Refleksija: Kodėl savo argumentų paaiškinimas skundėjui — o ne tiesiog veiksmų pažadėjimas — kuria tvirtesnį pasitikėjimą?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "„Visiškai suprantu jūsų frustraciją, pone Novak, ir bauda tikrai yra galima — turiu tokius įgaliojimus ir jei situacija to reikalaus, ta galimybė lieka ant stalo. Leiskite man lipti aukštyn ir pirmiausia įvertinti situaciją, pakalbėti su tais, kas rengia vakarėlį, pamatyti, kaip jie reaguoja. Priklausomai nuo to, ką rasiu, galime kalbėti apie žodinį įspėjimą, raštišką įspėjimą arba baudą. Grįšiu ir papasakosiu, kas tiksliai nutiko.“",
+                    "feedback": "Kodėl: Baudos kaip galimybės pripažinimas yra techniškai tikslus. Tačiau „bauda tikrai yra galima“ padidina pono Novak lūkesčius, kad vykdymas yra tikėtinas rezultatas. Jei vėliau pasirinksite tarpininkavimą, jis jausis suklaidintas. „Įvertinti situaciją“ yra profesionalu, bet neaišku — tai jam neduoda nieko konkretaus, ko laikytis. | PASEKMĖS: Ponas Novak girdi „bauda galima“ ir savo galvoje užfiksuoja tai kaip „bauda bus“. Kai grįžtate su savanorišku susitarimu, jis yra nusivylęs: „Jūs sakėte, kad bauda galima!“ Atotrūkis tarp nuorodos ir rezultato griauna pasitikėjimą. | Refleksija: Kaip kalba, kurią vartojate lūkesčiams valdyti, sukuria sutartį skundėjo galvoje?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "„Aš eisiu tuo pasirūpinti, pone Novak. Pabandykite pailsėti — žinau, kad turite tą svarbų vizitą anksti ryte. Lipšiu aukštyn, pakalbėsiu su jais ir grįšiu, kai viską suderinsiu. Neturėtų ilgai užtrukti — tiesiog palaukite ir palikite tai man.“ Apsisukate link laiptinės net neadresavę jo prašymo dėl baudos ir nepaminėję jo širdies ligos, kuri jį akivaizdžiai neramina.",
+                    "feedback": "Kodėl: Geranoriška, bet nenustato jokių lūkesčių. „Pasirūpinti“ gali reikšti bet ką — nutraukimą, įspėjimą, tarpininkavimą. Ponas Novak užpildo neapibrėžtumą savo pageidaujamu rezultatu: vakarėlis baigiasi ir bauda išrašoma. Jo sveikatos rūpesčio nepaminėjimas, trukdymo poveikio nepatvirtinimas. Liepimas neišsimiegojusiam žmogui „pabandyti pailsėti“, kol bosas vis dar pulsuoja, yra nenuoširdus. | PASEKMĖS: Ponas Novak pasitraukia į savo butą ir guli nemiegodamas, klausydamas lubų. Kai grįžtate su kompromisu, jis suglumęs ir nusivylęs, nes „pasirūpinti“ jam reiškė ką kitą. Kitas skambutis ateina greičiau. | Refleksija: Kas užpildo atotrūkį, kai nenustatote konkrečių lūkesčių?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "„Pone Novak, suprantu, kad tai vargina, bet aš negaliu tiesiog dalinti baudų — yra tam tikra procedūra. Ir atvirai, vakarėliai galiausiai baigiasi patys, tokia šeštadienio vakarų prigimtis. Paprašysiu jų pritildyti, bet realiai gal tiesiog teks šį vakarą iškentėti. Savaitgalio triukšmas daugiabutyje — žinote, kaip būna. Gal uždarykite miegamojo langą arba pabandykite foninį triukšmą — kartais tai padeda geriau nei galvojate.“",
+                    "feedback": "Kodėl: „Vakarėliai galiausiai baigiasi“ ir „iškentėti“ yra nuvertinami. Ramybės valandos nėra pasiūlymas — tai paskelbta pastato taisyklė, ir pažeidimas yra aiškus ir vykstantis. Liepimas šešiasdešimtmečiui su širdies liga tiesiog iškentėti signalizuoja, kad jo teisėtas skundas yra jūsų nepatogumas. „Aš negaliu tiesiog dalinti baudų“ taip pat yra klaidinantis — jūs turite tokius įgaliojimus. | PASEKMĖS: Pono Novak veidas nušvinta. Jis jaučiasi apleistas sistemos, į kurią kreipėsi pagalbos. Jei triukšmas tęsis, jis gali eskaluoti — skambinti vadovui, konfrontuoti su kaimynais pats, arba tiesiog niekada nebepasitikėti policija dėl gyvenimo kokybės klausimų. | Refleksija: Kai skundėjas turi aiškiai teisėtą nusiskundimą, kokią žinutę siunčia „iškentėkite“ apie skambinimo policijai vertę?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Beldimas į duris",
+            "sceneUpdate": {
+                "emoji": "🚪",
+                "title": "Antro aukšto laiptinė — vakarėlio butas",
+                "desc": "Lipate laiptais į antrą aukštą. Muzika stiprėja su kiekvienu žingsniu — sunkaus boso elektroniniai ritmai vibruoja per sienas. Aikštelėje kita gyventoja — moteris keturiasdešimties — žiūri iš buto priešais, pavargusiu žvilgsniu nužvelgia jus ir pasitraukia už durų nekalbėdama. Prie vakarėlio buto girdite juoką, stiklinių skambesį ir daug balsų. Šviesa prasiskverbia po durimis. Mažame balkone, matomame pro laiptinės langą, stovi trys žmonės, rūkydami ir garsiai kalbėdami."
+            },
+            "npcDialogue": [
+                {
+                    "character": "neighbor",
+                    "text": "(žiūrėdama iš savo durų angos, tyliai) Džiaugiuosi, kad pagaliau kažkas paskambino. Taip vyksta nuo dešimtos. Mano vaikai irgi negali miegoti. (Ji pasitraukia ir uždaro duris.)"
+                },
+                {
+                    "character": "tomas",
+                    "text": "(atidaro duris po antro beldimo, alaus rankoje, muzika griaudžia už jo, šiek tiek paraudęs) Taip? (pamato uniformą, veido išraiška sustingsta) O, na. Rimtai? Tai gimtadienio vakarėlis. Tai šeštadienis."
+                }
+            ],
+            "prompt": "Tomáš atidarė duris, aiškiai susierzinęs ir šiek tiek apsvaigęs. Muzika griaudžia už jo. Kaip pradėsite šį pokalbį?",
+            "options": [
+                {
+                    "text": "Laikykite toną ramų ir pokalbinį, stovėdami atsipalaidavusia laikysena žingsnį nuo durų slenksčio: „Labas vakaras. Aš pareigūnas [vardas]. Matau, kad švenčiate — su gimtadieniu tam, kieno vakarėlis. Esu čia, nes jūsų kaimynas apačioje paskambino dėl triukšmo. Pastato ramybės valandos prasidėjo dešimtą, ir girdžiu muziką nuo pirmo aukšto. Norėčiau pakalbėti apie būdą, kaip leisti jums baigti vakarą netrukdant viso pastato. Ar galime minutėlę pakalbėti?“",
+                    "feedback": "Kodėl: Prisistatymas vardu suteikia žmogiškumo sąveikai. Šventės pripažinimas („su gimtadieniu“) rodo, kad matote žmones, o ne tik pažeidimą. Faktų neutralus pateikimas — kaimynas paskambino, ramybės valandos, girdima iš apačios — nustato problemą be kaltinimo. „Rasti būdą leisti jums baigti vakarą“ signalizuoja, kad nesate čia jo nutraukti, kas dramatiškai sumažina gynybinumą. Klausimas „ar galime pakalbėti“ suteikia jam veiksnumą. | PASEKMĖS: Tomáš gynybinumas šiek tiek atslūgsta. Jis nesitikėjo ramaus, protingo pareigūno. Jis žengia į durų angą ir nuleidžia balsą: „Žiūrėkite, tai mano draugo gimtadienis...“ Pokalbis prasidėjo vietoj konfrontacijos. | Refleksija: Kaip šventės pripažinimas prieš skundą keičia žmogaus norą bendradarbiauti?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "„Labas vakaras. Gavome triukšmo skundą iš jūsų kaimyno apačioje. Pastato ramybės valandos yra nuo dešimtos ir jau gerokai praėjo. Man reikia, kad nedelsiant pritildytumėte muziką — bosas girdimas net nuo pirmo aukšto — ir pakviestumėte tuos žmones nuo balkono, nes pokalbiai ir cigarečių dūmai nešasi per visą laiptinę. Sutvarkykime tai greitai, kad man nereikėtų grįžti šį vakarą dar kartą.“",
+                    "feedback": "Kodėl: Faktiškai teisinga ir tiesioginė, bet prasideda reikalavimais, o ne dialogu. „Man reikia, kad jūs“ yra įsakymas, o ne pokalbio pradžia. Jūs neprisistatėte, nepripažinote šventės ir neparodėte jokio susidomėjimo jo perspektyva. Kai šiek tiek apsvaigęs žmogus gauna įsakymus iš nepažįstamojo prie savo durų, instinktas yra priešintis. | PASEKMĖS: Tomáš susierzina: „Jums reikia, kad aš? Tai mano butas.“ Jo mergina pasirodo už jo, nerimaujanti. Pradėjote galios kovą vietoj derybų. Kiekviena nuolaida dabar jaučiasi kaip pralaimėjimas. | Refleksija: Koks skirtumas tarp instrukcijų davimo ir derybų pradėjimo — ir kuris duoda greitesnį paklusimą?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "„Ei, suprantu — šeštadienio vakaras, gimtadienio vakarėlis. Pats buvau tokiose situacijose, žinau, kaip būna. Bet kaimynai skambina skundais, ir pastato ramybės valandos prasidėjo dešimtą — jau pusantros valandos kaip praėjo. Žiūrėkite, tikrai nenoriu niekam sugadinti vakaro čia. Ar galite tiesiog šiek tiek pritildyti ir gal patraukti žmones nuo balkono? Palieku detales jūsų nuožiūrai, kaip geriau sutvarkyti.“",
+                    "feedback": "Kodėl: Draugiška ir artima, bet „šiek tiek pritildyti“ yra per daug neaišku, kad sudarytų tikrą susitarimą. Ką reiškia „šiek tiek“? Bosas, einantis per grindis? Pokalbiai balkone? Muzikos garsumas? Be konkretumų Tomáš sutinka tą minutę ir nieko reikšmingai nekeičia. Jūs taip pat neprisistatėte, kas praleidžia lengvą ryšio galimybę. | PASEKMĖS: Tomáš traukteli pečiais: „Jo, be problemų.“ Jis uždaro duris. Po penkių minučių garsumas šiek tiek mažesnis — techniškai jis paklausė. Po trisdešimties minučių jis grįžta aukštyn ir ponas Novak vėl skambina. Nieko neišsprendėte. | Refleksija: Kodėl neaiškūs susitarimai nelaiko, ir kas padaro konkretų susitarimą tvirtą?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "„Pone, aš reaguoju į triukšmo pažeidimą šiuo adresu. Pastato ramybės valandos paskelbtos nuo dešimtos vakaro iki septintos ryto ir jūs šiuo metu aiškiai pažeidžiate. Man reikia pamatyti nuomininko asmens tapatybės dokumentą, ir man reikia, kad muzika būtų išjungta — ne pritildyta, o visiškai išjungta — dabar pat. Jei teks grįžti prie šio adreso antrą kartą šį vakarą, laukia formali bauda.“",
+                    "feedback": "Kodėl: Asmens tapatybės dokumento reikalavimas ir baudos grasinimai kaip pirmasis veiksmas dėl triukšmo skundo yra neproporcingai neadekvatūs. Tai pirmas kontaktas dėl gyvenimo kokybės klausimo, ne kriminalinis tyrimas. Pradėjimas grasinimais ir dokumentų reikalavimais garantuoja pasipriešinimą iš žmogaus, kuris yra savo namuose, gėrė ir jaučia teisę švęsti. Konfrontacinis požiūris taip pat nuodija bet kokią tarpininkavimo galimybę. | PASEKMĖS: Tomáš atsitraukia: „Dokumentus? Dėl vakarėlio? Ar aš suimtas?“ Jo draugai susirenka už jo, ir atmosfera tampa priešiška. Anna pasirodo, sunerimusi. Balkono grupė ateina vidun pamatyti, kas vyksta. Dabar susiduriate su kambariu gynybinių, šiek tiek apsvaigusių žmonių, o ne viena bendradarbiaujančia pora. | Refleksija: Kaip atrodo proporcingumas, kai reaguojate į triukšmo skundą, o ne į nusikaltimą?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Pasipriešinimas",
+            "sceneUpdate": {
+                "emoji": "😤",
+                "title": "Buto durų anga — akistata",
+                "desc": "Stovite vakarėlio buto durų angoje. Už Tomáš matote svetainę, papuoštą serpantinais ir plakatu „Su gimtadieniu“. Maždaug aštuoni žmonės sėdi ar stovi aplink stalą, užverstą maistu, gėrimais ir pusiau suvalgytu tortu. Muzika šiek tiek pritildyta nuo durų atidarymo, bet bosas vis dar pulsuoja. Jauna moteris — Anna — pasirodo prie Tomáš peties, greitai skaitydama situaciją. Vienas vakarėlio svečių — tvirtas vyras trisdešimties — atsistoja už Tomáš, sukryžiavęs rankas, fiziniu svoriu sustiprindamas pasipriešinimą."
+            },
+            "npcDialogue": [
+                {
+                    "character": "tomas",
+                    "text": "(žengdamas į priekį, balsu pakeltu, tikrai piktas) Ne. Ne. Man gana būti mandagiam. Tai mano butas. Aš moku nuomą. Aš dirbu dvylikos valandų naktines pamainas kaip paramedikas — matau žmones mirštant, pareigūne, ir tai vienintelis šeštadienis per mėnesį, kai galiu pamatyti savo draugus. Tas žmogus apačioje belsdavo į lubas kiekvieną kartą, kai turėdavau svečių — net per tylias vakarienės. Jis kvietė policiją, nes kažkas per garsiai nusijuokė praeitą mėnesį. Man gana derėtis. Mes irgi turime teisę čia gyventi."
+                },
+                {
+                    "character": "anna",
+                    "text": "(dėdama ranką ant Tomáš rankos, kalbėdama tyliau, bet taip pat prieštaringai) Tomáš, nagi. (pasisuka į jus) Atsiprašau, pareigūne. Mes nesupratome, kad buvo taip garsu. Turėjome būti atsargesni. Bet jis neklysta — ponas Novak skundžiasi dėl visko. Ką jums reikia, kad padarytume?"
+                }
+            ],
+            "prompt": "Tomáš ne tik gynybinis — jis tikrai piktas ir turi nusiskundimą dėl pakartotinių skundų. Jo draugas fiziškai jį palaiko. Anna labiau bendradarbiaujanti, bet patvirtina jo frustraciją. Kaip įsitrauksite į šią eskalavusią dinamiką?",
+            "options": [
+                {
+                    "text": "Kreipkitės tiesiai į Tomáš, pagarbiu, bet tvirtu balsu, stovėdami ramiai: „Girdžiu jus — dirbti naktines pamainas kaip paramedikui ir pagaliau gauti šeštadienį su draugais, suprantu, kodėl tai jums svarbu. Ir jūs teisus, tai yra jūsų namai. Bet triukšmas šį vakarą tikrai gerokai viršija normalų lygį — bosą girdžiu nuo pirmo aukšto. Žmogus apačioje turi širdies ligą ir gydytojo vizitą šeštą ryto. Aš ne čia nutraukti jūsų vakarėlio — aš čia rasti vidurio kelią.“ Tada pasisukite į Anną: „Jūs sakėte, kad nesupratote, kaip garsu buvo — tai išsprendžiama. Pakalbėkime apie konkretybes?“",
+                    "feedback": "Kodėl: Tomáš jausmų patvirtinimas ir jo darbo kaip paramedikas pripažinimas atpalaiduoja gynybinumą parodant pagarbą jo profesijai. „Jūs teisus, tai yra jūsų namai“ patvirtina jo autonomiją prieš pristatant atsvarą. Pono Novak širdies ligos paminėjimas sužmogina skundėją ir performuoja situaciją iš „erzinančio kaimyno“ į „sveikatos riziką“ — ką paramedikas instinktyviai supras. „Ne čia nutraukti jūsų vakarėlio“ panaikina grėsmę, į kurią jis reaguoja. Tada Annos įtraukimas nukreipia pokalbį link sprendimų. | PASEKMĖS: Tomáš sustoja paminėjus širdies ligą — kaip paramedikas, jis žino, ką stresas ir miego trūkumas daro širdies ligoniams. Jo draugas atsideda rankas. Anna žengia pirmyn: „Galime pritildyti bosą ir uždaryti balkono duris...“ Dinamika keičiasi nuo konfrontacijos prie derybų. | Refleksija: Kaip kažkieno pozicijos patvirtinimas ir tada konkuruojančio teisėto poreikio pristatymas — ypač rezonuojančio su jų profesija — keičia jų norą kompromisui?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Sutelkite dėmesį į Anną, kadangi ji rodo daugiau noro bendradarbiauti, ir kreipkitės tiesiai į ją mandagiu, bet dalykišku tonu: „Ačiū, kad esate atvira pokalbiui — tai tikrai vertinu. Leiskite paaiškinti, ko reikia šioje situacijoje: muzika turi gerokai sumažėti, ypač bosas, kuris keliauja tiesiai per grindis į butą apačioje, ir balkonas turi būti atlaisvintas, nes pokalbiai ir dūmai nešasi per visą pastatą tokiu metu. Ar galite padėti tai įgyvendinti? Jei pavyks sutvarkyti šiuos du dalykus, galime šį vakarą apsieiti be jokių formalių veiksmų.“",
+                    "feedback": "Kodėl: Bendradarbiaujančios šalies įtraukimas yra pragmatiškas ir dažnai efektyvus. Tačiau kalbėjimas daugiausia su Anna, kol Tomáš ir jo draugas konfrontuoja jus, gali jaustis kaip apėjimas. Tomáš gali tai suvokti kaip nepagarbą — kalbėjimas su jo mergina, o ne kreipimasis tiesiogiai į jį. Jo paties namuose, su draugu jį palaikančiu, tai ypač skauda. | PASEKMĖS: Anna linkčioja ir pradeda veikti, bet Tomáš jaučiasi apeitas: „Ei, aš čia stoviu.“ Jo draugas prideda: „Jo, kalbėkit su mumis.“ Tomáš mažiau priešiškas dabar, bet jaučiasi nustumtas savo paties durų angoje. Susitarimas gali laikyti šį vakarą, bet Tomáš prisimins, kad jautėsi atmestas. | Refleksija: Kai viena šalis labiau bendradarbiaujanti, kaip ją įtraukiate nepraleisdami gynybinės šalies — ypač kai jie turi fizinį palaikymą?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Susiaurintomis akimis pažvelkite tiesiai į Tomáš ir ištarkite kietesniu tonu, rankose laikydami užrašų knygelę: „Pone, suprantu, kad tai jūsų butas ir suprantu, kad jaučiatės stipriai, bet ramybės valandos yra ramybės valandos — jos galioja kiekvieną naktį, įskaitant šeštadienius, įskaitant gimtadienius. Man reikia, kad muzika būtų išjungta ir svečiai pasitrauktų nuo balkono. Tai ne prašymas. Jūsų kaimynas apačioje turi širdies ligą, ir situacija tęsiasi jau daugiau nei pusantros valandos po ramybės valandų pradžios.“",
+                    "feedback": "Kodėl: „Tai ne prašymas“ eskaluoja triukšmo skundą į dominavimo konkursą. Jūs pavertėte tarpininkaujamą situaciją konfrontacija — ir dabar durų angoje stovi du vyrai, įsitvirtinę fiziniu mastu. Ramybės valandos yra realios, bet jūsų vykdymo požiūris neturi jokio lankstumo. Gimtadienio vakarėliui 23:30 tai yra neproporcinga ir bus suvokiama kaip autoritarinė. Tomáš draugas už jo įsitempia, ir grupės dinamika gali spiralėti. | PASEKMĖS: Tomáš atsistoja tiesiai: „Ne prašymas? Tada rašykite baudą ir eikite. Aš neišjungsiu muzikos per draugo gimtadienį, nes kažkoks mentas taip liepia.“ Jo draugas irgi žengia pirmyn. Anna tempia Tomáš atgal, bet pokalbis dabar yra priešiškas su dviem agresyviomis šalimis. Bet koks sprendimas atrodys primestas. | Refleksija: Koks skirtumas tarp taisyklės vykdymo ir galios demonstravimo — ir kaip žmonės reaguoja į kiekvieną, ypač kai turi grupės palaikymą?",
+                    "type": "negative",
+                    "points": -10
+                },
+                {
+                    "text": "Atsitraukite pusę žingsnio nuo durų angos ir pakėlę rankas atsiprašomu gestu ištarkite švelniu, beveik nedrąsiu balsu: „Žiūrėkite, tikrai nenoriu iš to daryti didelio dalyko — jūs abu atrodote protingi žmonės, ir matau, kad tai yra šventė. Nenoriu gadinti niekam vakaro čia. Tiesiog pabandykite šiek tiek pritildyti, gal patraukite žmones nuo balkono, gerai? Palieku tai jūsų nuožiūrai, kaip geriau viską sutvarkyti. Tikrai nenorėčiau grįžti čia šį vakarą — tai popieriai man ir vargai visiems.“",
+                    "feedback": "Kodėl: Draugiška, bet bejėgė — ypač susidūrus su tikru pasipriešinimu. Tomáš ką tik pasakė, kad jam gana derėtis, jo draugas jį fiziškai palaiko, o jūs atsakėte „pabandykite pritildyti“. Tai signalizuoja, kad pasipriešinimas veikia ir kad pasipriešinus gaunate švelnesnį atsaką. Neadresavote Tomáš nusiskundimo dėl pakartotinių skundų, neįtraukėte Annos noro bendradarbiauti ir nenustatėte jokių konkrečių pakeitimų. Neapibrėžtumas užtikrina, kad niekas nesikeis. | PASEKMĖS: Tomáš draugas šypsosi. Tomáš traukteli pečiais: „Žinoma, pareigūne.“ Jis uždaro duris. Muzika grįžta per penkias minutes. Jūs atlyginote pasipriešinimą atsitraukimu. Ponas Novak vėl skambina 0:30, šį kartą minėdamas krūtinės spaudimą. | Refleksija: Kai kas nors stipriai priešinasi ir jūsų atsakas yra atsitraukti, kokią pamoką jūs juos išmokėte apie tai, kaip bendrauti su policija?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Sprendimo paieška",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Buto durų anga — derybos",
+                "desc": "Konfrontacinė energija šiek tiek atslūgo, bet iškilo komplikacija. Jūsų radija susitraukia — dispečerinė perduoda, kad ponas Novak paskambino dar kartą, šį kartą ne dėl triukšmo, o dėl krūtinės spaudimo ir dusulio. Jis sako, kad tai gali būti jo širdies liga, pablogėjusi nuo streso ir neišsimiegojimo. Tomáš vis dar durų angoje, mažiau priešiškas dabar, bet atidžiai jus stebintis. Anna stovi šalia, sukryžiavusi rankas, klausydamasi. Už jų vakarėlis pastebimai aprimo."
+            },
+            "npcDialogue": [
+                {
+                    "character": "anna",
+                    "text": "Mes tikrai neketinome kelti problemų. Tiesiog — planavome tai savaitėmis ir Marek atvažiuoja tik vieną ar du kartus per metus. Ką tiksliai turime padaryti? Nenorime bėdų."
+                },
+                {
+                    "character": "tomas",
+                    "text": "(nenoriai) Gerai. Bet aš neišsiųsiu visų namo dvyliktą. Tai juokinga. (girdi jūsų radiją, sustoja) Pala — tai apie kaimyną? Ar jam viskas gerai?"
+                }
+            ],
+            "prompt": "Ponas Novak pranešė apie krūtinės spaudimą — galbūt su stresu susijusį, galbūt tikrą širdies problemą, reikalaujančią greitosios. Tuo tarpu Tomáš nubrėžė ribą dėl vakarėlio nebaigimo. Turite įvertinti medicininę situaciją ir rasti sprendimą. Ką darote?",
+            "options": [
+                {
+                    "text": "„Palaukite minutėlę.“ Pasitraukite žingsnį nuo durų ir per radiją kreipkitės į dispečerinę profesionaliu tonu: „Prašau siųsti greitąją patikrinti skundėjo — pagyvenęs vyras, praneša apie krūtinės spaudimą, turi žinomą širdies ligą. Prašomas profilaktinis patikrinimas.“ Tada pasisukite atgal į Tomáš: „Jūsų kaimynas praneša apie krūtinės skausmus — jis turi širdies ligą. Iškviečiau greitąją jam patikrinti. Neprašau jūsų nutraukti vakarėlio, bet situacija pasikeitė. Štai kas, manau, veiktų: pritildykite bosą, nes tai keliauja per grindis. Uždarykite balkono duris. Ir nustatykime pabaigos laiką — pusė pirmos duoda jums dar valandą ir jam aiškią finišo liniją. Ar tinka?“",
+                    "feedback": "Kodėl: Puikus prioritetų nustatymas. Medicininis rūpestis adresuojamas nedelsiant ir profesionaliai — jūs nebandote diagnozuoti patys, prašote greitosios profilaktiniam patikrinimui. Tada pereiname prie triukšmo sprendimo su konkrečiomis, įgyvendinamomis sąlygomis. Tomáš informavimas apie krūtinės skausmus keičia dinamiką — kaip paramedikas, jis profesionaliai supranta, ką reiškia širdies stresas. Nepavertėte medicininės situacijos ginklu, tiesiog pateikėte faktus. Trys konkretūs prašymai su pagrįstu pabaigos laiku. | PASEKMĖS: Tomáš veido išraiška pasikeičia paminėjus krūtinės skausmus — jis profesionaliai žino, ką tai reiškia. „Ar jam — gerai, taip. Pusė pirmos gerai. Mes vis tiek jau baigėme.“ Anna nedelsdama uždaro balkono duris. Greitoji patikrina poną Novak ir nustato, kad tai su stresu susiję, ne ūmus. Bet patikrinimas buvo teisingas sprendimas. | Refleksija: Kaip greitas medicininio rūpesčio adresavimas — net jei pasirodo nedidelis — parodo profesinį sprendimą, keičiantį abiejų šalių požiūrį į jus?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "„Padarykime taip — pritildykite muziką, ypač bosą, kuris eina tiesiai per grindis, ir uždarykite balkono duris, kad pokalbiai ir dūmai nebesisklistų per pastatą. Tai turėtų pašalinti didžiąją dalį to, kas trukdo kaimynams. Dėl pabaigos laiko paliksiu jums nuspręsti — jūs geriau žinote, kada vakarėlis natūraliai baigsis. Man dabar reikia skubiai eiti žemyn patikrinti jūsų kaimyno, nes jis paskambino atgal ir sako, kad nesijaučia gerai — skundžiasi krūtinės spaudimu. Gali būti nieko rimto, gali būti stresas, bet turėčiau pats pažiūrėti. Sutarta dėl viršaus?“",
+                    "feedback": "Kodėl: Du iš trijų pagrindinių dalykų adresuoti, bet „protingu laiku“ yra subjektyvu. Kas yra protinga dvidešimt aštuonerių metų žmogui per gimtadienio vakarėlį, labai skiriasi nuo to, kas protinga šešiasdešimtmečiui su krūtinės skausmais. Be konkretaus pabaigos laiko vakarėlis gali tęstis iki 2 nakties, visiems jaučiant, kad laikėsi savo dalies. Jūs tikrinate poną Novak asmeniškai, kas yra gerai, bet neiškviečiate greitosios — širdies simptomų vertinimas pačiam be medicininio mokymo yra rizikinga. | PASEKMĖS: Tomáš ir Anna lengvai sutinka — konkretaus pabaigos laiko nebuvimas tai palengvina. Rasite poną Novak apačioje, blyškų, bet kvėpuojantį normaliai. Negalite nustatyti, ar tai nerimas, ar kažkas širdies. 1:15 nakties triukšmas vėl padidėjo ir pono Novak būklė pablogėjo. | Refleksija: Kokia rizika paliekant labiausiai ginčytiną sąlygą neapibrėžtą — ir vertinti medicininį rūpestį patys, o ne kviesti profesionalus?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Susiaurintomis akimis pažvelkite į Tomáš ir ištarkite griežtu, oficialiu tonu, nuleisdami ranką prie diržo: „Štai kas dabar vyksta: man reikia, kad muzika būtų visiškai išjungta — ne pritildyta, o išjungta — ir kad vakarėlis baigtųsi per trisdešimt minučių. Ramybės valandos yra ramybės valandos, jau seniai praėjo vidurnaktis, ir jūsų kaimynas apačioje dabar praneša apie medicininius simptomus — krūtinės spaudimą. Tai nebėra paprastas triukšmo skundas. Dokumentuoju šį vizitą ataskaitoje, ir jei situacija nebus išspręsta, kai grįšiu patikrinti, pereiname prie formalios baudos.“",
+                    "feedback": "Kodėl: Muzikos visiškas išjungimas ir trisdešimties minučių uždarymas yra neproporcingas pirmam triukšmo skundui per gimtadienio vakarėlį. Pono Novak medicininės ataskaitos naudojimas kaip plaktukas paklusimui priversti paverčia sveikatos rūpestį ginklu — medicininė situacija reikalauja savo profesionalaus atsako (greitosios), o ne panaudojimo kaip vykdymo įrankio. Jūs iš esmės įsakote vakarėliui baigtis, tuo pat metu neiškviesdami medicininės pagalbos tikrai sveikatos problemai. | PASEKMĖS: Tomáš atsitraukia: „Jūs naudojate jo krūtinės skausmus, kad nutrauktumėte mano vakarėlį?“ Anna nusiminusi. Svečiai keičiasi piktais žvilgsniais. Pono Novak medicininis rūpestis lieka neadresuotas, kol jūs sutelkiate dėmesį į vykdymą. Panaudojote sveikatos klausimą kaip ginklą ir apleidote žmogų, kuriam tikrai reikėjo pagalbos. | Refleksija: Kai vykdymas yra neproporcingas ir medicininis rūpestis naudojamas kaip svertas, o ne adresuojamas profesionaliai, kas neša kainą?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Mostelkite ranka neapibrėžtai link buto vidaus ir ištarkite lengvu, beveik abejingu tonu: „Paliksiu jums patiems nuspręsti, kaip viską sutvarkyti — jūs atrodote protingi žmonės ir manau, kad galite patys susidėlioti detales, man nereikia jų diktuoti. Tiesiog pasistenkite, kad kaimynui apačioje nereikėtų vėl skambinti šį vakarą, gerai? Balkono durys, muzikos garsumas — jūsų nuožiūra. Tikrai geriau negrįžčiau čia antrą kartą. Man dabar reikia skubėti žemyn patikrinti jo — paskambino atgal ir sako, kad nesijaučia gerai, skundžiasi krūtine.“",
+                    "feedback": "Kodėl: Visiškas atidavimas vakarėlio šeimininkams nenustato jokių konkrečių sąlygų. „Susitvarkyti detales“ prašo žmonių, kurie gėrė, savęs reguliuoti vidurnaktį. Instinktas patikrinti poną Novak yra teisingas, bet neiškviečiate greitosios ir nieko nesuderinote viršuje. Paliekate abi problemas — triukšmą ir medicininį rūpestį — nepakankamai adresuotas. | PASEKMĖS: Tomáš ir Anna sako, kad susitvarkys. Be konkrečių įsipareigojimų muzika lieka tokio pat lygio. Rasite poną Novak blyškų ir nerimstantį. Nesate apmokytas vertinti širdies simptomų. 1 val. nakties triukšmas atsinaujina ir pono Novak būklė neprofesionaliai neįvertinta. | Refleksija: Kai kelios problemos reikalauja vienu metu dėmesio, kas atsitinka, kai nė vienos neadresuojate su reikiamu konkretumu?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Susitarimas",
+            "sceneUpdate": {
+                "emoji": "📝",
+                "title": "Buto durų anga — susitarimo formalizavimas",
+                "desc": "Tomáš ir Anna sutiko su pagrindinėmis sąlygomis: bosas pritildytas, balkono durys uždarytos, svečiai viduje, vakarėlis baigiasi iki 0:30. Anna jau juda viduje, uždarinėdama balkono duris. Vienas svečių pritildo muziką. Greitoji patikrina poną Novak — jo gyvybiniai rodmenys stabilūs, bet kraujo spaudimas pakilęs nuo streso ir neišsimiegojimo. Paramedikas rekomendavo jam greitai užmigti. Koridorius pastebimai ramesnis. Priešais, kaimynės durys šiek tiek pradaros — ji klausosi."
+            },
+            "npcDialogue": [
+                {
+                    "character": "tomas",
+                    "text": "(ramesnis dabar, beveik atsiprašantis) Žiūrėkite, neketinau būti nemandagus. Tiesiog — buvo sunki savaitė. Dirbu pamišusias pamainas ir vos matau draugus. Tikrai negalvojau, kad taip garsu. (pauzė) Ar tam senam žmogui viskas gerai? Girdėjau, kad kvietėte greitąją."
+                },
+                {
+                    "character": "anna",
+                    "text": "Mums tikrai gaila dėl kaimyno. Niekada jo net nebuvome sutikę. Ar jis labai piktas? Ar turėtume... nueiti ką nors pasakyti?"
+                }
+            ],
+            "prompt": "Susitarimas pasiektas ir tonas pasikeitė. Tomáš paklausė apie pono Novak sveikatą be raginimo. Kaip formalizuosite tai ir sudarysite sąlygas, kad šį vakarą nebereikėtų skambinti?",
+            "options": [
+                {
+                    "text": "„Vertinu, kad abu dirbate su manimi — ir Tomáš, tai, kad paklausėte apie jį, man daug pasako. Jis stabilus — pakilęs kraujo spaudimas nuo streso, bet paramedikas sakė, kad jam reikia pailsėti. Pakartosiu, kad būtume tame pačiame puslapyje: bosas pritildytas, balkono durys uždarytos, svečiai viduje, baiginsite iki 0:30. Dar vienas dalykas: jūsų kaimynas ponas Novak — vyresnis vyras, gyvena vienas. Jis ne tiek piktas, kiek issėkęs. Jei rasite progą, trumpas beldimas rytoj prisistatyti galėtų daug nuveikti. Jis nežino, kad esate paramedikas, Tomáš — tai gali reikšti daug žmogui su širdies liga, gyvenančiam vienam.“",
+                    "feedback": "Kodėl: Konkrečių sąlygų pakartojimas sukuria žodinę sutartį, kurią abi šalys pripažino. Pažymėjimas, kad Tomáš paklausė apie poną Novak, sustiprina jo empatiją. Skaidrus medicinės informacijos dalinimasis — pakilęs kraujo spaudimas, reikia pailsėti — suteikia sveikatos situacijai deramą svorį nepaverčiant jos ginklu. Pono Novak sužmoginimas kaip pensininko našlio paverčia jį iš „tipo, kuris iškviečia policiją“ į vienišą pagyvenusį kaimyną. Pastebėjimas, kad paramedikas, gyvenantis virš žmogaus su širdies problemomis, galėtų būti turtas, o ne konfliktas, performuoja visą kaimynystės dinamiką. | PASEKMĖS: Tomáš veido išraiška keičiasi: „Jis vienas? Su širdies liga? Ir aš esu...“ Anna paliečia jo ranką: „Nueisime rytoj. Tikrai.“ Kaimynė priešais, klausydama pro prasivėrusias duris, šypsosi. Jūs ne tik išsprendėte triukšmo skundą — potencialiai sukūrėte palaikymo santykį. | Refleksija: Kaip žmonių stiprybių sujungimas su vieni kitų poreikiais paverčia konfliktą bendruomenės kūrimo pradžia?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "„Džiaugiuosi, kad susitarėme. Turiu formaliai dokumentuoti šį vizitą ir noriu būti su jumis visiškai skaidrus: išrašau raštišką įspėjimą — ne baudą — už šio vakaro triukšmo pažeidimą. Tai formalus įrašas, kad ramybės valandos buvo pažeistos. Jei per devyniasdešimt dienų bus kitas pažeidimas, atsakas automatiškai bus bauda. Tai ne bausmė, o aiški riba, kuri apsaugo visus, įskaitant jus — nes suteikia ponui Novak pasitikėjimą, kad sistema veikė ir jam nereikia eskaluoti toliau. Jūs šį vakarą bendradarbiavote ir tai tikrai vertinu. Galvokite apie tai kaip liniją smėlyje, kuri suteikia visiems aiškumą.“",
+                    "feedback": "Kodėl: Kartais empatiškiausias atsakas yra aiškios ribos. Formalus raštiškas įspėjimas — ne bauda — yra proporcingas pirmam pažeidimui su medicinine komplikacija. Jis dokumentuoja incidentą, nustato aiškų eskalacijos kelią ir paradoksaliai deeskaluoja platesnę situaciją suteikdamas ponui Novak institucinį užtikrinimą. Be dokumentacijos kitas skundas prasideda nuo nulio. Su ja visi žino, kur stovi. Įspėjimo formulavimas kaip apsauga abiem šalims — ne bausmė — palaiko geranoriškumą. | PASEKMĖS: Tomáš dvejoja, tada linkčioja: „Gerai. Įspėjimas yra sąžininga.“ Anna sutinka. Formalumas iš tikrųjų suteikia užbaigimą — jis yra konkretus, dokumentuotas ir proporcingas. Ponas Novak gauna įrodymą, kad jo skundas davė rezultatą, kas sumažina jo nerimą dėl būsimų incidentų. Raštiškas įrašas užkerta kelią pakartotinių skundų cikliniam modeliui be institucinės atminties. | Refleksija: Kada formali dokumentacija deeskaluoja situaciją, o ne eskaluoja — ir kaip abiem šalims institucinio užtikrinimo suteikimas užkerta kelią pakartotiniams konfliktams?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "„Gerai, manau, kad viskas tvarkoje. Jūs buvote tikrai bendradarbiaujantys ir aš tai nuoširdžiai vertinu — daugelis žmonių nebūtų buvę tokie protingi šioje situacijoje. Gero vakaro likučio ir mėgaukitės tuo, kas liko iš gimtadienio šventės.“ Draugiškai linktelėkite jiems abiem, trumpai mostelėkite svečiams, matomiems buto viduje, mestelėkite paskutinį žvilgsnį į uždarytas balkono duris ir apsisukite link laiptinės leistis žemyn pas poną Novak informuoti jo apie susitarimo rezultatą. Nei vienas sąlygų pakartojimas, nei žodis apie pono Novak sveikatą ar situaciją.",
+                    "feedback": "Kodėl: Mandagu, bet nepilna. Sąlygų nepakartota, vadinasi nėra žodinės sutarties. Pono Novak sveikatos būklės ar žmogiškumo nepaminėta. Ateities kaimynų santykių nepasiūlyta. Mechanizmo užkirsti kelią tai atsitikti kitą mėnesį nėra. Jūs išsprendėte tiesioginę problemą, bet nepasodinote jokių sėklų ilgalaikiams pokyčiams. Tomáš paklausė apie pono Novak sveikatą — nuoširdus empatijos momentas — ir jūs jį visiškai ignoravote. | PASEKMĖS: Tomáš ir Anna šį vakarą pakluso, nes susitikimas šviežias. Bet be santykio su ponu Novak, kitas vakarėlis generuoja tą patį skambutį. Tomáš klausimas apie kaimyno sveikatą — natūrali proga ryšiui — buvo iššvaistyta. | Refleksija: Koks skirtumas tarp incidento išsprendimo ir kito prevencijos — ir kas atsitinka, kai praleidžiate natūralų žmogiško ryšio momentą?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Užsirašykite kažką į bloknoto lapą ir pakėlę akis ištarkite oficialiu, šaltu tonu: „Taip. Pažymiu šį vizitą savo oficialioje ataskaitoje — vardai, buto numeris, laikas, visos detalės. Jei bus kitas skundas iš šio pastato — šį vakarą ar bet kurį kitą per ateinančius devyniasdešimt dienų — turėtumėte tikėtis formalios baudos su priedu. Rekomenduočiau ateityje laikyti susibūrimus tyliau. Triukšmo pažeidimai kaupiasi įrašuose. Ir atvirai kalbant, su pagyvenusiu žmogumi, turinčiu krūtinės skausmus, apačioje — jums pasisekė, kad šį vakarą nebaudžiu.“",
+                    "feedback": "Kodėl: Biurokratinis, baudžiamasis uždarymas, paverčiantis pono Novak medicininę būklę ginklu. „Jums pasisekė, kad nebaudžiu“ paverčia bendradarbiaujančią sąveiką grasinimu. Sveikatos problemų naudojimas kaip sverto — o ne kaip bendro rūpesčio — nuodija kaimynų santykį dar net neprasidėjus. Tomáš ką tik su nuoširdžiu susirūpinimu paklausė apie pono Novak sveikatą, o jūs atsakėte paversdami tą sveikatos klausimą lazda prieš juos. Tai sunaikina sukurtą pasitikėjimą ir užtikrina, kad jie abiejų — ir jūsų, ir pono Novak — nekenčia. | PASEKMĖS: Tomáš rūpestis dėl pono Novak išgaruoja: „Pasisekė? Jis kvietė policiją per gimtadienio vakarėlį, ir dabar mums pasisekė?“ Anna atrodo sukrėsta. Kitą kartą, kai ponas Novak turės sveikatos krizę, jie nebeldžia į jo duris — nes policijos pareigūnas pavertė jo sveikatą ginklu prieš juos. | Refleksija: Kai kažkas jau bendradarbiavo ir parodė nuoširdų susirūpinimą, ką medicininės situacijos panaudojimas prieš juos praneša apie empatijos vertę?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Ciklo uždarymas",
+            "sceneUpdate": {
+                "emoji": "🔄",
+                "title": "Pirmojo aukšto koridorius — atgal pas poną Novak",
+                "desc": "Grįžtate žemyn į pirmą aukštą. Skirtumas girdimas — sunkus bosas dingo, pakeistas tyliu pokalbio marmesiu iš viršaus. Balkonas tuščias ir tamsus. Pono Novak durys atsidaro dar jums nepaspaudus. Jis vis dar chalate, akys raudonos, ieškodamas jūsų veide atsakymų. Koridorius pakankamai tylus, kad girdėtumėte pastato senų vamzdžių girgždesį."
+            },
+            "npcDialogue": [
+                {
+                    "character": "novak",
+                    "text": "(neramiai) Na? Ar jie liovėsi? Dar girdžiu kažką ten viršuje. Ar jie gaus baudą? Kas bus, jei vėl prasidės?"
+                }
+            ],
+            "prompt": "Ponas Novak nervingas ir nori žinoti rezultatą. Triukšmas reikšmingai sumažėjo, bet ne visiškai dingo. Kaip užbaigsite šią sąveiką su skundėju?",
+            "options": [
+                {
+                    "text": "„Pone Novak, pakalbėjau su jūsų kaimynais — jų vardai yra Tomáš ir Anna. Jie rengia gimtadienio vakarėlį draugui iš kito miesto ir nesuprato, kiek triukšmo eina per grindis. Štai dėl ko susitarėme: bosas pritildytas, balkonas uždarytas, svečiai viduje, baigia iki pusės pirmos. Papasakojau jiems apie jūsų situaciją — ankstų rytą, poreikį pailsėti. Jie jautėsi nuoširdžiai blogai. Paskatinčiau jus kada nors prisistatyti — kaimynai, kurie pažįsta vienas kitą, tokius dalykus sutvarko patys. O jei triukšmas šį vakarą padidės — turite visišką teisę skambinti, ir bus eskaluota.“",
+                    "feedback": "Kodėl: Visapusiškas, skaidrus ir į ateitį orientuotas. Kaimynų vardų ir konteksto pasidalinimas juos sužmogina. Konkretaus susitarimo detalizavimas parodo ponui Novak, kad jo skambutis davė konkrečių rezultatų. Paminėjimas, kad jie jautėsi blogai, kuria empatiją tarp aukštų. Tiesioginio kontakto skatinimas pasodina sėklą savarankiškam sprendimui. Jo teisės skambinti atgal patvirtinimas patvirtina jo poziciją negriovant susitarimo. Tai visiškai uždaro ciklą — ponas Novak žino, kas atsitiko, kas atsitiks ir ką jis gali daryti. | PASEKMĖS: Pono Novak pečiai nusitempia palengvėjimu. „Tomáš ir Anna? Aš net nežinojau jų vardų. Jie tikrai atsiprašė?“ Pirmą kartą šį vakarą jis atrodo mažiau kaip nusivylęs skundėjas ir daugiau kaip kaimynas, kuris gali pabelsti į duris. Jis padėkoja ir uždaro duris. Pastatas ramus. | Refleksija: Kaip konkrečios informacijos pasidalinimas — vardai, kontekstas, sąlygos — paverčia skundėją iš priešininko potencialiu kaimynu?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "„Geros naujienos, pone Novak — pakalbėjau su jais ir jie sutiko pritildyti muziką ir baiginėti vakarą. Turėtumėte jau pastebėti skirtumą — bosas gerokai sumažėjęs nuo tada, kai buvau viršuje. Jie atrodė priimantys, kai paaiškinau situaciją, ir manau, kad nesuprato, kiek garso ėjo per grindis. Jei triukšmas šį vakarą vėl padidės, nedvejodami skambinkite dar kartą ir mes pakelsime tai į kitą lygį. Pabandykite dabar pailsėti — jums to tikrai reikia prieš rytojaus gydytojo vizitą šeštą ryto.“",
+                    "feedback": "Kodėl: Tikslus ir nuraminantis, bet trūksta konkretumų. „Pritildyti“ ir „greitai baigti“ yra neaiškios sąlygos, kurių ponas Novak bijo. Kada yra „greitai“? Jis gulės nemiegodamas, klausydamas kiekvieno garso, negalėdamas pasitikėti, kad „greitai“ reiškia greitai. Jokių vardų, jokio konteksto, jokio kaimynų sužmoginimo, jokio tiesioginio kontakto pasiūlymo. Tai yra pakankamas incidento uždarymas, bet ne tarpininkavimo tolesnė veikla. | PASEKMĖS: Ponas Novak linkčioja, iš dalies patenkintas. Jis eina gulti, bet klausosi kiekvieno garso, negalėdamas pasitikėti, kad „greitai“ reiškia greitai. Kaimynai lieka anonimiški nepažįstamieji virš jo. Kitą mėnesį — tas pats skambutis. | Refleksija: Kokios konkrečios informacijos reikia skundėjui, kad jaustųsi tikrai išspręsta, o ne laikinai nuraminta?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "„Viskas sutvarkyta, pone Novak — muzika pritildyta ir jie žino, kad ramybės valandos galioja. Galite jau pastebėti, kad bosas dingęs. Buvau viršuje, pakalbėjau su jais, ir jie suprato situaciją. Viskas bus ramu likusį vakarą. Dabar pabandykite pagaliau užmigti — turite tą svarbų gydytojo vizitą šeštą ryto ir jums tikrai reikia poilsio po tokio vakaro. Jei kas nors pasikeisų, žinote numerį — bet manau, kad bus ramu. Linkiu ramios nakties, pone Novak.“ Nuraminamai linktelėkite ir žengiate žingsnį atgal link pastato išėjimo.",
+                    "feedback": "Kodėl: Efektyvus, bet beasmenis. „Viskas sutvarkyta“ jam nieko nepasako apie tai, dėl ko susitarta, kas gyvena virš jo ar kas bus toliau. Jokių konkrečių sąlygų, jokių vardų, jokio sužmoginimo, jokio santykių kūrimo, jokio kelio pirmyn. Jo vizito priminimas rodo tam tikrą dėmesingumą, bet bendras uždarymas traktuoja skundėją kaip užduotį, kurią reikia uždaryti, o ne kaip žmogų bendruomenėje. | PASEKMĖS: Ponas Novak padėkoja ir uždaro duris, nepatenkintas, bet per daug pavargęs, kad spaudyti. Jis nežino savo kaimynų vardų, nežino pabaigos laiko ir nesijaučia įgalintas. Jis girdėjo „viskas sutvarkyta“ ir tikisi, kad tai tiesa. | Refleksija: Kada „viskas sutvarkyta“ pakanka, ir kada skundėjas nusipelno daugiau detalių?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "„Pakalbėjau su jais — jie rengia gimtadienio vakarėlį draugui, atrodė visai mieli, jauni žmonės. Pasakiau jiems pritildyti ir jie sutiko. Žiūrėkite, pone Novak, tokie dalykai vyksta, kai gyveni daugiabutyje — tai bendro gyvenimo dalis. Jauni žmonės sunkiai dirba ir jiems irgi reikia kartais atsipalaiduoti. Pabandykite būti šiek tiek supratingesnis — jie turi lygiai tokią pat teisę mėgautis savo namais kaip ir jūs. Gal investuokite į ausų kamštukus tokiems vakarams — padėtų labiau, nei galvojate.“",
+                    "feedback": "Kodėl: Vakarėlio šeimininkų palaikymas skundėjui — „mieli vaikai“, „būkite supratingesnis“, „ausų kamštukai“ — nuverta pono Novak teisėtą skundą. Jis laukė daugiau nei valandą policijos vidurnaktį, ir jūs dabar sakote jam būti tolerantiškesniam ir pirkti ausų kamštukus. Tai yra veidrodinis atvaizdas vakarėlio šeimininkų atmetimo — jūs pasirinkote pusę. Ramybės valandų pažeidimas buvo tikras, jo frustracija teisėta ir jo sveikatos rūpesčiai pagrįsti. | PASEKMĖS: Ponas Novak jaučiasi išduotas: „Jūs jų pusėje? Aš skambinau! Aš turiu teisę miegoti savo namuose!“ Jo pasitikėjimas policija dėl gyvenimo kokybės klausimų smarkiai pažeistas. Jis kitą kartą neskambins — jis arba konfrontuos su jais pats, arba kentės tyloje ir neapkęs visų. | Refleksija: Kai palaikote vienos šalies naudai kitai, kas atsitinka su žmogaus, kuriam ką tik liepėte kompromisą, pasitikėjimu?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Aptarimas",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Aptarimas",
+                "desc": "Grįžote į nuovadą. Seržantas Kowalski peržiūri jūsų veiklą triukšmo skundo tarpininkavimo scenarijuje."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "Triukšmo skundai yra ten, kur bendruomenės policijos veikla gyvena ar miršta. Jie nėra prestižiniai, nėra pavojingi ir nėra sudėtingi — bet būtent šie susidūrimai formuoja, ar paprasti žmonės pakankamai pasitiki policija, kad skambintų, kai kažkas rimta. Kiekvienas pasirinkimas, kurį padarėte šį vakarą — kaip klausėtės pono Novak, kaip pradėjote su Tomáš, ar tarpininkavote, ar diktavote, ir ar uždarėte ciklą — siuntė žinutę apie tai, ką reiškia policijos darbas tame pastate. Pažiūrėkime, kaip jums sekėsi."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "Jūs reagavote į skambutį, kurį devyniasdešimt procentų pareigūnų būtų traktavę kaip penkių minučių pavedimą: pasakyti jiems pritildyti, pasakyti senam vyrui, kad sutvarkyta, nuvažiuoti. Vietoj to, jūs traktavote tai kaip tai, kas iš tikrųjų yra — tarpininkavimą tarp dviejų namų ūkių, kurie dalijasi lubomis ir tęs jų dalijimąsi dar ilgai po jūsų išvykimo. Tas skirtumas yra labai svarbus."
+                },
+                {
+                    "character": "officer",
+                    "text": "Kas mane nustebino, buvo kiek norėjau tiesiog vykdyti. Ramybės valandos buvo pažeistos, triukšmas buvo akivaizdus — dalis manęs norėjo parašyti baudą ir eiti toliau. Tarpininkavimas atrodė lėtesnis ir mažiau patenkinantis tuo momentu."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Ir tą impulsą verta išnagrinėti, nes jis atskleidžia klaidingą supratimą. Dauguma pareigūnų galvoja, kad darbas yra sustabdyti triukšmą. Nėra. Darbas yra sukurti santykį tarp kaimynų, kad jie nustotų skambinti jums. Bauda sustabdo šio vakaro triukšmą. Tarpininkavimas sustabdo kito mėnesio skambutį, ir po to, ir po to. Jūs nesate čia valdyti garsumo lygių — esate čia sukurti sąlygas, kuriose du nepažįstamieji tampa kaimynais, galinčiais dalykus sutvarkyti patys."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Momentas, kai papasakojote Annai ir Tomáš apie poną Novak — jo amžių, jo vienatvę, jo ankstyvą vizitą — jūs pavertėte jį iš „tipo, kuris iškviečia policiją“ į žmogų. Tas vienas sužmoginimo aktas yra tai, kas privertė Anną iškepti pyragą ir pabelsti į jo duris kitą dieną. Vykdymas niekada nebūtų davęs tokio rezultato. O dabar leiskite man papasakoti, kas atsitiko po to, kai jūs palikote tą pastatą."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {
+            "name": "Dispečerinė",
+            "avatar": "📻"
+        },
+        "tomas": {
+            "name": "Tomáš (vakarėlio šeimininkas, 28 m.)",
+            "avatar": "🧑"
+        },
+        "anna": {
+            "name": "Anna (jo mergina, 26 m.)",
+            "avatar": "👩"
+        },
+        "novak": {
+            "name": "Ponas Novak (skundėjas, 60+ m.)",
+            "avatar": "👴"
+        },
+        "neighbor": {
+            "name": "Kaimynė koridoriuje",
+            "avatar": "🚪"
+        },
+        "officer": {
+            "name": "Jūs (pareigūnas)",
+            "avatar": "👮"
+        },
+        "instructor": {
+            "name": "Seržantas Kowalski",
+            "avatar": "👮‍♂️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Išskirtinis kaimynystės tarpininkavimas",
+            "emoji": "🌟",
+            "feedback": "Jūs pademonstavote meistrišką tarpininkavimą triukšmo skunde — dažniausiame policijos iškvietyje, labiausiai formuojančiame bendruomenės pasitikėjimą. Klausėtės skundėjo be perlenkimo, pradėjote su vakarėlio šeimininkais taip, kad sumažintumėte gynybinumą, suderėjote konkrečias ir proporcingas sąlygas ir uždarėte ciklą sužmogindami abi šalis viena kitai. Svarbiausia — pasodinote sėklą tiesioginiam kaimynų santykiui, užkertančiam kelią būsimiems skambučiams. Tai yra bendruomenės policijos darbas geriausiu pavidalu."
+        },
+        "good": {
+            "title": "Tvirtas triukšmo tarpininkavimas",
+            "emoji": "👍",
+            "feedback": "Jūs profesionaliai tvarkėte triukšmo skundą ir pasiekėte veikiantį sprendimą. Jūsų požiūris į skundėją arba vakarėlio šeimininkus parodė stiprius tarpininkavimo instinktus. Kai kurios galimybės gilesniam santykių kūrimui ar konkretesniems susitarimams buvo praleistos, bet bendra intervencija buvo proporcinga, pagarbinga ir efektyvi šiam vakarui."
+        },
+        "average": {
+            "title": "Pakankamas atsakas",
+            "emoji": "📋",
+            "feedback": "Išsprendėte tiesioginę triukšmo problemą, bet praleidote svarbias efektyvaus tarpininkavimo dimensijas. Ar tai buvo neaiškūs susitarimai, nepakankamas lūkesčių valdymas su skundėju, ar nesugebėjimas sužmoginti šalių viena kitai — sprendimas išsprendė šiandienos problemą neadresuodamas pagrindinės kaimynystės dinamikos. Tikėkitės pakartotinio skambučio per kelias savaites."
+        },
+        "poor": {
+            "title": "Reikia rimto tobulinimo",
+            "emoji": "⚠️",
+            "feedback": "Jūsų požiūris į šį triukšmo skundą arba per daug vykdė žemo lygio gyvenimo kokybės klausimą, arba nepateisinamai mažai reagavo į teisėtą skundą — abu griauna bendruomenės pasitikėjimą. Triukšmo skambučiai reikalauja tarpininkavimo įgūdžių, proporcingo atsako ir nuoširdaus rūpesčio visomis šalimis. Peržiūrėkite deeskalacijos technikas, proporcingumo principus ir skirtumą tarp incidento sprendimo ir kito prevencijos."
+        }
+    },
+    "metrics": {
+        "mediationSkills": {
+            "name": "Tarpininkavimo įgūdžiai",
+            "description": "Abiejų šalių rūpesčių balansavimas, dialogo palengvinimas ir susitarimų, kuriuos abi pusės gali priimti, sudarymas",
+            "icon": "⚖️"
+        },
+        "proportionateResponse": {
+            "name": "Proporcingas atsakas",
+            "description": "Vykdymo atitikimas pažeidimo sunkumui — įspėjimas prieš baudą, pagrįsti lūkesčiai pirmam pažeidimui",
+            "icon": "📏"
+        },
+        "complainantManagement": {
+            "name": "Skundėjo valdymas",
+            "description": "Skundėjo rūpesčių patvirtinimas, skaidrus lūkesčių valdymas ir ciklo uždarymas su konkrečia informacija",
+            "icon": "🤝"
+        },
+        "conflictPrevention": {
+            "name": "Konflikto prevencija",
+            "description": "Ilgalaikių kaimynų santykių kūrimas, o ne tik šio vakaro problemos sprendimas — šalių sužmoginimas viena kitai ir tiesioginio bendravimo skatinimas",
+            "icon": "🏘️"
+        },
+        "professionalCommunication": {
+            "name": "Profesionali komunikacija",
+            "description": "Aiški, rami, pagarbinga komunikacija su visomis šalimis — įskaitant apsvaigusius, gynybinus ar nusivylusius asmenis",
+            "icon": "💬"
+        }
+    }
+}

@@ -1,0 +1,456 @@
+{
+    "id": 6,
+    "title": "Tržní spor — Klidné vyjednávání",
+    "description": "Pokročilý scénář zahrnující vyhrocený územní spor mezi dvěma stánkaři na sobotním venkovním trhu. Nigerijský rodák prodávající látky a dlouholetá česká prodejkyně zeleniny se přou o prostor, s možnými rasovými podtóny, davem přiklánějícím se na strany a správcem trhu tlačícím na rychlé řešení. Strážník musí nestranně zprostředkovat mediaci, oddělit oprávněné stížnosti od předsudků a dosáhnout trvalé dohody, která zachová jak obchodní vztahy, tak důvěru komunity.",
+    "icon": "🏪",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Seržant Dvořáková",
+        "avatar": "👮‍♂️",
+        "introduction": "Obchodní spory na veřejných trzích se nacházejí na jedné z nejcitlivějších křižovatek policejní práce: majetek, obživa, kulturní identita a pocit sounáležitosti. Když se dva lidé hádají o pár metrů tržního prostoru, málokdy se hádají jen o prostor — hádají se o legitimitu, respekt a o to, kdo kam patří. Když se spor týká dlouholetého místního prodejce a novějšího prodejce-přistěhovalce, každé vaše slovo a každé vaše rozhodnutí nese váhu daleko přesahující bezprostřední konflikt. Výzkumy obchodních a tržních sporů ukazují, že strážníci, kteří nejprve zjistí fakta — skutečné přidělení míst, psaná pravidla, fyzické uspořádání — dosahují dramaticky lepších výsledků než ti, kteří se řídí tím, kdo mluví hlasitěji nebo kdo volal první. Vaše nestrannost musí být viditelná, nejen pociťovaná. Obě strany potřebují vidět, že shromažďujete důkazy, nasloucháte oběma stejně a svou mediaci zakládáte na faktech, nikoliv na předpokladech. Dav bude pozorně sledovat, a nebude si pamatovat, co jste rozhodli, ale jak jste rozhodovali."
+    },
+    "timedChoices": true,
+    "completionBadges": [
+        "scenario-6-complete"
+    ],
+    "perfectBadge": "perfect-scenario-6",
+    "finalMessage": {
+        "revelation": "Pan Okonkwo se přestěhoval do České republiky před dvanácti lety z Lagosu v Nigérii. Svůj obchod s látkami a doplňky vybudoval z ničeho — začínal s kufrem na bleším trhu a postupně se propracoval k pravidelnému tržnímu stánku. Má platné tržní povolení a své poplatky platí včas. Tento konkrétní trh si vybral, protože škola jeho dcery je dva bloky daleko. Paní Petrová skutečně prodává zeleninu na tomto trhu patnáct let. Je vdova, která si příjmem ze stánku přilepšuje k malému důchodu. Nikdy nechovala vědomou rasovou zášť — ale její řeči o „nováčcích“ a „našem trhu“ odrážely předpoklady, které nikdy nezpochybnila. Po vašem zásahu Filip zkontroloval přidělení stánků a zjistil, že mapa nebyla aktualizována od doby, kdy se pan Okonkwo před třemi lety připojil, což vytvářelo skutečnou nejednoznačnost. Následující týden vydal nová, jasně označená přidělení. Pan Okonkwo a paní Petrová dostali sousedící, ale jasně oddělená místa. O tři týdny později je stálý zákazník viděl, jak spolu popíjejí kávu před otevřením trhu. Paní Petrová se pana Okonkwa zeptala na jeho látky — její vnučka chtěla šaty s africkým potiskem na školní projekt. Filip později řekl svému nadřízenému, že přístup policisty ho naučil víc o řešení konfliktů než jakýkoli manažerský kurz.",
+        "keyLessons": [
+            "Nestrannost musí být demonstrována, nejen proklamována — s kým mluvíte nejdřív, jak dlouho nasloucháte a kde stojíte, to vše komunikuje předpojatost nebo spravedlnost každému pozorovateli",
+            "Rasové a kulturní podtóny ve sporech vyžadují přímé, ale respektující pojmenování — ignorování je nezpůsobí, že zmizí, ale způsobí, že se zahnisají",
+            "Zjišťování faktů proměňuje spory z „tvrzení proti tvrzení“ v řešitelné problémy — kontrola skutečné mapy stánků změnila celou dynamiku",
+            "Správci trhů a jiné autoritativní osoby mohou mít vlastní předsudky nebo tlaky — nepřenechávejte svůj úsudek osobě, která vás zavolala",
+            "To, že obě strany mají oprávněné stížnosti, je norma, ne výjimka — úkolem strážníka je potvrdit obě, aniž by si vybíral stranu",
+            "Dynamika davu v obchodním prostředí se liší od pouličních setkání — přihlížející jsou často stálí zákazníci se vztahy k oběma stranám a jejich vnímání rozhoduje, zda řešení vydrží",
+            "Udržitelné řešení vyžaduje systémové následné opatření — pokud se nenapraví základní systém (nejasná přidělení), stejný konflikt se bude opakovat bez ohledu na to, jak dobře dnes zprostředkujete mediaci"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Příjezd na trh",
+            "sceneUpdate": {
+                "emoji": "🏪",
+                "title": "Venkovní trh — Sobotní dopoledne",
+                "desc": "Rušný venkovní trh na širokém pěším náměstí. Řady stánků nabízejí vše od zeleniny a pečiva po oblečení a domácí potřeby. Poblíž centra dva stánky téměř splývají — barevná výstava látek a zeleninový stánek. Starší žena a vysoký muž v košili se vzorem se hlasitě hádají. Mladší muž ve vestě s logem trhu spěchá k vám. Asi tucet nakupujících se zastavil, aby přihlíželi."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Hlídka směřuje na oznámení o rušení klidu na venkovním trhu na Náměstí Míru. Správce trhu hlásí slovní potyčku dvou stánkařů ohledně prostoru stánku. Fyzické násilí nebylo hlášeno, ale hádka eskaluje a přitahuje dav. Správce trhu je Filip Horák — čeká vás u vstupu."
+                },
+                {
+                    "character": "filip",
+                    "text": "(kráčí rychle k vám, vypadá vystresovaně) Strážníku, díky, že jste přijel. Zase ti dva — pan Okonkwo prodává látky a paní Petrová tu má zeleninu odjakživa. Hádají se o místo už měsíce, ale dneska to vybouchlo. Říká, že mu přesunula bedny do jeho prostoru. Ona říká, že on roztahuje svou výstavu moc do šířky. Zkoušel jsem je uklidnit, ale neposlouchají mě. Potřebuju to vyřešit — mám tu čtyřicet prodejců a zákazníci odcházejí."
+                }
+            ],
+            "prompt": "Filip chce rychlé řešení a sdělil vám svou verzi. Jak začnete?",
+            "options": [
+                {
+                    "text": "Poděkovat Filipovi krátkým kývnutím za zavolání a rázným krokem zamířit přímo k oběma hádajícím se prodejcům, aniž byste se Filipa na cokoli dalšího zeptali. Zaujmout pozici přímo mezi oběma stánky, zvednout jednu ruku v jasném zastavovacím gestu a pevným hlasem jim oběma oznámit, že křik končí okamžitě — jste tu, abyste to vyřešili, ale ani slovo nebude vyměněno v tomhle tónu. Zkřížit ruce na prsou a čekat na ticho, než řeknete cokoli dalšího.",
+                    "feedback": "Proč: Přikázat ticho oběma stranám bez jakéhokoli kontextu nebo navázání kontaktu z vás dělá autoritativní postavu vnucující pořádek, nikoli mediátora hledajícího řešení. Nevíte, kdo eskalaci začal, jaký je podstata problému ani co každá strana potřebuje. Začít příkazem signalizuje, že nejhlasitější problém dostane nejrychlejší policejní reakci. | DŮSLEDKY: Oba prodejci zmlknou — ale s odporem. Pan Okonkwo zatne čelist. Paní Petrová mumlá pod vousy. Přihlížející vidí strážníka, jak umlčí dva lidi, aniž by čemukoli porozuměl. Hádka je potlačena, ne vyřešena. | Reflexe: Jaký je rozdíl mezi umlčením konfliktu a zahájením jeho řešení?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Uklidnit Filipa rychlým kývnutím a krátkým ujištěním, že se o to postaráte, a pak zamířit rovnou k oběma prodejcům, kteří se stále hádají. Přistoupit dostatečně blízko, aby vás oba jasně slyšeli, a představit se jako zasahující strážník. Požádat je oba najednou, ať vysvětlí, co se stalo, gestem naznačit střídání — v naději, že otevřené vyjádření stížností vám umožní posoudit situaci na místě bez nutnosti kohokoli oddělovat.",
+                    "feedback": "Proč: Vyslechnout obě strany zní spravedlivě, ale přistoupit k oběma hádajícím se stranám současně — když jsou stále v emocích — je vybízí, aby se hádaly před vámi, ne s vámi. Každý se bude snažit překřičet toho druhého a vy se stanete divákem jejich konfliktu místo mediátorem. | DŮSLEDKY: Pan Okonkwo začne vysvětlovat a paní Petrová ho okamžitě přeruší. Hlasy se zvedají. Stojíte mezi dvěma lidmi soupeřícími o vaši pozornost, zatímco dav přihlíží. Dynamika eskaluje místo aby se uklidnila. | Reflexe: Proč oddělení hádajících se stran před nasloucháním přináší lepší výsledky než jejich společný výslech?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Než přistoupíte k některému z prodejců, zůstat s Filipem a položit mu několik cílených otázek: existuje oficiální mapa nebo systém přidělování stánků? Stal se tenhle konflikt už dříve, nebo je dnešek nový? Projevil někdo z nich známky fyzické agresivity? Pozorně vyslechnout jeho odpovědi, pak odstoupit a strávit tichou minutu pozorováním scény z odstupu — fyzického uspořádání stánků, řeči těla obou prodejců a pozic davu — než se vydáte za nimi.",
+                    "feedback": "Proč: Filip je správce trhu — má institucionální znalosti, které potřebujete. Otázka na mapu stánků odhalí, zda existují objektivní fakta, o která lze spor opřít. Otázka na historii vám řekne, zda jde o jednorázovou záležitost, nebo opakující se vzorec. Otázka na agresivitu pomáhá posoudit bezpečnost. Pozorování z odstupu vám umožní vidět fyzické uspořádání, řeč těla a dynamiku davu, aniž by pro vás některá strana hrála divadlo. | DŮSLEDKY: Filip vám řekne, že mapa přidělení stánků je v jeho kanceláři, ale přizná, že je „trochu zastaralá“. Spor doutnává už měsíce. Nikdo se nechoval fyzicky násilně. Z odstupu pozorujete, že bedny paní Petrové skutečně přesahují za vybledlou křídovou čáru a stojan pana Okonkwa s látkami je nepohodlně posunutý dozadu. Přistupujete s kontextem. | Reflexe: Jak šedesát sekund sběru informací od třetí strany změní kvalitu celého vašeho zásahu?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Obrátit se k Filipovi a klidným, odměřeným tónem mu vysvětlit, že tohle opravdu zní jako interní záležitost správy trhu — přidělování stánků, značení hranic a vztahy mezi prodejci spadají pod jeho pravomoc, ne pod vaši. Navrhnout, ať si s oběma prodejci sedne, projde záznamy o přidělení a vyřeší rozmístění sám. Nabídnout, že zůstanete zaparkovaní poblíž a k dispozici, pokud se situace zvrhne ve fyzické střety, ale jasně říct, že v tuto chvíli nevidíte důvod pro policejní zásah.",
+                    "feedback": "Proč: I když je pravda, že přidělování stánků je záležitost správy, byli jste vysláni, protože situace eskalovala za hranice schopností správy ji zvládnout. Předat zodpovědnost zpět Filipovi — který vám právě řekl, že to nezvládá — je odmítnutí se zapojit. Dav vidí, že policie přijede a nic neudělá. | DŮSLEDKY: Filip vypadá bezradně. Hádka pokračuje a zesiluje. Přihlížející křikne něco na pana Okonkwa. Situace se zhoršuje, protože jediná autoritativní osoba, která mohla zasáhnout, se rozhodla nezasáhnout. | Reflexe: Když situace eskaluje za možnosti běžné správy, jaká je cena toho, když policie odmítne se zapojit?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Výslech pana Okonkwa",
+            "sceneUpdate": {
+                "emoji": "🧔",
+                "title": "Výpověď pana Okonkwa",
+                "desc": "Přistupujete k panu Okonkwovi zvlášť. Je to vysoký, důstojný muž po padesátce v bohatě vzorované nigerijské košili. Jeho výstava látek — živé ankara potisky, korálkové doplňky, ručně šité tašky — je působivá, ale viditelně stlačená. Stojan s výstavou je šikmo posunutý a několik předmětů je navršených na sobě místo aby byly rozloženy. Těžce dýchá a snaží se udržet frustraci na uzdě."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mr_okonkwo",
+                    "text": "(hlas sevřený potlačovaným hněvem) Strážníku, jsem na tomhle trhu tři roky. Platím poplatky, mám povolení, dodržuji každé pravidlo. Každou sobotu přijdu v šest ráno a postavím stánek ve svém přiděleném prostoru. A každou sobotu její bedny zasahují na mou stranu. Slušně je odsunu, ona je posune zpátky. Řeknu Filipovi, ten odpoví ‚domluvte se'. Dnes jsem přišel a její bedny byly naskládané tak daleko do mého prostoru, že jsem nemohl ani pořádně rozložit stojan. Když jsem je odsunul, začala na mě řvát. Řekla mi… řekla, ať se ‚vrátím tam, odkud jsem přišel', a že ‚tenhle trh je pro místní lidi'. Měsíce jsem o tom mlčel, strážníku. Ale o tomhle mlčet nebudu."
+                }
+            ],
+            "prompt": "Pan Okonkwo popsal opakované zabírání prostoru a rasově zabarvený komentář. Jak zareagujete?",
+            "options": [
+                {
+                    "text": "Udržovat stálý oční kontakt a mluvit jasně: „Pane Okonkwo, děkuji vám, že jste mi to vysvětlil. Chci, abyste věděl, že beru vážně to, co jste popsal — všechno. Problém s prostorem i to, co vám bylo řečeno. Podívám se na skutečná přidělení stánků a promluvím si zvlášť s paní Petrovou. Nikomu by se nemělo říkat, že na trh nepatří, když má platné povolení. Vrátím se k vám, než cokoli rozhodnu.“",
+                    "feedback": "Proč: Tato odpověď dělá několik zásadních věcí najednou. Děkujete mu za sdílení, což potvrzuje emocionální cenu toho, když někdo nahlásí policistovi rasové obtěžování. Výslovně pojmenováváte obě dimenze — problém s prostorem i rasový komentář — jako oddělené, vážné záležitosti, aniž byste je směšovali nebo zlehčovali. Příslib kontroly skutečných přidělení signalizuje mediaci založenou na faktech. „Nikomu by se nemělo říkat, že sem nepatří“ adresuje rasovou dimenzi přímo, aniž by předem odsuzoval paní Petrovou. Příslib návratu před rozhodnutím demonstruje procesní spravedlnost. | DŮSLEDKY: Ramena pana Okonkwa trochu klesnou. Přikývne. Poprvé vypadá, jako by mu někdo skutečně naslouchal. Tiše říká: „Děkuji vám, strážníku. To je vše, o co žádám — jen spravedlnost.“ Dav vidí klidný, respektující dialog. | Reflexe: Proč výslovné pojmenování obou dimenzí stížnosti — praktické i diskriminační — buduje větší důvěru než řešení pouze té jednodušší?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Soucítně přikývnout a uvolnit postoj, čímž dáte najevo, že jeho obavy berete vážně. Pak říct klidným, vyrovnaným hlasem: „Chápu, že je to frustrující, pane Okonkwo, a vidím, jaký to má dopad na vaše podnikání. Pojďme se soustředit na problém s prostorem — to je něco konkrétního, co můžeme dnes změřit a vyřešit. Půjdu zkontrolovat oficiální mapu přidělení s Filipem a pak promluvím s paní Petrovou, než se k vám vrátím.“",
+                    "feedback": "Proč: Soustředění na řešitelný problém se zdá praktické, ale nápadně obchází komentář „vrať se tam, odkud jsi přišel“. Pan Okonkwo vám právě řekl něco, co vyžadovalo odvahu. Přeskočení toho mu říká, že rasová dimenze je vám jedno — nebo ještě hůře, že ji nepovažujete za důležitou. Zmínil obě záležitosti; vy jste si vybrali tu pohodlnější. | DŮSLEDKY: Pan Okonkwo si všimne toho, co jste neřekli. Jeho výraz ztvrdne. Spolupracuje, ale budovaná důvěra se vypaří. Přemýšlí: „Ani policii nezajímá, co řekla.“ | Reflexe: Když někdo nahlásí praktický problém i diskriminační zkušenost zároveň, co to komunikuje, když řešíte pouze jednu z nich?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vytáhnout zápisník, cvaknutím propisky a zeptat se věcným tónem: „Pane Okonkwo, potřebuji se zeptat — slyšel ten komentář ještě někdo? Máte konkrétní svědky, kteří by mohli potvrdit, co řekla? Protože jestli budeme tu poznámku řešit formálně, budu potřebovat víc než jednu výpověď. Můžete ukázat na někoho v davu, kdo stál dostatečně blízko, aby to jasně slyšel?“",
+                    "feedback": "Proč: Okamžitý požadavek na svědky, když někdo nahlásí rasově zabarvený výrok, působí jako křížový výslech. Signalizuje, že mu nevěříte a že jeho slovo samo o sobě nestačí. I když na důkazech záleží, první reakcí na sdílení bolestivé zkušenosti by mělo být uznání, nikoli důkazní zpochybnění. | DŮSLEDKY: Pan Okonkwo se na vás nevěřícně podívá. „Chcete svědky? Půlka trhu ji slyšela!“ Jeho hlas se zvedne. Důvěra se zhroutí — cítí se, jako by byl vyšetřován on. Přihlížející slyší jeho změnu tónu a zpozorní. | Reflexe: Jaký je rozdíl mezi tím, vzít výpověď vážně, a požadovat důkazy jako první reakci?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Klidně zvednout ruku a mírně zavrtět hlavou, jako byste téma odsunuli stranou. Pak věcným, střízlivým tónem říct: „Pane Okonkwo, slyším vás, ale nedělejme z toho víc než spor o prostor. Lidi v hněvu říkají věci, které nemyslí vážně — na těchto trzích se to děje pořád. Pojďme se prostě soustředit na to, abyste dostal zpátky svůj prostor, mohl rozložit svou výstavu a pokračovat ve svém sobotním obchodě.“",
+                    "feedback": "Proč: Odmítnutí výroku „vrať se tam, odkud jsi přišel“ jako něčeho „řečeného v hněvu“ normalizuje rasovou nepřátelskost. Říká to panu Okonkwovi, že jeho zkušenost s rasismem je přehnaná reakce. Říká to každému přihlížejícímu, který ten komentář slyšel, že ho policie nepovažuje za významný. „Nedělejme z toho víc“ je pokyn zlehčovat jeho zkušenost. | DŮSLEDKY: Pan Okonkwo na vás zírá. Z jeho tváře zmizí veškerá vřelost. Tiše říká: „Rozumím. Takže takhle to je.“ Přestane spolupracovat. Přihlížející, který to zaslechl, kroutí hlavou. Ztratili jste důvěru tohoto muže — a možná i davu. | Reflexe: Když zlehčíte něčí zkušenost s diskriminací, jakou zprávu to vysílá o tom, čí důstojnost policie chrání?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Výslech paní Petrové",
+            "sceneUpdate": {
+                "emoji": "👩‍🌾",
+                "title": "Pohled paní Petrové",
+                "desc": "Přistupujete k paní Petrové u jejího zeleninového stánku. Je to statná žena po šedesátce, v květované zástěře, obklopená úhledně uspořádanými bednami sezónní zeleniny. Tváře má rudé rozčilením. Její bedny viditelně zasahují za vybledlou značku na zemi. Sleduje vás přicházet se zkříženýma rukama a vzdorným výrazem."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_petrova",
+                    "text": "(okamžitě, dřív než promluvíte) Jsem na tomhle trhu patnáct let! Patnáct let, strážníku! Byla jsem tu dřív, než vydláždili tohle náměstí. A teď přijde tenhle pán — tenhle nováček — před třemi lety a najednou jsem já problém? Vždycky jsem měla tenhle prostor. Moje bedny tu vždycky stály. On postaví ten svůj velký stojan se svými křiklavými látkami a zabírá víc a víc místa každý týden. A pak si dovolí přesouvat moje bedny — můj majetek! — bez ptaní! Neudělala jsem nic špatného. Jsem Češka, co prodává české zeleninu na českém trhu, a neměla bych se za to ospravedlňovat."
+                }
+            ],
+            "prompt": "Paní Petrová je defenzivní a její vyjadřování nese nacionalistické podtóny. Jak s ní navážete kontakt?",
+            "options": [
+                {
+                    "text": "Přistoupit k jejímu stánku, zaujmout pevný postoj a konfrontovat ji přímo, dřív než stačí dokončit svůj úvodní monolog. Držet neutrální, ale pevný výraz a říct: „Paní Petrová, než se pustíme do čehokoli jiného, potřebuji adresovat jednu věc. Pan Okonkwo mi řekl, že jste mu během hádky řekla, ať se vrátí tam, odkud přišel. To je velmi vážný výrok. Potřebuji, abyste mi otevřeně řekla — řekla jste mu to?“",
+                    "feedback": "Proč: I když rasový komentář musí být řešen, začít přímým obviněním bez jakéhokoli navázání kontaktu staví paní Petrovou okamžitě před soud. Bude popírat nebo se stane defenzivní a rozhovor se bude točit kolem komentáře místo podstaty konfliktu. Konfrontace bez navázání vztahu zřídkakdy vede k upřímnému přiznání. | DŮSLEDKY: Paní Petrová celá zrudne. „Překrucuje moje slova! Nikdy jsem — no, možná jsem něco řekla, ale on mě provokoval! Přestavoval mi zboží!“ Je nyní v plném obranném módu. Na každou další otázku narazíte na zeď. | Reflexe: Když potřebujete adresovat vážný výrok, proč záleží na pořadí — nejdříve navázání kontaktu, pak konfrontace, versus konfrontace hned na začátku?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Nechat ji domluvit bez přerušení, pak promluvit pevně, ale s respektem: „Paní Petrová, vidím, že vám na vašem místě tady velmi záleží, a patnáct let je dlouhá doba — to respektuji. Podíváme se společně na skutečnou mapu stánků, abychom roztřídili prostor. Ale potřebuji se vás zeptat ještě na něco jiného. Pan Okonkwo mi řekl, že během hádky padla slova, která šla nad rámec sporu o prostor. Můžete mi říct, co bylo řečeno?“",
+                    "feedback": "Proč: Tento přístup nejprve potvrdí její dlouholeté působení a emocionální investici — potřebuje se cítit vyslyšená, než může naslouchat vám. Zmínka o mapě stánků signalizuje objektivitu. Přechod k „padla slova“ místo „řekla jste rasistické věci“ jí dává prostor pro reflexi místo obrany. Otázka „co bylo řečeno“ místo „řekla jste to a to“ zve její verzi místo aby vyžadovala přiznání. | DŮSLEDKY: Paní Petrová se zarazí. Sklopí pohled. „Já… možná jsem řekla něco, co jsem neměla. Byla jsem naštvaná. On mi bral bedny a já prostě — nemyslela jsem to tak. Nejsem rasistka, strážníku. Byla jsem prostě naštvaná.“ To je otevření — ne omluva, ale přiznání, na kterém můžete stavět. | Reflexe: Jak vytvoření prostoru pro to, aby člověk uznal svá vlastní slova, vede k upřímnějším odpovědím než vyžadování přiznání?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Trpělivě přikývat, zatímco mluví, a řečí těla dávat najevo, že ji berete vážně. Když dokončí, nabídnout vřelý, uklidňující tón: „Rozumím, paní Petrová — patnáct let je dlouhá doba a je vidět, že pro vás tento trh hodně znamená. Teď se podívám na oficiální mapu stánků s Filipem, abychom měli před sebou skutečné rozměry. A pak to celé dáme pořádně dohromady.“",
+                    "feedback": "Proč: Zcela jste jí přitakali, aniž byste se vůbec dotkli diskriminačního vyjádření. Než se vrátíte s mapou, rasová dimenze je potichu upuštěna. Paní Petrová dojde k závěru, že její komentář byl přijatelný. Pan Okonkwo se později dozví, že jste na to vůbec nepřišla řeč, a jeho důvěra v celý proces se zhroutí. Zvolili jste snadnou cestu za cenu obtížného, ale nezbytného rozhovoru. | DŮSLEDKY: Paní Petrová se cítí potvrzená. Ale když se pan Okonkwo později dozví, že jste komentář vůbec nezmínili, jeho důvěra v proces se zcela zhroutí. Spor o prostor může být vyřešen, ale hlubší rána hniloží. | Reflexe: Jaká je cena vyhýbání se obtížnému rozhovoru, protože ten snadnější je pohodlnější?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Přerušit ji uprostřed věty zvednutou dlaní a rázným, neosobním tónem říct: „Paní Petrová, děkuji za kontext, ale nepotřebuji patnáct let historie. Otázka je jednoduchá a jasná: jsou vaše bedny na jeho přidělené straně hraniční čáry, nebo ne? Protože z toho, co vidím tady — a mám docela jasný výhled na tu křídovou čáru — jsou výrazně přes ni.“",
+                    "feedback": "Proč: Přerušit někoho uprostřed vysvětlování a okamžitě se přiklonit k pozorovatelnému důkazu je despektující a předčasné. Přidělení jste si ještě neověřili. „Nepotřebuji tu historii“ jí říká, že patnáct let kontextu je irelevantních. I kdyby bedny byly přes čáru, její prožitek sporu je pro kvalitu řešení důležitý. Lidé se podřizují výsledkům, když vnímají proces jako spravedlivý — ne když mají pocit, že jim bylo zaklapnuto ústa. | DŮSLEDKY: Paní Petrová vybuchne: „Vy už jste na jeho straně! Ani jste se nepodíval na mapu! Přesně tohle myslím — dneska každý straní nováčkovi!“ Dav slyší její výbuch. Uděláte si nepřítele z druhé strany za méně než třicet sekund. | Reflexe: Co se stane s mediací, když jedna strana cítí, že jste rozhodli proti ní ještě před vyslechnutím celé její výpovědi?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Posouzení důkazů",
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Kontrola mapy stánků",
+                "desc": "Požádali jste Filipa o mapu přidělení stánků. Z kanceláře vytáhne zalaminovaný list — zjevně je několik let starý, s ručně kreslenými opravami a lepicími papírky. Porovnáte ji se skutečným uspořádáním. Mapa ukazuje stánek pana Okonkwa jako obdélník o šířce 3 metry. Stánek paní Petrové je přidělen se stejnou šířkou vedle něj. Na zemi jsou křídové čáry sotva viditelné. Bedny paní Petrové přesahují zhruba 40 centimetrů přes čáru do prostoru pana Okonkwa a stlačují jeho výstavu."
+            },
+            "npcDialogue": [
+                {
+                    "character": "filip",
+                    "text": "(dívá se na mapu, zaraženě) Budu upřímný, strážníku — tyhle značky jsme nepřekreslovali přes rok. A když se pan Okonkwo přidal, tak jsme ho prostě… vmáčkli. Nikdy jsem to pořádně neměřil. Vím, že čáry jsou vybledlé. Chtěl jsem to opravit, ale soboty jsou tak hektické…"
+                },
+                {
+                    "character": "bystander",
+                    "text": "(stálý zákazník, naklání se blíž) Strážníku, jestli to pomůže — nakupuji tady každou sobotu. Paní Petrová se vždycky trochu roztahovala, i před tím, než tu byl stánek s látkami. A pan Okonkwo se kvůli tomu choval roky naprosto slušně. Takhle naštvaného ho vidím poprvé."
+                }
+            ],
+            "prompt": "Nyní máte objektivní důkazy: mapu, vybledlé čáry, Filipovo přiznání špatného řízení a pozorování přihlížejícího. Jak s těmito informacemi naložíte?",
+            "options": [
+                {
+                    "text": "Vrátit se k oběma prodejcům se zalaminovanou mapou v ruce a transparentně sdělit svá zjištění: „Podíval jsem se na mapu a značky na zemi. Paní Petrová, vaše bedny přesahují asi o 40 centimetrů přes hraniční čáru do prostoru pana Okonkwa. Ale vidím také, že značky jsou vybledlé a mapa nebyla aktualizována od příchodu pana Okonkwa. Systém selhal u vás obou — tohle není zcela vina ani jednoho z vás. Čáry měly být jasné od začátku.“",
+                    "feedback": "Proč: Transparentní sdílení důkazů s oběma stranami je zlatý standard procesní spravedlnosti. Pojmenování konkrétního přesahu dá paní Petrové fakt, se kterým nemůže polemizovat. Ale okamžité zasazení do kontextu — čáry byly nejasné, systém selhal u obou — zabrání tomu, aby to působilo jako rozsudek proti ní. „Systém selhal u vás obou“ přerámovává konflikt z osobního obviňování na institucionální odpovědnost, což otevírá prostor pro spolupráci na řešení místo výhry a prohry. | DŮSLEDKY: Paní Petrová sklopí zrak — vidí, že bedny jsou přes čáru. Pan Okonkwo přikývne — dostal za pravdu, ale bez vítězoslavy. Oba se podívají na Filipa, který se nepohodlně ošívá. Dynamika se posunula od „kdo je viník“ k „co se pokazilo.“ Tady se mediace stává možnou. | Reflexe: Jak prezentace faktů spolu se systémovým kontextem zabrání tomu, aby se faktický nález stal osobním útokem?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Zamířit ke stánku paní Petrové s rozloženou mapou a důrazně ukázat na hraniční čáru na zemi a pak na odpovídající značku na přidělovacím listu. Držet obojí tak, aby viděla porovnání, a věcným tónem říct: „Paní Petrová, důkazy jsou jasné — vaše bedny jsou přibližně 40 centimetrů na straně pana Okonkwa. Musíte je okamžitě přesunout zpátky do svého přiděleného prostoru, abychom to mohli vyřešit.“",
+                    "feedback": "Proč: Fakticky správné, ale podané jako rozsudek. Žádný kontext o vybledlých čárách nebo špatném řízení. Paní Petrová slyší: „Máte chybu, odsuňte to.“ Neslyší: „Systém byl nejasný.“ Tento přístup vytváří vítěze a poraženého — a poražení nespolupracují na řešení. Je navíc ponížena před davem. | DŮSLEDKY: Paní Petrová přesouvá bedny s rudým obličejem a zuřivě. Práskne s nimi. Pan Okonkwo tiše přihlíží, ale necítí zadostiučinění — rasový komentář nebyl řešen. Problém s prostorem je technicky vyřešen, ale vztah je zničen. | Reflexe: Když máte důkazy podporující jednu stranu, jak je prezentujete, aniž by se mediace proměnila v soud?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vzít Filipa stranou, mimo doslech obou prodejců, a přímo, ale tiše mu říct: „Filipe, tohle je váš průšvih. Čáry jsou vybledlé, mapa zastaralá a pana Okonkwa jste sem vmáčkli bez pořádného měření. Dnes to musíte napravit — překreslit čáry s jasnými, trvalými značkami, aktualizovat oficiální mapu přidělení a začít skutečně řídit rozmístění prodejců. Já oběma řeknu, že se situace řeší.“",
+                    "feedback": "Proč: Filip skutečně nese odpovědnost a žádat po něm zodpovědnost je důležité. Ale dělat to mezi čtyřma očima a pak doručit výsledek oběma prodejcům jako rozhodnutí shora je vylučuje z procesu. Nevidí důkazy, nepodílejí se na řešení a neslyší vzájemné uznání. Je to efektivní, ale ne spravedlivé. | DŮSLEDKY: Filip se vrhne na překreslování čar. Prodejcům je řečeno, ať „počkají“, zatímco se kladou nové značky. Nikdo z nich se necítí vyslyšen. Prostor je technicky správně, ale žádná strana nerozumí tomu, co se stalo a proč. Paní Petrová se cítí potrestaná. Rasová stížnost pana Okonkwa zůstává neřešena. | Reflexe: Když třetí strana nese odpovědnost za základní problém, jak ji žádáte k zodpovědnosti a přitom dáte dotčeným stranám hlas v procesu?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Odstoupit a oslovit oba prodejce formálním, odtažitým tónem: „Podíval jsem se na mapu přidělení a pozemní značky a je tu zřejmě nesrovnalost v hranicích, kterou je třeba opravit. Nicméně jde v zásadě o občanskoprávní záležitost mezi vámi a správou trhu. Vrěle doporučuji, abyste si oba dnes odpoledne sedli s Filipem a společně překreslili hraniční čáry stánků. Pokud dojde k dalšímu rušení, zavolejte nám na neurgentní linku.“",
+                    "feedback": "Proč: Předat problém zpátky správě, která jeho vzniku nezabránila, je cyklické neřešení. Filip vám už řekl, že to nezvládá — proto volal policii. Říct dvěma lidem v aktivním konfliktu, ať „spolupracují“ s osobou, která nechala konflikt narůst, je příprava na další konfrontaci. A odcházíte, aniž byste se dotkli rasové dimenze. | DŮSLEDKY: Oba prodejci na vás nevěřícně zírají. Filip vypadá zděšeně. Dav mumlá. Strávili jste patnáct minut sběrem důkazů a pak předali problém zpět osobě, která ho způsobila. Příští sobotu bude policie zavolána znovu — ale s menší důvěrou. | Reflexe: Když odpovědná autorita již selhala, co se stane, když jí předáte problém zpět bez poskytnutí struktury pro řešení?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Mediace",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Setkání obou stran",
+                "desc": "Fakta jsou na stole. Obě strany vědí, že bedny byly přes čáru a že systém správy byl nejasný. Teď přichází těžší část — přimět dva lidi, kteří jsou na sebe naštvaní, aby se dohodli na dalším postupu. Svedli jste je dohromady na neutrálním místě mezi jejich stánky. Paní Petrová má zkřížené ruce. Pan Okonkwo stojí zpříma a pozorně ji sleduje. Filip postává poblíž. Dav se trochu prořídl, ale několik stálých zákazníků stále přihlíží."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_petrova",
+                    "text": "(tiše, nedívá se na pana Okonkwa) Dobře. Bedny byly přes čáru. Odtáhnu je."
+                },
+                {
+                    "character": "mr_okonkwo",
+                    "text": "(klidným hlasem) Bedny jsou jeden problém. Ale to, co mi řekla — že se mám ‚vrátit tam, odkud jsem přišel' — to není o bednách. Potřebuji slyšet, že to uzná."
+                }
+            ],
+            "prompt": "Paní Petrová ustoupila v otázce prostoru. Pan Okonkwo nyní otevřeně zvedá rasový komentář. Jak tento moment zprostředkujete?",
+            "options": [
+                {
+                    "text": "Gestem ukázat směrem k vyřešené hraniční čáře a oslovit oba prodejce povzbudivým, uzavírejícím tónem: „Myslím, že jsme udělali skutečný pokrok v otázce prostoru a jsem rád, že jsme se tam dostali. Pane Okonkwo, chápu, že vás ten komentář hluboce zranil, ale paní Petrová souhlasila s přesunutím beden a respektováním hranic. Soustřeďme se na řešení a pokročme dál — zabývání se slovy řečenými v hněvu nepomůže nikomu z vás.“",
+                    "feedback": "Proč: Toto staví na roveň vyřešení prostorového problému a vyřešení rasové újmy. Nejsou to stejné věci. Pan Okonkwo výslovně řekl, že komentář je samostatný problém. Říct mu, ať „pokročí dál“ a nezabýval se „slovy řečenými v hněvu“, zlehčuje jeho zkušenost a upřednostňuje váš komfort před jeho důstojností. Žádáte poškozené ho, aby nesl následky, za cenu úhledného řešení. | DŮSLEDKY: Pan Okonkwo se na vás podívá s tichým zklamáním. Strnule přikývne a nic víc neřekne. Prostorový problém je vyřešen, ale odchází z trhu s vědomím, že policista slyšel o rasistickém komentáři a rozhodl se ho zamést pod koberec. Policii už znovu nezavolá. | Reflexe: Když je řešení praktického problému jednodušší než řešení lidské újmy, co se stane, když zvolíte pouze to snadné řešení?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Klidným, uvážlivým výrazem se obrátit k paní Petrové: „Paní Petrová — pan Okonkwo zvedá důležitou věc. Předtím, když jsme spolu mluvili v soukromí, jste mi sama zmínila, že v zápalu hádky padla slova, kterých litujete. Pan Okonkwo je vaším sousedem na tomhle trhu tři roky. Má platné povolení, platí poplatky a má plné právo tu být — stejně jako vy. Je něco, co byste mu chtěla říct?“",
+                    "feedback": "Proč: Toto je mistrovská facilitace. Nevkládáte jí slova do úst ani nevyžadujete omluvu — vytváříte prostor pro ni. Odkaz na její dřívější soukromé přiznání („padla slova, kterých litujete“) jí připomene její vlastní vyjádření, aniž by je tvrdě obnažil. Uvedení faktů o legitimitě pana Okonkwa odstraňuje jakoukoli nejednoznačnost ohledně jeho práva tu být. „Je něco, co byste mu chtěla říct“ jí dává kontrolu nad nápravou. | DŮSLEDKY: Paní Petrová je dlouho ticho. Pak se podívá na pana Okonkwa — ne úplně, ale dostatečně. „Neměla jsem to říkat. Byla jsem naštvaná kvůli bednám a řekla jsem něco… ošklivého. Máte plné právo tu být. Omlouvám se.“ Pan Okonkwo pomalu přikývne. Není to dokonalé, ale je to upřímné. Několik přihlížejících si oddychne. | Reflexe: Jak vytvoření prostoru pro dobrovolné přiznání vede k opravdovějšímu smíření než vynucená omluva?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Obrátit se k paní Petrové, zpevnit čelist a oslovit ji razantním, oficiálním tónem, který jasně dosléhne k oběma prodejcům i blízkým přihlížejícím: „Paní Petrová, to, co jste panu Okonkwovi během tohoto sporu řekla, bylo nepřijatelné. Říkat někomu, ať se vrátí tam, odkud přišel, je diskriminační — bez diskuse. Je držitel povolení na tomto trhu, stejně jako vy. Potřebuji, abyste se mu právě teď omluvila.“",
+                    "feedback": "Proč: Hodnocení je správné — výrok byl diskriminační. Ale vyžadovat omluvu „ihned“ před davem produkuje vynucený výkon, ne upřímné přiznání. Paní Petrová buď odmítne (eskalace), nebo předloží dutou, zatrpklou omluvu, kterou pan Okonkwo okamžitě prokoukne. Vynucené omluvy plodí více zatrpklosti, než kolik jí vyřeší. | DŮSLEDKY: Tvář paní Petrové se zkroutí. „Dobře. Omlouvám se. Jste spokojený?“ Pan Okonkwo smutně zavrtí hlavou — slyší tu neupřímnost. Dav sleduje, jak je starší žena veřejně zahanbena. Nikdo se z toho necítí dobře. | Reflexe: Jaký je rozdíl mezi vyžádanou a facilitovanou omluvou — a která skutečně léčí?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Jemně položit ruku blízko paže pana Okonkwa a klidným, profesionálním tónem přesměrovat rozhovor: „Pane Okonkwo, naprosto chápu vaše pocity a chci, abyste věděl, že jsem s paní Petrovou o tom, co bylo řečeno během hádky, už mluvil. Nechte mě tu mezilidskou stránku řešit zvlášť příslušnými kanály — teď je nejproduktivnější uzavřít dohodu o prostoru s jasnými značkami, abyste se oba mohli vrátit ke svému sobotnímu obchodu.“",
+                    "feedback": "Proč: Upíráte panu Okonkwovi přiznání, o které výslovně žádal. Neřekl, abyste to řešil vy — řekl „potřebuji slyšet, že to ONA uzná.“ Směrování jeho potřeby přes vás jako prostředníka odstraňuje lidský moment, který by mohl zahájit nápravu. „Nechte mě to řešit zvlášť“ znamená, že se to nikdy nestane. Obě strany to vědí. | DŮSLEDKY: Pan Okonkwo mechanicky spolupracuje na dohodě o prostoru. Paní Petrová je ulehčená — nikdy nemusela čelit tomu, co řekla. Problém s prostorem je vyřešen, ale vztah zůstává rozbitý. Příští sobotu budou stát vedle sebe v chladném, hořkém tichu. | Reflexe: Když poškozená osoba žádá přímé přiznání, co se stane, když namísto lidského spojení dosadíte institucionální vyřizování?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Uzavření dohody",
+            "sceneUpdate": {
+                "emoji": "📐",
+                "title": "Praktická řešení",
+                "desc": "Emocionální vrchol je za námi. Paní Petrová uznala svůj komentář — nedokonale, ale upřímně. Problém s prostorem přetrvává: vybledlé čáry, zastaralá mapa a žádný jasný systém prevence opakování. Filip stojí opodál a vypadá, jako by se chtěl propadnout do země. Oba prodejci jsou klidní, ale unavení. Zbývající přihlížející sledují, zda řešení skutečně vydrží."
+            },
+            "npcDialogue": [
+                {
+                    "character": "filip",
+                    "text": "(tiše) Měl jsem to řešit už před měsíci. Nevěděl jsem, že je to tak špatné. Co navrhujete, strážníku?"
+                }
+            ],
+            "prompt": "Filip se na vás obrací se žádostí o systémové řešení. Jak nastavíte dohodu, která vydrží i po vašem odchodu?",
+            "options": [
+                {
+                    "text": "Obrátit se k Filipovi a před oběma prodejci jasně formulovat pokyny krok za krokem: „Filipe, musí se stát následující. Zaprvé, dnes překreslete čáry stánků — jasné, viditelné značky, které nevyblednou za týden. Zadruhé, dejte panu Okonkwovi i paní Petrové písemnou kopii přidělení s přesnými rozměry v centimetrech. Zatřetí, vyvěste jasný postup pro řešení sporů u vchodu na trh. Stihnete to všechno dnes?“",
+                    "feedback": "Proč: Systémové, konkrétní a realizovatelné. Řešíte příčinu — nejasné hranice a chybějící proces — nikoli jen symptom. Požadavek na Filipův závazek „dnes“ vytváří naléhavost a odpovědnost. Písemná přidělení dávají oběma stranám referenční dokument, který eliminuje budoucí nejednoznačnost. Postup pro řešení sporů znamená, že Filip příště nemůže říct „domluvte se“. Ale dáváte Filipovi pokyny bez konzultace s prodejci. | DŮSLEDKY: Filip okamžitě souhlasí — rád se napraví. Plán je dobrý, ale žádný z prodejců nebyl dotázán na svůj názor. Paní Petrová se ptá, jestli ji nové čáry neomezí. Pan Okonkwo se ptá, jestli písemné přidělení bude odpovídat tomu, co mu bylo slíbeno. Struktura je správná, ale zapojení stran je neúplné. | Reflexe: Při vytváření institucionálních řešení — jaké je riziko jejich navrhování bez vstupu od lidí, kterých se týkají?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Oslovit všechny tři najednou: „Filipe, paní Petrová, pane Okonkwo — základní problém tu nejste vy dva, ale to, že systém byl nejasný. Napravme to společně. Filipe, můžete dnes překreslit čáry s řádným měřením, a můžete oba být u toho přítomni, abyste viděli a odsouhlasili nové hranice? Navrhl bych také písemná přidělení pro každého prodejce a vyvěšený postup pro řešení sporů. Zní to všem spravedlivě?“",
+                    "feedback": "Proč: Toto je spolupráce na řešení problémů v nejlepší podobě. Zapojení všech tří stran zajišťuje přijetí — řešení je spoluvytvořené, ne vnucené. „Základní problém tu nejste vy dva“ odosobňuje vinu. Přítomnost obou prodejců při přeměřování z nových čar dělá jejich dohodu, ne nařízení. Otázka „zní to všem spravedlivě“ dává každé osobě důstojnost souhlasu. Písemná přidělení pro každého prodejce a vyvěšený postup řeší systémovou příčinu selhání. | DŮSLEDKY: Pan Okonkwo přikývne: „To je spravedlivé. Chci vidět měření.“ Paní Petrová: „Dobře — pokud můj prostor bude stejný jako u všech ostatních.“ Filip: „Udělám to během polední přestávky — bude méně lidí.“ Všichni tři souhlasili. Řešení má systémovou trvanlivost, protože bylo spoluvytvořeno. | Reflexe: Proč zapojení všech dotčených stran do navrhování řešení zvyšuje pravděpodobnost jeho trvání oproti vnucení stejného řešení shora?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Podívat se střídavě na oba prodejce a Filipa, pak promluvit střídmým, ukončovacím tónem: „Podívejte, čáry byly nejasné a to je na Filipovi — měl je udržovat. Ale do budoucna oba musíte zůstat ve svých přidělených prostorech, bez výjimek. Pane Okonkwo, pokud bedny znovu přelezou přes čáru, zavolejte nejdřív Filipovi, ne policii. A paní Petrová, držte si věci na své straně. Selský rozum — neměl bych se sem kvůli tomu vracet.“",
+                    "feedback": "Proč: „Selský rozum“ je despektující — kdyby to byl selský rozum, nebyli by tu. Veřejné obviňování Filipa podkopává jeho autoritu správce trhu, kterou potřebuje k prosazování budoucích pravidel. Posílat pana Okonkwa zpět za osobou, která mu měsíce selhávala, je cirkulární. Bez systémové opravy budou příští sobotu stejné vybledlé čáry a stejná nejednoznačnost. | DŮSLEDKY: Filip sebou trhne, když je veřejně obviněn. Paní Petrová se ježí z blahosklonnosti. Pan Okonkwo ví, že se ve skutečnosti nic nezmění. Příští sobotu budou čáry stále vybledlé a nikdo přesně neví, kde jsou. Konflikt se obnoví za dva týdny. | Reflexe: Jaký je rozdíl mezi tím říct lidem, co mají dělat, a dát jim strukturu, která usnadňuje dělat správnou věc?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Obrátit se k Filipovi s uvážlivým výrazem a navrhnout alternativní uspořádání: „Filipe, mě napadá — bylo by možné přemístit jeden z těchto dvou stánků do úplně jiné části trhu? Pokud nebudou sousedě, žádná sdílená hranice k hádání a takovýhle spor se prostě nemůže opakovat. Máte tu čtyřicet stánků — určitě se někde najde volné místo, které by jednomu z nich vyhovovalo a dalo oběma stranám trochu prostoru.“",
+                    "feedback": "Proč: Oddělení se může zdát logické, ale obchází skutečný problém a vyvolává klíčovou otázku: koho přesunout? Přesunout pana Okonkwa — osobu, na jejíž prostor bylo zasahováno a která byla rasově napadena — vysílá devastující zprávu: oběť bude přemístěna. Přesunout paní Petrovou ji trestá za spor a odděluje od patnáctiletých věrných zákazníků. Oddělení je to, co děláte, když řešení selže, ne náhražka pokusu o něj. | DŮSLEDKY: Oba prodejci reagují špatně. Pan Okonkwo: „Neměl bych se stěhovat kvůli tomu, že někdo jiný narušil můj prostor.“ Paní Petrová: „Jsem tu patnáct let — nikam se nestěhuju!“ Návrh je sjednotí — proti vám. | Reflexe: Kdy je fyzické oddělení řešením, a kdy je únikem od skutečného problému?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Uzavření a následné kroky",
+            "sceneUpdate": {
+                "emoji": "☀️",
+                "title": "Obnova tržního rána",
+                "desc": "Dohoda je na místě. Filip překreslí čáry během polední přestávky za přítomnosti obou prodejců. Budou následovat písemná přidělení. Bezprostřední problém s prostorem byl uznán a bude napraven. Paní Petrová přesunula bedny zpět. Pan Okonkwo znovu rozkládá svou výstavu. Dav se většinou vrátil k nákupům. Napětí opadlo, ale dopoledne si na obou prodejcích vybralo svou daň. Paní Petrová je tichá a soustředí se na zeleninu. Pan Okonkwo rovná látky, ale zarazí se, když vás vidí přicházet s posledním slovem."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mr_okonkwo",
+                    "text": "(tiše, rovná kus ankara látky) Strážníku… děkuji vám. Ne jen kvůli prostoru. Za to, že jste naslouchal. Za tři roky jsem nikdy neměl pocit, že by tu někdo stál na mé straně — nebo aspoň… jednal se mnou jako s rovným. Přišel jsem do téhle země, abych něco vybudoval. Nechci se hádat. Chci jen pracovat."
+                },
+                {
+                    "character": "mrs_petrova",
+                    "text": "(od svého stánku, nedívá se, ale je slyšet) …Ty jeho látky jsou vlastně docela krásné. Moje vnučka by se zbláznila do té modré."
+                }
+            ],
+            "prompt": "Krize je vyřešena, ale způsob, jakým tento kontakt uzavřete, rozhodne, zda jde o jednodenní opravu, nebo trvalou změnu. Jak to zakončíte?",
+            "options": [
+                {
+                    "text": "Přistoupit ke každému zvlášť s krátkým, soukromým uzavřením. Usmát se na pana Okonkwa: „Máte právo tu být — a nenechte nikoho, aby vám namluvil opak. Dnes jste se zachoval s opravdovou důstojností.“ Zastavit se u paní Petrové: „To, co jste předtím řekla, vyžadovalo odvahu. To je důležité.“ Vzít Filipa stranou: „Ty čáry dnes překreslete. Pokud se to vrátí, můj příští rozhovor bude s vaším nadřízeným.“ Uzavřít poznámky a krátce projít trhem před odchodem.",
+                    "feedback": "Proč: Toto uzavření dělá všechno správně. Potvrzuje panu Okonkwovi jeho příslušnost — ne jako laskavost, ale jako fakt. Uznává obtížný moment upřímnosti paní Petrové bez přehnaného chválení či zahanbování. Drží Filipa k odpovědnosti s konkrétním, přiměřeným důsledkem. Procházka trhem před odchodem signalizuje, že jste součástí této komunity, ne jen kolemjdoucí. Každá osoba dostane osobní, přizpůsobené rozloučení — nikdo není předváděn. | DŮSLEDKY: Pan Okonkwo se trochu narovná. Paní Petrová jednou přikývne — slyšela vás a přemýšlí. Filip vytáhne metr, ještě než jste odešli. Při procházce trhem na vás přihlížející kývne: „Dobrá práce, strážníku.“ Řešení vydrží, protože každý zúčastněný má důvod, aby fungovalo. | Reflexe: Proč osobní, soukromé uzavření s každou stranou přináší lepší dlouhodobé výsledky než jedno společné rozloučení?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Svolat oba prodejce na neutrální místo mezi stánky a oslovit je společně vřelým, povzbudivým tónem: „Jste sousedé na tomhle trhu — vídáte se každou sobotu, sdílíte stejné zákazníky a to, co se dnes stalo, nemusí definovat váš vztah do budoucna. Buďte k sobě shovívaví v následujících týdnech — možná zjistíte, že máte víc společného, než si myslíte.“ Kývnout Filipovi a zamířit ke vchodu na trh.",
+                    "feedback": "Proč: Hřejivý sentiment, ale obecný. „Buďte k sobě shovívaví“ je rada, ne struktura. Nedrží Filipa k odpovědnosti za plnění. Nepotvrzuje konkrétní zkušenost pana Okonkwa ani neuznává konkrétní růst paní Petrové. Obě strany dostávají stejný vzkaz — přestože měly dnes velmi odlišné zkušenosti. A odešli jste, aniž byste potvrdili, že systémový plán bude realizován. | DŮSLEDKY: Oba prodejci sentiment oceňují, ale nedopadne tak jako osobní uzavření. Filip si oddychne úlevou — žádná odpovědnost, žádný termín. Čáry mohou, ale nemusí být překresleny. Kontakt byl dobrý, ale následné kroky jsou ponechány náhodě. | Reflexe: Jaký je rozdíl mezi nadějným a odpovědným uzavřením?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Zaklapnout zápisník, zasunout ho do vesty a oslovit oba prodejce i Filipa stručným, profesionálním shrnutím: „Dobře, jsem spokojný, že je to pro dnešek vyřešeno. Pokud budou jakékoli další problémy se stánkovými hranicemi nebo jiné neshody mezi vámi, volejte na neurgentní linku a pošleme sem někoho. Filipe, zajistěte, ať ty čáry jsou překreslené do příští soboty — žádné výmluvy. Hezký den všem.“ Otočit se a zamířit k vozidlu.",
+                    "feedback": "Proč: Transakční a neosobní. Po kontaktu zahrnujícím rasovou újmu, emocionální zranitelnost a systémové selhání je rozloučení „hezký den“ jako uzavření servisního tiketu. Žádné uznání toho, čím si oba prodejci prošli. Žádný mechanismus odpovědnosti pro Filipa kromě „zajistěte“. Žádná vřelost, žádné spojení. | DŮSLEDKY: Oba prodejci se cítí jako spis, který právě byl uzavřen. Vděčnost pana Okonkwa zůstane bez odezvy. Obtížné přiznání paní Petrové je ponecháno bez komentáře. Filipovo „zajistěte“ nemá žádnou váhu. Kontakt byl zvládnut kompetentně, ale skončil bez lidskosti. | Reflexe: Když byli lidé během policejního kontaktu zranitelní, co vás stojí lidské uzavření — a co jeho absence stojí je?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Před odchodem se obrátit na hlouček přihlížejících, kteří celý čas sledovali, a zvýšit hlas tak, aby bylo slyšet po celém okolí: „Lidi, všechno je vyřešené — jen nedorozumění ohledně prostoru stánku a hraničních značek. Oba prodejci zůstávají na svých místech a správce trhu značení dořeší. Není důvod k obavám. Podpořte své místní prodejce a užívejte si zbytek sobotního dopoledne!“ Přátelské mávnutí a odchod.",
+                    "feedback": "Proč: Předvedení řešení pro dav proměňuje soukromý, smysluplný proces ve veřejné oznámení. Nazvat to „jen nedorozuměním“ vymazává rasovou dimenzi, která byla jádrem sporu. Pan Okonkwo slyší svou zkušenost — kdy mu bylo řečeno, ať se „vrátí tam, odkud přišel“ — popsanou jako „nedorozumění ohledně prostoru stánku.“ To se nestalo, a zlehčení toho na veřejnosti ruší pokrok dosažený v soukromí. | DŮSLEDKY: Dav je uklidněn, ale pan Okonkwo odvrátí pohled. Právě slyšel, jak policista veřejně definoval jeho zkušenost jako triviální. Paní Petrová se uvolní — veřejný příběh to podává tak, jako by se nic závažného nestalo, čímž ji zbavuje odpovědnosti za růst, který začínala prodělávat. | Reflexe: Když řešení zahrnovalo hluboce osobní dimenze, co se stane, když ho veřejně prezentujete jako něco jednoduššího, než ve skutečnosti bylo?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debriefing",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Výcvikový debriefing",
+                "desc": "Zpět na stanici. Seržant Dvořáková hodnotí váš výkon ve scénáři mediace tržního sporu."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "Tržní spory testují všechno najednou: vaši schopnost sbírat fakta před formováním názorů, vaši ochotu řešit rasové a kulturní tenze místo abyste je obcházeli, vaše mediační schopnosti mezi lidmi, kteří oba věří, že mají pravdu, a vaši kapacitu budovat systémová řešení, která přetrvají i po vašem odchodu. Snadná cesta v tomto scénáři byla změřit čáry, říct někomu, ať přesune bedny, a odjet. Těžší — a správná — cesta byla rozpoznat, že tento spor měl vrstvy: prostorový konflikt na povrchu, selhání správy pod ním a rasovou dimenzi protkanou vším. Jak jste zvládli každou vrstvu a zda jste řešili všechny, nebo jen ty pohodlné, rozhodlo, zda šlo o jednodenní opravu, nebo trvalé řešení. Podívejme se, co jste udělali."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "Tento scénář testoval, zda dokážete držet v hlavě tři problémy najednou: prostorový spor, selhání správy a rasovou ránu. Většina strážníků by vyřešila bedny, možná promluvila se správcem trhu a odešla s pocitem, že odvedla solidní práci. Otázka je, zda jste řešili i tu nejtěžší část."
+                },
+                {
+                    "character": "officer",
+                    "text": "Rasový komentář byl ta část, se kterou jsem se potýkal nejvíc. Chtěl jsem ho řešit, ale zároveň jsem nechtěl z tržního sporu dělat něco většího, než muselo být. Pořád jsem váhal, jakou tomu přikládat váhu."
+                },
+                {
+                    "character": "instructor",
+                    "text": "To váhání je běžné a odhaluje mylnou představu, kterou stojí za to napravit. Řekl jste, že jste nechtěl z rasového komentáře dělat větší problém, než musel být. Ale tady je ta pravda: řešení rasového komentáře není vedlejší záležitost — JE to hlavní záležitost. Protože jeho ignorování garantuje, že se konflikt vrátí. Můžete překreslit každou čáru na tom trhu, ale pokud pan Okonkwo stále cítí, že jeho sousedka ho vnímá jako někoho, kdo sem nepatří, bedny se zase posunou, napětí bude doutnat a budete zavolání znovu do měsíce."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Co dělalo tento scénář výjimečným, byl moment, kdy paní Petrová uznala, co řekla — nedokonale, neochotně, ale upřímně. To se nestalo proto, že jste to vyžadovali. Stalo se to proto, že jste vytvořili podmínky. Potvrdili jste její dlouholeté působení, ukázali jste jí důkazy bez ponížení a pak jste otevřeli dveře, aby jimi sama prošla. O tři týdny později se zeptala pana Okonkwa na jeho látky — vnučka chtěla šaty s africkým potiskem na školní projekt. Tohle je výsledek řešení celého problému. Teď vám sdělím, co se stalo po té sobotě."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {
+            "name": "Dispečink",
+            "avatar": "📻"
+        },
+        "mr_okonkwo": {
+            "name": "Pan Okonkwo (prodejce látek, 50+)",
+            "avatar": "🧔"
+        },
+        "mrs_petrova": {
+            "name": "Paní Petrová (prodejkyně zeleniny, 60+)",
+            "avatar": "👩‍🌾"
+        },
+        "filip": {
+            "name": "Filip Horák (správce trhu, 30+)",
+            "avatar": "📋"
+        },
+        "bystander": {
+            "name": "Stálý zákazník",
+            "avatar": "🛒"
+        },
+        "officer": {
+            "name": "Vy (strážník)",
+            "avatar": "👮"
+        },
+        "instructor": {
+            "name": "Seržant Dvořáková",
+            "avatar": "👮‍♂️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Výjimečná nestranná mediace!",
+            "emoji": "🌟",
+            "feedback": "Předvedli jste zlatý standard vícestranného řešení sporů: důkladné zjišťování faktů před úsudkem, viditelnou nestrannost, přímé, ale respektující zapojení se do rasové dimenze, spolupráci na navrhování řešení se zapojením všech stran a osobní uzavření, které každou osobu drželo k odpovědnosti a zároveň ctilo její důstojnost. Každý přihlížející viděl policejní práci, která buduje mosty místo přiklánění se na stranu."
+        },
+        "good": {
+            "title": "Silný mediační výkon",
+            "emoji": "✅",
+            "feedback": "Zvládli jste složitý, vícevrstvý spor se zkušeností, projevili jste spravedlnost a upřímnou snahu porozumět oběma stranám. Některé příležitosti k přímějšímu řešení kulturní dimenze nebo k vybudování větší systémové odpovědnosti byly promeškány, ale váš přístup byl profesionální, empatický a orientovaný na řešení."
+        },
+        "average": {
+            "title": "Přiměřená reakce",
+            "emoji": "📊",
+            "feedback": "Vyřešili jste bezprostřední prostorový spor, ale důležité dimenze zůstaly neřešeny. Ať už šlo o vyhýbání se rasovému komentáři, nebudování systémových opatření, nebo nezapojení obou stran do navrhování řešení, kontakt vyřešil dnešní problém, aniž by plně adresoval vrstvy pod ním. Prostudujte si mediační techniky, kulturní citlivost a systémové řešení problémů."
+        },
+        "poor": {
+            "title": "Vyžaduje výrazné zlepšení",
+            "emoji": "⚠️",
+            "feedback": "Váš přístup buď předčasně zaujal stranu, odmítl rasovou dimenzi, selhal ve sběru důkazů před úsudkem, nebo vyústil v řešení, které pravděpodobně nevydrží déle než do dnešního dne. Tržní spory zahrnující kulturní tenze vyžadují viditelnou nestrannost, ochotu řešit nepohodlné pravdy a řešení, která opravují systémy — ne jen symptomy. Prostudujte si protokoly kulturního povědomí, mediaci založenou na důkazech a zásady procesní spravedlnosti."
+        }
+    },
+    "metrics": {
+        "impartialMediation": {
+            "name": "Nestranná mediace",
+            "description": "Demonstrování viditelné spravedlnosti vůči všem stranám — stejné naslouchání, neutrální prezentace důkazů a spolupráce na navrhování řešení místo vnucování rozsudků",
+            "icon": "⚖️"
+        },
+        "culturalAwareness": {
+            "name": "Kulturní povědomí",
+            "description": "Rozpoznání a přímé řešení rasových a kulturních dimenzí sporu místo jejich obcházení nebo zlehčování",
+            "icon": "🌍"
+        },
+        "factFinding": {
+            "name": "Zjišťování faktů",
+            "description": "Sběr objektivních důkazů — mapy stánků, fyzické uspořádání, svědectví — před formováním závěrů nebo přijetím opatření",
+            "icon": "🔍"
+        },
+        "conflictResolution": {
+            "name": "Řešení konfliktů",
+            "description": "Budování systémových, trvalých dohod řešících příčiny místo dočasných oprav potlačujících symptomy",
+            "icon": "🔧"
+        },
+        "communityTrust": {
+            "name": "Důvěra komunity",
+            "description": "Posilování důvěry komunity v policii prostřednictvím kvality, spravedlnosti a lidskosti tohoto kontaktu",
+            "icon": "🤝"
+        }
+    }
+}

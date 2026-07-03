@@ -1,0 +1,171 @@
+{
+  "loading": {
+    "title": "Loading Training Modules..."
+  },
+  "error": {
+    "title": "Failed to Load Training Data",
+    "message": "Please check your connection and try again.",
+    "retry": "Retry",
+    "runtime": "Runtime Error",
+    "scenarioLoad": "Failed to load scenario",
+    "languageSwitch": "Language switch failed. Please try again."
+  },
+  "header": {
+    "title": "Police Communication Training System",
+    "subtitle": "Advanced De-escalation & Crisis Management"
+  },
+  "welcome": {
+    "mainTitle": "🎯 Conflict De-escalation Training",
+    "description": "Master essential communication techniques through real-world scenarios. Learn to de-escalate conflicts, show empathy, and serve your community with excellence.",
+    "startButton": "Start Training",
+    "heroTitle": "Police De-escalation Training",
+    "heroSubtitle": "Master essential communication techniques through real-world scenarios. Learn to de-escalate conflicts, show empathy, and serve your community with excellence.",
+    "selectLanguage": "Select Your Language",
+    "layoutLabel": "Use on",
+    "layoutComputer": "Computer",
+    "layoutPhone": "Phone",
+    "chooseScenario": "Choose a scenario below to begin"
+  },
+  "app": {
+    "title": "De-escalation Training"
+  },
+  "scenarios": {
+    "title": "Choose Your Training Scenario",
+    "subtitle": "Complete scenarios to earn badges and improve your skills",
+    "scenario": "Scenario",
+    "minutes": "min",
+    "available": "scenarios available",
+    "stages": "stages"
+  },
+  "instructor": {
+    "defaultName": "Training Instructor",
+    "defaultMessage": "Welcome to your training scenario.",
+    "beginButton": "Begin Scenario"
+  },
+  "game": {
+    "score": "Score",
+    "stage": "Stage",
+    "of": "of",
+    "choicePrompt": "What is your response?",
+    "timeRemaining": "⏱️ Time remaining:",
+    "confidence": "Confidence:",
+    "submitButton": "Submit Response",
+    "retryNegative": "That approach escalated the situation. Let's try a different approach that shows more empathy and de-escalation.",
+    "retryNeutral": "That was adequate but not optimal. Consider how you might build more rapport while maintaining professional boundaries.",
+    "backToScenarios": "Back to Scenarios",
+    "confirmLeave": "Are you sure you want to leave? Your progress in this scenario will be lost.",
+    "tabChoices": "Choices",
+    "tabDialogue": "Dialogue",
+    "whatDoYouDo": "What do you do?"
+  },
+  "trainer": {
+    "title": "Training Instructor"
+  },
+  "feedback": {
+    "excellent": "Excellent Choice",
+    "acceptable": "Acceptable Choice",
+    "suboptimal": "Suboptimal Choice",
+    "poor": "Poor Choice"
+  },
+  "review": {
+    "title": "🏆 Training Session Review",
+    "button": "📊 View Training Report",
+    "complete": "Scenario Complete!",
+    "wellDone": "Well done on completing this scenario!",
+    "viewComplete": "View Complete Review",
+    "restart": "Start New Training",
+    "perfect": "Perfect Performance! 🌟",
+    "excellent": "Excellent Work! ✨",
+    "good": "Good Performance 👍",
+    "needsImprovement": "Needs Improvement 📚",
+    "keyLessons": "Key Lessons",
+    "grade": "Grade",
+    "performanceSummary": "Performance Summary",
+    "whatReallyHappened": "What Really Happened",
+    "yourChoices": "Your Choices",
+    "totalChoices": "Total Choices",
+    "optimal": "Optimal",
+    "acceptable": "Acceptable",
+    "suboptimal": "Suboptimal",
+    "poor": "Poor",
+    "retries": "Retries",
+    "stageByStage": "Stage-by-Stage Review",
+    "recommendedTraining": "Recommended Training",
+    "scenarioInsights": "Scenario Insights",
+    "startNew": "Start New Training",
+    "performanceLevel": {
+      "outstanding": "Outstanding Performance",
+      "good": "Good Performance",
+      "average": "Average Performance",
+      "needsImprovement": "Needs Improvement"
+    }
+  },
+  "stageReview": {
+    "attempts": "{{count}} attempts",
+    "attempt": "Attempt {{number}}",
+    "partial": "Partial",
+    "keyLearningPoints": "Key Learning Points"
+  },
+  "badge": {
+    "earned": "Badge Earned!",
+    "continue": "Continue"
+  },
+  "choiceType": {
+    "positive": "Positive",
+    "negative": "Negative",
+    "neutral": "Neutral",
+    "partially_positive": "Partial"
+  },
+  "polcomModules": {
+    "AL": "Listening",
+    "RNDC": "Respect",
+    "CHPS": "Pressure",
+    "CDR": "De-escalation",
+    "NPT": "Negotiation",
+    "EIC": "Emot. Intel."
+  },
+  "metrics": {
+    "rapport": "Rapport & Trust",
+    "procedure": "Procedure Adherence",
+    "emotional": "Emotional Intelligence",
+    "safety": "Situational Safety"
+  },
+  "reviewManager": {
+    "stageByStageAnalysis": "📊 Stage-by-Stage Analysis",
+    "attempt": "Attempt",
+    "yourChoice": "Your Choice",
+    "goodChoice": "Good Choice!",
+    "poorChoice": "Poor Choice:",
+    "neutralChoice": "Neutral Choice:",
+    "strengths": "Strengths:",
+    "issues": "Issues:",
+    "missedOpportunities": "Missed Opportunities:",
+    "trainingFocus": "📚 Training Focus:",
+    "keyLessons": "🎯 Key Lessons from this Stage:",
+    "mistakesSummary": "❌ Mistakes Summary",
+    "mistakesMade": "You made",
+    "incorrectChoices": "incorrect choices",
+    "duringScenario": "during this scenario. Here's what to remember:",
+    "stage": "Stage",
+    "patternsToAddress": "⚠️ Patterns to Address",
+    "recommendedTraining": "📚 Recommended Training",
+    "keyTakeaways": "🎯 Key Takeaways",
+    "choiceFallback": "Choice was made"
+  },
+  "custom": {
+    "ribbon": "Custom",
+    "edit": "Edit",
+    "export": "Export",
+    "delete": "Delete",
+    "addTitle": "Custom scenario",
+    "addSub": "Create, upload and play your own scenario",
+    "chooserTitle": "Custom scenario",
+    "chooserLead": "Create your own training scenario, or upload a ready-made file and play it with your group.",
+    "create": "Create in editor",
+    "upload": "Upload file(s)",
+    "uploadHint": "Upload a scenario file (and optionally a review file). The structure is validated before saving.",
+    "deleteConfirm": "Really delete custom scenario",
+    "exportError": "Export failed",
+    "deleteError": "Delete failed"
+  }
+}

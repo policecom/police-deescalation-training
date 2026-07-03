@@ -1,0 +1,623 @@
+{
+  "scenarioId": "youth-park",
+  "reviewVersion": "1.0",
+  "title": "Gili analiz\u0117 \u2014 Jaunimas parke",
+  "stageAnalysis": {
+    "1": {
+      "stageName": "1 faz\u0117 \u2014 Atvykimas \u012f park\u0105",
+      "criticalSkills": [
+        "Deeskalacija",
+        "Skaidrumas",
+        "Bendruomen\u0117s komunikacija"
+      ],
+      "choiceAnalysis": {
+        "negative": {
+          "choiceText": "\u201e(Trumpas sirenos signalas) Policija! Nedelsdami nustokite!\u201c",
+          "failures": [
+            "Nereikalingai grasmingas \u012f\u0117jimas \u012f \u017eodin\u012f konflikt\u0105",
+            "Sukelia \u0161ok\u0105 ir gynybingum\u0105."
+          ],
+          "consequences": "Grup\u0117s pasiprie\u0161inimas auga ir j\u016bs\u0173 legitimumas silpn\u0117ja.",
+          "trainingFocus": "Kada netur\u0117tum\u0117te naudoti sirenos ir kaip kitaip galite prane\u0161ti apie savo buvim\u0105?"
+        },
+        "positive": {
+          "choiceText": "\u201eMiesto policija. Ar gal\u0117tume pasikalb\u0117ti?\u201c",
+          "strengths": [
+            "Ramus \u012f\u0117jimas suma\u017eina \u012ftamp\u0105, i\u0161saugo orum\u0105 ir atveria dialog\u0105."
+          ],
+          "professionalImpact": "Grup\u0117 pastebi j\u016bs\u0173 buvim\u0105 be panikos. Jie bus labiau link\u0119 bendradarbiauti toliau."
+        },
+        "neutral": {
+          "choiceText": "Palaukti atstumo, i\u0161kviesti pastiprinim\u0105 \u201etik tam atvejui\u201c, tada art\u0117ti kartu.",
+          "adequate": [
+            "Atsargumas teis\u0117tas, bet \u017eodiniam gin\u010dui gali atrodyti kaip per ankstyva kriminalizacija."
+          ],
+          "missed": [
+            "Kada pastiprinimas yra naudingas ir kada jis tampa na\u0161ta?"
+          ],
+          "improvement": "Kada pastiprinimas yra naudingas ir kada jis tampa na\u0161ta?"
+        },
+        "partially_positive": {
+          "choiceText": "Art\u0117ti l\u0117tai p\u0117s\u010diomis, pasirodydami i\u0161 tolo, tada pasakyti: \u201eSveiki, popiet\u0117. A\u0161 pareig\u016bnas Nortonas \u2014 ar galiu prieiti ir pa\u017ei\u016br\u0117ti, kas vyksta?\u201c",
+          "adequate": [
+            "Pasirodymas prie\u0161 prabylant i\u0161vengia staigmenos efekto",
+            "Prisistatymas vardu kuria ry\u0161\u012f",
+            "\u201eAr galiu prieiti?\u201c demonstruoja pagarbą ir sutikimą"
+          ],
+          "missed": [
+            "Laid\u017eus tonas gali nepakankamai pabr\u0117\u017eti dviej\u0173 berniuk\u0173 priešprieš skubum\u0105",
+            "Konfrontacija tarp Kry\u0161tofo ir Jardos t\u0119siasi dar pus\u0119 minut\u0117s, kol art\u0117jate be skubos",
+            "Prieinamumo ir laiku \u012fsiki\u0161imo pusiausvyra buvo \u0161iek tiek ne\u012ftiksli"
+          ],
+          "improvement": "Kai fizin\u0117 konfrontacija artima, pritaikykite savo temp\u0105 ir tiesioginumą pagal skubum\u0105 \u2014 prieinamumas yra vertingas, bet neturėt\u0173 v\u0117linti \u012fsiki\u0161imo, kai smurtas u\u017e keliu sekundži\u0173."
+        }
+      }
+    },
+    "2": {
+      "stageName": "2 faz\u0117 \u2014 Pirmas kontaktas ir skaidrumas",
+      "criticalSkills": [
+        "Deeskalacija",
+        "Skaidrumas",
+        "Bendruomen\u0117s komunikacija"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "\u201eLabas rytas, a\u0161 pareig\u016bnas Nortonas. Gavau prane\u0161im\u0105 d\u0117l garsios muzikos ir gin\u010do. Noriu, kad viskas b\u016bt\u0173 ramu ir visiems b\u016bt\u0173 gerai. Ar galite papasakoti, kas \u010dia vyksta?\u201c",
+          "strengths": [
+            "Skaidrumas + j\u0173 teis\u0117s \u012f vie\u0161\u0105 erdv\u0119 pripa\u017einimas = legitimumas ir atvirumas."
+          ],
+          "professionalImpact": "Gynybingumas mažėja; per pasitik\u0117jimo k\u016brim\u0105 noras kalb\u0117ti didėja."
+        },
+        "neutral": {
+          "choiceText": "\u201eA\u0161 \u012fpratęs, kad \u017emon\u0117s vis d\u0117l ko nors skund\u017eiasi. Papasakokit, kas \u010dia vyksta ir kod\u0117l gin\u010dijat\u0117s.\u201c",
+          "adequate": [
+            "Nesiskelbina, bet nepaiso j\u0173 r\u016bpes\u010di\u0173 d\u0117l neteisingumo."
+          ],
+          "missed": [
+            "Kaip pasikeist\u0173 santykis su grupe, jei intervencijos priežastys neb\u016bt\u0173 menkinamos?"
+          ],
+          "improvement": "Kaip pasikeist\u0173 santykis su grupe, jei intervencijos priežastys neb\u016bt\u0173 menkinamos?"
+        },
+        "negative": {
+          "choiceText": "\u201eA\u0161 \u010dia d\u0117l prane\u0161imo apie garsi\u0105 muzik\u0105 ir gin\u010d\u0105. Nebandykit nieko su manim \u2014 a\u0161 \u010dia klausimus u\u017eduodu.\u201c",
+          "failures": [
+            "Autoritarinis tonas didina pasiprie\u0161inim\u0105 ir patvirtina stereotipus."
+          ],
+          "consequences": "Kelias \u012f dialog\u0105 u\u017edaromas ir bendra grup\u0117s opozicija stipr\u0117ja.",
+          "trainingFocus": "Kaip galite atsakyti \u012f \u201ekod\u0117l?\u201c u\u017euot j\u012f slopint\u0119?"
+        },
+        "partially_positive": {
+          "choiceText": "\u201ePopiet\u0117. Gavome triuk\u0161mo skund\u0105 ir ka\u017ekas pamin\u0117jo gin\u010d\u0105. \u017di\u016br\u0117kit, a\u0161 nesistengiu sugadinti jums dienos \u2014 tiesiog reikia patikrinti. Kas situacija?\u201c",
+          "adequate": [
+            "Laid\u017eus, \u017emogi\u0161kas tonas signalizuoja, kad nesate \u010dia bausti",
+            "Supratimo, kad policijos dalyvavimas gali jaustis kaip \u012fsibrovimas, demonstravimas",
+            "Skundo pamin\u0117jimas suteikia kontekst\u0105 j\u016bs\u0173 buvimui"
+          ],
+          "missed": [
+            "Nepasak\u0117te savo vardo, palikdami save anonimniu ir ma\u017eiau patikimu",
+            "Ai\u0161kiai nepripa\u017einote j\u0173 teis\u0117s b\u016bti parke",
+            "Po\u017ei\u016bris veikia, bet stokoja visi\u0161ko skaidrumo, kuris kuria tikr\u0105 ry\u0161\u012f"
+          ],
+          "improvement": "Prid\u0117kite savo vard\u0105 ir ai\u0161kiai pripa\u017einkite j\u0173 teis\u0119 \u012f vie\u0161\u0105 erdv\u0119 \u2014 pilnas skaidrumas reikalauja vardo, priežasties ir ketinimo, ne tik laid\u017eaus tono."
+        }
+      }
+    },
+    "3": {
+      "stageName": "3 faz\u0117 \u2014 Gin\u010do eskalacijos sustabdymas",
+      "criticalSkills": [
+        "Deeskalacija",
+        "Skaidrumas",
+        "Bendruomen\u0117s komunikacija"
+      ],
+      "choiceAnalysis": {
+        "neutral": {
+          "choiceText": "Atsistoti tarp j\u0173 su atviromis delnemis: \u201ePasiduokim vienas kitam erdv\u0117s. Tu \u010dia, tu ten. I\u0161klausysiu po vien\u0105.\u201c",
+          "adequate": [
+            "Saugus erdvinis valdymas",
+            "Tr\u016bksta emocinio darbo."
+          ],
+          "missed": [
+            "K\u0105 gal\u0117tum\u0117te prid\u0117ti, kad pasiektum\u0117te ir emocin\u0119 deeskalacij\u0105?"
+          ],
+          "improvement": "K\u0105 gal\u0117tum\u0117te prid\u0117ti, kad pasiektum\u0117te ir emocin\u0119 deeskalacij\u0105?"
+        },
+        "negative": {
+          "choiceText": "\u201eU\u017eteks. Jei dabar pat nenustosite, abu va\u017eiuosite su manim \u012f nuovad\u0105.\u201c",
+          "failures": [
+            "Grasinimas nutildo, bet kuria apmaud\u0105 ir g\u0117d\u0105."
+          ],
+          "consequences": "Trumpalaik\u0117 ramyb\u0117, bet ilgalaikis apmaudas grup\u0117je.",
+          "trainingFocus": "Kod\u0117l grasinimai neveikia su jaunais \u017emon\u0117mis?"
+        },
+        "positive": {
+          "choiceText": "\u201eVaikinai, matau, kad abu esate susinervin\u0119 \u2014 ir matau, kad tai svarbu. Kry\u0161tofai, vaizdo \u012fra\u0161o dalinimasis v\u0117l viską dar pablogina, suprantu. Jarda, girdžiu ir tave. Bet kum\u0161\u010diais \u010dia nesprend\u017eiam. (Poniai Kov\u00e1\u0159ovai) Ponia, a\u0161 tuo u\u017esimu \u2014 pra\u0161au, duokite man kelias minutes.\u201c",
+          "strengths": [
+            "Vard\u0173 naudojimas, emocij\u0173 patvirtinimas ir teisingumo sistema paverčia konflikt\u0105 \u017eod\u017eiais",
+            "Vaizdo \u012fra\u0161o pakartotinio dalinimo pripažinimas parodo skaitmenin\u0117s pa\u017eeminimo dimensijos supratim\u0105",
+            "Trumpas ponios Kov\u00e1\u0159ovos pripa\u017einimas, neleid\u017eiant jai diktuoti po\u017ei\u016brio, valdo bendruomen\u0117s spaudim\u0105 neprarandant d\u0117mesio",
+            "Lygaus laiko pa\u017eadas atsiliepia \u012f teisingumo instinkt\u0105, ypa\u010d jautr\u0173 \u0161iame am\u017eiuje"
+          ],
+          "professionalImpact": "Kry\u0161tofo kum\u0161\u010diai atsipalaiduoja \u2014 ka\u017ekas suprato, kad vaizdo \u012fra\u0161o dalinimasis v\u0117l yra problemos dalis. Ponia Kov\u00e1\u0159ov\u00e1, sulaukusi d\u0117mesio, grį\u017eta. R\u0117kimas nustoja, gaunate ir faktus, ir pasitik\u0117jim\u0105."
+        },
+        "partially_positive": {
+          "choiceText": "Atsistoti tarp j\u0173 su atviromis deln\u0117mis: \u201eGerai, pakaks. Pasiduokim vienas kitam erdv\u0117s. Kry\u0161tofai, tu stovi \u010dia. Jarda, tu eik ten. I\u0161klausysiu po vien\u0105.\u201c",
+          "adequate": [
+            "Fizinis pozicionavimasis tarp j\u0173 nutraukia eskalacijos geometrij\u0105",
+            "Atviros deln\u0117s signalizuoja neagresij\u0105",
+            "Ai\u0161kios nuorodos atskyrimui suma\u017eina dviprasmi\u0161kum\u0105"
+          ],
+          "missed": [
+            "Sprendė fizin\u0119 rizik\u0105 be jokio emocinio darbo",
+            "Atskyr\u0117 k\u016bnus, bet nepripa\u017eino jausm\u0173 \u2014 pyktis i\u0161lieka po pavir\u0161iumi",
+            "Be emocinio patvirtinimo \u012ftampa gali v\u0117l \u012fsiliepsnoti, kai tik \u017eengsite \u0161alin"
+          ],
+          "improvement": "Sujunkite fizin\u012f atskyrim\u0105 su emociniu pripa\u017einimu \u2014 emocij\u0173 \u012fvardijimas kuriant erdv\u0119 sprendžia ir tiesiogin\u0119 rizik\u0105, ir giliau sl\u016bpan\u010di\u0105 \u012ftamp\u0105."
+        }
+      }
+    },
+    "4": {
+      "stageName": "4 faz\u0117 \u2014 Problemos \u0161aknis ir darbas su emocijomis",
+      "criticalSkills": [
+        "Deeskalacija",
+        "Skaidrumas",
+        "Bendruomen\u0117s komunikacija"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "\u201eMan labai gaila, k\u0105 i\u0161gyvena tavo \u0161eima, Kry\u0161tofai. Logiska, kad tai taip smarkiai u\u017egavo. Jarda, pasakyk jam konkre\u010diai, u\u017e k\u0105 atsipra\u0161ai ir k\u0105 ketini daryti, kad tai i\u0161taisytum.\u201c",
+          "strengths": [
+            "Patvirtinimas + vadovaujamas atsiprašymas = gilesnis susitaikymas, pamoka grupei."
+          ],
+          "professionalImpact": "Atsiprašymas yra nuoširdus, \u012ftampa krenta, santykis tarp berniuk\u0173 atsistato."
+        },
+        "neutral": {
+          "choiceText": "\u201eJarda, i\u0161trink \u012fra\u0161\u0105 ir atsiprašyk tinkamai. Kry\u0161tofai, nusiramink ir paspauskit rankas.\u201c",
+          "adequate": [
+            "I\u0161sprendžia techninę problem\u0105, bet nedirba su emocine patirtimi",
+            "Likviduojamo apmaud\u0173 rizika."
+          ],
+          "missed": [
+            "Ko tr\u016bksta tvariam susitaikymui?"
+          ],
+          "improvement": "Ko tr\u016bksta tvariam susitaikymui?"
+        },
+        "negative": {
+          "choiceText": "\u201eNeturiu laiko tokioms smulkioms nesantaikoms. Jei negalite normaliai elgtis, i\u0161kviesiu j\u016bs\u0173 t\u0117vus ir spr\u0119sime kitaip.\u201c",
+          "failures": [
+            "Skausmo menkinimas + grasinimai \u2192 g\u0117da, pasiprie\u0161inimas, pasitik\u0117jimo \u017elugimas."
+          ],
+          "consequences": "Emocijos v\u0117l \u012fsiliepsnoja, bendradarbiavimas \u017elunga.",
+          "trainingFocus": "Kod\u0117l \u017emogaus skausmo menkinimas didina pakartotinės eskalacijos rizik\u0105?"
+        },
+        "partially_positive": {
+          "choiceText": "\u201eSkamba, kad tau tikrai sunku, Kry\u0161tofai. Jarda, gerai, kad atsipra\u0161ei. Dabar \u2014 Jarda, tu turi i\u0161trinti t\u0105 vaizdo \u012fra\u0161\u0105. Ir abu turite palikti tai praeity ir eiti toliau.\u201c",
+          "adequate": [
+            "Pripa\u017eino Kry\u0161tofo skausm\u0105 su tikra empatija",
+            "Nustat\u0117 reikaling\u0105 praktin\u012f veiksmą \u2014 vaizdo \u012fra\u0161o i\u0161trinimą",
+            "Pripa\u017eino Jardos atsiprašym\u0105 kaip teigiam\u0105 \u017eingsn\u012f"
+          ],
+          "missed": [
+            "Perskub\u0117jo emocin\u012f darb\u0105, d\u0117l kurio susitaikymas iš\u0161lieka",
+            "Kry\u0161tofui nebuvo duota erdv\u0117s reaguoti \u012f atsiprašym\u0105",
+            "Jardos nebuvo paprašyta suprasti poveikio \u2014 tik i\u0161trinti \u012frodymus"
+          ],
+          "improvement": "Leiskite emocin\u012f apsikeitim\u0105 prieš puolant prie praktini\u0173 sprendim\u0173 \u2014 paprašykite Jardos konkre\u010diai i\u0161sakyti, u\u017e k\u0105 atsipra\u0161o, o ne tik spr\u0119sti techninę problem\u0105."
+        }
+      }
+    },
+    "5": {
+      "stageName": "5 faz\u0117 \u2014 Triuk\u0161mas, teis\u0117s ir l\u016bkes\u010diai",
+      "criticalSkills": [
+        "Deeskalacija",
+        "Skaidrumas",
+        "Bendruomen\u0117s komunikacija"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "\u201eEli, tu visi\u0161kai teisi \u2014 j\u016bs turite vis\u0105 teis\u0119 \u010dia b\u016bti, ir parkas yra visiems. Tai apima ir poni\u0105 Kov\u00e1\u0159ov\u0105 ten, kuri taip pat ateina m\u0117gautis savo popiete. \u0160tai ko man reikia: palaikykit garsumą \u0161itame lygyje ar \u017eemiau, ir daugiau joki\u0173 gin\u010d\u0173. Jei galite tai padaryti, n\u0117ra jokio pagrindo baudoms ar bet kokiems tolimesniems veiksmams. S\u0105\u017einingai?\u201c",
+          "strengths": [
+            "Tiesiogiai patvirtina Eli teigin\u012f \u2014 \u201etu visiškai teisi\u201c \u2014 u\u017euot j\u012f atmet\u0119",
+            "Paai\u0161kina konkuruojant\u012f interes\u0105 (ponia Kov\u00e1\u0159ov\u00e1), nepaversdamas paaugli\u0173 niekšais",
+            "L\u016bkes\u010diai yra konkretūs ir pasiekiami \u2014 \u201e\u0161itame lygyje ar \u017eemiau\u201c",
+            "\u201eN\u0117ra jokio pagrindo baudoms\u201c paaiškina teigiam\u0105 paklusnumo pasekm\u0119",
+            "Baigiant \u201eS\u0105\u017einingai?\u201c kviečia sutikim\u0105, o ne primeta taisykles, sukeliant savanori\u0161k\u0105 paklusnum\u0105"
+          ],
+          "professionalImpact": "Eli linkteli. Grup\u0117 priima s\u0105lygas, nes jos jaučiasi kaip derybos, o ne diktatas. Ponia Kov\u00e1\u0159ov\u00e1 girdi pokalbį ir yra patenkinta. Abi pus\u0117s jaučia, kad j\u0173 interesai buvo gerbiami."
+        },
+        "neutral": {
+          "choiceText": "\u201eDabar viskas gerai, t\u0119skit kaip norit, bet daugiau joki\u0173 gin\u010d\u0173 ar mu\u0161tyni\u0173.\u201c",
+          "adequate": [
+            "Nesprendžia bendruomen\u0117s poreikių, nei\u0161naudoja mokomojo momento."
+          ],
+          "missed": [
+            "Kaip subalansuojate teises ir aplinkos poreikius?"
+          ],
+          "improvement": "Kaip subalansuojate teises ir aplinkos poreikius?"
+        },
+        "negative": {
+          "choiceText": "\u201eJei dar kart\u0105 i\u0161girsiu apie jus, kiekvienam skyrium baud\u0105.\u201c",
+          "failures": [
+            "Grasinimai vietoj paai\u0161kinimo \u2192 trumpalaikis efektas, ilgalaikis apmaudas."
+          ],
+          "consequences": "Tyli \u012ftampa, prastesnis santykis ateityje.",
+          "trainingFocus": "Kod\u0117l šviestimas yra efektyvesnis u\u017e prevencines sankcijas?"
+        },
+        "partially_positive": {
+          "choiceText": "\u201eJ\u016bs tikrai turite teis\u0119 \u010dia b\u016bti. Tiesiog laikykit\u0117s protingumo ribų \u2014 muzika dabar normali, ir nenoriu tur\u0117ti gr\u012f\u017eti. Tinka?\u201c",
+          "adequate": [
+            "Pripa\u017eino j\u0173 teis\u0119 b\u016bti parke",
+            "Pagrindin\u0117 \u017einut\u0117 teisinga \u2014 gali likti, jei laikysis protingumo",
+            "Tonas draugi\u0161kas ir nebaudi\u017eiantis"
+          ],
+          "missed": [
+            "\u201eNenoriu tur\u0117ti gr\u012f\u017eti\u201c yra pasl\u0117ptas grasinimas, graunantis teigiam\u0105 ton\u0105",
+            "\u201eProtingumas\u201c yra miglotas \u2014 skirtingi standartai paaugliams ir pensininkams",
+            "Nekreip\u0117si tiesiogiai \u012f ponios Kov\u00e1\u0159ovos r\u016bpes\u010dius, paliekant bendruomen\u0117s pus\u0119 nei\u0161spriest\u0105"
+          ],
+          "improvement": "Nustatykite konkrečius, i\u0161matuojamus l\u016bkes\u010dius, o ne miglotus standartus, ir kreipkit\u0117s \u012f visas suinteresuot\u0105sias šalis \u2014 ne tik \u012f prie\u0161ais esančią grup\u0119 \u2014 kad sukurtum\u0117te tvarų susitarim\u0105."
+        }
+      }
+    },
+    "6": {
+      "stageName": "6 faz\u0117 \u2014 Bendras sprendimas",
+      "criticalSkills": [
+        "Deeskalacija",
+        "Skaidrumas",
+        "Bendruomen\u0117s komunikacija"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "\u201eTai tikrai apgalvotas sprendimas \u2014 j\u016bs patys tai sugalvojot, ir tai veikia visiems. Riedu\u010di\u0173 aik\u0161tel\u0117 yra puiki vieta. Dirbam pagal j\u016bs\u0173 plan\u0105, ir u\u017esuksiu po kurio laiko pa\u017ei\u016br\u0117ti, kaip sekasi. Puikus darbas.\u201c",
+          "strengths": [
+            "\u201eJ\u016bs patys tai sugalvojot\u201c suteikia jiems nuosavyb\u0119 \u2014 tai j\u0173 susitarimas, ne j\u016bs\u0173 \u012fsakymas",
+            "\u201eTai veikia visiems\u201c patvirtina, kad jie atsižvelg\u0117 \u012f kitus, ne tik \u012f save",
+            "\u201eU\u017esuksiu\u201c yra lengva atsakomyb\u0117 be grasinimo \u2014 pasitik\u0117jimas su buvimu",
+            "\u201ePuikus darbas\u201c yra konkretus teigiamas sustiprinimas, signalizuojantis, kad atsakingas elgesys pastebimas ir gerbiamas",
+            "Paaugli\u0173 traktavimas kaip geb\u0105nči\u0173 spr\u0119sti problemas, o ne kaip problem\u0173, kurias reikia valdyti, yra transformuojantis"
+          ],
+          "professionalImpact": "Grup\u0117 akivaizdžiai prašvies\u0117ja. Eli nu\u0161ypsosi. Jie pradeda rinkti daiktus persikelti. Ponia Kov\u00e1\u0159ov\u00e1 pritardama link\u010dios. Susitarimas patvaresnis, nes priklauso jiems."
+        },
+        "negative": {
+          "choiceText": "\u201eDarysim pagal mane: galite likti parke, bet muzik\u0105 visi\u0161kai i\u0161jungiat. Jokio garsiakalbio, jokio triuk\u0161mo.\u201c",
+          "failures": [
+            "Griežtas požiūris baud\u017eia pastangas kompromisui."
+          ],
+          "consequences": "Demotyvacija, mažesnis savanori\u0161kas bendradarbiavimas.",
+          "trainingFocus": "Kada reiklumas b\u016btinas ir kaip j\u012f pagr\u012fsti?"
+        },
+        "neutral": {
+          "choiceText": "\u201eGerai, darykit, k\u0105 manot geriausia \u2014 a\u0161 nesikiš.\u201c",
+          "adequate": [
+            "Atsisako atsakomyb\u0117s, bet nepripa\u017e\u012fsta j\u0173 pastang\u0173; silpnas poveikis santykiui."
+          ],
+          "missed": [
+            "Kod\u0117l pripa\u017einimas svarbus susitarimo tvarumui?"
+          ],
+          "improvement": "Kod\u0117l pripa\u017einimas svarbus susitarimo tvarumui?"
+        },
+        "partially_positive": {
+          "choiceText": "\u201eGal b\u016bt\u0173 veiksminga. Bandykit \u2014 bet atminkite, laikykit\u0117s protingumo, kitaip gr\u012f\u0161iu su kitu po\u017ei\u016briu.\u201c",
+          "adequate": [
+            "Pri\u0117m\u0117 grup\u0117s pasi\u016blym\u0105, o ne j\u012f atmet\u0117",
+            "Leido jiems \u012fgyvendinti savo sprendim\u0105",
+            "Neprimetė bereikalingai griežt\u0173 s\u0105lyg\u0173"
+          ],
+          "missed": [
+            "Iškart griau pasi\u016blym\u0105 s\u0105lyginiu grasinimu (\u201ekitu po\u017ei\u016briu\u201c)",
+            "\u201eBandykit\u201c implikuoja, kad tikitės nes\u0117km\u0117s",
+            "Nepripažino, kad jie patys sugeneravo sprendim\u0105 \u2014 praleista galimyb\u0117 teigiamam sustiprinimui"
+          ],
+          "improvement": "Kai grup\u0117 si\u016blo proting\u0105 sprendim\u0105, palaikykite j\u012f nuoširdžiu pagyrimu, o ne s\u0105lyginiu pritarimu \u2014 nuosavyb\u0117 ir teigiamas sustiprinimas duoda tvaresnį paklusnum\u0105 nei palydintys grasinimai."
+        }
+      }
+    },
+    "7": {
+      "stageName": "7 faz\u0117 \u2014 Pabaiga vietoje",
+      "criticalSkills": [
+        "Deeskalacija",
+        "Skaidrumas",
+        "Bendruomen\u0117s komunikacija"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "\u201eA\u010di\u016b u\u017e bendradarbiavim\u0105 \u2014 jums visiems. Eli, Nela, ačiū, kad kalb\u0117jot\u0117s su manimi, o ne u\u017esidar\u0117te. Kry\u0161tofai, tikiuosi, tavo tė\u010diui pager\u0117s. Jarda, tai, k\u0105 padarei anksčiau, pareikalavo drąsos. Jei kam nors i\u0161 j\u016bs\u0173 kada reik\u0117s pagalbos \u2014 galite kreiptis.\u201c",
+          "strengths": [
+            "Vard\u0173 naudojimas asmenikuoja susidūrim\u0105 \u2014 jie yra individai, ne \u201epaauglių grupė\u201c",
+            "Kry\u0161tofo šeimos situacijos pripa\u017einimas parodo, kad klausėtės ir rūpinotės",
+            "Jardos atsiprašymo pagyrimas sustiprina susitaikym\u0105",
+            "Pagalbos pasiūlymas ateityje performuoja policijos ir jaunimo santyk\u012f i\u0161 priešiško \u012f paramin\u012f",
+            "\u201eM\u0117gaukit\u0117s popiete\u201c grąžina jiems j\u0173 dien\u0105"
+          ],
+          "professionalImpact": "Nela nu\u0161ypsosi. Kry\u0161tofas tyliai linkt\u010dios. Jarda nusteb\u0119s, kad buvo pagirtas. Eli pamoja. Jie i\u0161eina nešdami iš esm\u0117s skirtingą patirt\u012f apie policij\u0105. Pasitik\u0117jimas policija kaip pagalbos šaltiniu didėja."
+        },
+        "negative": {
+          "choiceText": "\u201ePrisižiūrėkit kit\u0105 kart\u0105, kitaip visi gausite baudas. Daugiau tokiu maloniu neb\u016bsiu.\u201c",
+          "failures": [
+            "Papeikiantis tonas griauna sukurt\u0105 pasitik\u0117jim\u0105."
+          ],
+          "consequences": "Kartėlis, mažesnis noras bendradarbiauti kit\u0105 kart\u0105.",
+          "trainingFocus": "Kaip sulaikysite savo frustracij\u0105 intervencijos pabaigoje?"
+        },
+        "neutral": {
+          "choiceText": "\u201eNa gerai, \u0161\u012fkart leisim ramu, bet kit\u0105 kart\u0105 gali b\u016bti bauda.\u201c",
+          "adequate": [
+            "Aiškios ribos be j\u0173 pastang\u0173 pripa\u017einimo."
+          ],
+          "missed": [
+            "Kada \u012fsp\u0117jimas yra pakankamas ir kada daro \u017eal\u0105?"
+          ],
+          "improvement": "Kada \u012fsp\u0117jimas yra pakankamas ir kada daro \u017eal\u0105?"
+        },
+        "partially_positive": {
+          "choiceText": "\u201eA\u010di\u016b, kad bendradarbavote. J\u016bs puikiai susitvarkyste. Geros popiet\u0117s, ir palaikykit ramyb\u0119 ten.\u201c",
+          "adequate": [
+            "Šiltas, dėkingas ir nuoširdžiai draugiškas u\u017ebaigimas",
+            "Teigiamas sustiprinimas pripa\u017e\u012fstant j\u0173 brand\u0105",
+            "Tonas atitinka situacij\u0105 \u2014 laid\u017eus ir pagarbus"
+          ],
+          "missed": [
+            "Neskreip\u0117si \u012f individus \u2014 ypač Kry\u0161tof\u0105, kuris pasidalino kažkuo giliai asmeniniu",
+            "Jardos sunkus atsiprašymo \u017eingsnis liko nepripa\u017eintas",
+            "Bendras grup\u0117s pripa\u017einimas vietoj individualaus, turinčio did\u017eiul\u0119 reik\u0161m\u0119 paaugliams"
+          ],
+          "improvement": "Investuokite papildom\u0105 trisde\u0161imt sekundži\u0173 \u012f individualų pripa\u017einimą \u2014 kreipiantis \u012f kiekvieną žmogų vardu ir pripa\u017e\u012fstant jo konkret\u0173 ind\u0117l\u012f, teigiama sąveika tampa \u012fsimintina."
+        }
+      }
+    }
+  },
+  "comprehensiveMetrics": {
+    "youthEngagement": {
+      "description": "Bendra \u017eodinės ir ne\u017eodinės komunikacijos kokyb\u0117",
+      "indicators": {
+        "excellent": [
+          "Nuolat demonstruojamas aktyvus klausymasis",
+          "Kiekvienai situacijai tinkamas tonas",
+          "Aiški, glausta informacijos perdavimas",
+          "Efektyvus tylos ir kantryb\u0117s panaudojimas"
+        ],
+        "poor": [
+          "Pertraukin\u0117jimas ar kalb\u0117jimas per kit\u0105",
+          "Agresyvus ar atmestinis tonas",
+          "Painūs ar prieštaringi pranešimai",
+          "Nesugebėjimas perskaityti neverbalinius ženklus"
+        ]
+      }
+    },
+    "proceduralFairness": {
+      "description": "Teisini\u0173 ir tarnybini\u0173 reikalavim\u0173 laikymasis",
+      "indicators": {
+        "excellent": [
+          "Vis\u0173 teisini\u0173 reikalavim\u0173 laikymasis",
+          "Tinkamas dokumentavimas",
+          "Reikiamų tarnyb\u0173 \u012fjungimas",
+          "Saugumo protokol\u0173 palaikymas"
+        ],
+        "poor": [
+          "Privalomo pranešimo praleidimas",
+          "Saugumo proced\u016br\u0173 nesilaikymas",
+          "Teisini\u0173 reikalavim\u0173 ignoravimas",
+          "Nepilnas arba joks dokumentavimas"
+        ]
+      }
+    },
+    "emotionalIntelligence": {
+      "description": "Geb\u0117jimas atpa\u017einti emocijas ir \u012f jas reaguoti",
+      "indicators": {
+        "excellent": [
+          "Tikslus emocini\u0173 b\u016bsen\u0173 atpa\u017einimas",
+          "Reagavimas su tinkama empatija",
+          "Sav\u0173 emocini\u0173 reakcij\u0173 valdymas",
+          "Deeskalacija per emocin\u012f patvirtinimą"
+        ],
+        "poor": [
+          "Akivaizdaus emocinio streso nepastebėjimas",
+          "Reagavimas teismu ar kritika",
+          "Leidimas asmeniniams jausmams \u012ftakoti atsakymą",
+          "Eskalacija per emocin\u012f atmestim\u0105"
+        ]
+      }
+    },
+    "proportionateResponse": {
+      "description": "Kult\u016brini\u0173 veiksni\u0173 supratimas ir pagarba",
+      "indicators": {
+        "excellent": [
+          "Kult\u016brin\u0117s dinamikos atpa\u017einimas",
+          "Pagarba \u0161eimos strukt\u016brai",
+          "Kult\u016brini\u0173 prielaid\u0173 vengimas",
+          "Tinkamas po\u017ei\u016brio pritaikymas"
+        ],
+        "poor": [
+          "Kult\u016brini\u0173 stereotip\u0173 k\u016brimas",
+          "Kult\u016brini\u0173 veiksni\u0173 ignoravimas",
+          "Sav\u0173 kult\u016brini\u0173 vertybi\u0173 primetimas",
+          "Kult\u016brinio nejautrumo demonstravimas"
+        ]
+      }
+    },
+    "communityRelations": {
+      "description": "Bendradarbiavimo su bendruomen\u0117s suinteresuotosiomis šalimis kokyb\u0117 ir ilgalaiki\u0173 santyki\u0173 kūrimas",
+      "indicators": {
+        "excellent": [
+          "Vis\u0173 dalyvaujan\u010di\u0173 šali\u0173 poreiki\u0173 balansavimas",
+          "Pasitik\u0117jimo k\u016brimas per skaidri\u0105 komunikacij\u0105",
+          "Pagarbūs bendruomen\u0117s rūpesčių pripažinimas",
+          "Tvaraus teigiamo \u012fsp\u016bd\u017eio palikimas"
+        ],
+        "poor": [
+          "Bendruomen\u0117s suinteresuot\u0173j\u0173 šali\u0173 rūpesčių ignoravimas",
+          "Vienos šalies pirmenyb\u0117 kitų s\u0105skaita",
+          "Atmestinis požiūris \u012f visuomen\u0117s rūpesčius",
+          "Ilgalaikio policijos ir bendruomen\u0117s pasitik\u0117jimo žalojimas"
+        ]
+      }
+    }
+  },
+  "mistakePatterns": {
+    "escalation": {
+      "pattern": "Pasirinkimai, kurie padidino \u012ftamp\u0105",
+      "examples": [
+        "Agresyvus \u012f\u0117jimas",
+        "Kaltinimai",
+        "Grasinimai"
+      ],
+      "impact": "Kiekviena eskalacija apsunkina sprendim\u0105 ir didina smurto rizik\u0105",
+      "correction": "Praktikuokite rami\u0105 b\u016bsen\u0105 ir negrasminanči\u0105 komunikacij\u0105"
+    },
+    "missingCues": {
+      "pattern": "Nesugeb\u0117jimas atpa\u017einti kritini\u0173 rodikli\u0173",
+      "examples": [
+        "Savižudybės rizika",
+        "Vaiko trauma",
+        "Galios dinamika"
+      ],
+      "impact": "Rodiklių praleidimas gali v\u0117sti prie tragiškų pasekmi\u0173",
+      "correction": "Ugdykite sistemingus vertinimo \u012fg\u016bd\u017eius ir steb\u0117jimo technikas"
+    },
+    "judgmental": {
+      "pattern": "Asmenini\u0173 vertybi\u0173 ar kritikos primetimas",
+      "examples": [
+        "Barimas",
+        "Moralizavimas",
+        "Kaltinimas"
+      ],
+      "impact": "Teisimas griauna pasitik\u0117jim\u0105 ir trukdo atvirumui",
+      "correction": "I\u0161laikykite profesionalų neutralum\u0105 ir sutelkite d\u0117mes\u012f \u012f saugum\u0105"
+    },
+    "procedural": {
+      "pattern": "Per didelis pasitik\u0117jimas proced\u016bromis be \u017emogi\u0161kumo",
+      "examples": [
+        "Robotiški atsakymai",
+        "Kontrolinio s\u0105rašo požiūris",
+        "Empatijos tr\u016bkumas"
+      ],
+      "impact": "Mažina paklusnum\u0105 ir praleid\u017eia svarbi\u0105 informacij\u0105",
+      "correction": "Subalansuokite proced\u016bras su \u017emogi\u0161ku ryšiu"
+    }
+  },
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Puikus pasirodymas! Šiame sud\u0117tingame scenarijuje pademonstravo\u0117te i\u0161skirtinius komunikacijos \u012fg\u016bd\u017eius. J\u016bs\u0173 geb\u0117jimas subalansuoti empatij\u0105 su teis\u0117saugos funkcija, atpa\u017einti emocin\u0119 dinamik\u0105 ir suteikti visapus\u0119 param\u0105 i\u0161laikant saugum\u0105 rodo šiuolaikini\u0173 policijos princip\u0173 meistriškumą. J\u016bs\u0173 požiūris sukūr\u0117 tikr\u0105 pasitik\u0117jim\u0105 jaunimo grupėje.",
+      "mostlyPositive": "Stiprus bendras pasirodymas su puikiais krizių valdymo \u012fg\u016bd\u017eiais. Parodėte ger\u0105 emocin\u012f intelekt\u0105 ir priėmėte daugiausia teisingus sprendimus. Pagrindin\u0117 stipryb\u0117: [SPECIFIC_STRENGTH]. Tobul\u0117jimo sritis: [SPECIFIC_IMPROVEMENT]. J\u016bs\u0173 empatiškas po\u017eiūris tikrai pak\u0117it\u0117 situacij\u0105 šiai grupei.",
+      "mixed": "Kai kuriuos aspektus tvark\u0117te gerai, bet praleidote svarbi\u0173 galimybi\u0173. Stipryb\u0117s: [SPECIFIC_STRENGTHS]. Ta\u010diau [SPECIFIC_WEAKNESSES] reikalauja d\u0117mesio. Atminkite, kad sąveika su jaunimu reikalauja autoriteto ir pagarbos bei supratimo pusiausvyros. Per\u017ei\u016br\u0117kite [TRAINING_AREAS], kad pagerinti savo reakcij\u0105.",
+      "mostlyNegative": "Šis scenarijus atskleidė reikšming\u0173 sprag\u0173 krizin\u0117s komunikacijos \u012fg\u016bd\u017eiuose. Nors [MINOR_POSITIVE], dauguma j\u016bs\u0173 pasirinkim\u0173 eskalavo \u012ftamp\u0105 arba nepasteb\u0117jo svarbiu emocini\u0173 poreiki\u0173. Konkre\u010diai, [MAJOR_FAILURES]. Rekomenduojamas skubus mokymas: [CRITICAL_TRAINING]. Šios situacijos formuoja jaun\u0173 \u017emoni\u0173 ilgalaik\u012f santyk\u012f su policija.",
+      "allNegative": "J\u016bs\u0173 po\u017ei\u016bris šiame scenarijuje kelia susir\u016bpinim\u0105 ir galimai yra kontraproduktyvus. Nuolatinė eskalacija, nepasteb\u0117ti emociniai poreikiai ir empatijos tr\u016bkumas gal\u0117jo v\u0117sti prie ilgalaikio nepasitik\u0117jimo. Privalomas korektinis mokymas reikalingas: krizin\u0117 intervencija, deeskalacijos technikos ir emocinis intelektas. Atminkite: j\u016bs\u0173 komunikacija formuoja, kaip jaunimas vertina policij\u0105 ilgiems metams."
+    }
+  },
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "\u201eSuprantu, kad tai asmeninė, bet esame \u010dia, nes ka\u017ekam gali b\u016bti pavojinga.\u201c",
+      "\u201eMan labai gaila, k\u0105 i\u0161gyvenat. Skamba prislėgianmai, bet j\u016bs\u0173 šeima j\u016bs\u0173 reikia.\u201c",
+      "\u201eEi, j\u016bs n\u0117ra b\u0117doj. Mes \u010dia, kad visi b\u016bt\u0173 saugūs.\u201c",
+      "\u201eMinėjote, kad bijote. Klausau. Ar galite papasakoti daugiau?\u201c"
+    ],
+    "poorPhrases": [
+      "\u201eStot! Kas r\u0117kia ir kod\u0117l?\u201c",
+      "\u201eTaip nesielkite, kai \u0161alia vaikas!\u201c",
+      "\u201eNeb\u016bkit tokie dramatiški. Susiimkit.\u201c",
+      "\u201eNežinau, tai teismo reikalas.\u201c"
+    ],
+    "analysisCriteria": {
+      "tone": "Ar jis buvo tinkamas emociniam kontekstui?",
+      "clarity": "Ar žinut\u0117 buvo ai\u0161ki ir vienareikšmė?",
+      "empathy": "Ar ji pripa\u017eino jausmus ir parod\u0117 supratim\u0105?",
+      "effectiveness": "Ar pasiek\u0117 numatyt\u0105 rezultat\u0105?",
+      "safety": "Ar pirmenybę teikit vis\u0173 saugumui?"
+    }
+  },
+  "scenarioSpecificLessons": {
+    "1": "Pradinis pri\u0117jimas parke lemia jaunimo bendradarbiavim\u0105.",
+    "2": "Skaidrus intervencijos priežasties paai\u0161kinimas kuria pasitik\u0117jim\u0105.",
+    "3": "Deeskalacija ir aktyvus klausymasis yra efektyvesni u\u017e grasinimus.",
+    "4": "Emocij\u0173 patvirtinimas ir vadovaujamas atsiprašymas palaiko susitaikym\u0105.",
+    "5": "Aiškūs l\u016bkes\u010diai d\u0117l triuk\u0161mo veda prie savanori\u0161ko paklusnumo.",
+    "6": "Kartu rastas sprendimas didina grup\u0117s \u012fsipareigojim\u0105.",
+    "7": "Teigiama pabaiga stiprina jaunimo ir policijos santyk\u012f."
+  },
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Pažangi\u0173 krizini\u0173 deryb\u0173 kursas",
+        "Kit\u0173 mokymas deeskalacijos technik\u0173",
+        "Specializuota \u0161eimos krizių komanda"
+      ],
+      "good": [
+        "I\u0161plėstinis psichin\u0117s sveikatos reagavimas",
+        "Pažangi smurto artimoje aplinkoje dinamika",
+        "Vaik\u0173 psichologija krizin\u0117se situacijose"
+      ],
+      "average": [
+        "Bazin\u0117 krizin\u0117 intervencija",
+        "Aktyvaus klausymosi \u012fg\u016bd\u017eiai",
+        "Emocinio intelekto ugdymas"
+      ],
+      "poor": [
+        "Privalomas deeskalacijos mokymas",
+        "Krizin\u0117s intervencijos sertifikavimas",
+        "Empatijos ir komunikacijos seminaras",
+        "Smurto artimoje aplinkoje reagavimo protokolas"
+      ]
+    }
+  },
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Bendro pasirodymo santrauka",
+        "content": [
+          "Balas",
+          "Pasirodymo lygis",
+          "Pagrindinės stipryb\u0117s",
+          "Kritinės silpnyb\u0117s"
+        ]
+      },
+      {
+        "title": "Žingsnis po \u017eingsnio analizė",
+        "content": [
+          "Padarytas pasirinkimas",
+          "Poveikis",
+          "Alternatyv\u016bs po\u017eiūriai",
+          "Mokymosi taškai"
+        ]
+      },
+      {
+        "title": "Komunikacijos efektyvumas",
+        "content": [
+          "Geriausi momentai",
+          "Praleistos galimyb\u0117s",
+          "Dialogo analizė"
+        ]
+      },
+      {
+        "title": "Kritiniai sprendimo taškai",
+        "content": [
+          "Psichin\u0117s sveikatos atpa\u017einimas",
+          "Vaiko saugumas",
+          "Teisin\u0117 rezoliucija"
+        ]
+      },
+      {
+        "title": "Tendencij\u0173 analizė",
+        "content": [
+          "Nuolatinės stipryb\u0117s",
+          "Pasikartojančios klaidos",
+          "Sprendim\u0173 pri\u0117mimo tendencijos"
+        ]
+      },
+      {
+        "title": "Profesinis tobul\u0117jimas",
+        "content": [
+          "Skubūs mokymo poreikiai",
+          "Ilgalaikis \u012fg\u016bd\u017ei\u0173 ugdymas",
+          "Rekomenduojami resursai"
+        ]
+      },
+      {
+        "title": "Pritaikymas realiame pasaulyje",
+        "content": [
+          "Kaip tai perkeliama \u012f lauko darb\u0105",
+          "Dažni scenarijai",
+          "Geriausios praktikos"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,447 @@
+{
+    "id": "traffic-stop",
+    "title": "Dopravní kontrola — Eskalace a komunikace",
+    "description": "Pokročilý scénář zahrnující rutinní dopravní kontrolu, která eskaluje, když řidič, už ve stresu z osobních problémů a ve spěchu na klíčovou schůzku, začne být stále nepřátelštější. Strážník musí vyvážit důrazné vymáhání zákona s empatií, zvládat urážky, natáčení, bezpečnostní situace, úzkost spolujezdkyně a osobní odhalení — to vše při zachování procesní transparentnosti a profesionálního klidu.",
+    "icon": "🚗",
+    "instructor": {
+        "name": "Seržant Miller",
+        "avatar": "👮‍♂️",
+        "introduction": "Dopravní kontroly jsou nejčastější přímou interakcí mezi policií a veřejností a utvářejí, jak miliony lidí vnímají orgány činné v trestním řízení. Výzkum soustavně ukazuje, že procesní spravedlnost při dopravních kontrolách — vysvětlení, proč byl někdo zastaven, představení se a zacházení s řidičem s respektem — má větší dopad na důvěru veřejnosti než samotný výsledek. Řidič, kterého zastavíte, může prožívat nejhorší den svého života: nemocné dítě, práce na vážkách, rozpadající se vztah. Nic z toho neomlouvá překročení rychlosti, ale vše to utváří, jak řidič prožívá vaši autoritu. Vaší výzvou je být důrazný i lidský zároveň — vymáhat zákon a přitom zacházet s osobou za volantem jako s někým, jehož spolupráci si zasloužíte svou profesionalitou, ne jako s někým, jehož podřízenost vynucujete silou. Jak začnete, jak reagujete na nepřátelství, jak zvládnete bezpečnostní momenty a jak interakci uzavřete — to vše rozhodne o tom, zda tento řidič řekne deseti lidem, že policie jedná spravedlivě, nebo že policie je problém."
+    },
+    "timedChoices": true,
+    "completionBadges": [
+        "scenario-traffic-stop-complete"
+    ],
+    "perfectBadge": "perfect-scenario-traffic-stop",
+    "finalMessage": {
+        "revelation": "Pan Novák je osmadvacetiletý otec samoživitel dvou dětí. Jeho sedmileté dceři byla před třemi měsíci diagnostikována leukémie a účty za léčbu jsou zničující. Spěchal na schůzku s nadřízeným, který naznačil, že se blíží propouštění — ztráta zaměstnání by znamenala ztrátu zdravotního pojištění pokrývajícího léčbu jeho dcery. Jeho spolujezdkyně, paní Nováková, je jeho matka, která hlídala děti, aby mohl na schůzku. Už tak byla úzkostná, protože ví, pod jakým tlakem její syn je, a bála se, že ho kontrola připraví o práci. Po vaší interakci dorazil pan Novák o patnáct minut pozdě, ale klidný. Jeho nadřízený si všiml jeho vyrovnaného chování a nabídl mu flexibilní rozvrh, aby mohl zvládat dcerčiny návštěvy u lékařů. Později řekl kolegovi, že strážník, který ho zastavil, byl první autoritou za několik měsíců, která s ním jednala jako s člověkem, ne jako s problémem. Způsob, jakým jste kontrolu zvládli, nevymáhal pouze dopravní předpis — utvářel, jak muž v krizi vnímá celou instituci policie.",
+        "keyLessons": [
+            "Profesionální představení jménem a konkrétním přestupkem okamžitě zakládá legitimitu a snižuje u řidiče podezření, že kontrola je svévolná nebo diskriminační",
+            "Uznání časového tlaku nebo frustrace neoslabuje autoritu — signalizuje, že řidiče vnímáte jako člověka se životem za hranicemi této kontroly, což získává spolupráci místo vynucování podřízenosti",
+            "Osobní urážky během dopravních kontrol jsou téměř vždy projevem skrytého stresu, nikoli skutečnými útoky — přeformulování směrem k vašemu poslání bezpečnosti silničního provozu vás drží nad konfliktem a modeluje chování, které chcete vidět",
+            "Transparentnost pod drobnohledem — uvedení služebního čísla a potvrzení práva na stížnost — odzbrojuje nepřátelství účinněji než jakýkoli projev autority",
+            "Jasné, konkrétní slovní pokyny v bezpečnostních momentech předcházejí nedorozuměním, která mohou rutinní kontrolu proměnit v nebezpečnou — říct řidiči přesně, kam má dát ruce a kdy se pohnout, je rozdíl mezi kontrolou a chaosem",
+            "Správní uvážlivost není slabost — vědět, kdy napomenutí slouží bezpečnosti silničního provozu a důvěře veřejnosti lépe než pokuta, ukazuje profesní vyspělost a úsudek",
+            "Jak uzavřete dopravní kontrolu, určuje trvalou vzpomínku řidiče na celou interakci a to, co řekne ostatním o policii — posledních třicet sekund má nepřiměřený dopad na důvěru veřejnosti"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Výjezd a zastavení",
+            "sceneUpdate": {
+                "emoji": "🚓",
+                "title": "U silnice — První kontakt",
+                "desc": "Pozdní odpoledne na rušné hlavní silnici. Zastavili jste tmavý sedan za překročení povolené rychlosti o 25 km/h. Řidič, muž kolem pětatřiceti v pomačkané košili, sevřel volant a je viditelně rozrušený. Starší žena na sedadle spolujezdce se dívá do klína a vyhýbá se očnímu kontaktu."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Hlídka, prověrka registrace tmavého sedanu — čistý záznam. Registrovaný majitel Novák, žádné nevyřízené zatykače, žádné předchozí kontroly v systému."
+                },
+                {
+                    "character": "driver",
+                    "text": "Proč jste mě zastavil? Nic jsem neudělal špatně!"
+                }
+            ],
+            "prompt": "Jak zvolíte úvodní komunikaci?",
+            "options": [
+                {
+                    "text": "Přistoupíte k okénku klidným, vyrovnaným krokem a navážete oční kontakt. 'Dobrý den, pane, jsem strážník Norton. Zastavil jsem vás, protože radar naměřil překročení povolené rychlosti o 25 km/h u té poslední křižovatky. Chápu, že zastavení může být nepříjemné, ale potřebuji vám sdělit konkrétní důvod. Mohu vidět váš řidičský průkaz a doklady k vozidlu, prosím?' Během celé doby držíte ruce na viditelném místě a mluvíte konverzačním tónem.",
+                    "feedback": "Proč: Představení jménem, konkrétní přestupek a zdvořilá žádost o doklady zakládají profesionální rámec od první věty. Řidič ví, kdo jste, proč byl zastaven a co potřebujete — odstraňuje to nejasnosti a podezření, že kontrola je svévolná. | DŮSLEDKY: Pan Novák stiskne čelist, ale sáhne po dokladech. Ví, že je to legitimní. Jeho matka na sedadle spolujezdce se mírně uvolní — strážník zní profesionálně, ne agresivně. Interakce má základ v transparentnosti. | Reflexe: Jak uvedení vašeho jména a konkrétního přestupku v první větě mění celou trajektorii dopravní kontroly?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Přistoupíte k okénku řidiče šikmo, jednu ruku položenou na opasku, a nakloníte se, abyste promluvili otevřeným oknem. 'Dobrý den. Zastavil jsem vás za překročení rychlosti tady na hlavní. Budu potřebovat řidičský průkaz a doklady k vozidlu, prosím.' Krátce pohlédnete na spolujezdkyni, zaznamenáte její úzkostný postoj, a pak se otočíte zpět k řidiči s očekávavým výrazem, aniž byste se představili nebo upřesnili konkrétní rychlost.",
+                    "feedback": "Proč: Zmíníte důvod kontroly a zůstáváte zdvořilí, což je lepší než strohý požadavek na doklady. Vynecháváte ale představení a neupřesňujete přestupek, čímž řidiči odepřete plnou transparentnost budující důvěru. | DŮSLEDKY: Řidič spolupracuje, ale zůstává skeptický ohledně oprávněnosti kontroly. Jeho spolujezdkyně nervózně vzhlédne. Napětí neroste, ale důvěra se plně nebuduje. | Reflexe: Kolik podrobností o přestupku byste měli poskytnout předem, abyste zabránili řidičovu pocitu, že kontrola je svévolná?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Přijdete k okénku s věcným, úředním výrazem a dvakrát poklepete na střechu auta, abyste upoutali řidičovu pozornost. 'Dobrý den, řidičský průkaz a doklady k vozidlu, prosím.' Natáhnete ruku směrem k řidiči dlaní nahoru a čekáte. Žádné jméno, žádné vysvětlení, žádný oční kontakt se spolujezdkyní — jen strohá procedurální žádost přednesená monotónním hlasem, která řidiči nedává absolutně nic, z čeho by pochopil, proč byl zastaven.",
+                    "feedback": "Proč: Nekonfrontační, ale chladné. Chybí představení a důvod kontroly, takže řidič nemá žádnou informaci o tom, proč byl zastaven. Tuto mezeru vyplní podezřením a nelibostí. | DŮSLEDKY: Pan Novák na vás zírá: „Za co? Co jsem udělal?“ Jeho matka něco šeptá. Spolupráce pokračuje, ale napětí přetrvává, protože jste neodpověděli na nejzákladnější otázku v jeho mysli. | Reflexe: Co by vám osobně pomohlo přijmout zásah s menším odporem?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Rázným krokem přistoupíte k okénku, se sevřenou čelistí se nakloníte těsně k řidičově tváři. Namíříte prst přímo na jeho hruď a promluvíte tlumeným, ostrým tónem: 'Uklidněte se a ukažte mi doklady, nebo to pro vás dopadne hůř.' Druhá ruka vám okázale spočívá na služebním opasku. Starší žena na sedadle spolujezdce sebou trhne, když zaslechne ostří ve vašem hlase. Udržujete pozici a upřeně se na řidiče díváte, čímž dáváte jasně najevo, že tohle je rozkaz, ne rozhovor.",
+                    "feedback": "Proč: Hrozba hned na začátku eskaluje situaci, která byla pouze napjatá, do nepřátelské roviny. Řidič neudělal nic, co by ospravedlňovalo hrozbu — vyjádřil frustraci. Začít zastrašováním signalizuje, že tato kontrola je o moci, ne o bezpečnosti. | DŮSLEDKY: Pan Novák rozšíří oči, pak je přivře. „Vyhrožujete mi?“ Jeho matka sahá po telefonu. Dynamika spolujezdce se změnila — oba cestující nyní vnímají nebezpečí. Každá následující interakce nese tíhu tohoto úvodu. | Reflexe: Jak často hrozby na začátku dopravní kontroly skutečně vedou ke spolupráci oproti vzdoru?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Řidič ve spěchu",
+            "sceneUpdate": {
+                "emoji": "🕒",
+                "title": "Nervózní časový tlak",
+                "desc": "Řidič netrpělivě poklepává na volant a opakovaně se dívá na hodinky. Jeho matka mu klade ruku na paži a snaží se ho uklidnit. Stres v autě je hmatatelný — tohle je jasně o něčem víc než o pokutě za rychlost."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "Můžeme to urychlit? Spěchám na schůzku, která může rozhodnout, jestli si udržím práci!"
+                },
+                {
+                    "character": "passenger",
+                    "text": "(tiše, k řidiči) Prostě spolupracuj, prosím tě..."
+                }
+            ],
+            "prompt": "Jak reagujete na časový tlak bez ztráty autority?",
+            "options": [
+                {
+                    "text": "Pomalu přikývnete a spustíte podložku s dokumenty k boku, abyste řidiči věnovali plnou pozornost. 'Chápu, že spěcháte a ta schůzka je pro vás důležitá — vidím ten stres. Udělám maximum, abych to vyřídil co nejrychleji, to vám slibuji. Když budeme spolupracovat a projdeme to společně, brzy budete zpátky na cestě.' Krátce pohlédnete na jeho matku a uznáte její tichou starost, pak se s plným soustředěním vrátíte k dokladům.",
+                    "feedback": "Proč: Empatie plus povzbuzení ke spolupráci. Uznáváte konkrétní starost — schůzku — místo abyste ji odmítli. Formulace spolupráce jako nejrychlejší cesty vpřed dává řidičově naléhavosti produktivní východisko. Jeho matka slyší rozumného profesionálního strážníka. | DŮSLEDKY: Pan Novák vydechne. Poklepávání ustane. Podá doklady bez dalších protestů. Tichá úleva jeho matky je viditelná. Interakce se posunula od konfrontace ke spolupráci, protože jste uznali jeho realitu, aniž byste se vzdali svého postupu. | Reflexe: Jak propojení spolupráce s rychlostí promění řidičovu naléhavost z překážky v spojence?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Odtrhnete pohled od dokladů a krátce vzhlédnete. 'Chápu, že spěcháte — nikdo nechce trčet na kraji silnice, to je jasné. Zpracuji to tak rychle, jak to půjde.' Vrátíte pozornost k papírům a pracujete metodicky, aniž byste záměrně zpomalovali, s krátkým přikývnutím na znamení, že situaci berete na vědomí — ale nenabídnete žádné zasazení spolupráce jako prostředku, jak celý proces ještě urychlit.",
+                    "feedback": "Proč: Uznáváte časový tlak a zavazujete se k efektivitě, což ukazuje určitou empatii. Chybí ale formulace spolupráce jako nejrychlejší cesty vpřed — bez ní může řidič dál naléhat a přerušovat, místo aby procesu pomáhal. | DŮSLEDKY: Řidič je poněkud uklidněn, ale stále se ptá, jak dlouho to ještě potrvá. Jeho matka si povzdechne. Kontrola probíhá bez většího tření, ale také bez plné spolupráce. | Reflexe: Jak explicitní propojení spolupráce s rychlostí mění řidičovo chování během kontroly?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Oči necháte upřené na řidičák v ruce a odpovíte plochým, strohým tónem, aniž byste vzhlédli. 'Spolupracujte prosím, ať to můžeme rychle vyřídit.' Otočíte průkaz, zkontrolujete zadní stranu a začnete psát na podložku. Žádné uznání jeho schůzky, žádné zaregistrování obav vepsaných v jeho tváři, žádný náznak, že jste vnímali cokoli jiného než procedurální úkol před sebou. Žádost visí ve vzduchu jako instrukce z příručky.",
+                    "feedback": "Proč: Faktické, ale chybí empatie. Žádáte o spolupráci, aniž byste uznali důvod jeho naléhavosti. Řidič slyší instrukci, ne porozumění. | DŮSLEDKY: Pan Novák si něco zabručí pod vousy. Jeho matka vás pozorně sleduje. K budování vztahu téměř nedochází a napětí mezi vámi a řidičem přetrvává po zbytek kontroly. | Reflexe: Jakou jedinou větu byste mohli přidat, aby to znělo jako člověk, ne jako postup?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vzhlédnete od dokladů a probodnete ho tvrdým pohledem, čelist se vám zatne. 'Vaše schůzka není můj problém. Měl jste na to myslet, než pojedete o 25 víc, než je povoleno.' Necháte slova dolehnout, pak se podíváte zpět na papíry a pokračujete v psaní, aniž byste spěchali. Ruka jeho matky sevře synovu paži pevněji. Ticho, které následuje, je těžší než jakýkoli argument — právě jste řekli zoufalému muži, že jeho zoufalství je jeho vlastní vina.",
+                    "feedback": "Proč: Odmítavé a povýšené. Řekli jste muži, jehož živobytí je v sázce, že jeho starosti jsou pro vás irelevantní. Fakticky je to pravda, ale emocionálně to zničující — a emoce řídí chování při dopravních kontrolách. | DŮSLEDKY: Tvář pana Nováka ztuhne. „To snad ne.“ Jeho matka vypadá zděšeně. Dojem šikany se okamžitě formuje a riziko stížnosti — nebo virálního videa — dramaticky stoupá. | Reflexe: Jak odmítnutí něčího skutečného stresu ovlivní jeho vnímání všeho dalšího, co řeknete a uděláte?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Osobní útoky",
+            "sceneUpdate": {
+                "emoji": "💢",
+                "title": "Slovní napadání",
+                "desc": "Řidičova frustrace vybublala na povrch. Otevřeně uráží policii — nazývá kontrolu „šikanou“ a „zbytečnou ztrátou času“. Zvedá hlas a obličej má rudý. Jeho matka je viditelně zoufalá a tiše ho prosí, aby přestal."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "Nemáte nic lepšího na práci než obtěžovat slušné lidi?! Tohle je šikana — čistá šikana!"
+                },
+                {
+                    "character": "passenger",
+                    "text": "(zoufalá) Prosím tě, synu, nech pana strážníka dělat svoji práci..."
+                }
+            ],
+            "prompt": "Řidič je verbálně agresivní a jeho spolujezdkyně je v tísni. Jak reagujete?",
+            "options": [
+                {
+                    "text": "Zhluboka a pomalu se nadechnete a udržíte hlas ve vyrovnané poloze, která pronikne jeho křikem, aniž by s ním soutěžila. 'Chápu, že jste ve stresu a spěcháte — slyším to a nebagatelizuji to. Mou povinností je zajistit bezpečnost na silnici, a to je jediný důvod, proč jsem tady dnes. Pojďme to v klidu dokončit, abyste mohl jet na svou schůzku.' Zachováváte otevřenou řeč těla a krátce pohlédnete na jeho matku, abyste uznali i její tíseň.",
+                    "feedback": "Proč: Uznání emocí validuje člověka za urážkou. Přeformulování směrem k bezpečnosti silničního provozu posouvá rozhovor od „vy proti mně“ k „oba proti problému“. Zmínka o schůzce ukazuje, že jste naslouchali. Jeho matka slyší profesionalitu pod palbou — přesně to, co doporučuje výzkum deeskalace. | DŮSLEDKY: Pan Novák se zarazí. Přeformulování funguje — když kontrola není o autoritě, ale o bezpečnosti silničního provozu, jeho urážky ztrácejí cíl. Jeho matka bezhlasně říká „děkuji“. Intenzita klesá, protože jste frustraci dali prostor, aniž byste ji opětovali. | Reflexe: Jak formulování vašeho poslání místo obrany sebe sama mění, z jaké části mozku řidič reaguje?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Mírně se odchýlíte od okénka, abyste mu dali trochu víc prostoru, a odpovíte odměřeným hlasem, jakmile se v jeho křiku objeví pauza. 'Slyším vaši frustraci, pane — opravdu. Dokončím zpracování a můžete jet dál.' Sklopíte zrak k papírům a pokračujete v efektivní práci s nadějí, že klidné tempo ho uklidní, ale nevysvětlíte, proč je kontrola důležitá, ani nepřeformulujete interakci kolem jejího účelu — bezpečnosti silničního provozu.",
+                    "feedback": "Proč: Stručně uznáváte řidičovu frustraci, což je lepší než ji zcela ignorovat. Nepřeformulováváte ale kontrolu kolem jejího účelu — bezpečnosti silničního provozu — což znamená, že řidič ji nadále vnímá jako zbytečnou šikanu, nikoli jako legitimní povinnost. Bez přeformulování zmírníte okamžik, ale ne skrytou nelibost. | DŮSLEDKY: Urážky dočasně ustávají, ale řidič zůstává přesvědčený, že kontrola nebyla oprávněná. Jeho matka se mírně uvolní. Spolupráce se zlepšuje bez skutečné změny postoje. | Reflexe: Jaký je rozdíl mezi uznáním frustrace a jejím přesměrováním k pochopení vašeho účelu?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Výraz ve vaší tváři se stane prázdným a kontrolovaným — záměrná maska. Mírně se narovnáte a necháte proběhnout okamžik ticha, než promluvíte tlumeným, vyrovnaným tónem. 'Na urážky reagovat nebudu. Pokračuji v postupu.' Vrátíte pozornost k dokladům, aniž byste uznali jeho frustraci nebo tíseň jeho matky — žádná empatie, žádné přeformulování, žádné rozpoznání, že na vás právě z obav křičel člověk. Ticho, které následuje, je strnulé a křehké.",
+                    "feedback": "Proč: Zabraňuje to hádce a zachovává vaši důstojnost, ale nezklidňuje situaci. Ignorování silné emoce bez jejího uznání nechává řidiče s pocitem, že není vyslyšen, což podle výzkumu spíše udržuje nepřátelství, než aby ho řešilo. | DŮSLEDKY: Pan Novák si odfrkne, ale přestane křičet. Jeho matka se nejistě dívá mezi vámi. Napětí přetrvává jako zadržovaný dech — žádná eskalace, ale ani deeskalace. Zbytek kontroly probíhá v chladném, křehkém tichu. | Reflexe: Kdy je ignorování emocí účinné a kdy pouze zmrazí konflikt, místo aby ho vyřešilo?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Cítíte, jak vám v hrudi stoupá žár, a než se stačíte zastavit, nakloníte se do okénka a namíříte prst na řidiče. 'Hlídejte si řeč. Takhle budete pokračovat a mohli byste dostat víc než jen pokutu za rychlost.' Váš hlas klesne do tlumeného vrčení. Jeho matka, která do té chvíle tiše prosila syna, aby se uklidnil, se teď na vás dívá s vyděšenýma očima — hrozba přesunula její strach z chování jejího syna na vaše. Konfrontace přeřadila na vyšší stupeň.",
+                    "feedback": "Proč: Hrozby v reakci na urážky jsou nejrychlejší cestou k eskalaci při dopravní kontrole. Řidič vás slovně urážel — vy jste odpověděli naznačenou hrozbou dalších právních následků. Je to nepřiměřené a mění frustrovaného člověka v nepřátelského. Jeho matka se stává svědkyní zastrašování. | DŮSLEDKY: Pan Novák exploduje: „To je výhrůžka?! Chci vaše služební číslo, HNED.“ Jeho matka začíná natáčet na telefon. Kontrola překročila hranici od napětí ke skutečnému konfliktu — a je na kameře. | Reflexe: Co vám brání brát osobní útoky osobně, a co se stane, když tuto hranici neudržíte?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Nahrávání a identifikace",
+            "sceneUpdate": {
+                "emoji": "📱",
+                "title": "Chci vaše údaje",
+                "desc": "Řidič vytáhl telefon a natáčí celou interakci. Jeho matka na sedadle spolujezdce také drží telefon, i když ho drží níže, méně konfrontačně. Řidič požaduje vaše jméno a služební číslo a hrozí podáním formální stížnosti."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "Tohle si natáčím a podám stížnost. Jak se jmenujete a jaké je vaše služební číslo? Chci mít všechno zaznamenané."
+                }
+            ],
+            "prompt": "Dva lidé vás natáčejí a řidič požaduje vaši identifikaci. Jak to transparentně zvládnete?",
+            "options": [
+                {
+                    "text": "Stojíte klidně, narovnáte ramena směrem ke kameře, aniž byste uhnuli pohledem nebo se odvrátili. 'Podat stížnost je naprosto vaše právo, pane, a já to respektuji. Jsem strážník Jan Norton, služební číslo 45879.' Mluvíte zřetelně směrem k telefonu, aby nahrávka zachytila každé slovo. 'Klidně natáčejte — nemám co skrývat. Nyní budu pokračovat v zákonném postupu.' Lehce profesionálně přikývnete a vrátíte se k dokladům, celé vaše vystupování vyzařuje sebedůvěru pod drobnohledem.",
+                    "feedback": "Proč: Plná transparentnost, výslovné potvrzení práv a sebevědomé pokračování. Potvrzení práva stěžovat si i práva natáčet současně odzbrojuje řidičovy zbraně. „Nemám co skrývat“ signalizuje kulturu odpovědnosti, kterou většina občanů od policie nikdy nezažila. | DŮSLEDKY: Pan Novák zamrká — čekal odpor. Jeho matka mírně sklopí telefon. Hrozba stížností ztrácí svou sílu, když ji přivítáte. Nahrávka se stává záznamem profesionality, nikoli kompromitujícím materiálem. | Reflexe: Proč přivítání kontroly buduje větší autoritu než odpor vůči ní?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Krátce pohlédnete na telefon, nerozhodí vás, a odpovíte vstřícným tónem. 'Samozřejmě. Jsem strážník Norton.' Poklepete na odznak připevněný na hrudi. 'Moje služební číslo je tady na uniformě — můžete si ho jasně přečíst.' Na chvíli se odmlčíte, pak dodáte: 'Pokračujme.' Výslovně nepotvrdíte řidičovo právo podat stížnost ani právo natáčet, a ukázáním na odznak místo slovního sdělení čísla necháváte řidiče, aby si ho přečetl sám.",
+                    "feedback": "Proč: Uvádíte své jméno a ukazujete na odznak, což projevuje ochotu být identifikován. Výslovně ale nepotvrzujete řidičovo právo podat stížnost a ukázání na uniformu místo slovního sdělení čísla může vyznít mírně odmítavě — zvlášť když řidič natáčí a chce jasný slovní záznam. | DŮSLEDKY: Řidič si zapíše vaše jméno, ale zůstává mírně nespokojen. Jeho matka pokračuje v natáčení. Interakce pokračuje bez velkého konfliktu, ale bez plné důvěry, kterou buduje výslovná transparentnost. | Reflexe: Proč slovní potvrzení práva na stížnost — i když je někdo nepřátelský — buduje větší důvěru než pouhé splnění požadavku?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Na telefon namířený vaším směrem sotva pohlédnete a krátce, odmítavě si odfouknete nosem. 'Stěžujte si, klidně — moje údaje jsou na uniformě.' Vágně kývnete bradou směrem k odznaku, pak se vrátíte k papírování, aniž byste nahlas uvedli jméno nebo číslo. Tón dopadne někam mezi lhostejnost a výzvu, jako byste ho vyzývali, ať si to zkusí, místo abyste jeho právo podpořili. Kamera zachycuje každou vteřinu.",
+                    "feedback": "Proč: Formálně správné, ale tón říká „vaše pocity mě nezajímají“. Ukázat na odznak na uniformě při natáčení vytváří dojem lhostejnosti, který na videu vypadá špatně. Řidič chtěl slovní odpověď; dostal gesto. | DŮSLEDKY: Pan Novák si sám přečte váš odznak a nahlas ho uvede pro kameru. Jeho matka snímá odznak zblízka. Napětí mírně klesá, ale interakce působí spíše nepřátelsky než profesionálně. Jste dokumentován, ne spolupracováno s vámi. | Reflexe: Co byste mohli k této odpovědi přidat, aby nezněla arogantně nebo odmítavě pro někoho, kdo si to později pustí na videu?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Viditelně ztuhnete a váš hlas dostane obranný nádech. 'Nemáte důvod ke stížnosti — všechno jsem dělal podle předpisů, a to víte.' Na okamžik si zkřížíte ruce na hrudi, pak si uvědomíte, že telefon stále natáčí, a spustíte je k bokům. 'Nyní budu pokračovat v zákonném postupu.' Jeho matka upraví úhel telefonu. Právě jste na kameru popřeli občanovo právo na stížnost — slova, která jakýkoli nadřízený nebo přezkumná komise uslyší.",
+                    "feedback": "Proč: Popírání občanova práva na stížnost je jak právně nesprávné, tak strategicky katastrofální. Nerozhodujete o tom, zda má někdo důvod ke stížnosti — to je věcí přezkumu. Říct tohle na kameru vytváří důkaz o odepření práv, který jakýkoli nadřízený nebo právník okamžitě zachytí. | DŮSLEDKY: Pan Novák je v šoku: „Vy jste právě řekl, že si nemůžu stěžovat?“ Jeho matka přibližuje záběr. Tento klip, pokud bude zveřejněn, si napíše svůj vlastní titulek. Kontrola se proměnila z přestupku v otázku občanských práv. | Reflexe: Co se stane, když strážník popře občanovi procesní práva na kameře, a jak tento jediný moment přehluší vše ostatní, co jste udělali správně?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Neočekávané sáhnutí do přihrádky",
+            "sceneUpdate": {
+                "emoji": "✋",
+                "title": "Ruce na viditelném místě",
+                "desc": "Zatímco zpracováváte doklady, řidič se náhle nakloní přes sedadlo směrem k odkládací přihrádce. Jeho matka se lekne prudkého pohybu. Řidič si něco zabručí o kartě pojištění. Toto je kritický bezpečnostní moment — nečekaný pohyb během kontroly vyžaduje okamžitou, jasnou reakci."
+            },
+            "npcDialogue": [
+                {
+                    "character": "passenger",
+                    "text": "(vyděšeně) Ach! Jen potřebuje kartu pojištění, pane strážníku — je v přihrádce."
+                }
+            ],
+            "prompt": "Řidič udělal náhlý pohyb směrem k přihrádce. Spolujezdkyně se snaží pomoci s vysvětlením. Jak vyvážíte bezpečnost a klidnou komunikaci?",
+            "options": [
+                {
+                    "text": "Zvednete jednu ruku v jasném gestu zastavení a promluvíte pevným, ale kontrolovaným hlasem. 'Pane, dejte prosím ruce zpět na volant. Hned. Děkuji.' Jakmile jsou jeho ruce na volantu, obrátíte se ke spolujezdkyni s přikývnutím. 'Děkuji vám za informaci o kartě pojištění, paní — to pomáhá.' Pak zpět k řidiči: 'Pane, až vám řeknu, sáhněte pomalu do přihrádky. Řekněte mi přesně, kde karta je, než se pro ni natáhnete, abychom oba věděli, co se děje.'",
+                    "feedback": "Proč: Jasný, konkrétní pokyn následovaný uznáním spolujezdčina užitečného vstupu. Vyřešili jste bezpečnostní problém nejdříve, pak jste ocenili vysvětlení, a pak jste poskytli kontrolovanou cestu vpřed. Specifičnost — volant, pomalu, řekněte mi kde — eliminuje nejasnosti. Poděkování matce ji zapojuje jako spojence, místo aby byla ignorována. | DŮSLEDKY: Pan Novák položí ruce na volant. Jeho matka se uklidní — byla vyslyšena. Řidič řekne „napravo, ve složce“ a pomalu sáhne, když mu to řeknete. Potenciální krizová situace se stává ukázkovou bezpečnostní chvílí, protože všichni věděli přesně, co dělat a kdy. | Reflexe: Jak udělení konkrétních pokynů — „volant“ místo „kam je vidím“ — mění rychlost a jistotu dodržení?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Uděláte rychlý půlkrok zpět od okénka, ruka se instinktivně pohne k opasku, ale nedosáhne k pouzdru. 'Pane, prosím zastavte. Nechte ruce tam, kde je vidím.' Váš hlas je ostrý, ale ne panický. Odmlčíte se, pak dodáte: 'Pro co to saháte?' Spolujezdkyně už vysvětlila, že jde o kartu pojištění, ale vy ji neuznáte — vaše soustředění je výhradně na řidiči, čímž necháváte ji s pocitem, že byla ignorována, a pokyn zůstává příliš vágní na to, aby kdokoli v autě věděl, co přesně chcete.",
+                    "feedback": "Proč: Vydáváte slovní povel a žádáte o vysvětlení, což je lepší než fyzický zásah nebo mlčení. „Nechte ruce tam, kde je vidím“ bez upřesnění kde — na volant — je však vágní, a ptáte se, pro co sahá, aniž byste nejdřív situaci zajistili. Spolujezdkyně vám to už řekla, ale neuznali jste ji. | DŮSLEDKY: Řidič se zastaví a vysvětlí, že jde o kartu pojištění. Jeho matka to zopakuje a cítí se ignorovaná. Situace se stabilizuje, ale chvíle nejistoty trvá déle, než je nutné, protože vaše pokyny postrádaly specifičnost. | Reflexe: Jak se konkrétní fyzický pokyn (‚ruce na volant') liší od obecného (‚ruce tam, kde je vidím') z hlediska jasnosti a dodržení?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Jedním rychlým pohybem odstoupíte od vozidla, ruku položíte na pouzdro a mlčky čekáte, až řidič vysvětlí, co dělá. Žádný slovní povel, žádné uznání vysvětlení spolujezdkyně — jen vizuální signál strážníka, který přešel do obranného postoje. Řidič ztuhne a zírá na vaši ruku na zbrani, nejistý, jestli má mluvit, pohnout se, nebo zůstat v naprostém klidu. Jeho matka vidí ozbrojeného strážníka a žádná slova, což naplní ticho maximální nejistotou a strachem.",
+                    "feedback": "Proč: Zvyšuje vaši fyzickou bezpečnost, ale bez slovních pokynů roste nejistota pro všechny v autě. Řidič neví, co po něm chcete. Jeho matka vidí strážníka s rukou na zbrani a bez slov — maximální strach. Ticho v bezpečnostním momentu je komunikační selhání. | DŮSLEDKY: Pan Novák ztuhne, zmatený. Jeho matka lapá po dechu a chytí syna za paži. Řidič pomalu zvedne ruce sám, háda, co chcete. Moment se vyřeší, ale strach, který vyvolal, přetrvává po zbytek kontroly. | Reflexe: Kdy ticho zvyšuje riziko místo toho, aby ho snižovalo, a co ruka na pouzdru sdělí spolujezdkyni, která neví, co se děje?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Zareagujete instinktivně — ruka vám proletí okénkem a tvrdě chytíte řidiče za paži, trhnutím ji stáhnete od přihrádky. 'Co si myslíte, že děláte?!' zakřičíte, hlas se odráží od interiéru auta. 'Nechte ruce tam, kde je vidím!' Řidič odskočí v šoku a bolesti, loket mu narazí do středové konzole. Jeho matka vykřikne a přitiskne se ke dveřím spolujezdce. Telefon, který držela, zachycuje výkřik a fyzické chycení v ostrém zvuku a roztřeseném obrazu.",
+                    "feedback": "Proč: Fyzický zásah a zvýšený hlas bez předchozího slovního varování. Řidič sahal pro kartu pojištění — doklad, který budete potřebovat. Jeho matka je v autě a sleduje, jak chytáte jejího syna. Proměníte tím moment spolupráce v moment použití síly se svědkem, který vše natáčí. | DŮSLEDKY: Pan Novák couvne v šoku a bolesti. Jeho matka vykřikne. Telefon, který držela, zachycuje zvuk výkřiku a chycení. Karta pojištění spadne na podlahu. Rutinní převzetí dokladu se proměnilo ve záznam o incidentu, stížnost a potenciálně virální video. | Reflexe: Jak zajistíte, aby slovní povely vždy předcházely fyzickému zásahu, a jaká je cena obrácení tohoto pořadí?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Matka promluví",
+            "sceneUpdate": {
+                "emoji": "👵",
+                "title": "Starost matky",
+                "desc": "Moment s přihrádkou pominul. Ruce pana Nováka jsou zpět na volantu, karta pojištění vyzvednutá. Ale krátký poplach změnil atmosféru. Paní Nováková, která tiše sledovala celou kontrolu, náhle promluví. Její hlas je pevný, ale napjatý — ne rozzlobený, ale nesoucí tíhu něčeho, co v sobě držela. Dívá se přímo na vás."
+            },
+            "npcDialogue": [
+                {
+                    "character": "passenger",
+                    "text": "(vzhlédne k vám, hlas napjatý, ale ovládaný) Pane strážníku, chci se omluvit za chování mého syna. On takový není. Je to dobrý člověk — dobrý otec. Ale v poslední době je pod obrovským tlakem. Málem jsme přišli o... (zarazí se, pohlédne na syna) On skoro nespí. Celý den pracuje a v noci sedí v nemocnicích. Přiměla jsem ho, ať mě dnes veze, protože jinak by nejedl. Prosím — řekněte mi, co máme udělat, a uděláme to."
+                },
+                {
+                    "character": "driver",
+                    "text": "(tiše, bez pohledu na vás) Mami, nech to."
+                }
+            ],
+            "prompt": "Paní Nováková naznačila hlubší rodinnou krizi a snaží se ochránit syna. Řidič ztichl. Jak reagujete na tuto změnu?",
+            "options": [
+                {
+                    "text": "Uvolníte postoj a promluvíte jemně k paní Novákové, ztišíte hlas tak, aby nesl spíš teplo než autoritu. 'Paní, nemusíte se omlouvat. Vidím, že vaše rodina prochází těžkým obdobím, a vážím si toho, že jste mi to řekla — pomáhá mi to lépe pochopit situaci. Vyřídím to co nejrychleji.' Otočíte se k panu Novákovi s respektuplným přikývnutím. 'Pane, vaše matka se o vás stará. Pojďme to uzavřít, abyste oba mohli jet, kam potřebujete.'",
+                    "feedback": "Proč: Uznání odhalení paní Novákové bez naléhání na podrobnosti respektuje její hranice a zároveň oceňuje její emocionální risk. Poděkování za sdílení signalizuje, že zranitelnost je u vás v bezpečí. Přesměrování na pana Nováka s poznámkou o matčině péči přeformulovává dynamiku — není to nepřátelský řidič v procesu, je to syn, o kterého se jeho matka strachuje. Posun od nepřátelského k lidskému je nyní téměř úplný. | DŮSLEDKY: Oči paní Novákové se lesknou. Sevření pana Nováka kolem volantu povolí. Poprvé během kontroly vás ani jeden z cestujících nevnímá jako nepřítele. Matčin zásah překlenuul napětí a vaše reakce ho poctila. Půda je připravena, aby vše, co přijde dál, bylo přijato jinak. | Reflexe: Když třetí strana odhalí emocionální kontext, jak vaše reakce vůči ní mění ochotu hlavního aktéra být zranitelný?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Zdvořile přikývnete k paní Novákové a krátce navážete oční kontakt. 'Vážím si toho, že jste to řekla, paní. Vidím, že je to stresující pro vás oba, a je mi líto, čím procházíte. Už to skoro máme za sebou.' Tón je laskavý, ale věcný — necháte pocit na chvíli doznít, pak sklopíte zrak zpátky k dokladům a pokračujete v jejich zpracování. Pana Nováka samostatně neoslovíte ani nevyužijete otevření, které jeho matka právě nabídla.",
+                    "feedback": "Proč: Zdvořilé a empatické na povrchu, ale přešli jste její odhalení příliš rychle bez skutečného zapojení. Podstoupila emocionální riziko — promluvila za svého syna, naznačila něco vážného — a dostala zdvořilé odbytí. „Už to skoro máme za sebou“ je uklidňující, ale transakční. Ten moment byl otevřením pro skutečné lidské spojení, a vy jste ho nechali zavřít. | DŮSLEDKY: Paní Nováková přikývne, ale opět se dívá dolů. Pan Novák zůstává tichý. Napětí mírně polevilo, protože promluvila, ale vaše reakce neprohloubila důvěru, kterou nabízela. Kontrola pokračuje profesionálně, ale bez lidské hloubky, kterou tento okamžik mohl poskytnout. | Reflexe: Když někdo naznačí hlubší příběh, jaká je cena zdvořilého uznání oproti skutečnému zapojení se?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Krátce pohlédnete na paní Novákovou, když domluví, ale vůbec na ni nereagujete. Místo toho se obrátíte přímo na pana Nováka a oslovíte ho věcným tónem. 'Pane, dokončuji papíry. Doklady budete mít brzy zpět.' Vrátíte se k podložce, aniž byste uznali cokoli, co starší žena řekla — její omluvu, její náznak rodinné krize, její prosbu. Je to, jako by nikdy nepromluvila. Stáhne se zpět do sedadla, viditelně v rozpacích.",
+                    "feedback": "Proč: Procedurálně zaměřené, ale emočně hluché. Paní Nováková se právě otevřela — promluvila za svého syna, naznačila rodinnou krizi, omluvila se za jeho chování. Ignorovat ji úplně signalizuje, že nic z toho, co řekla, nezaregistrovalo. Pro pana Nováka sledování, jak strážník odmítá slova jeho matky, potvrzuje vše, čemu o této kontrole věří. Pro paní Novákovou je ignorování po promluvení poučením, že oslovení autority bylo zbytečné. | DŮSLEDKY: Paní Nováková odvrátí pohled, trapně, že promluvila. Čelist pana Nováka se sevře — jeho matka byla odmítnuta. Krátké okno lidského spojení se zavírá. Zbytek kontroly probíhá v chladném procedurálním tichu. | Reflexe: Když ignorujete někoho, kdo promluvil ze zranitelnosti, co ho to naučí o budoucím oslovování autorit?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Nakloníte se blíže k okénku spolujezdce, oči se vám zúží se zájmem, a oslovíte paní Novákovou pátravým tónem. 'Jak to myslíte, že jste málem o někoho přišli? Je něco, co bych měl vědět?' Záměrně se zastavila uprostřed věty — pohlédla na syna a stáhla se — a vy teď po ní chcete, aby odhalila to, co se rozhodla zadržet. Pan Novák vedle ní ztuhne. Otázka staví starší ženu do nemožné situace: odhalit synovu soukromou krizi strážníkovi, nebo odmítnout a vypadat vyhýbavě.",
+                    "feedback": "Proč: Naléhání na podrobnosti, když se někdo záměrně zastavil uprostřed věty, je invazivní. Paní Nováková se rozhodla zadržet — pohlédla na syna a stáhla se. Požadování informací, které se rozhodla nesdílet, porušuje její hranice a staví ji do nemožné situace: odhalit synovu soukromou krizi strážníkovi během dopravní kontroly, nebo odmítnout a vypadat vyhýbavě. Proměnili jste její otevřenost ve výslech. | DŮSLEDKY: Paní Nováková ztuhne. Pan Novák vyštěkne: „Řekla přece nech to — nechte moji matku na pokoji.“ Dynamika se okamžitě obrací. Matka, která byla vaším spojencem, je nyní někdo, na koho jste vnímaní jako tlačící. Syn, který měkl, je nyní ochranitelský a opět nepřátelský. | Reflexe: Jaký je rozdíl mezi nasloucháním tomu, co někdo nabídne, a požadováním více, než je připraven dát?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Osobní situace odhalena",
+            "sceneUpdate": {
+                "emoji": "😔",
+                "title": "Skutečný příběh",
+                "desc": "Napětí se prolomilo. Ramena pana Nováka klesla a hlas se ztišil. Jeho matka natáhne ruku a stiskne mu dlaň. Zlost z něj vyprchala, nahrazena vyčerpáním a zranitelností. Co začalo jako nepřátelství, odhalilo se jako zoufalství."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "Omlouvám se, pane strážníku. Omlouvám se za všechno, co jsem řekl. Moje dcera má leukémii. Je jí sedm. A ve firmě probíhá propouštění — spěchal jsem na schůzku s nadřízeným, protože si myslím, že jsem na seznamu. Když přijdu o práci, přijdu o její zdravotní pojištění. Na nic jiného nedokážu myslet."
+                },
+                {
+                    "character": "passenger",
+                    "text": "(zlomený hlas) Je to pravda, pane strážníku. Malé Aničce diagnostikovali leukémii před třemi měsíci. Drží to všechno pohromadě sám. Prosím..."
+                }
+            ],
+            "prompt": "Řidič se omluvil a odhalil skutečnou osobní tíseň. Jeho matka to potvrdila. Jak záležitost uzavřete s ohledem a v souladu se zákonem?",
+            "options": [
+                {
+                    "text": "Na chvíli se odmlčíte a necháte jeho slova doznít, pak promluvíte tichým, vyrovnaným hlasem. 'Vážím si vaší upřímnosti, pane, a je mi upřímně líto, co se děje s vaší dcerou. Vidím, že jste pod obrovským tlakem, a respektuji, že jste mi to řekl.' Zavřete blok s pokutami a zasunete ho zpět do vesty. 'Tentokrát udělím napomenutí — překročení rychlosti je zaznamenáno v systému, ale bez pokuty. Jeďte prosím opatrně. Vaše rodina vás potřebuje v bezpečí, ne rychle. Jeďte na tu schůzku.'",
+                    "feedback": "Proč: Přiměřená správní uvážlivost u prvního přestupku středního rozsahu se skutečnými polehčujícími okolnostmi. Uznáváte omluvu, validujete tíseň, uplatňujete přiměřený úsudek a uzavíráte lidskou poznámkou, která přeformuluje bezpečnou jízdu jako něco, co dělá pro svou rodinu — ne pro vás. | DŮSLEDKY: Oči pana Nováka se zalesknou. Jeho matka bezhlasně říká „děkuji“. Řidič dorazí na schůzku o patnáct minut pozdě, ale klidný — a řekne kolegům, že strážník, který ho zastavil, byl slušný a spravedlivý. Důvěra v policii vzroste o jednu rodinu. | Reflexe: Jak rozpoznáte, kdy napomenutí slouží bezpečnosti silničního provozu a důvěře veřejnosti lépe než pokuta — a co vám dává sebedůvěru tuto uvážlivost uplatnit?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Díváte se na řidiče s upřímným soucitem a pomalu přikývnete, zatímco domluví. 'Je mi líto, co prožíváte — opravdu. To je těžké břemeno.' Vytáhnete pokutový blok z podložky a začnete vyplňovat částku. 'Pokutu vystavím, jak je požadováno postupem, ale chci, abyste věděl, že si vážím vaší upřímnosti a vaší omluvy. Stálo to odvahu to říct.' Podáte mu lístek a dodáte: 'Jeďte prosím bezpečně — vaše rodina vás potřebuje v celku.'",
+                    "feedback": "Proč: Upřímně uznáváte jeho situaci a přidáváte lidskou poznámku o jeho rodině. Vystavení pokuty zachovává procesní integritu. Pro první přestupek 25 km/h s jasnými polehčujícími okolnostmi to však byl vhodný moment pro správní uvážlivost — napomenutí by bylo právně správné a přiměřenější. | DŮSLEDKY: Řidič oceňuje lidský přístup, ale odjíždí s pokutou, kterou možná nepotřeboval. Jeho matka vypadá zklamaně. Vnímá vás jako laskavého, ale rigidního. Důvěra se poněkud zlepšuje, ale ne tolik, kolik by dosáhla uvážlivost. | Reflexe: Když vám zákon dává prostor pro napomenutí, jak zvažujete dopad pokuty oproti napomenutí na budoucí dodržování předpisů a důvěru veřejnosti?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Krátce, napjatě přikývnete — uznáte, že jste ho slyšeli, aniž byste tomu nechali cokoli změnit. 'Je mi líto, co slyším, ale pokutu přesto musím vystavit. Takový je postup.' Vytáhnete formulář, vyplníte údaje efektivními, mechanickými tahy a odtrhnete kopii. 'Sepíšu to hned, abyste mohl pokračovat v cestě.' Podáte mu lístek bez dalšího komentáře a přenášíte zodpovědnost za své rozhodnutí za slovo 'musím', jako by to nebyla volba.",
+                    "feedback": "Proč: Projevuje minimální empatii, ale rigidně ukládá sankci bez flexibility. „Přesto musím“ není pravda — máte uvážlivost. Říct, že „musíte“, když nemusíte, přenáší zodpovědnost za volbu, kterou děláte. | DŮSLEDKY: Pan Novák přijme pokutu tiše. Jeho matka se dívá z okna. Řidič vnímá strážníka jako procedurálně korektního, ale emocionálně nepřítomného — typ zážitku, který potvrzuje přesvědčení, že policii je to jedno. | Reflexe: Když řeknete „musím vystavit pokutu“, je to pravda — nebo si volíte a vyhýbáte se odpovědnosti za tuto volbu?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vyslechnete jeho přiznání s plochým výrazem, bez hnutí. Když domluví, odpovíte věcným tónem: 'Chápu, ale to neomlouvá překročení rychlosti. Jel jste o 25 víc — to je bezpečnostní problém bez ohledu na to, co se vám děje v osobním životě.' Vytáhnete už vypsanou pokutu z podložky a podržíte ji před ním. 'Tady máte pokutu.' Jeho matka, která právě potvrdila diagnózu leukémie své vnučky, sleduje, jak jejímu synovi podáváte trest bez záchvěvu uznání.",
+                    "feedback": "Proč: Formálně správné, ale odmítavé v nejhorším možném okamžiku. Řidič se právě otevřel — omluvil se, odhalil nemoc dcery, projevil skutečnou tíseň. Odpovědět „to vás neomlouvá“ mu říká, že zranitelnost je trestána, ne uznávána. Jeho matka slyšela, jak jste označili leukémii její vnučky za irelevantní. | DŮSLEDKY: Pan Novák přebírá pokutu beze slova. Jeho matka tiše pláče. Řidič už nepřekročí rychlost — ale ne z respektu k zákonu. Ze strachu a zatrpklosti. Tohle je dodržování bez důvěry, což je nejkřehčí forma vymáhání práva. | Reflexe: Jaký je rozdíl mezi dodržováním získaným respektem a dodržováním vynuceným lhostejností — a které z nich vydrží?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debrief a odhalení",
+            "sceneUpdate": {
+                "emoji": "🏁",
+                "title": "Výcvikový debrief",
+                "desc": "Zpět na stanici. Seržant Miller hodnotí váš výkon v tomto scénáři dopravní kontroly a zkoumá každou fázi setkání od prvního přístupu přes osobní odhalení až po vaše závěrečné rozhodnutí."
+            },
+            "autoDialogue": true,
+            "finalScene": true,
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Dopravní kontroly jsou nejčastějším přímým setkáním policie s veřejností a většina z nich se pokazí v prvních patnácti sekundách. Čelili jste řidiči, který byl nepřátelský od chvíle, kdy jste přistoupili k oknu — urážel, požadoval, natáčel, hrozil stížnostmi. Každá z těch provokací byla pozvánkou k eskalaci. Nepřijali jste ji. Tato zdrženlivost není pasivita. Je to nejvyšší forma profesionální kontroly."
+                },
+                {
+                    "character": "officer",
+                    "text": "Urážky byly nejtěžší. Když označil kontrolu za šikanu, když požadoval moje služební číslo, jako bych udělal něco špatně — cítil jsem, jak ve mně roste vztek. Stálo to opravdové úsilí neodpovídat stejnou energií."
+                },
+                {
+                    "character": "trainer",
+                    "text": "A přesně toto přeformulování chci, abyste si zvnitřnili. Řidičova nepřátelskost nebyla o vás. Každá urážka byla stresová reakce — muže, který sleduje, jak mizí zdravotní pojištění jeho dcery, spěchá na schůzku, která může rozhodnout o přežití jeho rodiny, a teď je zastavený strážníkem kvůli něčemu, co se mu zdálo triviální ve srovnání s tím, co nese. Jeho vztek neměl nic společného s vámi osobně. Vaším úkolem bylo neskočit na návnadu, a přesně to jste udělali. Strážníci, kteří dopravní kontroly nezvládnou, jsou ti, kteří slyší „tohle je šikana“ a reagují, jako by byl jejich charakter u soudu. Ti, kteří uspějí, slyší stres pod tím a reagují na něj."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Když se pan Novák nakonec zlomil a řekl vám o své dceři, ta zranitelnost byla možná jen proto, že jste ji celou kontrolu budoval — transparentností, klidem, odmítáním trestat jeho strach vaší autoritou. Napomenutí, které jste udělili, nebylo slabostí. Bylo to úsudkem. A utvářelo, jak muž v krizi bude vnímat každého strážníka, kterého potká po zbytek života. Řeknu vám, co se stalo, když dorazil na tu schůzku."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {
+            "name": "Dispečink",
+            "avatar": "📻"
+        },
+        "driver": {
+            "name": "Pan Novák (řidič, 38)",
+            "avatar": "😤"
+        },
+        "passenger": {
+            "name": "Paní Nováková (matka, 65)",
+            "avatar": "👵"
+        },
+        "officer": {
+            "name": "Vy (strážník)",
+            "avatar": "👮"
+        },
+        "trainer": {
+            "name": "Seržant Miller",
+            "avatar": "👮‍♂️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Vzorová dopravní kontrola!",
+            "emoji": "🌟",
+            "feedback": "Prokázali jste vynikající profesionalitu v průběhu celé dopravní kontroly. Vaše jasné představení udalo tón, empatie pod urážkami ukázala emocionální zvládnutí, transparentnost při natáčení prokázala odpovědnost, vaše přesné bezpečnostní pokyny při momentu s přihrádkou ukázaly taktickou kompetenci a vaše uplatnění uvážlivosti na konci prokázalo zralý úsudek. Řidič a jeho matka opustili tuto kontrolu s posílenou důvěrou v policii."
+        },
+        "good": {
+            "title": "Silný profesionální výkon",
+            "emoji": "✅",
+            "feedback": "Tuto dopravní kontrolu jste celkově zvládli dobře, zachovali profesionalitu v průběhu emocionálně nabité interakce. Vaše komunikace byla většinou jasná a zvládli jste eskalující frustraci řidiče, aniž byste ji opětovali. Některé příležitosti pro hlubší empatii, ostřejší bezpečnostní pokyny nebo sebevědomější transparentnost byly promeškány, ale váš přístup byl v pořádku."
+        },
+        "average": {
+            "title": "Adekvátní, ale je kam růst",
+            "emoji": "📊",
+            "feedback": "Kontrolu jste dokončili bez větších incidentů, ale promarnili jste několik příležitostí ke snížení napětí, budování vztahu nebo prokázání procesní spravedlnosti, která proměňuje dopravní kontroly z negativních zážitků v momenty budování důvěry. Zopakujte techniky pro uznání frustrace řidiče, jasné vysvětlování důvodů vašeho jednání a vyvažování vymáhání s empatií."
+        },
+        "poor": {
+            "title": "Potřeba výrazného zlepšení",
+            "emoji": "⚠️",
+            "feedback": "Váš přístup během této dopravní kontroly eskaloval napětí a poškodil důvěru veřejnosti. Ať už prostřednictvím hrozeb, odmítavosti, neschopnosti jasně komunikovat nebo rigidního vymáhání tam, kde byla na místě uvážlivost, interakce se proměnila v konfrontaci místo profesionálního setkání. Muž řešící nemoc dcery a potenciální ztrátu zaměstnání opustil tuto kontrolu s pohledem na policii jako na součást svého problému, nikoli své komunity. Zopakujte principy deeskalace, transparentnosti a uvážlivosti."
+        }
+    },
+    "metrics": {
+        "professionalCommunication": {
+            "name": "Profesionální komunikace",
+            "description": "Kvalita verbální komunikace během dopravní kontroly — představení, jasnost, tón a schopnost transparentně vysvětlit své kroky",
+            "icon": "🗣️"
+        },
+        "emotionalResilience": {
+            "name": "Emocionální odolnost",
+            "description": "Zachování klidu a profesionality pod slovním tlakem, urážkami a provokacemi bez osobního vnímání útoků",
+            "icon": "💚"
+        },
+        "proceduralTransparency": {
+            "name": "Procesní transparentnost",
+            "description": "Dodržování zákonných požadavků při zachování otevřenosti ohledně identity, procesu a práv řidiče",
+            "icon": "📋"
+        },
+        "tacticalSafety": {
+            "name": "Taktická bezpečnost",
+            "description": "Řízení bezpečnosti strážníka i cestujících prostřednictvím jasných slovních povelů, řízených pokynů k pohybu a situačního povědomí",
+            "icon": "🛡️"
+        },
+        "discretionApplication": {
+            "name": "Uvážlivost a přiměřenost",
+            "description": "Vhodné uplatnění uvážlivosti strážníka — vyvážení vymáhání s přiměřeností, kontextem a lidským úsudkem",
+            "icon": "⚖️"
+        }
+    }
+}

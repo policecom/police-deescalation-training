@@ -1,0 +1,414 @@
+{
+    "id": "road-rage",
+    "title": "Road Rage — Intersection Flashpoint",
+    "description": "Advanced scenario involving two drivers in a heated confrontation after a traffic collision at a residential intersection. One driver has a young child in the car. The other shows subtle signs of alcohol consumption. The officer must secure the scene, separate hostile parties, protect a vulnerable child, detect impairment, and manage competing demands — all while maintaining impartiality before establishing fault.",
+    "icon": "🚗",
+    "instructor": {
+        "name": "Sergeant Davis",
+        "avatar": "👮‍♂️",
+        "introduction": "Traffic collisions are one of the most common calls you'll respond to — and one of the most underestimated. Two strangers, both flooded with adrenaline, both convinced the other is at fault, both watching their afternoon plans shatter. Add a scared child, possible impairment, and damaged vehicles blocking traffic, and you have a situation with more moving parts than people realize. Your priorities are: safety first — always — then separation, then investigation. Most officers rush to figure out who's at fault. That's important, but it's not the first thing. The first thing is making sure nobody gets hurt worse than they already are. The second is making sure two angry adults don't escalate to violence. Everything else comes after."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-road-rage-complete"],
+    "perfectBadge": "perfect-scenario-road-rage",
+    "finalMessage": {
+        "revelation": "Mr. Cooper ran the stop sign after leaving a corporate event where he'd had three glasses of wine over two hours. His blood alcohol was 0.06% — below the legal limit, but enough to impair reaction time and judgment. He was running late to pick up a client and was distracted by his phone when he entered the intersection. He didn't see the stop sign. Ms. Bennett had the right of way and couldn't avoid the collision. Her daughter Ella was properly restrained in a car seat and was physically unharmed, but the impact and the shouting left her deeply frightened. The witness, Mr. Peterson, confirmed Cooper blew through the stop sign. After your intervention, Cooper was cited for running the stop sign and received a warning about post-alcohol driving. His insurance accepted full liability. Ms. Bennett later told a friend that what she remembered most wasn't the accident — it was that the officer checked on her daughter before doing anything else. Ella still talks about 'the nice police officer who made sure she was okay.'",
+        "keyLessons": [
+            "Scene safety comes before investigation — hazards, injuries, and traffic flow must be addressed immediately",
+            "Physical separation of hostile parties prevents escalation from verbal to physical violence",
+            "Children at accident scenes are often overlooked — they should be among your first priorities",
+            "Impartiality before investigation means treating both parties neutrally until facts are established",
+            "Subtle impairment signs require follow-up — flushed face, alcohol odor, and agitation demand professional verification",
+            "Taking statements separately produces more accurate information than simultaneous arguments",
+            "How you handle a traffic collision shapes whether people trust police to be fair — it may be their only direct police encounter"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "The Scene",
+            "sceneUpdate": {
+                "emoji": "💥",
+                "title": "Residential Intersection — Late Afternoon",
+                "desc": "You arrive at a T-intersection in a residential area. Two cars have collided — a dark BMW has T-boned a silver hatchback on the driver's side. Both vehicles are stopped in the intersection, partially blocking traffic. A man in a business suit stands near the BMW, gesturing angrily. A woman near the hatchback shouts back. Cars queue behind the obstruction. A child is crying inside the hatchback."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unit responding to a traffic collision at the intersection of Sadová and Březinova. Two vehicles involved, possible injuries. Caller reports the drivers are arguing in the roadway. Child may be present in one vehicle."
+                }
+            ],
+            "prompt": "Two angry adults, damaged vehicles blocking traffic, and a crying child. What's your first action?",
+            "options": [
+                {
+                    "text": "Step out of the cruiser and walk directly toward the two drivers, who are squared off in the middle of the intersection, voices rising. You push between them with your hands raised, projecting authority: 'Both of you — stop. I'm here now. Who wants to tell me what happened?' You look back and forth between them, notepad already out, waiting for the first answer while cars stack up behind the wreckage.",
+                    "feedback": "Why: Your instinct to stop the argument is right, but 'who wants to tell me what happened?' invites competing narratives. You haven't secured the scene — vehicles block traffic, creating secondary collision risk. The child hasn't been checked. You've prioritized the argument over safety. | CONSEQUENCES: Both drivers talk at once. A car swerves around the wreckage, nearly clipping you. The child's crying intensifies. | Reflection: What immediate dangers at a collision scene must be addressed before any investigation?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Position your patrol car at an angle behind the wreckage to shield the scene from oncoming traffic. Turn on emergency lights so approaching drivers see the hazard from a distance. Then step out and approach both drivers firmly: 'I need both of you to step back to the pavement. Right now. We're going to handle this, but first everyone needs to be safe.' You gesture them toward opposite sides of the sidewalk.",
+                    "feedback": "Why: Excellent sequencing. The patrol car creates a physical barrier preventing secondary accidents. Emergency lights warn approaching drivers. The command to step out of the roadway addresses physical safety. Firm but calm tone establishes authority without escalation. 'We're going to handle this' promises resolution; 'first everyone needs to be safe' explains the priority. | CONSEQUENCES: Drivers move to the pavement. Traffic flows around your patrol car. The scene is safer. You can now assess injuries and the child. | Reflection: Why does scene protection come before anything else at a collision? What's the secondary collision risk?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Ignore the arguing adults for now and walk quickly toward the hatchback, where the child's crying is audible even over the shouting. You lean down to peer through the rear window at the car seat, trying to assess whether the little girl is hurt or just frightened. The most vulnerable person here needs attention first — the adults can wait while you make sure this child is safe.",
+                    "feedback": "Why: The child instinct is excellent. However, rushing past the arguing drivers without acknowledgment, and without securing the scene from traffic, creates risks. The argument may escalate to physical contact while your back is turned. Vehicles remain unprotected. | CONSEQUENCES: You reach the child — scared but unhurt. But behind you, Mr. Cooper shoves Ms. Bennett's shoulder. You now have a child to protect and a physical altercation simultaneously. | Reflection: How do you balance urgency about the child with stabilizing the entire scene?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Remain by your cruiser and key up the radio immediately: 'Dispatch, I'm on scene — two vehicles, two hostile parties, a child in one of the cars. I'm going to need another unit out here before I engage.' You watch the drivers continue to argue in the roadway while you wait for confirmation, figuring you'll need another officer to manage this level of complexity safely.",
+                    "feedback": "Why: Requesting backup is tactically sound, but standing back while two adults argue in the roadway, a child cries, and vehicles swerve means nothing is being managed. Backup could be minutes away. You need to stabilize immediately while requesting backup simultaneously. | CONSEQUENCES: While you're on the radio, Mr. Cooper steps toward Ms. Bennett aggressively. A car nearly hits the BMW's door. The child's crying grows louder. The scene deteriorates. | Reflection: How do you balance backup requests with immediate action?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "The Child",
+            "sceneUpdate": {
+                "emoji": "👧",
+                "title": "Ella in the Back Seat",
+                "desc": "You've separated the drivers to opposite sides of the pavement. The scene is secured. Now you notice the hatchback's rear window — a small face, maybe five years old, strapped in a car seat, cheeks wet with tears. The car's side panels are dented but the passenger compartment appears intact."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mother",
+                    "text": "(voice cracking) My daughter — Ella — she's in the car. I think she's okay but she won't stop crying. Can I go get her? Please?"
+                }
+            ],
+            "prompt": "The child needs attention and her mother wants to reach her. How do you handle this?",
+            "options": [
+                {
+                    "text": "Hold up a hand toward Ms. Bennett and keep your voice level but firm: 'Stay where you are — I need to keep everyone separated. I'll check on your daughter in a moment.' You maintain the perimeter you've established, watching both sides of the sidewalk. The child continues to cry behind the cracked rear window while her mother stands fifteen feet away, arms crossed, jaw tight.",
+                    "feedback": "Why: Separation is for preventing hostile parties from confronting each other — not for restricting a parent from a scared child. Every minute you delay, Ella's distress deepens and the mother's trust erodes. There's no safety reason to prevent a mother from comforting her daughter. | CONSEQUENCES: Ms. Bennett's eyes widen: 'You're keeping me from my daughter?!' Ella screams louder. You've made an ally into an adversary. | Reflection: When does maintaining separation become disproportionate?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Wave Ms. Bennett toward the hatchback with a quick nod: 'Yes, go ahead — get your daughter and bring her to the pavement. I need to start taking statements.' You pull out your notepad and glance toward Mr. Cooper, already shifting focus to the investigation. The mother rushes to the car, unbuckles Ella, and carries her back to the sidewalk — you don't follow or examine the child yourself.",
+                    "feedback": "Why: Allowing the mother to retrieve her child is good, but sending her alone without checking Ella yourself means you miss an injury assessment. Children in car seats can have hidden injuries. 'I need to start statements' signals paperwork over child welfare. | CONSEQUENCES: Ms. Bennett brings Ella to the pavement near the angry man. You don't know if the child has injuries. Mr. Cooper mutters something dismissive, reigniting the mother's anger. | Reflection: Why should you personally check a child at a collision scene?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Tell her: 'I'll come with you — let's check on Ella together.' Walk with her to the car and open the rear door carefully. Check the child systematically: eye contact and responsiveness, any bruising from the seatbelt or harness, whether she flinches moving her neck or arms, whether her pupils are equal and reactive. Let the mother comfort Ella while you observe. Based on what you see, decide whether to request EMS for a pediatric assessment.",
+                    "feedback": "Why: Accomplishes multiple goals simultaneously. You assess the child with trained eyes while the mother provides comfort. Walking together shows care and maintains your presence. The systematic check — responsiveness, bruising, neck movement, pupils — is how you determine whether Ella needs medical attention or is simply frightened. Children in car seats can sustain injuries that are not immediately visible, so a trained visual assessment is essential before deciding on EMS. The mother sees you prioritize her child with competence, building immediate trust. | CONSEQUENCES: You open the door gently. Ella reaches for her mother. Your check reveals: responsive, no visible bruising, moves freely, equal pupils. She's frightened but physically fine — the car seat did its job. You note this in your report and advise Ms. Bennett to watch for delayed symptoms. Ms. Bennett looks at you with gratitude: 'Thank you — you really checked her properly.' The most vulnerable person has been attended to by someone who knows what to look for. | Reflection: Why does a systematic child welfare check — not just a glance — demonstrate the kind of professional competence that builds deep trust?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Key up the radio right away and request an ambulance: 'Dispatch, I've got a child approximately five years old involved in a T-bone collision. Requesting EMS for a precautionary pediatric check.' Then turn to Ms. Bennett: 'An ambulance is coming for Ella. Let me go to her now.' You start walking toward the hatchback, having prioritized the medical call before making your own visual assessment of the child's condition.",
+                    "feedback": "Why: Medical response for a child in a collision is a strong precaution — children can have hidden injuries. But radioing first means another minute of delay for a frightened five-year-old. Check the child first — your visual assessment informs whether the ambulance is precautionary or urgent. If she appears fine, you can still recommend a pediatric follow-up without tying up EMS resources. | CONSEQUENCES: Medical is en route. But Ella cried an extra minute while you radioed. The mother appreciates the ambulance but wonders why you radioed before checking. EMS arrives, assesses Ella as uninjured, and clears. The right outcome but the wrong sequence. | Reflection: How do you decide: assess first or radio first — and what does the sequence tell the parent about your priorities?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Taking Statements",
+            "sceneUpdate": {
+                "emoji": "📝",
+                "title": "Competing Narratives",
+                "desc": "Ella is with her mother, calming down. Mr. Cooper paces on the other side, phone in hand. An elderly man stands on the corner watching — he may be a witness."
+            },
+            "npcDialogue": [
+                {
+                    "character": "aggressiveDriver",
+                    "text": "(approaching, finger pointing) Officer, she came out of nowhere. I had the right of way. She needs to learn to drive. Look at my car! I want this in the report: SHE caused this."
+                },
+                {
+                    "character": "mother",
+                    "text": "(from behind) That is a LIE! He blew through the stop sign! He didn't even slow down! My daughter could have been killed!"
+                }
+            ],
+            "prompt": "Both drivers try to give you their version simultaneously, contradicting each other. How do you take statements?",
+            "options": [
+                {
+                    "text": "Raise both hands, palms out, and cut through the noise with a steady voice: 'I hear you both. I need to speak with each of you separately so I can give you my full attention. Mr. Cooper — please wait by your vehicle. Ms. Bennett — stay with Ella.' Then you nod toward the elderly man on the corner: 'I also need to speak with that gentleman.' You approach the witness first, before he drifts away.",
+                    "feedback": "Why: Outstanding sequencing. Separating parties is essential for accurate statements. Starting with the independent witness is investigatively excellent — no stake in the outcome, may leave if not approached quickly. Their account provides a baseline for both drivers' claims. 'Giving each of you my full attention' makes separation feel respectful. Mentioning the witness signals thoroughness. | CONSEQUENCES: Both accept the separation. Mr. Peterson confirms the BMW ran the stop sign at speed. You have an independent baseline. Neither driver knows what the witness said, keeping accounts uncontaminated. | Reflection: Why is the independent witness the most valuable statement at a contested scene?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Stand between the two drivers with your notepad open and let both of them speak at the same time, listening carefully to both versions. You figure the contradictions between their accounts will reveal who's lying — so you let them argue back and forth in front of each other, making notes on where their stories diverge. The witness on the corner glances at his watch.",
+                    "feedback": "Why: Letting two angry people argue cases in front of each other escalates conflict. Each statement triggers rebuttals. Volume rises. Details get lost in emotional counter-claims. Witness statements taken this way are contaminated by each other's accounts. | CONSEQUENCES: Within 30 seconds, both are shouting again. Ella starts crying. The elderly witness shakes his head and starts walking away — you're about to lose your most valuable evidence. | Reflection: Why does taking statements separately produce better evidence?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Hold up your hand firmly to cut through the cross-talk: 'One at a time. Mr. Cooper, wait by your vehicle.' Then you turn to Ms. Bennett with your notepad: 'Ms. Bennett, tell me what happened.' You take her statement first since she has the frightened child and may need to leave sooner. Cooper stands by his BMW watching from across the pavement, arms folded, visibly displeased at being told to wait.",
+                    "feedback": "Why: Separating statements is correct. Choosing the mother first has practical justification — frightened child, may need to arrange transport. However, the choice can be perceived as bias. Sending Cooper to 'wait' may feel dismissive. Speaking to 'the other driver first' may be read as siding against him. And the witness on the corner is drifting away. | CONSEQUENCES: Cooper grumbles but complies. Ms. Bennett gives a clear account. But Cooper stews by his car, growing more hostile. The witness starts walking away. | Reflection: When taking statements separately, how do you choose order without appearing to favor one party?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Turn to Ms. Bennett with a concerned expression: 'Are you okay? Tell me what happened.' You address the more upset party first, hoping to de-escalate her distress before moving to Cooper. She begins recounting the collision while holding Ella, her voice cracking with emotion. Meanwhile the elderly witness on the corner checks his watch again, shifts his weight, and begins slowly walking away.",
+                    "feedback": "Why: Checking on her wellbeing is caring, but asking her to recount the accident while holding a crying child near the angry driver isn't ideal for accurate statements. The independent witness on the corner is drifting — witnesses leave quickly. You can return to both drivers after securing the witness. | CONSEQUENCES: Ms. Bennett gives an emotional, non-sequential account. The witness checks his watch and walks away. You've lost your most valuable evidence source. | Reflection: At a contested scene, which statement is most valuable to secure first?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "The Aggressive Driver",
+            "sceneUpdate": {
+                "emoji": "😡",
+                "title": "Mr. Cooper's Demands",
+                "desc": "You've spoken to the witness and Ms. Bennett. Now you approach Mr. Cooper. He's pacing beside his BMW — suit jacket open, face flushed, movements sharp. He's been on his phone, clearly agitated. But as you approach, something shifts. He glances toward the hatchback where Ms. Bennett is holding Ella, and his expression flickers — just for a moment — from anger to something else. He runs a hand over his face."
+            },
+            "npcDialogue": [
+                {
+                    "character": "aggressiveDriver",
+                    "text": "(starts aggressive, then falters) Finally. I've called my lawyer. This is a waste of my — (glances at Ella again, voice dropping briefly) Look, is the kid okay? I didn't... I saw the car seat when I got out and I... (catches himself, hardens again) She was driving too slowly. She practically stopped in the road. I barely touched her car. Are you going to write a report, or stand around all afternoon? I need to go."
+                }
+            ],
+            "prompt": "Mr. Cooper is aggressive and trying to rush you — but he just showed a brief moment of genuine concern about the child before retreating behind his aggression. How do you handle him?",
+            "options": [
+                {
+                    "text": "Hold up a hand to cut off his monologue and gesture toward the BMW: 'Mr. Cooper, I'll come to you when I'm ready. Please wait in your vehicle.' You turn away without addressing his question about Ella, expecting him to comply while you finish with the other parties. He stares at your back for a moment, jaw tight, then walks to the BMW and drops into the driver's seat, slamming the door behind him.",
+                    "feedback": "Why: Seems to remove the confrontation, but sends him back to the vehicle you're about to investigate. If there's anything he doesn't want you to see — open containers, a phone showing recent calls — he has time to dispose of it. Worse, you missed his human moment — the concern about Ella. That was a crack in his aggression, an opening for connection. Sending him to his car seals it shut. With his personality, isolation feeds the disrespect narrative. | CONSEQUENCES: Cooper sits in the BMW, fuming. The moment of vulnerability about Ella is gone. When you approach, he's been stewing for ten minutes and is more hostile. He's also tidied his car — the wine glass from the corporate event's gift bag is now in the glove compartment. | Reflection: What evidence preservation risks exist when you send a driver back to their vehicle — and what human opportunities do you lose?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Match his directness head-on, squaring your shoulders: 'Mr. Cooper, the witness confirms you ran the stop sign. You're at fault. I'm writing a citation, and you're not going anywhere until the report is complete.' You hold eye contact, making it clear the investigation's conclusion is settled. You don't acknowledge his question about the child — right now, you're focused on delivering the outcome before hearing his side of the story.",
+                    "feedback": "Why: The witness and Ms. Bennett's accounts support this, but announcing the outcome before his statement undermines due process. Declaring fault before hearing him makes the report vulnerable to challenge. 'You're not going anywhere' is confrontational with an already aggressive man. You also ignored his concern about Ella — the one moment he showed humanity — which means the next words out of his mouth will be pure defense. | CONSEQUENCES: Cooper erupts about lawyers and harassment. He starts recording you. The brief window where he showed concern about the child has slammed shut. The confrontation escalates, and you've poisoned the interaction. | Reflection: Why does announcing conclusions before completing an investigation undermine both process and outcome — and why does ignoring someone's moment of vulnerability make them more aggressive?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Step closer and raise a hand, palm out: 'I understand you're upset, but I need you to calm down. Shouting isn't helping.' You wait for his volume to drop, then pull out your notepad: 'Let me ask you some questions.' You proceed straight to the interview without addressing his brief question about Ella, moving into a structured series of factual questions about speed, direction of travel, and the moment of impact.",
+                    "feedback": "Why: 'Calm down' is one of the most counterproductive de-escalation phrases. It invalidates emotional state and implies the reaction is inappropriate — making angry people angrier. 'Shouting isn't helping' is a reprimand. You've told him what not to do without giving him something to do instead. His concern about Ella went completely unacknowledged. | CONSEQUENCES: Cooper's jaw tightens: 'Don't tell me to calm down.' His defensiveness hardens. The statement he gives is curt and hostile, missing details you need. The human moment is lost. | Reflection: Why does 'calm down' almost always have the opposite effect? What achieves the same goal — and what happens when you miss someone's moment of genuine concern?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Acknowledge the human moment first: 'Ella is okay — she's scared but not hurt. The car seat did its job.' Let that land for a beat, then continue: 'I understand you're frustrated, and I know this isn't how you planned your afternoon. I need to hear your version — from the beginning. Where were you coming from, and what happened as you approached the intersection?' You keep your tone conversational, giving him space to talk.",
+                    "feedback": "Why: Answering his question about Ella before anything else does something remarkable — it tells Cooper that you noticed his concern, that you don't see him as purely an aggressor, and that the child's safety is a shared priority. This single moment of connection makes everything that follows easier. Then letting him vent before redirecting is textbook de-escalation. 'Where were you coming from' is strategically important — it establishes his origin, potentially relevant to impairment detection. Starting from the beginning produces a sequential narrative. | CONSEQUENCES: Cooper's shoulders drop for just a moment when he hears Ella is okay. Relief flickers before the anger reassembles. But it's not as strong now. He mentions a business event across town. His account has gaps and inconsistencies. And standing closer, you catch something — a faint smell of wine. The human connection made him careless with his defenses. | Reflection: Why does answering someone's concern about a child — even when they caused the accident — change the entire dynamic? How does that moment of shared humanity make him more likely to talk honestly?",
+                    "type": "positive",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "The Subtle Signs",
+            "sceneUpdate": {
+                "emoji": "🍷",
+                "title": "Something Doesn't Add Up",
+                "desc": "Standing closer to Mr. Cooper, you notice a cluster of signs that individually might mean nothing but together form a pattern: face significantly more flushed than adrenaline alone would explain, a faint but distinct smell of wine on his breath, clear speech but an inconsistent account with notable gaps in sequence, mention of a 'business event' as his origin, slightly dilated pupils, and — when he reaches for his phone — a barely perceptible unsteadiness in his hand that could be anger or could be something else."
+            },
+            "npcDialogue": [
+                {
+                    "character": "aggressiveDriver",
+                    "text": "(noticing your expression, swaying almost imperceptibly as he shifts weight, wiping his mouth) What? What are you looking at? I told you — I barely touched her car. (fumbles his phone, catches it, speaks slightly louder than necessary) Can we exchange insurance and be done? I've got places to be. (you catch the wine smell again as he leans closer, and notice his eyes are slightly glassy beneath the anger)"
+                }
+            ],
+            "prompt": "You're picking up subtle signs of possible alcohol consumption. How do you address this?",
+            "options": [
+                {
+                    "text": "File the observations away mentally — flushed face, faint wine smell, slight unsteadiness — but decide not to pursue it. He doesn't seem impaired in any obvious way, his speech is clear, and the accident is a straightforward failure to stop. Pushing for a sobriety check would escalate an already tense scene unnecessarily. You turn your attention back to the report, noting the traffic violation but leaving the alcohol observations out of it.",
+                    "feedback": "Why: Ignoring observable signs of alcohol at a collision scene is a serious failure of duty. Impairment doesn't always look like staggering — reduced reaction time can be masked by adrenaline. You have multiple indicators: flushed face, alcohol odor, dilated pupils, inconsistent account, origin from an event where alcohol is served. Not investigating means your report is missing critical information — and if he causes another accident tonight, you had the chance to intervene. | CONSEQUENCES: You write a simple failure-to-yield report. Cooper drives away. Two hours later, his BAC has risen from recent consumption. He swerves across a lane. This time, no one is lucky. | Reflection: What is your duty when you observe possible impairment signs, even if the person doesn't appear 'drunk'?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Continue the conversation in the same casual, unhurried tone: 'You mentioned a business event — what was the occasion?' Let him describe it in his own words. Then follow up naturally: 'Was there anything to drink? I ask because I want to document everything accurately for both parties' protection.' Based on his response — combined with the physical signs you've been cataloguing — decide whether further testing is warranted.",
+                    "feedback": "Why: Investigatively excellent. The conversational approach lets him describe the event without triggering defenses. He's more likely to disclose honestly when it's framed as routine. 'For both parties' protection' reframes from adversarial to procedural. His answer — combined with physical signs — gives grounds for further testing. If he admits drinking, you have observations plus admission to justify a breath test. | CONSEQUENCES: Cooper, still in the flow, admits: 'There was wine. I had a couple glasses, but that was over two hours ago — I'm fine.' Physical observations plus admission of multiple drinks. Clear grounds for a field sobriety check. | Reflection: Why does conversational impairment detection produce better evidence than confrontation?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Take a deliberate step back from Cooper and key up your radio without any further conversation: 'Dispatch, requesting a DUI unit to my location — detecting alcohol on the driver's breath.' Then turn back to Cooper, expression flat: 'I'm detecting alcohol on your breath. I'm requesting a specialized unit. Please remain here and do not return to your vehicle.' You stand between him and the BMW, arms crossed.",
+                    "feedback": "Why: Requesting a specialized unit shows protocol awareness, but jumping from observation to DUI announcement without any conversation escalates dramatically. You haven't established how much he drank or when. The response is disproportionate to current evidence. Maximum hostility follows. | CONSEQUENCES: Cooper explodes: 'DUI?! For a glass of wine at lunch? I'm calling my lawyer. This is harassment!' He's filming you. The encounter has escalated from a collision to a confrontation about rights. | Reflection: How do you escalate response proportionally as evidence builds?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Look Cooper in the eye and ask the question directly, cutting through the small talk: 'Mr. Cooper, have you been drinking today?' You watch his face closely for the reaction — the micro-expressions before the verbal answer often reveal more than the words themselves. If he admits to any consumption at all, you'll proceed immediately to a field sobriety assessment, using the physical signs you've already observed as supporting documentation.",
+                    "feedback": "Why: Asking directly is procedurally appropriate with observable signs. However, the blunt question triggers defensive denial or minimization. A conversational approach can yield more honest responses before defenses fully activate. The instinct is correct — you must investigate — but the method could be refined. | CONSEQUENCES: Cooper freezes, then snaps: 'One glass of wine, hours ago. This is ridiculous.' He's now fully defensive. Cooperation for testing will be harder. | Reflection: Is a direct question or conversational approach more likely to yield useful information?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "The Mother's Frustration",
+            "sceneUpdate": {
+                "emoji": "😰",
+                "title": "Ms. Bennett's Patience Breaks",
+                "desc": "You've been managing Cooper's statement and the impairment question. Meanwhile, Ms. Bennett has been waiting with Ella, watching you spend time with the man who hit her car. Ella clings to her mother."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mother",
+                    "text": "(approaching, voice shaking) Officer, how much longer? My daughter is terrified. He ran a stop sign into us, and you're having a conversation with him? Why isn't he being breathalyzed? I can smell alcohol from here! Are you going to do your job or not?"
+                }
+            ],
+            "prompt": "The victim is frustrated and losing patience. She feels you're spending too much time with the at-fault driver. How do you respond?",
+            "options": [
+                {
+                    "text": "Walk to her immediately with an open posture: 'Ms. Bennett, I understand your frustration, and you're right to be upset. Your safety and Ella's are my priority. I've spoken to the witness, and I've noted the alcohol — I'm following up right now. There are steps I have to follow in order for everything to hold up. Is there someone who can come pick you and Ella up so you don't have to wait here with the damaged car?'",
+                    "feedback": "Why: Validates frustration without defensiveness. Updates her on investigation progress — witness contacted, alcohol noted. Explaining 'steps in order for everything to hold up' helps her understand the delay. Offering pickup shows genuine care and gives her a practical path out. | CONSEQUENCES: Ms. Bennett's shoulders drop with relief. She calls her sister. Knowing the witness confirmed her account and you're addressing the alcohol gives confidence in the process. Ella relaxes because her mother relaxes. | Reflection: How does updating a waiting party change their experience of the wait?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Hold up your hand in a calming gesture and keep your voice even: 'Ms. Bennett, I know this is taking time, but I need to be thorough. Please wait — I'll be with you shortly.' You offer no specifics about what you've found, no update on the investigation's progress, and no acknowledgment of what she's been watching from across the pavement. Then you turn back toward Cooper's side of the scene to continue your work.",
+                    "feedback": "Why: Not wrong, but clinical. 'Following procedure' doesn't acknowledge her emotional state, her frightened child, or that she's been waiting while you talk to the man who hurt them. 'Please wait' treats her as a queue item. No information about progress. | CONSEQUENCES: She backs off but feels dismissed. Trust hasn't grown — it's plateaued. She'll cooperate but won't feel served. | Reflection: What's the difference between procedural correctness and human connection?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Nod vigorously and lower your voice conspiratorially: 'You're right — he clearly ran the stop sign and I can smell the alcohol too. Don't worry, he's getting cited and breathalyzed. Justice will be done.' You make eye contact to reinforce the reassurance, sharing your investigation findings and the witness's account directly with Ms. Bennett before the case is formally concluded or any citation has been issued.",
+                    "feedback": "Why: Emotionally satisfying but procedurally disastrous. You've shared investigation conclusions with one party before completion. You've confirmed witness information (contaminating testimony) and shared alcohol findings. If this goes to court, the defense argues officer bias and improper evidence sharing. 'Justice will be done' is a promise you may not control. | CONSEQUENCES: Ms. Bennett feels validated — for now. But if Cooper's lawyer discovers you shared findings with the other party, the case is challengeable. Impartiality compromised for comfort. | Reflection: How do you reassure a complainant without sharing investigation details that compromise the case?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Straighten up and use a firm, clipped tone: 'Ms. Bennett, making accusations about alcohol isn't helpful. Let me do my job. I'll talk to you when I'm done with Mr. Cooper.' You gesture her back toward the sidewalk where Ella is sitting, making it clear the conversation is over for now. Her observation about the alcohol — the same thing you've been investigating — goes completely unacknowledged as you turn your back and walk away.",
+                    "feedback": "Why: She's observing the same thing you are. Dismissing her observation as unhelpful is invalidating. 'Let me do my job' tells citizens their input is unwelcome. 'I'll talk to you when I'm done with him' makes her the last priority after the man who crashed into her car. | CONSEQUENCES: Ms. Bennett is stunned, then furious. She pulls out her phone to document. Your relationship with the victim has collapsed. | Reflection: When a citizen observes what you're also investigating, how should you respond?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Closing the Scene",
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Wrapping Up",
+                "desc": "Mr. Cooper ran the stop sign. Breath test: 0.06% — below the legal limit but evidence of recent consumption. Witness confirmed the violation. Ms. Bennett and Ella wait for her sister. Both vehicles are driveable but damaged."
+            },
+            "npcDialogue": [
+                {
+                    "character": "aggressiveDriver",
+                    "text": "(subdued after breath test) I blew under the limit. I'm not drunk. This was an accident. Can I get the insurance paperwork and go?"
+                }
+            ],
+            "prompt": "How do you close this scene — addressing Cooper's citation, Ms. Bennett's needs, and next steps?",
+            "options": [
+                {
+                    "text": "Tear the citation off the pad and hand it to Cooper without additional comment, then nod toward his BMW: 'You're free to go.' Walk over to Ms. Bennett: 'You can pick up the report number from the station tomorrow morning — you'll need it for insurance.' Then return to your cruiser, log the scene as cleared, and pull away. Both parties have the paperwork basics, and the intersection is open again.",
+                    "feedback": "Why: Transactional and incomplete. The citation is correct, but no discussion of alcohol implications. Ms. Bennett gets no information about rights, insurance claims, or Ella's follow-up. 'Get the report tomorrow' is minimal effort. Paperwork resolved, humans underserved. | CONSEQUENCES: Cooper drives away at 0.06% BAC with an aggressive mindset. Ms. Bennett waits feeling processed, not helped. Ella has no follow-up recommendation. Scene cleared, job half done. | Reflection: What's the difference between closing a scene and completing your service?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Hand Cooper the citation and lean in slightly: 'You blew 0.06. Under the limit, but if you'd had one more glass, we'd be having a very different conversation. Think about that.' You hold his gaze for a beat, then let him go. You walk over to Ms. Bennett, tell her you hope Ella feels better, and wish her a good evening. Then you return to your cruiser and clear the scene without providing her a report number or medical guidance for the child.",
+                    "feedback": "Why: The warning has impact, but 'think about that' is preachy and may trigger defensiveness. More importantly, Ms. Bennett's closure is minimal — no report number, no medical guidance for Ella, no practical next steps. You've invested closing energy on Cooper and underserved the victim. | CONSEQUENCES: Cooper is chastened but resentful. Ms. Bennett leaves without the report number, without medical guidance, without feeling addressed. You spent closing energy on the wrong person. | Reflection: Where should the majority of your closing attention go — the cited party or the harmed party?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Address Cooper first: 'I'm citing you for failing to stop. Your test was under the legal limit, but 0.06% shows recent consumption that may have affected your reaction time. I'd strongly recommend not driving further today — call a taxi or have someone pick you up.' Then walk to Ms. Bennett: 'Here's the report number for your insurance. I'd recommend having Ella checked by a pediatrician in the next day or two — children can have delayed responses to impacts. Is your sister close?'",
+                    "feedback": "Why: Comprehensive closure serving both parties. The citation is delivered with alcohol context as a safety recommendation. 'Don't drive further' is responsible advisory. For Ms. Bennett, recommending a pediatric check shows medical awareness parents often overlook. Providing the report number proactively saves her a trip. Asking about her sister shows you remember and care. Both parties leave with clear next steps. | CONSEQUENCES: Cooper is sobered by the totality — citation, breath test, professional officer who treated him fairly despite his behavior. He calls for a ride. Ms. Bennett has a clear path for insurance and medical follow-up. Ella is calming down. Both experienced thorough, fair, humane policing. | Reflection: How does comprehensive closure transform a routine report into an encounter that builds trust?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Wave both parties toward the center of the pavement: 'Let's get this wrapped up. Exchange insurance information directly — I'll be right here if you need anything. Mr. Cooper, here's your citation.' You hand him the paper and stand back, arms folded, supervising the exchange. Both drivers face each other for the first time since you separated them an hour ago, with Ella watching from her mother's arms.",
+                    "feedback": "Why: Bringing two hostile parties together after a confrontational hour is a reignition recipe. Cooper is humiliated from the breath test. Bennett is angry about everything. Forcing face-to-face interaction risks rekindling the argument in front of Ella. Collect information separately and ensure each party has what they need via the report. | CONSEQUENCES: The exchange starts civilly but deteriorates. Cooper makes a dismissive comment. Bennett retorts about Ella. Ella starts crying again. The resolving scene has reopened. | Reflection: When should you keep parties separated through closure?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debrief and Reveal",
+            "sceneUpdate": {
+                "emoji": "🏁",
+                "title": "Training Debrief",
+                "desc": "Back at the station. Sergeant Davis reviews your performance."
+            },
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Traffic collisions test every skill simultaneously — scene safety, separation, child welfare, investigation, impairment detection, impartiality, and closure. Most officers treat them as paperwork exercises: establish fault, write the report, clear the road. You treated this one as what it actually was — a human crisis involving a frightened child, a furious mother, a man who may have been impaired, and a witness who nearly walked away. The sequencing of your decisions mattered as much as the decisions themselves."
+                },
+                {
+                    "character": "officer",
+                    "text": "The part that surprised me was how difficult it was to investigate and de-escalate at the same time. When I was talking to Cooper conversationally about the business event, I was simultaneously trying to detect impairment and calm him down. Those felt like competing goals."
+                },
+                {
+                    "character": "trainer",
+                    "text": "That is the reframe I want you to hold onto. Investigation and de-escalation are not separate skills — they are the same skill. The best investigators are the ones who calm people down first, because calm people tell the truth. When you asked Cooper where he was coming from, that was simultaneously de-escalation — letting him talk — and investigation — establishing his origin and alcohol exposure. You did not have to choose between gathering evidence and managing his emotions. The conversational approach accomplished both, and that is why he admitted to the wine voluntarily instead of lawyering up."
+                },
+                {
+                    "character": "trainer",
+                    "text": "But what elevated this from competent to exceptional was Ella. You checked on a five-year-old before you checked on evidence. You walked with her mother to the car instead of sending her alone. Ms. Bennett later said what she remembered most was not the accident — it was that the officer checked on her daughter before doing anything else. Ella still talks about the nice police officer. That is the legacy of a collision call done right — not the citation, not the report, but a child's first memory of police being people who care. Let me tell you what happened after."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispatcher", "avatar": "📻"},
+        "aggressiveDriver": {"name": "Mr. Cooper (driver, 35)", "avatar": "😡"},
+        "mother": {"name": "Ms. Bennett (driver, 28)", "avatar": "😰"},
+        "child": {"name": "Ella (5 years old)", "avatar": "👧"},
+        "witness": {"name": "Mr. Peterson (neighbor)", "avatar": "👴"},
+        "officer": {"name": "You (officer)", "avatar": "👮"},
+        "trainer": {"name": "Sergeant Davis", "avatar": "👮‍♂️"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Exceptional Scene Management!",
+            "emoji": "🌟",
+            "feedback": "You demonstrated textbook collision response: scene secured, child prioritized, parties separated, witness captured, impairment detected conversationally, and comprehensive closure for both parties. Every decision showed right priorities in right order."
+        },
+        "good": {
+            "title": "Strong Performance",
+            "emoji": "✅",
+            "feedback": "You handled core elements well — scene safety, separation, and investigation. Some opportunities for better sequencing, closure, or impairment detection were missed, but your approach was professional and safety-focused."
+        },
+        "average": {
+            "title": "Adequate Response",
+            "emoji": "📊",
+            "feedback": "You resolved the collision but missed important aspects of scene management, child welfare, or investigative thoroughness. There were opportunities for a more complete response."
+        },
+        "poor": {
+            "title": "Needs Significant Improvement",
+            "emoji": "⚠️",
+            "feedback": "Critical collision response elements were missed. Traffic collisions involve all core policing skills: safety, de-escalation, investigation, impartiality, and human care. Review scene management and investigative protocols."
+        }
+    },
+    "metrics": {
+        "sceneSafety": {
+            "name": "Scene Safety & Management",
+            "description": "Securing the collision scene from secondary hazards, managing traffic, and ensuring physical safety",
+            "icon": "🚧"
+        },
+        "conflictSeparation": {
+            "name": "Conflict Separation",
+            "description": "Physically and emotionally separating hostile parties to prevent escalation and enable accurate statements",
+            "icon": "↔️"
+        },
+        "childWelfare": {
+            "name": "Child Welfare Priority",
+            "description": "Attending to the child as a vulnerable party requiring immediate attention and ongoing consideration",
+            "icon": "👧"
+        },
+        "investigativeThoroughness": {
+            "name": "Investigative Thoroughness",
+            "description": "Detecting impairment, securing witness statements, preserving evidence, and following protocols",
+            "icon": "🔍"
+        },
+        "communicationUnderPressure": {
+            "name": "Communication Under Pressure",
+            "description": "Managing two hostile parties simultaneously with calm, impartiality, and professionalism",
+            "icon": "🗣️"
+        }
+    }
+}

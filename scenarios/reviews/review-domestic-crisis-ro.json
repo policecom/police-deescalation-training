@@ -1,0 +1,660 @@
+{
+  "scenarioId": "domestic-crisis",
+  "reviewVersion": "1.0",
+  "title": "Disputa domestica cu criza de sanatate mintala - Analiza performanta",
+
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Trimitere si sosire",
+      "criticalSkills": ["Evaluare initiala", "Prima impresie", "Constiintizare siguranta"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Ascultati scurt la usa, apoi bateti usor",
+          "strengths": [
+            "Ati adunat informatii despre situatie inainte de contact",
+            "Contactul initial non-amenintator a stabilit incredere",
+            "Ati demonstrat rabdare si profesionalism",
+            "Ati creat o atmosfera calma de la inceput"
+          ],
+          "professionalImpact": "Abordarea dumneavoastra masurata a prevenit probabil escaladarea si a stabilit un ton colaborativ pentru intreaga interactiune."
+        },
+        "neutral": {
+          "choiceText": "Bateți ferm și anunțați: Poliția, bună seara, vă rog deschideți ușa.”",
+          "adequate": [
+            "Ati urmat procedura de baza",
+            "V-ati facut prezenta cunoscuta"
+          ],
+          "missed": [
+            "Nu ati strans informatii pre-contact",
+            "Ati ratat oportunitatea de a evalua nivelul de amenintare",
+            "Abordarea standard nu a demonstrat abilitati de dezescaladare"
+          ],
+          "improvement": "Luati in considerare o pauza de ascultare inainte de a bate. Strangerea informatiilor e cruciala pentru siguranta ofiterului si deciziile tactice."
+        },
+        "negative": {
+          "choiceText": "Bateti ferm si anuntati cu autoritate: Politia -- trebuie sa confirmam ca toata lumea e in siguranta. Deschideti usa acum, va rog. Timpul conteaza.",
+          "failures": [
+            "Ati proiectat urgenta inainte de a evalua situatia din interior",
+            "V-ati importat propria adrenalina in mediul domestic",
+            "Ati fortat ocupantii intr-o dihotomie conformare-sau-rezistenta",
+            "Ati castigat controlul intrarii dar ati pierdut controlul mediului emotional"
+          ],
+          "consequences": "Abordarea bazata pe urgenta a fortat conformarea dar a declansat anxietate la ambii adulti si a intensificat suferinta copilului inainte de a avea orice constiintizare situationala.",
+          "trainingFocus": "Exersati distinctia intre urgenta tactica autentica si urgenta proiectata. Evaluati inainte de a impune propriul ritm asupra scenei."
+        },
+        "partially_positive": {
+          "choiceText": "Ascultati scurt la usa, apoi bateti ferm: Politia. Am primit un apel",
+          "adequate": [
+            "Ati facut o pauza sa ascultati inainte de a va angaja, adunand context util",
+            "Bataia a fost sigura pe sine fara a fi agresiva",
+            "Ati mentionat clar identitatea de politie"
+          ],
+          "missed": [
+            "Formularea s-a concentrat pe plangere in loc sa ofere ajutor",
+            "Tonul clinic poate reduce disponibilitatea de cooperare",
+            "Ati ratat oportunitatea de a va prezenta prezenta ca fiind de sprijin in loc de investigativa"
+          ],
+          "improvement": "Prezentati-va deschiderea ca oferta de ajutor in loc de raspuns la o plangere -- 'Suntem aici sa ajutam' invita cooperarea mai eficient decat 'Am primit un apel despre o tulburare.'"
+        }
+      },
+      "keyLearningPoints": [
+        "Primul contact stabileste tonul intregii interactiuni",
+        "Strangerea informatiilor inainte de angajare imbunatateste rezultatele",
+        "Prezenta calma reduce raspunsurile defensive"
+      ]
+    },
+
+    "2": {
+      "stageName": "Primul contact in interior",
+      "criticalSkills": ["Control scena", "Construire incredere", "Evaluare siguranta"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Calm: Inteleg ca e personal, dar suntem aici pentru ca cineva ar putea fi",
+          "strengths": [
+            "Ati validat preocuparile lor de confidentialitate explicand datoria",
+            "Ati folosit intrebari deschise pentru a incuraja dialogul",
+            "Ati mentinut o atitudine profesionala calma",
+            "Ati construit raport prin comunicare respectuoasa"
+          ],
+          "professionalImpact": "Aceasta abordare a maximizat conformarea voluntara si partajarea informatiilor, esentiale pentru evaluarea precisa."
+        },
+        "neutral": {
+          "choiceText": "Ferm: Am nevoie ca amandoi sa va calmati. Domnule, faceti un pas aici.",
+          "adequate": [
+            "Ati urmat protocoalele de siguranta",
+            "Ati redus riscul imediat de confruntare"
+          ],
+          "missed": [
+            "Empatie minima aratata",
+            "Abordarea autoritara poate creste rezistenta",
+            "Ati pierdut oportunitatea de cooperare voluntara"
+          ],
+          "improvement": "Desi separarea e importanta, explicarea motivului si aratarea preocuparii pentru bunastarea lor imbunatateste conformarea."
+        },
+        "negative": {
+          "choiceText": "Profesional: Trebuie sa asigur locul mai intai. Domnule, stati langa peretele acela, mainile vizibile. Doamna, va rog ramaneti unde sunteti. Voi lua declaratii separat odata ce zona e sigura.",
+          "failures": [
+            "Ati aplicat protocol tactic de securizare a scenei intr-un context de criza domestica",
+            "Ati comunicat ambelor parti ca sunt procesate ca suspecti",
+            "Ati inchis divulgarea voluntara creand o dinamica bazata pe conformare",
+            "Limbajul procedural a fost tehnic corect dar emotional analfabet pentru acest cadru"
+          ],
+          "consequences": "Comenzile tactice au realizat control fizic dar au inchis obloanele emotionale -- niciuna dintre parti nu va oferi voluntar informatiile de care aveti nevoie pentru ca abordarea a prezentat aceasta ca o chestiune penala, nu ca o criza.",
+          "trainingFocus": "Distingetie intre scenele care necesita control tactic si cele care necesita angajament emotional. Apelurile de criza domestica rareori beneficiaza de protocoale de loc al crimei."
+        },
+        "partially_positive": {
+          "choiceText": "Calm: Inteleg ca simtiti acest lucru ca pe o intruziune. Sunt aici sa ma asigur ca toata lumea",
+          "adequate": [
+            "Ati recunoscut intruziunea si ati condus cu siguranta",
+            "Ati planificat sa vorbiti cu fiecare persoana separat",
+            "Ati mentinut un ton calm si respectuos"
+          ],
+          "missed": [
+            "A vorbi cu sotul mai intai poate prioritiza narativa lui",
+            "Sotia s-a retras inainte de a fi auzita, ratand o deschidere inclusiva",
+            "Nu ati invitat ambele parti sa impartaseasca simultan inainte de separare"
+          ],
+          "improvement": "Luati in considerare o deschidere inclusiva care se adreseaza ambelor parti impreuna inainte de a le separa -- aceasta asigura ca nicio narativa nu este ancorata ca implicita."
+        }
+      },
+      "keyLearningPoints": [
+        "Construirea increderii permite strangere mai buna a informatiilor",
+        "Explicarea actiunilor reduce amenintarea perceputa",
+        "Neutralitatea previne raspunsuri defensive"
+      ]
+    },
+
+    "3": {
+      "stageName": "Strangerea informatiilor",
+      "criticalSkills": ["Ascultare activa", "Impartialitate", "Evaluare informatii"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Către soț: Domnule, vă ascult și pe dumneavoastră. Vă rog lăsați-o să vorbească.” Către soție: Ați menționat că v-ați speriat. Ascult. Îmi puteți spune mai mult?”",
+          "strengths": [
+            "Ati demonstrat abilitati excelente de ascultare activa",
+            "Ati aratat impartialitate recunoscand ambele perspective",
+            "Ati incurajat divulgarea printr-o abordare nejudecatoare",
+            "Ati observat semnale non-verbale de intimidare"
+          ],
+          "professionalImpact": "Abordarea dumneavoastra echilibrata a dezvaluit probabil informatii cruciale despre dinamica situatiei si factorii de risc."
+        },
+        "neutral": {
+          "choiceText": "La obiect: Am nevoie de fapte. Domnule, a devenit fizic? Doamna, sunteti",
+          "adequate": [
+            "Ati obtinut faptele de baza",
+            "Ati mentinut distanta profesionala"
+          ],
+          "missed": [
+            "Conexiune emotionala limitata",
+            "Este posibil sa fi ratat probleme subiacente",
+            "Abordarea tip lista lipseste nuante"
+          ],
+          "improvement": "Combinati stabilirea faptelor cu angajament empatic. Raportul emotional dezvaluie adesea informatii critice de siguranta."
+        },
+        "negative": {
+          "choiceText": "Catre sotie: Doamna, el a spus ca a fost doar o cearta, dar dumneavoastra ati mentionat ca el arunca cu lucruri. Trebuie sa stiu exact ce s-a aruncat si daca ceva a fost indreptat spre dumneavoastra sau spre copil.",
+          "failures": [
+            "Ati contrastat relatarea sotului cu cea a sotiei in prezenta lui",
+            "Ati creat o dinamica de tribunal care a pozitionat sotia ca martor impotriva sotului",
+            "Cadrarea de ancheta a prioritizat raportul in detrimentul sigurantei victimei",
+            "Ati ghidat involuntar sotia sa minimizeze pentru a se proteja dupa plecarea dumneavoastra"
+          ],
+          "consequences": "Sotia a dat inapoi si a minimizat pentru ca abordarea dumneavoastra de strangere a faptelor a facut nesigura vorbirea sincera in prezenta sotului -- interogarea temeinica a devenit un instrument involuntar de reducere la tacere.",
+          "trainingFocus": "Nu contrastati niciodata relatarea unei parti cu cea a celeilalte in prezenta lor. Separati inainte de a cauta discrepante detaliate -- ancheta serveste sigurantei, nu invers."
+        },
+        "partially_positive": {
+          "choiceText": "Către soție: Ați menționat că v-ați speriat — asta e important. Puteți să-mi spuneți mai mult?” Apoi către soț: Va trebui să aud și de la dumneavoastră în curând.”",
+          "adequate": [
+            "Ati identificat corect frica ca indicator critic de siguranta",
+            "I-ati promis sotului ca va fi ascultat, aratand o oarecare corectitudine",
+            "V-ati concentrat atentia asupra persoanei care exprima suferinta"
+          ],
+          "missed": [
+            "Nu ati adresat privirea intimidanta a sotului catre sotie",
+            "Nu ati contestat dinamica coercitiva din camera",
+            "Sotia poate fi reticenta sa vorbeasca liber cu sotul urmarind necontestat"
+          ],
+          "improvement": "Cand observati ca o parte incearca sa controleze narativa celeilalte prin intimidare, adresati-o direct -- creati spatiu pentru divulgare sincera numind dinamica."
+        }
+      },
+      "communicationTechniques": {
+        "effective": [
+          "Intrebari deschise: 'Puteti sa-mi spuneti mai mult?'",
+          "Reflectie: 'Ati mentionat ca v-ati speriat...'",
+          "Validare: 'Inteleg ca e dificil'"
+        ],
+        "ineffective": [
+          "Contrastarea relatarilor in fata ambelor parti: 'El a spus X, dar dumneavoastra ati spus Y'",
+          "Cadrare de ancheta care creeaza dinamica de tribunal: 'Trebuie sa stiu exact ce s-a aruncat'",
+          "Limbaj respingator: 'Spuneti-mi doar faptele'"
+        ]
+      }
+    },
+
+    "4": {
+      "stageName": "Prezenta copilului",
+      "criticalSkills": ["Psihologie copil", "Dinamica familiala", "Reglare emotionala"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Va aplecati la nivelul copilului: Buna, nu esti in niciun necaz. Suntem aici ca",
+          "strengths": [
+            "Inteligenta emotionala exceptionala",
+            "Comunicare potrivita varstei cu copilul",
+            "Ati reformulat situatia spre teren comun",
+            "Ati redus trauma copilului prin linistire"
+          ],
+          "professionalImpact": "Abordarea dumneavoastra a protejat bunastarea emotionala a copilului mentinand cooperarea parentala -- crucial pentru siguranta familiala pe termen lung."
+        },
+        "neutral": {
+          "choiceText": "Pragmatic: Fiica dumneavoastra e suparata. Poate unul dintre dumneavoastra o poate",
+          "adequate": [
+            "Ati scos copilul din conflictul imediat",
+            "Ati urmat protocoalele de siguranta pentru copil"
+          ],
+          "missed": [
+            "Nicio linistire emotionala pentru copil",
+            "Nu ati abordat rusinea tatalui constructiv",
+            "Procedural dar impersonal"
+          ],
+          "improvement": "O scurta linistire pentru copii dureaza secunde dar reduce semnificativ trauma. Luati in considerare impactul pe termen lung asupra copilului."
+        },
+        "negative": {
+          "choiceText": "Bland catre Anna: Draga mea, nu trebuie sa-ti mai fie frica. Politia e aici acum si nu vom lasa sa se intample nimic rau. Poti veni cu mine pe hol unde e liniste?",
+          "failures": [
+            "Ati cerut unei fetite de sase ani sa plece cu un strain in uniforma departe de mama ei",
+            "Ati confirmat implicit ca ceva rau se intampla, ceea ce copilul va internaliza",
+            "Ati scos ambii parinti din decizia privind copilul lor, inflamand instinctul protector al tatalui",
+            "Incercarea bine intentionata de protectie a devenit noua sursa de frica din camera"
+          ],
+          "consequences": "Copilul a tipat si s-a agatat mai tare de mama. Tatarul a devenit combativ. Instinctul dumneavoastra protector a creat o noua criza pentru ca separarea unui copil de figura de atasament in timpul stresului acut amplifica trauma in loc sa o amelioreze.",
+          "trainingFocus": "Studiati teoria atasamentului in raspunsul de criza la copii. Siguranta unui copil e cel mai bine mentinuta prin ingrijitorul de incredere, nu prin indepartare catre un strain -- linistiti pe loc inainte de a lua in considerare separarea."
+        },
+        "partially_positive": {
+          "choiceText": "Către tată: Înțeleg că sunteți îngrijorat pentru Anna. E prioritatea noastră la fel.” Către mamă: V-ar ajuta dacă Anna ar merge în camera ei pentru un moment cât vorbim?”",
+          "adequate": [
+            "Ati validat preocuparea tatalui pentru fiica sa",
+            "Ati centrat bunastarea copilului in conversatie",
+            "Ati sugerat scoaterea copilului din zona de conflict"
+          ],
+          "missed": [
+            "Nu v-ati adresat direct Annei -- ati vorbit despre ea in loc de cu ea",
+            "Ati ratat puternica dezescaladare a unei conexiuni directe si calde cu copilul",
+            "Descoperirea emotionala pe care angajarea directa cu copilul ar fi creat-o s-a pierdut"
+          ],
+          "improvement": "Vorbiti direct copilului la nivelul ochilor lui -- chiar si o scurta recunoastere amabila va umanizeaza si schimba dinamica emotionala a intregii camere mai eficient decat a vorbi despre copil parintilor."
+        }
+      },
+      "childWelfareConsiderations": [
+        "Copiii se invinovatesc adesea pentru conflictele parintilor",
+        "Interactiunea cu politia poate fi traumatica fara abordare corespunzatoare",
+        "Mentinerea demnitatii parintilor in fata copiilor e cruciala",
+        "Cuvintele scurte si calde pentru copii au impact pozitiv de durata"
+      ]
+    },
+
+    "5": {
+      "stageName": "Aparitia crizei de sanatate mintala",
+      "criticalSkills": ["Recunoastere criza", "Prevenire suicid", "Comunicare terapeutica"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Bland: Imi pare rau ca treceti prin asta. Suna coplesitor, dar familia",
+          "strengths": [
+            "Ati recunoscut imediat indicatorii de risc suicidar",
+            "Ati validat durerea emotionala fara a endosa comportament daunator",
+            "Ati oferit speranta si asistenta concreta",
+            "Ati demonstrat formare in interventie de criza"
+          ],
+          "professionalImpact": "Raspunsul dumneavoastra a salvat potential o viata. Aceasta e interventie de criza de manual -- validarea durerii si instilarea sperantei."
+        },
+        "neutral": {
+          "choiceText": "Compus: Domnule, respirati adanc. Sunteti sub stres. Daca v-ati putea rani",
+          "adequate": [
+            "Ati recunoscut nevoia de interventie",
+            "Ati oferit ajutor profesional"
+          ],
+          "missed": [
+            "Lipsea conexiunea emotionala",
+            "Este posibil sa nu fi angajat complet subiectul",
+            "Abordarea clinica e mai putin eficienta in criza"
+          ],
+          "improvement": "In crizele de sanatate mintala, conexiunea emotionala determina adesea daca cineva accepta ajutorul. Combinati siguranta cu empatia."
+        },
+        "negative": {
+          "choiceText": "Constant: Va aud, si vad ca a fost incredibil de greu. Dar acum trebuie sa ne concentram pe seara aceasta -- sa ne asiguram ca toata lumea e in siguranta si sa stabilim pasii practici urmatori.",
+          "failures": [
+            "Ati pivotat la logistica imediat dupa o declaratie suicidara, comunicand ca disperarea sa e o problema de gestionat in loc de o durere de recunoscut",
+            "Ati oferit servicii de angajare ca raspuns la lipsa de speranta existentiala -- o nepotrivire de categorie",
+            "Declaratia suicidara a ramas explicit neadresata desi parea recunoscuta",
+            "Abordarea orientata spre solutii a acoperit criza acuta fara a o atinge"
+          ],
+          "consequences": "A tacut si s-a conformat, ceea ce parea dezescaladare dar era de fapt retragere emotionala. Ideatia suicidara ramane neatinsa sub un strat de pasi practici. Sotia l-a privit inchizandu-se si a stiut ca nimic nu s-a schimbat de fapt.",
+          "trainingFocus": "Cand cineva exprima ideatie suicidara, primul raspuns trebuie sa adreseze ideatia in sine -- nu circumstantele care au produs-o. Ajutorul practic e esential, dar numai dupa ce persoana simte ca declaratia cea mai intunecata a fost auzita si contrazisa bland."
+        },
+        "partially_positive": {
+          "choiceText": "Calm: Vad ca treceti printr-o perioada foarte dificila. Pierderea locului de munca pune o presiune enorma pe o persoana. Sa ne asiguram ca toata lumea e in siguranta in seara asta, si va pot pune in legatura cu oameni care pot ajuta.",
+          "adequate": [
+            "I-ati recunoscut durerea si ati normalizat stresul pierderii locului de munca -- 'presiune enorma pe o persoana' valideaza fara a judeca",
+            "Ati oferit sa-l puneti in legatura cu oameni care pot ajuta, aratand constientizarea nevoii de sprijin profesional",
+            "Ati mentinut un ton plin de compasiune si calm pe tot parcursul",
+            "V-ati concentrat pe siguranta tuturor celor prezenti"
+          ],
+          "missed": [
+            "Nu ati adresat direct declaratia suicidara ('mai bine fara mine') -- gandul cel mai periculos a ramas necontestat",
+            "A trece peste ideatia suicidara poate lasa persoana sa simta ca gandul cel mai intunecat a fost ignorat sau prea infricosator pentru a fi angajat",
+            "Criza de baza -- lipsa de speranta si prabusirea stimei de sine -- a ramas neadresata sub generalitati pline de compasiune"
+          ],
+          "improvement": "Cand cineva exprima ideatie suicidara, recunoasteti-o explicit si contraziceti-o bland -- 'familia dumneavoastra are nevoie de dumneavoastra si putem gasi o cale impreuna' adreseaza gandul direct. Redirectionarea in jurul lui, chiar cu intentii bune, lasa declaratia cea mai periculoasa necontestata."
+        }
+      },
+      "mentalHealthIndicators": {
+        "verbal": ["'Mai bine fara mine'", "Expresii de lipsa de speranta", "Declaratii despre povara"],
+        "behavioral": ["Tremur", "Respiratie rapida", "Schimbare in volatilitatea emotionala"],
+        "situational": ["Pierdere recenta a locului de munca", "Stres financiar", "Conflict familial"]
+      },
+      "crisisInterventionPrinciples": [
+        "Luati in serios toate declaratiile suicidare",
+        "Validati durerea emotionala fara a endosa solutii daunatoare",
+        "Oferiti sprijin si resurse imediate",
+        "Nu lasati niciodata o persoana suicidara singura fara plan"
+      ]
+    },
+
+    "6": {
+      "stageName": "Rezolvare legala",
+      "criticalSkills": ["Cunostinte legale", "Aplicare echilibrata", "Coordonare resurse"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Invocati evacuarea de 10 zile pentru siguranta, organizati sprijin de la centrul de interventie, notificati protectia copilului",
+          "strengths": [
+            "Aplicare perfecta a legii cehe privind violenta domestica",
+            "Ati echilibrat siguranta cu pastrarea familiei",
+            "Ati coordonat multiple servicii de sprijin",
+            "Ati aratat aplicare cu compasiune"
+          ],
+          "professionalImpact": "Aceasta rezolvare maximizeaza siguranta oferind in acelasi timp calea spre recuperare. Exemplu de echilibru intre aplicarea legii si asistenta sociala."
+        },
+        "neutral": {
+          "choiceText": "Solicitati separare voluntara in seara asta fara ordine formale. Sotul accepta sa stea la",
+          "adequate": [
+            "Ati realizat siguranta imediata",
+            "Ati evitat arestarea traumatica"
+          ],
+          "missed": [
+            "Nicio protectie legala daca situatia escaladeaza",
+            "Lipseste documentatia formala",
+            "Nicio activare automata a serviciilor de sprijin"
+          ],
+          "improvement": "Acordurile voluntare nu au putere de aplicare. Luati in considerare masuri formale care totusi pastreaza demnitatea si relatiile."
+        },
+        "negative": {
+          "choiceText": "Invocati evacuarea de 10 zile, completati raportul de violenta domestica, aranjati o masina de patrulare pentru transport la adresa fratelui. Informati sotia ca serviciile de protectie a copilului vor fi notificate ca procedura standard.",
+          "failures": [
+            "Ati redus o familie in criza la o lista de actiuni birocratice",
+            "Sotul a fost procesat si mutat fara ca nimeni sa-i adreseze urgenta de sanatate mintala",
+            "Mentionarea protectiei copilului ca 'procedura standard' fara explicatie a terificat sotia",
+            "Fiecare procedura a fost urmata dar nimeni nu a fost conectat efectiv cu ajutor"
+          ],
+          "consequences": "Sotul a plecat umilit si nemonitorizat pentru autovatarmare. Sotia a petrecut noaptea terifiata ca protectia copilului va lua si pe Anna. Procedural impecabil, uman catastrofal -- sistemul a functionat dar familia nu a fost servita.",
+          "trainingFocus": "Procedura e scheletul unui raspuns bun, nu intregul corp. Fiecare pas procedural trebuie insotit de explicatie, context emotional si conectare directa cu servicii reale de sprijin."
+        },
+        "partially_positive": {
+          "choiceText": "Invocati evacuarea de 10 zile pentru siguranta, aranjati plecarea sotului in seara asta si furnizati sotiei numere de contact pentru servicii de sprijin. Planificati o verificare maine.",
+          "adequate": [
+            "Ati folosit corect masura legala de evacuare pentru siguranta imediata",
+            "Ati asigurat separarea fizica a partilor in seara asta",
+            "Ati furnizat sotiei numere de contact pentru servicii de sprijin",
+            "Planificarea unei verificari maine arata constientizarea ca interventia unei nopti nu e suficienta"
+          ],
+          "missed": [
+            "V-ati bazat pe sotie sa initieze contactul cu serviciile in loc sa le aranjati direct -- o persoana in criza e cel mai putin capabila sa navigheze birocratie",
+            "Nu ati adresat specific criza de sanatate mintala a sotului sau nu v-ati asigurat ca are acces la consiliere in noaptea asta",
+            "Ati lasat sotia sa navigheze sistemul singura in timpul unei nopti traumatice doar cu numere de telefon"
+          ],
+          "improvement": "Depasiti furnizarea numerelor de telefon -- conectati activ ambele parti cu serviciile in loc sa le lasati sa initieze contactul in timpul unei crize cand sunt cel mai putin capabile sa faca acest lucru. Sunati la centrul de interventie inainte de a pleca, nu dupa."
+        }
+      },
+      "legalConsiderations": [
+        "Evacuare de 10 zile (vykazani) conform Legii 135/2006",
+        "Raportare obligatorie pentru preocupari privind bunastarea copilului",
+        "Optiuni de interventie pentru sanatate mintala",
+        "Activarea serviciilor de sprijin pentru victime"
+      ]
+    },
+
+    "7": {
+      "stageName": "Sprijin ulterior",
+      "criticalSkills": ["Sprijin victima", "Furnizare informatii", "Abilitati de incheiere"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "O linistiti cu informatii detaliate despre procesul de evacuare, serviciile de interventie, sprijinul pentru copil",
+          "strengths": [
+            "Informatii cuprinzatoare despre resurse furnizate",
+            "Ati validat sentimentele complexe ale victimei",
+            "Ati asigurat intelegerea pasilor urmatori",
+            "Ati lasat victima imputernicita si sprijinita"
+          ],
+          "professionalImpact": "Ingrijirea dumneavoastra temeinica a imbunatatit probabil conformarea cu masurile de protectie si angajarea in servicii."
+        },
+        "neutral": {
+          "choiceText": "Scurt si procedural: Va ramane departe. Serviciile va vor contacta. Protectia copilului",
+          "adequate": [
+            "Informatii de baza transmise",
+            "Contact furnizat"
+          ],
+          "missed": [
+            "Niciun sprijin emotional",
+            "Detalii minime despre resurse",
+            "Incheiere impersonala"
+          ],
+          "improvement": "Victimele in criza adesea nu retin informatiile. Acordarea de timp suplimentar pentru a asigura intelegerea si pentru confort imbunatateste rezultatele."
+        },
+        "negative": {
+          "choiceText": "Linistitor: Stiu ca noaptea asta a fost grea, dar sincer -- e cel mai bun lucru care se putea intampla. Multe familii trec prin asta si ies mai puternice. Aveti incredere in proces. O sa fiti bine.",
+          "failures": [
+            "Ati minimizat gravitatea crizei cu optimism prematur",
+            "I-ati spus sa 'aiba incredere in proces' fara a explica ce implica procesul de fapt",
+            "Ati inchis usa pentru a exprima ca nu e bine",
+            "Linistirea a servit nevoii ofiterului de a pleca pe o nota pozitiva in loc de nevoii victimei de a fi auzita si pregatita"
+          ],
+          "consequences": "A dat din cap si a spus 'multumesc' dar nu a sunat la niciunul din numerele furnizate. Nu a inteles calendarul evacuarii. Optimismul ofiterului a parut amabil dar a lasat-o singura cu fiecare intrebare fara raspuns.",
+          "trainingFocus": "Distinctia intre linistirea care pregateste pe cineva si linistirea care il pacifica. Victima are nevoie de informatii specifice, nu de optimism general -- interactiunile de incheiere trebuie sa o lase informata, nu doar confortata."
+        },
+        "partially_positive": {
+          "choiceText": "Explicati procesul de evacuare si mentionati ca serviciile vor lua legatura.",
+          "adequate": [
+            "Ati furnizat o imagine de ansamblu rezonabila a procesului de evacuare",
+            "Ati aratat caldura personala recunoscand noaptea ei dificila",
+            "Ati mentionat ca sotul ei va primi si el ajutor"
+          ],
+          "missed": [
+            "Informatiile au fost generale in loc de detaliate -- lacune in intelegerea calendarului",
+            "Nu ati explicat ce inseamna de fapt implicarea protectiei copilului",
+            "S-ar putea sa nu stie ce resurse specifice ii sunt disponibile in noaptea asta"
+          ],
+          "improvement": "Furnizati informatii specifice si detaliate in loc de o imagine generala -- o persoana in criza are nevoie sa inteleaga calendarul, cine o va contacta si ce poate face chiar acum."
+        }
+      },
+      "victimSupportElements": [
+        "Explicatie clara a proceselor legale",
+        "Informatii scrise despre resurse",
+        "Validare emotionala",
+        "Planificare siguranta",
+        "Aranjamente de urmarire"
+      ]
+    }
+  },
+
+  "comprehensiveMetrics": {
+    "rapport": {
+      "description": "Construirea increderii prin ascultare activa si empatie",
+      "indicators": {
+        "excellent": [
+          "Ascultare activa demonstrata constant",
+          "Ati construit raport autentic cu toate partile",
+          "Ton adecvat pentru fiecare situatie",
+          "Utilizare eficienta a tacerii si rabdarii"
+        ],
+        "poor": [
+          "Ati intrerupt sau ati vorbit peste parti",
+          "Nu ati reusit sa stabiliti incredere cu nicio parte",
+          "Ton agresiv sau respingator",
+          "Nu ati citit semnalele non-verbale"
+        ]
+      }
+    },
+
+    "procedure": {
+      "description": "Respectarea cerintelor legale si a protocoalelor de siguranta",
+      "indicators": {
+        "excellent": [
+          "Ati respectat toate cerintele legale",
+          "Ati documentat corespunzator",
+          "Ati activat serviciile adecvate",
+          "Ati mentinut protocoalele de siguranta pe tot parcursul"
+        ],
+        "poor": [
+          "Ati ratat raportarea obligatorie",
+          "Nu ati urmat procedurile de siguranta",
+          "Ati ignorat cerintele legale",
+          "Documentatie incompleta sau lipsa"
+        ]
+      }
+    },
+
+    "emotional": {
+      "description": "Gestionarea stresului si raspunsul constructiv la emotii",
+      "indicators": {
+        "excellent": [
+          "Ati recunoscut corect starile emotionale",
+          "Ati raspuns cu empatie adecvata",
+          "Ati gestionat propriile raspunsuri emotionale",
+          "Ati dezescaladat prin validare emotionala"
+        ],
+        "poor": [
+          "Ati ratat suferinta emotionala evidenta",
+          "Ati raspuns cu judecata sau critica",
+          "Ati lasat sentimentele personale sa afecteze raspunsul",
+          "Ati escaladat prin invalidare emotionala"
+        ]
+      }
+    },
+
+    "safety": {
+      "description": "Mentinerea sigurantei fizice si emotionale pentru toti",
+      "indicators": {
+        "excellent": [
+          "Ati prioritizat siguranta copilului pe tot parcursul",
+          "Ati recunoscut si adresat riscul suicidar",
+          "Ati asigurat separarea fizica cand a fost necesar",
+          "Ati creat un mediu sigur emotional pentru divulgare"
+        ],
+        "poor": [
+          "Ati ignorat semnele de pericol pentru partile vulnerabile",
+          "Nu ati recunoscut indicatorii de risc suicidar",
+          "Ati lasat copilul expus la conflict inutil",
+          "Ati creat un mediu care a crescut riscul"
+        ]
+      }
+    }
+  },
+
+  "mistakePatterns": {
+    "escalation": {
+      "pattern": "Importarea urgentei sau cadrarii tactice intr-o criza care necesita angajament emotional",
+      "examples": ["Proiectarea presiunii timpului la usa inainte de evaluare", "Emiterea de comenzi tactice pentru securizarea scenei intr-un cadru domestic", "Interogare de ancheta in fata presupusului agresor"],
+      "impact": "Fiecare escaladare procedurala inchide obloanele emotionale si impiedica divulgarea voluntara de care aveti nevoie pentru a evalua situatia corect",
+      "correction": "Potriviti-va ritmul si cadrarea cu nevoile emotionale ale scenei, nu cu protocoalele tactice standard"
+    },
+
+    "missingCues": {
+      "pattern": "Redirectionarea peste indicatori critici in loc de a-i adresa direct",
+      "examples": ["Pivotarea la pasi practici dupa ideatie suicidara", "Oferirea de servicii de angajare cand cineva exprima lipsa de speranta existentiala", "Tratarea retragerii emotionale ca dezescaladare reusita"],
+      "impact": "Suprafata pare calma dar criza subiacenta ramane neatinsa -- conformarea nu e recuperare",
+      "correction": "Cand cineva isi exprima gandul cel mai intunecat, adresati-l explicit inainte de a trece la logistica"
+    },
+
+    "judgmental": {
+      "pattern": "Actiuni bine intentionate care involuntar iau parti sau iau puterea de decizie",
+      "examples": ["Contrastarea relatarilor in fata ambelor parti", "Incercarea de a scoate un copil de langa figura de atasament", "Linistire prematura care minimizeaza gravitatea crizei"],
+      "impact": "Ofiterul crede ca ajuta dar de fapt reduce la tacere victima, terifiaza copilul sau inchide usa divulgarii sincere",
+      "correction": "Inainte de a actiona pe baza instinctului protector, intrebati-va a cui siguranta si al cui confort serviti de fapt"
+    },
+
+    "procedural": {
+      "pattern": "Urmarea fiecarei proceduri fara a conecta pe nimeni cu ajutor real",
+      "examples": ["Completarea rapoartelor si invocarea evacuarilor fara a explica ce inseamna", "Mentionarea protectiei copilului ca 'procedura standard' fara context", "Completarea unei liste birocratice in timp ce un barbat suicidar e transportat fara sprijin de sanatate mintala"],
+      "impact": "Documentatia e impecabila dar familia experimenteaza sistemul ca ceva care ii proceseaza in loc sa-i ajute",
+      "correction": "Fiecare pas procedural trebuie insotit de explicatie umana, context emotional si conectare directa cu servicii de sprijin"
+    }
+  },
+
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Performanta remarcabila! Ati demonstrat abilitati exceptionale de comunicare pe tot parcursul acestui scenariu complex. Capacitatea dumneavoastra de a echilibra empatia cu aplicarea legii, de a recunoaste criza de sanatate mintala si de a oferi sprijin cuprinzator mentinand siguranta arata stapanirea principiilor moderne de politie. Abordarea dumneavoastra a salvat probabil aceasta familie de la tragedie.",
+
+      "mostlyPositive": "Performanta generala puternica cu abilitati excelente de gestionare a crizei. Ati aratat inteligenta emotionala buna si ati luat in mare parte decizii corecte. Punct forte cheie: [SPECIFIC_STRENGTH]. Zona de crestere: [SPECIFIC_IMPROVEMENT]. Abordarea dumneavoastra plina de compasiune a facut o diferenta reala pentru aceasta familie.",
+
+      "mixed": "Ati gestionat bine unele aspecte dar ati ratat oportunitati critice. Punctele forte au inclus [SPECIFIC_STRENGTHS]. Totusi, [SPECIFIC_WEAKNESSES] necesita atentie. Amintiti-va ca situatiile domestice necesita echilibrarea mai multor prioritati -- siguranta, aplicarea legii si pastrarea familiei. Revizuiti [TRAINING_AREAS] pentru a va imbunatati raspunsul.",
+
+      "mostlyNegative": "Acest scenariu a dezvaluit lacune semnificative in abilitatile de comunicare in criza. Desi [MINOR_POSITIVE], majoritatea alegerilor dumneavoastra au escaladat tensiunea sau au ratat probleme critice de siguranta. In special, [MAJOR_FAILURES]. Formare imediata recomandata in: [CRITICAL_TRAINING]. Aceste situatii pot deveni tragice fara abilitati corespunzatoare.",
+
+      "allNegative": "Abordarea dumneavoastra pe tot parcursul acestui scenariu a fost ingrijoratoare si potential periculoasa. Escaladare constanta, criza de sanatate mintala ratata si lipsa empatiei ar fi putut duce la tragedie. Formare remediala obligatorie necesara in: interventie in criza, tehnici de dezescaladare si inteligenta emotionala. Amintiti-va: comunicarea dumneavoastra poate salva sau costa vieti."
+    }
+  },
+
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "'Inteleg ca e personal, dar suntem aici pentru ca cineva ar putea fi in pericol'",
+      "'Imi pare rau ca treceti prin asta. Suna coplesitor, dar familia dumneavoastra are nevoie de dumneavoastra'",
+      "'Buna, nu esti in niciun necaz. Suntem aici ca toata lumea sa fie in siguranta'",
+      "'Ati mentionat ca v-ati speriat. Ascult. Imi puteti spune mai mult?'"
+    ],
+
+    "poorPhrases": [
+      "'Timpul conteaza' -- importarea urgentei inainte de a evalua situatia",
+      "'Trebuie sa asigur locul mai intai. Mainile vizibile.' -- cadrare tactica intr-o criza domestica",
+      "'Trebuie sa stiu exact ce s-a aruncat' -- interogare de ancheta in fata presupusului agresor",
+      "'Poti veni cu mine pe hol?' -- a cere unui copil sa plece cu un strain in timpul stresului acut",
+      "'Trebuie sa ne concentram pe pasii practici urmatori' -- pivotare peste ideatie suicidara la logistica",
+      "'Aveti incredere in proces. O sa fiti bine.' -- linistire prematura care inchide usa divulgarii sincere"
+    ],
+
+    "analysisCriteria": {
+      "tone": "A fost adecvat contextului emotional?",
+      "clarity": "Mesajul a fost clar si neambiguu?",
+      "empathy": "A recunoscut sentimentele si a aratat intelegere?",
+      "effectiveness": "A atins rezultatul intentionat?",
+      "safety": "A prioritizat siguranta tuturor?"
+    }
+  },
+
+  "scenarioSpecificLessons": {
+    "1": "Situatiile de violenta domestica nu sunt niciodata 'doar certuri' -- evaluarea temeinica e cruciala",
+    "2": "Copiii in dispute domestice sufera trauma chiar si fara abuz direct -- prioritizati siguranta lor emotionala",
+    "3": "Pierderea locului de munca si stresul financiar sunt factori majori de risc pentru escaladarea violentei domestice",
+    "4": "Crizele de sanatate mintala stau adesea la baza disputelor domestice -- fiti pregatit sa treceti de la aplicare la interventie",
+    "5": "Legea 'evacuare de 10 zile' ofera o perioada cruciala de linistire mentinand protectia legala",
+    "6": "Ambivalenta victimei e normala -- oferiti sprijin fara judecata despre a ramane sau a pleca",
+    "7": "Atitudinea si stilul dumneavoastra de comunicare influenteaza direct daca familiile accepta ajutor",
+    "8": "Urmarirea si coordonarea serviciilor sunt la fel de importante ca interventia initiala"
+  },
+
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Negociere avansata in criza",
+        "Formarea altora in dezescaladare",
+        "Echipa specializata criza familiala"
+      ],
+      "good": [
+        "Raspuns imbunatatit sanatate mintala",
+        "Dinamica avansata violenta domestica",
+        "Psihologie copil in criza"
+      ],
+      "average": [
+        "Interventie de baza in criza",
+        "Abilitati de ascultare activa",
+        "Dezvoltare inteligenta emotionala"
+      ],
+      "poor": [
+        "Formare obligatorie dezescaladare",
+        "Certificare interventie in criza",
+        "Atelier empatie si comunicare",
+        "Protocol raspuns violenta domestica"
+      ]
+    }
+  },
+
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Rezumat performanta generala",
+        "content": ["Scor", "Nivel performanta", "Puncte forte cheie", "Slabiciuni critice"]
+      },
+      {
+        "title": "Analiza pe etape",
+        "content": ["Alegerea facuta", "Impact", "Abordari alternative", "Puncte de invatare"]
+      },
+      {
+        "title": "Eficacitate comunicare",
+        "content": ["Cele mai bune momente", "Oportunitati ratate", "Analiza dialog"]
+      },
+      {
+        "title": "Puncte critice de decizie",
+        "content": ["Recunoastere sanatate mintala", "Siguranta copil", "Rezolvare legala"]
+      },
+      {
+        "title": "Analiza tipare",
+        "content": ["Puncte forte consistente", "Greseli recurente", "Tendinte decizionale"]
+      },
+      {
+        "title": "Dezvoltare profesionala",
+        "content": ["Nevoi imediate de formare", "Dezvoltare abilitati pe termen lung", "Resurse recomandate"]
+      },
+      {
+        "title": "Aplicare practica",
+        "content": ["Cum se traduce in teren", "Scenarii comune", "Bune practici"]
+      }
+    ]
+  }
+}

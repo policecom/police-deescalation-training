@@ -1,0 +1,414 @@
+{
+    "id": "road-rage",
+    "title": "Kelio \u012fniršis \u2014 Sankryžos užsiliepsnojimo taškas",
+    "description": "Sudėtingas scenarijus, susijęs su dviem vairuotojais, \u012fsivėlusiais \u012f karšt\u0105 konfrontacij\u0105 po eismo \u012fvykio gyvenamojo rajono sankryžoje. Vieno vairuotojo automobilyje yra mažas vaikas. Kitas rodo subtilius alkoholio vartojimo požymius. Pareigūnas turi apsaugoti \u012fvykio viet\u0105, atskirti priešiškas šalis, apsaugoti pažeidžiam\u0105 vaik\u0105, nustatyti apsvaigim\u0105 ir valdyti konkuruojančius reikalavimus \u2014 visa tai išlaikant nešališkum\u0105, kol nenustatytos kaltės aplinkybės.",
+    "icon": "\ud83d\ude97",
+    "instructor": {
+        "name": "Seržantas Davis",
+        "avatar": "\ud83d\udc6e\u200d\u2642\ufe0f",
+        "introduction": "Eismo \u012fvykiai \u2014 vienas dažniausi\u0173 iškvietim\u0173, \u012f kuriuos vyksite, ir vienas labiausiai nuvertinam\u0173. Du nepažistamieji, abu užlieti adrenalino, abu \u012fsitikinę, kad kaltas kitas, abu stebintys, kaip griūva j\u0173 popietės planai. Pridėkite išsigandus\u012f vaik\u0105, galim\u0105 apsvaigim\u0105 ir sugadintus automobilius, blokuojančius eism\u0105 \u2014 ir gausite situacij\u0105 su daugiau kintam\u0173j\u0173, nei žmonės suvokia. Jūs\u0173 prioritetai: pirmiausia saugumas \u2014 visada \u2014 tada atskyrimas, tada tyrimas. Dauguma pareigūn\u0173 skuba išsiaiškinti, kas kaltas. Tai svarbu, bet tai ne pirmas žingsnis. Pirmas žingsnis \u2014 užtikrinti, kad niekas nenukentėt\u0173 dar labiau nei jau yra. Antras \u2014 užtikrinti, kad du supykę suaugusieji nepereit\u0173 prie smurto. Visa kita \u2014 po to."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-road-rage-complete"],
+    "perfectBadge": "perfect-scenario-road-rage",
+    "finalMessage": {
+        "revelation": "Ponas Cooper pravažiavo stop ženklą, išvažiavęs iš \u012fmonės renginio, kur per dvi valandas išgėrė tris taures vyno. Jo kraujo alkoholio koncentracija buvo 0,06 % \u2014 žemiau teisinės ribos, bet pakankama, kad pablogėtų reakcijos laikas ir sprendimų priėmimas. Jis vėlavo paimti klient\u0105 ir buvo išsiblaškęs dėl telefono, kai \u012fvažiavo \u012f sankryž\u0105. Jis nematė stop ženklo. Ponia Bennett turėjo pirmenybę ir negalėjo išvengti susidūrimo. Jos dukra Ella buvo tinkamai pritvirtinta automobilinėje kėdutėje ir fiziškai nenukentėjo, tačiau smūgis ir šauksmai j\u0105 giliai išgąsdino. Liudytojas ponas Peterson patvirtino, kad Cooper pravažiavo stop ženklą. Po jūs\u0173 \u012fsikišimo Cooper gavo baud\u0105 už stop ženklo nepaisant\u0105 ir \u012fspėjim\u0105 dėl vairavimo po alkoholio vartojimo. Jo draudimas prisiėmė piln\u0105 atsakomybę. Ponia Bennett vėliau pasakė draugei, kad labiausiai prisimena ne pat\u012f \u012fvyk\u012f \u2014 o tai, kad pareigūnas pirmiausia patikrino jos dukr\u0105. Ella iki šiol kalba apie \u201emalonų policinink\u0105, kuris pasirūpino, kad jai būtų gerai\u201c.",
+        "keyLessons": [
+            "\u012evykio vietos saugumas svarbiau už tyrim\u0105 \u2014 pavojai, sužalojimai ir eismo srautas turi būti sprendžiami nedelsiant",
+            "Fizinis priešišk\u0173 šali\u0173 atskyrimas neleidžia eskalacijai pereiti nuo žodini\u0173 grasinim\u0173 prie fizinio smurto",
+            "Vaikai eismo \u012fvykio vietoje dažnai praleidžiami \u2014 jie turėt\u0173 būti tarp pirm\u0173j\u0173 prioritet\u0173",
+            "Nešališkumas prieš tyrim\u0105 reiškia vienod\u0105 elges\u012f su abiem šalimis, kol nenustatyti faktai",
+            "Subtilūs apsvaigimo požymiai reikalauja tolesnio tyrimo \u2014 paraudęs veidas, alkoholio kvapas ir sujaudinimas reikalauja profesionalaus patikrinimo",
+            "Parodym\u0173 ėmimas atskirai duoda tikslesnę informacij\u0105 nei vienalaikiai ginčai",
+            "Kaip elgiatės eismo \u012fvykio metu, lemia, ar žmonės pasitikės policija \u2014 tai gali būti j\u0173 vienintelė tiesioginė patirtis su teisėsauga"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "\u012evykio vieta",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udca5",
+                "title": "Gyvenamojo rajono sankryža \u2014 vėlyva popietė",
+                "desc": "Atvykstate \u012f T formos sankryž\u0105 gyvenamajame rajone. Du automobiliai susidūrė \u2014 tamsus BMW trenkėsi \u012f sidabrin\u012f hečbeką iš vairuotojo pusės. Abu automobiliai stovi sankryžoje ir iš dalies blokuoja eism\u0105. Vyras kostiumu stovi prie BMW ir piktai gestikuliuoja. Moteris prie hečbeko šaukia atgal. Už kliūties rikiuojasi automobiliai. Hečbeke verkia vaikas."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Ekipažas vyksta \u012f eismo \u012fvyk\u012f Sadová ir Březinova sankryžoje. Du automobiliai, galimi sužalojimai. Skambintojas praneša, kad vairuotojai ginčijasi važiuojamojoje dalyje. Viename automobilyje gali būti vaikas."
+                }
+            ],
+            "prompt": "Du supykę suaugusieji, sugadinti automobiliai blokuoja eism\u0105 ir verkiantis vaikas. Koks jūs\u0173 pirmas veiksmas?",
+            "options": [
+                {
+                    "text": "Išlipate iš patrulio ir einate tiesiai prie dviejų vairuotojų, kurie stovi akis į akį sankryžos viduryje, balsai kylantys. Braunatės tarp jų iškeltomis rankomis, demonstruodami autoritetą: \u201eAbu \u2014 užteks. Aš čia dabar. Kas nori man pasakyti, kas nutiko?\u201c Žvilgčiojate tai į vieną, tai į kitą, bloknoto jau rankose, laukdami pirmo atsakymo, kol už nugaros automobiliai rikiuojasi prie nuolaužų.",
+                    "feedback": "Kodėl: Instinktas sustabdyti gin\u010d\u0105 teisingas, bet \u201ekas nori man pasakyti, kas nutiko?\u201c kviečia konkuruojančias versijas. Neapsaugojote vietos \u2014 automobiliai blokuoja eism\u0105, kyla antrinio susidūrimo rizika. Vaikas nepatikrintas. Pirmenybę suteikėte ginčui, o ne saugumui. | PASEKMĖS: Abu vairuotojai kalba vienu metu. Automobilis, apvažiuodamas nuolaužas, beveik jus kliudo. Vaiko verksmas stiprėja. | Refleksija: Kokius tiesioginius pavojus \u012fvykio vietoje būtina pašalinti prieš bet kok\u012f tyrim\u0105?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Pastatote patrulinio automobilį kampu už nuolaužų, kad apsaugotumėte įvykio vietą nuo artėjančio eismo. Įjungiate avarinius šviestuvus, kad vairuotojai iš tolo matytų pavojų. Tada išlipate ir tvirtai priartėjate prie abiejų vairuotojų: \u201eReikia, kad abu atsitrauktumėte ant šaligatvio. Dabar. Viską išspręsime, bet pirmiausia visi turi būti saugūs.\u201c Gestu nurodote jiems priešingas šaligatvio puses.",
+                    "feedback": "Kodėl: Puiki veiksm\u0173 seka. Patrolinis automobilis sukuria fizinę kliūt\u012f, apsaugančia nuo antrini\u0173 \u012fvyki\u0173. Avariniai šviestuvai \u012fspėja artėjančius vairuotojus. \u012esakymas pasitraukti nuo važiuojamosios dalies sprendžia fizin\u012f saugum\u0105. Tvirtas, bet ramus tonas nustato autoritet\u0105 be eskaliavimo. \u201eViską išspręsime\u201c žada sprendim\u0105; \u201epirmiausia visi turi būti saugūs\u201c paaiškina prioritet\u0105. | PASEKMĖS: Vairuotojai persikelia ant šaligatvio. Eismas teka aplink jūs\u0173 automobil\u012f. Vieta saugesnė. Dabar galite \u012fvertinti sužalojimus ir vaik\u0105. | Refleksija: Kodėl \u012fvykio vietos apsauga turi būti prieš viską kit\u0105 eismo \u012fvykio metu? Kokia antrinio susidūrimo rizika?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Praeinat pro besiginčijančius vairuotojus ir greitai žingsniuojate prie hečbeko, iš kurio girdite vaiko verksmą net pro šauksmą. Pasilenkiate prie galinio lango pažiūrėti į automobilinę kėdutę ir įvertinti, ar mergaitė sužalota, ar tik išsigandusi. Pažeidžiamiausiam asmeniui čia reikia dėmesio pirmiausia \u2014 suaugusieji gali palaukti, kol įsitikinsite, kad vaikas saugus ir jam nereikia skubios pagalbos.",
+                    "feedback": "Kodėl: Instinktas dėl vaiko puikus. Tačiau bėgimas pro besiginčijančius vairuotojus be j\u0173 pripažinimo ir be \u012fvykio vietos apsaugos nuo eismo kelia rizikas. Ginčas gali peraugti \u012f fizin\u012f kontakt\u0105, kol esate nusisukę. Automobiliai lieka neapsaugoti. | PASEKMĖS: Pasiekiate vaik\u0105 \u2014 išsigandus\u012f, bet nesužalot\u0105. Bet už jūs\u0173 nugaros ponas Cooper stumia poniai Bennett \u012f pet\u012f. Dabar turite ir apsaugoti vaik\u0105, ir suvaldyti fizin\u012f konfrontacij\u0105 vienu metu. | Refleksija: Kaip suderinti skubum\u0105 dėl vaiko su visos vietos stabilizavimu?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Liekate prie patrulio ir iš karto kreipiatės radiju: \u201eDispečerinė, esu vietoje \u2014 du automobiliai, dvi priešiškos šalys, vaikas viename iš automobilių. Reikės papildomo ekipažo, kol pradėsiu veikti.\u201c Stebite vairuotojus, kurie toliau ginčijasi važiuojamojoje dalyje, kol laukiate patvirtinimo, manydami, kad šiam sudėtingumo lygiui suvaldyti reikės dar vieno pareigūno šalia.",
+                    "feedback": "Kodėl: Pastiprinimo prašymas taktiškai pagristas, bet stovėti nuošalyje, kol du suaugusieji ginčijasi važiuojamojoje dalyje, vaikas verkia ir automobiliai manevravo, reiškia, kad niekas nevaldoma. Pastiprinimas gali atvykti po keli\u0173 minučių. Turite stabilizuoti situacij\u0105 nedelsiant, tuo pat metu prašydami pastiprinimo. | PASEKMĖS: Kol kalbate radiju, ponas Cooper agresyviai artėja prie ponios Bennett. Automobilis beveik atsitrenkia \u012f BMW duris. Vaiko verksmas stiprėja. Situacija \u012fvykio vietoje blogėja. | Refleksija: Kaip subalansuoti pastiprinimo prašym\u0105 su tiesioginiu veiksmu?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Vaikas",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udc67",
+                "title": "Ella galinėje sėdynėje",
+                "desc": "Atskyrėte vairuotojus priešingose šaligatvio pusėse. Vieta apsaugota. Dabar pastebite hečbeko galin\u012f lang\u0105 \u2014 mažas veidelis, gal penkeri\u0173, pritvirtintas automobilinėje kėdutėje, skruostai šlapi nuo ašar\u0173. Automobilio šoninės panelės \u012flenktos, bet keleivių salono erdvė atrodo nepažeista."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mother",
+                    "text": "(balsas dreba) Mano dukra \u2014 Ella \u2014 ji automobilyje. Manau, jai nieko, bet ji nenustoja verkusi. Ar galiu prie jos? Prašau?"
+                }
+            ],
+            "prompt": "Vaikui reikia dėmesio, o motina nori prie jos prieiti. Kaip elgsitės?",
+            "options": [
+                {
+                    "text": "Pakeliate ranką link ponios Bennett ir lygiu, bet tvirtu balsu pasakote: \u201eLikite, kur esate \u2014 turiu visus laikyti atskirai. Jūsų dukrą patikrinsiu netrukus.\u201c Palaikote perimetrą, stebėdami abi šaligatvio puses. Vaikas toliau verkia už įskilusio galinio lango, o motina stovi penkiolika žingsnių toliau, sukryžiavusi rankas, suspaudusi žandikaulį, akys įsmeigtos į jus.",
+                    "feedback": "Kodėl: Atskyrimas skirtas neleisti priešiškoms šalims konfrontuoti viena su kita \u2014 ne drausti tėvui prieiti prie išsigandusio vaiko. Kiekviena delsos minutė gilina Ellos kančia ir griauna motinos pasitikėjim\u0105. Nėra saugumo priežasčių neleisti motinai raminti savo dukros. | PASEKMĖS: Ponios Bennett akys išsiplečia: \u201eJūs neleidžiate man prie dukros?!\u201c Ella rėkia dar garsiau. Iš s\u0105jungininkės padarėte priešę. | Refleksija: Kada atskyrimo palaikymas tampa neproporcingas?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Mostelite poniai Bennett link hečbeko ir trumpai linktelite: \u201eTaip, eikite \u2014 paimkite dukrą ir grįžkite ant šaligatvio. Turiu pradėti imti parodymus.\u201c Išsitraukiate bloknotą ir žvilgtelite pono Cooper pusėn, jau perkeldami dėmesį prie tyrimo. Motina skuba prie automobilio, atsega Ellą ir neša atgal ant šaligatvio \u2014 jūs nesekate paskui ir netikrinate vaiko pats, neįvertinate sužalojimų.",
+                    "feedback": "Kodėl: Leisti motinai paimti vaik\u0105 gerai, bet siųsti j\u0105 vien\u0105 nepatikrinus Ellos pačiam reiškia praleisti sužalojim\u0173 \u012fvertinim\u0105. Vaikai automobilinėse kėdutėse gali turėti paslėpt\u0173 sužalojim\u0173. \u201eMan reikia pradėti imti parodymus\u201c signalizuoja, kad popieriai svarbiau už vaiko gerovę. | PASEKMĖS: Ponia Bennett atveda Ell\u0105 ant šaligatvio prie piktojo vyro. Nežinote, ar vaikas sužalotas. Ponas Cooper sušnabžda k\u0105 nors pašaipiško, ir motinos pyktis vėl užsiliepsnoja. | Refleksija: Kodėl turėtumėte asmeniškai patikrinti vaik\u0105 eismo \u012fvykio vietoje?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Pasakote jai: \u201eEisiu su jumis \u2014 patikrinkime Ellą kartu.\u201c Einate su ja prie automobilio ir atsargiai atidarote galines duris. Sistemingai tikrinate vaiką: akių kontaktas ir reagavimas, sumušimai ar žymės nuo saugos diržų, ar trūkčioja judindama kaklą ir rankas, ar vyzdžiai vienodi ir reaguoja. Leidžiate motinai raminti, kol stebite. Pagal tai, ką matote, sprendžiate, ar prašyti greitosios prevenciniam pediatriniam įvertinimui.",
+                    "feedback": "Kodėl: Vienu metu pasiekiami keli tikslai. \u012evertinate vaik\u0105 profesionaliomis akimis, o motina suteikia paguod\u0105. Bendras ėjimas rodo rūpest\u012f ir išlaiko jūs\u0173 buvim\u0105. Sisteminis tikrinimas \u2014 reagavimas, sumušimai, kaklo judėjimas, vyzdžiai \u2014 leidžia nustatyti, ar Ellai reikia medicinės pagalbos, ar ji tiesiog išsigandusi. Vaikai automobilinėse kėdutėse gali patirti sužalojimus, kurie iš karto nematomi, todėl profesionalus vizualinis \u012fvertinimas būtinas prieš sprendžiant dėl greitosios. Motina mato, kad pirmenybę teikiate jos vaikui ir tai darote kompetentingai \u2014 pasitikėjimas kyla akimirksniu. | PASEKMĖS: Atsargiai atidarote duris. Ella tiesia rankas prie motinos. Jūs\u0173 patikra atskleidžia: reaguoja, matomų sumušimų nėra, laisvai juda, vyzdžiai vienodi. Ji išsigandusi, bet fiziškai nesužalota \u2014 automobilinė kėdutė atliko savo darb\u0105. Pažymite tai savo ataskaitoje ir patarsite poniai Bennett stebėti, ar nepasireikš uždelst\u0173 simptom\u0173. Ponia Bennett žiūri \u012f jus su dėkingumu: \u201eAčiū \u2014 jūs tikrai j\u0105 kruopščiai patikrinote.\u201c Pažeidžiamiausiam asmeniui pasirūpino kažkas, kas žino, ko ieškoti. | Refleksija: Kodėl sistemingas vaiko gerovės patikrinimas \u2014 ne vien žvilgsnis \u2014 parodo profesional\u0105 kompetencij\u0105, kuri kuria gilų pasitikėjim\u0105?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Iš karto kreipiatės radiju ir prašote greitosios: \u201eDispečerinė, čia vaikas maždaug penkerių metų, nukentėjęs šoninio susidūrimo metu. Prašau greitosios prevencinei pediatrinei patikrai.\u201c Tada atsisukate į ponią Bennett: \u201eGreitoji jau pakeliui dėl Ellos. Dabar eisiu prie jos.\u201c Pajudate link hečbeko, pirmenybę suteikę medicininiam iškvietimui prieš patys vizualiai įvertindami vaiko būklę.",
+                    "feedback": "Kodėl: Medicinė pagalba vaikui po susidūrimo \u2014 stipri atsargumo priemonė \u2014 vaikai gali turėti paslėpt\u0173 sužalojim\u0173. Bet pirmiausia kviesti reikia papildomos minutės, kai penkerių met\u0173 mergaitė yra išsigandusi. Pirmiau patikrinkite vaik\u0105 \u2014 jūs\u0173 vizualinis \u012fvertinimas nulems, ar greitoji reikalinga prevenciškai, ar skubiai. Jei Ella atrodo gerai, galite rekomenduoti pediatrinę kontrolę neužimdami greitosios resurs\u0173. | PASEKMĖS: Greitoji pakeliui. Bet Ella verkė papildom\u0105 minutę, kol skambinote. Motina vertina greit\u0105j\u0105, bet svarsto, kodėl skambinote prieš tikrindami. Greitoji atvyksta, \u012fvertina Ell\u0105 kaip nesužalot\u0105 ir atleidžia. Teisingas rezultatas, bet neteisinga seka. | Refleksija: Kaip nuspręsti: pirmiau \u012fvertinti ar pirmiau skambinti \u2014 ir k\u0105 seka pasako tėvui apie jūs\u0173 prioritetus?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Parodym\u0173 ėmimas",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udcdd",
+                "title": "Konkuruojančios versijos",
+                "desc": "Ella su motina ir rimsta. Ponas Cooper nervingai vaikšto kitoje pusėje su telefonu rankoje. Kampe stovi vyresnio amžiaus vyras ir stebi \u2014 jis gali būti liudytojas."
+            },
+            "npcDialogue": [
+                {
+                    "character": "aggressiveDriver",
+                    "text": "(priartėdamas, rodydamas pirštu) Pareigūne, ji atsirado niekur. Aš turėjau pirmenybę. Jai reikia mokytis vairuoti. Pažiūrėkite \u012f mano automobil\u012f! Noriu, kad tai būt\u0173 protokole: JI tai sukėlė."
+                },
+                {
+                    "character": "mother",
+                    "text": "(iš už nugaros) Tai MELAS! Jis pravažiavo stop ženklą! Net nesulėtino! Mano dukra galėjo žūti!"
+                }
+            ],
+            "prompt": "Abu vairuotojai bando vienu metu jums papasakoti savo versij\u0105, prieštaraudami vienas kitam. Kaip imsite parodymus?",
+            "options": [
+                {
+                    "text": "Pakeliate abi rankas delnais į priekį ir ramiu, tvirtu balsu prasibraujate pro triukšmą: \u201eGirdžiu judu abu. Turiu pasikalbėti su kiekvienu atskirai, kad galėčiau skirti pilną dėmesį. Pone Cooper \u2014 prašau palaukite prie savo automobilio. Ponia Bennett \u2014 likite su Ella.\u201c Tada linktelite vyresnio amžiaus vyro kampe pusėn: \u201eTaip pat turiu pasikalbėti su tuo vyru.\u201c Pirmiausia kreipiatės į liudytoją, kol jis nenuėjo.",
+                    "feedback": "Kodėl: Puiki seka. Šali\u0173 atskyrimas būtinas tiksliems parodymams. Pradėti nuo nepriklausomo liudytojo tyrimui puiku \u2014 jis nesuinteresuotas rezultatu, gali išeiti, jei greitai nesikreipsite. Jo parodymai suteikia pagrind\u0105 abiejų vairuotoj\u0173 teiginiams vertinti. \u201eSkiRti kiekvienam piln\u0105 dėmes\u012f\u201c daro atskyrim\u0105 pagarb\u0173. Liudytojo paminėjimas signalizuoja kruopštum\u0105. | PASEKMĖS: Abu priima atskyrim\u0105. Ponas Peterson patvirtina, kad BMW pravažiavo stop ženklą greičiu. Turite nepriklausom\u0105 pagrind\u0105. Nė vienas vairuotojas nežino, k\u0105 pasakė liudytojas, parodymai lieka nekontaminuoti. | Refleksija: Kodėl nepriklausomas liudytojas yra vertingiausias parodymas ginčijamoje vietoje?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Stovite tarp dviejų vairuotojų su atverstu bloknotu ir leidžiate abiem kalbėti vienu metu, atidžiai klausydamiesi abiejų versijų. Manote, kad prieštaravimai tarp jų parodymų atskleis, kas meluoja \u2014 todėl leidžiate jiems ginčytis vienam prieš kitą, žymėdami, kur jų istorijos išsiskiria. Liudytojas kampe pažvelgia į laikrodį, nekantriai persikelia iš kojos ant kojos ir jau ruošiasi eiti.",
+                    "feedback": "Kodėl: Leisti dviem supykusiems žmonėms ginti savo versijas vienam prieš kit\u0105 eskaluoja konflikt\u0105. Kiekvienas parodymas sukelia paneigim\u0105. Garsas kyla. Detalės prarandamos emociniuose kontrargumentuose. Taip paimti parodymai kontaminuoja vienas kit\u0105. | PASEKMĖS: Per trisdešimt sekundžių abu vėl rėkia. Ella pradeda verkti. Vyresnio amžiaus liudytojas purto galv\u0105 ir pradeda eiti \u2014 ketinate prarasti vertingiausi\u0105 \u012frodym\u0105. | Refleksija: Kodėl parodym\u0173 ėmimas atskirai duoda geresnius \u012frodymus?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Pakeliate ranką, kad nutrauktumėte pertraukiamą kalbėjimą: \u201ePo vieną. Pone Cooper, palaukite prie savo automobilio.\u201c Tada atsisukate į ponią Bennett su bloknotu rankose: \u201ePonia Bennett, pasakykite man, kas nutiko.\u201c Pirmiausia imate jos parodymus, nes ji turi išsigandusį vaiką ir gali greičiau reikėti išvykti. Cooper stovi prie savo BMW stebėdamas iš kitos šaligatvio pusės, sukryžiavęs rankas, akivaizdžiai nepatenkintas.",
+                    "feedback": "Kodėl: Parodym\u0173 atskyrimas teisingas. Motinos pasirinkimas pirmiausia turi praktin\u012f pagrindim\u0105 \u2014 išsigandęs vaikas, gali reikėti organizuoti vežim\u0105. Tačiau pasirinkimas gali būti suvoktas kaip šališkumas. Siusti Cooper \u201elaukti\u201c gali atrodyti atmetimas. Kalbėti \u201esu kitu vairuotoju pirmiau\u201c gali būti skaitoma kaip šališkumas prieš j\u012f. O liudytojas kampe tolsta. | PASEKMĖS: Cooper niurzgėdamas, bet paklūsta. Ponia Bennett pateikia aiškius parodymus. Bet Cooper prie automobilio verda ir tampa priešiškesnis. Liudytojas pradeda eiti. | Refleksija: Imant parodymus atskirai, kaip pasirinkti tvark\u0105, kad neatrodytumėte palank\u016bs vienai šaliai?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Atsisukate į ponią Bennett ir susirūpinusiu balsu klausiate: \u201eAr jums viskas gerai? Pasakykite man, kas nutiko.\u201c Pirmiausia kreipiatės į labiau sukrėstą šalį, tikėdamiesi nuraminti jos kančią prieš pereidami prie Cooper. Ji pradeda pasakoti apie susidūrimą, laikydama Ellą, balsas trūkinėja nuo emocijų. Tuo tarpu liudytojas kampe vėl pažvelgia į laikrodį ir lėtai pradeda trauktis.",
+                    "feedback": "Kodėl: Paklausti apie jos būsen\u0105 rūpestinga, bet prašyti parodyti \u012fvyk\u012f, kol laiko verkiant\u012f vaik\u0105 prie piktojo vairuotojo, nėra idealu tiksliems parodymams. Nepriklausomas liudytojas kampe tolsta \u2014 liudytojai greitai išeina. Galite grįžti prie abiejų vairuotoj\u0173, kai užtikrinsite liudytojo parodymus. | PASEKMĖS: Ponia Bennett pateikia emocingus, nekronologiškus parodymus. Liudytojas pažiūri \u012f laikrod\u012f ir nueina. Praradote vertingiausi\u0105 \u012frodym\u0173 šaltin\u012f. | Refleksija: Ginčijamoje vietoje kuriuos parodymus vertingiausia užsitikrinti pirmiausia?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Agresyvus vairuotojas",
+            "sceneUpdate": {
+                "emoji": "\ud83d\ude21",
+                "title": "Pono Cooper reikalavimai",
+                "desc": "Pakalbėjote su liudytoju ir ponia Bennett. Dabar artėjate prie pono Cooper. Jis nervingai žingsniuoja prie savo BMW \u2014 švarko sagtys atsegstytos, veidas paraudęs, judesiai aštrūs. Kalbėjo telefonu, aiškiai sujaudintas. Bet kai priartėjate, kažkas pasikeičia. Jis pasižiūri link hečbeko, kur ponia Bennett laiko Ell\u0105, ir jo veido išraiška suvirpa \u2014 tik akimirkai \u2014 nuo pykčio \u012f kažk\u0105 kita. Jis perbraukia ranką per veid\u0105."
+            },
+            "npcDialogue": [
+                {
+                    "character": "aggressiveDriver",
+                    "text": "(pradeda agresyviai, tada susvyruoja) Pagaliau. Paskambinau savo advokatui. Tai mano laiko švaisty\u2014 (vėl pažvelgia \u012f Ell\u0105, balsas trumpam nutysta) Klausykite, ar vaikui gerai? Aš ne... Pamačiau kėdutę, kai išlipau, ir aš... (susigriebia, vėl sukietėja) Ji važiavo per lėtai. Praktiškai sustojo kelyje. Vos palietau jos automobil\u012f. Rašysite protokol\u0105, ar stovėsite čia vis\u0105 popietę? Man reikia važiuoti."
+                }
+            ],
+            "prompt": "Ponas Cooper agresyvus ir bando jus skubinti \u2014 bet k\u0105 tik parodė trump\u0105 nuoširdaus rūpesčio dėl vaiko akimirk\u0105, o tada vėl pasislėpė už agresijos. Kaip su juo elgsitės?",
+            "options": [
+                {
+                    "text": "Pakeliate ranką, kad nutrauktumėte jo monologą, ir gestu rodote BMW link: \u201ePone Cooper, prieisiu prie jūsų, kai būsiu pasiruošęs. Prašau palaukite savo transporto priemonėje.\u201c Apsisukate neatsakę į jo klausimą apie Ellą, tikėdamiesi, kad paklus, kol jūs baigsite su kitomis šalimis. Jis žiūri jums į nugarą akimirką, žandikaulis suspaustas, tada nueina prie BMW ir sunkiai krinta į vairuotojo sėdynę, trenkdamas durimis.",
+                    "feedback": "Kodėl: Atrodo, kad pašalinate konfrontacij\u0105, bet siunčiate j\u012f atgal \u012f automobil\u012f, kur\u012f ketinate tirti. Jei jame yra kažkas, ko jis nenori rodyti \u2014 atidaryti buteliai, telefonas su neseniai atliktais skambučiais \u2014 jis turės laiko atsikratyti. Dar blogiau, praleidote jo žmogiškum\u0105 \u2014 rūpest\u012f dėl Ellos. Tai buvo \u012ftrūkimas jo agresijoje, galimybė užmegzti ryš\u012f. Siusdami j\u012f \u012f automobil\u012f, t\u0105 galimybę užvėrėte. Su jo asmenybe izoliacija stiprina nepagarb\u0105. | PASEKMĖS: Cooper sėdi BMW ir verda. Akimirka žmogiškumo dėl Ellos dingusi. Kai priartėjate, jis dešimt minučių virė ir yra priešiškesnis. Jis taip pat sutvarkė automobil\u012f \u2014 vyno taurė iš \u012fmonės renginio dovan\u0173 krepšelio dabar dėžutėje. | Refleksija: Kokios \u012frodym\u0173 išsaugojimo rizikos kyla, kai siunčiate vairuotoj\u0105 atgal \u012f automobil\u012f \u2014 ir kokias žmogiškas galimybes prarandate?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Atitinkate jo tiesumą, išsitiesę pečius: \u201ePone Cooper, liudytojas patvirtina, kad pravažiavote stop ženklą. Jūs kaltas. Rašau baudą, ir niekur nevažiuosite, kol protokolas nebus baigtas.\u201c Palaikote akių kontaktą, aiškiai demonstruodami, kad tyrimo išvada jau priimta. Nepripažįstate jo klausimo apie vaiką \u2014 šiuo metu sutelkiate dėmesį į rezultato paskelbimą, net neišklausę jo versijos įvykių.",
+                    "feedback": "Kodėl: Liudytojo ir ponios Bennett parodymai tai patvirtina, bet išvados skelbimas prieš jo parodymus pakiria teising\u0105 procedūr\u0105. Kaltės paskelbimas prieš j\u012f išklausant daro protokol\u0105 pažeidžiam\u0105 apskundimui. \u201eNiekur nevažiuosite\u201c yra konfrontaciška su jau agresyviu žmogumi. Taip pat ignoravote jo rūpest\u012f dėl Ellos \u2014 vienintelę akimirk\u0105, kai jis parodė žmogiškum\u0105 \u2014 o tai reiškia, kad kiti jo žodžiai bus gryna gynyba. | PASEKMĖS: Cooper sprogsta dėl advokatu ir priekabi\u0173. Pradeda jus filmuoti. Trumpas langas, kai jis parodė rūpest\u012f dėl vaiko, užsitrenkė. Konfrontacija eskaluoja, ir jūs apnuodijote s\u0105veik\u0105. | Refleksija: Kodėl išvad\u0173 skelbimas prieš baigiant tyrim\u0105 kenkia tiek procedūrai, tiek rezultatui \u2014 ir kodėl žmogaus pažeidžiamumo akimirkos ignoravimas daro j\u012f agresyvesn\u012f?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Žengiate artyn ir pakeliate ranką delnu į priekį: \u201eSuprantu, kad esate sujaudintas, bet turite nusiraminti. Šaukimas nepadeda.\u201c Palaukiate, kol balsas nurimsta, tada išsitraukiate bloknotą: \u201eLeiskite man užduoti keletą klausimų.\u201c Pereinate tiesiai prie apklausos, nepripažindami jo trumpo klausimo apie Ellą, iš karto pradėdami struktūruotą faktinių klausimų seriją apie greitį, kryptį ir susidūrimo momentą.",
+                    "feedback": "Kodėl: \u201eNusiraminkite\u201c yra viena kontraproduktyviausius deeskaliacijos frazi\u0173. Ji nevaliduoja emocinės būsenos ir reiškia, kad reakcija netinkama \u2014 o tai supykusius žmones pykina dar labiau. \u201eŠaukimas nepadeda\u201c yra papeikimas. Pasakėte, ko nedaryti, bet nepasiūlėte nieko, k\u0105 daryti vietoj to. Jo rūpestis dėl Ellos liko visiškai nepripažintas. | PASEKMĖS: Cooper suspaudžia žand\u012f: \u201eNesakykite man nusiraminti.\u201c Jo gynybinis nusiteikimas sukietėja. Parodymai, kuriuos pateikia, trumpi ir priešiški, trūksta jums reikaling\u0173 detali\u0173. Žmogiška akimirka prarasta. | Refleksija: Kodėl \u201enusiraminkite\u201c beveik visada turi priešing\u0105 poveik\u012f? Kas pasiekia t\u0105 pat\u012f tiksl\u0105 \u2014 ir kas atsitinka, kai praleidi kieno nors nuoširdaus rūpesčio akimirk\u0105?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Pirmiausia pripažįstate žmogiškąją akimirką: \u201eEllai viskas gerai \u2014 ji išsigandusi, bet nesužalota. Automobilinė kėdutė atliko savo darbą.\u201c Leiskite tam nusėsti sekundę, tada tęsiate: \u201eSuprantu, kad esate frustruotas, ir žinau, kad popietės taip neplanavote. Turiu išgirsti jūsų versiją \u2014 nuo pradžių. Iš kur važiavote ir kas nutiko, kai artėjote prie sankryžos?\u201c Palaikote pokalbinį toną, duodami jam erdvės kalbėti.",
+                    "feedback": "Kodėl: Atsakyti \u012f jo klausim\u0105 apie Ell\u0105 prieš bet k\u0105 kit\u0105 padaro kažk\u0105 nuostabaus \u2014 tai pasako Cooper, kad pastebėjote jo rūpest\u012f, kad nematote jo vien kaip agresoriaus ir kad vaiko saugumas yra bendras prioritetas. Ši viena ryšio akimirka palengvina viską, kas seka. Tada leisti jam išsilieti prieš nukreipiant \u2014 vadovėlinė deeskalacija. \u201eIš kur važiavote\u201c strategiškai svarbu \u2014 tai nustato kilmės viet\u0105, galintč\u0105 būti svarbi\u0105 apsvaigimo nustatymui. Pradėjimas nuo pradži\u0173 sukuria chronologinį pasakojim\u0105. | PASEKMĖS: Cooper pečiai trumpam nusileidžia, kai išgirsta, kad Ellai gerai. Palengvėjimas blykstelėja prieš pyktis vėl susiformuoja. Bet jis nebėra toks stiprus. Jis paminėja \u012fmonės rengin\u012f kitoje miesto pusėje. Jo parodymuose sprag\u0173 ir nenuoseklum\u0173. Ir stovėdami arčiau pagaunate kažk\u0105 \u2014 silpn\u0105 vyno kvap\u0105. Žmogiškas ryšys privertė j\u012f nuleisti gynybas. | Refleksija: Kodėl atsakymas \u012f kieno nors rūpest\u012f dėl vaiko \u2014 net kai jie sukėlė \u012fvyk\u012f \u2014 keičia vis\u0105 dinamik\u0105? Kaip ta bendro žmogiškumo akimirka skatina j\u012f kalbėti nuoširdžiau?",
+                    "type": "positive",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Subtilūs požymiai",
+            "sceneUpdate": {
+                "emoji": "\ud83c\udf77",
+                "title": "Kažkas nesueina",
+                "desc": "Stovėdami arčiau pono Cooper pastebite požymi\u0173 visumą, kuri atskirai gali nieko nereikšti, bet kartu sudaro patern\u0105: veidas žymiai raudonesnis, nei paaiškint\u0173 vien adrenalinas; silpnas, bet aiškus vyno kvapas iš burnos; aiški kalba, bet nenuoseklūs parodymai su akivaizdžiomis chronologinėmis spragomis; \u201e\u012fmonės renginio\u201c paminėjimas kaip kilmės vieta; šiek tiek išsiplėtę vyzdžiai; ir \u2014 kai tiesia rank\u0105 prie telefono \u2014 vos pastebimas rankos nestabilumas, kuris gali būti pyktis arba kažkas kita."
+            },
+            "npcDialogue": [
+                {
+                    "character": "aggressiveDriver",
+                    "text": "(pastebi jūs\u0173 veido išraišk\u0105, beveik nepastebimai susisverdėdamas perkeldamas svor\u012f, nusišluostydamas burn\u0105) K\u0105? \u012e k\u0105 žiūrite? Sakiau \u2014 vos palietau jos automobil\u012f. (fumblina telefon\u0105, sugauna, kalba šiek tiek garsiau nei reikėt\u0173) Gal galime apsikeisti draudimo duomenimis ir baigti? Turiu reikal\u0173. (vėl jaučiate vyno kvap\u0105, kai jis pasilenkia arčiau, ir pastebite, kad jo akys šiek tiek stiklinės po pykčiu)"
+                }
+            ],
+            "prompt": "Pastebite subtilius galimo alkoholio vartojimo požymius. Kaip tai spręsite?",
+            "options": [
+                {
+                    "text": "Požymius pasižymite mintyse \u2014 paraudusį veidą, silpną vyno kvapą, lengvą nestabilumą \u2014 bet nusprendžiate toliau nesekti. Jis neatrodo aiškiai apsvaigęs, jo kalba aiški, o įvykis yra paprastas pirmenybės nepaistymo stop ženklo pažeidimas. Blaivumo patikra eskaluotų jau ir taip įtemptą įvykio vietą be pakankamo pagrindo, todėl grįžtate prie protokolo, užfiksuodami eismo pažeidimą, bet palikdami alkoholio stebėjimus už jo ribų.",
+                    "feedback": "Kodėl: Ignoruoti stebimus alkoholio požymius eismo \u012fvykio vietoje \u2014 rimtas pareig\u0173 neatlikimaas. Apsvaigimas ne visada atrodo kaip sverdėjimas \u2014 susilpnėjęs reakcijos laikas gali būti maskuotas adrenalino. Turite kelis rodiklius: paraudęs veidas, alkoholio kvapas, išsiplėtę vyzdžiai, nenuoseklūs parodymai, kilmė iš renginio, kur vartojamas alkoholis. Netirti reiškia, kad jūs\u0173 protokole trūksta svarbios informacijos \u2014 ir jei šiandien vakare sukels dar vien\u0105 \u012fvyk\u012f, turėjote galimybę \u012fsikišti. | PASEKMĖS: Rašote paprastą pirmenybės pažeidimo protokol\u0105. Cooper išvažiuoja. Po dviejų valandų jo kraujo alkoholio lygis pakilo dėl neseniai vartoto alkoholio. Jis pereina \u012f prieking\u0105 eismo juost\u0105. Šįkart niekas nelaimėjo. | Refleksija: Kokia jūs\u0173 pareiga pastebėjus galimus apsvaigimo požymius, net jei žmogus neatrodo \u201egirtas\u201c?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Tęsiate pokalbį tuo pačiu ramiu, neskubiu tonu: \u201eMinėjote įmonės renginį \u2014 kokia buvo proga?\u201c Leidžiate jam aprašyti savo žodžiais. Tada natūraliai pasiteiraujate: \u201eAr buvo ko nors gerti? Klausiu, nes noriu viską tiksliai dokumentuoti abiejų šalių apsaugai.\u201c Pagal jo atsakymą \u2014 kartu su fiziniais požymiais, kuriuos katalogavote \u2014 sprendžiate, ar reikalingas tolimesnis testavimas, ir planuojate tolimesnį žingsnį.",
+                    "feedback": "Kodėl: Puiku tyrimui. Pokalbio požiūris leidžia jam aprašyti rengin\u012f neiš\u012fjungiant gynyb\u0173. Tikėtiniau, kad atvirai prisipaž\u012fs, kai suvokia kaip rutinin\u012f klausim\u0105. \u201eAbiej\u0173 šali\u0173 apsaugai\u201c performuliuoja iš konfrontacinio \u012f procedūrin\u012f. Jo atsakymas kartu su fiziniais požymiais suteikia pagrind\u0105 tolimesniam testavimui. Jei pripažins, kad gėrė, turėsite stebėjimus plius prisipažinim\u0105, pateisinančius kvėpavimo test\u0105. | PASEKMĖS: Cooper, vis dar pokalbio tėkmėje, prisipažista: \u201eBuvo vyno. Išgėriau poras taures, bet tai buvo prieš daugiau nei dvi valandas \u2014 man viskas gerai.\u201c Fiziniai stebėjimai plius keli\u0173 tauri\u0173 pripažinimas. Aiškūs pagrindai lauko blaivumo patikrai. | Refleksija: Kodėl pokalbinis apsvaigimo nustatymas duoda geresnius \u012frodymus nei konfrontacija?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Žengiate žingsnį atgal nuo Cooper ir be jokio papildomo pokalbio kreipiatės radiju: \u201eDispečerinė, prašau vairavimo neblaiviam ekipažo į mano vietą \u2014 jaučiu alkoholio kvapą vairuotojo kvėpavime.\u201c Tada atsisukate atgal į Cooper, veido išraiška neutrali: \u201eJaučiu alkoholio kvapą jūsų kvėpavime. Kviečiu specializuotą ekipažą. Prašau likite čia ir negrįžkite prie savo transporto priemonės.\u201c Stovite tarp jo ir BMW, sukryžiavę rankas.",
+                    "feedback": "Kodėl: Specializuoto vieneto prašymas rodo protokolo žinojiom\u0105, bet šuolis nuo stebėjimo prie vairavimo neblaiviam paskelbimo be jokio pokalbio dramatiškai eskaluoja. Neišsiaiškinote, kiek gėrė ar kada. Atsakas neproporcingas dabartiniams \u012frodymams. Maksimalus priešiškumas seka. | PASEKMĖS: Cooper sprogsta: \u201eVairavimas neblaiviam?! Už vyno taurę pietums? Skambinu advokatui. Tai priekabiavimas!\u201c Jis filmuoja jus. Situacija peraugo iš eismo \u012fvykio \u012f konfrontacij\u0105 dėl teisi\u0173. | Refleksija: Kaip proporcingai didinti atsaką, kai auga \u012frodymai?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Pažvelgiate Cooper tiesiai į akis ir užduodate klausimą tiesiogiai, nutraukdami pokalbį: \u201ePone Cooper, ar šiandien gėrėte?\u201c Atidžiai stebite jo veidą, laukdami reakcijos \u2014 mikroišraiškos prieš žodinį atsakymą dažnai atskleidžia daugiau nei patys žodžiai. Jei pripažins bet kokį vartojimą, iš karto pereisite prie lauko blaivumo testo, naudodami jau pastebėtus fizinius požymius kaip papildomą dokumentavimo pagrindą.",
+                    "feedback": "Kodėl: Tiesioginis klausimas su stebimais požymiais procedūriškai tinkamas. Tačiau tiesioginis klausimas sukelia gynybinį neigim\u0105 ar sumažinim\u0105. Pokalbio požiūris gali duoti nuoširdžiausius atsakymus prieš pilnai aktyvuojantis gynybai. Instinktas teisingas \u2014 būtina tirti \u2014 bet metodas galėt\u0173 būti tobulesnis. | PASEKMĖS: Cooper sustingsta, tada atšauna: \u201eVien\u0105 vyno taurę, prieš valandas. Tai juokinga.\u201c Jis dabar pilnai gynybinėje pozicijoje. Bendradarbiavimas testavime bus sunkesnis. | Refleksija: Kas duoda daugiau naudingos informacijos \u2014 tiesioginis klausimas ar pokalbio požiūris?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Motinos frustracija",
+            "sceneUpdate": {
+                "emoji": "\ud83d\ude30",
+                "title": "Ponios Bennett kantrybė trūksta",
+                "desc": "Buvote užsiėmęs Cooper parodymais ir apsvaigimo klausimu. Tuo tarpu ponia Bennett laukė su Ella, stebėdama, kaip leidžiate laik\u0105 su vyru, kuris trenkėsi \u012f jos automobil\u012f. Ella kybo ant motinos."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mother",
+                    "text": "(priartėdama, balsas dreba) Pareigūne, kiek dar? Mano dukra yra persigandusi. Jis pravažiavo stop ženklą tiesiai \u012f mus, ir jūs su juo kalbatės? Kodėl jam neatliekamas kvėpavimo testas? Jaučiu alkohol\u012f iš čia! Ar pagaliau darysite savo darb\u0105, ar ne?"
+                }
+            ],
+            "prompt": "Auka frustruota ir praranda kantrybę. Ji jaučia, kad su kaltuoju vairuotoju leidžiate per daug laiko. Kaip atsakysite?",
+            "options": [
+                {
+                    "text": "Iš karto einate prie jos atvira laikysena: \u201ePonia Bennett, suprantu jūsų frustraciją ir turite visą teisę pykti. Jūsų ir Ellos saugumas \u2014 mano prioritetas. Pakalbėjau su liudytoju ir užfiksavau alkoholį \u2014 dabar tuo užsiimu. Turiu laikytis tam tikrų žingsnių, kad viskas teisiškai galiotų. Ar yra kas nors, kas galėtų jus su Ella pasiimti, kad nereikėtų laukti čia prie sugadinto automobilio?\u201c",
+                    "feedback": "Kodėl: Validuoja frustraciją be gynybos. Informuoja apie tyrimo eigą \u2014 liudytojas apklaustas, alkoholis užfiksuotas. Paaiškinimas \u201ežingsniai, kad viskas galiot\u0173\u201c padeda suprasti delsimą. Pasiūlymas pasiimti rodo tikrą rūpest\u012f ir suteikia praktinę išeit\u012f. | PASEKMĖS: Ponios Bennett pečiai nusileidžia su palengvėjimu. Ji skambina seseriai. Žinodama, kad liudytojas patvirtino jos versijhą ir kad alkoholiu užsiimate, ji pasitiki procedūra. Ella nusiramina, nes nusiramina motina. | Refleksija: Kaip laukiančios šalies informavimas keičia laukimo patirt\u012f?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Pakeliate ranką raminančiu gestu ir palaikote lygų toną: \u201ePonia Bennett, žinau, kad tai užtrunka, bet turiu būti kruopštus. Prašau palaukite \u2014 netrukus būsiu pas jus.\u201c Nesiūlote jokių detalių apie tai, ką nustatėte, nepateikiate jokios informacijos apie tyrimo eigą ir nepripažįstate to, ką ji stebėjo iš kitos šaligatvio pusės. Apsisukate atgal link Cooper situacijos ir tęsiate savo darbą.",
+                    "feedback": "Kodėl: Ne klaida, bet kliniška. \u201eProcedūros laikymasis\u201c nepripažista jos emocinės būsenos, išsigandusio vaiko ar to, kad ji laukė, kol kalbėjote su vyru, kuris j\u0105 sužalojo. \u201ePrašau palaukite\u201c elgiasi su ja kaip su eilės punktu. Jokios informacijos apie tyrimo eigą. | PASEKMĖS: Pasitraukia, bet jaučiasi atmesta. Pasitikėjimas neauga \u2014 stagnuoja. Ji bendradarbiaus, bet nesijaučia, kad jai buvo padėta. | Refleksija: Kuo skiriasi procedūrinis teisingumas ir žmogiškas ryšys?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Linktelite ir nuleidžiate balsą sąmoksliniu tonu: \u201eJūs teisi \u2014 akivaizdu, kad jis pravažiavo stop ženklą, ir alkoholį jaučiu ir aš. Nesijaudinkite, jis gaus baudą ir kvėpavimo testą. Teisingumas bus įvykdytas.\u201c Palaikote akių kontaktą, norėdami sustiprinti nuramimą, dalindamiesi tyrimo išvadomis ir liudytojo informacija tiesiogiai su ponia Bennett, nors byla dar oficialiai nebaigta.",
+                    "feedback": "Kodėl: Emociškai patenkina, bet procedūriškai katastrofiška. Pasidalinote tyrimo išvadomis su viena šalimi prieš j\u012f baigiant. Patvirtinote liudytojo informacij\u0105 (kontaminuodami parodymus) ir atskleidėte alkoholio nustatymus. Jei tai pateks \u012f teism\u0105, gynyba argumentuos pareigūno šališkum\u0105 ir neteisėt\u0105 \u012frodym\u0173 atskleidim\u0105. \u201eTeisingumas bus \u012fvykdytas\u201c \u2014 pažadas, kurio negalite kontroliuoti. | PASEKMĖS: Ponia Bennett jaučiasi pripažinta \u2014 kol kas. Bet jei Cooper advokatas sužinos, kad dalinotes išvadomis su kita šalimi, byl\u0105 galima ginčyti. Nešališkumas paaukotas patogumui. | Refleksija: Kaip nuraminti skundėj\u0105 nedalijantis tyrimo detali\u0173, kurios pakirs byl\u0105?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Išsitiesiate ir tvirtu, santūriu balsu pasakote: \u201ePonia Bennett, kaltinimai dėl alkoholio nepadeda. Leiskite man daryti savo darbą. Pakalbėsiu su jumis, kai baigsiu su ponu Cooper.\u201c Gestu nurodote jai grįžti ant šaligatvio, kur sėdi Ella, aiškiai parodydami, kad pokalbis kol kas baigtas. Jos pastebėjimas apie alkoholį \u2014 tas pats dalykas, kurį jūs pats tiriate \u2014 lieka visiškai nepripažintas, kol apsisukate ir nueinate.",
+                    "feedback": "Kodėl: Ji stebi t\u0105 pat\u012f, k\u0105 ir jūs. Atmesti jos pastebėjim\u0105 kaip \u201enepadedant\u012f\u201c \u2014 menkinimas. \u201eLeiskite man daryti savo darb\u0105\u201c sako piliečiams, kad j\u0173 indėlis nepageidaujamas. \u201ePakalbėsiu su jumis, kai baigsiu su juo\u201c daro j\u0105 paskutiniu prioritetu po vyro, kuris \u012f j\u0105 trenkėsi. | PASEKMĖS: Ponia Bennett sukrėsta, tada \u012ftūžta. Išsitraukia telefon\u0105 dokumentuoti. Jūs\u0173 santykis su auka sugriuvo. | Refleksija: Kai pilietis stebi tai, k\u0105 ir jūs tiriate, kaip turėtumėte reaguoti?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "\u012evykio vietos užbaigimas",
+            "sceneUpdate": {
+                "emoji": "\ud83d\udccb",
+                "title": "Užbaigimas",
+                "desc": "Ponas Cooper pravažiavo stop ženklą. Kvėpavimo testas: 0,06 % \u2014 žemiau teisinės ribos, bet \u012frodymas neseniai vartoto alkoholio. Liudytojas patvirtino pažeidim\u0105. Ponia Bennett ir Ella laukia sesers. Abu automobiliai važiuojami, bet sugadinti."
+            },
+            "npcDialogue": [
+                {
+                    "character": "aggressiveDriver",
+                    "text": "(priblėsęs po kvėpavimo testo) Pūčiau žemiau ribos. Nesu girtas. Tai buvo \u012fvykis. Ar galiu gauti draudimo duomenis ir važiuoti?"
+                }
+            ],
+            "prompt": "Kaip užbaigsite \u012fvykio viet\u0105 \u2014 Cooper bauda, ponios Bennett poreikiai ir tolesni žingsniai?",
+            "options": [
+                {
+                    "text": "Nuplėšiate baudą nuo blanko ir paduodate Cooper be papildomų komentarų, tada linktelite jo BMW link: \u201eGalite važiuoti.\u201c Nueinate prie ponios Bennett: \u201eProtokolo numerį galite pasiimti rytoj ryte nuovadoje \u2014 reikės draudimui.\u201c Grįžtate prie patrulio, pažymite vietą kaip išvalytą ir pajudate. Abi šalys turi formalius dokumentus, o sankryža vėl atvira eismui, tačiau žmogiška užbaigimo pusė liko nepadaryta.",
+                    "feedback": "Kodėl: Formalus ir neužbaigtas. Bauda teisinga, bet jokio pokalbio apie alkoholio pasekmes. Ponia Bennett negauna informacijos apie savo teises, draudimo reikalavimus ar Ellos tolesnę priežiūr\u0105. \u201ePasiimkite protokol\u0105 rytoj\u201c \u2014 minimalus pastangas. Popieriai sutvarkyti, žmonėms nepadėta. | PASEKMĖS: Cooper išvažiuoja su 0,06 % kraujo alkoholio ir agresyvia nuotaika. Ponia Bennett laukia jausdama, kad j\u0105 tik \u201eapdorojo\u201c, o ne padėjo. Ellai jokios rekomendacijos tolesnei priežiūrai. Vieta išvalyta, darbas padarytas perpus. | Refleksija: Kuo skiriasi vietos išvalymas ir tarnybos užbaigimas?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Pasakote Cooper paduodami baudą, šiek tiek pasilenkdami: \u201ePūtėte 0,06. Žemiau ribos, bet viena taurė daugiau, ir vestume visai kitą pokalbį. Pagalvokite apie tai.\u201c Palaikote akių kontaktą sekundę, tada paleidžiate jį. Nueinate prie ponios Bennett, palinkite geros vakaro ir palinkite Ellai pasveikti. Tada grįžtate prie patrulio ir išvalote vietą, nepateikę jai protokolo numerio ar medicininių rekomendacijų dėl vaiko.",
+                    "feedback": "Kodėl: \u012espėjimas turi poveik\u012f, bet \u201epagalvokite apie tai\u201c yra pamoksliškas ir gali sukelti gynybinę reakcij\u0105. Dar svarbiau \u2014 ponios Bennett užbaigimas minimalus \u2014 jokio protokolo numerio, jokios medicininės rekomendacijos Ellai, joki\u0173 praktini\u0173 tolesni\u0173 žingsni\u0173. Užbaigimo energij\u0105 investavote \u012f Cooper, o auk\u0105 neaptarnavote. | PASEKMĖS: Cooper pažemintas, bet piktas. Ponia Bennett išeina be protokolo numerio, be medicininės rekomendacijos, nesijausdama, kad ja buvo pasirūpinta. Užbaigimo energij\u0105 skyrėte netinkamam asmeniui. | Refleksija: Kam turėt\u0173 tekti didžioji dalis užbaigimo dėmesio \u2014 nubaustam ar nukentėjusiam?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Kreipiatės į Cooper: \u201eSkiriu jums baudą už stop ženklo nepaisymą. Jūsų testas buvo žemiau teisinės ribos, bet 0,06 % rodo neseniai vartotą alkoholį, kuris galėjo paveikti jūsų reakcijos laiką. Griežtai rekomenduoju šiandien daugiau nevairuoti \u2014 iškvieskite taksi arba tegul kas nors jus pasiima.\u201c Tada einate prie ponios Bennett: \u201eŠtai protokolo numeris jūsų draudimui. Rekomenduoju artimiausiomis dienomis nuvesti Ellą pas pediatrą. Ar jūsų sesuo jau arti?\u201c",
+                    "feedback": "Kodėl: Išsamus užbaigimas, tarnaujantis abiem šalims. Bauda pateikta su alkoholio kontekstu kaip saugumo rekomendacija. \u201eŠiandien daugiau nevairuoti\u201c \u2014 atsakinga rekomendacija. Poniai Bennett pediatrinės patikros rekomendacija rodo medicinin\u012f sąmoningum\u0105, kurio tėvai dažnai neturi. Proaktyvus protokolo numerio suteikimas sutaupo jai kelionę. Klausimas apie seser\u012f rodo, kad prisimenate ir rūpinatės. Abi šalys išeina su aiškiais tolesniais žingsniais. | PASEKMĖS: Cooper priblokštas visumos \u2014 bauda, kvėpavimo testas, profesionalus pareigūnas, kuris elgėsi teisingai nepaisant jo elgesio. Jis kviečiasi pasiimti. Ponia Bennett turi aiškų keli\u0105 draudimui ir medicininei kontrolei. Ella rimsta. Abu patyrė kruopšt\u0173, teisingą, žmogiška policiją. | Refleksija: Kaip išsamus užbaigimas paverčia rutininę ataskait\u0105 susitikimu, kuris kuria pasitikėjim\u0105?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Pakviečiate abi šalis į šaligatvio centrą: \u201eApsikeiskite draudimo duomenimis tiesiogiai, tada galite važiuoti. Pone Cooper, štai jūsų bauda.\u201c Paduodate jam popierių ir žengiate žingsnį atgal, sukryžiavę rankas, prižiūrėdami apsikeitimą. Abu vairuotojai stovi viens prieš kitą pirmą kartą nuo to laiko, kai juos atskyrėte prieš valandą, o Ella stebi viską iš motinos glėbio.",
+                    "feedback": "Kodėl: Suvesti dvi priešiškas šalis po konfrontacinės valandos \u2014 receptas naujai ugniai. Cooper pažemintas po kvėpavimo testo. Bennett pyksta dėl visko. Priverstas tiesioginis kontaktas rizikuoja vėl \u012fžiebti ginčą prieš Ell\u0105. Surinkite informaciją atskirai ir užtikrinkite, kad kiekviena šalis turėt\u0173 reikalingus duomenis per protokol\u0105. | PASEKMĖS: Apsikeitimas prasideda padoriai, bet greitai blogėja. Cooper mesta pašaipi\u0105 pastab\u0105. Bennett atšauna kažk\u0105 apie Ell\u0105. Ella vėl pradeda verkti. Besisprendžianti situacija vėl atsidarė. | Refleksija: Kada reikia išlaikyti šalis atskirtas iki pat užbaigimo?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Apžvalga ir atskleidimas",
+            "sceneUpdate": {
+                "emoji": "\ud83c\udfc1",
+                "title": "Mokymo apžvalga",
+                "desc": "Atgal nuovadoje. Seržantas Davis vertina jūs\u0173 pasirodym\u0105."
+            },
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Eismo \u012fvykiai tikrina visus \u012fgūdžius vienu metu \u2014 \u012fvykio vietos saugum\u0105, atskyrim\u0105, vaiko gerovę, tyrim\u0105, apsvaigimo nustatym\u0105, nešališkum\u0105 ir užbaaigim\u0105. Dauguma pareigūn\u0173 juos traktuoja kaip popieriaus pratimus: nustatyti kaltę, parašyti ataskait\u0105, atlaisvinti keli\u0105. Jūs š\u012f potraktavote kaip tai, kuo jis iš tikrųj\u0173 buvo \u2014 žmogiška krize, kurioje dalyvavo išsigandęs vaikas, \u012ftūžusi motina, vyras, kuris galėjo būti apsvaigęs, ir liudytojas, kuris beveik nuėjo. Jūs\u0173 sprendim\u0173 seka buvo tokia pat svarbi kaip patys sprendimai."
+                },
+                {
+                    "character": "officer",
+                    "text": "Labiausiai mane nustebino, kaip sunku buvo vienu metu tirti ir deeskaluoti. Kai kalbėjau su Cooper pokalbiu apie \u012fmonės rengin\u012f, tuo pat metu bandžiau nustatyti apsvaigim\u0105 ir j\u012f nuraminti. Atrodė, kad šie tikslai konkuruoja tarpusavyje."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Būtent š\u012f perspektyvos perrėminim\u0105 noriu, kad \u012fsidemėtumėte. Tyrimas ir deeskalacija nėra atskiri \u012fgūdžiai \u2014 tai tas pats \u012fgūdis. Geriausi tyrėjai yra tie, kurie pirmiausia nuramina žmones, nes ramūs žmonės sako ties\u0105. Kai paklausėte Cooper, iš kur jis važiavo, tai buvo vienu metu ir deeskalacija \u2014 leidimas jam kalbėti \u2014 ir tyrimas \u2014 jo kilmės vietos ir alkoholio ekspozicijos nustatymas. Jums nereikėjo rinktis tarp \u012frodym\u0173 rinkimo ir jo emocij\u0173 valdymo. Pokalbio požiūris pasiekė abu tikslus, ir būtent dėl to jis prisipažino dėl vyno savanoriškai, užuot pasikvietęs advokat\u0105."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Bet kas iškėlė š\u012f atvej\u012f nuo kompetentingo iki išskirtinio, buvo Ella. Jūs patikrinote penkerių met\u0173 mergaitę prieš tikrindami \u012frodymus. Ėjote su motina prie automobilio, užuot siuntę j\u0105 vien\u0105. Ponia Bennett vėliau sakė, kad labiausiai prisimena ne pat\u012f \u012fvyk\u012f \u2014 o tai, kad pareigūnas pirmiausia patikrino jos dukr\u0105. Ella iki šiol kalba apie malon\u0173 policinink\u0105. Tai yra eismo \u012fvykio atsakymo, atlikto teisingai, palikimas \u2014 ne bauda, ne protokolas, o vaiko pirmas prisiminimas apie policij\u0105, rodančią rūpest\u012f. Leiskite papasakoti, kas nutiko po to."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispečerinė", "avatar": "\ud83d\udcfb"},
+        "aggressiveDriver": {"name": "Ponas Cooper (vairuotojas, 35)", "avatar": "\ud83d\ude21"},
+        "mother": {"name": "Ponia Bennett (vairuotoja, 28)", "avatar": "\ud83d\ude30"},
+        "child": {"name": "Ella (5 m.)", "avatar": "\ud83d\udc67"},
+        "witness": {"name": "Ponas Peterson (kaimynas)", "avatar": "\ud83d\udc74"},
+        "officer": {"name": "Jūs (Pareigūnas)", "avatar": "\ud83d\udc6e"},
+        "trainer": {"name": "Seržantas Davis", "avatar": "\ud83d\udc6e\u200d\u2642\ufe0f"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Išskirtinis \u012fvykio vietos valdymas!",
+            "emoji": "\ud83c\udf1f",
+            "feedback": "Pademonstravote vadovėlin\u012f atsakymą \u012f eismo \u012fvyk\u012f: vieta apsaugota, vaikas prioritetu, šalys atskirtos, liudytojas užfiksuotas, apsvaigimas nustatytas pokalbiu ir išsamus užbaigimas abiem šalims. Kiekvienas sprendimas parodė teisingus prioritetus teisinga tvarka."
+        },
+        "good": {
+            "title": "Stiprus pasirodymas",
+            "emoji": "\u2705",
+            "feedback": "Gerai susidorojote su pagrindiniais elementais \u2014 vietos saugumu, šali\u0173 atskyrimu ir tyrimu. Kai kurios galimybės geresniam sekos parinkimui, užbaigimui ar apsvaigimo nustatymui buvo praleistos, bet jūs\u0173 požiūris buvo profesionalus ir orientuotas \u012f saugum\u0105."
+        },
+        "average": {
+            "title": "Pakankamas atsakas",
+            "emoji": "\ud83d\udcca",
+            "feedback": "Išsprendėte eismo \u012fvyk\u012f, bet praleidote svarbius vietos valdymo, vaiko gerovės ar tyrimo kruopštumo aspektus. Buvo galimybi\u0173 išsamesniam atsakui."
+        },
+        "poor": {
+            "title": "Reikia reikšming\u0173 pagerinimų",
+            "emoji": "\u26a0\ufe0f",
+            "feedback": "Praleisti svarbūs eismo \u012fvykio atsako elementai. Eismo \u012fvykiai apima visus pagrindinius policijos \u012fgūdžius: saugum\u0105, deeskalavim\u0105, tyrim\u0105, nešališkum\u0105 ir žmogišk\u0105 rūpest\u012f. Peržiūrėkite vietos valdymo ir tyrimo protokolus."
+        }
+    },
+    "metrics": {
+        "sceneSafety": {
+            "name": "Vietos saugumas ir valdymas",
+            "description": "\u012evykio vietos apsauga nuo antrini\u0173 pavojų, eismo valdymas ir fizinio saugumo užtikrinimas",
+            "icon": "\ud83d\udea7"
+        },
+        "conflictSeparation": {
+            "name": "Konflikto šali\u0173 atskyrimas",
+            "description": "Fizinis ir emocinis priešiškų šali\u0173 atskyrimas, siekiant išvengti eskalacijos ir gauti tikslius parodymus",
+            "icon": "\u2194\ufe0f"
+        },
+        "childWelfare": {
+            "name": "Vaiko gerovės prioritetas",
+            "description": "Dėmesys vaikui kaip pažeidžiamai šaliai, reikalaujančiai neatidėliotino dėmesio ir nuolatinio \u012fvertinimo",
+            "icon": "\ud83d\udc67"
+        },
+        "investigativeThoroughness": {
+            "name": "Tyrimo kruopštumas",
+            "description": "Apsvaigimo nustatymas, liudytojų parodym\u0173 užtikrinimas, \u012frodymo\u0173 išsaugojimas ir protokol\u0173 laikymasis",
+            "icon": "\ud83d\udd0d"
+        },
+        "communicationUnderPressure": {
+            "name": "Komunikacija esant spaudimui",
+            "description": "Dviej\u0173 priešiškų šali\u0173 valdymas vienu metu ramiai, nešališkai ir profesionaliai",
+            "icon": "\ud83d\udde3\ufe0f"
+        }
+    }
+}

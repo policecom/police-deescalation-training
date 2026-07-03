@@ -1,0 +1,626 @@
+{
+    "scenarioId": "road-rage",
+    "reviewVersion": "2.0",
+    "title": "Road Rage — Intersection Flashpoint - Performance Analysis",
+
+    "stageAnalysis": {
+        "1": {
+            "stageName": "The Scene",
+            "criticalSkills": ["Scene Safety", "Priority Sequencing", "Command Presence"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Position your patrol car to protect the scene. Turn on emergency lights. Then approach firmly: 'I need both of you to step back to the pavement. Right now. We're going to handle this, but first everyone needs to be safe.'",
+                    "strengths": [
+                        "Patrol car creates physical barrier preventing secondary accidents",
+                        "Emergency lights warn approaching drivers",
+                        "Command to step to pavement addresses physical safety first",
+                        "Firm but calm tone establishes authority without escalation"
+                    ],
+                    "professionalImpact": "Scene protection before anything else prevents secondary collisions and establishes the right priority sequence."
+                },
+                "partially_positive": {
+                    "choiceText": "Walk quickly to the hatchback to check on the crying child — the most vulnerable person here.",
+                    "adequate": [
+                        "Excellent instinct to prioritize the child",
+                        "Focus on the most vulnerable party"
+                    ],
+                    "missed": [
+                        "Rushed past arguing drivers without stabilization",
+                        "Scene remains unsecured from traffic",
+                        "Argument may escalate while your back is turned"
+                    ],
+                    "improvement": "The child instinct is right, but stabilize the scene and separate adults first. You can't help a child while two adults fight behind you."
+                },
+                "neutral": {
+                    "choiceText": "Call for backup first — this is a complex scene. You'll need another unit before doing anything.",
+                    "adequate": [
+                        "Backup request is tactically sound"
+                    ],
+                    "missed": [
+                        "Standing back while adults argue in the roadway",
+                        "Nothing is being managed while waiting",
+                        "Backup could be minutes away — scene deteriorates"
+                    ],
+                    "improvement": "Request backup while simultaneously stabilizing. You can radio and command at the same time."
+                },
+                "negative": {
+                    "choiceText": "Go straight to the arguing drivers: 'Both of you — stop. I'm here now. Who wants to tell me what happened?'",
+                    "failures": [
+                        "Scene unsecured — secondary collision risk",
+                        "'Who wants to tell me what happened?' invites competing narratives",
+                        "Child not checked",
+                        "Prioritized argument over safety"
+                    ],
+                    "consequences": "Engaging the argument before securing the scene risks secondary collisions and leaves the child unattended.",
+                    "trainingFocus": "Review scene safety protocols — hazards, injuries, and traffic flow must be addressed before investigation."
+                }
+            },
+            "keyLearningPoints": [
+                "Scene safety comes before investigation — always",
+                "Physical barriers prevent secondary accidents",
+                "Firm but calm commands establish authority without escalation"
+            ]
+        },
+
+        "2": {
+            "stageName": "The Child",
+            "criticalSkills": ["Child Welfare Assessment", "Parent Engagement", "Medical Decision-Making"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Tell her: 'I'll come with you — let's check on Ella together.' Walk with her to the car, open the door carefully. Check the child systematically: eye contact and responsiveness, any bruising or marks from the seatbelt or harness, whether she flinches when moving her neck or arms, whether her pupils are equal and reactive.",
+                    "strengths": [
+                        "Systematic child assessment — not just a glance",
+                        "Walking with the mother shows care and maintains presence",
+                        "Trained eyes check for hidden injuries — bruising, restricted movement, pupils",
+                        "Medical decision informed by actual assessment, not assumption"
+                    ],
+                    "professionalImpact": "A systematic child welfare check demonstrates professional competence that builds deep trust with the parent."
+                },
+                "partially_positive": {
+                    "choiceText": "Radio for an ambulance for a precautionary check, then go to the child: 'An ambulance is coming for Ella. Let me go to her now.'",
+                    "adequate": [
+                        "Medical response for a child in a collision is strong precaution",
+                        "Shows concern for hidden injuries"
+                    ],
+                    "missed": [
+                        "Radioed before assessing — another minute of delay",
+                        "Visual assessment should inform whether ambulance is precautionary or urgent",
+                        "Mother wonders why you radioed before checking her daughter"
+                    ],
+                    "improvement": "Assess first, then radio — your visual assessment determines urgency and guides the EMS request."
+                },
+                "neutral": {
+                    "choiceText": "Wave her over: 'Yes, go ahead — get your daughter and bring her to the pavement. I need to start taking statements.'",
+                    "adequate": [
+                        "Allowed mother to retrieve child"
+                    ],
+                    "missed": [
+                        "Sent mother alone without checking Ella yourself",
+                        "Children in car seats can have hidden injuries",
+                        "'I need to start statements' signals paperwork over child welfare"
+                    ],
+                    "improvement": "Personally check a child at a collision scene — hidden injuries require trained observation."
+                },
+                "negative": {
+                    "choiceText": "Tell Ms. Bennett: 'Stay where you are — I need to keep everyone separated. I'll check on your daughter in a moment.'",
+                    "failures": [
+                        "Separation principle misapplied — parent is not a hostile party",
+                        "Restricting parent from a scared child is disproportionate",
+                        "Every minute of delay deepens child's distress",
+                        "Turned an ally into an adversary"
+                    ],
+                    "consequences": "Preventing a mother from reaching her frightened child destroys trust instantly and creates a new conflict.",
+                    "trainingFocus": "Review when separation is appropriate and when it becomes disproportionate."
+                }
+            },
+            "keyLearningPoints": [
+                "Systematic child assessment — not just a glance — demonstrates professional competence",
+                "Walking with the parent maintains presence while allowing comfort",
+                "Medical decisions should be informed by assessment, not assumption"
+            ]
+        },
+
+        "3": {
+            "stageName": "Taking Statements",
+            "criticalSkills": ["Investigative Sequencing", "Evidence Preservation", "Witness Management"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Raise both hands: 'I hear you both. I need to speak with each of you separately so I can give you my full attention. Mr. Cooper — please wait by your vehicle. Ms. Bennett — stay with Ella. I also need to speak with that gentleman on the corner.' Approach the witness first.",
+                    "strengths": [
+                        "Separated statements for accuracy",
+                        "Independent witness prioritized — most valuable and may leave",
+                        "'Giving full attention' makes separation feel respectful",
+                        "Baseline account established before driver statements"
+                    ],
+                    "professionalImpact": "The independent witness is the most valuable statement at a contested scene — securing them first is investigatively excellent."
+                },
+                "partially_positive": {
+                    "choiceText": "Hold up your hand: 'One at a time. Mr. Cooper, wait by your vehicle. Ms. Bennett, tell me what happened.' Take her statement first since she has the child.",
+                    "adequate": [
+                        "Separated statements correctly",
+                        "Mother-first has practical justification — child needs"
+                    ],
+                    "missed": [
+                        "Choice can be perceived as bias",
+                        "Cooper stews and grows more hostile",
+                        "Witness on the corner drifting away — most valuable evidence"
+                    ],
+                    "improvement": "Secure the independent witness first — they have no stake in the outcome and may leave if not approached quickly."
+                },
+                "neutral": {
+                    "choiceText": "Turn to Ms. Bennett: 'Are you okay? Tell me what happened.' Address the more upset party first to de-escalate, then move to Cooper.",
+                    "adequate": [
+                        "Caring approach to the victim",
+                        "Checked wellbeing first"
+                    ],
+                    "missed": [
+                        "Asking for an account while she holds a crying child isn't ideal",
+                        "Witness drifting away — most valuable evidence source",
+                        "Can return to both drivers after securing the witness"
+                    ],
+                    "improvement": "At a contested scene, the independent witness is the most valuable statement to secure first."
+                },
+                "negative": {
+                    "choiceText": "Let both drivers speak, listening to both versions — the contradictions will reveal who's lying.",
+                    "failures": [
+                        "Simultaneous statements escalate conflict",
+                        "Each statement triggers rebuttals",
+                        "Details lost in emotional counter-claims",
+                        "Witness starts walking away — critical evidence lost"
+                    ],
+                    "consequences": "Letting angry parties argue in front of each other produces contaminated statements and risks physical escalation.",
+                    "trainingFocus": "Review separate statement protocols and witness management at contested scenes."
+                }
+            },
+            "keyLearningPoints": [
+                "Independent witnesses are the most valuable evidence — secure them first",
+                "Separate statements produce more accurate information",
+                "Making separation feel respectful prevents perceptions of bias"
+            ]
+        },
+
+        "4": {
+            "stageName": "The Aggressive Driver",
+            "criticalSkills": ["De-escalation Under Aggression", "Human Moment Recognition", "Investigative Questioning"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Acknowledge the human moment first: 'Ella is okay — she's scared but not hurt. The car seat did its job.' Let that land, then: 'I understand you're frustrated, and I know this isn't how you planned your afternoon. I need to hear your version — from the beginning. Where were you coming from, and what happened as you approached the intersection?'",
+                    "strengths": [
+                        "Answered his concern about Ella — noticed his humanity",
+                        "Told Cooper he's not seen as purely an aggressor",
+                        "Child safety framed as shared priority",
+                        "'Where were you coming from?' is simultaneously de-escalation and investigation"
+                    ],
+                    "professionalImpact": "Answering someone's concern about a child — even when they caused the accident — changes the entire dynamic and makes them more likely to talk honestly."
+                },
+                "partially_positive": {
+                    "choiceText": "Tell him: 'I understand you're upset, but I need you to calm down. Shouting isn't helping. Let me ask you some questions.'",
+                    "adequate": [
+                        "Attempted to redirect",
+                        "Moved toward questioning"
+                    ],
+                    "missed": [
+                        "'Calm down' almost always has opposite effect",
+                        "'Shouting isn't helping' is a reprimand, not de-escalation",
+                        "Concern about Ella went unacknowledged",
+                        "Human moment wasted"
+                    ],
+                    "improvement": "Replace 'calm down' with acknowledgment. When someone shows concern about a child, engage with it — that crack in aggression is your opening."
+                },
+                "neutral": {
+                    "choiceText": "Match his directness: 'Mr. Cooper, the witness confirms you ran the stop sign. You're at fault. I'm writing a citation, and you're not going anywhere until the report is complete.'",
+                    "adequate": [
+                        "Evidence supports the conclusion"
+                    ],
+                    "missed": [
+                        "Announced outcome before hearing his statement — undermines due process",
+                        "Report is vulnerable to legal challenge",
+                        "Ignored his concern about Ella — his one moment of humanity",
+                        "Confrontational with an already aggressive man"
+                    ],
+                    "improvement": "Never announce conclusions before completing an investigation. Hear all parties, then determine findings."
+                },
+                "negative": {
+                    "choiceText": "Tell him to sit in his car and wait: 'Mr. Cooper, I'll come to you when I'm ready. Please wait in your vehicle.'",
+                    "failures": [
+                        "Sent him back to vehicle — evidence preservation risk",
+                        "Missed his human moment about Ella entirely",
+                        "Isolation feeds his disrespect narrative",
+                        "Time to dispose of evidence in vehicle"
+                    ],
+                    "consequences": "Sending an unattended driver back to their vehicle risks evidence disposal and wastes the opening created by his concern about the child.",
+                    "trainingFocus": "Review evidence preservation and the value of engaging human moments during de-escalation."
+                }
+            },
+            "keyLearningPoints": [
+                "When an aggressive person shows concern about a child, that is your opening — engage with it",
+                "'Where were you coming from?' is both de-escalation and investigation simultaneously",
+                "Human connection makes people careless with their defenses — honest answers follow"
+            ]
+        },
+
+        "5": {
+            "stageName": "The Subtle Signs",
+            "criticalSkills": ["Impairment Detection", "Conversational Investigation", "Proportional Escalation"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Continue conversationally: 'You mentioned a business event — what was the occasion?' Let him describe it. Then: 'Was there anything to drink? I ask because I want to document everything accurately for both parties' protection.' Based on his response, decide on testing.",
+                    "strengths": [
+                        "Conversational approach lets him describe the event naturally",
+                        "More likely to disclose honestly when framed as routine",
+                        "'For both parties' protection' reframes from adversarial to procedural",
+                        "Physical observations plus admission provide grounds for testing"
+                    ],
+                    "professionalImpact": "Conversational impairment detection produces better evidence than confrontation — calm people tell the truth."
+                },
+                "partially_positive": {
+                    "choiceText": "Ask directly: 'Mr. Cooper, have you been drinking today?' Proceed to sobriety testing if he admits any consumption.",
+                    "adequate": [
+                        "Procedurally appropriate with observable signs",
+                        "Direct approach addresses the concern"
+                    ],
+                    "missed": [
+                        "Blunt question triggers defensive denial",
+                        "Conversational approach yields more honest responses",
+                        "Cooperation for testing will be harder after confrontational question"
+                    ],
+                    "improvement": "A conversational approach can yield honest responses before defenses fully activate. The instinct is correct but the method could be refined."
+                },
+                "neutral": {
+                    "choiceText": "Step back and immediately call for a DUI unit: 'I'm detecting alcohol on your breath. I'm requesting a specialized unit. Please remain here.'",
+                    "adequate": [
+                        "Protocol awareness — specialized units exist"
+                    ],
+                    "missed": [
+                        "Jumped from observation to DUI announcement",
+                        "No conversation about amount or timing",
+                        "Maximum hostility from disproportionate response",
+                        "Evidence of consumption, not impairment, at this point"
+                    ],
+                    "improvement": "Escalate response proportionally as evidence builds. Observations warrant conversation, not immediate DUI procedures."
+                },
+                "negative": {
+                    "choiceText": "Note the signs mentally but don't pursue it — he doesn't seem impaired, and the accident is a simple failure to stop. Testing would escalate unnecessarily.",
+                    "failures": [
+                        "Ignoring observable alcohol signs at collision scene is duty failure",
+                        "Impairment masked by adrenaline — reduced reaction time not always visible",
+                        "Multiple indicators: flush, odor, pupils, inconsistency, origin",
+                        "If he causes another accident tonight, you had the chance to intervene"
+                    ],
+                    "consequences": "Ignoring impairment signs means your report misses critical information — and the driver leaves to potentially cause another incident.",
+                    "trainingFocus": "Review impairment detection protocols and the duty to investigate observable signs regardless of initial impressions."
+                }
+            },
+            "keyLearningPoints": [
+                "Conversational impairment detection produces better evidence than confrontation",
+                "Multiple subtle signs — flush, odor, pupils, inconsistency — demand investigation",
+                "Investigation and de-escalation are the same skill — calm people tell the truth"
+            ]
+        },
+
+        "6": {
+            "stageName": "The Mother's Frustration",
+            "criticalSkills": ["Multi-Party Management", "Progress Communication", "Victim Support"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Walk to her immediately: 'Ms. Bennett, I understand your frustration, and you're right to be upset. Your safety and Ella's are my priority. I've spoken to the witness, and I've noted the alcohol — I'm following up right now. There are steps I have to follow in order for everything to hold up. Is there someone who can come pick you and Ella up so you don't have to wait with the damaged car?'",
+                    "strengths": [
+                        "Validated frustration without defensiveness",
+                        "Updated on investigation progress — witness contacted, alcohol noted",
+                        "Explained delay purpose — 'for everything to hold up'",
+                        "Offered practical path — pickup for her and Ella"
+                    ],
+                    "professionalImpact": "Updating a waiting party on progress changes their experience of the wait from abandonment to informed patience."
+                },
+                "partially_positive": {
+                    "choiceText": "Nod: 'You're right — he clearly ran the stop sign and I can smell the alcohol too. Don't worry, he's getting cited and breathalyzed. Justice will be done.'",
+                    "adequate": [
+                        "Emotionally satisfying for the victim",
+                        "Validated her observations"
+                    ],
+                    "missed": [
+                        "Shared investigation conclusions with one party before completion",
+                        "Confirmed witness information — contaminating testimony",
+                        "If this goes to court, defense argues bias and improper sharing"
+                    ],
+                    "improvement": "Reassure a complainant without sharing specific investigation details that could compromise the case."
+                },
+                "neutral": {
+                    "choiceText": "Hold up your hand: 'Ms. Bennett, I know this is taking time, but I need to be thorough. Please wait — I'll be with you shortly.'",
+                    "adequate": [
+                        "Not wrong",
+                        "Maintained procedural focus"
+                    ],
+                    "missed": [
+                        "Clinical response doesn't acknowledge emotional state",
+                        "No information about progress",
+                        "Treated her as a queue item",
+                        "Trust plateaued — no growth"
+                    ],
+                    "improvement": "Add progress information and emotional acknowledgment. 'Please wait' is procedural correctness without human connection."
+                },
+                "negative": {
+                    "choiceText": "Tell her firmly: 'Ms. Bennett, making accusations about alcohol isn't helpful. Let me do my job. I'll talk to you when I'm done with Mr. Cooper.'",
+                    "failures": [
+                        "Dismissed an observation you're also investigating",
+                        "'Let me do my job' tells citizens their input is unwelcome",
+                        "'When I'm done with him' makes her the last priority",
+                        "Relationship with victim collapsed"
+                    ],
+                    "consequences": "Dismissing the victim's observations and prioritizing the at-fault driver destroys trust with the harmed party.",
+                    "trainingFocus": "Review victim communication and the difference between maintaining investigation integrity and dismissing citizen input."
+                }
+            },
+            "keyLearningPoints": [
+                "Updating a waiting party on progress transforms their experience of the wait",
+                "Reassure without sharing specific investigation details that could compromise cases",
+                "When a citizen observes what you're also investigating, validate without confirming specifics"
+            ]
+        },
+
+        "7": {
+            "stageName": "Closing the Scene",
+            "criticalSkills": ["Comprehensive Closure", "Safety Advisory", "Victim Support"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Address Cooper: 'I'm citing you for failing to stop. Your test was under the legal limit, but 0.06% shows recent consumption that may have affected your reaction time. I'd strongly recommend not driving further today — call a taxi or have someone pick you up.' Then go to Ms. Bennett: 'Here's the report number for your insurance. I'd recommend having Ella checked by a pediatrician in the next day or two — children can have delayed responses to impacts. Is your sister close?'",
+                    "strengths": [
+                        "Citation delivered with alcohol context as safety recommendation",
+                        "'Don't drive further' is responsible advisory",
+                        "Pediatric follow-up recommendation shows medical awareness",
+                        "Report number provided proactively",
+                        "Remembering the sister shows ongoing care"
+                    ],
+                    "professionalImpact": "Comprehensive closure serving both parties transforms a routine report into an encounter that builds lasting trust."
+                },
+                "partially_positive": {
+                    "choiceText": "Tell Cooper: 'You blew 0.06. Under the limit, but if you'd had one more glass, we'd be having a very different conversation. Think about that.' Then wish Ms. Bennett well and clear the scene.",
+                    "adequate": [
+                        "Warning about alcohol has impact",
+                        "Acknowledged seriousness of situation"
+                    ],
+                    "missed": [
+                        "'Think about that' is preachy — may trigger defensiveness",
+                        "Ms. Bennett's closure is minimal — no report number, no medical guidance",
+                        "Closing energy spent on Cooper, not on the victim"
+                    ],
+                    "improvement": "Invest closing attention in the harmed party — report number, medical guidance, practical next steps."
+                },
+                "neutral": {
+                    "choiceText": "Hand Cooper the citation and let him leave. Tell Ms. Bennett to get the report number from the station tomorrow. Clear the scene.",
+                    "adequate": [
+                        "Citation issued correctly"
+                    ],
+                    "missed": [
+                        "No discussion of alcohol implications",
+                        "Ms. Bennett gets no practical information",
+                        "No pediatric follow-up recommendation",
+                        "'Get the report tomorrow' is minimal effort"
+                    ],
+                    "improvement": "Comprehensive closure means both parties leave with clear next steps, not just paperwork."
+                },
+                "negative": {
+                    "choiceText": "Bring both parties together: 'Exchange insurance information directly, then you're free to go. Mr. Cooper, here's your citation.' Facilitate the exchange and clear the scene.",
+                    "failures": [
+                        "Brought hostile parties together after confrontational hour",
+                        "Cooper humiliated from breath test — volatile",
+                        "Bennett angry about everything — volatile",
+                        "Forcing face-to-face risks reigniting argument in front of Ella"
+                    ],
+                    "consequences": "Bringing hostile parties together for administrative purposes reignites the conflict and exposes the child to more confrontation.",
+                    "trainingFocus": "Review closure protocols — keep hostile parties separated through the entire process including administrative steps."
+                }
+            },
+            "keyLearningPoints": [
+                "Comprehensive closure serves both parties with clear next steps",
+                "Recommending pediatric follow-up shows medical awareness parents often overlook",
+                "Keep hostile parties separated through closure — administrative tasks can reignite conflict"
+            ]
+        },
+
+        "8": {
+            "stageName": "Debrief and Reveal",
+            "criticalSkills": ["Self-Reflection", "Integration of Lessons"],
+            "choiceAnalysis": {},
+            "keyLearningPoints": [
+                "Investigation and de-escalation are the same skill — calm people tell the truth",
+                "Checking on a child before checking on evidence changes the lasting memory of the encounter",
+                "A one-note aggressive driver may have a human dimension that changes everything if you notice it"
+            ]
+        }
+    },
+
+    "comprehensiveMetrics": {
+        "sceneSafety": {
+            "description": "Securing the collision scene from secondary hazards, managing traffic, and ensuring physical safety",
+            "indicators": {
+                "excellent": [
+                    "Patrol car positioned to protect scene before engaging parties",
+                    "Drivers moved off the roadway immediately",
+                    "Traffic hazards addressed before investigation",
+                    "Continuous awareness of scene safety throughout"
+                ],
+                "poor": [
+                    "Scene left unprotected while engaging with parties",
+                    "Drivers remain in the roadway during conversation",
+                    "Secondary collision risk unaddressed",
+                    "Safety addressed as afterthought rather than first priority"
+                ]
+            }
+        },
+        "conflictSeparation": {
+            "description": "Physically and emotionally separating hostile parties to prevent escalation and enable accurate statements",
+            "indicators": {
+                "excellent": [
+                    "Immediate physical separation of arguing parties",
+                    "Statements taken individually with neither party hearing the other",
+                    "Separation maintained through closure — no unnecessary re-engagement",
+                    "Separation explained as respect ('full attention') rather than restriction"
+                ],
+                "poor": [
+                    "Parties left to argue in each other's presence",
+                    "Statements taken simultaneously, contaminating both accounts",
+                    "Parties brought together for insurance exchange or confrontation",
+                    "Separation applied inappropriately to parent-child relationship"
+                ]
+            }
+        },
+        "childWelfare": {
+            "description": "Attending to the child as a vulnerable party requiring immediate attention and ongoing consideration",
+            "indicators": {
+                "excellent": [
+                    "Child personally assessed for injuries early in the encounter",
+                    "Mother allowed and accompanied to comfort the child",
+                    "Medical follow-up recommended at closure",
+                    "Child's emotional needs considered throughout — reduced shouting, shielded from conflict"
+                ],
+                "poor": [
+                    "Child overlooked or deprioritized behind paperwork",
+                    "Parent prevented from reaching child unnecessarily",
+                    "No personal injury assessment of the child",
+                    "No medical follow-up recommendation at closure"
+                ]
+            }
+        },
+        "investigativeThoroughness": {
+            "description": "Detecting impairment, securing witness statements, preserving evidence, and following protocols",
+            "indicators": {
+                "excellent": [
+                    "Independent witness secured before their departure",
+                    "Impairment signs detected and investigated through conversational technique",
+                    "Breath test conducted based on accumulated evidence",
+                    "Evidence preserved — vehicles not moved prematurely, driver not returned to vehicle"
+                ],
+                "poor": [
+                    "Independent witness lost",
+                    "Impairment signs ignored or addressed disproportionately",
+                    "Conclusions announced before investigation complete",
+                    "Evidence preservation compromised by returning driver to vehicle"
+                ]
+            }
+        },
+        "communicationUnderPressure": {
+            "description": "Managing two hostile parties simultaneously with calm, impartiality, and professionalism",
+            "indicators": {
+                "excellent": [
+                    "Both parties feel heard despite competing claims",
+                    "Calm demeanor maintained regardless of provocation",
+                    "Victim updated on investigation progress without sharing conclusions",
+                    "Closure includes specific next steps for both parties"
+                ],
+                "poor": [
+                    "'Calm down' or other counterproductive phrases used",
+                    "Investigation conclusions shared prematurely with one party",
+                    "Victim's observations dismissed or invalidated",
+                    "Closing attention disproportionately focused on the wrong party"
+                ]
+            }
+        }
+    },
+
+    "mistakePatterns": {
+        "safetyDeprioritization": {
+            "pattern": "Engaging with the conflict before securing the scene from physical hazards",
+            "examples": ["Approaching arguing drivers without positioning patrol car", "Taking statements while vehicles block active traffic", "Rushing to the child without separating the adults first", "Forgetting that secondary collision risk kills responders and bystanders"],
+            "impact": "Secondary collisions at accident scenes are a leading cause of responder and bystander fatalities. Every minute the scene is unsecured is a minute someone could be hit.",
+            "correction": "Scene protection is always step one. Position your vehicle, activate lights, move people off the roadway. It takes 30 seconds and it may save lives."
+        },
+        "childNeglect": {
+            "pattern": "Overlooking or deprioritizing the child at the collision scene",
+            "examples": ["Focusing on the argument while a child cries in a damaged car", "Preventing a mother from reaching her child under 'separation' protocols", "Not personally assessing the child for injuries", "No medical follow-up recommendation at closure"],
+            "impact": "Children are the most vulnerable parties at collision scenes and often the most overlooked. They can have hidden injuries, and the emotional impact of the collision and subsequent adult conflict can be significant.",
+            "correction": "Check on the child early — walk with the parent to assess together. At closure, recommend a pediatric check. The child's welfare should be visible in your priorities throughout."
+        },
+        "prematureConclusions": {
+            "pattern": "Announcing fault or investigation findings before the investigation is complete",
+            "examples": ["Telling the at-fault driver 'you're at fault' before taking their statement", "Sharing witness account details with either party", "Confirming alcohol observations to the other driver", "Promising specific outcomes before the report is written"],
+            "impact": "Premature conclusions undermine due process, make reports vulnerable to legal challenge, contaminate witness testimony, and compromise the officer's impartiality — the foundation of every traffic investigation.",
+            "correction": "Complete the investigation before announcing conclusions. You can reassure parties through process transparency ('I'm being thorough') without sharing specific findings."
+        },
+        "impairmentAvoidance": {
+            "pattern": "Ignoring or failing to investigate signs of alcohol or substance impairment",
+            "examples": ["Noting the smell of alcohol but choosing not to pursue it", "Accepting 'one drink, hours ago' at face value without verification", "Avoiding impairment investigation to prevent escalation", "Writing a simple failure-to-yield report when impairment signs are present"],
+            "impact": "An impaired driver who leaves an accident scene uninvestigated may cause another — potentially fatal — collision. Your duty to public safety includes investigating observable signs, even when the driver doesn't appear obviously 'drunk.'",
+            "correction": "Always investigate when signs are present. Use conversational technique to detect — 'what event were you coming from?' — before formal testing. Proportional escalation: observe, converse, then test."
+        },
+        "victimUnderservice": {
+            "pattern": "Investing disproportionate attention on the aggressive party while the victim waits",
+            "examples": ["Spending extended time with the hostile driver while the victim watches with a scared child", "Not updating the victim on investigation progress", "Dismissing the victim's observations as 'accusations'", "Minimal closure for the victim — no report number, no medical guidance, no practical support"],
+            "impact": "The victim's experience of the police encounter shapes their long-term trust in law enforcement. A mother with a traumatized child who feels ignored or underserved will remember this encounter for years — and tell everyone about it.",
+            "correction": "Update the victim on progress. Allocate proportional attention. At closure, provide specific next steps — report number, insurance guidance, medical recommendations. The victim needs more from you than the cited driver does."
+        }
+    },
+
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Exceptional collision response. You demonstrated the complete skillset: scene secured first, child prioritized, parties separated, witness captured immediately, impairment detected through conversational technique, victim updated throughout, and comprehensive closure for both parties. This is how a traffic collision becomes a trust-building encounter that people remember positively for years.",
+            "mostlyPositive": "Strong collision management with good instincts for safety, child welfare, and investigation. Some opportunities were missed — perhaps in statement sequencing, impairment detection technique, or comprehensive closure — but your overall approach was professional, safe, and caring. Review the missed elements to elevate from strong to exceptional.",
+            "mixed": "You handled some elements well but struggled with the full complexity of this multi-party collision scene. Key strengths were visible in certain stages, but critical opportunities were missed in others — whether in scene safety, child welfare, investigative sequencing, or victim communication. Review the priority sequence: safety, separation, vulnerable parties, then investigation.",
+            "mostlyNegative": "This scenario revealed significant gaps in collision response priorities. While there were minor positives, key elements were missed — scene safety, child welfare, impairment detection, or victim communication suffered from poor sequencing or misjudgment. Traffic collisions involve all core policing skills simultaneously. Review scene management protocols and investigative sequencing fundamentals.",
+            "allNegative": "Your collision response prioritized the wrong things in the wrong order. Safety was not secured first, the child was overlooked or deprioritized, impairment signs were missed or ignored, and the parties were not managed effectively through separation and individual engagement. This scenario requires fundamental review of collision scene priorities, child welfare protocols, and multi-party management techniques."
+        }
+    },
+
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "We're going to handle this, but first everyone needs to be safe.",
+            "I'll come with you — let's check on Ella together.",
+            "I need to speak with each of you separately so I can give you my full attention.",
+            "Ella is okay — she's scared but not hurt. The car seat did its job.",
+            "Where were you coming from, and what happened as you approached the intersection?",
+            "Was there anything to drink at the event? I ask because I want to document everything accurately for both parties' protection.",
+            "I've spoken to the witness, and I've noted the alcohol — I'm following up right now.",
+            "I'd recommend having Ella checked by a pediatrician — children can have delayed responses to impacts."
+        ],
+        "poorPhrases": [
+            "Who wants to tell me what happened?",
+            "Stay where you are — I need everyone separated.",
+            "I need you to calm down. Shouting isn't helping.",
+            "The witness says you ran the stop sign. You're at fault.",
+            "Making accusations about alcohol isn't helpful. Let me do my job.",
+            "Get the report number from the station tomorrow.",
+            "Exchange insurance information directly, then you're free to go."
+        ],
+        "analysisCriteria": {
+            "safetyPriority": "Did the phrase address immediate physical safety before moving to investigation?",
+            "childAwareness": "Did the phrase show awareness of and attention to the child's welfare and emotional needs?",
+            "impartiality": "Did the phrase maintain neutrality before establishing facts, even with one aggressive party?",
+            "investigativeValue": "Did the phrase serve both rapport and evidence-gathering simultaneously?",
+            "victimCare": "Did the phrase show appropriate attention to the victim's experience, information needs, and practical situation?",
+            "proportionality": "Did the phrase match the severity and urgency of the moment?"
+        }
+    },
+
+    "scenarioSpecificLessons": {
+        "1": "The priority sequence at any collision scene is safety, separation, vulnerable parties, then investigation. Protecting the scene from secondary collisions takes 30 seconds and may save lives.",
+        "2": "Children at collision scenes are the most vulnerable and most overlooked parties. Walking with the mother to check on Ella together accomplishes three goals simultaneously: injury assessment, parental comfort, and trust-building.",
+        "3": "The independent witness is your most valuable and most time-sensitive evidence source at a contested collision. Secure their account before they leave — it provides the baseline against which to evaluate both drivers' claims.",
+        "4": "Aggressive people have human moments — noticing Cooper's concern about Ella and engaging with it changes everything. 'Where were you coming from?' simultaneously de-escalates and investigates.",
+        "5": "Impairment detection does not require a suspect to be obviously drunk. Conversational technique — asking about the event, then naturally about alcohol — produces better evidence and less hostility than direct accusation or immediate DUI protocols.",
+        "6": "When a victim makes an observation that matches your own investigation findings, validate it without sharing conclusions. 'I have noticed the same thing and I am addressing it' costs nothing and preserves the case.",
+        "7": "Comprehensive closure allocates proportional attention — the harmed party needs more from you than the cited party. Report numbers, medical recommendations for the child, and practical support transform a routine report into an encounter the family remembers positively for years.",
+        "8": "How you handle a collision shapes whether people trust police to be fair. Investigation and de-escalation are the same skill — calm people tell the truth."
+    },
+
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Advanced collision scene investigation techniques", "Training others in multi-party scene management", "Community policing through quality traffic response"],
+            "good": ["Extended impairment detection — conversational techniques for sub-threshold alcohol", "Child welfare protocols at collision scenes", "Victim communication during complex investigations"],
+            "average": ["Core collision scene management — safety, separation, sequencing", "De-escalation alternatives to 'calm down' and other counterproductive phrases", "Independent witness identification and prioritization"],
+            "poor": ["Fundamentals of collision scene safety and secondary hazard prevention", "Statement-taking procedures — contamination prevention and sequencing", "Impairment recognition beyond obvious intoxication", "Child welfare awareness at emergency scenes"]
+        }
+    },
+
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Overall Performance Summary", "content": ["Score and performance level", "Key strengths", "Critical weaknesses", "Overall assessment of collision response"]},
+            {"title": "Stage-by-Stage Analysis", "content": ["Choice at each stage", "Impact on both drivers, the child, and the investigation", "Alternative approaches", "Key learning points"]},
+            {"title": "Scene Safety Assessment", "content": ["Scene protection timing and quality", "Traffic management", "Secondary hazard prevention", "Ongoing safety awareness"]},
+            {"title": "Child Welfare Evaluation", "content": ["Timing of child assessment", "Injury screening quality", "Parent facilitation", "Medical follow-up recommendation"]},
+            {"title": "Investigative Quality", "content": ["Witness prioritization and capture", "Statement separation and contamination prevention", "Impairment detection method and effectiveness", "Evidence preservation"]},
+            {"title": "Communication Effectiveness", "content": ["De-escalation phrase quality", "Victim communication and progress updates", "Impartiality maintenance", "Closing statement completeness"]},
+            {"title": "Professional Development", "content": ["Immediate training needs", "Long-term skill priorities", "Recommended resources"]},
+            {"title": "Real-World Application", "content": ["How this applies to everyday collision calls", "Building trust through quality traffic response", "Child welfare as a policing priority", "Impairment detection as a public safety imperative"]}
+        ]
+    }
+}

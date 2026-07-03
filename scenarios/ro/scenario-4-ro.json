@@ -1,0 +1,432 @@
+{
+    "id": 4,
+    "title": "Criză de sănătate mintală",
+    "description": "Scenariu avansat care implică o femeie în criză acută de sănătate mintală în fața unei farmacii, un angajat al farmaciei îngrijorat dar nerăbdător care a sunat la poliție, un trecător protector și un membru al familiei care sosește. Ofițerul trebuie să echilibreze intervenția în criză cu preocupările legate de afacere, implicarea bazată pe consimțământ și conectarea persoanei la servicii adecvate în loc de sistemul de justiție penală.",
+    "icon": "🧠",
+    "difficulty": 4,
+    "duration": "14-18",
+    "instructor": {
+        "name": "Sergent Okafor",
+        "avatar": "👮‍♂️",
+        "introduction": "Apelurile de criză de sănătate mintală sunt printre cele mai importante întâlniri din activitatea de poliție. Cercetările arată constant că persoanele aflate într-o criză de sănătate mintală au mult mai multe șanse să fie victime ale violenței decât autori — totuși aceste apeluri implică riscuri enorme când sunt gestionate cu o mentalitate bazată pe aplicarea legii în loc de una bazată pe îngrijire. Pregătirea Echipelor de Intervenție în Criză (CIT) ne învață că prezența calmă, timpul, ascultarea activă și oferirea de opțiuni sunt mai eficiente decât comenzile și controlul. Principiile NAMI subliniază că persoana în criză nu este un suspect — este cineva aflat în suferință. Astăzi, veți răspunde la un apel despre o femeie care „se comportă ciudat” pe o stradă comercială. Modul în care o abordați în primele șaizeci de secunde va determina dacă totul se încheie cu conectarea la îngrijire sau cu o traumă care îi adâncește neîncrederea în fiecare sistem menit să o ajute. Scopul dumneavoastră nu este să rezolvați criza — este să creați suficientă siguranță și încredere pentru ca ea să poată accepta ajutorul de bunăvoie."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-4-complete"],
+    "perfectBadge": "perfect-scenario-4",
+    "finalMessage": {
+        "revelation": "Elena Marchetti are 34 de ani, este designer grafic și mamă a doi copii. A fost internată voluntar în spital acum trei zile după un episod sever de anxietate declanșat de o schimbare de medicație pentru tulburarea ei bipolară. Noua medicație a provocat halucinații auditive — un efect secundar terifiant pe care nu l-a mai experimentat niciodată. Când o asistentă de pe tura de noapte pe care nu o cunoștea i-a intrat în salon la ora 2 dimineața pentru a-i lua constantele, Elena a intrat în panică, crezând că este în pericol, și a plecat din spital în halat și hainele de stradă. A mers ore întregi, dezorientată, înainte de a se așeza în fața farmaciei unde își ridica rețetele — un loc pe care mintea ei confuză îl asocia cu siguranța și medicația. Brățara de spital pe care o mai purta era legătura ei cu tratamentul. Sora ei, Sofia, sunase la spitale și condusese prin cartier ore întregi. După intervenția dumneavoastră, Elena s-a întors voluntar la spital cu Sofia, unde psihiatrul i-a ajustat medicația. Mai târziu, i-a spus terapeutei că ofițerul care a răspuns a fost prima persoană în acea zi care a făcut-o să se simtă ca o ființă umană, nu ca o problemă de rezolvat. De atunci s-a stabilizat, a revenit la muncă cu jumătate de normă și face voluntariat la o linie telefonică de criză locală.",
+        "keyLessons": [
+            "Persoanele în criză de sănătate mintală au șanse covârșitor mai mari să fie victime decât autori — abordați cu grijă, nu cu precauție tactică",
+            "Primele 60 de secunde stabilesc traiectoria: distanța, tonul, ritmul și limbajul corporal comunică siguranță sau amenințare înainte ca orice cuvânt să fie rostit",
+            "Oferirea de opțiuni în loc de comenzi restabilește autonomia cuiva care simte că a pierdut orice control",
+            "O brățară de spital, flacoane de medicamente sau alți indicatori medicali sunt indicii contextuale esențiale — observați înainte de a acționa",
+            "Membrii familiei care sosesc în criză au nevoie de propria lor de-escaladare — panica lor poate re-escalada persoana pe care ați calmat-o",
+            "Conectarea cuiva la servicii voluntare produce rezultate mai bune pe termen lung decât transportul involuntar în aproape toate situațiile care nu sunt urgențe imediate",
+            "Modul în care poliția gestionează apelurile de sănătate mintală modelează încrederea comunității atât în forțele de ordine cât și în sistemul de sănătate mintală pentru ani de zile"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Evaluarea la sosire",
+            "sceneUpdate": {
+                "emoji": "🏪",
+                "title": "Intrarea farmaciei — Sfârșitul dimineții",
+                "desc": "Ajungeți la o farmacie pe o stradă comercială moderat aglomerată. O femeie de vreo 30 de ani stă pe trotuar lângă intrare, legănându-se ușor, cu brațele strânse în jurul genunchilor. Poartă blugi și o bluză șifonată, iar pe încheietura stângă i se vede o brățară albă de spital. Un bărbat în polo-ul farmaciei privește din ușă. O femeie în vârstă cu o sacoșă de cumpărături stă la câțiva metri, privind îngrijorată. Nicio armă vizibilă. Niciun comportament agresiv."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unitate care răspunde pe strada Oakfield, Farmacia Henderson. Apelantul este un angajat al farmaciei care raportează o femeie care „se comportă ciudat” în fața intrării — vorbește singură, se plimbă de colo-colo, stă pe jos. Apelantul spune că e acolo de aproximativ treizeci de minute. Nicio armă raportată, nicio amenințare. Apelantul o descrie drept „confuză, poate sub influența unei substanțe”. Aveți în vedere că poate fi o situație de sănătate mintală."
+                }
+            ],
+            "prompt": "Ați ajuns la locul faptei și o puteți vedea pe Elena, pe David la ușa farmaciei și pe doamna Walsh în apropiere. Cum începeți evaluarea?",
+            "options": [
+                {
+                    "text": "Opriți-vă la aproximativ cinci metri pe trotuar, cu picioarele bine fixate și mâinile relaxate pe lângă corp. Luați treizeci de secunde să observați în tăcere: notați limbajul corporal al Elenei — legănatul, postura de autoîmbrățișare — brățara albă de spital de pe încheietura stângă, hainele civile șifonate, distanța față de intrarea farmaciei. Faceți contact vizual calm cu David în ușă și cu doamna Walsh pentru a-i recunoaște fără a vă grăbi spre nimeni. Lăsați scena să vă vorbească înainte de a vorbi dumneavoastră.",
+                    "feedback": "De ce: Pregătirea CIT subliniază observarea înainte de abordare. Treizeci de secunde de evaluare dezvăluie informații esențiale: brățara de spital sugerează un context medical, nu un comportament infracțional. Legănatul și vorbitul cu sine sugerează suferință, nu agresivitate. Menținerea distanței comunică faptul că nu sunteți o amenințare imediată. | CONSECINȚE: Observați brățara, postura ei neagresivă și faptul că tresare la sunete bruște. David vă vede evaluând calm. Doamna Walsh pare ușurată că a venit cineva. Aveți context înainte de a rosti un singur cuvânt. | Reflecție: Cum schimbă treizeci de secunde de observare întreaga dumneavoastră abordare a unui apel de sănătate mintală?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Mergeți direct la David mai întâi — el a sunat, deci luați declarația lui despre ce s-a întâmplat înainte de a o aborda pe Elena. Pășiți hotărât spre ușa farmaciei, dați din cap profesionist, scoateți carnetul de notițe și îi cereți pe un ton pragmatic să descrie situația de la început, în timp ce Elena stă pe trotuar la câțiva metri, privindu-vă cum discutați cu bărbatul care a chemat poliția pe ea.",
+                    "feedback": "De ce: Strângerea de informații de la apelant este rezonabilă, dar a vă apropia mai întâi de proprietarul afacerii în timp ce Elena stă pe trotuar transmite un mesaj: sunteți aici din cauza unei plângeri, nu pentru că cineva are nevoie de ajutor. Elena vă privește vorbind cu bărbatul care a chemat poliția pe ea, iar anxietatea ei escaladează. | CONSECINȚE: Obțineți perspectiva lui David — context util — dar Elena vede două figuri de autoritate discutând despre ea. Își strânge genunchii mai tare și se leagănă mai repede. Doamna Walsh se încruntă. Abordarea semnalează investigație, nu îngrijire. | Reflecție: Când o persoană în criză poate vedea cu cine vorbiți mai întâi, ce poveste îi spune asta despre motivul prezenței dumneavoastră?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Apropiați-vă direct de Elena și prezentați-vă — ea este cea care are nevoie de ajutor, deci ajungeți la ea repede înainte ca situația să se schimbe. Pășiți în ritmul dumneavoastră normal drept spre locul unde stă pe trotuar, reduceți distanța la aproximativ un metru, vă aplecați ușor și întindeți o mână în semn de salut. Tonul vă este cald și intenția e bună, dar nu v-ați oprit să citiți scena înainte.",
+                    "feedback": "De ce: Impulsul de a ajuta este bun, dar a vă apropia de o persoană în criză de sănătate mintală direct și rapid poate fi perceput ca o confruntare. Nu ați evaluat scena, nu ați identificat posibilii factori declanșatori și nu ați observat brățara de spital. Apropierea rapidă de cineva speriat poate provoca un răspuns de luptă-sau-fugă. | CONSECINȚE: Elena ridică privirea și vede un ofițer în uniformă venind drept spre ea. Se trage înapoi, lipindu-se de perete, cu ochii mari. „Nu mă atingeți!” strigă ea. Intențiile dumneavoastră bune au declanșat exact reacția de frică despre care avertizează pregătirea CIT. | Reflecție: De ce subliniază pregătirea CIT abordarea lentă și distanța, chiar și când vreți să ajutați?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Cereți imediat întăriri prin radio — nu știți ce a luat sau ce ar putea face. Apăsați pe butonul stației de pe umăr și solicitați o a doua echipă pe un ton alert și grăbit. Apoi vă întoarceți spre doamna Walsh și pietonii care se opresc, făcându-le semn să se îndepărteze: 'Vă rog, faceți loc.' Securizați zona și mențineți trecătorii la distanță până sosesc întăririle, tratând perimetrul ca pe o potențială zonă de risc.",
+                    "feedback": "De ce: Nu există indicatori de pericol: nicio armă, nicio agresivitate, nicio amenințare. A chema întăriri și a securiza un perimetru tratează o criză de sănătate mintală ca o situație tactică. Asta comunică tuturor — Elenei, trecătorilor, angajatului farmaciei — că vedeți această femeie ca o amenințare. Sosirea unor unități suplimentare îi va amplifica dramatic frica. | CONSECINȚE: Elena vă vede vorbind urgent la radio. În câteva minute, sosește o a doua mașină de patrulare. Încă doi ofițeri se apropie. Elena este acum înconjurată de uniforme. Începe să hiperventileze și să plângă. Doamna Walsh spune: „Nu are nevoie de tot circul ăsta — are nevoie de ajutor!” Un trecător începe să filmeze. | Reflecție: Ce mesaj transmite un răspuns tactic unei persoane care este deja terifiată?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Primul contact",
+            "sceneUpdate": {
+                "emoji": "🤲",
+                "title": "Trotuarul farmaciei — Apropierea de Elena",
+                "desc": "Vă apropiați de Elena, menținând o distanță respectuoasă. De aproape, puteți vedea că ochii îi sunt roșii de plâns. Mâinile îi tremură. Brățara de spital arată numele unei clinici psihiatrice locale și o dată de acum trei zile. Ea vă observă și se încordează, lipindu-și spatele de peretele farmaciei. Respirația i se accelerează."
+            },
+            "npcDialogue": [
+                {
+                    "character": "elena",
+                    "text": "(cu vocea tremurândă, privind în toate direcțiile) Nu mă atingeți! Nu sunt — nu mă întorc acolo. Vă rog. Nu mă întorc. Ei — vocile — pur și simplu a trebuit să plec. Vă rog nu mă obligați să mă întorc. N-am făcut nimic rău."
+                }
+            ],
+            "prompt": "Elena este speriată și imploră. Ea vă asociază cu a fi forțată să se întoarcă la spital. Cum deschideți conversația?",
+            "options": [
+                {
+                    "text": "Coborâți încet la nivelul ochilor ei, cu un genunchi pe trotuar, mâinile deschise și vizibile pe genunchi. Vorbiți pe un ton blând, potrivindu-vă cu vocea ei scăzută: 'Mă numesc Agent [nume]. Nu sunt aici ca să vă duc undeva. Nimeni nu o să vă atingă sau să vă oblige să mergeți undeva unde nu doriți. Văd că treceți printr-un moment foarte greu acum. Puteți să-mi spuneți cum vă cheamă?'",
+                    "feedback": "De ce: Coborârea la nivelul ochilor reduce dezechilibrul de putere. Mâinile vizibile semnalează lipsa amenințării. Adresarea directă a fricii ei — „nu sunt aici ca să vă duc undeva” — vizează teama specifică pe care a exprimat-o. Întrebarea despre nume începe să-i restabilească identitatea dincolo de „persoana de pe trotuar”. Pregătirea CIT identifică aceste prime cuvinte ca momentul cel mai critic al oricărei întâlniri de criză. | CONSECINȚE: Respirația Elenei încetinește ușor. Vă studiază fața, căutând semne de înșelăciune. După o pauză lungă: „Elena. Mă cheamă Elena.” Un fir fragil de încredere se formează. Nu a fugit. Nu a țipat. Asta e progres. | Reflecție: De ce este mai eficientă adresarea directă a fricii exprimate de o persoană decât asigurarea generală?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Rămâneți în picioare la înălțimea dumneavoastră completă dar încercați să vă îmblânziți tonul, înclinând ușor capul pentru a părea mai puțin impunător. Mâinile vă stau relaxate pe centură. Vorbiți pe un ton măsurat, profesional: 'Doamnă, sunt Agent [nume]. Am primit un apel despre cineva care are nevoie de ajutor în fața farmaciei. Sunteți bine? Aveți nevoie de asistență medicală?' Așteptați un răspuns, privind-o de sus.",
+                    "feedback": "De ce: Politicos și interesat, dar a rămâne în picioare deasupra cuiva care stă jos pe trotuar menține o dinamică de putere. „Am primit un apel” îi amintește că cineva a raportat-o. „Aveți nevoie de asistență medicală?” este o întrebare clinică care nu adresează starea ei emoțională sau frica ei explicită de a fi dusă înapoi la spital. | CONSECINȚE: Elena ridică privirea la silueta în uniformă care se profilează deasupra ei. Clatină rapid din cap. „Nu am nevoie de ambulanță. Sunt bine. Sunt bine.” Evident nu este bine, dar întrebarea dumneavoastră a forțat un da-sau-nu pentru care nu era pregătită. Conversația se blochează. | Reflecție: Cum afectează poziționarea dumneavoastră fizică față de o persoană în criză disponibilitatea ei de a se deschide?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Îngenuncheați în apropiere pe trotuar, coborâți vocea la un murmur blând și oferiți un zâmbet cald, liniștitor. Vă aplecați ușor înainte cu palmele în sus: 'Hei, totul e bine. Sunteți în siguranță. Vă promit că nu se va întâmpla nimic rău. Hai doar să vorbim, da? Totul va fi bine.' Cuvintele vă sunt pline de bunătate și limbajul corporal e deschis, dar nu ați recunoscut frica specifică pe care tocmai a exprimat-o.",
+                    "feedback": "De ce: Cald și bine intenționat, dar a face promisiuni pe care nu le puteți garanta — „nu se va întâmpla nimic rău”, „totul va fi bine” — poate da înapoi. O persoană care trece printr-o criză poate fi auzit exact aceleași cuvinte înainte de o experiență traumatizantă. Asigurarea generică fără a-i adresa frica specifică pare goală. Ea a spus că nu vrea să se întoarcă — nu ați recunoscut asta. | CONSECINȚE: Elena vă privește cu suspiciune. „Asta au spus și la spital.” Asigurarea dumneavoastră i-a amintit de promisiuni nerespectate. Își strânge brațele mai tare. Încrederea nu s-a format încă. | Reflecție: Care este diferența între adresarea fricii specifice a cuiva și oferirea de confort general?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Mențineți câțiva pași distanță dar vă îndreptați umerii și adoptați un ton ferm, autoritar. Arătați scurt spre brățara de pe brațul ei: 'Doamnă, am nevoie să vă calmați. Sunt Agent [nume] și sunt aici pentru că a fost o plângere. Puteți să vă ridicați ca să vorbim cum trebuie? Care e situația cu brățara de spital?' Vocea vă e suficient de puternică pentru ca David și doamna Walsh să audă fiecare cuvânt.",
+                    "feedback": "De ce: „Calmați-vă” este una dintre cele mai puțin eficiente fraze în intervenția de criză — invalidează starea emoțională a persoanei și implică faptul că alege să fie supărată. Cererea de a se ridica în picioare este o comandă care mărește diferența de putere. Menționarea brățării de spital înainte de a construi orice raport pare un interogatoriu. Menționarea plângerii o prezintă pe ea ca fiind problema. | CONSECINȚE: Elena tresare la cuvântul „plângere”. Își acoperă brățara cu cealaltă mână, rușinată. „Nu sunt nebună. Doar că — lăsați-mă în pace!” Se ridică brusc și face câțiva pași înapoi. Situația a escaladat. David se retrage în farmacie, alarmat. | Reflecție: De ce arată cercetarea în mod constant că a-i spune cuiva să „se calmeze” are efectul opus?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Strângerea informațiilor",
+            "sceneUpdate": {
+                "emoji": "👥",
+                "title": "Intrarea farmaciei — Perspective multiple",
+                "desc": "Elena și-a spus numele dar rămâne precaută. David iese din ușa farmaciei, uitându-se la ceas. Doamna Walsh se apropie puțin, ținându-și sacoșa, urmărind interacțiunea. Doi clienți ezită la intrarea farmaciei, nesiguri dacă să treacă pe lângă Elena. Strada este aglomerată cu trafic pietonal de la prânz."
+            },
+            "npcDialogue": [
+                {
+                    "character": "david",
+                    "text": "(apropiindu-se, cu voce scăzută dar nerăbdătoare) Domnule agent, e aici de dinainte de deschidere. Vorbește singură — adică conversații întregi cu nimeni. Unii clienți ai mei nu se simt confortabil să treacă pe lângă ea. Nu încerc să fiu insensibil, dar asta e o afacere. Puteți s-o convingeți să plece?"
+                },
+                {
+                    "character": "mrs_walsh",
+                    "text": "(făcând un pas înainte, protectoare) Scuzați-mă, domnule agent — sunt și eu aici de ceva vreme. Am încercat să vorbesc cu ea. Nu e periculoasă — e terifiată. Tot spunea ceva despre voci și medicamente. Cred că a venit de la spital. Biata fată are nevoie de ajutor, nu să fie alungată ca o pisică vagaboandă."
+                }
+            ],
+            "prompt": "David vrea ca Elena să plece. Doamna Walsh crede că are nevoie de ajutor. Aveți două perspective opuse, iar Elena ascultă la ambele. Cum gestionați situația?",
+            "options": [
+                {
+                    "text": "Adresați-vă amândurora direct, întorcând corpul spre fiecare persoană pe rând. Lui David, cu o înclinare respectuoasă a capului: 'Înțeleg că vă afectează afacerea și apreciez că ați sunat — o să mă ocup de asta. Îmi puteți acorda câteva minute?' Apoi vă întoarceți spre doamna Walsh, pe un ton mai cald: 'Vă mulțumesc că ați vegheat-o. E cu adevărat valoros. A mai spus ceva care m-ar putea ajuta să-i înțeleg situația?'",
+                    "feedback": "De ce: Validează ambele părți fără a lua partea cuiva în fața Elenei. Cererea de timp adresată lui David îi gestionează așteptarea fără a-l respinge. Mulțumirea adresată doamnei Walsh și solicitarea de mai multe informații transformă un trecător într-o resursă — ea poate avea detalii pe care Elena nu vi le-a împărtășit. Este esențial că Elena vede că tratați situația ei ca pe una care merită înțeleasă, nu doar rezolvată prin eliminare. | CONSECINȚE: David dă din cap cu reticență — „Bine, dar am clienți.” Doamna Walsh vă spune că Elena a menționat că i-a fost frică de o asistentă și că tot privea spre firma farmaciei de parcă ar recunoaște locul. Elena observă acest schimb. Cineva strânge informații ca s-o ajute, nu ca s-o aresteze. Postura ei se relaxează ușor. | Reflecție: Cum schimbă dinamica faptul de a transforma trecătorii în surse de informații — de la aplicarea legii la îngrijire?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Concentrați-vă pe David, fiindcă el este apelantul. Faceți un pas spre ușa farmaciei, scoateți carnetul de notițe și întrebați pe un ton pragmatic, de strângere a faptelor: 'A amenințat pe cineva sau a făcut ceva agresiv? A încercat să intre în farmacie sau să blocheze fizic ușa?' Atenția vă rămâne fixată pe apelant, în timp ce doamna Walsh și Elena vă privesc din lateral, așteptând să vadă a cui versiune va modela ce urmează.",
+                    "feedback": "De ce: Întrebări bune de constatare care stabilesc dacă există o problemă reală de siguranță sau acces versus disconfort. Totuși, concentrarea exclusivă pe apelant în timp ce doamna Walsh și Elena ascultă creează o dinamică în care plângerea conduce răspunsul. Observațiile doamnei Walsh — potențial mai utile — rămân nestrinse. | CONSECINȚE: David admite că nu a amenințat pe nimeni și nu a blocat ușa. „Doar... stă acolo și vorbește singură. E neliniștitor.” Acum știți că nu există o problemă de siguranță, dar doamna Walsh a plecat liniștită, simțindu-se ignorată. Ați pierdut o sursă valoroasă de informații. | Reflecție: Când mai multe persoane au informații, cum decideți a cui perspectivă să fie prioritară — și cu ce cost?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Dați-i lui David o confirmare rapidă, pe un ton scurt și încrezător: 'Mă ocup eu. Dați-mi puțin spațiu să lucrez.' Apoi vă întoarceți fără alt cuvânt, trecând pe lângă doamna Walsh fără s-o recunoașteți, cu atenția fixată complet pe persoana de pe trotuar. Doamna Walsh deschide gura să vă ofere informații, dar deja ați trecut de ea, lăsând ambii trecători în urmă fără nicio confirmare.",
+                    "feedback": "De ce: Revenirea la Elena este instinctul corect, dar respingerea atât a lui David cât și a doamnei Walsh ratează oportunități. David are nevoie ca preocuparea lui să fie recunoscută, altfel va escalada — sunând un superior sau confruntând-o pe Elena el însuși. Doamna Walsh a petrecut mai mult timp cu Elena decât oricine și ar putea deține informații cheie. „Mă ocup eu” stabilește o așteptare nedefinită. | CONSECINȚE: David se retrage dar mormăie că va suna la sediu. Doamna Walsh pare rănită și pleacă. Ați pierdut o aliată care v-ar fi putut ajuta să înțelegeți starea Elenei. Acum sunteți singur cu o femeie speriată și mai puține informații decât ați fi putut avea. | Reflecție: Care este costul eficienței când înseamnă pierderea aliaților și a informațiilor?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă ghemuiți lângă Elena și i vă adresați direct, pe un ton sincer care se aude până la trecători: 'Elena, angajatul farmaciei spune că sunteți aici de azi dimineață și că faceți clienții să se simtă inconfortabil. Am nevoie să înțeleg ce se întâmplă. De ce ați plecat din spital?' Arătați spre brățara de pe brațul ei, făcând clar că ați reconstituit deja o parte din povestea ei și așteptați o explicație.",
+                    "feedback": "De ce: Confruntarea Elenei direct cu plângerea — „faceți clienții să se simtă inconfortabil” — o face de rușine. Ea este deja vulnerabilă și acum află că oamenii o văd ca pe o problemă. Cererea de a afla de ce a plecat din spital este o întrebare de interogatoriu care îi invadează intimitatea medicală într-un cadru public. Această abordare prioritizează extragerea de informații în detrimentul construirii încrederii. | CONSECINȚE: Fața Elenei se descompune. „Fac oamenii să se simtă inconfortabil? Îmi pare rău. Îmi pare rău. Plec.” Începe să se ridice, dezorientată și rușinată. Doamna Walsh intervine: „Uite ce-ați făcut — doar stătea aici!” Situația se destabilizează. | Reflecție: Ce se întâmplă când transmiteți o plângere direct unei persoane în criză?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Construirea raportului",
+            "sceneUpdate": {
+                "emoji": "💬",
+                "title": "Trotuarul farmaciei — Conversație liniștită",
+                "desc": "David s-a întors în farmacie. Doamna Walsh stă la o distanță respectuoasă, atentă. Presiunea imediată s-a diminuat. Elena încă stă jos dar și-a desfăcut mâinile. Vă privește cu ochi precauți dar mai puțin panicați. Brățara de spital strălucește în lumina soarelui. O briză ușoară îi mișcă o șuviță de păr pe față. Zgomotul străzii a devenit fundal."
+            },
+            "npcDialogue": [
+                {
+                    "character": "elena",
+                    "text": "(mai liniștită acum, încă fragmentară) Nu sunt... nu sunt nebună. Mi-au schimbat medicația și apoi... vocile au început. N-am mai auzit voci niciodată. Era atât de puternic. Și apoi asistenta aceea a intrat noaptea și n-o cunoșteam și pur și simplu — a trebuit să plec. Am mers. Nici nu știu cât de mult. Am ajuns aici pentru că... îmi ridic rețetele de aici. Cred. Nu știu de ce am venit aici. Sora mea — Sofia știe. Ea mereu știe ce e de făcut. Ar trebui s-o sun pe Sofia."
+                }
+            ],
+            "prompt": "Elena se deschide. Dezvăluie că o schimbare de medicație a provocat efecte secundare înfricoșătoare, a plecat din spital de frică și are o soră care o ajută. Cum continuați să construiți această legătură?",
+            "options": [
+                {
+                    "text": "Ascultați fiecare cuvânt fără să întrerupeți, dând încet din cap pentru a arăta că absorbiți totul. Când termină, răspundeți pe o voce liniștită și constantă: 'Elena, vă mulțumesc că mi-ați spus asta. O schimbare de medicație care provoacă voci pare cu adevărat înfricoșătoare — pot înțelege de ce ați simțit că trebuie să plecați. Ați menționat-o pe sora dumneavoastră, Sofia. Ați vrea s-o sunați? Pot să vă ajut cu asta dacă doriți, sau puteți s-o faceți singură — ce vi se pare mai potrivit.'",
+                    "feedback": "De ce: Validarea experienței specifice — „o schimbare de medicație care provoacă voci pare cu adevărat înfricoșătoare” — arată că ați ascultat și o credeți. „Pot înțelege de ce ați simțit că trebuie să plecați” reîncadrează plecarea din spital de la ceva rușinos la ceva de înțeles. Oferirea alegerii despre cum să contacteze Sofia — „pot să ajut sau puteți singură” — restabilește autonomia. Fiecare opțiune pe care o oferiți reconstruiește sentimentul de control pe care criza i l-a luat. | CONSECINȚE: Ochii Elenei se umezesc — nu de frică ci de ușurare. „Mă credeți? Despre medicație?” Scoate din buzunar un telefon cu ecranul crăpat. „Puteți... puteți doar să stați aici cât o sun? Nu vreau să fiu singură.” O legătură umană autentică s-a format. | Reflecție: De ce este restabilirea sentimentului de alegere al unei persoane cel mai puternic instrument în de-escaladarea unei crize?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Dați din cap cu simpatie, vă aplecați înainte cu o expresie caldă și treceți pe un ton energic, orientat spre soluții: 'Pare într-adevăr greu, Elena. Lăsați-mă să sun pe cineva pentru dumneavoastră — putem s-o aducem pe sora dumneavoastră aici și poate să discutăm cu spitalul despre medicație. Sună bine?' Scoateți telefonul, pregătit să acționați în numele ei, trecând deja la rezolvare înainte de a verifica dacă e pregătită pentru una.",
+                    "feedback": "De ce: Empatic și orientat spre acțiune, dar ați trecut la rezolvarea problemei înainte ca Elena să fie pregătită. „Lăsați-mă să sun pe cineva pentru dumneavoastră” preia controlul în loc să ofere o alegere. „Poate să discutăm cu spitalul” poate declanșa frica ei — tocmai a fugit de acolo. A face planuri în numele ei, chiar cu intenții bune, oglindește pierderea de control pe care a experimentat-o la spital. | CONSECINȚE: Elena se încordează la mențiunea spitalului. „Nu vreau să vorbesc cu spitalul.” Elanul dumneavoastră se oprește. Se deschidea, dar mențiunea instituției din care a fugit a declanșat un răspuns defensiv. | Reflecție: Când cineva abia începe să aibă încredere în dumneavoastră, ce se întâmplă când săriți la soluții care implică sursa fricii lor?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Dați gânditor din cap și scoateți carnetul de notițe, apăsând pe pixul cu un clic pragmatic. Spuneți pe un ton de ajutor dar procedural: 'Bine, Elena. Asta mă ajută să înțeleg. Puteți să-mi spuneți numele spitalului și al doctorului dumneavoastră? Ar trebui să-i anunț unde sunteți ca să nu fie îngrijorați.' Țineți pixul pregătit, urmărind-o expectant, tratând asta ca pe un pas de rutină spre rezolvarea situației.",
+                    "feedback": "De ce: Bine intenționat dar funcțional amenințător. Cererea de detalii despre spital și afirmația că îi veți anunța se traduce în mintea Elenei ca: „Ofițerul va spune spitalului unde sunt ca să vină după mine.” Ați trecut de la partener de conversație la intermediar al spitalului. Asta e opusul a ceea ce are nevoie acum. | CONSECINȚE: Deschiderea fragilă a Elenei se prăbușește. „Nu! Nu-i sunați. V-am spus că nu mă întorc!” Se ridică, agitată, căutând o ieșire. Ați pierdut teren semnificativ. | Reflecție: Din perspectiva cuiva care a fugit dintr-o instituție de frică, cum sună „le voi spune unde sunteți”?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă lăsați pe călcâie și trageți o respirație măsurată, apoi vorbiți pe un ton preocupat dar directiv: 'Elena, vă aud. Dar uite care e treaba — ați plecat din spital fără a fi externată, și asta e o preocupare. Pentru siguranța dumneavoastră, cred că cel mai bun lucru este să vă duc înapoi ca doctorii să rezolve problema cu medicația. Pot să vă duc eu cu mașina — va fi rapid și simplu.' Întindeți o mână ca s-o ajutați să se ridice.",
+                    "feedback": "De ce: Tocmai i-ați spus unei femei speriate care v-a rugat în mod specific să nu o duceți înapoi la spital că cel mai bun lucru este s-o duceți înapoi la spital. Chiar prezentat ca preocupare, asta îi confirmă cea mai mare frică: poliția e aici ca s-o trimită înapoi. „Pentru siguranța dumneavoastră” este o expresie care a precedat nenumărate acțiuni involuntare. Oferirea de a o duce acolo ignoră complet lipsa consimțământului ei. | CONSECINȚE: Elena intră în panică. Se ridică și se retrage rapid. „Ați mințit! Ați spus că nu mă duceți nicăieri!” Doamna Walsh strigă: „O speriați!” David vine la ușă. Mai mulți trecători se opresc. Încrederea pe care ați construit-o e distrusă. | Reflecție: Care este diferența între ceea ce are nevoie o persoană din punct de vedere clinic și ceea ce are nevoie în acest moment pentru a se simți suficient de în siguranță ca să accepte ajutor?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Sosirea surorii",
+            "sceneUpdate": {
+                "emoji": "🚗",
+                "title": "Intrarea farmaciei — Sosirea familiei",
+                "desc": "O mașină trage brusc la bordură. O femeie pe la sfârșitul anilor 20 coboară, lăsând motorul pornit și portiera deschisă. A plâns — rimele întinse, părul nepieptănat. Scrutează scena frenetic și o zărește pe Elena pe trotuar lângă dumneavoastră. Se repede înainte, cu vocea frântă."
+            },
+            "npcDialogue": [
+                {
+                    "character": "sofia",
+                    "text": "(repezindu-se spre Elena, voce ascuțită și frenetică) Elena! O, Doamne, Elena! Te-am căutat peste tot — spitalul m-a sunat la șase dimineața, am condus ore întregi — (se întoarce spre dumneavoastră, panicată și defensivă) Vă rog nu o arestați! Nu e infractoare, e bolnavă! Are tulburare bipolară — i-au schimbat medicația și a mers prost. Vă rog, domnule agent, are nevoie doar de doctorul ei, nu — nu de asta. Nu o duceți la închisoare. Vă rog."
+                }
+            ],
+            "prompt": "Sofia a sosit într-o stare de panică și frică. Elena își privește sora reacționând. Sofia vă imploră să nu o arestați pe Elena. Cum gestionați această nouă dinamică?",
+            "options": [
+                {
+                    "text": "Faceți un pas spre Sofia cu palmele deschise, vocea calmă și măsurată. Mențineți contact vizual ferm și vorbiți clar peste panica ei: 'Sofia — trageți o gură de aer. Elena nu e arestată. Nimeni nu e arestat. Ea și cu mine am stat de vorbă și se descurcă foarte bine. Știu că ați trecut prin multe azi dimineață. Puteți să parcați mașina în siguranță și apoi să ni vă alăturați? Elena a întrebat de dumneavoastră.' Arătați ușor spre mașina cu motorul pornit.",
+                    "feedback": "De ce: Sofia are nevoie de propria ei de-escaladare — panica ei este reală dar va re-escalada Elena dacă nu este controlată. „Trageți o gură de aer” este directiv dar grijuliu. „Elena nu e arestată” adresează direct frica. „Se descurcă foarte bine” o reîncadrează pe Elena din victimă în persoană cu autonomie. Cererea ca Sofia să parcheze mașina îi dă o sarcină mică ce reactivează gândirea rațională și câștigă treizeci de secunde de calm. „Elena a întrebat de dumneavoastră” îi dă Sofiei un scop și o liniștire. | CONSECINȚE: Sofia inspiră brusc, dă din cap. Parcă mașina. Când se întoarce, pasul ei este mai lent. Elena întinde o mână. Surorile se îmbrățișează. Ați creat spațiu pentru o reuniune de familie în loc de o escaladare a crizei. | Reflecție: De ce ajută o sarcină practică mică — precum parcarea mașinii — pe cineva să treacă de la panică la prezență funcțională?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Zâmbiți cald și vă adresați imediat Sofiei pe măsură ce se repede spre dumneavoastră, egalându-i urgența cu liniștire: 'Trebuie să fiți Sofia. Mă bucur că sunteți aici — Elena v-a menționat. E bine, doar am stat de vorbă. Veniți, o să se bucure să vă vadă.' Vă dați la o parte și o invitați cu un gest larg, fără să vă opriți să-i evaluați starea emoțională, lăsând-o să se repeadă direct spre sora ei fragilă cu lacrimi pe obraji.",
+                    "feedback": "De ce: Cald și primitor, dar nu ați gestionat starea emoțională a Sofiei înainte de a o aduce la Elena. Sofia este încă în modul panică — plânge, frenetică, cu voce ridicată. A aduce o Sofia panicată direct la o Elena fragilă riscă o coliziune emoțională: frica Sofiei poate re-declanșa suferința Elenei. | CONSECINȚE: Sofia se repede la Elena și o apucă, plângând: „Mi-a fost atât de frică! De ce ai plecat? Nu poți face asta!” Calmul Elenei se sparge. Începe să plângă și să se legene din nou. Inundarea emoțională anulează munca dumneavoastră atentă. | Reflecție: Când sosește un membru al familiei în criză, de ce este important să-l stabilizați înainte de a interacționa cu persoana pe care ați de-escaladat-o?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Faceți un pas spre Sofia și coborâți vocea la un registru controlat, profesional. Ridicați o mână într-un gest de liniștire: 'Doamnă, am nevoie să vă calmați. Înțeleg că sunteți supărată, dar trebuie să vă pun câteva întrebări despre situația medicală a Elenei — ce medicație ia, când a fost externată, cine e doctorul ei.' Scoateți carnetul de notițe și apăsați pe pix, trecând în mod de strângere a informațiilor în timp ce Elena stă la câțiva metri, ascultând fiecare cuvânt.",
+                    "feedback": "De ce: „Calmați-vă” respinge emoțiile Sofiei la fel cum le-ar respinge pe ale Elenei. Trecerea imediată la întrebări medicale o tratează pe Sofia ca pe o sursă de informații, nu ca pe un membru al familiei terifiată. Elena aude cum cereți detalii medicale private de la sora ei într-un cadru public — se vorbește despre ea, nu cu ea. | CONSECINȚE: Sofia furnizează informații printre lacrimi, dar Elena privește schimbul cu suferință crescândă. „Nu mai vorbiți despre mine de parcă nu sunt aici!” Dinamica se schimbă — dumneavoastră și Sofia sunteți acum figurile de autoritate, iar Elena este subiectul. | Reflecție: Ce se întâmplă cu persoana în criză când tratați membrul familiei care sosește ca pe un narator mai fiabil al experienței sale?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Ridicați palma ferm spre Sofia și vă lărgiți poziția, blocându-i fizic drumul spre Elena. Vorbiți pe un ton autoritar, care nu admite replică: 'Doamnă, am nevoie să vă opriți chiar acolo. Aceasta este o situație activă și am nevoie să stați la distanță până termin evaluarea. Vă voi chema când e potrivit.' Sofia încremenește la jumătatea pasului, cu privirea sărind între dumneavoastră și sora ei de pe trotuar, din spatele dumneavoastră.",
+                    "feedback": "De ce: A bloca o soră să-și ajungă la sora ei terifiată este funcțional crud, chiar dacă procedural justificabil. Elena a cerut-o pe Sofia. Sofia a căutat-o ore întregi. „Stați la distanță” și „când e potrivit” afirmă controlul asupra unei reuniuni de familie fără niciun motiv de siguranță. Mulțimea vede un ofițer de poliție împiedicând o femeie care plânge să ajungă la sora ei. | CONSECINȚE: Sofia izbucnește: „E sora mea! Nu mă puteți ține departe de ea!” Elena strigă: „Sofia!” și se ridică, agitată. Doamna Walsh spune tare: „Lăsați biata fată să-și vadă sora!” Fiecare relație pe care ați construit-o — cu Elena, cu trecătorii — se fisurează. | Reflecție: Când nu există niciun motiv de siguranță pentru a ține un membru al familiei la distanță, ce comunică faptul de a face asta despre prioritățile dumneavoastră?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Conectarea la sprijin",
+            "sceneUpdate": {
+                "emoji": "🏥",
+                "title": "Trotuarul farmaciei — Planificarea pașilor următori",
+                "desc": "Elena și Sofia stau împreună pe o bancă lângă farmacie. Elena se sprijină de sora ei, mai calmă decât a fost toată dimineața. Sofia îi mângâie părul. Criza acută a trecut, dar rămâne întrebarea: ce urmează? Elena are nevoie de atenție medicală — problema cu medicația este reală și nerezolvată — dar este terifiată să se întoarcă la spital. David privește din interior, ușurat că intrarea e liberă. Doamna Walsh așteaptă în apropiere."
+            },
+            "npcDialogue": [
+                {
+                    "character": "elena",
+                    "text": "(sprijinită de Sofia, voce mică) Știu că am nevoie de ajutor cu medicația. Știu asta. Dar nu mă pot întoarce pe secția aceea. Sunetele, luminile noaptea, asistenta aceea pe care n-o cunoșteam — nu pot. Vă rog, nu mă obligați. Trebuie să existe altă cale."
+                },
+                {
+                    "character": "sofia",
+                    "text": "(uitându-se la dumneavoastră) Are un psihiatru — Dr. Reeves. Are și un terapeut. Pot să-i sun. Dar nu știu... e suficient? Ar trebui să meargă la Urgențe? Nu vreau s-o forțez."
+                }
+            ],
+            "prompt": "Elena este dispusă să accepte ajutor dar nu poate face față întoarcerii pe secția de internare. Sofia are resurse dar are nevoie de îndrumare. Cum facilitați un plan sigur?",
+            "options": [
+                {
+                    "text": "Priviți-le pe amândouă și vorbiți pe un ton egal, fără grabă: 'Elena, faptul că știți că medicația trebuie abordată îmi spune multe — asta necesită adevărată putere. Iată câteva opțiuni, și dumneavoastră alegeți: Sofia poate s-o sune pe Dr. Reeves acum. Puteți merge la Urgențe cu Sofia — nu pe secție, doar la camera de gardă pentru o evaluare. Sau pot suna echipa mobilă de criză să vină aici. Ce vi se pare fezabil?'",
+                    "feedback": "De ce: Afirmarea conștientizării Elenei — „asta necesită adevărată putere” — construiește demnitate în loc de dependență. Prezentarea a trei opțiuni concrete cu ea alegând restabilește complet autonomia. Distingerea Urgențelor de secția de internare adresează frica ei specifică cu precizie. Menționarea echipei mobile de criză demonstrează cunoașterea alternativelor non-spitalicești. „Ce vi se pare fezabil?” este un limbaj calibrat pentru cineva a cărui lume pare de negestionat. Fiecare element este bazat pe consimțământ și orientat spre alegere. | CONSECINȚE: Elena se uită la Sofia. „Putem s-o sunăm pe Dr. Reeves mai întâi? Și apoi... poate Urgențele dacă zice ea. Dar nu secția. Promite-mi că nu secția.” Sofia dă din cap, scoțând telefonul. Se formează un plan — planul Elenei, nu al dumneavoastră. | Reflecție: De ce produce oferirea de opțiuni structurate rezultate mai bune decât oferirea unei singure recomandări?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Vă întoarceți spre Sofia și vorbiți pe un ton practic, dându-i direcții clare: 'Cred că a suna la Dr. Reeves e un bun început. Dacă recomandă Urgențele, ar trebui să duceți Elena acolo. Pot aștepta aici în timp ce faceți apelul.' Dați încurajator din cap spre Sofia, predând planul membrului familiei fără a-i oferi persoanei care stă chiar lângă ea niciun cuvânt direct de spus în ceea ce privește următorii pași. Elena vă privește în tăcere.",
+                    "feedback": "De ce: Practic și rezonabil, dar ați direcționat planul prin Sofia, ocolind-o pe Elena. Elena stă chiar acolo și și-a exprimat propria înțelegere a ceea ce are nevoie. A vorbi cu Sofia despre îngrijirea Elenei — chiar în mod susținător — continuă un tipar în care alții iau decizii pentru ea. De asemenea, oferirea unui singur traseu (doctor apoi eventual Urgențe) nu explorează alte opțiuni precum echipa mobilă de criză. | CONSECINȚE: Sofia o sună pe Dr. Reeves. Elena stă liniștită, pasivă. Planul funcționează, dar Elena se simte ca un pasager în propria îngrijire. Cooperează dar nu se simte împuternicită. | Reflecție: Când o persoană în criză are un membru al familiei prezent, cum mențineți persoana în centrul propriului plan de îngrijire?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă lăsați pe spate, deschideți mâinile într-un gest de cedare și vorbiți pe un ton blând: 'Vă aud, Elena. Nimeni nu o să vă forțeze nicăieri. Doar luați-vă timp. Când sunteți pregătită, dumneavoastră și Sofia puteți decide ce faceți.' Faceți un pas deliberat înapoi, încrucișându-vă brațele lejer, oferind surorilor spațiu. Tonul vă e respectuos, dar nu oferiți nicio resursă, nicio opțiune, niciun cadru — doar timp deschis pe o stradă comercială aglomerată.",
+                    "feedback": "De ce: Respectuos față de autonomie dar abdicați de la rol. Elena și Sofia sunt amândouă copleșite — niciuna nu e în poziția să ia decizii medicale complexe singure acum. Retragerea completă înseamnă că nimeni cu cunoștințe despre resursele disponibile nu ghidează procesul. Intervenția în criză nu înseamnă controlarea rezultatului, dar înseamnă oferirea de opțiuni informate. Sprijinul pasiv nu e suficient când cineva e în criză acută. | CONSECINȚE: Surorile stau împreună. Timpul trece. Niciuna nu știe ce să facă în continuare. David iese: „O să stea aici toată ziua?” Lipsa impulsului creează un vid pe care frustrarea îl umple. | Reflecție: Care este diferența între respectarea autonomiei și lăsarea cuiva fără resursele necesare pentru a o exercita?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă îndreptați și adoptați o expresie serioasă, preocupată. Vorbiți pe un ton măsurat dar ferm: 'Elena, înțeleg că vă e frică de spital, dar situația cu medicația ar putea fi periculoasă. Cred că cea mai sigură opțiune e să aranjez transport la Urgențe ca profesioniștii medicali să vă evalueze corespunzător. Sofia poate merge cu dumneavoastră.' Vă duceți mâna la stația de pe umăr, pregătindu-vă să solicitați transportul înainte ca Elena să fi răspuns.",
+                    "feedback": "De ce: „Să aranjez transport la Urgențe” este limbaj clinic pentru a chema o ambulanță — iar Elena știe asta. Ați ignorat dorințele pe care le-a exprimat bazându-vă pe propria evaluare a riscului medical, care nu este domeniul dumneavoastră de expertiză. Ea a spus că nu poate face față spitalului. Sofia a spus că nu vrea s-o forțeze. Acum dumneavoastră sunteți cel care forțează. Pregătirea CIT subliniază că transportul involuntar ar trebui rezervat pentru pericolul iminent pentru sine sau alții — Elena nu îndeplinește acel criteriu. | CONSECINȚE: Elena se îndepărtează de Sofia. „Nu! Ați spus că pot alege! Ați promis!” Sofia se așează între dumneavoastră și Elena: „A spus că nu merge! Nu puteți asculta?” Încrederea fragilă se prăbușește. Elena ar putea fugi. | Reflecție: Când evaluarea dumneavoastră a ceea ce are nevoie cineva medical intră în conflict cu dorințele exprimate de persoana respectivă, și nu există pericol iminent, a cui judecată ar trebui să prevaleze?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Rezoluție",
+            "sceneUpdate": {
+                "emoji": "🌤️",
+                "title": "Intrarea farmaciei — O cale înainte",
+                "desc": "Elena a ales un plan: Sofia o va suna pe Dr. Reeves, iar ele vor merge împreună la Urgențe dacă li se recomandă — dar nu pe secția de internare. Sofia vorbește la telefon cu cabinetul psihiatrului. Elena stă pe bancă, epuizată dar mai calmă. Brățara de spital încă îi înconjoară încheietura. David s-a întors înăuntru. Doamna Walsh se apropie cu o sticlă de apă cumpărată de la un magazin din apropiere. Tensiunea dimineții a cedat loc a ceva mai liniștit."
+            },
+            "npcDialogue": [
+                {
+                    "character": "elena",
+                    "text": "(acceptând apa de la doamna Walsh, apoi uitându-se la dumneavoastră) Îmi pare rău pentru toată povestea asta. Știu că probabil am speriat oamenii. Nu am vrut. Doar că... mi-era atât de frică și nu știam unde altundeva să merg. (pauză) Vă mulțumesc că nu m-ați tratat ca și cum aș fi periculoasă. Toată lumea mă tratează mereu ca și cum aș fi periculoasă."
+                },
+                {
+                    "character": "mrs_walsh",
+                    "text": "(mângâind-o pe Elena pe umăr) Nu ai de ce să-ți ceri scuze, dragă. (către dumneavoastră) Vă mulțumesc, domnule agent. Ați gestionat asta frumos. Nu toți ar fi făcut-o."
+                }
+            ],
+            "prompt": "Elena își cere scuze și vă mulțumește. Doamna Walsh își exprimă recunoștința. Sofia vorbește la telefon finalizând planul de îngrijire. Cum încheiați interacțiunea?",
+            "options": [
+                {
+                    "text": "Vă așezați lângă Elena pe bancă și vorbiți liniștit: 'Elena, nu trebuie să vă cereți scuze. Ați trecut prin ceva înfricoșător și ați ajuns într-un loc sigur — asta necesită curaj, nu scuze.' Scrieți numărul liniei de criză și al echipei mobile pe o hârtie. 'Asta e pentru cazul în care aveți vreodată nevoie de sprijin și nu o puteți contacta pe Dr. Reeves sau pe Sofia. Este non-stop, și vin la dumneavoastră.' Vă întoarceți spre doamna Walsh: 'Vă mulțumesc că ați rămas cu ea — a contat mai mult decât credeți.'",
+                    "feedback": "De ce: Reîncadrarea scuzelor ei — „asta necesită curaj, nu scuze” — este o declarație puternică de restabilire a demnității. Furnizarea de resurse scrise de criză asigură că are opțiuni dincolo de această întâlnire și de rețeaua de sprijin existentă. Recunoașterea doamnei Walsh validează grija din partea comunității și încurajează sprijinul din partea trecătorilor. Ați încheiat cu ajutor concret, validare emoțională și căldură umană. Acesta este standardul de aur al rezoluției unei crize. | CONSECINȚE: Elena ține hârtia cu numărul. Are un plan, o soră, un număr de telefon și amintirea unui ofițer care a tratat-o ca pe o persoană. Doamna Walsh e emoționată. Sofia termină apelul și articulează „mulțumesc” fără sunet. Întâlnirea se încheie cu conexiune, nu cu aplicarea legii. | Reflecție: Ce comunică furnizarea de resurse după o criză despre cum vedeți viitorul persoanei?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă ridicați, oferiți un zâmbet sincer și vă scuturați ușor genunchiul. Vorbiți cu căldură, pe un ton ușurat: 'Mă bucur că am putut rezolva, Elena. Sunteți pe mâini bune cu Sofia. Aveți grijă de dumneavoastră, da?' Dați din cap cu recunoștință spre doamna Walsh și vă pregătiți să plecați. Încheierea vă e caldă și umană, dar în buzunare nu aveți nicio fișă cu linia de criză, niciun număr de urmărire — nimic care să facă punte între acest moment și următorul.",
+                    "feedback": "De ce: Închidere caldă și umană, dar ați plecat fără a oferi resurse de urmărire. Criza Elenei nu a început azi și nu se va termina azi. Ce se întâmplă la ora trei dimineața când Sofia doarme și vocile se întorc? Un ofițer bun rezolvă momentul. Un ofițer excepțional echipează persoana pentru momentul următor. | CONSECINȚE: Elena vă privește plecând. Se simte mai bine azi dar are aceleași resurse ca înainte: Sofia și Dr. Reeves. Dacă vreuna nu e disponibilă în timpul următoarei crize, nu are plasă de siguranță. Ziua de azi a fost un succes. Întrebarea e dacă durează. | Reflecție: Care este diferența între rezolvarea unui incident și construirea unei plase de siguranță pentru următorul?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă îndreptați și adoptați un ton bine intenționat dar sfătuitor, cu o mână sprijinită pe centură: 'Nu e nevoie să vă cereți scuze, Elena. Doar asigurați-vă că mergeți la medic și data viitoare nu mai plecați din spital fără să fiți externată cum trebuie. Creează multă îngrijorare pentru toată lumea.' Dați mic din cap, ca și cum ați încheia interacțiunea cu un sfat practic de viață, lăsând în urmă nu alinare, ci o amintire blândă că acțiunile ei au avut consecințe pentru alții.",
+                    "feedback": "De ce: Sfat rezonabil, dar „nu mai plecați din spital data viitoare” este o mustrare ușoară adresată unei persoane care a plecat pentru că era terifiată. „Creează îngrijorare pentru toată lumea” plasează povara emoțiilor altor persoane asupra cuiva în criză. Ați transformat o închidere compasionantă într-o lecție, amintindu-i că suferința ei a fost un inconvenient. | CONSECINȚE: Elena dă din cap în tăcere, căldura dispărând de pe fața ei. Aude: „Ați cauzat o problemă, încercați să nu mai faceți asta.” Doamna Walsh se încruntă. Ultimele cuvinte ale întâlnirii poartă un înțepat. | Reflecție: Cum modelează ultimele dumneavoastră cuvinte amintirea emoțională durabilă a întregii interacțiuni?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Scoateți carnetul de notițe și apăsați pe pix, trecând într-un mod de finalizare procedurală: 'Bun. Să-mi dați datele de contact ale surorii dumneavoastră și numele doctorului pentru raportul meu. Va trebui și să notez brățara de spital și faptul că ați plecat fără externare. E documentare standard.' Scrieți metodic, cerându-i Sofiei să-și speleteze numele de familie, notând detaliile psihiatrului — transformând ultimele momente ale unei conexiuni umane într-o sarcină administrativă.",
+                    "feedback": "De ce: Trecerea la colectarea de date și documentare în momentele de încheiere transformă o întâlnire umană într-una birocratică. „Documentare standard” despre plecarea din spital o face pe Elena să se simtă ca un dosar, nu ca o persoană. Cererea numelui doctorului și a detaliilor spitalului reinvocă instituția de care se teme. Ultima impresie pe care o are despre această interacțiune este un ofițer care notează fapte despre criza ei. | CONSECINȚE: Fața Elenei devine inexpresivă. Recită informațiile pe un ton plat. Sofia vă privește dezamăgită. Doamna Walsh pleacă. Căldura rezoluției se evaporă. Elena va ține minte acest final — nu bunătatea care l-a precedat. | Reflecție: Când anulează obligațiile procedurale momentul uman și când poate documentarea să aștepte?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debriefing",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Debriefing de pregătire",
+                "desc": "Înapoi la secție. Sergentul Okafor vă evaluează performanța în acest scenariu de răspuns la criză de sănătate mintală."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "Apelurile de criză de sănătate mintală testează tot ce antrenăm — și multe lucruri pe care nu le antrenăm suficient. Abilitățile care au contat astăzi nu au fost tactice. Au fost umane: răbdarea, ascultarea activă, oferirea de opțiuni, gestionarea propriului disconfort în fața incertitudinii și încrederea că o persoană în criză poate participa la propriul plan de îngrijire când i se oferă spațiul necesar. Fiecare decizie pe care ați luat-o — de la distanța de abordare la ultimele cuvinte — a construit încredere sau a erodat-o. Acesta este genul de apel care definește cum vede o comunitate forțele sale de ordine. Revizuiți-vă alegerile și amintiți-vă: scopul nu a fost niciodată să rezolvați criza de sănătate mintală a Elenei. Scopul a fost să creați suficientă siguranță încât ea să poată începe să o rezolve singură."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "Acest apel v-a cerut să dezînvățați aproape fiecare instinct pe care pregătirea standard îl consolidează. Ați ajuns la o scenă unde „problema” era o femeie speriată care stătea pe un trotuar, iar cel mai periculos lucru pe care l-ați fi putut face era să încercați s-o reparați prea repede. Spuneți-mi ce vi s-a părut cel mai greu."
+                },
+                {
+                    "character": "officer",
+                    "text": "Cel mai greu a fost să nu rezolv. Era evident în criză, evident avea nevoie de ajutor, și a trebuit să rezist fiecărui impuls de a prelua controlul și a o duce la spital. Să stau cu incertitudinea de a nu ști dacă va accepta ajutorul — a fost agonizant."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Disconfortul pe care l-ați simțit este întreaga lecție. Majoritatea ofițerilor formulează apelurile de sănătate mintală ca „rezolvă situația” — scoate persoana de pe stradă, transport-o la îngrijire, închide apelul. Dar această formulare este greșită. Scopul nu este să rezolvi situația. Scopul este să-i dai cuiva aflat în criză suficientă siguranță pentru a-și face propria alegere. Când i-ați oferit Elenei trei opțiuni și ați lăsat-o să decidă, i-ați redat ceva ce criza i-l luase — autonomia. Asta învață de fapt pregătirea CIT, și majoritatea ofițerilor nu o absorb pe deplin."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Gândiți-vă la asta: Elena i-a spus mai târziu terapeutei că ați fost prima persoană în acea zi care a făcut-o să se simtă ca o ființă umană în loc de o problemă de rezolvat. Nu asistentele, nu personalul spitalului — dumneavoastră. Un ofițer de poliție pe un trotuar. Asta vă spune ceva despre cât de rară este implicarea autentică, bazată pe consimțământ, în răspunsul la criză. Și vă spune ceva despre puterea pe care o purtați când alegeți s-o folosiți în acest mod. Acum permiteți-mi să vă spun ce s-a întâmplat după ce Elena a plecat cu Sofia."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "officer": {
+            "name": "Tu (Ofițer)",
+            "avatar": "👮"
+        },
+        "dispatcher": {"name": "Dispecerat", "avatar": "📻"},
+        "elena": {"name": "Elena Marchetti (34, în criză)", "avatar": "😰"},
+        "david": {"name": "David (angajat farmacie)", "avatar": "👨‍⚕️"},
+        "mrs_walsh": {"name": "Dna Walsh (trecător îngrijorat)", "avatar": "👵"},
+        "sofia": {"name": "Sofia (sora Elenei)", "avatar": "💜"},
+        "instructor": {"name": "Sergent Okafor", "avatar": "👮‍♂️"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Intervenție exemplară în criză",
+            "emoji": "🌟",
+            "feedback": "Ați demonstrat standardul de aur al răspunsului la criza de sănătate mintală: observare atentă înainte de abordare, prezență calmă și negrăbită, comunicare bazată pe consimțământ care a redat autonomia Elenei, gestionare abilă a membrului familiei care sosește și urmărire autentică cu resurse de criză. Fiecare persoană de pe acea stradă — Elena, Sofia, doamna Walsh, David și fiecare trecător — a văzut un ofițer care a tratat o persoană în criză de sănătate mintală ca pe o ființă umană care merită demnitate și dreptul de a alege. Așa arată pregătirea CIT în practică."
+        },
+        "good": {
+            "title": "Răspuns solid la criză",
+            "emoji": "👍",
+            "feedback": "Ați gestionat o criză sensibilă de sănătate mintală cu empatie și profesionalism, construind un raport cu Elena și lucrând spre o rezoluție voluntară. Unele momente ar fi putut fi mai puternice — poate în gestionarea dinamicii familiale, oferirea mai multor opțiuni sau furnizarea de resurse de urmărire — dar abordarea dumneavoastră generală a reflectat principiile CIT și a tratat-o pe Elena cu demnitate."
+        },
+        "average": {
+            "title": "Adecvat dar incomplet",
+            "emoji": "📋",
+            "feedback": "Ați rezolvat situația imediată fără o escaladare majoră, dar ați ratat oportunități importante pentru o intervenție autentică de criză. Fie că a fost vorba de o abordare prea rapidă, neoferirea de opțiuni semnificative sau neconectarea Elenei la resurse pe termen lung, au existat momente în care o abordare bazată pe îngrijire ar fi putut înlocui una bazată pe proceduri. Revizuiți principiile de de-escaladare CIT și diferența dintre gestionarea unei scene și ajutarea unei persoane."
+        },
+        "poor": {
+            "title": "Necesită revizuire semnificativă CIT",
+            "emoji": "⚠️",
+            "feedback": "Abordarea dumneavoastră față de această criză de sănătate mintală s-a bazat prea mult pe control, comenzi sau conformitate procedurală în loc de implicarea calmă, bazată pe consimțământ, pe care pregătirea CIT o subliniază. O persoană în criză acută de sănătate mintală are nevoie de un ofițer care creează siguranță prin prezență, nu prin autoritate. Revizuiți fundamentele intervenției în criză: distanța de abordare, tonul, oferirea de opțiuni, respectarea fricilor exprimate și diferența critică între a fi de ajutor și a fi în control."
+        }
+    },
+    "metrics": {
+        "crisisRecognition": {
+            "name": "Recunoașterea crizei",
+            "description": "Identificarea situației ca o criză de sănătate mintală care necesită un răspuns bazat pe îngrijire, în loc de a o trata ca comportament infracțional sau suspect",
+            "icon": "🧠"
+        },
+        "calmPresence": {
+            "name": "Prezență calmă și ritm",
+            "description": "Folosirea distanței, tonului, limbajului corporal și a unui ritm negrăbit pentru a comunica siguranță în loc de autoritate",
+            "icon": "🕊️"
+        },
+        "consentAndChoice": {
+            "name": "Consimțământ și alegere",
+            "description": "Oferirea de opțiuni în loc de comenzi, restabilirea autonomiei cuiva care simte că a pierdut orice control",
+            "icon": "🤲"
+        },
+        "serviceConnection": {
+            "name": "Conectarea la servicii",
+            "description": "Conectarea persoanei la resurse adecvate de sănătate mintală în loc de a recurge implicit la aplicarea legii sau transport la spital",
+            "icon": "🔗"
+        },
+        "stigmaAvoidance": {
+            "name": "Demnitate și evitarea stigmatizării",
+            "description": "Tratarea persoanei ca o ființă umană în suferință, nu ca o problemă de gestionat, evitând limbajul și acțiunile care criminalizează boala mintală",
+            "icon": "💛"
+        }
+    }
+}

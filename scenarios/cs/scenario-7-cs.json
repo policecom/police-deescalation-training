@@ -1,0 +1,491 @@
+{
+  "id": 7,
+  "title": "Pouliční potyčka u nočního klubu",
+  "description": "Pokročilý scénář odehrávající se v 1:30 v noci na chodníku před nočním klubem Vibe v Ústí nad Labem. Strkanice kvůli politému drinku se přelila z klubu na ulici, dva podnapilí muži stojí proti sobě, nestabilní dav natáčí na telefony, jedna kolemjdoucí je zraněná a vyhazovač může pomoci, nebo situaci zhoršit. Strážník přijíždí sám, posily jsou osm minut daleko. Musí oddělit aktéry, zvládnout dynamiku davu, postarat se o zraněnou, správně právně kvalifikovat jednání a obnovit veřejný pořádek v prostředí plném adrenalinu a alkoholu — to vše pod okem kamer a v mezích zákona o policii.",
+  "icon": "🚨",
+  "lawContext": {
+    "9": "2008-273",
+    "10": "2008-273",
+    "11": "2008-273",
+    "13": "2008-273",
+    "24": "2008-273",
+    "26": "2008-273",
+    "52": "2008-273",
+    "53": "2008-273",
+    "54": "2008-273",
+    "63": "2008-273",
+    "5": "2016-251",
+    "7": "2016-251",
+    "76": "1961-141",
+    "145": "2009-40",
+    "146": "2009-40",
+    "158": "2009-40",
+    "337": "2009-40",
+    "358": "2009-40"
+  },
+  "difficulty": 4,
+  "duration": "12-18",
+  "instructor": {
+    "name": "Praporčík Doležal",
+    "avatar": "👮‍♂️",
+    "introduction": "Výjezdy k nočním klubům patří k nejnepředvídatelnějším situacím, se kterými se v pořádkové službě setkáte. Přijíždíte do směsi alkoholu, adrenalinu, zraněné hrdosti a publika, které násilí buď zesílí, nebo vám ho pomůže zvládnout. Zkušenost i výzkum shodně ukazují, že prvních devadesát vteřin kontaktu v konfliktu poháněném davem rozhoduje o tom, zda věc eskaluje, nebo se stabilizuje. Aktéři jsou opilí — to znamená narušený úsudek, pomalejší zpracování informací, vystupňované emoce a nepředvídatelné fyzické reakce. S alkoholem se nedá rozumně diskutovat tak, jak byste diskutovali se střízlivou hlavou. Váš hlas, vaše pozice, řeč těla a schopnost oddělit aktéry a zpomalit tempo jsou vaše hlavní nástroje. Nezapomínejte přitom na zákon: každý zásah do práv osob musí být přiměřený (§ 11 zákona o policii) a před každým donucením platí pořadí výzva — výstraha — přiměřené donucení (§ 53). A ještě jedno: dnes v noci bude každé vaše rozhodnutí natočeno a každé slovo přehráváno. Ať se počítají."
+  },
+  "timedChoices": true,
+  "completionBadges": [
+    "scenario-7-complete"
+  ],
+  "perfectBadge": "perfect-scenario-7",
+  "finalMessage": {
+    "revelation": "Daniel „Danny“ Kučera a Viktor Horák se ten večer poznali teprve v klubu — chvíli spolu dokonce popíjeli u baru. Konflikt vypukl, když Viktor při protlačování davem nechtěně shodil Dannymu skleničku na šaty jeho přítelkyně Terezy. Danny do Viktora strčil, Viktor strčil zpět a vyhazovač Radek Peterka — bývalý voják, který se potýká s posttraumatickou stresovou poruchou — je oba vyvedl s větší razancí, než bylo nutné, čímž jejich agresi ještě vystupňoval. Zraněná kolemjdoucí, devatenáctiletá studentka Michaela „Míša“, si podvrtla kotník, když před prvotní strkanicí uskakovala z obrubníku; potřebovala jen menší ošetření. Intenzita napadení nedosáhla výtržnictví podle § 358 trestního zákoníku ani ublížení na zdraví podle § 146 — šlo o hraniční přestupkovou rovinu, kterou oba muži po vystřízlivění nechtěli hnát dál. Danny napsal Viktorovi za týden omluvu a Viktor odpověděl. Radek si prohlédl kamerový záznam klubu a přiznal vedení, že vyhazoval příliš tvrdě — klub zavedl školení ostrahy dveří. Záběry davu zveřejněné online ukázaly klidnou, profesionální policejní práci pod tlakem a obvodní oddělení je použilo ve výcviku.",
+    "keyLessons": [
+      "Oddělení aktérů je nejdůležitější první fyzická akce — vše ostatní staví na vytvořeném prostoru; přerušení očního i fyzického kontaktu odebere konfliktu palivo.",
+      "Před každým donucením platí pořadí výzva → výstraha → přiměřené donucení (§ 53 zákona o policii); sáhnout hned po poutech nebo pepřovém prostředku bez naplnění podmínek je nepřiměřený a nezákonný zákrok (§ 11).",
+      "Přiměřenost kvalifikace: strkanice dvou opilých není „rvačka“ (§ 158 vyžaduje tři a více aktivních účastníků) a ne každé strčení je výtržnictví (§ 358 žádá vyšší intenzitu) — zbytečné zadržení škodí víc, než pomáhá.",
+      "Dav zesiluje převládající emoční tón — klidná autorita je nakažlivá stejně jako panika; přidělení role (svědek, odchod domů) mění diváky ve spolupracovníky a právo natáčet je třeba respektovat.",
+      "Zdraví má přednost — včasné přivolání ZZS a viditelná péče o zraněnou mění vnímání policie davem z hrozby na ochránce; pozor, že pachatelem může být i vyhazovač."
+    ]
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "Posouzení situace",
+      "sceneUpdate": {
+        "emoji": "🚨",
+        "title": "Před klubem Vibe — 1:30 v noci",
+        "desc": "Přijíždíte sám k chaosu na Nábřežní 14. Z klubu za sametovým lanem duní basy. Na chodníku stojí tři metry od sebe dva muži — jeden v roztrženém tričku, druhý s krví na rtu — křičí na sebe a ukazují si prstem. Statný vyhazovač v černém stojí mezi nimi s rozpřaženýma rukama a sotva drží linii. Mladá žena tahá jednoho z mužů za paži a prosí ho. Patnáct až dvacet návštěvníků tvoří volný půlkruh s telefony nahoře. Na obrubníku sedí dívka a s bolestivým výrazem se drží za kotník."
+      },
+      "npcDialogue": [
+        {
+          "character": "dispatcher",
+          "text": "Hlídka míří k incidentu před klubem Vibe, Nábřežní 14. Volající hlásí rvačku, která začala uvnitř a přesunula se na chodník. Dva muži ve fyzickém konfliktu, ostraha je oddělila, situace nestabilní. Shromažďuje se dav, jedno možné zranění. Posily na místě za osm minut."
+        },
+        {
+          "character": "radek",
+          "text": "(křičí, s rozpřaženýma rukama mezi oběma muži) Strážníku! Díky Bohu. Oddělil jsem je, ale pořád po sobě jdou. Ten v modrém to začal mlátit uvnitř — vyhodil jsem je oba. Přítelkyně toho jednoho se pořád plete doprostřed. A někdo se tam vzadu zranil, nevím jak moc."
+        }
+      ],
+      "prompt": "Přijíždíte sám, posily budou za osm minut. Dva opilí muži stojí proti sobě, dav natáčí, někdo je zraněný a vyhazovač sotva drží linii. Jak začnete?",
+      "options": [
+        {
+          "text": "Věnujete tři vteřiny přehledu scény, než zasáhnete. Očima projedete klíčové prvky: dva aktéry, vyhazovače jako možného spojence, přítelkyni, zraněnou na obrubníku, dav s telefony a únikové cesty. Krátce hlásíte na OPIS: „Na místě, žádám ZZS ke zraněné, potvrzuji příjezd posil.“ Pak vykročíte s viditelným odznakem a zdviženou rukou: „Policie. Jménem zákona zanechte jednání. Oba dva — pět kroků od sebe. Hned.“",
+          "feedback": "Proč: Rychlý přehled před akcí je prevence tunelového vidění — nejnebezpečnější chyby v chaosu (§ 11 vás zavazuje jednat tak, aby nikomu nevznikla bezdůvodná újma, což bez přehledu o scéně nejde). Souběžné ohlášení na OPIS a přivolání ZZS respektuje, že zdraví má přednost. Výzva „jménem zákona“ opírá váš pokyn o § 5 zákona o přestupcích a o § 53 zákona o policii; „pět kroků zpět“ je konkrétní proveditelný úkol místo abstraktního „uklidněte se“. | DŮSLEDKY: Přehled zachytí zraněnou dívku, náladu davu i řeč těla vyhazovače. Váš vstup vytvoří chvilkovou pauzu — oba muži se na vás podívají a eskalační smyčka se přeruší. Danny udělá půl kroku vzad, Viktor přestane křičet, vyhazovač si viditelně oddechne. | Reflexe: Jak třísekundové posouzení změní kvalitu každého dalšího rozhodnutí v rychle se vyvíjející situaci?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Bez zastavení se vrhnete do mezery mezi oba muže, rozkročíte se a nataženýma rukama je začnete od sebe odtlačovat hrubou silou. Cítíte, jak se jejich těla napínají proti vašemu tlaku. Ostře a hlasitě křičíte: „Přestaňte! Oba HNED ustupte!“ Tlačíte dál a snažíte se vytvořit vzdálenost čistě fyzickou přítomností, podrážky zapřené o dlažbu, hlavu otočenou střídavě k jednomu a druhému z nich.",
+          "feedback": "Proč: Fyzicky se vsunout mezi dva opilé agresivní muže bez posouzení scény a bez předchozí výzvy vás vystavuje extrémnímu riziku a obrací pořadí, které ukládá § 53 (nejdřív výzva a výstraha, teprve pak přiměřené donucení). Nevíte, zda má některý zbraň, zda je dav nepřátelský ani kde je zraněná. Fyzický kontakt před slovním pokynem konfrontaci nevytváří, nýbrž vyvolává. Se ZZS a posilami na cestě vaše zranění znamená, že celá scéna zůstane bez kontroly. | DŮSLEDKY: Dannyho ruka vás při gestikulaci zasáhne do ramene. Viktor vnímá váš tlak jako agresi a zaujme bojový postoj. Dav se pohrne dopředu. Stojíte uprostřed třísměrné fyzické konfrontace bez posil a bez přehledu. | Reflexe: Kdy fyzický zásah bez předchozí slovní deeskalace situaci nezklidní, ale zbytečně zbraní?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Přejdete rovnou k vyhazovači, navážete oční kontakt a přikývnete mu. Ztišíte hlas, aby vás aktéři neslyšeli, a nakloníte se k němu: „Dobrá práce, že jste je udržel od sebe. Potřebuju vaši pomoc — udržíte tu linii ještě minutu, než zavolám záchranku a začnu je oddělovat?“ Čekáte na jeho přikývnutí a saháte po vysílačce, zatímco Danny a Viktor dál křičí přes jeho rozpřažené paže.",
+          "feedback": "Proč: Zapojit vyhazovače je chytré — je už na pozici a zná aktéry. Zaměřit se ale výhradně na něj dřív, než oslovíte samotné aktéry, riskuje ztrátu okna autority, které váš příjezd vytvořil. Aktéři potřebují slyšet váš hlas okamžitě, jinak chvilková pauza vyprchá a adrenalinový nával se vrátí dřív, než získáte přehled. | DŮSLEDKY: Vyhazovač vděčně přikývne, ale zatímco s ním mluvíte, Danny a Viktor znovu spustí. Dav čte váš boční rozhovor jako nerozhodnost. Okno počáteční autority se zavírá. | Reflexe: Jak zapojíte spojence, aniž byste ztratili moment, který vytváří čerstvá policejní přítomnost?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Zůstanete u služebního vozidla a otevřené dveře držíte jako bariéru mezi sebou a scénou. Vezmete vysílačku a hlásíte: „Dispečink, žádám okamžité posily ke klubu Vibe, situace nestabilní, dva agresivní muži, dav dvaceti lidí, jedno zranění. Nepřibližuji se, dokud nemám druhou hlídku.“ Přes čelní sklo sledujete, jak vyhazovač zápasí s udržením linie, přítelkyně prosí a dav natáčí.",
+          "feedback": "Proč: Posily už jsou vyslány a budou za osm minut. Čekat u vozidla, zatímco dva opilí muži jsou na pokraji rvačky, dav roste a někdo je zraněný, znamená opustit povinnost zasáhnout. Bezpečnost strážníka je zásadní, ale neznamená čekat na ideální podmínky — slovní zásah z bezpečné vzdálenosti (§ 53 umožňuje i výzvu bez okamžitého donucení) zvládá bezpečnost i povinnost současně. | DŮSLEDKY: Zatímco čekáte, Viktor se vrhne na Dannyho, vyhazovač Viktora strhne k zemi, dav vybuchne a zraněná dívka se pokusí uhnout a znovu upadne. Než zasáhnete, řešíte plnou rvačku, místo abyste jí předešel. | Reflexe: Kdy se opatrnost stane nečinností a jaká je cena ztraceného času?",
+          "type": "neutral",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Oddělení",
+      "sceneUpdate": {
+        "emoji": "🔀",
+        "title": "Vytváření odstupu",
+        "desc": "Váš příjezd vytvořil krátkou pauzu. Oba muži stále stojí, stále agresivní, ale dívají se na vás. Vyhazovač Radek drží pozici mezi nimi. Tereza drží Dannyho za paži, ten ji ale opakovaně setřásá. Viktor si otírá krev z roztrženého rtu a hrozivě zírá. Dav sleduje, telefony natáčejí. Potřebujete ty dva od sebe — fyzicky i psychologicky — než se vrátí adrenalinový nával."
+      },
+      "npcDialogue": [
+        {
+          "character": "danny",
+          "text": "(se setřelou řečí, ukazuje přes vyhazovače na Viktora) Má ŠTĚSTÍ, že jste tady, pane strážníku. ON to celý začal! Hodil drink na mou holku! Zeptejte se kohokoli — on to začal!"
+        },
+        {
+          "character": "viktor",
+          "text": "(krev na bradě, hlas se zvyšuje) ON do mě strčil! Já nic neudělal — vrazil jsem do něj náhodou a on se zbláznil. A pak mě tenhle vyhazovač popadl jako psa. Chci podat stížnost, tohle není správný!"
+        },
+        {
+          "character": "tereza",
+          "text": "(tahá Dannyho za paži, v slzách) Danny, PROSÍM. Prostě pojďme. Nestojí to za to. Danny, podívej se na mě — prostě POJĎME."
+        }
+      ],
+      "prompt": "Oba muži na vás současně křičí svou verzi. Tereza se snaží Dannyho odvést. Vyhazovač je vyčerpaný. Jak dosáhnete fyzického oddělení?",
+      "options": [
+        {
+          "text": "Využijete vyhazovače i Terezu jako spojence pro oddělení na dvě strany. Radka směrujete důrazně a ukážete ke stanovišti taxi: „Radku, odveďte Viktora tamhle ke stání taxíků. Klidně přitom mluvte.“ Pak se obrátíte na Terezu a ztišíte hlas: „Děláte správnou věc. Pomozte mi dostat Dannyho sem ke zdi.“ Nakonec oslovíte Dannyho: „Danny — slyším vás a chci znát vaši verzi. Ale nejdřív potřebuju, abyste šel sem. Deset kroků, nic víc.“",
+          "feedback": "Proč: Brilantní práce se zdroji a učebnicová deeskalace — oddělení aktérů je podle taktického postupu první fyzickou akcí, protože přerušení očního a fyzického kontaktu odebere konfliktu palivo. Vyhazovač už je u Viktora, poslat ho s ním pryč využívá jeho autoritu místo statické bariéry. Ocenění Terezy z ní udělá uklidňující přítomnost místo emoční proměnné. Slib, že vyslechnete Dannyho verzi, mu dá důvod spolupracovat; „deset kroků“ je konkrétní a splnitelné pro narušené vnímání opilého. | DŮSLEDKY: Radek s úlevou položí Viktorovi ruku na rameno a vede ho ke stání taxi. Tereza se rozzáří a zdvojnásobí snahu s Dannym. Danny se nechá dovést ke zdi. Deset metrů odstupu, napětí davu viditelně klesá. | Reflexe: Jak přidělení konkrétní role každému na místě promění chaos v koordinaci?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Vystoupíte dopředu a křičíte dost nahlas, aby vás slyšeli všichni — aktéři, vyhazovač, dav, každý telefon. Váš hlas prořízne hluk jako siréna: „OBA — PŘESTAŇTE mluvit. Nezajímá mě, kdo to začal. Oba skončíte v poutech, jestli se HNED neoddělíte.“ Ukazujete prstem střídavě doleva a doprava: „Danny — tamhle. Viktor — tamhle. POHYB.“ Zůstanete stát v širokém postoji mezi nimi, bradu zvednutou, a přejíždíte pohledem z jednoho na druhého.",
+          "feedback": "Proč: Hlasitost a hrozba poutu mohou vyvolat krátkodobé podřízení ze strachu, ale u opilých stejně pravděpodobně vyprovokují vzdor. Především jde o předčasnou hrozbu donucení, aniž byste naplnili pořadí § 53 (výzva → výstraha → donucení) a bez titulu pro spoutání podle § 54 — pouta se používají vůči osobě zajišťované či omezené na svobodě, ne jako pohrůžka do davu. „Nezajímá mě, kdo to začal“ navíc odmítá obě jejich stížnosti, tedy jedinou věc, na které jim záleží nejvíc, a před kamerami dělá z ústupu ponížení. | DŮSLEDKY: Danny křičí zpět: „Tak mě zatkněte!“ Viktor se nafoukne: „Ano, zatkněte, chci podat stížnost!“ Nikdo se nehne, Tereza pláče. Eskalovali jste do souboje vůlí, který nevyhrajete bez použití síly. | Reflexe: Když pohrozíte důsledky před publikem, co se stane s kalkulací opilého člověka o ústupu?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Zaměříte se nejdřív výhradně na Dannyho — zdá se rozbouřenější, pěsti zatnuté, naklání se přes vyhazovače směrem k Viktorovi. Přejdete k němu odměřeným krokem, postavíte se tak, abyste byl mezi ním a davem, a ztišíte hlas: „Danny, vidím, že jste rozčilený, a chci slyšet, co se stalo. Teď ale potřebuju, abyste šel se mnou a s Terezou, ať můžu pořádně zaznamenat vaši výpověď. Zvládnete to?“ Jemně mu položíte ruku na rameno a vedete ho ke zdi.",
+          "feedback": "Proč: S Dannym je to dobrá deeskalace — ztišený hlas, uznání, konkrétní žádost. Otočit se ale zády k Viktorovi, dokud je stále agresivní a nezajištěný, je taktické riziko a naráží na povinnost udržet přehled o obou (§ 11 — nesmíte dopustit újmu ani nezúčastněným). Nechat Viktora jen s vyčerpaným vyhazovačem a bez policejní pozornosti ho může povzbudit k dalšímu jednání; oddělovat po jednom funguje, jen když je druhý zajištěný — Viktor není. | DŮSLEDKY: Danny reaguje na váš klidný tón a začne se přesouvat. Za vámi ale Viktor vidí, že jednáte jen s jeho protivníkem, a čte to jako stranění. Vykřikne: „Proč mluvíte jen s ním?! Já jsem ten zraněný!“ a udělá krok vpřed. Radek ho stěží zastaví. | Reflexe: Jak upřednostníte jednoho aktéra, aniž se druhý cítí odmítnutý nebo nezajištěný?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Obrátíte se na vyhazovače a ukážete ke vchodu za sametovým lanem: „Radku, odveďte je oba dovnitř do klubu. Oddělené místnosti — kancelář, sklad, cokoli máte. Vyslechnu je tam, kde je ticho a pryč od davu.“ Vykročíte ke dveřím a čekáte, že Radek půjde s oběma muži za vámi. Hudba z klubu duní hlasitěji, jak se přibližujete. Cestou rukou pokynete oběma mužům, ať jdou s Radkem za vámi.",
+          "feedback": "Proč: Vracet aktéry zpět do podniku, ze kterého byli právě vyvedeni, plodí problémy: klub je zdrojem konfliktu, hluku a alkoholu, vyhazovač je odtud vyhodil a vedení může vstup odmítnout. Navíc ztratíte přehled o zraněné a o davu venku, což naráží na povinnost neodkládat péči o ohrožené (§ 11). Klidnější prostředí je správný instinkt, ale ne za cenu návratu ke spouštěči. | DŮSLEDKY: Radek zaváhá — dostal pokyn je dostat ven. Vrátný zablokuje vchod: „Zpátky se nevrátí.“ Danny i Viktor protestují, dav je zmatený. Ztratili jste čas i kredibilitu návrhem, který byl okamžitě zamítnut. | Reflexe: Proč přesun aktérů zpět ke zdroji konfliktu situaci většinou zhorší?",
+          "type": "neutral",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Zvládání Dannyho",
+      "sceneUpdate": {
+        "emoji": "😤",
+        "title": "Danny u zdi",
+        "desc": "Dosáhli jste počátečního oddělení. Danny je u zdi s Terezou po boku, asi deset metrů od Viktora. Přechází sem a tam, prohrabuje si vlasy, opilý a rozčilený. Tričko má roztržené u límce. Neustále se dívá přes vaše rameno k Viktorovi. Tereza mu drží ruku, on ji ale opakovaně vytrhává. Zornice rozšířené, řeč setřelá, tělo napjaté nevybitým adrenalinem."
+      },
+      "npcDialogue": [
+        {
+          "character": "danny",
+          "text": "(přechází, setřelá řeč) Poslouchejte — POSLOUCHEJTE — já nic nezačal, jasný? Měli jsme prostě hezkej večer, já a Tereza. A tenhle chlap přijde a hodí drink na její šaty. Naschvál. Tak jo, strčil jsem do něj. Co jsem měl dělat? A pak mě ten vyhazovač popadne a vyhodí MĚ, jako bych já byl problém! (odmlčí se, přejede si rukou přes obličej) ...Hele, možná jsem strkat neměl. To vím. Ale co jsem měl dělat — jen tam stát? Tereza měla zničený šaty a všichni se smáli."
+        },
+        {
+          "character": "tereza",
+          "text": "(tiše, k Dannymu) Byla to nehoda, Danny. Vrazil do tebe. Víš, že to byla nehoda. Prosím, uklidni se. (k vám) Normálně takhle není, strážníku. Hodně se napil. Prosím, nezavírejte ho — je to hodnej člověk."
+        }
+      ],
+      "prompt": "Danny je opilý, vzdorovitý a přesvědčený, že je obětí. Přítelkyně vyvrací jeho verzi. Jak zvládnete tento rozhovor?",
+      "options": [
+        {
+          "text": "Zůstanete klidný, stojíte nehybně s viditelnými, uvolněnými dlaněmi a srovnáte jeho tempo. Krátké, uznávající věty: „Danny, vidím, že jste naštvaný. Něco se tam stalo a máte pocit křivdy. Slyším to. Nejsem tu, abych rozhodoval, kdo má pravdu — jsem tu, aby se dnes všichni dostali bezpečně domů, vy taky. Tereza chce, ať jste doma v bezpečí. Já chci to samý. Nadechněte se a řekněte mi popořádku, co se stalo.“",
+          "feedback": "Proč: Mistrovská deeskalace opilého. Stát nehybně, když on přechází, vytváří klidný kotevní bod; krátké věty odpovídají zhoršenému zpracování informací. „Vidím, že jste naštvaný“ uznává emoci bez souhlasu s verzí. „Nejsem tu, abych rozhodoval, kdo má pravdu“ odstraňuje soudní dynamiku a chrání vaši nestrannost (§ 11 — šetřit důstojnost). Odvolání na Terezu, které důvěřuje, uzemní abstrakci; žádost o vyprávění od začátku vyžaduje sekvenční myšlení, které rozrušení přirozeně zpomaluje. | DŮSLEDKY: Danny přestane přecházet, slovo „bezpečně“ zabere. Zhluboka se nadechne: „Dobře... byli jsme u baru, jo?“ a začne mluvit. Hlas se ztišuje, Tereza mu stiskne ruku a on ji tentokrát nevytrhne. Adrenalin se vybíjí slovy místo pěstí. | Reflexe: Proč funguje jako deeskalace požádat rozrušeného člověka, aby vyprávěl svůj příběh od začátku?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Zkřížíte ruce, zaujmete pevný postoj přímo proti Dannymu a vyložíte mu fakta, ať pochopí svou situaci: „Danny, budu upřímný. Vaše přítelkyně mi právě řekla, že to byla nehoda. Svědků je tu spousta. Podávat trestní oznámení kvůli politému drinku, když jste strčil první vy, vám nepomůže. Nejchytřejší je teď jít domů s Terezou a vyspat se z toho.“ Podíváte se na Terezu pro potvrzení a pak zpět na Dannyho s vyčkávavým výrazem.",
+          "feedback": "Proč: Věcně možná správné, ale katastrofálně načasované. Vyvrátili jste jeho verzi, podkopali loajalitu přítelkyně („právě mi řekla“) a naznačili, že agresorem je on — to vše před osobou, na jejímž mínění mu záleží nejvíc. Opilí nereagují na logiku, ale na emoce; zaútočili jste na jeho hrdost i vztah zároveň. | DŮSLEDKY: Danny se obrátí na Terezu: „Tys mu řekla, že je to moje vina?!“ Tereza se rozpláče. Dannyho zlost, mířená na Viktora, se teď obrací na vás a na ni. Udělá krok k vám: „Vy nevíte, co se stalo, nebyl jste tady!“ Situace je horší než před vaší první větou. | Reflexe: Kdy se předkládání faktů opilému obrátí proti vám a proč načasování rozhoduje víc než přesnost?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Odvrátíte se od Dannyho a oslovíte přímo Terezu, vytáhnete zápisník a pero, ať je jasné, že jde o oficiální záznam: „Děkuji, jste velmi nápomocná. Můžete mi přesně říct, co jste viděla uvnitř? Potřebuju jasný popis.“ Necháte Dannyho poslouchat, ale soustředíte se na Terezinu verzi v jeho přítomnosti, přikyvujete a děláte si poznámky, řeč těla jasně říká, že ona je teď hlavní zdroj.",
+          "feedback": "Proč: Tereza je střízlivá a soudržná, její výpověď je spolehlivější — ztotožnění a výslech svědků patří do postupu (§ 63). Vyslýchat ji ale před opilým a rozčileným Dannym z něj dělá odsunutého z vlastního příběhu. Už jí odporuje; dělat to oficiálně, s policejní pozorností, ho ponižuje a bere mu tvář. Stojí přímo tam a dívá se, jak jeho přítelkyně „svědčí proti němu“. | DŮSLEDKY: Danny okamžitě skočí do řeči: „Proč mluvíte s ní? Jsem TADY, mě napadli!“ Tereza vypadá uvězněně mezi loajalitou a upřímností. Deeskalace se změnila ve výslech a Danny má pocit, že se na něj spolčují přítelkyně i policie. | Reflexe: Proč je lepší oddělit svědky před výslechem a proč na pořadí záleží?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Jednou přikývnete, stručně a věcně. Zvednete ruku, ať zpomalíte jeho rozvláčné vyprávění, a dáte stručnou instrukci: „Rozumím, Danny. Slyším vás — máte pocit, že jste byl vyprovokovaný. Jdu si promluvit s tím druhým a zjistit jeho verzi, pak uvidíme dál. Zůstaňte tady s Terezou. Nechoďte k němu. Jasný?“ Podržíte oční kontakt, otočíte se na patě a rázným krokem vykročíte přes chodník k Viktorovi u stání taxi.",
+          "feedback": "Proč: Efektivní a stanoví jasnou hranici; „slyším vás — máte pocit, že jste byl vyprovokovaný“ nabízí minimální uznání a oznámit, že zjistíte druhou stranu, je transparentní. Interakce je ale příliš krátká na skutečnou deeskalaci — uznali jste ho, ale neuklidnili. Nechat opilého, rozčileného muže jen s přítelkyní jako dozorem, bez fyzické bariéry a autority, je riskantní; „jasný?“ může opilému uchu znít konfrontačně. | DŮSLEDKY: Danny neochotně přikývne, ale jakmile odejdete, dál reptá a přechází. Bez trvalého uklidňujícího kontaktu se adrenalin znovu prosadí. Tereza se snaží, ale snaží se celý večer. Když se vrátíte, může být rozčilenější než předtím. | Reflexe: Jaká je minimální míra emočního zapojení, než opustíte nestabilního jedince?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Zvládání Viktora",
+      "sceneUpdate": {
+        "emoji": "🤕",
+        "title": "Viktor u stanoviště taxi",
+        "desc": "Radek odvedl Viktora deset metrů ke stání taxi. Viktor sedí na nízké zídce a otírá si roztržený ret rukávem. Na košili má skvrny od krve. Je naštvaný, ale pod hněvem je i něco jiného — pocit, že je to vždycky on, kdo to schytá. Radek stojí opodál se zkříženýma rukama a sleduje. Dva lidé z davu se přesunuli sem a sledují tento rozhovor."
+      },
+      "npcDialogue": [
+        {
+          "character": "viktor",
+          "text": "(dotýká se rtu, bolestivě se šklebí) Podívejte se na můj obličej. Uhodil mě. Já nic neudělal — vrazil jsem do něj náhodou a on se zbláznil. A pak mě ten vyhazovač popadl jako zločince. Ne jeho — MĚ. Vždycky to schytám já. Přijde policie, začnou doklady, otázky, podezření. Já nic špatnýho neudělal. Chci podat oznámení."
+        },
+        {
+          "character": "radek",
+          "text": "(k vám, potichu) Nemýlí se, že ten druhej strčil první. Ale tenhle pak nedal pokoj, i když jsem je oddělil. Musel jsem trochu přitlačit, abych ho dostal ven."
+        }
+      ],
+      "prompt": "Viktor má viditelné zranění, oprávněný pocit křivdy a strach, že je terčem. Vyhazovač soukromě potvrzuje, že první strčil Danny. Jak s Viktorem jednáte?",
+      "options": [
+        {
+          "text": "Sednete si na zídku vedle něj, abyste nad ním nestál, a mluvíte klidně: „Viktore, vidím, že jste zraněný, a je mi to líto. Ukažte mi ten ret — potřebuje ošetřit? ...Dobře. Nejsem tu, abych stranil. Vyhazovač mi potvrdil, že první fyzický kontakt navázal ten druhý — to je důležité a mám to poznamenané. Slyším, že máte pocit, že to vždycky schytáte vy. Suďte mě podle toho, co udělám teď, ne podle minula. Popište mi, co se stalo.“",
+          "feedback": "Proč: Posadit se snižuje mocenskou nerovnováhu — silný deeskalační signál a projev respektu k důstojnosti (§ 11). Řešit zranění jako první ukazuje, že zdraví má přednost, a otevírá dveře k ošetření (§ 146 — dokumentace mechanismu a doby léčení, pokud zranění vyžaduje ošetření). Potvrzení Radkovy verze validuje Viktorovu výpověď, aniž předjímáte celkovou kvalifikaci. „Suďte mě podle toho, co udělám“ je přesvědčivější než prázdné prohlášení o férovosti a získává čas na oddělené, nekontaminované vysvětlení (§ 63). | DŮSLEDKY: Viktorova ramena klesnou — někdo opravdu poslouchá a uznal jeho křivdu, aniž ji odmítl. Řekne, že ret je v pořádku a lékaře nepotřebuje, a začne metodicky vyprávět. Radek přikyvuje. Dva přihlížející vidí policistu, jak sedí se zraněným člověkem a naslouchá. | Reflexe: Jak fyzická pozice — stát nad někým versus sedět vedle něj — mění celou dynamiku moci v rozhovoru?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Opřete se o zídku vedle Viktora, soucitně přikývnete a necháte výraz vyjádřit upřímný zájem o krev na jeho bradě. Vřelým, uklidňujícím hlasem: „Věřím vám, Viktore. Ten druhý byl zjevně agresor. Postarám se, ať je to vyřízené spravedlivě. Máte plné právo podat oznámení a pomůžu vám s tím. Chci, ať víte, že tu někdo stojí na vaší straně.“ Mluvíte pomalu, ruku volně položenou na zídce mezi vámi, a soucitně u toho přikyvujete.",
+          "feedback": "Proč: Empatické a dobře míněné, ale prohlásit „věřím vám“ a „zjevně agresor“ před dokončením šetření vás zavazuje k výsledku dřív, než máte obě verze a ztotožnění (§ 63). Pokud důkazy později Viktorovu verzi byť jen zčásti vyvrátí, vaše důvěryhodnost se zhroutí. Slíbit pomoc s oznámením dřív, než posoudíte, zda formální postup vůbec věci prospěje, zbytečně zvyšuje sázky u incidentu, který může skončit podáním ruky. | DŮSLEDKY: Viktor se cítí vyslyšený — zatím. Zarámovali jste to ale jako trestný čin s agresorem a obětí. Danny se bude cítit zrazený, až se o tom dozví. Radek může nabýt dojmu, že je jeho vlastní jednání pod drobnohledem, a stáhne se. | Reflexe: Jaký je rozdíl mezi uznáním něčí zkušenosti a prohlášením jeho verze za oficiální pravdu?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Zůstanete stát, vytáhnete zápisník a nasadíte věcný tón. Cvaknete propiskou a bez úvodu zahájíte standardní postup: „Pane, chápu, že došlo ke konfliktu. Potřebuju vaše celé jméno, datum narození a adresu. A budu potřebovat vidět doklad totožnosti. Můžete to poskytnout?“ Čekáte s perem nad zápisníkem a neutrálním výrazem. Stojíte nad ním vzpřímeně, zápisník otevřený ve výši hrudi, a poklepáváte propiskou o papír.",
+          "feedback": "Proč: Ztotožnění je zákonné a namístě (§ 63 opravňuje vyzvat k prokázání totožnosti osobu podezřelou z přestupku či trestného činu), ale okamžitě požadovat doklady od člověka, který právě řekl „vždycky to schytám já“, potvrzuje jeho nejhorší obavu. Neuznali jste jeho zranění, jeho výpověď ani jeho pocit křivdy; procedura není chybná sama o sobě, chybné je její načasování — nejdřív péče a vztah, doklady mohou přijít vzápětí. | DŮSLEDKY: Viktor ztuhne: „Vidíte? Doklady. Vždycky doklady pro toho, kdo to schytal.“ Zkříží ruce. Radek se nesvůj zavrtí, dva přihlížející si vymění pohledy. Viktor přestane spolupracovat a každé jeho slovo o zaujatosti se zdánlivě potvrdilo. | Reflexe: Když vám někdo řekne, že se cítí být terčem, jak vaše úplně příští akce ten pocit buď potvrdí, nebo vyvrátí?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Narovnáte se a řešíte jeho pocit křivdy přímo, pevným deklarativním tónem. Podíváte se Viktorovi do očí: „Viktore, chci být naprosto jasný — na tom, jak to řeším, nemá váš původ ani vaše minulé zkušenosti absolutně žádný vliv. Ke všem přistupuju stejně. Takže, oba jste byli do incidentu zapojení a já se potřebuju dobrat podstaty. Řekněte mi, co se stalo.“ Zkřížíte ruce a čekáte, postoj vzpřímený, pohled klidný a neuhýbavý.",
+          "feedback": "Proč: Záměr je dobrý, ale „ke všem přistupuju stejně“ je tvrzení, kterému Viktor nemá důvod od cizího člověka věřit, a taková prohlášení často působí spíš odmítavě než konejšivě. Přeskočit rovnou k „oba jste byli zapojení do incidentu“ navíc staví toho, kdo dostal ránu a byl hrubě vyhozen, na roveň druhému hned poté, co popsal svou křivdu — a předjímá kvalifikaci dřív, než máte fakta. | DŮSLEDKY: Viktor slyší slova, ale necítí je. „Jasně, všichni stejně,“ řekne bezvýrazně. Spolupracuje minimálně a bez důvěry; jeho výpověď je opatrná a stručná. Příležitost ke skutečnému zapojení je pryč. | Reflexe: Proč prohlášení o férovosti často znějí prázdně a jaké činy komunikují nestrannost účinněji než slova?",
+          "type": "neutral",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Faktor davu",
+      "sceneUpdate": {
+        "emoji": "📱",
+        "title": "Publikum je neklidné",
+        "desc": "S oběma aktéry oddělenými se prosazuje dynamika davu. Půlkruh 15–20 lidí se nerozešel, spíš narostl, jak přibývají další z klubu. Víc telefonů natáčí. Nálada se mění: nuda se mísí s alkoholem a dav chce podívanou. Někdo křičí zezadu, dva muži vpředu spustí pomalý potlesk. Zraněná dívka na obrubníku je všemi ignorovaná."
+      },
+      "npcDialogue": [
+        {
+          "character": "bystander",
+          "text": "(z davu, provokuje) Hej! Nechte je se poprat! Ať si to vyřídí jako chlapi! To je nuda — dělejte něco!"
+        },
+        {
+          "character": "tereza",
+          "text": "(úzkostně, k vám) Strážníku, tihle lidi to zhoršujou. Danny se na ně pořád ohlíží. Můžete je poslat pryč? Prosím?"
+        }
+      ],
+      "prompt": "Dav je neklidný a aktivně se snaží vyprovokovat opětovnou eskalaci. Někdo je zraněný a bez pomoci. Natáčení pokračuje. Jak zvládnete dav?",
+      "options": [
+        {
+          "text": "Oslovíte dav klidnou autoritou — nekřičíte, ale hlas nesete jasně: „Děkuju za trpělivost. Mám tu dva lidi, kteří potřebují mou pozornost, a zraněnou na obrubníku. Kdo tu není zapojený ani není svědek, nejlíp udělá, když bezpečně půjde domů. Kdo viděl, co se stalo uvnitř, zůstaňte stranou, přijdu za vámi.“ Pak se obrátíte na nejstřízlivějšího kolemjdoucího: „Podíváte se prosím na tu ženu na obrubníku? Asi si poranila kotník.“",
+          "feedback": "Proč: Řízení davu v nejlepší podobě. „Děkuju za trpělivost“ přerámuje diváky ve spolupracující občany; vysvětlení „situace je taková“ nasytí jejich potřebu informací — davy zhoustnou, když nevědí, co se děje. Dvě jasné cesty (bezpečně domů, nebo zůstat jako svědek) dají pasivním lidem roli. Zmínka o zraněné přesměruje pozornost od zábavy k empatii a zapojení kolemjdoucího distribuuje odpovědnost. Nikoho nenutíte schovat telefon — právo natáčet se respektuje a telefony se bez zákonného důvodu nezabavují. | DŮSLEDKY: Tón se změní, část lidí vzadu odejde — dostali svolení jít, aniž by něco zmeškali. Dva svědci se přesunou stranou. Žena se sehne k zraněné. Provokatér zjistí, že mu publikum řídne, a zmlkne. Telefony dál natáčejí, ale teď zachycují kompetenci. | Reflexe: Proč přidělení konstruktivní role davu sníží jeho touhu hrát roli destruktivní?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Otočíte se k davu, vykročíte agresivně dopředu a zakřičíte plným hlasem, ukazujete na půlkruh telefonů: „Všichni nezúčastnění — ODEJDĚTE. HNED. Tohle je policejní zákrok. Kdo bude zasahovat, bude zadržen za maření. A schovejte ty telefony a jděte dál!“ Váš hlas se odráží od fasády klubu. Přejíždíte pohledem přes dav a navazujete oční kontakt s provokatérem i s lidmi, co natáčejí. Stojíte v širokém postoji, palce zaháknuté za opasek.",
+          "feedback": "Proč: Nařídit 15–20 opilým lidem rozchod v 1:30 málokdy funguje. Hrozba zadržením za „maření“ na veřejném chodníku je právně pochybná (maření míří na maření rozhodnutí, ne na přihlížení) a prakticky nevymahatelná. Vyzývat je, ať schovají telefony, je zásah do práva natáčet bez zákonného důvodu — signalizuje, že nechcete být sledován, a nutí je sledovat víc. Agrese vůči davu riskuje jeho sjednocení proti vám; nebezpečnější než neklidný dav je jen dav nepřátelský. | DŮSLEDKY: Nikdo neodejde. Provokatér se směje: „Tak nás zatkněte všechny!“ Telefony zůstávají nahoře, pár lidí se ze vzdoru přiblíží. Danny i Viktor reagují na křik, adrenalin znovu vyskočí. Eskalovali jste dav a destabilizovali aktéry současně. | Reflexe: Proč rozkaz velké opilé skupině k rozchodu téměř nikdy k rozchodu nevede?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Otočíte se k davu zády a úplně ho ignorujete — je to jen kulisa, ne priorita. Veškerou pozornost zaměříte na oba aktéry, vytáhnete zápisník a začnete si třídit poznámky. Křik za zády, pomalý potlesk, telefony — to všechno filtrujete jako šum. Rovnoměrným krokem přecházíte mezi pozicemi Dannyho a Viktora, hlavu skloněnou k zápisníku a zády k půlkruhu diváků, a soustředíte se jen na otázky k výslechu.",
+          "feedback": "Proč: Dav není pasivní kulisa, ale aktivní proměnná. Provokatér křičící „nechte je se poprat“ přímo zvyšuje adrenalin Dannyho i Viktora. Ignorovat dav znamená ignorovat i zraněnou, což je selhání povinné péče (§ 11 — nekonáním nesmí vzniknout ohroženým osobám bezdůvodná újma). Davy před kluby v 1:30 se nenudí a neodcházejí — opijí se a přešlapují. | DŮSLEDKY: Bez povšimnutí dav přitvrdí, pomalý potlesk zesílí. Danny začne předvádět pro publikum — naparuje se, zvyšuje hlas, Viktor ho zrcadlí. Zraněná dál sedí bez pomoci, Terezina úzkost eskaluje. Situace se vrací ke konfrontaci. | Reflexe: Kdy ignorování destabilizujícího faktoru umožní jeho růst nad vaši schopnost ho zvládnout?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Prorazíte přímo davem k člověku, který křičel „nechte je se poprat“. Postavíte se k němu skoro na dotek a mluvíte tiše, ať slyší jen on a jeho parta: „Příteli, potřebuju, abyste s tím přestal. Ztěžujete mi práci a ohrožujete lidi. Jestli se někdo zraní, protože jste je hecoval, bude to na vás. Buď pomozte, nebo odejděte.“ Držíte jeho pohled a čekáte na odpověď, záda otočená k místu, kde stojí Danny s Viktorem.",
+          "feedback": "Proč: Řešit nejhlasitějšího provokatéra je lákavé — uříznout hadovi hlavu. Vyčlenit jednoho z opilého davu ale vyvolá vzdor stejně snadno jako poslušnost, a v 1:30 s alkoholem je vzdor pravděpodobnější. Odejít od aktérů ke konfrontaci s křiklounem navíc snižuje kontrolu nad hlavní scénou; když provokatér eskaluje, máte tři problémy místo jednoho. | DŮSLEDKY: Muž se nafoukne: „Nebo co? Zatknete mě za mluvení?“ Jeho parta se kolem něj shlukne. Vedete teď samostatnou konfrontaci, zatímco Danny a Viktor jsou bez dozoru. Dav má nové ohnisko — vy proti křiklounovi. | Reflexe: Kdy konfrontace s nejhlasitějším hlasem v davu problém vyřeší a kdy vytvoří nový?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Řešení",
+      "sceneUpdate": {
+        "emoji": "⚖️",
+        "title": "Rozhodující moment",
+        "desc": "Dav prořídl. O zraněnou je předběžně postaráno. Danny se uklidnil natolik, že sedí opřený o zeď s Terezou, i když stále hledí k Viktorovi. Viktorovi přestal ret krvácet, sedí tiše vedle Radka. Oba muži mírně střízlivějí — chladný vzduch a pokles adrenalinu dělají své. Máte obě výpovědi, potvrzení vyhazovače i přehled o tom, co se stalo. Teď přichází nejtěžší rozhodnutí noci: jak věc právně kvalifikovat a jaký výsledek odpovídá skutečné závažnosti?"
+      },
+      "npcDialogue": [
+        {
+          "character": "danny",
+          "text": "(tišší, objímá Terezu) Hele... prostě chci jít domů. Tereza má pravdu, bylo to blbý. Ale jestli on podá oznámení, já taky. Měl jsem přece právo bránit svou holku."
+        },
+        {
+          "character": "viktor",
+          "text": "(k Radkovi, tiše, ale slyšitelně) Nechci na stanici. Ráno mám práci. Já jen... nechtěl jsem, aby mě takhle vyhodili. Jako bych byl nikdo. Ten drink byla nehoda."
+        },
+        {
+          "character": "radek",
+          "text": "(k vám, soukromě) Upřímně? Možná jsem je vytáhl víc, než bylo nutný. Ten chlap toho zas tak moc neudělal. Byl bych radši, kdyby se to celý vyřešilo v klidu."
+        }
+      ],
+      "prompt": "Danny chce domů, Viktor nechce komplikace, vyhazovač přiznává, že byl příliš hrubý. Nikdo neutrpěl vážné zranění. Jak věc kvalifikujete a jaké řešení navrhnete?",
+      "options": [
+        {
+          "text": "Přivedete Dannyho a Viktora na doslech, ne tváří v tvář: „Situace je taková. Polil se drink, bylo strkání, oba vás vyvedli. Nejde o rvačku ani výtržnost, spíš o přestupek řešitelný domluvou — dnes nikoho nezajišťuju. Potřebuju ale od každého jednu věc: Danny, uznejte, že ten drink byla nehoda. Viktore, přijměte, že je to za námi. Terezo, seženete Dannymu taxi na západ; Radku, vy Viktorovi na východ. Jestli tu dnes některého z vás uvidím, povedeme jiný rozhovor.“",
+          "feedback": "Proč: Přesně cílená právní kvalifikace i lidské řešení. Správně vylučujete § 158 (rvačka žádá tři a více aktivních účastníků — dva ne) a vážíte, že strkanice dvou opilých bez vážného zranění nedosahuje intenzity výtržnictví podle § 358 (judikatura NS: napadení musí mít vyšší intenzitu); zbývá tak nanejvýš přestupek proti veřejnému pořádku (§ 5) či občanskému soužití (§ 7 zák. 251/2016). Když nikdo nechce oznámení a věc je vyřešitelná domluvou, je nezajišťování a nezadržování zcela v souladu s přiměřeností (§ 11). Neutrální shrnutí zbaví příběh hrdinů a padouchů, oddělené směry taxi brání opětovnému setkání a závěrečná věta je jasnou hranicí bez hrozby. | DŮSLEDKY: Danny zamumlá: „Jo... asi to byla nehoda.“ Viktor přikývne. Ruce si nepodají, ale naváží krátký oční kontakt a nepřátelství opadne. Tereza beze slov naznačí „děkuju“, Radek si oddechne. Přijedou dva taxíky. Noc končí bez obvinění, bez zranění a bez virálního videa policejního selhání. | Reflexe: Jak řešení, které pojmenuje realitu a nabídne důstojný ústup, přinese trvalejší mír než formální vymáhání?",
+          "type": "positive",
+          "points": 12
+        },
+        {
+          "text": "Ustoupíte o krok a klinicky posoudíte fakta. Danny strčil první — to je fyzický útok. Viktor má viditelné zranění, Radek je potvrzující svědek. Vytáhnete pouta a přistoupíte k Dannymu, který sedí u zdi s Terezou: „Danny, zadržuju vás pro podezření z výtržnictví. Strčil jste první, to je útok. Viktor je oběť, Radek svědek. Zpracuju to řádně — je to jasnej případ.“ Saháte po jeho paži, pouta rozevřená v druhé ruce.",
+          "feedback": "Proč: Technicky svůdné, ale právně i takticky chybné. Strkanice kvůli politému drinku bez vážného zranění nedosahuje intenzity výtržnictví podle § 358 (NS žádá vyšší intenzitu a závažnost; ne každé strčení je výtržnost) a rozhodně nejde o rvačku podle § 158. Zbývá přestupková rovina, kterou lze vyřešit domluvou. Zadržení podezřelého (§ 76 tr. řádu) předpokládá trestný čin a některý z důvodů vazby — nic z toho zde není. Zákrok je proto nepřiměřený (§ 11), traumatizuje Terezu, povyšuje bagatelní věc na trestní záznam a před kamerami se stane příběhem. Vyhazovač — klíčový svědek — začne minimalizovat vlastní hrubé zacházení, jakmile poteče formální řízení. | DŮSLEDKY: Danny vybuchne: „Zadržujete MĚ?!“ Tereza je hysterická, Viktor protestuje — o tohle nežádal. Radek zmlkne a uvědomí si, že i jeho jednání může být zkoumáno. Zadržení před telefony se stane virálním. Bagatelní incident je najednou trestní kauza, ze které nemá nikdo prospěch. | Reflexe: Když vám zákon dává pravomoc zakročit, jak poznáte, zda zákrok slouží spravedlnosti, nebo ji podkopává?",
+          "type": "negative",
+          "points": -10
+        },
+        {
+          "text": "Přejdete na půlcestu mezi Dannyho zeď a Viktorovo stání taxi, zvýšíte hlas právě tak, aby vás slyšely obě strany, a vyhlásíte verdikt se zkříženýma rukama: „Tak, oba jste pili, oba jste se prali a mohl bych vás oba zajistit za narušení veřejného pořádku. Ale dnes využiju svou pravomoc a nechám to být. Jděte domů, nevracejte se. Jestli o některém z vás ještě uslyším, strávíte noc na cele. Jasný?“ Ukážete Dannymu jedním směrem a Viktorovi druhým, čekáte na přikývnutí.",
+          "feedback": "Proč: Výsledek je rozumný — žádné zajištění, jděte domů — ale zarámování je problematické. „Mohl bych vás oba zajistit“ staví hrozbu donucení nad milosrdný akt, takže podřízení působí jako vděčnost za shovívavost, ne jako spravedlivý výsledek. Nerozlišuje, kdo začal a kdo má oprávněnou stížnost; Viktor, který dostal ránu a byl hrubě vyhozen, slyší, že je stejně vinen. Chybí i pojmenování kvalifikace, takže oba odcházejí s pocitem, že nebyli vyslyšeni. | DŮSLEDKY: Oba odejdou, ale ani jeden nemá pocit spravedlnosti. Danny si myslí, že měl štěstí; Viktor si myslí, že ho policie brala stejně jako útočníka, přestože dostal ránu. Nikdo se nic nenaučil. Je to řešení z pohodlnosti, ne ze spravedlnosti. | Reflexe: Jaký je rozdíl mezi úvahou, která situaci vyřeší, a úvahou, která ji jen ukončí?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Vytáhnete kompletní formuláře, opřete si desky o kapotu a připravíte se na řádný postup. Nejdřív k Dannymu věcným tónem: „Potřebuju od vás kompletní písemnou výpověď.“ Pak k Viktorovi: „Totéž od vás, pane, úplný popis.“ Zastavíte zbývající kolemjdoucí kvůli svědeckým výpovědím, vyžádáte na dispečinku lékařské posouzení Viktorova rtu i zraněné dívky, vyfotíte zranění a sepíšete kompletní hlášení. Ať rozhodne systém.",
+          "feedback": "Proč: Procedurálně důkladné, ale prakticky nepřiměřené. Kompletní výpovědi, lékařská posouzení a hlášení pro drobnou strkanici opilých, kde ani jedna strana nechce formální postup, zaberou hodiny a v sobotu v 1:30 stáhnou kapacitu potřebnou pro další výjezdy. Nutí Viktora na stanici navzdory ranní směně a povyšují bagatelní věc na byrokratickou mašinérii, kterou už nezastavíte. Zdraví zraněné je třeba řešit vždy, ale zbytek by měl vážit přiměřenost (§ 11) a možnost domluvy. | DŮSLEDKY: Než skončíte, jsou čtyři ráno. Danny a Tereza jsou vyčerpaní, Viktor zmeškal spánek před směnou, zraněná dlouho čekala na pozornost. Hlášení je důkladné, ale výsledek přijde za týdny a nejspíš to bude odložení. Strávili jste tři hodiny na desetiminutovém problému. | Reflexe: Kdy se procedurální důkladnost stane nepřiměřenou závažnosti incidentu?",
+          "type": "neutral",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Uzavření",
+      "sceneUpdate": {
+        "emoji": "🌃",
+        "title": "Uzavírání scény — 2:15 v noci",
+        "desc": "Danny odjel v taxi s Terezou. Viktor čeká na své taxi, klidnější, listuje telefonem. Dav se z větší části rozešel, pár opozdilců se ještě loudá. Radek stojí u vchodu se zkříženýma rukama a sleduje, jak se ulice vyprazdňuje. Posily konečně dorazily — zdržela je hromadná nehoda na okruhu. Zraněná dívka stále sedí na obrubníku s oteklým kotníkem. Pomohl jí laskavý kolemjdoucí, ale oficiální pozornosti se jí zatím nedostalo. Noc se uklidňuje, ale scéna ještě není uzavřená."
+      },
+      "npcDialogue": [
+        {
+          "character": "dispatcher",
+          "text": "Hlídko na místě u klubu Vibe — posily právě dorazily. Omlouváme se za zpoždění, hromadná nehoda na okruhu nám stáhla kapacity. Jaký je váš aktuální stav?"
+        },
+        {
+          "character": "bystander",
+          "text": "(dívka na obrubníku, drží se za kotník) Promiňte, pane strážníku? Podvrtla jsem si kotník, když se začali prát — uskakovala jsem a spadla z obrubníku. Je hodně oteklý. Nevím... nevím, jestli mám jet do nemocnice. Kamarádky odjely beze mě."
+        },
+        {
+          "character": "radek",
+          "text": "(přichází) Poslyšte, strážníku — vážím si toho, jak jste to vyřešil. Mezi náma... asi jsem toho kluka popadl víc, než bylo potřeba. Starý návyky z vojny. Promluvím s manažerem o lepším školení ostrahy. Tyhle noci se vymknou rychle."
+        }
+      ],
+      "prompt": "Konfrontace je vyřešená, ale dva lidé stále potřebují vaši pozornost: zraněná dívka, která čekala, a vyhazovač, který právě přiznal použití nadměrné síly. Jak uzavřete scénu?",
+      "options": [
+        {
+          "text": "Dáte přednost zraněné. Kleknete si vedle ní na obrubník: „Omlouvám se, že jste čekala — ukažte mi to. Jak se jmenujete? ...Míšo, dobře. Hýbou se vám prsty? Vypadá to na podvrtnutí — zavolám sanitku, ať to zkontrolují. Zůstanu s vámi, než přijede.“ Zadokumentujete mechanismus úrazu a čas. Pak k Radkovi: „Radku, cením si upřímnosti. Formální věc z toho dnes dělat nebudu, ale ten rozhovor o školení dotáhněte — na tom, jak se lidé vyvádějí, záleží. Dnes jste mi hodně pomohl.“",
+          "feedback": "Proč: Zraněná byla nejopomíjenější osobou na scéně — zdraví má přednost a včasná péče o ni je i právně relevantní: podvrtnutí je porucha zdraví, a je-li třeba ošetření, dokumentujete mechanismus a dobu léčení kvůli případné kvalifikaci (§ 146). Oslovit ji jménem, zkontrolovat zranění, přivolat ZZS a zůstat s ní jsou akce budující důvěru. U Radka je upřímnost odměněna upřímností: uznat přiznání bez okamžité formalizace je dnes přiměřené, přitom nezapomínáte, že i vyhazovač mohl svým jednáním naplnit ublížení na zdraví (§ 146) či výtržnost (§ 358), a proto ho směrujete k nápravě a školení. | DŮSLEDKY: Míša se viditelně uleví — konečně se jí někdo oficiálně věnuje. Zavolá spolubydlící, sanitka je vyslána. Radek pomalu přikyvuje; vaše slova dopadají, protože jste dnes viděl obě jeho verze a posílil tu lepší. Poslední kolemjdoucí vidí policistu, jak sedí se zraněnou dívkou a čeká na sanitku. To je poslední obraz noci. | Reflexe: To poslední, co na místě uděláte, si lidé pamatují nejvíc — co komunikuje uzavření s péčí všem, kdo ještě sledují?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Vyřídíte věci efektivně — jste unavený a čekají další výjezdy. Vyžádáte na dispečinku sanitku pro dívku s oteklým kotníkem, pak přejdete k Radkovi a stručně přikývnete: „Radku, promluvte s vedením o přehodnocení postupů ostrahy u dveří. Dnešek byl drsnější, než musel být.“ Podíváte se k obrubníku, kde dívka sedí sama a svírá telefon, potvrdíte, že sanitka je na cestě, zaznamenáte scénu jako vyřešenou a zamíříte zpět k vozidlu.",
+          "feedback": "Proč: Efektivní a akce jsou v jádru správné — sanitka pro Míšu, rada pro Radka. „Vyřídit věci“ ale postrádá lidský rozměr. Míša nepotřebuje jen sanitku — je sama, zraněná a vystrašená ve dvě ráno; přivolaná sanitka bez rozhovoru z ní udělá logistický problém. Radek se právě otevřel se skutečnou věcí, rychlý pokyn ten moment přehlédne. Zdraví je zajištěno, ale péče a důvěra ne. | DŮSLEDKY: Sanitka je zavolaná, Radek přikývne a vejde dovnitř. Míša sedí sama na obrubníku a čeká, svírá telefon. Vše je technicky vyřízeno, o nikoho ale není postaráno. Rozdíl mezi uzavřenou a dobře uzavřenou scénou je přesně tato mezera. | Reflexe: Když jsou všechna políčka zaškrtnutá, ale nikdo se necítí vidět, je práce skutečně hotová?",
+          "type": "partially_positive",
+          "points": 5
+        },
+        {
+          "text": "Obrátíte se okamžitě k Radkovi — jeho přiznání je závažné a nemůže čekat. Odvedete ho stranou od zbývajících kolemjdoucích a ztišíte hlas do vážného tónu: „Radku, musím být jasný: to, co popisujete, může být nepřiměřená síla, dokonce ublížení na zdraví. Potřebuju, abyste přesně sepsal, co se dělo při vyhazování. Podle kamer může následovat prošetření. Cením si upřímnosti, ale ignorovat to nemůžu.“ Při řeči držíte otevřený zápisník a heslovitě si zapisujete Radkova slova, zády k obrubníku, kde sedí zraněná dívka.",
+          "feedback": "Proč: Brát přiznání vážně je profesionálně správné a nadměrná síla vyhazovače může skutečně naplnit § 146, případně § 358 — vyhazovač může být pachatel. Jenže zraněná, která čeká přes půl hodiny, stále sedí na obrubníku; upřednostnit formální proces před akutní potřebou péče obrací pořadí priorit, protože zdraví má přednost. Radek nabídl upřímnost dobrovolně; setkat se s ní okamžitými formálními důsledky zajistí, že příště už žádný vyhazovač upřímný nebude, a ztratíte spolupracujícího svědka. | DŮSLEDKY: Radkova tvář se uzavře: „Tak zapomeňte, že jsem něco říkal,“ a odejde dovnitř. Ztratili jste komunitního spojence i svědka. Mezitím Míša přemýšlí, jestli jí někdo pomůže. Procedurálně správná akce přišla na úkor té lidské. | Reflexe: Když někdo dobrovolně přizná chybu, jak vaše reakce určí, zda budou on i ostatní k policii v budoucnu upřímní?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Pohlédnete dolů na dívku na obrubníku, jak procházíte kolem — kotník viditelně oteklý, třese se v tenkých šatech. Zastavíte se právě na tak dlouho, abyste ji oslovil bez zastavení kroku: „Slečno, pokud jste zraněná, měla byste zavolat 155 nebo jet na pohotovost. Můžu vám popsat cestu. Potřebujete ještě něco?“ Poslední slova doříkáváte už v chůzi, otočený k vozidlu — hlášení je třeba sepsat, dokud jsou detaily čerstvé.",
+          "feedback": "Proč: Říct zraněné, opuštěné devatenáctileté dívce, ať si sama zavolá záchranku — když vy jste ta pomoc na místě — je zanedbání povinné péče (§ 11 vám ukládá nedopustit, aby nekonáním vznikla ohrožené osobě bezdůvodná újma). Sedí na studeném obrubníku půl hodiny a čeká; nasměrovat ji, ať si pomůže sama, abyste mohl dělat papíry, jí říká, že vaše hlášení je důležitější než její kotník. Tohle je moment, který bude vyprávět léta. | DŮSLEDKY: Míše spadne obličej. Zavolá 155 sama, sama na obrubníku ve dvě ráno. Radek sleduje ode dveří a kroutí hlavou. Poslední kolemjdoucí natáčejí strážníka nasedajícího do auta, zatímco zraněná dívka sedí sama. Tohle video se stane virálním — ale ne z dobrých důvodů. | Reflexe: Když je zraněná osoba sama a zranitelná, jaký je minimální standard péče, který jí dlužíte, a jaký vzkaz vysílá jeho nesplnění každému svědkovi?",
+          "type": "negative",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Rozbor a odhalení",
+      "sceneUpdate": {
+        "emoji": "🏁",
+        "title": "Výcvikový rozbor",
+        "desc": "Zpět na stanici. Praporčík Doležal hodnotí váš výkon ve scénáři pouliční potyčky u nočního klubu — jak jste posoudil scénu, oddělil aktéry, zvládl dav, správně kvalifikoval jednání a uzavřel scénu s péčí."
+      },
+      "autoDialogue": true,
+      "finalScene": true,
+      "dialogueSequence": [
+        {
+          "character": "trainer",
+          "text": "Vstoupil jste do chaotické opilecké scény se dvěma agresivními muži, nestabilním davem, zraněnou dívkou a bez posil celých osm minut. Každá vteřina žádala rozhodnutí: koho oslovit první, jak využít vyhazovače, kdy zvládnout dav a jaké řešení slouží všem, ne jen tomu nejhlasitějšímu. To, že Danny a Viktor odjeli v oddělených taxících, dav se rozešel bez incidentu a Míša dostala pomoc, mi říká, že jste pochopil zadání. Proveďte mě okamžikem, který vám nejvíc utkvěl."
+        },
+        {
+          "character": "officer",
+          "text": "Upřímně, ten příjezd sám byl nejtěžší. Pořád jsem si říkal, že musím počkat na posily, než udělám cokoli smysluplného. A pak to rozhodnutí u zdi — jestli Dannyho za to strčení zadržet. Ruka mi šla po poutech, protože technicky útok navázal on."
+        },
+        {
+          "character": "trainer",
+          "text": "A přesně tohle přerámování si odneste. Zaprvé: příjezd sám není nevýhoda, když využijete lidi, kteří tam už jsou. Radek byl vaše posila ve chvíli, kdy jste mu dal jasný pokyn. Tereza spojenkyně, jakmile jste ocenil její snahu. Dav aktivum, jakmile jste mu přidělil roli místo abyste ho bral jako hrozbu. Zadruhé, a to je jádro: pravomoc zakročit není totéž co povinnost trestat. Strkanice dvou opilých kvůli politému drinku není rvačka — ta žádá tři a víc aktivních účastníků podle paragrafu 158 — a bez vyšší intenzity a bez vážného zranění nedosáhne ani výtržnictví podle paragrafu 358. Zůstane přestupek, který jde vyřešit domluvou. Kdybyste Dannyho zadržel, povýšil byste bagatelní věc na trestní kauzu, kterou nikdo nechtěl, a porušil zásadu přiměřenosti."
+        },
+        {
+          "character": "trainer",
+          "text": "A ještě jedna věc, na kterou strážníci zapomínají: pořadí výzva — výstraha — donucení podle paragrafu 53 vás chrání stejně jako ty ostatní. Nejlepší strážníci na pořádkové službě nejsou ti, kdo scénu ukočírují silou sami. Jsou to ti, kdo koordinují, kvalifikují střízlivě a uzavřou scénu tím, že si sednou ke zraněné dívce, na kterou všichni zapomněli. Ne křik, ne pouta, ne papíry. Péče a přiměřenost na konci. A teď vám řeknu, co se stalo poté, co všichni odjeli domů."
+        }
+      ]
+    }
+  ],
+  "characters": {
+    "dispatcher": {
+      "name": "Dispečink (OPIS)",
+      "avatar": "📻"
+    },
+    "danny": {
+      "name": "Daniel „Danny“ Kučera (25, opilý)",
+      "avatar": "😤"
+    },
+    "viktor": {
+      "name": "Viktor Horák (28, zraněný ret)",
+      "avatar": "🤕"
+    },
+    "tereza": {
+      "name": "Tereza (Dannyho přítelkyně, 24)",
+      "avatar": "😰"
+    },
+    "radek": {
+      "name": "Radek Peterka (vyhazovač, 35, bývalý voják)",
+      "avatar": "🛡️"
+    },
+    "bystander": {
+      "name": "Michaela „Míša“ (zraněná studentka, 19)",
+      "avatar": "🤕"
+    },
+    "officer": {
+      "name": "Vy (strážník)",
+      "avatar": "👮"
+    },
+    "trainer": {
+      "name": "Praporčík Doležal",
+      "avatar": "👮‍♂️"
+    }
+  },
+  "performanceReviews": {
+    "perfect": {
+      "title": "Výjimečné velení scény",
+      "emoji": "🌟",
+      "feedback": "Prokázali jste elitní výkon v jednom z nejchaotičtějších policejních prostředí. Posoudil jste scénu před jednáním, oddělil aktéry pomocí zdrojů kolem sebe, deeskaloval dva opilé muže empatií a klidnou autoritou, zvládl nestabilní dav přidělením konstruktivních rolí, správně a střízlivě kvalifikoval jednání (přestupek, ne výtržnictví ani rvačka) a v mezích přiměřenosti dosáhl řešení zachovávajícího důstojnost všech, a scénu jste uzavřel péčí o osobu, na kterou všichni ostatní zapomněli. Každý telefon, který vás dnes natáčel, zachytil policejní práci, která buduje důvěru komunity."
+    },
+    "good": {
+      "title": "Silný výkon pod tlakem",
+      "emoji": "✅",
+      "feedback": "Zvládl jste vysokotlaký incident u nočního klubu s profesionalitou a dobrým úsudkem. Dosáhl jste oddělení, zvládl více stran a našel rozumné řešení odpovídající závažnosti. Některé příležitosti pro hlubší deeskalaci, lepší zvládání davu nebo pozornější uzavření byly zmeškány, ale celkový přístup byl solidní a scéna skončila bez vážné eskalace i bez nepřiměřeného zákroku."
+    },
+    "average": {
+      "title": "Dostačující, ale nekonzistentní",
+      "emoji": "📊",
+      "feedback": "Vyřešil jste bezprostřední fyzickou hrozbu, ale měl jste potíže s komplexností scény. Ať už kvůli unáhlenému zásahu, zanedbání davu, nepřesné kvalifikaci nebo řešení, po kterém se strany necítily vyslyšeny, došlo k významným promarněným příležitostem. Incidenty u nočních klubů žádají souběžné zvládání aktérů, davu, zranění i spojenců — přehodnoťte, jak tyto požadavky vyvažovat."
+    },
+    "poor": {
+      "title": "Nutné výrazné zlepšení",
+      "emoji": "⚠️",
+      "feedback": "Váš přístup k tomuto incidentu způsobil víc problémů, než vyřešil. Agresivní příkazy, předčasné hrozby donucení bez naplnění pořadí výzva–výstraha–donucení, selhání v účinném oddělení, zanedbání zraněné nebo nepřiměřené vymáhání zvladatelnou situaci eskalovaly. V prostředí plném alkoholu a davu se každá chyba násobí. Přehodnoťte techniky oddělení, deeskalaci u opilých, dynamiku davu, právní kvalifikaci i přiměřené řešení."
+    }
+  },
+  "metrics": {
+    "rapport": {
+      "name": "Důvěra a vztah",
+      "description": "Budování důvěry a spolupráce s opilými aktéry, přítelkyní, vyhazovačem i davem prostřednictvím uznání emocí a respektu",
+      "icon": "🤝"
+    },
+    "procedure": {
+      "name": "Dodržování postupů a práva",
+      "description": "Správná právní kvalifikace jednání, přiměřenost zákroku (§ 11), pořadí výzva–výstraha–donucení (§ 53), ztotožnění (§ 63) a volba mezi zajištěním, zadržením a domluvou",
+      "icon": "📋"
+    },
+    "emotional": {
+      "name": "Emoční inteligence",
+      "description": "Zvládání vlastního adrenalinu a čtení emočního tónu opilých jedinců i davu, komunikace přizpůsobená narušenému vnímání",
+      "icon": "💚"
+    },
+    "safety": {
+      "name": "Situační bezpečnost",
+      "description": "Rychlé posouzení scény, taktický přehled, oddělení nestabilních stran a péče o zraněnou i o bezpečnost strážníka",
+      "icon": "🛡️"
+    }
+  }
+}

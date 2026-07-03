@@ -1,0 +1,441 @@
+{
+  "id": "domestic-crisis",
+  "title": "Domácí spor s krizí duševního zdraví",
+  "description": "Pokročilý scénář zahrnující vysoce stresový domácí spor manželského páru, krizi duševního zdraví a přítomnost malého dítěte. Strážník musí zvládnout vypjaté emoce, rozpoznat známky suicidálních myšlenek a uplatnit techniky deeskalace a empatie při dodržení zákonných postupů a zajištění bezpečnosti dítěte.",
+  "icon": "🏠",
+  "instructor": {
+    "name": "Seržant Davis",
+    "avatar": "👮‍♂️",
+    "introduction": "Domácí spory patří k nejnebezpečnějším a emočně nejsložitějším výjezdům v policejní práci. Dnes večer budete řešit situaci manželského páru v krizi, malého dítěte uprostřed konfliktu a známek hlubší duševní poruchy pod povrchem. Výzkum opakovaně ukazuje, že chování strážníka v prvních třiceti vteřinách určuje trajektorii celého setkání — klidná přítomnost deeskaluje, zatímco agrese zrcadlí a zesiluje násilí, kvůli kterému jste byli přivoláni. Budete muset vyvážit empatii s autoritou, rozpoznat, kdy se hádka mění v krizi duševního zdraví, a činit právní rozhodnutí, která chrání všechny zúčastněné — včetně osoby, která způsobuje újmu. Pamatujte, že děti v těchto situacích vstřebávají vše: váš tón, řeč těla a to, jak dospělí kolem nich reagují na autoritu. Vaše komunikační dovednosti rozhodnou, zda tato rodina dostane pomoc, kterou potřebuje, nebo zda ji systém zklame ve chvíli, kdy ho potřebuje nejvíc."
+  },
+  "timedChoices": true,
+  "completionBadges": [
+    "scenario-domestic-crisis-complete"
+  ],
+  "perfectBadge": "perfect-scenario-domestic-crisis",
+  "finalMessage": {
+    "revelation": "Manžel, kterému jste pomáhali, pan K., skrýval ztrátu zaměstnání před širší rodinou přes měsíc a propadal se do těžké depresivní epizody živené studem, narůstajícími dluhy a nespavostí. Neměl žádnou předchozí historii násilí — výbuch té noci byl poprvé, kdy se jeho zoufalství projevilo fyzicky, vyvolané upomínkou na nezaplacený nájem, kterou tajil. Jeho žena Maria tušila týdny, že něco není v pořádku, ale plný rozsah se dozvěděla až ten večer. Váš empatický přístup během krize mu umožnil přijmout doporučení k psychologovi, kde mu následně diagnostikovali těžkou depresivní poruchu a zahájil léčbu. Intervenční centrum pomohlo rodině získat nouzovou finanční pomoc a dluhové poradenství. Anna nyní navštěvuje týdenní sezení s dětským psychologem a vykazuje známky zlepšení. Maria později řekla sociální pracovnici, že způsob, jakým jste mluvili s jejím mužem — pevně, ale bez pohrdání — byl důvodem, proč souhlasil, že v klidu odejde a přijme pomoc.",
+    "keyLessons": [
+      "Aktivní naslouchání a empatie dokážou deeskalovat i vypjaté situace",
+      "Rozpoznání příznaků krize duševního zdraví je zásadní pro vhodnou reakci",
+      "Bezpečnost dítěte musí být vždy prioritou při zachování soucitu",
+      "Dodržování zákonných postupů chrání oběti i zajišťuje odpovídající podporu",
+      "Kulturní citlivost a respekt zachovávají důstojnost v těžkých chvílích"
+    ]
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "Výjezd a příjezd",
+      "sceneUpdate": {
+        "emoji": "🚔",
+        "title": "Bytový dům — chodba",
+        "desc": "Pozdní večer, rezidenční Praha. Nahlášen křik a rozbíjení skla. Za dveřmi je slyšet dětský pláč."
+      },
+      "npcDialogue": [
+        {
+          "character": "dispatcher",
+          "text": "Jednotka 7-2, upozornění — domácí spor na adrese Dubová 12, třetí patro. Volající zmínil zvuky potyčky a plačící dítě. Postupujte obezřetně."
+        }
+      ],
+      "prompt": "Stojíte před bytem. Zevnitř je slyšet tlumený křik a vzlykání. Jak budete postupovat?",
+      "options": [
+        {
+          "text": "Přistoupíte ke dveřím, aniž byste se zastavili k naslouchání, a třikrát rázně zaklepete hranou pěsti — zvuk se rozlehne celou chodbou. Jasným, autoritativním hlasem oznámíte: 'Policie, dobrý večer, otevřete prosím.' Postavíte se zpříma před kukátko, ruce viditelně u boků, a čekáte na reakci, zatímco tlumené zvuky uvnitř náhle utichnou. Váš postoj signalizuje profesionalitu a rozhodnost, ale vstupujete do situace bez jakéhokoli kontextu o tom, co se za dveřmi odehrává.",
+          "feedback": "Proč: Rázné zaklepání a ohlášení policie odpovídá standardnímu postupu, ale vstup bez předchozího naslouchání znamená promeškání příležitosti získat kontext o dění uvnitř — hlasy, zvuky dítěte, míra nebezpečí. | DŮSLEDKY: Křik na chvíli ustane. Ostrý mužský hlas odpovídá. Oznámili jste svou přítomnost, ale interakce začíná bez informací. | Reflexe: Co se můžete dozvědět za deset vteřin před zaklepáním, co změní celý váš přístup?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Zastavíte se u dveří a na několik vteřin nakloníte hlavu k zárubni — rozlišíte zvýšený mužský hlas, tišší prosebný tón ženy a přerušovaný dětský vzlykot. Zaznamenáte počet přítomných osob a emoční intenzitu, než začnete jednat. Pak dvakrát tiše, odměřeně zaklepete a klidným, nespěchajícím hlasem oznámíte: 'Policie. Jsme tu, abychom pomohli. Mohu vstoupit a promluvit si s vámi?' Ustoupíte mírně stranou od dveří a trpělivě čekáte, dlaně otevřené u těla.",
+          "feedback": "Proč: Zastavit se a shromáždit informace před jednáním je znakem kvalifikované krizové reakce — slyšíte zásadní kontext o počtu osob, emoční teplotě a potenciálních rizicích, než se zavážete k přístupu. Klidné ohlášení signalizuje neohrožující přítomnost. | DŮSLEDKY: Dveře se pootevřou a nervózní žena nahlédne ven. Vaše trpělivost okamžitě buduje důvěru a nastavuje kooperativní tón. | Reflexe: Jak informace získané během těch několika vteřin naslouchání formují každé další rozhodnutí?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Zamíříte přímo ke dveřím, adrenalin vám zostřuje pohyby, a třikrát rychle, těžce zabušíte dlaní — rám se zachvěje. Nečekáte na reakci a zvýšíte hlas, aby prorazil hluk zevnitř: 'Policie — potřebujeme ověřit bezpečnost všech přítomných. Otevřete dveře, prosím. Čas hraje roli.' Stojíte zpříma před dveřmi, váha přenesená dopředu, celý postoj signalizuje, že otálení nepřipadá v úvahu. Vaše naléhavost předbíhá vyhodnocení situace uvnitř.",
+          "feedback": "Proč: Důraz na rychlost a rozhodné jednání působí jako dobré policejní práce, ale při domácí krizi se naléhavost, kterou promítáte, stává emočním tónem celého setkání. Tím, že čas rámujete jako kritický faktor dřív, než jste vyhodnotili, co se uvnitř děje, vnášíte vlastní adrenalin do domácnosti a nutíte obyvatele do binárního režimu vyhovění-nebo-odpor dříve, než měli chvíli na seberegulaci. | DŮSLEDKY: Dveře se rychle otevřou, ale muž uvnitř je již ztuhlý úzkostí a žena vypadá vyděšeně — reagují na vaši naléhavost, ne na vlastní připravenost. Dětský pláč zesiluje. Máte kontrolu nad dveřním prostorem, ale ne nad emočním prostředím. | Reflexe: Kdy naléhavost strážníka situaci slouží, a kdy přebíjí schopnost obyvatel dobrovolně spolupracovat?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Stanete stranou dveří a na pár vteřin nasloucháte — zachytíte rytmus hádky a dětský pláč, než se rozhodnete jednat. Zaklepete pevně, ale bez agrese — tři rozvážné, rovnoměrné údery — a ohlásíte se vyrovnaným, profesionálním tónem: 'Policie. Obdrželi jsme oznámení o rušení klidu. Je u vás všechno v pořádku?' Držíte uvolněný, ale pozorný postoj, ruce viditelně u těla, a čekáte na toho, kdo otevře.",
+          "feedback": "Proč: Nejdříve nasloucháte, což poskytne užitečný kontext, a vaše zaklepání je sebevědomé, aniž by bylo výhružné. Formulace 'obdrželi jsme oznámení o rušení klidu' je ale mírně úřednější než přívětivá — zaměřuje se na stížnost, nikoli na nabídku pomoci. | DŮSLEDKY: Křik ustane. Po pauze se dveře opatrně otevřou. Žena je ostražitá, ale ne nepřátelská. Máte funkční otevření. | Reflexe: Jak se změní ochota obyvatel pustit vás dovnitř, když svou přítomnost rámujete jako 'jsme tu pomoci' oproti 'reagujeme na stížnost'?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "První kontakt uvnitř",
+      "sceneUpdate": {
+        "emoji": "🏠",
+        "title": "Byt — obývací pokoj",
+        "desc": "Viditelné stopy potyčky. Převržená lampa, rozbitý rám obrazu. Žena s modřinou na předloktí, muž se zaťatými pěstmi, malé dítě nahlíží ze dveří ložnice."
+      },
+      "npcDialogue": [
+        {
+          "character": "wife",
+          "text": "Prosím... omlouvám se, že jsme vás obtěžovali. Byla to jen hádka. Jsme v pořádku, opravdu."
+        },
+        {
+          "character": "husband",
+          "text": "Všechno je v pohodě, pane strážníku. Nepotřebujeme vás tady. Tohle je soukromá rodinná záležitost."
+        }
+      ],
+      "prompt": "Musíte převzít kontrolu a zajistit bezpečnost všech přítomných. Co řeknete?",
+      "options": [
+        {
+          "text": "Udržujete hlas nízko a klidně, dlaně otevřené u boků, pohledem přejedete místnost, aniž byste ulpěli na povalených věcech. Oslovíte oba najednou: 'Chápu, že je to osobní, a nejsem tady, abych soudil vaši rodinu. Ale jsme tady, protože někdo může být v ohrožení, a mým úkolem je ujistit se, že jsou v tomhle bytě všichni v bezpečí — včetně vás obou a vašeho dítěte. Můžete mi říct, co se dnes večer stalo?' Zachováváte klidný, otevřený postoj a necháváte jim prostor k odpovědi.",
+          "feedback": "Proč: Klidný tón v kombinaci s otevřenými otázkami projevuje upřímný zájem bez obviňování — vybízí obě strany ke sdílení, místo aby se bránily. Uznání jejich soukromí při vysvětlení vašeho poslání vyvažuje respekt s odpovědností. | DŮSLEDKY: Obě strany zůstávají v kontaktu. Důvěra se začíná budovat, protože vnímají spravedlnost a bezpečí ve vašem přístupu. Získáváte cenné informace prostřednictvím dialogu, ne výslechu. | Reflexe: Jak formulace 'někdo může být v ohrožení' udržuje zaměření na bezpečnost namísto obviňování?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Zaujmete pevný postoj uprostřed místnosti a postavíte se mezi oba partnery. Hlas máte pod kontrolou, ale nenechává prostor pro vyjednávání: 'Potřebuji, abyste se oba uklidnili. Pane, pojďte sem na tuto stranu pokoje, prosím. Paní, zůstaňte, kde jste. Probereme to postupně, ale s každým zvlášť. Nikdo nebude mluvit přes druhého.' Jasným gestem ukážete každému jeho pozici a nejprve zajistíte fyzické oddělení, než cokoli dalšího.",
+          "feedback": "Proč: Oddělení stran je standardní bezpečnostní postup, který snižuje riziko další konfrontace. Avšak začít slovy 'uklidněte se' a vydávat příkazy bez navázání důvěry projevuje minimální empatii a může působit autoritářsky. | DŮSLEDKY: Emoční napětí zůstává vysoké, i když fyzické oddělení snižuje bezprostřední riziko. Obě strany vyhoví, ale zůstávají odměřené. | Reflexe: Co by se stalo, kdybyste nejdříve uznali jejich rozrušení, než začnete dávat pokyny?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Vstoupíte dovnitř a okamžitě přepnete do taktického režimu — pohledem přejedete místnost, hledáte zbraně nebo nebezpečné předměty. Hlas máte stručný a profesionální: 'Nejdříve musím zajistit místo. Pane, potřebuji, abyste se postavil ke zdi, ruce na viditelné místo. Paní, prosím zůstaňte přesně tam, kde jste, a nehýbejte se. Až potvrdím, že je prostor bezpečný, vezmu od každého z vás formální výpověď zvlášť.' Zaujmete pozici s přehledným výhledem na oba a zacházíte s bytem jako s místem činu.",
+          "feedback": "Proč: Zajištění místa je legitimní priorita a oddělení stran s jasnými pozicemi je standardní postup pro bezpečnost strážníka. Avšak zacházet s domácí krizí jako s místem činu — vydávat taktické příkazy vyděšené manželce a muži, který vám nevyhrožoval — signalizuje, že vidíte podezřelé, ne lidi v krizi. Úřední jazyk je technicky správný, ale emočně negramotný pro tento kontext. | DŮSLEDKY: Oba mechanicky vyhoví, ale ženě ztuhne výraz a muži se zatne čelist. Máte fyzickou kontrolu nad místností, ale emoční rolety spadly. Žádná strana nebude dobrovolně sdílet informace, které skutečně potřebujete, protože váš přístup sdělil, že jsou zpracováváni, ne že jim je pomáháno. | Reflexe: Kdy dodržování taktického postupu v domácím prostředí sděluje, že jste se už rozhodli, že jde o trestní záležitost, nikoli o krizi?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Zachováváte klidný, nekonfrontační tón a mírným přikývnutím uznáváte trapnost situace. Říkáte: 'Chápu, že to vnímáte jako zásah do soukromí, a vím, že mít policii v bytě není snadné. Jsem tady, abych se ujistil, že jsou všichni v bezpečí, nic víc. Pane, můžete mi říct, co se dnes večer stalo?' Krátce se otočíte k manželce: 'Paní, s vámi si promluvím zvlášť za okamžik — chci slyšet obě strany.' Udržujete neutrální postoj mezi oběma.",
+          "feedback": "Proč: Uznáváte narušení soukromí a vedete s důrazem na bezpečnost, což je dobré. Plán mluvit s každou osobou zvlášť ukazuje uvědomění. Avšak tím, že mluvíte nejdřív s manželem, zatímco manželka čeká, můžete nechtěně upřednostnit jeho verzi a nechat ji zpočátku nevyslyšenou. | DŮSLEDKY: Manžel opatrně komunikuje, zatímco manželka odchází s dítětem do ložnice. Získáte jednu perspektivu, ale propásnete příležitost pro otevírající inkluzivní kontakt. | Reflexe: Jak pořadí, ve kterém s jednotlivými stranami mluvíte, určuje, čí verze se stane základem pro vaše chápání?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Shromažďování informací",
+      "sceneUpdate": {
+        "emoji": "💬",
+        "title": "Napjatá diskuze",
+        "desc": "Manžel ztuhlý a defenzivní, manželka se třese a pláče. Z ložnice je slyšet dětský vzlykot."
+      },
+      "npcDialogue": [
+        {
+          "character": "husband",
+          "text": "To je směšné... Jenom jsme se pohádali. Že, Mario? Řekni jim, že ti nic není."
+        },
+        {
+          "character": "wife",
+          "text": "Já... my... Šlo o peníze a tvou práci...Vyděsilo mě, když jsi začal házet věcmi... ale jsem v pořádku."
+        }
+      ],
+      "prompt": "Manžel po ní ostře střelí pohledem, když zmíní házení věcí. Jak budete pokračovat?",
+      "options": [
+        {
+          "text": "Zaregistrujete ostrý pohled, kterým manžel střelí po manželce, a jemně zasáhnete. Nejprve se obrátíte k němu, hlas klidný, ale pevný: 'Pane, vidím, že chcete něco říct, a vaši stranu si vyslechnu celou — slibuji. Ale teď ji potřebuji nechat domluvit. Nechte ji prosím mluvit.' Pak přesunete pozornost na manželku a ztišíte hlas: 'Zmínila jste, že jste se bála. To je pro mě důležité. Poslouchám. Můžete mi říct víc o tom, co se stalo?' Tělem zůstáváte natočeni k oběma, abyste signalizovali nestrannost.",
+          "feedback": "Proč: Ujistit manžela, že bude vyslyšen, a zároveň vyzvat manželku k pokračování prokazuje nestrannost a aktivní naslouchání — obě strany se cítí respektovány a žádná není umlčena. Tato technika shromáždí nejvíce informací při zachování důvěry. | DŮSLEDKY: Oba se cítí vyslyšeni, což výrazně buduje důvěru. Manželka sdílí více podrobností a defenzivita manžela postupně opadá. Získáváte cenné informace o situaci. | Reflexe: Jak zaručení hlasu každému změní dynamiku shromažďování informací?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Proříznete emoční napětí přímým, věcným přístupem — vytáhnete zápisník a cvaknutím propisky signalizujete přechod k faktům. Hlas máte vyrovnaný a procedurální: 'Potřebuji fakta, než budu moct vyhodnotit, co se tady stalo. Pane, došlo v kterémkoli okamžiku na fyzický kontakt — strkání, chytání, úder? Paní, jste zraněná? Potřebuji od vás obou upřímné odpovědi, abych mohl posoudit situaci a rozhodnout o dalších krocích.' Pohledem přecházíte mezi oběma a čekáte na přímé odpovědi.",
+          "feedback": "Proč: Přímé zjišťování faktů je efektivní a získáte potvrzení o házení předmětů, ale klinický přístup zcela míjí emoční rozměr — lidé v krizi potřebují cítit, že jsou vyslyšeni, ne jen vyslýcháni. | DŮSLEDKY: Získáte faktické informace, ale chybí hlubší vztah, který by odhalil více o podkladové situaci. Interakce působí jako výslech. | Reflexe: Kdy efektivita výslechu jde na úkor informací, které skutečně potřebujete?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Obrátíte se přímo na manželku a poukážete na rozpor v jejich výpovědích: 'Paní, váš muž říká, že to byla jen hádka, ale vy jste zmínila, že házel věcmi. To jsou dvě odlišné situace a potřebuji porozumět tomu, co se skutečně stalo. Potřebuji přesně vědět, co bylo hozeno, zda něco z toho směřovalo na vás nebo na dítě, a v jakém pořadí se věci dnes večer odehrávaly. Popište mi průběh událostí od začátku.' Manželovi tvrdne čelist, zatímco mluvíte.",
+          "feedback": "Proč: Snaha o přesnou chronologii zní jako důkladná policejní práce a rozlišení mezi předměty hozenými ze vzteku a hozenými na osobu je právně relevantní. Avšak tím, že v přítomnosti manžela okamžitě stavíte jeho verzi proti její, jste ji postavili do role vaší svědkyně proti němu — vidí, jak mu tvrdne výraz, a chápe, že další mluvení ji ohrožuje po vašem odchodu. Forenzní rámování upřednostňuje váš protokol před její bezpečností. | DŮSLEDKY: Manželka pohlédne na manžela a couvne: 'Vlastně to nebylo na mě, věci jen spadly.' Manžel zkříží ruce, ospravedlněn. Nechtěně jste ji přiměli ke zlehčování, protože vaše zjišťování faktů vytvořilo soudní dynamiku v obývacím pokoji. | Reflexe: Jak způsob kladení otázek v přítomnosti obou stran určuje, čí bezpečnost skutečně upřednostňujete — oběti, nebo vyšetřování?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Zaměříte se na emoční stav manželky, protože její strach je v tuto chvíli nejdůležitějším signálem v místnosti. Mírně se k ní nakloníte a ztišíte hlas: 'Zmínila jste, že jste se bála — to je důležité a beru to vážně. Můžete mi říct víc o tom, co vás dnes večer vyděsilo?' Pak krátce pohlédnete na manžela: 'Pane, vaši perspektivu si vyslechnu také, hned poté — vydržte mi chvíli.' Zaregistrujete manželův ostrý pohled na ženu, ale zatím ho přímo neřešíte.",
+          "feedback": "Proč: Správně se zaměřujete na strach manželky, který je klíčovým bezpečnostním ukazatelem. Příslib, že manžel přijde na řadu, projevuje určitou spravedlnost. Avšak aktivně jste nezastavili zastrašující pohled manžela ani jste se nevyjádřili k jeho pokusu ovládnout její výpověď, což ji může odradit od upřímného vyjádření. | DŮSLEDKY: Manželka sdílí opatrně a pohlíží přitom na manžela. Získáte některé informace, ale donucovací dynamika v místnosti zůstává nezpochybněna. | Reflexe: Jak vytvoříte prostor pro upřímné vyjádření, když osoba, které se dotyčná bojí, přihlíží?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Přítomnost dítěte",
+      "sceneUpdate": {
+        "emoji": "👧",
+        "title": "Emoční složitost",
+        "desc": "Šestiletá Anna vyjde ven, drží se matky a tiše pláče. Výrazy rodičů se mění — otec projevuje stud a defenzivitu."
+      },
+      "npcDialogue": [
+        {
+          "character": "child",
+          "text": "Mami... bojím se."
+        },
+        {
+          "character": "wife",
+          "text": "To je dobré, miláčku... to je dobré. Maminka je tady."
+        },
+        {
+          "character": "husband",
+          "text": "Vidíte, teď jste vyděsili moji dceru! Proto jsem nechtěl policii! Zvládneme si to sami."
+        }
+      ],
+      "prompt": "Otec obviňuje vaši přítomnost z vystrašení dítěte. Jak zvládnete tento klíčový okamžik?",
+      "options": [
+        {
+          "text": "Pomalu se snížíte na jedno koleno, abyste byli v úrovni Anniných očí, pohyby pomalé a obličej vlídný. Tiše jí řeknete: 'Ahoj, zlatíčko. Ty nemáš vůbec žádné potíže. Jsme tady, aby byli všichni v bezpečí a v pohodě.' Pak se zvednete a obrátíte se k otci, hlas klidný a plný respektu: 'Vidím, jak moc vám na ní záleží. Pojďme se všichni pro Annin klid nadechnout — ona teď potřebuje, abychom byli všichni klidní.' Držíte s ním oční kontakt a vyzýváte ke spolupráci, místo abyste ji vyžadovali.",
+          "feedback": "Proč: Oslovit dítě přímo s laskavostí v úrovni jeho očí vás okamžitě polidští a uvolní napětí — přesune pozornost celé místnosti od konfliktu k péči. Uznání otcovy lásky přerámuje situaci ke společnému základu namísto opozice. | DŮSLEDKY: Všichni se výrazně uklidní. Dítě se uvolní, matka se cítí chráněna a otcův stud se začíná měnit ve spolupráci. Emoční teplota dramaticky klesá. | Reflexe: Jak spojení s nejzranitelnější osobou v místnosti změní chování všech ostatních?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Rychle zhodnotíte situaci a rozhodnete se, že prioritou je dostat dítě z konfliktní zóny. Tón máte pragmatický a odměřený, ne nepřátelský, ale zaměřený na logistiku: 'Vaše dcera je zjevně rozrušená a neměla by stát uprostřed tohoto rozhovoru. Možná by mohl jeden z vás jít s ní do jiného pokoje — třeba do ložnice — kde bude klid a ona se uklidní. Já si zatím promluvím s tím druhým tady. Dospělou záležitost vyřídíme zvlášť.' Ukážete směrem k chodbě vedoucí do pokojů.",
+          "feedback": "Proč: Oddělení dítěte z konfliktní zóny je správné bezpečnostní rozhodnutí a odpovídá osvědčeným postupům pro ochranu nezletilých. Pragmatický tón ale propásne příležitost pro emoční propojení, které mohlo proměnit celou dynamiku. | DŮSLEDKY: Matka odvede Annu. Bezprostřední prostředí je procedurálně správné, ale emočně ploché. Pokračujete bez silné deeskalace, kterou by empatie vůči dítěti přinesla. | Reflexe: Jaký je rozdíl mezi odvedením dítěte ze situace a tím, že se dítě cítí v bezpečí?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Dřepnete si a natáhnete ruku směrem k plačícímu dítěti, hlas jemný a uklidňující: 'Zlatíčko, už se nemusíš bát. Policie je tady a nenecháme, aby se stalo něco zlého, ano? Pojď se mnou na chodbu, kde je pěkný klid. Maminka s tatínkem si s námi potřebují chvíli promluvit a pak bude všechno zase dobré.' Vřele se na Annu usmějete a ukážete směrem ke dveřím bytu. Čekáte, jestli vám podá ruku, a laskavým gestem ji zvete pryč od obou rodičů.",
+          "feedback": "Proč: Snaha fyzicky odebrat dítě z konfliktní zóny je instinktivně ochranitelská a jazyk je vřelý. Avšak žádat šestiletou, aby odešla s uniformovaným cizincem — pryč od matky, jediného zdroje bezpečí, kterému důvěřuje — je z pohledu dítěte děsivé. Formulace 'nenecháme, aby se stalo něco zlého' implicitně potvrzuje, že se něco zlého dělo, což dítě zvnitřní. Také jste odsunuli oba rodiče od rozhodování o vlastním dítěti, což je zbavuje aktérství a dále provokuje otce. | DŮSLEDKY: Anna začne křičet a ještě pevněji se drží matky. Otec přistoupí dopředu, ochranitelský instinkt převáží vše: 'Moji dceru nikam neodvedete.' Matka je rozpolcena mezi vaší autoritou a úzkostí dítěte. Váš dobře míněný pokus o ochranu se stal novým zdrojem strachu v místnosti. | Reflexe: Kdy ochrana dítěte před jedním zdrojem strachu nechtěně vytvoří nový zdroj strachu — a jak poznáte rozdíl?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Nejdříve oslovíte otce a klidným přikývnutím uznáte jeho ochranitelský instinkt: 'Rozumím, že se o Annu bojíte, pane. Je naší prioritou taky — chceme, aby se cítila v bezpečí víc než cokoli jiného.' Pak se tišším hlasem obrátíte na matku: 'Pomohlo by, kdyby Anna šla na chvíli do svého pokoje, než si promluvíme? Tam by mohla být v klidu a u něčeho, co zná.' Rozhodnutí necháváte na rodičích a stavíte se do role partnera, ne autority vnucující volbu.",
+          "feedback": "Proč: Validujete otcovu starost a stavíte blaho dítěte do centra, což je dobré. Návrh, aby dítě odešlo, mu poskytne určitou ochranu. Avšak neoslovili jste Annu přímo — v jejím věku může být mluvení o ní, místo s ní, pociťováno jako přehlížení, a propásli jste silnou deeskalaci přímého, vřelého kontaktu s ní. | DŮSLEDKY: Matka odvede Annu do ložnice. Otec je poněkud uklidněn, ale skutečně odzbrojen není. Situace se zlepšuje, ale bez emočního průlomu, který by přímý kontakt s dítětem přinesl. | Reflexe: Jak se změní emoční dynamika pro všechny v místnosti, když mluvíte přímo s vystrašeným dítětem, místo abyste o něm mluvili?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Krize duševního zdraví se vynořuje",
+      "sceneUpdate": {
+        "emoji": "🧠",
+        "title": "Krizový bod",
+        "desc": "Manželův hněv ustupuje viditelnému zoufalství. Třesoucí se ruce, zrychlené dýchání, známky zhroucení."
+      },
+      "npcDialogue": [
+        {
+          "character": "husband",
+          "text": "Já... přišel jsem o práci před měsícem. Nikomu jsem to neřekl... Účty... dluhy... Zklamávám svou rodinu... Možná by vám beze mě bylo líp..."
+        },
+        {
+          "character": "wife",
+          "text": "Miláčku... prosím, neříkej to. Zvládneme to spolu, jen... ne takhle."
+        }
+      ],
+      "prompt": "Manžel vykazuje známky suicidálních myšlenek. Toto je nyní krize duševního zdraví. Jak zareagujete?",
+      "options": [
+        {
+          "text": "Uděláte pomalý krok blíž a ztišíte hlas, pohledem mu hledíte přímo do očí. Mluvíte jemně, ale s přesvědčením: 'Je mi líto, čím procházíte. Přijít o práci a nést to sám celý měsíc — to zní opravdu zdrcující a chápu tu tíhu. Ale potřebuji, abyste mě vyslechl: vaše rodina vás potřebuje. Ne takhle, ne v krizi — bezpečným způsobem. Pojďme vám dnes v noci sehnat pomoc. Můžu hned zavolat krizového poradce, někoho, kdo přesně tyhle situace zná a umí s nimi pracovat.'",
+          "feedback": "Proč: Validace jeho pocitů při jemném vyvrácení suicidálních myšlenek konkrétním důvodem k životu prokazuje vysokou emoční inteligenci a správnou krizovou intervenci — normalizujete jeho bolest, aniž byste přijali jeho závěr, že by rodině bylo bez něj lépe. | DŮSLEDKY: Přikývne, vyčerpaný, ale vnímavý. Nabídka poradce mu dává cestu vpřed. Bezprostřední krize se začíná řešit, protože se cítí opravdu vyslyšen a podpořen. | Reflexe: Jak jednoduchý akt pojmenování něčí bolesti a nabídky konkrétního dalšího kroku mění trajektorii krize?",
+          "type": "positive",
+          "points": 12
+        },
+        {
+          "text": "Zachováváte vyrovnaný, stálý výraz a udržujete dostatečný odstup, abyste mu dali prostor, ale zůstali dost blízko pro případný zásah. Hlas máte klidný a kontrolovaný: 'Pane, potřebuji, abyste se teď zhluboka nadechnul. Jste pod obrovským tlakem a to všechno působí horší, než ve skutečnosti je. Pokud existuje jakákoli šance, že byste si mohl dnes v noci ublížit, řekněte mi to — můžeme sem přivolat odborníky, kteří s tímhle umí pracovat. Žádná ostuda v tom není.' Pozorně sledujete jeho ruce a dech.",
+          "feedback": "Proč: Uzemnění dechovou instrukcí a nabídka odborné pomoci je metodický a bezpečnostně orientovaný přístup. Avšak poněkud neosobní tón postrádá emoční spojení, které člověk v krizi zoufale potřebuje — pokyn k dýchání může působit odbývavě, když je někdo v zoufalství. | DŮSLEDKY: Nenamítá, ale aktivně nesouhlasí. Bezprostřední nebezpečí ustupuje, ale bez skutečného zapojení. Reakce řeší riziko, ale ne člověka. | Reflexe: Jaký je rozdíl mezi zvládáním krize a spojením se s člověkem v krizi?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Pomalu přikývnete a udržujete vyrovnaný hlas zaměřený na řešení: 'Slyším vás a vidím, že to bylo neuvěřitelně těžké — nést to tajemství celý měsíc by drtilo kohokoli. Ale teď se musíme zaměřit na dnešní večer, na to, aby byli všichni v tomhle bytě v bezpečí, a promyslet další praktické kroky vpřed. Existují lidé, kteří pomohou se zaměstnáním — úřad práce, finanční poradenství, dluhová pomoc. Jeden problém po druhém. Nemusíme dnes v noci vyřešit všechno.' Držíte s ním oční kontakt a snažíte se vyzařovat klidnou kompetenci.",
+          "feedback": "Proč: Tato odpověď zní produktivně a dokonce soucitně — uznáváte jeho bolest, nabízíte praktickou pomoc a snažíte se rozložit zdrcující situaci na zvládnutelné části. Mnoho dobře vyškolených strážníků se automaticky uchyluje k tomuto řešení zaměřenému na výsledek. Avšak když někdo říká 'beze mě by vám bylo líp,' nežádá o služby zaměstnanosti. Tím, že okamžitě přepnete na logistiku, sdělujete, že jeho suicidální zoufalství je problém k řízení, ne bolest k vyslyšení. Výrok, který vyděsil jeho ženu, zůstává bez odezvy, a on se dozvídá, že ani profesionál v místnosti nedokáže zůstat u toho, co cítí. | DŮSLEDKY: Mechanicky přikývne a zmlkne — což vypadá jako spolupráce, ale ve skutečnosti je to stažení se. Akutní emoční krize byla přelepena seznamem úkolů. Dnes v noci může vyhovět, ale zoufalství, které vyprodukovalo suicidální výrok, zůstává zcela nedotčeno. Jeho žena sleduje, jak se uzavírá, a ví, že se ve skutečnosti nic nezměnilo. | Reflexe: Když někdo vyjádří, že by jeho rodině bylo bez e se ve skutečnosti nic nezměnilo. | Reflexe: Když někdo vyjádří, že by jeho rodině bylo bez něj lépe, co to sděluje, když vaší odpovědí jsou služby zaměstnanosti?",
+          "type": "negative",
+          "points": -10
+        },
+        {
+          "text": "Udržujete klidný, nespěchající hlas a necháváte tíhu jeho přiznání viset v místnosti, místo abyste přes ni spěchali: 'Vidím, že procházíte velmi těžkým obdobím, a chci, abyste věděl, že to, co cítíte, dává smysl. Ztráta zaměstnání vytváří obrovský tlak na člověka, zvlášť když se snažíte držet pohromadě všechno pro rodinu. Pojďme se ujistit, že dnes v noci jsou tady všichni v bezpečí — to je první krok — a pak vás můžu propojit s lidmi, kteří jsou přímo vyškolení na pomoc v přesně takhle náročných situacích.'",
+          "feedback": "Proč: Uznáváte jeho bolest a normalizujete stres ze ztráty zaměstnání, což je soucitné. Nabídka pomoci je správný instinkt. Avšak přímo jste se nevyjádřili k jeho suicidálnímu výroku — 'možná by vám beze mě bylo líp' — který je třeba jemně, ale výslovně vyvrátit. Obcházení suicidálních myšlenek, i při nabízení pomoci, může v člověku zanechat pocit, že jeho nejtemnější myšlenka byla ignorována. | DŮSLEDKY: Poněkud se uklidňuje, cítí se částečně vyslyšen. Krize se stabilizuje, ale jádro suicidálních myšlenek zůstává bez odezvy. Dnes v noci může spolupracovat, ale skryté zoufalství přetrvává. | Reflexe: Proč je důležité výslovně reagovat na suicidální výroky, místo abyste je obcházeli?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Právní řešení",
+      "sceneUpdate": {
+        "emoji": "⚖️",
+        "title": "Čas rozhodování",
+        "desc": "Bezprostřední emoční krize odeznívá. Manžel sedí shroucený na gauči, vyčerpaný a vysátý, zatímco manželka stojí u dveří ložnice, kde Anna spí. Nyní musíte rozhodnout o vhodných právních opatřeních a podpůrných službách k zajištění bezpečnosti všech na dnešní noc i nadcházející dny."
+      },
+      "npcDialogue": [
+        {
+          "character": "wife",
+          "text": "Co bude teď? Není to špatný člověk, jen je pod tlakem."
+        }
+      ],
+      "prompt": "Musíte situaci právně vyřešit a zajistit bezpečnost. Jaké opatření zvolíte?",
+      "options": [
+        {
+          "text": "Každý krok pečlivě vysvětlíte a střídavě udržujete oční kontakt s oběma. Nařídíte desetidenní vykázání podle českého zákona jako ochranné období, pak okamžitě zavoláte na místní intervenční centrum, aby zajistilo krizovou podporu pro manželku a dítě na dnešní noc. Kontaktujete orgán sociálně-právní ochrany dětí a upozornění formulujete jako rodinnou asistenci, nikoli hrozbu odebrání. Pro manžela zajistíte spojení s krizovým poradcem ještě před odchodem z bytu. Každému z přítomných projdete, co bude následovat.",
+          "feedback": "Proč: Tato reakce dokonale sleduje český zákon a zároveň projevuje soucit — desetidenní vykázání poskytuje zákonné ochranné období, podpora intervenčního centra řeší bezprostřední krizi a rámování ochrany dětí jako pomoci, nikoli odebrání, zachovává důstojnost rodiny při zajištění blaha dítěte. | DŮSLEDKY: Bezpečnost je zajištěna právními opatřeními. Podpora je zařízena pro všechny členy rodiny. Vyvážený přístup vymáhání s empatií dává této rodině nejlepší šanci na zotavení. | Reflexe: Jak se liší soucitné využití všech dostupných právních nástrojů od jejich represivního použití?",
+          "type": "positive",
+          "points": 12
+        },
+        {
+          "text": "Rozhodnete se držet věci neformálně a zachovat dobrou vůli, abyste na už tak křehkou rodinu nenakládali tíhu úředních postupů. Zeptáte se manžela, zda by byl ochoten dobrovolně strávit dnešní noc jinde — u bratra, u kamaráda, kdekoli mimo byt. Tiše souhlasí. Manželce řeknete, že se zítra ráno zastavíte zkontrolovat, jak se mají, a navrhnete, aby zavolala, pokud se přes noc cokoli změní. Odcházíte bez formálních dokumentů a spoléháte na to, že dobrovolná dohoda vydrží.",
+          "feedback": "Proč: Dobrovolný kompromis se vyhýbá formální byrokracii a zachovává určitou dobrou vůli, ale postrádá právní ochranu, kterou formální opatření poskytují — pokud se dnes v noci vrátí v krizi, neexistuje žádné vykonatelné nařízení, které by mu v tom zabránilo. Dobré úmysly bez právního krytí nechávají rodinu zranitelnou. | DŮSLEDKY: Částečné řešení s budoucím rizikem. Dnešní noc je pravděpodobně bezpečná, ale nejsou zavedena žádná formální ochranná opatření ani podpůrné služby. | Reflexe: Kdy se snaha být vstřícný vyhýbáním se formálním opatřením ve skutečnosti vystavuje lidi většímu riziku?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Metodicky postupujete bod po bodu. Nařídíte desetidenní vykázání a začnete na tabletu vyplňovat hlášení o domácím násilí. Přivoláte hlídkový vůz k převozu manžela na adresu jeho bratra. Manželce věcným tónem sdělíte, že orgán sociálně-právní ochrany dětí bude vyrozuměn v rámci standardního postupu v případech s přítomností nezletilých. Důkladně vyplníte každý formulář, zdokumentujete převrženou lampu a rozbitý rám. Žádného poradce nevoláte, intervenční centrum nekontaktujete — soustředíte se na administrativu.",
+          "feedback": "Proč: Každý jednotlivý krok je obhajitelný — vykázání je právně přiměřené, zpráva je povinná, převoz je nápomocný a oznámení OSPOD odpovídá protokolu. Tato reakce ale redukuje rodinu v krizi na seznam byrokratických úkonů. Manžel je zpracován a odvezen, aniž kdokoli řešil jeho duševní krizi. Manželka slyší 'orgán sociálně-právní ochrany dětí' a propadne panice, představuje si, jak jí dceru odebírají. Nikdo nezavolal poradce, nikdo nekontaktoval intervenční centrum, nikdo nevysvětlil, co to všechno znamená pro její rodinu zítra. Dodrželi jste každý postup a nikomu jste nepomohli. | DŮSLEDKY: Manžel odjíždí v hlídkovém voze, ponížený a bez monitorování sebevražedného rizika. Manželka tráví noc vyděšená, že OSPOD jí odebere i Annu, příliš vystrašená na to, aby zavolala na jakékoli číslo, které jste jí nechal, protože nyní spojuje 'systém' s postupnou ztrátou rodiny. Procedurálně bezchybné. Lidsky katastrofální. | Reflexe: Když dodržíte každý postup, ale nikoho nespojíte se skutečnou pomocí, čím potřebám ta administrativa posloužila?",
+          "type": "negative",
+          "points": -10
+        },
+        {
+          "text": "Nařídíte desetidenní vykázání, abyste zajistili fyzické oddělení a bezpečnost, a pomůžete manželovi sbalit několik nezbytných věcí na noc, než z bytu odejde. Než se vydáte k odchodu, předáte manželce tištěnou kartičku s telefonními čísly na intervenční centrum, linku pro oběti domácího násilí a obecnou podpůrnou linku. Řeknete jí, že tyto organizace mohou pomoci a že plánujete se zítra zastavit na kontrolu, jak se s Annou mají. Navázání kontaktu se službami necháváte na její iniciativě.",
+          "feedback": "Proč: Správně používáte zákonné opatření vykázání a zajišťujete okamžité fyzické oddělení, čímž řešíte bezpečnost. Poskytnutí kontaktních čísel ukazuje povědomí o potřebě podpory. Avšak spoléháte na to, že manželka sama navazuje kontakt se službami, místo abyste je zajistili přímo, a konkrétně jste neřešili krizi duševního zdraví manžela ani nezajistili, že má přístup k poradenství dnes v noci. | DŮSLEDKY: Fyzická bezpečnost je zajištěna. Manželka má informace, ale musí se orientovat v systému sama během traumatické noci. Manžel odchází bez zajištěné psychologické pomoci. | Reflexe: Jaký je rozdíl mezi tím, když někomu dáte telefonní číslo, a tím, když ho skutečně propojíte s pomocí?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Následná podpora",
+      "sceneUpdate": {
+        "emoji": "🤝",
+        "title": "Poskytnutí ujištění",
+        "desc": "Manžel odešel, dítě spí v matčině náruči. Klidný okamžik pro závěrečnou interakci."
+      },
+      "npcDialogue": [
+        {
+          "character": "wife",
+          "text": "Děkuji, pane strážníku... je mi líto, že to dospělo tak daleko. Není špatný, jen je pod obrovským tlakem. Co bude teď?"
+        }
+      ],
+      "prompt": "Závěrečná interakce s manželkou. Jak poskytnete uzavření a podporu?",
+      "options": [
+        {
+          "text": "Posadíte se naproti ní a udržujete vřelý, nespěchající hlas navzdory pozdní hodině. Krok po kroku jí projdete harmonogram desetidenního vykázání — kdy se smí vrátit, jaké podmínky platí, komu volat, pokud se objeví dřív. Vysvětlíte, že intervenční centrum se ozve zítra a že sociálka je tu na podporu rodiny, ne proto, aby odebrala Annu. Pak její pocity přímo potvrdíte: 'Máte pravdu, že to není špatný člověk. To, co se dnes stalo, ho nedefinuje — a požádat o pomoc bylo správné.' Než odejdete, potvrdíte podrobnosti dalšího postupu.",
+          "feedback": "Proč: Poskytnutí důkladných, soucitných informací na závěr zajistí, že rozumí všem dostupným zdrojům a každému dalšímu kroku — validace jejích pocitů ohledně manžela, že 'není špatný', ukazuje, že jste naslouchali a respektovali její pohled po celou dobu. Tato závěrečná interakce rozhoduje, zda se zapojí do nabízených služeb, nebo se stáhne. | DŮSLEDKY: Cítí se skutečně podpořena a informována. Zná všechny zdroje, rozumí procesu a cítí, že systém pracuje s její rodinou, ne proti ní. Dokonalá rovnováha povinnosti a empatie. | Reflexe: Jak závěrečný dojem, který zanecháte, určuje, zda rodina naváže na pomoc, kterou jste zajistili?",
+          "type": "positive",
+          "points": 10
+        },
+        {
+          "text": "Závěrečnou interakci vedete stručně a úřednicky, odříkáváte body ostrým tónem, zatímco už saháte po vysílačce. Řeknete jí: 'Nařízení o vykázání znamená, že se deset dní nebude přibližovat. Sociální služby se s vámi spojí. Orgán sociálně-právní ochrany dětí je informován v rámci standardního postupu. Ukliďte rozbité sklo, než se Anna probudí, a zajistěte na noc vchodové dveře. Tady je moje vizitka — zavolejte na stanici, kdyby se cokoli změnilo.' Podáte jí kartičku, jednou přikývnete a otočíte se ke dveřím.",
+          "feedback": "Proč: Pokrýváte základní procedurální body — bezpečnost, služby, kontaktní informace — ale projevu chybí vřelost, kterou traumatizovaná osoba potřebuje. Po noci krize působí odpověď ve formě seznamu neosobně a může v člověku zanechat pocit, že je evidenčním číslem, ne osobou. | DŮSLEDKY: Informace jsou předány, ale minimální útěcha je poskytnuta. Má fakta, ale ne emoční jistotu, aby na základě nich jednala. Přiměřené, ale nezapamatovatelné. | Reflexe: Co vás stojí přidat třicet vteřin upřímné vřelosti k procedurálnímu uzavření?",
+          "type": "neutral",
+          "points": 2
+        },
+        {
+          "text": "Opřete se o rám dveří a nabídnete jí svůj nejpovzbudivější úsměv, hlas vřelý a optimistický: 'Podívejte, vím, že dnešek byl neskutečně těžký, ale upřímně — tohle je to nejlepší, co se mohlo stát. Věřte mi, spousta rodin si přesně tímhle projde a vyjdou z toho silnější. On dostane pomoc, kterou potřebuje, vy dostanete prostor k nadechnutí a věci se uklidní, až bude mít každý čas to vstřebat. Důvěřujte procesu — systém funguje, když se do něj lidé zapojí. Budete v pořádku.' Povzbudivě přikývnete a vykročíte na chodbu.",
+          "feedback": "Proč: Tato reakce je vřelá, optimistická a zjevně dobře míněná — strážník skutečně věří, že poskytuje útěchu. Avšak říkat ženě, jejíž manžel právě vyjádřil suicidální myšlenky a byl z domova odveden, že je to 'to nejlepší, co se mohlo stát', zlehčuje závažnost toho, co právě prožila. 'Důvěřujte procesu' předpokládá, že systém, v němž se nikdy nepohybovala, bude bezchybně fungovat. 'Budete v pořádku' zavírá dveře před tím, aby vyjádřila, že v pořádku není — je to ujištění, které slouží potřebě strážníka odejít s dobrým pocitem, spíše než potřebě oběti být vyslyšena. | DŮSLEDKY: Přikývne a řekne 'děkuji', protože společenský scénář to vyžaduje, ale nezavolá na žádné z čísel, která jste jí dali. Nerozumí harmonogramu vykázání. Sedí vzhůru a přemýšlí, jestli je její manžel v bezpečí, a nemá se koho zeptat. Váš optimismus v tu chvíli působil laskavě, ale nechal ji samotnou s každou nezodpovězenou otázkou. | Reflexe: Kdy se ujištění stává způsobem, jak si strážník usnadní odchod, místo toho, aby oběť připravil na to, co přijde?",
+          "type": "negative",
+          "points": -8
+        },
+        {
+          "text": "Poskytnete obecný přehled dalšího postupu a vysvětlíte, že vykázání trvá deset dní a že se jí v příštích dnech ozvou různé podpůrné služby. Hlas zjemníte a dodáte: 'Prožila jste dnes víc, než by kdokoli měl za jednu noc zvládnout. Chci, abyste věděla, že i on dostane pomoc — nejde jen o oddělení, ale o to, aby každý dostal podporu, kterou potřebuje. Kdybyste cokoli potřebovala, nebo kdyby vás cokoli znepokojilo, tady je moje vizitka. Neváhejte zavolat.' Podáte jí ji s klidným pohledem.",
+          "feedback": "Proč: Poskytujete rozumný přehled a projevujete osobní vřelost tím, že uznáváte její těžkou noc. Zmínka, že i manžel dostane pomoc, řeší její starost o něj. Avšak informace jsou obecné spíše než podrobné — nemusí rozumět časovému harmonogramu, co zapojení sociálky vlastně znamená, ani jaké konkrétní zdroje má dnes v noci k dispozici. | DŮSLEDKY: Cítí se poněkud ujištěna, ale odchází s mezerami ve svém porozumění. Má vaši vizitku, ale nemusí vědět, jaké otázky položit nebo komu volat jako první. | Reflexe: Kolik podrobností člověk v krizi potřebuje, aby se cítil opravdu připraven, oproti zahlcen?",
+          "type": "partially_positive",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Rozbor a reflexe",
+      "sceneUpdate": {
+        "emoji": "📋",
+        "title": "Výcvikový rozbor",
+        "desc": "Zpět na stanici. Seržant Davis hodnotí váš výkon v tomto scénáři domácí krize — jak jste vyvážili deeskalaci, rozpoznání duševní krize, ochranu dítěte a právní řešení."
+      },
+      "autoDialogue": true,
+      "finalScene": true,
+      "dialogueSequence": [
+        {
+          "character": "trainer",
+          "text": "Proveďte mě okamžikem, který vám z dnešního večera utkvěl nejvíce v paměti."
+        },
+        {
+          "character": "officer",
+          "text": "Když řekl, že by rodině bylo bez něj líp. Část mě chtěla prostě ho dostat z bytu — oddělit hrozbu a jít dál. Ale on byl ten člověk, který byl v největším nebezpečí. Nejtěžší bylo zůstat u toho, místo skočit rovnou na logistiku."
+        },
+        {
+          "character": "trainer",
+          "text": "Ten instinkt oddělit a vyřešit je nejčastější past. Tady je přerámování, které si chci, abyste nesli: většina strážníků si myslí, že domácí výjezdy jsou o zvládání hněvu — potlačit agresi, oddělit strany, sepsat protokol. Ale tyto spory nejsou o hněvu. Jsou o moci, kontrole a zoufalství. Ve chvíli, kdy vidíte agresora čistě jako nebezpečného, místo abyste viděli i jeho zoufalství, ztrácíte schopnost deeskalovat. Maria ho bránila, protože ví, co se stane po standardním zatčení — systém ho zpracuje a vrátí naštvanějšího. Vaším úkolem bylo vytvořit jinou cestu."
+        },
+        {
+          "character": "trainer",
+          "text": "A takhle ta cesta vypadá: tu rodinu jste dnes v noci nezachránili. Vytvořili jste osmačtyřicetihodinové okno, ve kterém se mohlo stát něco jiného. To je krizová intervence — ne řešení, ale možnost. Zkušený strážník v Praze mi řekl, že rodiny, které se zotaví, nikdy nejsou ty, kde strážník všechno vyřešil na místě. Jsou to ty, kde strážník držel prostor otevřený dostatečně dlouho, aby poradce a intervenční centrum mohli udělat svou práci. Vašich osmačtyřicet hodin je ten most."
+        }
+      ]
+    }
+  ],
+  "characters": {
+    "dispatcher": {
+      "name": "Dispečink",
+      "avatar": "📻"
+    },
+    "husband": {
+      "name": "Pan K. (manžel)",
+      "avatar": "😤"
+    },
+    "wife": {
+      "name": "Paní K. (manželka)",
+      "avatar": "😰"
+    },
+    "child": {
+      "name": "Anna (dítě)",
+      "avatar": "👧"
+    },
+    "officer": {
+      "name": "Vy (strážník)",
+      "avatar": "👮"
+    },
+    "trainer": {
+      "name": "Seržant Davis",
+      "avatar": "👮‍♂️"
+    }
+  },
+  "performanceReviews": {
+    "perfect": {
+      "title": "Vynikající zvládnutí krize!",
+      "emoji": "🌟",
+      "feedback": "Prokázali jste výjimečnou emoční inteligenci, dokonalé dodržení postupů a mistrovskou deeskalaci. Váš empatický přístup při udržení bezpečnostních hranic je příkladný. Rodina získala maximální podporu díky vašim komunikačním dovednostem."
+    },
+    "good": {
+      "title": "Silný výkon",
+      "emoji": "✅",
+      "feedback": "Složitou situaci jste zvládli dobře, prokázali jste dobrou empatii a dodrželi většinu postupů správně. Drobná zlepšení v dřívějším rozpoznání příznaků duševní krize by mohla váš zásah dále vylepšit."
+    },
+    "average": {
+      "title": "Přiměřená reakce",
+      "emoji": "📊",
+      "feedback": "Situaci jste vyřešili, ale propásli jste několik příležitostí k deeskalaci a budování důvěry. Zopakujte si techniky aktivního naslouchání a indikátory krize duševního zdraví."
+    },
+    "poor": {
+      "title": "Vyžaduje výrazné zlepšení",
+      "emoji": "⚠️",
+      "feedback": "Váš přístup eskaloval napětí a propásl zásadní varovné příznaky duševní krize. Zopakujte si deeskalační techniky, empatii v komunikaci a protokoly krizové intervence. Pamatujte: agrese plodí agresi."
+    }
+  },
+  "metrics": {
+    "rapport": {
+      "name": "Důvěra a vztah",
+      "description": "Budování důvěry prostřednictvím aktivního naslouchání a empatie",
+      "icon": "🤝"
+    },
+    "procedure": {
+      "name": "Dodržování postupů",
+      "description": "Dodržování zákonných požadavků a bezpečnostních protokolů",
+      "icon": "📋"
+    },
+    "emotional": {
+      "name": "Emoční inteligence",
+      "description": "Zvládání stresu a konstruktivní reakce na emoce",
+      "icon": "💚"
+    },
+    "safety": {
+      "name": "Situační bezpečnost",
+      "description": "Udržování fyzické i emoční bezpečnosti pro všechny",
+      "icon": "🛡️"
+    }
+  }
+}

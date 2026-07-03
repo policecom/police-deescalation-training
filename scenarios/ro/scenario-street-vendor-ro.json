@@ -1,0 +1,414 @@
+{
+    "id": "street-vendor",
+    "title": "Vânzător stradal — Comunitatea la răscruce",
+    "description": "Scenariu avansat ce implică un vânzător neautorizat de mâncare stradală în fața unui magazin, un proprietar frustrat care a sunat la poliție, trecători care îl susțin pe vânzător și o mulțime care filmează. Ofițerul trebuie să echilibreze obligațiile de aplicare a legii, dreptatea procedurală, dificultățile economice, relațiile comunitare și dinamica mulțimii — totul sub obiectivul camerei.",
+    "icon": "🍜",
+    "instructor": {
+        "name": "Sergent Davis",
+        "avatar": "👮‍♂️",
+        "introduction": "Aplicarea legii în cazul vânzătorilor stradali este una dintre cele mai subestimate provocări din activitatea de poliție. Se situează la intersecția legii, economiei, comunității și culturii — și aproape întotdeauna este filmată. Vânzătorul rareori este infractor; de obicei este cineva care încearcă să supraviețuiască. Reclamantul are de regulă preocupări legitime. Iar mulțimea are opinii puternice despre ambele părți. Cercetările arată că aplicarea agresivă a infracțiunilor minore erodează legitimitatea poliției mai mult decât aproape orice altceva. Dar ignorarea plângerilor valide o subminează la fel de mult. Sarcina dumneavoastră este să găsiți calea care respectă legea, respectă demnitatea fiecăruia și consolidează — în loc să distrugă — încrederea comunității în dumneavoastră. Modul în care o faceți contează mai mult decât ce faceți."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-street-vendor-complete"],
+    "perfectBadge": "perfect-scenario-street-vendor",
+    "finalMessage": {
+        "revelation": "Doamna Tran vinde pho și banh mi din căruța ei de trei ani, construindu-și o clientelă loială în cartier. Are 62 de ani, este imigrantă vietnameză și crește doi nepoți după moartea fiicei sale. A depus cerere pentru autorizație acum opt luni, dar se află pe lista de așteptare — orașul are un plafon de autorizații și peste 400 de persoane așteaptă. Plângerea domnului Harris era întemeiată — căruța îi bloca parțial intrarea și pierduse clienți. Dar mai târziu i-a mărturisit unui vecin că i-a părut rău că a sunat la poliție când a văzut cât de speriată era doamna Tran. După intervenția dumneavoastră, doamna Tran și-a mutat căruța într-un loc din apropiere care nu obstrucționa nicio vitrină. O organizație comunitară locală a pus-o în legătură cu un avocat pentru a-i accelera cererea de autorizație. Domnul Harris a început să cumpere prânzul de la căruța ei în fiecare vineri. Tânărul care a filmat întâlnirea a postat videoclipul cu descrierea: 'Așa ar trebui să arate activitatea de poliție.'",
+        "keyLessons": [
+            "Modul în care aplici legea contează mai mult decât ce aplici — cercetările privind dreptatea procedurală arată că oamenii acceptă chiar și rezultate negative când sunt tratați cu demnitate",
+            "Aplicarea legii la vânzătorii stradali afectează în mod disproporționat imigranții și comunitățile cu venituri mici — conștientizarea acestui context modelează răspunsul adecvat",
+            "Trecătorii fac parte din dinamica situației, nu sunt obstacole în calea ei — implicarea lor reduce riscul de escaladare",
+            "A conduce cu educație înainte de sancțiune este cea mai bună practică recomandată pentru situațiile cu vânzători",
+            "Rezolvarea creativă care abordează preocupările legitime ale tuturor părților produce rezultate mai durabile decât aplicarea de tip câștigător-perdant",
+            "A fi filmat este o oportunitate de a demonstra profesionalism, nu o amenințare de gestionat",
+            "Puterea discreționară a ofițerului în aplicarea minoră este enormă — modul în care o folosești definește încrederea comunității pentru ani de zile"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Locul faptei",
+            "sceneUpdate": {
+                "emoji": "🍜",
+                "title": "Zona pietonală — sâmbătă dimineața",
+                "desc": "Târziu dimineața pe o stradă comercială aglomerată. Ajungeți după un apel de la un proprietar de magazin despre un 'vânzător ilegal care îi blochează afacerea'. Vedeți o cărută mică de mâncare instalată pe trotuarul larg lângă un șir de magazine. O femeie în vârstă servește mâncare la doi clienți. Un bărbat în șorț stă lângă intrarea unui magazin, cu brațele încrucișate, urmărindu-vă cum vă apropiați. Mai multe persoane mănâncă din boluri de hârtie pe o bancă din apropiere."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unitate care răspunde la o plângere pe Strada Maple 12. Proprietarul raportează un vânzător de mâncare fără autorizație instalat direct în fața intrării magazinului său, blocând accesul clienților. Reclamantul este domnul Harris, proprietarul unui magazin de papetărie. Vânzătorul pare să fie acolo de dimineață devreme."
+                }
+            ],
+            "prompt": "Ați ajuns la fața locului. Cum începeți evaluarea?",
+            "options": [
+                {
+                    "text": "Mergeți cu pași hotărâți direct spre căruciorul vânzătoarei, trecând pe lângă clienții de pe bancă fără a-i privi. Înainte de a vă prezenta sau de a stabili contact vizual cu altcineva, ajungeți la tejghea și cereți să vedeți autorizația de vânzător. Plângerea menționează un vânzător neautorizat, așa că stabilirea bazei legale este prioritară — tot restul decurge din documentație.",
+                    "feedback": "De ce: A vă apropia prima dată de vânzător cu o verificare imediată a documentelor — fără a înțelege situația completă — dă senzația unei opriri și percheziții. Nu ați evaluat obstrucția reală, nu ați vorbit cu reclamantul și nu ați estimat atmosfera. Acest lucru semnalează trecătorilor că ați decis deja cine este de vină. | CONSECINȚE: Doamna Tran vede un ofițer de poliție mergând direct spre ea și cerând documente. Frica îi inundă fața. Clienții se retrag. Interacțiunea începe pe bază de suspiciune, nu de comunicare. | Reflecție: Ce comunică faptul că primul lucru pe care îl faceți este să cereți documente de la persoana raportată?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Vă îndreptați mai întâi spre domnul Harris la intrarea magazinului, deoarece el a plasat apelul. Îi faceți un semn profesional din cap și scoateți carnetul de notițe, poziționându-vă cu spatele parțial spre cărucior. Îi ascultați relatarea completă — de cât timp durează, ce anume este obstrucționat, dacă au existat incidente anterioare — înainte de a decide cum să abordați vânzătoarea.",
+                    "feedback": "De ce: A aborda mai întâi reclamantul este rezonabil, deoarece el a inițiat apelul. Cu toate acestea, vânzătorul și trecătorii vă urmăresc cum vorbiți cu bărbatul nervos care arată spre ea. Până când ajungeți la ea, este deja defensivă și speriată. Optica subminează neutralitatea dumneavoastră. | CONSECINȚE: Aveți un context bun de la domnul Harris, dar doamna Tran v-a urmărit cum dădeați din cap ascultându-l pe cel care vrea să o elimine. Dinamica puterii este vizibilă pentru toți. | Reflecție: Când trecătorii pot vedea cu cine vorbiți mai întâi, cum le influențează asta percepția asupra corectitudinii dumneavoastră?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă opriți în spațiul dintre cărucior și intrarea magazinului, ridicați mâna într-un gest calm de 'un moment' și îi chemați pe amândoi. Li vă adresați împreună, pe un ton egal și clar: 'Bună dimineața — sunt aici pentru că există o îngrijorare legată de amplasarea căruciorului. Aș dori să aud de la amândoi în același timp, ca să putem lămuri lucrurile transparent, chiar aici.'",
+                    "feedback": "De ce: Intenția este corectă și transparentă. Cu toate acestea, a pune un proprietar de magazin frustrat față în față cu vânzătorul pe care l-a reclamat creează o confruntare imediată. Nu cunoașteți temperatura emoțională, barierele lingvistice sau dinamica puterii. | CONSECINȚE: Domnul Harris începe imediat să arate spre cărucior și să ridice vocea. Doamna Tran se retrage. Ați creat o confruntare înainte de a aduna informații. Trecătorii încep să urmărească atent. | Reflecție: Când este productiv să aduci ambele părți împreună și când creează o confruntare?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă luați un moment și parcurgeți întregul loc al faptei în ritm liniștit — treceți pe lângă cărucior, observați poziția sa față de intrarea magazinului și lățimea trotuarului rămas liber, stabiliți contact vizual prietenos și scurt cu vânzătoarea și cu proprietarul magazinului, fără a vă opri să angajați pe nimeni deocamdată. Vreți o imagine spațială clară a obstrucției reale înainte de a alege cu cine să vorbiți mai întâi.",
+                    "feedback": "De ce: O parcurgere a locului vă oferă informații obiective: Chiar blochează căruciorul intrarea? Cât trotuar este disponibil? Stabilirea contactului vizual prietenos cu ambele părți semnalează neutralitate. Acest lucru vă oferă timp să observați detalii: vârsta vânzătoarei, indicii lingvistice, starea de spirit a mulțimii. | CONSECINȚE: Ambele părți văd un ofițer care evaluează calm situația. Trecătorii văd profesionalism. Descoperiți că căruciorul blochează parțial — dar nu complet — un lateral al intrării. Se poate trece, dar este strâmt. | Reflecție: Cum schimbă 60 de secunde de observare calitatea fiecărei conversații care urmează?",
+                    "type": "positive",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Reclamantul",
+            "sceneUpdate": {
+                "emoji": "😤",
+                "title": "Nemulțumirea domnului Harris",
+                "desc": "Vă apropiați de domnul Harris. Are în jur de 50 de ani, poartă un șorț de magazin și este vizibil iritat. Magazinul său de papetărie are o intrare modestă, iar căruciorul de mâncare este instalat la aproximativ doi metri de ușa sa — suficient de aproape pentru a îngusti trecerea pietonilor, dar fără a o bloca complet."
+            },
+            "npcDialogue": [
+                {
+                    "character": "shopowner",
+                    "text": "În sfârșit! Am sunat acum o oră. Uitați-vă la asta — se instalează chiar în fața magazinului meu în fiecare weekend. Mirosul alungă clienții, oamenii varsă mâncare lângă intrarea mea și abia îmi pot primi livrările. Nu are autorizație — am verificat. Eu plătesc chirie, plătesc taxe, respect regulile. Ea pur și simplu apare și face ce vrea. Vreau să fie eliminată. Astăzi."
+                }
+            ],
+            "prompt": "Domnul Harris are preocupări legitime, dar cere eliminarea imediată. Cum răspundeți?",
+            "options": [
+                {
+                    "text": "Vă înțeleg frustrarea, domnule Harris, și pot vedea că căruciorul este aproape de intrarea dumneavoastră. Ați avut dreptate să sunați — voi investiga acest lucru temeinic. Puteți să-mi spuneți: căruciorul a blocat fizic vreodată clienții să intre, sau este mai degrabă proximitatea și mirosul de gătit? Și ați vorbit vreodată direct cu dânsa despre mutarea căruciorului?",
+                    "feedback": "De ce: Validează frustrarea sa și dreptul de a reclama. Întrebările specifice separă diferitele tipuri de prejudiciu: obstrucția fizică (aplicabilă legal) de proximitate și miros (mai puțin clar). A întreba dacă a vorbit cu ea dezvăluie dinamica relației și dacă escaladarea a fost prematură. | CONSECINȚE: Domnul Harris admite că clienții pot încă intra, dar 'nu asta e problema'. Nu a vorbit cu ea — 'Asta e treaba dumneavoastră.' Acum înțelegeți că plângerea are componente legitime și exagerate, fără vreo tentativă de rezolvare directă. | Reflecție: De ce schimbă înțelegerea naturii specifice a unei plângeri gama răspunsurilor adecvate?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă înțeleg pe deplin, domnule Harris — vă confruntați cu asta de ceva vreme și pot vedea cum vă afectează afacerea. Dacă nu are o autorizație valabilă, este într-adevăr în contravenție și mă voi ocupa personal de acest aspect. Permiteți-mi să merg acum să vorbesc direct cu ea și să clarific situația licenței. Dați-mi câteva minute și revin cu un răspuns concret.",
+                    "feedback": "De ce: A valida plângerea este bine, dar a promite aplicarea legii înainte de a verifica faptele vă angajează într-un rezultat. Nu cunoașteți situația ei, ce prevede legislația sau dacă există circumstanțe atenuante. | CONSECINȚE: Domnul Harris este satisfăcut — deocamdată. Dar v-ați închis într-o cutie. Dacă mai târziu decideți că un avertisment sau o relocare este mai potrivită, va simți că v-ați încălcat promisiunea. | Reflecție: Care este riscul de a vă angaja într-o acțiune de aplicare a legii înainte de a aduna toate informațiile?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Pot vedea că acest lucru este frustrant, domnule Harris, și apreciez răbdarea dumneavoastră — știu că ați așteptat. Permiteți-mi să merg acum să vorbesc cu vânzătoarea și vom clarifica întreaga situație cât de repede posibil. Revin cu o informare completă de îndată ce știu exact cu ce ne confruntăm și vom găsi o rezolvare concretă.",
+                    "feedback": "De ce: Demonstrează receptivitate, dar 'rezolvat rapid' implică o acțiune rapidă și decisivă care s-ar putea să nu fie adecvată. Nu ați pus nicio întrebare clarificatoare despre plângere. Trecerea la acțiune înainte de a înțelege vă limitează opțiunile. | CONSECINȚE: Abordați vânzătoarea fără a înțelege dimensiunile plângerii. Dacă nu puteți rezolva rapid, răbdarea domnului Harris se epuizează mai repede pentru că ați creat așteptarea de viteză. | Reflecție: Cum afectează stabilirea unei așteptări de viteză capacitatea dumneavoastră de a găsi o soluție bine gândită?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Domnule Harris, apreciez că ați sunat și înțeleg că sunteți frustrat, dar sincer aceasta pare mai degrabă o problemă de licențiere municipală și de urbanism decât o chestiune de poliție propriu-zisă. Ați încercat să contactați direct biroul de autorizări al primăriei? Acolo au inspectori care gestionează autorizațiile de vânzare stradală și folosirea trotuarului — ar putea fi calea mai rapidă spre o soluție permanentă.",
+                    "feedback": "De ce: Ați fost trimis la acest apel. A spune reclamantului că nu este o problemă de poliție după ce a așteptat o oră pare disprețuitor. Vă pierde încrederea în a suna la poliție pentru probleme viitoare. | CONSECINȚE: Domnul Harris explodează: 'Am așteptat o oră ca dumneavoastră să-mi spuneți să sun la primărie?!' Vocea lui se aude peste tot. Trecătorii ridică privirea. Situația escaladează înainte să fi vorbit cu vânzătoarea. | Reflecție: Chiar și atunci când competența este ambiguă, care este costul de a părea că respingeți preocuparea unui cetățean?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Primul contact cu vânzătoarea",
+            "sceneUpdate": {
+                "emoji": "👵",
+                "title": "Întâlnirea cu doamna Tran",
+                "desc": "Vă apropiați de căruciorul de mâncare. Vânzătoarea este o femeie micuță, în vârstă — probabil la începutul anilor 60. Căruciorul ei este curat și organizat, cu un meniu scris de mână în vietnameză și engleză. Vă vede venind și mâinile i se împietresc. Privirea îi alunecă spre domnul Harris, apoi înapoi la dumneavoastră. Un client care tocmai comandă se dă la o parte."
+            },
+            "npcDialogue": [
+                {
+                    "character": "vendor",
+                    "text": "(în engleză cu accent, dar funcțională) Vă rog... nu fac probleme. Sunt aici de mult timp. Oamenilor le place mâncarea mea. Am făcut cerere pentru autorizație, dar durează foarte mult. Vă rog, domnule ofițer, din asta îmi hrănesc nepoții."
+                }
+            ],
+            "prompt": "Doamna Tran este în mod evident speriată, dar încearcă să-și explice situația. Cum interacționați cu ea?",
+            "options": [
+                {
+                    "text": "Stați cu picioarele ferm pe asfalt și mâinile pe centură, adoptând o postură oficială dar neostilă. Vorbiți clar și apăsat: 'Doamna Tran, înțeleg că este dificil pentru dumneavoastră și văd că aveți un cărucior bine întreținut. Dar realitatea este că funcționarea fără autorizație constituie o contravenție, iar proprietarul magazinului are dreptul legal la acces neobstrucționat la afacerea sa. Va trebui să începeți să strângeți căruciorul pentru astăzi.'",
+                    "feedback": "De ce: Ați sărit de la primul contact la aplicare fără cercetare, mediere sau explorarea alternativelor. Nu știți despre cererea sa în curs, cum arată sistemul de autorizații sau dacă există circumstanțe atenuante. Practica recomandată pentru aplicarea legii la vânzători este educație și avertisment înainte de acțiune punitivă. | CONSECINȚE: Ochii doamnei Tran se umplu de lacrimi. Începe să se conformeze, cu mâinile tremurând. Cineva scoate telefonul și începe să filmeze. Scena este pe cale să devină cel mai rău tip de clip viral. | Reflecție: Ce spune practica recomandată despre succesiunea educație, avertisment și aplicare pentru contravențiile minore?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Vă mențineți tonul calm și profesional, păstrând o distanță respectuoasă față de cărucior. Vorbiți uniform, fără inflexiuni amenințătoare: 'Doamnă, trebuie să vă pun câteva întrebări. Mai întâi — aveți o autorizație de vânzător valabilă pentru această locație? Proprietarul magazinului de acolo a depus o plângere oficială că căruciorul dumneavoastră este poziționat prea aproape de intrarea lui și blochează parțial accesul pietonal.'",
+                    "feedback": "De ce: Profesional și direct, dar focalizarea imediată pe autorizație confirmă teama ei — este vorba despre dacă ea este 'legală'. Menționarea plângerii o face să se simtă acuzată. Ea aude: 'cineva te-a reclamat și acum am nevoie de actele tale.' | CONSECINȚE: Anxietatea doamnei Tran crește brusc. Începe să-și caute frenetic în geantă, cu mâinile tremurând. Clienții se îndepărtează. Interacțiunea pare o inspecție, nu o conversație. | Reflecție: Cum schimbă faptul de a începe cu cereri de documente versus cu o conversație dinamica emoțională?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă încetiniți pasul pe măsură ce vă apropiați, mențineți limbajul corporal deschis cu palmele vizibile lângă corp și vorbiți blând: 'Bună dimineața. Numele meu este [nume]. Nimeni nu are probleme — sunt aici pentru că proprietarul magazinului a avut câteva preocupări legate de locația căruciorului. Aș dori să înțeleg situația dumneavoastră. Ați menționat o cerere de autorizație — puteți să-mi spuneți mai multe despre asta?'",
+                    "feedback": "De ce: Încetinirea pasului și limbajul corporal deschis dezescaladează frica fizic. 'Nimeni nu are probleme' abordează teroarea ei nerostită. Prezentarea pe nume transformă relația autoritate-subiect în persoană-persoană. Formularea ca 'locația căruciorului' menține problema externă și rezolvabilă. A întreba despre cererea de autorizație arată interes real și poate dezvălui bariere sistemice. | CONSECINȚE: Umerii doamnei Tran se relaxează ușor. Explică că a aplicat acum opt luni, dar lista de așteptare este enormă. A ales acest loc pentru traficul pietonal și nu a crezut că blochează ceva. Se oferă să arate chitanța de la cerere. Începe o conversație reală. | Reflecție: Cum schimbă formularea problemei ca fiind situațională mai degrabă decât personală disponibilitatea cuiva de a coopera?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă apropiați cu un semn cald și liniștitor din cap, coborând ușor vocea pentru ca discuția să pară privată în ciuda străzii deschise. Vorbiți pe un ton blând, aproape confidențial: 'Pot vedea că sunteți îngrijorată și nu vreau asta. Sunt aici doar pentru a găsi cea mai bună amplasare a căruciorului, astfel încât toată lumea să fie mulțumită. Nimeni nu va fi arestat sau amendat astăzi, vă promit.'",
+                    "feedback": "De ce: Empatie puternică și liniștire. Cu toate acestea, a promite 'fără amenzi astăzi' înainte de a evalua situația vă elimină complet puterea discreționară. Dacă ulterior este justificată o acțiune de aplicare — sau superiorul dumneavoastră revizuiește cazul — v-ați asumat un angajament care poate fi în conflict cu atribuțiile. De asemenea, riscant dacă reclamantul aude. | CONSECINȚE: Doamna Tran se calmează semnificativ. Dar dacă domnul Harris aude această promisiune, va simți că ați venit cu un rezultat predeterminat în favoarea vânzătoarei. | Reflecție: Cum liniștești pe cineva fără a te angaja prematur la un rezultat?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Factorul mulțime",
+            "sceneUpdate": {
+                "emoji": "📱",
+                "title": "Telefoanele ies la iveală",
+                "desc": "Conversația dumneavoastră cu doamna Tran a atras atenția. Trei persoane care mănâncă pe bancă urmăresc atent. Un tânăr într-un hanorac ține telefonul ridicat, filmând în mod evident. O femeie de vârstă mijlocie cu sacoșe de cumpărături s-a oprit să observe. Domnul Harris urmărește din ușa magazinului, cu brațele încrucișate."
+            },
+            "npcDialogue": [
+                {
+                    "character": "bystander1",
+                    "text": "(strigând de pe bancă) Hei, domnule ofițer — lăsați-o în pace! E doar o bătrânică care încearcă să-și câștige existența. Mâncarea ei e grozavă. Toți de aici o adorăm!"
+                },
+                {
+                    "character": "filmer",
+                    "text": "(ținând telefonul sus, filmând în mod evident fiecare mișcare a dumneavoastră)"
+                }
+            ],
+            "prompt": "Trecătorii susțin vocal vânzătoarea și sunteți filmat. Cum gestionați dinamica mulțimii?",
+            "options": [
+                {
+                    "text": "Vă țineți privirea fixată pe doamna Tran și nu acordați nicio atenție trecătorilor — nici o privire, nici un semn din cap, nimic. Continuați conversația ca și cum grupul de pe bancă și tânărul cu telefonul pur și simplu nu ar exista. Interacțiunea cu mulțimea nu ar face decât să vă distragă de la sarcina propriu-zisă, iar a le acorda atenție ar putea încuraja și mai multe întreruperi pe parcursul discuției.",
+                    "feedback": "De ce: Ignorarea trecătorilor vocali nu-i face să dispară — îi face mai gălăgioși. Cercetările arată că sentimentul de a fi ignorat de poliție crește ostilitatea. A pretinde că mulțimea nu există semnalează că nu vă pasă de opinia comunității. | CONSECINȚE: Trecătorul strigă din nou, mai tare. Cel care filmează se apropie. Alți trecători se opresc. Mulțimea crește pentru că nimeni nu o recunoaște. | Reflecție: Când ignorarea unei mulțimi amplifică de fapt comportamentul acesteia?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Întoarceți scurt capul spre trecătorul de pe bancă și îi faceți un semn calm, sincer din cap. Vorbiți suficient de clar încât grupul și cel care filmează să audă: 'Vă aud — și pot vedea că doamna Tran este apreciată în acest cartier. Nu sunt aici pentru a închide pe nimeni. Lucrez cu toți cei implicați pentru a găsi o soluție care funcționează pentru întregul bloc.' Apoi vă readuceți toată atenția la conversația cu doamna Tran.",
+                    "feedback": "De ce: Recunoașterea mulțimii validează preocuparea lor fără a vă atrage într-o dezbatere. 'Doamna Tran este apreciată' validează legătura comunitară. 'Nu sunt aici pentru a închide pe nimeni' abordează teama lor principală. 'Lucrez cu toată lumea' vă încadrează rolul de mediator, nu de executant. Nereacționarea la cameră semnalează încredere în conduita dumneavoastră. Pivotarea înapoi menține interacțiunea în mișcare. | CONSECINȚE: Trecătorul se liniștește. Cel care filmează continuă să înregistreze, dar nu are nimic inflamator de surprins. Mulțimea trece de la adversitate la observație — urmăresc să vadă dacă vorbiți serios. | Reflecție: Cum schimbă o singură propoziție adresată trecătorilor atmosfera întregii confruntări pentru aplicarea legii?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă cereți scuze de la doamna Tran, mergeți spre grupul de pe bancă și li vă adresați pe un ton deschis: 'Înțeleg că sunteți îngrijorați de ceea ce se întâmplă aici. Proprietarul magazinului a sunat pentru că acest cărucior blochează parțial intrarea lui. Eu încerc să găsesc o soluție echitabilă care să funcționeze pentru toată lumea. Dacă aveți idei sau sugestii, sunt sincer deschis să le aud.'",
+                    "feedback": "De ce: Transparența și deschiderea sunt admirabile. Cu toate acestea, a o părăsi fizic pe doamna Tran pentru a vă adresa mulțimii creează o dinamică de 'adunare publică' în care mai multe voci concurează. Mulțimea poate oferi sugestii irealizabile, creând așteptări noi. | CONSECINȚE: Trecătorii apreciază că sunt ascultați, dar trei persoane vorbesc deodată. Domnul Harris vede că vă consultați cu mulțimea în loc să-i rezolvați plângerea și frustrarea lui crește brusc. Doamna Tran stă singură, nesigură. | Reflecție: Când ajută implicarea comunității la rezolvare și când creează prea mulți participanți?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă întoarceți direct spre trecător, adoptând o postură fermă dar neagresivă, și vi vă adresați cu claritate: 'Înțeleg sentimentele dumneavoastră și văd că vă pasă de doamna Tran. Dar trebuie să ascult ambele părți fără ca opinii din exterior să influențeze conversația. Atât doamna Tran, cât și domnul Harris merită un proces corect, iar asta înseamnă să vorbesc cu ei fără întreruperi.'",
+                    "feedback": "De ce: Sună ca un angajament principial față de corectitudine — protejarea ambelor părți de influența mulțimii în timpul unei conversații sensibile. Limbajul 'proces corect' și 'ambele părți merită' reflectă valorile dreptății procedurale. Cu toate acestea, prezintă sprijinul comunitar ca pe o contaminare, nu ca pe o informație. Le spune mulțimii că vocile lor sunt nedorite într-un spațiu public, și o izolează pe doamna Tran de sprijinul social care o ajută să se simtă în siguranță. | CONSECINȚE: Trecătorul se simte respins de cineva care folosește limbajul corectitudinii pentru a-l reduce la tăcere. Cel care filmează continuă să înregistreze, dar acum are o narațiune: ofițerul a redus la tăcere vocile comunității. Doamna Tran, care se reconfortă știind că vecinii o susțin, acum se simte mai singură. Energia mulțimii trece de la susținere la suspiciune. | Reflecție: Când protejarea procesului de influența externă trece granița către reducerea la tăcere a comunității pe care procesul ar trebui să o servească?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Negocierea",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Găsirea unui teren comun",
+                "desc": "Acum înțelegeți ambele părți. Domnul Harris are o preocupare legitimă privind proximitatea față de intrarea sa. Doamna Tran are o cerere de autorizație în curs, un cărucior curat, clienți fideli și nepoți de hrănit. Trotuarul este suficient de lat — doar nu în poziția actuală, direct lângă ușa domnului Harris."
+            },
+            "npcDialogue": [
+                {
+                    "character": "vendor",
+                    "text": "(în liniște) Nu am știut că este o problemă pentru el. Nu mi-a spus niciodată nimic. Pot... poate pot să mă mut? Dar unde?"
+                }
+            ],
+            "prompt": "Există o deschidere pentru o soluție creativă. Cum o facilitați?",
+            "options": [
+                {
+                    "text": "Vă îndreptați postura și adoptați un ton oficial. Îi comunicați doamnei Tran că trebuie să-și relocalizeze căruciorul la cel puțin zece metri de orice intrare de magazin, fără excepții, cu efect imediat. Apoi o informați că îi emiteți un avertisment verbal formal pentru funcționare fără autorizație de vânzare și că veți nota acest avertisment în raportul de incident pentru evidențe.",
+                    "feedback": "De ce: Tehnic aplicabil, dar disproporționat. O distanță arbitrară cu un avertisment formal — când vânzătoarea are o cerere în curs și reclamantul nu a vorbit niciodată cu ea — tratează medierea ca pură aplicare a legii. Practica recomandată este educația înainte de aplicare. | CONSECINȚE: Doamna Tran se conformează cu teamă. Trecătorii dau din cap dezaprobator. Cel care filmează surprinde o imigrantă în vârstă primind un avertisment formal pentru că vinde mâncare. Domnul Harris obține ce a vrut, dar comunitatea vede o aplicare excesivă a legii. | Reflecție: Când legea vă oferă putere discreționară, cum decideți între un avertisment și o soluție creativă?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă întoarceți la domnul Harris la intrarea magazinului și îi prezentați compromisul direct: 'Ce-ar fi dacă își mută căruciorul vreo cinci metri mai încolo pe trotuar — rămâne pe bloc, vizibilă pentru traficul pietonal, dar departe de intrarea dumneavoastră și de zona de livrări? V-ar rezolva problema?' Așteptați acordul lui, apoi reveniți la doamna Tran și îi comunicați planul stabilit.",
+                    "feedback": "De ce: Practic și orientat spre soluție. Cu toate acestea, a negocia mai întâi cu reclamantul și apoi a prezenta rezultatul vânzătoarei ca pe un fapt consumat subminează capacitatea de acțiune a doamnei Tran. Ea devine subiectul unui acord între figuri de autoritate, nu un participant. De asemenea, îi oferă domnului Harris drept de veto. | CONSECINȚE: Soluția funcționează practic, dar doamna Tran simte că i s-a spus ce să facă, nu că a fost întrebată. Trecătorii văd ofițerul negociind cu proprietarul magazinului și apoi dând instrucțiuni vânzătoarei. Dinamica puterii este vizibilă. | Reflecție: Cine ar trebui să fie în centrul unei soluții — reclamantul, persoana afectată sau ambii?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă apropiați de doamna Tran și îi sugerați, pe un ton pe care îl intenționați ca fiind de ajutor, să strângă căruciorul pentru ziua de astăzi și să revină mai degrabă într-o zi lucrătoare, când strada comercială este mai puțin aglomerată și există mai puțin trafic pietonal care să concureze pentru spațiul de pe trotuar. Așa ar putea evita alte plângeri de la proprietarii de magazine și ar menține un profil discret cât timp cererea de autorizație este încă pe lista de așteptare.",
+                    "feedback": "De ce: A-i spune unei vânzătoare să plece și să revină altă zi este eliminare cu un ambalaj politicos. Zilele lucrătoare sunt mai puțin aglomerate — venituri mai mici pentru cineva care hrănește nepoți. Stabiliți un precedent conform căruia orice plângere costă vânzătorul o zi de venituri. | CONSECINȚE: Doamna Tran strânge, pierzând jumătate de zi de câștig. Trecătorii sunt revoltați. Cel care filmează surprinde un ofițer de poliție spunându-i unei imigrante în vârstă să meargă acasă. Videoclipul spune o poveste pe care nu ați intenționat-o. | Reflecție: Care este diferența dintre o soluție care rezolvă problema și una care elimină persoana problemă?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Priviți împreună cu doamna Tran aranjamentul străzii, arătând cu mâna de-a lungul trotuarului: 'Ce-ar fi dacă găsim un loc tot pe acest bloc — cu trafic pietonal bun pentru afacerea dumneavoastră — dar nu chiar lângă ușa domnului Harris? Ați fi dispusă să încercați?' Mergeți alături de ea pentru a identifica un loc potrivit, poate la vreo cincisprezece metri distanță, unde există un spațiu gol între două vitrine cu loc din belșug.",
+                    "feedback": "De ce: Rezolvare colaborativă a problemei care abordează preocupările ambelor părți. A merge cu ea — nu a o direcționa — o tratează ca pe un partener. Găsirea unui loc împreună respectă cunoștințele ei despre afacere în timp ce rezolvă obstrucția. 'Ați fi dispusă?' oferă alegere în loc de un ordin. | CONSECINȚE: Față doamnei Tran se luminează — nu se gândise la spațiul gol de lângă vitrina goală. Mutarea durează cinci minute. Intrarea domnului Harris este liberă. Doamna Tran își păstrează clienții. Trecătorii văd un ofițer de poliție ajutând o femeie în vârstă să găsească un loc mai bun. | Reflecție: Ce comunică rezolvarea colaborativă a problemei fiecărui trecător care urmărește?",
+                    "type": "positive",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Proprietarul magazinului ripostează",
+            "sceneUpdate": {
+                "emoji": "😠",
+                "title": "Obiecția domnului Harris",
+                "desc": "Ați propus relocarea. Doamna Tran este de acord. Dar domnul Harris vine cu pas hotărât, clătinând din cap."
+            },
+            "npcDialogue": [
+                {
+                    "character": "shopowner",
+                    "text": "Să o mutați mai încolo pe stradă?! Asta nu rezolvă nimic! Ea încă funcționează ilegal! Care e rostul autorizațiilor dacă poliția doar ajută oamenii să încalce regulile? Vreau să fie ELIMINATĂ — de pe toată strada. Dacă nu vă faceți treaba, sun la superiorul dumneavoastră."
+                }
+            ],
+            "prompt": "Reclamantul escaladează dincolo de plângerea inițială. Cum gestionați situația?",
+            "options": [
+                {
+                    "text": "Vă întoarceți calm spre domnul Harris, menținându-vă vocea fermă și respectuoasă: 'Înțeleg că nu este exact ce ați sperat. Dar plângerea dumneavoastră a fost că acel cărucior vă blochează intrarea, și asta am rezolvat-o. Chestiunea autorizației este o problemă de licențiere pe care am notat-o pentru canalele corespunzătoare. Nu pot elimina pe cineva de pe o stradă publică doar pentru că o afacere din vecinătate nu o dorește acolo. Aveți numărul meu de insignă — sunați dacă noua poziție vă cauzează vreun inconvenient.'",
+                    "feedback": "De ce: Sincer, clar, respectuos și în același timp trasează o limită fermă. Separă plângerea legitimă (obstrucție — rezolvată) de exces (eliminarea completă). 'Nu așa funcționează lucrurile' este direct fără a fi nepoliticos. Oferirea numărului de insignă arată responsabilitate și încredere. | CONSECINȚE: Domnul Harris este frustrat, dar nu are un contraargument valid. Plângerea lui a fost rezolvată — doar nu așa cum dorea. Trecătorii aud un ofițer explicând calm proporționalitatea. Amenințarea cu superiorul își pierde puterea când v-ați oferit numărul de insignă. | Reflecție: Cum mențineți o limită cu un reclamant care dorește mai mult decât ceea ce este proporțional?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Aduceți ambele părți în aceeași conversație, poziționându-vă între ei cu un limbaj corporal deschis. Li vă adresați împreună pe un ton constructiv: 'Am făcut progrese reale aici. Doamna Tran a fost de acord să-și mute căruciorul, ceea ce vă eliberează complet intrarea, domnule Harris. Chestiunea autorizației este de competența autorității de licențiere, nu a poliției. Putem fi cu toții de acord că aceasta este o soluție rezonabilă și echitabilă pentru ziua de astăzi?'",
+                    "feedback": "De ce: Incluziv și încearcă o închidere colaborativă. Cu toate acestea, a întreba 'putem fi de acord?' îi oferă domnului Harris drept de veto asupra unei soluții proporționale. Dacă spune nu — probabil, având în vedere starea lui — v-ați subminat autoritatea. Căutarea acordului dă înapoi când una din părți dorește rezultate disproporționate. | CONSECINȚE: Domnul Harris spune: 'Nu, nu pot fi de acord. Vreau să dispară.' Sunteți blocat — ați invitat o negociere de care nu era nevoie. | Reflecție: Când este căutarea acordului productivă și când cedează controlul părții greșite?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă interpuneți fizic între cei doi, ridicând o mână pentru a menține o distanță confortabilă. Vorbiți cu o directețe degajată: 'Domnule Harris, v-am ascultat plângerea și o rezolv chiar acum — doamna Tran își mută căruciorul în acest moment. Chestiunea licenței depășește competențele mele, aceea ține de primărie. Ar fi bine să găsiți un mod de conviețuire pe viitor, pentru că probabil va fi în zonă și weekendul următor.'",
+                    "feedback": "De ce: 'Depășește atribuțiile mele' este disprețuitor. 'Va fi aici și weekendul viitor' sună ca o provocare. A le spune să 'se aranjeze singuri' aruncă responsabilitatea pe două părți care nu pot gestiona asta fără mediere. Rezolvă ziua de astăzi dar plantează semințele conflictului de weekendul viitor. | CONSECINȚE: Domnul Harris se năpustește spre magazin, furios. Vă sună la superiorul dumneavoastră. Doamna Tran se simte nesigură pentru săptămâna viitoare. Problema de astăzi rezolvată, cea de mâine creată. | Reflecție: Cum afectează limbajul de încheiere durabilitatea unei soluții?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Dați din cap gânditor la remarca domnului Harris, schimbându-vă vizibil atitudinea: 'Știți, aveți dreptate în legătură cu autorizația — nu ar trebui să funcționeze fără una valabilă. Permiteți-mi să mă întorc la doamna Tran și să-i emit un avertisment formal, consemnat oficial. Voi documenta totul amănunțit în raportul meu, astfel încât să existe o evidență clară pe hârtie dacă această situație continuă weekendul viitor sau după.'",
+                    "feedback": "De ce: A ceda presiunii reclamantului escaladând aplicarea legii împotriva vânzătoarei. Vânzătoarea a cooperat deja și s-a mutat. A adăuga un avertisment formal după cooperare o pedepsește pentru că a fost de acord. Aceasta este evitarea conflictului pe cheltuiala vânzătoarei. | CONSECINȚE: Doamna Tran, care tocmai a cooperat pe deplin, primește un avertisment formal. Este confuză și rănită. Trecătorii văd exact ce s-a întâmplat: proprietarul a insistat și ofițerul a cedat pe seama femeii în vârstă. Încrederea distrusă. | Reflecție: Când escaladați aplicarea legii pentru a satisface un reclamant, cine plătește costul real?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Încheierea buclei",
+            "sceneUpdate": {
+                "emoji": "✨",
+                "title": "Puntea spre viitor",
+                "desc": "Criza imediată este rezolvată — doamna Tran și-a relocat căruciorul, intrarea domnului Harris este liberă. Dar o rezolvare bună necesită mai mult decât rezolvarea problemei de astăzi. Doamna Tran își șterge ochii în timp ce se instalează în noul loc. Trecătorii încă urmăresc. Cel care filmează încă înregistrează."
+            },
+            "npcDialogue": [
+                {
+                    "character": "vendor",
+                    "text": "(instalându-se în noul loc, cu vocea tremurând) Vă mulțumesc, domnule ofițer. Mi-a fost atât de frică când v-am văzut venind. Am crezut... am crezut că o să-mi ia căruțul. E tot ce am."
+                }
+            ],
+            "prompt": "Cum încheiați această interacțiune și pregătiți un rezultat durabil?",
+            "options": [
+                {
+                    "text": "Îi faceți doamnei Tran un scurt semn din cap în timp ce își aranjează ustensilele de servire în noul loc. Păstrați tonul ușor, dar lăsați o notă de avertisment să se strecoare: 'Nicio problemă, doamnă Tran. Doar asigurați-vă că rămâneți chiar aici, în acest loc, și nu vă mutați înapoi în apropierea intrării domnului Harris. Dacă sunt trimis din nou aici pentru aceeași problemă, va fi mult mai greu pentru mine să vă ajut în felul în care am făcut-o astăzi.'",
+                    "feedback": "De ce: Amenințarea voalată ('mai greu pentru mine să vă ajut') transformă o rezolvare pozitivă într-o milă condiționată. Implică faptul că ajutorul dumneavoastră a fost o favoare care poate fi retrasă, nu un rezultat corect. Va petrece săptămâna viitoare cu anxietate. | CONSECINȚE: Doamna Tran dă din cap nervos. Bunăvoința este subminată de avertisment. Trecătorii aud amenințarea implicită și opinia lor se înrăutățește în ultimul moment. | Reflecție: Cum modelează ultimul lucru pe care îl spuneți amintirea de durată a întregii interacțiuni?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă apropiați cu un zâmbet cald și sincer, o bateți ușor, reconfortant pe umăr, lăsându-vă complet garda jos în timp ce soarele dimineții cade peste căruciorul ei: 'Nu aveți absolut nicio grijă, doamnă Tran — nu voi lăsa pe nimeni să vă deranjeze aici. Aveți clienți fideli și mâncarea dumneavoastră miroase extraordinar. Continuați exact ce faceți și nu vă mai gândiți la nimic din ce s-a întâmplat. De acum înainte totul va fi în regulă, vă asigur.'",
+                    "feedback": "De ce: Cald și uman, dar promite mai mult decât puteți oferi. Nu veți fi aici weekendul viitor. Ignoră și problema autorizației care necesită rezolvare. Suprapromisiunea o lasă expusă când un alt ofițer răspunde diferit data viitoare. | CONSECINȚE: Doamna Tran se simte minunat astăzi. Sâmbătă viitoare, un alt ofițer gestionează aceeași plângere fără abordarea dumneavoastră. Ea spune: 'Dar celălalt ofițer a spus că nimeni nu mă va deranja!' Inconsistența dăunează încrederii mai mult decât absența dumneavoastră. | Reflecție: Când trece reconfortarea în suprapromisiune? Cum pregătiți pe cineva pentru realitate după ce plecați?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Zâmbiți cald și lăsați tensiunea să se risipească din postură: 'Mă bucur că am reușit, doamnă Tran. Cererea de autorizație este cheia pentru a face totul permanent și sigur pentru dumneavoastră. Știți dacă există o organizație comunitară sau un serviciu de asistență juridică care v-ar putea ajuta să accelerați procesul? Vreau ca aceasta să fie rezolvată cum trebuie, ca să nu mai trebuiască să vă faceți griji în fiecare weekend.' Dacă aveți informații despre servicii locale de sprijin, i le oferiți.",
+                    "feedback": "De ce: Recunoaște rezolvarea cu căldură, apoi pivotează către vulnerabilitatea pe termen lung — autorizația. În loc să ignore problema legală sau să o weaponizeze, o ajutați să o rezolve. Conectarea ei cu resurse arată grijă reală dincolo de această întâlnire. 'Pentru a nu mai fi nevoie să vă faceți griji în fiecare weekend' numește anxietatea ei și oferă o cale de ieșire. Aceasta este diferența între rezolvarea unui incident și îmbunătățirea unei vieți. | CONSECINȚE: Doamna Tran vă mulțumește — nu doar pentru astăzi, ci pentru că i-ați dat o direcție. Un trecător menționează un centru local de sprijin pentru imigranți. Cel care filmează surprinde un ofițer de poliție ajutând un vânzător să găsească sprijin pe termen lung. Acesta este videoclipul care construiește încredere. | Reflecție: Care este diferența între a rezolva problema de astăzi și a pregăti pe cineva pentru săptămâna viitoare?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă îndreptați postura și încheiați cu un profesionalism expeditiv, bifând interacțiunea mental: 'Doamnă Tran, sunteți instalată în noul loc. Am notat situația în jurnalul meu de activitate. Dacă aveți probleme viitoare cu proprietarul magazinului, sunați la linia de non-urgență și faceți referire la numărul raportului de astăzi. Aveți grijă de dumneavoastră.' Vă întoarceți și vă îndreptați spre mașina de serviciu, trecând la următorul apel.",
+                    "feedback": "De ce: Sună eficient și profesional — documentarea întâlnirii, furnizarea unui număr de referință și oferirea unui canal pentru preocupări viitoare. Bifează căsuțele procedurale. Cu toate acestea, tratează încheierea ca administrativă mai degrabă decât umană. Doamna Tran tocmai a trăit unul dintre cele mai înfricoșătoare momente ale săptămânii și primește un număr de referință în loc de conexiune reală. Autorizația — vulnerabilitatea subiacentă care va aduce poliția înapoi la căruciorul ei weekendul viitor — rămâne complet neadresată. | CONSECINȚE: Doamna Tran are un număr de referință, dar nicio cale înainte pentru autorizația care ar proteja-o cu adevărat. Sâmbătă viitoare, aceeași teamă revine. Întâlnirea a fost procedural curată, dar personal goală — a fost procesată, nu ajutată. Trecătorii văd un ofițer care a rezolvat hârtiile, dar a ratat persoana. | Reflecție: Când eficiența profesională devine un substitut pentru grija reală, ce scapă prin crăpături?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debrief și dezvăluire",
+            "sceneUpdate": {
+                "emoji": "🏁",
+                "title": "Debrief de instruire",
+                "desc": "Înapoi la secție. Sergentul Davis analizează performanța dumneavoastră în acest scenariu de aplicare a legii la un vânzător stradal."
+            },
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Aplicarea legii la vânzătorii stradali este locul unde proporționalitatea este testată cel mai vizibil. Aveați o plângere validă, o contravenție tehnică, trecători care filmau și o bunică de 62 de ani care își hrănea familia. Fiecare acțiune pe care ați întreprins-o — de la parcurgerea inițială a locului la modul în care ați interacționat cu mulțimea, până la soluția propusă — a fost evaluată nu doar de persoanele de la fața locului, ci de toți cei care vor viziona ulterior videoclipul. Întrebarea nu a fost niciodată dacă doamna Tran funcționa fără autorizație. Întrebarea a fost dacă răspunsul dumneavoastră corespundea prejudiciului real."
+                },
+                {
+                    "character": "officer",
+                    "text": "M-am tot întors în minte la autorizație. Ea era tehnic în contravenție. O parte din mine simțea că dacă nu aplic legea, nu îmi fac treaba. Dar opțiunile de aplicare păreau toate disproporționate față de ce se întâmpla de fapt."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Și acel conflict intern este exact locul unde se formează ofițerii buni. Proporționalitatea nu înseamnă a fi blând. Înseamnă a vă calibra răspunsul la prejudiciul real, nu la contravenția tehnică. Prejudiciul aici era o intrare parțial blocată — rezolvată prin relocare. Contravenția tehnică era o autorizație lipsă — semnalată și redirecționată spre canalele corespunzătoare. Le-ați abordat pe ambele fără a criminaliza o bunică care vinde supă. Asta nu e clemență. E precizie. Ofițerii care confundă aplicarea legii cu justiția ajung în clipuri virale exact din motivele greșite."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Ceea ce a făcut această întâlnire excepțională a fost ultima parte — conectarea doamnei Tran cu resurse pentru cererea de autorizație. Majoritatea ofițerilor s-ar fi oprit la relocare și ar fi considerat-o o victorie. Dumneavoastră ați mers mai departe pentru că ați înțeles că a rezolva problema de astăzi fără a aborda vulnerabilitatea de mâine înseamnă doar jumătate din treabă. Videoclipul pe care l-a postat acel trecător avea descrierea 'Așa ar trebui să arate activitatea de poliție.' Asta nu se întâmplă din întâmplare. Se întâmplă pentru că ați luat fiecare decizie având în minte atât legea, cât și ființa umană. Permiteți-mi să vă spun ce s-a întâmplat după aceea."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispecerat", "avatar": "📻"},
+        "shopowner": {"name": "Dl. Harris (proprietar magazin, 55)", "avatar": "😤"},
+        "vendor": {"name": "Dna. Tran (vânzătoare, 62)", "avatar": "👵"},
+        "bystander1": {"name": "Trecător care o susține", "avatar": "🧑"},
+        "filmer": {"name": "Tânăr (filmează)", "avatar": "📱"},
+        "officer": {"name": "Tu (ofițer)", "avatar": "👮"},
+        "trainer": {"name": "Sergent Davis", "avatar": "👮‍♂️"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Dreptate procedurală excepțională!",
+            "emoji": "🌟",
+            "feedback": "Ați demonstrat standardul de aur pentru aplicarea legii la nivel minor: evaluare amănunțită înainte de acțiune, corectitudine procedurală cu ambele părți, rezolvare creativă a problemei care a abordat preocupările legitime ale tuturor, și grijă reală pentru situația pe termen lung a vânzătoarei. Fiecare trecător care a urmărit — și filmat — a văzut o activitate de poliție care construiește încredere comunitară."
+        },
+        "good": {
+            "title": "Performanță solidă",
+            "emoji": "✅",
+            "feedback": "Ați gestionat bine o situație complexă cu multiple părți, arătând corectitudine și lucrând spre rezolvare în loc de pedeapsă. Unele oportunități pentru implicare mai profundă sau gestionare mai bună a mulțimii au fost ratate, dar abordarea dumneavoastră a fost profesională și proporțională."
+        },
+        "average": {
+            "title": "Răspuns adecvat",
+            "emoji": "📊",
+            "feedback": "Ați rezolvat situația imediată, dar ați ratat aspecte importante ale dreptății procedurale. Fie că ați grăbit aplicarea legii, nu ați implicat mulțimea sau nu ați abordat nevoile pe termen lung ale vânzătoarei, au existat oportunități pentru o rezolvare mai durabilă."
+        },
+        "poor": {
+            "title": "Necesită îmbunătățiri semnificative",
+            "emoji": "⚠️",
+            "feedback": "Abordarea dumneavoastră a prioritizat aplicarea legii în detrimentul rezolvării problemei și a ratat oportunități critice pentru dreptate procedurală. În aplicarea legii la nivel minor la vânzători, modul în care gestionați întâlnirea determină încrederea comunității pentru ani de zile. Revedeți principiile dreptății procedurale, proporționalitatea în aplicare și dinamica mulțimilor."
+        }
+    },
+    "metrics": {
+        "proceduralJustice": {
+            "name": "Dreptate procedurală",
+            "description": "Tratarea tuturor părților cu demnitate, transparență și corectitudine — asigurându-vă că procesul pare just indiferent de rezultat",
+            "icon": "⚖️"
+        },
+        "proportionality": {
+            "name": "Proporționalitate și discreție",
+            "description": "Calibrarea răspunsului la gravitate, utilizarea înțeleaptă a puterii discreționare în aplicarea legii la nivel minor",
+            "icon": "📏"
+        },
+        "crowdDynamics": {
+            "name": "Gestionarea mulțimii și a camerei",
+            "description": "Interacțiunea constructivă cu trecătorii și menținerea profesionalismului sub observație",
+            "icon": "👥"
+        },
+        "creativeSolutions": {
+            "name": "Rezolvare creativă a problemelor",
+            "description": "Găsirea rezultatelor care abordează preocupările legitime ale tuturor părților, în loc de aplicare de tip câștigător-perdant",
+            "icon": "💡"
+        },
+        "communityTrust": {
+            "name": "Impactul asupra încrederii comunitare",
+            "description": "Construirea încrederii comunitare pe termen lung în poliție prin calitatea acestei întâlniri",
+            "icon": "🤝"
+        }
+    }
+}

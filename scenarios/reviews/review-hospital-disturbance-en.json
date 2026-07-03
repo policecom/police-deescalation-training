@@ -1,0 +1,802 @@
+{
+    "scenarioId": "hospital-disturbance",
+    "reviewVersion": "v1",
+    "title": "Deep Analysis — Hospital Disturbance",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "The Call and the Corridor",
+            "criticalSkills": [
+                "Pre-engagement intelligence gathering",
+                "Coordination with medical staff before patient contact",
+                "Proportional safety assessment"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Ask the security guard: 'Has he made any direct threats to harm anyone? Is he armed? Has anyone offered him pain management? And who's the charge nurse — I'd like a quick word with them before I go in.'",
+                    "strengths": [
+                        "Gathers critical tactical information (weapons, direct threats) for safety assessment",
+                        "Asking about pain management shows understanding that medical factors drive hospital aggression",
+                        "Requesting contact with the charge nurse establishes healthcare-police collaboration from the start",
+                        "30 seconds of preparation transforms a reactive response into a strategic one"
+                    ],
+                    "consequences": "You enter with a clear picture: no weapons, no direct threats to specific people, pain management not yet provided, and the charge nurse is expecting you. You have a plan, not just a presence.",
+                    "trainingFocus": "How does 30 seconds of preparation change the trajectory of the next 30 minutes? What information is critical before engaging a hospital patient?"
+                },
+                "partially_positive": {
+                    "choiceText": "Ask the security guard a few quick questions — is Pavel armed, has he directly threatened anyone? Then head in calmly, keeping the guard as backup.",
+                    "adequate": [
+                        "Good instinct to gather basic safety information",
+                        "Keeping security as backup is tactically sound"
+                    ],
+                    "missed": [
+                        "No coordination with medical staff — missing the clinical context behind the behavior",
+                        "Treating this as a security situation when it's primarily a healthcare situation with security dimensions",
+                        "Without medical context, you may misread pain-driven behavior as aggression-driven behavior"
+                    ],
+                    "improvement": "In a hospital setting, whose expertise matters most for understanding why a patient is behaving aggressively? What does coordination with clinical staff give you that security can't?",
+                    "consequences": "You're safe and reasonably informed, but lack the medical context that would help you understand Pavel's behavior and work effectively with the care team."
+                },
+                "neutral": {
+                    "choiceText": "Tell the security guard to clear the waiting room of other patients for safety, then position yourself at the entrance to the triage area and call out to Pavel that police have arrived.",
+                    "adequate": [
+                        "Safety consciousness is present",
+                        "Awareness that other patients may be at risk"
+                    ],
+                    "missed": [
+                        "Evacuating a waiting room for a patient who threw a magazine rack is disproportionate — creates chaos and delays care for dozens",
+                        "Announcing police arrival from a distance is impersonal and triggers a potential arrest perception",
+                        "Pavel will hear 'police' before he sees a human being"
+                    ],
+                    "improvement": "How do you assess proportionality when deciding on safety measures? What's the difference between a patient who threw an object in frustration and an active threat?",
+                    "consequences": "Other patients panic as the waiting room is evacuated. Pavel hears 'Police!' and his adrenaline spikes. He perceives this as a potential arrest situation."
+                },
+                "negative": {
+                    "choiceText": "Thank the security guard and head in promptly — staff safety is the priority, and every minute Paul is near the nurses' station without police presence increases the risk. You can get the medical details from the staff once you've stabilized the situation.",
+                    "risks": [
+                        "Sounds like a reasonable tactical approach — prioritizing staff safety and stabilizing before gathering details",
+                        "However, a hospital disturbance driven by pain is not an active threat scenario requiring immediate tactical entry",
+                        "Entering without understanding medical status, what's been tried, or staff needs means reacting rather than responding",
+                        "Paul sees purposeful police movement toward him — triggering fight-or-flight in someone who already fears criminalization"
+                    ],
+                    "consequences": "You enter without context about triggers, medical issues, or staff attempts. Paul perceives police urgency as a threat. The interaction begins from a deficit of understanding and trust.",
+                    "trainingFocus": "When does the urgency to act quickly override the value of acting effectively? How do you distinguish genuine time-sensitivity from urgency bias?"
+                }
+            },
+            "keyLearningPoints": [
+                "Pre-engagement intelligence gathering is not a delay — it's an investment in a better outcome",
+                "In hospital settings, coordination with clinical staff is as important as tactical assessment",
+                "Understanding the medical drivers of aggression (pain, fear, medication status) transforms your approach",
+                "Proportional response means matching your preparation to the actual threat level, not the worst-case scenario"
+            ]
+        },
+        "2": {
+            "stageName": "First Contact",
+            "criticalSkills": [
+                "Non-threatening body language and positioning",
+                "Addressing stated fears directly",
+                "Validating pain as the primary driver of behavior"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Stay calm, keep your hands visible and relaxed at your sides, maintain about two meters of distance. Speak slowly: 'Pavel, I'm not here to arrest anyone. I can see you're in a lot of pain. My name is [name], and I'm here to help figure this out. Can you tell me what's going on?'",
+                    "strengths": [
+                        "Visible hands signal no threat — concealed hands can imply a concealed weapon",
+                        "Two meters respects personal space while maintaining conversational range",
+                        "Using his name immediately builds personal rapport",
+                        "Directly naming his pain validates his experience before anything else",
+                        "Denying arrest intent addresses his explicitly stated fear",
+                        "Open-ended question gives him the floor — he's been trying to be heard for hours",
+                        "Speaking slowly encourages him to match your pace — a proven de-escalation technique"
+                    ],
+                    "consequences": "Pavel's defensive posture relaxes slightly. He's still angry, but he's been given space and an invitation to be heard — which is what he's been missing for four hours.",
+                    "trainingFocus": "Why is it important that your body language is congruent with your words? What happens when a patient senses mismatch between verbal reassurance and physical tension?"
+                },
+                "partially_positive": {
+                    "choiceText": "Hold up both hands in a calming gesture: 'Hey, easy. Nobody's getting arrested. I just need you to take a step back from the nurses' station and we can talk about what's happening.'",
+                    "adequate": [
+                        "Reassurance about no arrest is appropriate",
+                        "Intent to de-escalate is clear"
+                    ],
+                    "missed": [
+                        "'Easy' can feel patronizing to someone in acute distress",
+                        "Asking him to move before establishing any rapport feels like a directive, not an invitation",
+                        "He may interpret 'step back' as the beginning of a physical control sequence",
+                        "No acknowledgment of his pain — the primary driver of his behavior"
+                    ],
+                    "improvement": "At what point in the interaction is it appropriate to make physical requests, and what needs to happen first? How does acknowledging someone's pain change their willingness to comply?",
+                    "consequences": "Pavel doesn't move. He responds: 'Don't tell me to step back — I've been stepping back for four hours!' The interaction starts with a failed request, which weakens your position."
+                },
+                "neutral": {
+                    "choiceText": "Approach at a slight angle, stop a few steps away, and say in a measured tone: 'I'm Officer [name]. I understand you've been waiting a long time. I'd like to hear what happened.'",
+                    "adequate": [
+                        "Good angle approach and measured tone",
+                        "Professional introduction",
+                        "Acknowledging the wait"
+                    ],
+                    "missed": [
+                        "Doesn't address the elephant in the room — that police were called",
+                        "Pavel explicitly expressed fear about being arrested, and this response ignores it",
+                        "Jumping straight to 'what happened' without validating pain may feel investigative",
+                        "The ambiguity about your role creates a barrier to genuine communication"
+                    ],
+                    "improvement": "When someone explicitly states a fear, what's the cost of not addressing it directly? How does ambiguity about your purpose affect a patient's willingness to engage?",
+                    "consequences": "Pavel responds, but he's guarded. He doesn't know if you're here to help or to remove him. The ambiguity creates a barrier to honest communication."
+                },
+                "negative": {
+                    "choiceText": "Position yourself between Pavel and the nurses to protect the staff: 'Sir, I need you to lower your voice and step away from the counter. The staff are trying to do their jobs.'",
+                    "risks": [
+                        "Physically interposing yourself before any verbal engagement is confrontational",
+                        "'Lower your voice' and 'step away' are commands, not conversation openers",
+                        "Framing this around staff needs ignores Pavel's experience entirely",
+                        "He hears: 'Your pain doesn't matter, their convenience does'"
+                    ],
+                    "consequences": "Pavel perceives you as another authority figure dismissing him. His anger redirects from the hospital to you. The confrontation escalates, and dialogue opportunity is lost.",
+                    "trainingFocus": "How do you protect staff safety without positioning yourself as the patient's adversary? Can both objectives coexist?"
+                }
+            },
+            "keyLearningPoints": [
+                "Body language must be congruent with words — if not, the patient senses insincerity and may become more agitated",
+                "When someone explicitly states a fear (arrest), addressing it directly is critical — ignoring it confirms the fear",
+                "Naming the patient's pain before anything else validates their experience and opens the door to communication",
+                "Physical requests (step back, sit down, lower your voice) should follow rapport, not precede it"
+            ]
+        },
+        "3": {
+            "stageName": "The Patient's Story",
+            "criticalSkills": [
+                "Active listening and emotional validation",
+                "Framing behavioral requests as self-interest",
+                "Building alliance through concrete commitments"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "I hear you, and that sounds genuinely frightening — numbness on top of pain is scary. Four hours is a long time when you're suffering like that. I'm going to speak with the medical team about your situation. But I need to ask you to help me help you — if we can keep things calm, I'll have a much better chance of getting their attention. Can we work together on this?",
+                    "strengths": [
+                        "Validates both the physical symptoms (numbness is scary) and the emotional experience (four hours is a long time)",
+                        "The commitment to speak with the medical team is concrete and actionable, not vague",
+                        "Framing calm behavior as helping his own cause gives him agency and motivation",
+                        "'Can we work together' positions you as an ally rather than an authority figure",
+                        "'Help me help you' creates a collaborative framework where his cooperation serves his interest"
+                    ],
+                    "consequences": "Pavel nods. Someone has acknowledged both his pain and his fear. The request to stay calm has a reason behind it — it serves his interest. Cooperation is given a purpose.",
+                    "trainingFocus": "How does framing a behavioral request as self-interest change someone's motivation to comply? Why is 'help me help you' more effective than 'calm down'?"
+                },
+                "partially_positive": {
+                    "choiceText": "I can see you're in serious pain, and I take what you're saying about the numbness seriously. Let me go find a doctor right now and see where you are in the queue. Stay right here — I'll be back in a few minutes.",
+                    "adequate": [
+                        "Shows genuine empathy and proactive support",
+                        "Takes the numbness complaint seriously",
+                        "Offers concrete action"
+                    ],
+                    "missed": [
+                        "Leaving the patient alone immediately after establishing contact breaks the rapport you just built",
+                        "'Stay right here' is a command to someone who hasn't agreed to follow your lead",
+                        "If you can't find a doctor quickly, the delay feels like another broken promise",
+                        "No mechanism to maintain calm in your absence"
+                    ],
+                    "improvement": "What's the risk of making promises that depend on other people's cooperation? How do you maintain connection while needing to step away?",
+                    "consequences": "Pavel waits anxiously. If you return promptly with good news, this works. If you're gone more than a few minutes, his trust evaporates and agitation returns — worse than before."
+                },
+                "neutral": {
+                    "choiceText": "That does sound difficult, Pavel. The ED is really busy tonight, and I know the wait is frustrating. But throwing things and shouting at nurses isn't going to get you seen faster. Let's try to handle this more productively.",
+                    "adequate": [
+                        "Acknowledges the difficulty",
+                        "Uses his name"
+                    ],
+                    "missed": [
+                        "Immediately pivots from acknowledgment to criticizing his behavior",
+                        "'Throwing things and shouting' reminds him of his worst moments rather than meeting him where he is now",
+                        "'More productively' is vague and slightly condescending",
+                        "He didn't throw things for fun — he threw them because he felt invisible"
+                    ],
+                    "improvement": "What's the difference between acknowledging past behavior and dwelling on it? When someone has calmed down, should you remind them of what they did at their worst?",
+                    "consequences": "Pavel's defensiveness returns: 'I wouldn't have shouted if anyone had listened in the first place!' The moment of openness is lost and a justification cycle begins."
+                },
+                "negative": {
+                    "choiceText": "I understand you're frustrated, but I need to be honest — I'm not a doctor and I can't change your position in the queue. The hospital has a triage system that prioritizes the most critical cases. I'm sure the staff are doing their best.",
+                    "risks": [
+                        "Factually accurate but emotionally devastating",
+                        "Pavel didn't ask you to be a doctor — he asked someone to care",
+                        "Defending the triage system aligns you with the institution he feels has failed him",
+                        "'I'm sure the staff are doing their best' dismisses his lived experience of being ignored"
+                    ],
+                    "consequences": "Pavel's expression hardens: 'So you're on their side too. Nobody in this whole building gives a damn.' The last bridge of trust collapses. Escalation is now highly likely.",
+                    "trainingFocus": "When someone feels abandoned by a system, what happens when you defend that system? How do you acknowledge institutional limitations without becoming an institutional defender?"
+                }
+            },
+            "keyLearningPoints": [
+                "Validating both physical and emotional experience creates the foundation for behavioral cooperation",
+                "Behavioral requests framed as self-interest ('help me help you') are far more effective than commands ('calm down')",
+                "Dwelling on past negative behavior when someone has already calmed down re-escalates the situation",
+                "Defending the system that someone feels has failed them positions you as part of the problem"
+            ]
+        },
+        "4": {
+            "stageName": "The Nurse's Perspective",
+            "criticalSkills": [
+                "Validating staff trauma without abandoning the patient",
+                "Advocating for reassessment on clinical grounds, not behavioral ones",
+                "Respecting clinical authority while flagging relevant information"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "I understand — having something thrown at you is frightening, and you have every right to feel unsafe. I don't want to override your triage decisions, that's not my role. But I've spoken with Pavel, and there may be a medical concern here — he's describing leg numbness along with the back pain. Could the charge nurse do a quick reassessment? If his symptoms have changed since initial triage, that might justify an update to his priority. In the meantime, I'll stay close and make sure everyone is safe.",
+                    "strengths": [
+                        "Validates the nurse's fear without dismissing it — she was assaulted at work",
+                        "Explicitly respects triage system and her professional authority",
+                        "Mentions specific symptoms (leg numbness) as actionable clinical information",
+                        "Justifies reassessment on clinical grounds, not as a reward for bad behavior",
+                        "Committing to stay addresses her safety concern directly",
+                        "Preserves the nurse's professional integrity and the fairness of the system"
+                    ],
+                    "consequences": "Nurse Kovářová's tension drops. She's not being told to give in — she's given a clinical reason to reassess. She contacts the charge nurse. The system works as designed.",
+                    "trainingFocus": "How do you advocate for a patient without undermining the staff who feel victimized by that patient? What's the difference between clinical advocacy and behavioral rewarding?"
+                },
+                "partially_positive": {
+                    "choiceText": "I know this is stressful. He's calmed down for now and I don't think he's a danger. Could someone maybe check on him or at least give him an update on wait times? Sometimes just knowing someone hasn't forgotten about you makes a huge difference.",
+                    "adequate": [
+                        "Good insight that communication gaps drive patient aggression",
+                        "Practical suggestion that addresses the root cause",
+                        "Understands that feeling forgotten is a primary trigger"
+                    ],
+                    "missed": [
+                        "'I don't think he's a danger' minimizes the nurse's experience — she had something thrown at her head",
+                        "Asking her to do more for the person who scared her without fully acknowledging her experience feels tone-deaf",
+                        "No validation of her fear before making requests",
+                        "The suggestion is sound but the delivery needed empathy for the nurse first"
+                    ],
+                    "improvement": "When you're mediating between two parties, how do you ensure you validate both experiences fully before making requests? Does the order of empathy-then-request matter?",
+                    "consequences": "The nurse feels her fear isn't being taken seriously. She may comply reluctantly, but resentment toward the officer builds."
+                },
+                "neutral": {
+                    "choiceText": "I hear you, and I'm sorry this happened. That must have been terrifying. I'll make sure he doesn't bother you again — if he causes any more problems, I'll remove him from the premises.",
+                    "adequate": [
+                        "Strong empathy for the nurse",
+                        "Promise of protection feels reassuring"
+                    ],
+                    "missed": [
+                        "Committing to remove a patient with a potential medical emergency is ethically and legally problematic",
+                        "If Pavel's numbness indicates nerve compression, removal could cause serious harm",
+                        "You've positioned yourself entirely on staff's side, abandoning the patient",
+                        "The promise may conflict with Pavel's medical needs"
+                    ],
+                    "improvement": "Can you protect staff without potentially abandoning a patient's medical needs? How do you balance safety commitments with healthcare obligations?",
+                    "consequences": "The nurse feels protected, but you've made a promise that may conflict with Pavel's medical needs. Serious liability implications if his condition worsens after removal."
+                },
+                "negative": {
+                    "choiceText": "Look, I get it — he shouldn't have thrown anything. But honestly, four hours with no update? I can understand why he snapped. Maybe if someone had talked to him earlier, we wouldn't be here right now.",
+                    "risks": [
+                        "Blames the nurse for the patient's violence — she's a workplace assault victim",
+                        "Being told it's partially her fault destroys the officer-staff relationship",
+                        "Undermines the collaboration you need to resolve the situation",
+                        "Other staff who overhear will distrust your presence"
+                    ],
+                    "consequences": "Nurse Kovářová shuts down. She will not help you facilitate a resolution. Other staff distrust your presence. You've lost your most important allies in the building.",
+                    "trainingFocus": "Even when systemic failures contribute to a situation, is it appropriate to assign blame to the individual in front of you? What's the difference between systemic critique and personal blame?"
+                }
+            },
+            "keyLearningPoints": [
+                "Healthcare workers experiencing workplace violence deserve full validation before being asked to do anything further",
+                "Advocating for a patient on clinical grounds (changed symptoms) preserves triage integrity — advocating on behavioral grounds (he's the loudest) undermines it",
+                "Police should respect and support clinical authority, not override it",
+                "Blaming frontline staff for systemic problems destroys the collaboration you need to resolve the situation"
+            ]
+        },
+        "5": {
+            "stageName": "The Wife Arrives",
+            "criticalSkills": [
+                "Managing new parties entering a de-escalation",
+                "Converting potential complications into allies",
+                "Controlling narrative framing"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Turn to Lenka with a calm, reassuring expression: 'You must be Lenka — Pavel mentioned you. I'm Officer [name]. Pavel is not in any trouble. He's been in a lot of pain and had a difficult wait. I've been talking with him and with the medical staff, and we're working on getting him seen. Your being here might really help — he could use some support right now.'",
+                    "strengths": [
+                        "Using her name (from Pavel's earlier conversation) signals you've been genuinely listening to him",
+                        "'Pavel mentioned you' subtly demonstrates engagement, not just management",
+                        "Directly denying arrest addresses her stated fear immediately",
+                        "Framing her arrival as helpful gives her a constructive role",
+                        "'He could use some support' validates both her concern and his suffering",
+                        "Doesn't dwell on negative behavior — focuses on the current situation and path forward"
+                    ],
+                    "consequences": "Lenka's fear dissolves. She moves to Pavel's side. Pavel visibly softens — someone is on his side, and the police officer facilitated that. The emotional temperature drops significantly.",
+                    "trainingFocus": "How does involving a loved one as an ally rather than a witness change the dynamic? What information from earlier conversations can you use to build instant rapport with new arrivals?"
+                },
+                "partially_positive": {
+                    "choiceText": "Address both of them: 'Lenka, please don't worry. Pavel, can you tell your wife what we discussed? I think she should know that we're making progress and things are going to be okay.'",
+                    "adequate": [
+                        "Inclusive approach that involves both parties",
+                        "Optimistic tone",
+                        "Gives Pavel agency in telling his own story"
+                    ],
+                    "missed": [
+                        "Putting Pavel in charge of the narrative when he's still emotionally charged risks a skewed retelling",
+                        "'Things are going to be okay' is a promise you can't guarantee",
+                        "Setting expectations you can't control sets everyone up for disappointment",
+                        "If the promised 'progress' doesn't materialize quickly, both feel deceived"
+                    ],
+                    "improvement": "How do you inspire confidence without making promises that depend on others? When is it better for you to control the narrative versus letting the patient tell their version?",
+                    "consequences": "Pavel's account focuses on grievances. Lenka becomes upset. When progress doesn't materialize quickly, both feel you lied."
+                },
+                "neutral": {
+                    "choiceText": "Let Pavel explain the situation to his wife himself while you give them a moment of privacy — step back a few meters to give space.",
+                    "adequate": [
+                        "Respects their relationship",
+                        "Gives them personal space"
+                    ],
+                    "missed": [
+                        "Given Pavel's current emotional state, his version will reinforce his victimization narrative",
+                        "An audience (his wife) may re-escalate his anger through validation",
+                        "Stepping back means losing influence at a critical moment",
+                        "Combined frustration of two people is greater than either alone"
+                    ],
+                    "improvement": "When is giving space helpful, and when does it allow a situation to re-escalate? How does adding a sympathetic audience change someone's emotional trajectory?",
+                    "consequences": "Pavel vents to Lenka, who becomes increasingly upset on his behalf. Their combined frustration exceeds what either felt alone. You've lost your moderating influence."
+                },
+                "negative": {
+                    "choiceText": "Step toward the wife and explain: 'Ma'am, your husband became disruptive and we were called to ensure everyone's safety. He's not under arrest but he did throw objects at staff. We're handling the situation.'",
+                    "risks": [
+                        "Describing Pavel as 'disruptive' is the worst possible framing to his wife",
+                        "Emphasizing thrown objects triggers protective instincts or shame",
+                        "'We're handling the situation' excludes her from a role",
+                        "A potential ally has been turned into a complication"
+                    ],
+                    "consequences": "Lenka is either embarrassed and scolds Pavel (escalating his humiliation) or becomes defensive on his behalf. Either way, a potential ally becomes a complication.",
+                    "trainingFocus": "How does the way you describe someone's behavior to their loved one shape what happens next? What framing serves resolution versus what framing serves reporting?"
+                }
+            },
+            "keyLearningPoints": [
+                "Family members arriving during a crisis can be your greatest asset or your biggest complication — your framing determines which",
+                "Using information from earlier conversations (names, relationships) builds instant rapport with new arrivals",
+                "Controlling the narrative doesn't mean lying — it means choosing which truths serve resolution",
+                "Making promises you can't personally guarantee ('things will be okay') creates liability and erodes trust when reality doesn't match"
+            ]
+        },
+        "6": {
+            "stageName": "The Tipping Point",
+            "criticalSkills": [
+                "Physical boundary enforcement without confrontation",
+                "Framing consequences as self-defeating rather than punitive",
+                "Using specific time commitments to buy space"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Position yourself calmly between Pavel and the treatment area door, not blocking him but present: 'Pavel, I know this is unbearable. I promised I'd help, and I meant it. Going back there will create a new problem that takes you further from seeing a doctor, not closer. Give me five minutes — I'm going to find the charge nurse right now. Lenka, can you stay with him?'",
+                    "strengths": [
+                        "Physical positioning creates a natural pause without confrontation — present, not blocking",
+                        "Acknowledging his pain as 'unbearable' validates the escalation rather than dismissing it",
+                        "Consequence framed as self-defeating (further from a doctor) rather than punitive (I'll detain you)",
+                        "Referencing the earlier promise shows consistency and reliability",
+                        "Five-minute commitment is specific and time-bound — creates accountability",
+                        "Giving Lenka an active role engages her as a calming presence"
+                    ],
+                    "consequences": "Pavel hesitates. The combination of validation, a concrete timeline, and his wife's hand on his arm creates enough friction to stop the forward momentum. He sits back down.",
+                    "trainingFocus": "How does naming a specific time frame create accountability while buying space? Why is 'this takes you further from what you want' more effective than 'I'll have to stop you'?"
+                },
+                "partially_positive": {
+                    "choiceText": "Say calmly: 'Pavel, I understand. But going into the treatment area without authorization could be considered trespassing, and that would change this from a medical visit to a legal matter. I don't want that for you.'",
+                    "adequate": [
+                        "Factually correct legal framing",
+                        "Genuinely concerned tone",
+                        "'I don't want that for you' shows personal investment"
+                    ],
+                    "missed": [
+                        "Legal terminology ('trespassing,' 'legal matter') shifts the interaction from healthcare to criminal justice",
+                        "This is exactly what Pavel feared from the moment he saw the uniform",
+                        "Even delivered with good intentions, legal language changes the perceived role from helper to enforcer",
+                        "No concrete alternative offered — tells him what not to do but not what will happen instead"
+                    ],
+                    "improvement": "How does legal language change someone's perception of your role even when delivered with good intentions? What's the difference between a legal warning and a practical consequence?",
+                    "consequences": "Pavel pauses, but his trust in you takes a hit. He now sees you as police first and helper second. The goodwill you built earlier is damaged."
+                },
+                "neutral": {
+                    "choiceText": "Turn to Lenka: 'Lenka, can you help me here? Can you talk to Pavel and try to keep him calm while I go find someone from the medical team?'",
+                    "adequate": [
+                        "Engaging Lenka is a smart instinct",
+                        "Recognizes the need to find medical staff"
+                    ],
+                    "missed": [
+                        "Delegating de-escalation entirely to a frightened spouse is unfair — she has no authority or training",
+                        "If Pavel doesn't listen to her, she can't stop him",
+                        "You're not present to intervene if the situation escalates",
+                        "Leaving the scene at the moment of highest tension is risky"
+                    ],
+                    "improvement": "When is delegation appropriate, and when does it abdicate responsibility? What resources does a family member have — and lack — compared to an officer?",
+                    "consequences": "Lenka tries, but Pavel pushes past her. She's hurt and overwhelmed. Pavel reaches the treatment area door. You've lost control from a distance."
+                },
+                "negative": {
+                    "choiceText": "Step into his path and set a clear boundary: 'Paul, I understand the frustration, but if you enter the treatment area unauthorized, it becomes a security incident that I have to document and report. That puts you in the system as a disruptive patient, and it will follow you. Let me handle this the right way.'",
+                    "risks": [
+                        "Sounds measured and even protective — framing the warning as shielding Paul from institutional consequences",
+                        "However, introducing documentation, 'the system,' and 'disruptive patient' labels at peak distress transforms advocate into bureaucratic threat",
+                        "Accurate information about consequences delivered at the worst possible moment leverages vulnerability rather than supporting the person",
+                        "All rapport built over the interaction is replaced by compliance through institutional fear"
+                    ],
+                    "consequences": "Paul backs down not from trust but from fear of institutional retaliation. Laura watches her husband warned about 'the system' while in pain. The emotional damage is invisible but lasting.",
+                    "trainingFocus": "When accurate information about consequences is delivered at the worst possible moment, does it serve the person or control them? How does institutional language change the relationship?"
+                }
+            },
+            "keyLearningPoints": [
+                "Physical positioning (present but not blocking) creates natural pauses without confrontation",
+                "Consequences framed as 'this takes you further from what you want' are more effective than threats of punishment",
+                "Specific time commitments ('five minutes') create concrete accountability and demonstrate reliability",
+                "Delegating de-escalation to untrained family members at the moment of highest tension is risky — stay present and engaged"
+            ]
+        },
+        "7": {
+            "stageName": "Resolution and Care",
+            "criticalSkills": [
+                "Transitioning from crisis mode to cooperative patient",
+                "Affirming the patient's experience as part of resolution",
+                "Restoring agency through small choices"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Good news, Pavel — the charge nurse wants to see you now for a closer look at what's going on with your back and that numbness. I know today's been awful, and I know you've been fighting to be heard. You were heard. This is the next step. Is there anything you need before she starts — water, a moment to catch your breath?",
+                    "strengths": [
+                        "Frames the reassessment as a result of his advocacy, not a reward for calming down",
+                        "'You were heard' is one of the most powerful phrases for someone who felt invisible for hours",
+                        "Offering choices (water, a moment) restores agency and signals respect",
+                        "The transition from officer-facilitated to nurse-led is smooth and collaborative",
+                        "Acknowledging that 'today's been awful' validates the entire experience, not just the ending",
+                        "The crisis is resolved because the need was met, not because the behavior was suppressed"
+                    ],
+                    "consequences": "Pavel takes a breath. His shoulders drop for the first time in hours. The nurse begins her assessment with a cooperative patient. The crisis is over because it was resolved, not suppressed.",
+                    "trainingFocus": "How does affirming someone's experience create the emotional space for cooperation? Why does 'you were heard' carry such power for someone who has felt invisible?"
+                },
+                "partially_positive": {
+                    "choiceText": "Pavel, the nurse is ready for you. Please cooperate fully — this is what you've been waiting for. Let's make sure everything goes smoothly from here.",
+                    "adequate": [
+                        "Clear and supportive",
+                        "Forward-looking",
+                        "Encourages cooperation"
+                    ],
+                    "missed": [
+                        "'Cooperate fully' sounds like a directive rather than an invitation",
+                        "'This is what you've been waiting for' is slightly transactional — as if examination is granted conditionally",
+                        "Doesn't acknowledge the difficulty of what he's been through",
+                        "The emotional wound of the experience isn't addressed"
+                    ],
+                    "improvement": "What's the difference between achieving compliance and achieving resolution? How does the final moment of an interaction color the entire memory of it?",
+                    "consequences": "Pavel complies, but feels managed rather than respected. He'll tell this story as 'they ignored me until I broke down' — not 'the officer helped me get care.'"
+                },
+                "neutral": {
+                    "choiceText": "Address Pavel and Lenka together: 'The medical team is going to take a closer look now. I'll step out and give you privacy. If you need anything, I'll be just outside.'",
+                    "adequate": [
+                        "Polite and respectful",
+                        "Offers continued availability"
+                    ],
+                    "missed": [
+                        "Skips the emotional transition entirely",
+                        "Pavel needs acknowledgment that his experience mattered, not just a physical examination",
+                        "Stepping out without closure leaves the emotional arc incomplete",
+                        "Doesn't address the charge nurse's request for help getting him cooperative"
+                    ],
+                    "improvement": "Is your job done when the immediate crisis ends, or when the person is actually ready for what comes next? What does emotional closure look like in a de-escalation?",
+                    "consequences": "Pavel is still emotionally dysregulated during the exam, making it harder and less thorough. The medical team wishes you'd done more to prepare him."
+                },
+                "negative": {
+                    "choiceText": "Brief Paul on expectations: 'The charge nurse is here for you — that's the good news. I just need to set expectations: please cooperate fully with the assessment, follow her instructions, and keep things calm. I'll note in my report that this was resolved without incident, which keeps your record clean.'",
+                    "risks": [
+                        "Sounds professional and even supportive — framing cooperation as benefiting Paul's record",
+                        "However, 'I'll note in my report' and 'keeps your record clean' introduce transactional, quasi-legal framing at the moment when Paul most needs human connection",
+                        "Implies medical care is conditional on good behavior and that you have been keeping score",
+                        "'Fair enough?' demands agreement to terms rather than inviting relief and healing"
+                    ],
+                    "consequences": "Paul complies but the final impression is of an officer managing a file rather than caring about a person. He tells this story as 'they treated me like a suspect even while examining me.'",
+                    "trainingFocus": "When the moment calls for human warmth, what is the cost of defaulting to professional procedure? How does the final interaction shape the entire memory?"
+                }
+            },
+            "keyLearningPoints": [
+                "'You were heard' is one of the most powerful de-escalation phrases for someone who has felt invisible",
+                "Offering small choices (water, a moment) at the moment of resolution restores dignity and agency",
+                "The final moment of an interaction disproportionately shapes the entire memory of it — end on affirmation, not threat",
+                "True resolution means the underlying need was met, not that the behavior was suppressed into compliance"
+            ]
+        },
+        "8": {
+            "stageName": "Debrief and Reveal",
+            "criticalSkills": ["Reflection", "Linking choices to outcomes", "Reinforcing healthcare–police collaboration"],
+            "choiceAnalysis": {
+                "positive": {},
+                "partially_positive": {},
+                "neutral": {},
+                "negative": {}
+            },
+            "keyLearningPoints": [
+                "Use the debrief to reinforce what worked: coordination with staff, addressing pain and fear, and proportional safety.",
+                "Reflect on how medical context (pain, medication, triage) shaped the situation; hospital aggression is often healthcare-driven."
+            ]
+        }
+    },
+    "comprehensiveMetrics": {
+        "healthcarePoliceCollaboration": {
+            "description": "Working effectively with medical staff without overriding their clinical authority or abandoning your safety role",
+            "indicators": {
+                "excellent": [
+                    "Pre-engagement coordination with charge nurse or clinical staff",
+                    "Advocating for reassessment on clinical grounds, not behavioral ones",
+                    "Respecting triage decisions while flagging relevant symptom changes",
+                    "Maintaining safety presence without interfering with medical care"
+                ],
+                "poor": [
+                    "Overriding clinical decisions based on the patient's behavior",
+                    "Blaming staff for systemic issues like wait times or understaffing",
+                    "Treating the situation as purely a security matter without medical context",
+                    "Promising patient removal without considering medical implications"
+                ]
+            }
+        },
+        "patientEmpathy": {
+            "description": "Recognizing and responding to pain, fear, and frustration as drivers of aggression rather than treating behavior as criminal",
+            "indicators": {
+                "excellent": [
+                    "Naming and validating the patient's pain and fear directly",
+                    "Understanding that aggression in hospitals usually communicates distress or unmet need",
+                    "Addressing stated fears (arrest) directly and immediately",
+                    "Affirming the patient's experience at the moment of resolution ('you were heard')"
+                ],
+                "poor": [
+                    "Treating pain-driven aggression as criminal behavior",
+                    "Ignoring or dismissing the patient's stated experience",
+                    "Defending the system that the patient feels has failed them",
+                    "Framing medical care as a reward for good behavior rather than a right"
+                ]
+            }
+        },
+        "situationalSafety": {
+            "description": "Maintaining physical safety for staff, patient, and others while avoiding disproportionate responses",
+            "indicators": {
+                "excellent": [
+                    "Proportional safety measures matched to actual threat level",
+                    "Visible hands, appropriate distance, angled positioning",
+                    "Physical presence (not blocking) to create natural pauses",
+                    "Using intermediate steps before escalating to enforcement"
+                ],
+                "poor": [
+                    "Disproportionate responses (evacuating a waiting room for a thrown magazine rack)",
+                    "Jumping from verbal warning to threatened detention with no intermediate steps",
+                    "Physical interposition before any verbal engagement",
+                    "Leaving the scene at the moment of highest tension"
+                ]
+            }
+        },
+        "communicationEffectiveness": {
+            "description": "Using appropriate language, tone, and body language; avoiding counterproductive phrases and behaviors",
+            "indicators": {
+                "excellent": [
+                    "Body language congruent with verbal messages",
+                    "Speaking slowly to encourage pace-matching",
+                    "Using names consistently to build rapport",
+                    "Open-ended questions that invite the patient to be heard"
+                ],
+                "poor": [
+                    "Commands before rapport ('step back,' 'lower your voice,' 'sit down')",
+                    "Patronizing language ('easy,' 'behave')",
+                    "Legal terminology that shifts perception from helper to enforcer",
+                    "Reminding someone of their worst behavior after they've calmed down"
+                ]
+            }
+        },
+        "outcomeFocusedResolution": {
+            "description": "Working toward sustainable resolution where the underlying need is met, rather than temporary behavioral suppression",
+            "indicators": {
+                "excellent": [
+                    "Framing behavioral requests as serving the patient's interest",
+                    "Making concrete, time-bound commitments and following through",
+                    "Involving family members as constructive allies",
+                    "Ensuring emotional closure alongside practical resolution"
+                ],
+                "poor": [
+                    "Achieving compliance through threats or humiliation",
+                    "Making promises that depend on other people's cooperation",
+                    "Ending interactions on threats or conditional ultimatums",
+                    "Treating the crisis as over when behavior is suppressed, not when needs are met"
+                ]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "securityMindset": {
+            "pattern": "Treating a healthcare situation as primarily a security problem",
+            "examples": [
+                "Rushing in without medical context or staff coordination",
+                "Physically interposing before verbal engagement",
+                "Evacuating areas disproportionate to the actual threat",
+                "Framing the patient as a suspect rather than someone in distress"
+            ],
+            "impact": "Confirms the patient's fear that police presence means criminalization of their suffering. Escalates rather than resolves. Undermines healthcare-police collaboration.",
+            "correction": "Reframe: this is a healthcare situation with security dimensions, not a security situation that happens to be in a hospital. Coordinate with medical staff first. Understand the clinical picture before engaging."
+        },
+        "prematureCommands": {
+            "pattern": "Issuing physical directives before establishing rapport",
+            "examples": [
+                "'Step back from the counter'",
+                "'Lower your voice'",
+                "'Sit down'",
+                "'Stay right here'"
+            ],
+            "impact": "Failed requests weaken your position. A patient who refuses your first directive is now in open noncompliance, which narrows your options. Rapport must precede requests.",
+            "correction": "Build rapport first: introduction, name use, pain acknowledgment, fear addressing. Only request physical compliance after the patient has shown willingness to engage verbally."
+        },
+        "systemDefense": {
+            "pattern": "Defending the institution that the patient perceives as failing them",
+            "examples": [
+                "'I'm sure the staff are doing their best'",
+                "'The triage system prioritizes the most critical cases'",
+                "'The ED is really busy tonight'",
+                "'I'm not a doctor and I can't change your position'"
+            ],
+            "impact": "Positions you as part of the system the patient is fighting against. The last bridge of trust collapses. The patient concludes that nobody — not the hospital, not the police — is on their side.",
+            "correction": "You don't need to criticize the system or agree it failed. Instead, acknowledge the patient's experience without defending or blaming: 'I hear you — four hours in this kind of pain is a lot. Let me see what I can do.'"
+        },
+        "staffBlaming": {
+            "pattern": "Assigning blame to frontline healthcare workers for systemic issues",
+            "examples": [
+                "'Maybe if someone had talked to him earlier, we wouldn't be here'",
+                "Implying the nurse's communication failures caused the aggression",
+                "Minimizing the nurse's fear ('I don't think he's a danger')",
+                "Failing to validate workplace assault before making requests"
+            ],
+            "impact": "Destroys the officer-staff relationship. Healthcare workers who feel blamed will not collaborate. Other staff who overhear will distrust police presence. You lose your most important allies.",
+            "correction": "Always validate the staff member's experience first and fully. Separate systemic critique (which may be valid) from personal blame (which is destructive). Ask 'what would help?' before suggesting actions."
+        },
+        "threatEscalation": {
+            "pattern": "Jumping to maximum enforcement language without intermediate steps",
+            "examples": [
+                "'It becomes a security incident that I have to document and report'",
+                "'That puts you in the system as a disruptive patient'",
+                "'I'll note in my report — keeps your record clean'",
+                "'That would change this from a medical visit to a legal matter'"
+            ],
+            "impact": "Confirms the patient's worst fear about police presence. Demolishes rapport built over the entire interaction. Creates a binary choice (submit or fight) when intermediate options exist. The final memory of the interaction is the threat.",
+            "correction": "Use graduated response: acknowledge the escalation, validate the underlying need, frame consequences as self-defeating rather than punitive, offer concrete alternatives with specific timelines, and reserve enforcement language for genuine safety threats."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Exceptional performance. You demonstrated the gold standard for hospital disturbance response: gathering medical context before engaging, validating the patient's pain and fear, collaborating with medical staff without overriding clinical authority, converting a family member into a constructive ally, and resolving the crisis by meeting the underlying need rather than suppressing the behavior. Pavel's letter commending you reflects the reality — when someone in pain is finally heard, they remember who listened.",
+            "mostlyPositive": "Strong overall performance with good healthcare-police collaboration and genuine patient empathy. You maintained safety while treating the patient's suffering as real and valid. Key strength: [SPECIFIC_STRENGTH]. Area for growth: [SPECIFIC_IMPROVEMENT]. Your approach helped create conditions for care rather than conditions for confrontation.",
+            "mixed": "You handled some aspects well but missed critical opportunities for connection or collaboration. Strengths included [SPECIFIC_STRENGTHS]. However, [SPECIFIC_WEAKNESSES] need attention. Hospital disturbances require simultaneous management of patient suffering, staff safety, and clinical collaboration. Review [TRAINING_AREAS] to strengthen the areas where your response fell short.",
+            "mostlyNegative": "This scenario revealed significant gaps in healthcare de-escalation skills. While you [MINOR_POSITIVE], most choices either treated the patient as a security threat, undermined medical staff collaboration, or used enforcement language that confirmed the patient's fear of criminalization. Specifically, [MAJOR_FAILURES]. Immediate training recommended in: [CRITICAL_TRAINING].",
+            "allNegative": "Your approach treated this entirely as a security problem in a healthcare setting. The patient's legitimate medical needs were secondary to behavioral control, medical staff collaboration was absent, and enforcement language was used where de-escalation was needed. Mandatory corrective training required in: healthcare-police collaboration, pain-driven aggression recognition, graduated response, and empathy-based de-escalation. Remember: over 75% of workplace assaults occur in healthcare settings — police response quality directly determines whether that number goes up or down."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Has anyone offered him pain management? And who's the charge nurse — I'd like a quick word with them before I go in.",
+            "Pavel, I'm not here to arrest anyone. I can see you're in a lot of pain.",
+            "I hear you, and that sounds genuinely frightening — numbness on top of pain is scary.",
+            "I need to ask you to help me help you — if we can keep things calm, I'll have a much better chance of getting their attention.",
+            "I don't want to override your triage decisions, that's not my role. But he's describing leg numbness along with the back pain.",
+            "You must be Lenka — Pavel mentioned you.",
+            "Going back there will create a new problem that takes you further from seeing a doctor, not closer. Give me five minutes.",
+            "I know you've been fighting to be heard. You were heard."
+        ],
+        "poorPhrases": [
+            "Sir, I need you to lower your voice and step away from the counter.",
+            "Throwing things and shouting at nurses isn't going to get you seen faster.",
+            "I'm not a doctor and I can't change your position in the queue. I'm sure the staff are doing their best.",
+            "Maybe if someone had talked to him earlier, we wouldn't be here right now.",
+            "Ma'am, your husband became disruptive and we were called to ensure everyone's safety.",
+            "If you enter the treatment area unauthorized, it becomes a security incident that I have to document and report. That puts you in the system as a disruptive patient.",
+            "I'll note in my report that this was resolved without incident, which keeps your record clean."
+        ],
+        "analysisCriteria": {
+            "empathy": "Did the phrase validate pain, fear, or frustration before addressing behavior?",
+            "collaboration": "Did the phrase support healthcare-police teamwork without overriding clinical authority?",
+            "framing": "Did the phrase frame consequences as self-defeating rather than punitive?",
+            "congruence": "Was the verbal message consistent with the body language and positioning described?",
+            "resolution": "Did the phrase move toward sustainable resolution or just temporary compliance?",
+            "dignity": "Did the phrase preserve the patient's dignity and the staff's professional authority?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "30 seconds of pre-engagement intelligence — including coordination with medical staff — transforms a reactive response into a strategic one",
+        "2": "When someone explicitly states a fear (arrest), addressing it directly and immediately is critical — ignoring it confirms the fear",
+        "3": "Behavioral requests framed as self-interest ('help me help you') are far more effective than commands ('calm down') or criticism ('you shouldn't have thrown things')",
+        "4": "Healthcare workers experiencing workplace violence deserve full validation before being asked to do anything further — and advocacy for the patient should be on clinical grounds, not behavioral ones",
+        "5": "Family members arriving during a crisis can be your greatest asset or biggest complication — your framing of the situation determines which",
+        "6": "Consequences framed as self-defeating ('this takes you further from what you want') are more effective than threats of enforcement — and specific time commitments buy trust",
+        "7": "The final moment of an interaction disproportionately shapes the entire memory — 'you were heard' creates lasting positive impact, while 'behave or else' creates lasting damage"
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": [
+                "Advanced healthcare-police collaboration protocols",
+                "Training others in hospital de-escalation",
+                "Crisis intervention team (CIT) leadership in healthcare settings"
+            ],
+            "good": [
+                "Extended de-escalation in healthcare environments",
+                "Understanding pain-driven aggression and medical causes of agitation",
+                "Multi-party mediation in institutional settings"
+            ],
+            "average": [
+                "Basic hospital disturbance response protocols",
+                "Active listening and emotional validation for patients in crisis",
+                "Graduated response and proportionality assessment"
+            ],
+            "poor": [
+                "Mandatory healthcare-police collaboration training",
+                "Pain and fear as drivers of aggression workshop",
+                "Empathy-based de-escalation in medical settings",
+                "Proportional response and graduated enforcement"
+            ]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {
+                "title": "Overall Performance Summary",
+                "content": [
+                    "Score",
+                    "Performance level",
+                    "Key strengths",
+                    "Critical weaknesses"
+                ]
+            },
+            {
+                "title": "Stage-by-Stage Analysis",
+                "content": [
+                    "Choice made at each stage",
+                    "Impact on patient, staff, and family",
+                    "Alternative approaches and their consequences",
+                    "Key learning points"
+                ]
+            },
+            {
+                "title": "Healthcare-Police Collaboration Assessment",
+                "content": [
+                    "Pre-engagement coordination quality",
+                    "Respect for clinical authority",
+                    "Advocacy approach (clinical vs. behavioral grounds)",
+                    "Staff relationship management"
+                ]
+            },
+            {
+                "title": "Patient Empathy Evaluation",
+                "content": [
+                    "Pain and fear recognition",
+                    "Emotional validation quality",
+                    "Fear addressing (arrest concern)",
+                    "Resolution framing (need met vs. behavior suppressed)"
+                ]
+            },
+            {
+                "title": "Communication Effectiveness",
+                "content": [
+                    "Best dialogue moments",
+                    "Counterproductive phrases used",
+                    "Body language congruence",
+                    "Narrative framing choices"
+                ]
+            },
+            {
+                "title": "Pattern Analysis",
+                "content": [
+                    "Consistent strengths across stages",
+                    "Recurring mistakes",
+                    "Decision-making trends (security mindset vs. collaborative mindset)"
+                ]
+            },
+            {
+                "title": "Professional Development",
+                "content": [
+                    "Immediate training needs",
+                    "Long-term skill development priorities",
+                    "Recommended resources and workshops"
+                ]
+            },
+            {
+                "title": "Real-World Application",
+                "content": [
+                    "How this translates to hospital calls in the field",
+                    "Building relationships with local healthcare facilities",
+                    "Reducing repeat calls through quality first response"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,786 @@
+{
+  "scenarioId": "custody-exchange",
+  "reviewVersion": "v1",
+  "title": "Analiză aprofundată — Dispută la schimbul custodiei",
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Sosire și evaluare",
+      "criticalSkills": [
+        "Abordare inițială și stabilirea tonului",
+        "Neutralitate vizibilă de la primul contact",
+        "Conștientizarea expunerii emoționale a copilului"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Apropiați-vă calm în unghi, faceți contact vizual cu ambii părinți și spuneți cu ton ferm dar măsurat: 'Bună ziua. Sunt agentul [nume]. Văd că e o situație stresantă. Să o rezolvăm — dar mai întâi am nevoie ca amândoi să faceți un pas înapoi, vă rog.'",
+          "strengths": [
+            "Prezentarea profesională stabilește autoritatea fără agresivitate",
+            "Recunoașterea stresului validează ambele părți egal",
+            "Abordarea în unghi e mai puțin confruntativă decât frontală",
+            "Direcție clară ('pas înapoi') fără limbaj amenințător",
+            "Tonul calm modelează comportamentul pe care îl doriți de la ei"
+          ],
+          "consequences": "Ambii părinți se simt recunoscuți. Tonul măsurat contrastează cu strigătele lor, creând un efect natural de de-escalare. Copilul vede un adult calm.",
+          "trainingFocus": "Cum funcționează 'modelarea' stării emoționale pe care doriți să o adopte alții în practica de de-escalare?"
+        },
+        "partially_positive": {
+          "choiceText": "Mergeți direct între părinți și anunțați ferm: 'Poliție. Am nevoie ca amândoi să vă opriți și să vă dați înapoi unul de altul acum.'",
+          "adequate": [
+            "Stabilește autoritatea imediat",
+            "Creează separare fizică între părinți"
+          ],
+          "missed": [
+            "Nicio prezentare sau construire de raport",
+            "Tonul de comandă poate speria copilul în detresă",
+            "Poate declanșa răspuns sfidător de la adulții agitați",
+            "Stabilește un ton advers pentru întreaga interacțiune"
+          ],
+          "improvement": "Cum stabilește tonul inițial traiectoria întregii interacțiuni? Ce elemente de prezentare și empatie pot fi adăugate fără a pierde autoritatea?",
+          "consequences": "Conformarea e probabilă dar resentimentă. Ambii părinți vă pot percepe ca agresivi în loc de utili, făcând cooperarea mai grea în pașii următori."
+        },
+        "neutral": {
+          "choiceText": "Abordați mai întâi paznicul școlii pentru un raport despre ce s-a întâmplat înainte de a vă angaja cu vreun părinte.",
+          "adequate": [
+            "Adunarea informațiilor înainte de acțiune e tactică solidă"
+          ],
+          "missed": [
+            "Confruntarea în curs lângă copil cere intervenție imediată",
+            "Fiecare secundă de conflict parental pe care copilul o vede cauzează prejudiciu",
+            "Părinții pot percepe întârzierea ca indiferență"
+          ],
+          "improvement": "Când urgența situației depășește valoarea informațiilor de fundal? Cum evaluați nevoia imediată de intervenție?",
+          "consequences": "Părinții continuă să se certe în timp ce primiți raportul. Copilul rămâne prins în mijlocul conflictului în curs."
+        },
+        "negative": {
+          "choiceText": "Te apropii mai întâi de mașina mamei pentru a-i afla versiunea înainte de a vorbi cu tatăl — e cea mai aproape de copil și poate avea context critic despre situație.",
+          "risks": [
+            "A merge la mașina unui părinte mai întâi semnalează părtinire înainte de a vorbi cu vreo parte",
+            "Tatăl interpretează asta ca luare de partea mamei din primul moment",
+            "Neutralitatea dumneavoastră e compromisă înainte ca interacțiunea să înceapă"
+          ],
+          "consequences": "Tatăl devine mai agitat și confruntativ. Neutralitatea dumneavoastră e compromisă înainte de a vorbi cu ambele părți.",
+          "trainingFocus": "Cum prioritați siguranța copilului menținând imparțialitate vizibilă? Pot fi ambele realizate simultan?"
+        }
+      },
+      "keyLearningPoints": [
+        "Primele 30 de secunde stabilesc tonul emoțional pentru întreaga intervenție",
+        "Neutralitatea vizibilă — să nu abordați nicio parte mai întâi — e critică la dispute",
+        "Prezența calmă de-escaladează natural: oamenii reflectă starea emoțională a figurilor de autoritate",
+        "O prezentare profesională creează un cadru de civilitate care constrânge comportamentul ulterior"
+      ]
+    },
+    "2": {
+      "stageName": "Separarea părinților",
+      "criticalSkills": [
+        "Separarea fizică a părților aflate în conflict",
+        "Gestionarea cererilor simultane",
+        "Stabilirea unui proces transparent"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Înțeleg că amândoi simțiți puternic despre asta. Voi vorbi cu fiecare dintre voi separat ca să înțeleg situația completă. Domnule, ați putea aștepta lângă vehiculul meu un moment? Doamnă, vă rog rămâneți aici. Voi fi echitabil cu amândoi.",
+          "strengths": [
+            "Separarea fizică oprește argumentele performative",
+            "Permite fiecărei persoane să vorbească sincer fără public",
+            "Promisiunea de echitate menține încrederea din ambele părți",
+            "Păstrarea locației copilului stabilă evită perturbarea suplimentară",
+            "Mutarea tatălui departe de mașină e tactică solidă — nicio preferință de custodie semnalată"
+          ],
+          "consequences": "Ambii părinți se simt auziți. Conflictul performativ se oprește. Creați spațiu pentru dialog real în loc de poziționare adversă.",
+          "trainingFocus": "De ce vorbirea cu fiecare parte individual e adesea mai productivă decât medierea de grup la situații de conflict ridicat?"
+        },
+        "partially_positive": {
+          "choiceText": "Am nevoie ca amândoi să vorbiți mai încet — e un copil chiar aici care aude totul. Să ne dăm înapoi de la mașină și să discutăm calm.",
+          "adequate": [
+            "Conștientizare bună a expunerii copilului la conflict",
+            "Cererea de a vorbi mai încet e rezonabilă"
+          ],
+          "missed": [
+            "Cererea ambelor părți să se miște împreună fără a le separa mută cearta",
+            "Conformarea bazată pe rușine ('copilul vostru vă aude') e temporară, nu structurală",
+            "Niciun proces sau cronogram stabilit"
+          ],
+          "improvement": "Care e diferența între a pune un conflict pe pauză și a-l de-escala? Cum schimbă separarea fizică dinamica fundamental?",
+          "consequences": "Pauză momentană în strigăte, dar fără separare fizică cearta reia în minute."
+        },
+        "neutral": {
+          "choiceText": "Lasă-mă să văd mai întâi hotărârea judecătorească. Rezolvăm în funcție de ce scrie în acte.",
+          "adequate": [
+            "Focusul pe documentul legal pare logic și eficient"
+          ],
+          "missed": [
+            "Revizuirea ordonanței în fața ambilor părinți invită la interpretare adversă",
+            "Temperatura emoțională nu e abordată",
+            "Părțile nu sunt separate",
+            "Cadrarea ca problemă 'de acte' ignoră dimensiunile umane"
+          ],
+          "improvement": "O dispută de custodie e în primul rând o problemă legală sau emoțională? Ce trebuie abordat mai întâi înainte ca documentele să poată fi discutate semnificativ?",
+          "consequences": "Tatăl se simte validat dar mama se simte ignorată. Amândoi pot începe să se certe despre ce 'înseamnă cu adevărat' documentul."
+        },
+        "negative": {
+          "choiceText": "Doamnă, copilul e cu adevărat bolnav? Aveți documentație medicală care să susțină asta?",
+          "risks": [
+            "Punerea sub semnul întrebării imediată a pretenției unei părți semnalează îndoială și ia o poziție cvasi-investigativă",
+            "Niciun raport stabilit, părți nesesparate, nicio evaluare situațională completă",
+            "Tatăl se simte validat în timp ce mama se simte acuzată — dinamica devine dezechilibrată"
+          ],
+          "consequences": "Mama devine defensivă și ostilă față de dumneavoastră. Conflictul se intensifică cu dumneavoastră acum atras în el ca adversar perceput.",
+          "trainingFocus": "Cum afectează secvența în care abordați îngrijorările percepția ambelor părți asupra neutralității dumneavoastră?"
+        }
+      },
+      "keyLearningPoints": [
+        "Separarea fizică e cel mai eficient prim pas în orice dispută între două părți",
+        "Oamenii se ceartă diferit când au public față de când vorbesc privat",
+        "Anunțarea unui proces transparent ('Voi vorbi cu fiecare dintre voi') reduce anxietatea despre echitate",
+        "Ordinea în care abordați părțile trimite semnale puternice nespuse despre părtinire"
+      ]
+    },
+    "3": {
+      "stageName": "Ordonanța judecătorească",
+      "criticalSkills": [
+        "Gestionarea așteptărilor despre autoritatea poliției în materie civilă",
+        "Validarea statutului legal fără a deveni agent de aplicare",
+        "Echilibrarea empatiei cu transparența procesului"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Mulțumesc că mi-ai arătat, Martin. O iau în serios — o ordonanță judecătorească are greutate reală. Am nevoie să aud și de la Eva pentru a înțelege îngrijorările ei, apoi voi lucra cu amândoi pentru a rezolva asta azi. Obiectivul meu e să mă asigur că Jakub petrece timp cu tine cât mai lin posibil.",
+          "strengths": [
+            "Folosește numele lui Martin pentru a construi raport personal",
+            "Validează explicit statutul legal al ordonanței",
+            "Explică transparent procesul — vorbind cu ambele părți — ca să nu pară amânare",
+            "Cadrează obiectivul în jurul rezultatului intenționat de instanță (timp cu Jakub)",
+            "'Cât mai lin posibil' semnalează că metoda contează, nu doar rezultatul"
+          ],
+          "consequences": "Martin se simte respectat, validat legal și încrezător că agentul lucrează spre schimb. E dispus să aștepte în timp ce vorbiți cu Eva.",
+          "trainingFocus": "Cum ajută denumirea rezultatului dorit devreme ambele părți să-și alinieze așteptările?"
+        },
+        "partially_positive": {
+          "choiceText": "Înțeleg frustrarea ta și văd că e o ordonanță judecătorească. Totuși, nu pot aresta pe nimeni pentru o materie civilă de custodie. Rolul meu aici e să vă ajut pe amândoi să ajungeți la o rezolvare. Lasă-mă să aud și partea ei.",
+          "adequate": [
+            "Clarifică corect limitările poliției",
+            "Stabilește așteptări realiste despre arest",
+            "Recunoaște ordonanța judecătorească"
+          ],
+          "missed": [
+            "Declarația plată despre incapacitatea de a aresta poate părea dismisivă cuiva care trăiește obstrucție sistematică",
+            "Nu recunoaște experiența emoțională din spatele frustrării",
+            "'Lasă-mă să aud partea ei' fără validare prealabilă creează distanță"
+          ],
+          "improvement": "Cum echilibrați gestionarea așteptărilor cu validarea experienței emoționale a cuiva? Puteți comunica limitări fără a face pe cineva să se simtă neauzit?",
+          "consequences": "Martin se simte informat procedural dar neauzit personal. Cooperă dar frustrarea lui subiacentă despre tiparul obstrucției rămâne."
+        },
+        "neutral": {
+          "choiceText": "Văd că e o ordonanță judecătorească validă. Lasă-mă să revizuiesc termenii exacti cu grijă înainte de a vorbi cu soția ta divorțată despre situație.",
+          "adequate": [
+            "Recunoașterea documentului e potrivită",
+            "Dorința de a înțelege termenii e rezonabilă"
+          ],
+          "missed": [
+            "Creează o atmosferă juridică, birocratică în loc de legătură umană",
+            "Martin vrea empatie și acțiune, nu revizuire legală",
+            "'Soția ta divorțată' reduce pe Eva la rol advers în loc de a folosi numele ei"
+          ],
+          "improvement": "Cum cadrarea prin alegerea limbajului dacă e bătălie legală sau situație parentală? Ce efect are folosirea numelor vs. rolurilor?",
+          "consequences": "Tatăl simte că amânați. Cadrarea legalistică păstrează interacțiunea în mod conflict în loc să avanseze spre rezolvare."
+        },
+        "negative": {
+          "choiceText": "Îi validezi frustrarea legată de schimbările de program pentru a construi raport înainte de a aborda predarea: 'Văd că a fost un tipar continuu, Mark. Trebuie să fie incredibil de frustrant — să fii nevoit să lupți pentru timp care ți-a fost deja acordat de instanță. Lasă-mă să vorbesc cu ea despre respectarea programului.'",
+          "risks": [
+            "Acționare ca agent de aplicare privată pentru o parte fără a o auzi pe cealaltă",
+            "Poliția nu trebuie niciodată să aplice unilateral ordonanțe de custodie fără a înțelege contextul complet",
+            "Acordurile informale între părinți pot fi modificat aranjamentele",
+            "Îngrijorările de sănătate ale mamei sunt complet respinse"
+          ],
+          "consequences": "Mama va refuza, văzându-vă ostil. Confruntarea escaladează cu dumneavoastră aliniat cu o parte. Orice rezolvare echilibrată devine aproape imposibilă.",
+          "trainingFocus": "Ce riscuri vin cu acționarea pe baza relatării unei părți înainte de a o auzi pe cealaltă? De ce poliția nu sunt agenți de aplicare privată?"
+        }
+      },
+      "keyLearningPoints": [
+        "Poliția nu sunt agenți de aplicare privată — facilitarea rezolvării e rolul, nu alegerea unui câștigător",
+        "O ordonanță judecătorească e punct de plecare pentru discuție, nu suprascriere automată a tuturor celorlalte preocupări",
+        "Folosirea numelor oamenilor în loc de etichete de rol advers ('soția divorțată') păstrează tonul colaborativ",
+        "Denumirea rezultatului dorit devreme ('Jakub petrece timp cu tine') creează aliniere în loc de opoziție"
+      ]
+    },
+    "4": {
+      "stageName": "Poziția mamei",
+      "criticalSkills": [
+        "Ascultare activă cu validare emoțională",
+        "Echilibrarea empatiei cu comunicarea onestă",
+        "Menținerea neutralității în timp ce auziți îngrijorările unei părți"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Aud cât de îngrijorată ești pentru Jakub, Eva. Sănătatea lui contează. Îmi poți spune mai mult despre simptomele lui — a fost la doctor? Trebuie să fiu și direct cu tine: Martin are o ordonanță pentru acest weekend și trebuie să țin cont de asta.",
+          "strengths": [
+            "Validează emoțiile și folosește numele ei pentru raport personal",
+            "Întrebările deschise despre sănătate îi dau spațiu să fie auzită",
+            "Comunică transparent realitatea legală în loc de speranță falsă",
+            "Echilibrează empatia cu onestitatea — nu e surprinsă de vești proaste mai târziu",
+            "Întrebarea despre vizita la doctor adună informații fără a interoga"
+          ],
+          "consequences": "Eva se simte auzită și respectată. Poate deveni lacrimogenă dar e mai puțin probabil să devină combativă. Cadrarea onestă despre ordonanță o pregătește pentru rezultatul probabil.",
+          "trainingFocus": "De ce onestitatea devreme e mai blândă decât veștile proaste întârziate? Cum construiește transparența încredere chiar și când mesajul e neplăcut?"
+        },
+        "partially_positive": {
+          "choiceText": "Vreau să mă asigur că Jakub e bine și eu. Lasă-mă să mă uit rapid la el să văd cum e. Dacă e cu adevărat bolnav, poate putem discuta niște opțiuni — dar ar trebui să știi că Martin are o ordonanță validă.",
+          "adequate": [
+            "Arată îngrijorare pentru copil",
+            "Ofertă proactivă de evaluare a situației",
+            "Recunoaște ordonanța judecătorească"
+          ],
+          "missed": [
+            "Agentul de poliție care face evaluare de sănătate informală depășește rolul profesional",
+            "Dacă spui că copilul 'pare bine', mama se simte invalidată",
+            "Dacă spui că copilul 'pare bolnav', tatăl pretinde părtinire",
+            "Ești plasat într-o poziție de neșansă ca evaluator medical amator"
+          ],
+          "improvement": "Cum arătați îngrijorare pentru sănătatea copilului fără a depăși rolul profesional? Care e diferența între a avea grijă și a diagnostica?",
+          "consequences": "Ambii părinți vă vor contesta evaluarea indiferent de direcție. V-ați făcut inadvertent autoritatea medicală."
+        },
+        "neutral": {
+          "choiceText": "Aveți o notă de la doctor sau dovezi medicale că Jakub e prea bolnav să meargă cu tatăl său?",
+          "adequate": [
+            "Întrebare procedurală validă",
+            "Adunare documentație relevantă"
+          ],
+          "missed": [
+            "Începerea cu cerere de dovezi pare acuzatoriu și clinic",
+            "Majoritatea părinților nu pregătesc documentație medicală pentru schimburi de custodie",
+            "Nicio validare emoțională înainte de întrebări procedurale",
+            "Tratează interacțiunea ca adunare de dovezi nu conversație umană"
+          ],
+          "improvement": "Care e diferența între adunarea informațiilor și interogarea cuiva? Cum schimbă secvența empatie–apoi–întrebări răspunsul?",
+          "consequences": "Eva se simte interogată în loc de auzită. Devine defensivă: 'Deci nici tu nu mă crezi?' Zidul emoțional se ridică."
+        },
+        "negative": {
+          "choiceText": "Înțeleg îngrijorarea, dar ordonanța spune că merge cu tatăl său acest weekend. Dacă nu aveți documentație medicală, nu am cu adevărat ce face.",
+          "risks": [
+            "Dismisiv față de îngrijorarea maternală genuină",
+            "Cadrare legalistică rigidă fără empatie",
+            "'Nu am ce face' e atât inexact cât și alienant — opțiuni există",
+            "Poate declanșa răspuns fugă–sau–luptă — refuz fizic sau încercare de plecare"
+          ],
+          "consequences": "Eva poate refuza fizic să-l lase pe Jakub să iasă din mașină, încerca să plece cu mașina sau să se prăbușească emoțional — toate înrăutățesc dramatic situația pentru Jakub.",
+          "trainingFocus": "Când cineva spune 'nu am ce face', ce mesaj aude de fapt cealaltă persoană? Ce alternative există chiar și în situații constrânse?"
+        }
+      },
+      "keyLearningPoints": [
+        "Validați emoțiile înainte de a prezenta realități legale neplăcute",
+        "Întrebările deschise ('spune-mi mai mult') adună informații mai bune decât cererile de dovezi",
+        "Onestitatea devreme previne daunele veștilor proaste întârziate — oamenii gestionează mai bine adevărurile dificile când sunt pregătiți",
+        "Rămâneți în rolul profesional — nu deveniți doctor, avocat sau terapeut amator"
+      ]
+    },
+    "5": {
+      "stageName": "Copilul vorbește",
+      "criticalSkills": [
+        "Comunicare sensibilă la copil",
+        "Recunoașterea și abordarea vinei copilului la dispute de custodie",
+        "Oferirea suport emoțional potrivit vârstei"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Aplecați-vă la nivelul ochilor lui Jakub, vorbiți blând: 'Hei Jakub, știu că e foarte greu. Vreau să știi că nimic din asta nu e vina ta, bine? Mama și tata te iubesc foarte mult pe amândoi. Adulții vor rezolva asta. E ceva ce ai vrea să-mi spui?'",
+          "strengths": [
+            "A ajunge la nivelul fizic al copilului reduce intimidarea și construiește încredere",
+            "Abordarea directă a vinei ('nimic nu e vina ta') țintește rana emoțională de bază la dispute de custodie",
+            "Confirmarea iubirii ambilor părinți împiedică copilul să aleagă părți",
+            "Invitația deschisă de a vorbi îi dă agenție fără a forța o alegere de loialitate",
+            "Acest moment devine adesea punctul de cotitură emoțional pentru ambii părinți care privesc"
+          ],
+          "consequences": "Jakub se simte văzut și auzit de o figură de autoritate calmă. Detresea lui scade vizibil. Ambii părinți, dacă sunt în apropiere, sunt reamintiți ce contează cu adevărat.",
+          "trainingFocus": "Cum schimbă abordarea directă a vinei nespuse a copilului dinamica unei dispute familiale? De ce e poziționarea fizică atât de importantă cu copiii?"
+        },
+        "partially_positive": {
+          "choiceText": "Zâmbiți cald și spuneți: 'Nu-ți face griji. Totul va fi bine. Părinții tăi trebuie doar să vorbească câteva lucruri, bine?'",
+          "adequate": [
+            "Bine intenționat și cald ca ton",
+            "Încearcă să ofere liniște"
+          ],
+          "missed": [
+            "'Totul va fi bine' poate părea promisiune goală — copiii sunt remarcabil de perceptivi la nesinceritate",
+            "Nu abordează dorința lui exprimată ca cearta să se oprească",
+            "Nu abordează senzația lui de a fi prins",
+            "Vina — problema de bază — rămâne complet nespusă"
+          ],
+          "improvement": "Când e liniștirea utilă și când respinge detresa genuină? Cum potriviți cuvintele cu ce a exprimat de fapt copilul?",
+          "consequences": "Jakub poate da din cap politicos dar anxietatea lui rămâne neschimbată. O oportunitate ratată de suport emoțional semnificativ."
+        },
+        "neutral": {
+          "choiceText": "Recunoașteți pe Jakub pe scurt — 'Ține-te bine, bine?' — apoi redirecționați către Eva: 'Chiar trebuie să rezolvăm asta acum. Poți gândi o cale să facem asta să funcționeze azi?'",
+          "adequate": [
+            "Recunoașterea scurtă e mai bună decât ignorarea copilului"
+          ],
+          "missed": [
+            "Dismisiv față de un moment emoțional genuin — copilul a avut curaj să vorbească",
+            "Un răspuns de două secunde semnalează că sentimentele lui nu sunt importante adulților",
+            "Redirecționarea imediată înapoi la logistică întărește invizibilitatea copilului",
+            "Povara rezolvării pusă în totalitate pe mamă"
+          ],
+          "improvement": "Când un copil vorbește în criză, ce îi învață răspunsul dumneavoastră despre valoarea vocii lui? Cât timp cere de fapt recunoașterea semnificativă?",
+          "consequences": "Jakub se retrage, simțindu-se ignorat. E mai puțin probabil să-și exprime din nou sentimentele. O fereastră critică pentru legătură se închide."
+        },
+        "negative": {
+          "choiceText": "Folosești afirmația lui Jacob ca să accelerezi rezolvarea — te întorci la amândoi părinții: 'Ați auzit-l. Să finalizăm eficient ca Jacob să-și continue seara. Eve, hotărârea e clară. Mark, să-l instalăm pe Jacob în mașina dumneavoastră. Cu cât rezolvăm mai repede, cu atât mai puțin vede.'",
+          "risks": [
+            "Folosirea detresei copilului ca pârghie împotriva mamei e manipulatoare",
+            "Atribuie vina în fața copilului, crescându-i vinovăția — crede acum că durerea lui a cauzat mai mult conflict",
+            "Mama va deveni defensivă sau agresivă",
+            "Tatăl poate simți că are dreptate, întărind dinamica adversă"
+          ],
+          "consequences": "Detresea lui Jakub crește brusc — simte că cuvintele lui au înrăutățit lucrurile. Eva se închide emoțional. Copilul învață că exprimarea sentimentelor cauzează mai mult rău.",
+          "trainingFocus": "Ce se întâmplă când un copil realizează că sentimentele lui exprimate sunt folosite ca armă de o figură de autoritate? Ce daune pe termen lung cauzează asta?"
+        }
+      },
+      "keyLearningPoints": [
+        "Copiii din dispute de custodie poartă vină enormă — trebuie să audă explicit că nu e vina lor",
+        "Poziționarea fizică la nivelul ochilor copilului e una dintre cele mai puternice instrumente de construire a raportului",
+        "Un copil care vorbește în criză arată încredere — răspunsul dumneavoastră determină dacă acea încredere supraviețuiește",
+        "Tot ce spuneți și faceți în fața unui copil devine parte din înțelegerea lui despre conflict și autoritate"
+      ]
+    },
+    "6": {
+      "stageName": "Ultimatumul tatălui",
+      "criticalSkills": [
+        "De-escalare amenințări fără contra-amenințări",
+        "Recadrarea consecințelor ca interes propriu în loc de pedeapsă",
+        "Menținerea raportului sub acuzație directă de părtinire"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Martin, nu te-am uitat pe tine sau ordonanța — o iau în serios și sunt de partea ta în privința făcutii schimbului azi. Aveam nevoie să aud ambele părți, e procedură standard pentru orice agent. Iată starea: am vorbit cu Eva și lucrez la a-l aduce pe Jakub la tine. Dar dacă îl iei cu forța, asta creează o materie de poliție unde nu există acum și ar putea dăuna poziției tale de custodie. Să facem asta cum trebuie.",
+          "strengths": [
+            "Abordează direct îngrijorarea de bază — că a fost uitat și că ești părtinitor",
+            "Reconfirmă validitatea legală a poziției lui fără rezerve",
+            "Explică procesul transparent — procedură standard, nu favoritism",
+            "Avertismentul despre acțiunea fizică cadrat ca protejarea intereselor lui, nu amenințare",
+            "'Cum trebuie' face apel la simțul lui de justiție și legitimitate"
+          ],
+          "consequences": "Furia lui Martin scade semnificativ. Se simte auzit, respectat și încrezător că schimbul va avea loc. Își pune telefonul deoparte.",
+          "trainingFocus": "Cum schimbă cadrarea consecințelor ca interes propriu în loc de amenințări disponibilitatea cuiva de a coopera?"
+        },
+        "partially_positive": {
+          "choiceText": "Martin, înțeleg frustrarea ta și respect drepturile tale legale. Dar amenințarea de a-l lua pe Jakub cu forța nu va ajuta cazul tău. Să găsim o soluție care păstrează pe toată lumea într-o poziție bună.",
+          "adequate": [
+            "Validează frustrarea și recunoaște drepturile legale",
+            "Stabilește o limită despre forță",
+            "Oferă să lucreze spre o soluție"
+          ],
+          "missed": [
+            "'Nu va ajuta cazul tău' păstrează cadrarea legală și adversă",
+            "'Toată lumea într-o poziție bună' poate părea diluarea pretenției lui legitime",
+            "Nu abordează acuzația de părtinire direct",
+            "Nu explică ce ai făcut sau oferă actualizare de progres"
+          ],
+          "improvement": "Cum stabiliți limite fără limbaj care ține pe cineva într-o mentalitate adversă? Când cineva vă acuză de părtinire, trebuie ignorat sau abordat direct?",
+          "consequences": "Martin face pauză dar frustrarea lui subiacentă despre părtinirea percepută rămâne. Cooperă cu reținere dar rămâne suspect."
+        },
+        "neutral": {
+          "choiceText": "Domnule, trebuie să vă calmați. Îmi fac treaba aici. Dacă vreți să sunați avocatul, faceți-o, dar nu puteți lua copilul cu forța.",
+          "adequate": [
+            "Stabilește o limită necesară despre forță",
+            "Recunoaște dreptul lui la reprezentare legală"
+          ],
+          "missed": [
+            "'Trebuie să vă calmați' e una dintre cele mai contraproductive fraze în de-escalare — invalidează emoțiile și implică iraționalitate",
+            "Adesea provoacă exact opusul efectului intenționat",
+            "Fără empatie, explicație sau actualizare de progres",
+            "Nu abordează acuzația de părtinire"
+          ],
+          "improvement": "De ce 'calmați-vă' aproape niciodată nu produce calm? Ce fraze alternative ating același obiectiv fără invalidare?",
+          "consequences": "Martin escaladează mai departe: 'Nu-mi spune să mă calmez!' Situația se deteriorează. Raportul se pierde și confruntarea fizică devine mai probabilă."
+        },
+        "negative": {
+          "choiceText": "Dacă vă apropiați de mașina aia sau încercați să luați copilul, va trebui să intervin fizic. Dați-vă înapoi la vehiculul meu acum.",
+          "risks": [
+            "Răspuns pur de aplicare la escaladare verbală",
+            "Salt la confruntare fizică implicată când Martin e încă doar verbal agitat",
+            "Ignoră complet starea lui emoțională, poziția legală și teama de a pierde timp cu fiul său",
+            "Transformă o dispută familială într-o confruntare polițienească"
+          ],
+          "consequences": "Martin fie cedează resentimentător fie vă provoacă fizic. În ambele cazuri Jakub e martor cum tatăl lui e amenințat de un agent. Trauma copilului se adâncește.",
+          "trainingFocus": "În ce moment o amenințare verbală justifică un răspuns de aplicare fizică și care sunt costurile săriturii acolo prea devreme?"
+        }
+      },
+      "keyLearningPoints": [
+        "'Calmează-te' e identificat constant ca una dintre cele mai puțin eficiente fraze în de-escalare în toate cercetările",
+        "Cadrarea consecințelor ca protejarea intereselor proprii e mult mai eficientă decât amenințările",
+        "Când ești acuzat de părtinire, abordeaz-o direct și transparent în loc să o ignori sau să devii defensiv",
+        "Oferirea unei actualizări de progres ('iată starea') reduce anxietatea care vine din simțirea uitat"
+      ]
+    },
+    "7": {
+      "stageName": "Facilitarea rezolvării",
+      "criticalSkills": [
+        "Rezolvare creativă a problemelor sub presiune de timp",
+        "Transformarea dinamicii câștigat/pierdut în soluții colaborative",
+        "Darea ambelor părți a unui rol constructiv în rezolvare"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Iată ce sugerez. Eva, aud îngrijorarea ta despre sănătatea lui Jakub — ai scrie simptomele lui, medicamentul și doza și numărul pediatrului pentru Martin? Martin, ai fi dispus să ții la curent pe Eva pe cum se simte Jakub diseară — poate un mesaj scurt și o poză? Așa Jakub își petrece timpul cu tata cum prevede ordonanța și amândoi știți că e îngrijit. Jakub, mama îți va da tatălui toate informațiile despre medicamentul tău, ca să fii bine îngrijit în acest weekend.",
+          "strengths": [
+            "Abordează îngrijorarea genuină a mamei despre sănătate cu o soluție concretă",
+            "Respectă drepturile legale ale tatălui — schimbul are loc",
+            "Le dă ambilor părinți un rol activ și demn în soluție",
+            "Transformă conflictul din câștigat/pierdut în parentalitate colaborativă",
+            "Liniștirea directă a copilului îi arată că adulții au găsit o soluție împreună",
+            "Pași specifici, acționabili îl fac implementabil în loc de vag"
+          ],
+          "consequences": "Eva acceptă — scrierea informațiilor medicale îi dă un sentiment de control și scop. Martin acceptă să trimită actualizări — o concesie mică care nu-l costă nimic. Jakub vede părinții cooperând. Schimbul are loc lin.",
+          "trainingFocus": "Cum canalizează darea ambelor părți a unei sarcini constructive energia lor din conflict spre cooperare?"
+        },
+        "partially_positive": {
+          "choiceText": "Martin are ordonanța, deci schimbul ar trebui să aibă loc azi. Dar Eva, ce-ar fi dacă Martin acceptă să-l ducă pe Jakub la doctor dacă simptomele se înrăutățesc în weekend? Martin, ți-ar conveni?",
+          "adequate": [
+            "Încearcă un compromis",
+            "Abordează îngrijorarea declarată a mamei despre sănătate"
+          ],
+          "missed": [
+            "Condiționarea implicită a schimbului ordonat de instanță pe termeni suplimentari depășește rolul dumneavoastră",
+            "Dacă Martin refuză, ați creat un nou punct de conflict",
+            "Dacă Martin acceptă sub presiune, poate resimți",
+            "V-ați poziționat ca renegociind termenii custodiei — rol al instanței"
+          ],
+          "improvement": "Unde e linia între facilitarea rezolvării și renegocierea unei ordonanțe? Cum propuneți soluții care îmbunătățesc ordonanța în loc să o modifice?",
+          "consequences": "Martin poate accepta cu reținere sau refuza din principiu. Precedentul poate încuraja comportament mai obstructiv la schimburile viitoare."
+        },
+        "neutral": {
+          "choiceText": "Ordonanța spune că Jakub merge cu tatăl său acest weekend. Eva, recomand să vă conformați ordonanței. Dacă credeți că ar trebui schimbată, puteți depune o cerere la instanță luni.",
+          "adequate": [
+            "Corect legal și procedural",
+            "Oferă informații despre recurs legal"
+          ],
+          "missed": [
+            "Directiva bluntă de 'conformare' pare coercitivă nu facilitativă",
+            "Referința la acțiunea instanței luni pare îndepărtată de realitatea emoțională actuală",
+            "Niciun plan pentru tranziția copilului sau nevoile de sănătate",
+            "Niciun pod construit pentru schimburile viitoare — următorul va fi la fel de rău"
+          ],
+          "improvement": "Un schimb 'reușit' e unul unde copilul schimbă fizic mâinile sau unul unde copilul se simte în siguranță în tranziție? Cum arată rezolvarea sustenabilă?",
+          "consequences": "Eva îl predă pe Jakub resentimentă. Schimbul are loc dar prost — Jakub simte detresea mamei. Nicio îmbunătățire pentru schimburile viitoare."
+        },
+        "negative": {
+          "choiceText": "Uite, înțeleg că e dificil pentru amândoi, dar nu pot forța pe nimeni dintre voi să facă ceva aici — e materie civilă. Trebuie să rezolvați între voi sau să o duceți înapoi la instanță. Am făcut tot ce am putut.",
+          "risks": [
+            "Abdicare de la responsabilitate în momentul critic",
+            "Un copil în detresă e prezent — plecarea e eșec al datoriei",
+            "'Am făcut tot ce am putut' semnalează că ați terminat de investit efort",
+            "Ambii părinți se simt abandonați de singura parte neutră"
+          ],
+          "consequences": "Certa se reaprinde în momentul când plecați. Paznicul școlii sună din nou 911 în douăzeci de minute. Jakub suferă o nouă rundă de conflict parental. Intervenția dumneavoastră n-a realizat nimic.",
+          "trainingFocus": "Care e diferența între 'nu pot forța pe nimeni' și 'nu pot ajuta deloc'? Ce soluții creative există chiar și în limitele materiei civile?"
+        }
+      },
+      "keyLearningPoints": [
+        "Soluțiile creative care dau ambelor părți un rol constructiv transformă dinamica adversă în colaborare",
+        "Cele mai bune rezolvări abordează îngrijorarea subiacentă (grija de sănătate) respectând cadrul legal (ordonanța)",
+        "Liniștirea copilului că adulții au găsit o soluție împreună e unul dintre cele mai puternice momente de vindecare pe care le puteți crea",
+        "Poliția care pleacă de la dispute de custodie nerezolvate nu previne conflictul — îi garantează recurența"
+      ]
+    },
+    "8": {
+      "stageName": "Evaluare și dezvăluire",
+      "criticalSkills": ["Reflecție", "Legarea alegerilor de rezultate", "Consolidarea mediației neutre și a practicii centrate pe copil"],
+      "choiceAnalysis": {
+        "positive": {},
+        "partially_positive": {},
+        "neutral": {},
+        "negative": {}
+      },
+      "keyLearningPoints": [
+        "Folosiți evaluarea pentru a consolida ce a funcționat: neutralitate vizibilă, separarea părților și abordarea experienței copilului.",
+        "Reflectați cum fiecare alegere i-a afectat pe ambii părinți și pe copil; predările sunt amintite de toți trei."
+      ]
+    }
+  },
+  "comprehensiveMetrics": {
+    "impartialityNeutrality": {
+      "description": "Menținerea echității vizibile față de ambele părți fără a favoriza poziția unui părinte",
+      "indicators": {
+        "excellent": [
+          "Timp și empatie egale acordate ambelor părți",
+          "Nicio abordare, limbaj sau acțiune care semnalează favoritism",
+          "Explicație transparentă a procesului pentru ambele părți",
+          "Ambii părinți se simt auziți și respectați indiferent de rezultat"
+        ],
+        "poor": [
+          "A lua partea unei părți imediat în funcție de cine vorbește primul sau cine are documente",
+          "Limbaj care validează un părinte în timp ce îl respinge pe celălalt",
+          "Poziționare fizică care semnalează alianță cu o parte",
+          "A acționa ca agent de aplicare privat în loc de facilitator neutru"
+        ]
+      }
+    },
+    "communicationEffectiveness": {
+      "description": "Calitatea generală a comunicării verbale și non-verbale cu toate părțile, inclusiv copilul",
+      "indicators": {
+        "excellent": [
+          "Ascultare activă demonstrată cu fiecare parte individual",
+          "Ton potrivit calibrat la starea emoțională a fiecărei persoane",
+          "Folosirea numelor pentru a construi raport și a reduce cadrarea adversă",
+          "Comunicare transparentă a procesului — explicarea ce faceți și de ce"
+        ],
+        "poor": [
+          "Folosirea frazelor contraproductive ('calmează-te', 'nu pot face nimic')",
+          "Limbaj legalistic sau birocratic în momente emoțional încărcate",
+          "Ignorarea sau respingerea preocupărilor declarate ale unei părți",
+          "Nereușita de a adapta stilul de comunicare pentru copil"
+        ]
+      }
+    },
+    "emotionalIntelligence": {
+      "description": "Capacitatea de a recunoaște și răspunde la emoțiile tuturor părților, inclusiv copilul",
+      "indicators": {
+        "excellent": [
+          "Recunoaștere precisă a temerilor subiacente — teama tatălui de a pierde accesul, teama mamei pentru sănătatea copilului",
+          "Validarea emoțiilor chiar și când nu puteți acorda cererile",
+          "Gestionarea propriilor reacții emoționale sub acuzație directă de părtinire",
+          "De-escalare prin recunoaștere emoțională înainte de acțiune procedurală"
+        ],
+        "poor": [
+          "Respingerea preocupărilor emoționale ca irelevante pentru 'problema legală'",
+          "Răspuns la atacuri personale cu contra-agresivitate sau retragere",
+          "Nerecunoașterea vinovăției și detresei copilului ca necesitând atenție directă",
+          "Escaladare prin invalidare emoțională sau umilire"
+        ]
+      }
+    },
+    "proceduralLegalAwareness": {
+      "description": "Înțelegerea limitărilor poliției în materie civilă și gestionarea așteptărilor în consecință",
+      "indicators": {
+        "excellent": [
+          "Înțelegere clară că poliția nu sunt agenți de aplicare privată în litigiile de custodie civilă",
+          "Gestionare potrivită a așteptărilor despre ce poate și ce nu poate face poliția",
+          "Recunoașterea că ordonanțele judecătorești oferă îndrumări dar nu elimină nevoia de judecată",
+          "Rezolvare creativă a problemelor în limitele procedurale"
+        ],
+        "poor": [
+          "Aplicare unilaterală a interpretării unei părți asupra ordonanței",
+          "Promisiuni dincolo de autoritatea poliției (arest pentru materie civilă)",
+          "Abdicarea de la orice responsabilitate pentru că e 'materie civilă'",
+          "Renegocierea termenilor ordonanței în loc de facilitarea conformării"
+        ]
+      }
+    },
+    "childCenteredApproach": {
+      "description": "Prioritizarea siguranței emoționale a copilului, reducerea expunerii la conflict și vină",
+      "indicators": {
+        "excellent": [
+          "Comunicare directă cu copilul la nivelul lor fizic",
+          "Abordarea explicită a vinei copilului ('nu e vina ta')",
+          "Includerea copilului în anunțul rezolvării ca să vadă cooperarea",
+          "Asigurarea că tranziția copilului e lină, nu doar că custodía 'schimbă mâinile'"
+        ],
+        "poor": [
+          "Ignorarea completă a copilului în timp ce negociați cu părinții",
+          "Folosirea detresei copilului ca pârghie împotriva unui părinte",
+          "Luarea deciziilor despre copil fără a recunoaște experiența copilului",
+          "Permiterea copilului să fie martor la conflict escaladant fără intervenție"
+        ]
+      }
+    }
+  },
+  "mistakePatterns": {
+    "biasSignaling": {
+      "pattern": "Acțiuni sau limbaj care semnalează favoritism față de un părinte",
+      "examples": [
+        "A aborda mai întâi vehiculul unui părinte",
+        "A pune sub semnul întrebării imediat pretențiile unei părți fără a-l auzi pe celălalt",
+        "A acționa ca agent de aplicare pentru partea cu documente",
+        "A petrece semnificativ mai mult timp cu o parte"
+      ],
+      "impact": "Părtinirea percepută distruge încrederea cu partea dezavantajată, escaladează conflictul și adesea înrăutățește schimburile viitoare",
+      "correction": "Practicați neutralitate vizibilă: timp egal, empatie egală, respect egal. Anunțați procesul transparent ca ambele părți să înțeleagă secvența."
+    },
+    "escalation": {
+      "pattern": "Răspunsuri care au crescut tensiunea în loc să o reducă",
+      "examples": [
+        "A spune cuiva 'calmează-te'",
+        "A amenința cu intervenție fizică pentru agresivitate verbală",
+        "Limbaj coercitiv ('conformați-vă', 'va trebui să intervin')",
+        "Respingerea preocupărilor legitime cu 'nu pot face nimic'"
+      ],
+      "impact": "Fiecare escaladare face rezolvarea mai grea, crește riscul confruntării fizice și adâncește trauma copilului",
+      "correction": "Înlocuiți comenzile cu cereri, amenințările cu cadrare în interes propriu, respingerile cu recunoașteri. Practicați fraza: 'Înțeleg că e frustrant. Iată ce pot face.'"
+    },
+    "childNeglect": {
+      "pattern": "Nerecunoașterea sau neabordarea nevoilor emoționale ale copilului",
+      "examples": [
+        "Ignorarea copilului în timp ce negociați cu părinții",
+        "Recunoaștere scurtă, dismisivă ('ține-te bine')",
+        "Folosirea detresei copilului ca pârghie împotriva unui părinte",
+        "Nereabordarea vinei ('nimic din asta nu e vina ta')"
+      ],
+      "impact": "Copiii internalizează conflictul de custodie ca vina lor. O oportunitate ratată de a oferi liniște de la o autoritate de încredere poate adânci prejudiciul psihologic pe termen lung.",
+      "correction": "Includeti mereu copilul în conștientizarea dumneavoastră. Când un copil vorbește, acordați-i atenția completă. Aplecați-vă la nivelul lui. Denumiți ce ar putea simți. Abordați explicit vinovăția."
+    },
+    "legalRigidity": {
+      "pattern": "Prea multă dependență de cadre legale fără legătură umană",
+      "examples": [
+        "Reducerea situației la 'ce spun actele'",
+        "Cererea documentației medicale înainte de a recunoaște îngrijorarea",
+        "Direcționarea unui părinte să 'se conformeze' fără empatie",
+        "Citarea procedurilor judecătorești ca substitut al angajamentului"
+      ],
+      "impact": "Corect tehnic dar distructiv emoțional. Conformarea obținută prin rigiditate creează resentiment și garantează conflicte viitoare.",
+      "correction": "Conduceți cu empatie, urmați cu proces. Legea oferă cadrul; umanitatea dumneavoastră oferă podul către cooperare."
+    },
+    "abdication": {
+      "pattern": "Retragerea din situație când devine complexă",
+      "examples": [
+        "'E materie civilă, rezolvați voi'",
+        "'Am făcut tot ce am putut'",
+        "Părăsirea scenei cu conflictul nerezolvat",
+        "Cedarea responsabilității în totalitate unei părți"
+      ],
+      "impact": "A pleca de la o dispută de custodie nerezolvată cu un copil în detresă prezent nu previne prejudiciul — îi garantează recurența. Ambii părinți își pierd încrederea în poliție ca resursă.",
+      "correction": "Rezolvarea creativă a problemelor e întotdeauna posibilă. Chiar și în materie civilă puteți facilita comunicarea, propune soluții practice și asigura că tranziția copilului e gestionată cu grijă."
+    }
+  },
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Performanță remarcabilă. Ați demonstrat neutralitate excepțională, inteligență emoțională și rezolvare creativă a problemelor sub presiune intensă. Capacitatea de a valida ambii părinți punând în centru bunăstarea emoțională a copilului e exact ce cer disputele de custodie. Rezolvarea colaborativă pe care ați facilitat-o — schimb de informații medicale, angajamente de actualizare — transformă o intervenție unică într-un model pentru schimburi viitoare mai sănătoase. Cel mai important, Jakub a văzut adulți lucrând împreună în loc să se lupte. Acel moment poate fi cel mai impactant lucru pe care l-ați făcut azi.",
+      "mostlyPositive": "Performanță general puternică cu competențe excelente de mediere. Ați menținut neutralitate bună și ați arătat empatie sinceră față de toate părțile. Punct forte cheie: [SPECIFIC_STRENGTH]. Domeniu de creștere: [SPECIFIC_IMPROVEMENT]. Abordarea dumneavoastră i-a ajutat pe ambii părinți să vadă dincolo de conflict pentru a se concentra pe bunăstarea lui Jakub — acesta e miezul intervenției eficiente la custodie.",
+      "mixed": "Ați gestionat bine unele aspecte dar ați ratat oportunități critice. Punctele forte au inclus [SPECIFIC_STRENGTHS]. Totuși, [SPECIFIC_WEAKNESSES] necesită atenție. Disputele de custodie cer echilibrarea conștientizării legale, inteligenței emoționale, imparțialității și gândirii centrate pe copil simultan. Recapitulați [TRAINING_AREAS] pentru a consolida zonele unde răspunsul a fost insuficient.",
+      "mostlyNegative": "Acest scenariu a relevat lacune semnificative în competențele de mediere la custodie. Deși [MINOR_POSITIVE], majoritatea alegerilor au semnalat părtinire, au escaladat tensiunea sau au ignorat nevoile emoționale ale copilului. În special, [MAJOR_FAILURES]. La disputele de custodie, nedreptatea percepută de la agent adesea înrăutățește schimburile viitoare, creând un ciclu de conflict escaladant. Formare imediată recomandată în: [CRITICAL_TRAINING].",
+      "allNegative": "Abordarea dumneavoastră în acest scenariu a fost îngrijorătoare. Părtinire constantă față de o parte, escaladare în loc de de-escalare și nereabordarea detresei copilului ar fi putut avea consecințe durabile pentru familie. Formare corectivă obligatorie în: mediere neutră, comunicare bazată pe empatie, intervenție sensibilă la copil și înțelegerea limitărilor poliției în materie civilă. Amintiți-vă: la disputele de custodie, copilul privește și învață de la fiecare adult din încăpere — inclusiv de la dumneavoastră."
+    }
+  },
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "Bună ziua. Sunt agentul [nume]. Văd că e o situație stresantă. Să o rezolvăm — dar mai întâi am nevoie ca amândoi să faceți un pas înapoi, vă rog.",
+      "Înțeleg că amândoi simțiți puternic despre asta. Voi vorbi cu fiecare dintre voi separat ca să înțeleg situația completă.",
+      "Mulțumesc că mi-ai arătat, Martin. O iau în serios — o ordonanță judecătorească are greutate reală.",
+      "Aud cât de îngrijorată ești pentru Jakub, Eva. Sănătatea lui contează.",
+      "Hei Jakub, știu că e foarte greu. Vreau să știi că nimic din asta nu e vina ta, bine?",
+      "Nu te-am uitat pe tine sau ordonanța — o iau în serios și sunt de partea ta în privința făcutii schimbului azi.",
+      "Eva, ai scrie simptomele lui, medicamentul și doza și numărul pediatrului pentru Martin?"
+    ],
+    "poorPhrases": [
+      "Aveți dreptate, domnule. Ordonanța e clară. Mă duc să-i spun că trebuie să predea copilul imediat.",
+      "Aveți o notă de la doctor sau dovezi medicale?",
+      "Tocmai de asta trebuie să rezolvăm repede. Fiul dumneavoastră suferă din cauza acestei dispute.",
+      "Trebuie să te calmezi. Îmi fac treaba aici.",
+      "Dacă vă apropiați de mașina aia sau încercați să luați copilul, va trebui să intervin fizic.",
+      "Nu pot forța pe nimeni dintre voi să facă ceva aici — e materie civilă. Am făcut tot ce am putut.",
+      "Dacă nu aveți documentație medicală, nu am cu adevărat ce face."
+    ],
+    "analysisCriteria": {
+      "neutrality": "Fraza a menținut imparțialitate vizibilă între ambele părți?",
+      "empathy": "Fraza a validat emoțiile înainte de a aborda preocupările procedurale?",
+      "childAwareness": "Fraza a ținut cont de expunerea emoțională și bunăstarea copilului?",
+      "clarity": "Fraza a comunicat procesul și așteptările transparent?",
+      "effectiveness": "Fraza a mutat situația către rezolvare în loc de escaladare?",
+      "creativity": "Fraza a oferit soluții colaborative în loc de rezultate câștigat/pierdut?"
+    }
+  },
+  "scenarioSpecificLessons": {
+    "1": "Abordarea inițială stabilește tonul emoțional pentru întreaga intervenție la schimbul custodiei — prezența calmă de-escaladează, prezența autoritară creează rezistență",
+    "2": "Separarea fizică a părinților aflați în conflict e cea mai eficientă tehnică structurală de de-escalare la disputele de custodie",
+    "3": "Poliția nu sunt agenți de aplicare privată — o ordonanță judecătorească e un cadru, nu o armă de folosit pentru o parte",
+    "4": "Validarea îngrijorării emoționale a unui părinte înainte de a prezenta realitățile legale construiește încredere chiar și când răspunsul e neplăcut",
+    "5": "Copiii din disputele de custodie poartă vină enormă — trebuie să audă explicit și direct că conflictul nu e vina lor",
+    "6": "'Calmează-te' e identificat constant ca contraproductiv în cercetarea de de-escalare — cadrați consecințele ca interes propriu în loc de amenințări",
+    "7": "Soluțiile creative care dau ambilor părinți un rol constructiv transformă dinamica adversă în parentalitate colaborativă"
+  },
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Mediere avansată în familie și rezolvare dispute custodie",
+        "Formarea altora în intervenție polițienească sensibilă la copil",
+        "Lider echipă specializată intervenție criză familială"
+      ],
+      "good": [
+        "Tehnici extinse de mediere neutră pentru familii cu conflict ridicat",
+        "Psihologie infantilă în situații de custodie și divorț",
+        "Rezolvare creativă a problemelor la întâlniri poliție-materie civilă"
+      ],
+      "average": [
+        "Protocoale de bază pentru intervenție la dispute custodie",
+        "Competențe de ascultare activă și validare emoțională",
+        "Înțelegerea limitărilor poliției în materie civilă"
+      ],
+      "poor": [
+        "Formare obligatorie în de-escalare și neutralitate",
+        "Atelier comunicare sensibilă la copil",
+        "Dezvoltare empatie și inteligență emoțională",
+        "Materie civilă vs. materie penală: limitele rolului poliției"
+      ]
+    }
+  },
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Rezumat general al performanței",
+        "content": [
+          "Scor",
+          "Nivel de performanță",
+          "Puncte forte cheie",
+          "Slăbiciuni critice"
+        ]
+      },
+      {
+        "title": "Analiză etapă cu etapă",
+        "content": [
+          "Alegerea la fiecare etapă",
+          "Impact asupra celor trei părți (tată, mamă, copil)",
+          "Abordări alternative și consecințele lor",
+          "Puncte cheie de învățare"
+        ]
+      },
+      {
+        "title": "Evaluare neutralitate",
+        "content": [
+          "Semnale de părtinire identificate",
+          "Echilibrul empatiei între părți",
+          "Evaluare transparență proces"
+        ]
+      },
+      {
+        "title": "Evaluare centrată pe copil",
+        "content": [
+          "Angajament direct cu copilul",
+          "Recunoașterea vinei",
+          "Siguranță emoțională oferită în tranziție",
+          "Modelare rezolvare sănătoasă a conflictului"
+        ]
+      },
+      {
+        "title": "Eficacitate comunicare",
+        "content": [
+          "Cele mai bune momente de dialog",
+          "Fraze contraproductive folosite",
+          "Calitatea validării emoționale",
+          "Transparența procesului"
+        ]
+      },
+      {
+        "title": "Analiză tipare",
+        "content": [
+          "Puncte forte consistente pe etape",
+          "Greșeli recurente",
+          "Trenduri în luarea deciziilor (ex. recurgere la autoritate vs. empatie)"
+        ]
+      },
+      {
+        "title": "Dezvoltare profesională",
+        "content": [
+          "Nevoie imediate de formare",
+          "Priorități dezvoltare competențe pe termen lung",
+          "Resurse și ateliere recomandate"
+        ]
+      },
+      {
+        "title": "Aplicare în practică",
+        "content": [
+          "Cum se transpune la schimburile de custodie în teren",
+          "Coordonare cu instanțele de familie și serviciile sociale",
+          "Construirea încrederii comunității prin intervenție domestică de calitate"
+        ]
+      }
+    ]
+  }
+}

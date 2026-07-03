@@ -1,0 +1,787 @@
+{
+    "scenarioId": "custody-exchange",
+    "reviewVersion": "v1",
+    "title": "Deep Analysis — Custody Exchange Dispute",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Arrival and Assessment",
+            "criticalSkills": [
+                "Initial approach and tone-setting",
+                "Visible neutrality from first contact",
+                "Awareness of child's emotional exposure"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Approach calmly at an angle, make eye contact with both parents, and say in a firm but measured tone: 'Good afternoon. I'm Officer [name]. I can see this is a stressful situation. Let's work through it — but first, I need you both to take a step back for me, please.'",
+                    "strengths": [
+                        "Professional introduction establishes authority without aggression",
+                        "Acknowledgment of stress validates both parties equally",
+                        "Angled approach is less confrontational than head-on",
+                        "Clear direction ('step back') without threatening language",
+                        "Calm tone models the behavior you want to see from them"
+                    ],
+                    "consequences": "Both parents feel acknowledged. The measured tone contrasts with their shouting, creating a natural de-escalation effect. The child sees an adult who is calm.",
+                    "trainingFocus": "How does 'modeling' the emotional state you want others to adopt work in de-escalation practice?"
+                },
+                "partially_positive": {
+                    "choiceText": "Walk directly between the parents and announce firmly: 'Police. I need both of you to stop and step apart from each other right now.'",
+                    "adequate": [
+                        "Establishes authority immediately",
+                        "Creates physical separation between parents"
+                    ],
+                    "missed": [
+                        "No introduction or rapport-building",
+                        "Commanding tone may frighten the distressed child",
+                        "May trigger defiant response from agitated adults",
+                        "Sets an adversarial tone for the entire interaction"
+                    ],
+                    "improvement": "How does your opening tone set the trajectory for the entire interaction? What elements of introduction and empathy can be added without losing authority?",
+                    "consequences": "Compliance is likely but resentful. Both parents may view you as aggressive rather than helpful, making cooperation harder in the next steps."
+                },
+                "neutral": {
+                    "choiceText": "Approach the school security guard first to get a briefing on what happened before engaging either parent.",
+                    "adequate": [
+                        "Gathering intelligence before acting is tactically sound"
+                    ],
+                    "missed": [
+                        "Ongoing confrontation near the child demands immediate intervention",
+                        "Every second of parental conflict the child witnesses causes harm",
+                        "Parents may view your delay as indifference"
+                    ],
+                    "improvement": "When does the urgency of the situation override the value of background information? How do you assess the immediate need for intervention?",
+                    "consequences": "The parents continue arguing while you're debriefing. The child remains trapped in the middle of ongoing conflict."
+                },
+                "negative": {
+                    "choiceText": "Approach the mother's vehicle first to get her side of the story before engaging the father — she's closest to the child and may have critical context about the situation.",
+                    "risks": [
+                        "Sounds like reasonable information-gathering but approaching one parent first signals bias before you've spoken a word to both",
+                        "Father sees you walk past him to the mother's car — every second there reinforces his belief the system favors mothers",
+                        "Your neutrality is compromised before the interaction even begins",
+                        "Anything you later say to the father is filtered through his perception that you already chose a side"
+                    ],
+                    "consequences": "The father becomes more agitated and confrontational, perceiving you as siding with the mother from the first moment. The dynamic is unbalanced before substantive conversation begins.",
+                    "trainingFocus": "How do you prioritize gathering information while maintaining visible impartiality to all parties watching? When does a 'reasonable first step' signal bias?"
+                }
+            },
+            "keyLearningPoints": [
+                "The first 30 seconds set the emotional tone for the entire intervention",
+                "Visible neutrality — not approaching either party first — is critical in disputes",
+                "Calm presence naturally de-escalates: people mirror the emotional state of authority figures",
+                "A professional introduction creates a framework of civility that constrains further behavior"
+            ]
+        },
+        "2": {
+            "stageName": "Separating the Parents",
+            "criticalSkills": [
+                "Physical separation of conflicting parties",
+                "Managing simultaneous demands",
+                "Setting a transparent process"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "I understand you both feel strongly about this. I'm going to speak with each of you separately so I can understand the full situation. Sir, could you wait by my vehicle for a moment? Ma'am, please stay here. I'll be fair to both of you.",
+                    "strengths": [
+                        "Physical separation stops performative arguments",
+                        "Allows each person to speak honestly without an audience",
+                        "Promise of fairness maintains trust from both sides",
+                        "Keeping the child's location stable avoids additional disruption",
+                        "Moving the father away from the car is tactically sound — no custody preference signaled"
+                    ],
+                    "consequences": "Both parents feel heard. The performative conflict stops. You create space for genuine dialogue rather than adversarial posturing.",
+                    "trainingFocus": "Why is speaking to each party individually often more productive than group mediation in high-conflict situations?"
+                },
+                "partially_positive": {
+                    "choiceText": "I need both of you to lower your voices — there's a child right here who can hear everything. Let's step away from the car and discuss this calmly.",
+                    "adequate": [
+                        "Good awareness of the child's exposure to conflict",
+                        "Request to lower voices is reasonable"
+                    ],
+                    "missed": [
+                        "Asking both parties to move together without separating them relocates the argument",
+                        "Shame-based compliance ('your child can hear you') is temporary, not structural",
+                        "No process or timeline established"
+                    ],
+                    "improvement": "What's the difference between pausing a conflict and de-escalating it? How does physical separation change the dynamic fundamentally?",
+                    "consequences": "Momentary pause in shouting, but without physical separation the argument resumes within minutes."
+                },
+                "neutral": {
+                    "choiceText": "Let me see that court order first. We'll sort this out based on what the paperwork says.",
+                    "adequate": [
+                        "Focusing on the legal document seems logical and efficient"
+                    ],
+                    "missed": [
+                        "Reviewing the order in front of both parents invites adversarial interpretation",
+                        "Emotional temperature is unaddressed",
+                        "Parties are not separated",
+                        "Framing as a 'paperwork' issue ignores the human dimensions"
+                    ],
+                    "improvement": "Is a custody dispute primarily a legal problem or an emotional one? What must be addressed first before documents can be meaningfully discussed?",
+                    "consequences": "The father feels validated but the mother feels ignored. Both may start arguing about what the document 'really means.'"
+                },
+                "negative": {
+                    "choiceText": "Ma'am, is the child really sick? Do you have any medical documentation to support that?",
+                    "risks": [
+                        "Immediately questioning one party's claim signals doubt and takes a quasi-investigative stance",
+                        "No rapport established, no parties separated, no situational assessment completed",
+                        "Father feels validated while mother feels accused — dynamic becomes unbalanced"
+                    ],
+                    "consequences": "The mother becomes defensive and hostile toward you. The conflict intensifies with you now drawn into it as a perceived adversary.",
+                    "trainingFocus": "How does the sequence in which you address concerns affect both parties' perception of your neutrality?"
+                }
+            },
+            "keyLearningPoints": [
+                "Physical separation is the single most effective first step in any two-party dispute",
+                "People argue differently when they have an audience versus when speaking privately",
+                "Announcing a transparent process ('I'll speak with each of you') reduces anxiety about fairness",
+                "The order in which you address parties sends powerful unspoken signals about bias"
+            ]
+        },
+        "3": {
+            "stageName": "The Court Order",
+            "criticalSkills": [
+                "Managing expectations about police authority in civil matters",
+                "Validating legal standing without becoming an enforcement agent",
+                "Balancing empathy with process transparency"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Thank you for showing me this, Martin. I take it seriously — a court order carries real weight. I need to hear from Eva as well to understand her concerns, and then I'll work with both of you to resolve this today. My goal is to make sure Jakub gets to spend time with you as smoothly as possible.",
+                    "strengths": [
+                        "Uses Martin's name to build personal rapport",
+                        "Validates the legal standing of the court order explicitly",
+                        "Transparently explains the process — speaking to both sides — so it doesn't feel like stalling",
+                        "Frames the goal around the court-intended outcome (time with Jakub)",
+                        "'As smoothly as possible' signals that method matters, not just outcome"
+                    ],
+                    "consequences": "Martin feels respected, legally validated, and confident the officer is working toward the exchange. He's willing to wait while you speak with Eva.",
+                    "trainingFocus": "How does naming the desired outcome early help both parties align their expectations?"
+                },
+                "partially_positive": {
+                    "choiceText": "I understand your frustration, and I can see this is a court order. However, I'm not able to arrest anyone for a civil custody matter. My role here is to help you both reach a resolution. Let me hear her side as well.",
+                    "adequate": [
+                        "Correctly clarifies police limitations",
+                        "Sets realistic expectations about arrest",
+                        "Acknowledges the court order"
+                    ],
+                    "missed": [
+                        "The flat statement about inability to arrest may feel dismissive to someone experiencing systematic obstruction",
+                        "Doesn't acknowledge the emotional experience behind the frustration",
+                        "'Let me hear her side' without prior validation creates distance"
+                    ],
+                    "improvement": "How do you balance managing expectations with validating someone's emotional experience? Can you communicate limitations without making someone feel unheard?",
+                    "consequences": "Martin feels procedurally informed but personally unheard. He cooperates but his underlying frustration about the pattern of obstruction remains."
+                },
+                "neutral": {
+                    "choiceText": "I can see this is a valid court order. Let me review the exact terms carefully before I speak with your ex-wife about the situation.",
+                    "adequate": [
+                        "Acknowledging the document is appropriate",
+                        "Wanting to understand the terms is reasonable"
+                    ],
+                    "missed": [
+                        "Creates a lawyerly, bureaucratic atmosphere rather than human connection",
+                        "Martin wants empathy and action, not a legal review",
+                        "'Your ex-wife' reduces Eva to an adversarial role rather than using her name"
+                    ],
+                    "improvement": "How does your language choice frame whether this is a legal battle or a parenting situation? What effect does using names vs. roles have?",
+                    "consequences": "The father feels you're stalling. The legalistic framing keeps the interaction in conflict mode rather than moving toward resolution."
+                },
+                "negative": {
+                    "choiceText": "Validate his frustration about the schedule changes to build rapport: 'I can see this has been an ongoing pattern, Mark. That must be incredibly frustrating — having to fight for time you were already granted by the court. Let me talk to her about respecting the schedule.'",
+                    "risks": [
+                        "Sounds like empathetic active listening but actually adopts his narrative entirely without independent assessment",
+                        "Validating a 'pattern' of obstruction before hearing the other side transforms empathy into alignment",
+                        "'Talk to her about respecting the schedule' positions the mother as the problem and you as his advocate",
+                        "Your credibility as a neutral party is gone before speaking to the mother"
+                    ],
+                    "consequences": "The mother immediately senses you have taken sides when you approach. The confrontation escalates with you aligned with the father's narrative. Balanced resolution becomes nearly impossible.",
+                    "trainingFocus": "Where is the line between validating someone's emotional experience and adopting their version of events as fact? How does empathy become bias?"
+                }
+            },
+            "keyLearningPoints": [
+                "Police are not private enforcement agents — facilitating resolution is the role, not picking a winner",
+                "A court order is a starting point for discussion, not an automatic override of all other concerns",
+                "Using people's names rather than adversarial role labels ('your ex-wife') keeps the tone collaborative",
+                "Naming the desired outcome early ('Jakub spending time with you') creates alignment rather than opposition"
+            ]
+        },
+        "4": {
+            "stageName": "The Mother's Position",
+            "criticalSkills": [
+                "Active listening with emotional validation",
+                "Balancing empathy with honest communication",
+                "Maintaining neutrality while hearing one party's concerns"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "I can hear how worried you are about Jakub, Eva. His health matters. Can you tell me more about his symptoms — has he seen a doctor? I also need to be straightforward with you: Martin has a court order for this weekend, and that's something I have to take into account.",
+                    "strengths": [
+                        "Validates emotions and uses her name for personal rapport",
+                        "Open-ended questions about health give her space to be heard",
+                        "Transparently communicates the legal reality rather than building false hope",
+                        "Balances empathy with honesty — she's not ambushed by bad news later",
+                        "Asking about a doctor visit gathers information without interrogating"
+                    ],
+                    "consequences": "Eva feels heard and respected. She may become tearful but is less likely to become combative. The honest framing about the court order prepares her for the likely outcome.",
+                    "trainingFocus": "Why is early honesty kinder than delayed bad news? How does transparency build trust even when the message is unwelcome?"
+                },
+                "partially_positive": {
+                    "choiceText": "I want to make sure Jakub is okay too. Let me take a quick look at him to see how he's doing. If he's really unwell, maybe we can discuss some options — but I should let you know that Martin does have a valid court order.",
+                    "adequate": [
+                        "Shows concern for the child",
+                        "Proactive offer to assess the situation",
+                        "Acknowledges the court order"
+                    ],
+                    "missed": [
+                        "Police officer conducting an informal health assessment oversteps professional role",
+                        "If you say the child 'seems fine,' the mother feels invalidated",
+                        "If you say the child 'seems sick,' the father claims bias",
+                        "You're placed in an unwinnable position as an amateur medical evaluator"
+                    ],
+                    "improvement": "How do you show concern for a child's health without overstepping your professional role? What's the difference between caring and diagnosing?",
+                    "consequences": "Both parents will challenge your assessment based on whichever direction it goes. You've inadvertently made yourself the medical authority."
+                },
+                "neutral": {
+                    "choiceText": "Do you have a doctor's note or any medical evidence that Jakub is too sick to go with his father?",
+                    "adequate": [
+                        "Valid procedural question",
+                        "Gathering relevant documentation"
+                    ],
+                    "missed": [
+                        "Leading with a demand for proof feels accusatory and clinical",
+                        "Most parents don't prepare medical documentation for custody exchanges",
+                        "No emotional validation before procedural questioning",
+                        "Treats the interaction as evidence-gathering rather than human conversation"
+                    ],
+                    "improvement": "What's the difference between gathering information and interrogating someone? How does the sequence of empathy-then-questions change the response?",
+                    "consequences": "Eva feels interrogated rather than heard. She becomes defensive: 'So you don't believe me either?' The emotional wall goes up."
+                },
+                "negative": {
+                    "choiceText": "I understand your concern, but the court order says he goes with his father this weekend. Unless you have medical documentation, there's really nothing I can do.",
+                    "risks": [
+                        "Dismissive of genuine maternal concern",
+                        "Rigid legalistic framing without any empathy",
+                        "'Nothing I can do' is both inaccurate and alienating — options do exist",
+                        "May trigger a flight-or-fight response — physical refusal or attempted departure"
+                    ],
+                    "consequences": "Eva may physically refuse to let Jakub out of the car, attempt to drive away, or break down emotionally — all of which dramatically worsen the situation for Jakub.",
+                    "trainingFocus": "When someone says 'nothing I can do,' what message does the other person actually hear? What alternatives exist even in constrained situations?"
+                }
+            },
+            "keyLearningPoints": [
+                "Validate emotions before presenting unwelcome legal realities",
+                "Open-ended questions ('tell me more') gather better information than demands for evidence",
+                "Early honesty prevents the damage of delayed bad news — people handle difficult truths better when prepared",
+                "Stay within your professional role — don't become an amateur doctor, lawyer, or therapist"
+            ]
+        },
+        "5": {
+            "stageName": "The Child Speaks",
+            "criticalSkills": [
+                "Child-sensitive communication",
+                "Recognizing and addressing childhood guilt in custody disputes",
+                "Providing age-appropriate emotional support"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Crouch down to Jakub's eye level, speak gently: 'Hey Jakub, I know this is really hard. I want you to know that none of this is your fault, okay? Your mom and dad both love you very much. The grown-ups are going to work this out. Is there something you'd like to tell me?'",
+                    "strengths": [
+                        "Getting to the child's physical level reduces intimidation and builds trust",
+                        "Directly addressing guilt ('none of this is your fault') targets the core emotional wound in custody disputes",
+                        "Affirming both parents' love prevents the child from having to choose sides",
+                        "Open-ended invitation to speak gives him agency without forcing a loyalty choice",
+                        "This moment often becomes the emotional turning point for both parents observing"
+                    ],
+                    "consequences": "Jakub feels seen and heard by a calm authority figure. His distress decreases visibly. Both parents, if within earshot, are reminded of what truly matters.",
+                    "trainingFocus": "How does directly addressing a child's unspoken guilt change the dynamic of a family dispute? Why is physical positioning so important with children?"
+                },
+                "partially_positive": {
+                    "choiceText": "Smile warmly and say: 'Don't worry, buddy. Everything's going to be fine. Your parents just need to talk a few things through, okay?'",
+                    "adequate": [
+                        "Well-intentioned and warm in tone",
+                        "Attempts to provide reassurance"
+                    ],
+                    "missed": [
+                        "'Everything's going to be fine' may feel like an empty promise — children are remarkably perceptive about insincerity",
+                        "Doesn't address his expressed wish for the fighting to stop",
+                        "Doesn't address his feeling of being trapped",
+                        "The guilt — the core issue — remains completely unspoken"
+                    ],
+                    "improvement": "When is reassurance helpful, and when does it dismiss genuine distress? How do you match your words to what the child has actually expressed?",
+                    "consequences": "Jakub may nod politely but his anxiety remains unchanged. A missed opportunity to provide meaningful emotional support."
+                },
+                "neutral": {
+                    "choiceText": "Acknowledge Jakub briefly — 'Hang in there, okay, buddy?' — then redirect to Eva: 'We really need to sort this out now. Can you think of a way we can make this work today?'",
+                    "adequate": [
+                        "Brief acknowledgment is better than ignoring the child"
+                    ],
+                    "missed": [
+                        "Dismissive of a genuine emotional moment — the child took courage to speak up",
+                        "A two-second response signals his feelings aren't important to the adults",
+                        "Redirecting immediately back to logistics reinforces the child's invisibility",
+                        "Burden of resolution placed entirely on the mother"
+                    ],
+                    "improvement": "When a child speaks up during a crisis, what does your response teach them about the value of their voice? How much time does meaningful acknowledgment actually require?",
+                    "consequences": "Jakub withdraws, feeling ignored. He's less likely to express his feelings again. A critical window for connection closes."
+                },
+                "negative": {
+                    "choiceText": "Use Jacob's statement to speed up resolution — turn to both parents: 'You heard him. Let's wrap this up efficiently so Jacob can move on with his evening. Eve, the court order is clear. Mark, let's get Jacob settled in your car. The faster we resolve this, the less he has to see.'",
+                    "risks": [
+                        "Sounds like practical child-centered efficiency but uses Jacob's vulnerable moment as a tool to rush the process",
+                        "The child spoke up seeking comfort and reassurance; instead his words redirect to pressuring the adults",
+                        "Jacob learns that speaking up leads to being ignored while adults do what they were going to do anyway",
+                        "Eve feels railroaded by the speed and her health concerns remain unaddressed"
+                    ],
+                    "consequences": "Jacob's distress deepens — he expressed a feeling and received a logistics plan. The 'efficient' resolution is brittle because it skips everyone's underlying needs.",
+                    "trainingFocus": "When a child's emotional moment is used as a reason to rush rather than pause, what does the child learn about expressing feelings? What is the cost of efficiency over empathy?"
+                }
+            },
+            "keyLearningPoints": [
+                "Children in custody disputes carry enormous guilt — they need to hear explicitly that it's not their fault",
+                "Physical positioning at a child's eye level is one of the most powerful rapport-building tools",
+                "A child who speaks up during a crisis is showing trust — how you respond determines whether that trust survives",
+                "Everything you say and do in front of a child becomes part of their understanding of conflict and authority"
+            ]
+        },
+        "6": {
+            "stageName": "The Father's Ultimatum",
+            "criticalSkills": [
+                "De-escalating threats without counter-threatening",
+                "Reframing consequences as self-interest rather than punishment",
+                "Maintaining rapport under direct accusation of bias"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Martin, I haven't forgotten about you or the court order — I take it seriously, and I'm on your side in terms of making this exchange happen today. I needed to hear both sides, which is standard procedure for any officer. Here's where things stand: I've spoken with Eva, and I'm working on getting Jakub to you. But if you grab him, that creates a police matter where there isn't one now, and that could actually hurt your custody position. Let's get this done the right way.",
+                    "strengths": [
+                        "Directly addresses core concern — that he's been forgotten and you're biased",
+                        "Reaffirms legal validity of his position without caveats",
+                        "Explains the process transparently — standard procedure, not favoritism",
+                        "Warning about physical action framed as protecting his interests, not as a threat",
+                        "'The right way' appeals to his sense of justice and legitimacy"
+                    ],
+                    "consequences": "Martin's anger deflates significantly. He feels heard, respected, and confident the exchange is going to happen. He puts his phone away.",
+                    "trainingFocus": "How does framing consequences as self-interest rather than threats change someone's willingness to cooperate?"
+                },
+                "partially_positive": {
+                    "choiceText": "Martin, I understand your frustration, and I respect your legal rights. But threatening to take Jakub by force won't help your case. Let's find a solution that keeps everyone in a good position.",
+                    "adequate": [
+                        "Validates frustration and acknowledges legal rights",
+                        "Sets a boundary about force",
+                        "Offers to work toward a solution"
+                    ],
+                    "missed": [
+                        "'Won't help your case' keeps the framing legal and adversarial",
+                        "'Everyone in a good position' may feel like diluting his legitimate claim",
+                        "Doesn't address the accusation of bias directly",
+                        "Doesn't explain what you've been doing or provide a progress update"
+                    ],
+                    "improvement": "How do you set boundaries without using language that keeps someone in an adversarial mindset? When someone accuses you of bias, should you ignore it or address it head-on?",
+                    "consequences": "Martin pauses but his underlying frustration about perceived bias remains. He cooperates reluctantly but remains suspicious."
+                },
+                "neutral": {
+                    "choiceText": "Sir, you need to calm down. I'm doing my job here. If you want to call your lawyer, go ahead, but you cannot take the child by force.",
+                    "adequate": [
+                        "Sets a necessary boundary about force",
+                        "Acknowledges his right to legal representation"
+                    ],
+                    "missed": [
+                        "'You need to calm down' is one of the most counterproductive phrases in de-escalation — it invalidates emotions and implies irrationality",
+                        "Often provokes the exact opposite of the intended effect",
+                        "No empathy, no explanation, no progress update",
+                        "Doesn't address the bias accusation"
+                    ],
+                    "improvement": "Why does 'calm down' almost never produce calm? What alternative phrases achieve the same goal without invalidation?",
+                    "consequences": "Martin escalates further: 'Don't tell me to calm down!' The situation deteriorates. Rapport is lost and physical confrontation becomes more likely."
+                },
+                "negative": {
+                    "choiceText": "If you approach that car or try to take the child, I will have to intervene physically. Step back to my vehicle right now.",
+                    "risks": [
+                        "Pure enforcement response to verbal escalation",
+                        "Jumping to implied physical confrontation when Martin is still only verbally agitated",
+                        "Completely ignores his emotional state, legal position, and fear of losing time with his son",
+                        "Transforms a family dispute into a police confrontation"
+                    ],
+                    "consequences": "Martin either backs down resentfully or challenges you physically. Either way, Jakub witnesses his father being threatened by a police officer. The child's trauma deepens.",
+                    "trainingFocus": "At what point does a verbal threat warrant a physical enforcement response, and what are the costs of jumping there too early?"
+                }
+            },
+            "keyLearningPoints": [
+                "'Calm down' is consistently identified as one of the least effective phrases in de-escalation across all research",
+                "Framing consequences as protecting someone's own interests is far more effective than threats",
+                "When accused of bias, address it directly and transparently rather than ignoring it or becoming defensive",
+                "Providing a progress update ('here's where things stand') reduces anxiety that comes from feeling forgotten"
+            ]
+        },
+        "7": {
+            "stageName": "Facilitating Resolution",
+            "criticalSkills": [
+                "Creative problem-solving under time pressure",
+                "Transforming win/lose dynamics into collaborative solutions",
+                "Giving both parties a constructive role in the resolution"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Here's what I suggest. Eva, I hear your concern about Jakub's health — would you write down his symptoms, his medication and dosage, and your pediatrician's phone number for Martin? Martin, would you be willing to keep Eva updated on how Jakub's feeling tonight — maybe a quick text and a photo? That way Jakub gets his time with dad as the court order provides, and both of you know he's being looked after. Jakub, your mom is going to give your dad all the info about your medicine, so you'll be well taken care of this weekend.",
+                    "strengths": [
+                        "Addresses mother's genuine health concern with a concrete solution",
+                        "Respects father's legal rights — the exchange happens",
+                        "Gives both parents an active and dignified role in the solution",
+                        "Transforms the conflict from win/lose into collaborative parenting",
+                        "Directly reassuring the child shows him the adults found a solution together",
+                        "Specific, actionable steps make it implementable rather than vague"
+                    ],
+                    "consequences": "Eva agrees — writing down medical information gives her a sense of control and purpose. Martin agrees to text updates — a small concession that costs him nothing. Jakub sees his parents cooperating. The exchange happens smoothly.",
+                    "trainingFocus": "How does giving both parties a constructive task channel their energy away from conflict and toward cooperation?"
+                },
+                "partially_positive": {
+                    "choiceText": "Martin has the court order, so the exchange should happen today. But Eva, what if Martin agrees to take Jakub to a doctor if his symptoms get worse over the weekend? Martin, would that work for you?",
+                    "adequate": [
+                        "Attempts a compromise",
+                        "Addresses the mother's stated concern about health"
+                    ],
+                    "missed": [
+                        "Implicitly conditioning the court-ordered exchange on additional terms oversteps your role",
+                        "If Martin refuses, you've created a new conflict point",
+                        "If Martin agrees under pressure, he may resent it",
+                        "You've positioned yourself as renegotiating custody terms — a court's role"
+                    ],
+                    "improvement": "Where's the line between facilitating resolution and renegotiating a court order? How do you propose solutions that enhance the order rather than modify it?",
+                    "consequences": "Martin may agree reluctantly or refuse on principle. The precedent may encourage more obstructive behavior at future exchanges."
+                },
+                "neutral": {
+                    "choiceText": "The court order says Jakub goes with his father this weekend. Eva, I recommend you comply with the order. If you believe it should be changed, you can file a motion with the court on Monday.",
+                    "adequate": [
+                        "Legally accurate and procedurally sound",
+                        "Provides information about legal recourse"
+                    ],
+                    "missed": [
+                        "Blunt directive to 'comply' feels coercive rather than facilitative",
+                        "Referencing court action on Monday feels distant from current emotional reality",
+                        "No plan for the child's transition or health needs",
+                        "No bridge built for future exchanges — the next one will be just as bad"
+                    ],
+                    "improvement": "Is a 'successful' exchange one where the child physically changes hands, or one where the child feels safe during the transition? What does sustainable resolution look like?",
+                    "consequences": "Eva hands over Jakub resentfully. The exchange happens but badly — Jakub picks up on his mother's distress. No improvement for future exchanges."
+                },
+                "negative": {
+                    "choiceText": "Look, I understand this is difficult for both of you, but I can't force either of you to do anything here — this is a civil matter. You need to work this out between yourselves or take it back to court. I've done everything I can.",
+                    "risks": [
+                        "Abdicating responsibility at the critical moment",
+                        "A distressed child is present — walking away is a failure of duty",
+                        "'I've done everything I can' signals you're done investing effort",
+                        "Both parents feel abandoned by the only neutral party"
+                    ],
+                    "consequences": "The argument reignites the moment you walk away. The school security guard calls 911 again within twenty minutes. Jakub endures another round of parental conflict. Your intervention achieved nothing.",
+                    "trainingFocus": "What's the difference between 'I can't force anyone' and 'I can't help at all'? What creative solutions exist even within civil matter limitations?"
+                }
+            },
+            "keyLearningPoints": [
+                "Creative solutions that give both parties a constructive role transform adversarial dynamics into collaboration",
+                "The best resolutions address the underlying concern (health worry) while respecting the legal framework (court order)",
+                "Reassuring the child that adults found a solution together is one of the most powerful healing moments you can create",
+                "Police who walk away from unresolved custody disputes don't prevent conflict — they guarantee its recurrence"
+            ]
+        },
+        "8": {
+            "stageName": "Debrief and Reveal",
+            "criticalSkills": ["Reflection", "Linking choices to outcomes", "Reinforcing neutral mediation and child-centred practice"],
+            "choiceAnalysis": {
+                "positive": {},
+                "partially_positive": {},
+                "neutral": {},
+                "negative": {}
+            },
+            "keyLearningPoints": [
+                "Use the debrief to reinforce what worked: visible neutrality, separation of parties, and addressing the child's experience.",
+                "Reflect on how each choice affected both parents and the child; custody exchanges are remembered by all three."
+            ]
+        }
+    },
+    "comprehensiveMetrics": {
+        "impartialityNeutrality": {
+            "description": "Maintaining visible fairness to both parties without favoring one parent's position",
+            "indicators": {
+                "excellent": [
+                    "Equal time and empathy given to both parties",
+                    "No approach, language, or action that signals favoritism",
+                    "Transparent explanation of process to both sides",
+                    "Both parents feel heard and respected regardless of the outcome"
+                ],
+                "poor": [
+                    "Immediately siding with one party based on who speaks first or who has documentation",
+                    "Language that validates one parent while dismissing the other",
+                    "Physical positioning that signals alliance with one party",
+                    "Acting as a private enforcement agent rather than a neutral facilitator"
+                ]
+            }
+        },
+        "communicationEffectiveness": {
+            "description": "Overall quality of verbal and non-verbal communication across all parties including the child",
+            "indicators": {
+                "excellent": [
+                    "Active listening demonstrated with each party individually",
+                    "Appropriate tone calibrated to each person's emotional state",
+                    "Using names to build rapport and reduce adversarial framing",
+                    "Transparent process communication — explaining what you're doing and why"
+                ],
+                "poor": [
+                    "Using counterproductive phrases ('calm down,' 'nothing I can do')",
+                    "Legalistic or bureaucratic language in emotionally charged moments",
+                    "Ignoring or dismissing one party's stated concerns",
+                    "Failure to adapt communication style for the child"
+                ]
+            }
+        },
+        "emotionalIntelligence": {
+            "description": "Ability to recognize and respond to emotions of all parties, including the child",
+            "indicators": {
+                "excellent": [
+                    "Accurate recognition of underlying fears — father's fear of losing access, mother's fear for child's health",
+                    "Validation of emotions even when you cannot grant requests",
+                    "Managing own emotional reactions under direct accusation of bias",
+                    "De-escalation through emotional acknowledgment before procedural action"
+                ],
+                "poor": [
+                    "Dismissing emotional concerns as irrelevant to the 'legal matter'",
+                    "Responding to personal attacks with counter-aggression or withdrawal",
+                    "Failing to recognize the child's guilt and distress as requiring direct attention",
+                    "Escalation through emotional invalidation or shaming"
+                ]
+            }
+        },
+        "proceduralLegalAwareness": {
+            "description": "Understanding police limitations in civil matters and managing expectations accordingly",
+            "indicators": {
+                "excellent": [
+                    "Clear understanding that police are not private enforcement agents in civil custody matters",
+                    "Appropriate management of expectations about what police can and cannot do",
+                    "Recognition that court orders provide guidance but don't eliminate the need for judgment",
+                    "Creative problem-solving within procedural boundaries"
+                ],
+                "poor": [
+                    "Unilateral enforcement of one party's interpretation of a court order",
+                    "Promising outcomes beyond police authority (arrest for civil matters)",
+                    "Abdicating all responsibility because it's a 'civil matter'",
+                    "Renegotiating court order terms rather than facilitating compliance"
+                ]
+            }
+        },
+        "childCenteredApproach": {
+            "description": "Prioritizing the child's emotional safety, reducing exposure to conflict and guilt",
+            "indicators": {
+                "excellent": [
+                    "Direct communication with the child at their physical level",
+                    "Explicitly addressing the child's guilt ('this is not your fault')",
+                    "Including the child in the resolution announcement so they see cooperation",
+                    "Ensuring the child's transition is smooth, not just that custody 'changes hands'"
+                ],
+                "poor": [
+                    "Ignoring the child entirely while negotiating with parents",
+                    "Using the child's distress as leverage against one parent",
+                    "Making decisions about the child without acknowledging the child's experience",
+                    "Allowing the child to witness escalating conflict without intervention"
+                ]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "biasSignaling": {
+            "pattern": "Actions or language that signal favoritism toward one parent",
+            "examples": [
+                "Approaching one parent's vehicle first",
+                "Immediately questioning one party's claims without hearing the other",
+                "Acting as enforcement agent for the party with documentation",
+                "Spending significantly more time with one party"
+            ],
+            "impact": "Perceived bias destroys trust with the disadvantaged party, escalates conflict, and often makes future exchanges worse",
+            "correction": "Practice visible neutrality: equal time, equal empathy, equal respect. Announce your process transparently so both parties understand the sequence."
+        },
+        "escalation": {
+            "pattern": "Responses that increased tension rather than reducing it",
+            "examples": [
+                "Telling someone to 'calm down'",
+                "Threatening physical intervention for verbal aggression",
+                "Using coercive language ('comply,' 'I will have to intervene')",
+                "Dismissing legitimate concerns with 'nothing I can do'"
+            ],
+            "impact": "Each escalation makes resolution harder, increases the risk of physical confrontation, and deepens the child's trauma",
+            "correction": "Replace commands with requests, threats with self-interest framing, and dismissals with acknowledgments. Practice the phrase: 'I understand this is frustrating. Here's what I can do.'"
+        },
+        "childNeglect": {
+            "pattern": "Failure to recognize or address the child's emotional needs",
+            "examples": [
+                "Ignoring the child while negotiating with parents",
+                "Brief, dismissive acknowledgment ('hang in there, buddy')",
+                "Using the child's distress as leverage against a parent",
+                "Failing to address guilt ('none of this is your fault')"
+            ],
+            "impact": "Children internalize custody conflict as their fault. A missed opportunity to provide reassurance from a trusted authority figure can deepen long-term psychological harm.",
+            "correction": "Always include the child in your awareness. When a child speaks, give them your full attention. Crouch to their level. Name what they might be feeling. Explicitly address guilt."
+        },
+        "legalRigidity": {
+            "pattern": "Over-reliance on legal frameworks without human connection",
+            "examples": [
+                "Reducing the situation to 'what the paperwork says'",
+                "Demanding medical documentation before acknowledging concern",
+                "Directing a parent to 'comply' without empathy",
+                "Citing court procedures as a substitute for engagement"
+            ],
+            "impact": "Technically correct but emotionally destructive. Compliance achieved through rigidity creates resentment and guarantees future conflicts.",
+            "correction": "Lead with empathy, follow with process. The law provides the framework; your humanity provides the bridge to cooperation."
+        },
+        "abdication": {
+            "pattern": "Withdrawing from the situation when it becomes complex",
+            "examples": [
+                "'This is a civil matter, work it out yourselves'",
+                "'I've done everything I can'",
+                "Leaving the scene with the conflict unresolved",
+                "Passing responsibility entirely to one party"
+            ],
+            "impact": "Walking away from an unresolved custody dispute with a distressed child present doesn't prevent harm — it guarantees its recurrence. Both parents lose faith in police as a resource.",
+            "correction": "Creative problem-solving is always possible. Even in civil matters, you can facilitate communication, propose practical solutions, and ensure the child's transition is handled with care."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Outstanding performance. You demonstrated exceptional neutrality, emotional intelligence, and creative problem-solving under intense pressure. Your ability to validate both parents while centering the child's emotional wellbeing is exactly what custody disputes demand. The collaborative resolution you facilitated — medical information exchange, update commitments — transforms a one-time intervention into a template for healthier future exchanges. Most importantly, Jakub saw adults working together instead of fighting. That moment may be the most impactful thing you did today.",
+            "mostlyPositive": "Strong overall performance with excellent mediation skills. You maintained good neutrality and showed genuine empathy to all parties. Key strength: [SPECIFIC_STRENGTH]. Area for growth: [SPECIFIC_IMPROVEMENT]. Your approach helped both parents see past their conflict to focus on Jakub's wellbeing — that's the core of effective custody intervention.",
+            "mixed": "You handled some aspects well but missed critical opportunities. Strengths included [SPECIFIC_STRENGTHS]. However, [SPECIFIC_WEAKNESSES] need attention. Custody disputes require balancing legal awareness, emotional intelligence, impartiality, and child-centered thinking simultaneously. Review [TRAINING_AREAS] to strengthen the areas where your response fell short.",
+            "mostlyNegative": "This scenario revealed significant gaps in custody mediation skills. While you [MINOR_POSITIVE], most choices either signaled bias, escalated tension, or overlooked the child's emotional needs. Specifically, [MAJOR_FAILURES]. In custody disputes, perceived unfairness from the officer often makes future exchanges worse, creating a cycle of escalating conflict. Immediate training recommended in: [CRITICAL_TRAINING].",
+            "allNegative": "Your approach during this scenario was concerning. Consistent bias toward one party, escalation rather than de-escalation, and failure to address the child's distress could have lasting consequences for the family. Mandatory corrective training required in: neutral mediation, empathy-based communication, child-sensitive intervention, and understanding police limitations in civil matters. Remember: in custody disputes, the child is always watching and learning from every adult in the room — including you."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Good afternoon. I'm Officer [name]. I can see this is a stressful situation. Let's work through it — but first, I need you both to take a step back for me, please.",
+            "I understand you both feel strongly about this. I'm going to speak with each of you separately so I can understand the full situation.",
+            "Thank you for showing me this, Martin. I take it seriously — a court order carries real weight.",
+            "I can hear how worried you are about Jakub, Eva. His health matters.",
+            "Hey Jakub, I know this is really hard. I want you to know that none of this is your fault, okay?",
+            "I haven't forgotten about you or the court order — I take it seriously, and I'm on your side in terms of making this exchange happen today.",
+            "Eva, would you write down his symptoms, his medication and dosage, and your pediatrician's phone number for Martin?"
+        ],
+        "poorPhrases": [
+            "I can see this has been an ongoing pattern, Mark. Let me talk to her about respecting the schedule.",
+            "Do you have a doctor's note or any medical evidence?",
+            "You heard him. Let's wrap this up efficiently so Jacob can move on with his evening.",
+            "You need to calm down. I'm doing my job here.",
+            "If you approach that car or try to take the child, I will have to intervene physically.",
+            "I can't force either of you to do anything here — this is a civil matter. I've done everything I can.",
+            "Unless you have medical documentation, there's really nothing I can do."
+        ],
+        "analysisCriteria": {
+            "neutrality": "Did the phrase maintain visible impartiality between both parties?",
+            "empathy": "Did the phrase validate emotions before addressing procedural concerns?",
+            "childAwareness": "Did the phrase consider the child's emotional exposure and wellbeing?",
+            "clarity": "Did the phrase communicate process and expectations transparently?",
+            "effectiveness": "Did the phrase move the situation toward resolution rather than escalation?",
+            "creativity": "Did the phrase offer collaborative solutions rather than win/lose outcomes?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Your initial approach sets the emotional tone for the entire custody exchange intervention — calm presence de-escalates, commanding presence creates resistance",
+        "2": "Physical separation of conflicting parents is the single most effective structural de-escalation technique in custody disputes",
+        "3": "Police are not private enforcement agents — a court order is a framework, not a weapon to be deployed for one party",
+        "4": "Validating a parent's emotional concern before presenting legal realities builds trust even when the answer is unwelcome",
+        "5": "Children in custody disputes carry enormous guilt — they need to hear explicitly and directly that the conflict is not their fault",
+        "6": "'Calm down' is consistently identified as counterproductive in de-escalation research — frame consequences as self-interest instead of threats",
+        "7": "Creative solutions that give both parents a constructive role transform adversarial dynamics into collaborative parenting"
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": [
+                "Advanced family mediation and custody dispute resolution",
+                "Training others in child-sensitive police intervention",
+                "Specialized family crisis intervention team leadership"
+            ],
+            "good": [
+                "Extended neutral mediation techniques for high-conflict families",
+                "Child psychology in custody and divorce situations",
+                "Creative problem-solving in civil-legal police encounters"
+            ],
+            "average": [
+                "Basic custody dispute intervention protocols",
+                "Active listening and emotional validation skills",
+                "Understanding police limitations in civil matters"
+            ],
+            "poor": [
+                "Mandatory de-escalation and neutrality training",
+                "Child-sensitive communication workshop",
+                "Empathy and emotional intelligence development",
+                "Civil matter vs. criminal matter: police role boundaries"
+            ]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {
+                "title": "Overall Performance Summary",
+                "content": [
+                    "Score",
+                    "Performance level",
+                    "Key strengths",
+                    "Critical weaknesses"
+                ]
+            },
+            {
+                "title": "Stage-by-Stage Analysis",
+                "content": [
+                    "Choice made at each stage",
+                    "Impact on all three parties (father, mother, child)",
+                    "Alternative approaches and their consequences",
+                    "Key learning points"
+                ]
+            },
+            {
+                "title": "Neutrality Assessment",
+                "content": [
+                    "Bias signals identified",
+                    "Balance of empathy between parties",
+                    "Process transparency evaluation"
+                ]
+            },
+            {
+                "title": "Child-Centered Evaluation",
+                "content": [
+                    "Direct engagement with the child",
+                    "Guilt acknowledgment",
+                    "Emotional safety provided during transition",
+                    "Modeling of healthy conflict resolution"
+                ]
+            },
+            {
+                "title": "Communication Effectiveness",
+                "content": [
+                    "Best dialogue moments",
+                    "Counterproductive phrases used",
+                    "Emotional validation quality",
+                    "Process transparency"
+                ]
+            },
+            {
+                "title": "Pattern Analysis",
+                "content": [
+                    "Consistent strengths across stages",
+                    "Recurring mistakes",
+                    "Decision-making trends (e.g., defaulting to authority vs. empathy)"
+                ]
+            },
+            {
+                "title": "Professional Development",
+                "content": [
+                    "Immediate training needs",
+                    "Long-term skill development priorities",
+                    "Recommended resources and workshops"
+                ]
+            },
+            {
+                "title": "Real-World Application",
+                "content": [
+                    "How this translates to custody exchanges in the field",
+                    "Coordination with family courts and social services",
+                    "Building community trust through quality domestic intervention"
+                ]
+            }
+        ]
+    }
+}

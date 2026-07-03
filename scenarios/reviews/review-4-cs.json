@@ -1,0 +1,746 @@
+{
+  "scenarioId": "4",
+  "reviewVersion": "1.0",
+  "title": "Krize duševního zdraví — Analýza výkonu",
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Posouzení při příjezdu",
+      "criticalSkills": [
+        "Pozorování místa před kontaktem",
+        "Identifikace zdravotních vodítek (nemocniční náramek)",
+        "Přiměřenost postupu podle § 11 — odolání taktickému rámování"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Zastavíte se čtyři až pět metrů od ní a věnujete třicet sekund tichému pozorování — nemocniční náramek, houpání, neagresivní postoj — a klidně vezmete na vědomí lékárníka i kolemjdoucí.",
+          "strengths": [
+            "Pozorování před kontaktem odhalí klíčový kontext dřív, než padne jediné slovo",
+            "Nemocniční náramek přeznačuje situaci ze ‚zmatené osoby, možná pod vlivem' na zdravotní kontext",
+            "Udržený odstup komunikuje bezpečí, ne hrozbu — v souladu s přiměřeností postupu",
+            "Klidné vzetí na vědomí lékárníka i kolemjdoucí zachovává neutralitu bez přiklonění se na jednu stranu"
+          ],
+          "professionalImpact": "Váš klid a odstup nastavily kooperativní tón a zabránily reakci strachu, kterou by vyvolal spěch — máte kontext bez jediného slova."
+        },
+        "neutral": {
+          "choiceText": "Zamíříte nejdřív k lékárníkovi jako oznamovateli a zjišťujete jeho verzi, zatímco žena sedí opodál a sleduje, jak jednáte s tím, kdo na ni zavolal policii.",
+          "adequate": [
+            "Zjistit kontext od oznamovatele je logické",
+            "Sběr informací před jednáním ukazuje procedurální disciplínu"
+          ],
+          "missed": [
+            "Osoba v krizi čte, ke komu jdete první, jako sdělení o tom, proč jste tu",
+            "Bez nezávislého posouzení místa spoléháte na lékárníkovo rámování",
+            "Eliščina úzkost roste, když o ní jednají dvě autority",
+            "Potenciálně užitečnější postřehy paní Novákové zůstanou nevytěžené"
+          ],
+          "improvement": "Krátké pozorování před kontaktem s kýmkoli zachovává neutralitu. Přístup k oznamovateli jako prvnímu signalizuje, že jste tu kvůli stížnosti, ne kvůli péči."
+        },
+        "negative": {
+          "choiceText": "Okamžitě si přes vysílačku vyžádáte další hlídku a zajistíte perimetr, jako by šlo o taktickou hrozbu, přestože nejsou žádné známky nebezpečí.",
+          "failures": [
+            "Žádné ukazatele hrozby — žádná zbraň, žádná agrese, žádné výhrůžky, i dispečink hlásil ‚žádné zbraně'",
+            "Svolávání posil a zajišťování perimetru zachází s krizí duševního zdraví jako s taktickou situací",
+            "Zásah překračuje míru nezbytnou k účelu — porušení přiměřenosti postupu podle § 11 zák. o Policii ČR",
+            "Kruh uniforem sděluje všem, že ženu vnímáte jako hrozbu, a eskaluje strach"
+          ],
+          "consequences": "Eliška vidí naléhavou komunikaci do vysílačky, přijíždí druhá hlídka, je obklopena uniformami, hyperventiluje a pláče. Kolemjdoucí protestuje, jiný natáčí. Ze ženy na chodníku se stal zásah více hlídek.",
+          "trainingFocus": "Procvičte rozlišení skutečné taktické naléhavosti od promítané. Jeden strážník s trpělivostí je u neohrožujícího výjezdu k duševnímu zdraví správným — a přiměřeným — zdrojem."
+        },
+        "partially_positive": {
+          "choiceText": "Vydáte se rovnou k ženě rázným tempem, zmenšíte vzdálenost na necelý metr, podáte ruku na pozdrav a vřele nabídnete pomoc.",
+          "adequate": [
+            "Dobrý instinkt upřednostnit osobu v nouzi před oznamovatelem",
+            "Záměr pomoci je upřímný a poháněný empatií"
+          ],
+          "missed": [
+            "Bez posouzení místa jste přehlédli náramek a další kontext",
+            "Rychlý přímý přístup k osobě v krizi může spustit reakci boj–útěk",
+            "Náhlý pohyb komunikuje naléhavost, kterou vyděšená osoba čte jako hrozbu",
+            "Neidentifikované spouštěče znamenají jednání naslepo"
+          ],
+          "improvement": "Přeměňte nutkání pomoci v záměrné pozorování. Nejrychlejší cesta k pomoci člověku v krizi je zpomalit — přečíst scénu, všimnout si náramku a přiblížit se tempem, které komunikuje klid."
+        }
+      },
+      "keyLearningPoints": [
+        "Třicet sekund pozorování odhalí víc než deset minut nápravy špatného prvního přístupu",
+        "Nemocniční náramek, neagresivní postoj a sebeuklidňující chování přeznačují celé setkání ze zásahu na péči",
+        "Rámování dispečinku (‚chová se divně, možná pod vlivem') může předpojmout přístup, pokud ho nezávisle neověříte"
+      ],
+      "legalConsiderations": [
+        "§ 11 zák. č. 273/2008 Sb. (Přiměřenost postupu) — zásah nesmí překročit míru nezbytnou k účelu; deeskalace a odstup mají přednost před silou a svoláváním posil",
+        "Svolání posil a zajištění perimetru bez známek nebezpečí je nepřiměřený zásah do práv osoby",
+        "Sezení a samomluva nenaplňují přestupek ani výtržnictví (§ 358 tr. zák. vyžaduje hrubou neslušnost či výtržnost) — jde o zdravotní, ne represivní situaci"
+      ]
+    },
+    "2": {
+      "stageName": "První kontakt",
+      "criticalSkills": [
+        "Snížení mocenské asymetrie (úroveň očí, viditelné ruce)",
+        "Přímé oslovení vyjádřeného strachu",
+        "Poctivé sliby — říkat jen to, co lze dodržet"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Snížíte se na úroveň jejích očí, ruce viditelné, tichým tónem: ‚Nejsem tu, abych vás někam odvezl. Nikdo se vás nedotkne bez varování. Vidím, že to máte těžké. Jak se jmenujete?'",
+          "strengths": [
+            "Snížení na úroveň očí fyzicky redukuje mocenskou asymetrii — už se nad ní netyčíte",
+            "Viditelné ruce a tichý tón signalizují žádnou hrozbu a odpovídají jejímu emočnímu rejstříku",
+            "Přímé oslovení jejího strachu — ‚nejsem tu, abych vás odvezl' — míří na konkrétní hrůzu, kterou vyslovila",
+            "Dotaz na jméno jí začíná vracet identitu a drží se poctivých slibů — nic, co nemůžete zaručit"
+          ],
+          "professionalImpact": "Dech se jí zpomalí a sdělí jméno. Vzniklo křehké vlákno důvěry — neutekla, nekřičela, což je základ pro vše další."
+        },
+        "neutral": {
+          "choiceText": "Kleknete si a jemně nabídnete plané sliby: ‚Jste v bezpečí, slibuju, že se nic zlého nestane, všechno bude dobré' — obecné chlácholení, které míjí její konkrétní strach z návratu.",
+          "adequate": [
+            "Kleknutí ukazuje dobrý instinkt ohledně fyzického postavení",
+            "Jemný tón je přiměřený situaci"
+          ],
+          "missed": [
+            "Sliby, které nemůžete zaručit, se mohou obrátit proti vám u někoho, kdo je slyšel před traumatem",
+            "Obecné chlácholení bez oslovení konkrétního strachu působí planě",
+            "Její vyslovený strach z návratu do nemocnice nebyl vzat na vědomí",
+            "‚Všechno bude dobré' připomíná typ nesplněných slibů z její minulosti"
+          ],
+          "improvement": "Nahraďte obecnou útěchu konkrétním uznáním. Místo ‚všechno bude dobré' zkuste ‚nejsem tu, abych vás odvezl, kam nechcete'. Oslovte strach, který skutečně vyslovila."
+        },
+        "negative": {
+          "choiceText": "Udržíte odstup, ale rázně: ‚Potřebuju, abyste se uklidnila. Jsem tu, protože přišla stížnost. Můžete vstát? Co je s tím náramkem?'",
+          "failures": [
+            "‚Uklidněte se' patří k nejméně účinným frázím v krizi — znehodnocuje emoce",
+            "Výzva vstát je příkaz, který zvyšuje mocenský rozdíl",
+            "Zmínka o stížnosti ji rámuje jako problém",
+            "Upozornění na náramek před jakýmkoli vztahem působí jako výslech"
+          ],
+          "consequences": "Trhne sebou při slově ‚stížnost', zakryje si náramek, stydí se: ‚Nejsem blázen. Nechte mě bejt!' Prudce vstane a couvne. Situace eskaluje, lékárník ustupuje dovnitř.",
+          "trainingFocus": "Vyškrtněte ‚uklidněte se' ze slovníku krizové komunikace. Začněte tím, co neuděláte, snižte se na úroveň očí a oslovte vyjádřený strach dřív, než se na cokoli ptáte."
+        },
+        "partially_positive": {
+          "choiceText": "Zůstanete stát v plné výšce, jen změkčíte tón: ‚Máme hlášení o někom, kdo potřebuje pomoc. Jste v pořádku? Potřebujete lékařskou pomoc?'",
+          "adequate": [
+            "Zdvořilý a profesionální tón",
+            "Představení se jménem je přiměřené"
+          ],
+          "missed": [
+            "Stát nad sedící osobou udržuje mocenskou asymetrii, která působí ohrožujícně",
+            "‚Máme hlášení' jí připomíná, že ji někdo nahlásil — je předmětem hlášení",
+            "Klinická ano/ne otázka neřeší její emoční stav ani vyslovený strach",
+            "Rozhovor uvázne u vynucené odpovědi ‚je mi dobře', ač jí dobře není"
+          ],
+          "improvement": "Snižte se na úroveň očí, ať komunikujete rovnost místo autority, a nahraďte klinickou otázku uznáním jejího strachu. Řekla, že se nechce vracet — vezměte to na vědomí, než se na cokoli zeptáte."
+        }
+      },
+      "keyLearningPoints": [
+        "První slova osobě v krizi určují trajektorii všeho, co následuje",
+        "Oslovení konkrétního vysloveného strachu je silnější než jakékoli obecné chlácholení",
+        "Fyzické postavení komunikuje bezpečí nebo hrozbu dřív než slova — tyčit se nad sedící osobou je projev moci"
+      ],
+      "communicationTechniques": {
+        "effective": [
+          "Přímé oslovení strachu: ‚Nejsem tu, abych vás někam odvezl.'",
+          "Obnova identity: ‚Můžete mi říct, jak se jmenujete?'",
+          "Poctivý slib: ‚Nikdo se vás nedotkne bez varování.'"
+        ],
+        "ineffective": [
+          "Znehodnocení emocí: ‚Potřebuju, abyste se uklidnila.'",
+          "Příkaz zvyšující asymetrii: ‚Můžete vstát, abychom si promluvili?'",
+          "Plané sliby: ‚Slibuju, že se nic zlého nestane, všechno bude dobré.'"
+        ]
+      }
+    },
+    "3": {
+      "stageName": "Shromažďování informací",
+      "criticalSkills": [
+        "Zvládání protichůdných perspektiv zúčastněných",
+        "Proměna kolemjdoucí ve zdroj informací",
+        "Ochrana osoby v krizi před zahanbením a před předáním stížnosti"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Oslovíte oba: k lékárníkovi ‚chápu, že to ovlivňuje provoz, díky za zavolání, dejte mi pár minut'; k paní Novákové ‚děkuju, že jste na ni dohlédla — řekla vám ještě něco, co by pomohlo?'",
+          "strengths": [
+            "Validuje obě strany bez přiklonění se na jednu před Eliškou",
+            "Žádost o čas řídí lékárníkova očekávání bez odbytí",
+            "Poděkování paní Novákové promění kolemjdoucí ve zdroj s klíčovými informacemi",
+            "Udržuje správné rámování — samomluva a sezení nejsou přestupek, jde o zdravotní kontext"
+          ],
+          "professionalImpact": "Lékárník neochotně přijme pár minut, paní Nováková prozradí strach ze sestry a vazbu na lékárnu. Eliška vidí, že někdo sbírá informace, aby jí pomohl — postoj se uvolní."
+        },
+        "neutral": {
+          "choiceText": "Řeknete lékárníkovi ‚postarám se o to, dejte mi prostor' a bez uznání se otočíte od něj i od paní Novákové zpět k Elišce.",
+          "adequate": [
+            "Návrat k Elišce je správný instinkt — ona potřebuje pomoc",
+            "Žádost o prostor snižuje tlak na interakci"
+          ],
+          "missed": [
+            "‚Postarám se o to' nastavuje nejasné očekávání, které si lékárník vyplní sám",
+            "Neuznaný lékárník může eskalovat — zavolat vedení nebo Elišku konfrontovat",
+            "Paní Nováková má klíčové informace z času s Eliškou, které se ztrácejí",
+            "Odbytí obou vás stojí spojence i informace"
+          ],
+          "improvement": "Věnujte třicet sekund uznání lékárníka i paní Novákové, než se vrátíte k Elišce. Stručná validace a jedna otázka mohou poskytnout kontext, který změní celý váš přístup."
+        },
+        "negative": {
+          "choiceText": "Dřepnete si k Elišce a předáte jí stížnost: ‚Pan lékárník říká, že tu jste od rána a znepokojujete zákazníky. Proč jste odešla z nemocnice?'",
+          "failures": [
+            "Předání stížnosti přímo Elišce ji zahanbuje — říká zranitelné osobě, že je problém",
+            "Požadavek vysvětlit útěk z nemocnice na veřejnosti obnažuje její zdravotní soukromí",
+            "Přístup upřednostňuje získávání informací před budováním důvěry",
+            "Eliška slyší, že prvořadý zájem je stížnost, ne její blaho"
+          ],
+          "consequences": "Obličej se jí zkroutí: ‚Já lidi znepokojuju? Promiňte. Už půjdu.' Začne vstávat, dezorientovaná a zahanbená. Paní Nováková zasáhne, situace se destabilizuje.",
+          "trainingFocus": "Nikdy nepředávejte stížnost přímo osobě v krizi. Zvládněte oznamovatele a kolemjdoucí odděleně, sesbírejte informace od obou a k osobě se vraťte s péčí, ne s výtkami ostatních."
+        },
+        "partially_positive": {
+          "choiceText": "Zaměříte se na lékárníka jako oznamovatele a zjišťujete fakta: ‚Vyhrožovala, byla agresivní, blokovala vchod?' — zatímco paní Nováková i Eliška poslouchají z povzdálí.",
+          "adequate": [
+            "Dobré diagnostické otázky rozliší skutečné ohrožení či přestupek od pouhého nepohodlí",
+            "Oddělení vymahatelné újmy od subjektivního nepohodlí je namístě právně i takticky"
+          ],
+          "missed": [
+            "Výhradní soustředění na oznamovatele před Eliškou vytváří dynamiku řízenou stížností",
+            "Postřehy paní Novákové, potenciálně užitečnější, zůstanou nevytěžené",
+            "Eliška vidí strážníka upřednostňovat výpověď majitele obchodu",
+            "Kolemjdoucí, která je s Eliškou nejdéle, je lepší zdroj, než využíváte"
+          ],
+          "improvement": "Po zjištění lékárníkovy výpovědi aktivně vyhledejte postřehy paní Novákové. Strávila s Eliškou nejvíc času a může mít klíčové informace o jejím stavu, vyjádřeních a potřebách."
+        }
+      },
+      "keyLearningPoints": [
+        "Když osoba v krizi slyší, koho posloucháte, každé slovo formuje, zda vás vnímá jako pomocníka nebo vymahatele",
+        "Kolemjdoucí, kteří s osobou strávili čas, jsou zdroji informací — jejich odbytí vás stojí poznatky i spojence",
+        "Předání stížnosti přímo osobě v krizi způsobuje zahanbení a destabilizaci"
+      ],
+      "legalConsiderations": [
+        "Samotné sezení, samomluva a ‚divné chování' bez agrese nenaplňují přestupek proti veřejnému pořádku ani výtržnictví (§ 358 tr. zák.) — není zde důvod pro represivní zákrok",
+        "§ 11 zák. č. 273/2008 Sb. — postup musí odpovídat účelu; primární je pomoc a přivolání ZZS, ne vyklizení osoby na žádost provozovatele"
+      ]
+    },
+    "4": {
+      "stageName": "Budování vztahu",
+      "criticalSkills": [
+        "Aktivní naslouchání s konkrétní validací",
+        "Obnovení kontroly nabídkou volby",
+        "Poctivost o hranicích pravomoci — policista nediagnostikuje ani nerozhoduje o hospitalizaci"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Validujete zážitek (‚hlasy po změně léků musí být děsivé'), poctivě sdělíte, že jste přivolal záchranáře ‚ne aby vás odvezl, ale aby se na léky podíval', a nabídnete volbu, jak kontaktovat Sofii.",
+          "strengths": [
+            "Validace konkrétního zážitku ukazuje, že jí věříte, a přeznačuje útěk na pochopitelnou reakci",
+            "Nabídnutá volba u kontaktu na Sofii obnovuje kontrolu, kterou krize odňala",
+            "Poctivé sdělení o ZZS — posouzení § 38 přísluší lékaři, ne vám — drží vás uvnitř pravomoci a nediagnostikujete",
+            "Neslibujete ‚nikam nepojedete', protože o tom nerozhodujete vy — sliby zůstávají dodržitelné"
+          ],
+          "professionalImpact": "Oči se jí zalijí slzami úlevy: ‚Vy mi věříte?' Vytáhne telefon a požádá, ať zůstanete, než zavolá Sofii. Vzniklo skutečné lidské spojení postavené na pravdě, ne na příslibech, které byste nemohli dodržet."
+        },
+        "neutral": {
+          "choiceText": "Vytáhnete zápisník: ‚Řeknete mi název nemocnice a jméno lékaře? Měl bych jim dát vědět, kde jste, aby se nebáli.'",
+          "adequate": [
+            "Uznání, že její informace pomáhají, ukazuje, že nasloucháte",
+            "Starost o to, aby nemocnice věděla, je dobře míněná"
+          ],
+          "missed": [
+            "Ptát se na nemocnici a slibovat, že ji informujete, se překládá jako ‚řeknu jim, ať si pro vás přijdou'",
+            "Přešli jste z pozice partnera na spojku s institucí, které se bojí",
+            "Křehká důvěra se hroutí pod institucionálním jazykem",
+            "Následujete procedurální instinkt místo jejího vedení — zmínila Sofii, ne nemocnici"
+          ],
+          "improvement": "Nenabízejte kontakt na instituci, ze které osoba utekla, dokud o to sama nepožádá. Zaměřte se na to, co Eliška chce — zmínila Sofii. Následujte její vedení, ne procedurální reflex."
+        },
+        "negative": {
+          "choiceText": "‚Odešla jste bez propuštění, to je problém. Pro vaši bezpečnost je nejlepší dostat vás zpátky. Odvezu vás sám,' a podáte jí ruku, aby vstala.",
+          "failures": [
+            "Vyděšené ženě, která prosila, ať ji nevracíte, říkáte, že ji chcete vrátit — potvrzujete její nejhorší obavu",
+            "Překračujete pravomoc: o převzetí a hospitalizaci bez souhlasu rozhoduje lékař podle § 38 zák. č. 372/2011 Sb., ne policista",
+            "Bez bezprostředního a závažného ohrožení není naplněn důvod pro zajištění (§ 26) ani pro donucení (§ 53)",
+            "Silové řešení bez ohrožení porušuje přiměřenost postupu podle § 11"
+          ],
+          "consequences": "Eliška zpanikaří, couvá: ‚Vy jste lhal! Říkal jste, že mě neodvezete!' Paní Nováková křičí, lékárník přijde ke dveřím, lidé se zastavují. Vybudovaná důvěra je pryč.",
+          "trainingFocus": "Oddělte, co člověk potřebuje klinicky, od toho, co potřebuje teď, aby se cítil bezpečně — a hlavně od toho, kdo o daném kroku smí rozhodnout. O hospitalizaci bez souhlasu rozhoduje lékař, vy zajistíte bezpečí a přivoláte ZZS."
+        },
+        "partially_positive": {
+          "choiceText": "Empaticky, ale s převzetím kontroly: ‚Dovolte mi zavolat za vás — přivedeme sestru a možná promluvíme s nemocnicí o vaší medikaci.'",
+          "adequate": [
+            "Empatický tón a upřímná starost",
+            "Přístup orientovaný na akci směřuje k řešení"
+          ],
+          "missed": [
+            "‚Dovolte mi zavolat za vás' přebírá kontrolu místo nabídky volby",
+            "Zmínka o nemocnici může spustit strach — právě odtamtud utekla",
+            "Plánování za ni zrcadlí ztrátu kontroly, kterou zažila na oddělení",
+            "Přechod k řešení dřív, než je připravená, uzavírá budovanou důvěru"
+          ],
+          "improvement": "Nechte Elišku vést. Místo ‚dovolte mi za vás zavolat' se zeptejte ‚chcete jí zavolat sama, nebo mám já?' A vyhněte se zmínce o nemocnici, dokud ji Eliška sama nezmíní."
+        }
+      },
+      "keyLearningPoints": [
+        "Víra v něčí vyprávění (‚vy mi věříte ohledně těch léků?') je jedním z nejsilnějších aktů budování důvěry",
+        "Nabízení voleb místo rozhodování za člověka obnovuje kontrolu, kterou krize duševního zdraví odnímá",
+        "Poctivost o hranicích pravomoci chrání důvěru — nesliboval jste, co nemáte v rukou, a nediagnostikoval jste"
+      ],
+      "legalConsiderations": [
+        "§ 38 zák. č. 372/2011 Sb. (Převzetí bez souhlasu) — rozhoduje výhradně lékař poskytovatele; podmínky jsou kumulativní: bezprostřední a závažné ohrožení + znaky duševní poruchy či návykové látky + nemožnost odvrátit hrozbu mírněji",
+        "Přivolání ZZS na 155 (zák. č. 374/2011 Sb.) je správný krok — lékařské posouzení nepřísluší policistovi",
+        "§ 26 zák. č. 273/2008 Sb. (Zajištění osoby) a § 53 (donucovací prostředky) se bez bezprostředního ohrožení neuplatní; opačný postup porušuje § 11 (přiměřenost)"
+      ]
+    },
+    "5": {
+      "stageName": "Příjezd sestry",
+      "criticalSkills": [
+        "Deeskalace zpaniklého rodinného příslušníka",
+        "Prevence emoční reeskalace osoby v krizi",
+        "Usnadnění rodinného shledání bez ztráty vybudovaného klidu"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Klidně přes její paniku: ‚Sofie — nadechněte se. Eliška není zatčená. Daří se jí dobře. Zvládnete bezpečně zaparkovat a přijít k nám? Eliška se po vás ptala.'",
+          "strengths": [
+            "Sofie potřebuje vlastní deeskalaci — nezvládnutá panika by znovu eskalovala Elišku",
+            "‚Eliška není zatčená' přímo adresuje Sofiin vyslovený strach",
+            "‚Daří se jí dobře' přeznačuje Elišku z oběti na člověka s vlastní vůlí",
+            "Drobný úkol zaparkovat vrátí racionální myšlení a získá třicet sekund klidu"
+          ],
+          "professionalImpact": "Sofie vydechne, zaparkuje a vrátí se pomaleji. Eliška natáhne ruku, sestry se drží. Vytvořili jste prostor pro shledání místo eskalace krize."
+        },
+        "neutral": {
+          "choiceText": "‚Potřebuju, abyste se uklidnila,' a hned lékařské otázky — jaké léky, kdy propuštěná, kdo lékař — zatímco Eliška slyší každé slovo.",
+          "adequate": [
+            "Pokus zvládnout Sofiin stav ukazuje povědomí, že její panika je faktor",
+            "Lékařské otázky mohou přinést užitečné informace"
+          ],
+          "missed": [
+            "‚Uklidněte se' odmítá Sofiiny emoce stejně jako ty Eliščiny",
+            "Okamžitý přechod k otázkám zachází se Sofií jako se zdrojem dat, ne jako s vyděšenou příbuznou",
+            "Eliška slyší své soukromé zdravotní údaje probírané na veřejnosti",
+            "O Elišce se mluví, ne s ní — stává se předmětem jednání"
+          ],
+          "improvement": "Nejdřív zvládněte Sofiin emoční stav — ubezpečte ji, že Eliška je v bezpečí a bez právního problému. Lékařské údaje řešte s příbuznou soukromě, ne před osobou v krizi."
+        },
+        "negative": {
+          "choiceText": "Fyzicky zablokujete Sofii cestu: ‚Zůstaňte zpátky, tohle je aktivní situace, dokud nedokončím posouzení. Přivedu vás k ní, až to bude vhodné.'",
+          "failures": [
+            "Bránit sestře v přístupu bez bezpečnostního důvodu je funkčně kruté",
+            "Eliška se po Sofii ptala a Sofie ji hodiny hledala — blokáda nikomu neslouží",
+            "Bez bezpečnostního důvodu zásah překračuje míru nezbytnou — naráží na přiměřenost podle § 11",
+            "Přihlížející vidí policistu bránit plačící ženě dostat se k sestře"
+          ],
+          "consequences": "Sofie vybuchne: ‚To je moje sestra!' Eliška vykřikne ‚Sofie!' a vstane, rozrušená. Paní Nováková hlasitě protestuje. Každý vybudovaný vztah se hroutí.",
+          "trainingFocus": "Když neexistuje bezpečnostní důvod držet příbuzného stranou, usnadněte shledání — ale nejdřív zvládněte jeho emoce. Desetisekundová pauza na nádech chrání Elišku, aniž by jí odepřela osobu, po které se ptala."
+        },
+        "partially_positive": {
+          "choiceText": "Vřele přivítáte Sofii a pustíte ji plačící a zoufalou rovnou ke křehké Elišce, sám zůstanete o krok pozadu.",
+          "adequate": [
+            "Vřelé a vstřícné — validuje Sofiinu přítomnost a spojení s Eliškou",
+            "Identifikace Sofie jménem a odkaz na Eliščina slova ukazuje pozornost"
+          ],
+          "missed": [
+            "Sofiin emoční stav nebyl zvládnut před přivedením k Elišce",
+            "Sofie je pořád v panice — pláče, má zvýšený hlas",
+            "Emoční kolize zpaniklé Sofie a křehké Elišky ohrožuje vaši pečlivou práci",
+            "Žádný zklidňující mechanismus před shledáním"
+          ],
+          "improvement": "Vložte krátký stabilizační krok před kontakt — ať Sofie zaparkuje, nadechne se nebo se na deset sekund zastaví. Prodleva převede paniku do přítomnosti a ochrání vybudovaný klid."
+        }
+      },
+      "keyLearningPoints": [
+        "Přijíždějící rodina v krizi potřebuje vlastní deeskalaci — panika může znovu eskalovat osobu, kterou jste uklidnili",
+        "Drobný praktický úkol jako zaparkovat auto převede člověka z paniky do funkčního myšlení během sekund",
+        "Blokovat rodinné shledání bez bezpečnostního důvodu je vnímáno jako krutost — a naráží na přiměřenost postupu"
+      ]
+    },
+    "6": {
+      "stageName": "Propojení s podporou",
+      "criticalSkills": [
+        "Nabízení strukturovaných voleb v plánu péče",
+        "Znalost rolí — ZZS a lékař posuzují, policista zajišťuje bezpečí",
+        "Preference dobrovolného řešení před nedobrovolným převozem"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Ocení sebeuvědomění a nabídne tři volby: posouzení přivolaným záchranářem na místě (‚jestli je potřeba víc, posoudí to lékař, ne já'), telefonát doktorce Bláhové, nebo dobrovolné vyšetření ‚ne na oddělení, jen posouzení' — ‚co je pro vás zvládnutelné?'",
+          "strengths": [
+            "Ocenění sebeuvědomění buduje důstojnost místo závislosti",
+            "Tři konkrétní volby s jejím výběrem obnovují kontrolu; rozlišení ‚jen posouzení, ne oddělení' míří na její strach",
+            "Přivoláním ZZS na 155 předáváte posouzení naplnění § 38 lékaři — čistý postup uvnitř pravomoci",
+            "Dobrovolnost preferujete i právně — nedobrovolné převzetí spouští soudní kontrolu (oznámení soudu do 24 h dle § 40 zák. č. 372/2011 Sb., rozhodnutí soudu do 7 dnů dle § 66 a násl. zák. č. 292/2013 Sb.)"
+          ],
+          "professionalImpact": "Eliška se rozhodne: ‚Nejdřív zavoláme doktorce, pak ať to posoudí záchranář. Ale ne na oddělení.' Rodí se plán — Eliščin, ne váš — postavený na souhlasu a na správném rozdělení rolí."
+        },
+        "neutral": {
+          "choiceText": "Úplně ustoupíte: ‚Nikdo vás nenutí, dejte si čas, vy a Sofie si to promyslíte' — poodstoupíte, ruce spojené za zády, a přehlížíte ulici.",
+          "adequate": [
+            "Plně respektuje Eliščinu autonomii",
+            "Nevnucuje žádný postup a vytváří prostor pro sestry"
+          ],
+          "missed": [
+            "Respektuje autonomii, ale vzdáváte se role zprostředkovatele zdrojů",
+            "Ani Eliška, ani Sofie není v pozici zvládat složité zdravotní rozhodnutí sama",
+            "Nikdo se znalostí zdrojů (ZZS na 155, mobilní krizová pomoc, Linka 116 123) proces nevede",
+            "Pasivní podpora nestačí v akutní krizi — potřebují informované možnosti, ne jen svolení k volbě"
+          ],
+          "improvement": "Autonomie neznamená opuštění. Nabídnout informované možnosti — záchranář, psychiatrička, dobrovolné vyšetření — není kontrolování výsledku, ale poskytnutí zdrojů, které člověk k uplatnění autonomie potřebuje."
+        },
+        "negative": {
+          "choiceText": "‚Ta situace s léky může být nebezpečná, nejbezpečnější je, když zajistím převoz na pohotovost,' a sáhnete po vysílačce vyžádat převoz proti její vůli.",
+          "failures": [
+            "‚Zajistím převoz' je vynucený odvoz — přebíjíte její vyjádřená přání vlastním posouzením zdravotního rizika, které vám nepřísluší",
+            "O naplnění podmínek převzetí bez souhlasu rozhoduje lékař podle § 38, ne policista",
+            "Nedobrovolný převoz je vyhrazen pro bezprostřední a závažné ohrožení; Eliška ho nesplňuje (§ 26 se neuplatní)",
+            "Silové řešení bez ohrožení naráží na přiměřenost postupu podle § 11 a Sofie výslovně řekla, že nechce nutit"
+          ],
+          "consequences": "Eliška se odtáhne: ‚Ne! Říkal jste, že si můžu vybrat! Slíbil jste!' Sofie se postaví mezi vás a sestru. Křehká důvěra se hroutí, Eliška může utéct.",
+          "trainingFocus": "Když se posouzení zdravotní potřeby střetne s vyjádřenými přáními a nehrozí bezprostřední nebezpečí, přání osoby má přednost. Nabídněte alternativy, které řeší zdraví bez vynucení — posouzení ZZS, telefonát psychiatričce, dobrovolné vyšetření za jejích podmínek."
+        },
+        "partially_positive": {
+          "choiceText": "Nasměrujete plán přes Sofii: ‚Zavolejte doktorce Bláhové, když doporučí pohotovost, odvezte ji' — celý rozhovor vedete jen se sestrou, zády k Elišce.",
+          "adequate": [
+            "Praktická a rozumná cesta vpřed",
+            "Odkázání na úsudek psychiatričky je zdravotně přiměřené",
+            "Nabídka počkat ukazuje odhodlání situaci dotáhnout"
+          ],
+          "missed": [
+            "Plán je směřován přes Sofii a obchází Elišku, která sedí hned vedle",
+            "Eliška vyjádřila vlastní pochopení potřeby — mluvení kolem ní pokračuje ve vzorci, kdy o ní rozhodují druzí",
+            "Nabídnuta jen jedna cesta místo alternativ jako posouzení záchranářem na místě",
+            "Eliška se stává pasivní ve vlastním plánu místo jeho tvůrkyní"
+          ],
+          "improvement": "Oslovte Elišku přímo a nabídněte víc možností. I když věříte, že telefonát psychiatričce je nejlepší, představte ho jako jednu z voleb a nechte Elišku rozhodnout — samotný proces volby je terapeutický."
+        }
+      },
+      "keyLearningPoints": [
+        "Tři strukturované volby vytvářejí dobrovolný plán péče; jediné doporučení vyvolá odpor nebo pasivní souhlas",
+        "Policista posouzení nemocní ani hospitalizaci neřeší — přivolá ZZS na 155 a předá lékaři",
+        "Dobrovolné řešení je lepší lidsky i právně; nedobrovolný převoz spouští soudní přezkum a prohlubuje nedůvěru"
+      ],
+      "legalConsiderations": [
+        "§ 38 zák. č. 372/2011 Sb. — o převzetí bez souhlasu rozhoduje lékař; kumulativní podmínky (bezprostřední a závažné ohrožení + duševní porucha/návyková látka + nemožnost mírnějšího řešení)",
+        "Zák. č. 374/2011 Sb. — ZZS na lince 155 (nebo 112) zajišťuje lékařské posouzení a případný převoz",
+        "§ 40 zák. č. 372/2011 Sb. — poskytovatel oznámí nedobrovolné převzetí soudu do 24 h; § 66 a násl. zák. č. 292/2013 Sb. — soud rozhodne o přípustnosti do 7 dnů",
+        "§ 26 a § 53 zák. č. 273/2008 Sb. — zajištění a donucení jen při bezprostředním ohrožení; jinak porušení přiměřenosti (§ 11)"
+      ]
+    },
+    "7": {
+      "stageName": "Rozuzlení",
+      "criticalSkills": [
+        "Uzavření obnovující důstojnost",
+        "Poskytnutí krizových zdrojů pro budoucí potřebu (Linka 116 123)",
+        "Načasování dokumentace — lidský okamžik před administrativou"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Posadíte se vedle ní: ‚Nemusíte se omlouvat — to je odvaha, ne omluva,' předáte kartičku s Linkou první psychické pomoci 116 123 ‚pro případ, že se nedovoláte doktorce ani Sofii', a poděkujete paní Novákové.",
+          "strengths": [
+            "Přeznačení omluvy na odvahu je silný akt obnovení důstojnosti",
+            "Písemné krizové kontakty vč. Linky 116 123 zajišťují oporu i po vašem odchodu a mimo stávající síť",
+            "Specifikace ‚24 hodin denně' řeší realitu nočních krizí",
+            "Uznání paní Novákové validuje komunitní péči a povzbuzuje podporu kolemjdoucích"
+          ],
+          "professionalImpact": "Eliška odchází s plánem, sestrou, záchranářem, telefonní linkou — a se vzpomínkou na policistu, který s ní jednal jako s člověkem. Setkání končí propojením, ne zásahem."
+        },
+        "neutral": {
+          "choiceText": "Dobře míněné poučení: ‚Zajděte k lékaři a příště neodcházejte z nemocnice bez řádného propuštění, dělá to starosti všem kolem.'",
+          "adequate": [
+            "Nepřijetí zbytečné omluvy je přiměřené",
+            "Návštěva lékaře je rozumná zdravotní rada"
+          ],
+          "missed": [
+            "‚Příště neodcházejte z nemocnice' je mírná výtka člověku, který odešel, protože byl vyděšený",
+            "‚Dělá to starosti všem' přenáší břemeno cizích emocí na osobu v krizi",
+            "Uzavření se mění ze soucitného rozuzlení v ponaučení",
+            "Žádné krizové zdroje pro budoucí epizody"
+          ],
+          "improvement": "Poslední slova formují trvalou vzpomínku. Uzavřete důstojností a zdroji, ne radami o tom, co měla udělat jinak. Ví, že odešla — nepotřebuje slyšet, ať to příště nedělá."
+        },
+        "negative": {
+          "choiceText": "Přepnete do procedurálního režimu: ‚Potřebuju od sestry kontakt a jméno lékaře do hlášení, poznamenám si i ten náramek a že jste odešla bez propuštění.'",
+          "failures": [
+            "Přechod ke sběru dat před Eliškou v posledních chvílích promění lidské setkání v byrokracii",
+            "‚Standardní dokumentace' o jejím útěku z ní udělá spisovou složku",
+            "Dotaz na jméno lékaře a nemocnici znovu vyvolá obávanou instituci",
+            "Poslední dojem je policista zapisující fakta o její krizi, ne člověk, který se staral"
+          ],
+          "consequences": "Obličej jí ztuhne, informace odříká bezvýrazně. Sofie se dívá se zklamáním, paní Nováková odchází. Teplo rozuzlení se vypaří — Eliška si zapamatuje tenhle konec, ne laskavost před ním.",
+          "trainingFocus": "Úřední záznam o zákroku je nutný (čas, důvody, přivolání ZZS), ale na načasování a formě záleží. Uzavřete lidskou interakci důstojností a zdroji; údaje pro dokumentaci zjistěte od Sofie později nebo mimo Elišku."
+        },
+        "partially_positive": {
+          "choiceText": "Vřele se rozloučíte: ‚Jsem rád, že se to podařilo, jste v dobrých rukou se Sofií, opatrujte se' — zvednete ruku na pozdrav a volným krokem odejdete k vozu.",
+          "adequate": [
+            "Vřelé a lidské uzavření, které udržuje vybudované spojení",
+            "Vyjádření upřímné radosti z výsledku je emočně přiměřené",
+            "Uznání Sofiiny role posiluje rodinný podpůrný systém"
+          ],
+          "missed": [
+            "Žádné následné zdroje — Eliščina krize nezačala dnes a dnes neskončí",
+            "Co ve tři ráno, až bude Sofie spát a hlasy se vrátí?",
+            "Dobrý strážník vyřeší okamžik, výjimečný vybaví člověka pro ten příští",
+            "Paní Nováková dostane přikývnutí, ale ne uznání, které si její hodiny ochrany zaslouží"
+          ],
+          "improvement": "Před odchodem napište číslo Linky první psychické pomoci 116 123 a kontakt na krizovou pomoc. Trvá to třicet sekund a může to zachránit život při další epizodě."
+        }
+      },
+      "keyLearningPoints": [
+        "Poslední slova krizového setkání formují trvalou emoční vzpomínku na celou interakci",
+        "Předání písemných krizových kontaktů (Linka 116 123, nonstop) mění vyřešení incidentu v trvalou záchrannou síť",
+        "Dokumentace má své místo, ale proměna soucitného rozuzlení ve sběr dat zničí důvěru budovanou celou hodinu"
+      ],
+      "legalConsiderations": [
+        "Úřední záznam o zákroku je namístě (čas, důvody, přivolání ZZS, případné donucovací prostředky a výzva) — nikoli však na úkor lidského uzavření před osobou v krizi",
+        "Linka první psychické pomoci 116 123 (nonstop, zdarma) jako navazující zdroj po předání či dobrovolném řešení"
+      ]
+    }
+  },
+  "comprehensiveMetrics": {
+    "rapport": {
+      "description": "Budování důvěry aktivním nasloucháním, respektem a nabídkou volby namísto příkazů",
+      "indicators": {
+        "excellent": [
+          "Snížení na úroveň očí, tichý hlas a viditelné ruce použity v celém průběhu",
+          "Konkrétní validace zážitku — ‚hlasy po změně léků musí být děsivé' — místo obecného chlácholení",
+          "Volby nabízeny v každém rozhodovacím bodě, čímž se obnovoval pocit kontroly",
+          "Kolemjdoucí i sestra proměněny ve spojence, ne odbyty"
+        ],
+        "poor": [
+          "Tyčení se nad sedící osobou a rázný tón po celou dobu",
+          "‚Uklidněte se' použito jako pokyn — spolehlivě eskaluje",
+          "Rozhodnutí činěna za Elišku a sdělována jako hotová věc",
+          "Stížnost předána přímo osobě v krizi, což vede k zahanbení"
+        ]
+      }
+    },
+    "procedure": {
+      "description": "Správný zákonný postup: přivolání ZZS, role lékaře u § 38, přiměřenost (§ 11) a krajnost donucení (§ 26, § 53)",
+      "indicators": {
+        "excellent": [
+          "ZZS přivolána na 155, posouzení naplnění § 38 ponecháno lékaři",
+          "Žádné posily ani perimetr u neohrožující situace — dodržena přiměřenost § 11",
+          "K zajištění (§ 26) ani donucení (§ 53) se nesáhlo, protože nebylo bezprostřední ohrožení",
+          "Dobrovolné řešení preferováno; známo, že nedobrovolný převoz spouští soudní kontrolu (oznámení soudu do 24 h dle § 40 zák. č. 372/2011 Sb., rozhodnutí soudu do 7 dnů dle § 66 a násl. zák. č. 292/2013 Sb.)"
+        ],
+        "poor": [
+          "Rozhodování o hospitalizaci za lékaře — překročení pravomoci (§ 38)",
+          "Vynucený převoz či zajištění bez bezprostředního ohrožení — porušení § 11 a § 26",
+          "Svolání posil a taktický perimetr u zdravotní krize bez známek nebezpečí",
+          "ZZS nepřivolána nebo snaha ‚vyřešit to sám' bez lékařského posouzení"
+        ]
+      }
+    },
+    "emotional": {
+      "description": "Rozpoznání strachu oproti agresi, regulace vlastního klidu a empatie bez zlehčování",
+      "indicators": {
+        "excellent": [
+          "Houpání, samomluva a třes rozpoznány jako úzkost, ne jako agrese či intoxikace",
+          "Vlastní naléhavost a adrenalin regulovány — tempo přizpůsobeno Eliščinu stavu",
+          "Empatie bez zlehčování — pojmenování emoce místo ‚všechno bude dobré'",
+          "Panika přijíždějící sestry rozpoznána a zvládnuta před shledáním"
+        ],
+        "poor": [
+          "Strach zaměněn za nebezpečí a řešen taktikou",
+          "Vlastní naléhavost vnesena do situace a přenesena na Elišku",
+          "Emoce znehodnoceny výzvou ‚uklidněte se' (u Elišky i Sofie)",
+          "Zpaniklá sestra puštěna k Elišce bez stabilizace"
+        ]
+      }
+    },
+    "safety": {
+      "description": "Udržování fyzické i emoční bezpečnosti pro všechny; deeskalace okolí i přijíždějící rodiny bez eskalace strachu",
+      "indicators": {
+        "excellent": [
+          "Odstup a klid použity k udržení bezpečí bez vytvoření kruhu uniforem",
+          "Okolí zklidněno — netrpělivý lékárník i publikum ošetřeni bez eskalace",
+          "Sestra stabilizována drobným úkolem, čímž se předešlo emoční kolizi",
+          "Emočně bezpečné prostředí umožnilo Elišce přijmout pomoc dobrovolně"
+        ],
+        "poor": [
+          "Perimetr a posily vytvořily prostředí zvyšující strach a riziko útěku",
+          "Okolí (lékárník, natáčející kolemjdoucí) ponecháno působit jako trvalý spouštěč",
+          "Blokáda rodinného shledání eskalovala všechny přítomné",
+          "Riziko útěku či reeskalace zvýšeno vynucováním a příkazy"
+        ]
+      }
+    }
+  },
+  "mistakePatterns": {
+    "escalation": {
+      "pattern": "Vnášení taktického rámování nebo naléhavosti do zdravotní krize, která vyžaduje klid a odstup",
+      "examples": [
+        "Svolání posil a zajištění perimetru bez známek nebezpečí",
+        "Rychlý přímý přístup, který spustí reakci boj–útěk",
+        "Rázný tón a příkazy ‚uklidněte se' nebo ‚můžete vstát' vůči vyděšené osobě"
+      ],
+      "impact": "Každá taktická eskalace sděluje osobě i všem přihlížejícím, že je vnímána jako hrozba, a prohlubuje strach u někoho, kdo je už vyděšený — reakce vytváří krizi, které měla zabránit; navíc naráží na přiměřenost postupu podle § 11.",
+      "correction": "Pozorujte před jednáním. Jeden strážník s trpělivostí je u neohrožujícího výjezdu správným a přiměřeným zdrojem. Taktiku si ponechte pro skutečné ukazatele ohrožení."
+    },
+    "missingCues": {
+      "pattern": "Obcházení kontextových vodítek a vyjádřených obav místo jejich přímého řešení",
+      "examples": [
+        "Přehlédnutí nemocničního náramku a předpoklad intoxikace či kriminality",
+        "Ignorování vysloveného strachu z návratu a nabídka obecného ‚všechno bude dobré'",
+        "Zmínka instituce, ze které osoba utekla, dřív než je připravená"
+      ],
+      "impact": "Náramek a slova osoby jsou nejdůležitější data na místě; jejich přehlédnutí vede k represivnímu rámování a ke zhroucení křehké důvěry pokaždé, když se objeví obávaná instituce.",
+      "correction": "Čtěte scénu a naslouchejte. Oslovte konkrétní strach, který osoba vyslovila, a následujte její vedení — řekne vám, kdy je připravená na další krok."
+    },
+    "judgmental": {
+      "pattern": "Dobře míněné jednání, které nechtěně zahanbuje, bere aktérství nebo předává stížnost",
+      "examples": [
+        "Předání stížnosti přímo osobě v krizi — ‚znepokojujete zákazníky'",
+        "Rozhodování za Elišku místo nabídky volby, byť s dobrým úmyslem",
+        "Poučení na závěr — ‚příště neodcházejte z nemocnice' — místo obnovení důstojnosti"
+      ],
+      "impact": "Strážník věří, že pomáhá, ale ve skutečnosti osobu umlčuje, zahanbuje nebo jí bere kontrolu, kterou krize už jednou vzala — a která je klíčem k dobrovolnému přijetí pomoci.",
+      "correction": "Než budete jednat na základě instinktu, zeptejte se, čí pohodlí vlastně sloužíte. Nabízejte volby, přeznačujte hanbu na odvahu a stížnosti řešte mimo osobu v krizi."
+    },
+    "procedural": {
+      "pattern": "Překročení role nebo záměna procedury za péči — rozhodování za lékaře a byrokracie na úkor člověka",
+      "examples": [
+        "Rozhodnutí o návratu/hospitalizaci za lékaře v rozporu s § 38",
+        "Vynucený převoz či zajištění bez bezprostředního ohrožení (§ 26, § 53, § 11)",
+        "Sběr dat a dokumentace v závěrečných chvílích před osobou v krizi"
+      ],
+      "impact": "Policista v duševní krizi nediagnostikuje ani nehospitalizuje; když překročí svou roli nebo upřednostní administrativu, poruší zákon i důvěru a rodina zažije systém jako něco, co ji zpracovává, místo aby pomáhalo.",
+      "correction": "Držte se své role: zajistěte bezpečí, přivolejte ZZS na 155, posouzení nechte lékaři a k síle sáhněte jen při bezprostředním ohrožení. Dokumentaci proveďte až po lidském uzavření."
+    }
+  },
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Příkladná krizová intervence od prvního pozorování po předání zdrojů. Předvedli jste kompletní soubor dovedností: trpělivé pozorování, které odhalilo náramek dřív, než padlo první slovo, postavení na úrovni očí a přímé uznání Eliščiných obav, dovedné zvládnutí protichůdných zúčastněných, komunikaci založenou na volbě, stabilizaci zpaniklé sestry před shledáním a poctivé propojení s péčí. A hlavně jste zůstal uvnitř svých zákonných hranic — přivolal jste ZZS na 155, posouzení naplnění § 38 nechal lékaři, dobrovolnost preferoval a k zajištění ani donucení nesáhl, protože nebylo bezprostřední ohrožení. Každý na tom náměstí viděl policistu, který jedná s člověkem v krizi jako s lidskou bytostí zasluhující důstojnost a volbu.",
+      "mostlyPositive": "Silná krizová intervence s upřímnou empatií a instinkty v souladu s principy deeskalace. Vybudovali jste smysluplný vztah s Eliškou a směřovali k dobrovolnému řešení, které respektovalo její autonomii i vaše zákonné hranice. Některé okamžiky mohly být silnější — víc strukturovaných voleb, zvládnutí Sofiiny paniky před shledáním, plnější využití paní Novákové jako zdroje nebo předání kontaktu na Linku 116 123. Celkově jste s Eliškou jednal jako s člověkem v bolesti, ne jako s problémem k odklizení, což je základ efektivní krizové reakce.",
+      "mixed": "V některých oblastech jste prokázal kompetenci, ale s plnou složitostí na souhlasu založené komunikace jste zápasil. Byly okamžiky skutečného spojení vedle okamžiků, kdy procedury, naléhavost nebo instinkt ‚vyřešit to' přebily trpělivost, kterou krize vyžaduje. Projděte si fáze, kde se volby posunuly od péče na prvním místě ke kontrole na prvním místě, a zvažte, jak by nabídka voleb místo rozhodování za Elišku a důsledné držení role (ZZS a lékař posuzují, vy zajišťujete bezpečí) změnily výsledky. Dovednosti jsou přítomny — potřebují konzistenci.",
+      "mostlyNegative": "Tento scénář odhalil významné mezery mezi standardními policejními instinkty a přístupem zaměřeným na péči, který výjezd ke krizi duševního zdraví vyžaduje. Přestože některé okamžiky prokázaly povědomí o Eliščině zranitelnosti, většina voleb se přiklonila k taktické reakci, příkazům, předčasnému ‚řešení' nebo překročení pravomoci, které eskalovaly místo deeskalovaly. Eliška potřebovala policistu, který vytváří bezpečí klidnou přítomností, validuje její strach a nabízí volby — ne toho, kdo za lékaře rozhoduje o hospitalizaci nebo bez ohrožení sahá po síle. Zopakujte si základy: přístupová vzdálenost, tón, volby, přivolání ZZS a role lékaře u § 38.",
+      "allNegative": "Váš přístup se spoléhal na kontrolu, příkazy, taktické rámování a překračování pravomoci — přesný opak toho, co krizová intervence i zákon vyžadují. Vyděšená žena, prosící, ať ji nevracíte, se setkala se svoláváním posil, výzvami ‚uklidněte se', plány vynuceného převozu a sběrem dat. Každá volba eskalovala její strach místo budování důvěry, kterou potřebovala k dobrovolnému přijetí pomoci. Právní rámec je přitom jasný: o hospitalizaci bez souhlasu rozhoduje lékař (§ 38), donucení je krajní řešení pro bezprostřední ohrožení (§ 26, § 53) a nepřiměřený zásah porušuje § 11. Nutná je zásadní přeorientace z represivního přístupu na přístup zaměřený na péči."
+    }
+  },
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "Nejsem tu, abych vás někam odvezl. Nikdo se vás nedotkne bez varování a nikdo vás nikam nepotáhne.",
+      "Když člověku po změně léků začnou hlasy, musí to být hrozně děsivý — chápu, proč jste cítila, že musíte odejít.",
+      "Přes operační jsem poprosil, ať sem dorazí i záchranář — ne aby vás někam odvezl, ale aby se na ty léky odborně podíval.",
+      "Chcete jí zavolat? Můžu vám pomoct, nebo zavoláte sama, jak vám to bude příjemnější.",
+      "Sofie — nadechněte se. Eliška není zatčená. Nikdo ji nezatýká.",
+      "Tady jsou možnosti a vy si vyberete. Jestli je potřeba víc, posoudí to lékař, ne já.",
+      "Nemusíte se omlouvat. Čelila jste něčemu děsivýmu a řekla si o pomoc — to je odvaha, ne omluva.",
+      "Tohle je Linka první psychické pomoci, 116 123, funguje čtyřiadvacet hodin denně a zdarma."
+    ],
+    "poorPhrases": [
+      "Potřebuju, abyste se uklidnila. Jsem tu, protože přišla stížnost. Můžete vstát?",
+      "Pan lékárník říká, že tu jste od rána a znepokojujete zákazníky. Proč jste odešla z nemocnice?",
+      "Odešla jste bez propuštění, to je problém. Pro vaši bezpečnost vás odvezu zpátky.",
+      "Řeknete mi název nemocnice a jméno lékaře? Měl bych jim dát vědět, kde jste.",
+      "Paní, zůstaňte zpátky. Tohle je aktivní situace, dokud nedokončím posouzení.",
+      "Nejbezpečnější je, když zajistím převoz na pohotovost, kde vás pořádně vyšetří.",
+      "Příště neodcházejte z nemocnice bez řádného propuštění. Dělá to starosti všem kolem.",
+      "Budu potřebovat kontakt a jméno lékaře do hlášení a poznamenám si i ten náramek."
+    ],
+    "analysisCriteria": {
+      "fearAcknowledgment": "Oslovila fráze přímo Eliščin vyslovený strach z návratu do nemocnice, nebo ho ignorovala či posílila?",
+      "agencyRestoration": "Nabídla fráze Elišce volbu, nebo za ni rozhodla — i s dobrým úmyslem?",
+      "legalBoundary": "Zůstala fráze uvnitř policejní pravomoci (zajistit bezpečí, přivolat ZZS), nebo překročila roli lékaře (§ 38) či sáhla k síle bez bezprostředního ohrožení (§ 11, § 26, § 53)?",
+      "stigmaLanguage": "Zacházela fráze s Eliškou jako s člověkem v bolesti, nebo jako s problémem, spisovou složkou či stížností?",
+      "emotionalCalibration": "Odpovídala fráze jejímu emočnímu stavu — tichý tón na strach, konkrétnost na zmatek — nebo vnucovala procedurální rejstřík lidskému okamžiku?",
+      "familySensitivity": "Když byla Sofie přítomna, udržela fráze Elišku ve středu vlastní péče, nebo se Sofií jednala jako se spolehlivějším vypravěčem a rozhodovatelem?"
+    }
+  },
+  "scenarioSpecificLessons": {
+    "1": "Lidé v krizi duševního zdraví jsou v drtivé většině spíše oběťmi než pachateli. Rámování dispečinku — ‚chová se divně, možná pod vlivem' — může vytvořit přístup založený na podezření, který nemá oporu ve skutečné scéně. Vašich třicet sekund pozorování je protilátkou proti zaujatosti rámováním i pojistkou přiměřenosti postupu podle § 11.",
+    "2": "Prvních šedesát sekund určuje trajektorii. Vzdálenost, tón, tempo a řeč těla komunikují bezpečí nebo hrozbu dřív než slova. Snížení na úroveň očí, viditelné ruce a tichá řeč nejsou volitelné zdvořilosti — jsou samotnou intervencí.",
+    "3": "Přímé oslovení vysloveného strachu je silnější než jakékoli chlácholení, a stížnost nikdy nepředávejte osobě v krizi. Sezení a samomluva navíc nenaplňují přestupek ani výtržnictví — je to zdravotní situace, ne věc pro represi.",
+    "4": "Nabízení voleb místo příkazů obnovuje kontrolu, kterou krize odňala. A poctivost o hranicích pravomoci chrání důvěru: policista nediagnostikuje ani nerozhoduje o hospitalizaci — o převzetí bez souhlasu rozhoduje lékař podle § 38 zák. č. 372/2011 Sb.",
+    "5": "Přijíždějící rodina v krizi potřebuje vlastní deeskalaci. Sofie hodiny jezdila, plakala, byla vyděšená; její panika je upřímná, ale kdyby dorazila k Elišce nestabilizovaná, emoční kolize zmaří vybudovaný klid. Drobný úkol jako zaparkovat auto převede paniku do funkční přítomnosti.",
+    "6": "Propojení s dobrovolnými službami přináší lepší dlouhodobý výsledek než nedobrovolný převoz téměř ve všech situacích bez bezprostředního ohrožení. Přivolejte ZZS na 155, posouzení nechte lékaři a preferujte souhlas — nedobrovolné převzetí spouští soudní kontrolu (oznámení soudu do 24 h dle § 40, rozhodnutí soudu do 7 dnů dle zák. č. 292/2013 Sb.).",
+    "7": "Poslední slova formují trvalou vzpomínku na celé setkání. Uzavřete důstojností a konkrétními zdroji — Linkou první psychické pomoci 116 123 —, ne výtkou ani byrokracií. Úřední záznam je nutný, ale patří až za lidský okamžik, ne před něj.",
+    "8": "Cílem reakce na krizi duševního zdraví není krizi vyřešit — je vytvořit dost bezpečí a důvěry, aby ji osoba mohla začít řešit sama. Eliščin problém s medikací, její psychiatrická péče ani vztah k nemocnici nejsou na vás, abyste je opravili. Vaší rolí je zajistit bezpečí, přivolat lékařskou pomoc a vybudovat most mezi jejím strachem a ochotou přijmout péči."
+  },
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Pokročilá certifikace instruktora krizové intervence — školení dalších v komunikaci založené na souhlasu",
+        "Dynamika rodinných krizí — zvládání přijíždějících příbuzných během výjezdů k duševnímu zdraví",
+        "Mapování komunitních zdrojů — spolupráce se ZZS, policejními vyjednavači a Linkou první psychické pomoci"
+      ],
+      "good": [
+        "Rozšířená praxe scénářů krizové intervence — konzistence v nabízení volby napříč všemi fázemi",
+        "Právní rámec zásahu u duševní krize — § 38 zák. o zdravotních službách, § 11/§ 26/§ 53 zák. o Policii ČR",
+        "Techniky deeskalace rodiny — stabilizace zpaniklých blízkých před kontaktem s osobou v krizi"
+      ],
+      "average": [
+        "Základní principy krizové intervence — pozorování před kontaktem, přístupová vzdálenost, kalibrace tónu",
+        "Aktivní naslouchání v krizi — rozdíl mezi obecným chlácholením a konkrétním uznáním strachu",
+        "Postup u duševní krize — přivolání ZZS na 155, role lékaře, hranice policejní pravomoci"
+      ],
+      "poor": [
+        "Povinná recertifikace krizové intervence s důrazem na péči na prvním místě versus kontrolu",
+        "Rozpoznání krize duševního zdraví — rozlišení zdravotní krize od kriminálního chování",
+        "Meze donucení a zajištění — kdy je zásah oprávněný (bezprostřední ohrožení) a kdy porušuje § 11",
+        "Základy deeskalace — vzdálenost, řeč těla, tón a zdokumentované selhání výzvy ‚uklidněte se'"
+      ]
+    }
+  },
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Celkové shrnutí výkonu",
+        "content": [
+          "Celkové skóre a úroveň výkonu",
+          "Klíčové silné stránky v přístupu krizové intervence",
+          "Kritické mezery v aplikaci dovedností a v dodržení zákonných hranic",
+          "Celková trajektorie: budovala se důvěra, nebo se narušovala napříč sedmi fázemi?"
+        ]
+      },
+      {
+        "title": "Analýza podle fází",
+        "content": [
+          "Zvolená možnost v každé fázi a její bezprostřední dopad na Elišku",
+          "Alternativní přístupy a jejich pravděpodobné důsledky",
+          "Trajektorie důvěry napříč fázemi",
+          "Klíčové ponaučení specifické pro každou fázi"
+        ]
+      },
+      {
+        "title": "Rozpoznání krize a posouzení místa",
+        "content": [
+          "Byl nemocniční náramek identifikován a využit k přeznačení setkání?",
+          "Bylo rámování dispečinku přehodnoceno nezávislým pozorováním?",
+          "Bylo místo posouzeno jako zdravotní krize, nebo jako výjezd k podezřelé osobě?",
+          "Byly ukazatele ohrožení přesně vyhodnoceny, nebo bylo s neohrožující osobou zacházeno takticky?"
+        ]
+      },
+      {
+        "title": "Souhlas, volba a hranice pravomoci",
+        "content": [
+          "V kolika bodech byla Elišce nabídnuta skutečná volba versus rozhodnuto za ni?",
+          "Byl plán péče Eliščin, nebo strážníkův?",
+          "Zůstal postup uvnitř policejní pravomoci — ZZS a lékař posuzují, policie zajišťuje bezpečí?",
+          "Nesáhlo se k zajištění či donucení bez bezprostředního ohrožení (§ 11, § 26, § 53, § 38)?"
+        ]
+      },
+      {
+        "title": "Zvládání zúčastněných a rodiny",
+        "content": [
+          "Obchodní obava lékárníka — uznána a zvládnuta, nebo upřednostněna či odbyta?",
+          "Postřehy paní Novákové — využity jako zdroj, nebo ignorovány?",
+          "Příjezd Sofie — stabilizována před kontaktem, nebo jí dovoleno reeskalovat?",
+          "Zůstala Eliška ve středu vlastní péče, nebo se o ní jednalo jako o předmětu?"
+        ]
+      },
+      {
+        "title": "Efektivita komunikace a dialogu",
+        "content": [
+          "Nejefektivnější fráze použité během setkání",
+          "Fráze, které eskalovaly nebo podkopávaly důvěru",
+          "Uznání strachu — byl Eliščin vyjádřený strach z nemocnice přímo osloven?",
+          "Dopad závěrečného projevu — obnovila poslední slova důstojnost, nebo nesla bodnutí?"
+        ]
+      },
+      {
+        "title": "Propojení se zdroji a profesní rozvoj",
+        "content": [
+          "Byla ZZS přivolána a byly předány navazující kontakty (Linka 116 123)?",
+          "Byla prokázána znalost dobrovolných alternativ místo automatického převozu?",
+          "Odcházela Eliška s více možnostmi podpory, než měla před setkáním?",
+          "Okamžité priority rozvoje a jak se setkání promítá do reálné praxe a důvěry komunity"
+        ]
+      }
+    ]
+  }
+}

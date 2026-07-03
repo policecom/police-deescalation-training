@@ -1,0 +1,414 @@
+{
+    "id": "street-vendor",
+    "title": "Street Vendor — Community Crossfire",
+    "description": "Advanced scenario involving an unauthorized street food vendor outside a shop, a frustrated shop owner who called police, supportive bystanders, and a filming crowd. The officer must balance enforcement obligations, procedural justice, economic hardship, community relations, and crowd dynamics — all under the camera's eye.",
+    "icon": "🍜",
+    "instructor": {
+        "name": "Sergeant Davis",
+        "avatar": "👮‍♂️",
+        "introduction": "Street vendor enforcement is one of the most underestimated challenges in policing. It sits at the intersection of law, economics, community, and culture — and it's almost always filmed. The vendor is rarely a criminal; they're usually someone trying to survive. The complainant usually has legitimate concerns. And the crowd has strong opinions about both. Research shows that aggressive enforcement of low-level offenses erodes police legitimacy more than almost anything else. But ignoring valid complaints undermines it too. Your job is to find the path that upholds the law, respects everyone's dignity, and strengthens — rather than damages — the community's trust in you. How you do it matters more than what you do."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-street-vendor-complete"],
+    "perfectBadge": "perfect-scenario-street-vendor",
+    "finalMessage": {
+        "revelation": "Mrs. Tran has been selling phở and bánh mì from her cart for three years, building a loyal following in the neighborhood. She's a 62-year-old Vietnamese immigrant raising two grandchildren after her daughter's death. She applied for a vendor permit eight months ago but has been on a waiting list — the city has a cap on permits and over 400 people are waiting. Mr. Harris's complaint was genuine — the cart was partially blocking his entrance and he'd lost customers. But he later admitted to a neighbor that he felt bad about calling the police once he saw how scared Mrs. Tran was. After your intervention, Mrs. Tran moved her cart to a nearby location that didn't obstruct any shopfront. A local community organization connected her with a lawyer to expedite her permit application. Mr. Harris started buying lunch from her cart on Fridays. The young man who filmed the encounter posted the video with the caption: 'This is how policing should look.'",
+        "keyLessons": [
+            "How you enforce matters more than what you enforce — procedural justice research shows people accept even negative outcomes when treated with dignity",
+            "Street vendor enforcement disproportionately affects immigrants and low-income communities — awareness of this context shapes appropriate response",
+            "Bystanders are part of the dynamic, not obstacles to it — engaging them reduces escalation risk",
+            "Leading with education before enforcement is the recommended best practice for vendor situations",
+            "Creative problem-solving that addresses all parties' legitimate concerns produces more durable outcomes than zero-sum enforcement",
+            "Being filmed is an opportunity to demonstrate professionalism, not a threat to manage",
+            "Officer discretion in low-level enforcement is enormous — how you use it defines community trust for years"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "The Scene",
+            "sceneUpdate": {
+                "emoji": "🍜",
+                "title": "Pedestrian Zone — Saturday Morning",
+                "desc": "Late morning on a busy commercial street. You arrive after a call from a shop owner about an 'illegal vendor blocking his business.' You see a small food cart set up on the wide pavement near a row of shops. An older woman is serving food to two customers. A man in an apron stands near a shop entrance, arms crossed, watching you approach. Several people eat from paper bowls on a nearby bench."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unit responding to a complaint at Maple Street 12. Shop owner reports an unlicensed food vendor set up directly outside his store entrance, obstructing customer access. Complainant is Mr. Harris, owner of a stationery shop. Vendor has apparently been there since early morning."
+                }
+            ],
+            "prompt": "You've arrived at the scene. How do you begin your assessment?",
+            "options": [
+                {
+                    "text": "Walk directly toward the vendor's cart with purpose, weaving past the customers on the bench. Before introducing yourself or making eye contact with anyone else, you reach the cart and ask to see her vendor's permit. The complaint specifically mentions an unlicensed vendor, so establishing the legal basis comes first — everything else follows from whether she has proper documentation or not.",
+                    "feedback": "Why: Approaching the vendor first with an immediate document check — before understanding the full situation — feels like a stop-and-demand. You haven't assessed the actual obstruction, spoken to the complainant, or gauged the atmosphere. This signals to bystanders that you've already decided who's at fault. | CONSEQUENCES: Mrs. Tran sees a police officer walking straight toward her and asking for documents. Fear floods her face. Customers step back. The interaction starts on suspicion, not communication. | Reflection: What does it communicate when the first thing you do is demand documents from the person who was reported?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Head straight to Mr. Harris at the shop entrance, since he's the one who placed the call. You give him a professional nod and pull out your notepad, positioning yourself with your back partially toward the cart. Get his full account of the problem — how long it's been going on, what exactly is being obstructed, whether there have been previous incidents — before deciding how to approach the vendor.",
+                    "feedback": "Why: Approaching the complainant first is reasonable since he initiated the call. However, the vendor and bystanders watch you talk to the angry man pointing at her. By the time you come over, she's already defensive and afraid. The optics undermine your neutrality. | CONSEQUENCES: You have good context from Mr. Harris, but Mrs. Tran has been watching you nod to the man who wants her removed. The power dynamic is visible to everyone. | Reflection: When bystanders can see who you talk to first, how does that shape their perception of your fairness?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Step into the space between the cart and the shop entrance, raise your hand in a calm 'hold on' gesture, and call both parties over. Address them together in a clear, even tone: 'Good morning, folks — I'm here because there's a concern about the cart's placement. I'd like to hear from both of you at the same time so we can sort things out transparently, right here.'",
+                    "feedback": "Why: The intent is fair and transparent. However, putting a frustrated shop owner face-to-face with the vendor he reported creates an immediate confrontation. You don't know the emotional temperature, language barriers, or power dynamics. | CONSEQUENCES: Mr. Harris immediately starts pointing at the cart and raising his voice. Mrs. Tran shrinks back. You've created a confrontation before gathering information. Bystanders start watching closely. | Reflection: When is bringing both parties together productive, and when does it create a confrontation?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Take a moment to walk the full scene at an unhurried pace — pass the cart, note its position relative to the shop entrance and the width of the remaining pavement, make brief friendly eye contact with both the vendor and the shop owner without stopping to engage either one just yet. Get a clear spatial understanding of the actual obstruction before choosing who to speak with first.",
+                    "feedback": "Why: A walk-through gives you objective information: Is the cart actually blocking the entrance? How much pavement is available? Making friendly eye contact with both parties signals neutrality. This gives you time to notice details: the vendor's age, language cues, the crowd's mood. | CONSEQUENCES: Both parties see an officer calmly surveying the situation. Bystanders see professionalism. You discover the cart is partially — but not fully — blocking one side of the entrance. Room to pass, but tight. | Reflection: How does 60 seconds of observation change the quality of every conversation that follows?",
+                    "type": "positive",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "The Complainant",
+            "sceneUpdate": {
+                "emoji": "😤",
+                "title": "Mr. Harris's Grievance",
+                "desc": "You approach Mr. Harris. He's in his 50s, wearing a shop apron, visibly irritated. His stationery shop has a modest entrance, and the food cart is set up about two meters from his door — close enough to narrow the pedestrian path, but not completely blocking it."
+            },
+            "npcDialogue": [
+                {
+                    "character": "shopowner",
+                    "text": "Finally! I called an hour ago. Look at this — she sets up right outside my shop every weekend. The smell drives customers away, people spill food near my entrance, and I can barely get deliveries through. She doesn't have a permit — I've checked. I pay rent, I pay taxes, I follow the rules. She just shows up and does whatever she wants. I want her gone. Today."
+                }
+            ],
+            "prompt": "Mr. Harris has legitimate concerns but is demanding immediate removal. How do you respond?",
+            "options": [
+                {
+                    "text": "I hear your frustration, Mr. Harris, and I can see the cart is close to your entrance. You were right to call — I'm going to look into this thoroughly. Can you tell me: has the cart physically blocked customers from entering, or is it more the proximity and the cooking smell? And have you ever spoken directly with her about moving?",
+                    "feedback": "Why: Validates his frustration and his right to complain. The specific questions separate different types of harm: physical obstruction (enforceable) versus proximity and smell (less clear-cut). Asking if he's spoken to her reveals the relationship dynamic and whether this was escalated prematurely. | CONSEQUENCES: Mr. Harris admits customers can still enter, but it's 'not the point.' He hasn't spoken to her — 'That's your job.' You now understand the complaint has legitimate and exaggerated components, with no attempt at direct resolution. | Reflection: Why does understanding the specific nature of a complaint change your range of appropriate responses?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "I understand completely, Mr. Harris — you've been dealing with this for a while, and I can see it's affecting your business. If she doesn't have a valid permit, she's in violation and I'll handle it. Let me go speak with her directly and get to the bottom of the licensing situation. Give me a few minutes.",
+                    "feedback": "Why: Validating his complaint is good, but promising enforcement before verifying the facts commits you to an outcome. You don't know her situation, what the ordinance requires, or whether there are mitigating circumstances. | CONSEQUENCES: Mr. Harris is satisfied — for now. But you've boxed yourself in. If you later decide a warning or relocation is more appropriate, he'll feel you broke your promise. | Reflection: What's the risk of committing to an enforcement action before gathering all the facts?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "I can see this is frustrating, Mr. Harris, and I appreciate your patience — I know you've been waiting. Let me head over and talk to the vendor right now and we'll get this whole situation sorted out as quickly as possible. I'll come back and update you once I know what we're dealing with.",
+                    "feedback": "Why: Shows responsiveness, but 'sorted out quickly' implies fast, decisive action that may not be appropriate. You haven't asked any clarifying questions about the complaint. Moving to action before understanding limits your options. | CONSEQUENCES: You approach the vendor without understanding the complaint's dimensions. If you can't resolve quickly, Mr. Harris's patience runs out faster because you set the expectation of speed. | Reflection: How does setting an expectation of speed affect your ability to find a thoughtful resolution?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Mr. Harris, I appreciate you calling and I understand you're frustrated, but honestly this looks more like a municipal licensing and zoning issue than a police matter. Have you tried contacting the city licensing office directly? They have inspectors who handle vendor permits and sidewalk use — that might be the faster route to a permanent solution here.",
+                    "feedback": "Why: You were dispatched to this call. Telling the complainant it's not a police matter after he waited an hour feels dismissive. He'll lose trust in calling police for future problems. | CONSEQUENCES: Mr. Harris erupts: 'I waited an hour for you to tell me to call city hall?!' His voice carries. Bystanders look up. The situation escalates before you've spoken to the vendor. | Reflection: Even when jurisdiction is ambiguous, what's the cost of appearing to dismiss a citizen's concern?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "First Contact with the Vendor",
+            "sceneUpdate": {
+                "emoji": "👵",
+                "title": "Meeting Mrs. Tran",
+                "desc": "You approach the food cart. The vendor is a small, older woman — perhaps in her early 60s. Her cart is clean and organized, with a handwritten menu in Vietnamese and English. She sees you coming and her hands freeze. Her eyes dart to Mr. Harris, then back to you. A customer who was ordering steps aside."
+            },
+            "npcDialogue": [
+                {
+                    "character": "vendor",
+                    "text": "(in accented but functional English) Please... I am not making problem. I have been here long time. People like my food. I applied for permit, but it takes very long. Please, officer, this is how I feed my grandchildren."
+                }
+            ],
+            "prompt": "Mrs. Tran is clearly frightened but trying to explain her situation. How do you engage with her?",
+            "options": [
+                {
+                    "text": "Stand with your feet planted and your hands on your belt, adopting a firm but not hostile posture. Speak clearly: 'Mrs. Tran, I understand this is difficult for you, and I can see your cart is well kept. But the reality is that operating without a permit is a violation of the municipal code, and the shop owner has a right to unobstructed access to his business. I'm going to need you to start packing up the cart for today.'",
+                    "feedback": "Why: You've jumped from first contact to enforcement without fact-finding, mediation, or exploring alternatives. You don't know about her pending application, what the permit system looks like, or whether there's a compromise. Best practice for vendor enforcement is education and warning before punitive action. | CONSEQUENCES: Mrs. Tran's eyes fill with tears. She starts to comply, hands shaking. Someone pulls out a phone and starts filming. The scene is about to become the worst kind of viral video. | Reflection: What does best practice say about the sequence of education, warning, and enforcement for low-level violations?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Keep your tone calm and professional, maintaining a respectful distance from the cart. Speak evenly: 'Ma'am, I need to ask you a couple of questions. First — do you have a valid vendor's permit for this location? The shop owner over there has filed a complaint about your cart being positioned too close to his entrance and partially blocking pedestrian access.'",
+                    "feedback": "Why: Professional and direct, but the immediate focus on permits confirms her fear — this is about whether she's 'legal.' Mentioning the complaint makes her feel accused. She hears: 'someone reported you and now I need your papers.' | CONSEQUENCES: Mrs. Tran's anxiety spikes. She starts searching her bag frantically, hands shaking. Customers drift away. The interaction feels like an inspection, not a conversation. | Reflection: How does leading with document requests versus conversation change the emotional dynamic?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Slow your pace as you approach, keep your body language open with hands visible at your sides, and speak gently: 'Good morning. My name is [name]. Nobody is in trouble — I'm here because the shop owner had some concerns about the cart's location. I'd like to understand your situation. You mentioned a permit application — can you tell me more about that?'",
+                    "feedback": "Why: Slowing pace and open body language de-escalate fear. 'Nobody is in trouble' addresses her unstated terror. Introducing yourself by name builds rapport. Framing the issue as 'the cart's location' — not 'you're illegal' — keeps the problem external and solvable. Asking about her application shows genuine interest and may reveal systemic barriers. | CONSEQUENCES: Mrs. Tran's shoulders relax slightly. She explains she applied eight months ago but the waiting list is enormous. She chose this spot for foot traffic and didn't think she was blocking anything. She offers to show her application receipt. A genuine conversation begins. | Reflection: How does framing the issue as situational rather than personal change someone's willingness to cooperate?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Step closer with a warm, reassuring nod, lowering your voice slightly so the conversation feels private despite the open street. Speak softly: 'I can see you're worried, and I don't want you to be. I'm just here to figure out the best spot for the cart so it works for everyone. No one is being arrested or fined today, I promise you that.'",
+                    "feedback": "Why: Strong empathy and reassurance. However, promising 'no fines today' before assessing the situation removes your discretion entirely. If enforcement action is later warranted — or your supervisor reviews this — you've made a commitment that may conflict with duties. Also risky if the complainant overhears. | CONSEQUENCES: Mrs. Tran calms significantly. But if Mr. Harris hears this promise, he'll feel you arrived with a predetermined outcome favoring the vendor. | Reflection: How do you reassure someone without prematurely committing to an outcome?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "The Crowd Factor",
+            "sceneUpdate": {
+                "emoji": "📱",
+                "title": "Phones Come Out",
+                "desc": "Your conversation with Mrs. Tran has drawn attention. Three people eating on the bench are watching closely. A young man in a hoodie has his phone up, clearly recording. A middle-aged woman with grocery bags has stopped to observe. Mr. Harris watches from his doorway, arms crossed."
+            },
+            "npcDialogue": [
+                {
+                    "character": "bystander1",
+                    "text": "(calling out from the bench) Hey, officer — leave her alone! She's just an old lady trying to make a living. Her food is amazing. Everyone here loves her!"
+                },
+                {
+                    "character": "filmer",
+                    "text": "(holding phone up, clearly recording every move you make)"
+                }
+            ],
+            "prompt": "Bystanders are vocally supporting the vendor and you're being filmed. How do you handle the crowd dynamic?",
+            "options": [
+                {
+                    "text": "Keep your eyes fixed on Mrs. Tran and don't acknowledge the bystanders at all — no glance, no nod, nothing. Continue your conversation as though the bench crowd and the young man with the phone simply don't exist. Engaging the crowd will only distract from the task at hand, and giving them attention might encourage more interruptions.",
+                    "feedback": "Why: Ignoring vocal bystanders doesn't make them disappear — it makes them louder. Research shows that feeling ignored by police increases hostility. Pretending the crowd doesn't exist signals you don't care about community sentiment. | CONSEQUENCES: The bystander calls out again, louder. The filmer moves closer. Other passersby stop. The crowd grows because no one acknowledges them. | Reflection: When does ignoring a crowd actually amplify their behavior?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Turn your head briefly toward the bystander with a calm, genuine nod. Speak clearly enough for the bench group and the filmer to hear: 'I hear you — and I can see Mrs. Tran is appreciated in this neighborhood. I'm not here to shut anyone down. I'm working with everyone involved to find a solution that works for the whole block.' Then return your full attention to Mrs. Tran.",
+                    "feedback": "Why: Acknowledging the crowd validates their concern without getting drawn into debate. 'I'm not here to shut anyone down' addresses their fear. 'Working with everyone to find a solution' frames you as mediator, not enforcer. Not reacting to the camera signals confidence in your conduct. Pivoting back keeps the interaction moving. | CONSEQUENCES: The bystander settles. The filmer keeps recording but has nothing inflammatory to capture. The crowd shifts from adversarial to observational — watching to see if you mean what you said. | Reflection: How does a single sentence to bystanders change the entire atmosphere of an enforcement encounter?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Excuse yourself from Mrs. Tran, walk over to the bystander group on the bench, and address them openly: 'I understand you're concerned about what's happening here. The shop owner called because the cart is partially blocking his entrance. I'm trying to find a fair resolution that works for everyone. If you have thoughts or suggestions, I'm genuinely open to hearing them.'",
+                    "feedback": "Why: Transparency and openness are admirable. However, physically leaving Mrs. Tran to address the crowd creates a 'town hall' dynamic where multiple voices compete. The crowd may offer infeasible suggestions, creating new expectations. | CONSEQUENCES: The bystanders appreciate being heard, but three people talk at once. Mr. Harris sees you consulting the crowd instead of resolving his complaint and his frustration spikes. Mrs. Tran stands alone, uncertain. | Reflection: When does community engagement help resolution, and when does it create too many stakeholders?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Turn to face the bystander squarely, adopting a firm but not aggressive stance, and address them directly: 'I understand your feelings, and I can see you care about Mrs. Tran. But I need to hear from both parties without outside input influencing the conversation. Mrs. Tran and Mr. Harris both deserve a fair process, and that means I need space to speak with them without interruptions.'",
+                    "feedback": "Why: This sounds like a principled commitment to fairness — protecting both parties from crowd influence during a sensitive conversation. The language of 'fair process' and 'both parties deserve' mirrors procedural justice values. However, it frames community support as contamination rather than information. It tells the crowd their voices are unwelcome in a public space, and it isolates Mrs. Tran from the social support that is helping her feel safe. | CONSEQUENCES: The bystander feels dismissed by someone using fairness language to silence them. The filmer keeps recording but now has a narrative: the officer shut down community voices. Mrs. Tran, who drew comfort from knowing her neighbors support her, now feels more alone. The crowd's energy shifts from supportive to suspicious. | Reflection: When does protecting the process from outside input cross into silencing the community that the process should serve?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "The Negotiation",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Finding Common Ground",
+                "desc": "You now understand both sides. Mr. Harris has a legitimate concern about proximity to his entrance. Mrs. Tran has a pending permit, a clean cart, loyal customers, and grandchildren to support. The pavement is wide enough — just not in the current position directly adjacent to Mr. Harris's door."
+            },
+            "npcDialogue": [
+                {
+                    "character": "vendor",
+                    "text": "(quietly) I did not know it was a problem for him. He never said anything to me. I can... maybe I can move? But where?"
+                }
+            ],
+            "prompt": "There's an opening for a creative solution. How do you facilitate it?",
+            "options": [
+                {
+                    "text": "Straighten up and adopt an official tone. Tell Mrs. Tran clearly that she needs to relocate her cart at least 10 meters from any shop entrance — no exceptions — effective immediately. Then inform her that you're issuing a formal verbal warning about operating without a valid vendor's permit, and that you'll be noting the warning in your incident report for the record.",
+                    "feedback": "Why: Technically enforceable but disproportionate. An arbitrary distance with a formal warning — when the vendor has a pending application and the complainant never even spoke to her — treats mediation as pure enforcement. Best practice is education before enforcement. | CONSEQUENCES: Mrs. Tran complies fearfully. Bystanders shake their heads. The filmer captures an elderly immigrant getting a formal warning for selling food. Mr. Harris gets what he wanted but the community sees heavy-handed enforcement. | Reflection: When the law gives you discretion, how do you decide between a warning and a creative solution?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Walk back to Mr. Harris at his shop entrance and pitch the compromise directly to him first: 'What if she moves about five meters down the pavement — still on the block and visible to foot traffic, but well clear of your entrance and delivery path? Would that resolve your concern?' Wait for his agreement, then return to Mrs. Tran and communicate the plan.",
+                    "feedback": "Why: Practical and solution-oriented. However, negotiating with the complainant first then presenting it to the vendor as a done deal undermines Mrs. Tran's agency. She becomes the subject of an agreement between authority figures rather than a participant. It also gives Mr. Harris veto power. | CONSEQUENCES: The solution works practically, but Mrs. Tran feels she was told what to do rather than asked. Bystanders see the officer negotiating with the shop owner then delivering instructions to the vendor. The power dynamic is visible. | Reflection: Who should be at the center of a solution — the complainant, the person affected, or both?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Lean in toward Mrs. Tran and suggest, in a tone you intend as helpful, that she pack up the cart for today and come back on a weekday when the commercial street is less crowded and there's less foot traffic competing for pavement space. That way she can avoid further complaints from shop owners and keep a lower profile while her permit application is pending.",
+                    "feedback": "Why: Telling a vendor to leave and come back another day is removal with a polite wrapper. Weekdays are less busy — less income for someone feeding grandchildren. You're setting a precedent that any complaint costs the vendor a day's income. | CONSEQUENCES: Mrs. Tran packs up, losing half a day's earnings. Bystanders are outraged. The filmer captures a police officer telling an elderly immigrant to go home. The video tells a story you didn't intend. | Reflection: What's the difference between a solution that resolves the problem and one that removes the problem person?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Look at the street layout together with Mrs. Tran, gesturing down the pavement: 'What if we find a spot still on this block — good foot traffic for your business — but not right next to Mr. Harris's door? Would you be willing to try that?' Walk alongside her to identify a suitable spot, perhaps 15 meters down where there's a gap between storefronts with plenty of room.",
+                    "feedback": "Why: Collaborative problem-solving addressing both parties' concerns. Walking with her — not directing her — treats her as a partner. Finding a spot together respects her business knowledge while resolving the obstruction. 'Would you be willing?' gives choice rather than an order. | CONSEQUENCES: Mrs. Tran's face lights up — she hadn't considered the empty storefront gap. The move takes five minutes. Mr. Harris's entrance is clear. Mrs. Tran keeps her customers. Bystanders see a police officer helping an elderly woman find a better spot. | Reflection: What does collaborative problem-solving communicate to every bystander watching?",
+                    "type": "positive",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "The Shop Owner Pushes Back",
+            "sceneUpdate": {
+                "emoji": "😠",
+                "title": "Mr. Harris's Objection",
+                "desc": "You've proposed the relocation. Mrs. Tran is willing. But Mr. Harris strides over, shaking his head."
+            },
+            "npcDialogue": [
+                {
+                    "character": "shopowner",
+                    "text": "Moving her down the street?! That doesn't solve anything! She's still operating illegally! What's the point of having permits if police just help people break the rules? I want her GONE — off this street entirely. If you won't do your job, I'll call your supervisor."
+                }
+            ],
+            "prompt": "The complainant is escalating beyond his original complaint. How do you handle this?",
+            "options": [
+                {
+                    "text": "Turn to Mr. Harris calmly, keeping your voice steady and respectful: 'I understand this isn't what you hoped for. But your complaint was that the cart blocked your entrance, and we've solved that. The permit issue is a licensing matter I've noted for proper channels. I can't remove someone from a public street because a nearby business prefers they weren't there. You have my badge number — call again if the new position causes a problem.'",
+                    "feedback": "Why: Honest, clear, respectful while drawing a firm boundary. Separates the legitimate complaint (obstruction — solved) from the overreach (removing her entirely). 'That's not how it works' is direct without being rude. Offering your badge number shows accountability and confidence. | CONSEQUENCES: Mr. Harris is frustrated but has no valid argument. His complaint was resolved — just not as he wanted. Bystanders hear an officer calmly explain proportionality. The supervisor threat loses power when you've offered your badge number. | Reflection: How do you hold a boundary with a complainant who wants more than what's proportionate?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Bring both parties into the conversation, positioning yourself between them with open body language. Address them together: 'We've made real progress here. Mrs. Tran has agreed to move her cart, which clears your entrance, Mr. Harris. The permit question is for the licensing authority to handle. Can we all agree that this is a reasonable and fair outcome for today?'",
+                    "feedback": "Why: Inclusive and attempts collaborative closure. However, asking 'can we agree?' gives Mr. Harris veto power over a proportionate resolution. If he says no — likely given his mood — you've undermined your authority. Seeking agreement backfires when one party wants disproportionate outcomes. | CONSEQUENCES: Mr. Harris says: 'No, I can't agree. I want her gone.' You're stuck — you invited a negotiation you didn't need. | Reflection: When is seeking agreement productive, and when does it hand control to the wrong party?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Step physically between them, holding up a hand to keep Mr. Harris at a comfortable distance. Speak with a casual directness: 'Mr. Harris, I've heard your complaint and I'm resolving it — Mrs. Tran is moving the cart right now. The licensing question is above my pay grade, that's city hall territory. You two should probably work out some kind of arrangement for the future, because she'll likely be here next weekend too.'",
+                    "feedback": "Why: 'Above my pay grade' is dismissive. 'She'll be here next weekend too' sounds like a taunt. Telling them to 'work it out' dumps responsibility on two parties who can't manage that without mediation. Solves today but seeds next weekend's conflict. | CONSEQUENCES: Mr. Harris storms to his shop, furious. He will call your supervisor. Mrs. Tran feels insecure about next week. Today's problem solved, tomorrow's created. | Reflection: How does your closing language affect whether a resolution lasts?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Nod thoughtfully at Mr. Harris's point, visibly shifting your stance: 'You know, you're right about the permit — she shouldn't be operating without one. Let me go back to Mrs. Tran and give her a formal warning on the record. I'll document everything thoroughly in my report so there's a clear paper trail if this situation continues next weekend or beyond.'",
+                    "feedback": "Why: Appeasing the complainant by escalating enforcement on the vendor. The vendor already cooperated and moved. Adding a formal warning after cooperation punishes her for being agreeable. This is conflict avoidance at the vendor's expense. | CONSEQUENCES: Mrs. Tran, who just cooperated fully, receives a formal warning. She's confused and hurt. Bystanders see exactly what happened: the shop owner pushed and the officer complied at the old woman's expense. Trust destroyed. | Reflection: When you escalate enforcement to satisfy a complainant, who pays the real cost?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Closing the Loop",
+            "sceneUpdate": {
+                "emoji": "✨",
+                "title": "The Bridge Forward",
+                "desc": "The immediate crisis is resolved — Mrs. Tran has relocated her cart, Mr. Harris's entrance is clear. But a good resolution needs more than solving today's problem. Mrs. Tran is wiping her eyes as she sets up in the new spot. Bystanders still watch. The filmer still records."
+            },
+            "npcDialogue": [
+                {
+                    "character": "vendor",
+                    "text": "(setting up in new location, voice shaking) Thank you, officer. I was so scared when I saw you coming. I thought... I thought they would take my cart. This is all I have."
+                }
+            ],
+            "prompt": "How do you close this interaction and set up a sustainable outcome?",
+            "options": [
+                {
+                    "text": "Give Mrs. Tran a brief nod as she arranges her serving supplies in the new location. Keep your tone light but let a note of caution slip in: 'No problem, Mrs. Tran. Just make sure you stay right here in this spot and don't drift back near Mr. Harris's shop entrance. If I get dispatched out here on another call about the same issue, it's going to be a lot harder for me to help you the way I did today.'",
+                    "feedback": "Why: The veiled threat ('harder for me to help you') turns a positive resolution into conditional mercy. It implies your help was a favor that can be withdrawn, not a fair outcome. She'll spend next week anxious. | CONSEQUENCES: Mrs. Tran nods nervously. The goodwill is undermined by the warning. The bystanders hear the implied threat and their opinion sours at the last moment. | Reflection: How does the final thing you say shape the lasting memory of the entire interaction?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Step close and give her a gentle, reassuring pat on the shoulder, letting your guard down completely as you smile: 'You have absolutely nothing to worry about, Mrs. Tran — I won't let anyone bother you out here. You've got loyal customers, and your food smells incredible. Just keep doing exactly what you're doing and don't give any of this another thought. Everything is going to be just fine from now on.'",
+                    "feedback": "Why: Warm and human, but promises more than you can deliver. You won't be here next weekend. It also ignores the permit issue that needs resolution. Overpromising leaves her exposed when a different officer responds differently next time. | CONSEQUENCES: Mrs. Tran feels great today. Next Saturday, a different officer handles the same complaint without your approach. She says: 'But the other officer said no one would bother me!' Inconsistency damages trust more than your absence. | Reflection: When does comfort cross into overpromising? How do you prepare someone for reality after you leave?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Smile warmly and let the tension ease from your posture: 'I'm glad we worked it out, Mrs. Tran. The permit application is the key to making this permanent and safe for you. Do you know if there's a community organization or legal aid service that could help push that along? I want this resolved properly so you don't have to worry every single weekend.' If you know of local support services, offer the information.",
+                    "feedback": "Why: Acknowledges the resolution warmly then pivots to the long-term vulnerability — the permit. Rather than ignoring the legal issue or weaponizing it, you're helping her solve it. Connecting her to resources shows genuine care beyond this encounter. 'So you don't have to worry every weekend' names her anxiety and offers a path out. This is the difference between resolving an incident and improving a life. | CONSEQUENCES: Mrs. Tran thanks you — not just for today, but for giving her direction. A bystander mentions a local immigrant support center. The filmer captures a police officer helping a vendor find long-term support. This is the video that builds trust. | Reflection: What's the difference between solving today's problem and setting someone up for next week's?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Straighten your posture and wrap up with brisk professionalism, checking off the interaction in your mind: 'Mrs. Tran, you're all set in the new spot. I've noted the situation in my log. If you have future issues with the shop owner, call the non-emergency line and reference today's report number. Take care.' Turn and head back toward the cruiser to move on to your next call.",
+                    "feedback": "Why: This sounds efficient and professional — documenting the encounter, providing a reference number, and giving Mrs. Tran a channel for future concerns. It checks procedural boxes. However, it treats the closure as administrative rather than human. Mrs. Tran has just experienced one of the most frightening moments of her week, and she receives a log reference number instead of genuine connection. The permit — the underlying vulnerability that will bring police back to her cart next weekend — goes entirely unaddressed. | CONSEQUENCES: Mrs. Tran has a reference number but no path forward on the permit that would actually protect her. Next Saturday, the same fear returns. The encounter was procedurally clean but personally empty — she was processed, not helped. The bystanders see an officer who handled the paperwork but missed the person. | Reflection: When professional efficiency becomes a substitute for genuine care, what falls through the gap?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debrief and Reveal",
+            "sceneUpdate": {
+                "emoji": "🏁",
+                "title": "Training Debrief",
+                "desc": "Back at the station. Sergeant Davis reviews your performance in this street vendor enforcement scenario."
+            },
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Street vendor enforcement is where proportionality is tested most visibly. You had a valid complaint, a technical violation, bystanders filming, and a 62-year-old grandmother feeding her family. Every action you took — from your initial walk-through to how you engaged the crowd to the solution you proposed — was being evaluated not just by the people on scene but by everyone who would later watch the video. The question was never whether Mrs. Tran was operating without a permit. The question was whether your response matched the actual harm."
+                },
+                {
+                    "character": "officer",
+                    "text": "I kept going back and forth in my head about the permit. She was technically in violation. Part of me felt like if I did not enforce it, I was not doing my job. But the enforcement options all felt disproportionate to what was actually happening."
+                },
+                {
+                    "character": "trainer",
+                    "text": "And that internal conflict is exactly where good officers are made. Proportionality is not about being soft. It is about matching your response to the actual harm, not the technical violation. The harm here was a partially blocked entrance — solved by relocation. The technical violation was a missing permit — flagged and referred to proper channels. You addressed both without criminalizing a grandmother selling soup. That is not leniency. That is precision. The officers who confuse enforcement with justice end up in viral videos for exactly the wrong reasons."
+                },
+                {
+                    "character": "trainer",
+                    "text": "What made this encounter exceptional was the last part — connecting Mrs. Tran with resources for her permit application. Most officers would have stopped at the relocation and called it a win. You went further because you understood that solving today's problem without addressing tomorrow's vulnerability is only half the job. The video that bystander posted was captioned 'this is how policing should look.' That does not happen by accident. It happens because you made every decision with both the law and the human being in mind. Let me tell you what happened next."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispatcher", "avatar": "📻"},
+        "shopowner": {"name": "Mr. Harris (shop owner, 55)", "avatar": "😤"},
+        "vendor": {"name": "Mrs. Tran (vendor, 62)", "avatar": "👵"},
+        "bystander1": {"name": "Supportive Bystander", "avatar": "🧑"},
+        "filmer": {"name": "Young Man (filming)", "avatar": "📱"},
+        "officer": {"name": "You (officer)", "avatar": "👮"},
+        "trainer": {"name": "Sergeant Davis", "avatar": "👮‍♂️"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Exceptional Procedural Justice!",
+            "emoji": "🌟",
+            "feedback": "You demonstrated the gold standard for low-level enforcement: thorough assessment before action, procedural fairness with both parties, creative problem-solving that addressed everyone's legitimate concerns, and genuine care for the vendor's long-term situation. Every bystander who watched — and filmed — saw policing that builds community trust."
+        },
+        "good": {
+            "title": "Strong Performance",
+            "emoji": "✅",
+            "feedback": "You handled a complex multi-party situation well, showing fairness and working toward resolution rather than punishment. Some opportunities for deeper engagement or better crowd management were missed, but your approach was professional and proportionate."
+        },
+        "average": {
+            "title": "Adequate Response",
+            "emoji": "📊",
+            "feedback": "You resolved the immediate situation but missed important aspects of procedural justice. Whether rushing to enforcement, failing to engage the crowd, or not addressing the vendor's long-term needs, there were opportunities for a more sustainable resolution."
+        },
+        "poor": {
+            "title": "Needs Significant Improvement",
+            "emoji": "⚠️",
+            "feedback": "Your approach prioritized enforcement over problem-solving and missed critical opportunities for procedural justice. In low-level vendor enforcement, how you handle the encounter determines community trust for years. Review procedural justice principles, proportionality in enforcement, and crowd dynamics."
+        }
+    },
+    "metrics": {
+        "proceduralJustice": {
+            "name": "Procedural Justice",
+            "description": "Treating all parties with dignity, transparency, and fairness — ensuring the process feels just regardless of outcome",
+            "icon": "⚖️"
+        },
+        "proportionality": {
+            "name": "Proportionality & Discretion",
+            "description": "Matching response to severity, using discretion wisely in low-level enforcement",
+            "icon": "📏"
+        },
+        "crowdDynamics": {
+            "name": "Crowd & Camera Management",
+            "description": "Engaging bystanders constructively and maintaining professionalism under observation",
+            "icon": "👥"
+        },
+        "creativeSolutions": {
+            "name": "Creative Problem-Solving",
+            "description": "Finding outcomes that address all parties' legitimate concerns rather than zero-sum enforcement",
+            "icon": "💡"
+        },
+        "communityTrust": {
+            "name": "Community Trust Impact",
+            "description": "Building long-term community confidence in police through the quality of this encounter",
+            "icon": "🤝"
+        }
+    }
+}

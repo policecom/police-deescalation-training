@@ -1,0 +1,727 @@
+{
+  "scenarioId": "traffic-stop",
+  "reviewVersion": "1.0",
+  "title": "Dopravní kontrola — Deeskalace — Analýza výkonu",
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Výjezd a zastavení",
+      "criticalSkills": [
+        "Profesionální představení",
+        "Jasná komunikace",
+        "Procesní transparentnost"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Dobrý den, jsem strážník Norton. Zastavil jsem vás, protože jste překročil povolenou rychlost o 25 km/h. Mohu vidět váš řidičský průkaz a doklady k vozidlu, prosím?",
+          "strengths": [
+            "Profesionální představení jménem založilo legitimitu",
+            "Uvedení konkrétního přestupku odstranilo nejasnosti",
+            "Zdvořilá žádost o doklady zachovala důstojnost",
+            "Profesionální rámec nastaven od první věty"
+          ],
+          "professionalImpact": "Váš profesionální přístup okamžitě snížil podezření, že kontrola je svévolná, a vytvořil základ pro spolupráci."
+        },
+        "partially_positive": {
+          "choiceText": "Dobrý den. Zastavil jsem vás za překročení rychlosti. Řidičský průkaz a doklady k vozidlu, prosím.",
+          "adequate": [
+            "Zdvořilost a zmínka o důvodu kontroly",
+            "Zabránění okamžité eskalaci"
+          ],
+          "missed": [
+            "Neuvedeno jméno strážníka",
+            "Neuvedeny konkrétní podrobnosti o přestupku",
+            "Promeškána plná transparentnost budující důvěru"
+          ],
+          "improvement": "Uveďte své jméno a konkrétní podrobnosti o přestupku hned na začátku. Plná transparentnost zabraňuje řidičovu pocitu, že kontrola je svévolná."
+        },
+        "neutral": {
+          "choiceText": "Dobrý den, řidičský průkaz a doklady k vozidlu, prosím.",
+          "adequate": [
+            "Nekonfrontační tón",
+            "Zachována základní zdvořilost"
+          ],
+          "missed": [
+            "Žádné představení ani jméno",
+            "Neuveden důvod kontroly",
+            "Řidič ponechán v nevědomosti, proč byl zastaven",
+            "Promeškána příležitost nastavit profesionální rámec"
+          ],
+          "improvement": "Vždy se představte a vysvětlete důvod kontroly. Tato transparentnost snižuje úzkost a demonstruje profesionalitu."
+        },
+        "negative": {
+          "choiceText": "Uklidněte se a ukažte mi doklady, nebo to pro vás dopadne hůř.",
+          "failures": [
+            "Zahájení hrozbou bez jakékoli provokace",
+            "Zbytečná eskalace napětí",
+            "Neuveden důvod kontroly",
+            "Vytvoření nepřátelské dynamiky od začátku"
+          ],
+          "consequences": "Zahájení hrozbami proměňuje rutinní kontrolu v konfrontaci, zvyšuje riziko pro všechny strany a vyzývá ke stížnostem.",
+          "trainingFocus": "Zopakujte techniky verbálního juda a význam profesionálního představení."
+        }
+      },
+      "keyLearningPoints": [
+        "Profesionální představení jménem a konkrétním přestupkem nastavuje očekávání",
+        "Vysvětlení důvodů snižuje úzkost a podezřívavost",
+        "Klidný přístup je nakažlivý — první věta nastavuje trajektorii"
+      ]
+    },
+    "2": {
+      "stageName": "Řidič ve spěchu",
+      "criticalSkills": [
+        "Empatie",
+        "Řízení času",
+        "Budování spolupráce"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Chápu, že spěcháte a ta schůzka je pro vás důležitá. Udělám maximum, abych to vyřídil co nejrychleji. Když budeme spolupracovat, brzy budete na cestě.",
+          "strengths": [
+            "Uznání konkrétní starosti — schůzky",
+            "Propojení spolupráce s rychlostí jako produktivní východisko",
+            "Zachován profesionální tón",
+            "Naléhavost přeformulována jako spojenec, nikoli překážka"
+          ],
+          "professionalImpact": "Uznání konkrétní starosti a formulace spolupráce jako nejrychlejší cesty vpřed proměňuje naléhavost z překážky ve spojence."
+        },
+        "partially_positive": {
+          "choiceText": "Chápu, že spěcháte. Zpracuji to tak rychle, jak to půjde.",
+          "adequate": [
+            "Uznání časového tlaku",
+            "Závazek k efektivitě"
+          ],
+          "missed": [
+            "Neformulována spolupráce jako nejrychlejší cesta",
+            "Řidič může dál naléhat místo pomoci",
+            "Promeškáno propojení naléhavosti s produktivním chováním"
+          ],
+          "improvement": "Explicitní propojení spolupráce s rychlostí mění řidičovo chování od přerušování k asistenci."
+        },
+        "neutral": {
+          "choiceText": "Spolupracujte prosím, ať to můžeme rychle vyřídit.",
+          "adequate": [
+            "Vyjádřen společný zájem na rychlém vyřízení",
+            "Zabránění konfrontaci"
+          ],
+          "missed": [
+            "Žádná empatie pro důvod naléhavosti",
+            "Obecná instrukce místo lidského spojení",
+            "Promeškána příležitost deeskalovat skrze porozumění"
+          ],
+          "improvement": "Konkrétní uznání řidičovy starosti ukazuje, že nasloucháte, a buduje vztah."
+        },
+        "negative": {
+          "choiceText": "Vaše schůzka není můj problém. Měl jste jet v povolené rychlosti.",
+          "failures": [
+            "Odmítavé a povýšené",
+            "Dramaticky zvýšená frustrace",
+            "Prokázán nedostatek emoční inteligence",
+            "Vytvořen zbytečný konflikt v momentu zranitelnosti"
+          ],
+          "consequences": "Odmítavé reakce proměňují občany v protivníky a dramaticky zvyšují riziko stížnosti a virálního videa.",
+          "trainingFocus": "Prostudujte dopad empatie v policejních interakcích — uznání starostí neznamená omlouvání chování."
+        }
+      },
+      "keyLearningPoints": [
+        "Uznání starostí neznamená souhlas s chováním",
+        "Přístup citlivý k času snižuje stres pro obě strany",
+        "Spolupráce se získává respektem, ne vynucuje silou"
+      ]
+    },
+    "3": {
+      "stageName": "Osobní útoky",
+      "criticalSkills": [
+        "Emocionální odolnost",
+        "Profesionální nadhled",
+        "Přeformulování na poslání"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Chápu, že jste ve stresu a spěcháte. Slyším to. Mou povinností je zajistit bezpečnost na silnici — proto jsem tady. Pojďme to v klidu dokončit, abyste mohl jet na svou schůzku.",
+          "strengths": [
+            "Urážky nebyly brány osobně",
+            "Přeformulování směrem k poslání bezpečnosti silničního provozu",
+            "Zmínka o schůzce ukazuje aktivní naslouchání",
+            "Zachován profesionální klid pod palbou"
+          ],
+          "professionalImpact": "Přeformulování od „vy proti mně“ na „oba proti problému“ odstraňuje cíl pro urážky a modeluje deeskalaci."
+        },
+        "partially_positive": {
+          "choiceText": "Slyším vaši frustraci. Dokončím zpracování a můžete jet dál.",
+          "adequate": [
+            "Stručné uznání frustrace",
+            "Posun k řešení"
+          ],
+          "missed": [
+            "Kontrola nepřeformulována kolem jejího účelu",
+            "Řidič nadále vnímá kontrolu jako zbytečnou",
+            "Zmírněn okamžik bez změny skryté nelibosti"
+          ],
+          "improvement": "Přesměrování frustrace k pochopení vašeho účelu — bezpečnosti silničního provozu — mění řidičovo vnímání samotné kontroly."
+        },
+        "neutral": {
+          "choiceText": "Na urážky reagovat nebudu. Pokračuji v postupu.",
+          "adequate": [
+            "Zabráněno hádce",
+            "Zachována důstojnost"
+          ],
+          "missed": [
+            "Žádné uznání emocí za urážkami",
+            "Ignorování silné emoce udržuje nepřátelství",
+            "Konflikt zmrazen místo vyřešen"
+          ],
+          "improvement": "Uznání frustrace bez souhlasu s útoky ukazuje emoční inteligenci a často situaci zklidní."
+        },
+        "negative": {
+          "choiceText": "Hlídejte si řeč. Mohli byste dostat víc než jen pokutu za rychlost.",
+          "failures": [
+            "Reakce na slovní urážku naznačenou hrozbou právních následků",
+            "Nepřiměřená eskalace",
+            "Ztráta profesionálního klidu",
+            "Vytvoření problému zneužití pravomoci na kameře"
+          ],
+          "consequences": "Hrozba dalšími důsledky za slovní kritiku porušuje profesionální standardy a je na videu zničující.",
+          "trainingFocus": "Kritická potřeba výcviku emoční regulace a pochopení, že urážky nejsou důvodem k eskalaci."
+        }
+      },
+      "keyLearningPoints": [
+        "Osobní útoky během dopravních kontrol jsou stresové reakce, ne skutečné útoky",
+        "Přeformulování směrem k vašemu poslání odstraňuje cíl pro urážky",
+        "Profesionální nadhled chrání obě strany a skvěle vypadá na kameře"
+      ]
+    },
+    "4": {
+      "stageName": "Nahrávání a identifikace",
+      "criticalSkills": [
+        "Transparentnost pod drobnohledem",
+        "Potvrzení práv",
+        "Sebedůvěra"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Podat stížnost je naprosto vaše právo, pane. Jsem strážník Jan Norton, služební číslo 45879. Klidně natáčejte — nemám co skrývat. Nyní budu pokračovat v zákonném postupu.",
+          "strengths": [
+            "Výslovně potvrzeno právo na stížnost i natáčení",
+            "Plná identifikace uvedena slovně",
+            "Signalizována kultura odpovědnosti",
+            "Pokračování v postupu se sebedůvěrou"
+          ],
+          "professionalImpact": "Přivítání kontroly buduje větší autoritu než odpor — hrozba stížností ztrácí svou sílu, když ji přivítáte."
+        },
+        "partially_positive": {
+          "choiceText": "Samozřejmě. Jsem strážník Norton. Moje služební číslo je tady na uniformě. Pokračujme.",
+          "adequate": [
+            "Ochotně uvedeno jméno",
+            "Ukázáno na odznak"
+          ],
+          "missed": [
+            "Výslovně nepotvrzeno právo na podání stížnosti",
+            "Ukázání na uniformu místo slovního sdělení čísla",
+            "Mírně odmítavé na nahrávce, kde záleží na jasnosti"
+          ],
+          "improvement": "Slovní potvrzení práva na stížnost — i při nepřátelství — buduje důvěru účinněji než pouhé splnění požadavku."
+        },
+        "neutral": {
+          "choiceText": "Stěžujte si, klidně — moje údaje jsou na uniformě.",
+          "adequate": [
+            "Formálně správné",
+            "Nebráněno natáčení"
+          ],
+          "missed": [
+            "Tón vyjadřoval lhostejnost",
+            "Ukázání na odznak na kameře působí odmítavě",
+            "Žádné slovní potvrzení práv"
+          ],
+          "improvement": "Přidejte slovní sdělení služebního čísla a potvrďte právo na nahrávání pro profesionální dojem na videu."
+        },
+        "negative": {
+          "choiceText": "Nemáte důvod ke stížnosti. Všechno jsem dělal podle předpisů. Nyní budu pokračovat v zákonném postupu.",
+          "failures": [
+            "Popřeno občanovo právo na stížnost",
+            "Právně nesprávné — strážníci nerozhodují o důvodech stížnosti",
+            "Vytvořen důkaz o odepření práv na kameře",
+            "Dopravní kontrola proměněna v otázku občanských práv"
+          ],
+          "consequences": "Popření práva na stížnost na kameře vytváří důkaz, který jakýkoli nadřízený nebo právník okamžitě zachytí.",
+          "trainingFocus": "Zopakujte občanská práva při dopravních kontrolách a strategickou hodnotu transparentnosti pod drobnohledem."
+        }
+      },
+      "keyLearningPoints": [
+        "Přivítání kontroly buduje autoritu; odpor ji ničí",
+        "Slovní identifikace na kameře vytváří záznam profesionality",
+        "Potvrzení práv odzbrojuje nepřátelství účinněji než jakýkoli projev autority"
+      ]
+    },
+    "5": {
+      "stageName": "Neočekávané sáhnutí do přihrádky",
+      "criticalSkills": [
+        "Taktická komunikace",
+        "Řízení bezpečnosti",
+        "Slovní povely"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Pane, dejte prosím ruce zpět na volant. Děkuji. Děkuji vám za informaci o kartě pojištění, paní. Pane, až vám řeknu, sáhněte pomalu do přihrádky. Řekněte mi přesně, kde karta je, než se pro ni natáhnete.",
+          "strengths": [
+            "Jasný, konkrétní pokyn — volant",
+            "Uznání spolujezdčina užitečného vstupu",
+            "Poskytnuta kontrolovaná cesta vpřed",
+            "Specifičnost eliminovala nejasnosti v bezpečnostním momentu"
+          ],
+          "professionalImpact": "Přesné slovní povely v bezpečnostních momentech předcházejí nedorozuměním, která mohou rutinní kontrolu proměnit v nebezpečnou."
+        },
+        "partially_positive": {
+          "choiceText": "Pane, prosím zastavte. Nechte ruce tam, kde je vidím. Pro co to saháte?",
+          "adequate": [
+            "Vydán slovní povel",
+            "Žádáno o vysvětlení"
+          ],
+          "missed": [
+            "Vágní pokyn — „kde je vidím“ bez upřesnění",
+            "Neuznáno spolujezdčino vysvětlení",
+            "Situace zajištěna, ale nejistota trvala déle, než bylo nutné"
+          ],
+          "improvement": "Konkrétní fyzické pokyny (‘ruce na volant’) se od obecných (‘kde je vidím’) liší v jasnosti a rychlosti dodržení."
+        },
+        "neutral": {
+          "choiceText": "Odstoupit od vozidla, ruka na pouzdru, a tiše čekat, až řidič vysvětlí.",
+          "adequate": [
+            "Zvýšena fyzická bezpečnostní vzdálenost"
+          ],
+          "missed": [
+            "Neuvedeny žádné slovní pokyny",
+            "Ticho v bezpečnostním momentu je komunikační selhání",
+            "Ruka na pouzdru bez slov vytváří maximální strach u spolujezdkyně",
+            "Řidič ponechán hádat, co chcete"
+          ],
+          "improvement": "Slovní povely musí vždy předcházet nebo doprovázet taktické polohování. Ticho zvyšuje riziko místo toho, aby ho snižovalo."
+        },
+        "negative": {
+          "choiceText": "Chytit ho za ruku a zakřičet: „Co si myslíte, že děláte?! Nechte ruce tam, kde je vidím!“",
+          "failures": [
+            "Fyzický zásah bez předchozího slovního varování",
+            "Zvýšený hlas eskaloval rutinní vyzvednutí dokladu",
+            "Spolujezdkyně byla svědkem chycení jejího syna",
+            "Moment spolupráce proměněn v incident použití síly"
+          ],
+          "consequences": "Fyzický zásah bez předchozího slovního varování vytváří záznam o incidentu, stížnost a videodůkaz o nepřiměřené síle.",
+          "trainingFocus": "Slovní povely musí vždy předcházet fyzickému zásahu. Zopakujte kontinuum použití síly."
+        }
+      },
+      "keyLearningPoints": [
+        "Konkrétní pokyny vedou k rychlejšímu a jistějšímu dodržení",
+        "Uznání nápomocných přihlížejících z nich dělá spojence",
+        "Slovní povely musí vždy předcházet fyzickému zásahu"
+      ]
+    },
+    "6": {
+      "stageName": "Matka promluví",
+      "criticalSkills": [
+        "Empatické naslouchání",
+        "Zapojení třetí strany",
+        "Respekt k hranicím"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Jemně k paní Novákové: „Paní, nemusíte se omlouvat. Vidím, že vaše rodina prochází těžkým obdobím. Děkuji, že jste mi to řekla — pomáhá mi to pochopit situaci. Vyřídím to co nejrychleji.“ Pak k panu Novákovi: „Pane, vaše matka se o vás stará. Pojďme to uzavřít, abyste oba mohli jet, kam potřebujete.“",
+          "strengths": [
+            "Validace emocionálního rizika paní Novákové bez naléhání na podrobnosti",
+            "Poděkování za sdílení signalizovalo, že zranitelnost je v bezpečí",
+            "Přesměrování na řidiče s poznámkou o matčině péči",
+            "Přeformulování dynamiky z nepřátelské na lidskou"
+          ],
+          "professionalImpact": "Poctění odhalení třetí strany bez požadování více mění ochotu hlavního aktéra být zranitelný."
+        },
+        "partially_positive": {
+          "choiceText": "Přikývnout k paní Novákové: „Vážím si toho, že jste to řekla, paní. Vidím, že je to stresující. Už to skoro máme za sebou.“ Pokračovat ve zpracování dokladů.",
+          "adequate": [
+            "Zdvořilé uznání jejích slov",
+            "Ujištění o čase"
+          ],
+          "missed": [
+            "Její odhalení přejito příliš rychle",
+            "Promeškáno otevření pro skutečné spojení",
+            "Transakční reakce na emocionální riziko"
+          ],
+          "improvement": "Když někdo naznačí hlubší příběh, skutečné zapojení místo zdvořilého uznání buduje jiný druh důvěry."
+        },
+        "neutral": {
+          "choiceText": "Obrátit se přímo na pana Nováka, ignorovat matčiny komentáře: „Pane, dokončuji papíry. Doklady budete mít brzy zpět.“",
+          "adequate": [
+            "Zachováno procedurální zaměření"
+          ],
+          "missed": [
+            "Matčino zranitelné odhalení zcela ignorováno",
+            "Potvrzeno řidičovo negativní vnímání kontroly",
+            "Zavřeno okno lidského spojení",
+            "Matka ztrapněna za to, že promluvila"
+          ],
+          "improvement": "Ignorování někoho, kdo promluvil ze zranitelnosti, ho naučí, že oslovení autority je zbytečné."
+        },
+        "negative": {
+          "choiceText": "Naklonit se a zeptat se paní Novákové přímo: „Jak to myslíte, že jste málem o někoho přišli? Je něco, co bych měl vědět?“",
+          "failures": [
+            "Naléháno na podrobnosti, které záměrně zadržela",
+            "Porušena její hranice — zastavila se uprostřed věty",
+            "Otevřenost proměněna ve výslech",
+            "Vyvolána ochranitelská reakce řidiče"
+          ],
+          "consequences": "Požadování informací, které se někdo rozhodl nesdílet, obrací dynamiku — spojenec se stává někým, na koho tlačíte.",
+          "trainingFocus": "Procvičujte rozdíl mezi nasloucháním tomu, co někdo nabídne, a požadováním více, než je připraven dát."
+        }
+      },
+      "keyLearningPoints": [
+        "Odhalení třetí strany překlenují nepřátelskou dynamiku k lidské",
+        "Poctění dobrovolné zranitelnosti buduje důvěru; naléhání na více ji ničí",
+        "Matčin zásah může změnit ochotu nepřátelského řidiče spolupracovat"
+      ]
+    },
+    "7": {
+      "stageName": "Osobní situace odhalena",
+      "criticalSkills": [
+        "Soucitná uvážlivost",
+        "Lidské spojení",
+        "Přiměřený úsudek"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Vážím si vaší upřímnosti, pane, a je mi líto, co se děje s vaší dcerou. Vidím, že jste pod obrovským tlakem. Tentokrát udělím napomenutí — překročení rychlosti je zaznamenáno, ale bez pokuty. Jeďte prosím opatrně. Vaše rodina vás potřebuje v bezpečí, ne rychle. Jeďte na tu schůzku.",
+          "strengths": [
+            "Přiměřená správní uvážlivost u prvního přestupku",
+            "Uznání omluvy a validace tísně",
+            "Bezpečná jízda přeformulována jako něco pro jeho rodinu",
+            "Uzavření lidskou poznámkou budující trvalou důvěru"
+          ],
+          "professionalImpact": "Uvážlivost ve správném momentu proměňuje negativní zážitek v takový, který buduje důvěru v policii pro celou rodinu."
+        },
+        "partially_positive": {
+          "choiceText": "Je mi líto, co prožíváte. Pokutu vystavím, jak je požadováno, ale chci, abyste věděl, že si vážím vaší upřímnosti a vaší omluvy. Jeďte prosím bezpečně — vaše rodina vás potřebuje v celku.",
+          "adequate": [
+            "Upřímné uznání jeho situace",
+            "Starostlivá osobní poznámka o bezpečnosti rodiny",
+            "Zachována procesní integrita"
+          ],
+          "missed": [
+            "Toto byl vhodný moment pro uvážlivost — napomenutí bylo právně správné",
+            "Pokuta nemusela být nutná u prvního přestupku 25 km/h",
+            "Důvěra se zlepšuje, ale ne tolik, kolik by dosáhla přiměřená uvážlivost"
+          ],
+          "improvement": "Když vám zákon dává prostor pro napomenutí, zvažte dopad pokuty oproti napomenutí na budoucí dodržování předpisů a důvěru veřejnosti."
+        },
+        "neutral": {
+          "choiceText": "Je mi líto, co slyším, ale pokutu přesto musím vystavit. Sepíšu to hned, abyste mohl pokračovat v cestě.",
+          "adequate": [
+            "Vyjádřena základní empatie",
+            "Efektivní zpracování"
+          ],
+          "missed": [
+            "„Musím“ přenáší zodpovědnost — máte uvážlivost",
+            "Rigidní uplatnění bez flexibility",
+            "Řidič vnímá strážníka jako procedurálně korektního, ale emocionálně nepřítomného"
+          ],
+          "improvement": "Když řeknete „musím vystavit pokutu“, zeptejte se sami sebe, zda je to pravda — nebo zda si volíte a vyhýbáte se odpovědnosti za tuto volbu."
+        },
+        "negative": {
+          "choiceText": "Chápu, ale to neomlouvá překročení rychlosti. Jel jste o 25 víc — to je bezpečnostní problém. Tady máte pokutu.",
+          "failures": [
+            "Odmítavost v momentu maximální zranitelnosti",
+            "Potrestání řidiče za upřímnost a omluvu",
+            "Matka slyšela, jak byla nemoc její vnučky označena za irelevantní",
+            "Dodržování vytvořeno zatrpklostí, ne respektem"
+          ],
+          "consequences": "Odmítnutí zranitelnosti v momentu, kdy se někdo otevře, vytváří dodržování bez důvěry — nejkřehčí formu vymáhání práva.",
+          "trainingFocus": "Zopakujte správní uvážlivost a rozdíl mezi dodržováním získaným respektem a dodržováním vynuceným lhostejností."
+        }
+      },
+      "keyLearningPoints": [
+        "Uvážlivost není slabost — je to profesionální úsudek",
+        "Napomenutí může sloužit bezpečnosti silničního provozu a důvěře veřejnosti lépe než pokuta",
+        "Jak uzavřete dopravní kontrolu, určuje řidičovu trvalou vzpomínku na policii"
+      ]
+    },
+    "8": {
+      "stageName": "Debrief a odhalení",
+      "criticalSkills": [
+        "Sebereflexe",
+        "Integrace poznatků"
+      ],
+      "choiceAnalysis": {},
+      "keyLearningPoints": [
+        "Dopravní kontroly utvářejí, jak miliony lidí vnímají policii",
+        "Každá provokace je pozvánkou k eskalaci — odmítnutí této pozvánky je profesionální síla",
+        "Napomenutí nebylo slabostí, ale úsudkem, který utvářel, jak muž v krizi vnímá policii"
+      ]
+    }
+  },
+  "comprehensiveMetrics": {
+    "emotionalIntelligence": {
+      "description": "Schopnost rozpoznat emocionální stavy a reagovat na ně",
+      "indicators": {
+        "excellent": [
+          "Rozpoznání frustrace a stresu",
+          "Útoky nebyly brány osobně",
+          "Prokázána přiměřená empatie",
+          "Zachována emocionální kontrola"
+        ],
+        "poor": [
+          "Přehlédnuty emocionální signály",
+          "Reakce na provokace",
+          "Nedostatek empatie",
+          "Emoce řídily rozhodování"
+        ]
+      }
+    },
+    "professionalCommunication": {
+      "description": "Kvalita verbální interakce a předávání informací",
+      "indicators": {
+        "excellent": [
+          "Jasné představení a vysvětlení",
+          "Profesionální tón v průběhu celé interakce",
+          "Prokázáno aktivní naslouchání",
+          "Vhodná volba slov"
+        ],
+        "poor": [
+          "Žádné představení ani vysvětlení",
+          "Neformální nebo výhružný tón",
+          "Ignorovány obavy občanů",
+          "Neprofesionální vyjadřování"
+        ]
+      }
+    },
+    "deescalationTechniques": {
+      "description": "Uplatňování strategií snižování napětí",
+      "indicators": {
+        "excellent": [
+          "Uznány obavy druhých",
+          "Nabídnuta praktická řešení",
+          "Zachován klid pod útoky",
+          "Vhodně uplatněna uvážlivost"
+        ],
+        "poor": [
+          "Eskalace prostřednictvím hrozeb",
+          "Odmítnuty obavy druhých",
+          "Útoky brány osobně",
+          "Rigidní vymáhání pravidel"
+        ]
+      }
+    },
+    "discretionApplication": {
+      "description": "Vhodné uplatnění uvážlivosti strážníka na základě okolností",
+      "indicators": {
+        "excellent": [
+          "Zohledněna celková situace před rozhodnutím",
+          "Uvážlivost použita jako nástroj spravedlnosti, ne vyhýbání se",
+          "Transparentně vysvětleno zdůvodnění",
+          "Vyváženo vymáhání se soucitem"
+        ],
+        "poor": [
+          "Rigidní aplikace pravidel bez zohlednění kontextu",
+          "Shovívavost podmíněna dobrým chováním",
+          "Uvážlivost uplatněna nekonzistentně nebo jako páka",
+          "Neschopnost formulovat důvody rozhodnutí"
+        ]
+      }
+    },
+    "communityOrientation": {
+      "description": "Zaměření na budování pozitivních vztahů s komunitou",
+      "indicators": {
+        "excellent": [
+          "Zacházeno s občanem důstojně",
+          "Projevena soucit k okolnostem",
+          "Uvážlivost uplatněna moudře",
+          "Zanechán pozitivní dojem"
+        ],
+        "poor": [
+          "Zacházeno s občanem jako s protivníkem",
+          "Neprojevena soucit",
+          "Rigidní vymáhání",
+          "Poškozena důvěra komunity"
+        ]
+      }
+    }
+  },
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Vynikající zvládnutí dopravní kontroly. Zachovali jste profesionalitu pod slovním útokem, rozpoznali lidskou krizi pod nepřátelským chováním, moudře uplatnili uvážlivost a zvládli interakci se spolujezdkyní s opravdovou empatií. Přesně tento druh policejní práce buduje důvěru komunity.",
+      "mostlyPositive": "Celkově silný výkon. Zachovali jste klid a prokázali dobré instinkty pro čtení situace. Několik momentů, kde jste mohli být konkrétnější nebo empatičtější, ale výsledek odráží solidní deeskalační dovednosti.",
+      "mixed": "Prokázali jste některé dobré instinkty, ale promeškali klíčové příležitosti. Momenty, kdy jste upřednostnili postup před empatií, stojí za prozkoumání — tato kontrola měla vrstvy, které vyžadovaly čtení lidí, ne jen dodržování protokolu.",
+      "mostlyNegative": "Tato kontrola odhalila významné mezery v komunikaci a emocionálním povědomí. Když řidič eskaloval, odpověděli jste stejnou energií místo jejího absorbování. Tíseň spolujezdkyně byl signál, který jste přehlédli. Zopakujte principy verbální deeskalace a taktické empatie.",
+      "allNegative": "Tato kontrola dopadla špatně od začátku do konce. Každý bod interakce byl příležitostí ke snížení napětí, a každý byl promeškán nebo zhoršen. Nápravný výcvik profesionální komunikace, deeskalačních technik a uvážlivostního úsudku je důrazně doporučen."
+    }
+  },
+  "mistakePatterns": {
+    "authoritarian": {
+      "pattern": "Přehnaná závislost na autoritě a hrozbách",
+      "examples": [
+        "Okamžité hrozby",
+        "Projevy moci",
+        "Rigidní vymáhání"
+      ],
+      "impact": "Vytváří nepřátelské vztahy a zvyšuje riziko",
+      "correction": "Budujte spolupráci prostřednictvím respektu a vysvětlení"
+    },
+    "dismissive": {
+      "pattern": "Neschopnost uznat obavy občanů",
+      "examples": [
+        "Ignorování frustrace",
+        "Chladné reakce",
+        "Žádná empatie"
+      ],
+      "impact": "Zvyšuje napětí a poškozuje vztah",
+      "correction": "Aktivní naslouchání a uznání zklidňují situace"
+    },
+    "reactive": {
+      "pattern": "Osobní vnímání provokací",
+      "examples": [
+        "Reakce na útoky",
+        "Hrozba odvetou",
+        "Emocionální reakce"
+      ],
+      "impact": "Eskaluje situace a působí neprofesionálně",
+      "correction": "Zachovejte profesionální nadhled a zaměřte se na poslání"
+    },
+    "inflexible": {
+      "pattern": "Rigidní aplikace pravidel bez uvážlivosti",
+      "examples": [
+        "Žádné zohlednění okolností",
+        "Pouze podle předpisu",
+        "Chybí lidský prvek"
+      ],
+      "impact": "Promeškány příležitosti k budování důvěry komunity",
+      "correction": "Používejte uvážlivost jako nástroj spravedlnosti a budování vztahů s komunitou"
+    },
+    "passengerNeglect": {
+      "pattern": "Ignorování nebo odmítání emocionálního stavu spolujezdce",
+      "examples": [
+        "Přehlédnutí tísně paní Novákové",
+        "Naléhání na informace, které zadržela",
+        "Nezajímání se o matku"
+      ],
+      "impact": "Promeškány kritické kontextové vodítka a ponechána zranitelná osoba bez podpory",
+      "correction": "Spolujezdci jsou svědci a lidé ve vlastní krizi — uznejte je bez výslechu."
+    }
+  },
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "„Dobrý den. Jsem strážník [jméno]. Zastavil jsem vás, protože...“",
+      "„Chápu, že spěcháte. Vyřídím to co nejrychleji.“",
+      "„Vidím, že jste frustrovaný. Mnoho lidí prožívá stres při dopravní kontrole.“",
+      "„Vzhledem k okolnostem dnes udělím napomenutí.“",
+      "„Paní, vidím, že je to stresující i pro vás. Nemusíte spěchat.“",
+      "„Nebudu předstírat, že vím, čím procházíte, ale vidím, že je to vážné.“"
+    ],
+    "poorPhrases": [
+      "„Okamžitě se uklidněte, nebo to bude mít následky.“",
+      "„Vaše schůzka není můj problém.“",
+      "„Pokračujte tímhle tónem a dostanete víc než pokutu za rychlost.“",
+      "„Každý má problémy. Tady máte pokutu.“",
+      "„Využil jsem uvážlivosti, protože jste slušný člověk.“",
+      "„Paní, co přesně jste chtěla říct? Potřebuji to vědět.“"
+    ],
+    "analysisCriteria": {
+      "professionalism": "Byly zachovány přiměřené profesionální standardy?",
+      "empathy": "Byly uznány emocionální stavy?",
+      "clarity": "Bylo sdělení jasné a srozumitelné?",
+      "effectiveness": "Vedlo to k řešení?",
+      "respect": "Byla zachována důstojnost občana?",
+      "awareness": "Bylo přihlédnuto ke spolujezdkyni a širšímu kontextu?"
+    }
+  },
+  "scenarioSpecificLessons": {
+    "1": "Každá dopravní kontrola je příležitostí budovat nebo poškozovat důvěru komunity",
+    "2": "Profesionální představení a vysvětlení snižují obranné reakce",
+    "3": "Uznání obav neznamená omlouvání přestupků",
+    "4": "Slovní útoky často maskují strach, frustraci nebo osobní krizi",
+    "5": "Uvážlivost je mocný nástroj pro budování podpory komunity",
+    "6": "Konec interakce zanechává nejsilnější dojem",
+    "7": "Emocionální inteligence je stejně důležitá jako taktické dovednosti",
+    "8": "Vaše vystupování může jakoukoli situaci eskalovat nebo deeskalovat"
+  },
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Pokročilé techniky verbálního juda",
+        "Školení ostatních v deeskalaci",
+        "Vedení v komunitní policejní práci"
+      ],
+      "good": [
+        "Rozšířené komunikační dovednosti",
+        "Uvážlivost v policejní práci",
+        "Rozvoj emocionální inteligence"
+      ],
+      "average": [
+        "Základní deeskalační techniky",
+        "Profesionální komunikace",
+        "Zvládání stresu"
+      ],
+      "poor": [
+        "Povinný výcvik deeskalace",
+        "Workshop emocionální regulace",
+        "Přezkoumání profesionálních standardů",
+        "Základy komunitních vztahů"
+      ]
+    }
+  },
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Celkové shrnutí výkonu",
+        "content": [
+          "Skóre",
+          "Úroveň výkonu",
+          "Klíčové silné stránky",
+          "Oblasti ke zlepšení"
+        ]
+      },
+      {
+        "title": "Analýza komunikace",
+        "content": [
+          "Profesionální standardy",
+          "Prokázaná empatie",
+          "Uplatněná deeskalace"
+        ]
+      },
+      {
+        "title": "Kritické rozhodovací body",
+        "content": [
+          "Úvodní přístup",
+          "Reakce na eskalaci",
+          "Zvládání útoků",
+          "Uplatnění uvážlivosti"
+        ]
+      },
+      {
+        "title": "Posouzení dopadu na komunitu",
+        "content": [
+          "Budování důvěry",
+          "Řízení vnímání",
+          "Dlouhodobé účinky"
+        ]
+      },
+      {
+        "title": "Řízení spolujezdce a třetích stran",
+        "content": [
+          "Povědomí o spolujezdci",
+          "Zapojení třetí strany",
+          "Čtení emocionálního kontextu"
+        ]
+      },
+      {
+        "title": "Uvážlivost a uzavření",
+        "content": [
+          "Kvalita rozhodnutí o uvážlivosti",
+          "Komunikace při uzavření",
+          "Závazek k následným krokům"
+        ]
+      },
+      {
+        "title": "Profesní rozvoj",
+        "content": [
+          "Okamžité vzdělávací potřeby",
+          "Oblasti rozvoje dovedností",
+          "Cesta kariérního rozvoje"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,362 @@
+{
+    "scenarioId": "7",
+    "reviewVersion": "2.0",
+    "title": "Review — Nightclub Street Fracas",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Scene Assessment",
+            "criticalSkills": ["Rapid situational assessment under chaos", "Establishing verbal authority before physical intervention", "Identifying all scene elements: combatants, allies, injured, crowd"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Take three seconds to scan the full scene before engaging. Identify the key elements: the two subjects, the bouncer as a potential ally, the girlfriend as an emotional variable, the injured person, the crowd perimeter.",
+                    "strengths": ["Three-second scan prevents tunnel vision — the deadliest mistake in a chaotic scene", "Identifies all elements: combatants, bouncer ally, Zoe as emotional variable, injured bystander, crowd perimeter", "Short, concrete command — 'five steps back' — gives intoxicated men an actionable task rather than abstract 'calm down'", "The brief pause signals control, not hesitation — authority begins with composure", "Catches the injured bystander on the curb that other approaches would miss entirely"],
+                    "consequences": "The brief scan catches Mia on the curb, the crowd's energy level, and Craig's body language. Your authoritative entrance creates a momentary pause — both men look at you, breaking the escalation loop. Danny takes a half-step back. Viktor stops shouting. Craig looks relieved.",
+                    "trainingFocus": "How does a three-second assessment change the quality of every decision that follows in a fast-moving scene? What details does a scan reveal that rushing in would miss?"
+                },
+                "partially_positive": {
+                    "choiceText": "Approach the bouncer first and say: 'Good work keeping them apart. I need your help — can you hold this line for another minute while I call for medical and start separating them?'",
+                    "adequate": ["Enlisting Craig is smart — he is already positioned and familiar with the subjects", "Recognizes the bouncer as a potential ally and validates his efforts", "Shows collaborative mindset rather than solo hero approach"],
+                    "missed": ["Focusing entirely on Craig before addressing the combatants loses the window of authority your arrival creates", "Danny and Viktor need to hear your voice immediately — the momentary pause from your arrival evaporates", "The crowd reads a side-conversation as indecision, not command"],
+                    "improvement": "Enlist allies after establishing your authority with the combatants. The first seconds of police arrival create a natural pause — use that window for a commanding presence, then recruit Craig for the separation plan."
+                },
+                "neutral": {
+                    "choiceText": "Hold back at your vehicle and radio for immediate backup before approaching. The scene is too volatile to engage alone — officer safety comes first.",
+                    "adequate": ["Officer safety is a legitimate priority", "Backup is a reasonable consideration given the volatile scene"],
+                    "missed": ["Backup is already eight minutes out — waiting at the vehicle while violence is imminent abandons your duty to intervene", "The bouncer's hold is weakening by the second", "Every second of inaction increases the probability of a full brawl", "Mia sits injured and unattended while you wait in your car"],
+                    "improvement": "Officer safety does not mean waiting for perfect conditions. Verbal intervention from a safe distance — establishing authority without physical insertion — manages both safety and duty."
+                },
+                "negative": {
+                    "choiceText": "Move immediately between Danny and Viktor, physically positioning yourself in the gap. Use your body and outstretched hands to push them apart.",
+                    "risks": ["Physically inserting yourself between two intoxicated, aggressive men without scene assessment puts you at extreme risk", "No knowledge of weapons, crowd hostility, or the injured person's location", "Going hands-on before verbal commands creates a physical confrontation rather than preventing one", "An injury to you with backup eight minutes away leaves the entire scene uncontrolled"],
+                    "consequences": "Danny's arm clips your shoulder as he gestures. Viktor perceives your push as aggression and squares up. The crowd surges forward. You are now the center of a three-way physical confrontation with no backup and no situational awareness.",
+                    "betterApproach": "Verbal authority first, physical intervention second. Assess the scene for three seconds, issue a clear command, then use positioning and allies to achieve separation safely."
+                }
+            },
+            "keyLearningPoints": ["Three seconds of observation prevents three minutes of chaos — scan before you engage", "The first words out of your mouth set the tone for the entire encounter — make them commanding and concrete", "Identify every element on scene: combatants, allies, injured, crowd, exits, and risks", "In crowd situations, your arrival creates a natural pause — that window is your most valuable asset"]
+        },
+        "2": {
+            "stageName": "Separation",
+            "criticalSkills": ["Resource management — using bystanders and security as allies", "Achieving physical separation between combatants", "Giving intoxicated individuals concrete, achievable tasks"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Use the bouncer and Zoe as allies. Direct Craig firmly: 'Craig, I need you to walk Viktor ten meters that way — toward the taxi rank. Just walk and talk, keep it calm.' Then turn to Zoe: 'You're doing the right thing.'",
+                    "strengths": ["Brilliant resource management — Craig has physical presence and is already near Viktor", "Validating Zoe — 'you're doing the right thing' — recruits her as a calming presence instead of an emotional variable", "Telling Danny you want his side gives him a reason to comply with separation", "'Ten steps' is concrete and achievable for an intoxicated mind", "Every person on scene gets a specific role, transforming chaos into coordination"],
+                    "consequences": "Craig, relieved to have direction, walks Viktor toward the taxi rank. Zoe doubles down on pulling Danny. Danny, hearing you want his story, lets himself be led to the wall. Ten meters of separation. The crowd's tension drops visibly.",
+                    "trainingFocus": "How does giving every person on scene a specific role transform chaos into coordination? Why is enlisting existing relationships more effective than issuing commands alone?"
+                },
+                "partially_positive": {
+                    "choiceText": "Focus entirely on Danny first — he seems more agitated. Walk to him, lower your voice: 'Danny, I can see you're upset and I want to hear what happened. But right now I need you to step over here with me.'",
+                    "adequate": ["Good de-escalation technique with Danny — lowered voice, validation, specific request", "Prioritizes the more agitated subject", "Uses empathy and active listening to build rapport"],
+                    "missed": ["Turning your back to Viktor while he is still aggressive and unsecured is a tactical risk", "Leaving Viktor with only the tiring bouncer and no police attention may embolden him", "Viktor sees the officer engaging only with his adversary and interprets it as taking sides"],
+                    "improvement": "Address both subjects simultaneously through delegation. One subject at a time works when the other is contained — Viktor is not. Use Craig and Zoe as force multipliers to manage both at once."
+                },
+                "neutral": {
+                    "choiceText": "Tell the bouncer: 'Craig, take them both inside the club. Separate rooms. I'll interview them there where it's quieter and away from the crowd.'",
+                    "adequate": ["Attempts to remove combatants from the crowd environment", "Seeks a quieter interview setting"],
+                    "missed": ["The club is the source of the conflict — returning them re-exposes them to alcohol and triggers", "Craig ejected them; walking them back undermines his authority", "The club manager may refuse — Craig was told to get them out", "You lose sight of Mia and the crowd entirely"],
+                    "improvement": "Use the environment you have. The street can be managed with separation distance. Moving subjects back to the source of conflict creates new problems while abandoning the people who need you outside."
+                },
+                "negative": {
+                    "choiceText": "Shout loud enough for everyone to hear: 'BOTH of you — STOP talking. I don't care who started it. You are BOTH going in cuffs if you don't separate RIGHT NOW.'",
+                    "risks": ["Volume and threats of arrest can provoke defiance in intoxicated subjects rather than compliance", "'I don't care who started it' dismisses both their grievances — the one thing they each feel most strongly about", "The cuffs threat in front of a crowd and cameras escalates stakes and makes backing down feel like submission", "Creates a test of will you cannot win without force"],
+                    "consequences": "Danny shouts back: 'Go ahead, arrest me then!' Viktor puffs up: 'Yes, arrest me! I want to make complaint!' Neither moves. Zoe starts crying. You have escalated into a standoff with no path to de-escalation.",
+                    "betterApproach": "Replace threats with concrete direction. Give them a reason to comply and a task they can perform. Enlist allies to physically guide separation while you provide verbal authority."
+                }
+            },
+            "keyLearningPoints": ["Separation is the single most important first action in a physical altercation — everything else follows from creating space", "Enlisting people already on scene — bouncer, girlfriend — multiplies your effectiveness when alone", "Intoxicated individuals respond better to concrete tasks ('ten steps this way') than abstract commands ('calm down')", "Threatening arrest in front of an audience turns compliance into humiliation — drunk people choose defiance over submission"]
+        },
+        "3": {
+            "stageName": "Managing Danny",
+            "criticalSkills": ["De-escalation with intoxicated subjects", "Validating emotion without endorsing narrative", "Using relational anchors — Zoe — to ground an agitated person"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Stay calm, match his pace by standing still, and use short, validating sentences: 'Danny, I can see you're angry. Something happened in there and you feel you were wronged. I hear that.'",
+                    "strengths": ["Standing still when Danny paces creates a calm anchor — stillness is contagious", "Short sentences match impaired cognitive processing of an intoxicated person", "'I can see you're angry' validates without agreeing with his version of events", "'I'm not here to decide who's right or wrong' removes the courtroom dynamic he is building", "'Everyone goes home safe' reframes the goal from winning to survival", "Invoking Zoe grounds the abstraction in someone he trusts", "Asking for his story from the beginning requires sequential thinking, which naturally slows agitation"],
+                    "consequences": "Danny stops pacing. The word 'safe' lands — beneath the bravado, he is scared. He takes a ragged breath and starts talking. His volume drops. Zoe squeezes his hand and this time he does not pull away. Adrenaline vents through words instead of fists.",
+                    "trainingFocus": "Why does asking an agitated person to tell their story from the beginning work as a de-escalation technique? How does standing still counteract another person's pacing?"
+                },
+                "partially_positive": {
+                    "choiceText": "Nod, keep it brief: 'Understood, Danny. I hear you — you feel you were provoked. I'm going to talk to the other guy and get his side, and then we'll figure out what happens next.'",
+                    "adequate": ["Efficient and sets a clear boundary", "'I hear you — you feel you were provoked' offers minimal validation", "Telling him you will get the other side is transparent"],
+                    "missed": ["The interaction is too short to actually de-escalate Danny's emotional state", "Leaving a drunk, agitated man with only Zoe as a monitor — no physical barrier, no authority figure — is risky", "'Are we clear?' can sound confrontational to an intoxicated ear", "Without sustained calming contact, adrenaline reasserts the moment you walk away"],
+                    "improvement": "Invest another sixty seconds in emotional de-escalation before leaving. The minimum amount of engagement needed is enough to shift Danny from fight-or-flight to narrative mode — get him talking, not pacing."
+                },
+                "neutral": {
+                    "choiceText": "Address Zoe: 'Thank you — you're being very helpful. Can you tell me exactly what you saw happen inside? I need a clear account.'",
+                    "adequate": ["Zoe is sober and her account is more reliable", "Seeking an objective account is reasonable investigative practice"],
+                    "missed": ["Interviewing his girlfriend in front of him while he is drunk and agitated makes Danny feel sidelined in his own story", "Zoe is already contradicting Danny — doing so formally with police attention humiliates him", "Danny watches his girlfriend become the primary witness against him", "The dynamic shifts from de-escalation to interrogation, with Danny feeling ganged up on"],
+                    "improvement": "Separate witnesses before taking statements. Danny needs to be calmed before anyone else's version is formally gathered in his presence. Order matters more than speed."
+                },
+                "negative": {
+                    "choiceText": "Be direct: 'Danny, I'm going to be honest with you. Your girlfriend just told me it was an accident. Multiple witnesses are right there. Pressing charges for a spilled drink when you threw the first push is not going to go well for you.'",
+                    "risks": ["Contradicts his narrative, undermines Zoe's loyalty, and implies he is the aggressor — all simultaneously", "Drunk people do not respond to logic; they respond to emotion", "Attacking his pride and his relationship at the same time creates explosive anger", "'Your girlfriend just told me' turns Zoe from his ally into a perceived traitor"],
+                    "consequences": "Danny rounds on Zoe: 'You told him it was my fault?!' Zoe starts crying. Danny's anger, which was directed at Viktor, is now directed at you and his girlfriend. He steps toward you. The situation is worse than before you spoke.",
+                    "betterApproach": "Never present contradicting evidence to an intoxicated person as a confrontation. Validate the emotion, reframe the goal toward safety, and let the facts emerge naturally through his own storytelling."
+                }
+            },
+            "keyLearningPoints": ["Intoxicated individuals process commands slowly — short, repeated, calm instructions outperform complex reasoning", "Validating emotion is not the same as endorsing a narrative — 'I can see you're angry' works without 'you're right'", "Relational anchors like Zoe can be your greatest asset or your greatest liability depending on how you use them", "Presenting contradicting evidence to a drunk person as a confrontation creates a new conflict rather than resolving the existing one"]
+        },
+        "4": {
+            "stageName": "Managing Viktor",
+            "criticalSkills": ["De-escalating perceived discrimination", "Physical positioning as a trust signal", "Separating validation from commitment"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Sit down on the wall near him — not towering over him. Speak calmly: 'Viktor, I can see you're hurt and I'm sorry about that. Let me look at your lip — does it need medical attention? ... I'm not here because of where you're from. Judge me by what I do next.'",
+                    "strengths": ["Sitting down reduces physical power imbalance — a powerful de-escalation signal", "Addressing the injury first shows care and builds trust before anything else", "Confirming what Craig said validates Viktor's account without taking sides in the larger conflict", "Directly addressing the profiling concern — 'I'm not here because of where you're from' — does not dismiss his experience or make empty promises", "'Judge me by what I do next' invites him to hold you accountable through actions, which is far more convincing than a declaration of fairness", "Asking for a step-by-step account gives him agency and the respect of being heard", "Two watching bystanders see a police officer sitting with an injured foreign man, listening"],
+                    "consequences": "Viktor's shoulders drop. Someone is actually listening — and more importantly, someone acknowledged his fear without dismissing it. He begins recounting the evening methodically. His accent becomes less pronounced as his stress decreases. Craig nods along. The bystanders see genuine engagement, not profiling.",
+                    "trainingFocus": "How does the physical position you choose — standing over someone versus sitting beside them — change the entire power dynamic of an interview? When someone says 'you're only doing this because I'm foreign,' what is the most credible way to respond?"
+                },
+                "partially_positive": {
+                    "choiceText": "Nod sympathetically: 'I believe you, Viktor. The other guy was clearly the aggressor. I'm going to make sure this is handled fairly.'",
+                    "adequate": ["Empathetic and well-intentioned", "Validates Viktor's experience directly", "Shows commitment to fairness"],
+                    "missed": ["Declaring 'I believe you' and 'clearly the aggressor' before completing your investigation commits you to an outcome", "If evidence later contradicts Viktor's account even slightly, your credibility collapses", "Framing this as a crime with an aggressor and a victim may escalate a situation that could end with a handshake", "Danny will feel betrayed when he hears this characterization"],
+                    "improvement": "Validate the experience without declaring it the official truth. 'I've noted that — it matters' is different from 'I believe you.' The first preserves your ability to assess; the second commits you prematurely."
+                },
+                "neutral": {
+                    "choiceText": "Address the discrimination concern head-on: 'Viktor, I want to be very clear — your nationality has absolutely nothing to do with how I'm handling this. I treat everyone the same.'",
+                    "adequate": ["The intent is good — addressing the concern directly", "Professional and clear statement of impartiality"],
+                    "missed": ["'I treat everyone the same' is a claim Viktor has no reason to believe from a stranger", "Research shows declarations of fairness often land as dismissive rather than reassuring", "'Both of you were involved in a disturbance' groups victim and aggressor immediately after Viktor described being punched", "Actions communicate impartiality more effectively than words — sit down, check his injury, listen"],
+                    "improvement": "Show fairness through actions, not declarations. Sitting beside him, checking his lip, and asking for his account demonstrates impartiality far more convincingly than saying 'I treat everyone the same.'"
+                },
+                "negative": {
+                    "choiceText": "Stay professional and brisk: 'Sir, I understand there was an altercation. I need your full name, date of birth, and address. I'll also need to see identification.'",
+                    "risks": ["Demanding identification from someone who just said 'the foreigner gets arrested' confirms his worst fear", "He told you he feels profiled, and your first response is asking for his papers", "No acknowledgment of his injury, his account, or his stated fear of bias", "The procedural approach is not wrong in isolation, but its timing is devastating"],
+                    "consequences": "Viktor stiffens: 'See? Papers. Always papers for the foreigner.' He crosses his arms. Craig shifts uncomfortably. The two nearby bystanders exchange glances. Viktor stops cooperating. Every word he said about bias feels confirmed.",
+                    "betterApproach": "When someone tells you they fear being profiled, your very next action either confirms or contradicts that fear. Lead with care — check the injury, listen to the account, build rapport. Identification can come later."
+                }
+            },
+            "keyLearningPoints": ["When someone expresses fear of bias, your next action either confirms or contradicts that fear — choose carefully", "Physical positioning communicates more than words — sitting beside someone says 'partner,' standing over them says 'authority'", "Validating someone's experience is not the same as declaring their version the official truth", "Addressing an injury before asking questions builds trust faster than any verbal reassurance"]
+        },
+        "5": {
+            "stageName": "The Crowd Factor",
+            "criticalSkills": ["Crowd psychology in alcohol-fueled environments", "Converting spectators into cooperative citizens", "Simultaneous management of crowd, subjects, and injured party"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Address the crowd with calm authority — not shouting, but projecting: 'Alright, everyone. I appreciate your patience. Here's where we are: I have two people who need my attention, and I have someone injured on the curb who needs help. If you're not involved and not a witness, the best thing you can do is head home safe. For anyone who saw what happened inside the club — I'd welcome your account. Please stay to the side and I'll come to you.' Then turn to the nearest sober-looking bystander: 'Can you check on the woman sitting on the curb? I think she's hurt her ankle.'",
+                    "strengths": ["'I appreciate your patience' reframes spectators from gawkers to cooperative citizens", "Explaining 'here's where we are' satisfies their need for information — crowds become hostile when uninformed", "Two clear paths — leave safely or stay as witnesses — converts passive spectators into people with a role", "Mentioning Mia redirects attention from entertainment to empathy", "Enlisting a bystander to help the injured woman distributes responsibility and creates prosocial action", "The provocateur loses his audience and goes quiet", "Welcoming witness accounts signals transparency and values community input"],
+                    "consequences": "Several people at the back drift away — given permission to leave without FOMO. Two witnesses stay. A woman checks on Mia. The provocateur who shouted 'let them fight' finds himself with a shrinking audience. The phones keep recording, but now they capture competence.",
+                    "trainingFocus": "Why does giving a crowd a constructive role reduce their desire to play a destructive one? How does mentioning an injured person shift crowd psychology from entertainment to empathy?"
+                },
+                "partially_positive": {
+                    "choiceText": "Walk directly to the person who shouted 'let them fight.' Stand close, speak low: 'Mate, I need you to stop that. You're making my job harder and you're putting people at risk.'",
+                    "adequate": ["Addresses the most destabilizing individual directly", "Low voice avoids public confrontation", "Frames the request in terms of consequences, not authority"],
+                    "missed": ["Singling out one person from a drunk crowd can provoke defiance as easily as compliance", "Stepping away from Danny and Viktor to confront a heckler reduces control of the primary scene", "If the provocateur escalates, you now have three simultaneous problems", "At 1:30 AM with alcohol, defiance is more likely than compliance"],
+                    "improvement": "Address the crowd as a whole rather than singling out the loudest voice. A brief sentence to everyone reduces the provocateur's audience without giving him a spotlight."
+                },
+                "neutral": {
+                    "choiceText": "Ignore the crowd entirely — they are a distraction. Focus on the two subjects and getting them processed. The crowd will get bored and leave on their own.",
+                    "adequate": ["Maintains focus on the primary interaction", "Avoids directly escalating with the crowd"],
+                    "missed": ["The provocateur shouting 'let them fight' is directly raising Danny's and Viktor's adrenaline", "Ignoring the crowd means ignoring Mia — a welfare failure", "Crowds outside nightclubs at 1:30 AM do not get bored — they get drunk and restless", "Without acknowledgment, Danny and Viktor start performing for the audience"],
+                    "improvement": "A brief acknowledgment costs ten seconds and prevents ten minutes of escalation. The crowd is not a distraction — it is an active variable that must be managed."
+                },
+                "negative": {
+                    "choiceText": "Shout at the crowd: 'Everyone not involved — LEAVE. NOW. This is a police scene. Anyone who interferes will be arrested for obstruction. Put the phones away and move along!'",
+                    "risks": ["Ordering 15-20 drunk people to disperse at 1:30 AM rarely works", "Threatening arrest for obstruction on a public pavement is legally questionable", "Telling them to put phones away signals you do not want to be watched — making them want to watch more", "Aggression toward the crowd risks unifying them against you — the most dangerous outcome"],
+                    "consequences": "Nobody leaves. The provocateur laughs: 'Arrest all of us, then!' Phones stay up, people move closer in defiance. Danny and Viktor react to the shouting — adrenaline spikes again. You have escalated the crowd and destabilized the subjects simultaneously.",
+                    "betterApproach": "Replace orders with information and choices. 'Here's where we are' satisfies curiosity. 'Head home safe or stay as a witness' gives them agency. Treat the camera as an ally that records your professionalism."
+                }
+            },
+            "keyLearningPoints": ["Crowds amplify whatever emotional tone dominates — calm authority is contagious, just as panic is", "Giving a crowd a constructive role — witness, helper — reduces their desire for a destructive one", "The injured bystander is the crowd's empathy trigger — mentioning Mia shifts psychology from spectacle to concern", "Every phone filming is a potential training video or a potential scandal — your professionalism decides which"]
+        },
+        "6": {
+            "stageName": "Resolution",
+            "criticalSkills": ["Proportionate resolution in minor incidents", "Face-saving exits for intoxicated parties", "Using discretion wisely when the law gives you options"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Bring Danny and Viktor within speaking distance — not face to face, but close enough to hear you address both: 'Here's where we are. A drink got spilled by accident. There was pushing. You were both ejected. You both have minor injuries and bruised pride. Neither of you wants to be at a police station at 2 AM, and honestly, neither of you needs to be. I'm not filing charges tonight — but I need something from both of you. Danny: acknowledge that the drink was an accident. Viktor: accept that it's over. Shake hands or don't — but you're both going home tonight. Danny, Zoe is going to get you a taxi heading west. Viktor, Craig will make sure you get a taxi heading east. If I see either of you near this club again tonight, we have a very different conversation.'",
+                    "strengths": ["Summarizing the facts neutrally — 'a drink got spilled by accident, there was pushing' — strips the narrative of heroes and villains", "'Neither of you needs to be at a police station at 2 AM' names the reality both men want", "Asking Danny to acknowledge the accident addresses the factual dispute at its root", "Asking Viktor to accept it is over addresses the lingering grievance", "Offering a handshake without requiring it preserves dignity", "Separating taxi directions — west and east — prevents re-encounter", "The final boundary — 'a very different conversation' — is clear without being a naked threat", "'I'm not filing charges tonight' removes the looming uncertainty both men felt"],
+                    "consequences": "Danny mutters: 'Yeah... alright, it was probably an accident.' Viktor nods. They do not shake hands, but brief eye contact replaces hostility. Zoe mouths 'thank you.' Craig looks relieved. Two taxis are hailed. The night ends without charges, injury, or a viral video of police failure.",
+                    "trainingFocus": "How does a resolution that names reality and offers a face-saving exit produce more durable peace than formal enforcement? Why does asking for a small concession from each side create mutual buy-in?"
+                },
+                "partially_positive": {
+                    "choiceText": "Tell them both: 'Right, you've both been drinking, you've both been in a scuffle, and I could arrest you both for public order offences. But I'm going to use my discretion tonight.'",
+                    "adequate": ["The outcome is reasonable — no arrest, go home", "Uses discretion rather than maximum enforcement", "Sets clear expectations about future behavior"],
+                    "missed": ["'I could arrest you both' hangs a threat over a merciful act — compliance feels like gratitude for leniency", "Does not distinguish between the instigator and the person with the valid grievance", "Viktor hears he was equally at fault despite being the one who was hit", "Neither man feels heard — it is a resolution of convenience, not justice"],
+                    "improvement": "Name the facts neutrally rather than threatening what you could do. Acknowledge the asymmetry — Danny pushed first, Viktor was injured — while still steering both toward the same exit. Proportionate resolution does not mean identical treatment."
+                },
+                "neutral": {
+                    "choiceText": "Take detailed statements from both parties and all witnesses, arrange for medical assessment of Viktor's lip and the injured bystander, and submit a full incident report.",
+                    "adequate": ["Procedurally thorough and by-the-book", "Addresses both medical needs formally"],
+                    "missed": ["Full statements and incident reports for a minor shoving match where neither party wants formal action will take hours", "It ties up resources at 1:30 AM on a Saturday when other calls are waiting", "Forces Viktor to the station despite his work in the morning", "Escalates a minor incident into bureaucratic machinery that cannot be un-started"],
+                    "improvement": "When the law gives you discretion and neither party wants formal proceedings, ask whether procedural thoroughness serves justice or just generates paperwork. A ten-minute proportionate resolution outperforms a three-hour report that ends in a caution."
+                },
+                "negative": {
+                    "choiceText": "Arrest Danny for assault — he threw the first push, which constitutes battery. Viktor is the victim. Craig is a witness. Process it properly: this is a clear-cut case.",
+                    "risks": ["Technically justifiable but catastrophically disproportionate", "A push over a spilled drink between intoxicated men with no serious injury does not warrant a criminal record", "The 'victim' does not want to press charges and has work in the morning", "Craig will likely minimize his own rough handling if formal proceedings begin", "The crowd sees a man arrested for pushing someone who spilled a drink on his girlfriend"],
+                    "consequences": "Danny explodes. Zoe is hysterical. Viktor protests — he did not ask for this. Craig goes quiet, worried his own conduct will be scrutinized. The arrest in front of phones and a crowd becomes the story. A minor incident is now a criminal case that benefits no one.",
+                    "betterApproach": "When the law gives you the power to arrest, the question is whether arrest serves justice or undermines it. Neither party wants formal action. A proportionate resolution that sends both home with dignity achieves more than a technically correct arrest."
+                }
+            },
+            "keyLearningPoints": ["Proportionality is the hallmark of experienced policing — matching response to actual harm, not maximum legal authority", "Face-saving exits for intoxicated people produce more durable outcomes than formal enforcement", "Naming reality neutrally — 'a drink got spilled, there was pushing' — removes heroes and villains from the narrative", "Night-time alcohol-fueled situations are not the time for lectures or moral authority — save the teaching for sober daylight"]
+        },
+        "7": {
+            "stageName": "Closure",
+            "criticalSkills": ["Attending to neglected parties — injured bystanders", "Responding constructively to voluntary admissions", "Closing a scene with care, not just efficiency"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Prioritize the injured bystander immediately: 'I'm sorry you've been waiting — let me take a look. What's your name? ... Mia, okay. Can you move your toes? Good. The swelling suggests a sprain — I'm going to call you an ambulance to get it checked properly. Your friends left? I'll stay with you until the ambulance arrives or we can call someone for you.' Then, once she is settled, return to Craig: 'Craig, I appreciate you being honest about that. I'm not going to make a formal issue of it tonight — but I'd encourage you to follow through on that training conversation. The way people are ejected matters as much as the reason. You were a big help tonight keeping Viktor calm. That's the version of you this job needs.'",
+                    "strengths": ["Mia has been the most neglected person on scene — prioritizing her signals that every person matters, not just the loudest ones", "Calling her by name, checking her injury, and arranging an ambulance are all high-trust actions", "Offering to stay with her until the ambulance arrives or calling someone addresses her abandonment — friends left without her", "With Craig, honesty is rewarded with honesty — acknowledging his admission without formalizing it tonight is proportionate", "Directing Craig toward 'the version of you this job needs' reinforces the better behavior you saw from him", "Encouraging the training conversation gives Craig a constructive path forward rather than a punitive dead end", "The last bystanders see a police officer sitting with an injured young woman waiting for an ambulance — that is the final image of the night"],
+                    "consequences": "Mia is visibly relieved — someone official finally noticed her. She calls her flatmate. An ambulance is dispatched. Craig nods slowly at your words; they land because you saw both versions of him tonight and reinforced the better one. The scene is closed with care.",
+                    "trainingFocus": "The last thing you do at a scene is often what people remember most. What does closing with care communicate to everyone still watching? How does your response to Craig's admission determine whether bouncers will be honest with police in the future?"
+                },
+                "partially_positive": {
+                    "choiceText": "Wrap things up efficiently: call an ambulance for the bystander, tell Craig to review his door policy, and clear the scene. You have other calls waiting and this one is resolved.",
+                    "adequate": ["Broadly correct actions — ambulance for Mia, advice for Craig", "Efficient and action-oriented", "Addresses both remaining issues"],
+                    "missed": ["Mia does not just need an ambulance — she is alone, injured, and frightened at 2 AM", "A dispatched ambulance without a conversation leaves her feeling like a logistics problem", "Craig just opened up about a genuine issue — a quick directive misses the moment of genuine connection", "Efficiency without empathy completes the checklist but not the job"],
+                    "improvement": "The difference between a closed scene and a well-closed scene is human connection. Sit with Mia for two minutes. Thank Craig genuinely. The calls waiting can wait — the person on the curb in front of you cannot."
+                },
+                "neutral": {
+                    "choiceText": "Focus on Craig's admission first — this is important. 'Craig, I need to be clear: what you're describing could constitute excessive force. I need you to write down exactly what happened during the ejection.'",
+                    "adequate": ["Taking the admission seriously is professionally correct", "Demonstrates commitment to accountability"],
+                    "missed": ["Mia — who has been waiting for over thirty minutes — is still sitting on a curb with a swollen ankle", "Prioritizing a formal process over an immediate welfare need sends a clear message about your values", "Craig volunteered his honesty; meeting it with immediate formal consequences ensures no bouncer will be honest with you again", "The procedurally correct action came at the cost of the human one"],
+                    "improvement": "Welfare first, process second. Attend to Mia immediately. Then respond to Craig's honesty in a way that encourages future transparency — acknowledge, direct, and follow up later rather than formalizing on the spot."
+                },
+                "negative": {
+                    "choiceText": "Tell the bystander: 'Ma'am, if you're injured you should call 155 or go to A&E. I can give you directions. Do you need anything else?'",
+                    "risks": ["Telling an injured, abandoned 19-year-old to call emergency services herself — when you are the emergency service — is a dereliction of duty of care", "She has been sitting on a cold curb for thirty minutes waiting for help", "Directing her to help herself so you can do paperwork tells her your report matters more than her ankle", "This becomes the story she tells for years: 'I was hurt and the police told me to sort it out myself'"],
+                    "consequences": "Mia's face falls. She calls 155 herself, alone on the curb at 2 AM. Craig watches from the doorway and shakes his head. The last bystanders film the officer getting into their car while an injured young woman sits alone. This is the video that goes viral — not for the right reasons.",
+                    "betterApproach": "You are the emergency service. Sit with her, check the injury, call the ambulance yourself, and stay until help arrives or someone she trusts can be contacted. The incident report can wait — the person in front of you cannot."
+                }
+            },
+            "keyLearningPoints": ["The last action at a scene is what people remember most — close with care, not just efficiency", "Attending to injured parties early signals competence and care, changing the crowd's perception of police from threat to protector", "When someone voluntarily admits a mistake, your response determines whether they — and others — will ever be honest with you again", "Efficiency without empathy completes the checklist but not the job — the difference between a closed scene and a well-closed scene is human connection"]
+        }
+    },
+    "comprehensiveMetrics": {
+        "sceneSafety": {
+            "description": "Conducting a rapid but thorough scene assessment, maintaining tactical awareness, and prioritizing physical safety for all parties including the officer",
+            "indicators": {
+                "excellent": ["Three-second scan identifies all scene elements before engaging — combatants, bouncer, Zoe, Mia, crowd, exits", "Verbal authority established before any physical intervention", "Tactical awareness maintained throughout — never turning back on unsecured subjects", "Injured bystander identified early and integrated into scene management plan"],
+                "poor": ["Rushes into the gap between combatants without assessment or verbal commands", "Tunnel vision on one subject while the other remains unsecured and aggressive", "Injured bystander on the curb ignored until the scene is almost closed", "Physical insertion before verbal de-escalation, creating a three-way confrontation"]
+            }
+        },
+        "separationAndControl": {
+            "description": "Effectively separating combatants, enlisting allies like Craig and Zoe, and maintaining physical distance between volatile parties throughout the encounter",
+            "indicators": {
+                "excellent": ["Craig directed to walk Viktor away — using his presence constructively rather than as a static barrier", "Zoe validated and enlisted as a calming influence on Danny", "Ten meters of separation achieved through delegation, not solo physical effort", "Each person on scene given a specific, constructive role"],
+                "poor": ["Threats of arrest used to force separation — provoking defiance in front of an audience", "Both subjects left with the tiring bouncer while officer focuses on one", "Attempt to move subjects back inside the club — the source of the conflict", "No use of available allies — Zoe and Craig treated as obstacles, not resources"]
+            }
+        },
+        "emotionalRegulation": {
+            "description": "Managing intoxicated, agitated individuals through calm authority, validation, and communication techniques adapted for impaired cognitive processing",
+            "indicators": {
+                "excellent": ["Short, concrete sentences matching intoxicated processing speed", "Emotion validated without endorsing disputed narratives — 'I can see you're angry' without 'you're right'", "Relational anchors used effectively — Zoe grounds Danny, sitting beside Viktor signals equality", "Physical positioning deliberately chosen — stillness against pacing, sitting beside rather than towering over"],
+                "poor": ["Contradicting a drunk person's narrative directly, creating explosive anger", "Using Zoe's contradicting account against Danny in his presence", "Demanding identification from Viktor immediately after he expressed fear of profiling", "Declarations of fairness ('I treat everyone the same') instead of demonstrated fairness"]
+            }
+        },
+        "crowdManagement": {
+            "description": "Engaging bystanders constructively, neutralizing provocateurs, attending to Mia, and maintaining professionalism under phone cameras",
+            "indicators": {
+                "excellent": ["Crowd addressed with information and choices — 'head home safe or stay as a witness'", "Mia mentioned specifically, redirecting crowd attention from spectacle to empathy", "A bystander enlisted to help the injured woman — distributing responsibility", "Cameras treated as neutral observers of professional conduct", "Provocateur's audience reduced without direct confrontation"],
+                "poor": ["Crowd ordered to disperse with threats of arrest — unifying them against you", "Provocateur singled out for confrontation, creating a second scene", "Crowd ignored entirely while they amplify Danny's and Viktor's aggression", "Phones challenged — 'put the phones away' — signaling you do not want to be watched"]
+            }
+        },
+        "proportionateResolution": {
+            "description": "Reaching an outcome that matches the severity of the incident — a minor shoving match — preserving dignity for all parties, and creating a durable resolution",
+            "indicators": {
+                "excellent": ["Facts named neutrally — 'a drink got spilled, there was pushing' — no heroes or villains", "Both parties offered face-saving exits appropriate to an alcohol-fueled minor incident", "Mia prioritized in closure — the neglected person finally receives care", "Craig's admission met with proportionate response — encouragement toward better practice, not immediate formal proceedings"],
+                "poor": ["Danny arrested for a push over a spilled drink when neither party wants formal action", "Both men treated as equally culpable despite clear asymmetry in who struck first", "Full procedural machinery deployed for a minor incident — hours of statements for a caution", "Mia told to call emergency services herself while the officer does paperwork"]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "physicalBeforeVerbal": {
+            "pattern": "Inserting yourself physically into a volatile scene before establishing verbal authority",
+            "examples": ["Stepping between Danny and Viktor without a scene scan or command", "Going hands-on to push combatants apart before any verbal de-escalation", "Physically confronting the crowd provocateur rather than addressing the crowd as a whole", "Moving toward Viktor for identification before speaking to him from a non-threatening position"],
+            "impact": "Physical intervention without verbal groundwork creates confrontation rather than preventing it. With intoxicated subjects, unexpected physical contact triggers fight-or-flight. With backup eight minutes away, an officer injury leaves the entire scene uncontrolled.",
+            "correction": "Verbal authority first, physical intervention second. A three-second scan followed by a clear, concrete command ('five steps back') creates the conditions for safe physical separation through delegation."
+        },
+        "threatEscalation": {
+            "pattern": "Using threats of arrest or force to compel compliance from intoxicated people in front of an audience",
+            "examples": ["'You're BOTH going in cuffs if you don't separate RIGHT NOW'", "'If I see you near this club again tonight, you're spending the night in a cell'", "'Anyone who interferes will be arrested for obstruction'", "Threatening Craig with formal proceedings immediately after he volunteers honesty"],
+            "impact": "Threats in front of a crowd turn compliance into humiliation. Intoxicated men choose defiance over submission when their pride is at stake. Bystanders unify against perceived aggression. Bouncers learn never to be honest with police again.",
+            "correction": "Replace threats with concrete direction and face-saving choices. 'I need you over here — ten steps, that's all' achieves separation without triggering defiance. Give people a reason to comply rather than a consequence for refusal."
+        },
+        "neglectingTheInjured": {
+            "pattern": "Focusing entirely on the loudest, most aggressive parties while the quietly injured person waits unattended",
+            "examples": ["Mia sits on the curb for thirty-plus minutes without official attention", "Crowd management and subject interviews take priority over a welfare check", "Telling Mia to call emergency services herself rather than arranging care", "Closing the scene efficiently without sitting with the abandoned 19-year-old"],
+            "impact": "The injured bystander is the most sympathetic person at the scene. Neglecting her signals that police respond to volume, not vulnerability. The video of an officer leaving while Mia sits alone is the one that goes viral.",
+            "correction": "Integrate welfare into your scene management from the start. Enlist a bystander to check on Mia while you manage separation. Prioritize her formally once the immediate threat is contained. Close the scene by sitting with her, not by walking to your vehicle."
+        },
+        "narrativeConfrontation": {
+            "pattern": "Presenting contradicting evidence to intoxicated subjects as a direct challenge to their story",
+            "examples": ["Telling Danny that Zoe said it was an accident — in front of Zoe", "Confronting Danny with witness accounts while he is still agitated", "Telling Viktor 'both of you were involved in a disturbance' right after he described being punched", "Using logic and facts against alcohol-impaired judgment"],
+            "impact": "Drunk people do not respond to logic — they respond to emotion. Contradicting their narrative attacks their pride and can redirect anger from the original adversary to you. Using a girlfriend's testimony against her partner in his presence creates relationship conflict.",
+            "correction": "Validate the emotion without endorsing the narrative. 'I can see you're angry' works where 'your girlfriend says otherwise' fails. Let facts emerge through storytelling rather than confrontation. Save the truth-telling for when subjects are sober."
+        },
+        "equalBlameForUnequalSituations": {
+            "pattern": "Treating both parties as equally responsible when evidence clearly shows asymmetry",
+            "examples": ["'I could arrest you both for public order offences' when Danny pushed first and Viktor was injured", "'Both of you were involved in a disturbance' to the man with a split lip who was ejected roughly", "Identical treatment of instigator and victim in the name of procedural neutrality", "Failing to acknowledge that Craig confirmed Danny pushed first"],
+            "impact": "False equivalence feels deeply unjust to the person with the legitimate grievance. Viktor — who was bumped by accident, punched, and ejected roughly — hears he is equally at fault. This confirms his fear that the system does not care about fairness, only about ending incidents.",
+            "correction": "Proportionate resolution acknowledges asymmetry without criminalizing either party. 'Danny: acknowledge the drink was an accident. Viktor: accept that it's over' recognizes different responsibilities while steering both toward the same dignified exit."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Outstanding scene command in one of policing's most chaotic environments. You assessed before acting, separated combatants using every resource around you — Craig, Zoe, the crowd itself — de-escalated two intoxicated men with empathy and calm authority, managed a volatile crowd by giving them constructive roles, reached a proportionate resolution that preserved everyone's dignity, and closed the scene by caring for the person everyone else forgot. Every phone that filmed you tonight captured policing that builds community trust. This is the standard.",
+            "mostlyPositive": "Strong performance under high pressure. You maintained composure in a chaotic nightclub scene and achieved a reasonable outcome. You showed good instincts for separation, de-escalation, or proportionate resolution. Some opportunities were missed — perhaps in crowd management, attending to Mia sooner, or managing Craig's admission more constructively — but your overall approach was professional and the scene ended without serious escalation.",
+            "mixed": "You showed competence in some areas but struggled with the full complexity of this multi-party nightclub scene. Strengths included [SPECIFIC_POSITIVE], but critical opportunities were missed in [SPECIFIC_GAP]. Managing intoxicated combatants, a volatile crowd, an injured bystander, and a bouncer simultaneously requires prioritization and delegation — review how to balance these competing demands.",
+            "mostlyNegative": "This scenario revealed significant gaps in de-escalation and proportionality. While you managed to address the immediate situation, most choices escalated rather than calmed — through threats, confrontation, neglect of the injured, or disproportionate enforcement. Nightclub disturbances are where trust is built or broken in a single encounter. Review separation techniques, communication with intoxicated subjects, crowd dynamics, and the difference between ending an incident and resolving one.",
+            "allNegative": "Your approach to this nightclub disturbance created more problems than it solved. Physical intervention without verbal authority, threats that provoked defiance, neglect of Mia, and disproportionate enforcement compounded a manageable situation into a crisis. Every phone filmed an officer making a chaotic scene worse. This requires fundamental reorientation: verbal before physical, calm before commands, care before paperwork, and proportionality before maximum enforcement."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Police. Nobody moves. I need both of you to take five steps back from each other. Right now.",
+            "Craig, I need you to walk Viktor ten meters that way — toward the taxi rank. Just walk and talk, keep it calm.",
+            "You're doing the right thing. Help me get Danny over here by the wall.",
+            "Danny, I can see you're angry. Something happened in there and you feel you were wronged. I hear that.",
+            "I'm not here to decide who's right or wrong — I'm here to make sure everyone goes home safe tonight, including you.",
+            "Viktor, I can see you're hurt and I'm sorry about that. Let me look at your lip — does it need medical attention?",
+            "I understand you feel you were treated differently — I take that seriously.",
+            "Here's where we are. A drink got spilled by accident. There was pushing. Neither of you needs to be at a police station at 2 AM.",
+            "I appreciate your patience. I have two people who need my attention, and I have someone injured on the curb who needs help.",
+            "I'm sorry you've been waiting — let me take a look. What's your name? ... Mia, okay. Can you move your toes?"
+        ],
+        "poorPhrases": [
+            "BOTH of you — STOP talking. I don't care who started it. You are BOTH going in cuffs if you don't separate RIGHT NOW.",
+            "Danny, your girlfriend just told me it was an accident. Pressing charges for a spilled drink when you threw the first push is not going to go well for you.",
+            "Sir, I understand there was an altercation. I need your full name, date of birth, and address. I'll also need to see identification.",
+            "Everyone not involved — LEAVE. NOW. This is a police scene. Anyone who interferes will be arrested for obstruction.",
+            "Put the phones away and move along!",
+            "Craig, what you're describing could constitute excessive force. I need you to write down exactly what happened during the ejection.",
+            "Ma'am, if you're injured you should call 155 or go to A&E. I can give you directions."
+        ],
+        "analysisCriteria": {
+            "commandClarity": "Was the instruction short, concrete, and achievable — especially for intoxicated processing? 'Five steps back' versus 'calm down.'",
+            "emotionalValidation": "Did the phrase acknowledge the person's emotional state without endorsing their disputed version of events?",
+            "proportionality": "Did the phrase match the severity — conversation for a minor alcohol-fueled scuffle, not threats for a low-level incident?",
+            "allyEnlistment": "Did the phrase recruit available people — Craig, Zoe, bystanders — as constructive participants rather than obstacles?",
+            "dignityPreservation": "Did the phrase offer a face-saving path or did it create a test of will that intoxicated pride would reject?",
+            "welfareSignaling": "Did the phrase demonstrate care for the vulnerable — Mia's injury, Viktor's split lip — or prioritize process over people?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Three seconds of observation before engaging prevents minutes of chaos. A rapid scan identifies all scene elements — Danny, Viktor, Craig, Zoe, Mia, the crowd — and your first words set the tone for everything that follows. The window of authority your arrival creates is your most valuable asset.",
+        "2": "Separation is the single most important first action in a physical altercation. Using allies — Craig for Viktor, Zoe for Danny — multiplies your effectiveness when you are alone with backup eight minutes away. Give every person on scene a specific role and chaos becomes coordination.",
+        "3": "Intoxicated individuals process commands slowly and respond to emotion, not logic. Short, calm, repeated instructions outperform complex reasoning. Validating Danny's anger without endorsing his narrative — 'I can see you're angry' — de-escalates without committing to his version of events. Never use a partner's testimony against someone in their presence.",
+        "4": "When Viktor says 'I know how this works — the foreigner gets arrested,' your very next action either confirms or contradicts that fear. Sitting beside him, checking his injury, and asking for his account demonstrates impartiality far more convincingly than declaring 'I treat everyone the same.' Actions speak louder than assurances.",
+        "5": "Crowds amplify whatever emotional tone dominates. At 1:30 AM outside a nightclub, a volatile crowd is your biggest risk and your biggest asset. Giving them information and choices — leave safely or stay as witnesses — transforms spectators into cooperative citizens. Mentioning Mia shifts crowd psychology from entertainment to empathy.",
+        "6": "A minor shoving match over a spilled drink between intoxicated men does not require arrest, criminal records, or hours of statements. Proportionate resolution names reality neutrally, offers face-saving exits, and sends everyone home with dignity intact. The question is not whether you have the power to arrest, but whether arrest serves justice.",
+        "7": "The last action at a scene is what people remember most. Mia has been sitting on a cold curb for thirty minutes — abandoned by her friends, overlooked by everyone. Sitting with her, checking her ankle, and staying until help arrives transforms the final image of the night from efficiency to care. And when Craig admits he was too rough, your response determines whether bouncers will ever be honest with police again."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Advanced crowd dynamics and mass event de-escalation — training others in nightlife scene management", "Leadership in multi-party volatile environments — coordinating allies under pressure", "Implicit bias recognition in alcohol-fueled confrontations involving foreign nationals", "Community trust-building through proportionate nightlife policing"],
+            "good": ["Extended de-escalation with intoxicated subjects — adapting communication for impaired cognition", "Crowd psychology in alcohol-fueled environments — converting spectators into allies", "Proportionate resolution techniques — face-saving exits and discretion in minor incidents", "Scene closure and welfare prioritization — attending to the overlooked"],
+            "average": ["Core separation techniques — physical distance through delegation and verbal authority", "De-escalation fundamentals for intoxicated individuals — short commands, emotional validation, calm anchoring", "Crowd management basics — information over orders, choices over threats", "Duty of care awareness — integrating injured party welfare into active scene management"],
+            "poor": ["Fundamentals of verbal authority before physical intervention — scan, command, then act", "Communication with intoxicated subjects — why logic fails and emotion succeeds", "Proportionality in enforcement discretion — matching response to actual harm severity", "Duty of care and welfare obligations — attending to injured parties as a core responsibility, not an afterthought"]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Overall Performance Summary", "content": ["Score and performance level", "Key strengths across the nightclub scenario", "Critical weaknesses — where the encounter could have gone wrong", "Comparison to optimal approach at each decision point"]},
+            {"title": "Stage-by-Stage Analysis", "content": ["Choice made at each stage — from scene assessment through closure", "Impact on Danny, Viktor, Zoe, Craig, Mia, and the crowd at each decision point", "Alternative approaches and their likely consequences", "Key learning points specific to each stage"]},
+            {"title": "Scene Safety & Separation Assessment", "content": ["Quality of initial scene scan — what was identified, what was missed", "Effectiveness of separation strategy — use of Craig, Zoe, and physical distance", "Tactical awareness throughout — back turned to unsecured subjects, positioning choices", "Time management — how long before Mia received attention"]},
+            {"title": "De-escalation with Intoxicated Subjects", "content": ["Communication adaptation for impaired cognitive processing — sentence length, word choice", "Emotional validation versus narrative endorsement — the Danny conversation", "Bias sensitivity — response to Viktor's fear of discrimination", "Physical positioning choices — standing versus sitting, stillness versus movement"]},
+            {"title": "Crowd & Camera Management", "content": ["Crowd acknowledgment quality — information versus orders", "Response to the provocateur — direct confrontation versus audience reduction", "Camera management — treated as threat or as neutral observer", "Mia as the crowd's empathy trigger — whether she was mentioned or ignored"]},
+            {"title": "Proportionality & Resolution Quality", "content": ["Resolution calibration to actual harm — spilled drink and shoving match, not a serious assault", "Face-saving exits offered to both parties", "Asymmetry acknowledgment — Danny pushed first, Viktor was injured", "Craig's admission — how honesty was received and whether future transparency was encouraged"]},
+            {"title": "Closure & Welfare", "content": ["Mia — time waited, quality of attention, transport arranged, companionship offered", "Craig — admission met with encouragement or formal consequences", "Final image of the scene — what the last bystanders and cameras captured", "The difference between a closed scene and a well-closed scene"]},
+            {"title": "Professional Development", "content": ["Immediate training priorities based on weakest stages", "Long-term skill development — crowd dynamics, intoxicated de-escalation, proportionate resolution", "Recommended scenarios for further practice", "Real-world application — how this translates to Saturday night calls in nightlife districts"]}
+        ]
+    }
+}

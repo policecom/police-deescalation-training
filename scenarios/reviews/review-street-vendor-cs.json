@@ -1,0 +1,360 @@
+{
+    "scenarioId": "street-vendor",
+    "reviewVersion": "1.0",
+    "title": "Analýza — Pouliční prodejce: Komunita v křížovém ohni",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Místo činu",
+            "criticalSkills": ["Posouzení situace před zapojením", "Neutrální řeč těla a pozice", "Odolávání předčasným závěrům z informací dispečinku"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Chvíli si v klidu projdete celé místo — projdete kolem vozíku, všimnete si jeho polohy vůči vchodu do obchodu a šířce chodníku, krátce přátelsky navážete oční kontakt s oběma stranami, aniž byste zatím s kýmkoli mluvili. Získáte prostorovou představu, než zvolíte, s kým mluvit.",
+                    "strengths": ["Získáte objektivní prostorové informace před jakýmkoli rozhovorem", "Přátelský oční kontakt s oběma stranami signalizuje neutralitu všem přihlížejícím", "Odolává naléhavosti, kterou může vytvořit zarámování dispečinku (‚prodejce bez povolení')", "Dává čas si všimnout důležitých detailů: věk prodejce, jazykové signály, nálada davu", "Modeluje profesionalitu pro kolemjdoucí — první dojem je klidné posouzení"],
+                    "consequences": "Obě strany vidí strážníka, který si klidně prohlíží místo, místo aby spěchal k soudu. Zjistíte, že vozík částečně, ale ne úplně blokuje jednu stranu vchodu — zásadní nuance, která utváří celou vaši reakci.",
+                    "trainingFocus": "Jak 60 vteřin pozorování změní kvalitu každého následujícího rozhovoru? Jaké detaily obchůzka odhalí, které by rozhovor s jednou stranou jako první minul?"
+                },
+                "partially_positive": {
+                    "choiceText": "Přistoupíte k prodejci i majiteli obchodu současně — svoláte je dohromady a vysvětlíte, že jste tu věci vyřešit.",
+                    "adequate": ["Záměr je spravedlivý a transparentní — obě strany stejně", "Signalizuje ochotu slyšet obě strany"],
+                    "missed": ["Žádné posouzení situace před zapojením", "Postavit frustrovaného stěžovatele tváří v tvář prodejci, na kterého podal oznámení, vytvoří okamžitou konfrontaci", "Jazykové bariéry, mocenská dynamika a strachové reakce nebyly vyhodnoceny"],
+                    "improvement": "Spravedlivý záměr potřebuje taktické povědomí. Nejprve nezávisle posuďte místo, pak rozhodněte, jestli je bezpečné strany spojit, nebo jsou potřeba oddělené rozhovory."
+                },
+                "neutral": {
+                    "choiceText": "Nejdřív přistoupíte k majiteli obchodu, protože podal stížnost — získáte jeho verzi, než rozhodnete, jak s prodejcem naložit.",
+                    "adequate": ["Logické začít u stěžovatele, který výzvu inicioval", "Získání kontextu před přístupem k prodejci"],
+                    "missed": ["Prodejce a kolemjdoucí vidí, jak jdete rovnou k naštvanému muži, který na ni ukazuje — optika stranění", "Bez nezávislého posouzení místa spoléháte zcela na zarámování jedné strany", "Než přijdete k prodejci, sledovala vás, jak přikyvujete muži, který ji chce odstranit"],
+                    "improvement": "Krátká obchůzka místa před oslovením kterékoli strany zachová neutralitu a dá vám nezávislá fakta k vyhodnocení tvrzení obou stran."
+                },
+                "negative": {
+                    "choiceText": "Jdete přímo k prodejci a žádáte o povolení. Stížnost je na prodejce bez povolení, takže nejdřív zjistíte právní základ.",
+                    "risks": ["Přístup ‚dokumenty jako první' k vystrašené osobě působí jako zastavení a výslech", "Neověřili jste skutečný obsah stížnosti — jde o povolení, nebo o blokování?", "Signalizuje kolemjdoucím, že jste už rozhodli, kdo za to může", "Starší imigrantka, ke které policie jde rovnou a žádá dokumenty, spouští maximální strach", "Přijetí zarámování dispečinku (‚prodejce bez povolení') bez nezávislého posouzení předpojímá váš přístup"],
+                    "consequences": "Paní Tran ztuhne strachy. Interakce začíná na podezření. Spolupráce se stane vynucenou, ne dobrovolnou — a kolemjdoucí vidí vymáhání, ne řešení problému.",
+                    "betterApproach": "Nejprve si místo prohlédněte, pak přistupte s rozhovorem — ne s požadavkem na dokumenty. Povolení lze probrat poté, co je navázán vztah."
+                }
+            },
+            "keyLearningPoints": ["Zarámování dispečinku může zkreslit váš přístup — ověřujte nezávisle", "S kým promluvíte jako prvním, utváří celé setkání", "60 vteřin pozorování má větší hodnotu než 10 minut napravování špatného prvního dojmu", "U více stran s kolemjdoucími se každá akce čte jako signál spravedlnosti"]
+        },
+        "2": {
+            "stageName": "Stěžovatel",
+            "criticalSkills": ["Aktivní naslouchání s diagnostickými otázkami", "Oddělení legitimních obav od přehnaných požadavků", "Zvládání očekávání bez závazku k výsledkům"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Slyším vaši frustraci, pane Harrisi, a vidím, že vozík je blízko vašeho vchodu. Měl jste pravdu, že jste zavolal — budu se tím zabývat. Můžete mi říct: blokoval vůz někdy fyzicky zákazníkům vstup, nebo jde spíš o blízkost a zápach? A mluvil jste s ní o tom někdy přímo?",
+                    "strengths": ["Uznává frustraci a jeho právo si stěžovat — princip ‚hlasu' v procesní spravedlnosti", "Diagnostické otázky oddělují vymahatelnou újmu (blokování) od subjektivních obav (zápach)", "Zeptat se, jestli s ní mluvil, odhalí, jestli byla eskalace předčasná", "‚Budu se tím zabývat' se zavazuje k procesu, ne k výsledku — zachovává prostor pro uvážení"],
+                    "consequences": "Pan Harris přizná, že zákazníci dovnitř mohou a že s ní nemluvil. Teď víte, že stížnost má legitimní i přehnané složky, bez pokusu o přímé řešení.",
+                    "trainingFocus": "Jak diagnostické otázky mění škálu dostupných reakcí? Proč je důležité vědět, jestli strany spolu předtím komunikovaly?"
+                },
+                "partially_positive": {
+                    "choiceText": "Chápu, pane Harrisi. Když nemá povolení, porušuje předpisy a já to vyřeším. Dejte mi pár minut, promluvím s ní.",
+                    "adequate": ["Uznává jeho stížnost a projevuje reakci", "Profesionální a akční"],
+                    "missed": ["Zavazuje se k vymáhání dřív, než ověří fakta", "Neptá se diagnosticky na povahu problému", "Dostává vás do pozice vymáhání, kde je pozdější uvážení obtížnější"],
+                    "improvement": "Zavažte se k procesu (‚budu se tím zabývat') místo k výsledku (‚vyřeším to'). Ptejte se na otázky, které odhalí skutečné rozměry stížnosti, než slíbíte akci."
+                },
+                "neutral": {
+                    "choiceText": "Vidím, že je to frustrující. Půjdu promluvit s prodejcem a rychle to vyřešíme.",
+                    "adequate": ["Projevuje empatii a ochotu reagovat", "Posouvá k akci"],
+                    "missed": ["‚Rychle vyřešíme' nastavuje očekávání rychlosti na úkor kvality", "Žádné diagnostické otázky — přistupujete k prodejci bez pochopení rozměrů stížnosti", "Když řešení trvá, trpělivost stěžovatele dojde rychleji"],
+                    "improvement": "Investujte minutu navíc do pochopení stížnosti před přechodem k řešení. Rychlost je méně důležitá než kvalita pro budování trvalé důvěry."
+                },
+                "negative": {
+                    "choiceText": "Pane Harrisi, vážím si toho, že jste zavolal, ale tohle vypadá spíš na záležitost městského úřadu pro povolování než na policejní věc. Zkoušel jste kontaktovat úřad pro vydávání povolení?",
+                    "risks": ["Byli jste vysláni k této výzvě — říct stěžovateli, že to není váš problém, je odbytí", "Čekal hodinu; přesměrovat ho jinam je hluboce odmítavé", "Signalizuje, že policii nezajímají legitimní obchodní obavy", "Jeho výbuch po odmítnutí eskaluje situaci dřív, než jste prodejce vůbec řešili"],
+                    "consequences": "Pan Harris vybuchne v hněvu. Zvýšený hlas upoutá pozornost. Setkání eskaluje dřív, než začalo — kvůli odmítnutí stěžovatele.",
+                    "betterApproach": "I když je příslušnost nejasná, převezměte odpovědnost za situaci, na kterou jste byli vysláni. Můžete zapojit jiné úřady a zároveň poskytnout okamžitou službu."
+                }
+            },
+            "keyLearningPoints": ["Závazek k procesu zachovává prostor pro uvážení; závazek k výsledku ho odstraňuje", "Diagnostické otázky odhalí, jestli jde o skutečnou újmu, nebo teritoriální frustraci", "Jestli strany spolu přímo komunikovaly, je zásadní pro nastavení reakce", "Odmítnutí stížnosti má kaskádové důsledky pro důvěru přesahující toto setkání"]
+        },
+        "3": {
+            "stageName": "První kontakt s prodejcem",
+            "criticalSkills": ["Deeskalace strachu u zranitelných osob", "Rozhovor jako první versus dokumenty jako první", "Zarámování problémů jako situačních, ne osobních"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Zpomalíte krok, tělo máte uvolněné, mluvíte jemně: ‚Dobrý den. Jmenuji se [jméno]. Nikdo nemá problémy — jsem tady, protože majitel obchodu měl obavy ohledně umístění vozíku. Rád bych pochopil vaši situaci. Zmiňovala jste žádost o povolení — můžete mi o tom říct víc?'",
+                    "strengths": ["Zpomalení a uvolněné tělo fyzicky deeskalují strach", "‚Nikdo nemá problémy' reaguje na její nevyslovený děs", "Představení se jménem mění vztah autorita–subjekt na člověk–člověk", "Zarámování jako ‚umístění vozíku' udržuje problém vně a řešitelný", "Dotaz na žádost o povolení odhalí systémové bariéry"],
+                    "consequences": "Paní Tran uvolní ramena. Vysvětlí osmiměsíční čekání, důvod pro toto místo a nabídne potvrzení o žádosti. Začíná opravdový rozhovor.",
+                    "trainingFocus": "Jak zarámování problému jako situačního versus osobního mění ochotu spolupracovat? Proč záleží na deeskalaci strachu i bez fyzické hrozby?"
+                },
+                "partially_positive": {
+                    "choiceText": "Uklidňujícně přikývnete: ‚Vidím, že se bojíte, a nechci, abyste se bála. Jsem tady jen vyřešit, kde vozík stojí. Dnes nikdo nebude zatčen ani pokutován, slibuji.'",
+                    "adequate": ["Silná empatie a uklidnění", "Pojmenuje její obavu — potvrzuje její prožitek", "Zarámování kolem umístění je dobré"],
+                    "missed": ["Slib ‚dnes žádné pokuty' odstraňuje diskreci před posouzením", "Pokud to zaslechne stěžovatel, signalizuje předem daný výsledek", "Nadřízený může označit předčasné závazky"],
+                    "improvement": "Uklidňujte vystupováním a zarámováním místo slibů o výsledcích. ‚Nikdo nemá problémy' reaguje na strach bez závazku ke konkrétnímu rozhodnutí o vymáhání."
+                },
+                "neutral": {
+                    "choiceText": "Mluvíte klidně: ‚Paní, musím se zeptat — máte platné povolení k prodeji? Majitel obchodu podal stížnost, že váš vozík blokuje jeho vchod.'",
+                    "adequate": ["Profesionální a přímé", "Klidný tón je na místě"],
+                    "missed": ["Začít povolením potvrzuje její nejhorší obavu — jde o to, jestli je ‚legální'", "Zmínka stížnosti ji vede k pocitu, že je obviněna a nahlášena", "Žádné budování vztahu před požadavkem", "Zákazníci se rozptýlí — vzniká rušení, na které si majitel stěžoval"],
+                    "improvement": "Začněte rozhovorem, ne dokumentací. Nejprve navážete lidský vztah — povolení lze probrat, až je vybudována důvěra a člověk se cítí bezpečně."
+                },
+                "negative": {
+                    "choiceText": "Paní Tran, chápu, že je to těžké. Ale realita je taková, že provoz bez povolení je porušení předpisů a majitel obchodu má právo na volný přístup. Budu potřebovat, abyste začala vozík balit.",
+                    "risks": ["Skok od prvního kontaktu k vymáhání bez zjišťování faktů", "Nevíte o její čekající žádosti ani o systému povolení", "Osvědčená praxe je edukace, pak varování, pak vymáhání — ne vymáhání při prvním kontaktu", "Starší žena v slzách balící pod kamerou je nejhorší možná optika"],
+                    "consequences": "Paní Tran se zalijí oči slzami. Vytáhnou se telefony. Setkání se chystá stát virálním videem, kde policie nutí starší imigrantku ukončit živobytí bez pokusu o pochopení.",
+                    "betterApproach": "Dodržujte sekvenci edukace–varování–alternativy–vymáhání. První kontakt je pro rozhovor, ne pro požadavky na splnění."
+                }
+            },
+            "keyLearningPoints": ["U zranitelných osob prvních 30 vteřin rozhoduje mezi spoluprací a vynuceným podrobením", "Zarámování problémů jako situačních místo osobních mění ochotu s vámi spolupracovat", "Požadavky na dokumenty působí jinak na začátku a uprostřed rozhovoru", "Osvědčená praxe u méně závažného vymáhání: edukovat, varovat, hledat alternativy, vymáhat jako poslední možnost"]
+        },
+        "4": {
+            "stageName": "Faktor davu",
+            "criticalSkills": ["Zapojení kolemjdoucích bez ztráty zaměření", "Profesionalita pod kamerou", "Čtení dynamiky davu jako informace, ne hrozby"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Krátce klidně přikývnete kolemjdoucímu: ‚Slyším vás — a vidím, že paní Tran je tady oblíbená. Nejsem tady nikoho zastavovat. Pracuji se všemi na řešení, které bude fungovat.' Pak se vrátíte pozorností k paní Tran.",
+                    "strengths": ["Uznává náladu davu bez vtahování do debaty", "‚Paní Tran je tady oblíbená' potvrzuje vazbu s komunitou", "‚Nejsem tady nikoho zastavovat' reaguje na hlavní strach davu", "‚Pracuji se všemi na řešení' z vás dělá mediátora, ne vymáhajícího", "Nereagovat na kameru signalizuje sebedůvěru ve své jednání", "Návrat k tématu udržuje interakci na správné koleji"],
+                    "consequences": "Kolemjdoucí se uklidní. Natáčející nemá nic zásadního k zachycení. Dav přechází z konfrontačního do pozorovacího režimu. Jedna věta změnila celou atmosféru.",
+                    "trainingFocus": "Jak jedna věta ke kolemjdoucím změní emoční teplotu? Proč je uznání davu účinnější než ignorování nebo konfrontace?"
+                },
+                "partially_positive": {
+                    "choiceText": "Přijdete ke skupině kolemjdoucích a vysvětlíte: ‚Chápu vaši starost. Majitel obchodu volal, protože vozík částečně blokuje jeho vchod. Snažím se najít spravedlivé řešení. Pokud máte návrhy, rád je vyslechnu.'",
+                    "adequate": ["Upřímná transparentnost ohledně stížnosti a vašeho záměru", "Otevřenost vůči vstupu komunity — pozvání k návrhům ukazuje respekt", "Potvrzuje jejich starost přímým zapojením"],
+                    "missed": ["Fyzicky opustit paní Tran a obrátit se na dav přesouvá těžiště od hlavních stran", "Vytváří dynamiku ‚radnice' s konkurenčními hlasy a nezvladatelnými očekáváními", "Pan Harris vidí konzultaci s davem místo řešení jeho stížnosti, jeho frustrace stoupne", "Neproveditelné návrhy vytvářejí očekávání, která nemůžete splnit"],
+                    "improvement": "Uznejte z místa, kde stojíte. Krátká věta stačí — neotevírejte skupinovou diskusi. Řešení je mezi hlavními stranami; dav potřebuje uklidnění, ne roli."
+                },
+                "neutral": {
+                    "choiceText": "Kolemjdoucí úplně ignorujete a pokračujete s paní Tran. Zapojení davu by jen odvedlo pozornost od řešení.",
+                    "adequate": ["Udržuje zaměření na hlavní interakci", "Neeskaluje konfrontací s davem"],
+                    "missed": ["Ignorování hlasitých kolemjdoucích je zesiluje, ne ztišuje", "Pocit neuznání zvyšuje nepřátelství", "Dav roste, protože ho nikdo neoslovuje", "Pokud nevysvětlíte, co se děje, dav si vytvoří vlastní výklad"],
+                    "improvement": "Krátké uznání stojí 10 vteřin a zabrání 10 minutám eskalace. Uznat, uklidnit, vrátit se k práci."
+                },
+                "negative": {
+                    "choiceText": "Obrátíte se na kolemjdoucího přímo, ale rozhodně: ‚Chápu vaše pocity, ale potřebuji slyšet obě strany bez vnějších vlivů na rozhovor. Paní Tran i pan Harris si zaslouží férový proces, a to znamená, že s nimi potřebuji mluvit bez přerušování.'",
+                    "risks": ["Zní to jako zásadový závazek k procesní spravedlnosti — ochrana obou stran před vlivem davu", "Rámuje ale podporu komunity jako kontaminaci, ne jako informaci", "Říká davu, že jejich hlasy nejsou na veřejném prostranství vítány", "Izoluje paní Tran od sociální podpory, která jí pomáhá cítit se bezpečně", "Energie davu se přesouvá z podpůrné na podezřívavou"],
+                    "consequences": "Kolemjdoucí se cítí odmítnut někým, kdo používá jazyk spravedlnosti k umlčování. Paní Tran, která čerpala útěchu z podpory komunity, se teď cítí osamělejší. Narativ davu se stává: strážník umlčel komunitu.",
+                    "betterApproach": "Uznejte starost komunity krátkou větou a vraťte se k rozhovoru. Hlasy komunity jsou součástí dynamiky, ne překážkou férového procesu."
+                }
+            },
+            "keyLearningPoints": ["Kolemjdoucí jsou součástí dynamiky — ignorování zesiluje, konfrontace eskaluje", "Jedna krátká věta posune dav z konfrontačního do pozorovacího režimu", "Být natáčen je příležitost k profesionalitě, ne hrozba, kterou je třeba zvládnout", "Prázdnota výkladu: pokud nevysvětlíte, co se děje, dav si vytvoří vlastní příběh"]
+        },
+        "5": {
+            "stageName": "Vyjednávání",
+            "criticalSkills": ["Společné řešení problémů u více stran", "Jednání se stranami jako s aktéry vlastního řešení", "Kreativní alternativy k vymáhání s nulovým součtem"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Podíváte se s paní Tran na rozložení ulice: ‚Co kdybychom našli místo pořád na tomto bloku — s dobrým provozem chodců — ale ne hned u dveří pana Harrise? Byla byste ochotná to zkusit?' Projdete s ní a společně najdete vhodné místo — třeba o patnáct metrů dál, kde je mezera po prázdném obchodě.",
+                    "strengths": ["Spolupracující zarámování — ‚najdeme místo' z ní dělá partnerku", "Procházka s ní zachovává důstojnost a prostor k rozhodování", "‚Byla byste ochotná?' nabízí volbu, ne příkazy", "Mezera po prázdném obchodě je praktická a respektuje její znalost podnikání", "Zohledňuje obě strany: volný vchod a pokračující podnikání", "Kolemjdoucí vidí pomáhání, ne trestání"],
+                    "consequences": "Paní Tran se rozzáří. Přesun trvá pět minut. Harrisův vchod je volný. Zákazníci zůstávají. Kolemjdoucí vidí kreativní policejní práci budující komunitu.",
+                    "trainingFocus": "Co společné řešení problému signalizuje kolemjdoucím? Jak jednání s někým jako s partnerem mění dlouhodobou ochotu spolupracovat?"
+                },
+                "partially_positive": {
+                    "choiceText": "Jdete za panem Harrisem a navrhnete: ‚Co kdyby se přesunula asi o pět metrů dál — pořád na tomto bloku, ale dál od vašeho vchodu? Vyřešilo by to věc?' Získáte nejdřív jeho souhlas, pak plán sdělíte paní Tran.",
+                    "adequate": ["Praktické a zaměřené na řešení — konkrétní proveditelný prostorový návrh", "Přímo řeší legitimní prostorovou starost", "Snaží se naplnit hlavní stížnost stěžovatele"],
+                    "missed": ["Vyjednávat nejdřív se stěžovatelem a pak výsledek předat prodejci jako hotovou věc podkopává postavení paní Tran", "Stává se předmětem dohody mezi autoritami, ne účastnicí vlastního řešení", "Dává panu Harrisovi právo veta nad řešením", "Viditelná mocenská dynamika — strážník a majitel rozhodují, prodejce dostává příkazy — kolemjdoucí to jasně vidí"],
+                    "improvement": "Zahrňte dotčenou osobu do jejího vlastního řešení. Projděte se s paní Tran místo rozhodování za ni. Proces je stejně důležitý jako výsledek."
+                },
+                "neutral": {
+                    "choiceText": "Řeknete paní Tran, že se musí přemístit alespoň deset metrů od jakéhokoli vchodu do obchodu. Udělíte jí formální ústní varování za provoz bez povolení a zapíšete to do hlášení.",
+                    "adequate": ["Technicky řeší blokování", "Dokumentuje setkání"],
+                    "missed": ["Libovolná vzdálenost plus formální varování je nepřiměřené vzhledem k čekající žádosti a žádné předchozí komunikaci", "Varování jde do záznamu a zvyšuje důsledky za spolupráci", "Žádné alternativy prozkoumány před formálním vymáháním", "Osvědčená praxe: edukace před vymáháním u méně závažných porušení"],
+                    "improvement": "Když zákon dává diskreční pravomoc, ptejte se, jestli komunitě lépe poslouží formální vymáhání, nebo kreativní řešení. Spolupracující přemístění dosáhne stejného výsledku bez odrazujícího efektu."
+                },
+                "negative": {
+                    "choiceText": "Navrhnete paní Tran, ať dnes sbalí a vrátí se v pracovní den, kdy je méně rušno, aby se vyhnula dalším stížnostem.",
+                    "risks": ["Odstranění ve zdvořilém balení", "Méně chodců v pracovní den znamená méně příjmů pro člověka živícího vnoučata", "Vytváří precedens, že jakákoli stížnost stojí denní výdělek", "Neřeší prostorový problém — stejná stížnost příští víkend", "Odstraňuje člověka místo řešení problému"],
+                    "consequences": "Paní Tran sbalí a přijde o půl dne výdělku. Kolemjdoucí jsou pobouřeni. Natáčející zachytí policii, jak říká starší imigrantce, ať jde domů. Video vypráví nezamýšlený příběh o moci.",
+                    "betterApproach": "Ptejte se: vyžaduje to odstranění člověka, nebo lze situaci upravit? Prostorové problémy mají prostorová řešení."
+                }
+            },
+            "keyLearningPoints": ["Kreativní řešení zohledňující všechny obavy přinášejí trvanlivější výsledky než vymáhání s nulovým součtem", "Jít s někým najít řešení versus ho posílat — proces utváří přijetí", "Edukace a alternativy před formálními varováními nebo odstraněním", "Prostorové problémy mají prostorová řešení — odstranění člověka je zřídka přiměřené"]
+        },
+        "6": {
+            "stageName": "Majitel obchodu tlačí",
+            "criticalSkills": ["Vymezování hranic se stěžovateli", "Rozlišení legitimní stížnosti od nepřiměřeného požadavku", "Udržení přiměřenosti pod společenským tlakem"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Klidně se obrátíte k panu Harrisovi: ‚Chápu, že to není přesně to, co jste si představoval. Ale budu s vámi upřímný — vaše stížnost byla, že vozík blokuje váš vchod, a to jsme vyřešili. Otázka povolení je záležitost úřadu pro povolování, kterou jsem zaznamenal a budu řešit příslušnými kanály. Nemůžu někoho odstranit z veřejné ulice proto, že sousední firma ho tam nechce — tak to nefunguje. Pokud nová pozice způsobuje problémy, máte moje služební číslo a můžete zavolat znovu.'",
+                    "strengths": ["Upřímné, jasné, respektující a zároveň vymezuje pevnou hranici", "‚Chápu, že to není přesně to, co jste si představoval' uznává jeho frustraci před přesměrováním", "Odděluje legitimní stížnost (blokování — vyřešeno) od přestřelení (úplné odstranění)", "‚Tak to nefunguje' edukuje bez hrubosti", "Závazek řešit povolení příslušnými kanály uznává právní dimenzi bez jejího zneužití", "Nabídka služebního čísla a pozvání k dalšímu volání ukazuje odpovědnost, sebedůvěru a otevřenost kontrole"],
+                    "consequences": "Pan Harris je frustrovaný, ale nemá platný protiargument. Jeho stížnost byla vyřešena. Kolemjdoucí slyší strážníka vysvětlovat přiměřenost. Interakce je vzorem respektujícího vymezení hranic.",
+                    "trainingFocus": "Když stěžovatel požaduje víc, než je přiměřené, jak uznáte frustraci a zároveň udržíte úsudek? Proč nabídka služebního čísla neutralizuje hrozby nadřízeným?"
+                },
+                "partially_positive": {
+                    "choiceText": "Oslovíte oba: ‚Udělali jsme pokrok. Paní Tran souhlasila s přestěhováním, váš vchod je volný. Pane Harrisi, povolení je záležitost úřadu pro povolování. Můžeme se shodnout, že pro dnešek je to rozumný výsledek?'",
+                    "adequate": ["Zahrnující a pokus o společné uzavření mezi oběma stranami", "Spravedlivě shrnuje — uznává přemístění i odkaz na povolení", "Odkazuje otázku povolení na správný úřad místo jejího zneužití"],
+                    "missed": ["‚Můžeme se shodnout?' dává panu Harrisovi právo veta nad přiměřeným řešením", "Pokud řekne ne — pravděpodobné při jeho náladě — podkopali jste vlastní autoritu pozváním k odmítnutí", "Hledání souhlasu se míjí účinkem, když jedna strana chce nepřiměřené výsledky přesahující původní stížnost"],
+                    "improvement": "Když je řešení přiměřené, vysvětlete ho — nevyhledávejte souhlas. ‚Tím je vaše stížnost vyřešena' je účinnější než ‚můžeme se shodnout?'"
+                },
+                "neutral": {
+                    "choiceText": "Vstoupíte mezi ně: ‚Pane Harrisi, slyšel jsem vaši stížnost a řeším ji. Paní Tran se stěhuje. Zbytek je nad rámec mých kompetencí. Vy dva byste si měli do budoucna vztah nějak vyjasnit, protože příští víkend tady asi bude taky.'",
+                    "adequate": ["Uznává, že stížnost byla vyslyšena", "Zaznamenává probíhající řešení"],
+                    "missed": ["‚Nad rámec mých kompetencí' se zříká odpovědnosti", "‚Příští víkend tady asi bude taky' zní jako provokace", "‚Vyjasněte si to sami' hází odpovědnost na strany, které potřebují mediaci", "Řeší dnes, zasévá konflikt na příští víkend"],
+                    "improvement": "Převezměte odpovědnost za řešení, které jste vytvořili. Vysvětlete ho jasně a nabídněte profesionální cestu pro zbývající obavy."
+                },
+                "negative": {
+                    "choiceText": "Řeknete mu: ‚Máte pravdu ohledně povolení. Dám paní Tran formální varování a vše zdokumentuji. Bude papírová stopa, kdyby to pokračovalo.'",
+                    "risks": ["Eskalace vymáhání, aby se uspokojil nespokojený stěžovatel", "Prodejce už spolupracovala — přidání varování po spolupráci trestá spolupráci", "Učí prodejce, že spolupráce se trestá, a stěžovatele, že větší tlak funguje", "Kolemjdoucí vidí: majitel tlačil, strážník ustoupil, starší žena platí"],
+                    "consequences": "Paní Tran — která plně spolupracovala — dostane formální varování. Je zmatená a zraněná. Důvěra je aktivně ničena, ne jen ztracena.",
+                    "betterApproach": "Nikdy neeskalujte vymáhání kvůli emočním požadavkům. Když bylo přiměřené řešení doručeno, držte pozici — soucitně, ale pevně."
+                }
+            },
+            "keyLearningPoints": ["Nespokojenost stěžovatele s přiměřeným řešením z něj nedělá špatné", "Eskalace vymáhání kvůli stěžovatelům trestá spolupracující stranu", "Žádost o souhlas dává právo veta — přiměřená rozhodnutí vysvětlujte, nevyjednávejte je", "Nabídka služebního čísla ukazuje sebedůvěru; ‚nad rámec mých kompetencí' ukazuje únik"]
+        },
+        "7": {
+            "stageName": "Uzavření",
+            "criticalSkills": ["Propojení lidí s dlouhodobými zdroji", "Uzavření s důstojností a směrem", "Rozlišení útěchy od přehnaných slibů"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Vřele se usmějete: ‚Jsem rád, že jsme to vyřešili, paní Tran. Klíč k tomu, aby to pro vás bylo trvalé a bezpečné, je vyřízení povolení. Víte, jestli existuje nějaká komunitní organizace nebo právní poradna, která by mohla pomoct? Chci to vyřešit pořádně, abyste se nemusela každý víkend strachovat.' Pokud znáte místní podpůrné služby, nabídněte informace.",
+                    "strengths": ["Vřelé uznání, pak přechod k dlouhodobé zranitelnosti — povolení", "Pomoc vyřešit právní problém místo jeho ignorování nebo zneužití", "Propojení se zdroji ukazuje opravdovou péči přesahující toto setkání", "‚Abyste se nemusela každý víkend strachovat' pojmenuje její úzkost a nabízí cestu ven", "Rozdíl mezi vyřešením incidentu a zlepšením života", "Kolemjdoucí zaslechne a přispěje — spolupráce komunity a policie v reálném čase"],
+                    "consequences": "Paní Tran vám děkuje nejen za dnešek, ale za směr do budoucna. Natáčející zachytí strážníka pomáhajícího prodejci najít dlouhodobou podporu. Toto video buduje důvěru.",
+                    "trainingFocus": "Jaký je rozdíl mezi vyřešením dnešního problému a přípravou někoho na příští týden? Jak propojení lidí se zdroji mění dlouhodobou dynamiku policie a komunity?"
+                },
+                "partially_positive": {
+                    "choiceText": "Pohladíte ji po rameni: ‚Nemusíte se ničeho bát. Nenechám nikoho vás obtěžovat. Jen dělejte dál skvělé jídlo.'",
+                    "adequate": ["Vřelé, lidské, empatické", "Projevuje opravdovou péči"],
+                    "missed": ["Osobní záruka, kterou nemůžete udržet — příští víkend tu nebudete", "Ignoruje skutečnou právní zranitelnost, kterou je třeba vyřešit", "Jiný strážník v sobotu vytvoří nesoulad, který poškodí důvěru víc než vaše nepřítomnost"],
+                    "improvement": "Útěcha prostřednictvím akce, ne slibů. Propojení se zdroji dává trvalou jistotu — vaše uklidnění vyprší s koncem směny."
+                },
+                "neutral": {
+                    "choiceText": "Není zač, paní Tran. Hlavně zůstaňte na tomto místě a nevracejte se k obchodu pana Harrise. Když dostanu další výzvu, bude pro mě těžší vám pomoct.",
+                    "adequate": ["Praktické vedení ohledně nového umístění", "Nastavuje jasná očekávání"],
+                    "missed": ["Skrytá hrozba mění pozitivní řešení v podmíněnou milost", "Naznačuje, že pomoc byla laskavost, ne spravedlivý výsledek", "Příští týden bude v úzkosti při každém policejním voze", "Žádná cesta vpřed ohledně povolení — základní zranitelnost zůstává"],
+                    "improvement": "Uzavírejte směrem a podporou, ne varováním. ‚Pomůžu vám to povolení vyřešit' zanechá úplně jiný dojem než ‚příště to bude těžší.'"
+                },
+                "negative": {
+                    "choiceText": "Rychle a profesionálně zakončíte: ‚Paní Tran, na novém místě je vše v pořádku. Situaci jsem zaznamenal do hlášení. Pokud budete mít v budoucnu problémy s majitelem obchodu, volejte na tísňovou linku a odkažte se na dnešní záznam. Mějte se.' Pokračujete na další výzvu.",
+                    "risks": ["Zní to efektivně a profesionálně — zdokumentování situace a poskytnutí kanálu pro budoucí problémy", "Zachází ale s uzavřením jako s administrativou, ne jako s lidským kontaktem", "Paní Tran právě prožila jeden z nejděsivějších momentů svého týdne a dostane číslo záznamu místo opravdového spojení", "Povolení — základní zranitelnost, kvůli které se policie k jejímu vozíku vrátí příští víkend — zůstává zcela neřešené"],
+                    "consequences": "Paní Tran má referenční číslo, ale žádnou cestu vpřed s povolením. Příští sobotu se vrátí stejný strach. Setkání bylo procesně čisté, ale lidsky prázdné — byla zpracována, ne jí bylo pomoženo.",
+                    "betterApproach": "Profesionální uzavření není totéž co smysluplné uzavření. Řešte dlouhodobou zranitelnost — povolení — a propojte ji se zdroji, které přetrvají po konci vaší směny."
+                }
+            },
+            "keyLearningPoints": ["Poslední věta, kterou řeknete, utváří trvalou vzpomínku na celé setkání", "Propojení lidí se zdroji je rozdíl mezi vyřešením incidentu a zlepšením života", "Útěcha sliby vyprší s koncem směny; útěcha prostřednictvím akce přetrvává", "Formální uzavření pro dav není smysluplné uzavření pro člověka v centru"]
+        }
+    },
+    "comprehensiveMetrics": {
+        "proceduralJustice": {
+            "description": "Zacházení se všemi stranami důstojně, transparentně a spravedlivě — aby proces působil spravedlivě bez ohledu na výsledek",
+            "indicators": {
+                "excellent": ["Stěžovatel i prodejce se cítí vyslyšeni a respektováni po celou dobu", "Transparentní ohledně role, zdůvodnění a omezení autority", "Konzistentní důstojnost v tónu a řeči těla se všemi stranami", "Proces vnímaný jako spravedlivý, i když žádná strana nedostala přesně to, co chtěla"],
+                "poor": ["S jednou stranou se jedná jako s autoritou, s druhou jako s podřízenou", "Zdůvodnění nevysvětleno — rozhodnutí působí libovolně", "Odlišný tón nebo úroveň respektu pro různé strany", "Výsledek vnucen místo rozvíjení dialogem"]
+            }
+        },
+        "proportionality": {
+            "description": "Přizpůsobení reakce závažnosti, moudré používání diskrece u méně závažného vymáhání",
+            "indicators": {
+                "excellent": ["Reakce kalibrovaná ke skutečné újmě — částečné blokování, ne trestná činnost", "Edukace a alternativy prozkoumány před formálním vymáháním", "Diskrece použita pro přiměřené výsledky spíše než maximální vymáhání", "Jasná hranice mezi legitimní stížností a nepřiměřeným požadavkem"],
+                "poor": ["Vymáhání maximalizováno bez ohledu na okolnosti nebo spolupráci", "Formální varování nebo odstranění při prvním kontaktu bez alternativ", "Eskalace vymáhání pro uspokojení nespokojeného stěžovatele", "Zacházení s prostorovým sporem jako s trestní věcí"]
+            }
+        },
+        "crowdDynamics": {
+            "description": "Konstruktivní zapojení kolemjdoucích a udržení profesionality pod pozorováním",
+            "indicators": {
+                "excellent": ["Stručné uznání davu bez vtahování do debaty", "Kamera vnímána jako neutrální nebo pozitivní — žádný pokus kontrolovat natáčení", "Narativ davu řízen transparentností ohledně záměru", "Energie kolemjdoucích přesměrována z konfrontační na pozorovací"],
+                "poor": ["Dav ignorován (eskaluje) nebo konfrontován (z natáčení se stává příběh)", "Pokus kontrolovat natáčení — právně problematický a opticky katastrofální", "Performativní akce pro dav místo opravdové služby", "Zapojení fragmentující řešení v debatu na úrovni shromáždění"]
+            }
+        },
+        "creativeSolutions": {
+            "description": "Hledání výsledků zohledňujících legitimní obavy všech stran místo vymáhání s nulovým součtem",
+            "indicators": {
+                "excellent": ["Řešení přemístěním identifikováno pro prodejce, majitele obchodu i veřejnost", "S prodejcem jednáno jako s partnerem v hledání řešení, ne jako s příjemcem příkazů", "Dlouhodobá zranitelnost řešena propojením se zdroji", "Řešení je trvalé — předchází opakovaným výzvám a budoucím konfliktům"],
+                "poor": ["Výsledek s nulovým součtem: jedna strana vyhrává, druhá prohrává", "Odstranění, když přemístění řeší problém", "Žádné alternativy prozkoumány před formálním vymáháním", "Dnešek vyřešen, ale konflikt příštího týdne aktivně zaset"]
+            }
+        },
+        "communityTrust": {
+            "description": "Budování dlouhodobé důvěry komunity prostřednictvím kvality tohoto setkání",
+            "indicators": {
+                "excellent": ["Každá viditelná akce posiluje, že policie pomáhá spíše než škodí", "Se zranitelným členem komunity jednáno důstojně a propojen s podporou", "Kolemjdoucí odcházejí s pozitivním dojmem, který by sdíleli nebo zveřejnili", "Obě strany věří, že volat policii stálo za to"],
+                "poor": ["Setkání posiluje strach z policie v imigrantské nebo nízkopříjmové komunitě", "Nepřiměřené vymáhání se stává široce sdíleným varovným příběhem", "Video vypráví příběh mocenské nerovnováhy, ne komunitní služby", "Spolupráce vynucena strachem místo získání respektem"]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "enforcementDefault": {
+            "pattern": "Výchozí vymáhání, když situace vyžaduje mediaci",
+            "examples": ["Začínání kontrolou dokumentů před navázáním vztahu", "Vydávání formálních varování, když stačí ústní vedení", "Nařizování odstranění, když přemístění řeší problém", "Zacházení s otázkou povolení jako s prioritou, když stížnost je o blokování"],
+            "impact": "Nepřiměřené vymáhání méně závažných přestupků je podle výzkumu procesní spravedlnosti největším ničitelem legitimity policie. Komunita se naučí, že volat policii znamená trest, ne řešení problémů.",
+            "correction": "Dodržujte sekvenci edukace–varování–alternativy–vymáhání. Ptejte se: vyžaduje to plnou váhu vymáhání, nebo lze stejného výsledku dosáhnout rozhovorem a spoluprací?"
+        },
+        "complainantCapture": {
+            "pattern": "Nechání požadavků stěžovatele řídit reakci nad rámec přiměřeného",
+            "examples": ["Slibování vymáhání před ověřením faktů", "Eskalace k formálním varováním pro uspokojení nespokojenosti", "Dávání stěžovateli práva veta nad spravedlivým řešením", "Zacházení se stěžovatelem jako s klientem a s prodejcem jako s problémem"],
+            "impact": "Strážník se stává nástrojem přání jedné strany. Prodejce se naučí, že kdo má policejní telefonní číslo, má moc nad jejím živobytím. Důvěra ve spravedlnost policie je zničena.",
+            "correction": "Vaší povinností je přiměřená spravedlnost, ne spokojenost stěžovatele. Uznávejte legitimní obavy, řešte je a držte pozici přiměřenosti i pod tlakem."
+        },
+        "crowdAvoidance": {
+            "pattern": "Selhání v zapojení dynamiky kolemjdoucích — ignorování nebo konfrontace",
+            "examples": ["Tvářit se, že dav neexistuje, zatímco napětí roste", "Říkat lidem, ať ustoupí nebo přestanou natáčet", "Hrát pro kameru místo služby stranám", "Zacházení se starostí kolemjdoucích jako s rušením"],
+            "impact": "Ignorované davy zesilují. Konfrontované davy se stávají nepřátelskými. V obou případech se dav stává příběhem. Jak zvládnete být sledován, určuje, jestli video pomůže, nebo uškodí.",
+            "correction": "Jedna stručná věta uznání promění dav z konfrontačního v pozorovací. Zacházejte s kamerou jako se spojencem, který zaznamenává vaši profesionalitu."
+        },
+        "overpromising": {
+            "pattern": "Činění závazků přesahujících vaši pravomoc nebo dostupnost",
+            "examples": ["Slibování žádných pokut před posouzením situace", "Zaručování ochrany, kterou nemůžete udržet příští víkend", "Zavazování se k výsledkům před shromážděním faktů", "Nastavování očekávání rychlosti omezujících kvalitu řešení"],
+            "impact": "Přehnané slibování vytváří zranitelnost, když se realita liší. Jiný strážník příští víkend odhalí mezeru mezi slibem a realitou — nesoulad poškozuje důvěru víc než původní problém.",
+            "correction": "Zavazujte se k procesu, ne k výsledkům. Uklidňujte vystupováním a akcí. Propojujte lidi se zdroji, které přetrvají po skončení vaší směny."
+        },
+        "closureNeglect": {
+            "pattern": "Vyřešení bezprostřední situace bez řešení dlouhodobé zranitelnosti",
+            "examples": ["Přesunutí vozíku bez diskuse o cestě k povolení", "Uzavírání varováními místo zdroji", "Ukončení s davem místo s člověkem v centru", "Vyřešení prostorového problému, ale ignorování systémového"],
+            "impact": "Stejná situace se opakuje příští víkend se stejnou zranitelností. Setkání vyřeší incident, ale nezlepší život.",
+            "correction": "Zeptejte se: když odejdu, je tato osoba lépe vybavena na příští víkend? Propojení lidí s právní pomocí nebo komunitními organizacemi promění jediné setkání v trvalý dopad."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Vynikající procesní spravedlnost. Prokázali jste kompletní sadu dovedností pro složité vymáhání na úrovni ulice: důkladné posouzení, procesní spravedlnost se všemi stranami, kreativní řešení problémů, efektivní zvládání davu, přiměřené vymezení hranic a opravdová investice do dlouhodobé pohody prodejce. Každý kolemjdoucí — a kamera — zachytili policejní práci budující důvěru komunity. Toto je standard.",
+            "mostlyPositive": "Silný výkon s dobrými instinkty pro spravedlnost a kreativní řešení problémů. Udrželi jste přiměřenost a jednali s oběma stranami důstojně. Některé příležitosti byly propásnuty — možná ve zvládání davu, vymezení hranic se stěžovatelem nebo propojení prodejce se zdroji — ale váš celkový přístup byl profesionální a budující důvěru.",
+            "mixed": "Prokázali jste kompetenci v některých oblastech, ale bojovali jste s plnou složitostí této situace s více stranami. Přednosti zahrnovaly [SPECIFIC_POSITIVE], ale kritické příležitosti byly propásnuty v [SPECIFIC_GAP]. Projděte si rovnováhu mezi vymáháním a mediací a procvičujte přechod od řešení dnešního problému k prevenci příštího týdne.",
+            "mostlyNegative": "Tento scénář odhalil výrazné mezery v přiměřenosti a procesní spravedlnosti. Zatímco vy [MINOR_POSITIVE], většina voleb se přikláněla k vymáhání nad řešení problémů, ke spokojenosti stěžovatele nad spravedlnost nebo k povrchovému řešení nad opravdovou péči. Setkání s pouličními prodejci jsou místem, kde se buduje nebo láme důvěra komunity — projděte si zásady procesní spravedlnosti a sekvenci edukace-před-vymáháním.",
+            "allNegative": "Váš přístup zacházel s mediační situací jako s čistou záležitostí vymáhání. Zranitelnost prodejce, starost davu a příležitost pro kreativní řešení byly propásnuty. Výzkum je jasný: agresivní vymáhání méně závažných přestupků ničí legitimitu policie víc než téměř cokoli jiného. Toto vyžaduje zásadní přeorientaci směrem k procesní spravedlnosti."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Nikdo nemá problémy — jsem tady, protože majitel obchodu měl obavy ohledně umístění vozíku.",
+            "Rád bych pochopil vaši situaci. Zmiňovala jste žádost o povolení — můžete mi o tom říct víc?",
+            "Slyším vás — a vidím, že paní Tran je tady oblíbená. Nejsem tady nikoho zastavovat.",
+            "Co kdybychom našli místo pořád na tomto bloku — s dobrým provozem chodců — ale ne hned u dveří pana Harrise? Byla byste ochotná to zkusit?",
+            "Vaše stížnost byla, že vozík blokuje váš vchod, a to jsme vyřešili.",
+            "Nemůžu někoho odstranit z veřejné ulice proto, že sousední firma ho tam nechce — tak to nefunguje.",
+            "Klíč k tomu, aby to pro vás bylo trvalé a bezpečné, je vyřízení povolení.",
+            "Chci to vyřešit pořádně, abyste se nemusela každý víkend strachovat."
+        ],
+        "poorPhrases": [
+            "Máte platné povolení k prodeji? Majitel obchodu podal stížnost, že váš vozík blokuje jeho vchod.",
+            "Když nemá povolení, porušuje předpisy a já to vyřeším.",
+            "Potřebuji slyšet obě strany bez vnějších vlivů na rozhovor.",
+            "Paní Tran i pan Harris si zaslouží férový proces, a to znamená, že s nimi potřebuji mluvit bez přerušování.",
+            "Budu potřebovat, abyste začala vozík balit.",
+            "Když dostanu další výzvu, bude pro mě těžší vám pomoct.",
+            "Zbytek je nad rámec mých kompetencí."
+        ],
+        "analysisCriteria": {
+            "proceduralFairness": "Vyjadřovala fráze neutralitu, transparentnost a respekt ke všem stranám?",
+            "proportionality": "Odpovídala fráze závažnosti — rozhovor pro méně závažný problém, ne příkazy?",
+            "agency": "Zacházela fráze s člověkem jako s účastníkem vlastního řešení, nebo jako se subjektem autority?",
+            "framing": "Zarámovala fráze problém jako situační (řešitelný), nebo osobní (obviňující)?",
+            "sustainability": "Přispěla fráze k trvalému řešení, nebo jen k dočasnému podřízení?",
+            "trustBuilding": "Posílila nebo oslabila fráze důvěru komunity — s ohledem na to, kdo další poslouchal?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Zarámování dispečinku může zkreslit váš přístup. ‚Nelegální prodejce blokující obchod' vytváří naléhavost a předpoklad viny, které nemusí odpovídat realitě. Vaše 60sekundové posouzení místa je protilékem proti zkreslení zarámováním.",
+        "2": "Diagnostické otázky proměňují stížnost z požadavku v informaci. Pochopení, jestli je újma fyzické blokování nebo nepohodlí z blízkosti — a jestli strany komunikovaly — určuje celou škálu přiměřených reakcí.",
+        "3": "U zranitelných osob rozhodují první 30 vteřin o všem. Začít rozhovorem místo požadavků na dokumenty, pojmenovat strach a zarámovat problém jako situační místo osobního promění vynucené podřízení ve spolupráci.",
+        "4": "V dnešní době může být každé pouliční setkání natáčeno. Nejlepší reakcí na kameru je vynikající policejní práce. Jedna věta uznání posune dav z konfrontačního do pozorovacího režimu — 5 vteřin předejde 5 minutám eskalace.",
+        "5": "Prostorové problémy mají prostorová řešení. Když problém spočívá v tom, kde vozík stojí — ne v tom, jestli si člověk zaslouží pracovat — spolupracující přemístění řeší všechny obavy bez odebrání živobytí.",
+        "6": "Nespokojenost stěžovatele s přiměřeným řešením neznamená, že řešení je špatné. Vaší povinností je spravedlivá spravedlnost, ne maximální spokojenost stěžovatele. Eskalace vymáhání pod tlakem trestá spolupracující stranu.",
+        "7": "Vyřešit dnešní incident bez řešení zítřejší zranitelnosti je neúplná policejní práce. Propojení paní Tran s právní pomocí zabere 60 vteřin a promění jediné setkání v trvalý dopad."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Pokročilá procesní spravedlnost — školení ostatních v mediaci s více stranami na ulici", "Vedení komunitní policie — budování vztahů prodejce–policie v sousedství", "Implicitní zkreslení a diskrece ve vymáhání u méně závažných přestupků"],
+            "good": ["Rozšířená procesní spravedlnost — vyvažování očekávání stěžovatele s přiměřeností", "Dynamika davu a zvládání kolemjdoucích v natáčených setkáních", "Školení v propojování se zdroji — místní komunitní organizace a služby právní pomoci"],
+            "average": ["Základní principy procesní spravedlnosti — hlas, transparentnost, spravedlnost, nestrannost", "Sekvence edukace-před-vymáháním u méně závažných přestupků", "Deeskalace se zranitelnými skupinami — imigranti, senioři, ekonomicky znevýhodnění"],
+            "poor": ["Základy procesní spravedlnosti a výzkumu legitimity policie", "Přiměřenost v diskreci vymáhání — přizpůsobení reakce závažnosti újmy", "Povědomí o právech — občanské natáčení, práva prodejců, řádný proces u pouličního vymáhání", "Kulturní kompetence a zapojení imigrantských komunit"]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Celkové shrnutí výkonu", "content": ["Skóre", "Úroveň výkonu", "Klíčové přednosti", "Kritické slabiny"]},
+            {"title": "Analýza po etapách", "content": ["Volba v každé etapě", "Dopad na prodejce, majitele obchodu, kolemjdoucí a komunitu", "Alternativní přístupy a důsledky", "Klíčové body k zapamatování"]},
+            {"title": "Hodnocení procesní spravedlnosti", "content": ["Hlas — byly všechny strany vyslyšeny?", "Transparentnost — bylo zdůvodnění vysvětleno?", "Spravedlnost — bylo se stranami jednáno s rovnou důstojností?", "Nestrannost — působil proces pozorovatelům neutrálně?"]},
+            {"title": "Hodnocení přiměřenosti a diskrece", "content": ["Kalibrace reakce ke skutečné újmě", "Dodržení sekvence edukace–varování–vymáhání", "Vymezení hranic se stěžovatelem", "Kreativní alternativy prozkoumány před formální akcí"]},
+            {"title": "Zvládání davu a kamery", "content": ["Kvalita uznání kolemjdoucích", "Reakce na natáčení", "Řízení narativu — kdo ovládal příběh?", "Trajektorie energie davu během setkání"]},
+            {"title": "Efektivita komunikace", "content": ["Nejlepší momenty dialogu", "Kontraproduktivní fráze", "Analýza zarámování — situační vs. osobní", "Dopad závěrečné formulace"]},
+            {"title": "Profesní rozvoj", "content": ["Okamžité vzdělávací potřeby", "Dlouhodobé priority rozvoje dovedností", "Doporučené zdroje a workshopy"]},
+            {"title": "Aplikace v praxi", "content": ["Jak se toto přenáší na výzvy k prodejcům a méně závažné vymáhání", "Budování sousedských vztahů předcházejících opakovaným výzvám", "Znalost komunitních zdrojů jako policejní nástroj", "Dlouhodobý dopad na důvěru jednoho dobře zvládnutého setkání"]}
+        ]
+    }
+}

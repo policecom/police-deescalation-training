@@ -1,0 +1,623 @@
+{
+    "scenarioId": "youth-park",
+    "reviewVersion": "1.0",
+    "title": "Hloubková analýza — Mládež v parku",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Fáze 1 — Příjezd do parku",
+            "criticalSkills": [
+                "Deeskalace",
+                "Transparentnost",
+                "Komunikace s komunitou"
+            ],
+            "choiceAnalysis": {
+                "negative": {
+                    "choiceText": "'(Krátké zapnutí sirény) Policie! Okamžitě s tím přestaňte!'",
+                    "failures": [
+                        "Zbytečně hrozivý vstup u verbálního konfliktu",
+                        "Spouští šok a defenzivu."
+                    ],
+                    "consequences": "Odpor skupiny roste a vaše legitimita slábne.",
+                    "trainingFocus": "Kdy byste neměli použít sirénu a jak jinak můžete dát o sobě vědět?"
+                },
+                "positive": {
+                    "choiceText": "'Městská policie. Můžeme si promluvit?'",
+                    "strengths": [
+                        "Nenápadný vstup snižuje napětí, zachovává důstojnost a otevírá dialog."
+                    ],
+                    "professionalImpact": "Skupina zaregistruje vaši přítomnost bez paniky. Budou ochotnější spolupracovat."
+                },
+                "neutral": {
+                    "choiceText": "Čekat v odstupu, zavolat posilu ‚pro jistotu' a pak přistoupit společně.",
+                    "adequate": [
+                        "Opatrnost je oprávněná, ale u verbálního sporu může působit jako předčasná kriminalizace."
+                    ],
+                    "missed": [
+                        "Kdy je posila skutečným přínosem a kdy zátěží?"
+                    ],
+                    "improvement": "Kdy je posila skutečným přínosem a kdy zátěží?"
+                },
+                "partially_positive": {
+                    "choiceText": "Pomalu přijít pěšky, zviditelnit se z dálky, a pak říct: 'Nazdar, hezké odpoledne. Jsem strážník Novotný — nevadí, když přijdu blíž a podívám se, co se tu děje?'",
+                    "adequate": [
+                        "Zviditelnit se před mluvením zamezí faktoru překvapení",
+                        "Představit se jménem je silný budovatel vztahu",
+                        "Otázka ‚nevadí, když přijdu blíž?' modeluje souhlas a respekt"
+                    ],
+                    "missed": [
+                        "Uvolněný tón může podceňovat naléhavost situace, kde dva kluci stojí ve fyzické konfrontaci",
+                        "Konfrontace mezi Kryštofem a Jardou pokračuje další půlminutu, zatímco přicházíte bez naléhavosti",
+                        "Rovnováha mezi přístupností a včasným zásahem byla mírně vychýlená"
+                    ],
+                    "improvement": "Když hrozí fyzická konfrontace, přizpůsobte tempo a razanci naléhavosti — přístupnost je cenná, ale neměla by zpožďovat zásah, když je násilí otázkou vteřin."
+                }
+            }
+        },
+        "2": {
+            "stageName": "Fáze 2 — První kontakt a transparentnost",
+            "criticalSkills": [
+                "Deeskalace",
+                "Transparentnost",
+                "Komunikace s komunitou"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'Dobré odpoledne, jsem strážník Novotný. Dostal jsem hlášení o hlasité hudbě a hádce. Nejsem tu, abych vás obtěžoval — chci se ujistit, že je tady všechno v pořádku a klid. Můžete mi říct, co se tu děje?'",
+                    "strengths": [
+                        "Transparentnost + uznání jejich práva na veřejný prostor = legitimita a otevřenost."
+                    ],
+                    "professionalImpact": "Defenziva klesá; budováním důvěry roste ochota mluvit."
+                },
+                "neutral": {
+                    "choiceText": "'Jsem zvyklý, že si lidé na něco pořád stěžují. Řekněte mi, co se tu děje a proč se hádáte.'",
+                    "adequate": [
+                        "Neeskaluje, ale přehlíží jejich obavy z nespravedlnosti."
+                    ],
+                    "missed": [
+                        "Jak by se vztah se skupinou změnil, kdyby důvody zásahu nebyly brány na lehkou váhu?"
+                    ],
+                    "improvement": "Jak by se vztah se skupinou změnil, kdyby důvody zásahu nebyly brány na lehkou váhu?"
+                },
+                "negative": {
+                    "choiceText": "'Jsem tu kvůli hlášení o hlasité hudbě a hádce. Nic si na mě nezkoušejte — tady se ptám já.'",
+                    "failures": [
+                        "Autoritářský tón zvyšuje odpor a potvrzuje stereotypy."
+                    ],
+                    "consequences": "Zavírá cestu k dialogu a celkový odpor skupiny roste.",
+                    "trainingFocus": "Jak můžete reagovat na otázku ‚proč' místo jejího potlačování?"
+                },
+                "partially_positive": {
+                    "choiceText": "'Odpoledne. Dostali jsme stížnost na hluk a někdo zmínil hádku. Hele, nesnažím se vám kazit den — jen se potřebuju podívat, jak to tu je. Jaká je situace?'",
+                    "adequate": [
+                        "Neformální, lidský tón signalizuje, že tu nejste, abyste trestali",
+                        "Uvědomění, že přítomnost policie může působit dotěrně",
+                        "Zmínění stížnosti dává kontext vaší přítomnosti"
+                    ],
+                    "missed": [
+                        "Neřekli jste své jméno, což vás udržuje anonymní a méně důvěryhodné",
+                        "Výslovně jste neuznali jejich právo být v parku",
+                        "Přístup funguje, ale chybí mu plná transparentnost, která buduje skutečný vztah"
+                    ],
+                    "improvement": "Přidejte své jméno a výslovně uznejte jejich právo na veřejný prostor — plná transparentnost vyžaduje jméno, důvod a záměr, nejen neformální tón."
+                }
+            }
+        },
+        "3": {
+            "stageName": "Fáze 3 — Zastavení eskalace hádky",
+            "criticalSkills": [
+                "Deeskalace",
+                "Transparentnost",
+                "Komunikace s komunitou"
+            ],
+            "choiceAnalysis": {
+                "neutral": {
+                    "choiceText": "Vstoupit mezi ně s otevřenými dlaněmi: 'Dejme si prostor. Ty sem, ty tam. Vyslechnu vás jednoho po druhém.'",
+                    "adequate": [
+                        "Bezpečný prostorový management",
+                        "Chybí emoční práce."
+                    ],
+                    "missed": [
+                        "Co byste mohli přidat, abyste dosáhli i emoční deeskalace?"
+                    ],
+                    "improvement": "Co byste mohli přidat, abyste dosáhli i emoční deeskalace?"
+                },
+                "negative": {
+                    "choiceText": "'Dost. Jestli hned nepřestanete, oba jedete se mnou na stanici.'",
+                    "failures": [
+                        "Hrozba umlčí, ale buduje zášť a zahanbení."
+                    ],
+                    "consequences": "Krátkodobý klid, ale buduje se dlouhodobá zášť ve skupině.",
+                    "trainingFocus": "Proč hrozby u mladých lidí selhávají?"
+                },
+                "positive": {
+                    "choiceText": "'Kluci, vidím, že jste oba naštvaní — a je vidět, že vám na tom záleží. Kryštofe, slyším tě — a to, že to video zase sdílejí, to ještě zhoršuje, to chápu. Jardo, slyším i tebe. Ale tohle se pěstmi řešit nebude. (Otočí se krátce k paní Kovářové) Paní, rozumím vašim obavám a řeším to — dejte mi prosím pár minut. (Zpět ke klukům) Kryštofe, řekni mi, co se stalo — od začátku. Jardo, na tebe taky dojde, to slibuju.'",
+                    "strengths": [
+                        "Použití jmen, validace a férový rámec přesouvají konflikt do slov",
+                        "Uznání, že video je znovu sdíleno, ukazuje pochopení digitálního rozměru ponížení",
+                        "Stručné uznání paní Kovářové bez toho, aby diktovala přístup, zvládá tlak komunity bez ztráty fokusu",
+                        "Slib rovného času adresuje instinkt pro spravedlnost, který je v tomto věku přecitlivělý"
+                    ],
+                    "professionalImpact": "Kryštofovy pěsti se uvolní — někdo pochopil, že znovusdílení videa je součástí problému. Paní Kovářová, která byla vyslyšena, ustoupí. Křik utichá, získáváte fakta i důvěru."
+                },
+                "partially_positive": {
+                    "choiceText": "Vstoupit mezi ně s otevřenými dlaněmi: 'Dobře, to stačí. Dejme si prostor. Kryštofe, ty stůj tady. Jardo, ty jdi tamhle. Vyslechnu vás jednoho po druhém.'",
+                    "adequate": [
+                        "Fyzické umístění mezi ně narušuje geometrii eskalace",
+                        "Otevřené dlaně signalizují neagresivitu",
+                        "Jasné pokyny pro oddělení snižují nejasnost"
+                    ],
+                    "missed": [
+                        "Řeší fyzické riziko bez jakékoli emoční práce",
+                        "Oddělení těl bez uznání pocitů — vztek přetrvává pod povrchem",
+                        "Bez emoční validace se napětí může znovu vznítit, jakmile odejdete"
+                    ],
+                    "improvement": "Spojte fyzické oddělení s emočním uznáním — pojmenování jejich emocí při vytváření prostoru řeší jak bezprostřední riziko, tak podpovrchové napětí."
+                }
+            }
+        },
+        "4": {
+            "stageName": "Fáze 4 — Kořen problému a práce s emocemi",
+            "criticalSkills": [
+                "Deeskalace",
+                "Transparentnost",
+                "Komunikace s komunitou"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'Je mi líto, čím tvoje rodina prochází, Kryštofe. To je hodně na jednoho člověka a naprosto chápu, proč tě to, co Jarda udělal, tak zasáhlo. Jardo — vidím, že tu omluvu myslíš vážně. Můžeš Kryštofovi říct konkrétně, za co se omlouváš a co uděláš, aby to napravil? Ne jenom „promiň“ — za co přesně se omlouváš?'",
+                    "strengths": [
+                        "Validace + vedená omluva = hlubší usmíření, poučení pro skupinu."
+                    ],
+                    "professionalImpact": "Omluva je upřímná, napětí klesá, vztah mezi kluky se obnovuje."
+                },
+                "neutral": {
+                    "choiceText": "'Jardo, smaž ten příspěvek a pořádně se omluv. Kryštofe, uklidni se — říkal, že je mu to líto. Podejte si ruce a pojďme dál.'",
+                    "adequate": [
+                        "Řeší technický problém, ale nepracuje s emoční stránkou",
+                        "Riziko přetrvávající zášti."
+                    ],
+                    "missed": [
+                        "Co chybí k trvalému usmíření?"
+                    ],
+                    "improvement": "Co chybí k trvalému usmíření?"
+                },
+                "negative": {
+                    "choiceText": "'Na tyhle malicherný hádky nemám čas. Jestli se nedokážete chovat normálně, zavolám vám rodiče a budeme to řešit jinak. Vyřiďte si to, nebo ponesete následky.'",
+                    "failures": [
+                        "Bagatelizace bolesti + hrozby → zahanbení, odpor, kolaps důvěry."
+                    ],
+                    "consequences": "Emoce znovu vzplanou, spolupráce se hroutí.",
+                    "trainingFocus": "Proč bagatelizace něčí bolesti zvyšuje riziko opětovné eskalace?"
+                },
+                "partially_positive": {
+                    "choiceText": "'To zní, jako že to bylo opravdu těžké, Kryštofe. Jardo, je dobře, že ses omluvil. A teď — Jardo, potřebuješ to video smazat. A oba to musíte nechat za sebou a jít dál.'",
+                    "adequate": [
+                        "Uznání Kryštofovy bolesti s opravdovou empatií",
+                        "Identifikace potřebného praktického kroku — smazání videa",
+                        "Ocenění Jardovy omluvy jako pozitivního kroku"
+                    ],
+                    "missed": [
+                        "Přeskočení emoční práce, která dělá usmíření trvalým",
+                        "Kryštof nedostal prostor reagovat na omluvu",
+                        "Jarda nebyl požádán, aby pochopil dopad — jen aby smazal důkaz"
+                    ],
+                    "improvement": "Nechte prostor pro emoční výměnu, než přejdete k praktickým řešením — požádejte Jardu, aby konkrétně řekl, za co se omlouvá, místo pouhého řešení technického problému."
+                }
+            }
+        },
+        "5": {
+            "stageName": "Fáze 5 — Hluk, práva a očekávání",
+            "criticalSkills": [
+                "Deeskalace",
+                "Transparentnost",
+                "Komunikace s komunitou"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'Eli, máš naprostou pravdu — máte plné právo tu být a park je pro všechny. To platí i pro paní Kovářovou tamhle, která sem taky chodí užívat si odpoledne. Tady je, co potřebuju: udržte hlasitost na téhle úrovni nebo nižší a žádné další hádky. Když to dokážete, není důvod k pokutám ani k žádným dalším krokům. Fér?'",
+                    "strengths": [
+                        "Přímo validuje Elinino tvrzení — ‚máš naprostou pravdu' — místo jeho odmítnutí",
+                        "Vysvětluje protichůdný zájem (paní Kovářová) bez toho, aby z teenagerů dělal záporné postavy",
+                        "Očekávání jsou konkrétní a dosažitelná — ‚na téhle úrovni nebo nižší'",
+                        "‚Není důvod k pokutám ani dalším krokům' objasňuje pozitivní důsledek dodržení",
+                        "Zakončení otázkou ‚Fér?' zve k souhlasu místo vnucování pravidel, což vede k dobrovolnému dodržování"
+                    ],
+                    "professionalImpact": "Eli přikývne. Skupina přijímá podmínky, protože působí jako vyjednávání, ne jako diktát. Paní Kovářová výměnu slyší a je spokojená. Obě strany cítí, že jejich zájmy byly respektovány."
+                },
+                "neutral": {
+                    "choiceText": "'Teď je to v pohodě, pokračujte, jak chcete, ale žádné další hádky nebo bitky.'",
+                    "adequate": [
+                        "Neřeší komunitní potřeby, nevyužívá výchovný moment."
+                    ],
+                    "missed": [
+                        "Jak vyvážíte práva a potřeby okolí?"
+                    ],
+                    "improvement": "Jak vyvážíte práva a potřeby okolí?"
+                },
+                "negative": {
+                    "choiceText": "'Jestli o vás ještě jednou uslyším, pokutuju každého z vás. Ztište to, nebo ponesete následky.'",
+                    "failures": [
+                        "Hrozby místo vysvětlení → krátkodobý efekt, dlouhodobá zášť."
+                    ],
+                    "consequences": "Tiché napětí, zhoršený vztah do budoucna.",
+                    "trainingFocus": "Proč je výchova efektivnější než preventivní sankce?"
+                },
+                "partially_positive": {
+                    "choiceText": "'Právo tu být máte. Prostě to udržte v rozumné míře — hudba je teď v pohodě a nechci se sem muset vracet. Domluveno?'",
+                    "adequate": [
+                        "Uznání jejich práva být v parku",
+                        "Jádro sdělení je správné — můžou tu zůstat, pokud udrží rozumnou hlasitost",
+                        "Tón je přátelský a netrestající"
+                    ],
+                    "missed": [
+                        "‚Nechci se sem muset vracet' je zastřená hrozba, která podkopává pozitivní tón",
+                        "‚Rozumná míra' je vágní — odlišné standardy pro teenagery vs. důchodce",
+                        "Nezmínili jste přímo obavu paní Kovářové, komunitní stránka zůstává nevyřešena"
+                    ],
+                    "improvement": "Nastavte konkrétní, měřitelná očekávání místo vágních standardů a oslovte všechny zainteresované strany — nejen skupinu před vámi — abyste dosáhli trvalé dohody."
+                }
+            }
+        },
+        "6": {
+            "stageName": "Fáze 6 — Společné řešení",
+            "criticalSkills": [
+                "Deeskalace",
+                "Transparentnost",
+                "Komunikace s komunitou"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'To je opravdu promyšlené řešení — vymysleli jste si ho sami a funguje to pro všechny. Skateareál je skvělé místo. Jedeme podle vašeho plánu a já se za chvíli stavím, jak to funguje. Dobrá práce.'",
+                    "strengths": [
+                        "‚Vymysleli jste si ho sami' jim dává vlastnictví — je to jejich dohoda, ne váš příkaz",
+                        "‚Funguje to pro všechny' validuje, že vzali v úvahu i ostatní",
+                        "‚Stavím se za chvíli' je lehká kontrola bez hrozby — důvěra s přítomností",
+                        "‚Dobrá práce' je konkrétní pozitivní zpětná vazba signalizující, že zodpovědné chování je zaregistrováno a respektováno",
+                        "Zacházení s teenagery jako se schopnými řešiteli problémů, ne jako s problémy k řízení, je přelomové"
+                    ],
+                    "professionalImpact": "Skupina viditelně pookřeje. Eli se usmívá. Začínají sbírat věci k přesunu. Paní Kovářová souhlasně přikyvuje. Dohoda má vysokou trvanlivost, protože patří jim."
+                },
+                "negative": {
+                    "choiceText": "'Uděláme to po mém: můžete zůstat v parku, ale hudba bude úplně vypnutá. Žádný reproduktor, žádný hluk.'",
+                    "failures": [
+                        "Rigidní přístup trestá snahu o kompromis."
+                    ],
+                    "consequences": "Demotivace, nižší dobrovolná spolupráce.",
+                    "trainingFocus": "Kdy je direktivita nutná a jak ji zdůvodnit?"
+                },
+                "neutral": {
+                    "choiceText": "'Fajn, dělejte si, co myslíte, že je nejlepší — já se do toho míchat nebudu.'",
+                    "adequate": [
+                        "Předává zodpovědnost, ale neuznává jejich snahu; slabý dopad na vztah."
+                    ],
+                    "missed": [
+                        "Proč je uznání důležité pro udržitelnost dohody?"
+                    ],
+                    "improvement": "Proč je uznání důležité pro udržitelnost dohody?"
+                },
+                "partially_positive": {
+                    "choiceText": "'To by mohlo fungovat. Zkuste to — ale pamatujte, udržte to v normálu, jinak se vrátím s jiným přístupem.'",
+                    "adequate": [
+                        "Přijetí návrhu skupiny místo jeho přebití",
+                        "Umožnění implementace vlastního řešení",
+                        "Nevnucování zbytečně přísných podmínek"
+                    ],
+                    "missed": [
+                        "Okamžité podkopání návrhu podmíněnou hrozbou (‚jiný přístup')",
+                        "‚Zkuste to' naznačuje, že očekáváte selhání",
+                        "Neuznání, že řešení vymysleli sami — propásnutá příležitost pro pozitivní zpětnou vazbu"
+                    ],
+                    "improvement": "Když skupina nabídne rozumné řešení, podpořte ho skutečnou pochvalou místo podmíněného souhlasu — vlastnictví a pozitivní zpětná vazba produkují trvalejší dodržování než závěrečné hrozby."
+                }
+            }
+        },
+        "7": {
+            "stageName": "Fáze 7 — Rozloučení na místě",
+            "criticalSkills": [
+                "Deeskalace",
+                "Transparentnost",
+                "Komunikace s komunitou"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "'Děkuju vám za spolupráci — vám všem. Eli, Nelo, díky, že jste se mnou mluvily, místo abyste mě ignorovaly. Kryštofe, doufám, že se tvému tátovi uleví. Jardo, to, cos tam udělal, chtělo odvahu. Kdyby kdokoli z vás někdy potřeboval pomoct s čímkoli — nejen policejní věci — můžete se ozvat. Užijte si odpoledne.'",
+                    "strengths": [
+                        "Použití jmen personalizuje setkání — jsou to jednotlivci, ne ‚skupina teenagerů'",
+                        "Zmínění Kryštofovy rodinné situace ukazuje, že jste naslouchali a záleželo vám",
+                        "Pochválení Jardovy omluvy posiluje usmíření",
+                        "Nabídka budoucí pomoci nově definuje vztah policie a mládeže z nepřátelského na podpůrný",
+                        "‚Užijte si odpoledne' jim vrací jejich den"
+                    ],
+                    "professionalImpact": "Nela se usmívá. Kryštof tiše přikývne. Jarda je překvapen, že je pochválen. Eli mávne. Odcházejí se zásadně odlišnou zkušeností s policií. Důvěra v policii jako zdroj pomoci roste."
+                },
+                "negative": {
+                    "choiceText": "'Příště si na sebe dejte pozor, jinak budou pokuty. Nebudu podruhé takhle hodný.'",
+                    "failures": [
+                        "Kárající tón ničí důvěru, která byla vybudována."
+                    ],
+                    "consequences": "Hořkost, nižší ochota spolupracovat příště.",
+                    "trainingFocus": "Jak udržíte svou vlastní frustraci na uzdě na konci zásahu?"
+                },
+                "neutral": {
+                    "choiceText": "'Dobře, tentokrát to necháme být, ale příště by mohla přijít pokuta. Buďte potichu.'",
+                    "adequate": [
+                        "Jasné hranice bez uznání jejich snahy."
+                    ],
+                    "missed": [
+                        "Kdy je varování dostatečné a kdy škodí?"
+                    ],
+                    "improvement": "Kdy je varování dostatečné a kdy škodí?"
+                },
+                "partially_positive": {
+                    "choiceText": "'Díky, že jste se mnou spolupracovali. Zvládli jste to dobře. Hezké odpoledne a držte to tam v klidu.'",
+                    "adequate": [
+                        "Vřelé, uznalé a upřímně přátelské rozloučení",
+                        "Pozitivní zpětná vazba oceňující jejich vyspělost",
+                        "Tón odpovídá situaci — neformální a respektující"
+                    ],
+                    "missed": [
+                        "Neoslovili jste jednotlivce — zejména Kryštofa, který sdílel něco hluboce osobního",
+                        "Jardův obtížný krok omluvit se zůstal bez uznání",
+                        "Obecné skupinové uznání místo individuálního, které má u teenagerů obrovskou váhu"
+                    ],
+                    "improvement": "Investujte třicet vteřin navíc do individuálního uznání — oslovení každého jménem a ocenění jeho konkrétního přínosu přemění pozitivní interakci v nezapomenutelnou."
+                }
+            }
+        }
+    },
+    "comprehensiveMetrics": {
+        "youthEngagement": {
+            "description": "Celková kvalita verbální a neverbální komunikace",
+            "indicators": {
+                "excellent": [
+                    "Aktivní naslouchání prokázáno konzistentně",
+                    "Přiměřený tón pro každou situaci",
+                    "Jasné, stručné předávání informací",
+                    "Efektivní využití ticha a trpělivosti"
+                ],
+                "poor": [
+                    "Přerušování nebo mluvení přes účastníky",
+                    "Agresivní nebo odmítavý tón",
+                    "Matoucí nebo protichůdná sdělení",
+                    "Neschopnost číst neverbální signály"
+                ]
+            }
+        },
+        "proceduralFairness": {
+            "description": "Dodržování právních a služebních požadavků",
+            "indicators": {
+                "excellent": [
+                    "Dodržení všech právních požadavků",
+                    "Řádná dokumentace",
+                    "Aktivace odpovídajících služeb",
+                    "Dodržování bezpečnostních protokolů"
+                ],
+                "poor": [
+                    "Opomenutí povinného hlášení",
+                    "Nedodržení bezpečnostních postupů",
+                    "Ignorování právních požadavků",
+                    "Neúplná nebo žádná dokumentace"
+                ]
+            }
+        },
+        "emotionalIntelligence": {
+            "description": "Schopnost rozpoznat a reagovat na emoce",
+            "indicators": {
+                "excellent": [
+                    "Přesné rozpoznání emočních stavů",
+                    "Reakce s odpovídající empatií",
+                    "Zvládání vlastních emočních reakcí",
+                    "Deeskalace prostřednictvím emoční validace"
+                ],
+                "poor": [
+                    "Přehlížení zjevného emočního strádání",
+                    "Reakce se soudem nebo kritikou",
+                    "Osobní pocity ovlivňující reakci",
+                    "Eskalace prostřednictvím emoční invalidace"
+                ]
+            }
+        },
+        "proportionateResponse": {
+            "description": "Povědomí o kulturních faktorech a respekt k nim",
+            "indicators": {
+                "excellent": [
+                    "Rozpoznávání kulturních dynamik",
+                    "Respekt k rodinné struktuře",
+                    "Vyhýbání se kulturním předsudkům",
+                    "Přiměřená úprava přístupu"
+                ],
+                "poor": [
+                    "Vytváření kulturních stereotypů",
+                    "Ignorování kulturních faktorů",
+                    "Vnucování vlastních kulturních hodnot",
+                    "Kulturní necitlivost"
+                ]
+            }
+        },
+        "communityRelations": {
+            "description": "Kvalita zapojení komunitních aktérů a budování dlouhodobých vztahů",
+            "indicators": {
+                "excellent": [
+                    "Vyvažování potřeb všech přítomných stran",
+                    "Budování důvěry transparentní komunikací",
+                    "Respektující uznání komunitních obav",
+                    "Zanechání trvalého pozitivního dojmu"
+                ],
+                "poor": [
+                    "Ignorování obav komunitních aktérů",
+                    "Zvýhodňování jedné strany",
+                    "Odmítavý postoj k veřejným obavám",
+                    "Poškozování dlouhodobé důvěry policie a komunity"
+                ]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "escalation": {
+            "pattern": "Volby, které zvýšily napětí",
+            "examples": [
+                "Agresivní vstup",
+                "Obviňování",
+                "Hrozby"
+            ],
+            "impact": "Každá eskalace ztěžuje řešení a zvyšuje riziko násilí",
+            "correction": "Procvičujte klidnou přítomnost a nehrozivou komunikaci"
+        },
+        "missingCues": {
+            "pattern": "Nerozpoznání kritických ukazatelů",
+            "examples": [
+                "Riziko sebevraždy",
+                "Trauma dítěte",
+                "Mocenská dynamika"
+            ],
+            "impact": "Přehlédnutí signálů může vést k tragickým následkům",
+            "correction": "Rozvíjejte systematické hodnotící dovednosti a techniky pozorování"
+        },
+        "judgmental": {
+            "pattern": "Vnucování osobních hodnot nebo kritiky",
+            "examples": [
+                "Kárání",
+                "Moralizování",
+                "Obviňování"
+            ],
+            "impact": "Odsuzování ničí důvěru a brání otevřenosti",
+            "correction": "Udržujte profesionální neutralitu a zaměřte se na bezpečnost"
+        },
+        "procedural": {
+            "pattern": "Přílišné spoléhání na postupy bez lidskosti",
+            "examples": [
+                "Robotické reakce",
+                "Přístup podle checklistu",
+                "Žádná empatie"
+            ],
+            "impact": "Snižuje ochotu spolupracovat a přehlíží zásadní informace",
+            "correction": "Vyvažte postupy s lidským propojením"
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Vynikající výkon! Prokázali jste výjimečné komunikační dovednosti v tomto složitém scénáři. Vaše schopnost vyvážit empatii s autoritou, rozpoznat emoční dynamiku a poskytnout komplexní podporu při zachování bezpečnosti ukazuje zvládnutí principů moderní policejní práce. Váš přístup vybudoval skutečnou důvěru se skupinou mládeže.",
+            "mostlyPositive": "Celkově silný výkon s výbornými dovednostmi krizového řízení. Prokázali jste dobrou emoční inteligenci a přijímali většinou správná rozhodnutí. Klíčová síla: [SPECIFIC_STRENGTH]. Oblast k rozvoji: [SPECIFIC_IMPROVEMENT]. Váš soucitný přístup skutečně pro tuto skupinu něco změnil.",
+            "mixed": "Některé aspekty jste zvládli dobře, ale propásli jste klíčové příležitosti. Silné stránky zahrnovaly [SPECIFIC_STRENGTHS]. Nicméně [SPECIFIC_WEAKNESSES] vyžadují pozornost. Pamatujte, že interakce s mládeží vyžadují vyvážení autority s respektem a porozuměním. Projděte si [TRAINING_AREAS] pro zlepšení reakce.",
+            "mostlyNegative": "Tento scénář odhalil výrazné mezery v dovednostech krizové komunikace. Přestože jste [MINOR_POSITIVE], většina vašich voleb eskalovala napětí nebo přehlédla klíčové emoční potřeby. Konkrétně [MAJOR_FAILURES]. Doporučeno okamžité školení v: [CRITICAL_TRAINING]. Tyto situace formují dlouhodobý vztah mladých lidí k policii.",
+            "allNegative": "Váš přístup v tomto scénáři byl znepokojivý a potenciálně kontraproduktivní. Konzistentní eskalace, přehlížení emočních potřeb a nedostatek empatie mohly vést k trvalé nedůvěře. Povinné nápravné školení požadováno v: krizová intervence, deeskalační techniky a emoční inteligence. Pamatujte: vaše komunikace formuje pohled mládeže na policii na roky dopředu."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "‚Chápu, že je to osobní, ale jsme tu, protože by mohl být někdo v nebezpečí.'",
+            "‚Je mi líto, čím procházíte. Zní to nesnesitelně, ale vaše rodina vás potřebuje.'",
+            "‚Hele, nejsi v průšvihu. Jsme tu, aby byli všichni v bezpečí.'",
+            "‚Zmínili jste, že máte strach. Naslouchám. Můžete mi říct víc?'"
+        ],
+        "poorPhrases": [
+            "‚Zastavte se. Kdo tu křičí a proč?'",
+            "‚Nechovejte se takhle, když je tu dítě!'",
+            "‚Nedělejte takové drama. Vzchopte se.'",
+            "‚Nevím, to je na soud.'"
+        ],
+        "analysisCriteria": {
+            "tone": "Byl přiměřený emočnímu kontextu?",
+            "clarity": "Bylo sdělení jasné a jednoznačné?",
+            "empathy": "Uznalo pocity a projevilo porozumění?",
+            "effectiveness": "Dosáhlo zamýšleného výsledku?",
+            "safety": "Upřednostnilo bezpečnost všech?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Prvotní přístup v parku ovlivňuje ochotu mládeže spolupracovat.",
+        "2": "Transparentní vysvětlení důvodu zásahu buduje důvěru.",
+        "3": "Deeskalace a aktivní naslouchání jsou účinnější než hrozby.",
+        "4": "Validace emocí a vedení k omluvě podporuje usmíření.",
+        "5": "Jasná očekávání ohledně hluku vedou k dobrovolnému dodržování.",
+        "6": "Společně nalezené řešení zvyšuje oddanost skupiny.",
+        "7": "Pozitivní rozloučení posiluje vztah mládeže s policií."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": [
+                "Pokročilé krizové vyjednávání",
+                "Školení ostatních v deeskalaci",
+                "Specializovaný tým pro rodinné krize"
+            ],
+            "good": [
+                "Rozšířená reakce na duševní zdraví",
+                "Pokročilá dynamika domácího násilí",
+                "Dětská psychologie v krizi"
+            ],
+            "average": [
+                "Základní krizová intervence",
+                "Dovednosti aktivního naslouchání",
+                "Rozvoj emoční inteligence"
+            ],
+            "poor": [
+                "Povinné deeskalační školení",
+                "Certifikace krizové intervence",
+                "Workshop empatie a komunikace",
+                "Protokol reakce na domácí násilí"
+            ]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {
+                "title": "Celkové shrnutí výkonu",
+                "content": [
+                    "Skóre",
+                    "Úroveň výkonu",
+                    "Klíčové silné stránky",
+                    "Kritické slabiny"
+                ]
+            },
+            {
+                "title": "Analýza krok za krokem",
+                "content": [
+                    "Provedená volba",
+                    "Dopad",
+                    "Alternativní přístupy",
+                    "Výukové body"
+                ]
+            },
+            {
+                "title": "Efektivita komunikace",
+                "content": [
+                    "Nejlepší momenty",
+                    "Propásnuté příležitosti",
+                    "Analýza dialogu"
+                ]
+            },
+            {
+                "title": "Klíčové rozhodovací momenty",
+                "content": [
+                    "Rozpoznání duševního zdraví",
+                    "Bezpečnost dětí",
+                    "Právní řešení"
+                ]
+            },
+            {
+                "title": "Analýza vzorců",
+                "content": [
+                    "Konzistentní silné stránky",
+                    "Opakující se chyby",
+                    "Trendy v rozhodování"
+                ]
+            },
+            {
+                "title": "Profesní rozvoj",
+                "content": [
+                    "Okamžité vzdělávací potřeby",
+                    "Dlouhodobý rozvoj dovedností",
+                    "Doporučené zdroje"
+                ]
+            },
+            {
+                "title": "Aplikace v praxi",
+                "content": [
+                    "Přenos do terénní práce",
+                    "Typické scénáře",
+                    "Nejlepší postupy"
+                ]
+            }
+        ]
+    }
+}

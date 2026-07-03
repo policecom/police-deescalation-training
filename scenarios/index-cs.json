@@ -1,0 +1,686 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "title": "Deeskalace při dopravní kontrole",
+      "description": "Naučte se zvládat napjatou dopravní kontrolu s rozrušeným řidičem",
+      "icon": "🚗",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "traffic-expert": {
+          "minScore": 80
+        },
+        "perfect-traffic": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 4,
+        "CHPS": 3,
+        "CDR": 4,
+        "NPT": 3,
+        "EIC": 5
+      }
+    },
+    {
+      "id": 2,
+      "title": "Vyjednávání stížnosti na hluk v hostelu",
+      "description": "Naučte se vyjednat mírové řešení během pozdní noční stížnosti na hluk v rušném městském hostelu",
+      "icon": "🏨",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "negotiation-expert": {
+          "minScore": 75
+        },
+        "perfect-negotiation": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 3,
+        "CHPS": 2,
+        "CDR": 4,
+        "NPT": 5,
+        "EIC": 3
+      }
+    },
+    {
+      "id": 3,
+      "title": "Interakce s mládeží",
+      "description": "Budujte důvěru s teenagery v komunitním prostředí",
+      "icon": "👥",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "youth-advocate": {
+          "minScore": 70
+        },
+        "perfect-youth": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 5,
+        "CHPS": 1,
+        "CDR": 3,
+        "NPT": 3,
+        "EIC": 5
+      }
+    },
+    {
+      "id": 4,
+      "title": "Krize duševního zdraví",
+      "description": "Soucitně pomozte osobě v psychické krizi",
+      "icon": "🧠",
+      "difficulty": 5,
+      "duration": "25-30",
+      "badges": {
+        "crisis-specialist": {
+          "minScore": 85
+        },
+        "perfect-crisis": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 3,
+        "CHPS": 4,
+        "CDR": 3,
+        "NPT": 2,
+        "EIC": 5
+      }
+    },
+    {
+      "id": 5,
+      "title": "Stížnost na hluk",
+      "description": "Diplomaticky vyřešte sousedskou stížnost na hluk",
+      "icon": "🔊",
+      "difficulty": 3,
+      "duration": "12-18",
+      "badges": {
+        "peacekeeper": {
+          "minScore": 70
+        },
+        "perfect-noise": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 2,
+        "CHPS": 3,
+        "CDR": 5,
+        "NPT": 5,
+        "EIC": 3
+      }
+    },
+    {
+      "id": 6,
+      "title": "Tržní spor — Klidné vyjednávání",
+      "description": "Neshoda o parkovací místo na víkendovém trhu přitáhla pozornost. Použijte jasnou komunikaci a mírné vyjednávání k rychlému vyřešení sporu",
+      "icon": "🛒",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "market-mediator": {
+          "minScore": 70
+        },
+        "perfect-market": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 5,
+        "CHPS": 2,
+        "CDR": 5,
+        "NPT": 4,
+        "EIC": 3
+      }
+    },
+    {
+      "id": 7,
+      "title": "Pouliční rvačka u nočního klubu",
+      "description": "Komunikujte jasně v prostředí vysokého tlaku a předcházejte eskalaci vyhrocené hádky",
+      "icon": "🚨",
+      "difficulty": 4,
+      "duration": "18-22",
+      "badges": {
+        "street-specialist": {
+          "minScore": 80
+        },
+        "perfect-street": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 3,
+        "RNDC": 3,
+        "CHPS": 5,
+        "CDR": 4,
+        "NPT": 3,
+        "EIC": 4
+      }
+    },
+    {
+      "id": "domestic-crisis",
+      "title": "Domácí spor s krizí duševního zdraví",
+      "description": "Navigujte ve vysokostresovém domácím sporu zahrnujícím krizi duševního zdraví a přítomné dítě",
+      "icon": "🏠",
+      "difficulty": 5,
+      "duration": "25-35",
+      "badges": {
+        "domestic-expert": {
+          "minScore": 90
+        },
+        "crisis-intervention": {
+          "minScore": 100
+        },
+        "perfect-domestic-crisis": {
+          "minScore": 120
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 3,
+        "CHPS": 5,
+        "CDR": 5,
+        "NPT": 2,
+        "EIC": 5
+      }
+    },
+    {
+      "id": "custody-exchange",
+      "title": "Spor o předávání dítěte — Mezi dvěma ohni",
+      "description": "Pokročilý scénář: deeskalace a neutrální mediace při konfliktním předávání dítěte mezi rozvedenými rodiči.",
+      "icon": "⚖️",
+      "difficulty": 4,
+      "duration": "20-25",
+      "badges": {
+        "custody-mediator": {
+          "minScore": 75
+        },
+        "perfect-scenario-custody-exchange": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 3,
+        "CHPS": 3,
+        "CDR": 5,
+        "NPT": 5,
+        "EIC": 4
+      }
+    },
+    {
+      "id": "hospital-disturbance",
+      "title": "Narušení pořádku v nemocnici — Bolest, strach a agrese",
+      "description": "Deeskalace s agresivním pacientem na pohotovosti. Spolupracujte s personálem a chraňte bezpečnost všech.",
+      "icon": "🏥",
+      "difficulty": 4,
+      "duration": "20-25",
+      "badges": {
+        "hospital-specialist": {
+          "minScore": 75
+        },
+        "perfect-scenario-hospital-disturbance": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 3,
+        "CHPS": 4,
+        "CDR": 4,
+        "NPT": 4,
+        "EIC": 5
+      }
+    },
+    {
+      "id": "road-rage",
+      "title": "Silniční zuřivost — Výbušný bod na křižovatce",
+      "description": "Dva řidiči v hádce po dopravní nehodě. Zabezpečte místo, oddělte strany a zvládněte protichůdné požadavky.",
+      "icon": "🚗",
+      "difficulty": 4,
+      "duration": "20-25",
+      "badges": {
+        "road-rage-specialist": {
+          "minScore": 75
+        },
+        "perfect-scenario-road-rage": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 3,
+        "RNDC": 2,
+        "CHPS": 5,
+        "CDR": 4,
+        "NPT": 3,
+        "EIC": 3
+      }
+    },
+    {
+      "id": "street-vendor",
+      "title": "Pouliční prodejce — V komunálním křížovém ohni",
+      "description": "Vyvažte vymáhání práva, procesní spravedlnost a vztahy s komunitou u neautorizovaného pouličního prodeje.",
+      "icon": "🍜",
+      "difficulty": 3,
+      "duration": "18-25",
+      "badges": {
+        "vendor-mediator": {
+          "minScore": 70
+        },
+        "perfect-scenario-street-vendor": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 5,
+        "CHPS": 2,
+        "CDR": 4,
+        "NPT": 5,
+        "EIC": 3
+      }
+    },
+    {
+      "id": "traffic-stop",
+      "title": "Dopravní kontrola — Eskalace a komunikace",
+      "description": "Procvičte deeskalaci a profesionální komunikaci při dopravní kontrole, která může eskalovat.",
+      "icon": "🚗",
+      "difficulty": 3,
+      "duration": "18-22",
+      "badges": {
+        "traffic-expert": {
+          "minScore": 80
+        },
+        "perfect-scenario-traffic-stop": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 2,
+        "CHPS": 4,
+        "CDR": 3,
+        "NPT": 3,
+        "EIC": 5
+      }
+    },
+    {
+      "id": "youth-park",
+      "title": "Mládež v parku — Víkendové odpoledne",
+      "description": "Hlasitá hudba a verbální konflikty teenagerů v městském parku; výcvik deeskalace a práce s emocemi.",
+      "icon": "👥",
+      "difficulty": 3,
+      "duration": "18-22",
+      "badges": {
+        "youth-advocate": {
+          "minScore": 70
+        },
+        "perfect-scenario-youth-park": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 4,
+        "CHPS": 2,
+        "CDR": 5,
+        "NPT": 4,
+        "EIC": 5
+      }
+    }
+  ],
+  "badges": {
+    "scenario-1-complete": {
+      "name": "Absolvent dopravních kontrol",
+      "description": "Úspěšně dokončil scénář dopravní kontroly",
+      "icon": "🚦"
+    },
+    "scenario-2-complete": {
+      "name": "Domácí mediátor",
+      "description": "Úspěšně dokončil scénář domácího sporu",
+      "icon": "🤝"
+    },
+    "scenario-3-complete": {
+      "name": "Spojka s mládeží",
+      "description": "Úspěšně dokončil scénář interakce s mládeží",
+      "icon": "🌟"
+    },
+    "scenario-4-complete": {
+      "name": "Krizový záchranář",
+      "description": "Úspěšně dokončil scénář krize duševního zdraví",
+      "icon": "💚"
+    },
+    "scenario-5-complete": {
+      "name": "Komunitní strážník",
+      "description": "Úspěšně dokončil scénář stížnosti na hluk",
+      "icon": "🏘️"
+    },
+    "scenario-6-complete": {
+      "name": "Vyjednávací specialista",
+      "description": "Úspěšně dokončil scénář vyjednávání v hostelu",
+      "icon": "🏨"
+    },
+    "scenario-7-complete": {
+      "name": "Specialista na řízení davu",
+      "description": "Úspěšně dokončil scénář pouliční rvačky",
+      "icon": "🚨"
+    },
+    "scenario-domestic-crisis-complete": {
+      "name": "Pokročilý krizový intervent",
+      "description": "Úspěšně dokončil komplexní scénář domácí krize",
+      "icon": "🛡️"
+    },
+    "traffic-expert": {
+      "name": "Specialista dopravních kontrol",
+      "description": "Prokázal odbornost v komunikaci při dopravních kontrolách",
+      "icon": "🚔"
+    },
+    "mediator": {
+      "name": "Mediátor konfliktů",
+      "description": "Ukázal silné mediační dovednosti",
+      "icon": "⚖️"
+    },
+    "youth-advocate": {
+      "name": "Advokát mládeže",
+      "description": "Dobře se spojil s mladými členy komunity",
+      "icon": "🎯"
+    },
+    "crisis-specialist": {
+      "name": "Specialista krizové intervence",
+      "description": "Zvládl krizi duševního zdraví s odborností",
+      "icon": "🛡️"
+    },
+    "peacekeeper": {
+      "name": "Komunitní mírový strážce",
+      "description": "Vyřešil komunitní spory mírovou cestou",
+      "icon": "🕊️"
+    },
+    "negotiation-expert": {
+      "name": "Vyjednávací expert",
+      "description": "Prokázal mistrovské vyjednávací dovednosti",
+      "icon": "🤝"
+    },
+    "crowd-control-expert": {
+      "name": "Expert na řízení davu",
+      "description": "Zvládl komunikaci v prostředí vysokého tlaku",
+      "icon": "📢"
+    },
+    "advanced-crisis-specialist": {
+      "name": "Pokročilý krizový specialista",
+      "description": "Zvládl komplexní krizi s více faktory",
+      "icon": "🌟"
+    },
+    "perfect-traffic": {
+      "name": "Perfektní dopravní kontrola",
+      "description": "Dosáhl dokonalého skóre v dopravní kontrole",
+      "icon": "🏆"
+    },
+    "perfect-domestic": {
+      "name": "Perfektní domácí mediace",
+      "description": "Dosáhl dokonalého skóre v domácím sporu",
+      "icon": "🏆"
+    },
+    "perfect-youth": {
+      "name": "Perfektní interakce s mládeží",
+      "description": "Dosáhl dokonalého skóre v interakci s mládeží",
+      "icon": "🏆"
+    },
+    "perfect-crisis": {
+      "name": "Perfektní krizová intervence",
+      "description": "Dosáhl dokonalého skóre v krizi duševního zdraví",
+      "icon": "🏆"
+    },
+    "perfect-noise": {
+      "name": "Perfektní řešení hluku",
+      "description": "Dosáhl dokonalého skóre ve stížnosti na hluk",
+      "icon": "🏆"
+    },
+    "perfect-negotiation": {
+      "name": "Perfektní vyjednávání",
+      "description": "Dosáhl dokonalého skóre ve vyjednávání v hostelu",
+      "icon": "🏆"
+    },
+    "perfect-crowd-control": {
+      "name": "Perfektní řízení davu",
+      "description": "Dosáhl dokonalého skóre v pouliční rvačce",
+      "icon": "🏆"
+    },
+    "perfect-domestic-crisis": {
+      "name": "Perfektní domácí krize",
+      "description": "Dosáhl dokonalého skóre v komplexní domácí krizi",
+      "icon": "🏆"
+    },
+    "scenario-custody-exchange-complete": {
+      "name": "Absolvent předávání dítěte",
+      "description": "Úspěšně dokončil scénář předávání dítěte",
+      "icon": "⚖️"
+    },
+    "perfect-scenario-custody-exchange": {
+      "name": "Expert na mediace předávání",
+      "description": "Dosáhl dokonalého skóre ve scénáři předávání dítěte",
+      "icon": "⭐"
+    },
+    "scenario-hospital-disturbance-complete": {
+      "name": "Absolvent zásahu v nemocnici",
+      "description": "Úspěšně dokončil scénář narušení pořádku v nemocnici",
+      "icon": "🏥"
+    },
+    "perfect-scenario-hospital-disturbance": {
+      "name": "Expert na deeskalaci v nemocnici",
+      "description": "Dosáhl dokonalého skóre ve scénáři nemocnice",
+      "icon": "⭐"
+    },
+    "scenario-road-rage-complete": {
+      "name": "Absolvent silniční zuřivosti",
+      "description": "Úspěšně dokončil scénář silniční zuřivosti",
+      "icon": "🚗"
+    },
+    "perfect-scenario-road-rage": {
+      "name": "Expert na silniční zuřivost",
+      "description": "Dosáhl dokonalého skóre ve scénáři silniční zuřivosti",
+      "icon": "⭐"
+    },
+    "scenario-street-vendor-complete": {
+      "name": "Absolvent pouličního prodejce",
+      "description": "Úspěšně dokončil scénář pouličního prodejce",
+      "icon": "🍜"
+    },
+    "perfect-scenario-street-vendor": {
+      "name": "Expert na pouliční prodejce",
+      "description": "Dosáhl dokonalého skóre ve scénáři pouličního prodejce",
+      "icon": "⭐"
+    },
+    "scenario-traffic-stop-complete": {
+      "name": "Absolvent dopravní kontroly (nový)",
+      "description": "Úspěšně dokončil scénář dopravní kontroly",
+      "icon": "🚦"
+    },
+    "perfect-scenario-traffic-stop": {
+      "name": "Perfektní dopravní kontrola (nový)",
+      "description": "Dosáhl dokonalého skóre ve scénáři dopravní kontroly",
+      "icon": "⭐"
+    },
+    "scenario-youth-park-complete": {
+      "name": "Absolvent mládeže v parku",
+      "description": "Úspěšně dokončil scénář mládeže v parku",
+      "icon": "👥"
+    },
+    "perfect-scenario-youth-park": {
+      "name": "Expert na mládež v parku",
+      "description": "Dosáhl dokonalého skóre ve scénáři mládeže v parku",
+      "icon": "⭐"
+    },
+    "custody-mediator": {
+      "name": "Mediátor předávání",
+      "description": "Prokázal mediační dovednosti při předávání dítěte",
+      "icon": "⚖️"
+    },
+    "hospital-specialist": {
+      "name": "Specialista nemocničního zásahu",
+      "description": "Prokázal odbornost při zásahu v nemocnici",
+      "icon": "🏥"
+    },
+    "road-rage-specialist": {
+      "name": "Specialista silniční zuřivosti",
+      "description": "Prokázal odbornost při silniční zuřivosti",
+      "icon": "🚗"
+    },
+    "vendor-mediator": {
+      "name": "Mediátor pouličního prodejce",
+      "description": "Prokázal mediační dovednosti u pouličního prodejce",
+      "icon": "🍜"
+    },
+    "master-communicator": {
+      "name": "Mistr komunikace",
+      "description": "Úspěšně dokončil všechny tréninkové scénáře",
+      "icon": "🎖️"
+    },
+    "perfect-scenario-1": {
+      "name": "Perfektní dopravní kontrola",
+      "description": "Perfektní zvládnutí scénáře dopravní kontroly",
+      "icon": "⭐"
+    },
+    "perfect-scenario-2": {
+      "name": "Perfektní řešení domácího sporu",
+      "description": "Perfektní zvládnutí scénáře domácího sporu",
+      "icon": "⭐"
+    },
+    "perfect-scenario-3": {
+      "name": "Perfektní interakce s mládeží",
+      "description": "Perfektní zvládnutí scénáře interakce s mládeží",
+      "icon": "⭐"
+    },
+    "perfect-scenario-4": {
+      "name": "Perfektní krizová intervence",
+      "description": "Perfektní zvládnutí scénáře krize duševního zdraví",
+      "icon": "⭐"
+    },
+    "perfect-scenario-5": {
+      "name": "Perfektní řešení stížnosti na hluk",
+      "description": "Perfektní zvládnutí scénáře stížnosti na hluk",
+      "icon": "⭐"
+    },
+    "perfect-scenario-6": {
+      "name": "Perfektní vyjednávání v hostelu",
+      "description": "Perfektní zvládnutí scénáře vyjednávání v hostelu",
+      "icon": "⭐"
+    },
+    "perfect-scenario-7": {
+      "name": "Perfektní zvládnutí pouliční rvačky",
+      "description": "Perfektní zvládnutí scénáře rvačky u nočního klubu",
+      "icon": "⭐"
+    },
+    "perfect-scenario-domestic-crisis": {
+      "name": "Perfektní zvládnutí domácí krize",
+      "description": "Perfektní zvládnutí scénáře domácího sporu s krizí duševního zdraví",
+      "icon": "⭐"
+    },
+    "market-mediator": {
+      "name": "Strážce klidu na trhu",
+      "description": "Expertní zvládnutí sporů ve veřejném prostoru",
+      "icon": "🏪"
+    },
+    "perfect-market": {
+      "name": "Perfektní mediace na trhu",
+      "description": "Dosažení plného počtu bodů ve scénáři tržního sporu",
+      "icon": "🏆"
+    },
+    "street-specialist": {
+      "name": "Expert noční směny",
+      "description": "Zvládnutí vypjatých situací nočního života",
+      "icon": "🌃"
+    },
+    "perfect-street": {
+      "name": "Perfektní zásah na ulici",
+      "description": "Dosažení plného počtu bodů ve scénáři rvačky u nočního klubu",
+      "icon": "🏆"
+    },
+    "crisis-intervention": {
+      "name": "Mistr krizové intervence",
+      "description": "Perfektní zvládnutí krize duševního zdraví se všemi metrikami na maximu",
+      "icon": "🌟"
+    },
+    "domestic-expert": {
+      "name": "Specialista na domácí zásahy",
+      "description": "Expertní a citlivé zvládnutí domácích situací",
+      "icon": "🏆"
+    }
+  },
+  "difficultyLevels": {
+    "1": {
+      "name": "Začátečník",
+      "description": "Základní komunikační situace",
+      "color": "#4CAF50"
+    },
+    "2": {
+      "name": "Lehký",
+      "description": "Jednoduché komunitní interakce",
+      "color": "#8BC34A"
+    },
+    "3": {
+      "name": "Střední",
+      "description": "Mírně náročné situace vyžadující takt",
+      "color": "#FF9800"
+    },
+    "4": {
+      "name": "Náročný",
+      "description": "Složité situace s více faktory",
+      "color": "#FF5722"
+    },
+    "5": {
+      "name": "Expert",
+      "description": "Vysoce složité krizové situace",
+      "color": "#F44336"
+    }
+  },
+  "categories": {
+    "traffic": {
+      "name": "Dopravní kontroly",
+      "description": "Situace související s dopravou a vozidly",
+      "icon": "🚗",
+      "scenarios": [
+        1
+      ]
+    },
+    "domestic": {
+      "name": "Domácí spory",
+      "description": "Rodinné a vztahové konflikty",
+      "icon": "🏠",
+      "scenarios": [
+        2,
+        "domestic-crisis"
+      ]
+    },
+    "community": {
+      "name": "Komunita",
+      "description": "Interakce s veřejností a komunitní problémy",
+      "icon": "👥",
+      "scenarios": [
+        3,
+        5,
+        6
+      ]
+    },
+    "crisis": {
+      "name": "Krizové situace",
+      "description": "Situace vyžadující krizovou intervenci",
+      "icon": "🧠",
+      "scenarios": [
+        4,
+        7,
+        "domestic-crisis"
+      ]
+    }
+  }
+}

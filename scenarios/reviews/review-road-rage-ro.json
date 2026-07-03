@@ -1,0 +1,747 @@
+{
+    "scenarioId": "road-rage",
+    "reviewVersion": "2.0",
+    "title": "Furie la volan — Punct critic la intersecție — Analiză a performanței",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Locul faptei",
+            "criticalSkills": [
+                "Siguranța locului",
+                "Secvențierea priorităților",
+                "Prezență de autoritate"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Poziționezi mașina de patrolă ca să protejezi locul. Pornești luminile de urgență. Apoi te apropii ferm: „Am nevoie ca amândoi să vă dați pe trotuar. Acum. O să rezolvăm, dar mai întâi toată lumea trebuie să fie în siguranță.”",
+                    "strengths": [
+                        "Mașina de patrulă creează o barieră fizică împotriva accidentelor secundare",
+                        "Luminile de urgență avertizează șoferii care se apropie",
+                        "Comanda de a ieși pe trotuar abordează siguranța fizică mai întâi",
+                        "Tonul ferm dar calm stabilește autoritate fără escaladare"
+                    ],
+                    "professionalImpact": "Protejarea locului înainte de orice previne coliziunile secundare și stabilește secvența corectă a priorităților."
+                },
+                "partially_positive": {
+                    "choiceText": "Te îndrepți repede spre hatchback să verifici copilul care plânge — cea mai vulnerabilă persoană de aici.",
+                    "adequate": [
+                        "Instinct excelent de a prioritiza copilul",
+                        "Concentrare pe cea mai vulnerabilă parte"
+                    ],
+                    "missed": [
+                        "Ai trecut în grabă de șoferii care se ceartau fără stabilizare",
+                        "Locul rămâne nesecurizat față de trafic",
+                        "Cearta poate escalada când ai spatele întors"
+                    ],
+                    "improvement": "Instinctul pentru copil e corect, dar stabilizează locul și separă adulții mai întâi. Nu poți ajuta un copil în timp ce doi adulți se bat în spatele tău."
+                },
+                "neutral": {
+                    "choiceText": "Sună mai întâi după backup — e un loc complex. Vei avea nevoie de o altă unitate înainte de orice.",
+                    "adequate": [
+                        "Cererea de backup e tactic corectă"
+                    ],
+                    "missed": [
+                        "Stai deoparte în timp ce adulții se ceartau pe carosabil",
+                        "Nimic nu este gestionat în timpul așteptării",
+                        "Backup-ul poate întârzia minute — locul se deteriorează"
+                    ],
+                    "improvement": "Cere backup în timp ce stabilizezi simultan. Poți vorbi la radio și comanda în același timp."
+                },
+                "negative": {
+                    "choiceText": "Te duci direct la șoferii care se ceartă: „Amândoi — basta. Sunt aici. Cine vrea să-mi spună ce s-a întâmplat?”",
+                    "failures": [
+                        "Locul nesecurizat — risc de coliziune secundară",
+                        "„Cine vrea să-mi spună ce s-a întâmplat?” invită narațiuni contradictorii",
+                        "Copilul nu a fost verificat",
+                        "Ai prioritizat cearta în fața siguranței"
+                    ],
+                    "consequences": "Abordarea certei înainte de securizarea locului riscă coliziuni secundare și lasă copilul nesupravegheat.",
+                    "trainingFocus": "Revizuiți protocoalele de siguranță a locului — pericolele, rănirile și traficul trebuie abordate înainte de anchetă."
+                }
+            },
+            "keyLearningPoints": [
+                "Siguranța locului vine înainte de anchetă — întotdeauna",
+                "Barierele fizice previn accidentele secundare",
+                "Comenzile ferme dar calme stabilesc autoritate fără escaladare"
+            ]
+        },
+        "2": {
+            "stageName": "Copilul",
+            "criticalSkills": [
+                "Evaluarea bunăstării copilului",
+                "Implicarea părintelui",
+                "Luarea deciziilor medicale"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Îei spui: „Vin cu dumneavoastră — să o verificăm pe Ella împreună.” Mergi cu ea la mașină, deschizi ușa cu grijă. Verifici copilul sistematic: contact vizual și reactivitate, vânătăi sau urme de la centură sau ham, dacă tresară când mișcă gâtul sau brațele, dacă pupilele sunt egale și reactive. Lași mama să o mângâie în timp ce observi. Pe baza celor observate, decizi dacă soliciți serviciul medical pentru o evaluare pediatrică preventivă.",
+                    "strengths": [
+                        "Evaluare sistematică a copilului — nu doar o privire",
+                        "Mersul cu mama arată grijă și menține prezența",
+                        "Ochii antrenați verifică răni ascunse — vânătăi, mișcare restricționată, pupile",
+                        "Decizia medicală bazată pe evaluare reală, nu pe presupunere"
+                    ],
+                    "professionalImpact": "O verificare sistematică a copilului demonstrează competență profesională care construiește încredere profundă cu părintele."
+                },
+                "partially_positive": {
+                    "choiceText": "Sună la radio după ambulanță pentru verificare preventivă, apoi mergi la copil: „Vine ambulanța pentru Ella. Merg la ea acum.”",
+                    "adequate": [
+                        "Răspunsul medical pentru un copil la coliziune e o precauție puternică",
+                        "Arată preocupare pentru răni ascunse"
+                    ],
+                    "missed": [
+                        "Ai sunat înainte de evaluare — încă un minut de întârziere",
+                        "Evaluarea vizuală ar trebui să determine dacă ambulanța e preventivă sau urgentă",
+                        "Mama se întreabă de ce ai sunat înainte de a-i verifica fiica"
+                    ],
+                    "improvement": "Evaluează mai întâi, apoi sună — evaluarea ta vizuală determină urgența și ghidează cererea medicală."
+                },
+                "neutral": {
+                    "choiceText": "Îi faci semn: „Da, mergeți — luați-o pe fiica dvs. și aduceți-o pe trotuar. Trebuie să încep să iau declarații.”",
+                    "adequate": [
+                        "A permis mamei să-și ia copilul"
+                    ],
+                    "missed": [
+                        "Ai trimis mama singură fără să verifici tu Ella",
+                        "Copiii în scaune auto pot avea răni ascunse",
+                        "„Trebuie să încep declarațiile” semnalează birocrație în loc de bunăstarea copilului"
+                    ],
+                    "improvement": "Verifică personal un copil la locul coliziunii — rănile ascunse necesită observație antrenată."
+                },
+                "negative": {
+                    "choiceText": "Îi spui doamnei Bennett: „Rămâneți unde sunteți — trebuie să țin toată lumea separată. O să verific fiica ta într-o clipă.”",
+                    "failures": [
+                        "Principiul separării aplicat greșit — părintele nu e o parte ostilă",
+                        "Restricționarea părintelui de la un copil speriat e disproporționată",
+                        "Fiecare minut de întârziere adâncește suferinta copilului",
+                        "Ai transformat un aliat în adversar"
+                    ],
+                    "consequences": "Împiedicarea unei mame să ajungă la copilul ei speriat distruge încrederea instant și creează un nou conflict.",
+                    "trainingFocus": "Revizuiți când separarea e potrivită și când devine disproporționată."
+                }
+            },
+            "keyLearningPoints": [
+                "Evaluarea sistematică a copilului — nu doar o privire — demonstrează competență profesională",
+                "Mersul cu părintele menține prezența în timp ce permite mângâierea",
+                "Deciziile medicale ar trebui să fie bazate pe evaluare, nu pe presupunere"
+            ]
+        },
+        "3": {
+            "stageName": "Declarații",
+            "criticalSkills": [
+                "Secvențierea anchetei",
+                "Păstrarea dovezilor",
+                "Gestionarea martorilor"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Ridici ambele mâini: „Vă aud pe amândoi. Trebuie să vorbesc cu fiecare separat ca să vă acord atenție deplină. Domnule Cooper — așteptați lângă vehiculul dvs. Doamnă Bennett — rămâneți cu Ella. Trebuie să vorbesc și cu domnul de la colț.” Te apropii mai întâi de martor.",
+                    "strengths": [
+                        "Declarații separate pentru precizie",
+                        "Martorul independent prioritizat — cel mai valoros și poate pleca",
+                        "„Să vă acord atenție deplină” face separarea să pară respectuoasă",
+                        "Relația de bază stabilită înainte de declarațiile șoferilor"
+                    ],
+                    "professionalImpact": "Martorul independent e cea mai valorosă declarație la un loc disputat — securizarea lui mai întâi e excelentă din punct de vedere al anchetei."
+                },
+                "partially_positive": {
+                    "choiceText": "Ridici mâna: „Câte unul. Domnule Cooper, așteptați lângă vehicul. Doamnă Bennett, spuneți-mi ce s-a întâmplat.” Iei mai întâi declarația ei pentru că are copilul.",
+                    "adequate": [
+                        "Declarații separate corect",
+                        "Mama prima are justificare practică — nevoile copilului"
+                    ],
+                    "missed": [
+                        "Alegerea poate fi percepută ca părtinire",
+                        "Cooper fierbe și devine mai ostil",
+                        "Martorul de la colț se îndepărtează — cea mai valorosă dovadă"
+                    ],
+                    "improvement": "Securizează martorul independent mai întâi — nu are interes în rezultat și poate pleca dacă nu e abordat repede."
+                },
+                "neutral": {
+                    "choiceText": "Te întorci la doamna Bennett: „Sunteți bine? Spuneți-mi ce s-a întâmplat.” Adresezi mai întâi partea mai agitată ca să deescaladezi, apoi treci la Cooper.",
+                    "adequate": [
+                        "Abordare grijulie față de victimă",
+                        "A verificat starea ei"
+                    ],
+                    "missed": [
+                        "A cere o relatare în timp ce ține un copil care plânge nu e ideal",
+                        "Martorul se îndepărtează — cea mai valorosă sursă de dovezi",
+                        "Poate reveni la ambii șoferi după securizarea martorului"
+                    ],
+                    "improvement": "La un loc disputat, martorul independent e cea mai valorosă declarație de securizat mai întâi."
+                },
+                "negative": {
+                    "choiceText": "Îi lași pe amândoi să vorbească și asculți ambele versiuni — contradicțiile vor arăta cine minte.",
+                    "failures": [
+                        "Declarațiile simultane escalează conflictul",
+                        "Fiecare declarație declanșează replici",
+                        "Detaliile se pierd în contra-argumente emoționale",
+                        "Martorul începe să plece — dovezi critice pierdute"
+                    ],
+                    "consequences": "Lăsarea părților furioase să se certe produce declarații contaminate și riscă escaladarea fizică.",
+                    "trainingFocus": "Revizuiți protocoalele de declarații separate și gestionarea martorilor la locuri disputate."
+                }
+            },
+            "keyLearningPoints": [
+                "Martorii independenți sunt cea mai valorosă dovadă — securizați-i mai întâi",
+                "Declarațiile separate produc informații mai precise",
+                "Prezentarea separării ca respect previne percepția de părtinire"
+            ]
+        },
+        "4": {
+            "stageName": "Șoferul agresiv",
+            "criticalSkills": [
+                "Dezescaladare sub agresiune",
+                "Recunoașterea momentului uman",
+                "Interogare investigativă"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Recunoști mai întâi momentul uman: „Ella este bine — e speriată dar nevătămată. Scaunul de mașină și-a făcut treaba.” Lași asta să aterizeze, apoi: „Înțeleg că sunteți frustrat și știu că nu așa v-ați planificat după-amiaza. Am nevoie să aud versiunea dumneavoastră — de la început. De unde veneați și ce s-a întâmplat când v-ați apropiat de intersecție?”",
+                    "strengths": [
+                        "A răspuns la preocuparea lui pentru Ella — i-a observat umanitatea",
+                        "I-a spus lui Cooper că nu e văzut pur și simplu ca agresor",
+                        "Siguranța copilului prezentată ca prioritate comună",
+                        "„De unde veneați?” e simultan dezescaladare și anchetă"
+                    ],
+                    "professionalImpact": "Răspunsul la preocuparea cuiva pentru un copil — chiar când a cauzat accidentul — schimbă întreaga dinamică și face mai probabil să vorbească sincer."
+                },
+                "partially_positive": {
+                    "choiceText": "Îei spui: „Înțeleg că sunteți supărat, dar am nevoie să vă calmați. Să strigați nu ajută. Am câteva întrebări.”",
+                    "adequate": [
+                        "A încercat să redirecționeze",
+                        "S-a îndreptat spre interogare"
+                    ],
+                    "missed": [
+                        "„Calmați-vă” are aproape întotdeauna efectul opus",
+                        "„Să strigați nu ajută” e o mustrare, nu dezescaladare",
+                        "Preocuparea pentru Ella a rămas nerecunoscută",
+                        "Momentul uman irosit"
+                    ],
+                    "improvement": "Înlocuiți „calmați-vă” cu recunoaștere. Când cineva arată preocupare pentru un copil, răspundeți — acea fisură în agresivitate e deschiderea voastră."
+                },
+                "neutral": {
+                    "choiceText": "Îei răspunzi la fel de direct: „Domnule Cooper, martorul confirmă că ați trecut pe roșu. Sunteți de vină. Scriu sancțiunea și nu plecați nicăieri până nu este raportul gata.”",
+                    "adequate": [
+                        "Dovezile susțin concluzia"
+                    ],
+                    "missed": [
+                        "A anunțat rezultatul înainte de declarația lui — subminare a procedurii corecte",
+                        "Raportul e vulnerabil la contestare legală",
+                        "A ignorat preocuparea lui pentru Ella — singurul moment de umanitate",
+                        "Confruntativ cu un bărbat deja agresiv"
+                    ],
+                    "improvement": "Nu anunțați concluzii înainte de a încheia ancheta. Auziți toate părțile, apoi stabiliți constatările."
+                },
+                "negative": {
+                    "choiceText": "Îei spui să se așeze în mașină și să aștepte: „Domnule Cooper, vin la dumneavoastră când sunt gata. Vă rog așteptați în vehicul.”",
+                    "failures": [
+                        "L-a trimis înapoi la vehicul — risc pentru păstrarea dovezilor",
+                        "A ratat complet momentul uman despre Ella",
+                        "Izolarea hrănește narativa de lipsă de respect",
+                        "Timp să elimine dovezi din vehicul"
+                    ],
+                    "consequences": "Trimiterea unui șofer nesupravegheat înapoi la vehicul riscă eliminarea dovezilor și iroseazște deschiderea creată de preocuparea lui pentru copil.",
+                    "trainingFocus": "Revizuiți păstrarea dovezilor și valoarea implicării momentelor umane în dezescaladare."
+                }
+            },
+            "keyLearningPoints": [
+                "Când o persoană agresivă arată preocupare pentru un copil, aceea e deschiderea voastră — răspundeți",
+                "„De unde veneați?” e simultan dezescaladare și anchetă",
+                "Legătura umană face oamenii neglijenți cu apărarea — răspunsurile sincere urmează"
+            ]
+        },
+        "5": {
+            "stageName": "Semnele subtile",
+            "criticalSkills": [
+                "Detectarea ebrietății",
+                "Ancheta conversațională",
+                "Escaladarea proporțională"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Continui conversațional: „Ați menționat un eveniment de afaceri — ce fel de ocazie a fost?” Îl lași să-l descrie. Apoi: „Era ceva de băut? Întreb pentru că vreau să documentez totul corect pentru protecția ambelor părți.” În funcție de răspuns, decizi despre test.",
+                    "strengths": [
+                        "Abordarea conversațională îl lasă să descrie evenimentul natural",
+                        "Mai probabil să dezvăluie sincer când e încadrat ca rutină",
+                        "„Pentru protecția ambelor părți” reframează de la adversar la procedural",
+                        "Observații fizice plus recunoaștere oferă motive pentru testare"
+                    ],
+                    "professionalImpact": "Detectarea conversațională a ebrietății produce dovezi mai bune decât confruntarea — oamenii calmi spun adevărul."
+                },
+                "partially_positive": {
+                    "choiceText": "Întrebi direct: „Domnule Cooper, ați băut azi?” Dacă recunoaște orice consum, treci la test de sobrietate.",
+                    "adequate": [
+                        "Procedural potrivit cu semne observabile",
+                        "Abordare directă care abordează problema"
+                    ],
+                    "missed": [
+                        "Întrebarea brută declanșează negare defensivă",
+                        "Abordarea conversațională dă răspunsuri mai sincere",
+                        "Cooperarea la testare va fi mai grea după întrebarea confruntativă"
+                    ],
+                    "improvement": "O abordare conversațională poate da răspunsuri sincere înainte ca defensiva să se activeze complet. Instinctul e corect dar metoda ar putea fi rafinată."
+                },
+                "neutral": {
+                    "choiceText": "Faci un pas înapoi și suni imediat după unitate pentru conducere sub influență: „Detectez alcool în respirație. Cer o unitate specializată. Rămâneți aici, vă rog.”",
+                    "adequate": [
+                        "Conștientizarea protocolului — unități specializate există"
+                    ],
+                    "missed": [
+                        "Salt de la observație la anunțul de conducere sub influență",
+                        "Nicio conversație despre cantitate sau moment",
+                        "Ostilitate maximă din răspuns disproporționat",
+                        "Dovezi de consum, nu de ebrietate, în acest punct"
+                    ],
+                    "improvement": "Escalați răspunsul proporțional pe măsură ce dovezile cresc. Observațiile justifică conversație, nu proceduri imediate de conducere sub influență."
+                },
+                "negative": {
+                    "choiceText": "Înregistrezi semnele mental dar nu insiști — nu pare sub influență și accidentul e o simplă nerespectare a priorității. Testarea ar escalada inutil.",
+                    "failures": [
+                        "Ignorarea semnelor observabile de alcool la locul coliziunii e eșec al datoriei",
+                        "Ebrietatea mascată de adrenalină — timpul de reacție redus nu e întotdeauna vizibil",
+                        "Indicatori multipli: față înroșită, miros, pupile, inconsistență, origine",
+                        "Dacă provoacă alt accident în seara asta, ai avut șansa să intervii"
+                    ],
+                    "consequences": "Ignorarea semnelor de ebrietate înseamnă că raportul lipsește informații critice — și șoferul pleacă să provoace potențial alt incident.",
+                    "trainingFocus": "Revizuiți protocoalele de detectare a ebrietății și datoria de a investiga semnele observabile indiferent de impresiile inițiale."
+                }
+            },
+            "keyLearningPoints": [
+                "Detectarea conversațională a ebrietății produce dovezi mai bune decât confruntarea",
+                "Semne subtile multiple — față înroșită, miros, pupile, inconsistență — cer anchetă",
+                "Ancheta și dezescaladarea sunt aceeași abilitate — oamenii calmi spun adevărul"
+            ]
+        },
+        "6": {
+            "stageName": "Frustrarea mamei",
+            "criticalSkills": [
+                "Gestionare multiparte",
+                "Comunicarea progresului",
+                "Sprijinirea victimei"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Te duci imediat la ea: „Doamnă Bennett, înțeleg frustrarea și aveți dreptul să fiți supărată. Siguranța dvs. și a Ellei e prioritatea mea. Am vorbit cu martorul și am notat alcoolul — mă ocup acum. Sunt pași pe care trebuie să-i respect ca totul să fie valabil. E cineva care vă poate lua pe dvs. și pe Ella ca să nu mai așteptați lângă mașina avariată?”",
+                    "strengths": [
+                        "A validat frustrarea fără a fi defensiv",
+                        "Actualizare despre progresul anchetei — martor contactat, alcool notat",
+                        "A explicat scopul întârzierii — „ca totul să fie valabil”",
+                        "A oferit cale practică — ridicare pentru ea și Ella"
+                    ],
+                    "professionalImpact": "Informarea unei părți care așteaptă despre progres schimbă experiența așteptării din abandon în răbdare informată."
+                },
+                "partially_positive": {
+                    "choiceText": "Încuviințezi: „Aveți dreptate — a trecut clar pe roșu și simt și eu alcoolul. Nu vă faceți griji, primește sancțiune și test cu alcoolemă. Justiția va fi făcută.”",
+                    "adequate": [
+                        "Satisfăcător emoțional pentru victimă",
+                        "A validat observațiile ei"
+                    ],
+                    "missed": [
+                        "A împărtășit concluzii ale anchetei cu o parte înainte de finalizare",
+                        "A confirmat informația martorului — contaminare a mărturiei",
+                        "Dacă ajunge la tribunal, apărarea invocă părtinire și împărtășire improprie"
+                    ],
+                    "improvement": "Liniștiți un reclamant fără a împărtăși detalii specifice ale anchetei care ar putea compromite cazul."
+                },
+                "neutral": {
+                    "choiceText": "Ridici mâna: „Doamnă Bennett, știu că durează, dar trebuie să fiu riguros. Așteptați, vă rog — sunt la dvs. în curând.”",
+                    "adequate": [
+                        "Nu e greșit",
+                        "A menținut concentrarea procedurală"
+                    ],
+                    "missed": [
+                        "Răspunsul clinic nu recunoaște starea emoțională",
+                        "Nicio informație despre progres",
+                        "A tratat-o ca element la coadă",
+                        "Încrederea s-a plafonat — fără creștere"
+                    ],
+                    "improvement": "Adăugați informație despre progres și recunoaștere emoțională. „Așteptați” e corectitudine procedurală fără legătură umană."
+                },
+                "negative": {
+                    "choiceText": "Îi spui ferm: „Doamnă Bennett, acuzațiile despre alcool nu ajută. Lăsați-mă să-mi fac treaba. Vorbesc cu dvs. când termin cu domnul Cooper.”",
+                    "failures": [
+                        "A respins o observație pe care o investigați și voi",
+                        "„Lăsați-mă să-mi fac treaba” le spune cetățenilor că părerea lor nu e binevenită",
+                        "„Când termin cu el” o face ultima prioritate",
+                        "Relația cu victima s-a prăbușit"
+                    ],
+                    "consequences": "Respingerea observațiilor victimei și prioritizarea șoferului vinovat distruge încrederea cu partea vătămată.",
+                    "trainingFocus": "Revizuiți comunicarea cu victima și diferența între menținerea integrității anchetei și respingerea părerii cetățenilor."
+                }
+            },
+            "keyLearningPoints": [
+                "Informarea unei părți care așteaptă despre progres transformă experiența așteptării",
+                "Liniștiți fără a împărtăși detalii specifice ale anchetei care ar compromite cazul",
+                "Când un cetățean observă ce investigați și voi, validați fără a confirma detalii"
+            ]
+        },
+        "7": {
+            "stageName": "Închiderea locului",
+            "criticalSkills": [
+                "Încheiere cuprinzătoare",
+                "Recomandare de siguranță",
+                "Sprijinirea victimei"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Te adresezi lui Cooper: „Vă sancționez pentru nerespectarea semnului de oprire. Testul a fost sub limita legală, dar 0,06% arată consum recent care a putut afecta timpul de reacție. Recomand puternic să nu mai conduceți azi — sunați un taxi sau lăsați-vă ridicați.” Apoi mergi la doamna Bennett: „Iată numărul raportului pentru asigurare. Recomand să faceți Ella verificată de un pediatru în una-două zile — la copii reacțiile la impact pot apărea cu întârziere. Sora dvs. e aproape?”",
+                    "strengths": [
+                        "Sancțiunea livrată cu contextul alcoolului ca recomandare de siguranță",
+                        "„Să nu mai conduceți azi” e recomandare responsabilă",
+                        "Recomandarea controlului pediatric arată conștientizare medicală",
+                        "Numărul raportului oferit proactiv",
+                        "Amintirea surorii arată grijă continuă"
+                    ],
+                    "professionalImpact": "Încheierea cuprinzătoare care servește ambele părți transformă un raport de rutină într-o întâlnire care construiește încredere durabilă."
+                },
+                "partially_positive": {
+                    "choiceText": "Îi spui lui Cooper: „Ați suflat 0,06. Sub limită, dar cu un pahar în plus aveam o conversație foarte diferită. Gândiți-vă la asta.” Apoi îi urezi bine doamnei Bennett și eliberezi locul.",
+                    "adequate": [
+                        "Avertismentul despre alcool are impact",
+                        "A recunoscut gravitatea situației"
+                    ],
+                    "missed": [
+                        "„Gândiți-vă la asta” e predicatoriu — poate declanșa defensivitate",
+                        "Încheierea doamnei Bennett e minimală — fără număr raport, fără ghid medical",
+                        "Energia de încheiere investită în Cooper, nu în victimă"
+                    ],
+                    "improvement": "Investiți atenția de încheiere în partea vătămată — număr raport, ghid medical, pași practici."
+                },
+                "neutral": {
+                    "choiceText": "Îi dai lui Cooper sancțiunea și îl lași să plece. Îi spui doamnei Bennett să ia numărul raportului mâine de la secție. Eliberezi locul.",
+                    "adequate": [
+                        "Sancțiune emisă corect"
+                    ],
+                    "missed": [
+                        "Nicio discuție despre implicațiile alcoolului",
+                        "Doamna Bennett nu primește informații practice",
+                        "Nicio recomandare de follow-up pediatric",
+                        "„Luați raportul mâine” e efort minim"
+                    ],
+                    "improvement": "Încheierea cuprinzătoare înseamnă că ambele părți pleacă cu pași următori clari, nu doar acte."
+                },
+                "negative": {
+                    "choiceText": "Aduci ambele părți împreună: „Schimbați-vă direct datele de asigurare, apoi puteți pleca. Domnule Cooper, iată sancțiunea.” Facilitezi schimbul și eliberezi locul.",
+                    "failures": [
+                        "A adus părți ostile împreună după o oră de confruntare",
+                        "Cooper umilit de testul de alcoolemie — volatil",
+                        "Bennett furioasă pe tot — volatilă",
+                        "Forțarea contactului față în față riscă reaprinderea certei în fața Ellei"
+                    ],
+                    "consequences": "Aducerea părților ostile împreună pentru scopuri administrative reaprinde conflictul și expune copilul la mai multă confruntare.",
+                    "trainingFocus": "Revizuiți protocoalele de încheiere — păstrați părțile ostile separate pe întreg procesul, inclusiv pașii administrativi."
+                }
+            },
+            "keyLearningPoints": [
+                "Încheierea cuprinzătoare servește ambele părți cu pași următori clari",
+                "Recomandarea follow-up-ului pediatric arată conștientizare medicală pe care părinții o uită adesea",
+                "Păstrați părțile ostile separate până la încheiere — sarcinile administrative pot reaprinde conflictul"
+            ]
+        },
+        "8": {
+            "stageName": "Evaluare și dezvăluire",
+            "criticalSkills": [
+                "Autoreflecție",
+                "Integrarea lecțiilor"
+            ],
+            "choiceAnalysis": {},
+            "keyLearningPoints": [
+                "Ancheta și dezescaladarea sunt aceeași abilitate — oamenii calmi spun adevărul",
+                "Verificarea unui copil înainte de verificarea dovezilor schimbă amintirea durabă a întâlnirii",
+                "Un șofer agresiv pe o singură notă poate avea o dimensiune umană care schimbă totul dacă o observi"
+            ]
+        }
+    },
+    "comprehensiveMetrics": {
+        "sceneSafety": {
+            "description": "Securizarea locului coliziunii față de pericole secundare, gestionarea traficului și asigurarea siguranței fizice",
+            "indicators": {
+                "excellent": [
+                    "Mașina de patrulă poziționată pentru a proteja locul înainte de a implica părțile",
+                    "Șoferii mutați de pe carosabil imediat",
+                    "Pericolele de trafic abordate înainte de anchetă",
+                    "Conștientizare continuă a siguranței locului pe tot parcursul"
+                ],
+                "poor": [
+                    "Locul lăsat neprotejat în timp ce implicați părțile",
+                    "Șoferii rămân pe carosabil în timpul conversației",
+                    "Riscul de coliziune secundară neabordat",
+                    "Siguranța tratată ca gând ulterior în loc de prima prioritate"
+                ]
+            }
+        },
+        "conflictSeparation": {
+            "description": "Separarea fizică și emoțională a părților ostile pentru a preveni escaladarea și a permite declarații precise",
+            "indicators": {
+                "excellent": [
+                    "Separare fizică imediată a părților care se ceartau",
+                    "Declarații luate individual, niciuna dintre părți neauzind pe cealaltă",
+                    "Separare menținută până la încheiere — fără reimplicare inutilă",
+                    "Separarea explicată ca respect („atenție deplină”) nu ca restricție"
+                ],
+                "poor": [
+                    "Părțile lăsate să se certe în prezența celuilalt",
+                    "Declarații luate simultan, contaminând ambele relatări",
+                    "Părți aduse împreună pentru schimb de asigurări sau confruntare",
+                    "Separare aplicată nepotrivit relației părinte-copil"
+                ]
+            }
+        },
+        "childWelfare": {
+            "description": "Atenția acordată copilului ca parte vulnerabilă care necesită atenție imediată și considerare continuă",
+            "indicators": {
+                "excellent": [
+                    "Copil evaluat personal pentru răni devreme în întâlnire",
+                    "Mama lăsată și însoțită să mângâie copilul",
+                    "Follow-up medical recomandat la încheiere",
+                    "Nevoile emoționale ale copilului considerate pe tot parcursul — strigăte reduse, protejat de conflict"
+                ],
+                "poor": [
+                    "Copil ignorat sau deprioritizat în favoarea actelor",
+                    "Părinte împiedicat inutil să ajungă la copil",
+                    "Nicio evaluare personală a rănilor copilului",
+                    "Nicio recomandare de follow-up medical la încheiere"
+                ]
+            }
+        },
+        "investigativeThoroughness": {
+            "description": "Detectarea ebrietății, securizarea declarațiilor martorilor, păstrarea dovezilor și respectarea procedurilor",
+            "indicators": {
+                "excellent": [
+                    "Martor independent securizat înainte de plecarea lui",
+                    "Semne de ebrietate detectate și investigate prin tehnică conversațională",
+                    "Test de alcoolemie efectuat pe baza dovezilor acumulate",
+                    "Dovezi păstrate — vehicule nemutate prematur, șofer netrimis înapoi la vehicul"
+                ],
+                "poor": [
+                    "Martor independent pierdut",
+                    "Semne de ebrietate ignorate sau abordate disproporționat",
+                    "Concluzii anunțate înainte de finalizarea anchetei",
+                    "Păstrarea dovezilor compromisă prin returnarea șoferului la vehicul"
+                ]
+            }
+        },
+        "communicationUnderPressure": {
+            "description": "Gestionarea a două părți ostile simultan cu calm, imparțialitate și profesionalism",
+            "indicators": {
+                "excellent": [
+                    "Ambele părți se simt auzite în ciuda pretențiilor concurente",
+                    "Comportament calm menținut indiferent de provocare",
+                    "Victima actualizată despre progresul anchetei fără împărtășirea concluziilor",
+                    "Încheierea include pași următori specifici pentru ambele părți"
+                ],
+                "poor": [
+                    "„Calmați-vă” sau alte fraze contraproductive folosite",
+                    "Concluzii ale anchetei împărtășite prematur cu o parte",
+                    "Observațiile victimei respinse sau invalidate",
+                    "Atenția la încheiere concentrată disproporționat pe partea greșită"
+                ]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "safetyDeprioritization": {
+            "pattern": "Implicarea în conflict înainte de securizarea locului față de pericole fizice",
+            "examples": [
+                "Apropierea de șoferii care se ceartau fără poziționarea mașinii de patrulă",
+                "Luarea declarațiilor în timp ce vehiculele blochează traficul activ",
+                "Graba la copil fără a separa mai întâi adulții",
+                "Uitarea că riscul de coliziune secundară ucide intervenienții și trecătorii"
+            ],
+            "impact": "Coliziunile secundare la locurile de accident sunt o cauză principală a deceselor intervenienților și trecătorilor. Fiecare minut în care locul e nesecurizat e un minut în care cineva poate fi lovit.",
+            "correction": "Protecția locului e întotdeauna primul pas. Poziționați vehiculul, activați luminile, mutați oamenii de pe carosabil. Durează 30 de secunde și poate salva vieți."
+        },
+        "childNeglect": {
+            "pattern": "Ignorarea sau deprioritizarea copilului la locul coliziunii",
+            "examples": [
+                "Concentrarea pe ceartă în timp ce un copil plânge într-o mașină avariată",
+                "Împiedicarea unei mame să ajungă la copilul ei sub protocoale de „separare”",
+                "Nicio evaluare personală a copilului pentru răni",
+                "Nicio recomandare de follow-up medical la încheiere"
+            ],
+            "impact": "Copiii sunt cele mai vulnerabile părți la locurile de coliziune și adesea cele mai ignorate. Pot avea răni ascunse, iar impactul emoțional al coliziunii și al conflictului adult ulterior poate fi semnificativ.",
+            "correction": "Verificați copilul devreme — mergeți cu părintele pentru a evalua împreună. La încheiere, recomandați un control pediatric. Bunăstarea copilului ar trebui să fie vizibilă în prioritățile dvs. pe tot parcursul."
+        },
+        "prematureConclusions": {
+            "pattern": "Anunțarea vinei sau a constatărilor anchetei înainte de finalizarea investigației",
+            "examples": [
+                "A-i spune șoferului vinovat „sunteți de vină” înainte de a-i lua declarația",
+                "Împărtășirea detaliilor relatării martorului cu oricare parte",
+                "Confirmarea observațiilor despre alcool către celălalt șofer",
+                "Promisiuni de rezultate specifice înainte de redactarea raportului"
+            ],
+            "impact": "Concluziile premature subminează procedura corectă, fac rapoartele vulnerabile la contestare legală, contaminează mărturia și compromit imparțialitatea agenților — fundația fiecărei anchete de trafic.",
+            "correction": "Finalizați ancheta înainte de a anunța concluzii. Puteți liniști părțile prin transparența procesului („Sunt riguros”) fără a împărtăși constatări specifice."
+        },
+        "impairmentAvoidance": {
+            "pattern": "Ignorarea sau neinvestigarea semnelor de ebrietate prin alcool sau substanțe",
+            "examples": [
+                "Notarea mirosului de alcool dar alegerea să nu urmărești",
+                "Acceptarea „un pahar, acum ore” la valoare nominală fără verificare",
+                "Evitarea investigării ebrietății pentru a preveni escaladarea",
+                "Redactarea unui raport simplu de nerespectare a priorității când semne de ebrietate sunt prezente"
+            ],
+            "impact": "Un șofer sub influență care părăsește un loc de accident neinvestigat poate provoca altă coliziune — potențial fatală. Datoria față de siguranța publică include investigarea semnelor observabile, chiar și când șoferul nu pare evident „beat”.",
+            "correction": "Investigați întotdeauna când semnele sunt prezente. Folosiți tehnica conversațională pentru detectare — „de la ce eveniment veneați?” — înainte de testarea formală. Escaladare proporțională: observație, conversație, apoi test."
+        },
+        "victimUnderservice": {
+            "pattern": "Investirea unei atenții disproporționate în partea agresivă în timp ce victima așteaptă",
+            "examples": [
+                "Timp prelungit cu șoferul ostil în timp ce victima privește cu un copil speriat",
+                "Neactualizarea victimei despre progresul anchetei",
+                "Respingerea observațiilor victimei ca „acuzații”",
+                "Încheiere minimală pentru victimă — fără număr raport, fără ghid medical, fără sprijin practic"
+            ],
+            "impact": "Experiența victimei cu poliția formează încrederea ei pe termen lung în aplicarea legii. O mamă cu un copil traumatizat care se simte ignorată sau deservită își va aminti această întâlnire ani de zile — și le va spune tuturor.",
+            "correction": "Actualizați victima despre progres. Alocați atenție proporțională. La încheiere, oferiți pași următori specifici — număr raport, ghid asigurări, recomandări medicale. Victima are nevoie de mai mult de la dvs. decât șoferul sancționat."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Răspuns excepțional la coliziune. Ați demonstrat competențele complete: loc securizat mai întâi, copil prioritizat, părți separate, martor obținut imediat, ebrietate detectată prin tehnică conversațională, victimă actualizată pe tot parcursul și încheiere cuprinzătoare pentru ambele părți. Așa devine o coliziune de trafic o întâlnire care construiește încredere pe care oamenii și-o amintesc pozitiv ani de zile.",
+            "mostlyPositive": "Gestionare puternică a coliziunii cu instincte bune pentru siguranță, bunăstarea copilului și anchetă. Unele oportunități au fost ratate — poate în secvențierea declarațiilor, tehnica de detectare a ebrietății sau încheierea cuprinzătoare — dar abordarea dvs. generală a fost profesională, sigură și grijulie. Revizuiți elementele ratate pentru a vă ridica de la puternic la excepțional.",
+            "mixed": "Ați gestionat bine unele elemente dar ați avut dificultăți cu complexitatea completă a acestei scene de coliziune multiparte. Punctele forte au fost vizibile în anumite etape, dar oportunități critice au fost ratate în altele — fie în siguranța locului, bunăstarea copilului, secvențierea anchetei sau comunicarea cu victima. Revizuiți secvența priorităților: siguranță, separare, părți vulnerabile, apoi anchetă.",
+            "mostlyNegative": "Acest scenariu a relevat lacune semnificative în prioritățile de răspuns la coliziune. Deși au existat aspecte pozitive minore, elemente cheie au fost ratate — siguranța locului, bunăstarea copilului, detectarea ebrietății sau comunicarea cu victima au suferit din cauza secvențierii sau judecății deficitare. Coliziunile de trafic implică toate competențele de bază ale poliției simultan. Revizuiți protocoalele de gestionare a locului și fundamentele secvențierii anchetei.",
+            "allNegative": "Răspunsul dvs. la coliziune a prioritizat lucrurile greșite în ordinea greșită. Siguranța nu a fost securizată mai întâi, copilul a fost ignorat sau deprioritizat, semnele de ebrietate au fost ratate sau ignorate, iar părțile nu au fost gestionate eficient prin separare și implicare individuală. Acest scenariu necesită revizuire fundamentală a priorităților locului de coliziune, a protocoalelor de bunăstare a copilului și a tehnicilor de gestionare multiparte."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "O să rezolvăm, dar mai întâi toată lumea trebuie să fie în siguranță.",
+            "Vin cu dumneavoastră — să o verificăm pe Ella împreună.",
+            "Trebuie să vorbesc cu fiecare separat ca să vă acord atenție deplină.",
+            "Ella este bine — e speriată dar nevătămată. Scaunul de mașină și-a făcut treaba.",
+            "De unde veneați și ce s-a întâmplat când v-ați apropiat de intersecție?",
+            "Era ceva de băut? Întreb pentru că vreau să documentez totul corect pentru protecția ambelor părți.",
+            "Am vorbit cu martorul și am notat alcoolul — mă ocup acum.",
+            "Recomand să faceți Ella verificată de un pediatru — la copii reacțiile la impact pot apărea cu întârziere."
+        ],
+        "poorPhrases": [
+            "Cine vrea să-mi spună ce s-a întâmplat?",
+            "Rămâneți unde sunteți — trebuie să țin toată lumea separată.",
+            "Am nevoie să vă calmați. Să strigați nu ajută.",
+            "Martorul confirmă că ați trecut pe roșu. Sunteți de vină.",
+            "Acuzațiile despre alcool nu ajută. Lăsați-mă să-mi fac treaba.",
+            "Luați numărul raportului mâine de la secție.",
+            "Schimbați-vă direct datele de asigurare, apoi puteți pleca."
+        ],
+        "analysisCriteria": {
+            "safetyPriority": "Fraza a abordat siguranța fizică imediată înainte de a trece la anchetă?",
+            "childAwareness": "Fraza a arătat conștientizare și atenție la bunăstarea și nevoile emoționale ale copilului?",
+            "impartiality": "Fraza a menținut neutralitatea înainte de stabilirea faptelor, chiar și cu o parte agresivă?",
+            "investigativeValue": "Fraza a servit simultan raportului și adunării dovezilor?",
+            "victimCare": "Fraza a arătat atenție adecvată la experiența victimei, nevoile de informații și situația practică?",
+            "proportionality": "Fraza a corespuns severității și urgenței momentului?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Secvența priorităților la orice loc de coliziune este siguranță, separare, părți vulnerabile, apoi anchetă. Protejarea locului de coliziuni secundare durează 30 de secunde și poate salva vieți.",
+        "2": "Copiii la locurile de coliziune sunt cele mai vulnerabile și cele mai ignorate părți. Mersul cu mama să o verificați pe Ella împreună realizează trei obiective simultan: evaluarea rănilor, mângâierea parentală și construirea încrederii.",
+        "3": "Martorul independent e cea mai valorosă și cea mai dependentă de timp sursă de dovezi la o coliziune disputată. Securizați relatarea lui înainte să plece — oferă baza față de care evaluați pretențiile ambilor șoferi.",
+        "4": "Persoanele agresive au momente umane — observarea preocupării lui Cooper pentru Ella și implicarea în ea schimbă totul. „De unde veneați?” dezescalează și investighează simultan.",
+        "5": "Detectarea ebrietății nu necesită ca suspectul să fie evident beat. Tehnica conversațională — întrebarea despre eveniment, apoi natural despre alcool — produce dovezi mai bune și mai puțină ostilitate decât acuzația directă sau protocoalele imediate de conducere sub influență.",
+        "6": "Când o victimă face o observație care corespunde constatărilor anchetei dvs., validați-o fără a împărtăși concluzii. „Am observat același lucru și mă ocup” nu costă nimic și păstrează cazul.",
+        "7": "Încheierea cuprinzătoare alocă atenție proporțională — partea vătămată are nevoie de mai mult de la dvs. decât partea sancționată. Numerele de raport, recomandările medicale pentru copil și sprijinul practic transformă un raport de rutină într-o întâlnire pe care familia și-o amintește pozitiv ani de zile.",
+        "8": "Modul în care gestionezi o coliziune influențează dacă oamenii au încredere că poliția e corectă. Ancheta și dezescaladarea sunt aceeași abilitate — oamenii calmi spun adevărul."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": [
+                "Tehnici avansate de anchetă la locul coliziunii",
+                "Formarea altora în gestionarea locurilor multiparte",
+                "Poliție de proximitate prin răspuns de calitate la trafic"
+            ],
+            "good": [
+                "Detectare extinsă a ebrietății — tehnici conversaționale pentru alcool sub prag",
+                "Protocoale de bunăstare a copilului la locurile de coliziune",
+                "Comunicarea cu victima în timpul anchetelor complexe"
+            ],
+            "average": [
+                "Gestionare de bază a locului de coliziune — siguranță, separare, secvențiere",
+                "Alternative la „calmați-vă” și alte fraze contraproductive de dezescaladare",
+                "Identificarea și prioritizarea martorilor independenți"
+            ],
+            "poor": [
+                "Fundamentele siguranței locului de coliziune și prevenirea pericolelor secundare",
+                "Proceduri de luare a declarațiilor — prevenirea contaminării și secvențierea",
+                "Recunoașterea ebrietății dincolo de intoxicația evidentă",
+                "Conștientizarea bunăstării copilului la locurile de urgență"
+            ]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {
+                "title": "Rezumat general al performanței",
+                "content": [
+                    "Scor și nivel de performanță",
+                    "Puncte forte cheie",
+                    "Slăbiciuni critice",
+                    "Evaluarea generală a răspunsului la coliziune"
+                ]
+            },
+            {
+                "title": "Analiză etapă cu etapă",
+                "content": [
+                    "Alegerea la fiecare etapă",
+                    "Impact asupra ambilor șoferi, a copilului și a anchetei",
+                    "Abordări alternative",
+                    "Puncte cheie de învățare"
+                ]
+            },
+            {
+                "title": "Evaluare siguranță loc",
+                "content": [
+                    "Momentul și calitatea protecției locului",
+                    "Gestionarea traficului",
+                    "Prevenirea pericolelor secundare",
+                    "Conștientizare continuă a siguranței"
+                ]
+            },
+            {
+                "title": "Evaluare bunăstare copil",
+                "content": [
+                    "Momentul evaluării copilului",
+                    "Calitatea screening-ului pentru răni",
+                    "Facilitarea pentru părinte",
+                    "Recomandare follow-up medical"
+                ]
+            },
+            {
+                "title": "Calitate anchetă",
+                "content": [
+                    "Prioritizarea și obținerea martorului",
+                    "Separarea declarațiilor și prevenirea contaminării",
+                    "Metoda și eficacitatea detectării ebrietății",
+                    "Păstrarea dovezilor"
+                ]
+            },
+            {
+                "title": "Eficacitate comunicării",
+                "content": [
+                    "Calitatea frazelor de dezescaladare",
+                    "Comunicarea cu victima și actualizările de progres",
+                    "Menținerea imparțialității",
+                    "Completitudinea declarației de încheiere"
+                ]
+            },
+            {
+                "title": "Dezvoltare profesională",
+                "content": [
+                    "Nevoi imediate de formare",
+                    "Priorități de competențe pe termen lung",
+                    "Resurse recomandate"
+                ]
+            },
+            {
+                "title": "Aplicare în practică",
+                "content": [
+                    "Cum se aplică la apelurile zilnice de coliziune",
+                    "Construirea încrederii prin răspuns de calitate la trafic",
+                    "Bunăstarea copilului ca prioritate polițienească",
+                    "Detectarea ebrietății ca imperativ de siguranță publică"
+                ]
+            }
+        ]
+    }
+}

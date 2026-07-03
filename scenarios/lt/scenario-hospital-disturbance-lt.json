@@ -1,0 +1,441 @@
+{
+    "id": "hospital-disturbance",
+    "title": "Trikdymas ligoninėje — Skausmas, baimė ir agresija",
+    "description": "Išplėstinis scenarijus, kuriame praktikuojama deeskaliacija su agresyviu pacientu ligoninės skubiosios pagalbos skyriuje. Paciento elgesį lemia stiprus skausmas, ilgas laukimas ir baimė — ne nusikalstamas ketinimas. Pareigūnai turi bendradarbiauti su medicinos personalu, kartu užtikrinant visų saugumą.",
+    "icon": "🏥",
+    "instructor": {
+        "name": "Seržantas Davis",
+        "avatar": "👮‍♂️",
+        "introduction": "Šis scenarijus pastatys jus į vieną sparčiausiai augančių policijos darbo sričių — trikdymus ligoninėse. Daugiau nei 75 % darbo vietos užpuolimų vyksta sveikatos priežiūros įstaigose, ir policija vis dažniau kviečiama padėti. Iššūkis: žmogus priešais jus nėra nusikaltėlis — tai pacientas, keniantis skausmą, išsigąndęs ir jaunčiantis, kad jį niekas nepastebi. Jūsų uniforma gali situaciją pagerinti arba gerokai pabloginti. Medicinos aplinkoje deeskaliacija reikalauja glaudžaus bendradarbiavimo su sveikatos priežiūros personalu — jie supranta paciento būklę, o jūs užtikrinate saugumo rėmus, leidžiančius jiems dirbti. Ignoruoti medicinos specialistus ar traktuoti situaciją vien kaip saugumo klausimą beveik visada pablogina padėtį. Atsiminkite: agresyvus elgesys ligoninėje beveik visada reiškia įtampą ar nepatenkintą poreikį. Jūsų užduotis — tą poreikį rasti, o ne tik slopinti elgesį."
+    },
+    "timedChoices": true,
+    "completionBadges": [
+        "scenario-hospital-disturbance-complete"
+    ],
+    "perfectBadge": "perfect-scenario-hospital-disturbance",
+    "finalMessage": {
+        "revelation": "Pauliaus agresija kilo dėl stipraus skausmo (tarpslankstelinė išvarža spaudžia nervą), keturių valandų nematomo buvimo jausmo perpildytoje skubiosios pagalbos skyriuje ir augančios baimės, kad su kūnu kažkas rimtai negerai. Po jūsų intervencijos vyresnioji slaugė pagreitino jo triažos peržiūrą ir jis buvo apžiūrėtas per 30 minučių. MRT patvirtino išvaržą ir jis buvo nukreiptas į skubią neurochirurgijos konsultaciją. Paulius vėliau parašė ligoninei laišką, kuriame įvertino pareigūną, kuris „tikrai klausėsi, kai niekas kitas nenorėjo“. Slaugė Collins kolegėms pasakė, kad pareigūno požiūris ją apie deeskaliaciju išmokė daugiau nei bet koks seminaras.",
+        "keyLessons": [
+            "Agresyvus elgesys sveikatos priežiūroje beveik visada reiškia įtampą ar nepatenkintą poreikį — ne nusikaltimo ketinimą",
+            "Policijos buvimas gali situaciją eskaluoti arba deeskaluoti — priklauso tik nuo požiūrio ir pozicijos",
+            "Bendradarbiavimas su medicinos personalu, o ne jų ignoravimas, duoda geresnius rezultatus visiems",
+            "Pasiūlyti pasirinkimus — net mažus — grąžina kontrolės jausmą tam, kas jaučiasi bejėgis",
+            "Kūno kalba kalba garšiau nei žodžiai, kai žmogus yra ūminėje įtampoje — atitiktis yra esminė",
+            "Suprasti paciento baimę nereiškia sutikti su jo elgesiu — galite pripažinti jausmus ir tuo pačiu nustatyti aiškias ribas",
+            "Jūsų vaidmuo nėra gydyti, diagnozuoti ar spręsti apie gydymą — sukurti sąlygas, kad medicinos personalas galėtų saugiai atlikti savo darbą"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Kvietimas ir koridorius",
+            "sceneUpdate": {
+                "emoji": "🏥",
+                "title": "Skubiosios pagalbos skyrius — atvykimas",
+                "desc": "Vakarinė pamaina. Atvykstate į ligoninės skubiosios pagalbos skyrių po apsaugos kvietimo. Laukiamasis pilnas — apie 30 žmonių. Iš už triažos užuolaidos girdite pakeltus balsus dar prieš įžengdami. Ligoninės apsaugos darbuotojas prie įėjimo jus pasitinka su palengyėjimu."
+            },
+            "npcDialogue": [
+                {
+                    "character": "security",
+                    "text": "Ačiū Dievui, kad čia. Turime vyrą pacientą, maadžaug keturiasdešimties, laukia apie keturias valandas. Stiprūs skausmai — manau, nugaros trauma. Prieš dvidešimt minučių pradėjo rėkti ant slaugės, metė žurnalų stovą ir dabar stovi triažos zonoje atsisakęs išeiti. Nieko nesumusė, bet personalui baisu. Jo vardas Paulius."
+                }
+            ],
+            "prompt": "Turite akimirką prieš užmezgant kontaktą su pacientu. Kaip pasiruošite?",
+            "options": [
+                {
+                    "text": "Padėkojate apsaugos darbuotojui trumpu linktelėjimu ir ryžtingai pasukate vidun — personalo saugumas yra prioritetas, ir kiekviena minutė, kol Paulius be policijos būna prie slaugų stoties, didina riziką. Pasitaisote liemenę, giliai įkvėpiate ir žvaliu, užtikrintu žingsniu stumiate dvivėres duris. Medicininius duomenis galite sužinoti iš personalo stabilizavę neatidėliotiną situaciją ir užtikrinę zonos kontrolę.",
+                    "feedback": "Kodėl: Tai skamba kaip pagrįstas taktinis požiūris — prioritetas personalui ir greitas įsikišimas. Logika „pirmiausia stabilizuoti, tada rinkti kontekstą“ tinka daugelyje policijos scenarijų. Tačiau trikdymas ligoninėje, sukeltas skausmo ir frustracijos, nėra aktyvios grėsmės scenarijus. Įeiti nežinant, kas jau bandyta, kokia paciento sveikatos būklė ir ko personalas iš jūsų tikisi, reiškia reaguoti, o ne strategini atsakyti. | PASEKMĖS: Įeinate be konteksto apie eskaliavimo priežastį, sveikatos problemas ir personalo jau bandytus žingsnius. Paulius mato pareigūną, skubantį link jo — tai gali sukelti kovos ar bėgimo reakciją žmoguje, kuris jau bijo būti kriminalizuotas dėl sveikatos priežiūros siekimo. | Refleksija: Kada noras veikti greitai nušveria veikimo efektyvumą? Kaip atskirtumėte tikrą laiko spūdį nuo skubumo nukrypimo?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Sustojate prie įėjimo ir ramiu, matuotu tonu paklausiate apsaugos darbuotojo: „Ar jis kam nors tiesiogiai grasino pakenkti? Ar yra požymių, kad ginkluotas ar turi ką nors pavojingo? Ar kas nors jam pasiulė skausmo malšinimą nuo atvykimo? Ir kas šiandien vyresnioji slaugė — norėčiau trumpai su ja pasikalbėti prieš įeidamas, kad neičiau į vidų visiškai aklai.“",
+                    "feedback": "Kodėl: Prieš kontaktą surenkate svarbią taktinę ir medicininę informaciją. Klausimas apie skausmo malšinimą rodo, kad suprantate tikėtiną elgesio priežastį. Ryšys su vyresniąja slauge užmezga bendradarbiavimą su medicinos komanda, užuot ją ignoravę. Ginklo rizikos vertinimas — standartinė saugumo procedūra. | PASEKMĖS: Įeinate su aiškiu vaizdu: jokių ginklų, jokių tiesioginiu grąsinimų konkretiems žmonėms, skausmo malšinimas dar nesuteiktas, vyresnioji slaugė jūsų laukia. Turite planą, o ne tik buvimą. | Refleksija: Kaip trisdešimt sekundžių pasiruošimo pakeičia kitų trisdešimties minučių eigą?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Griežtu, tvirtu tonu nurodote apsaugos darbuotojui dėl saugumo pradėti tuštinti laukiamąjį — perkelti kitus pacientus į koridorių arba prie antrinio įėjimo. Tada atsistojate plačia komandine poza tiesiai prie triažos zonos įėjimo ir garsiu, skardžiu balsu šaukiate Pauliaus kryptimi, kad atvyko policija ir jam reikia likti ten, kur stovi, kol prieisite.",
+                    "feedback": "Kodėl: Laukiamojo evakuacija dėl paciento, kuris metė žurnalų stovą, yra neproporcinga reakcija, sukelianti chaosą ir atidedanti priežiūrą dešimtims kitų pacientų. Policijos atvykimo paskelbimas iš toli yra neasmeniška ir gali būti suvokta kaip eskaliacija — Paulius išgirs „policija“ anksčiau nei pamatys žmogų. | PASEKMĖS: Kiti pacientai panikuoja dėl evakuacijos. Paulius girdi „Policija!“ ir jo adrenalinas kyla. Tai suvokia kaip galimą areštą, o ne pagalbą. | Refleksija: Kaip vertinate proporcingumą priimdami saugumo priemones?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Užduodate apsaugos darbuotojui kelis greitus klausimus — ar Paulius ginkluotas, ar kam nors tiesiogiai grasino, ir kur tiksliai stovi triažos zonoje? Gavę pagrindines saugumo žinias, ramiu, matuotu žingsniu einate vidun ir gestu paliekate apsaugos darbuotoją porą žingsnių už savęs kaip rezervą fiziniam konfliktui. Medicininis kontekstas palauks — pirmiau susidarysite vaizdą patys.",
+                    "feedback": "Kodėl: Geras instinktas išsiaiškinti pagrindinę saugumo informaciją. Tačiau koordinacijos su medicinos personalu praleidimas reiškia, kad bendrausite su pacientu nežinodami jo sveikatos būklės, kas jau bandyta ir ko personalui reikia. Elgiatės su šia situacija kaip su saugumo problema, nors tai visai pirmiausia sveikatos situacija su saugumo dimensija. | PASEKMĖS: Esate saugūs ir turėte pagrįstos informacijos, bet trūksta medicininio konteksto, kuris padėtų suprasti Pauliaus elgesį ir efektyviai bendradarbiauti su komanda. | Refleksija: Ligoninės aplinkoje kieno kompetencija labiausiai padeda suprasti, kodėl pacientas elgiasi agresyviai?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Pirmas kontaktas",
+            "sceneUpdate": {
+                "emoji": "😡",
+                "title": "Triažos zona — akis į akį",
+                "desc": "Įeinate į triažos zoną. Paulius stovi prie slaugų stoties, viena ranka įsiėmęs į stalą, kita spaudžia apatine nugarą. Veidas iškraipytas skausmo. Ant grindų guli apverstas žurnalų stovas. Dvi slaugės už stoties laiko atstumą. Paulius pamato jūsų uniformą ir jo išraiška keiičiasi — pykčio ir kažko panašaus į baimę mišinys."
+            },
+            "npcDialogue": [
+                {
+                    "character": "patient",
+                    "text": "Puiku. Dabar jiems iškvietė policiją. Man reikia pagalbos, o jie siunčia POLICIJĄ? Ką padarysite, areštuosite už tai, kad skauda?!"
+                }
+            ],
+            "prompt": "Paulius konfrontuojantis, bet aiškiai kenqia stiprų fizinį skausmą. Kaip užmezgate pirmą kontaktą?",
+            "options": [
+                {
+                    "text": "Pakeliate abi rankas delnais į priekį raminančiu gestu ir žengiate pusę žingsnio artyn: „Ei, ramiau. Niekas nieko čia šiandien neareštuoja — ne dėl to atėjau. Man tik reikia, kad atsitrauktumėte nuo slaugų stoties, kad turėtume šiek tiek erdvės kvėpuoti, ir tada galėsime ramiai pasikalbėti apie tai, kas vyksta, ir sugalvoti, kaip gauti jums reikalingą pagalbą.“",
+                    "feedback": "Kodėl: Ketinimas geras — raminimas ir deeskaliacija. Bet „ramiau“ gali skambėti iš aukšto žmogui ūminėje įtampoje. Prašyti judinti, kol dar neužmezgėte jokio ryšio, skamba kaip įsakymas, ne kvietimas. Jis gali tai suvokti kaip fizinės kontrolės pradžią. | PASEKMĖS: Paulius nepajuda. Atsako: „Nesakykite man atsitraukti — aš jau keturias valandas atsitraukiu!“ Sąveika prasideda nesėkmingu prašymu, kas susilpnina jūsų poziciją. | Refleksija: Kuriame sąveikos taške tinka daryti fizinius prašymus ir kas turi įvykti pirmiausia?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Ryžtingai atsistojate tarp Pauliaus ir slaugų stoties, išplėtę pečius, kad kūnu sukurtumėte fizinę užtvarą, apsaugančią personalą už jūsų. Įsmeigiate žvilgsnį į Paulių ir tvirtu, valdingu tonu sakote: „Pone, reikia, kad tuoj pat nutildytumėte balsą ir atsitrauktumėte nuo stalo. Personalas čia bando dirbti savo darbą, ir aš neleisiu niekam to trukdyti.“",
+                    "feedback": "Kodėl: Personalo apsauga — pagrįstas rūpestis, bet fiziškai įsiterpti prieš bet kokį žodinį bendravimą yra konfrontuojantis. „Nutildykite balsą“ ir „atsitraukite“ yra įsakymai, ne pokalbio įžanga. Tai apie personalo poreikius ignoruoja Pauliaus patirtį — jis išgirs: „tavo skausmas nesvarbus, jų patogumas — taip“. | PASEKMĖS: Paulius jus suvokia kaip dar vieną autoritetą, kuris jį atmeta. Jo pyktis nukreipiamas iš ligoninės į jus. Konfrontacija eskaluoja ir prarandama galimybė dialogui. | Refleksija: Kaip apsaugoti personalo saugumą, neveikiant kaip paciento priešas?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Prieinate šiek tiek kampu, ne tiesiai priešais, sustojate maždaug du metrus nuo jo ir laikote laisvą, atvirą pozą, rankas matomas palei kūną. Ramiu, tolygiu tonu sakote: „Esu pareigūnas [vardas]. Suprantu, kad labai ilgai čia laukiate ir kad viskas buvo nepaprastai frustruojanti. Norėčiau išgirsti, kas nutiko, iš jūsų perspektyvos, jei sutiktumėte man papasakoti.“",
+                    "feedback": "Kodėl: Geras priėjimo kampas ir ramus tonas. Tačiau nepaliest „dramblio kambaryje“ — kad buvo iškviesta policija — palieka Pauliaus baimę neišspręstą. Jis aiškiai išreikšė nerimą dėl arešto, o šis atsakymas to nepripažįsta. Pereiti tiesiai prie „kas nutiko“ be skausmo įvertinimo gali skambėti kaip tyrimas, ne parama. | PASEKMĖS: Paulius atsako, bet yra įsitempęs. Nežino, ar čia padėti, ar jį išvesti. Nežinomybė sukuria kliūtį tikram bendravimui. | Refleksija: Kai kas nors aiškiai išsako baimę, kokia kaina jos tiesiogiai neadresuoti?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Liekate ramūs, rankos matomos ir atpalaiduotos palei kūną, išlaikote maždaug dviejų metrų atstumą — pakankamai arti kalbėtis, pakankamai toli gerbti jo erdvę. Kalbate lėtai ir aiškiai: „Pauliau, nesu čia nieko areštuoti. Matau, kad labai skauda šiuo metu. Mano vardas [vardas] ir esu čia padėti tai išspręsti. Ar galite man pasakyti, kas vyksta?“",
+                    "feedback": "Kodėl: Matomos rankos signalizuoja, kad negrąsinate — paslėptos rankos gali evokuoti ginklą. Du metrai gerbia asmenimę erdvę, išlaikant pokalbio nuotolį. Vardo naudojimas iškart kuria ryšį. Skausmo įvardijimas pripažįsta jo patirtį. Arešto ketinimo paneigimas reaguoja į išreikštą baimę. Atviras klausimas suteikia jam žodį. Lėtas kalbėjimas skatina jį sulėtinti savo tempą. | PASEKMĖS: Pauliaus gynybiminė poza šiek tiek atsileidžia. Vis dar piktas, bet gavo erdvę ir kvietimą būti išgirstam — ko jam trūko keturias valandas. | Refleksija: Kodėl svarbu, kad jūsų kūno kalba atitiktų žodžius?",
+                    "type": "positive",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Paciento istorija",
+            "sceneUpdate": {
+                "emoji": "🗣️",
+                "title": "Pauliaus klausymasis",
+                "desc": "Pauliaus poza pasikeiitė — vis dar įtempta, bet kalba vietoj rėkimo. Nuolat perkelia svorį, žandikaulį suspaudęs. Ranka nuolat grįžta prie apatineis nugaros. Akys drėgnos — nuo skausmo, frustracijos ar abiejų."
+            },
+            "npcDialogue": [
+                {
+                    "character": "patient",
+                    "text": "Esu čia nuo dviejų popietės. KETURIAS valandas. Vos bestoviu. Sakiau jiems, kad kažkas negerai — koja tirpsta ir tas skausmas... negaliu apibūdinti. Ir kiekvieną kartą, kai paklausiu, sako „jūs būsite iškviesti“. Niekas net nepažiūri. Nesu koks girtuoklis keliantis netvarką — man kažkas rimtai negerai ir niekam nerūpi!"
+                }
+            ],
+            "prompt": "Paulius pasidalijo savo patirtimi. Kaip reaguojate?",
+            "options": [
+                {
+                    "text": "Lėtai linktelite, veido išraiška rodo užuojautą, bet lieka santūri: „Tai tikrai skamba sunkiai, Pauliau. Matau, kad skubiojoje šį vakarą tikrai pilna, ir žinau, kad tas laukimas baisiai frustruojantis. Bet daiktų mėtymas ir rėkimas ant slaugės — kad ir kaip suprantamas tas pyktis — nepagreitins apžiūros. Dažniausiai tik sulėtina. Pamėginkime tai spręsti produktyviau ir rasti geresnį kelią į priekį.“",
+                    "feedback": "Kodėl: Pripažįsta sunkumą, bet iškart pereina prie elgesio kritikos. „Daiktų mėtymas ir rėkimas“ jam primena blogiausius momentus, užuot sutikus jį ten, kur jis dabar. „Produktyviau“ — neaišku ir šiek tiek iš aukšto. Jis nemetė daiktų dėl linksmų — metė, nes jautėsi nematomas. | PASEKMĖS: Pauliaus gynyba grįžta: „Nebūčiau rėkęs, jei kas nors būtų klausęs nuo pradžių!“ Prarandama atvirumo akimirka ir paleidžiamas pateisinimui ciklas. | Refleksija: Koks skirtumas tarp praeito elgesio pripažinimo ir usibuomo juo?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Sukryžiuojate rankas laisvai ir kalbate tiesiu, dalykišku tonu: „Suprantu, kad frustruojate, Pauliau, bet turiu būti sąžiningas — nesu gydytojas ir neturiu įgaliojimų pakeisti jūsų vietos eilėje. Ligoninė veikia pagal triažos sistemą, kuri pirmenybę teikia kritiškausiems atvejams, ir personalas yra tie, kurie priima tuos sprendimus. Esu tikras, kad šį vakarą jie daro viską, ką gali, su turimais resursais.“",
+                    "feedback": "Kodėl: Faktų atžvilgiu teisinga, bet emociškai naikinančią. Paulius neprašė, kad būtumėte gydytojas — prašė, kad kas nors pasirūpintų. Triažos sistemos gynimas jį pastato jūsų pusėje institucijos, kuri, jo nuomone, jį nuvylė. „Personalas daro viską, ką gali“ atmeta jo gyvenimą, kai buvo ignoruojamas. Prisijungėte prie žmonių, kurie sako būti kantriam. | PASEKMĖS: Pauliaus išraiška sukietėja. „Taigi ir jūs jų pusėje. Niekam visame pastate nerūpi.“ Paskutinis pasitikėjimo tiltas sugriuvė. Eskaliacija dabar labai tikėtina. | Refleksija: Kai kas nors jaučia, kad sistema jį nuvylė, kas nutinka, kai tą sistemą ginate?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Šiek tiek pasilenkiate į priekį, sutikdami jo žvilgsnį pastoviu, susirūpinusiu žvilgsniu: „Girdžiu jus, Pauliau, ir tai tikrai skamba baugiai — tirpimas prie tokio lygio skausmo yra baisū. Keturios valandos — labai ilgas laikas, kai taip kenčiate. Pasikalbėsiu su medicinos komanda apie jūsų situaciją. Bet prašau padėkite man padėti jums — jei išlaikysime ramybę, turėsiu daug didesnę galimybę pritraukti jų dėmesį. Ar galime dirbti kartu?“",
+                    "feedback": "Kodėl: Pripažįsta ir fizinius simptomus (tirpimas bauginantis), ir emocinę patirtį (keturios valandos — ilgas laikas). Pažadas pasikalbėti su medicinos komanda konkretus, ne neaiškus. Ramaus elgesio apipavidališinimas kaip jam pačiam naudinga suteikia galios jausmą ir motyvaciją. „Ar galime bendradarbiauti“ daro jus sąjungininką, ne autoritetą. | PASEKMĖS: Paulius linkteli. Pirmą kartą kas nors pripažino jo skausmą ir baimę. Prašymas likti ramiam dabar turi priežastį — tarnauja jo interesams. Nori bendradarbiauti, nes bendradarbiavimas įgijo prasmę. | Refleksija: Kaip elgesio prašymo apipavidalinimas kaip savojo intereso keičia motyvaciją jį vykdyti?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Trumpam atsiremate ranka į stalą šalia Pauliaus ir kalbate su nuoširdžiu skubumu balse: „Matau, kad labai skauda, ir rimtai vertinu tai, ką sakote apie kojos tirpimą — tai tikrai ne smulkmena, kurią galima ignoruoti. Leiskite man dabar tuojau eiti surasti gydytojo ir tiksliai išsiaiškinti, kur esate eilėje. Likite čia dėl manęs — po kelių minučių grįšiu su atsakymu, vienaip ar kitaip.“",
+                    "feedback": "Kodėl: Rodo nuoširdžią empatiją ir aktyvią paramą. Tačiau išeiti nuo paciento iškart po kontakto užmezgimo nutraukia ką tik sukurtą ryšį. „Likite čia“ — įsakymas žmogui, kuris dar nesutiko jūsų klausyti. Jei greitai nerasite gydytojo, delsa bus dar vienas sulužytas pažadas dienoje pilnoje nusivylimų. | PASEKMĖS: Paulius laukia nerimaudamas. Jei greitai grįšite su geromis žiniomis, veikia. Jei būsite išvykę ilgiau nei kelias minutes, pasitikėjimas išgaruoja ir nerimas grįžta — blogiau nei anksčiau, nes dabar ir pareigūnas jį paliko. | Refleksija: Kokia rizika pažadų, priklausančių nuo kitų žmonių bendradarbiavimo?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Slaugės požiūris",
+            "sceneUpdate": {
+                "emoji": "👩‍⚕️",
+                "title": "Už stalo",
+                "desc": "Kol Paulius sėdi laukiamajame ant kėdės, kurią jam radote, išeinate trumpam pasikalbėti su slauge Collins. Matosi, kad ji sukrėsta — rankos šiek tiek dreba. Kita slaugė stebi Paulių iš už stoties."
+            },
+            "npcDialogue": [
+                {
+                    "character": "nurse",
+                    "text": "Tą stovą metė tiesiai prie mano galvos. Žinau, kad jam skauda, bet turiu trisdešimt kitų pacientų, kurie taip pat laukia. Esame nepakankamas personalas ir negaliu jo praleisti vien todėl, kad rėkia garsiausiai. Jei tai padaryčiau, kiekvienas pacientas išmoktų, kad rėkimas reiškia greitesnę apžiūrą. Noriu, kad jis išeitų. Ir turiu parašyti incidento ataskaitą — ligoninės politika reikalauja to prie bet kokios fizinės agresijos. Ar galite užtikrinti, kad gaučiau jūsų ženklo numerį ir trumpą pareiikme prieš išvykdami?"
+                }
+            ],
+            "prompt": "Slaugė jaučiasi grėsmei ir nori Pauliaus pašalinimo. Kaip susitvarkysite su jos rūpesčiais?",
+            "options": [
+                {
+                    "text": "Suprantu — kai ant jūsų kažką meta, tai baisu, ir turite visą teisę jaustis nesaugiai. Nenoriu perrašyti jūsų triažos sprendimų, tai ne mano vaidmuo. Bet Paulius aprašo kojos tirpimą kartu su nugaros skausmu. Ar vyresnioji slaugė galėtų atlikti greitą peržiūrą? Jei jo simptomai pasikeitė, tai galėtų pateisinti prioriteto pakeitimą klinikiniais pagrindais. Tuo tarpu liksiu šalia ir užtikrinsiu visų saugumą.",
+                    "feedback": "Kodėl: Pripažįsta slaugės baimę nesumenkindami. Aiškiai gerbiate triažos sistemą ir jos profesinį autoritetą — neperrašote, o atkreipiate dėmesį į galimą kliškinį pokyčį. Konkrečių simptomų (kojos tirpimas) paminėjimas suteikia naudingos medicininės informacijos, pateisinančios peržiūrą dėl klinikinių, ne elgesio priežasčių. Pažadas likti sprendžia jos baimie dėl saugumo. | PASEKMĖS: Slaugės Collins įtampa nusileidžia. Niekas jai nesako pasiduoti — ji gauna klinickinę priežastį peržiūrai, kas išlaiko jos profesinį vientisiumą ir sistemos teisingumą. Susisiekia su vyresniąja slauge. | Refleksija: Kaip ginti pacientą nepakenkiant personalui, kuris jaučiasi to paciento auka?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Prieinate arčiau slaugės, nuleidžiate balsą, kad parodytumėte rimtumą ir solidarumą: „Girdiu jus ir nuoširdžiai gailiuosi, kad tai nutiko. Žurnalų stovas, lekiantis pro galvą — tai turėjo būti siaubinga, ir niekas neturėtų su tuo susidurti darbe. Turite mano žodį: užtikrinsiu, kad jis daugiau neerzintų nei jūsų, nei kolegių. Jei sukėls bet kokių tolesnių problemų, nedelsiant pašalinsiu jį iš teritorijos.“",
+                    "feedback": "Kodėl: Stipri empatija slaugei, ir apsaugos pažadas ramina. Tačiau pažadas pašalinti pacientą iš ligoninės — galinčį turėti rimtą medicininią būklę — yra etiškai ir teisiškai problemaiškas. Jei Pauliaus tirpimas rodo nervo suspaudimą, pašalinimas gali padaryti rimtą žalą. Taip pat visiškai atsidūrėte personalo pusėje ir palikote pacientą. | PASEKMĖS: Slaugė jaučiasi apsaugota, bet davėte pažadą, galintį prieštarauti Pauliaus sveikatos poreikiams. Jei jį pašalinsite ir jo būklė pablogės, rimtos teisinės pasekmės visiems. | Refleksija: Ar galite apsaugoti personalą nepotencialiai apleisdami paciento sveikatos poreikių?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Atsiremate į stalą laisvai, stengdamiesi išlaikyti pokalbinį toną, o ne oficialų: „Žinau, kad visa ši situacija buvo nepaprastai stresinga jums, ir vertinu, kad laikotės. Kol kas jis nurimęs ir nuoširdžiai nemanau, kad jis tikras pavojus kam nors čia. Ar kas nors iš komandos galėtų jį trumpam apžiūrėti arba bent duoti informacijos, kiek dar laukti? Iš patirties, kartais žinojimas, kad tavimi rūpinasi, daro milžinišką skirtumą.“",
+                    "feedback": "Kodėl: Geras įžvalga, kad komunikacijos spragos skatina paciento agresiją. Pasiūlymas praktins ir sprendžia šakninę priežastį. Tačiau sumenkina slaugės patirtį — „nemanau, kad pavojingas“ sumenkina jos baimę. Ant galvos kažką metė. Prašyti daryti daugiau dėl žmogaus, kuris ją išgąsdino, prieš pilnai pripažįstant jos patirtį, gali skambėti nejautriai. | PASEKMĖS: Slaugė jaučia, kad jos baimė nepriimama rimtai. Gal sutiks nenoriami, bet auga pagiena. Pasiūlymas prasmingas, bet pristatymui reikėjo daugiau empatijos slaugei. | Refleksija: Tarpininkaujant tarp dviejų pusių, kaip užtikrinti, kad pilnai pripažįstate abiejų patirtį?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Perkėliate svorį ir žvilgtelite atgal į laukiamąjį, tada atsisukate į slaugę Collins su atvirai dalykiška išraiška: „Pažiūrėkite, suprantu — jis neturėjo nieko mėtyti, ir neteisinu to. Bet atvirai, keturios valandos sėdėti tokiame skausme be jokios informacijos, be jokio bendravimo? Galiu suprasti, kodėl neištverė. Gal jei kas nors iš komandos būtų anksčiau pasikalbėjęs, dabar čia nebūtume.“",
+                    "feedback": "Kodėl: Nors pastebėjimas apie komunikacijos spragas gali būti teisingas, šis atsakymas kaltina slaugę dėl paciento smurto. Ji — darbo vietos užpuolimo auka, ir dabar jai sakote, kad tai iš dalies jos kaltė. Tai sunaikina jūsų ryšį su personalu ir pakerta bendradarbiavimą, kurio reikia. | PASEKMĖS: Slaugė Collins užsidaro. Nebepeadės sprendžiant situaciją. Gali pateikti skundą. Kiti, kurie išgirdo, nebetikės jūsfų buvimu. Praradote svarbiausius sąjungininkus pastate. | Refleksija: Net jei sistemos klaida prisidėjo prie situacijos, ar tinka kaltinti konkretų žmogų priešais jus?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Žmonos atvykimas",
+            "sceneUpdate": {
+                "emoji": "👩",
+                "title": "Naujas balsas",
+                "desc": "Į skubiąją pagalbą įbėga moteris, nerimastingai apsidairydama. Pamato Paulių ir skuba link jo — tada sustingsta, pamatydama jus uniformoje šalia. Jos veide greitai keičiasi palengyėjimas, sumaištis ir baimė."
+            },
+            "npcDialogue": [
+                {
+                    "character": "wife",
+                    "text": "Pauliau! Dieve mano — kodėl čia policija?! Kas nutiko? Ar jis areštuojamas?!"
+                },
+                {
+                    "character": "patient",
+                    "text": "Jiems nerūpi aš, Laura. Niekam nerūpi. Esu čia valandas ir vietoj gydytojo atsuntė policiją."
+                }
+            ],
+            "prompt": "Žmonos atvykimas vėl atnešė nerimą ir gali vėl uždegti Pauliaus frustruciją. Kaip reaguojate?",
+            "options": [
+                {
+                    "text": "Prieinate prie žmonos profesionaliu, dalykišku žingsniu ir kiek pakelta ranka, tarsi pristatydami situaciją: „Ponia, jūsų vyras tapo trukdžiu laukiamajame ir ligoninės apsauga mus iškvietė užtikrinti visų saugumą. Šiuo metu jis nėra areštuotas, bet turiu jums žinoti, kad anksčiau mėtė daiktus į personalo pusę. Situaciją sprendiame ir stengiamės viską kontroliuoti nuo šiol.“",
+                    "feedback": "Kodėl: Faktų atžvilgiu teisinga, bet pateikta blogiausiu įmanomu būdu. Pauliaus aprašymas kaip „trukdiu“ ir daiktu mėtymo pabrrėžimas prieš žmoną sužadins jos gynėjiškus instinktus ar gėdą — nė vienas nepadeda. „Situaciją sprendiame“ išskiria ją iš vaidmens, nors ji galėtų būti didžiausia jūsų atrama. | PASEKMĖS: Laura arba susigėsta ir pradeda Paulių peikti (eskaluodama jo žeminimą), arba tampa gynrėjiška jo pusėje. Bet kuriuo atveju iš galimos sąjungininkės padarėte komplikaciją. | Refleksija: Kaip tai, kaip aprašote žmogaus elgesį artimam žmogui, formuoja tai, kas bus toliau?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Nusprendiiate, kad tai privatus šeimos momentas ir geriausia nesiškišti — duoti Pauliui galimybę savo žodžiais paaiškinti žmonai situaciją. Atsitraukiate kelis žingsnius atgal link sienos, laisvai sukryžiuojate rankas ir suteikiate jiems aiškų privatumo burbulą. Manote, kad Paulius geriausiai pažįsta savo žmoną ir pats ras tinkamą būdą ją supažindinti su padėtimi be jūsų dalyvavimo, formuojančio naratyvą.",
+                    "feedback": "Kodėl: Pagarba jų santykiui ir erdvės suteikimas yra apgalvota. Tačiau Pauliaus dabartinėje emocinėje būsenoje jo versija gali sustiprinti aukos jausmą ir vėl uždegti pyktį — ypač prieš auditoriją. Atsitraukti taip pat reiškia prarasti įtaką kritiniu momentu. | PASEKMĖS: Paulius išlieja širdį Laurai, kuri vis labiau pyksta už jį. Jų bendra frustracija didesnė nei kiekvieno atskirai. Praradote raminančią įtaką, kurią kūrėte. | Refleksija: Kada duoti erdvę naudinga ir kada tai leidžia situacijai vėl paaštrėti?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Atsisukate į Laurą su ramiu, raminančiu veidu ir atvira poza: „Jūs turbūt Laura — Paulius jus minėjo. Esu pareigūnas [vardas]. Pauliui niekas negresia. Jis labai kenčia skausmą ir turėjo tikrai sunkų laukimą šį vakarą. Kalbėjau su juo ir su medicinos personalu, dirbame, kad kuo greičiau būtų apžiūrėtas. Jūsų buvimas gali jam labai padėti — dabar jam tikrai reikia artimo žmogaus paramos.“",
+                    "feedback": "Kodėl: Jos vardo naudojimas (iš Pauliaus ankstesnio pokalbio) iškart rodo, kad esate informuoti ir įsitraukę. „Paulius jus minėjo“ netiesiogiai parodo, kad klausėtės, ne tik valdėte. Arešto paneigimas tiesiogiai reaguoja į jos baimę. Jos atvykimo apiforminimas kaip pagalba suteikia konstruktyvų vaidmenį. „Reikia paramos“ pripažįsta ir jos susirūpinimą, ir jo kančią be neigiamo elgesio akcentavimo. | PASEKMĖS: Lauros baimė išnyksta. Ji eina pas Paulių ir ima jį už rankos. Paulius matomai atsileidžia — pagaliau kas nors jo pusėje, ir pareigūnas tai leido, o ne blokavo. Emocinė temperatūra žymiai krenta. | Refleksija: Kaip artimo žmogaus įtraukimas kaip sąjungininko, o ne tik liudininko, keičia dinamiką?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Atsisukate taip, kad kreiptumėtės į abu vienu metu, rankos gestu apjungdami juos: „Laura, prašau nesijaudinkite — viskas čia kontroliuojama. Pauliau, gal galėtumėte žmonai papasakoti, apie ką kalbėjomės ir kokią pažangą padarėme? Manau, ji turėtų tai išgirsti tiesiogiai iš jūsų. Noriu, kad abu žinotumėte, jog tikrai judame į priekį, ir viskas nuo šiol bus gerai.“",
+                    "feedback": "Kodėl: Apimantis ir optimistiškas. Tačiau pavesti Pauliui pasakojimą, kai jis vis dar emociškai įkrautas, rizikuoja iškraiptu aiškinimu. „Viskas bus gerai“ — pažadas, kurio negalite garantuoti — o jei vyresnioji slaugė neperžiūrės? O jei laukimas tęsis? Nustatyti lūkesčius, kurių nekontroliuojate, paruošia visus nusivylimui. | PASEKMĖS: Pauliaus aiškinimas sutelkia dėmesį į skriaudas. Laura susijaudina. Kai pažadėta „pažanga“ greitai nepasiteisina, abu jaučiasi, kad melavėte. | Refleksija: Kaip sukelti pasitikėjimą be pažadų, priklausančių nuo kitų žmonių?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Lūžio taškas",
+            "sceneUpdate": {
+                "emoji": "⚡",
+                "title": "Kantrybė baigiasi",
+                "desc": "Praėjo penkiolika minučių. Vyresnioji slaugė dar nepasiroudė. Paulius sėdi su Laura, bet skausmas matomai dideja — nuolat kruta, suspaustas žandikaulis, sunkiai kvepuoja. Staiga atsistoja su grimasą ir žengia žingsnį link slaugų stoties."
+            },
+            "npcDialogue": [
+                {
+                    "character": "patient",
+                    "text": "VISKAS. Daugiau nelaukiu. Jei niekas man nepadės, pats eisiu į gydymo kambarį. Man nerūpi, kas bandu stab dyti — MAN REIKIA GYDYTOJO DABAR!"
+                }
+            ],
+            "prompt": "Paulius ruošiasi įeiti į gydymo zoną. Skausmas tikras, bet riba irgi. Kaip reaguojate?",
+            "options": [
+                {
+                    "text": "Įžengiate jam į kelią, kojos tvirtai, ir nustatote aiškią ribą nuleistinu, bet tvirtu balsu: „Pauliau, suprantu frustracjią — tikėkite manimi. Bet turiu apsaugoti visus čia, įskaitant jus. Jei įėjsite į gydymo zoną be leidimo, tai taps saugumo incidentu, kurį turėsiu dokumentuoti. Tai jus įtrauks į sistemą kaip trukdantį pacientą, ir tai jus lydės. Leiskite man tai išspręsti teisingu keliu.“",
+                    "feedback": "Kodėl: Tai skamba išmatuotai ir net rūpestingai — įspėjimas pateikiamas kaip Pauliaus apsaugojimas nuo institucinių pasekmių. Tačiau dokumentavimo, „sistemos“ ir „trukdančio paciento“ etikeičių pristatymas didžiausios įtampos momentu jūsų vaidmenį iš gynėjo paveričia biurokratine grėsme. Tiksli informacija apie pasekmes, pateikta blogiausiu įmanomu momentu, panaudoja jo pažidžiamą prieš jį, o ne padėda. | PASEKMĖS: Paulius atsitraukia, bet ne dėl pasitikėjimo — dėl baimės prieš institucinį atlygį. Visas per sąveiką sukurtas ryšys pakeistas paklusnumu per baimę. Laura žiūri, kaip jos vyrą įspėja apie „sistemą“, kol jis ranėsi skausmu. Emocinė žala nematoma, bet ilgalaikė. | Refleksija: Kai tiksli informacija apie pasekmes pateikiama blogiausiu įmanomu momentu, ar ji tarnauja žmogui, ar jį kontroliuoja?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Ramiai atsistojate tarp Pauliaus ir gydymo kambario durų — ne blokuodami, bet būdami ten, stabilūs ir pastovūs: „Pauliau, žinau, kad tai nepakeliama. Pažadėjau padėti ir tai rimtai. Ėjimas ten sukurs naują problemą, kuri jus nutolins nuo gydytojo, o ne priartins. Duokite man penkias minutes — dabar eisiu rasti vyresniąją slaugę ir parnešiu jums atsakymą. Laura, ar galėtumėte likti su juo?“",
+                    "feedback": "Kodėl: Pozicija sukuria naturtalią pauzę be konfrontacijos. Skausmo pripažinimas kaip „nepakeliamo“ patvirtina eskaliavimą, o ne jį sumenkina. Pasekmės apiforminimas kaip savęs žalojančio, o ne baudžiamojo, kreipiasi į jo interesą. Penkių minučių pažadas konkretus ir laiku apribotas. Lauros vaidmens suteikimas įtraukia ją kaip raminančią jėgą. | PASEKMĖS: Paulius dvejoja. Pripažinimo, konkretaus laiko ir žmonos rankos ant jo rankos derinys sukuria pakankamai trinties sustabdyti judėjimą į priekį. Vėl atsiseda, skaičiuodamas minutes. | Refleksija: Kaip konkretaus laiko rėmo nurodymas sukuria atskaitomybę ir tuo pačiu duoda laiko?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Ramiai pakeliate vieną ranką ir kalbate matuotu, tvirtu balsu: „Pauliau, suprantu, kur dabar esate — tikrai suprantu. Bet turiu būti tiesus: įėjimas į gydymo zoną be leidimo galėtų būti laikomas įsibrovimu, ir tai pakeistų situaciją iš medicininio vizito į teisinį reikalą. Nuoširdžiai to jums nenoriu, ir žinau, kad jūs irgi to nenorite. Neikime ta kryptimi, kartu rasime geresnį kelią.“",
+                    "feedback": "Kodėl: Teisinis rėmas faktų atžvilgiu teisingas ir tonas nuoširdžiai rūpestingas. Tačiau teisinės terminologijos („įsibrovimas“, „teisinis reikalas“) įvedimas perkelia sąveiką iš sveikatos priežiūros į baudžiamąjį teisinumą — būtent to Paulius bijojo nuo tada, kai pamatė jūsų uniformą. Tai gali skambėti kaip paslėpta grėsmė mandagioje formoje. | PASEKMĖS: Paulius sustoja, bet pasitikėjimas jumis nukenria. Dabar jus suvokia pirmiausia kaip policiją, o tik tada kaip pagalbininką. Atsiseda, bet ankstesnė gera valia pažeista. | Refleksija: Kaip teisinė kalba keičia žmogaus suvokibą apie jūsų vaidmenį, net kai pateikiama su geais ketinimais?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Atsisukate į Laurą su nuoširdžiu, beveik maldaujančiu žvilgsniu, uždėdami momento svorį ant jos: „Laura, man tikrai reikia jūsų pagalbos dabar. Ar galėtumėte pasikalbėti su Pauliumi, palikti šalia jo ir pabandyti jį nuraminti bei palaikyti sėdintį, kol aš surasiu ką nors iš medicinos komandos? Manau, iš jūsų lūpų tai reikš jam daug daugiau. Būsiu kuo greičiau — tik neleiskite jam eiti pro tas duris.“",
+                    "feedback": "Kodėl: Įtraukti Laurą protinga, bet palikti jai visą deeskaliavimą ir išeiti rizikinga. Prašote išsigandusios sutuoktinės pačiai fiziškai tvarkytis su piktu vyru skausme — vaidmenį, kurio ji neqturėtų nešti viena. Jei Paulius jos neklausys, ji neturi jokio autoriteto jo sustabdyti, o jūsų ten nėra. | PASEKMĖS: Laura bando, bet Paulius ją atstumia: „Ir tu nepradėk!“ Ji įskaudinta ir perkrauta. Paulius pasiekia gydymo kambario duris. Praradote situacijos kontrolę iš toli. | Refleksija: Kada delegavimas tinkamas ir kada tai atsakomybės nusimetimas?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Sprendimas ir priežiūra",
+            "sceneUpdate": {
+                "emoji": "🩺",
+                "title": "Tiltas",
+                "desc": "Vyresnioji slaugė atvyko. Peržiūrėjo Pauliaus dokumentus ir patvirtino, kad simptomai gali pateisinti peržiūrą. Bet jai reikia Pauliaus bendradarbiavimo tinkamam neurologiniam tyrimui. Jis išsekęs, kenia skausmą ir vos laikosi. Laura sėdi šalia ir laiko jį už rankos."
+            },
+            "npcDialogue": [
+                {
+                    "character": "chargenurse",
+                    "text": "Galiu jį dabar peržiūrėti, bet man reikia jo ramaus ir bendradarbiaujainčio tinkamam neurologiniam tyrimui. Pareigūne, ar galite tai palengvinti?"
+                }
+            ],
+            "prompt": "Medicinos komanda paruošta, bet Pauliui reikia pereiti iš krizės režimo į paciento režimą. Kaip tai perduosite?",
+            "options": [
+                {
+                    "text": "Informuojate Paulių apie laukiančius dalykus: „Gerai, Pauliau — vyresnioji slaugė čia dėl jūsų, ir tai geros žinios. Tik turiu nustatyti lūkesčius: prašau pilnai bendradarbiaukite su tyrimu, vykdykite jos nurodymus ir išlaikykite ramybę. Pažymėsiu savo ataskaitoje, kad tai išsispręsdė be incidento, kas jūsų įrašą paliks švarų. Sutarta?“",
+                    "feedback": "Kodėl: Skamba profesionaliai ir net palaikainčiai — nustatant aiškius lūkesčius ir bfndračarbiaviną kaip naudą Pauliaus įrašui. Tačiau „pažymėsiu ataskaitoje“ ir „išlaikysite įrašą švarų“ įveda transakciŽį, kone teisinį rėmą momentu, kai Pauliui labiausiai reikia žmogiško ryšio. Tai užuomina, kad medicininė priežiūra sąlyginne, priklausanti nuo gero elgesio, ir kad visą laiką skaičiavote taškus. „Gerai?“ reikalauja sutikimo su sąlygomis, o ne kviečia atsigauti. | PASEKMĖS: Paulius paklusta, bet galutinis įspūdis — pareigūno, valdaničio bylą, o ne besirūpinančio žmogumi. Šią istoriją papasakos kaip „man elgėsi kaip su įtariamuoju net per apžiūrą“. Vyresnioji slaugė pradeda darbą su pacientu, kuris yra budrus ir atsargus, o ne palengvėjęs ir bendradarbiaujantis. | Refleksija: Kai akimirka reiškauja žmogiško šilumo, kokia kaina nutylinti į profesinę procedūrą?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Mandagiu linktelėjimu kreipiatės į Paulių ir Laurą kartu, šiltu, bet trumpu tonu: „Geros žinios — medicinos komanda dabar atidžiau apžiūrės, kas vyksta su jūsų nugara ir tuo tirpimu. Aš atsitrauksiu iš kelio ir paliksiu jums privatumo apžiūrai. Jei ko nors prireiks iš manęs, būsiu čia pat už užuolaidos. Esate gerose rankose nuo šiol.“",
+                    "feedback": "Kodėl: Mandagu ir pagarbiai, bet visiškai praleidžia emocinį perėjimą. Pauliui reikia ne tik fizinės apžiūros — reikia pripažinimo, kad jo patirtis buvo svarbi. Išeiti be to tilto palieka emocinę lanką nebaigia. Taip pat neparuošiate jo tyrimui ir neišspręndžiate vyresniosios slaugės prašymo padėti su jo bendradarbiavimu. | PASEKMĖS: Slaugė pradeda, bet Paulius vis dar emociškai disreguliuotas. Per apžiūrą irzlus, kas apsunkina ir trukdo kruopštumui. Komanda norėtu, kad labiau būtumėte paruošę. | Refleksija: Ar jūsų darbas baigiasi, kai baigiasi neatidėliotina krizė, ar kai žmogus tikrai pasiruošęs tam, kas laukia?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Lengvai suplojate rankomis ir prabilstate padrąsinančiu, energingu tonu: „Pauliau, slaugė pasiruošusi jums dabar — tai tiksliai tai, ko laukėte visą vakarą. Reikia, kad pilnai bendradarbiautumėte su ja apžiūros metu, kad ji galėtų susidaryti aiškų vaizdą apie tai, kas vyksta. Pasirūpinkime, kad nuo šiol viskas vyktų sklandžiai. Laura, kviečiu likti šalia jo visą laiką.“",
+                    "feedback": "Kodėl: Aišku ir palaikanti, bet „pilnai bendradarbiaukite“ skamba kaip įsakymas, ne kvietimas. „To laukėte“ — tiesa, bet šiek tiek transakciška — lyg apžiūra būtų sąlygiškai suteikta. Nepripažįsta to, ką jis išgyveno. | PASEKMĖS: Paulius paklusta, bet jaučiasi valdomas, ne gerbiamas. Apžiūra įvyksta, bet emocinė žaizda iš patirties neišspręsta. Papasakos kaip „ignoravo mane, kol neparušiau tvarkos“. | Refleksija: Koks skirtumas tarp paklusnumo pasiekimo ir tikro sprendimo pasiekimo?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Geros žinios, Pauliau — vyresnioji slaugė dabar nori jus apžiūrėti ir atidžiau pažiūrėti į nugarą ir tą tirpimą. Žinau, kad šiandien buvo baisiai sunku, ir žinau, kad kovojote, kad kas nors pagaliau išgirstų. Buvote išgirsti. Tai kitas žingsnis. Ar prieš tai ko nors reikia — vandens, akimirkos atsičiaupti, kad galėtumėte pasiruošti apžiūrai ramiai?",
+                    "feedback": "Kodėl: Peržiūrą apiforminta kaip tiesioginin jo gynimo pasakmė, ne atlygis už raminimąsi. „Buvote išgirsti“ — viena stipriausių frazių tam, kas valandas jautėsi nematomas. Pasirinkimu (vanduo, akimirka) siūlymas grąžina galios jausmą ir signalizuoja pagarbą. Perėjimas nuo pareigūno tarpininkavimo prie slaugės vedimo sklandus ir bendradarbiaujantis. | PASEKMĖS: Paulius įkvepia. Pirmą kartą po valandų pečiai nusileidžia. Linkteli. Laura spaudžia jo ranką. Slaugė pradeda apžiūrą su bendradarbiaujaniuČiu pacientu. Krizė baigta — ne todėl, kad buvo nuslopinta, o todėl, kad buvo išspręsta. | Refleksija: Kaip žmogaus patirties pripažinimas sukuria emocinę erdvę bendradarbiavimui?",
+                    "type": "positive",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Įvertinimas ir atskleidimas",
+            "sceneUpdate": {
+                "emoji": "🏁",
+                "title": "Mokymo įvertinimas",
+                "desc": "Atgal į postą. Seržantas Davis įvertina jūsų veiksmus šioje ligoninės intervencijoje."
+            },
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Trikdymas ligoninėje tikrina įgūdį, kurio dauguma pareigūnų niekada netreniruoja: žinojimą, kada jūs nesate pagrindinis reaguotojas. Jūs įžengote į pastatą pilną medicinos specialistų, kurie supranta Pauliaus būklę geriau nei jūs kada nors suprasite. Jūsų užduotis buvo ne diagnozuoti, ne gydyti ir ne spręsti, kada jis bus apžiūrėtas. Jūsų užduotis buvo sukurti saugumo rėmus — fizinius ir emocinius — leidžiančius medicinos personalui atlikti savo darbą. Tas skirtumas — viso scenarijaus esmė."
+                },
+                {
+                    "character": "officer",
+                    "text": "Sunkiausia man buvo įtampa tarp slaugės apsaugos ir Pauliaus gynimo. Slaugei Collins metė daiktą prie galvos — ji nusipelnė apsaugos. Bet Paulius tikrai kentė agoniją ir buvo ignoruojamas keturias valandas. Jautėsi, kad padėti vienam reiškia nuvili kitą."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Ta įtampa — ne problema, kurią reikia išspręsti, o pusiausvyra, kurią reikia išlaikyti. Ir raktas buvo rasti kelią, kuris tarnauja abiem, neišduodant nė vieno. Kai pripažinote slaugės baimę ir tuo pačiu atkreipėte dėmesį į Pauliaus naujus simptomus klinikiniais pagrindais, jūs jai davėte priežastį peržiūrėti, kuri išsaugėjo jos profesinį vientisimą. Neperrašėte jos. Neatmetėte Pauliaus. Radote siaurą taką, kur paciento gynimas ir personalo saugumas sugyvena. Tai reiškia būti saugumo rėmais, o ne sprendimų priėmėju svetimoje srityje."
+                },
+                {
+                    "character": "trainer",
+                    "text": "Paulius vėliau parašė laišką, kuriame įvertino pareigūną, kuris „tikrai klausėsi, kai niekas kitas nenorėjo“. Tas laiškas egzistuoja, nes jūs supratote kažką esminio: agresyvus elgesys ligoninėje beveik visada reiškia įtampą, ne nusikalsamą ketinimą. Pareigūnai, kuriems nepavyksta šiose situacijose, yra tie, kurie kiekvieną pakeltą balsą laiko grėsme, kurią reikia nuslopinti. Tie, kuriems pavyksta — išgirsta skausmą po pyktiu ir reaguoja į tai. Leiskite papasakoti, kas įvyko po to, kai išėjote."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {
+            "name": "Dispečerinė",
+            "avatar": "📻"
+        },
+        "security": {
+            "name": "Ligoninės apsauga",
+            "avatar": "🔒"
+        },
+        "patient": {
+            "name": "Paulius (pacientas, 45)",
+            "avatar": "😡"
+        },
+        "nurse": {
+            "name": "Slaugė Collins",
+            "avatar": "👩‍⚕️"
+        },
+        "chargenurse": {
+            "name": "Vyresnioji slaugė",
+            "avatar": "🩺"
+        },
+        "wife": {
+            "name": "Laura (žmona)",
+            "avatar": "👩"
+        },
+        "officer": {
+            "name": "Jūs (pareigūnas)",
+            "avatar": "👮"
+        },
+        "trainer": {
+            "name": "Seržantas Davis",
+            "avatar": "👮‍♂️"
+        }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Išskirtinė deeskaliacija sveikatos priežiūroje!",
+            "emoji": "🌟",
+            "feedback": "Parodėte puikų bendradarbiavimą su medicinos personalu, nuoširdžią empatiją pacientui krizėje ir meistršką deeskaliaciju veikiant spaudimui. Gebėjimas pripažinti ir paciento kančią, ir slaugės baimę — nestojant į nė vieną pusę — yra auksinis standartas ligoninės intervencijoms. Sukūrėte sąlygas priežiūrai, o ne konfrontacijai."
+        },
+        "good": {
+            "title": "Stiprus pasirodymas",
+            "emoji": "✅",
+            "feedback": "Gerai susitvarkėte su sudėtinga daugiapuše ligoninės situacija, rodėdami gerą empatiją pacientui ir pagrįstą bendradarbiavimą su personalu. Kai kurios galimybės gilesniam ryšiui ar efektyvesniam tarpininkavimui buvo praleistos, bet bendras požiūris buvo profesionalus ir prisidėjo prie teigiamo rezultato."
+        },
+        "average": {
+            "title": "Pakankama reakcija",
+            "emoji": "📊",
+            "feedback": "Išsprėndėte neatidėliotiną saugumo problemą, bet praleisdote kelias galimybes spręsti pagrindines paciento įtampos priežastis. Personalas galėjo reikalauti daugiau paramos, o paciento emocinė patirtis nebuvo pilnai pripažinta. Peržiūrėkite policijos ir sveikatos priežiūros bendradarbiavimo metodus ir empatija grįstą deeskaliaciju."
+        },
+        "poor": {
+            "title": "Reikalingas ryškus pagerinimas",
+            "emoji": "⚠️",
+            "feedback": "Jūsų požiūris traktavo situaciją kaip saugumo problemą, o ne sveikatos situaciją su saugumo dimensija. Teisėti paciento sveikatos poreikiai buvo antraeiliai elgesio kontrolei, o medicinos personalas galėjo negauti reikalingos paramos bendradarbiavimui. Peržiūrėkite pacientui orientuotos deeskaliacijos principus, policijos ir sveikatos priežiūros bendradarbiavimą ir skausmu sukeltos agresijos supratimą."
+        }
+    },
+    "metrics": {
+        "collaboration": {
+            "name": "Sveikatos priežiūros ir policijos bendradarbiavimas",
+            "description": "Efektyvus bendradarbiavimas su medicinos personalu neignoruojant jų klinikinio autoriteto ar neatsisakant savo saugumo vaidmens",
+            "icon": "🤝"
+        },
+        "empathy": {
+            "name": "Empatija pacientui",
+            "description": "Skausmo, baimės ir frustracijos kaip agresijos variklių atpažinimas ir reakcija",
+            "icon": "💚"
+        },
+        "safety": {
+            "name": "Situacijos saugumas",
+            "description": "Fizinio saugumo personalui, pacientui ir kitiems išlaikymas vengiant neproporcingaų reakcijų",
+            "icon": "🛡️"
+        },
+        "communication": {
+            "name": "Komunikacijos efektyvumas",
+            "description": "Tinkamos kalbos, tono ir kūno kalbos naudojimas; kontraproduktyviu frazių vengimas",
+            "icon": "🗣️"
+        },
+        "resolution": {
+            "name": "Rezultatui orientuotas sprendimas",
+            "description": "Siekimas tvaraus sprendimo, o ne laikino elgesio slopinimo",
+            "icon": "🎯"
+        }
+    }
+}

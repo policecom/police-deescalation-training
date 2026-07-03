@@ -1,0 +1,671 @@
+{
+    "scenarioId": "traffic-stop",
+    "reviewVersion": "1.0",
+    "title": "Eismo sustabdymo deeskalacija \u2014 Veiklos analizė",
+
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Dispečerinė ir sustabdymas",
+            "criticalSkills": ["Profesionalus prisistatymas", "Aiški komunikacija", "Procedūrinis skaidrumas"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Laba diena, esu pareigūnas Norton. Sustabdžiau jus, nes viršijote leistiną greitį 25 km/h. Ar galėčiau pamatyti jūsų vairuotojo pažymėjimą ir transporto priemonės registraciją, prašau?",
+                    "strengths": [
+                        "Profesionalus prisistatymas vardu iš karto įtvirtina teisėtumą",
+                        "Konkretus pažeidimas pašalina dviprasmybes",
+                        "Mandagus dokumentų prašymas išlaiko orumą",
+                        "Profesionalus pagrindas nustatytas nuo pirmo sakinio"
+                    ],
+                    "professionalImpact": "Jūsų profesionalus požiūris iš karto sumažino įtarimą, kad sustabdymas yra savavališkas, ir nustatė bendradarbiavimo pagrindą."
+                },
+                "partially_positive": {
+                    "choiceText": "Laba diena. Sustabdžiau jus dėl greičio viršijimo. Vairuotojo pažymėjimą ir registraciją, prašau.",
+                    "adequate": [
+                        "Mandagiai ir paminima sustabdymo priežastis",
+                        "Išvengta neatidėliotinos eskalacijos"
+                    ],
+                    "missed": [
+                        "Nepateiktas pareigūno vardas",
+                        "Nepateiktos konkrečios pažeidimo detalės",
+                        "Praleistas visiškas skaidrumas, kuriantis pasitikėjimą"
+                    ],
+                    "improvement": "Įtraukite savo vardą ir konkrečias pažeidimo detales iš karto. Visiškas skaidrumas apsaugo vairuotoją nuo jausmo, kad sustabdymas yra savavališkas."
+                },
+                "neutral": {
+                    "choiceText": "Laba diena, vairuotojo pažymėjimą ir registraciją, prašau.",
+                    "adequate": [
+                        "Nekonfrontuojantis tonas",
+                        "Bazinis mandagumas išlaikytas"
+                    ],
+                    "missed": [
+                        "Jokio prisistatymo ar vardo",
+                        "Nepateikta sustabdymo priežastis",
+                        "Vairuotojas paliktas spėlioti, kodėl buvo sustabdytas",
+                        "Praleista galimybė nustatyti profesionalų pagrindą"
+                    ],
+                    "improvement": "Visada prisistatykite ir paaiškinkite sustabdymo priežastį. Šis skaidrumas mažina nerimą ir demonstruoja profesionalumą."
+                },
+                "negative": {
+                    "choiceText": "Nusiraminkite ir parodykite dokumentus, arba bus tik blogiau.",
+                    "failures": [
+                        "Pradėjo grasinimu dar nebuvo provokacijos",
+                        "Beprasmiškai eskalavo įtampą",
+                        "Nepateikta sustabdymo priežastis",
+                        "Nuo pat pradžių sukurta priešiška dinamika"
+                    ],
+                    "consequences": "Pradėjimas grasinimais paverčia įprastą sustabdymą konfrontacija, padidindama riziką visoms šalims ir kviesdama skundus.",
+                    "trainingFocus": "Peržiūrėkite žodinio aikido technikas ir profesionalaus prisistatymo svarbą."
+                }
+            },
+            "keyLearningPoints": [
+                "Profesionalus prisistatymas vardu ir konkrečiu pažeidimu nustato lūkesčius",
+                "Priežasčių paaiškinimas sumažina nerimą ir sąmokslo mąstymą",
+                "Rami laikysena yra užkrečiama \u2014 pirmas sakinys nustato trajektoriją"
+            ]
+        },
+
+        "2": {
+            "stageName": "Skubantis vairuotojas",
+            "criticalSkills": ["Empatija", "Laiko valdymas", "Bendradarbiavimo kūrimas"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Suprantu, kad skubate ir šis susitikimas jums svarbus. Padarysiu viską, kad tai užbaigtume kuo greičiau. Jei bendradarbiausime, netrukus vėl būsite kelyje.",
+                    "strengths": [
+                        "Pripažintas konkretus rūpestis \u2014 susitikimas",
+                        "Bendradarbiavimas susietas su greičiu kaip produktyvus išleidimas",
+                        "Profesionalus tonas išlaikytas",
+                        "Skubumas perkadruotas iš kliūties į sąjungininką"
+                    ],
+                    "professionalImpact": "Konkretaus rūpesčio pripažinimas ir bendradarbiavimo susiejimas su greičiu paverčia skubumą iš kliūties į sąjungininką."
+                },
+                "partially_positive": {
+                    "choiceText": "Suprantu, kad skubate. Stengsiuosi tai apdoroti kuo greičiau.",
+                    "adequate": [
+                        "Pripažintas laiko spaudimas",
+                        "Įsipareigota efektyvumui"
+                    ],
+                    "missed": [
+                        "Nesusietas bendradarbiavimas su greičiu",
+                        "Vairuotojas gali toliau spausti, užuot padėjęs",
+                        "Praleistas skubumo susiejimas su produktyviu elgesiu"
+                    ],
+                    "improvement": "Aiškus bendradarbiavimo susiejimas su greičiu keičia vairuotojo elgesį nuo pertraukinėjimo prie pagalbos."
+                },
+                "neutral": {
+                    "choiceText": "Prašau bendradarbiauti, kad galėtume tai greitai užbaigti.",
+                    "adequate": [
+                        "Išreikštas abipusis greito sprendimo interesas",
+                        "Išvengta konfrontacijos"
+                    ],
+                    "missed": [
+                        "Jokios empatijos skubumo priežasčiai",
+                        "Bendras nurodymas, o ne žmogiškas ryšys",
+                        "Praleista galimybė deeskaluoti per supratimą"
+                    ],
+                    "improvement": "Konkretus vairuotojo rūpesčio pripažinimas rodo, kad klausote, ir kuria ryšį."
+                },
+                "negative": {
+                    "choiceText": "Jūsų susitikimas nėra mano problema. Turėjote važiuoti leistinu greičiu.",
+                    "failures": [
+                        "Atmestina ir žeminanti",
+                        "Dramatiškai padidinta nusivylimas",
+                        "Parodyta emocinio intelekto stoka",
+                        "Sukurtas bereikalingas konfliktas pažeidžiamumo momentu"
+                    ],
+                    "consequences": "Atmestini atsakymai paverčia piliečius priešininkais ir dramatiškai padidina skundų bei virusinių vaizdo įrašų riziką.",
+                    "trainingFocus": "Studijuokite empatijos poveikį teisėsaugos sąveikose \u2014 rūpesčių pripažinimas nėra elgesio pateisinimas."
+                }
+            },
+            "keyLearningPoints": [
+                "Rūpesčių pripažinimas nereiškia sutikimo su elgesiu",
+                "Laiko atžvilgiu jautrus požiūris mažina stresą abiem pusėms",
+                "Bendradarbiavimas užtarnaujamas pagarba, o ne išgaunamas jėga"
+            ]
+        },
+
+        "3": {
+            "stageName": "Asmeniniai puolimai",
+            "criticalSkills": ["Emocinis atsparumas", "Profesinis atsiribojimas", "Misijos perkadravimas"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Suprantu, kad esate įsitempęs ir skubate. Girdžiu tai. Mano pareiga \u2014 užtikrinti kelių saugumą, todėl esu čia. Užbaikime tai ramiai, kad galėtumėte pasiekti savo susitikimą.",
+                    "strengths": [
+                        "Įžeidimai nepriimti asmeniškai",
+                        "Perkadruota link kelių saugumo misijos",
+                        "Susitikimo paminėjimas rodo aktyvų klausymą",
+                        "Profesionali ramybė išlaikyta po ugnimi"
+                    ],
+                    "professionalImpact": "Perkadravimas nuo \u201ejūs prieš mane\u201c prie \u201emudu abu prieš problemą\u201c pašalina įžeidimų taikinį ir modeliuoja deeskalaciją."
+                },
+                "partially_positive": {
+                    "choiceText": "Girdžiu jūsų nusivylimą. Leiskite man tiesiog užbaigti apdorojimą ir galėsite važiuoti.",
+                    "adequate": [
+                        "Trumpai pripažintas nusivylimas",
+                        "Judėta link sprendimo"
+                    ],
+                    "missed": [
+                        "Sustabdymas neperkadruotas apie jo tikslą",
+                        "Vairuotojas toliau mato sustabdymą kaip beprasmišką",
+                        "Nuraminta akimirka, bet ne pagrindinis pasipiktinimas"
+                    ],
+                    "improvement": "Nusivylimo nukreipimas link jūsų tikslo supratimo \u2014 kelių saugumo \u2014 keičia vairuotojo suvokimą apie patį sustabdymą."
+                },
+                "neutral": {
+                    "choiceText": "Nereaguosiu į įžeidimus. Tęsiu procedūrą.",
+                    "adequate": [
+                        "Išvengta ginčo",
+                        "Orumas išlaikytas"
+                    ],
+                    "missed": [
+                        "Jokio emocijos, slypinčios po įžeidimais, pripažinimo",
+                        "Stiprios emocijos ignoravimas tęsia priešiškumą",
+                        "Konfliktas sustingdytas, o ne išspręstas"
+                    ],
+                    "improvement": "Nusivylimo pripažinimas nesutinkant su puolimais rodo emocinį intelektą ir dažnai nuramina situacijas."
+                },
+                "negative": {
+                    "choiceText": "Stebėkite savo žodžius. Galite gauti daugiau nei tik baudą už greitį.",
+                    "failures": [
+                        "Atsakyta į žodinį įžeidimą numanoma teisinių pasekmių grėsme",
+                        "Neproporcinga eskalacija",
+                        "Prarastas profesionalus savikontrolės",
+                        "Sukurta galios demonstravimo problema kameroje"
+                    ],
+                    "consequences": "Grasinimas papildomais padariniais už žodinę kritiką pažeidžia profesinius standartus ir yra niokojanti vaizdo įraše.",
+                    "trainingFocus": "Kritinis poreikis emocinės reguliacijos mokymams ir supratimui, kad įžeidimai nėra eskalacijos pagrindas."
+                }
+            },
+            "keyLearningPoints": [
+                "Asmeniniai puolimai eismo sustabdymų metu yra streso reakcijos, o ne tikri puolimai",
+                "Perkadravimas link misijos pašalina įžeidimų taikinį",
+                "Profesinis atsiribojimas apsaugo abi puses ir puikiai atrodo kameroje"
+            ]
+        },
+
+        "4": {
+            "stageName": "Įrašymas ir identifikacija",
+            "criticalSkills": ["Skaidrumas esant priežiūrai", "Teisių patvirtinimas", "Pasitikėjimas savimi"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Pateikti skundą \u2014 tai absoliučiai jūsų teisė, pone. Esu pareigūnas John Norton, ženklo numeris 45879. Galite filmuoti \u2014 man nėra ko slėpti. Dabar tęsiu teisėtą procedūrą.",
+                    "strengths": [
+                        "Aiškiai patvirtinta teisė skųstis ir filmuoti",
+                        "Pateikta visa identifikacija žodžiu",
+                        "Signalizuota atskaitomybės kultūra",
+                        "Procedūra tęsiama su pasitikėjimu"
+                    ],
+                    "professionalImpact": "Priežiūros priėmimas kuria daugiau autoriteto nei pasipriešinimas jai \u2014 skundo grasinimas praranda galią, kai jį palankiai priimate."
+                },
+                "partially_positive": {
+                    "choiceText": "Žinoma. Esu pareigūnas Norton. Mano ženklo numeris yra ant uniformos, štai čia. Dabar tęskime.",
+                    "adequate": [
+                        "Vardas pateiktas noriai",
+                        "Parodytas ženklelis"
+                    ],
+                    "missed": [
+                        "Aiškiai nepatvirtinta teisė pateikti skundą",
+                        "Rodymas į uniformą, o ne žodinis numerio pateikimas",
+                        "Šiek tiek atmestina, kai filmuojama ir svarbus aiškumas"
+                    ],
+                    "improvement": "Žodinis kažkieno teisės skųstis patvirtinimas \u2014 net kai jie priešiški \u2014 kuria pasitikėjimą efektyviau nei paprasčiausias prašymo patenkinimas."
+                },
+                "neutral": {
+                    "choiceText": "Prašom skųstis \u2014 mano duomenys ant uniformos.",
+                    "adequate": [
+                        "Formaliai teisinga",
+                        "Netrukdyta filmuoti"
+                    ],
+                    "missed": [
+                        "Tonas reiškia abejingumą",
+                        "Rodymas į ženklelį kameroje atrodo atmestinai",
+                        "Jokio žodinio teisių patvirtinimo"
+                    ],
+                    "improvement": "Pridėkite žodinį savo ženklo numerio pateikimą ir patvirtinkite teisę filmuoti profesionaliam įspūdžiui vaizdo įraše."
+                },
+                "negative": {
+                    "choiceText": "Neturite pagrindo skundui. Viską dariau pagal taisykles. Dabar tęsiu teisėtą procedūrą.",
+                    "failures": [
+                        "Paneigta piliečio teisė skųstis",
+                        "Teisiškai neteisinga \u2014 pareigūnai nesprendžia skundo pagrindimo",
+                        "Kameroje sukurtas teisių paneigimo įrodymas",
+                        "Eismo sustabdymas paverstas pilietinių teisių klausimu"
+                    ],
+                    "consequences": "Skundo teisių neigimas kameroje sukuria įrodymą, kurį bet kuris vadovas ar advokatas iš karto pažymės.",
+                    "trainingFocus": "Peržiūrėkite piliečių teises eismo sustabdymų metu ir strateginę skaidrumo esant priežiūrai vertę."
+                }
+            },
+            "keyLearningPoints": [
+                "Priežiūros priėmimas kuria autoritetą; pasipriešinimas jai jį naikina",
+                "Žodinė identifikacija kameroje sukuria profesionalumo įrašą",
+                "Teisių patvirtinimas nuginkluoja priešiškumą efektyviau nei bet koks autoriteto demonstravimas"
+            ]
+        },
+
+        "5": {
+            "stageName": "Netikėtas siekimas į daiktadėžę",
+            "criticalSkills": ["Taktinė komunikacija", "Saugumo valdymas", "Žodinės komandos"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Pone, prašau padėkite rankas atgal ant vairo. Ačiū. Vertinu, kad pranešėte apie draudimo kortelę, ponia. Pone, kai pasakysiu, lėtai pasiekite į daiktadėžę. Pasakykite tiksliai, kur kortelė, prieš siekdami.",
+                    "strengths": [
+                        "Aiški, konkreti instrukcija \u2014 vairas",
+                        "Pripažintas keleivės naudingas indėlis",
+                        "Pateiktas kontroliuojamas kelias pirmyn",
+                        "Konkretumas pašalino dviprasmybes saugumo momentu"
+                    ],
+                    "professionalImpact": "Tikslios žodinės komandos saugumo momentais užkerta kelią nesusipratimams, galintiems paversti įprastus sustabdymus pavojingais."
+                },
+                "partially_positive": {
+                    "choiceText": "Pone, prašau sustokite. Laikykite rankas ten, kur galiu jas matyti. Ko siekiate?",
+                    "adequate": [
+                        "Žodinė komanda duota",
+                        "Paprašyta paaiškinimo"
+                    ],
+                    "missed": [
+                        "Neapibrėžta instrukcija \u2014 \u201ekur galiu matyti\u201c nekonkretu",
+                        "Nepripažintas keleivės paaiškinimas",
+                        "Situacija stabilizuota, bet neapibrėžtumas truko ilgiau nei būtina"
+                    ],
+                    "improvement": "Konkrečios fizinės instrukcijos (\u201erankas ant vairo\u201c) skiriasi nuo bendrų (\u201ekur galiu matyti\u201c) aiškumo ir paklusnumo greičio prasme."
+                },
+                "neutral": {
+                    "choiceText": "Atsitraukiate nuo automobilio, ranka ant dėklo, ir tyliai laukiate, kol vairuotojas paaiškins.",
+                    "adequate": [
+                        "Padidintas fizinio saugumo atstumas"
+                    ],
+                    "missed": [
+                        "Jokių žodinių instrukcijų nepateikta",
+                        "Tyla saugumo momentu yra komunikacijos klaida",
+                        "Ranka ant ginklo be žodžių sukuria maksimalią baimę keleivei",
+                        "Vairuotojas paliktas spėlioti, ko norite"
+                    ],
+                    "improvement": "Žodinės komandos turi visada lydėti ar eiti prieš taktinį pozicionavimą. Tyla didina riziką, o ne ją mažina."
+                },
+                "negative": {
+                    "choiceText": "Sugriebiate jo ranką ir šaukiate: \u201eKą jūs darote?! Laikykite rankas ten, kur galiu jas matyti!\u201c",
+                    "failures": [
+                        "Fizinė intervencija prieš žodinį įspėjimą",
+                        "Pakeltas balsas eskalavo įprastą dokumento paėmimą",
+                        "Keleivė matė, kaip griebė jos sūnų",
+                        "Paklusnumo momentas paverstas jėgos panaudojimo incidentu"
+                    ],
+                    "consequences": "Fizinė intervencija be žodinio įspėjimo pirma sukuria incidento ataskaitą, skundą ir vaizdo įrašo neproporcingos jėgos įrodymą.",
+                    "trainingFocus": "Žodinės komandos turi visada eiti prieš fizinę intervenciją. Peržiūrėkite jėgos naudojimo tęstinumą."
+                }
+            },
+            "keyLearningPoints": [
+                "Konkrečios instrukcijos sukuria greitesnį, labiau apibrėžtą paklusnumą",
+                "Naudingų stebėtojų pripažinimas paverčia juos sąjungininkais",
+                "Žodinės komandos visada turi eiti prieš fizinę intervenciją"
+            ]
+        },
+
+        "6": {
+            "stageName": "Motina prabyla",
+            "criticalSkills": ["Empatiškas klausymas", "Trečiosios šalies įtraukimas", "Ribų pagarba"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Švelniai kreipiatės į ponią Novak: \u201ePonia, jums nereikia atsiprašyti. Matau, kad tai sunkus laikas jūsų šeimai. Ačiū, kad pasakėte \u2014 tai padeda man suprasti situaciją.\u201c Tada ponui Novak: \u201ePone, jūsų motina rūpinasi jumis. Užbaikime tai, kad abu galėtumėte pasiekti, kur jums reikia.\u201c",
+                    "strengths": [
+                        "Patvirtinta ponios Novak emocinė rizika nereikalaujant detalių",
+                        "Padėkota už pasidalinimą, signalizuojant, kad pažeidžiamumas yra saugus",
+                        "Nukreipta į vairuotoją su pastaba apie motinos rūpestį",
+                        "Perkadruota dinamika iš priešiškos į žmogišką"
+                    ],
+                    "professionalImpact": "Trečiosios šalies atskleidimo pagerbimas nereikalaujant daugiau keičia pagrindinio asmens norą būti pažeidžiamu."
+                },
+                "partially_positive": {
+                    "choiceText": "Linktelite poniai Novak: \u201eVertinu, kad tai pasakėte, ponia. Matau, kad tai įtempta. Beveik baigėme.\u201c Tęsiate dokumentų apdorojimą.",
+                    "adequate": [
+                        "Mandagus jos žodžių pripažinimas",
+                        "Raminimas dėl laiko"
+                    ],
+                    "missed": [
+                        "Per greitai prašokta jos atskleidimas",
+                        "Praleista galimybė tikram ryšiui",
+                        "Transakcinis atsakas į emocinę riziką"
+                    ],
+                    "improvement": "Kai kažkas užsimena apie gilesnę istoriją, tikras domėjimasis, o ne mandagus pripažinimas, sukuria kitokio pobūdžio pasitikėjimą."
+                },
+                "neutral": {
+                    "choiceText": "Kreipiatės tiesiogiai į poną Novak, ignoruodami motinos komentarus: \u201ePone, baigiu tvarkyti dokumentus. Netrukus juos atgausite.\u201c",
+                    "adequate": [
+                        "Procedūrinis dėmesys išlaikytas"
+                    ],
+                    "missed": [
+                        "Visiškai ignoruotas motinos pažeidžiamas atskleidimas",
+                        "Sustiprinta neigiama vairuotojo nuomonė apie sustabdymą",
+                        "Žmogiško ryšio langas uždarytas",
+                        "Motina sugėdinta, kad prabilo"
+                    ],
+                    "improvement": "Ignoruojant žmogų, kuris prabilo pažeidžiamume, mokome jį, kad kreipimasis į autoritetą yra beprasmis."
+                },
+                "negative": {
+                    "choiceText": "Pasilenkiate ir tiesiogiai klausiate ponios Novak: \u201eKą turite omenyje, kad vos nepra...? Ar yra kažkas, ką turėčiau žinoti?\u201c",
+                    "failures": [
+                        "Spausta detalių, kurias ji sąmoningai nuslėpė",
+                        "Pažeista jos riba \u2014 ji sustojo sakinio viduryje",
+                        "Atvirumas paverstas tardymu",
+                        "Sukeltas apsauginis vairuotojo atsakas"
+                    ],
+                    "consequences": "Reikalaujant informacijos, kuria kažkas pasirinko nesidalinti, apverčiama dinamika \u2014 sąjungininkė tampa žmogumi, kurį suvokiate kaip spaudžiantį.",
+                    "trainingFocus": "Praktikuokite skirtumą tarp klausymosi, ką kažkas siūlo, ir reikalavimo daugiau, nei jie pasiruošę duoti."
+                }
+            },
+            "keyLearningPoints": [
+                "Trečiosios šalies atskleidimai sujungia priešišką dinamiką su žmogiška",
+                "Savanoriško pažeidžiamumo pagerbimas kuria pasitikėjimą; spaudimas daugiau jį naikina",
+                "Motinos intervencija gali pakeisti priešiško vairuotojo norą bendradarbiauti"
+            ]
+        },
+
+        "7": {
+            "stageName": "Asmeninė situacija atskleista",
+            "criticalSkills": ["Atjautinė diskrecija", "Žmogiškas ryšys", "Proporcingas sprendimas"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Vertinu jūsų nuoširdumą, pone, ir man labai gaila dėl jūsų dukros. Matau, kad patiriate milžinišką spaudimą. Šį kartą išrašysiu įspėjimą \u2014 greičio viršijimas pažymėtas, bet baudos nebus. Prašau vairuokite atsargiai. Jūsų šeimai reikia jūsų saugaus, ne greito. Vykite į susitikimą.",
+                    "strengths": [
+                        "Tinkama administracinė diskrecija pirmam pažeidimui",
+                        "Pripažintas atsiprašymas ir patvirtintas skausmas",
+                        "Saugus vairavimas perkadruotas kaip kažkas, ką daro savo šeimai",
+                        "Užbaigta žmogiška pastaba, kurianti ilgalaikį pasitikėjimą"
+                    ],
+                    "professionalImpact": "Diskrecija tinkamu momentu paverčia neigiamą patirtį tokia, kuri kuria pasitikėjimą policija visai šeimai."
+                },
+                "partially_positive": {
+                    "choiceText": "Man labai gaila dėl jūsų situacijos. Išrašysiu baudą, kaip reikalaujama, bet noriu, kad žinotumėte \u2014 vertinu jūsų nuoširdumą ir atsiprašymą. Prašau vairuokite saugiai \u2014 jūsų šeimai reikia jūsų sveiko.",
+                    "adequate": [
+                        "Nuoširdus jo situacijos pripažinimas",
+                        "Rūpestinga asmeninė pastaba apie šeimos saugumą",
+                        "Procedūrinis vientisumas išlaikytas"
+                    ],
+                    "missed": [
+                        "Tai buvo tinkamas momentas diskrecijai \u2014 įspėjimas buvo teisiškai pagrįstas",
+                        "Bauda gali būti nereikalinga pirmam 25 km/h pažeidimui",
+                        "Pasitikėjimas pagerėja, bet ne tiek, kiek būtų pasiekusi proporcinga diskrecija"
+                    ],
+                    "improvement": "Kai įstatymas suteikia galimybę įspėjimui, sverkite baudos prieš įspėjimo poveikį būsimam paklusnumui ir visuomenės pasitikėjimui."
+                },
+                "neutral": {
+                    "choiceText": "Man gaila tai girdėti, bet vis tiek turiu išrašyti baudą. Sutvarkysiu tai kuo greičiau, kad galėtumėte važiuoti toliau.",
+                    "adequate": [
+                        "Bazinė empatija išreikšta",
+                        "Efektyvus apdorojimas"
+                    ],
+                    "missed": [
+                        "\u201eVis tiek turiu\u201c perkeliama atsakomybė \u2014 jūs turite diskreciją",
+                        "Standus taikymas be lankstumo",
+                        "Vairuotojas vertina pareigūną kaip procedūriškai teisingą, bet emociškai nesantį"
+                    ],
+                    "improvement": "Kai sakote \u201eturiu išrašyti baudą\u201c, paklauskite savęs, ar tai tiesa \u2014 ar pasirenkate tai daryti ir vengiate atsakomybės už tą pasirinkimą."
+                },
+                "negative": {
+                    "choiceText": "Suprantu, bet tai nepateisina greičio viršijimo. Viršijote 25 \u2014 tai saugumo klausimas. Štai jūsų bauda.",
+                    "failures": [
+                        "Atmestina maksimalaus pažeidžiamumo momentu",
+                        "Nubaustas vairuotojas už sąžiningumą ir atsiprašymą",
+                        "Motina išgirdo, kaip anūkės liga buvo atmesta",
+                        "Sukurtas paklusnumas per pagieža, o ne pagarbą"
+                    ],
+                    "consequences": "Pažeidžiamumo atmetimas momentu, kai kažkas atsiveria, sukuria paklusnumą be pasitikėjimo \u2014 trapiausią teisėsaugos formą.",
+                    "trainingFocus": "Peržiūrėkite administracinę diskreciją ir skirtumą tarp paklusnumo, užtarnauto pagarba, prieš išgauto abejingumu."
+                }
+            },
+            "keyLearningPoints": [
+                "Diskrecija nėra silpnumas \u2014 tai profesionalus sprendimas",
+                "Įspėjimas gali tarnauti kelių saugumui ir visuomenės pasitikėjimui geriau nei bauda",
+                "Kaip užbaigiate eismo sustabdymą, nulemia vairuotojo ilgalaikį policijos prisiminimą"
+            ]
+        },
+
+        "8": {
+            "stageName": "Apžvalga ir atskleidimas",
+            "criticalSkills": ["Savirefleksija", "Pamokų integracija"],
+            "choiceAnalysis": {},
+            "keyLearningPoints": [
+                "Eismo sustabdymai formuoja, kaip milijonai suvokia teisėsaugą",
+                "Kiekviena provokacija yra kvietimas eskaluoti \u2014 to kvietimo atsisakymas yra profesionalus stiprumas",
+                "Įspėjimas nebuvo silpnumas, o sprendimas, suformavęs, kaip krizę patiriantis vyras vertina policiją"
+            ]
+        }
+    },
+
+    "comprehensiveMetrics": {
+        "emotionalIntelligence": {
+            "description": "Gebėjimas atpažinti ir reaguoti į emocines būsenas",
+            "indicators": {
+                "excellent": [
+                    "Atpažino nusivylimą ir stresą",
+                    "Nepriėmė puolimų asmeniškai",
+                    "Parodė tinkamą empatiją",
+                    "Išlaikė emocinę kontrolę"
+                ],
+                "poor": [
+                    "Praleido emocinius ženklus",
+                    "Reagavo į provokacijas",
+                    "Trūko empatijos",
+                    "Leido emocijoms valdyti sprendimus"
+                ]
+            }
+        },
+
+        "professionalCommunication": {
+            "description": "Žodinės sąveikos ir informacijos pateikimo kokybė",
+            "indicators": {
+                "excellent": [
+                    "Aiškus prisistatymas ir paaiškinimas",
+                    "Profesionalus tonas per visą sąveiką",
+                    "Aktyvus klausymas demonstruotas",
+                    "Tinkami kalbiniai pasirinkimai"
+                ],
+                "poor": [
+                    "Jokio prisistatymo ar paaiškinimo",
+                    "Neformalus ar grasmingas tonas",
+                    "Piliečio rūpesčiai ignoruoti",
+                    "Neprofesionali kalba"
+                ]
+            }
+        },
+
+        "deescalationTechniques": {
+            "description": "Įtampos mažinimo strategijų taikymas",
+            "indicators": {
+                "excellent": [
+                    "Pripažinti rūpesčiai",
+                    "Pasiūlyti praktiniai sprendimai",
+                    "Išliko ramus esant puolimui",
+                    "Tinkamai panaudota diskrecija"
+                ],
+                "poor": [
+                    "Eskaluota per grasinimus",
+                    "Rūpesčiai atmesti",
+                    "Puolimai priimti asmeniškai",
+                    "Standus taisyklių vykdymas"
+                ]
+            }
+        },
+
+        "discretionApplication": {
+            "description": "Tinkamas pareigūno diskrecijos naudojimas pagal aplinkybes",
+            "indicators": {
+                "excellent": [
+                    "Atsižvelgta į visumą aplinkybių prieš sprendimą",
+                    "Diskrecija naudota kaip teisingumo įrankis, ne vengimas",
+                    "Motyvai paaiškinti skaidriai",
+                    "Subalansuotas vykdymas su atjauta"
+                ],
+                "poor": [
+                    "Taisyklės taikytos standžiai neatsižvelgiant į kontekstą",
+                    "Gailestingumas pateiktas kaip sąlyginis geram elgesiui",
+                    "Diskrecija naudota nenuosekliai ar kaip svirtas",
+                    "Nesugebėta artikuliuoti sprendimo motyvų"
+                ]
+            }
+        },
+
+        "communityOrientation": {
+            "description": "Dėmesys teigiamiems bendruomenės santykiams kurti",
+            "indicators": {
+                "excellent": [
+                    "Su piliečiu elgtasi oriai",
+                    "Parodyta atjauta aplinkybėms",
+                    "Diskrecija naudota išmintingai",
+                    "Paliktas teigiamas įspūdis"
+                ],
+                "poor": [
+                    "Su piliečiu elgtasi kaip su priešininku",
+                    "Neparodyta jokia atjauta",
+                    "Standus vykdymas",
+                    "Pakenkta bendruomenės pasitikėjimui"
+                ]
+            }
+        }
+    },
+
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Puikus eismo sustabdymo valdymas. Išlaikėte profesionalumą esant žodiniam puolimui, atpažinote žmogišką krizę po priešiško elgesio, išmintingai panaudojote diskreciją ir tvarkėte keleivės sąveiką su tikra empatija. Tai tiksliai tas policijos darbas, kuris kuria bendruomenės pasitikėjimą.",
+            "mostlyPositive": "Stiprus pasirodymas apskritai. Išlaikėte ramybę ir parodėte gerus instinktus situacijos skaitymui. Keletas momentų, kur galėjote būti konkretesnis ar empatiškesnis, bet rezultatas atspindi tvirtus deeskalacijos įgūdžius.",
+            "mixed": "Parodėte kai kuriuos gerus instinktus, bet praleidote svarbiausias galimybes. Momentai, kai pasirinkote procedūrą vietoj empatijos, verti nagrinėjimo \u2014 šis sustabdymas turėjo sluoksnių, kuriems reikėjo skaityti žmones, o ne tik sekti protokolą.",
+            "mostlyNegative": "Šis sustabdymas atskleidė reikšmingas spragas komunikacijoje ir emociniame suvokime. Kai vairuotojas eskalavo, atsakėte ta pačia energija, užuot ją absorbuodami. Keleivės skausmas buvo signalas, kurį praleidote. Peržiūrėkite žodinės deeskalacijos ir taktinės empatijos principus.",
+            "allNegative": "Šis sustabdymas nuo pradžios iki galo ėjo blogai. Kiekvienas sąveikos taškas buvo galimybė sumažinti įtampą, ir kiekvienas buvo praleistas arba pablogintas. Privalomas perkvalifikavimas profesionalioje komunikacijoje, deeskalacijos technikose ir diskrecinio sprendimo srityse yra griežtai rekomenduojamas."
+        }
+    },
+
+    "mistakePatterns": {
+        "authoritarian": {
+            "pattern": "Per didelė priklausomybė nuo autoriteto ir grasinimų",
+            "examples": ["Neatidėliotini grasinimai", "Galios demonstravimas", "Standus vykdymas"],
+            "impact": "Sukuria priešiškus santykius ir padidina riziką",
+            "correction": "Kurkite bendradarbiavimą per pagarbą ir paaiškinimą"
+        },
+
+        "dismissive": {
+            "pattern": "Nesugebėjimas pripažinti piliečio rūpesčių",
+            "examples": ["Nusivylimų ignoravimas", "Šalti atsakymai", "Empatijos trūkumas"],
+            "impact": "Didina įtampą ir naikina ryšį",
+            "correction": "Aktyvus klausymas ir pripažinimas nuramina situacijas"
+        },
+
+        "reactive": {
+            "pattern": "Provokacijų priėmimas asmeniškai",
+            "examples": ["Reagavimas į puolimus", "Grasinimai atsaku", "Emociniai atsakymai"],
+            "impact": "Eskaluoja situacijas ir atrodo neprofesionaliai",
+            "correction": "Palaikykite profesinį atsiribojimą ir susitelkite į misiją"
+        },
+
+        "inflexible": {
+            "pattern": "Standus taisyklių taikymas be diskrecijos",
+            "examples": ["Neatsižvelgiama į aplinkybes", "Tik pagal knygą", "Trūksta žmogiškumo"],
+            "impact": "Praleidžiamos galimybės kurti bendruomenės pasitikėjimą",
+            "correction": "Naudokite diskreciją kaip teisingumo ir bendruomenės kūrimo įrankį"
+        },
+
+        "passengerNeglect": {
+            "pattern": "Keleivės emocinės būsenos ignoravimas ar atmetimas",
+            "examples": ["Ponios Novak skausmo nepastebėjimas", "Spaudimas informacijos, kurią nuslėpė", "Nesugebėjimas pasirūpinti motina"],
+            "impact": "Prarandami svarbūs konteksto ženklai ir pažeidžiamas žmogus paliekamas be paramos",
+            "correction": "Keleiviai yra ir liudytojai, ir žmonės savo krizėje \u2014 pripažinkite juos netardydami."
+        }
+    },
+
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "\u201eLaba diena. Esu pareigūnas [vardas]. Sustabdžiau jus, nes...\u201c",
+            "\u201eSuprantu, kad skubate. Padarysiu tai kuo greičiau\u201c",
+            "\u201eMatau, kad esate nusivylęs. Daugelis žmonių patiria stresą eismo sustabdymų metu\u201c",
+            "\u201eAtsižvelgdamas į aplinkybes, šį kartą išrašau įspėjimą\u201c",
+            "\u201ePonia, matau, kad tai jums irgi sunku. Neskubėkite.\u201c",
+            "\u201eNeapsimesiu, kad žinau, ką patiritate, bet matau, kad tai rimta.\u201c"
+        ],
+
+        "poorPhrases": [
+            "\u201eIš karto nusiraminkite, arba bus pasekmių\u201c",
+            "\u201eJūsų susitikimas nėra mano problema\u201c",
+            "\u201eKalbėkite toliau taip ir gausite daugiau nei tik baudą už greitį\u201c",
+            "\u201eVisi turi problemų. Štai jūsų bauda\u201c",
+            "\u201ePanaudojau savo diskreciją šįvakar, nes esate geras žmogus\u201c",
+            "\u201ePonia, ką tiksliai ketinote pasakyti? Turiu žinoti.\u201c"
+        ],
+
+        "analysisCriteria": {
+            "professionalism": "Ar buvo laikomasi tinkamų profesionalių standartų?",
+            "empathy": "Ar buvo pripažintos emocinės būsenos?",
+            "clarity": "Ar žinutė buvo aiški ir suprantama?",
+            "effectiveness": "Ar ji judino link sprendimo?",
+            "respect": "Ar buvo išlaikytas piliečio orumas?",
+            "awareness": "Ar buvo atsižvelgta į keleivę ir platesnį kontekstą?"
+        }
+    },
+
+    "scenarioSpecificLessons": {
+        "1": "Kiekvienas eismo sustabdymas yra galimybė kurti arba griauti bendruomenės pasitikėjimą",
+        "2": "Profesionalus prisistatymas ir paaiškinimas sumažina gynybines reakcijas",
+        "3": "Rūpesčių pripažinimas nereiškia pažeidimų pateisinimo",
+        "4": "Žodiniai puolimai dažnai maskuoja baimę, nusivylimą ar asmeninę krizę",
+        "5": "Diskrecija yra galingas įrankis bendruomenės paramai kurti",
+        "6": "Sąveikos pabaiga palieka stipriausią įspūdį",
+        "7": "Emocinis intelektas yra toks pat svarbus kaip taktiniai įgūdžiai",
+        "8": "Jūsų laikysena gali eskaluoti arba deeskaluoti bet kokią situaciją"
+    },
+
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": [
+                "Pažangus žodinis aikido",
+                "Kitų mokymas deeskalacijoje",
+                "Bendruomenės policijos lyderystė"
+            ],
+            "good": [
+                "Patobulinti komunikacijos įgūdžiai",
+                "Diskrecija teisėsaugoje",
+                "Emocinio intelekto vystymas"
+            ],
+            "average": [
+                "Pagrindinės deeskalacijos technikos",
+                "Profesionali komunikacija",
+                "Streso valdymas"
+            ],
+            "poor": [
+                "Privalomas deeskalacijos mokymas",
+                "Emocinės reguliacijos seminaras",
+                "Profesinių standartų peržiūra",
+                "Bendruomenės santykių pagrindai"
+            ]
+        }
+    },
+
+    "finalReportStructure": {
+        "sections": [
+            {
+                "title": "Bendras veiklos apibendrinimas",
+                "content": ["Įvertinimas", "Veiklos lygis", "Pagrindinės stiprybės", "Tobulinimo sritys"]
+            },
+            {
+                "title": "Komunikacijos analizė",
+                "content": ["Profesionalūs standartai", "Parodyta empatija", "Taikyta deeskalacija"]
+            },
+            {
+                "title": "Kritiniai sprendimų taškai",
+                "content": ["Pradinis priėjimas", "Eskalacijos atsakas", "Puolimų valdymas", "Diskrecijos panaudojimas"]
+            },
+            {
+                "title": "Bendruomenės poveikio vertinimas",
+                "content": ["Pasitikėjimo kūrimas", "Suvokimo valdymas", "Ilgalaikiai padariniai"]
+            },
+            {
+                "title": "Keleivių ir trečiųjų šalių valdymas",
+                "content": ["Keleivės suvokimas", "Trečiosios šalies įtraukimas", "Emocinio konteksto skaitymas"]
+            },
+            {
+                "title": "Diskrecija ir užbaigimas",
+                "content": ["Diskrecijos sprendimo kokybė", "Užbaigimo komunikacija", "Vykdymo įsipareigojimas"]
+            },
+            {
+                "title": "Profesinis tobulėjimas",
+                "content": ["Neatidėliotini mokymo poreikiai", "Įgūdžių tobulinimo sritys", "Karjeros vystymo kelias"]
+            }
+        ]
+    }
+}

@@ -1,0 +1,736 @@
+{
+  "scenarioId": "1",
+  "reviewVersion": "1.0",
+  "title": "Deeskalace při dopravní kontrole — Analýza výkonu",
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Zastavení a první kontakt",
+      "criticalSkills": [
+        "První dojem a nastavení tónu",
+        "Sdělení důvodu zastavení",
+        "Bezpečnost kontroly"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Pozdrav, představení a hned důvod zastavení: 'Praporčík Doležal, zastavil jsem vás, protože jste jel jednasedmdesát v padesátce', pak klidná výzva k dokladům, svítilna nízko.",
+          "strengths": [
+            "Sdělení právního důvodu úkonu hned na úvod (§ 13)",
+            "Výzva k dokladům přesně podle § 6 odst. 8 (ŘP, ORV, pojištění)",
+            "Nízko držená svítilna a pozice mimo dráhu dveří chrání bezpečnost i důstojnost",
+            "Klidný tón uzemnil strach z neznáma dřív, než přerostl v agresi"
+          ],
+          "professionalImpact": "Váš klidný, transparentní úvod vytvořil krátké okno spolupráce a nastavil kooperativní tón celé kontroly."
+        },
+        "neutral": {
+          "choiceText": "Úsečné 'Dobrý večer. Doklady. Řidičák, techničák, pojištění.' se svícením do obličeje a netrpělivým popoháněním 'tak bude to?'.",
+          "adequate": [
+            "Výzva k dokladům je věcně v pořádku (§ 6 odst. 8)",
+            "Kontrola byla zahájena a úkon proběhl"
+          ],
+          "missed": [
+            "Nesdělen důvod zastavení — porušení poučovací povinnosti (§ 13)",
+            "Vynecháno představení, tedy základní deeskalační krok",
+            "Svícení do obličeje a netrpělivost zvyšují napětí na hraně § 9"
+          ],
+          "improvement": "Vždy začněte představením a sdělením důvodu zastavení. Nejistota 'proč mě zastavili' je hlavní spouštěč strachu a agrese u nervózního řidiče."
+        },
+        "negative": {
+          "choiceText": "Přístup od zádi s rukou u opasku a povely 'ruce na volant, ukažte ruce, nikdo ať nesahá do přihrádky' bez jakéhokoli varovného signálu, teprve pak důvod.",
+          "failures": [
+            "Povely k rukám a hrozba bez důvodného podezření na nebezpečí — nepřiměřené (§ 11)",
+            "Místo služby je komunikována hrozba",
+            "Poznámka se týkala stavu řidiče, ne varování před nebezpečím",
+            "Řidič i spolujezdec zatlačeni do strachu, ztráta jakékoli spolupráce"
+          ],
+          "consequences": "Oba ve voze ztuhli, řidiči se roztřásly ruce a spolujezdec začal celé natáčet jako policejní exces. Vyrobil jste nebezpečí, kterému jste měl předejít.",
+          "trainingFocus": "Procvičujte rozlišení mezi skutečnou taktickou hrozbou (viditelná zbraň, podezřelé sahání, závažný TČ) a běžnou kontrolou. Bez konkrétního signálu volte službu, ne povely."
+        },
+        "partially_positive": {
+          "choiceText": "Pozdrav, představení a důvod jsou správně, ale hned následuje natvrdo položené obvinění 'vy jste dneska pil, že jo?' ještě před jakoukoli zkouškou.",
+          "adequate": [
+            "Pozdrav, představení a sdělení důvodu splňují § 13",
+            "Instinkt řešit možný alkohol je namístě",
+            "Klidné tempo přístupu k vozu"
+          ],
+          "missed": [
+            "Předčasné obvinění předjímá výsledek a staví řidiče do defenzivy",
+            "Na dechovou zkoušku lze vyzvat věcně (§ 5 odst. 1 písm. f), netřeba to rámovat jako přiznání viny",
+            "Ztráta kooperativního tónu hned na začátku"
+          ],
+          "improvement": "Oddělte věcnou výzvu ke zkoušce od obvinění. 'Ze zákona vás vyzývám k dechové zkoušce' zní jinak než 'vy jste pil, že jo' — a udrží ochotu spolupracovat."
+        }
+      },
+      "legalConsiderations": [
+        "§ 79 odst. 1 písm. a) zák. 361/2000 Sb. — zastavování vozidel policistou ve stejnokroji (zastavovací terč)",
+        "§ 13 zák. 273/2008 Sb. — poučení a sdělení právního důvodu úkonu",
+        "§ 6 odst. 8 zák. 361/2000 Sb. — povinnost mít u sebe a předložit ŘP, ORV a doklad o pojištění",
+        "§ 9 zák. 273/2008 Sb. — zdvořilost a dbaní důstojnosti osob"
+      ],
+      "keyLearningPoints": [
+        "První kontakt nastavuje tón celé kontroly",
+        "Sdělení důvodu zastavení je zároveň zákonná povinnost i nejsilnější deeskalace",
+        "Klidný postoj a nízko držená svítilna snižují napětí bez ztráty kontroly"
+      ]
+    },
+    "2": {
+      "stageName": "Švagr u okna",
+      "criticalSkills": [
+        "Oddělení přiživujícího spolujezdce",
+        "Nasměrování komunikace na řidiče",
+        "Udržení klidu při provokaci"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Zdvořilé oddělení švagra ('řeším to s řidičem, nechte mluvit jeho') a návrat k řidiči s empatií: 'Techničák v klidu najděte, vidím, že toho máte naloženo dost.'",
+          "strengths": [
+            "Oddělení přiživujícího spolujezdce a nasměrování rozhovoru na řidiče",
+            "Zdvořilé, ne ponižující oslovení švagra (§ 9)",
+            "Pojmenování řidičovy tísně buduje důvěru přes empatii",
+            "Natočení těla tak, aby švagr nestál mezi vámi a řidičem"
+          ],
+          "professionalImpact": "Získal jste řidiče jako partnera rozhovoru a odebral vliv tomu, kdo situaci stupňoval — napětí ve voze kleslo."
+        },
+        "neutral": {
+          "choiceText": "Pustíte se se švagrem do věcné přestřelky ('řidič foukat musí, vy tu nejste od radění zákonů') a popoháníte řidiče.",
+          "adequate": [
+            "Fakticky správné, že řidič je povinen se zkoušce podrobit (§ 5 odst. 1 písm. f)",
+            "Snaha udržet směr kontroly"
+          ],
+          "missed": [
+            "Přijetí švagrovy hry přenáší těžiště na hádku o práva",
+            "Popohánění nervózního řidiče zvyšuje jeho stres a chybovost",
+            "Ztráta pozornosti od řidiče, který je jádrem situace"
+          ],
+          "improvement": "Nevyvracejte přiživovače bod po bodu. Klidně mu odeberte pozornost a vraťte ji řidiči — hádka o zákony je past."
+        },
+        "negative": {
+          "choiceText": "Výhrůžka švagrovi 'ještě slovo a vylegitimuju vás a posadím vás, držte pusu' bez zákonného důvodu.",
+          "failures": [
+            "Bezdůvodná hrozba legitimováním (§ 63) a zajištěním (§ 26) bez splnění zákonných podmínek",
+            "Hrozba úkonem překračuje míru nezbytnou k účelu (§ 11)",
+            "Nedůstojné jednání na hraně zneužití pravomoci (§ 9)",
+            "Poskytnutí materiálu pro oprávněnou stížnost a virální video"
+          ],
+          "consequences": "Švagr začal demonstrativně natáčet 'policistu, který vyhrožuje', řidič zpanikařil o oba a z běžné kontroly se stala kauza.",
+          "trainingFocus": "Legitimování i zajištění mají tvrdé zákonné podmínky. Nikdy je nepoužívejte jako nástroj zastrašení nepohodlného, ale zatím neškodného spolujezdce."
+        },
+        "partially_positive": {
+          "choiceText": "Švagra úplně ignorujete a soustředíte se jen na řidiče, jeho navádění k odmítnutí necháte bez reakce viset ve vzduchu.",
+          "adequate": [
+            "Zaměření na řidiče a trpělivost při hledání dokladů",
+            "Vyhnutí se přímé konfrontaci se švagrem",
+            "Udržení klidného tónu"
+          ],
+          "missed": [
+            "Švagr aktivně navádí řidiče k odmítnutí zkoušky — nejhorší možné cestě",
+            "Nechání této dynamiky bez odezvy nechává běžet linku, která může kontrolu vykolejit",
+            "Ticho vyplní ten, kdo situaci zhoršuje"
+          ],
+          "improvement": "Ignorování a klidné převzetí vedení nejsou totéž. Když někdo aktivně navádí k odporu, převezměte vedení rozhovoru klidně, ale jasně — neignorujte ho."
+        }
+      },
+      "legalConsiderations": [
+        "§ 11 zák. 273/2008 Sb. — přiměřenost, nejmírnější účinný postup",
+        "§ 9 zák. 273/2008 Sb. — důstojnost a zdvořilost i vůči provokujícímu spolujezdci",
+        "§ 63 zák. 273/2008 Sb. — prokázání totožnosti jen při zákonném důvodu",
+        "§ 26 zák. 273/2008 Sb. — zajištění osoby jen za zákonných podmínek"
+      ],
+      "keyLearningPoints": [
+        "Dokud za kontrolovaného mluví přiživovač, nemáte partnera k dohodě",
+        "Přiživujícího spolujezdce oddělte klidně a s respektem, ne hrozbou",
+        "Empatie k tísni řidiče získá víc informací než nátlak"
+      ]
+    },
+    "3": {
+      "stageName": "Dechová zkouška",
+      "criticalSkills": [
+        "Zákonná výzva k orientační zkoušce",
+        "Poučení, že orientační test není důkaz",
+        "Jednoduché instrukce pod stresem"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Věcná výzva: 'Vyzývám vás k orientační dechové zkoušce, je to jen orientační měření, není to důkaz — a odmítnout se nevyplácí', jasná instrukce foukat do náustku.",
+          "strengths": [
+            "Zákonná výzva k orientační zkoušce (§ 5 odst. 1 písm. f)",
+            "Poučení, že orientační test není důkaz — ten je až z krve (§ 5 odst. 1 písm. g)",
+            "Snížení strachu z přístroje a jemné otevření tématu následků odmítnutí",
+            "Jednoduchá instrukce jednu po druhé pomáhá stresovanému člověku vyhovět"
+          ],
+          "professionalImpact": "Získal jste spolupráci a zároveň položil základ, aby řidič později neudělal osudovou chybu odmítnutím."
+        },
+        "neutral": {
+          "choiceText": "Pouhé 'Vyzývám vás k dechové zkoušce, foukejte do náustku' — klidně držíte přístroj a beze slova čekáte, jestli řidič foukne.",
+          "adequate": [
+            "Samotná výzva je zákonná a v pořádku (§ 5 odst. 1 písm. f)",
+            "Řidič je vyzván k povinné zkoušce"
+          ],
+          "missed": [
+            "Chybí poučení, že jde o orientační měření",
+            "Chybí varování, že odmítnutí je stejně přísné jako těžká opilost",
+            "Vakuum vyplňuje švagr navádějící k odmítnutí"
+          ],
+          "improvement": "U vyděšeného, naváděného řidiče nestačí 'foukejte'. Rovnou vysvětlete, co orientační test je a co odmítnutí reálně znamená — předejdete chybě z neznalosti."
+        },
+        "negative": {
+          "choiceText": "Výhrůžka v afektu: 'Buď fouknete teď, nebo je to odmítnutí a máte tři roky zákaz', se strkáním přístroje k obličeji a popoháněním.",
+          "failures": [
+            "Informace o následcích podaná jako výhrůžka v afektu, ne jako věcné poučení (§ 13)",
+            "Strkání přístroje k obličeji a popohánění je nedůstojné (§ 9) a nepřiměřené (§ 11)",
+            "Nátlakem vyrobená spolupráce je křehká a napadnutelná",
+            "Vše natáčí kolemjdoucí"
+          ],
+          "consequences": "Řidič ucukl, švagr vyskočil s kamerou a řidič sotva popadá dech ze strachu z vás. I kdyby fouknul, je to ze strachu a máte to na videu.",
+          "trainingFocus": "Rozlišujte věcné poučení o následcích odmítnutí od výhrůžky vyřčené kvůli vynucení poslušnosti. První je zákonná povinnost, druhé je exces."
+        },
+        "partially_positive": {
+          "choiceText": "Řidiče nejdřív uklidníte tvrzením 'to jedno pivo nic neukáže, jen to formálně fouknem', a slíbíte výsledek, který nemůžete garantovat.",
+          "adequate": [
+            "Snaha řidiče uklidnit je lidsky pochopitelná",
+            "Věcně správné, že orientační test není důkaz",
+            "Klidný, nekonfrontační tón"
+          ],
+          "missed": [
+            "Ujištění 'to nic neukáže' je odborná chyba — hodnotu neznáte, alkohol se odbourává různě",
+            "Vytvoření falešného očekávání, které se zhroutí při pozitivním výsledku",
+            "Ztráta důvěryhodnosti právě před klíčovým momentem"
+          ],
+          "improvement": "Nikdy nepředjímejte výsledek zkoušky, ani jako uklidnění. Když pak přístroj ukáže pozitivum, řidič se cítí podvedený a vaše deeskalace se rozpadne."
+        }
+      },
+      "legalConsiderations": [
+        "§ 5 odst. 1 písm. f) zák. 361/2000 Sb. — povinnost podrobit se orientační dechové zkoušce",
+        "§ 5 odst. 1 písm. g) zák. 361/2000 Sb. — odborné lékařské vyšetření s odběrem krve",
+        "Zásada dokazování — pozitivní orientační test (Dräger, DrugWipe) není důkaz, jen důvod k výzvě k lékařskému vyšetření",
+        "§ 13 zák. 273/2008 Sb. — poučení o právech a povinnostech"
+      ],
+      "keyLearningPoints": [
+        "Orientační test je jen orientační — důkazem je až odběr krve",
+        "Poučení předchází chybám z neznalosti a strachu",
+        "Předjímat výsledek zkoušky se nikdy nevyplácí"
+      ]
+    },
+    "4": {
+      "stageName": "Kamera u pumpy",
+      "criticalSkills": [
+        "Klidné přijetí natáčení",
+        "Odlišení bezpečnosti od omezování práv",
+        "Profesionalita jako obrana"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "'Natáčet můžete, jsme na veřejném místě, jen zůstaňte u pumpy kvůli bezpečnosti', a klidný návrat ke kontrole stejným tónem.",
+          "strengths": [
+            "Uznání práva natáčet ve veřejném prostoru odzbrojuje konfrontaci",
+            "Jediné legitimní omezení je bezpečnost (vstup do vozovky), což je přiměřené (§ 11)",
+            "Chování, jako by kamera byla vždy — profesionalita jako nejlepší obrana",
+            "Švagrův pokus udělat z kamery zbraň vyšuměl"
+          ],
+          "professionalImpact": "Vaše profesionalita je teď zdokumentovaná jako spojenec, ne jako důkaz proti vám."
+        },
+        "neutral": {
+          "choiceText": "Mladíka si víceméně nevšímáte — krátce po něm loupnete okem a děláte, jako by tam s telefonem nestál.",
+          "adequate": [
+            "Nezakázání natáčení je správné",
+            "Soustředění na řidiče jako jádro situace"
+          ],
+          "missed": [
+            "Nevyřčená otázka, zda vám kamera vadí, zůstává ve vzduchu",
+            "Mlčení si lze vyložit jako skryté napětí",
+            "Krátké klidné potvrzení by odzbrojilo celou linku za dvě vteřiny"
+          ],
+          "improvement": "Na legitimní natáčení klidně a krátce zareagujte ('natáčet můžete'). Neutralita je lepší než konflikt, ale klidné potvrzení je lepší než neutralita."
+        },
+        "negative": {
+          "choiceText": "Vykročíte k mladíkovi, saháte po jeho telefonu: 'Vypněte to, narušujete úkon, nebo vám telefon zajistím.'",
+          "failures": [
+            "Zákaz natáčení a hrozba zajištěním telefonu bez zákonného důvodu",
+            "Natáčení policie samo o sobě 'nenarušuje úkon'",
+            "Sáhnutí na telefon je zásah daleko za mírou nezbytnou k účelu (§ 11) a nedůstojný (§ 9)",
+            "Přesně takto vznikají virální videa o policejním excesu"
+          ],
+          "consequences": "Mladík natáčí o to soustředěněji, švagr jásá, a z banální kontroly je kauza a stížnost ještě dřív, než jste dořešil rychlost a alkohol.",
+          "trainingFocus": "Natáčení ve veřejném prostoru se zpravidla nezakazuje a telefon se nezajišťuje. Chovejte se, jako by kamera běžela vždy — je to obrana, ne hrozba."
+        },
+        "partially_positive": {
+          "choiceText": "Nezakážete natáčení, ale pustíte se do zbytečné diskuze, co mladík smí a nesmí zveřejnit (espézetka, obličej), s ironickým tónem.",
+          "adequate": [
+            "Nezakázání natáčení",
+            "Určité povědomí o ochraně osobních údajů",
+            "Snaha zůstat v mezích práva"
+          ],
+          "missed": [
+            "Diskuze o zveřejnění teď není vaše starost a odvádí pozornost od řidiče",
+            "Ironický tón ('všichni dneska všechno natáčej') nepůsobí profesionálně na kameře",
+            "Švagr dostává další materiál"
+          ],
+          "improvement": "Neřešte, co kdo zveřejní. Klidně potvrďte právo natáčet, ohlídejte jen bezpečnost a vraťte se k řidiči — tam je těžiště situace."
+        }
+      },
+      "legalConsiderations": [
+        "Natáčení policisty při výkonu služby ve veřejném prostoru je zpravidla legální a nezakazuje se",
+        "§ 11 zák. 273/2008 Sb. — jediné přiměřené omezení kolemjdoucího je bezpečnostní (vstup do vozovky)",
+        "§ 9 zák. 273/2008 Sb. — profesionální a důstojné vystupování před kamerou"
+      ],
+      "keyLearningPoints": [
+        "Klidné přijetí kamery je silnější obranou než snaha ji omezit",
+        "Profesionalita = nejlepší reakce na natáčení",
+        "Nenechte se kamerou ani přiživovačem vyprovokovat"
+      ]
+    },
+    "5": {
+      "stageName": "Pozitivní test a rozhodnutí řidiče",
+      "criticalSkills": [
+        "Věcné poučení o následcích odmítnutí",
+        "Výzva k lékařskému vyšetření",
+        "Oddělení řidiče od navádění a klid pod tlakem"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Klidné, naléhavé poučení jen k řidiči: 'Test není důkaz, vyzývám vás k odběru krve. Odmítnutí je stejně přísné jako nejtěžší opilost — 18 měsíců až 3 roky zákaz, 25–75 tisíc, 6 bodů. Rozhodujte podle toho, co je nejmíň zlé.'",
+          "strengths": [
+            "Poučení, že orientační test není důkaz, a zákonná výzva k lékařskému vyšetření (§ 5 odst. 1 písm. g)",
+            "Věcné poučení, že odmítnutí (§ 125c odst. 1 písm. d) je stejně přísné jako stav vylučující způsobilost — 18 měs. až 3 roky, 25 000–75 000 Kč, 6 bodů",
+            "Oddělení řidiče od navádění švagra",
+            "Rámování rozhodnutí jako 'nejmíň zlé' vrací řidiči kontrolu"
+          ],
+          "professionalImpact": "Ochránil jste řidiče před osudovou chybou z neznalosti a získal jeho spolupráci — učebnicové zvládnutí klíčového momentu."
+        },
+        "neutral": {
+          "choiceText": "Formálně správné 'máte 0,62, vyzývám vás k lékařskému vyšetření, odmítnutí se řeší dál ve správním řízení' a neutrální 'je to na vás', řečené úředním tempem s očima ve formuláři.",
+          "adequate": [
+            "Sdělení podezření a zákonná výzva k vyšetření (§ 5 odst. 1 písm. g)",
+            "Informace, že odmítnutí se řeší dál",
+            "Korektní, věcný tón"
+          ],
+          "missed": [
+            "Chybí to nejdůležitější: že odmítnutí (§ 125c odst. 1 písm. d) je stejně přísné jako nejtěžší opilost",
+            "Neutrální 'je to na vás' nechává vyděšeného řidiče napospas švagrově mylné radě",
+            "Formálně správné poučení, které prakticky nepomůže rozhodnout se dobře"
+          ],
+          "improvement": "U klíčového rozhodnutí nestačí formální výzva. Řekněte konkrétně, že odmítnutí je nejtěžší cesta — jinak rozhoduje, čí historka zní přesvědčivěji."
+        },
+        "negative": {
+          "choiceText": "Naštvané výhrůžky na oba: 'Žádné odmítání, zadržím vám řidičák a seberu vás na odběr i tak, a vy švagre jedete taky', otevření dveří služebního vozu.",
+          "failures": [
+            "Věcně platné body (§ 118b, povinnost podrobit se) podané formou výhrůžek, ne poučení (§ 13)",
+            "Nátlak překračuje míru nezbytnou k účelu (§ 11) a je nedůstojný (§ 9)",
+            "U klíčového rozhodnutí, kde řidič potřebuje klid, vyrábíte strach",
+            "Vše se natáčí"
+          ],
+          "consequences": "Řidič se sesypal ('vy mě zatýkáte za jedno pivo?!'), švagr ječí do kamery a vy jste přišel o veškerou důvěru, kterou byste při zadržení ŘP ještě potřeboval.",
+          "trainingFocus": "Rozlišujte poučení o následcích od výhrůžky. U vyděšeného člověka na vážném rozhodnutí ho výhrůžka od správné volby jen odežene."
+        },
+        "partially_positive": {
+          "choiceText": "Správná výzva k vyšetření a varování 'odmítnout nedoporučuju, je to horší', ale na otázku proč jen 'prostě mi věřte', bez konkrétních sankcí a bodů.",
+          "adequate": [
+            "Zákonná výzva k lékařskému vyšetření (§ 5 odst. 1 písm. g)",
+            "Správný instinkt varovat před odmítnutím",
+            "Klidný tón bez výhrůžek"
+          ],
+          "missed": [
+            "'Prostě mi věřte' není poučení — chybí konkrétní protiargument proti švagrově 'bez krve nebude důkaz'",
+            "Bez věcného vysvětlení následků odmítnutí (§ 125c odst. 1 písm. d) rozhoduje, čí historka zní líp",
+            "Riziko, že řidič z nedostatku informací udělá osudovou chybu"
+          ],
+          "improvement": "U tak zásadního rozhodnutí dejte konkrétní čísla: zákaz 18 měsíců až 3 roky, pokuta, body. 'Věřte mi' proti konkrétní (byť mylné) radě švagra neobstojí."
+        }
+      },
+      "legalConsiderations": [
+        "§ 5 odst. 1 písm. g) zák. 361/2000 Sb. — výzva k odbornému lékařskému vyšetření s odběrem krve",
+        "§ 125c odst. 1 písm. d) zák. 361/2000 Sb. — odmítnutí vyšetření: pokuta 25 000–75 000 Kč, zákaz činnosti 18 měsíců až 3 roky, 6 bodů (po novele od 1. 1. 2024)",
+        "§ 125c odst. 1 písm. b) — řízení pod vlivem (cca 0,3–1 ‰): 7 000–25 000 Kč, zákaz 6–18 měsíců, 6 bodů",
+        "§ 118b zák. 361/2000 Sb. — zadržení řidičského průkazu při důvodném podezření",
+        "§ 274 trestního zákoníku — nad 1 ‰ / prokazatelný vliv drog jde o trestný čin, ne přestupek"
+      ],
+      "keyLearningPoints": [
+        "Odmítnutí zkoušky je stejně přísné jako nejtěžší opilost — řidiče je nutné o tom věcně poučit",
+        "Mnozí odmítají jen z neznalosti; vaše poučení je nejúčinnější ochrana",
+        "Oddělte kontrolovaného od navádějícího a rámujte rozhodnutí jako 'nejmíň zlé'"
+      ]
+    },
+    "6": {
+      "stageName": "Řidič chce odjet",
+      "criticalSkills": [
+        "Přiměřenost postupu (§ 11)",
+        "Verbální deeskalace před donucovacími prostředky",
+        "Zabránění v jízdě bez použití síly"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Klidné zaujetí prostoru mezi řidičem a dveřmi, tišší hlas, otevřené ruce: 'Za volant teď nemůžete, nikdo vám neubližuje, rozvoz vyřešíme. Krok zpátky, jo?'",
+          "strengths": [
+            "Nejmírnější účinný prostředek — verbální deeskalace bez donucovacích prostředků (§ 11)",
+            "Fyzické zaujetí prostoru zabrání odjezdu bez sáhnutí na řidiče",
+            "Klidný, tišší tón, otevřené ruce místo zaťatých",
+            "Nabídka řešení rozvozu vrací řidiči kontrolu a snižuje pocit zahnání"
+          ],
+          "professionalImpact": "Zabránil jste odjezdu, aniž na někoho sáhl, a máte na kameře policistu, který zvládl krizi klidem."
+        },
+        "neutral": {
+          "choiceText": "Klidně řidiče zastavíte, zůstanete stát mezi ním a dveřmi a mlčky čekáte, až se sám sebere.",
+          "adequate": [
+            "Fyzické zaujetí prostoru je přiměřené (§ 11)",
+            "Nesáhnutí po donucovacích prostředcích",
+            "Klidný tón bez křiku"
+          ],
+          "missed": [
+            "Chybí druhá půlka deeskalace — cesta ven pro zahnaného člověka",
+            "Bez náznaku řešení zůstává řidič v pocitu bezvýchodnosti",
+            "Panika může znovu vygradovat"
+          ],
+          "improvement": "Když někoho zastavíte, dejte mu i cestu vpřed — jak vyřešit rozvoz, co bude následovat. Bez ní je klid jen dočasný."
+        },
+        "negative": {
+          "choiceText": "Tvrdé 'Ani hnout!', stržení řidiče od vozu, otočení na kapotu a nasazení pout se slovy 'za pokus o útěk vás zajistím, měl jste poslechnout' a přitažení rukou za záda.",
+          "failures": [
+            "Nepřiměřený zákrok (§ 11) — řidič panikařil, neútočil",
+            "Nasazení pout (§ 54) a zajištění (§ 26) bez bezprostředního ohrožení života/zdraví/majetku a bez vyčerpání mírnějšího postupu",
+            "V okamžiku, kdy se přestal bránit, pominul důvod k eskalaci",
+            "Rámování 'měl jste poslechnout' je trestání, ne služba"
+          ],
+          "consequences": "Řidič se v poutech rozbrečel, švagr ječí, kolemjdoucí natáčí poutání plačícího rozvozáka na kapotě — materiál na stížnost i virální video. Kontrolu jste mohl dořešit klidem.",
+          "trainingFocus": "Donucovací prostředky (§ 52–54) přicházejí až po vyčerpání domluvy a zpravidla po předchozí výzvě. Panika není agrese; nejdřív deeskalace."
+        },
+        "partially_positive": {
+          "choiceText": "Instinktivně řidiče chytnete za paži na klice a přitáhnete od auta ('ven od auta!'), teprve pak vysvětlíte, že nesmí řídit.",
+          "adequate": [
+            "Zabránění v jízdě je legitimní cíl",
+            "Zákrok byl krátký a bez další eskalace",
+            "Následné vysvětlení, že po testu nesmí řídit"
+          ],
+          "missed": [
+            "Fyzický zákrok jako první krok, bez vyčerpání klidné výzvy a domluvy",
+            "Donucovací prostředek se použije, až když mírnější postup nevede k cíli (§ 53)",
+            "Řidič nebyl agresivní, jen zpanikařený — verbální deeskalace měla reálnou šanci"
+          ],
+          "improvement": "Nejdřív vyčerpejte klidnou výzvu a zaujetí prostoru. Fyzický kontakt až tehdy, když domluva selže — u panikařícího člověka většinou nemusí."
+        }
+      },
+      "legalConsiderations": [
+        "§ 11 zák. 273/2008 Sb. — přiměřenost, nejmírnější účinný postup",
+        "§ 53 zák. 273/2008 Sb. — donucovací prostředek jen když mírnější postup nevede k cíli, zpravidla po předchozí výzvě",
+        "§ 52, § 54 zák. 273/2008 Sb. — výčet donucovacích prostředků a podmínky pout",
+        "§ 26 zák. 273/2008 Sb. — zajištění osoby jen při bezprostředním ohrožení, nejdéle 24 hodin",
+        "§ 118b — po zadržení ŘP / pozitivním testu řidič nesmí řídit"
+      ],
+      "keyLearningPoints": [
+        "Verbální deeskalace, když funguje, je právně i takticky silnější než pouta",
+        "Panika není agrese — nejdřív domluva, síla až po jejím vyčerpání",
+        "Dát zahnanému člověku cestu ven předchází další eskalaci"
+      ]
+    },
+    "7": {
+      "stageName": "Zadržení řidičského průkazu a vyřízení",
+      "criticalSkills": [
+        "Zákonné zadržení ŘP a vystavení potvrzení",
+        "Poučení bez předjímání výsledku",
+        "Uznání dopadu na živobytí (§ 9)"
+      ],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Vystavení potvrzení a srozumitelné projití kroků: 'Zadržuji ŘP, tady je potvrzení, od teď nesmíte řídit, jedeme na odběr. Spolupráce je pro vás lepší než odmítnutí. Rozvoz vyřešíme — zavolejte pro dodávku.'",
+          "strengths": [
+            "Zadržení ŘP při důvodném podezření (§ 118b) s vystavením potvrzení o zadržení",
+            "Jasné poučení, že řidič od této chvíle nesmí řídit (§ 13)",
+            "Nepředjímání výsledku (orientační test není důkaz) a férové sdělení pravděpodobného scénáře",
+            "Uznání dopadu na živobytí při dodržení zákona (§ 9) — oddělení člověka od jednání"
+          ],
+          "professionalImpact": "Odjíždíte s korektně zadrženým ŘP, spolupracujícím řidičem a obhajitelným, zdokumentovaným postupem."
+        },
+        "neutral": {
+          "choiceText": "Zákonné zadržení ŘP a poučení, ale řidičovu otázku 'jak se mám živit' odbudete: 'To už není moje starost, to vyřešte sám.'",
+          "adequate": [
+            "Zadržení ŘP (§ 118b), potvrzení i poučení, že nesmí řídit (§ 13), jsou splněné",
+            "Věcné, korektní sdělení dalšího postupu"
+          ],
+          "missed": [
+            "Chybí lidský rozměr, který nic nestojí a hodně změní",
+            "'To není moje starost' zbytečně přilévá do ohně",
+            "Promarnění příležitosti situaci doklidnit — deeskalace nekončí úkonem"
+          ],
+          "improvement": "Přidejte k zákonnému postupu krátké uznání toho, čím člověk prochází. Stojí to třicet vteřin a rozhoduje, jestli odejde jako spolupracující, nebo jako nepřítel systému."
+        },
+        "negative": {
+          "choiceText": "Moralizování a ponižování: 'Na to jste měl myslet, než jste sedl opilej za volant, nechte si ty divadýlka o dětech, zákon je zákon, měl jste smůlu.'",
+          "failures": [
+            "Zadržení ŘP je formálně provedeno, ale způsob je za hranou § 9 (důstojnost, zákaz bezdůvodné újmy)",
+            "Shazování řidičovy tísně jako 'divadýlka' a označení '0,62 opilej' je ponižování",
+            "Osobní zaujetí nahrazuje věcný postup",
+            "Vše natáčí kolemjdoucí"
+          ],
+          "consequences": "Řidič se zavřel do sebe, švagr se probral s kamerou a z korektního zadržení ŘP je scéna policejního ponižování — přesně ten záznam, který koluje jako důkaz arogance.",
+          "trainingFocus": "Zákonný úkon nikdy nedoprovázejte ponížením. Moralizování nad zoufalým člověkem neslouží ničemu kromě okamžiku převahy a poškozuje pověst policie."
+        },
+        "partially_positive": {
+          "choiceText": "Zadržení ŘP zlehčíte falešnou útěchou: 'U šesti desetin vám ho určitě brzo vrátí, soud to většinou zruší, za chvíli jste zpátky za volantem.'",
+          "adequate": [
+            "Zadržení ŘP a vystavení potvrzení jsou správné (§ 118b)",
+            "Snaha řidiče lidsky podpořit",
+            "Klidný, vlídný tón"
+          ],
+          "missed": [
+            "Slib 'brzo vrátí, soud zruší' je nepřípustné předjímání výsledku — rozhoduje správní orgán",
+            "Řízení pod vlivem je přestupek podle § 125c se zákazem činnosti v řádu měsíců, ne bagatela",
+            "Falešná útěcha podkopává důvěru, až přijde reálné rozhodnutí"
+          ],
+          "improvement": "Nepředjímejte sankci. Podejte střízlivou pravdu s empatií — falešná naděje je horší než realita, protože řidiče připraví o možnost se na ni připravit."
+        }
+      },
+      "legalConsiderations": [
+        "§ 118b (ve spojení s § 118c) zák. 361/2000 Sb. — zadržení řidičského průkazu na místě a vystavení Potvrzení o zadržení ŘP",
+        "§ 13 zák. 273/2008 Sb. — poučení, že řidič od zadržení nesmí řídit",
+        "§ 5 odst. 1 písm. g) — návazný odběr krve jako jediný důkaz",
+        "§ 125c zák. 361/2000 Sb. — o sankci rozhoduje správní orgán (nepředjímat výsledek)",
+        "§ 9 zák. 273/2008 Sb. — důstojnost a zákaz bezdůvodné újmy i při ukládání následků"
+      ],
+      "keyLearningPoints": [
+        "Zadržení ŘP vždy doprovoďte potvrzením a poučením, že řidič nesmí řídit",
+        "Nepředjímejte výsledek ani sankci — o tom rozhoduje úřad a odběr krve",
+        "Uznání dopadu na živobytí posiluje autoritu, neoslabuje ji"
+      ]
+    }
+  },
+  "comprehensiveMetrics": {
+    "rapport": {
+      "description": "Budování důvěry klidem, sdělením důvodu zastavení a empatií k řidičově tísni",
+      "indicators": {
+        "excellent": [
+          "Sdělení důvodu zastavení a představení hned na úvod",
+          "Pojmenování a uznání strachu za agresí",
+          "Oddělení přiživujícího spolujezdce s respektem",
+          "Klidný, konzistentní tón i pod provokací a kamerou"
+        ],
+        "poor": [
+          "Nesdělení důvodu zastavení a rovnou požadavek dokladů",
+          "Reakce na provokaci ironií nebo tykáním",
+          "Nechání přiživovače dominovat komunikaci",
+          "Ponižování řidiče před spolujezdcem a kamerou"
+        ]
+      }
+    },
+    "procedure": {
+      "description": "Dodržení zákonného postupu dopravní kontroly, zkoušek, poučení a zadržení ŘP",
+      "indicators": {
+        "excellent": [
+          "Zákonná výzva k dokladům (§ 6 odst. 8) a ke zkouškám (§ 5)",
+          "Poučení, že orientační test není důkaz, a výzva k odběru krve (§ 5 odst. 1 písm. g)",
+          "Věcné poučení o následcích odmítnutí (§ 125c odst. 1 písm. d)",
+          "Zadržení ŘP s vystavením potvrzení (§ 118b) a poučením"
+        ],
+        "poor": [
+          "Vynechání poučovací povinnosti (§ 13)",
+          "Záměna orientačního testu za důkaz",
+          "Neupozornění řidiče, že odmítnutí je nejtěžší varianta",
+          "Zadržení ŘP bez potvrzení nebo bez poučení"
+        ]
+      }
+    },
+    "emotional": {
+      "description": "Zvládání vlastního klidu pod tlakem a rozpoznání strachu za agresí",
+      "indicators": {
+        "excellent": [
+          "Udržení klidného tónu při provokaci švagra a kamery",
+          "Rozpoznání, že za nervozitou je strach ze ztráty živobytí",
+          "Zpomalení tempa a snížení hlasu při eskalaci",
+          "Nevyprovokování se natáčením"
+        ],
+        "poor": [
+          "Braní urážek osobně a snaha řidiče 'ztrestat'",
+          "Zvyšování hlasu a přebíjení emocí adrenalinem",
+          "Přehlédnutí emočního pozadí a čistě paragrafový postup",
+          "Eskalace v reakci na kameru"
+        ]
+      }
+    },
+    "safety": {
+      "description": "Bezpečnost kontroly a volba nejmírnějšího účinného postupu (§ 11)",
+      "indicators": {
+        "excellent": [
+          "Bezpečné místo kontroly a krytí kolegou",
+          "Verbální deeskalace před donucovacími prostředky",
+          "Zabránění v jízdě bez použití síly",
+          "Donucovací prostředky až po výzvě a vyčerpání domluvy (§ 53)"
+        ],
+        "poor": [
+          "Předčasné povely a hrozby bez důvodného podezření",
+          "Nasazení pout na panikařícího, neagresivního člověka",
+          "Zajištění osoby bez zákonných podmínek (§ 26)",
+          "Nepřiměřený zákrok tam, kde stačila domluva"
+        ]
+      }
+    }
+  },
+  "mistakePatterns": {
+    "escalation": {
+      "pattern": "Vnášení hrozby a nátlaku tam, kde stačí klid a poučení",
+      "examples": [
+        "Povely k rukám a hrozby bez jakéhokoli varovného signálu",
+        "Výhrůžka legitimováním či zajištěním nepohodlného spolujezdce",
+        "Poutání panikařícího, neagresivního řidiče"
+      ],
+      "impact": "Každá zbytečná eskalace mění běžnou kontrolu ve stížnost, virální video a vyděšeného člověka, který přestane spolupracovat",
+      "correction": "Volte nejmírnější účinný postup (§ 11); hrozbu a sílu jen tam, kde jsou zákonné podmínky a domluva selhala"
+    },
+    "missingCues": {
+      "pattern": "Přehlížení strachu a neznalosti, které řidiče ženou ke špatnému rozhodnutí",
+      "examples": [
+        "Neupozornění, že odmítnutí zkoušky je nejtěžší varianta",
+        "Ignorování navádění švagra k odmítnutí",
+        "Přehlédnutí, že za agresí je strach ze ztráty živobytí"
+      ],
+      "impact": "Řidič odmítne vyšetření nebo se uzavře — ne ze zlé vůle, ale protože mu nikdo věcně nevysvětlil realitu",
+      "correction": "Poučte řidiče konkrétně a věcně dřív, než se rozhodne; oddělte ho od toho, kdo ho navádí"
+    },
+    "judgmental": {
+      "pattern": "Osobní zaujetí a moralizování nahrazující věcný postup",
+      "examples": [
+        "Braní urážek osobně a snaha o přísnější kvalifikaci",
+        "Ponižování řidiče ('nechte si ty divadýlka')",
+        "Předjímání výsledku a sankce místo věcného poučení"
+      ],
+      "impact": "Policista si myslí, že je 'spravedlivý' nebo 'laskavý', ale ve skutečnosti ponižuje, nebo dává falešnou naději",
+      "correction": "Oddělte člověka od jednání (§ 9); postupujte věcně podle závažnosti, bez osobního zaujetí i bez falešné útěchy"
+    },
+    "procedural": {
+      "pattern": "Formálně správný postup bez lidského rozměru a bez ochrany řidiče před chybou",
+      "examples": [
+        "Zadržení ŘP odbyté 'to není moje starost'",
+        "'Formálně správné' poučení bez důrazu, že odmítnutí je nejtěžší cesta",
+        "Výzva ke zkoušce bez vysvětlení, co je orientační test"
+      ],
+      "impact": "Úkon je čistý, ale řidič odchází zahořklý nebo udělá osudovou chybu, které jste mohl předejít",
+      "correction": "Každý zákonný krok doprovoďte srozumitelným vysvětlením a uznáním dopadu — postup je kostra, ne celé tělo zákroku"
+    }
+  },
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Ukázkový výkon! Zvládl jste náročnou kontrolu s výjimečným klidem a přesností. Sdělil jste důvod zastavení, oddělil přiživujícího švagra, klidně přijal kameru, správně provedl zkoušky a hlavně řidiče věcně poučil, že odmítnutí je nejhorší volba — čímž jste ho ochránil před osudovou chybou. Zadržení ŘP jste dořešil zákonně i lidsky. Přesně takhle se buduje důvěra v policii, jedno auto po druhém.",
+      "mostlyPositive": "Silný celkový výkon s dobrým klidem pod tlakem a správným zákonným postupem. Klíčová silná stránka: [KONKRÉTNÍ_SILNÁ_STRÁNKA]. Oblast k rozvoji: [KONKRÉTNÍ_ZLEPŠENÍ]. Zaměřte se hlavně na důslednost poučení o následcích odmítnutí a na práci s přiživujícím spolujezdcem — s těmito detaily by byl váš zákrok bezchybný.",
+      "mixed": "Některé části jste zvládl dobře, ale propásl jste klíčové příležitosti. Silné stránky: [KONKRÉTNÍ_SILNÉ_STRÁNKY]. Rezervy: [KONKRÉTNÍ_SLABINY]. Pamatujte, že dopravní kontrola vyžaduje zvládnout současně zákon, deeskalaci a vlastní klid. Projděte si [OBLASTI_VÝCVIKU], zejména sdělování důvodu zastavení a poučení podle § 125c.",
+      "mostlyNegative": "Tento scénář odhalil zásadní mezery. Přestože jste [DROBNÉ_POZITIVUM], většina rozhodnutí napětí stupňovala nebo řidiče ponechala napospas chybě z neznalosti. Konkrétně [HLAVNÍ_SELHÁNÍ]. Doporučen okamžitý výcvik v: [KRITICKÝ_VÝCVIK]. Bez klidu a věcného poučení se z rutinní kontroly snadno stane stížnost i zbytečně zničený člověk.",
+      "allNegative": "Váš přístup byl v celém scénáři problematický. Předčasné povely, nátlak místo poučení a nepřiměřené zákroky hrozily stížností, virálním videem i tím, že řidič z neznalosti odmítne vyšetření a přivodí si nejtěžší postih. Vyžadován nápravný výcvik v: přiměřenosti (§ 11), důstojnosti (§ 9), poučovací povinnosti (§ 13) a deeskalačních technikách. Vaše komunikace rozhoduje o důvěře veřejnosti v policii."
+    }
+  },
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "'Zastavil jsem vás, protože jste v obci jel jednasedmdesát v padesátce. Nic vážného se neděje, jen si to spolu vyřídíme.' — pozdrav, důvod a uzemnění strachu",
+      "'Nechte prosím mluvit jeho. Vidím, že toho na sebe máte dneska naloženo dost.' — oddělení švagra a empatie k řidiči",
+      "'To je jen orientační měření, není to důkaz — bojte se spíš toho, kdybyste odmítl.' — správné poučení u dechové zkoušky",
+      "'Odmítnutí se trestá stejně přísně jako nejtěžší opilost — osmnáct měsíců až tři roky. Rozhodujte podle toho, co je nejmíň zlé.' — věcné poučení o následcích odmítnutí",
+      "'Za volant teď nemůžete, nikdo vám neubližuje. Krok zpátky, jo?' — verbální deeskalace místo síly"
+    ],
+    "poorPhrases": [
+      "'Ruce na volant! Nikdo ať nesahá do přihrádky!' — povely a hrozba bez důvodného podezření",
+      "'Ještě slovo a vylegitimuju vás a posadím vás, držte pusu.' — výhrůžka úkonem bez zákonného důvodu",
+      "'To jedno pivo nic neukáže, jen to formálně fouknem.' — předjímání výsledku zkoušky",
+      "'Vypněte to, narušujete úkon, nebo vám telefon zajistím.' — nezákonný zákaz natáčení",
+      "'Nechte si ty divadýlka o dětech, měl jste smůlu.' — ponižování v rozporu s § 9"
+    ],
+    "analysisCriteria": {
+      "tone": "Byl přiměřený situaci a nezvyšoval zbytečně napětí?",
+      "clarity": "Bylo sdělení jasné, včetně důvodu úkonu a poučení?",
+      "empathy": "Uznalo tíseň řidiče, aniž by ustoupilo od zákona?",
+      "legality": "Odpovídalo jednání zákonu (§ 5, § 6, § 9, § 11, § 13, § 118b, § 125c)?",
+      "safety": "Volilo nejmírnější účinný postup a udrželo bezpečnost?"
+    }
+  },
+  "scenarioSpecificLessons": {
+    "1": "Prvních třicet vteřin určí tón kontroly — pozdrav, představení a hlavně sdělení důvodu zastavení (§ 13) uzemní strach dřív, než přeroste v agresi.",
+    "2": "Dokud za kontrolovaného mluví přiživovač, nemáte partnera k dohodě — oddělte spolujezdce klidně a s respektem (§ 9), ne hrozbou úkonem.",
+    "3": "Orientační dechová zkouška je jen orientační měření (§ 5 odst. 1 písm. f); důkazem je až odběr krve. Nikdy nepředjímejte výsledek.",
+    "4": "Natáčení policie ve veřejném prostoru se zpravidla nezakazuje — chovejte se, jako by kamera běžela vždy. Profesionalita je nejlepší obrana.",
+    "5": "Odmítnutí zkoušky (§ 125c odst. 1 písm. d) je stejně přísné jako nejtěžší opilost — 18 měsíců až 3 roky zákazu, 25–75 tisíc, 6 bodů. Řidiče o tom věcně poučte.",
+    "6": "Přiměřenost (§ 11): panika není agrese. Verbální deeskalace a zaujetí prostoru zabrání odjezdu; donucovací prostředky (§ 52–54) až po výzvě a vyčerpání domluvy.",
+    "7": "Zadržení ŘP (§ 118b) vždy s potvrzením a poučením, že řidič nesmí řídit; nepředjímejte sankci a uznejte dopad na živobytí (§ 9).",
+    "8": "Nejsilnější nástroj policisty u kontroly není Dräger ani pouta, ale způsob, jakým mluví s vyděšeným člověkem — a nad 1 ‰ už nejde o přestupek, ale o trestný čin (§ 274 TZ)."
+  },
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Pokročilá deeskalace a krizová komunikace",
+        "Mentoring mladších policistů při dopravních kontrolách",
+        "Specializace na komunikaci s natáčenou veřejností"
+      ],
+      "good": [
+        "Rozšířené poučení a práce s odmítnutím zkoušky",
+        "Techniky oddělení přiživujícího spolujezdce",
+        "Zvládání vlastního klidu pod provokací"
+      ],
+      "average": [
+        "Základy deeskalace při dopravní kontrole",
+        "Zákonný postup zkoušek a zadržení ŘP (§ 5, § 118b, § 125c)",
+        "Aktivní naslouchání a sdělování důvodu úkonu"
+      ],
+      "poor": [
+        "Povinný deeskalační výcvik",
+        "Přiměřenost a použití donucovacích prostředků (§ 11, § 52–54)",
+        "Důstojnost a poučovací povinnost (§ 9, § 13)",
+        "Postup při kontrole pod vlivem a odmítnutí vyšetření"
+      ]
+    }
+  },
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Celkové shrnutí výkonu",
+        "content": [
+          "Skóre",
+          "Úroveň výkonu",
+          "Klíčové silné stránky",
+          "Zásadní slabiny"
+        ]
+      },
+      {
+        "title": "Analýza podle fází",
+        "content": [
+          "Zvolená možnost",
+          "Dopad",
+          "Alternativní přístupy",
+          "Poučení"
+        ]
+      },
+      {
+        "title": "Zákonnost postupu",
+        "content": [
+          "Poučovací povinnost a sdělení důvodu (§ 13)",
+          "Zkoušky a odběr krve (§ 5)",
+          "Zadržení ŘP a sankce (§ 118b, § 125c)",
+          "Přiměřenost a donucovací prostředky (§ 11, § 52–54)"
+        ]
+      },
+      {
+        "title": "Efektivita komunikace",
+        "content": [
+          "Nejlepší momenty",
+          "Promeškané příležitosti",
+          "Analýza dialogu"
+        ]
+      },
+      {
+        "title": "Klíčové body rozhodování",
+        "content": [
+          "Reakce na kameru",
+          "Poučení o odmítnutí zkoušky",
+          "Přiměřenost při pokusu o odjezd"
+        ]
+      },
+      {
+        "title": "Analýza vzorců",
+        "content": [
+          "Konzistentní silné stránky",
+          "Opakující se chyby",
+          "Rozhodovací trendy"
+        ]
+      },
+      {
+        "title": "Profesní rozvoj",
+        "content": [
+          "Okamžité výcvikové potřeby",
+          "Dlouhodobý rozvoj dovedností",
+          "Doporučené zdroje"
+        ]
+      }
+    ]
+  }
+}

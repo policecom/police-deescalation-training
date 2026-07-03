@@ -1,0 +1,671 @@
+{
+  "scenarioId": "traffic-stop",
+  "reviewVersion": "1.0",
+  "title": "Analiza performantei — Control de trafic: Dezescaladare",
+
+  "stageAnalysis": {
+    "1": {
+      "stageName": "Dispeceratul si oprirea",
+      "criticalSkills": ["Prezentare profesionala", "Comunicare clara", "Transparenta procedurala"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Buna ziua, sunt Ofiter Norton. V-am oprit pentru ca depaseati limita de viteza cu 25 km/h. Pot sa vad permisul de conducere si certificatul de inmatriculare, va rog?",
+          "strengths": [
+            "Prezentare profesionala pe nume a stabilit legitimitatea",
+            "Incalcarea specifica mentionata elimina ambiguitatea",
+            "Cerere politicoasa de documente mentine demnitatea",
+            "Cadrul profesional stabilit din prima propozitie"
+          ],
+          "professionalImpact": "Abordarea dumneavoastra profesionala a redus imediat suspiciunea ca oprirea era arbitrara si a stabilit un cadru de cooperare."
+        },
+        "partially_positive": {
+          "choiceText": "Buna ziua. V-am oprit pentru depasirea vitezei. Permisul si certificatul de inmatriculare, va rog.",
+          "adequate": [
+            "Politicos si mentioneaza motivul opririi",
+            "A evitat escaladarea imediata"
+          ],
+          "missed": [
+            "Niciun nume de ofiter furnizat",
+            "Nicio detaliere specifica a incalcarii",
+            "Transparenta completa care construieste incredere a lipsit"
+          ],
+          "improvement": "Includeti numele dumneavoastra si detaliile specifice ale incalcarii de la inceput. Transparenta deplina previne ca soferul sa simta ca oprirea este arbitrara."
+        },
+        "neutral": {
+          "choiceText": "Buna ziua, permisul si certificatul de inmatriculare, va rog.",
+          "adequate": [
+            "Ton non-confrontational",
+            "Curtoazie de baza mentinuta"
+          ],
+          "missed": [
+            "Nicio prezentare sau nume",
+            "Niciun motiv pentru oprire furnizat",
+            "Soferul lasat sa ghiceasca de ce a fost oprit",
+            "Oportunitate ratata de a stabili cadrul profesional"
+          ],
+          "improvement": "Prezentati-va intotdeauna si explicati motivul opririi. Aceasta transparenta reduce anxietatea si demonstreaza profesionalism."
+        },
+        "negative": {
+          "choiceText": "Calmati-va si aratati-mi documentele, altfel va fi mai rau pentru dumneavoastra.",
+          "failures": [
+            "Deschis cu o amenintare inainte de orice provocare",
+            "Escaladare inutila a tensiunii",
+            "Niciun motiv pentru oprire furnizat",
+            "Dinamica adversariala creata de la inceput"
+          ],
+          "consequences": "Deschiderea cu amenintari transforma o oprire de rutina intr-o confruntare, crescand riscul pentru toti si invitand plangeri.",
+          "trainingFocus": "Recapitulati tehnicile de judo verbal si importanta prezentarilor profesionale."
+        }
+      },
+      "keyLearningPoints": [
+        "Prezentarea profesionala cu numele si incalcarea specifica stabileste asteptari",
+        "Explicarea motivelor reduce anxietatea si gandirea conspirationista",
+        "Calmul este contagios — prima propozitie stabileste traiectoria"
+      ]
+    },
+
+    "2": {
+      "stageName": "Soferul grabit",
+      "criticalSkills": ["Empatie", "Gestionarea timpului", "Construirea cooperarii"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Inteleg ca va grabiti si ca aceasta intalnire conteaza pentru dumneavoastra. Voi face tot posibilul sa rezolv cat mai repede. Daca cooperam, veti fi din nou pe drum in curand.",
+          "strengths": [
+            "Recunoasterea preocuparii specifice — intalnirea",
+            "Cooperarea legata de viteza ca iesire productiva",
+            "Ton profesional mentinut",
+            "Urgenta incadrata ca aliat, nu ca obstacol"
+          ],
+          "professionalImpact": "Recunoasterea preocuparii specifice si incadrarea cooperarii ca cea mai rapida cale inainte transforma urgenta din obstacol in aliat."
+        },
+        "partially_positive": {
+          "choiceText": "Inteleg ca va grabiti. Sa procesez cat mai repede posibil.",
+          "adequate": [
+            "Recunoasterea presiunii de timp",
+            "Angajament la eficienta"
+          ],
+          "missed": [
+            "Nu a incadrat cooperarea ca cea mai rapida cale",
+            "Soferul poate continua sa insiste in loc sa ajute",
+            "Legatura intre urgenta si comportament productiv ratata"
+          ],
+          "improvement": "Legarea explicita a cooperarii de viteza schimba comportamentul soferului de la intrerupere la asistare."
+        },
+        "neutral": {
+          "choiceText": "Va rog cooperati ca sa putem termina rapid.",
+          "adequate": [
+            "Interes reciproc pentru rezolvare rapida exprimat",
+            "Confruntare evitata"
+          ],
+          "missed": [
+            "Nicio empatie pentru motivul din spatele urgentei",
+            "Instructiune generica in loc de conexiune umana",
+            "Oportunitate ratata de dezescaladare prin intelegere"
+          ],
+          "improvement": "Recunoasterea specifica a preocuparii soferului arata ca ascultati si construieste raport."
+        },
+        "negative": {
+          "choiceText": "Intalnirea dumneavoastra nu e problema mea. Trebuia sa conduceti in limita de viteza.",
+          "failures": [
+            "Respingator si condescendent",
+            "Frustrarea crescuta dramatic",
+            "Lipsa inteligentei emotionale demonstrata",
+            "Conflict inutil creat intr-un moment de vulnerabilitate"
+          ],
+          "consequences": "Raspunsurile respingatoare transforma cetatenii in adversari si cresc dramatic riscul de plangere si videoclip viral.",
+          "trainingFocus": "Studiati impactul empatiei in interactiunile de aplicare a legii — recunoasterea preocuparilor nu inseamna scuzarea comportamentului."
+        }
+      },
+      "keyLearningPoints": [
+        "Recunoasterea preocuparilor nu inseamna acceptarea comportamentului",
+        "Abordarea constienta de timp reduce stresul pentru ambele parti",
+        "Cooperarea se castiga prin respect, nu se extrage prin putere"
+      ]
+    },
+
+    "3": {
+      "stageName": "Atacuri personale",
+      "criticalSkills": ["Rezilienta emotionala", "Detasare profesionala", "Reincadrarea pe misiune"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Inteleg ca sunteti stresat si ca va grabiti. Aud asta. Datoria mea este sa asigur siguranta rutiera — de aceea sunt aici. Sa incheiem asta calm ca sa puteti ajunge la intalnire.",
+          "strengths": [
+            "Nu a luat insultele personal",
+            "Reincadrare spre misiunea de siguranta rutiera",
+            "Referinta la intalnire aratand ascultare activa",
+            "Calm profesional mentinut sub presiune"
+          ],
+          "professionalImpact": "Reincadrarea de la 'dumneavoastra contra mine' la 'amandoi contra problemei' elimina tinta insultelor si modeleaza dezescaladarea."
+        },
+        "partially_positive": {
+          "choiceText": "Va aud frustrarea. Sa termin de procesat asta si puteti merge mai departe.",
+          "adequate": [
+            "Recunoastere scurta a frustrarii",
+            "Directionare spre rezolvare"
+          ],
+          "missed": [
+            "Nu a reincadrat oprirea in jurul scopului ei",
+            "Soferul continua sa vada oprirea ca inutila",
+            "Momentul calmat fara schimbarea resentimentului de baza"
+          ],
+          "improvement": "Redirectionarea frustrarii spre intelegerea scopului dumneavoastra — siguranta rutiera — schimba perceptia soferului asupra opririi in sine."
+        },
+        "neutral": {
+          "choiceText": "Nu voi raspunde la insulte. Continui cu procedura.",
+          "adequate": [
+            "Evitarea unei certi",
+            "Demnitate mentinuta"
+          ],
+          "missed": [
+            "Nicio recunoastere a emotiei care alimenteaza insultele",
+            "Ignorarea emotiei puternice perpetueaza ostilitatea",
+            "Conflictul inghetat in loc de rezolvat"
+          ],
+          "improvement": "Recunoasterea frustrarii fara a fi de acord cu atacurile demonstreaza inteligenta emotionala si adesea calmeaza situatiile."
+        },
+        "negative": {
+          "choiceText": "Aveti grija la cuvinte. Ati putea primi mai mult decat o amenda de viteza.",
+          "failures": [
+            "Raspuns la insulta verbala cu amenintare implicita de consecinte juridice",
+            "Escaladare disproportionata",
+            "Calmul profesional pierdut",
+            "Problema de folosire a puterii creata pe camera"
+          ],
+          "consequences": "Amenintarea cu consecinte suplimentare pentru critica verbala incalca standardele profesionale si este devastatoare pe video.",
+          "trainingFocus": "Nevoie critica de instruire in reglare emotionala si intelegerea ca insultele nu sunt motive de escaladare."
+        }
+      },
+      "keyLearningPoints": [
+        "Atacurile personale in timpul controalelor de trafic sunt raspunsuri la stres, nu atacuri reale",
+        "Reincadrarea spre misiune elimina tinta insultelor",
+        "Detasarea profesionala protejeaza ambele parti si arata excelent pe camera"
+      ]
+    },
+
+    "4": {
+      "stageName": "Inregistrare si identificare",
+      "criticalSkills": ["Transparenta sub presiune", "Afirmarea drepturilor", "Incredere"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "A depune o plangere este absolut dreptul dumneavoastra, domnule. Sunt Ofiter John Norton, numar de insigna 45879. Sunteti binevenit sa filmati — nu am nimic de ascuns. Voi continua acum cu procedura legala.",
+          "strengths": [
+            "Afirmarea explicita a dreptului de plangere si de filmare",
+            "Identificare completa furnizata verbal",
+            "Cultura responsabilitatii semnalata",
+            "Procedura continuata cu incredere"
+          ],
+          "professionalImpact": "Primirea favorabila a controlului construieste mai multa autoritate decat rezistenta — amenintarea cu plangerea isi pierde puterea cand o primiti cu bucurie."
+        },
+        "partially_positive": {
+          "choiceText": "Desigur. Sunt Ofiter Norton. Numarul meu de insigna este aici pe uniforma. Sa continuam.",
+          "adequate": [
+            "Nume furnizat de bunavoie",
+            "Insigna indicata"
+          ],
+          "missed": [
+            "Nu a afirmat explicit dreptul de a depune plangere",
+            "Indicarea uniformei in loc de a spune numarul verbal",
+            "Usor dispreriuitor intr-o inregistrare unde claritatea conteaza"
+          ],
+          "improvement": "Afirmarea verbala a dreptului cuiva de a depune plangere — chiar si cand este ostil — construieste mai multa incredere decat simpla conformare."
+        },
+        "neutral": {
+          "choiceText": "Depuneti plangere daca doriti — datele mele sunt pe uniforma.",
+          "adequate": [
+            "Formal corect",
+            "Nu a obstructionat filmarea"
+          ],
+          "missed": [
+            "Tonul transmite indiferenta",
+            "Indicarea insignei pe camera pare dispreriuitoare",
+            "Nicio afirmare verbala a drepturilor"
+          ],
+          "improvement": "Adaugati o declaratie verbala a numarului de insigna si afirmati dreptul de a filma pentru o impresie profesionala pe video."
+        },
+        "negative": {
+          "choiceText": "Nu aveti niciun temei de plangere. Am facut totul conform regulilor. Voi continua acum cu procedura legala.",
+          "failures": [
+            "Negarea dreptului unui cetatean de a depune plangere",
+            "Incorect din punct de vedere legal — ofiterii nu decid temeiul plangerii",
+            "Dovada de negare a drepturilor creata pe camera",
+            "Control de trafic transformat in problema de drepturi civile"
+          ],
+          "consequences": "Negarea drepturilor de plangere pe camera creeaza dovezi pe care orice supervizor sau avocat le va semnala imediat.",
+          "trainingFocus": "Recapitulati drepturile cetatenilor in timpul controalelor de trafic si valoarea strategica a transparentei sub presiune."
+        }
+      },
+      "keyLearningPoints": [
+        "Primirea favorabila a controlului construieste autoritate; rezistenta o distruge",
+        "Identificarea verbala pe camera creeaza o inregistrare a profesionalismului",
+        "Afirmarea drepturilor dezarmeaza ostilitatea mai eficient decat orice demonstratie de autoritate"
+      ]
+    },
+
+    "5": {
+      "stageName": "Miscare neasteptata catre torpedou",
+      "criticalSkills": ["Comunicare tactica", "Managementul sigurantei", "Comenzi verbale"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Domnule, va rog puneti mainile inapoi pe volan. Multumesc. Apreciez ca m-ati informat despre cartela de asigurare, doamna. Domnule, cand va spun eu, intindeti-va incet in torpedou. Spuneti-mi exact unde este cartela inainte sa va intindeti.",
+          "strengths": [
+            "Instructiune clara si specifica — volan",
+            "Recunoasterea contributiei utile a pasagerei",
+            "Cale controlata inainte oferita",
+            "Specificitatea a eliminat ambiguitatea intr-un moment de siguranta"
+          ],
+          "professionalImpact": "Comenzile verbale precise in momentele de siguranta previn neintelegerile care pot transforma opririle de rutina in situatii periculoase."
+        },
+        "partially_positive": {
+          "choiceText": "Domnule, va rog opriti-va. Tineti mainile unde le pot vedea. Dupa ce va intindeti?",
+          "adequate": [
+            "Comanda verbala emisa",
+            "Clarificare ceruta"
+          ],
+          "missed": [
+            "Instructiune vaga — 'unde le pot vedea' nu este specifica",
+            "Nu a recunoscut explicatia pasagerei",
+            "Situatia securizata dar incertitudinea a durat mai mult decat necesar"
+          ],
+          "improvement": "Instructiunile fizice specifice ('mainile pe volan') difera de cele generale ('mainile unde le pot vedea') in claritate si viteza conformarii."
+        },
+        "neutral": {
+          "choiceText": "Dati un pas inapoi de la vehicul, mana pe toc, si asteptati in tacere ca soferul sa explice.",
+          "adequate": [
+            "Distanta de siguranta fizica crescuta"
+          ],
+          "missed": [
+            "Nicio instructiune verbala data",
+            "Tacerea intr-un moment de siguranta este un esec al comunicarii",
+            "Mana pe toc fara cuvinte creeaza teama maxima pentru pasager",
+            "Soferul lasat sa ghiceasca ce doriti"
+          ],
+          "improvement": "Comenzile verbale trebuie sa preceada sau sa insoteasca intotdeauna pozitionarea tactica. Tacerea creste riscul in loc sa il reduca."
+        },
+        "negative": {
+          "choiceText": "Il apucati de brat si strigati: 'Ce credeti ca faceti?! Tineti mainile unde le pot vedea!'",
+          "failures": [
+            "Interventie fizica inainte de avertisment verbal",
+            "Vocea ridicata a escaladat o recuperare de rutina a unui document",
+            "Pasagera a fost martora cum fiul ei este apucat",
+            "Moment de conformare transformat in incident de folosire a fortei"
+          ],
+          "consequences": "Interventia fizica fara avertisment verbal prealabil creeaza un raport de incident, o plangere si dovada video a fortei disproportionate.",
+          "trainingFocus": "Comenzile verbale trebuie sa preceada intotdeauna interventia fizica. Recapitulati continuum-ul folosirii fortei."
+        }
+      },
+      "keyLearningPoints": [
+        "Instructiunile specifice produc conformare mai rapida si mai sigura",
+        "Recunoasterea trecatorilor care ajuta ii transforma in aliati",
+        "Comenzile verbale trebuie sa preceada intotdeauna interventia fizica"
+      ]
+    },
+
+    "6": {
+      "stageName": "Mama vorbeste",
+      "criticalSkills": ["Ascultare empatica", "Implicarea tertilor", "Respectarea limitelor"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Vorbiti bland catre doamna Novak: 'Doamna, nu trebuie sa va cereti scuze. Vad ca este o perioada dificila pentru familia dumneavoastra. Va multumesc ca mi-ati spus — ma ajuta sa inteleg situatia. Voi termina cat mai repede posibil.' Apoi, catre domnul Novak: 'Domnule, mama dumneavoastra vegheaza asupra dumneavoastra. Sa rezolvam asta ca sa puteti pleca amandoi unde trebuie sa ajungeti.'",
+          "strengths": [
+            "Riscul emotional al doamnei Novak validat fara a insista pe detalii",
+            "Multumire pentru impartasire, semnalizand ca vulnerabilitatea este in siguranta",
+            "Redirectionare catre sofer cu o nota despre grija mamei sale",
+            "Dinamica reincadrata de la adversariala la umana"
+          ],
+          "professionalImpact": "Onorarea dezvaluirii unei terte persoane fara a cere mai mult schimba disponibilitatea subiectului principal de a fi vulnerabil."
+        },
+        "partially_positive": {
+          "choiceText": "Dati din cap catre doamna Novak: 'Apreciez ca ati spus asta, doamna. Vad ca este stresant. Am aproape terminat.' Continuati sa procesati documentele.",
+          "adequate": [
+            "Recunoastere politicoasa a cuvintelor ei",
+            "Linistire privind durata"
+          ],
+          "missed": [
+            "Trecut prea repede peste dezvaluirea ei",
+            "Ratat deschiderea pentru conexiune genuina",
+            "Raspuns tranzactional la un risc emotional"
+          ],
+          "improvement": "Cand cineva face aluzie la o poveste mai profunda, implicarea genuina in loc de recunoasterea politicoasa creeaza un alt tip de incredere."
+        },
+        "neutral": {
+          "choiceText": "Va adresati direct domnului Novak, ignorand comentariile mamei: 'Domnule, termin actele. Veti primi documentele inapoi in curand.'",
+          "adequate": [
+            "Focusul procedural mentinut"
+          ],
+          "missed": [
+            "Dezvaluirea vulnerabila a mamei ignorata complet",
+            "Perceptia negativa a soferului despre oprire consolidata",
+            "Fereastra conexiunii umane inchisa",
+            "Mama jenata ca a vorbit"
+          ],
+          "improvement": "Ignorarea cuiva care a vorbit in vulnerabilitate il invata ca apelul la autoritate este inutil."
+        },
+        "negative": {
+          "choiceText": "Aplecati-va si intrebati-o direct pe doamna Novak: 'Ce vreti sa spuneti cu aproape am pierdut pe cineva? Exista ceva ce ar trebui sa stiu?'",
+          "failures": [
+            "Insistenta pe detalii pe care ea deliberat le-a retras",
+            "Limita ei incalcata — s-a oprit la mijlocul frazei",
+            "Deschiderea transformata in interogatoriu",
+            "Raspuns protector declansat din partea soferului"
+          ],
+          "consequences": "Cererea de informatii pe care cineva a ales sa nu le impartaseasca inverseaza dinamica — aliata devine cineva pe care sunteti perceput ca o presati.",
+          "trainingFocus": "Exersati diferenta intre a asculta ce ofera cineva si a cere mai mult decat este gata sa dea."
+        }
+      },
+      "keyLearningPoints": [
+        "Dezvaluirile tertilor fac punte intre dinamicile adversariale si cele umane",
+        "Onorarea vulnerabilitatii voluntare construieste incredere; insistenta pe mai mult o distruge",
+        "Interventia unei mame poate schimba disponibilitatea unui sofer ostil de a coopera"
+      ]
+    },
+
+    "7": {
+      "stageName": "Situatia personala dezvaluita",
+      "criticalSkills": ["Discretie compasionala", "Conexiune umana", "Judecata proportionala"],
+      "choiceAnalysis": {
+        "positive": {
+          "choiceText": "Va apreciez onestitatea, domnule, si imi pare rau pentru fiica dumneavoastra. Vad ca sunteti sub o presiune enorma. De data aceasta voi emite un avertisment — depasirea de viteza este notata dar fara amenda. Va rog conduceti cu grija. Familia dumneavoastra are nevoie de dumneavoastra in siguranta, nu in viteza. Mergeti la intalnire.",
+          "strengths": [
+            "Discretie administrativa potrivita pentru prima incalcare",
+            "Scuzele recunoscute si suferinta validata",
+            "Condusul sigur reincadrat ca ceva ce face pentru familia sa",
+            "Incheiere cu nota umana care construieste incredere durabila"
+          ],
+          "professionalImpact": "Discretia in momentul potrivit transforma o intalnire negativa in una care construieste incredere in politie pentru o intreaga familie."
+        },
+        "partially_positive": {
+          "choiceText": "Imi pare rau sa aud de situatia dumneavoastra. Voi emite amenda conform procedurii, dar vreau sa stiti ca va apreciez onestitatea si scuzele. Va rog conduceti cu prudenta — familia dumneavoastra are nevoie de dumneavoastra intreg.",
+          "adequate": [
+            "Recunoastere genuina a situatiei lui",
+            "Nota personala de grija despre siguranta familiei",
+            "Integritate procedurala mentinuta"
+          ],
+          "missed": [
+            "Acesta era un moment potrivit pentru discretie — avertismentul era legal corect",
+            "Amenda poate nu era necesara pentru o prima incalcare de 25 km/h",
+            "Increderea se imbunatateste dar nu la nivelul pe care l-ar fi realizat discretia proportionala"
+          ],
+          "improvement": "Cand legea va da loc pentru un avertisment, cantariti impactul amenzii versus avertismentului asupra conformarii viitoare si increderii publice."
+        },
+        "neutral": {
+          "choiceText": "Imi pare rau sa aud asta, dar tot trebuie sa emit o amenda. O completez imediat ca sa puteti continua drumul.",
+          "adequate": [
+            "Empatie de baza exprimata",
+            "Procesare eficienta"
+          ],
+          "missed": [
+            "'Tot trebuie' transfera responsabilitatea — aveti discretie",
+            "Aplicare rigida fara flexibilitate",
+            "Soferul vede ofiterul ca procedural corect dar emotional absent"
+          ],
+          "improvement": "Cand spuneti 'trebuie sa emit o amenda', intrebati-va daca este adevarat — sau daca alegeti sa o faceti si evitati asumarea acelei alegeri."
+        },
+        "negative": {
+          "choiceText": "Inteleg, dar asta nu scuza depasirea de viteza. Ati depasit cu 25 — aceasta este o problema de siguranta. Iata amenda dumneavoastra.",
+          "failures": [
+            "Respingator in momentul vulnerabilitatii maxime",
+            "Soferul pedepsit pentru onestitate si scuze",
+            "Mama a auzit leucemia nepoatei respinsa",
+            "Conformare creata prin resentiment, nu prin respect"
+          ],
+          "consequences": "Respingerea vulnerabilitatii in momentul in care cineva se deschide produce conformare fara incredere — cea mai fragila forma de aplicare a legii.",
+          "trainingFocus": "Recapitulati discretia administrativa si diferenta intre conformarea castigata prin respect versus extrasa prin indiferenta."
+        }
+      },
+      "keyLearningPoints": [
+        "Discretia nu este slabiciune — este judecata profesionala",
+        "Un avertisment poate servi siguranta rutiera si increderea publica mai bine decat o amenda",
+        "Modul in care incheiati un control de trafic determina amintirea durabila a soferului despre politie"
+      ]
+    },
+
+    "8": {
+      "stageName": "Evaluare si dezvaluire",
+      "criticalSkills": ["Autoreflectie", "Integrarea lectiilor"],
+      "choiceAnalysis": {},
+      "keyLearningPoints": [
+        "Controalele de trafic modeleaza modul in care milioane de oameni percep fortele de ordine",
+        "Fiecare provocare este o invitatie la escaladare — refuzul acelei invitatii este forta profesionala",
+        "Avertismentul nu a fost slabiciune ci judecata care a modelat modul in care un om in criza vede politia"
+      ]
+    }
+  },
+
+  "comprehensiveMetrics": {
+    "emotionalIntelligence": {
+      "description": "Capacitatea de a recunoaste si raspunde la starile emotionale",
+      "indicators": {
+        "excellent": [
+          "Frustrarea si stresul recunoscute",
+          "Atacurile nu au fost luate personal",
+          "Empatie adecvata demonstrata",
+          "Control emotional mentinut"
+        ],
+        "poor": [
+          "Indicii emotionale ratate",
+          "Reactie la provocari",
+          "Lipsa empatiei",
+          "Emotiile au condus deciziile"
+        ]
+      }
+    },
+
+    "professionalCommunication": {
+      "description": "Calitatea interactiunii verbale si a transmiterii informatiilor",
+      "indicators": {
+        "excellent": [
+          "Prezentare si explicatie clare",
+          "Ton profesional pe parcursul intregii interactiuni",
+          "Ascultare activa demonstrata",
+          "Alegeri lingvistice adecvate"
+        ],
+        "poor": [
+          "Nicio prezentare sau explicatie",
+          "Ton informal sau amenintator",
+          "Preocuparile cetateanului ignorate",
+          "Limbaj neprofesional"
+        ]
+      }
+    },
+
+    "deescalationTechniques": {
+      "description": "Aplicarea strategiilor de reducere a tensiunii",
+      "indicators": {
+        "excellent": [
+          "Preocupari recunoscute",
+          "Solutii practice oferite",
+          "Calm mentinut sub atac",
+          "Discretie folosita adecvat"
+        ],
+        "poor": [
+          "Escaladare prin amenintari",
+          "Preocupari respinse",
+          "Atacuri luate personal",
+          "Aplicare rigida a regulilor"
+        ]
+      }
+    },
+
+    "discretionApplication": {
+      "description": "Folosirea adecvata a discretiei ofiterului in functie de circumstante",
+      "indicators": {
+        "excellent": [
+          "Totalitatea circumstantelor luata in considerare inainte de decizie",
+          "Discretia folosita ca instrument al dreptatii, nu al evitarii",
+          "Rationamentul explicat transparent",
+          "Aplicarea legii echilibrata cu compasiunea"
+        ],
+        "poor": [
+          "Reguli aplicate rigid fara a lua in considerare contextul",
+          "Clementa conditionata de comportamentul bun",
+          "Discretie folosita inconstant sau ca parghie",
+          "Esec in articularea rationamentului pentru decizie"
+        ]
+      }
+    },
+
+    "communityOrientation": {
+      "description": "Focusul pe construirea relatiilor pozitive cu comunitatea",
+      "indicators": {
+        "excellent": [
+          "Cetateanul tratat cu demnitate",
+          "Compasiune aratata fata de circumstante",
+          "Discretie folosita cu intelepciune",
+          "Impresie pozitiva lasata"
+        ],
+        "poor": [
+          "Cetateanul tratat ca adversar",
+          "Nicio compasiune aratata",
+          "Aplicare rigida",
+          "Increderea comunitatii deteriorata"
+        ]
+      }
+    }
+  },
+
+  "personalizedFeedback": {
+    "templates": {
+      "allPositive": "Gestionare remarcabila a controlului de trafic. Ati mentinut profesionalismul sub atacuri verbale, ati recunoscut criza umana din spatele comportamentului ostil, ati folosit discretia cu intelepciune si ati gestionat interactiunea cu pasagera cu empatie genuina. Aceasta este exact genul de activitate de politie care construieste increderea comunitatii.",
+      "mostlyPositive": "Performanta puternica in ansamblu. V-ati pastrat calmul si ati aratat instincte bune in citirea situatiei. Cateva momente in care ati fi putut fi mai specific sau mai empatic, dar rezultatul reflecta abilitati solide de dezescaladare.",
+      "mixed": "Ati aratat cateva instincte bune dar ati ratat oportunitati cheie. Momentele in care ati ales procedura in locul empatiei merita examinate — aceasta oprire a avut straturi care necesitau citirea oamenilor, nu doar urmarea protocolului.",
+      "mostlyNegative": "Aceasta oprire a dezvaluit lacune semnificative in comunicare si constientizare emotionala. Cand soferul a escaladat, i-ati egalat energia in loc sa o absorbiti. Suferinta pasagerei a fost un semnal pe care l-ati ratat. Recapitulati principiile de dezescaladare verbala si empatie tactica.",
+      "allNegative": "Aceasta oprire a mers prost de la inceput pana la final. Fiecare punct de interactiune a fost o oportunitate de a reduce tensiunea, si fiecare a fost ratata sau inrautatita. Se recomanda cu prioritate reinstruirea in comunicare profesionala, tehnici de dezescaladare si judecata discretionara."
+    }
+  },
+
+  "mistakePatterns": {
+    "authoritarian": {
+      "pattern": "Dependenta excesiva de autoritate si amenintari",
+      "examples": ["Amenintari imediate", "Afirmari de putere", "Aplicare rigida"],
+      "impact": "Creeaza relatii adversariale si creste riscul",
+      "correction": "Construiti cooperarea prin respect si explicatii"
+    },
+
+    "dismissive": {
+      "pattern": "Esecul de a recunoaste preocuparile cetateanului",
+      "examples": ["Ignorarea frustrarilor", "Raspunsuri reci", "Nicio empatie"],
+      "impact": "Creste tensiunea si deterioreaza raportul",
+      "correction": "Ascultarea activa si recunoasterea calmeaza situatiile"
+    },
+
+    "reactive": {
+      "pattern": "Luarea provocarilor personal",
+      "examples": ["Raspuns la atacuri", "Amenintari de represalii", "Raspunsuri emotionale"],
+      "impact": "Escaladeaza situatiile si pare neprofesional",
+      "correction": "Mentineti detasarea profesionala si concentrarea pe misiune"
+    },
+
+    "inflexible": {
+      "pattern": "Aplicarea rigida a regulilor fara discretie",
+      "examples": ["Nicio luare in considerare a circumstantelor", "Doar conform regulamentului", "Lipsa elementului uman"],
+      "impact": "Rateaza oportunitatile de a construi increderea comunitatii",
+      "correction": "Folositi discretia ca instrument al dreptatii si construirii comunitatii"
+    },
+
+    "passengerNeglect": {
+      "pattern": "Ignorarea sau respingerea starii emotionale a pasagerului",
+      "examples": ["Trecerea cu vederea suferintei doamnei Novak", "Insistenta pe informatii pe care ea le-a retinut", "Esecul de a verifica starea mamei"],
+      "impact": "Rateaza indicii de context critic si lasa o persoana vulnerabila fara sprijin",
+      "correction": "Pasagerii sunt martori si oameni in propria lor criza — recunoasteti-i fara a-i interoga."
+    }
+  },
+
+  "dialogueEffectivenessReview": {
+    "excellentPhrases": [
+      "'Buna ziua. Sunt Ofiter [Nume]. V-am oprit pentru ca...'",
+      "'Inteleg ca va grabiti. Voi rezolva cat mai repede posibil'",
+      "'Vad ca sunteti frustrat. Multi oameni se simt stresati in timpul controalelor de trafic'",
+      "'Tinand cont de circumstante, voi emite un avertisment de data aceasta'",
+      "'Doamna, vad ca si pentru dumneavoastra este stresant. Luati-va timpul.'",
+      "'Nu o sa pretind ca stiu prin ce treceti, dar vad ca este grav.'"
+    ],
+
+    "poorPhrases": [
+      "'Calmati-va imediat sau vor fi consecinte'",
+      "'Intalnirea dumneavoastra nu e problema mea'",
+      "'Continuati asa si veti primi mai mult decat o amenda de viteza'",
+      "'Toata lumea are probleme. Iata amenda.'",
+      "'Am folosit discretia deoarece sunteti un om bun'",
+      "'Doamna, ce anume voiati sa spuneti? Trebuie sa stiu.'"
+    ],
+
+    "analysisCriteria": {
+      "professionalism": "A mentinut standarde profesionale adecvate?",
+      "empathy": "A recunoscut starile emotionale?",
+      "clarity": "A fost mesajul clar si usor de inteles?",
+      "effectiveness": "A condus spre rezolvare?",
+      "respect": "A mentinut demnitatea cetateanului?",
+      "awareness": "A tinut cont de pasager si de contextul mai larg?"
+    }
+  },
+
+  "scenarioSpecificLessons": {
+    "1": "Fiecare control de trafic este o oportunitate de a construi sau deteriora increderea comunitatii",
+    "2": "Prezentarea profesionala si explicatia reduc raspunsurile defensive",
+    "3": "Recunoasterea preocuparilor nu inseamna scuzarea incalcarilor",
+    "4": "Atacurile verbale ascund adesea frica, frustrarea sau criza personala",
+    "5": "Discretia este un instrument puternic pentru construirea sprijinului comunitatii",
+    "6": "Sfarsitul unei interactiuni lasa cea mai puternica impresie",
+    "7": "Inteligenta emotionala este la fel de importanta ca abilitatile tactice",
+    "8": "Comportamentul dumneavoastra poate escalada sau dezescalada orice situatie"
+  },
+
+  "recommendedTraining": {
+    "based_on_performance": {
+      "perfect": [
+        "Judo verbal avansat",
+        "Instruirea altora in dezescaladare",
+        "Leadership in activitatea de politie comunitara"
+      ],
+      "good": [
+        "Abilitati avansate de comunicare",
+        "Discretia in aplicarea legii",
+        "Dezvoltarea inteligentei emotionale"
+      ],
+      "average": [
+        "Tehnici de baza de dezescaladare",
+        "Comunicare profesionala",
+        "Managementul stresului"
+      ],
+      "poor": [
+        "Instruire obligatorie in dezescaladare",
+        "Atelier de reglare emotionala",
+        "Recapitulare a standardelor profesionale",
+        "Fundamentele relatiilor cu comunitatea"
+      ]
+    }
+  },
+
+  "finalReportStructure": {
+    "sections": [
+      {
+        "title": "Rezumat general al performantei",
+        "content": ["Scor", "Nivel de performanta", "Puncte forte cheie", "Domenii de imbunatatire"]
+      },
+      {
+        "title": "Analiza comunicarii",
+        "content": ["Standarde profesionale", "Empatie demonstrata", "Dezescaladare aplicata"]
+      },
+      {
+        "title": "Puncte critice de decizie",
+        "content": ["Abordarea initiala", "Raspunsul la escaladare", "Gestionarea atacurilor", "Folosirea discretiei"]
+      },
+      {
+        "title": "Evaluarea impactului asupra comunitatii",
+        "content": ["Construirea increderii", "Gestionarea perceptiei", "Efecte pe termen lung"]
+      },
+      {
+        "title": "Managementul pasagerilor si tertilor",
+        "content": ["Constientizarea pasagerilor", "Implicarea tertilor", "Citirea contextului emotional"]
+      },
+      {
+        "title": "Discretie si incheiere",
+        "content": ["Calitatea deciziei discretionare", "Comunicarea de incheiere", "Angajamentul de urmarire"]
+      },
+      {
+        "title": "Dezvoltare profesionala",
+        "content": ["Nevoi imediate de instruire", "Domenii de imbunatatire a abilitatilor", "Traseu de dezvoltare a carierei"]
+      }
+    ]
+  }
+}

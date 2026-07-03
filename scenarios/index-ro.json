@@ -1,0 +1,686 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "title": "Dezescaladarea controlului de trafic",
+      "description": "Învățați să gestionați un control de trafic tensionat cu un șofer agitat",
+      "icon": "🚗",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "traffic-expert": {
+          "minScore": 80
+        },
+        "perfect-traffic": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 4,
+        "CHPS": 3,
+        "CDR": 4,
+        "NPT": 3,
+        "EIC": 5
+      }
+    },
+    {
+      "id": 2,
+      "title": "Negocierea unei plângeri de zgomot la hostel",
+      "description": "Învățați să negociați o rezolvare pașnică în timpul unei plângeri de zgomot noaptea târziu într-un hostel aglomerat",
+      "icon": "🏨",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "negotiation-expert": {
+          "minScore": 75
+        },
+        "perfect-negotiation": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 3,
+        "CHPS": 2,
+        "CDR": 4,
+        "NPT": 5,
+        "EIC": 3
+      }
+    },
+    {
+      "id": 3,
+      "title": "Interacțiune cu tinerii",
+      "description": "Construiți încredere cu adolescenți în comunitate",
+      "icon": "👥",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "youth-advocate": {
+          "minScore": 70
+        },
+        "perfect-youth": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 5,
+        "CHPS": 1,
+        "CDR": 3,
+        "NPT": 3,
+        "EIC": 5
+      }
+    },
+    {
+      "id": 4,
+      "title": "Criză de sănătate mintală",
+      "description": "Ajutați cu compasiune o persoană în criză",
+      "icon": "🧠",
+      "difficulty": 5,
+      "duration": "25-30",
+      "badges": {
+        "crisis-specialist": {
+          "minScore": 85
+        },
+        "perfect-crisis": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 3,
+        "CHPS": 4,
+        "CDR": 3,
+        "NPT": 2,
+        "EIC": 5
+      }
+    },
+    {
+      "id": 5,
+      "title": "Plângere pentru zgomot",
+      "description": "Gestionați diplomatic o plângere de zgomot în cartier",
+      "icon": "🔊",
+      "difficulty": 3,
+      "duration": "12-18",
+      "badges": {
+        "peacekeeper": {
+          "minScore": 70
+        },
+        "perfect-noise": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 2,
+        "CHPS": 3,
+        "CDR": 5,
+        "NPT": 5,
+        "EIC": 3
+      }
+    },
+    {
+      "id": 6,
+      "title": "Disputa la piață — Negociere calmă",
+      "description": "O neînțelegere legată de un loc de parcare la o piață de weekend a atras atenția. Folosiți o comunicare clară și o negociere pașnică pentru a rezolva rapid disputa",
+      "icon": "🛒",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "market-mediator": {
+          "minScore": 70
+        },
+        "perfect-market": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 5,
+        "CHPS": 2,
+        "CDR": 5,
+        "NPT": 4,
+        "EIC": 3
+      }
+    },
+    {
+      "id": 7,
+      "title": "Încăierare stradală la club de noapte",
+      "description": "Comunicați clar într-un mediu de mare presiune și preveniți escaladarea.",
+      "icon": "🚨",
+      "difficulty": 4,
+      "duration": "18-22",
+      "badges": {
+        "street-specialist": {
+          "minScore": 80
+        },
+        "perfect-street": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 3,
+        "RNDC": 3,
+        "CHPS": 5,
+        "CDR": 4,
+        "NPT": 3,
+        "EIC": 4
+      }
+    },
+    {
+      "id": "domestic-crisis",
+      "title": "Dispută domestică cu criză de sănătate mintală",
+      "description": "Navigați o dispută domestică de mare stres cu un copil prezent și criză de sănătate mintală. Stăpâniți dezescaladarea avansată și intervenția în criză.",
+      "icon": "🏠",
+      "difficulty": 5,
+      "duration": "25-35",
+      "badges": {
+        "domestic-expert": {
+          "minScore": 90
+        },
+        "crisis-intervention": {
+          "minScore": 100
+        },
+        "perfect-domestic-crisis": {
+          "minScore": 120
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 3,
+        "CHPS": 5,
+        "CDR": 5,
+        "NPT": 2,
+        "EIC": 5
+      }
+    },
+    {
+      "id": "custody-exchange",
+      "title": "Dispută privind predarea copilului — Între două focuri",
+      "description": "Scenariu avansat: dezescaladare și mediere neutră la predarea conflictuală a copilului între părinți divorțați.",
+      "icon": "⚖️",
+      "difficulty": 4,
+      "duration": "20-25",
+      "badges": {
+        "custody-mediator": {
+          "minScore": 75
+        },
+        "perfect-scenario-custody-exchange": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 3,
+        "CHPS": 3,
+        "CDR": 5,
+        "NPT": 5,
+        "EIC": 4
+      }
+    },
+    {
+      "id": "hospital-disturbance",
+      "title": "Tulburare în spital — Durere, frică și agresivitate",
+      "description": "Dezescaladare cu un pacient agresiv în urgențe. Colaborați cu personalul medical și protejați toată lumea.",
+      "icon": "🏥",
+      "difficulty": 4,
+      "duration": "20-25",
+      "badges": {
+        "hospital-specialist": {
+          "minScore": 75
+        },
+        "perfect-scenario-hospital-disturbance": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 3,
+        "CHPS": 4,
+        "CDR": 4,
+        "NPT": 4,
+        "EIC": 5
+      }
+    },
+    {
+      "id": "road-rage",
+      "title": "Furie la volan — Punct critic la intersecție",
+      "description": "Doi șoferi în confruntare după un accident. Securizați locul, separați părțile ostile.",
+      "icon": "🚗",
+      "difficulty": 4,
+      "duration": "20-25",
+      "badges": {
+        "road-rage-specialist": {
+          "minScore": 75
+        },
+        "perfect-scenario-road-rage": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 3,
+        "RNDC": 2,
+        "CHPS": 5,
+        "CDR": 4,
+        "NPT": 3,
+        "EIC": 3
+      }
+    },
+    {
+      "id": "street-vendor",
+      "title": "Vânzător stradal — Încrucișarea comunității",
+      "description": "Echilibrați aplicarea legii, dreptatea procedurală și relațiile comunitare în situația unui vânzător stradal neautorizat.",
+      "icon": "🍜",
+      "difficulty": 3,
+      "duration": "18-25",
+      "badges": {
+        "vendor-mediator": {
+          "minScore": 70
+        },
+        "perfect-scenario-street-vendor": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 5,
+        "CHPS": 2,
+        "CDR": 4,
+        "NPT": 5,
+        "EIC": 3
+      }
+    },
+    {
+      "id": "traffic-stop",
+      "title": "Control de trafic — Escaladare și comunicare",
+      "description": "Exersați dezescaladarea și comunicarea profesională în timpul unui control de trafic.",
+      "icon": "🚗",
+      "difficulty": 3,
+      "duration": "18-22",
+      "badges": {
+        "traffic-expert": {
+          "minScore": 80
+        },
+        "perfect-scenario-traffic-stop": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 2,
+        "CHPS": 4,
+        "CDR": 3,
+        "NPT": 3,
+        "EIC": 5
+      }
+    },
+    {
+      "id": "youth-park",
+      "title": "Tineri în parc — După-amiază de weekend",
+      "description": "Muzică tare și conflicte verbale între adolescenți în parc; antrenament dezescaladare și lucru cu emoțiile.",
+      "icon": "👥",
+      "difficulty": 3,
+      "duration": "18-22",
+      "badges": {
+        "youth-advocate": {
+          "minScore": 70
+        },
+        "perfect-scenario-youth-park": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 4,
+        "CHPS": 2,
+        "CDR": 5,
+        "NPT": 4,
+        "EIC": 5
+      }
+    }
+  ],
+  "badges": {
+    "scenario-1-complete": {
+      "name": "Absolvent control de trafic",
+      "description": "Ați finalizat cu succes scenariul controlului de trafic",
+      "icon": "🚦"
+    },
+    "scenario-2-complete": {
+      "name": "Mediator domestic",
+      "description": "Ați finalizat cu succes scenariul disputei domestice",
+      "icon": "🤝"
+    },
+    "scenario-3-complete": {
+      "name": "Conectorul tinerilor",
+      "description": "Ați finalizat cu succes scenariul interacțiunii cu tinerii",
+      "icon": "🌟"
+    },
+    "scenario-4-complete": {
+      "name": "Intervenient în criză",
+      "description": "Ați finalizat cu succes scenariul crizei de sănătate mintală",
+      "icon": "💚"
+    },
+    "scenario-5-complete": {
+      "name": "Ofițer comunitar",
+      "description": "Ați finalizat cu succes scenariul plângerii de zgomot",
+      "icon": "🏘️"
+    },
+    "scenario-6-complete": {
+      "name": "Specialist în negociere",
+      "description": "Ați finalizat cu succes scenariul negocierii la hostel",
+      "icon": "🏨"
+    },
+    "scenario-7-complete": {
+      "name": "Specialist gestionare mulțime",
+      "description": "Ați finalizat cu succes scenariul încăierării stradale",
+      "icon": "🚨"
+    },
+    "scenario-domestic-crisis-complete": {
+      "name": "Intervenient avansat în criză",
+      "description": "Ați finalizat cu succes scenariul complex al crizei domestice",
+      "icon": "🛡️"
+    },
+    "traffic-expert": {
+      "name": "Specialist control de trafic",
+      "description": "A demonstrat expertiză în comunicarea la controlul de trafic",
+      "icon": "🚔"
+    },
+    "mediator": {
+      "name": "Mediator de conflicte",
+      "description": "A demonstrat abilități puternice de mediere",
+      "icon": "⚖️"
+    },
+    "youth-advocate": {
+      "name": "Avocat al tinerilor",
+      "description": "S-a conectat bine cu tinerii membri ai comunității",
+      "icon": "🎯"
+    },
+    "crisis-specialist": {
+      "name": "Specialist intervenție în criză",
+      "description": "A gestionat criza de sănătate mintală cu profesionalism",
+      "icon": "🛡️"
+    },
+    "peacekeeper": {
+      "name": "Pacificator comunitar",
+      "description": "A rezolvat disputele comunitare pe cale pașnică",
+      "icon": "🕊️"
+    },
+    "negotiation-expert": {
+      "name": "Expert în negociere",
+      "description": "A demonstrat abilități magistrale de negociere",
+      "icon": "🤝"
+    },
+    "crowd-control-expert": {
+      "name": "Expert gestionare mulțime",
+      "description": "A gestionat comunicarea într-un mediu de mare presiune",
+      "icon": "📢"
+    },
+    "advanced-crisis-specialist": {
+      "name": "Specialist avansat în criză",
+      "description": "A gestionat o criză complexă cu factori multipli",
+      "icon": "🌟"
+    },
+    "perfect-traffic": {
+      "name": "Control de trafic perfect",
+      "description": "A obținut scor perfect în scenariul controlului de trafic",
+      "icon": "🏆"
+    },
+    "perfect-domestic": {
+      "name": "Mediere domestică perfectă",
+      "description": "A obținut scor perfect în scenariul disputei domestice",
+      "icon": "🏆"
+    },
+    "perfect-youth": {
+      "name": "Interacțiune cu tinerii perfectă",
+      "description": "A obținut scor perfect în scenariul interacțiunii cu tinerii",
+      "icon": "🏆"
+    },
+    "perfect-crisis": {
+      "name": "Intervenție în criză perfectă",
+      "description": "A obținut scor perfect în scenariul crizei de sănătate mintală",
+      "icon": "🏆"
+    },
+    "perfect-noise": {
+      "name": "Rezolvare zgomot perfectă",
+      "description": "A obținut scor perfect în scenariul plângerii de zgomot",
+      "icon": "🏆"
+    },
+    "perfect-negotiation": {
+      "name": "Negociere perfectă",
+      "description": "A obținut scor perfect în scenariul negocierii la hostel",
+      "icon": "🏆"
+    },
+    "perfect-crowd-control": {
+      "name": "Gestionare mulțime perfectă",
+      "description": "A obținut scor perfect în scenariul încăierării stradale",
+      "icon": "🏆"
+    },
+    "perfect-domestic-crisis": {
+      "name": "Criză domestică perfectă",
+      "description": "A obținut scor perfect în scenariul complex al crizei domestice",
+      "icon": "🏆"
+    },
+    "scenario-custody-exchange-complete": {
+      "name": "Scenariu predare copil finalizat",
+      "description": "Ați finalizat cu succes scenariul disputei de predare copil",
+      "icon": "⚖️"
+    },
+    "perfect-scenario-custody-exchange": {
+      "name": "Predare copil perfectă",
+      "description": "Ați desfășurat excelent scenariul predării copilului",
+      "icon": "⭐"
+    },
+    "scenario-hospital-disturbance-complete": {
+      "name": "Scenariu spital finalizat",
+      "description": "Ați finalizat cu succes scenariul tulburării în spital",
+      "icon": "🏥"
+    },
+    "perfect-scenario-hospital-disturbance": {
+      "name": "Dezescaladare spital perfectă",
+      "description": "Ați desfășurat excelent scenariul spitalului",
+      "icon": "⭐"
+    },
+    "scenario-road-rage-complete": {
+      "name": "Scenariu furie la volan finalizat",
+      "description": "Ați finalizat cu succes scenariul furiei la volan",
+      "icon": "🚗"
+    },
+    "perfect-scenario-road-rage": {
+      "name": "Gestionare furie la volan perfectă",
+      "description": "Ați desfășurat excelent scenariul furiei la volan",
+      "icon": "⭐"
+    },
+    "scenario-street-vendor-complete": {
+      "name": "Scenariu vânzător stradal finalizat",
+      "description": "Ați finalizat cu succes scenariul vânzătorului stradal",
+      "icon": "🍜"
+    },
+    "perfect-scenario-street-vendor": {
+      "name": "Gestionare vânzător stradal perfectă",
+      "description": "Ați desfășurat excelent scenariul vânzătorului stradal",
+      "icon": "⭐"
+    },
+    "scenario-traffic-stop-complete": {
+      "name": "Scenariu control trafic finalizat",
+      "description": "Ați finalizat cu succes scenariul controlului de trafic",
+      "icon": "🚦"
+    },
+    "perfect-scenario-traffic-stop": {
+      "name": "Control trafic perfect",
+      "description": "Ați desfășurat excelent scenariul controlului de trafic",
+      "icon": "⭐"
+    },
+    "scenario-youth-park-complete": {
+      "name": "Scenariu tineri în parc finalizat",
+      "description": "Ați finalizat cu succes scenariul tinerilor în parc",
+      "icon": "👥"
+    },
+    "perfect-scenario-youth-park": {
+      "name": "Tineri în parc perfect",
+      "description": "Ați desfășurat excelent scenariul tinerilor în parc",
+      "icon": "⭐"
+    },
+    "custody-mediator": {
+      "name": "Mediator predare copil",
+      "description": "A demonstrat abilități de mediere la predarea copilului",
+      "icon": "⚖️"
+    },
+    "hospital-specialist": {
+      "name": "Specialist intervenție spitalicească",
+      "description": "A demonstrat expertiză în intervenția la spital",
+      "icon": "🏥"
+    },
+    "road-rage-specialist": {
+      "name": "Specialist furie la volan",
+      "description": "A demonstrat expertiză în gestionarea furiei la volan",
+      "icon": "🚗"
+    },
+    "vendor-mediator": {
+      "name": "Mediator vânzător stradal",
+      "description": "A demonstrat abilități de mediere în situația vânzătorului stradal",
+      "icon": "🍜"
+    },
+    "master-communicator": {
+      "name": "Maestru al comunicării",
+      "description": "A finalizat cu succes toate scenariile de antrenament",
+      "icon": "🎖️"
+    },
+    "perfect-scenario-1": {
+      "name": "Control de trafic perfect",
+      "description": "A finalizat perfect scenariul controlului de trafic",
+      "icon": "⭐"
+    },
+    "perfect-scenario-2": {
+      "name": "Rezolvare perfectă a disputei domestice",
+      "description": "A finalizat perfect scenariul disputei domestice",
+      "icon": "⭐"
+    },
+    "perfect-scenario-3": {
+      "name": "Interacțiune perfectă cu tinerii",
+      "description": "A finalizat perfect scenariul interacțiunii cu tinerii",
+      "icon": "⭐"
+    },
+    "perfect-scenario-4": {
+      "name": "Intervenție perfectă în criză",
+      "description": "A finalizat perfect scenariul crizei de sănătate mintală",
+      "icon": "⭐"
+    },
+    "perfect-scenario-5": {
+      "name": "Rezolvare perfectă a plângerii de zgomot",
+      "description": "A finalizat perfect scenariul plângerii pentru zgomot",
+      "icon": "⭐"
+    },
+    "perfect-scenario-6": {
+      "name": "Negociere perfectă la hostel",
+      "description": "A finalizat perfect scenariul negocierii la hostel",
+      "icon": "⭐"
+    },
+    "perfect-scenario-7": {
+      "name": "Gestionare perfectă a încăierării stradale",
+      "description": "A finalizat perfect scenariul încăierării stradale la clubul de noapte",
+      "icon": "⭐"
+    },
+    "perfect-scenario-domestic-crisis": {
+      "name": "Gestionare perfectă a crizei domestice",
+      "description": "A finalizat perfect scenariul disputei domestice cu criză de sănătate mintală",
+      "icon": "⭐"
+    },
+    "domestic-expert": {
+      "name": "Specialist în situații domestice",
+      "description": "A gestionat situația domestică cu profesionalism și compasiune",
+      "icon": "🏆"
+    },
+    "crisis-intervention": {
+      "name": "Maestru al intervenției în criză",
+      "description": "A gestionat perfect criza de sănătate mintală",
+      "icon": "🌟"
+    },
+    "market-mediator": {
+      "name": "Ofițer al păcii în piață",
+      "description": "Gestionare expertă a disputelor din spațiul public",
+      "icon": "🏪"
+    },
+    "perfect-market": {
+      "name": "Mediere perfectă la piață",
+      "description": "Scor perfect în scenariul disputei de la piață",
+      "icon": "🏆"
+    },
+    "street-specialist": {
+      "name": "Expert al turei de noapte",
+      "description": "Gestionarea situațiilor tensionate din viața de noapte",
+      "icon": "🌃"
+    },
+    "perfect-street": {
+      "name": "Răspuns stradal perfect",
+      "description": "Scor perfect în scenariul încăierării de la clubul de noapte",
+      "icon": "🏆"
+    }
+  },
+  "difficultyLevels": {
+    "1": {
+      "name": "Începător",
+      "description": "Situații de comunicare de bază",
+      "color": "#4CAF50"
+    },
+    "2": {
+      "name": "Ușor",
+      "description": "Interacțiuni comunitare simple",
+      "color": "#8BC34A"
+    },
+    "3": {
+      "name": "Mediu",
+      "description": "Situații moderat dificile care necesită tact",
+      "color": "#FF9800"
+    },
+    "4": {
+      "name": "Dificil",
+      "description": "Situații complexe cu factori multipli",
+      "color": "#FF5722"
+    },
+    "5": {
+      "name": "Expert",
+      "description": "Situații de criză extrem de complexe",
+      "color": "#F44336"
+    }
+  },
+  "categories": {
+    "traffic": {
+      "name": "Controale de trafic",
+      "description": "Situații legate de trafic și vehicule",
+      "icon": "🚗",
+      "scenarios": [
+        1
+      ]
+    },
+    "domestic": {
+      "name": "Dispute domestice",
+      "description": "Conflicte familiale și relaționale",
+      "icon": "🏠",
+      "scenarios": [
+        2,
+        "domestic-crisis"
+      ]
+    },
+    "community": {
+      "name": "Comunitate",
+      "description": "Interacțiuni publice și probleme comunitare",
+      "icon": "👥",
+      "scenarios": [
+        3,
+        5,
+        6
+      ]
+    },
+    "crisis": {
+      "name": "Situații de criză",
+      "description": "Situații care necesită intervenție în criză",
+      "icon": "🧠",
+      "scenarios": [
+        4,
+        7,
+        "domestic-crisis"
+      ]
+    }
+  }
+}

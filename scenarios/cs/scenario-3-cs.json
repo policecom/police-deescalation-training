@@ -1,0 +1,436 @@
+{
+    "id": 3,
+    "title": "Interakce s mládeží — Hlídka v parku",
+    "description": "Pokročilý scénář zahrnující stížnost na hluk způsobený teenagery ve veřejném parku, úzkostlivou starší sousedku, defenzivní teenagery obávající se rasového profilování a kolemjdoucího, který situaci komplikuje. Policista musí vyvážit oprávněnou stížnost na hluk s právem teenagerů na využívání veřejného prostoru a zároveň budovat důvěru u mladých lidí, jejichž celoživotní vnímání policie může být utvářeno právě tímto jediným setkáním.",
+    "icon": "🛹",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Seržant Patel",
+        "avatar": "👮‍♂️",
+        "introduction": "Setkání s mládeží patří k nejzásadnějším interakcím v policejní práci — ne proto, že by se jednalo o závažnou trestnou činnost, ale proto, že formují způsob, jakým celá generace vnímá orgány činné v trestním řízení. Výzkumy soustavně ukazují, že dospívající, kteří mají negativní policejní kontakty, si vytvářejí trvalou nedůvěru, která po celá desetiletí ovlivňuje jejich ochotu spolupracovat, občanskou angažovanost a dokonce i volbu povolání. Dnešní scénář se týká stížnosti na hluk způsobený teenagery v parku. Neprobíhá žádná trestná činnost. Volající je starší obyvatelka znepokojená hlukem a neznámou aktivitou. Teenageři dělají to, co teenageři dělají — socializují se, jezdí na skateboardu, pouštějí si hudbu. Váš úkol je trojí: reagovat na oprávněnou stížnost stěžovatelky, vyhnout se posilování strachu teenagerů z profilování a dosáhnout toho, aby každý mladý člověk v tom parku odcházel s pozitivnějším pohledem na policii, než měl před vaším příjezdem. Způsob, jakým toto zvládnete, bude mít význam ještě dlouho poté, co hudba utichne."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-3-complete"],
+    "perfectBadge": "perfect-scenario-3",
+    "finalMessage": {
+        "revelation": "Marcus Williams je sedmnáctiletý vynikající student a kapitán debatního týmu své školy. Od základní školy je neformálním vůdcem této skupiny přátel — ochranitelský, otevřený a hluboce si vědomý toho, jak jsou mladí černoši vnímáni policií. Jeho defenzivní chování nebylo nepřátelství; bylo to naučené přežití ze sledování svého staršího bratra, kterého během jednoho léta třikrát zastavili a prohlédli za to, že \"odpovídal popisu\". Jaylen Carter, 15 let, je Marcusův soused. Je to tichý kluk s úzkostnou poruchou, který se do čtvrti přestěhoval před osmi měsíci po rozvodu rodičů. Skateboardová parta je jeho první skutečný okruh přátel. Když řekl \"tohle se nám děje pořád\", mluvil ze zkušenosti — v jeho bývalé čtvrti bylo agresivní policejní hlídkování a zastavení a prohlídka ve třinácti letech v něm zanechaly trvalý strach z policistů. Po této interakci o ní Marcus napsal do skupinového chatu s 200 teenagery ze čtyř škol. To, co napsal, utvářelo způsob, jakým těchto 200 mladých lidí vnímá policii. Paní Chenová později přinesla do parku sušenky a představila se teenagerům. Pan Rivera zmínil tento zákrok na schůzi sousedského sdružení jako příklad dobré komunitní policejní práce.",
+        "keyLessons": [
+            "Setkání s mládeží formují celoživotní vnímání orgánů činných v trestním řízení — každý kontakt s teenagerem je investice do důvěry, nebo její výběr",
+            "Defenzivní chování teenagerů je často naučená sebeochrana, nikoli vzdor — rozpoznání tohoto faktu změní vaši reakci",
+            "Procesní spravedlnost znamená vysvětlit, proč jste na místě, dříve než začnete klást otázky nebo formulovat požadavky",
+            "Přímé a upřímné řešení obav z profilování je účinnější než jejich ignorování nebo odmítání",
+            "Potvrzení oprávněnosti stížnosti stěžovatele nevyžaduje zneplatnění práv druhé strany",
+            "Teenageři, kteří se cítí vyslyšeni a respektováni, se stávají ambasadory legitimity policie ve svých vrstevnických sítích",
+            "Cílem nekriminálních kontaktů s mládeží není poslušnost — je to důvěra"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Na místě",
+            "sceneUpdate": {
+                "emoji": "🛹",
+                "title": "Park u řeky — Sobotní pozdní odpoledne",
+                "desc": "Přijíždíte k malému sousedskému parku za teplého sobotního odpoledne. Stisknete tlačítko na své kameře — dvojité zavibrování potvrzuje, že nahrává. Pět teenagerů sedí na lavičkách u skateboardové plochy, další dva cvičí kickflipy na betonové cestě. Bluetooth reproduktor hraje hip-hop přiměřenou hlasitostí. Na lavičce leží prázdné plechovky od limonády a sáčky od chipsů. Přes ulici sleduje situaci starší žena z okna ve třetím patře. Nedaleko tlačí muž na houpačkách batole."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Hlídka směřující do Parku u řeky, Jilmová 45. Volající je paní Chenová z bytu 3B přes ulici — hlásí podezřelé teenagery postávající v parku, hlasitou hudbu, možnou drogovou aktivitu. Volající uvádí, že tam jsou již přes dvě hodiny. Na tuto skupinu nebyly žádné předchozí hovory."
+                },
+                {
+                    "character": "officer",
+                    "text": "(do vysílačky) Dispečink, hlídka 14 na místě v Parku u řeky, Jilmová 45. Na místě je přibližně sedm mladistvých, skateboardy a reproduktor. Nejsou viditelné žádné zbraně, žádné známky drogové aktivity. Zahajuji kontakt na základě stížnosti na hluk. Kamera je aktivní."
+                }
+            ],
+            "prompt": "Dorazili jste do parku. Vidíte teenagery na skateboardech a jak se baví — žádná viditelná trestná činnost. Jak k nim přistoupíte?",
+            "options": [
+                {
+                    "text": "Zamířit přímo ke skupině rázným krokem, ramena vzpřímená, jedna ruka položená na opasku s výstrojí. Zastavit se před lavičkami, přejet pohledem tváře přítomných a zeptat se, co tu dělají a jestli bydlí v okolí. Volající zmínila podezřelou aktivitu, takže zjištění důvodu jejich přítomnosti v tomhle parku je logicky prvním krokem. Držet profesionální tón, ale dát najevo, že čekáte odpovědi, než se rozhodnete, jak dál postupovat.",
+                    "feedback": "Proč: Přistoupit k teenagerům s otázkami \"co tu děláte?\" a \"bydlíte tu?\" naznačuje, že musí ospravedlňovat svou přítomnost ve veřejném parku. Nemáte žádné důvodné podezření z trestné činnosti. Toto zarámování jim říká, že jsou podezřelí, nikoli občané. Výzkum policejní práce s mládeží ukazuje, že vyžadování ospravedlnění zákonné přítomnosti je nejškodlivějším typem kontaktu. | DŮSLEDKY: Teenageři okamžitě ztuhnou. Marcus vstane a zkříží ruce. Jaylen se schová za skupinu. Každý teenager v tom parku si právě potvrdil své přesvědčení, že policie je vnímá jako problém. Interakce začíná konfrontačně. | Reflexe: Když teenageři nedělají nic nezákonného ve veřejném prostoru, co jim sdělujete tím, že po nich chcete ospravedlnit svou přítomnost?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Zaparkovat služební vůz kousek stranou a jít ke skupině nenápadně — ruce viditelně podél těla, uvolněný postoj, žádná ruka na opasku. Chvíli pozorovat situaci: hlasitost hudby, jízdu na skateboardech, celkovou atmosféru. Všimnout si muže s batoletem na houpačkách a ženy sledující z okna nahoře. Nechat řeč těla říkat \"soused procházející kolem\", ne \"policista na výjezdu\". Získat úplný obraz situace, než oslovíte kohokoliv.",
+                    "feedback": "Proč: Zaparkování v odstupu eliminuje zastrašení z přímého příjezdu. Klidná chůze s viditelnými rukama signalizuje, že nepřistupujete k hrozbě. Pozorování na prvním místě vám poskytne klíčové informace: hudba je přiměřená, skateboarding probíhá na betonové cestě, žádné drogy ani alkohol nejsou viditelné a rodič s malým dítětem pohodlně využívá tentýž park. Žena v okně je pravděpodobně volající. Nyní máte kontext, že popis z dispečinku přeháněl. | DŮSLEDKY: Teenageři si vás všimnou, ale nevydělili jste je. Vidíte pana Riveru, jak tlačí dceru na houpačkách, v klidu, což vám říká, že atmosféra není ohrožující. Máte úplný obraz situace ještě před svým prvním slovem. | Reflexe: Jak 90 sekund klidného pozorování změní kvalitu každého následujícího rozhodnutí?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Přejít přes ulici a jít nejprve do bytu paní Chenové, abyste získali úplný obraz její stížnosti, než přistoupíte k teenagerům. Vejít do vestibulu jejího domu a podrobně si zapsat její konkrétní obavy — hluk, postávání, podezření na drogy. Zavolala to ona, takže důkladné pochopení toho, co přesně viděla a slyšela, vám dá solidní základ, než přejdete ke skupině v parku.",
+                    "feedback": "Proč: Získání celého příběhu stěžovatelky má svou hodnotu, ale jít nejprve do jejího bytu znamená, že teenageři sledují příjezd policejního vozu a zmizení policisty v budově přes ulici. Vědí, že na ně někdo zavolal. Než se vrátíte ven, jsou úzkostní, defenzivní, nebo pryč — a promeškali jste šanci vidět situaci tak, jak přirozeně je. | DŮSLEDKY: Když vyjdete z budovy, Marcus nahlas řekne: \"Tak to máme — někdo nás práskl.\" Jaylen vypadá, že chce utéct. Celá skupina je v plné defenzivě, ještě než řeknete jediné slovo. Také máte jen perspektivu paní Chenové, která může být ovlivněna předsudky. | Reflexe: Kdy vám přednostní sběr informací od stěžovatele ve skutečnosti znevýhodňuje objektivní posouzení situace?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Projít kolem skupiny nenápadně a zamířit nejprve k muži, který tlačí dceru na houpačkách — vypadá jako neutrální strana, která je tu dost dlouho na to, aby vám dala upřímný pohled na situaci. Zastavit se u houpačky a tiše se ho zeptat, co pozoroval — hlasitost hudby, chování teenagerů, zda zaznamenal něco znepokojivého. Jeho perspektiva kolemjdoucího vám pomůže situaci lépe vyhodnotit.",
+                    "feedback": "Proč: Hledání neutrální perspektivy je chytrý vyšetřovací instinkt. Nicméně projít kolem teenagerů a vyslýchat jiného dospělého ohledně nich — zatímco se dívají — posílá jasnou zprávu: sbíráte důkazy proti nim. Rovněž to zachází s panem Riverou spíše jako s dohlížitelem než jako s dalším uživatelem parku. | DŮSLEDKY: Teenageři vidí, jak mluvíte s otcem a díváte se jejich směrem. Marcus řekne skupině: \"Ptá se na nás.\" Jaylenova úzkost prudce stoupne. Pan Rivera je vstřícný, ale není mu příjemné být stavěn do role informátora před teenagery, kteří konverzaci vidí. | Reflexe: Jak viditelné shromažďování informací o lidech — místo od nich — ovlivňuje jejich ochotu s vámi jednat?",
+                    "type": "partially_positive",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "První kontakt",
+            "sceneUpdate": {
+                "emoji": "💬",
+                "title": "U laviček — Setkání s Marcusem",
+                "desc": "Přistupujete ke skupině. Dva teenageři přestávají jezdit na skateboardu a přesouvají se k lavičkám. Z reproduktoru hraje skladba od Drakea přiměřenou hlasitostí. Marcus, sedmnáctiletý, vysoký, ve školní basketbalové mikině, vstává, když se přibližujete. Jeho postoj je napjatý, ale ne agresivní — ruce podél těla, sevřená čelist. Mladší děti za ním sledují s široce otevřenýma očima. Jaylen, patnáctiletý, sedí na konci lavičky s rukama v kapsách. Projedete si mentální kontrolní seznam: veřejný park, otevírací doba, žádné porušení hlukových limitů při této hlasitosti, žádné drogové pomůcky viditelné — neexistuje právní základ pro rozptýlení nebo zadržení. Jedná se o dobrovolný kontakt, nikoli o zastavení."
+            },
+            "npcDialogue": [
+                {
+                    "character": "marcus",
+                    "text": "Tak to máme. Proč jste tady? Neděláme nic špatného. Tohle je veřejný park. Máme plné právo tu být."
+                }
+            ],
+            "prompt": "Marcus vás přímo konfrontuje — ne agresivně, ale rozhodně. Jak se představíte a vysvětlíte svou přítomnost?",
+            "options": [
+                {
+                    "text": "Klidně zvednout ruku, dlaní dopředu, a udržet hlas vyrovnaný a nespěchající: \"Máte pravdu — tohle je veřejný park a máte plné právo tu být. Jsem strážník [jméno]. Nejsem tu proto, že jste něco provedli. Sousedka volala kvůli hluku, a když dostaneme hlášení, přijedeme a podíváme se, jak to vypadá. To je celé. Nejsem tu, abych někoho otravoval.\" Udržet klidný oční kontakt s Marcusem a nechat slova dolehnout.",
+                    "feedback": "Proč: Potvrzení jejich práva být v parku jako první — před čímkoliv jiným — přímo řeší nevyřčený strach. Představení se jménem vytváří zodpovědnost a lidskost. Transparentní vysvětlení stížnosti na hluk jim dává \"proč\" bez toho, aby se z nich stali podezřelí. \"Nejsem tu, abych někoho otravoval\" pojmenuje jejich obavu a rozptýlí ji. Výzkum procesní spravedlnosti ukazuje, že vysvětlení důvodu kontaktu před jakýmkoliv dotazováním je nejsilnějším prediktorem pozitivních výsledků. | DŮSLEDKY: Marcusova čelist se mírně uvolní. Neposadí se, ale jeho postoj se změní z defenzivního na opatrný. Mladší teenageři se přestanou nervózně po sobě dívat. Jaylen zvedne oči od země. Získali jste šanci na skutečný rozhovor. | Reflexe: Proč zahájení právy druhých — místo vaší autoritou — mění trajektorii setkání s mládeží?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Zůstat klidný a profesionální — nohy pevně na zemi, ruce sepnuté před tělem, hlas odměřený a neutrální. Podívat se přímo na Marcuse: \"Jsem strážník [jméno]. Obdrželi jsme stížnost na hluk a aktivitu v parku. Potřebuji se podívat, jak to tu vypadá. Můžete mi říct, jak dlouho tu jste a co děláte?\" Udržet neutrální výraz a zacházet s tím jako s jakýmkoliv jiným výjezdem, který vyžaduje krátký pohovor.",
+                    "feedback": "Proč: Profesionální a strukturované, ale \"potřebuji se podívat\" a \"co děláte\" zarámují interakci jako vyšetřování. Dotaz, jak dlouho tu jsou, naznačuje, že délka pobytu je podezřelá. Teenageři slyší: \"Někdo si stěžoval a teď musím ověřit váš příběh.\" Neuznali jste jejich právo tu být ani nevysvětlili, že žádné pochybení není zjevné. | DŮSLEDKY: Marcus odpoví stroze: \"Jsme tu pár hodin. Jezdíme na skatu. Poflakujeme se. Jako každý víkend.\" Tón je spolupracující, ale chladný. Mladší děti neříkají nic. Získáváte poslušnost, ne důvěru. | Reflexe: Jaký je rozdíl mezi teenagerem, který spolupracuje, protože cítí respekt, a teenagerem, který spolupracuje, protože cítí, že nemá na výběr?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Projít kolem Marcuse bez reakce na jeho slova a oslovit celou skupinu hlasitěji, pohledem přejíždějícím přes lavičky: \"Ahoj všichni, jen se tu rozhlížím. Volali nám kvůli hluku.\" Pak přepnout do úřednějšího tónu, ruce na opasku: \"Má někdo u sebe občanku? Ukažte mi doklady, ať to můžu vyřídit.\" Vyčkávat a sledovat skupinu, zda spolupracuje.",
+                    "feedback": "Proč: Obejít Marcuse — který vystoupil jako mluvčí skupiny — nerespektuje sociální dynamiku. Žádání o občanský průkaz od teenagerů, kteří nejsou podezřelí z žádného protiprávního jednání, nemá ve většině jurisdikcí právní základ a signalizuje, že se jedná o zastavení, ne o rozhovor. \"Jen se tu rozhlížím\" je vágní a neuspokojuje jejich právo vědět, proč je tu policie. | DŮSLEDKY: Marcus vystoupí vpřed: \"Občanku? Kvůli čemu? Sedíme v parku.\" Několik teenagerů vytáhne telefony — ne aby ukázali doklady, ale aby začali natáčet. Jaylen vypadá zpanikařeně. Z běžné stížnosti na hluk jste udělali konfrontaci o občanských právech. | Reflexe: Za jakých okolností můžete legálně požadovat prokázání totožnosti a co se stane, když o ni žádáte bez právního základu?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Zvednout obě ruce dlaněmi ven a nasadit poloviční úsměv — snažit se o uvolněný, nekonfliktní přístup: \"Počkejte, klid — právě jsem přijel. Taky nehledám problémy. Někdo volal kvůli hluku, tak jsem se stavil.\" Pokrčit rameny, rozhlédnout se po parku, jako byste potvrzovali, že je všechno v pořádku: \"Jste v pohodě.\" Nechat to tak — žádné další otázky, žádné požadavky.",
+                    "feedback": "Proč: Neformální, odzbrojující tón vás polidšťuje, ale \"jste v pohodě\" uzavírá interakci dříve, než jste vůbec řešili stížnost na hluk. Stále máte stěžovatelku sledující z okna. Navíc \"počkejte, klid\" může být vnímáno jako povýšené — jako by Marcus jednal nerozumně, když pouze uplatňoval svá práva. | DŮSLEDKY: Marcus se uvolní, ale vypadá zmateně — pokud jsou v pohodě, proč jste tu? Paní Chenová sleduje z okna, jak policista krátce pohovoří a odejde bez řešení její stížnosti. Z vysílačky se ozve: volá znovu. | Reflexe: Jak vyvážit deeskalaci defenzivity teenagerů s řešením důvodu, proč jste byli přivoláni?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Obavy z profilování",
+            "sceneUpdate": {
+                "emoji": "😔",
+                "title": "U laviček — Jaylen promluvil",
+                "desc": "Počáteční napětí se posunulo, ale nerozplynulo. Marcus vás pozorně sleduje, stále se zkříženýma rukama. Ostatní teenageři vytvořili volný půlkruh — ne hrozivě, ale jednotně. Pak poprvé promluví Jaylen, tichý patnáctiletý na konci lavičky. Jeho hlas se třese. Ostatní teenageři zmlknou a podívají se na něj. V hlavě vám proběhne myšlenka: pokud mladistvý vznáší obavy z profilování, interní předpisy jsou jasné — zaznamenat to do záznamu o incidentu a upozornit nadřízeného. Ne proto, že by někdo udělal něco špatného, ale proto, že stížnost je důležitá a dokumentace chrání všechny."
+            },
+            "npcDialogue": [
+                {
+                    "character": "jaylen",
+                    "text": "Tohle se nám děje pořád. Pokaždé, když se někde jen tak scházíme, někdo zavolá policajty. V mý starý čtvrti to bylo ještě horší — zastavovali nás, když jsme šli ze školy domů. Ani tehdy jsme nic nedělali."
+                }
+            ],
+            "prompt": "Jaylen vyslovil nejhlubší strach celé skupiny — že jsou terčem kvůli tomu, kým jsou, ne kvůli tomu, co dělají. Jak zareagujete?",
+            "options": [
+                {
+                    "text": "Otočit se k Jaylenovi přímo — ne nad ním, ale mírně z boku, hlas tichý a klidný: \"Slyším tě. A nebudu předstírat, že se to neděje, protože se to děje. Lidé volají policii na mladé lidi za to, že existují ve veřejném prostoru, a to není fér. Podíval jsem se na situaci, než jsem k vám přišel, a vidím teenagery v parku v sobotu — a přesně k tomu parky slouží. Jsem tu kvůli stížnosti na hluk a vyřešíme to společně.\"",
+                    "feedback": "Proč: Toto je nejtěžší a nejdůležitější moment celého setkání. Jaylenovo prohlášení není stížnost — je to odhalení traumatu. Uznání, že profilování existuje — bez defenzivity nebo odmítání — validuje prožitou zkušenost. Říct \"vidím teenagery v parku, a přesně k tomu parky slouží\" přerámuje jejich přítomnost jako normální. \"Vyřešíme to společně\" je zahrnuje do řešení. Výzkum ukazuje, že policejní uznání obav z předsudků — i bez přiznání osobní viny — je nejúčinnějším nástrojem budování důvěry u mládeže. | DŮSLEDKY: V parku na chvíli zavládne ticho. Jaylen vzhlédne, překvapený. Marcus poprvé rozpaží ruce. Teenager vzadu zašeptá: \"Dobře, on fakt poslouchá.\" Nevyřešili jste systémové problémy policie, ale dokázali jste, že toto setkání je jiné. | Reflexe: Proč je uznání existence profilování — bez defenzivity — účinnější než trvání na tom, že vy osobně nejste zaujatý?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "Na chvíli se zarazit a podívat se na Jaylena se starostlivým výrazem, pak odpovědět vyrovnaným, upřímným tónem — volit slova opatrně: \"Chápu, proč se tak můžeš cítit, a je mi líto, že to byla tvoje zkušenost. Nemůžu mluvit za to, co se dělo ve tvé bývalé čtvrti — nebyl jsem u toho. Ale chci, abys věděl, že dneska jen reaguji na volání. Zacházím s vámi stejně jako s kýmkoliv jiným v této situaci.\" Nechat postoj otevřený a doufat, že upřímnost v hlase nese sdělení.",
+                    "feedback": "Proč: V dobrém úmyslu, ale \"zacházím se všemi stejně\" se u mládeže, která zažila profilování, ukazuje jako kontraproduktivní. Implicitně to popírá jejich zkušenost tím, že se přesouvá k vašim vlastním záměrům. \"Nemůžu mluvit za to, co se dělo\" vytváří odstup od systémového problému místo zapojení se. Teenageři slyší: \"Vaše minulé zkušenosti nejsou můj problém.\" | DŮSLEDKY: Marcus zamumlá: \"To říkaj všichni.\" Jaylen opět zmlkne a dívá se do země. Skupinu jste neztratili, ale ten moment jste promeškali. Zeď zůstává. | Reflexe: Když se někdo svěří se zkušeností s profilováním, jaký je rozdíl mezi \"zacházím se všemi stejně\" a skutečným zapojením se do toho, co řekl?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Přešlápnout, krátce přejet pohledem skupinu a pak přesměrovat rozhovor rozhodným, věcným tónem: \"Podívejte, nejsem tu, abych někoho profiloval. Mám stížnost na hluk a dělám svou práci. Nedělejme z toho větší věc, než to je. Můžeme se bavit o hlasitosti hudby?\" Gestem ukázat k reproduktoru a dát najevo, že chcete přejít od emočního momentu k praktickému řešení, aby se všichni mohli vrátit ke svému odpoledni.",
+                    "feedback": "Proč: Odmítnout zranitelný moment jako \"dělání větší věci, než to je\" říká Jaylenovi — a každému teenagerovi, který se dívá — že jejich zkušenosti a obavy jsou pro vás obtěžování. Přeskočení emočního obsahu k řešení praktického problému (hlasitost hudby) sděluje, že efektivita je důležitější než jejich důstojnost. Toto je typ interakce, který teenageři ve výzkumech popisují jako \"bylo jim to jedno\". | DŮSLEDKY: Jaylen se úplně uzavře. Marcus sevře čelist: \"Jo. Když se to děje nám, tak to nikdy není velká věc.\" Obranný val skupiny se znovu zvedne. Stížnost na hluk můžete stále vyřešit, ale ztratili jste příležitost vybudovat důvěru. Setkání bude zapamatováno jako další případ, kdy policii to bylo jedno. | Reflexe: Když mladý člověk riskuje a sdílí něco zranitelného, co vás stojí zastavit se a zapojit — a co to stojí jeho, když to neuděláte?",
+                    "type": "negative",
+                    "points": -10
+                },
+                {
+                    "text": "Soucitně přikývnout, naklonit hlavu a nechat výraz ve tváři změknout — upřímně vás ten kluk zasáhl: \"To zní těžké, kamaráde. Je mi líto, že jsi tím prošel. Nikdo by se s tím neměl potýkat, natož na cestě ze školy domů.\" Pak se mírně naklonit dopředu s výrazem, který má vyzařovat vřelost a jistotu: \"Ale hele, já jsem jeden z těch dobrých — nejsem takový. Zůstaňte a uvidíte. Slibuju, že tohle bude jiné.\" Myslet každé slovo vážně.",
+                    "feedback": "Proč: Empatie je upřímná, ale \"jsem jeden z těch dobrých\" je dobře zdokumentovaný zabíječ důvěry. Žádá to teenagery, aby vás hodnotili jako individuální výjimku, místo zapojení se do systémového problému. Navíc to přenáší břemeno na ně, aby váš výrok ověřili. \"Uvidíš\" po nich vyžaduje projevit důvěru, která byla opakovaně porušena jinými policisty. Staví to do centra váš sebeobraz místo jejich zkušenosti. | DŮSLEDKY: Marcus se téměř zasměje: \"To taky říkaj všichni.\" Skupina si vymění výmluvné pohledy. Spustili jste scénář, který už slyšeli dříve. Vaše upřímnost se ztrácí ve frázi, která zní přesně jako to, co říkal každý přezíravý policista. | Reflexe: Proč tvrzení, že jste jiný než ostatní policisté, obvykle selhává u mládeže, která měla negativní policejní zkušenosti?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Stěžovatelka",
+            "sceneUpdate": {
+                "emoji": "🏢",
+                "title": "Byt paní Chenové — Přes ulici",
+                "desc": "Odejdete od skupiny, abyste si promluvili s paní Chenovou. Sešla do vstupního vestibulu své budovy — žena kolem sedmdesátky, drobná, ve květovaném domácím županu. Drží se rámu dveří. Za vámi teenageři sledují z lavičky v parku. Marcus z vás nespouští oči. Pan Rivera tlačí dceru na houpačkách a občas pohlédne směrem k vám."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_chen",
+                    "text": "Děkuji, že jste přijel, pane policisto. Nechci dělat problémy. Ale ty děti — jsou tam každý víkend, ta hudba je hlasitá a já je neznám. Manžel mi loni zemřel a jsem tu sama. Vidím je z okna a dělám si starosti. Co když berou drogy? Co když začnou zlobit? Chci se prostě cítit bezpečně."
+                }
+            ],
+            "prompt": "Stížnost paní Chenové je poháněna jak oprávněnou obavou z hluku, tak úzkostí z neznámých mladých lidí. Jak ji zvládnete?",
+            "options": [
+                {
+                    "text": "Změkčit postoj, ztišit hlas a mluvit jemně: \"Paní Chenová, je mi líto vašeho manžela — žít sama může způsobit, že se všechno zdá znepokojivější. Byl jsem tam a mluvil s těmi dětmi. Jsou to místní teenageři — jezdí na skatu, poslouchají hudbu. Žádné drogy, žádné problémy. Hudba je trochu hlasitá a to s nimi vyřeším. Ale chci být upřímný: mají právo park využívat. Mohu se zeptat — dosahuje ten hluk skutečně k vám do bytu, nebo je to spíš tak, že je vidíte a cítíte neklid?\"",
+                    "feedback": "Proč: Uznání její ztráty a osamělosti validuje emocionální kořen jejího volání — izolaci a úzkost. Sdělení toho, co jste skutečně pozorovali (žádné drogy, žádné problémy), opravuje dispečerský narativ fakty. Upřímnost o tom, že teenageři mají právo park používat, stanovuje hranici proti využívání policie k odstraňování lidí z veřejného prostoru. Závěrečná otázka — hluk versus neklid — je klíčová: jemně ji vybízí k zamyšlení, zda je její stížnost na zvuk, nebo na strach z neznámé mládeže. | DŮSLEDKY: Paní Chenová se na chvíli zarazí. \"No... tu hudbu občas slyším. Ale hlavně je vidím a dělám si starosti.\" Je upřímná — skutečný problém je úzkost, ne hluk. Nyní znáte skutečný problém k řešení, kterým je její izolace a strach, a můžete řešit hluk jako ten konkrétní bod. | Reflexe: Proč je důležité pomoci stěžovateli rozlišit mezi konkrétním rušením a zobecněným strachem — a jak to změní vaši reakci?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Přistoupit blíž, nasadit vřelý, uklidňující úsměv a mluvit tím nejutěšujícím tónem: \"Nemějte obavy, paní Chenová. Mluvil jsem s nimi a všechno je pod kontrolou — postarám se, aby utišili hluk. Jsou to jen děti, co se baví, nic nebezpečného. Pokud vám budou dělat ještě nějaké problémy, zavolejte nám znovu a hned přijedeme. Nemusíte tam nahoře sedět a dělat si starosti.\" Lehce pokývnout směrem k jejímu domu, aby věděla, že se může vrátit nahoru s klidnou myslí.",
+                    "feedback": "Proč: Vřelé a vstřícné, ale \"pokud vám budou dělat ještě nějaké problémy\" zarámuje teenagery jako zdroj problémů, ne jako uživatele parku. Povzbuzování k opakovanému volání ji v podstatě jmenuje do role dozorce nad teenagery. Tím vzniká vzorec, kdy teenageři jsou opakovaně vystaveni policejnímu kontaktu, protože úzkostná sousedka je sleduje z okna. | DŮSLEDKY: Paní Chenová se cítí potvrzena, ale nyní se vnímá jako strážkyně proti teenagerské aktivitě. Příští sobotu zavolá znovu — teenageři jsou v normální hlasitosti, ale ona \"si myslela, že něco slyšela\". Vytvořili jste koloběh. Teenageři začnou parku říkat \"pozorovací zóna\". | Reflexe: Jaký je rozdíl mezi reagováním na stížnost a umožněním vzorce opakovaných stížností?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vyřídit to stručně a věcně — máte další výjezdy, co čekají. Zdvořile přikývnout: \"Podíval jsem se na to, paní Chenová. Ty děti se jen tak poflakují — nic kriminálního se neděje. Promluvím s nimi o hluku. Tyto věci se obvykle vyřeší samy.\" Mrknout na hodinky a začít se otáčet k odchodu: \"Hezký večer.\" Stížnost je zaznamenána, hluk se bude řešit, záležitost je uzavřena — není třeba se zdržovat osobními detaily, které sdílela.",
+                    "feedback": "Proč: Efektivní, ale odmítavé vůči emočnímu obsahu jejího volání. Řekla vám o smrti manžela, o své osamělosti a strachu — a vy jste reagovali logistikou. \"Tyto věci se vyřeší samy\" není uklidňující pro někoho, kdo se cítí v nebezpečí. Řešili jste stížnost, ale ne osobu. | DŮSLEDKY: Paní Chenová přikývne, ale cítí se nevyslyšena. Vrátí se nahoru a sleduje z okna, úzkostnější než předtím. Problém s hlukem se může zlepšit, ale její strach přetrvává. Zavolá znovu — ne proto, že teenageři jsou hlasitější, ale proto, že nic neřešilo její skutečnou obavu. | Reflexe: Když je stížnost poháněna osamělostí a úzkostí, vyřeší vyřešení povrchového problému skutečně ten problém?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Narovnat se a mluvit s přesvědčením, odpovědět na její znepokojení rozhodnou autoritou: \"Udělala jste naprosto správně, že jste zavolala, paní Chenová. Děti by neměly dělat takový hluk v rezidenční oblasti. Postarám se, aby vypnuly hudbu a šly pryč — tohle má být klidná čtvrť. Neměla byste se s tím muset potýkat každý víkend.\" Nechat svou jistotu, aby ji uklidnila, a dát jasně najevo, že její pohodlí je vaší prioritou a že hodláte zasáhnout okamžitě.",
+                    "feedback": "Proč: Toto je nejnebezpečnější odpověď. \"Děti by neměly dělat hluk v rezidenční oblasti\" — jsou v parku, který existuje právě pro rekreaci. \"Postarám se, aby šly pryč\" znamená odstraňování teenagerů z veřejného prostoru, protože sousedce je nepohodlně. \"Neměla byste se s tím muset potýkat\" potvrzuje představu, že teenageři v parku jsou přítěž. Posilujete předsudky a zavazujete se k nepřiměřenému zásahu. | DŮSLEDKY: Vrátíte se do parku a řeknete teenagerům, aby vypnuli hudbu a odešli. Marcus vybuchne: \"Odešli?! Tohle je veřejný park!\" Teenageři cítí přesně to, čeho se báli — dospělý si stěžoval a policie je vykázala. Jaylenovi se zalesknou oči slzami. Toto setkání se stane příběhem, který Marcus vypráví roky jako důvod, proč se policii nedá věřit. | Reflexe: Když potvrdíte rámec stěžovatele bez zpochybnění, čí práva jsou obětována?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Hledání rovnováhy",
+            "sceneUpdate": {
+                "emoji": "⚖️",
+                "title": "Zpět v parku — Překlenování propasti",
+                "desc": "Vracíte se ke skupině teenagerů. Pan Rivera skončil na houpačkách a jde s batolatem směrem k lavičkám. Zastaví se u vás a tiše promluví. Teenageři sledují vaši výměnu. Marcus stojí s jednou nohou na skateboardu a čeká."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dad_rivera",
+                    "text": "(tiše, když prochází kolem) Pane policisto — jen abyste věděl, jsem tu čtyřicet pět minut. Ty děti se chovaly naprosto v pořádku. Pozdravily mou dceru, sebaly míček, co hodila. Ta hudba není tak hlasitá. Upřímně, chovají se líp než někteří dospělí, co tu potkávám."
+                },
+                {
+                    "character": "marcus",
+                    "text": "(sleduje váš návrat) Tak co? Co řekla ta paní? Vyhodí nás?"
+                }
+            ],
+            "prompt": "Nyní máte úplný obraz: teenageři s právem tu být, stížnost na hluk, která je částečně motivována úzkostí, a kolemjdoucí potvrzující, že teenageři se chovají slušně. Jak zprostředkujete řešení?",
+            "options": [
+                {
+                    "text": "Být transparentní k Marcusovi: \"Nikdo nebude vyhozen. Situace je taková — sousedka přes ulici je starší žena žijící sama a hudba jí doléhá do bytu. Nemá to proti vám, prostě se obává, protože vás nezná. Hluk je ta jediná věc, na kterou se můžu vlastně ptát — byli byste ochotní to trochu ztišit? Ne vypnout, jen ztišit. Dělejte si dál, jeďte na skatech, trávte tu čas. To je vaše právo.\"",
+                    "feedback": "Proč: Plná transparentnost — sdílení toho, kdo si stěžoval a proč — zachází s teenagery jako s dospělými schopnými empatie. Polidštění paní Chenové (\"starší, žijící sama, nezná vás\") zve k soucitu místo odporu. Požádání o ztišení — ne vypnutí — respektuje jejich aktivitu a zároveň řeší jedinou oprávněnou stížnost. Potvrzení \"to je vaše právo\" posiluje, že jde o jednání mezi rovnými, ne o rozkaz od autority. Toto modeluje procesní spravedlnost: hlas, transparentnost, respekt, neutralitu. | DŮSLEDKY: Marcus se podívá směrem k bytovému domu. \"Ona se nás bojí? Jsme tu každý víkend už měsíce.\" Teenager vzadu řekne: \"Moje babička se taky bojí úplně všeho.\" Přesun k empatii je viditelný. Marcus sáhne a ztlumí reproduktor, aniž by ho někdo znovu žádal. | Reflexe: Co se stane, když teenagerům poskytnete stejné kontextové informace, které máte vy, a necháte je rozhodnout se?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Mírně zkřížit ruce, nasadit rozumný, ale autoritativní tón a oslovit celou skupinu: \"Takhle to je — stížnost na hluk je oprávněná, takže potřebuji, abyste ztišili hudbu. Držte ji na rozumné úrovni a nebudeme mít žádný problém. Můžete zůstat — nikdo vás nevyhazuje — jen berte ohledy na sousedy. Hlasitost je tady jediný problém.\" Pokývnout směrem k reproduktoru a vyčkávat, aby bylo jasné, že tohle je pokyn, který očekáváte splněný bez prodlení.",
+                    "feedback": "Proč: Na povrchu funkční a férové, ale \"takhle to je\" a \"potřebuji, abyste\" zarámují situaci jako direktivu, ne jako společné řešení. Nesdíleli jste kontext — kdo si stěžoval a proč — a necháváte teenagery, aby si to domysleli. \"Nebudeme mít žádný problém\" je mírná hrozba. Teenageři poslouchají, ale cítí se řízeni, ne respektováni. | DŮSLEDKY: Marcus ztlumí hudbu bez námitek, ale řekne kamarádům: \"Pořád to samé — někdo si stěžuje, nám řeknou, co máme dělat.\" Poslušnost bez přesvědčení. Hudba zůstane dnes tišší, ale odpor narůstá. | Reflexe: Jaký je rozdíl mezi poslušností a spoluprací a která z nich přináší trvalou změnu chování?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Odbýt to — strávili jste tu dost času a situace je evidentně nízká priorita. Mávnout směrem ke skupině: \"Hele, sousedka volala kvůli hluku. Prostě to ztište a bude to dobrý. Musím jet na další volání.\" Nečekat na odpověď a začít svižně odcházet ke služebnímu vozu, cestou vytahovat vysílačku a kontrolovat frontu výjezdů. Stížnost je technicky vyřízena — řekli jste jim, slyšeli to, to by mělo stačit.",
+                    "feedback": "Proč: Minimalizování interakce, abyste stihli další výjezd, zachází s tímto setkáním jako s odškrtnutím políčka. Investovali jste čas do budování vztahu a řešení obav z profilování — a teď to vše zahazujete transakčním odchodem. Teenageři se naučí: i když se policista zdá být v pořádku, stejně chce jen vyřídit záležitost a odejít. Žádné trvalé spojení, žádná mediace, žádné řešení. | DŮSLEDKY: Marcus sleduje, jak odcházíte: \"To bylo k ničemu.\" Jaylen neříká nic. Hudba se za deset minut vrátí nahoru, protože nedošlo ke skutečné dohodě — jen k letmému pokynu od někoho, kdo se nemohl dočkat, až odejde. Paní Chenová zavolá znovu v šest večer. | Reflexe: Jak množství času investovaného do ukončení setkání ovlivňuje, zda řešení skutečně vydrží?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Zaujmout pevný postoj, narovnat se a oslovit skupinu nekompromisním hlasem: \"Vyslechl jsem obě strany. Sousedka má právo na klidné bydlení, takže hudba musí jít pryč. Můžete jezdit na skatu — to je v pořádku — ale reproduktor zůstane vypnutý, dokud jste u obytných budov. To je bez diskuze.\" Stát s rukama zkříženýma na hrudi a udržovat pevný oční kontakt s Marcusem, aby bylo jasné, že tohle je konečné rozhodnutí, ne pozvánka k debatě.",
+                    "feedback": "Proč: \"Klidné bydlení\" je právní koncept pro nájemní smlouvy, ne pro veřejné parky během denních hodin. Nařízení úplného vypnutí hudby — místo žádosti o rozumnou hlasitost — je nepřiměřené. \"Bez diskuze\" zcela odstraňuje jejich hlas z procesu. Teenageři ve veřejném parku mají právo na přiměřenou hlasitost. Tento přístup je učí, že policie vnucuje pravidla, místo aby usnadňovala řešení. | DŮSLEDKY: Marcus na vás zírá: \"Bez diskuze? Jsme ve veřejném parku, ne v knihovně.\" Dívka ze skupiny řekne: \"Můj táta je právník — to nemůžete.\" Setkání směřuje ke konfrontaci o právech, kterou prohrajete. Jaylen vypadá, že se rozbrečí. | Reflexe: Když zarámujete žádost jako nediskutovatelnou, co to sděluje o tom, zda na perspektivě druhého člověka záleží?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Budování dohody",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Lavičky v parku — Změna tónu",
+                "desc": "Napětí znatelně polevilo. Marcus ztlumil hudbu. Pár teenagerů se vrátilo ke skatování. Jaylen na lavičce sedí vzpřímeněji. Marcus stojí naproti vám — stále ostražitý, ale jeho řeč těla změkla. Přichází s nápadem."
+            },
+            "npcDialogue": [
+                {
+                    "character": "marcus",
+                    "text": "Hele... na Mlynářské ulici je skatepark, asi deset minut odsud. Normálně jezdíme tam, ale o víkendech zavírá v šest z nějakýho důvodu. Chodíme sem potom, protože nemáme kam jinam jít. Jestli jde o tu hlasitost, můžeme to tu držet tišeji. Nebo bysme mohli jet do skateparku, kdyby měl dýl otevřeno. Ale jo — ztlumíme to."
+                }
+            ],
+            "prompt": "Marcus nabízí konstruktivní řešení a sdílí skutečný důvod, proč do tohoto parku chodí. Jak na tuto otevřenost zareagujete?",
+            "options": [
+                {
+                    "text": "Přikývnout s upřímným respektem: \"Marcusi, to si vážím — opravdu. Ten skatepark, co zavírá v šest o víkendech, nedává smysl. To je záležitost správy parků a stojí za to to vznést. Víš co — zmíním to na dalším setkání komunitní pracovní skupiny. Nemůžu nic slíbit, ale někdo by měl vědět, že brzké zavírání vás tlačí do parků u obytných budov. Ztlumení hlasitosti tady je férová dohoda. Choval ses opravdu rozumně.\"",
+                    "feedback": "Proč: Oslovení Marcuse jménem a ocenění jeho řešení s ním zachází jako s občanským účastníkem, ne jako s problémem ke zvládnutí. Uznání, že zavírání skateparku je nesmyslné, ukazuje, že dokážete vidět systémové problémy, nejen individuální chování. Nabídka zmínit to na komunitním setkání demonstruje, že se vnímáte jako zastánce, ne jen jako vykonavatel. \"Choval jste se opravdu rozumně\" posiluje kooperativní chování upřímným uznáním. | DŮSLEDKY: Marcus zamrká — nečekal, že policista vezme jeho starost vážně, natož že nabídne pomoc. Teenager za ním řekne: \"Počkat, vy byste to fakt udělal?\" Dynamika se posunula z konfrontační na spolupracující. Jaylen vzhlédne a téměř se usměje. Ukázali jste, jak vypadá občanská angažovanost v praxi. | Reflexe: Co se stane, když policista zachází s postřehem teenagera o jeho komunitě jako s oprávněným občanským podnětem?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Usmát se a souhlasně přikývnout, upřímně potěšený jejich ochotou spolupracovat: \"To mi vyhovuje. Hlasitost byl opravdu jediný problém a vy jste to zvládli skvěle — oceňuji, že jste s celou touhle věcí spolupracovali. Ten skatepark — to je dobrý postřeh. Mohli byste zkusit kontaktovat správu parků a rekreace ohledně prodloužení víkendových hodin. Mají online formulář pro zpětnou vazbu a třeba by byli otevření, kdyby se ozvalo víc lidí. Stojí to za pokus.\"",
+                    "feedback": "Proč: Pozitivní a uznalé. Návrh kontaktovat správu parků je rozumný, ale přenáší celé břemeno občanské advokácie na teenagery. Vy máte přístup ke komunitním komunikačním kanálům, které oni nemají. Odpověď je povzbuzující, ale přichází o příležitost ukázat, jak to vypadá, když autorita vezme váš podnět a jedná podle něj. | DŮSLEDKY: Marcus přikývne: \"Jo, třeba.\" Nebude volat správu parků — je mu sedmnáct a nikdy nejednal s žádným městským úřadem. Bezprostřední situace je vyřešena dobře, ale příležitost k advokacii je ztracena. Teenageři odcházejí se slušným dojmem, ale ne s transformativním. | Reflexe: Když teenager identifikuje systémový problém, jaký je rozdíl mezi tím, říct mu, ať si to vyřeší sám, a pomoci mu to vyřešit?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Krátce a spokojeně přikývnout — problém je vyřešený, výjezd vyřízený. Přijmout dohodu: \"Dobře. Držte hlasitost dole a jsme domluveni.\" Mrknout na hodinky, pak zpět na skupinu: \"Opatrujte se, kluci.\" Otočit se a klidným krokem zamířit ke služebnímu vozu. Marcus sice zmínil skatepark a jeho zavírací hodiny, ale to je záležitost města — nic, co byste mohli vyřešit v sobotní odpoledne. Stížnost je vyřízena, teenageři zůstávají a vysílačka byla moc dlouho potichu.",
+                    "feedback": "Proč: Transakční uzavření. Problém je vyřešen, interakce je u konce a vy pokračujete dál. Ale Marcus právě ukázal zranitelnost — vysvětlil, proč sem chodí, nabídl řešení a odhalil mezeru v komunitní infrastruktuře. Reagovat \"dobře, opatrujte se\" zachází s momentem spojení jako s obchodní transakcí. Teenageři spolupracovali, ale vy jste vztah zanechali tam, kde jste ho našli. | DŮSLEDKY: Marcus se obrátí k přátelům: \"Aspoň nebyl protivnej.\" Toto je strop toho, co transakční setkání přinese — nebýt zapamatován jako protivný. Jaylen neříká nic. Teenageři přidají hudbu, jakmile odjedete, protože nedošlo k žádné skutečné dohodě — jen k poslušnosti. | Reflexe: Když se teenager otevře ohledně své komunity, o co přicházíte tím, že to berete jako transakci k uzavření?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Pokrčit rameny nad zmínkou o skateparku a přejít k praktické stránce věci: \"Skatepark má svá pravidla a s tím já nic neudělám. Prozatím pracujeme s tím, co máme. Držte hlasitost na této úrovni nebo nižší.\" Pak přejet pohledem oblast kolem laviček a všimnout si plechovek a sáčků od chipsů: \"A doporučil bych taky uklidit ty plechovky a obaly — odhazování odpadků dává lidem další důvod k volání. Nechcete jim dávat zbytečnou munici.\" Zkřížit ruce a čekat na potvrzení.",
+                    "feedback": "Proč: Přidání poznámky o odpadcích — když to nebylo součástí stížnosti — působí jako přidávání dalších výtek po tom, co nabídli spolupráci. Marcus nabídl kooperaci a ukázal vám jádro problému a vaše odpověď byla přidat novou kritiku. \"S tím já nic neudělám\" modeluje bezmocnost místo advokácie. Teenageři slyší: \"Váš systémový problém mě nezajímá, a mimochodem, jste taky nepořádní.\" | DŮSLEDKY: Marcusův výraz ztvrdne: \"Chtěli jsme to uklidit, než odejdeme. Vždycky to děláme.\" Teenager vytáhne pytel na odpadky, který si přinesli, a zvedne ho: \"Máme vlastní pytle.\" Předpokládali jste o jejich zvycích to nejhorší a mýlili jste se. Důvěra dostane ránu v cílové rovince. | Reflexe: Když někdo nabídne spolupráci, co se stane se vztahem, pokud reagujete hledáním nových věcí ke kritice?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Závěr",
+            "sceneUpdate": {
+                "emoji": "🌅",
+                "title": "Park u řeky — Blíží se západ slunce",
+                "desc": "Setkání se chýlí ke konci. Hudba hraje potichu. Dva teenageři jezdí na skateboardu v líných kruzích. Marcus a Jaylen sedí na lavičce. Paní Chenová odstoupila od okna. Pan Rivera mává z cesty, když míří domů s dcerou na ramenou. Pozdní odpolední světlo je teplé. Toto je váš poslední moment se skupinou. Uděláte si poznámku zaznamenat toto jako komunitní kontakt — bez donucení, stížnost na hluk vyřešena dobrovolným dodržením. Zahrnete obavy z profilování, které Jaylen vznesl, a upozorníte na ně seržanta Patela ve svém hlášení."
+            },
+            "npcDialogue": [
+                {
+                    "character": "jaylen",
+                    "text": "(tiše, téměř pro sebe, ale dost nahlas, abyste slyšeli) To nebylo tak špatný, jak jsem čekal."
+                },
+                {
+                    "character": "marcus",
+                    "text": "(s náznakem úsměvu) Jo, no... díky, že jste se k tomu nestavěl divně. Většinou, když přijedou policajti, nám prostě řeknou, ať vypadnem."
+                }
+            ],
+            "prompt": "Marcus i Jaylen nabídli vzácnou, zranitelnou zpětnou vazbu. Jak uzavřete tuto interakci způsobem, který zanechá trvalý pozitivní dojem?",
+            "options": [
+                {
+                    "text": "Upřímně se usmát: \"Díky, že jste to řekli — oba dva. Marcusi, zvládl jsi to jako lídr a myslím to vážně. Jaylene, to, co jsi říkal předtím o tom, že se vám to děje pořád — jsem rád, že tentokrát to bylo jinak, a to, co cítíš, je důležité. Kdybyste měli v okolí problém — ne jen policejní, cokoliv — zeptejte se na stanici na mě. Strážník [jméno]. Radši mi zavolejte, než abyste měli pocit, že to nejde. Užijte si večer.\"",
+                    "feedback": "Proč: Pojmenování Marcuse jako lídra posiluje jeho pozitivní identitu místo role \"potížisty\", kterou policejní setkání obvykle přidělují. Návrat k tomu, co Jaylen řekl dříve — bez povýšenosti — ukazuje, že jste opravdu naslouchali a jeho slova měla dopad. Nabídka vašeho jména a otevřených dveří přeměňuje jednorázové setkání v trvalý vztah. \"Bylo by mi radši, kdybyste nám zavolali, než abyste měli pocit, že to nejde\" přímo řeší jádro problému vztahu mládeže a policie: přesvědčení, že policie tu není pro ně. Takto se buduje most, který přetrvá jedno sobotní odpoledne. | DŮSLEDKY: Jaylen se na vás poprvé podívá jinak než se strachem. Marcus pomalu přikývne — tím přikývnutím, které něco znamená. Když odcházíte, slyšíte teenagera říct: \"To bylo vlastně v pohodě.\" Marcus ten večer napíše do skupinového chatu: \"Dneska přijel policajt do parku. Fakt nás poslouchal. Dal nám svoje jméno.\" Dvě stě teenagerů si tu zprávu přečte. | Reflexe: Jaká je dlouhodobá hodnota jednoho pozitivního setkání policie s mládeží a jak daleko se šíří?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Reagovat vřele, uvolnit postoj a nechat na tváři přirozený úsměv: \"Cením si, že jste to vzali v klidu. Vážně — většina lidí si neuvědomuje, že ani my nechceme, aby z těchto volání byla velká věc. Jste fajn kluci — užijte si zbytek večera.\" Pak s hravým úšklebkem, když se začínáte vzdalovat: \"A tu hudbu držte tišeji!\" Přátelsky zamávat a odejít s dobrým pocitem, že tón zůstal po celou dobu lehký.",
+                    "feedback": "Proč: Vřelé a lidské, s upřímným vztahem. Ale \"jste fajn kluci\" je jemně povýšené — naznačuje, že jste je zhodnotili a schválili, což posiluje mocenskou dynamiku. \"Tu hudbu držte tišeji!\" jako poslední slovo — i hravě — dělá z posledního dojmu záležitost poslušnosti, ne spojení. Interakce končí dobře, ale nedosahuje plného potenciálu. | DŮSLEDKY: Marcus se pousměje nad poznámkou o hudbě. Teenageři mají ze setkání slušný pocit — ne skvělý, ne špatný. Bude zapamatováno jako \"ten případ, kdy byl policajt docela v pohodě\". Slušný výsledek, ale ne takový, který by změnil jejich pohled na policii. | Reflexe: Jaký je rozdíl mezi setkáním, které \"nebylo špatné\", a takovým, které změní něčí předpoklady o policii?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Profesionálně přikývnout, narovnat ramena a sepnout ruce před sebou — standardní postoj při uzavírání výjezdu: \"Jsem rád, že jsme to vyřešili. Pamatujte — pokud budou nějaké problémy, držte hlasitost rozumnou a nebude vás nikdo otravovat. Opatrujte se.\" Otočit se a odejít ke služebnímu vozu klidným krokem. Žádná výměna jmen, žádná nabídka dalšího kontaktu — prostě čisté uzavření rutinní stížnosti na hluk.",
+                    "feedback": "Proč: Profesionální a nekonfliktní, ale zcela transakční. \"Nebude vás nikdo otravovat\" zarámuje policejní kontakt jako negativní důsledek, kterému se vyhýbat, místo jako zdroj pomoci. Žádné osobní spojení, žádné uznání zranitelných momentů, které nastaly, a žádný most do budoucna. Interakce se uzavře čistě, ale nezanechá trvalý dopad. | DŮSLEDKY: Marcus řekne \"čau\" bez zvednutí očí. Jaylen neříká nic. Setkání se stává neutrálním datovým bodem — ne negativním, ale ani pozitivním. Ve světě, kde mládež potřebuje důvody důvěřovat policii, je neutralita promeškanou příležitostí. | Reflexe: Když je laťka vztahů mezi mládeží a policií tak nízko, že \"nebylo to špatné\" vypadá jako výhra, co je zapotřebí k jejímu skutečnému zvednutí?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Opřít se o zábradlí lavičky a zkusit navázat osobní, kamarádský kontakt: \"Hele, já ve vašem věku taky jezdil na skatu — věřte nebo ne. Půlku léta jsem proseděl v parcích jako tenhle. Připomínáte mi moji partu.\" Pak přepnout do vážnějšího, téměř otcovského tónu: \"Jen se nedostávejte do problémů, jasný? Svět je dost těžký i bez záznamu v trestním rejstříku. Věřte mi.\" Věnovat Marcusovi výmluvný pohled v naději, že životní rada dopadne jako upřímná starost.",
+                    "feedback": "Proč: Záměrem je spojení, ale \"nedostávejte se do problémů\" a \"bez záznamu v trestním rejstříku\" vnášejí kriminalitu do rozhovoru o teenagerech v parku. Nikdy nebyli v problémech. Nikdy jim nehrozil záznam v rejstříku. Promítání kriminálního rizika na teenagery, kteří prostě jen existovali ve veřejném prostoru, je přesně ta dynamika, které se báli. Nostalgie (\"já taky jezdil na skatu\") staví do centra váš příběh místo jejich. | DŮSLEDKY: Marcusův výraz ztuhne: \"Do problémů? Jakých problémů? Seděli jsme v parku.\" Jaylen sebou trhne při zmínce o \"trestním rejstříku\". Poslední dojem přehlušuje veškerou dobrou vůli, kterou jste vybudovali. Teenageři odcházejí a pamatují si ne vaši empatii, ale naznačení, že jsou jedno špatné rozhodnutí od justiční soustavy. | Reflexe: Proč varování teenagerů před problémy, ve kterých nikdy nebyli, posiluje přesně ten narativ o profilování, který jste se celé setkání snažili vyvrátit?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Rozbor",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Rozbor na stanici — Školící místnost",
+                "desc": "Zpět na stanici. Seržant Patel hodnotí váš výkon v tomto scénáři interakce s mládeží a zaměřuje se na to, jak jste vyvážili stížnost na hluk, obavy teenagerů z profilování, úzkost stěžovatelky a dlouhodobý dopad na důvěru mládeže v policii."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "Tento scénář testuje něco, co se neobjeví v kriminálních statistikách, ale definuje komunitní policejní práci na celou generaci: jak zacházíte s mladými lidmi, kteří nic neprovedli. Každá volba, kterou jste učinili — od vašeho přístupu přes zvládnutí rozhovoru o profilování až po vaše poslední slova — buď vkládala důvěru, nebo ji vybírala. Pojďme si projít, co se stalo."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "Vstoupili jste do parku plného teenagerů, kteří dělali přesně to, co by teenageři měli dělat — trávili čas spolu ve veřejném prostoru v sobotu. Dispečink řekl \"podezřelá aktivita\". Vaše oči řekly \"děti v parku\". To, jak jste tyto dvě věci sladili, určilo všechno, co následovalo. Pojďme rozebrat rozhodnutí, na kterých nejvíc záleželo."
+                },
+                {
+                    "character": "officer",
+                    "text": "Moment, který mě zasáhl, byl Jaylen. Když řekl \"tohle se nám děje pořád\", chtěl jsem říct správnou věc, ale zároveň jsem nechtěl mluvit za zkušenosti, které jsem nezažil. Nebyl jsem si jistý, jak daleko mám zajít."
+                },
+                {
+                    "character": "instructor",
+                    "text": "A ta nejistota je přesně správná — protože špatnou reakcí na tento moment je předstírání, že máte všechny odpovědi. Cílem není být \"jeden z těch dobrých\". Ta fráze je past — žádá teenagery, aby vás hodnotili jako individuální výjimku, místo zapojení se do systémového problému, který vznesli. Skutečným cílem je, aby systém byl méně škodlivý, jedno setkání po druhém. Policii neopravíte jednou návštěvou parku. Ale můžete zajistit, aby tato konkrétní skupina teenagerů odešla s jedním datovým bodem, který vyvrací jejich nejhorší předpoklady."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Ještě jedna věc — vaše poznámka do záznamu aktivity byla chytrá. Dokumentování tohoto jako komunitního kontaktu bez donucení, včetně Jaylenovy stížnosti na profilování a předání nadřízenému — to chrání všechny. Chrání to vás, chrání to teenagery a vytváří to záznam, že útvar bral stížnost vážně. Příliš mnoho policistů zachází s administrativou u zásahů bez zadržení jako s něčím volitelným. Není to volitelné. Právě tato dokumentace přeměňuje jedno dobré setkání v institucionální odpovědnost."
+                },
+                {
+                    "character": "instructor",
+                    "text": "A tady je něco, co většina policistů přehlédne: Marcusův skupinový chat oslovil ten večer dvě stě teenagerů. To, co o tomto setkání napsal, utvářelo způsob, jakým dvě stě mladých lidí ze čtyř škol vnímá policii. To není metafora — to je skutečný mechanismus, jakým se důvěra nebo nedůvěra šíří komunitou. Vaše jedno sobotní odpoledne mělo multiplikační efekt, který nikdy plně neuvidíte. Teď vám řeknu, co se stalo poté, co jste ten park opustili."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "officer": {
+            "name": "Vy (policista)",
+            "avatar": "👮"
+        },
+        "dispatcher": { "name": "Dispečink", "avatar": "📻" },
+        "marcus": { "name": "Marcus Williams (teenager, 17)", "avatar": "🧑‍🦱" },
+        "jaylen": { "name": "Jaylen Carter (teenager, 15)", "avatar": "👦" },
+        "mrs_chen": { "name": "Paní Chenová (sousedka, 70+)", "avatar": "👵" },
+        "dad_rivera": { "name": "Pan Rivera (kolemjdoucí, otec)", "avatar": "👨‍👧" },
+        "instructor": { "name": "Seržant Patel", "avatar": "👮‍♂️" }
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Výjimečná práce s mládeží",
+            "emoji": "🌟",
+            "feedback": "Předvedli jste zlatý standard pro nekriminální kontakty s mládeží: klidné zhodnocení situace před navázáním kontaktu, transparentní vysvětlení vaší přítomnosti, upřímné uznání obav z profilování, empatické zacházení s úzkostnou stěžovatelkou, spolupracující mediaci a závěr, který zanechal každého teenagera v tom parku se zásadně lepším pohledem na policii. Marcusova zpráva ve skupinovém chatu osloví 200 teenagerů ze čtyř škol. To je dozvukový efekt jednoho výjimečného setkání."
+        },
+        "good": {
+            "title": "Silná interakce s mládeží",
+            "emoji": "👍",
+            "feedback": "Zvládli jste nuancovanou situaci s více stranami dobře, zachovali profesionalitu a zároveň projevili upřímnou starost o zkušenosti teenagerů. Vyřešili jste stížnost na hluk bez odcizení mladých lidí. Některé příležitosti pro hlubší spojení nebo působivější závěr byly promeškány, ale váš přístup byl respektující a přiměřený — teenageři si toto setkání zapamatují jako pozitivní."
+        },
+        "average": {
+            "title": "Dostatečné, ale povrchní",
+            "emoji": "📋",
+            "feedback": "Vyřešili jste stížnost na hluk bez zásadního incidentu, ale promeškali jste klíčové příležitosti v setkání — zejména kolem řešení obav z profilování, polidštění stěžovatelky pro teenagery nebo vybudování trvalého mostu. Teenageři odešli z parku s poslušností, ale ne s důvěrou. V policejní práci s mládeží je setkání, které je pouze \"ne špatné\", promeškanou příležitostí."
+        },
+        "poor": {
+            "title": "Vyžaduje výrazné zlepšení",
+            "emoji": "⚠️",
+            "feedback": "Váš přístup posílil přesně ty dynamiky, které tento scénář testuje. Ať už vyžadováním ospravedlnění zákonné přítomnosti, odmítáním obav z profilování, nadměrným potvrzováním stěžovatelky nebo odchodem s implicitními hrozbami, teenageři z tohoto setkání odešli s horším pohledem na policii než před vaším příjezdem. V kontaktech s mládeží se tato škoda kumuluje — prostudujte výzkum vývoje dospívajících, principy procesní spravedlnosti a dlouhodobý dopad policejních kontaktů na mládež."
+        }
+    },
+    "metrics": {
+        "youthEngagement": {
+            "name": "Práce s mládeží",
+            "description": "Komunikace s teenagery s respektem a věkově přiměřeným způsobem — zacházení s nimi jako s lidmi, ne s problémy",
+            "icon": "🧑‍🤝‍🧑"
+        },
+        "proceduralFairness": {
+            "name": "Procesní spravedlnost",
+            "description": "Vysvětlení důvodu vaší přítomnosti, transparentní sdělení stížnosti a dání hlasu všem stranám před rozhodováním",
+            "icon": "⚖️"
+        },
+        "communityMediation": {
+            "name": "Komunitní mediace",
+            "description": "Vyvážení oprávněné stížnosti stěžovatelky s právem teenagerů na veřejný prostor — hledání řešení respektujících obě strany",
+            "icon": "🤝"
+        },
+        "profilingAwareness": {
+            "name": "Povědomí o profilování",
+            "description": "Rozpoznání a upřímné řešení obav teenagerů z toho, že jsou cíleni, bez defenzivity nebo odmítání",
+            "icon": "🔍"
+        },
+        "trustBuilding": {
+            "name": "Budování důvěry",
+            "description": "Zanechání pozitivnějšího pohledu mládeže na policii, než měla před setkáním — vytváření ambasadorů místo protivníků",
+            "icon": "🌱"
+        }
+    }
+}

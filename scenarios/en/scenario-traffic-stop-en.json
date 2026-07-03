@@ -1,0 +1,430 @@
+{
+    "id": "traffic-stop",
+    "title": "Traffic Stop — Escalation and Communication",
+    "description": "Advanced scenario involving a routine traffic stop that escalates when the driver, already stressed from personal problems and running late to a critical meeting, becomes increasingly hostile. The officer must balance firm law enforcement with empathy, navigating insults, filming, safety concerns, a passenger's anxiety, and a personal revelation — all while maintaining procedural transparency and professional composure.",
+    "icon": "🚗",
+    "instructor": {
+        "name": "Sergeant Miller",
+        "avatar": "👮‍♂️",
+        "introduction": "Traffic stops are the most common direct interaction between police and the public, and they shape how millions of people perceive law enforcement. Research consistently shows that procedural justice during traffic stops — explaining why someone was stopped, identifying yourself, and treating the driver with dignity — has a greater impact on public trust than the outcome itself. The driver you stop may be having the worst day of their life: a sick child, a job on the line, a relationship falling apart. None of that excuses speeding, but all of it shapes how they experience your authority. Your challenge is to be both firm and human — to enforce the law while treating the person behind the wheel as someone whose cooperation you earn through professionalism, not someone whose compliance you extract through power. How you open, how you respond to hostility, how you handle safety moments, and how you close the interaction will determine whether this driver tells ten people that police are fair or that police are the problem."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-traffic-stop-complete"],
+    "perfectBadge": "perfect-scenario-traffic-stop",
+    "finalMessage": {
+        "revelation": "Mr. Novak is a 38-year-old single father of two. His seven-year-old daughter was diagnosed with leukemia three months ago, and the medical bills have been devastating. He was speeding to a meeting with his supervisor who had hinted that layoffs were coming — losing this job would mean losing the health insurance covering his daughter's treatment. His passenger, Mrs. Novak, is his mother, who had been watching the children so he could attend the meeting. She was already anxious because she knows how much pressure her son is under and feared the stop would cost him his job. After your interaction, Mr. Novak arrived fifteen minutes late but composed. His supervisor noticed his calm demeanor and offered him a flexible schedule to manage his daughter's appointments. He later told a colleague that the officer who stopped him was the first authority figure in months who treated him like a person rather than a problem. The way you handled the stop did not just enforce a traffic law — it shaped how a man in crisis views the entire institution of policing.",
+        "keyLessons": [
+            "A professional introduction with your name and the specific violation immediately establishes legitimacy and reduces the driver's suspicion that the stop is arbitrary or discriminatory",
+            "Acknowledging time pressure or frustration does not weaken authority — it signals that you see the driver as a person with a life beyond this stop, which earns cooperation rather than extracting compliance",
+            "Personal insults during traffic stops are almost always expressions of underlying stress, not genuine attacks — reframing toward your road safety mission keeps you above the conflict and models the behavior you want",
+            "Transparency under scrutiny — providing your badge number and affirming the right to complain — disarms hostility more effectively than any display of authority",
+            "Clear, specific verbal commands during safety moments prevent misunderstandings that can turn routine stops dangerous — telling the driver exactly where to place their hands and when to move is the difference between control and chaos",
+            "Administrative discretion is not weakness — knowing when a warning serves road safety and public trust better than a fine demonstrates professional maturity and judgment",
+            "How you close a traffic stop determines the driver's lasting memory of the entire interaction and what they tell others about police — the final thirty seconds have disproportionate impact on public trust"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Dispatch and the Stop",
+            "sceneUpdate": {
+                "emoji": "🚓",
+                "title": "Roadside — First Contact",
+                "desc": "Late afternoon on a busy arterial road. You have pulled over a dark sedan for exceeding the speed limit by 25 km/h. The driver, a man in his late thirties wearing a rumpled dress shirt, is gripping the steering wheel tightly and visibly agitated. An older woman in the passenger seat looks down at her lap, avoiding eye contact."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unit, vehicle registration check on the dark sedan shows clean record. Registered owner is Novak, no outstanding warrants, no prior stops in the system."
+                },
+                {
+                    "character": "driver",
+                    "text": "Why did you stop me? I didn't do anything wrong!"
+                }
+            ],
+            "prompt": "How do you choose your opening communication?",
+            "options": [
+                {
+                    "text": "You step up to the window with a calm, measured posture and make eye contact. 'Good afternoon, sir. I'm Officer Norton. I stopped you because my radar clocked your vehicle exceeding the speed limit by 25 km/h back at the intersection. I understand being stopped is frustrating, but I need to let you know the specific reason. May I see your driver's license and vehicle registration, please?' You keep your hands visible and your tone conversational throughout.",
+                    "feedback": "Why: Introduction by name, specific violation, and a courteous document request establish a professional framework from the first sentence. The driver knows who you are, why he was stopped, and what you need — removing ambiguity and the suspicion that this is arbitrary. | CONSEQUENCES: Mr. Novak's jaw tightens but he reaches for his documents. He knows this is legitimate. His mother in the passenger seat relaxes slightly — the officer sounds professional, not aggressive. The interaction has a foundation of transparency. | Reflection: How does providing your name and the specific violation in the first sentence change the entire trajectory of a traffic stop?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "You approach the driver-side window at an angle, one hand resting on your belt, and lean down to speak through the open window. 'Good afternoon. I stopped you for speeding back there on the main road. I'll need your license and registration, please.' You glance briefly at the passenger, note her anxious posture, then turn your attention back to the driver, waiting with an expectant expression for the documents without offering your name or the specific speed.",
+                    "feedback": "Why: You mention the reason for the stop and remain polite, which is better than a cold demand for documents. However, you skip introducing yourself and do not specify the violation details, leaving the driver without the full transparency that builds trust. | CONSEQUENCES: The driver complies but remains skeptical about the legitimacy of the stop. His passenger glances up nervously. Tension does not rise but trust is not fully established either. | Reflection: How much detail about the violation should you provide upfront to prevent the driver from feeling the stop is arbitrary?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "You walk up to the window with a flat, businesslike expression and tap twice on the roof of the car to get the driver's attention. 'Good afternoon, license and registration please.' You extend your hand toward the driver, palm open, and wait. No name, no explanation, no eye contact with the passenger — just a clipped procedural request delivered in a monotone that gives the driver absolutely nothing to work with about why he has been pulled over.",
+                    "feedback": "Why: Non-confrontational but cold. Missing an introduction and the reason for the stop means the driver has no information about why he was pulled over. He fills that gap with suspicion and resentment. | CONSEQUENCES: Mr. Novak stares at you: 'For what? What did I do?' His mother whispers something. Cooperation proceeds but tension persists because you have not answered the most basic question in his mind. | Reflection: What would help you personally accept an intervention with less resistance?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "You stride up to the window, jaw set, and lean down close to the driver's face. You point a finger directly at his chest and speak in a low, clipped tone: 'Calm down and show me your documents or this will only get worse for you.' Your other hand rests conspicuously on your duty belt. The older woman in the passenger seat flinches at the edge in your voice. You hold your position, staring the driver down, making it clear this is a command, not a conversation.",
+                    "feedback": "Why: A threat right at the start escalates a situation that was merely tense into one that is adversarial. The driver has not done anything to warrant a threat — he expressed frustration. Opening with intimidation signals that this stop is about power, not safety. | CONSEQUENCES: Mr. Novak's eyes widen, then narrow. 'Are you threatening me?' His mother reaches for her phone. The passenger dynamic has shifted — now both occupants perceive danger. Every subsequent interaction carries the weight of this opening. | Reflection: How often do threats at the start of a traffic stop actually lead to cooperation versus defiance?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Driver in a Hurry",
+            "sceneUpdate": {
+                "emoji": "🕒",
+                "title": "Nervous Time Pressure",
+                "desc": "The driver is tapping the steering wheel impatiently, glancing at his watch repeatedly. His mother places a hand on his arm, trying to calm him. The stress in the car is palpable — this is clearly about more than a speeding ticket."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "Can we speed this up? I'm running late for a meeting that could decide whether I keep my job!"
+                },
+                {
+                    "character": "passenger",
+                    "text": "(quietly, to the driver) Just cooperate, please..."
+                }
+            ],
+            "prompt": "How do you respond to time pressure without losing authority?",
+            "options": [
+                {
+                    "text": "You nod slowly and lower your clipboard to your side, giving the driver your full attention. 'I understand you're in a hurry and this meeting matters to you — I can see the stress. I'll do my best to get this done as quickly as possible, I promise. If we cooperate and work through this together, you'll be back on the road soon.' You glance briefly at his mother, acknowledging her quiet concern, then turn back to the documents with focused efficiency.",
+                    "feedback": "Why: Empathy plus encouragement to cooperate. You acknowledge the specific concern — the meeting — rather than dismissing it. Framing cooperation as the fastest path forward gives the driver's urgency a productive outlet. His mother hears a professional officer being reasonable. | CONSEQUENCES: Mr. Novak exhales. The tapping stops. He hands over his documents without further protest. His mother's quiet relief is visible. The interaction shifts from confrontation to collaboration because you validated his reality without surrendering your process. | Reflection: How does linking cooperation to speed transform the driver's urgency from an obstacle into an ally?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "You pause from reviewing his documents and glance up. 'I understand you're in a rush — I get it, nobody wants to be stuck here on the side of the road. Let me process this as quickly as I can.' You return your attention to the paperwork, working methodically but without deliberately slowing down, giving a brief nod to acknowledge the situation without offering any framing about how his cooperation might speed things along further.",
+                    "feedback": "Why: You acknowledge the time pressure and commit to efficiency, which shows some empathy. However, you miss the opportunity to frame cooperation as the fastest path forward — without that framing, the driver may continue pushing and interrupting rather than helping the process move along. | CONSEQUENCES: The driver is somewhat reassured but keeps asking how much longer it will take. His mother sighs. The stop proceeds without major friction but also without full cooperation. | Reflection: How does explicitly linking cooperation to speed change the driver's behavior during the stop?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "You keep your eyes fixed on the license in your hand and respond in a flat, clipped tone without looking up. 'Please cooperate so we can get this done quickly.' You flip the license over, check the back, and begin writing on your clipboard. No acknowledgment of his meeting, no recognition of the worry etched across his face, no indication that you have registered anything beyond the procedural task in front of you. The request hangs in the air like an instruction from a manual.",
+                    "feedback": "Why: Factual but lacks empathy. You are asking for cooperation without acknowledging the reason behind his urgency. The driver hears an instruction, not understanding. | CONSEQUENCES: Mr. Novak mutters under his breath. His mother watches you carefully. Minimal relationship building occurs and the tension between you and the driver persists throughout the rest of the stop. | Reflection: What single sentence could you add to make this sound like a person speaking, not a procedure talking?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "You look up from his documents and fix him with a hard stare, your jaw tightening. 'Your meeting isn't my problem. You should have thought about that before driving 25 over the limit.' You let the words land, then look back down at the paperwork and continue writing without hurrying. His mother's hand tightens on her son's arm. The silence that follows is heavier than any argument — you have just told a desperate man that his desperation is his own fault.",
+                    "feedback": "Why: Dismissive and condescending. You have told a man whose livelihood is at stake that his concerns are irrelevant to you. This is factually true but emotionally devastating — and emotion drives behavior during traffic stops. | CONSEQUENCES: Mr. Novak's face hardens. 'Unbelievable.' His mother looks stricken. The impression of harassment forms immediately and the risk of a complaint — or a viral video — increases dramatically. | Reflection: How does dismissing someone's genuine stress affect their perception of every subsequent thing you say and do?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Personal Attacks",
+            "sceneUpdate": {
+                "emoji": "💢",
+                "title": "Verbal Abuse",
+                "desc": "The driver's frustration has boiled over. He is now openly insulting the police — calling the stop 'harassment' and 'a pointless waste of time.' His voice is raised and his face is red. His mother is visibly distressed, quietly pleading with him to stop."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "Don't you have anything better to do than harass decent people?! This is harassment — pure harassment!"
+                },
+                {
+                    "character": "passenger",
+                    "text": "(distressed) Please, son, just let the officer do his job..."
+                }
+            ],
+            "prompt": "The driver is verbally abusive and his passenger is distressed. How do you respond?",
+            "options": [
+                {
+                    "text": "You take a slow, deliberate breath and keep your voice steady, speaking in a calm tone that cuts through his shouting without competing with it. 'I understand you're stressed and in a hurry — I hear that, and I'm not dismissing it. My duty is to ensure road safety, and that's the only reason I'm here today. Let's wrap this up calmly so you can get to your meeting.' You maintain open body language and glance briefly at his mother to acknowledge her distress as well.",
+                    "feedback": "Why: Acknowledging the emotion validates the human behind the insult. Reframing toward road safety shifts the conversation from 'you versus me' to 'both of us versus the problem.' Including the meeting shows you were listening earlier. His mother hears professionalism under fire — exactly what de-escalation research recommends. | CONSEQUENCES: Mr. Novak pauses. The reframe works — when the stop is about road safety rather than authority, his insults lose their target. His mother mouths 'thank you.' The intensity drops because you gave the frustration somewhere to go without matching it. | Reflection: How does framing your mission rather than defending yourself change which part of the brain the driver responds from?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "You shift your weight slightly back from the window, giving him a bit more space, and respond in a measured voice once there is a break in his shouting. 'I hear your frustration, sir — I really do. Let me just finish processing this and you can be on your way.' You look down at the paperwork and continue working efficiently, hoping the calm pace will settle him, but you do not explain why the stop matters or reframe the interaction around its road safety purpose.",
+                    "feedback": "Why: You briefly acknowledge the driver's frustration, which is better than ignoring it entirely. However, you do not reframe the stop around its purpose — road safety — which means the driver continues to see it as pointless harassment rather than a legitimate duty. Without that reframing, you defuse the moment but not the underlying resentment. | CONSEQUENCES: The insults stop temporarily but the driver remains convinced the stop was unjustified. His mother relaxes slightly. Compliance improves without genuine attitude change. | Reflection: What is the difference between acknowledging frustration and redirecting it toward understanding your purpose?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Your expression goes blank and controlled, a deliberate mask. You straighten up slightly and let a beat of silence pass before speaking in a low, even tone. 'I won't respond to insults. I'm continuing with the procedure.' You turn your attention back to his documents without acknowledging his frustration or his mother's distress — no empathy, no reframe, no recognition that a human being just shouted at you out of fear. The silence that follows is rigid and brittle, doing nothing to calm the situation.",
+                    "feedback": "Why: This prevents an argument and maintains your dignity, but it does nothing to calm the situation. Ignoring strong emotion without acknowledgment leaves the driver feeling unheard, which research shows perpetuates hostility rather than resolving it. | CONSEQUENCES: Mr. Novak scoffs but stops shouting. His mother looks between you both uncertainly. Tension persists like a held breath — no escalation, but no de-escalation either. The rest of the stop proceeds in cold, brittle silence. | Reflection: When is ignoring emotion effective, and when does it simply freeze a conflict in place rather than resolving it?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "You feel the heat rise in your chest and before you can stop yourself, you lean into the window and point a finger at the driver. 'Watch your words. Keep talking like that and you could end up with more than just a speeding ticket.' Your voice drops to a low growl. His mother, who had been quietly pleading with her son to calm down, now looks at you with wide eyes — the threat has shifted her fear from her son's behavior to yours. The confrontation has found a new gear.",
+                    "feedback": "Why: Threats in response to insults are the fastest escalation path in a traffic stop. The driver insulted you verbally — you responded with an implied threat of additional legal consequences. This is disproportionate and transforms a frustrated person into a hostile one. His mother becomes a witness to intimidation. | CONSEQUENCES: Mr. Novak explodes: 'Is that a threat?! I want your badge number NOW.' His mother starts recording on her phone. The stop has crossed from tension into genuine conflict — and it is on camera. | Reflection: What prevents you from taking personal attacks personally, and what happens when you fail to maintain that boundary?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Recording and Identification",
+            "sceneUpdate": {
+                "emoji": "📱",
+                "title": "I Want Your Details",
+                "desc": "The driver has pulled out his phone and is recording the interaction. His mother in the passenger seat is also holding her phone, though she keeps it lower, less confrontationally. The driver demands your name and badge number, threatening to file a formal complaint."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "I'm recording this and I'm filing a complaint. What's your name and badge number? I want everything on the record."
+                }
+            ],
+            "prompt": "Two people are filming you and the driver demands your identification. How do you handle this transparently?",
+            "options": [
+                {
+                    "text": "You stand calmly, squaring your shoulders to the camera without flinching or turning away. 'Filing a complaint is absolutely your right, sir, and I respect that. I'm Officer John Norton, badge number 45879.' You speak clearly toward the phone so the recording picks up every word. 'You're welcome to record — I have nothing to hide. I'll now continue with the lawful procedure.' You give a small, professional nod and return to the documents, your demeanor radiating confidence under scrutiny.",
+                    "feedback": "Why: Full transparency, explicit affirmation of rights, and confident continuation. Affirming both the right to complain and the right to record simultaneously disarms the driver's weapons. 'I have nothing to hide' signals a culture of accountability that most citizens have never encountered from police. | CONSEQUENCES: Mr. Novak blinks — he expected resistance. His mother lowers her phone slightly. The complaint threat loses its power when you welcome it. The recording becomes a record of professionalism rather than a gotcha. | Reflection: Why does welcoming scrutiny build more authority than resisting it?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "You glance at the phone briefly, unfazed, and respond in a cooperative tone. 'Of course. I'm Officer Norton.' You tap the badge pinned to your chest. 'My badge number is right here on my uniform — you can read it clearly.' You pause for a moment, then add, 'Now let's continue.' You do not explicitly affirm the driver's right to file a complaint or to record, and pointing to the badge rather than stating the number verbally leaves the driver to do the work of reading it himself.",
+                    "feedback": "Why: You provide your name and point to your badge, which shows willingness to be identified. However, you do not explicitly affirm the driver's right to file a complaint, and pointing to the uniform rather than stating the number verbally can come across as slightly dismissive — especially when the driver is filming and wants a clear verbal record. | CONSEQUENCES: The driver notes your name but remains slightly unsatisfied. His mother continues recording. The interaction continues without major conflict but without the full trust that explicit transparency builds. | Reflection: Why does verbally affirming someone's right to complain — even when they are hostile — build more trust than simply complying with the request?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "You barely glance at the phone pointed in your direction and let out a short, dismissive exhale through your nose. 'Go ahead and complain — my details are on my uniform.' You gesture vaguely toward your badge with a tilt of your chin, then turn back to the paperwork without stating your name or number aloud. The tone lands somewhere between indifference and challenge, as though you are daring him to follow through rather than supporting his right to do so. The camera captures every second.",
+                    "feedback": "Why: Formally correct but the tone says 'I don't care about your feelings.' Pointing at a uniform badge while being filmed creates an impression of indifference that plays poorly on video. The driver wanted a verbal response; you gave him a gesture. | CONSEQUENCES: Mr. Novak reads your badge himself and states it aloud for the camera. His mother films the badge close-up. Tension slightly decreases but the interaction feels adversarial rather than professional. You are being documented, not cooperated with. | Reflection: What could you add to this response so it does not sound arrogant or dismissive to someone who will watch it later on video?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "You stiffen visibly, and your voice takes on a defensive edge. 'You have no grounds for a complaint — I've done everything by the book here, and you know it.' You fold your arms across your chest for a moment, then realize the phone is still recording and drop your hands to your sides. 'I'll now continue with the lawful procedure.' His mother adjusts her phone angle. You have just denied a citizen's right to complain while being filmed — words that any supervisor or review board will hear.",
+                    "feedback": "Why: Denying a citizen's right to complain is both legally incorrect and strategically catastrophic. You do not decide whether someone has grounds for a complaint — that is for the review process. Saying this on camera creates evidence of rights denial that any supervisor or lawyer will flag immediately. | CONSEQUENCES: Mr. Novak is incredulous: 'Did you just say I can't complain?' His mother zooms in. This clip, if posted, writes its own headline. The stop has become a civil rights issue rather than a speeding ticket. | Reflection: What happens when an officer denies a citizen's procedural rights on camera, and how does that single moment overshadow everything else you did correctly?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Unexpected Reach for the Glove Box",
+            "sceneUpdate": {
+                "emoji": "✋",
+                "title": "Hands Visible",
+                "desc": "As you process the documents, the driver suddenly leans across toward the glove compartment. His mother flinches at the sudden movement. The driver mutters something about his insurance card. This is a critical officer-safety moment — unexpected movement during a stop requires immediate, clear response."
+            },
+            "npcDialogue": [
+                {
+                    "character": "passenger",
+                    "text": "(startled) Oh! He just needs the insurance card, officer — it's in the glove box."
+                }
+            ],
+            "prompt": "The driver has made a sudden movement toward the glove box. His passenger is trying to help explain. How do you balance safety and calm communication?",
+            "options": [
+                {
+                    "text": "You raise one hand in a clear stop gesture and speak in a firm but controlled voice. 'Sir, please put your hands back on the steering wheel right now. Thank you.' Once his hands are on the wheel, you turn to the passenger with a nod. 'I appreciate you letting me know about the insurance card, ma'am — that helps.' Then back to the driver: 'Sir, when I tell you, I need you to reach slowly into the glove box. Before you move, tell me exactly where the card is so we both know what's happening.'",
+                    "feedback": "Why: Clear, specific instruction followed by acknowledgment of the passenger's helpful input. You addressed the safety concern first, then validated the explanation, then provided a controlled path forward. The specificity — steering wheel, slowly, tell me where — eliminates ambiguity. Thanking the mother includes her as an ally rather than ignoring her. | CONSEQUENCES: Mr. Novak places his hands on the wheel. His mother relaxes — she was heard. The driver says 'right side, in the folder' and reaches slowly when directed. A potential crisis becomes a textbook safety moment because everyone knew exactly what to do and when. | Reflection: How does giving specific instructions — 'steering wheel' versus 'where I can see them' — change the speed and certainty of compliance?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "You take a quick half-step back from the window, your hand instinctively moving toward your belt but not reaching the holster. 'Sir, please stop. Keep your hands where I can see them.' Your voice is sharp but not panicked. You pause, then add: 'What are you reaching for?' The passenger has already explained it is the insurance card, but you do not acknowledge her — your focus is entirely on the driver, leaving her feeling ignored and the instruction vague enough that neither occupant knows exactly what you want.",
+                    "feedback": "Why: You issue a verbal command and ask for clarification, which is better than physical intervention or silence. However, 'keep your hands where I can see them' without specifying where — the steering wheel — is vague, and you ask what he is reaching for without first securing the situation. The passenger already told you, but you did not acknowledge her. | CONSEQUENCES: The driver pauses and explains it is his insurance card. His mother repeats herself, feeling ignored. The situation stabilizes but the moment of uncertainty lasts longer than necessary because your instructions lacked specificity. | Reflection: How does giving a specific physical instruction ('hands on the wheel') differ from a general one ('hands where I can see them') in terms of clarity and compliance?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "You step back from the vehicle in one swift motion, your hand on your holster, and wait silently for the driver to explain. No verbal command, no acknowledgment of the passenger's explanation — just the visual signal of an officer who has shifted into a defensive posture. The driver freezes, staring at your hand on the weapon, unsure whether to speak, move, or stay perfectly still. His mother sees an armed officer and no words, which fills the silence with maximum uncertainty and fear.",
+                    "feedback": "Why: Increases your physical safety but without verbal instructions the uncertainty grows for everyone in the car. The driver does not know what you want him to do. His mother sees an officer with a hand on a weapon and no words — maximum fear. Silence in a safety moment is a communication failure. | CONSEQUENCES: Mr. Novak freezes, confused. His mother gasps and grabs her son's arm. The driver slowly raises his hands on his own, guessing what you want. The moment resolves but the fear it generated lingers through the rest of the stop. | Reflection: When does silence increase risk rather than reduce it, and what does a hand on a holster communicate to a passenger who does not know what is happening?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "You react on instinct — your hand shoots through the window and grabs his arm hard, yanking it back from the glove box. 'What do you think you're doing?!' you shout, your voice echoing off the interior of the car. 'Keep your hands where I can see them!' The driver recoils in shock and pain, his elbow banging against the center console. His mother screams and presses herself against the passenger door. The phone she was holding captures the shout and the physical grab in crisp audio and shaky video.",
+                    "feedback": "Why: Physical intervention and raised voice without a verbal warning first. The driver was reaching for an insurance card — a document you will need. His mother is in the car, watching you grab her son. This transforms a compliance moment into a use-of-force moment with a witness recording everything. | CONSEQUENCES: Mr. Novak recoils in shock and pain. His mother screams. The phone she was holding captures audio of the shout and the grab. The insurance card falls to the floor. A routine document retrieval has become an incident report, a complaint, and possibly a viral video. | Reflection: How do you ensure verbal commands always precede physical intervention, and what is the cost of reversing that sequence?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "The Mother Speaks",
+            "sceneUpdate": {
+                "emoji": "👵",
+                "title": "A Mother's Concern",
+                "desc": "The glove box moment has passed. Mr. Novak's hands are back on the steering wheel, insurance card retrieved. But the brief scare has shifted the atmosphere. Mrs. Novak, who has been quietly watching this entire stop, suddenly speaks up. Her voice is steady but strained — not angry, but carrying the weight of something she has been holding back. She is looking directly at you."
+            },
+            "npcDialogue": [
+                {
+                    "character": "passenger",
+                    "text": "(looking up at you, voice tight but controlled) Officer, I want to apologize for my son's behavior. He's not like this. He's a good man — a good father. But he's been under so much pressure lately. We almost lost... (she stops herself, glancing at her son) He barely sleeps. He works all day and sits in hospitals at night. I made him drive me today because he wouldn't eat otherwise. Please — just tell me what we need to do and we'll do it."
+                },
+                {
+                    "character": "driver",
+                    "text": "(quietly, not looking at you) Mom, don't."
+                }
+            ],
+            "prompt": "Mrs. Novak has revealed hints of a deeper family crisis while trying to protect her son. The driver has gone quiet. How do you respond to this shift?",
+            "options": [
+                {
+                    "text": "You soften your posture and speak gently to Mrs. Novak, lowering your voice so it carries warmth rather than authority. 'Ma'am, you don't need to apologize. I can see this is a difficult time for your family, and I appreciate you telling me — it helps me understand the situation better. I'll finish up here as quickly as I can.' You turn to Mr. Novak with a respectful nod. 'Sir, your mother is looking out for you. Let's get this wrapped up so you can both get where you need to be.'",
+                    "feedback": "Why: Acknowledging Mrs. Novak's disclosure without pressing for details respects her boundaries while validating her emotional risk. Thanking her for sharing signals that vulnerability is safe with you. Redirecting to Mr. Novak with a note about his mother's care reframes the dynamic — he is not a hostile driver being processed, he is a son whose mother is worried. The shift from adversarial to human is now almost complete. | CONSEQUENCES: Mrs. Novak's eyes glisten. Mr. Novak's grip on the steering wheel loosens. For the first time during the stop, neither occupant sees you as the enemy. The mother's intervention has bridged the tension, and your response honored it. The stage is set for whatever comes next to land differently. | Reflection: When a third party reveals emotional context, how does your response to them change the primary subject's willingness to be vulnerable?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "You nod politely to Mrs. Novak, making brief eye contact. 'I appreciate you saying that, ma'am. I can see this is stressful for both of you, and I'm sorry you're going through it. We're almost done here.' Your tone is kind but brisk — you let the sentiment register for a moment, then look back down at the documents and continue processing them. You do not address Mr. Novak separately or build on the opening his mother just provided. The moment of connection is acknowledged but not deepened.",
+                    "feedback": "Why: Polite and empathetic on the surface, but you moved past her disclosure quickly without truly engaging with it. She took an emotional risk — speaking up for her son, hinting at something serious — and received a polite brush-off. 'We're almost done' is reassuring but transactional. The moment was an opening for genuine connection, and you let it close. | CONSEQUENCES: Mrs. Novak nods but looks down again. Mr. Novak remains silent. The tension has eased slightly because she spoke, but your response did not deepen the trust she was offering. The stop continues professionally but without the human depth this moment could have provided. | Reflection: When someone hints at a deeper story, what is the cost of acknowledging it politely versus engaging with it genuinely?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "You glance briefly at Mrs. Novak as she finishes speaking, but you do not respond to her at all. Instead, you turn directly to Mr. Novak and address him in a businesslike tone. 'Sir, I'm finishing up the paperwork. You'll have your documents back shortly.' You return to the clipboard without acknowledging anything the older woman has said — her apology, her hint at a family crisis, her plea. It is as if she never spoke. She shrinks back in her seat, visibly embarrassed.",
+                    "feedback": "Why: Procedurally focused but emotionally deaf. Mrs. Novak just made herself vulnerable — spoke up for her son, hinted at a family crisis, apologized for his behavior. Ignoring her entirely signals that nothing she said registered. To Mr. Novak, watching an officer dismiss his mother's words reinforces everything he already believes about this stop. To Mrs. Novak, being ignored after speaking up teaches her that reaching out to authority was pointless. | CONSEQUENCES: Mrs. Novak looks away, embarrassed for having spoken. Mr. Novak's jaw tightens — his mother was dismissed. The brief window of human connection closes. The rest of the stop proceeds in cold procedural silence. | Reflection: When you ignore someone who has spoken up in vulnerability, what does it teach them about speaking up to authority in the future?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "You lean down closer to the passenger window, your eyes narrowing with interest, and address Mrs. Novak in a probing tone. 'What do you mean, you almost lost someone? Is there something I should know about?' She had deliberately stopped herself mid-sentence — glanced at her son and pulled back — and now you are asking her to reveal what she chose to hold back. Mr. Novak stiffens beside her. The question puts the older woman in an impossible position: expose her son's private crisis to a police officer, or refuse and appear evasive.",
+                    "feedback": "Why: Pressing for details when someone has deliberately stopped themselves mid-sentence is invasive. Mrs. Novak chose to hold back — she glanced at her son and pulled back. Demanding the information she chose not to share violates her boundary and puts her in an impossible position: reveal her son's private crisis to a police officer during a traffic stop, or refuse and seem evasive. You have turned her openness into an interrogation. | CONSEQUENCES: Mrs. Novak freezes. Mr. Novak snaps: 'She said don't — leave my mother alone.' The dynamic reverses instantly. The mother who was your ally is now someone you are perceived as pressuring. The son who was softening is now protective and hostile again. | Reflection: What is the difference between listening to what someone offers and demanding more than they are ready to give?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Personal Situation Revealed",
+            "sceneUpdate": {
+                "emoji": "😔",
+                "title": "The Real Story",
+                "desc": "The tension has broken. Mr. Novak's shoulders slump and his voice drops. His mother reaches over and squeezes his hand. The anger has drained from him, replaced by exhaustion and vulnerability. What started as hostility has revealed itself as desperation."
+            },
+            "npcDialogue": [
+                {
+                    "character": "driver",
+                    "text": "I'm sorry, officer. I'm sorry for everything I said. My daughter has leukemia. She's seven. And my company is doing layoffs — I was racing to a meeting with my supervisor because I think my name is on the list. If I lose my job, I lose her health insurance. That's all I can think about."
+                },
+                {
+                    "character": "passenger",
+                    "text": "(voice breaking) It's true, officer. Little Anička was diagnosed three months ago. He's been holding everything together on his own. Please..."
+                }
+            ],
+            "prompt": "The driver has apologized and revealed genuine personal distress. His mother has confirmed it. How do you close this matter with consideration and lawfulness?",
+            "options": [
+                {
+                    "text": "You pause for a moment, letting his words settle, then speak in a quiet, steady voice. 'I appreciate your honesty, sir, and I'm genuinely sorry about your daughter. I can see you're under enormous pressure and I respect that you told me.' You close the citation booklet and slide it back into your vest. 'This time I'm going to issue a warning — the speeding is noted in the system but there's no fine. Please drive carefully from here. Your family needs you safe, not fast. Now get to your meeting.'",
+                    "feedback": "Why: Appropriate administrative discretion for a first-time, moderate violation with genuine mitigating circumstances. You acknowledge the apology, validate the distress, exercise proportionate judgment, and close with a human note that reframes safe driving as something he is doing for his family — not for you. | CONSEQUENCES: Mr. Novak's eyes fill. His mother mouths 'thank you.' The driver will arrive at his meeting fifteen minutes late but composed — and he will tell his colleagues that the officer who stopped him was decent and fair. Trust in policing increases by one family. | Reflection: How do you recognize when a warning serves road safety and public trust better than a fine — and what gives you the confidence to use that discretion?",
+                    "type": "positive",
+                    "points": 12
+                },
+                {
+                    "text": "You look at the driver with genuine sympathy, nodding slowly as he finishes. 'I'm sorry to hear about your situation — truly. That's a heavy load to carry.' You pull the citation from the clipboard and begin filling in the amount. 'I'll issue the fine as required by procedure, but I want you to know I appreciate your honesty and your apology. It took courage to say that.' You hand him the slip and add: 'Please drive safely — your family needs you in one piece.'",
+                    "feedback": "Why: You acknowledge his situation genuinely and add a caring personal note about his family. Issuing the fine maintains procedural integrity. However, for a first-time 25 km/h violation with clear mitigating circumstances, this was an appropriate moment for administrative discretion — a warning would have been legally sound and more proportionate. | CONSEQUENCES: The driver appreciates the human touch but leaves with a fine he might not have needed. His mother looks disappointed. He views you as kind but rigid. Trust improves somewhat but not as much as discretion would have achieved. | Reflection: When the law gives you room for a warning, how do you weigh the impact of a fine versus a warning on future compliance and public trust?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "You give a brief, tight nod — acknowledging that you heard him without letting it change anything. 'I'm sorry to hear that, but I still have to issue a fine. That's the procedure.' You pull out the citation form, fill in the details with efficient, mechanical strokes, and tear off the copy. 'I'll write it up right away so you can continue on your way.' You hand him the slip without further comment, deflecting responsibility for the decision behind the word 'have to' as though it were not a choice.",
+                    "feedback": "Why: Shows minimal empathy but rigidly applies the sanction without flexibility. 'I still have to' is not true — you have discretion. Saying you 'have to' when you do not deflects responsibility for the choice you are making. | CONSEQUENCES: Mr. Novak accepts the fine quietly. His mother stares out the window. The driver views the officer as procedurally correct but emotionally absent — the kind of encounter that confirms the belief that police do not care. | Reflection: When you say 'I have to issue a fine,' is that true — or are you choosing to and avoiding ownership of that choice?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "You listen to his confession with a flat expression, unmoved. When he finishes, you respond in a matter-of-fact tone: 'I understand, but that doesn't excuse speeding. You were 25 over the limit — that's a safety issue regardless of what's going on in your personal life.' You pull the already-written citation from your clipboard and hold it out. 'Here's your fine.' His mother, who just confirmed her granddaughter's leukemia diagnosis, watches you hand her son a penalty without a flicker of acknowledgment.",
+                    "feedback": "Why: Formally correct but dismissive at the worst possible moment. The driver just made himself vulnerable — apologized, revealed his daughter's illness, showed genuine distress. Responding with 'that doesn't excuse it' tells him that vulnerability is punished, not acknowledged. His mother heard you dismiss her granddaughter's leukemia as irrelevant. | CONSEQUENCES: Mr. Novak takes the fine without a word. His mother is crying quietly. The driver will not speed again — but not because of respect for the law. Because of fear and resentment. This is compliance without trust, which is the most fragile form of law enforcement. | Reflection: What is the difference between compliance earned through respect and compliance extracted through indifference — and which one lasts?",
+                    "type": "negative",
+                    "points": -10
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debrief and Reveal",
+            "sceneUpdate": {
+                "emoji": "🏁",
+                "title": "Training Debrief",
+                "desc": "Back at the station. Sergeant Miller reviews your performance in this traffic stop scenario, examining each phase of the encounter from the initial approach through the personal revelation and your final decision."
+            },
+            "autoDialogue": true,
+            "finalScene": true,
+            "npcDialogue": [],
+            "prompt": "",
+            "options": [],
+            "dialogueSequence": [
+                {
+                    "character": "trainer",
+                    "text": "Traffic stops are the most common direct encounter between police and the public, and most of them go wrong in the first fifteen seconds. You faced a driver who was hostile from the moment you reached the window — insulting, demanding, filming, threatening complaints. Every one of those provocations was an invitation to escalate. You did not take it. That restraint is not passivity. It is the highest form of professional control."
+                },
+                {
+                    "character": "officer",
+                    "text": "The insults were the hardest part. When he called the stop harassment, when he demanded my badge number like I had done something wrong — I felt the anger rising. It took real effort not to match his energy."
+                },
+                {
+                    "character": "trainer",
+                    "text": "And that is the reframe I want you to internalize. The driver's hostility was not about you. Every insult was a stress response — a man watching his daughter's health insurance disappear, running late to a meeting that could determine his family's survival, and now stopped by an officer for something that felt trivial compared to what he was carrying. His anger had nothing to do with you personally. Your job was to not take the bait, and you did exactly that. The officers who fail traffic stops are the ones who hear 'this is harassment' and respond as if their character is on trial. The ones who succeed hear the stress underneath and respond to that instead."
+                },
+                {
+                    "character": "trainer",
+                    "text": "When Mr. Novak finally broke down and told you about his daughter, that vulnerability was possible only because you had spent the entire stop earning it — through transparency, through calm, through refusing to punish his fear with your authority. The warning you issued was not weakness. It was judgment. And it shaped how a man in crisis will view every officer he encounters for the rest of his life. Let me tell you what happened when he arrived at that meeting."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispatcher", "avatar": "📻"},
+        "driver": {"name": "Mr. Novak (driver, 38)", "avatar": "😤"},
+        "passenger": {"name": "Mrs. Novak (mother, 65)", "avatar": "👵"},
+        "officer": {"name": "You (Officer)", "avatar": "👮"},
+        "trainer": {"name": "Sergeant Miller", "avatar": "👮‍♂️"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Exemplary Traffic Stop!",
+            "emoji": "🌟",
+            "feedback": "You demonstrated outstanding professionalism throughout this traffic stop. Your clear introduction set the tone, your empathy under insults showed emotional mastery, your transparency when filmed demonstrated accountability, your precise safety commands during the glove box moment showed tactical competence, and your use of discretion at the end showed mature judgment. The driver and his mother left this stop with their trust in policing strengthened."
+        },
+        "good": {
+            "title": "Strong Professional Conduct",
+            "emoji": "✅",
+            "feedback": "You handled this traffic stop well overall, maintaining professionalism through an emotionally charged interaction. Your communication was mostly clear and you managed the driver's escalating frustration without matching it. Some opportunities for deeper empathy, sharper safety commands, or more confident transparency were missed, but your approach was sound."
+        },
+        "average": {
+            "title": "Adequate but Room to Grow",
+            "emoji": "📊",
+            "feedback": "You completed the stop without major incidents but missed several opportunities to de-escalate tension, build rapport, or demonstrate the kind of procedural justice that transforms traffic stops from negative encounters into trust-building moments. Review techniques for acknowledging driver frustration, providing clear reasons for actions, and balancing enforcement with empathy."
+        },
+        "poor": {
+            "title": "Needs Significant Improvement",
+            "emoji": "⚠️",
+            "feedback": "Your approach during this traffic stop escalated tension and damaged public trust. Whether through threats, dismissiveness, failure to communicate clearly, or rigid enforcement when discretion was warranted, the interaction became a confrontation rather than a professional encounter. A man dealing with his daughter's illness and potential job loss left this stop viewing police as part of his problem rather than part of his community. Review de-escalation, transparency, and discretion principles."
+        }
+    },
+    "metrics": {
+        "professionalCommunication": {
+            "name": "Professional Communication",
+            "description": "Quality of verbal communication during the traffic stop — introduction, clarity, tone, and the ability to explain actions transparently",
+            "icon": "🗣️"
+        },
+        "emotionalResilience": {
+            "name": "Emotional Resilience",
+            "description": "Maintaining composure and professionalism under verbal pressure, insults, and provocation without taking attacks personally",
+            "icon": "💚"
+        },
+        "proceduralTransparency": {
+            "name": "Procedural Transparency",
+            "description": "Adherence to legal requirements while maintaining openness about identity, process, and the driver's rights",
+            "icon": "📋"
+        },
+        "tacticalSafety": {
+            "name": "Tactical Safety",
+            "description": "Managing officer and occupant safety through clear verbal commands, controlled movement instructions, and situational awareness",
+            "icon": "🛡️"
+        },
+        "discretionApplication": {
+            "name": "Discretion & Proportionality",
+            "description": "Appropriate use of officer discretion — balancing enforcement with proportionality, context, and human judgment",
+            "icon": "⚖️"
+        }
+    }
+}

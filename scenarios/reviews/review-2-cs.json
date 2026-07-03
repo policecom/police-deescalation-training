@@ -1,0 +1,796 @@
+{
+    "scenarioId": 2,
+    "reviewVersion": "2.0",
+    "title": "Hodnocení — Vyjednávání při hlukové stížnosti v hostelu",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Příjezd k hostelu",
+            "criticalSkills": [
+                "Sběr informací před zapojením",
+                "Posouzení situace prostřednictvím briefingu od personálu",
+                "Odolávání předsudku naléhavosti u nekrizových hlukových výjezdů"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Položit Martě klíčové doplňující otázky: Má hostel vyvěšená pravidla o hluku nebo noční klid? Kdy skupina odjíždí? Jsou všichni na jednom pokoji? Byl někdo ze skupiny agresivní, nebo jen hlučný? Co přesně požaduje ten obchodník?",
+                    "strengths": [
+                        "Určuje, zda vymáháte domovní řád nebo zákon o veřejném pořádku — zásadně odlišné pravomoci",
+                        "Datum odjezdu odhalí, zda jde o jednorázový nebo opakující se problém",
+                        "Rozlišení 'agresivní' versus 'hlučný' kalibruje celý váš přístup",
+                        "Pochopení konkrétního požadavku obchodníka zabrání domýšlení",
+                        "Dvě minuty přípravy ušetří dvacet minut nápravy"
+                    ],
+                    "professionalImpact": "Znalost hlukové politiky, data odjezdu a dynamiky skupiny umožňuje, aby každé následující rozhodnutí bylo informované a kalibrované."
+                },
+                "partially_positive": {
+                    "choiceText": "Poděkovat Martě za zavolání a ujistit ji, že se o to postaráte. Požádat ji, aby vám ukázala cestu ke společenské místnosti, abyste mohli situaci posoudit a představit se skupině.",
+                    "adequate": [
+                        "Profesionální a uklidňující pro vystresovanou recepční",
+                        "Projevuje pohotovost a orientaci na akci"
+                    ],
+                    "missed": [
+                        "'Postarám se o to' vytváří vágní očekávání, které možná nebudete moci splnit",
+                        "Žádné otázky na noční klid, pravidla ani konkrétní stížnosti",
+                        "Jdete tam s dobrými úmysly, ale s málo informacemi",
+                        "Sbírat informace za pochodu v místnosti plné popíjejících lidí je těžší než se zeptat Marty předem"
+                    ],
+                    "improvement": "Uklidnění je dobré — ale spojte ho s konkrétními otázkami. Dvě minuty s Martou vám dají rámec pravidel, dynamiku skupiny a očekávání stěžovatelů, které potřebujete, abyste vstoupili připravení."
+                },
+                "neutral": {
+                    "choiceText": "Zamířit rovnou do společenské místnosti a konfrontovat skupinu. Čím dříve se hluk vyřeší, tím lépe.",
+                    "adequate": [
+                        "Rozhodná akce směrem ke zdroji hluku",
+                        "Projevuje ochotu se přímo zapojit"
+                    ],
+                    "missed": [
+                        "Vstup do místnosti slavících, popíjejících lidí jako neinformovaná autorita",
+                        "Žádná znalost hlukové politiky hostelu, pravomocí Marty, jazykových bariér ani dynamiky skupiny",
+                        "Rychlost se zdá efektivní, ale stojí vás přípravu",
+                        "První dojem je policista, který přišel hledat problémy"
+                    ],
+                    "improvement": "Strávte dvě minuty s Martou a zjistěte rámec pravidel, složení skupiny a očekávání stěžovatelů. Příprava není zdržení — je základem efektivního zapojení."
+                },
+                "negative": {
+                    "choiceText": "Říct Martě, že tohle je v podstatě záležitost managementu — měla by dál zkoušet svou manažerku a řešit to jako interní záležitost hostelu. Soukromá pravidla o hluku nemůžete vymáhat.",
+                    "failures": [
+                        "Odmítnutí oprávněné žádosti o pomoc od člověka, který vyčerpal vlastní možnosti",
+                        "Ponechání Marty bez pomoci ve zhoršující se situaci s nedostupnou manažerkou",
+                        "Ignorování faktu, že hluk po 23:00 může spadat pod městské vyhlášky",
+                        "Poškození důvěry v policejní pohotovost pro budoucí výjezdy"
+                    ],
+                    "consequences": "Odchod od člověka, který požádal o pomoc, zajistí horší situaci, když policie bude nevyhnutelně volána znovu. Za dvacet minut volá přímo pan Kimura, rozzlobenější, a jiná hlídka nachází zhoršenou scénu.",
+                    "trainingFocus": "Přehodnoťte povědomí o jurisdikci a cenu odmítnutí oprávněných žádostí o pomoc. I když je jurisdikce sdílená se soukromým managementem, převezměte odpovědnost za situaci, na kterou jste byli vysláni."
+                }
+            },
+            "keyLearningPoints": [
+                "U výjezdů do hostelů a sdílených prostor znalost vlastních pravidel zařízení určuje vaši právní autoritu",
+                "Rozlišení 'hlučný' versus 'agresivní' zásadně formuje váš přístup",
+                "Dvě minuty sběru informací od personálu zabrání dvaceti minutám nápravy chyb",
+                "Spěch ke zdroji hluku bez přípravy obětuje každou taktickou výhodu"
+            ]
+        },
+        "2": {
+            "stageName": "Stěžovatel",
+            "criticalSkills": [
+                "Oddělení základních potřeb od vyjádřených požadavků",
+                "Aktivní naslouchání s empatií pod tlakem",
+                "Řízení očekávání bez závazku ke konkrétním výsledkům"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Promluvit s klidným respektem a přizpůsobit se jeho formálnosti: 'Pane Kimuro, zcela vám rozumím — přijít o spánek před důležitou prezentací je nesmírně frustrující a máte plné právo očekávat klid v tuto hodinu. Chci, abyste věděl, že vaši stížnost beru vážně a budu se jí osobně věnovat. Než to udělám, smím se zeptat: jde vám hlavně o to, aby hluk přestal, nebo konkrétně potřebujete, aby byla skupina odstraněna? Protože může existovat více než jeden způsob, jak to pro vás vyřešit. Poté se vrátím k vašim dveřím a potvrdím, že je situace vyřešena.'",
+                    "strengths": [
+                        "Autenticky potvrzuje frustraci — zmínka o prezentaci ukazuje aktivní naslouchání",
+                        "'Máte plné právo očekávat klid v tuto hodinu' potvrzuje jeho pozici bez závazku k jeho konkrétnímu požadavku",
+                        "Klíčová otázka odděluje jeho potřebu (spánek) od jeho navrhovaného řešení (vystěhování)",
+                        "Většina lidí v hněvu zaměňuje potřebu a řešení — tato otázka je odděluje",
+                        "Rozšiřuje prostor řešení z jedné možnosti na mnoho"
+                    ],
+                    "professionalImpact": "Oddělení potřeb od požadavků rozšiřuje váš prostor pro řešení a kulturní citlivost buduje důvěru, která překračuje jazykové bariéry."
+                },
+                "partially_positive": {
+                    "choiceText": "Rozhodně přikývnout: 'Slyším vás, pane Kimuro. To je nepřijatelné. Půjdu tam hned a zajistím, aby to okamžitě přestalo.'",
+                    "adequate": [
+                        "Potvrzující a rozhodné — pan Kimura se cítí vyslyšen",
+                        "Projevuje naléhavost a odhodlání jednat"
+                    ],
+                    "missed": [
+                        "'Okamžitě' je slib, který možná nebudete moci splnit",
+                        "Pokud vyjednávání zabere dvacet minut, trpělivost pana Kimury vyprší podle vašeho vlastního termínu",
+                        "Jednostranné zarámování před vyslechnutím druhé strany",
+                        "Krátkodobé uklidnění vyměněno za přísnější omezení vašeho přístupu"
+                    ],
+                    "improvement": "Zavažte se k procesu, ne k rychlosti. 'Hned se tomu budu věnovat' vyjadřuje naléhavost bez slibu konkrétního časového rámce, který omezuje vaše vyjednávání."
+                },
+                "neutral": {
+                    "choiceText": "Vysvětlit: 'Pane Kimuro, chápu, že je to frustrující. Musím ale být upřímný — odstranění hostů ze soukromého zařízení není rozhodnutí policie, ale managementu hostelu. Co mohu udělat, je promluvit se skupinou o hluku. Ale vystěhování je věc mezi vámi a hostelem.'",
+                    "adequate": [
+                        "Technicky přesné ohledně pravomoci k vystěhování",
+                        "Čestné a transparentní ohledně omezení"
+                    ],
+                    "missed": [
+                        "Vést odpověď tím, co nemůžete udělat, působí jako byrokratické odbytí na nevyspalého člověka",
+                        "Nezajímají ho jurisdikční hranice — zajímá ho spánek",
+                        "Reaguje na jeho vyjádřený požadavek, ale ignoruje jeho skutečnou potřebu",
+                        "Pro člověka z kultury, kde vyžádání policejní pomoci vyžadovalo překonání nepohodlí, je odmítnutí ztrátou tváře"
+                    ],
+                    "improvement": "Začněte empatií a tím, co uděláte, ne procedurálními omezeními. Řešte potřebu (klid) dříve, než budete diskutovat o hranicích vaší pravomoci ohledně požadavku (vystěhování)."
+                },
+                "negative": {
+                    "choiceText": "Říct mu: 'Pane, chápu vaši frustraci, ale tohle je hostel — sdílené prostory a určitý hluk k tomu patří. Možná byste mohl zkusit špunty do uší? Požádám skupinu, aby ztišila, ale ticho vám zaručit nemůžu.'",
+                    "failures": [
+                        "Navrhovat špunty do uší někomu, kdo tři hodiny nespal, je odmítavé a povýšené",
+                        "'Tohle je hostel' říká platícímu hostovi, že jeho stížnost je neplatná kvůli tomu, kde se ubytoval",
+                        "Postavili jste se na stranu hlučných dříve, než jste je potkali",
+                        "Pan Kimura si záměrně rezervoval soukromý pokoj a je za hodinou nočního klidu hostelu — jeho stížnost je oprávněná"
+                    ],
+                    "consequences": "Pan Kimura s tichou zuřivostí řekne: 'Budu psát vašemu oddělení a vedení hostelu. Dobrou noc, pane policisto.' Ztratili jste důvěru zúčastněné strany za třicet sekund a způsobili mu ztrátu tváře.",
+                    "trainingFocus": "Přehodnoťte principy kulturní citlivosti a cenu odmítnutí oprávněných stížností. Potvrďte stížnost — je oprávněná."
+                }
+            },
+            "keyLearningPoints": [
+                "Oddělení základní potřeby člověka od jeho vyjádřeného požadavku je nejmocnější vyjednávací nástroj, který máte",
+                "Začít empatií před procedurálními omezeními buduje důvěru; opačný postup ji ničí",
+                "Odmítnutí oprávněné stížnosti — i jemně — vás stojí spolupráci zúčastněné strany",
+                "Slib rychlosti k uspokojení rozrušeného člověka omezuje vaši schopnost najít promyšlené řešení"
+            ]
+        },
+        "3": {
+            "stageName": "Společenská místnost",
+            "criticalSkills": [
+                "Udržení profesionálních hranic pod sociálním tlakem",
+                "Budování přítomnosti bez konfrontace",
+                "Čtení skupinové dynamiky a identifikace klíčových hráčů"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Vstoupit dovnitř, pivo nevzít, ale zachovat vřelý a uvolněný tón: 'Ha — děkuji za pohostinnost, Liame, ale budu muset odmítnout. Jsem policista [jméno]. Vidím, že máte skvělý večer.' Během řeči nenápadně prohlédnout místnost — spočítat lahve, zkontrolovat oči a koordinaci, zaznamenat, kdo je při smyslech a kdo ne. Poté: 'Nepřišel jsem nic rušit — ale potřebuji minutu vašeho času, protože je tu situace, kterou musíme vyřešit. Mohl by někdo ztlumit hudbu, abychom se slyšeli?'",
+                    "strengths": [
+                        "Odmítnutí piva je jasné, ale bez konfrontace",
+                        "Použití Liamova jména (z briefingu od Marty) ukazuje přípravu a personalizuje interakci",
+                        "Vizuální posouzení alkoholu během vřelého rozhovoru je procedurální dovednost, ne paranoia",
+                        "'Nepřišel jsem nic rušit' snižuje obranu skupiny",
+                        "Žádost o ztlumení hudby testuje ochotu spolupracovat",
+                        "Vřelé odmítnutí udržuje hranice i vztah současně"
+                    ],
+                    "professionalImpact": "Nekonfrontační posouzení alkoholu vám řekne, kdo dokáže zpracovat složité instrukce a kdo potřebuje jednodušší komunikaci — a znalost Liamova jména mění dynamiku z anonymní autority na osobní zapojení."
+                },
+                "partially_positive": {
+                    "choiceText": "Ignorovat Liamovy divadelní výstupy. Projít kolem něj k tišší ženě u okna, která se zdá rozumnější, a začít rozhovor tam.",
+                    "adequate": [
+                        "Identifikace spolupracující osoby je takticky chytré",
+                        "Vyhýbá se vtažení do Liamova představení"
+                    ],
+                    "missed": [
+                        "Obejití sociálního vůdce skupiny je veřejná urážka před jeho přáteli",
+                        "Liam bude eskalovat, aby znovu potvrdil svůj status — 'Hej, já s vámi mluvím, kámo'",
+                        "Dynamika skupiny vyžaduje, abyste nejprve zapojili vůdce, byť jen krátce",
+                        "Průchodem kolem něj jste z veselého křiklouna udělali člověka, který se cítí nerespektovaný"
+                    ],
+                    "improvement": "Zapojte sociálního vůdce krátce a vřele, pak rozšiřte konverzaci, aby zahrnovala spolupracující hlasy. Obcházení statusové dynamiky se ve skupinových situacích vymstí."
+                },
+                "neutral": {
+                    "choiceText": "Hravě vzít pivo a odložit ho: 'Lákavé, ale jsem ve službě. Podívejte, vidím, že se bavíte — ale mám stížnosti na hluk a musíme si o tom promluvit.'",
+                    "adequate": [
+                        "Humor vytváří uvolněný vstup",
+                        "Odložení ukazuje, že skutečně nepřijímáte"
+                    ],
+                    "missed": [
+                        "Vzít pivo — i jen abyste ho odložili — překračuje profesionální hranici",
+                        "Skupina vidí policistu, který přijal nápoj od osoby, kvůli které přijel",
+                        "Liam bude tlačit dál, protože jste projevili flexibilitu u hranice, která měla být pevná",
+                        "Autorita se začíná narušovat v prvních třiceti vteřinách",
+                        "Úplně jste přeskočili posouzení míry opilosti skupiny"
+                    ],
+                    "improvement": "Na profesionálních hranicích záleží nejvíce v prvních okamžicích setkání. Odmítněte jasně, ale vřele — 'děkuji za nabídku, ale odmítnu' — bez dotýkání se nápoje."
+                },
+                "negative": {
+                    "choiceText": "Stát ve dveřích s přísným výrazem: 'Nikdo už dnes nebude nic pít. Okamžitě vypněte tu hudbu. Mám několik stížností a porušujete noční klid. Tohle je vaše jediné varování.'",
+                    "failures": [
+                        "Maximální autorita s nulovým vztahem — spouští skupinovou obranu",
+                        "Šest lidí, kteří popíjeli, se sjednotí proti vám jako společnému protivníkovi",
+                        "'Vaše jediné varování' je hrozba, která nenechává prostor pro vyjednávání",
+                        "Nařizovat dospělým, že nesmí pít ve společenské místnosti hostelu, může překračovat vaše pravomoci",
+                        "Neposouzení míry opilosti — křičet ultimáta na opilé lidi je kontraproduktivní"
+                    ],
+                    "consequences": "Místnost ztichne v nepřátelství, ne v souladu. Zkříží se ruce. Někdo zamumlá: 'Tohle je směšné.' Nejvíce opilá osoba se nejistě postaví: 'Nemůžete nám poroučet.' Vytvořili jste konfrontaci šest proti jednomu, která nemusela existovat.",
+                    "trainingFocus": "Přehodnoťte přiměřenou reakci a důležitost navázání vztahu před vymáháním ve skupinových situacích. Vstup s maximální autoritou a nulovým vztahem vytváří skupinovou solidaritu proti vám."
+                }
+            },
+            "keyLearningPoints": [
+                "Na profesionálních hranicích záleží nejvíce v prvních třiceti vteřinách — způsob, jakým zvládnete Liamovu nabídku piva, definuje celou interakci",
+                "Ve skupinových situacích musíte zapojit sociálního vůdce dříve, než získáte přístup ke spolupracujícím členům",
+                "Vřelé odmítnutí udržuje hranice i vztah; tvrdé příkazy vytváří skupinovou solidaritu proti vám",
+                "Váš vstup nastavuje rámec: sdílený problém k řešení, nebo autorita versus podřízení"
+            ]
+        },
+        "4": {
+            "stageName": "Stanovení hranic",
+            "criticalSkills": [
+                "Potvrzení před přesměrováním",
+                "Přerámování z konfliktu práv na sdílenou odpovědnost",
+                "Udržování empatie při stanovení pevných hranic"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Uznat jeho argument a pak přerámovat: 'Liame, já to vlastně chápu — poslední noc spolu, konec velkého výletu. Na tom záleží. A máte pravdu, že hostely jsou společenská místa. Ale je tu jedna věc: noční klid začal v jedenáct a nahoře jsou lidé, kteří taky zaplatili svých dvacet eur a nemůžou spát. Vaše práva a jejich práva se neliší. Takže otázka není, jestli můžete slavit — ale jak a kde. Raději vám pomůžu najít způsob, jak pokračovat ve večeru, než abych ho ukončil. Ale hlasitost a místo se musí změnit.'",
+                    "strengths": [
+                        "Potvrzuje jeho emocionální kontext (poslední noc, konec výletu) i jeho logický argument (hostely jsou společenská místa)",
+                        "'Vaše práva a jejich práva se neliší' je zlomový bod — přerámuje z my-versus-oni na sdílenou odpovědnost",
+                        "'Raději vám pomůžu pokračovat ve večeru, než abych ho ukončil' vás staví do pozice spojence, ne nepřítele",
+                        "Hranice je jasná (hlasitost a místo se musí změnit), ale řešení je otevřené pro vyjednávání",
+                        "Vnitřní skupinový tlak se posune ve váš prospěch — 'Má pravdu, Liame'"
+                    ],
+                    "professionalImpact": "Potvrzení něčího argumentu před jeho přesměrováním mění jeho ochotu k posunu — cítí se vyslyšen, než je požádán o kompromis."
+                },
+                "partially_positive": {
+                    "choiceText": "Oslovit skupinu místo jen Liama: 'Všichni — slyším vás a vím, že je to výjimečný večer. Ale mám hostel plný hostů, kteří nemůžou spát, a recepční, která prosí už několik hodin. Někdo nahoře má zítra v 8 ráno důležitý pracovní závazek. Žádám vás o pomoc — co můžeme udělat, aby to fungovalo pro všechny?'",
+                    "adequate": [
+                        "Rozšíření mimo Liama ředí jeho dominanci",
+                        "Zmínění recepční a hosta nahoře polidšťuje stěžovatele",
+                        "'Žádám vás o pomoc' staví skupinu do role řešitelů"
+                    ],
+                    "missed": [
+                        "Otevřená otázka šesti lidem, kteří popíjeli, může přinést šest různých odpovědí",
+                        "Bez navrženého rámce můžete ztratit kontrolu nad konverzací",
+                        "Priya řekne něco rozumného, ale je přehlušena",
+                        "Demokratizovali jste problém bez poskytnutí struktury"
+                    ],
+                    "improvement": "Rozšíření je chytré, ale poskytněte rámec: potvrďte, pak navrhněte možnosti. Otevřená otázka skupině popíjejících lidí potřebuje mantinely, ne jen dobré úmysly."
+                },
+                "neutral": {
+                    "choiceText": "Stát si za svým: 'Chápu, že je to vaše poslední noc, ale pravidla jsou pravidla. Noční klid je noční klid. Když hostel říká 23:00, tak 23:00. Potřebuji, abyste vypnuli hudbu a ztišili se. To není k diskusi.'",
+                    "adequate": [
+                        "Jasná a vymahatelná hranice",
+                        "Žádná nejasnost ohledně požadavku"
+                    ],
+                    "missed": [
+                        "'Pravidla jsou pravidla' je rigidní autorita, která odmítá emocionální kontext, který Liam sdílel",
+                        "Nebyl vyslyšen, takže klade větší odpor",
+                        "'Není k diskusi' uzavírá všechny dveře — soulad vynucením, ne dohodou",
+                        "Oslava je zabita, ne vyřešena — dobrá vůle zničena"
+                    ],
+                    "improvement": "Uznejte před vymáháním. 'Chápu — poslední noc spolu, na tom záleží. A ZÁROVEŇ noční klid platí i pro ostatní hosty.' To ZÁROVEŇ je rozdíl mezi rigidním a pevným přístupem."
+                },
+                "negative": {
+                    "choiceText": "Zasmát se a souhlasit: 'Víte co, nemáte tak úplně nepravdu — hostely jsou přece od toho, aby se v nich bavilo. Řeknu vám co, udržte to v rozumné hlasitosti a já řeknu recepční, že je to vyřešené. Platí?'",
+                    "failures": [
+                        "Faktické stranění hlučným nekritickým souhlasem",
+                        "'Rozumná hlasitost' není vymahatelný standard — znamená to, co si Liam rozhodne po dalším pivu",
+                        "Říct Martě, že 'je to vyřešené,' když se nic konkrétního nezměnilo, ji připravuje na další stížnosti",
+                        "Upřednostnění oblíbenosti před efektivitou"
+                    ],
+                    "consequences": "Hudba se do patnácti minut vrátí na původní hlasitost. Pan Kimura volá znovu. Marta je rozzuřená. Jiná hlídka zjistí, že jste situaci nechal nevyřešenou.",
+                    "trainingFocus": "Přehodnoťte rozdíl mezi navázáním vztahu a kapitulací — být oblíbený není totéž co být efektivní. Můžete souhlasit s premisou a přitom přesměrovat chování."
+                }
+            },
+            "keyLearningPoints": [
+                "Potvrzení něčího argumentu před jeho přesměrováním neznamená souhlasit s jeho chováním — je to odemknutí jeho ochoty k posunu",
+                "Rozdíl mezi rigidním ('pravidla jsou pravidla') a pevným ('chápu A ZÁROVEŇ pravidla platí pro všechny') přístupen proměňuje odpor ve spolupráci",
+                "Otevřené otázky skupinám potřebují strukturu; bez rámce se demokratická diskuse mění v chaos",
+                "Být oblíbený není totéž co být efektivní — vágní ústupky se rozpadnou během minut"
+            ]
+        },
+        "5": {
+            "stageName": "Hledání střední cesty",
+            "criticalSkills": [
+                "Posílení spolupracujících členů skupiny",
+                "Kolaborativní řešení problémů s kreativními alternativami",
+                "Odměňování konstruktivního chování při řízení skupinové dynamiky"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Zapojit Priyu přímo jako partnerku: 'Priyo, děkuji — přesně takové uvažování pomáhá. Zmínila jste bar nebo dvůr. Ověřím u recepční ohledně dvora — pokud je k dispozici a daleko od ložnic, mohlo by to fungovat jako mezikrok. Nebo pokud je poblíž noční bar, to je další možnost. Liame, co myslíte — šla by do toho vaše skupina?'",
+                    "strengths": [
+                        "Vyzdvižení Priyi odměňuje spolupracující chování a přesouvá sociální tlak uvnitř skupiny",
+                        "Ověření u Marty ohledně dvora ukazuje důslednost místo ukvapených slibů",
+                        "Nabídnutí dvou možností (dvůr nebo bar) dává skupině pocit vlivu",
+                        "Přesměrování na Liama pro jeho názor ho zapojuje zpět bez konfrontace — může říct ano, místo aby se podrobil",
+                        "Učebnicové kolaborativní řešení problémů"
+                    ],
+                    "professionalImpact": "Posílení spolupracujícího člena skupiny přesouvá sociální tlak efektivněji než konfrontace s vzdorujícím. Sociální svolení od spolucestujícího dosáhne toho, co policejní autorita nedokáže — zachování tváře při souladu."
+                },
+                "partially_positive": {
+                    "choiceText": "Přijmout kompromis okamžitě: 'Skvělý nápad, Priyo. Tak na dvůr. Liame, vezmi reproduktor a lahve — můžete pokračovat v oslavě venku. Problém vyřešen.'",
+                    "adequate": [
+                        "Rozhodné a zaměřené na řešení",
+                        "Připisuje Priyinu myšlenku"
+                    ],
+                    "missed": [
+                        "Zavázali jste se ke dvoru bez ověření, zda není blízko ložnic",
+                        "Jednostranné svolení k 'pokračování v oslavě' venku může porušovat hlukové vyhlášky",
+                        "Rychlost je příjemná, ale vynechává ověření",
+                        "Pokud je dvůr pod okny hostů, přesunuli jste hluk, ne vyřešili"
+                    ],
+                    "improvement": "Ověřte před závazkem. 'Ověřím u Marty dispozici dvora' stojí třicet sekund a zabrání řešení téhož problému dvakrát."
+                },
+                "neutral": {
+                    "choiceText": "Uznat Priyu a pak se zaměřit na praktickou stránku: 'Priyo, to oceňuji. Navrhl bych následující — mohli by všichni začít tady pomalu končit? Dopijte, ale žádná další hudba ve společenské místnosti dnes v noci. Pokud si chcete tiše povídat, to je v pořádku, ale zpěv a reproduktor musí přestat.'",
+                    "adequate": [
+                        "Rozumné a umírněné",
+                        "'Dopijte' je lidské, 'žádná další hudba' stanovuje jasnou hranici"
+                    ],
+                    "missed": [
+                        "Částečně ignorovány Priyiny kreativní alternativy — bar, dvůr",
+                        "Přímý přechod do režimu ukončování volí omezení místo přemístění",
+                        "Skupina dostane méně, než Priya navrhla — působí jako vyjednávání ve zlé víře",
+                        "'Tiché povídání' ve skupině šesti lidí po několika pivech je spíše zbožné přání než realita"
+                    ],
+                    "improvement": "Když je nabídnuta kreativní alternativa, prozkoumejte ji, než se uchýlíte k omezení. Přemístění zachovává oslavu a zároveň řeší problém s hlukem — omezení ji pouze dočasně potlačuje."
+                },
+                "negative": {
+                    "choiceText": "Protnout vyjednávání: 'Podívejte, nejjednodušší řešení je tohle — dnes je oslava u konce. Sbalte se, jděte na pokoje, vyspěte se. Měli jste hezký večer. Je půlnoc. Čas to zabalit.'",
+                    "failures": [
+                        "Spolupracující člen skupiny nabízel kreativní řešení a vy jste ho úplně přeskočili rozkazem",
+                        "Priya podstoupila sociální riziko tím, že se ozvala proti vůdci skupiny — ignorování jejího příspěvku trestá přesně to chování, které chcete podpořit",
+                        "'Oslava je u konce' je nepřiměřené, když existují alternativy a jsou vám nabízeny",
+                        "Volba reakce s maximální autoritou, když jsou k dispozici možnosti s nižší autoritou"
+                    ],
+                    "consequences": "Priya sklopí tvář — vystrčila krk zbytečně. Liam vybuchne. Skupina se sjednotí proti vám. Ztratili jste jak vzdorujícího, tak spolupracujícího člena jednou větou.",
+                    "trainingFocus": "Když někdo nabídne konstruktivní řešení, stavějte na něm. Přebití Priyi rozkazem říká každému spolupracujícímu člověku v místnosti, že ozvat se nemá smysl."
+                }
+            },
+            "keyLearningPoints": [
+                "Posílení spolupracujících členů skupiny je efektivnější než konfrontace vzdorujících",
+                "Když je nabídnuta kreativní alternativa, prozkoumejte ji — její přebití trestá chování, které chcete podpořit",
+                "Ověřte řešení před závazkem — neověřený dvůr může problém zopakovat",
+                "Sociální svolení od spolucestujících dosáhne toho, co policejní autorita nedokáže — zachování tváře při souladu"
+            ]
+        },
+        "6": {
+            "stageName": "Zajištění dohody",
+            "criticalSkills": [
+                "Strukturování jasných možností s konkrétními parametry",
+                "Uzamčení dohod s konkrétními detaily a časovými rámci",
+                "Udržení dobré vůle v závěrečných momentech vyjednávání"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Stanovit jasné, konkrétní podmínky: 'Navrhuji následující. Možnost A: dvůr je k dispozici a je daleko od ložnic — můžete si tam vzít pití a povídat, ale bez reproduktoru a udržujte hlasy na úrovni běžného rozhovoru. Možnost B: bar The Night Owl je dva bloky tamtím směrem — tam můžete být tak hluční, jak chcete, a mají otevřeno celou noc. V každém případě musí být společenská místnost vyklizena a tichá do deseti minut. Liame, Priyo — co vám vyhovuje?'",
+                    "strengths": [
+                        "Dvě jasné možnosti s definovanými parametry — konkrétní a strukturované",
+                        "Desetiminutový časový rámec je konkrétní, ne neomezený",
+                        "Oslovení Liama i Priyi distribuuje vedení",
+                        "Možnost dvora má jasné podmínky (bez reproduktoru, úroveň rozhovoru)",
+                        "Možnost baru zarámována jako výhoda ('tak hluční, jak chcete')",
+                        "Proměnili jste zásah vymáhání ve strukturovanou volbu"
+                    ],
+                    "professionalImpact": "Konkrétní, strukturované volby přinášejí lepší dodržování než vágní dohody, protože každý ví přesně, co se očekává."
+                },
+                "partially_positive": {
+                    "choiceText": "Důrazně doporučit bar: 'Myslím, že bar je vaše nejlepší volba. Dvůr je stále majetek hostelu a nemůžu zaručit, že si někdo zase nebude stěžovat. Pokud půjdete do Night Owl, můžete si užít večer bez omezení. Důrazně bych to doporučil.'",
+                    "adequate": [
+                        "Nasměrování do baru zcela odstraňuje problém z hostelu",
+                        "Čisté a efektivní řešení"
+                    ],
+                    "missed": [
+                        "'Důrazné doporučení' jedné možnosti odebírá volbu, kterou byste měli nabízet",
+                        "Někteří možná nechtějí utrácet peníze v baru",
+                        "Pocit vytlačení z ubytování, za které zaplatili, vytváří rozladění",
+                        "Jeden batůžkář si později stěžuje: 'Policie nám řekla, že nemůžeme používat hostel'"
+                    ],
+                    "improvement": "Prezentujte možnosti, nevybírejte za ně. Dvůr i bar jsou platné — nechte skupinu vybrat. Vaší úlohou je stanovit parametry, ne vybírat výsledky."
+                },
+                "neutral": {
+                    "choiceText": "Jednoduše: 'Prostě se přesuňte na dvůr. Vezměte si, co chcete. Jen to udržte v klidu.'",
+                    "adequate": [
+                        "Směřuje je k řešení",
+                        "Benevolentní ohledně jejich věcí"
+                    ],
+                    "missed": [
+                        "'Udržte to v klidu' je tatáž instrukce, kterou Marta dala třikrát — a třikrát selhala",
+                        "Žádné konkrétní parametry: žádné pravidlo o reproduktoru, žádný standard hlasitosti, žádný časový rámec",
+                        "Šest lidí s pivem na dvoře o půlnoci bez hranic bude hlasitějších",
+                        "Přemístili jste problém, ne vyřešili"
+                    ],
+                    "improvement": "Konkrétnost je rozdíl mezi dohodou, která vydrží, a dohodou, která se rozpadne. 'Bez reproduktoru, úroveň rozhovoru, pouze dvůr' je vymahatelné. 'Udržte to v klidu' ne."
+                },
+                "negative": {
+                    "choiceText": "Přidat varování pro jistotu: 'Tak dvůr nebo bar, vaše volba. Ale musím být jasný — pokud budu dnes v noci kvůli stejné věci volaný znovu, nebude to příjemný rozhovor. Budou pokuty a formální protokoly o rušení nočního klidu. Rozumíme si?'",
+                    "failures": [
+                        "Dohoda se už formovala — přidání hrozby otráví dobrou vůli, kterou jste dvacet minut budovali",
+                        "'Nebude to příjemný rozhovor příště' je zastřená hrozba, která přerámuje celou interakci",
+                        "Lidé si pamatují, jak věci končí, víc než jak začínají",
+                        "Trvalou vzpomínkou se stane hrozba, ne spravedlivé řešení"
+                    ],
+                    "consequences": "Místnost ztichne. Liamův výraz ztuhne. Priya odvrátí pohled. Skupina spolupracuje ze strachu, ne z přesvědčení. Liam si zapamatuje hrozbu, ne férové jednání.",
+                    "trainingFocus": "Když vyjednávání uspěje, nechte ho uspět. Přidávání varování ke spolupracujícímu řešení maří péči, která mu předcházela. Zakončete spoluprací, ne nátlakem."
+                }
+            },
+            "keyLearningPoints": [
+                "Konkrétní, strukturované volby s jasnými parametry vytvářejí samovymahatelné dohody",
+                "Lidé si pamatují, jak věci končí, víc než jak začínají — závěrečné hrozby mažou dvacet minut dobré vůle",
+                "Prezentování možností zachovává pocit kontroly; nasměrování k vámi preferovanému výsledku vytváří rozladění",
+                "Vágní instrukce ('udržte to v klidu') selhávají opakovaně — konkrétnost ('bez reproduktoru, úroveň rozhovoru') vydrží"
+            ]
+        },
+        "7": {
+            "stageName": "Uzavření případu",
+            "criticalSkills": [
+                "Následná komunikace se všemi dotčenými stranami",
+                "Posílení personálu zařízení systémovými doporučeními",
+                "Uzavření s důstojností a perspektivní podporou"
+            ],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Řešit Martiny obavy a připravit ji na úspěch: 'Udělala jste správně, že jste zavolala, Marto. Skupina se přesunula — někteří na dvůr s jasnými podmínkami, někteří do baru. Pokud skupina na dvoře začne být hlasitá, máte oprávnění je požádat, aby šli dovnitř nebo na pokoje — a můžete nám zase zavolat. Doporučil bych také promluvit s vaší manažerkou o písemné hlukové politice s jasnými důsledky. Dalo by vám to větší pravomoc příště to řešit sama.' Poté zaklepat na dveře pana Kimury: 'Pane Kimuro, společenská místnost je volná a je ticho. Měl byste teď moci spát. Přeji, ať vám zítra prezentace dopadne dobře.'",
+                    "strengths": [
+                        "Uzavírá kruh s oběma zúčastněnými stranami — Martou a panem Kimurou",
+                        "Marta dostává potvrzení, jasnou informaci, svolení zavolat znovu a systémový návrh",
+                        "Doporučení písemné hlukové politiky pomáhá předejít opakování příští pátek",
+                        "Pan Kimura dostává osobní zprávu adresující jeho konkrétní zájem (prezentace)",
+                        "Obě strany se cítí vnímány, vyslyšeny a respektovány",
+                        "Kompletní následná komunikace — řešení nejen dneška, ale investice do zítřka"
+                    ],
+                    "professionalImpact": "Kompletní následná komunikace se všemi zúčastněnými stranami — nejen se zdrojem hluku — definuje, zda je řešení skutečně kompletní."
+                },
+                "partially_positive": {
+                    "choiceText": "Rychle uklidnit Martu: 'Teď by to mělo být v pořádku. Pokud se to znovu rozjede, prostě nám zavolejte. Hezký zbytek noci.' A pak odejít bez kontroly pana Kimury — všimne si ticha a usne.",
+                    "adequate": [
+                        "Hluk je vyřešen a Marta má možnost znovu zavolat",
+                        "Profesionální a efektivní"
+                    ],
+                    "missed": [
+                        "Pan Kimura vás osobně zastavil a sdílel svou zranitelnost — nevrátit se k němu ho ponechá s pocitem zapomenutí",
+                        "'Všimne si ticha' předpokládá, že neleží vzhůru v úzkosti",
+                        "Třicetivteřinové zaklepání na dveře nic nestojí a uzavírá lidský kruh",
+                        "Marta nedostává rady pro příště — vyřešili jste dnešek bez investice do zítřka"
+                    ],
+                    "improvement": "Navštivte každou zúčastněnou stranu, která se na vás přímo obrátila. Pan Kimura je třicet sekund daleko. Marta potřebuje jeden návrh ohledně hlukové politiky. Obě investice se vrátí mnohonásobně nad rámec dnešní noci."
+                },
+                "neutral": {
+                    "choiceText": "Poskytnout Martě aktuální informace a nechat jí své kontaktní údaje: 'Situace je prozatím vyřešena. Stalo se toto: skupina se rozdělila mezi dvůr a bar. Pokud skupina na dvoře začne být hlasitá, zavolejte nám. Na pana Kimuru se podívám cestou ven.' Rychlé, efektivní, profesionální.",
+                    "adequate": [
+                        "Profesionální a informativní — Marta ví, co se stalo",
+                        "Kontrola pana Kimury je zahrnuta"
+                    ],
+                    "missed": [
+                        "Spíše transakční než podpůrné — Marta se s tím potýkala sama celé hodiny",
+                        "Žádné ocenění, že byla v obtížné pozici bez zálohy od managementu",
+                        "Žádný návrh na systémové zlepšení",
+                        "Profesionální adekvátnost, ne profesionální excelence"
+                    ],
+                    "improvement": "Přidejte lidský prvek. 'Udělala jste správně, že jste zavolala' potvrzuje její rozhodnutí. 'Písemná hluková politika by vám příště dala větší pravomoc' investuje do budoucnosti. Rozdíl mezi adekvátním a vynikajícím je třicet sekund upřímného zájmu."
+                },
+                "negative": {
+                    "choiceText": "Říct Martě: 'Přesunuli se. Ale upřímně, Marto, měla jste to zvládnout dřív, než se to dostalo do tohoto bodu. Máte tři hodiny, než kdokoli odjede — příště buďte důraznější dříve a nebudete nás muset volat.'",
+                    "failures": [
+                        "Obviňování Marty — která to zkoušela třikrát a jejíž manažerka nebere telefon — je nespravedlivé a nepřesné",
+                        "Zavolala policii, protože vyčerpala své možnosti, ne proto, že byla líná",
+                        "'Buďte důraznější' ignoruje systémové problémy: žádná jasná pravidla, žádná podpora managementu, žádná pravomoc k vystěhování",
+                        "Trestání člověka, který požádal o pomoc, za to, že pomoc potřeboval"
+                    ],
+                    "consequences": "Martina úleva se vypaří. Cítí se kritizovaná po hodinách stresu. Příště, až bude problém s hlukem, bude váhat s voláním — a situace bude horší, když konečně eskaluje.",
+                    "trainingFocus": "Přehodnoťte podpůrné zapojení s pracovníky v první linii a systémové řešení problémů. Potvrďte, neobviňujte. Pokud jsou její nástroje nedostatečné, pomozte jí získat lepší."
+                }
+            },
+            "keyLearningPoints": [
+                "Následná komunikace se všemi zúčastněnými stranami definuje, zda řešení působí jako kompletní nebo opuštěné",
+                "Potvrzení pracovníků v první linii, kteří volají o pomoc, zajistí, že zavolají znovu — kritizování je zajistí, že ne",
+                "Systémová doporučení (hluková politika, protokoly managementu) proměňují jednotlivý výjezd v trvalé zlepšení",
+                "Posledních třicet sekund setkání formuje trvalou vzpomínku více než předchozích třicet minut"
+            ]
+        },
+        "8": {
+            "stageName": "Závěrečné hodnocení a odhalení",
+            "criticalSkills": [
+                "Sebereflexe",
+                "Integrace ponaučení"
+            ],
+            "choiceAnalysis": {},
+            "keyLearningPoints": [
+                "Hlukové stížnosti formují důvěru komunity více než téměř jakýkoli jiný typ výjezdu",
+                "Management zúčastněných stran — Marta, pan Kimura, Liam, Priya — vyžaduje obsloužit všechny, aniž byste kohokoli zradili",
+                "Skutečnou procvičovanou dovedností nebyla regulace hlasitosti, ale vícestranné vyjednávání"
+            ]
+        }
+    },
+    "comprehensiveMetrics": {
+        "negotiationSkills": {
+            "description": "Nacházení vzájemně přijatelných řešení prostřednictvím aktivního naslouchání, přerámování, strukturovaných voleb a kolaborativního řešení problémů místo příkazů nebo ultimát",
+            "indicators": {
+                "excellent": [
+                    "Oddělili jste základní potřebu pana Kimury (spánek) od jeho vyjádřeného požadavku (vystěhování)",
+                    "Potvrdili jste Liamův argument před jeho přesměrováním — odemknutí ochoty k posunu",
+                    "Posílili jste Priyu jako spolupracujícího spojence místo přímé konfrontace s Liamem",
+                    "Prezentovali jste strukturované možnosti s jasnými parametry místo vágních instrukcí",
+                    "Skupina si dobrovolně zvolila vlastní řešení — samovymahatelná dohoda"
+                ],
+                "poor": [
+                    "Každou interakci jste pojali jako příkaz k poslechnutí, ne jako problém k vyřešení",
+                    "Neodlišili jste potřeby od požadavků — brali jste stížnosti za nominální hodnotu",
+                    "Vydávali jste ultimáta, která uzavírala vyjednávací prostor",
+                    "Vágní dohody ('udržte to v klidu'), které opakovaně selhávaly",
+                    "Vnucovali jste řešení místo jejich kolaborativního budování"
+                ]
+            }
+        },
+        "culturalSensitivity": {
+            "description": "Povědomí o různých kulturních normách ohledně hluku, společenského života, autority a osobního prostoru v mezinárodním hostelového prostředí a respekt k nim",
+            "indicators": {
+                "excellent": [
+                    "Rozpoznali jste, že Liamova australská neformálnost je kulturní, ne neuctivá",
+                    "Pochopili jste formální komunikační styl pana Kimury a jeho profesní závazky",
+                    "Uznali jste, že normy hostelu se skutečně liší od očekávání v hotelu",
+                    "Přizpůsobili jste komunikační styl pro různé kulturní kontexty bez stereotypizace",
+                    "Rozpoznali jste, že 'co se jednomu zdá normální, druhému připadá skandální'"
+                ],
+                "poor": [
+                    "Se všemi stranami jste jednali identicky bez kulturního povědomí",
+                    "Odmítli jste stížnost pana Kimury jako přecitlivělost",
+                    "Interpretovali jste Liamovu neformálnost jako osobní neúctu vyžadující autoritářskou odpověď",
+                    "Nerozpoznali jste, že kulturní očekávání ohledně hluku a společenského života se enormně liší",
+                    "Použili jste jednotný komunikační styl bez ohledu na publikum"
+                ]
+            }
+        },
+        "proportionateResponse": {
+            "description": "Přizpůsobení úrovně zásahu skutečné závažnosti — použití minimální potřebné autority k dosažení řešení u hlukové stížnosti, ne násilného trestného činu",
+            "indicators": {
+                "excellent": [
+                    "Kalibrovali jste reakci na skutečnou situaci: hlasitá oslava, ne kriminální aktivita",
+                    "Prozkoumali jste přemístění před omezením, omezení před vystěhováním",
+                    "Použili jste rozhovor a vyjednávání před uplatněním autority",
+                    "Nakreslili jste jasnou hranici mezi oprávněnou stížností (hluk) a nepřiměřeným požadavkem (vystěhování)",
+                    "Zvolili jste reakci s nejnižší autoritou, která dosáhla výsledku"
+                ],
+                "poor": [
+                    "K hlukové stížnosti jste přistupovali se stejnou intenzitou jako k násilnému incidentu",
+                    "Přeskočili jste na maximální vymáhání (hrozby, pokuty, vystěhování) bez zkoumání alternativ",
+                    "Zakázali jste alkohol nebo hudbu bez posouzení, zda by přemístění problém vyřešilo",
+                    "Eskalovali jste autoritu, když situace vyžadovala deeskalaci",
+                    "Vydávali jste formální varování při prvním kontaktu v nekriminální situaci"
+                ]
+            }
+        },
+        "stakeholderManagement": {
+            "description": "Zapojení všech dotčených stran — skupiny batůžkářů, pana Kimury a Marty — a zajištění, že každý se cítí vyslyšen, ošetřen a navštíven při následné komunikaci",
+            "indicators": {
+                "excellent": [
+                    "Shromáždili jste informace od Marty před zapojením",
+                    "Oddělili jste potřebu pana Kimury od jeho požadavku prostřednictvím aktivního naslouchání",
+                    "Zapojili jste jak vůdce skupiny (Liam), tak spolupracující hlas (Priya)",
+                    "Provedli jste následnou komunikaci s Martou i panem Kimurou po vyřešení",
+                    "Poskytli jste systémová doporučení k předcházení opakování"
+                ],
+                "poor": [
+                    "Soustředili jste se pouze na jednu stranu a ostatní zanedbali",
+                    "Neprovedli jste následnou komunikaci s panem Kimurou po vyřešení hluku",
+                    "Obviňovali jste Martu místo potvrzení jejího úsilí",
+                    "Ignorovali jste konstruktivní příspěvek Priyi",
+                    "Vyřešili jste bezprostřední problém bez řešení průběžných obav jakékoli zúčastněné strany"
+                ]
+            }
+        },
+        "professionalBoundaries": {
+            "description": "Udržování vhodného chování policisty — odmítání společenských nabídek, vyhýbání se stranění a vyvážení vřelosti s autoritou v prostředí, které vybízí k neformálnosti",
+            "indicators": {
+                "excellent": [
+                    "Odmítli jste Liamovu nabídku piva vřele, ale pevně — hranice udržena bez konfrontace",
+                    "Udrželi jste konzistentní profesionalitu se všemi stranami bez ohledu na jejich tón",
+                    "Vyvážili jste vřelost s autoritou — přístupný, ale nemanipulovatelný",
+                    "Vyhnuli jste se viditelnému stranění jedné straně — ať už stěžovateli nebo zdroji hluku",
+                    "Zakončili jste setkání profesionálně bez hrozeb nebo demonstrativních varování"
+                ],
+                "poor": [
+                    "Přijali jste nebo se dotkli nabízeného piva — překročení profesionální hranice",
+                    "Přejali jste Liamův neformální tón natolik, že jste ztratili autoritu",
+                    "Viditelně jste se postavili na jednu stranu — ať už odmítnutím pana Kimury nebo potrestáním skupiny",
+                    "Přidali jste hrozby nebo varování po úspěšném vyjednávání, čímž jste podkopali dobrou vůli",
+                    "Kritizovali jste Martu místo její podpory — proměnili jste spojence v oběť"
+                ]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "preparationSkipping": {
+            "pattern": "Spěch ke zdroji hluku bez sběru informací od dostupného personálu",
+            "examples": [
+                "Zamíření rovnou do společenské místnosti bez dotazu Marty na noční klid nebo pravidla",
+                "Nezjištění, zda byla skupina agresivní nebo jen hlučná",
+                "Vstup bez znalosti konkrétních potřeb stěžovatele",
+                "Opomenutí dotazu na datum odjezdu skupiny nebo uspořádání pokojů"
+            ],
+            "impact": "Každé následující rozhodnutí je činěno s menším množstvím informací, než bylo volně dostupné. Vstupujete do místnosti popíjejících lidí jako neinformovaná autorita a váš první dojem signalizuje policistu hledajícího problémy místo řešení.",
+            "correction": "Dvě minuty s Martou vám dají rámec pravidel, složení skupiny, očekávání stěžovatelů a dispozici zařízení. Tato investice se vrátí v každé následující fázi."
+        },
+        "boundaryErosion": {
+            "pattern": "Povolení sociálnímu tlaku skupiny, aby kompromitoval profesionální hranice a autoritu",
+            "examples": [
+                "Vzití nebo dotknutí se nabízeného piva, byť jen k odložení",
+                "Příliš snadný souhlas s Liamovým argumentem 'hostely jsou od zábavy' bez přesměrování",
+                "Přijetí 'rozumné hlasitosti' jako vymahatelného standardu",
+                "Upřednostnění oblíbenosti u skupiny před efektivitou pro všechny zúčastněné strany"
+            ],
+            "impact": "Jakmile je hranice změkčena, skupina vnímá každou další hranici jako vyjednatelnou. Liam tlačí silněji, protože raná flexibilita signalizovala, že autorita je volitelná. Řešení se rozpadne během minut, protože bylo založeno na společenském souhlasu, ne na jasné dohodě.",
+            "correction": "Odmítněte vřele, ale jasně. Můžete být přátelský, aniž byste byl přítel. Hranice udržované s vřelostí jsou respektovány více než hranice udržované agresí — ale musí být udržovány."
+        },
+        "cooperativeVoiceIgnoring": {
+            "pattern": "Neidentifikování nebo neposílení spolupracujících jedinců uvnitř skupiny",
+            "examples": [
+                "Obejití Priyi a jednání pouze s Liamem",
+                "Přebití Priyina návrhu dvora nebo baru rozkazem ukončit oslavu",
+                "Nepřesměrování na Liama pro jeho názor poté, co Priya nabídla alternativy",
+                "Zacházení se skupinou jako s monolitem místo souboru jednotlivců s různými postoji"
+            ],
+            "impact": "Priya podstoupila sociální riziko tím, že se ozvala proti vůdci skupiny. Ignorování jejího příspěvku trestá přesně to chování, které chcete podpořit. Budoucí spolupracující hlasy se naučí, že ozvat se nemá smysl. Mezitím konfrontace pouze s vzdorujícím členem sjednotí skupinu proti vám.",
+            "correction": "Identifikujte spolupracující hlas, veřejně vyzdvihněte jeho příspěvek a stavějte své řešení na jeho rámci. Sociální svolení od spolucestujícího dosáhne toho, co policejní autorita nedokáže — zachování tváře při souladu."
+        },
+        "goodwillPoisoning": {
+            "pattern": "Přidávání hrozeb nebo varování k úspěšnému vyjednávání, čímž se podkopává dobrá vůle, která ho umožnila",
+            "examples": [
+                "'Pokud budu volaný znovu, nebude to příjemný rozhovor příště'",
+                "'Budou pokuty a formální protokoly o rušení nočního klidu'",
+                "Přidání zastřené hrozby ve chvíli, kdy skupina již spolupracuje",
+                "Zakončení jazykem vymáhání po dvaceti minutách kolaborativního řešení"
+            ],
+            "impact": "Lidé si pamatují, jak věci končí, víc než jak začínají. Závěrečná hrozba přerámuje celé setkání jako varování místo spolupráce. Skupina spolupracuje ze strachu, ne z přesvědčení. Liam si zapamatuje hrozbu, ne férové jednání. Trvalým dojmem je nátlak, ne kompetence.",
+            "correction": "Když vyjednávání uspěje, nechte ho uspět. Zakončete dohodou, ne tím, co se stane, když selže. Důvěřujte procesu, který jste vybudovali, místo abyste ho pojistili zastrašováním."
+        },
+        "incompleteFollowUp": {
+            "pattern": "Vyřešení bezprostředního hluku bez uzavření kruhu se všemi zúčastněnými stranami",
+            "examples": [
+                "Odchod bez kontroly pana Kimury poté, co sdílel svou zranitelnost",
+                "Nepotvrzení Martina rozhodnutí zavolat ani nenabídnutí systémových rad",
+                "Obviňování Marty za nezvládnutí situace sama",
+                "Vyřešení hluku bez řešení chybějící hlukové politiky hostelu"
+            ],
+            "impact": "Pan Kimura leží vzhůru a přemýšlí, jestli to vydrží. Marta se cítí nepodpořená nebo obviněná. Hostel nemá lepší nástroje pro příští pátek. Setkání vyřeší incident, ale nezlepší systém.",
+            "correction": "Navštivte každou zúčastněnou stranu, která se na vás přímo obrátila. Potvrďte Martu, informujte pana Kimuru a navrhněte systémové zlepšení. Třicet sekund na osobu proměňuje vyřešený incident v trvalý vztah."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Vynikající vícestranné vyjednávání. Prokázali jste kompletní sadu dovedností pro složité spory ve sdílených prostorech: důkladnou přípravu prostřednictvím briefingu od personálu, empatické zapojení stěžovatele, profesionální hranice pod sociálním tlakem, kreativní využití skupinové dynamiky k nalezení spolupracujících spojenců, strukturované možnosti umožňující dobrovolný soulad a upřímnou následnou komunikaci s každou zúčastněnou stranou. Marta, pan Kimura, Liam a Priya — všichni odcházeli z tohoto setkání s pocitem, že byli vyslyšeni a respektováni. Toto je standard pro výjezdy do hostelů a sdíleného ubytování.",
+            "mostlyPositive": "Silný výkon u hlukové stížnosti s více zúčastněnými stranami. Udrželi jste přiměřenost, zapojili se do různých kulturních perspektiv a pracovali na kolaborativním řešení místo vymáhání. Některé příležitosti byly zmeškány — možná v přípravě, skupinové dynamice, stanovení hranic nebo následné komunikaci se zúčastněnými stranami — ale váš celkový přístup byl profesionální, přiměřený a budující důvěru.",
+            "mixed": "V některých oblastech jste projevili kompetenci, ale v plné složitosti této vícestranné hostelové situace jste se potýkali. Silné stránky byly viditelné v určitých fázích, ale v jiných byly zmeškány klíčové příležitosti. Přehodnoťte rovnováhu mezi autoritou a spoluprací, důležitost posilování spolupracujících hlasů ve skupinách a rozdíl mezi vyřešením dnešního hluku a předcházením pátečnímu opakovanému výjezdu.",
+            "mostlyNegative": "Tento scénář odhalil výrazné mezery ve vyjednávání a přiměřenosti. I když se vám podařilo řešit hlukovou stížnost na základní úrovni, většina voleb se přikláněla k rigidnímu vymáhání místo kolaborativního řešení problémů, erozi hranic místo profesionální vřelosti, nebo neúplné následné komunikaci místo upřímné péče o zúčastněné strany. Hlukové stížnosti v hostelu jsou místem, kde se vyjednávací dovednosti budují nebo odhalují — přehodnoťte principy vícestranné mediace, přiměřenou reakci a techniku spolupracujícího hlasu.",
+            "allNegative": "Váš přístup pojal vyjednávací situaci jako čistě vymáhací záležitost. Oprávněná oslava batůžkářů, základní potřeba pana Kimury spát, konstruktivní iniciativa Priyi a Martina potřeba potvrzení a systémové podpory — to vše bylo opomenuto. Hlukové výjezdy do sdíleného ubytování vyžadují kulturní povědomí, přiměřenou reakci a kolaborativní řešení problémů — ne příkazy, hrozby nebo obviňování. To vyžaduje zásadní přeorientování směrem k vyjednávací policejní práci."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "Vidím, že máte skvělý večer. Nepřišel jsem nic rušit — ale potřebuji minutu vašeho času, protože je tu situace, kterou musíme vyřešit.",
+            "Přijít o spánek před důležitou prezentací je nesmírně frustrující a máte plné právo očekávat klid v tuto hodinu.",
+            "Jde vám hlavně o to, aby hluk přestal, nebo konkrétně potřebujete, aby byla skupina odstraněna z budovy?",
+            "Liame, já to vlastně chápu — poslední noc spolu, konec velkého výletu. Na tom záleží. A máte pravdu, že hostely jsou společenská místa.",
+            "Vaše práva a jejich práva se neliší. Takže otázka není, jestli můžete slavit — ale jak a kde.",
+            "Raději vám pomůžu najít způsob, jak pokračovat ve večeru, než abych ho ukončil.",
+            "Priyo, děkuji — přesně takové uvažování pomáhá.",
+            "Možnost A: dvůr — můžete si tam vzít pití a povídat, ale bez reproduktoru. Možnost B: The Night Owl — tam můžete být tak hluční, jak chcete.",
+            "Udělala jste správně, že jste zavolala, Marto. Doporučil bych také promluvit s vaší manažerkou o písemné hlukové politice.",
+            "Pane Kimuro, společenská místnost je volná a je ticho. Přeji, ať vám zítra prezentace dopadne dobře."
+        ],
+        "poorPhrases": [
+            "Tohle je v podstatě záležitost managementu — měla by dál zkoušet svou manažerku a řešit to jako interní záležitost hostelu.",
+            "Tohle je hostel — sdílené prostory a určitý hluk k tomu patří. Možná byste mohl zkusit špunty do uší?",
+            "Nikdo už dnes nebude nic pít. Okamžitě vypněte tu hudbu. Tohle je vaše jediné varování.",
+            "Víte co, nemáte tak úplně nepravdu — udržte to v rozumné hlasitosti a já řeknu recepční, že je to vyřešené.",
+            "Pravidla jsou pravidla. Noční klid je noční klid. To není k diskusi.",
+            "Dnes je oslava u konce. Sbalte se, jděte na pokoje, vyspěte se.",
+            "Pokud budu dnes v noci kvůli stejné věci volaný znovu, nebude to příjemný rozhovor. Budou pokuty.",
+            "Upřímně, Marto, měla jste to zvládnout dřív, než se to dostalo do tohoto bodu."
+        ],
+        "analysisCriteria": {
+            "negotiationQuality": "Otevřela fráze vyjednávací prostor, nebo ho uzavřela? Vytvořila možnosti, nebo vydala ultimátum?",
+            "proportionality": "Odpovídala fráze závažnosti — rozhovor pro hlukovou stížnost, ne příkazy pro místo činu?",
+            "stakeholderAwareness": "Uznala fráze oprávněné obavy všech stran, nebo upřednostnila jednu na úkor ostatních?",
+            "culturalSensitivity": "Respektovala fráze různá kulturní očekávání ohledně hluku, autority a společenských norem?",
+            "boundaryMaintenance": "Udržela fráze profesionální autoritu a zároveň zůstala přístupná a vřelá?",
+            "sustainableResolution": "Přispěla fráze k trvalému řešení, nebo jen k dočasnému souladu, který se za minuty rozpadne?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "U výjezdů do hostelů a sdíleného ubytování vám dvě minuty s recepční dají rámec pravidel, složení skupiny a očekávání stěžovatelů, které formují každé následující rozhodnutí. Přeběhnutí kolem Marty znamená vstup do společenské místnosti naslepo.",
+        "2": "Oddělení základní potřeby pana Kimury (spánek před prezentací) od jeho vyjádřeného požadavku (vystěhovat skupinu) je nejsilnější vyjednávací tah v tomto scénáři. Jedna otázka rozšířila prostor řešení z jedné možnosti na mnoho.",
+        "3": "Liamova nabídka piva je definující test profesionálních hranic. To, jak ji zvládnete v prvních třiceti vteřinách, určuje, zda skupina vidí policistu, který se dá odzbrojit šarmem, nebo takového, který si vynucuje respekt prostřednictvím vřelosti. Odmítněte jasně, odmítněte vřele a jděte dál.",
+        "4": "Potvrzení Liamova argumentu ('hostely jsou společenská místa') před jeho přesměrováním ('vaše práva a jejich práva se neliší') proměňuje odpor v ochotu. Lidé, kteří se cítí vyslyšeni, se pohnou; lidé, kteří se cítí odmítnuti, zakopou se. To ZÁROVEŇ mezi potvrzením a hranicí je ta technika.",
+        "5": "Priya je klíčem k tomuto scénáři. Podstoupila sociální riziko tím, že se ozvala proti vůdci své skupiny. Posílení jejího hlasu, stavění na jejím návrhu a přesměrování na Liama pro souhlas dosáhne toho, čeho konfrontace nikdy nedocílí — dobrovolného souladu se zachováním tváře.",
+        "6": "Konkrétní, strukturované možnosti s jasnými parametry ('bez reproduktoru, úroveň rozhovoru, deset minut na vyklizení místnosti') vytvářejí samovymahatelné dohody. Vágní instrukce ('udržte to v klidu') jsou tatáž instrukce, kterou Marta dala třikrát — a třikrát selhala.",
+        "7": "Následná komunikace s Martou a panem Kimurou není volitelná zdvořilost — je to to, co činí řešení kompletním. Potvrzení Marty zabrání váhání při jejím příštím volání. Informování pana Kimury ctí zranitelnost, kterou sdílel. Navržení hlukové politiky proměňuje jednotlivý incident v systémové zlepšení."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": [
+                "Pokročilé vícestranné vyjednávání — školení ostatních v technikách mediace ve sdílených prostorech",
+                "Vedení mezikulturní komunikace pro mezinárodní policejní kontexty",
+                "Systémové řešení problémů — pomoc institucím vytvářet politiky bránící opakovaným výjezdům",
+                "Identifikace a posílení spolupracujících hlasů ve skupinové dynamice"
+            ],
+            "good": [
+                "Rozšířené vyjednávací dovednosti — oddělování potřeb od požadavků ve vícestranných sporech",
+                "Kulturní citlivost v mezinárodním pohostinském prostředí",
+                "Techniky následné komunikace se zúčastněnými stranami — uzavření kruhu s každou dotčenou stranou",
+                "Management skupinové dynamiky — práce s vůdci a spojenci uvnitř skupin"
+            ],
+            "average": [
+                "Základní vyjednávací principy — přerámování, strukturované možnosti, kolaborativní řešení problémů",
+                "Profesionální hranice pod sociálním tlakem — vřelost bez kooptace",
+                "Přiměřená reakce u nízkoúrovňových hlukových výjezdů a výjezdů na rušení pořádku",
+                "Aktivní naslouchání a empatické zapojení frustrovaných stěžovatelů"
+            ],
+            "poor": [
+                "Základy vícestranného vyjednávání a mediace",
+                "Přiměřenost v rozhodování o vymáhání — přizpůsobení reakce skutečné závažnosti",
+                "Profesionální hranice a chování ve společenských prostředích",
+                "Základy managementu zúčastněných stran — příprava, zapojení, následná komunikace se všemi stranami"
+            ]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {
+                "title": "Celkové shrnutí výkonu",
+                "content": [
+                    "Skóre a úroveň výkonu",
+                    "Klíčové silné stránky ve vícestranném vyjednávání",
+                    "Kritické slabiny v managementu zúčastněných stran nebo přiměřenosti",
+                    "Celkové hodnocení zvládnutí hlukové stížnosti v hostelu"
+                ]
+            },
+            {
+                "title": "Analýza jednotlivých fází",
+                "content": [
+                    "Volba učiněná v každé fázi",
+                    "Dopad na Martu, pana Kimuru, Liama, Priyu a skupinu batůžkářů",
+                    "Alternativní přístupy a jejich důsledky",
+                    "Klíčové body ponaučení pro každou fázi"
+                ]
+            },
+            {
+                "title": "Hodnocení vyjednávání a mediace",
+                "content": [
+                    "Kvalita oddělení potřeb versus požadavků — interakce s panem Kimurou",
+                    "Technika potvrzení-a-přesměrování — interakce s Liamem",
+                    "Posílení spolupracujícího hlasu — interakce s Priyou",
+                    "Prezentace strukturovaných možností — zajištění dohody"
+                ]
+            },
+            {
+                "title": "Hodnocení přiměřenosti a hranic",
+                "content": [
+                    "Kalibrace reakce na skutečnou závažnost — hluková stížnost, ne násilný incident",
+                    "Udržení profesionálních hranic — nabídka piva, sociální tlak",
+                    "Postup skrze možnosti: přemístění před omezením před vystěhováním",
+                    "Závěrečný tón — dobrá vůle zachována nebo otrávena varováními"
+                ]
+            },
+            {
+                "title": "Hodnocení kulturní citlivosti",
+                "content": [
+                    "Adaptace na australskou neformálnost Liama",
+                    "Respekt k formálnímu komunikačnímu stylu a profesním závazkům pana Kimury",
+                    "Rozpoznání různých kulturních očekávání ohledně hluku a společenského života",
+                    "Konzistentní důstojnost napříč kulturními kontexty"
+                ]
+            },
+            {
+                "title": "Kvalita následné komunikace se zúčastněnými stranami",
+                "content": [
+                    "Marta: potvrzení, informace, systémové doporučení",
+                    "Pan Kimura: osobní návštěva řešící jeho konkrétní zájem",
+                    "Skupina batůžkářů: uzavření s důstojností a dobrovolnou dohodou",
+                    "Systémový dopad — doporučení hlukové politiky a prevence do budoucna"
+                ]
+            },
+            {
+                "title": "Efektivita komunikace",
+                "content": [
+                    "Nejlepší momenty dialogu a proč fungovaly",
+                    "Kontraproduktivní fráze a jejich důsledky",
+                    "Analýza rámování — sdílený problém versus zásah vymáhání",
+                    "Dopad závěrečného výroku na trvalou vzpomínku"
+                ]
+            },
+            {
+                "title": "Profesionální rozvoj",
+                "content": [
+                    "Okamžité potřeby školení na základě nejslabších oblastí",
+                    "Dlouhodobý rozvoj dovedností ve vyjednávání a kulturní kompetenci",
+                    "Doporučené zdroje pro výjezdy do sdíleného ubytování a na hlukové stížnosti",
+                    "Aplikace na další vícestranné situace nízkoúrovňového vymáhání"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,362 @@
+{
+    "scenarioId": "6",
+    "reviewVersion": "2.0",
+    "title": "Review — Market Dispute: Negotiating Calmly",
+    "stageAnalysis": {
+        "1": {
+            "stageName": "Arrival at the Market",
+            "criticalSkills": ["Information gathering from third-party sources before engaging", "Scene observation and spatial assessment", "Resisting pressure for premature resolution"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Ask Filip a few more questions first — is there a stall map or allocation system? Has this happened before? Has either party been aggressive? Then take a moment to observe the scene from a distance before approaching.",
+                    "strengths": ["Extracts institutional knowledge from the market manager before forming any opinion", "Asking about the stall map establishes that objective evidence exists — anchoring future mediation in facts", "History question reveals this is a pattern, not a one-off — critical for calibrating response", "Observing from a distance reveals physical evidence (crates past the chalk line, compressed display) without either party performing for you", "Models investigative professionalism for bystanders — the officer gathers facts before acting"],
+                    "consequences": "You learn the map is outdated, the dispute is recurring, and neither party has been physical. From a distance, you see Mrs. Petrova's crates visibly past the faded chalk line and Mr. Okonkwo's display awkwardly compressed. You approach with context that neither party's framing can distort.",
+                    "trainingFocus": "How does sixty seconds of third-party questioning and independent observation change the quality of every subsequent conversation? What did you learn from Filip and the scene that you could not have learned from either vendor alone?"
+                },
+                "partially_positive": {
+                    "choiceText": "Tell Filip you'll handle it quickly, then go directly to the two vendors and ask what's going on — hear both sides at the same time.",
+                    "adequate": ["Intent to hear both sides signals fairness", "Engaging directly shows willingness to act"],
+                    "missed": ["No scene assessment or fact-gathering before engagement", "Two heated people asked to speak simultaneously will compete for your attention, not cooperate", "Filip's institutional knowledge — the stall map, the history — remains untapped", "Bystanders see an officer stepping into a shouting match rather than approaching with a plan"],
+                    "improvement": "Fair intent needs tactical sequencing. Gather facts from Filip and the scene first. Then separate the parties — hearing heated people simultaneously invites performance, not honesty."
+                },
+                "neutral": {
+                    "choiceText": "Tell Filip: 'This sounds like a market management issue, not a police matter. You should handle stall assignments. I'll stay nearby in case it gets physical.'",
+                    "adequate": ["Correctly identifies that stall allocation is ultimately a management responsibility", "Offer to remain nearby shows some engagement"],
+                    "missed": ["Filip already told you he cannot control the situation — handing it back to him is circular", "The crowd sees police arrive and decline to act — trust in police responsiveness erodes", "A bystander shouts at Mr. Okonkwo because no authority figure intervened — the situation deteriorates", "Racial dimension of the dispute goes entirely unaddressed"],
+                    "improvement": "When a situation has escalated beyond management's capacity, police engagement is warranted even if the underlying issue is administrative. Take ownership, then involve management in the structural fix."
+                },
+                "negative": {
+                    "choiceText": "Thank Filip for calling, then walk straight to the arguing vendors and tell them both to stop shouting immediately — you'll sort this out, but the yelling stops now.",
+                    "risks": ["Commanding silence without any context or rapport makes you an authority imposing order, not a mediator seeking resolution", "You have no idea who escalated, what the issues are, or what each party needs", "Starting with a command signals that the loudest problem gets the fastest police response", "Both vendors fall silent resentfully — the argument is suppressed, not addressed"],
+                    "consequences": "Mr. Okonkwo's jaw tightens. Mrs. Petrova mutters under her breath. Bystanders see a police officer silencing two people before understanding anything. The conflict goes underground rather than getting resolved.",
+                    "betterApproach": "Gather information from Filip and observe the scene first. Approach each party separately with questions, not commands. Silencing a conflict is not the same as beginning to resolve it."
+                }
+            },
+            "keyLearningPoints": ["Third-party sources like market managers hold institutional knowledge that anchors mediation in facts", "Independent observation before engagement reveals physical evidence that partisan accounts may distort", "Resisting pressure for speed preserves the quality of every subsequent step", "In multi-party disputes, who you talk to first and how you approach shapes the entire encounter"]
+        },
+        "2": {
+            "stageName": "Hearing Mr. Okonkwo",
+            "criticalSkills": ["Active listening to layered complaints", "Acknowledging both practical and discriminatory dimensions", "Committing to process without prejudging outcome"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Maintain steady eye contact and speak clearly: 'Mr. Okonkwo, thank you for explaining this to me. I want you to know that I take what you've described seriously — all of it. The space issue and what was said to you.'",
+                    "strengths": ["Thanks him for sharing — validates the emotional cost of reporting racial harassment to police", "Explicitly names both dimensions: space encroachment and the racial comment — refusing to conflate or minimize either", "'No one should be told they don't belong' addresses the racial dimension directly without prejudging Mrs. Petrova", "Promising to check the actual allocations signals fact-based mediation, not assumption-based judgment", "Committing to return before decisions demonstrates procedural fairness — he will have voice in the outcome"],
+                    "consequences": "Mr. Okonkwo's shoulders drop slightly. He nods and says quietly: 'Thank you, officer. That is all I am asking — just fairness.' The crowd sees calm, respectful dialogue. Trust is built because both layers of his complaint were heard.",
+                    "trainingFocus": "Why does explicitly naming both dimensions of a layered complaint — the practical and the discriminatory — build more trust than addressing only the easier one? What does it cost a person to report racial harassment to police, and how does your first response shape whether they ever do it again?"
+                },
+                "partially_positive": {
+                    "choiceText": "Nod sympathetically: 'I understand this is frustrating, Mr. Okonkwo. Let's focus on the space issue — that's something we can resolve today.'",
+                    "adequate": ["Shows empathy and intent to resolve", "Focuses on the actionable practical dimension"],
+                    "missed": ["Conspicuously avoids the 'go back where you came from' comment — the harder issue he explicitly raised", "Mr. Okonkwo told you something that took courage; skipping it tells him the racial dimension does not matter to you", "He mentioned both issues; you picked the comfortable one — he notices what you did not say"],
+                    "improvement": "Address both dimensions explicitly. You do not need to prejudge the comment — simply acknowledging that you heard it and take it seriously validates the person without compromising the process."
+                },
+                "neutral": {
+                    "choiceText": "Ask him: 'Did anyone else hear what she said? Do you have any witnesses? Because if we're going to address that comment, I'll need corroboration.'",
+                    "adequate": ["Recognizes the evidentiary dimension — witnesses matter", "Takes the comment seriously enough to consider follow-up"],
+                    "missed": ["First response to a painful disclosure is cross-examination — feels like doubt, not support", "Signals that his word alone is insufficient, which undermines trust before it is built", "Evidence gathering is important but sequencing matters — acknowledge first, investigate second", "His voice rises and trust collapses before any productive conversation begins"],
+                    "improvement": "Acknowledge the experience first. Then explain that you want to understand what happened as fully as possible — including other perspectives. The same questions land completely differently after validation."
+                },
+                "negative": {
+                    "choiceText": "Hold up your hand calmly: 'Mr. Okonkwo, I hear you, but let's not make this about anything more than a space dispute. People say things in anger they don't mean.'",
+                    "risks": ["Dismissing 'go back where you came from' as something said in anger normalizes racial hostility", "Tells Mr. Okonkwo his experience of racism is an overreaction", "Tells every bystander who heard the comment that police do not consider it significant", "'Let's not make this about anything more' is a directive to minimize his lived experience"],
+                    "consequences": "Mr. Okonkwo stares at you. The warmth drains from his face. He says quietly: 'I see. So that is how it is.' He withdraws cooperation. A bystander who overheard shakes their head. Trust is not just lost — it is actively destroyed.",
+                    "betterApproach": "Never minimize someone's experience of discrimination. Acknowledge both layers of the complaint. You can investigate without prejudging, but you cannot ignore without consequence."
+                }
+            },
+            "keyLearningPoints": ["When someone reports both a practical problem and a discriminatory experience, addressing only one tells them you chose the comfortable path", "The first response to a report of racial harassment shapes whether the person ever trusts police again", "Acknowledging a harm is not the same as prejudging the accused — validation and investigation coexist", "Committing to process ('I'll check the allocations and come back') preserves discretion while building trust"]
+        },
+        "3": {
+            "stageName": "Hearing Mrs. Petrova",
+            "criticalSkills": ["Building rapport with defensive individuals before confrontation", "Addressing nationalistic language without triggering shutdown", "Creating space for voluntary acknowledgment"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Let her finish, then say firmly but respectfully: 'Mrs. Petrova, I can see you care deeply about your place here, and fifteen years is a long time. I respect that. I need to understand the space situation — we'll look at the actual stall map together.'",
+                    "strengths": ["Validates her tenure and emotional investment first — she needs to feel heard before she can hear you", "Mentioning the stall map signals objectivity and fact-based process", "Pivoting to 'things were said' rather than 'you said racist things' gives her space to reflect rather than defend", "Asking 'what was said' invites her version rather than demanding a confession", "The sequence — validation, facts, then the harder question — creates the conditions for honest acknowledgment"],
+                    "consequences": "Mrs. Petrova pauses and looks down. She admits: 'I... may have said something I shouldn't have. I was angry.' This is not an excuse, but it is an acknowledgment you can build on — and it only happened because the approach created space for honesty.",
+                    "trainingFocus": "How does creating space for someone to acknowledge their own words produce more honest responses than demanding a confession? Why does the sequence of validation before confrontation matter?"
+                },
+                "partially_positive": {
+                    "choiceText": "Nod and say: 'I understand, Mrs. Petrova. Fifteen years is a long time. Let me go look at the stall map and we'll get this straightened out.'",
+                    "adequate": ["Validates her experience and shows empathy", "Moves toward objective evidence with the stall map"],
+                    "missed": ["The discriminatory language is never raised — by the time you return with the map, the racial dimension has been silently dropped", "Mrs. Petrova concludes her comment was acceptable because even the police did not ask about it", "When Mr. Okonkwo learns you never raised the comment, his trust in the process collapses entirely", "You chose the easy path at the cost of the necessary conversation"],
+                    "improvement": "After validating her tenure, pivot to the harder question. You do not need to accuse — asking 'what was said during the argument' creates an opening without a direct charge."
+                },
+                "neutral": {
+                    "choiceText": "Confront her directly: 'Mrs. Petrova, Mr. Okonkwo tells me you said he should go back where he came from. That's a serious statement. Is that what you said?'",
+                    "adequate": ["The racial comment must be addressed, and this does address it", "Shows willingness to confront uncomfortable truths"],
+                    "missed": ["Leading with a direct accusation before any rapport puts her on trial immediately", "She will deny or become defensive — full defensive mode blocks honest engagement", "The conversation becomes about the comment in isolation rather than the underlying conflict", "Every subsequent question hits a wall because the relationship started with confrontation"],
+                    "improvement": "Sequence matters: rapport before confrontation. Validate her experience first, mention the stall map for objectivity, then open the door to the harder question. The same truth lands differently depending on when and how it is raised."
+                },
+                "negative": {
+                    "choiceText": "Interrupt her: 'Mrs. Petrova, I don't need the history. The question is simple: are your crates on his side or not? Because from what I can see, they are.'",
+                    "risks": ["Cutting off someone mid-explanation and immediately siding with observable evidence is dismissive and premature", "You have not yet verified the allocation — the map has not been checked", "'I don't need the history' tells her that fifteen years of context are irrelevant", "Even if the crates are over the line, her experience of the dispute matters for resolution quality"],
+                    "consequences": "Mrs. Petrova erupts: 'You're already on his side! You haven't even looked at the map!' The crowd hears her outburst. You have made an enemy of the second party in under thirty seconds, and mediation becomes vastly more difficult.",
+                    "betterApproach": "Listen fully, validate the emotional investment, then present facts collaboratively. People comply with outcomes when they feel the process was fair — not when they feel silenced."
+                }
+            },
+            "keyLearningPoints": ["Defensive individuals need validation before they can hear difficult truths", "Asking 'what was said' opens a door that 'did you say X' slams shut", "Avoiding the hard conversation about discriminatory language does not make it disappear — it makes it fester", "The sequence of rapport, facts, then confrontation produces dramatically better outcomes than any other order"]
+        },
+        "4": {
+            "stageName": "Assessing the Evidence",
+            "criticalSkills": ["Transparent evidence presentation", "Reframing personal blame as systemic failure", "Using objective facts to transform adversarial dynamics"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Go back to both vendors and share what you've found transparently: 'I've looked at the map and the markings. Here's what I see — Mrs. Petrova, your crates are about 40 centimeters past the boundary line on Mr. Okonkwo's side.'",
+                    "strengths": ["Sharing evidence transparently with both parties is the gold standard for procedural fairness", "Naming the specific encroachment gives Mrs. Petrova a fact she cannot argue with", "Immediately contextualizing it — the lines were unclear, the system failed them — prevents the finding from feeling like a verdict", "'The system failed both of you' reframes from personal blame to institutional responsibility", "Opens space for collaborative solution rather than winner-loser outcome"],
+                    "consequences": "Mrs. Petrova looks at the ground — she can see the crates are over the line. Mr. Okonkwo nods — validated without triumphalism. Both look at Filip. The dynamic shifts from 'who is wrong' to 'what went wrong' — and that is where mediation becomes possible.",
+                    "trainingFocus": "How does presenting facts alongside systemic context prevent a factual finding from becoming a personal attack? Why does 'the system failed both of you' open collaborative space that 'you were wrong' closes?"
+                },
+                "partially_positive": {
+                    "choiceText": "Tell Filip privately: 'This is your mess. The lines are faded, the map is outdated, and you squeezed Mr. Okonkwo in without proper measurements. You need to fix this today.'",
+                    "adequate": ["Correctly identifies Filip's institutional responsibility", "Creates urgency for structural repair", "Holds the responsible party accountable"],
+                    "missed": ["Doing this privately and delivering the result as a top-down decision excludes both vendors from the process", "Neither vendor sees the evidence, participates in the solution, or hears each other acknowledged", "Mrs. Petrova feels punished without understanding why", "Mr. Okonkwo's racial complaint remains unaddressed in this approach"],
+                    "improvement": "Hold Filip accountable while keeping both vendors in the loop. Transparent evidence sharing ensures buy-in. Accountability works better when the affected parties witness the process."
+                },
+                "neutral": {
+                    "choiceText": "Show Mrs. Petrova the map and the line: 'Mrs. Petrova, the evidence is clear — your crates are on his side. You need to move them back to your allocated space immediately.'",
+                    "adequate": ["Factually correct based on the evidence gathered", "Direct and actionable"],
+                    "missed": ["Delivered as a verdict without context about faded lines or poor management", "Creates a clear winner and loser — and losers do not cooperate with the resolution", "Mrs. Petrova is humiliated in front of the crowd without understanding the systemic failure", "The space problem is technically solved but the relationship — and the racial dimension — are destroyed"],
+                    "improvement": "Present facts in context. The lines were faded. The map was never updated. The system failed both of them. The same factual finding lands completely differently when paired with systemic context."
+                },
+                "negative": {
+                    "choiceText": "Decide this is ultimately a civil matter between the vendors and the market management. Tell both parties: 'I've looked at the map and there's a boundary issue. This needs to be resolved by Filip and the market administration.'",
+                    "risks": ["Passing the problem back to the management that failed to prevent it is a circular non-resolution", "Filip already said he cannot manage this — that is why he called police", "Telling two people in active conflict to 'work with' the person who let the conflict develop sets up another confrontation", "The racial dimension is left entirely unaddressed", "Fifteen minutes of evidence gathering followed by handing the problem back destroys credibility"],
+                    "consequences": "Both vendors stare at you in disbelief. Filip looks panicked. The crowd murmurs. You have gathered evidence and then declined to use it. Next Saturday, police will be called again — but with less trust and more frustration.",
+                    "betterApproach": "When the responsible authority has already failed, provide structure for the resolution rather than handing the problem back. Use your evidence to facilitate — that is the value you add."
+                }
+            },
+            "keyLearningPoints": ["Transparent evidence sharing is the gold standard for procedural fairness — both parties should see what you found", "Reframing 'who is wrong' as 'what went wrong' opens collaborative space that blame closes", "Systemic context transforms a verdict into a shared problem to solve", "Gathering evidence and then not using it to facilitate is worse than not gathering it at all"]
+        },
+        "5": {
+            "stageName": "The Mediation",
+            "criticalSkills": ["Facilitating direct acknowledgment between parties", "Distinguishing space resolution from racial harm resolution", "Creating conditions for voluntary apology rather than coerced performance"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Turn to Mrs. Petrova: 'Mrs. Petrova — Mr. Okonkwo is raising something important. Earlier you mentioned to me that things were said in the heat of the moment that you wished you hadn't said.'",
+                    "strengths": ["Creates space for voluntary acknowledgment rather than demanding a confession", "References her earlier private admission — reminding her of her own words without exposing them harshly", "States facts about Mr. Okonkwo's legitimacy — valid permit, pays fees, every right to be here — removing ambiguity", "'Is there something you'd like to say to him' gives her agency in making it right", "The apology that follows is imperfect but genuine — because it was facilitated, not forced"],
+                    "consequences": "Mrs. Petrova is quiet for a long moment. Then she looks at Mr. Okonkwo: 'I shouldn't have said that. I was angry about the crates and I said something ugly. You have every right to be here. I'm sorry.' Mr. Okonkwo nods slowly. Several bystanders exhale. It is not perfect, but it is genuine.",
+                    "trainingFocus": "How does creating space for voluntary acknowledgment produce more genuine reconciliation than demanding an apology? Why does referencing someone's own earlier admission create a bridge rather than a wall?"
+                },
+                "partially_positive": {
+                    "choiceText": "Tell Mrs. Petrova: 'Mrs. Petrova, what you said to Mr. Okonkwo was unacceptable. Telling someone to go back where they came from is discriminatory. You need to apologize to him right now.'",
+                    "adequate": ["The moral assessment is correct — the statement was discriminatory", "Shows willingness to confront the racial dimension head-on", "Mr. Okonkwo sees the officer taking his complaint seriously"],
+                    "missed": ["Demanding an apology 'right now' in front of a crowd produces coerced performance, not genuine acknowledgment", "Mrs. Petrova will either refuse (escalation) or deliver a hollow, resentful apology Mr. Okonkwo sees through immediately", "Public shaming of an elderly woman creates sympathy for her, not accountability", "The crowd watches a forced apology — no one feels good about it"],
+                    "improvement": "Facilitate rather than demand. Reference her own earlier private admission. State the facts about Mr. Okonkwo's legitimacy. Ask if there is something she would like to say. The same truth arrives through a door she opens herself rather than one you force open."
+                },
+                "neutral": {
+                    "choiceText": "Address both: 'I think we've made real progress on the space. Mr. Okonkwo, I understand the comment hurt you deeply, but Mrs. Petrova has agreed to move her crates. Let's focus on the solution and move forward.'",
+                    "adequate": ["Acknowledges progress on the space issue", "Shows awareness that the comment caused pain"],
+                    "missed": ["Equates resolving the space issue with resolving the racial harm — they are not the same thing", "Mr. Okonkwo explicitly said the comment is a separate issue — telling him to 'move forward' dismisses his stated need", "Prioritizes your comfort and a tidy resolution over his dignity", "He leaves knowing a police officer heard about a racist comment and chose to sweep it away"],
+                    "improvement": "When a harmed person explicitly requests direct acknowledgment, do not substitute institutional tidiness for human connection. The space resolution and the racial harm are separate issues requiring separate resolution."
+                },
+                "negative": {
+                    "choiceText": "Redirect: 'Mr. Okonkwo, I completely understand your feelings, and I've already spoken to Mrs. Petrova about what was said. Let me handle the interpersonal aspect separately — right now, let's lock in the space agreement.'",
+                    "risks": ["Denies Mr. Okonkwo the acknowledgment he explicitly asked for — he said 'I need to hear HER acknowledge it'", "Routing his need through yourself as intermediary removes the human moment that could begin repair", "'Let me handle it separately' means it will never happen — both parties know this", "The space problem is solved but the relationship remains broken"],
+                    "consequences": "Mr. Okonkwo cooperates mechanically. Mrs. Petrova is relieved — she never had to face what she said. Next Saturday, they stand side by side in cold, bitter silence. The dispute is technically resolved but the wound festers.",
+                    "betterApproach": "When someone asks for direct acknowledgment from the person who harmed them, create the space for that moment rather than substituting yourself. Facilitated direct communication heals; institutional intermediation delays."
+                }
+            },
+            "keyLearningPoints": ["Resolving the practical dimension of a dispute does not resolve the human dimension — they require separate attention", "Facilitated voluntary apologies produce genuine reconciliation; demanded apologies produce resentful performance", "When a harmed person asks for direct acknowledgment, substituting institutional handling denies them the moment they need", "Referencing someone's own earlier words creates a bridge to honesty that accusation cannot build"]
+        },
+        "6": {
+            "stageName": "Forging the Agreement",
+            "criticalSkills": ["Collaborative structural problem-solving", "Including all affected parties in solution design", "Addressing root causes rather than symptoms"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Address all three: 'Filip, Mrs. Petrová, Mr. Okonkwo — the underlying problem here isn't either of you, it's that the system was unclear. So let's fix it together. Filip, can you redraw the lines today with proper measurements — and can both of you be present for that, so you each see and agree on the new boundaries? I'd also suggest written allocations for every vendor, and a posted procedure for resolving disputes before they reach this point. Does that sound fair to everyone?'",
+                    "strengths": ["Including all three parties ensures buy-in — the solution is co-created, not imposed", "'The underlying problem isn't either of you' depersonalizes the fault and opens collaborative space", "Having both vendors present for the remeasurement makes the new lines their agreement, not an imposition", "Asking 'does that sound fair to everyone' gives each person the dignity of consent", "Written allocations for every vendor and a posted dispute procedure address the systemic root cause", "Solution has structural permanence because everyone participated in building it"],
+                    "consequences": "Mr. Okonkwo nods: 'That is fair. I want to see the measurements.' Mrs. Petrová: 'Fine — as long as my space is the same as everyone else's.' Filip commits to redrawing during the lunch break. All three have agreed. The resolution will hold because it was designed together.",
+                    "trainingFocus": "Why does including all affected parties in designing the solution make it more likely to hold than imposing the same solution from above? What is the difference between consent and compliance?"
+                },
+                "partially_positive": {
+                    "choiceText": "Tell Filip: 'Here's what needs to happen. First, redraw the stall lines today — clear, visible markings. Second, give both Mr. Okonkwo and Mrs. Petrova a written copy of their allocation with exact measurements.'",
+                    "adequate": ["Structural, specific, and actionable — addresses root causes", "Creates urgency with 'today' commitment", "Written allocations eliminate future ambiguity", "Dispute procedure prevents future escalation"],
+                    "missed": ["Directing Filip without consulting the vendors — they were not asked for input", "Mrs. Petrova wonders if the new lines will squeeze her", "Mr. Okonkwo wonders if the written allocation will match what he was originally promised", "The structure is right but the buy-in is incomplete because it was designed without them"],
+                    "improvement": "Include the affected parties in designing their own solution. 'Does that sound fair to everyone?' transforms an instruction into a collaborative agreement."
+                },
+                "neutral": {
+                    "choiceText": "Tell both vendors: 'Look, the lines were unclear — that's Filip's fault. But going forward, stay in your spaces. If the crates cross the line again, Mr. Okonkwo, call Filip first, not the police.'",
+                    "adequate": ["Identifies the management failure as root cause", "Gives practical direction for future behavior"],
+                    "missed": ["'Common sense' is dismissive — if it were common sense, they would not need police", "Blaming Filip publicly undermines the authority he needs to enforce future rules", "Sending Mr. Okonkwo back to the person who already failed him for months is circular", "No structural fix — same faded lines and same ambiguity next Saturday"],
+                    "improvement": "Create structure rather than giving advice. Redrawn lines, written allocations, and a dispute procedure are structural solutions. 'Stay in your spaces' is an instruction that expires the moment you leave."
+                },
+                "negative": {
+                    "choiceText": "Suggest separating them: 'Filip, would it be possible to move one of the stalls to a different location in the market? That way they won't be next to each other and this can't happen again.'",
+                    "risks": ["Separation avoids the actual problem and raises a devastating question: who gets moved?", "Moving Mr. Okonkwo — the person who was encroached upon and racially targeted — sends the message that the victim gets relocated", "Moving Mrs. Petrova punishes her and separates her from fifteen years of loyal customers", "Separation is what you do when resolution fails, not a substitute for attempting it"],
+                    "consequences": "Both vendors react badly. Mr. Okonkwo: 'I should not have to move because someone else violated my space.' Mrs. Petrova: 'I've been here fifteen years — I'm not going anywhere!' The suggestion unites them against you and against the idea of any resolution.",
+                    "betterApproach": "Fix the system that caused the conflict — clear lines, written allocations, dispute procedures. Physical separation avoids the problem; structural repair solves it."
+                }
+            },
+            "keyLearningPoints": ["Solutions designed with all affected parties hold longer than solutions imposed from above", "Depersonalizing fault ('the system failed') opens collaborative space that blame closes", "Structural fixes — redrawn lines, written allocations, dispute procedures — address root causes", "Physical separation is avoidance, not resolution — it relocates the problem rather than solving it"]
+        },
+        "7": {
+            "stageName": "Closure and Follow-Through",
+            "criticalSkills": ["Personalized closings for each party", "Accountability with proportionate consequences", "Affirming belonging and acknowledging growth"],
+            "choiceAnalysis": {
+                "positive": {
+                    "choiceText": "Smile at Mr. Okonkwo: 'You have a right to be here, and don't let anyone make you feel otherwise. You handled today with real dignity.' Then stop by Mrs. Petrova's stall: 'Mrs. Petrova, it took courage to say what you said earlier. That matters.'",
+                    "strengths": ["Affirms Mr. Okonkwo's belonging as a fact, not a favor — deeply meaningful after years of feeling marginalized", "Acknowledges Mrs. Petrova's difficult moment of honesty without over-praising or shaming", "Holds Filip accountable with a specific, proportionate consequence — the next conversation will be with his supervisor", "Each person gets a private, tailored closing — no one is performed at", "Walking the market before leaving signals you are part of this community, not just passing through"],
+                    "consequences": "Mr. Okonkwo stands a little taller. Mrs. Petrova nods once — she heard you, and she is thinking. Filip pulls out a measuring tape before you have left. A bystander nods: 'Nice work, officer.' The resolution will hold because every person has a reason to make it work.",
+                    "trainingFocus": "Why does giving each party a personalized, private closing produce better long-term outcomes than a single group farewell? How does affirming someone's belonging — as a fact, not a concession — change their relationship with authority?"
+                },
+                "partially_positive": {
+                    "choiceText": "Address both vendors together: 'You're neighbors at this market. What happened today doesn't have to define your relationship. Give each other some grace — you might find you have more in common than you think.'",
+                    "adequate": ["Warm and hopeful sentiment", "Frames the future positively", "Encourages relationship beyond conflict"],
+                    "missed": ["Generic advice — 'give each other some grace' does not hold anyone accountable", "Does not affirm Mr. Okonkwo's specific experience or acknowledge Mrs. Petrova's specific growth", "Both parties receive the same message despite having very different experiences today", "No accountability mechanism for Filip — the lines may never get redrawn"],
+                    "improvement": "Personalize. Mr. Okonkwo needs to hear that his right to be here is unquestioned. Mrs. Petrova needs to hear that her honesty was noticed. Filip needs a deadline and a consequence. Different people need different closings."
+                },
+                "neutral": {
+                    "choiceText": "Tell them both: 'Alright, this is resolved. If there are any more problems, call the non-emergency line. Filip, make sure those lines get done. Have a good day, everyone.'",
+                    "adequate": ["Confirms resolution and provides contact information for future issues", "Reminds Filip of his commitment"],
+                    "missed": ["Transactional and impersonal — after an encounter involving racial harm, emotional vulnerability, and systemic failure", "No acknowledgment of what either vendor went through", "No accountability mechanism for Filip beyond 'make sure'", "Mr. Okonkwo's gratitude goes unacknowledged; Mrs. Petrova's difficult admission is unremarked"],
+                    "improvement": "When people have been vulnerable during a police encounter, a human closing takes thirty seconds and changes the lasting memory of the entire encounter. Close with the person, not just the case."
+                },
+                "negative": {
+                    "choiceText": "Before leaving, announce to the nearby crowd: 'Everything has been resolved here — just a misunderstanding about stall space. Both vendors are staying, and the market manager will sort out the markings.'",
+                    "risks": ["Performing the resolution for the crowd turns a private, meaningful process into a public announcement", "Calling it 'just a misunderstanding' erases the racial dimension that was central to the dispute", "Mr. Okonkwo hears his experience of being told to 'go back where he came from' described as a 'misunderstanding about stall space'", "Mrs. Petrova relaxes — the public narrative lets her off the hook for the growth she was beginning to make"],
+                    "consequences": "The crowd is reassured but Mr. Okonkwo looks away. He just heard a police officer publicly define his experience as trivial. The progress made in private is undone by a public performance that minimizes everything that mattered.",
+                    "betterApproach": "Your audience is not the crowd — it is the people whose lives your decision affects. Close the encounter with them, for them, about their specific experiences and next steps."
+                }
+            },
+            "keyLearningPoints": ["The last words of an encounter shape the lasting memory of the entire interaction", "Different parties need different closings — personalizing shows that you saw each person as an individual", "Accountability without a deadline and consequence is a suggestion, not accountability", "Performing the resolution publicly while minimizing its complexity undoes the progress made privately"]
+        }
+    },
+    "comprehensiveMetrics": {
+        "impartialMediation": {
+            "description": "Demonstrating visible fairness to all parties — listening equally to Mr. Okonkwo and Mrs. Petrova, presenting stall map evidence neutrally, and designing solutions collaboratively rather than imposing verdicts",
+            "indicators": {
+                "excellent": ["Both Mr. Okonkwo and Mrs. Petrova feel heard and respected throughout the encounter", "Evidence from the stall map shared transparently with both parties, not used as a weapon against either", "Time and attention distributed equally — neither vendor treated as the default authority or the default problem", "Process perceived as fair by bystanders regardless of the factual outcome"],
+                "poor": ["One vendor treated as legitimate and the other as the intruder based on tenure or origin", "Evidence presented as a verdict against one party without systemic context", "Approaching one party first or spending significantly more time with one side", "Bystanders perceive the officer as having taken sides from the beginning"]
+            }
+        },
+        "culturalAwareness": {
+            "description": "Recognizing and directly addressing the racial and cultural dimensions of the dispute — the 'go back where you came from' comment, nationalistic undertones in Mrs. Petrova's language, and Mr. Okonkwo's experience as an immigrant vendor",
+            "indicators": {
+                "excellent": ["Racial comment acknowledged explicitly as a separate, serious matter — not conflated with the space dispute", "Mrs. Petrova's nationalistic language addressed through facilitation, not accusation — creating space for voluntary acknowledgment", "Mr. Okonkwo's right to belong affirmed as fact, not concession", "Cultural dimensions woven into the resolution rather than avoided or tacked on as an afterthought"],
+                "poor": ["Racial comment minimized as 'something said in anger' or ignored entirely", "Nationalistic undertones in Mrs. Petrova's language go unchallenged", "Mr. Okonkwo's experience of discrimination treated as secondary to the 'real' space issue", "Officer avoids the cultural dimension because the space issue is easier to resolve"]
+            }
+        },
+        "factFinding": {
+            "description": "Gathering objective evidence — stall allocation map, physical layout, faded chalk lines, Filip's admission, bystander corroboration — before forming conclusions or taking action",
+            "indicators": {
+                "excellent": ["Stall map examined before any judgment about who is at fault", "Physical evidence (crates past the line, compressed display) observed independently before either party's account", "Filip's institutional knowledge and admission of management failure incorporated into the analysis", "Bystander observation used to corroborate the pattern rather than relying on competing accounts"],
+                "poor": ["Judgment formed based on whoever spoke first or spoke louder", "Physical evidence ignored in favor of one party's narrative", "Filip's role in the systemic failure not investigated or not addressed", "No independent verification — mediation based entirely on claims rather than facts"]
+            }
+        },
+        "conflictResolution": {
+            "description": "Building structural, lasting agreements that address root causes — unclear stall boundaries, outdated maps, missing dispute procedures — rather than temporary fixes that suppress symptoms",
+            "indicators": {
+                "excellent": ["Structural solution includes redrawn lines, written allocations, and posted dispute procedure", "Both vendors included in designing the solution — consent rather than compliance", "Root cause (management failure to maintain clear boundaries) addressed directly", "Solution is durable — prevents the same conflict from recurring next Saturday"],
+                "poor": ["Space problem solved today with no structural change to prevent recurrence", "Solution imposed without input from affected parties", "Root cause (unclear boundaries, no process) left unaddressed", "Problem handed back to the management that already failed to resolve it"]
+            }
+        },
+        "communityTrust": {
+            "description": "Strengthening the market community's confidence in police through the quality, fairness, and humanity of this encounter — especially for immigrant vendors and bystanders watching closely",
+            "indicators": {
+                "excellent": ["Every visible action reinforces that police mediate fairly rather than taking sides", "Mr. Okonkwo — an immigrant vendor — leaves feeling his right to belong was affirmed by the officer", "Bystanders witnessed fact-based, transparent mediation and personalized closings", "Both vendors trust that the encounter was fair enough to cooperate with the outcome"],
+                "poor": ["Encounter reinforces Mr. Okonkwo's sense that institutions do not protect him", "Bystanders perceive the officer as having sided with the longer-established vendor", "Resolution performed for the crowd while minimizing the racial dimension", "Trust destroyed by disproportionate action, dismissal of discrimination, or performative closure"]
+            }
+        }
+    },
+    "mistakePatterns": {
+        "culturalAvoidance": {
+            "pattern": "Avoiding the racial and cultural dimension because the space issue is easier to resolve",
+            "examples": ["Focusing only on the stall boundary while ignoring the 'go back where you came from' comment", "Telling Mr. Okonkwo 'let's not make this about anything more than a space dispute'", "Never raising the comment with Mrs. Petrova during the conversation", "Describing the resolution publicly as 'just a misunderstanding about stall space'"],
+            "impact": "Mr. Okonkwo learns that reporting racial harassment to police changes nothing. Mrs. Petrova learns that her language carries no consequences. Every bystander who heard the comment learns that police do not consider racial hostility worth addressing. The space issue may be resolved, but the human wound festers and the same dynamics return.",
+            "correction": "Address both dimensions explicitly. Acknowledge the racial comment as a separate, serious matter. Create space for Mrs. Petrova to acknowledge her words voluntarily. Affirm Mr. Okonkwo's right to belong. Avoiding discomfort is not neutrality — it is choosing the status quo."
+        },
+        "prematureJudgment": {
+            "pattern": "Forming conclusions before gathering evidence or hearing all parties",
+            "examples": ["Commanding both vendors to stop shouting before understanding the conflict", "Telling Mrs. Petrova her crates are on his side before checking the stall map", "Accepting Filip's framing without questioning his role in the management failure", "Demanding witnesses from Mr. Okonkwo as the first response to his account"],
+            "impact": "The officer becomes an enforcer of first impressions rather than a fact-based mediator. Whichever party is judged prematurely loses trust in the process. Bystanders see judgment before investigation and conclude the outcome was predetermined.",
+            "correction": "Sequence matters: observe the scene, interview the manager, hear both parties separately, check the evidence, then — and only then — present findings. Sixty seconds of investigation prevents sixty minutes of damage control."
+        },
+        "systemicBlindness": {
+            "pattern": "Treating the conflict as a personal dispute while ignoring the institutional failure that caused it",
+            "examples": ["Telling vendors to 'stay in your spaces' when the lines are faded and no one knows where those spaces are", "Handing the problem back to Filip without structural requirements for change", "Solving today's encroachment without addressing the outdated map, lack of written allocations, or absence of dispute procedures", "Blaming Mrs. Petrova for the crate placement without noting that the boundary was effectively invisible"],
+            "impact": "The same conflict recurs next Saturday with the same ambiguous lines, the same absent management, and the same frustration — but now with less trust in police involvement. Treating symptoms without addressing the system is incomplete policing.",
+            "correction": "Identify the root cause and build structural fixes into the resolution. Redrawn lines, written allocations, and posted dispute procedures address the system. Include all parties — including the manager — in designing and committing to the structural solution."
+        },
+        "imbalancedListening": {
+            "pattern": "Giving more weight, time, or credibility to one party based on tenure, familiarity, or perceived authority",
+            "examples": ["Treating Mrs. Petrova's fifteen-year tenure as inherently more legitimate than Mr. Okonkwo's three-year presence", "Spending more time with the vendor who speaks more assertively or who 'called first'", "Accepting Filip's characterization of 'those two again' without examining his management failures", "Allowing Mrs. Petrova's self-framing as 'a Czech woman in a Czech market' to go unchallenged while scrutinizing Mr. Okonkwo's claims"],
+            "impact": "Imbalanced listening creates visible unfairness that damages trust in the process and its outcome. Mr. Okonkwo — already sensitized to being treated as lesser — reads every asymmetry. Bystanders watching closely form their own conclusions about whose voice matters to police.",
+            "correction": "Distribute time, attention, and credibility equally. Use evidence rather than assertion to determine facts. Both parties hold valid permits and pay their fees — tenure does not create hierarchy in a public market."
+        },
+        "performativeClosure": {
+            "pattern": "Closing the encounter for the audience rather than for the people at the center of the dispute",
+            "examples": ["Announcing to the crowd that 'everything has been resolved' while minimizing the racial dimension", "Generic group farewell instead of personalized closings for each party", "Describing a complex, layered dispute as 'just a misunderstanding' for public consumption", "Leaving without confirming Filip's structural commitments or holding him accountable"],
+            "impact": "The public narrative erases the complexity that the private mediation honored. Mr. Okonkwo hears his experience reduced to trivia. Mrs. Petrova's difficult growth is made invisible. Filip escapes accountability because no deadline or consequence was established. Good theater, poor resolution.",
+            "correction": "Close privately with each party. Affirm Mr. Okonkwo's belonging. Acknowledge Mrs. Petrova's honesty. Hold Filip to a deadline with a named consequence. Walk the market before leaving. The audience that matters is not the crowd — it is the people whose lives your decision affects."
+        }
+    },
+    "personalizedFeedback": {
+        "templates": {
+            "allPositive": "Outstanding impartial mediation. You demonstrated the complete skillset for multi-layered market disputes: thorough fact-finding before judgment, visible impartiality between both vendors, direct engagement with the racial dimension, collaborative structural solution-building with all parties including the market manager, and personalized closings that affirmed Mr. Okonkwo's belonging, acknowledged Mrs. Petrova's growth, and held Filip accountable. Every bystander — every regular customer watching — saw policing that builds bridges in a diverse community. This is the standard.",
+            "mostlyPositive": "Strong mediation performance with good instincts for fairness and evidence-based resolution. You maintained impartiality between Mr. Okonkwo and Mrs. Petrova and worked toward a structural solution. Some opportunities were missed — perhaps in fully addressing the racial comment, facilitating direct acknowledgment between the vendors, or personalizing the closure for each party — but your overall approach was professional, thorough, and trust-building.",
+            "mixed": "You showed competence in some areas but struggled with the full complexity of this multi-layered market dispute. Strengths included [SPECIFIC_POSITIVE], but critical opportunities were missed in [SPECIFIC_GAP]. Review the balance between resolving the space issue (the easier layer) and addressing the racial dimension (the necessary layer), and practice facilitating direct communication between conflicting parties.",
+            "mostlyNegative": "This scenario revealed significant gaps in impartial mediation and cultural awareness. While you addressed some aspect of the dispute, most choices leaned toward avoidance of the racial dimension, premature judgment, or surface-level resolution without structural follow-through. Market disputes involving cultural tensions are where community trust is built or broken — review procedural fairness principles, cultural sensitivity protocols, and evidence-based mediation techniques.",
+            "allNegative": "Your approach treated a complex, multi-layered dispute as a simple enforcement matter. The racial dimension was ignored or minimized. Fact-finding was insufficient or absent. The structural root cause — unclear boundaries and absent management — was left unaddressed. Mr. Okonkwo's experience of discrimination was dismissed, and the resolution is unlikely to survive until next Saturday. This requires fundamental reorientation toward impartial mediation, cultural awareness, and evidence-based policing."
+        }
+    },
+    "dialogueEffectivenessReview": {
+        "excellentPhrases": [
+            "I take what you've described seriously — all of it. The space issue and what was said to you.",
+            "No one should be told they don't belong at a market where they hold a valid permit.",
+            "I can see you care deeply about your place here, and fifteen years is a long time. I respect that.",
+            "Can you tell me what was said?",
+            "The system failed both of you. This isn't entirely either person's fault — the lines should have been clear from the start.",
+            "Mr. Okonkwo has been your neighbor at this market for three years. He holds a valid permit, he pays his fees, and he has every right to be here — just as you do. Is there something you'd like to say to him?",
+            "The underlying problem here isn't either of you, it's that the system was unclear. So let's fix it together.",
+            "You have a right to be here, and don't let anyone make you feel otherwise. You handled today with real dignity.",
+            "Mrs. Petrova, it took courage to say what you said earlier. That matters."
+        ],
+        "poorPhrases": [
+            "Let's not make this about anything more than a space dispute. People say things in anger they don't mean.",
+            "Did anyone else hear what she said? Do you have any witnesses?",
+            "I don't need the history. The question is simple: are your crates on his side or not?",
+            "This sounds like a market management issue, not a police matter.",
+            "You need to apologize to him right now.",
+            "If there are any more problems, call the non-emergency line. Have a good day, everyone.",
+            "Everything has been resolved here — just a misunderstanding about stall space.",
+            "Filip, would it be possible to move one of the stalls to a different location?"
+        ],
+        "analysisCriteria": {
+            "impartiality": "Did the phrase demonstrate visible neutrality to all parties and observers, or did it signal siding with one vendor?",
+            "culturalSensitivity": "Did the phrase engage with the racial and cultural dimensions respectfully and directly, or avoid or minimize them?",
+            "evidenceBased": "Did the phrase rely on verified facts — the stall map, physical layout, witness accounts — or on assumptions and first impressions?",
+            "agency": "Did the phrase treat each vendor as a participant in their own solution, or as a subject of authority receiving instructions?",
+            "facilitation": "Did the phrase create space for honest communication between the parties, or substitute institutional handling for human connection?",
+            "sustainability": "Did the phrase contribute to a lasting structural resolution, or to a temporary fix that will expire by next Saturday?"
+        }
+    },
+    "scenarioSpecificLessons": {
+        "1": "Market managers hold institutional knowledge — stall maps, history, management failures — that anchors mediation in facts. Sixty seconds of questioning Filip and observing the scene independently gave you context that neither vendor's account alone could provide.",
+        "2": "When someone reports both a practical problem and a discriminatory experience, addressing only the space issue tells them you chose the comfortable path. Mr. Okonkwo's report of being told to 'go back where he came from' required explicit acknowledgment — not prejudgment of Mrs. Petrova, but recognition that both layers of the complaint were heard.",
+        "3": "Defensive individuals need validation before they can hear difficult truths. Mrs. Petrova's fifteen years of tenure are real and meaningful to her — honoring that before asking about the racial comment created the conditions for an honest admission that confrontation would have prevented.",
+        "4": "Evidence transforms disputes from 'my word against yours' into solvable problems. The stall map, the faded chalk lines, Filip's admission of poor management, and the bystander's corroboration shifted the dynamic from personal blame to systemic failure — and systemic failures have systemic solutions.",
+        "5": "Facilitated voluntary acknowledgment heals; demanded apologies perform. Referencing Mrs. Petrova's own earlier private admission and stating the facts about Mr. Okonkwo's legitimacy created a bridge she could choose to cross. The imperfect but genuine 'I'm sorry' that followed was worth more than any coerced performance.",
+        "6": "Solutions designed with all affected parties hold longer than solutions imposed from above. Including Mr. Okonkwo, Mrs. Petrova, and Filip in designing the structural fix — redrawn lines, written allocations, dispute procedure — transformed compliance into consent.",
+        "7": "Different people need different closings. Affirming Mr. Okonkwo's right to belong, acknowledging Mrs. Petrova's courage in admitting her words, and holding Filip accountable with a specific consequence — each person received what they needed to carry the resolution forward. The last words of an encounter shape the lasting memory of the entire interaction."
+    },
+    "recommendedTraining": {
+        "based_on_performance": {
+            "perfect": ["Advanced impartial mediation — training others in multi-party commercial dispute resolution", "Cultural competency leadership — building inclusive market and community environments", "Structural problem-solving — designing institutional fixes that outlast individual interventions", "Facilitative dialogue techniques for addressing racial and cultural tensions"],
+            "good": ["Extended mediation skills — facilitating direct communication between conflicting parties", "Cultural awareness deepening — recognizing and addressing nationalistic and discriminatory undertones", "Evidence-based dispute resolution — using physical evidence and institutional records to anchor mediation", "Personalized closure techniques — tailoring endings to each party's specific experience"],
+            "average": ["Core impartial mediation principles — visible fairness, equal listening, transparent evidence sharing", "Cultural sensitivity fundamentals — engaging with racial dimensions rather than avoiding them", "Fact-finding before judgment — the role of stall maps, physical evidence, and third-party accounts", "Structural versus symptomatic resolution — building agreements that last beyond today"],
+            "poor": ["Fundamentals of procedural fairness — voice, transparency, neutrality, respect for all parties", "Cultural awareness and anti-discrimination protocols — recognizing and responding to racial hostility", "Evidence-based policing in commercial disputes — objective investigation before subjective judgment", "Conflict resolution basics — collaborative problem-solving versus enforcement in civil disputes"]
+        }
+    },
+    "finalReportStructure": {
+        "sections": [
+            {"title": "Overall Performance Summary", "content": ["Total score and performance level", "Key strengths across the seven stages", "Critical weaknesses and missed opportunities", "Overall trajectory — did performance improve or deteriorate across the encounter?"]},
+            {"title": "Stage-by-Stage Analysis", "content": ["Choice made at each of the seven stages", "Impact on Mr. Okonkwo, Mrs. Petrova, Filip, and the bystanders", "Alternative approaches and their likely consequences", "Key learning points from each stage"]},
+            {"title": "Impartiality and Fairness Assessment", "content": ["Were both vendors given equal time, attention, and credibility?", "Was evidence presented transparently to all parties?", "Was the solution designed collaboratively or imposed?", "How did bystanders perceive the fairness of the process?"]},
+            {"title": "Cultural Awareness Evaluation", "content": ["Was the 'go back where you came from' comment addressed explicitly?", "Was Mrs. Petrova's nationalistic language engaged with or avoided?", "Was Mr. Okonkwo's right to belong affirmed clearly?", "Were cultural dimensions integrated into the resolution or treated as separate from the 'real' issue?"]},
+            {"title": "Fact-Finding and Evidence Quality", "content": ["Was the stall allocation map examined before forming conclusions?", "Was Filip's role in the management failure investigated and addressed?", "Was bystander corroboration used to verify the pattern?", "Were findings shared transparently with both parties?"]},
+            {"title": "Structural Resolution Quality", "content": ["Does the agreement address root causes — unclear boundaries, outdated map, absent procedures?", "Were all affected parties included in designing the solution?", "Is there accountability — who does what, by when, with what consequence for failure?", "Will this resolution hold next Saturday, or will the same conflict recur?"]},
+            {"title": "Communication Effectiveness", "content": ["Best dialogue moments — phrases that built trust and opened space", "Counterproductive phrases — words that closed doors or damaged trust", "Facilitation quality — was direct communication between parties enabled or substituted?", "Closing statement analysis — personalized and accountable, or generic and performative?"]},
+            {"title": "Professional Development", "content": ["Immediate training needs based on performance gaps", "Long-term skill development priorities", "Recommended resources for impartial mediation and cultural competency", "Real-world application — how this translates to market calls, commercial disputes, and multicultural community policing"]}
+        ]
+    }
+}

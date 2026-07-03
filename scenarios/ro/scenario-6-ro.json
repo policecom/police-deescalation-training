@@ -1,0 +1,433 @@
+{
+    "id": 6,
+    "title": "Disputa la piață — Negociere calmă",
+    "description": "Scenariu avansat care implică o dispută teritorială aprinsă între doi proprietari de tarabe la o piață în aer liber de sâmbătă. Un vânzător de țesături născut în Nigeria și o vânzătoare de legume locală cu experiență se confruntă pe chestiuni de spațiu, cu potențiale subtonuri rasiale, o mulțime care ia părți și un administrator de piață care insistă pentru o rezolvare rapidă. Ofițerul trebuie să medieze imparțial, să separe nemulțumirile legitime de prejudecăți și să construiască un acord durabil care să protejeze atât relațiile de afaceri, cât și încrederea comunității.",
+    "icon": "🏪",
+    "difficulty": 3,
+    "duration": "12-18",
+    "instructor": {
+        "name": "Sergent Dvořáková",
+        "avatar": "👮‍♂️",
+        "introduction": "Disputele comerciale în piețele publice se află la una dintre cele mai delicate intersecții din activitatea polițienească: proprietate, mijloace de trai, identitate culturală și sentimentul de apartenență la comunitate. Când doi oameni se ceartă pentru câțiva metri de spațiu de piață, rareori se ceartă doar pentru spațiu — se ceartă pentru legitimitate, respect și cine are dreptul să fie acolo. Când disputa implică un vânzător local cu vechime și un vânzător imigrant mai nou, fiecare cuvânt pe care îl spuneți și fiecare alegere pe care o faceți cântărește mult dincolo de conflictul imediat. Cercetările privind disputele comerciale și de piață arată că ofițerii care investighează faptele — alocările reale, regulile scrise, dispunerea fizică — înainte de a emite orice judecată produc rezultate dramatic mai bune decât cei care se bazează pe cine vorbește mai tare sau cine a sunat primul. Imparțialitatea dumneavoastră trebuie să fie vizibilă, nu doar simțită. Ambele părți trebuie să vadă că strângeți dovezi, ascultați în mod egal și vă bazați medierea pe fapte, nu pe presupuneri. Mulțimea vă va urmări atent, iar ei vor ține minte nu ce ați decis, ci cum ați decis."
+    },
+    "timedChoices": true,
+    "completionBadges": ["scenario-6-complete"],
+    "perfectBadge": "perfect-scenario-6",
+    "finalMessage": {
+        "revelation": "Dl. Okonkwo s-a mutat în Republica Cehă acum doisprezece ani, din Lagos, Nigeria. Și-a construit afacerea cu țesături și accesorii de la zero — a început cu o valiză la un talcioc și a ajuns la o tarabă permanentă la piață. Are autorizație validă de piață și își plătește taxele la timp. A ales această piață pentru că școala fiicei lui e la două străzi distanță. Dna Petrová vinde într-adevăr legume la această piață de cincisprezece ani. Este văduvă și se bazează pe venitul din tarabă pentru a suplimenta o pensie mică. Nu a nutrit niciodată animozitate rasială conștientă — dar limbajul ei despre 'nou-veniți' și 'piața noastră' reflectă presupuneri pe care nu le examinase niciodată. După intervenția dumneavoastră, Filip a revizuit alocările tarabelor și a descoperit că harta nu fusese niciodată actualizată de când dl. Okonkwo se alăturase acum trei ani, creând o ambiguitate reală. A emis alocări noi, clar marcate, în săptămâna următoare. Dl. Okonkwo și dna Petrová au primit spații adiacente dar clar separate. Trei săptămâni mai târziu, un client fidel i-a văzut luând cafeaua împreună înainte de deschiderea pieței. Dna Petrová îl întrebase pe dl. Okonkwo despre țesăturile lui — nepoata ei voia o rochie cu imprimeu african pentru un proiect școlar. Filip i-a spus mai târziu superiorului său că abordarea ofițerului de poliție l-a învățat mai mult despre rezolvarea conflictelor decât orice curs de management pe care îl urmase.",
+        "keyLessons": [
+            "Imparțialitatea trebuie demonstrată, nu doar declarată — cu cine vorbiți primul, cât timp ascultați și unde vă poziționați, totul comunică prejudecată sau corectitudine fiecărui observator",
+            "Subtonurile rasiale și culturale din dispute necesită recunoaștere directă dar respectuoasă — a le ignora nu le face să dispară, ci le lasă să mocnească",
+            "Stabilirea faptelor transformă disputele din 'cuvântul meu contra cuvântului tău' în probleme rezolvabile — verificarea hărții efective a tarabelor a schimbat întreaga dinamică",
+            "Administratorii de piață și alte figuri de autoritate pot avea propriile prejudecăți sau presiuni — nu delegați judecata dumneavoastră persoanei care v-a chemat",
+            "Faptul că ambele părți au nemulțumiri legitime e norma, nu excepția — rolul ofițerului e să le valideze pe amândouă fără a alege o parte",
+            "Dinamica mulțimii în medii comerciale diferă de întâlnirile stradale — trecătorii sunt adesea clienți fideli cu relații cu ambele părți, iar percepția lor influențează dacă rezolvarea va rezista",
+            "O rezolvare sustenabilă necesită urmărire structurală — dacă sistemul de bază (alocări neclare) nu e reparat, același conflict va reapărea indiferent cât de bine mediați astăzi"
+        ]
+    },
+    "stages": [
+        {
+            "id": 1,
+            "title": "Sosirea la piață",
+            "sceneUpdate": {
+                "emoji": "🏪",
+                "title": "Piața în aer liber — Sâmbătă dimineața",
+                "desc": "O piață în aer liber aglomerată pe o piațetă pietonală largă. Rânduri de tarabe vând de toate, de la legume și produse de patiserie la îmbrăcăminte și articole de uz casnic. Lângă centru, două tarabe sunt aproape lipite — un expozitor colorat de țesături și un stand de legume. O femeie în vârstă și un bărbat înalt într-o cămașă cu model se ceartă cu voce tare. Un tânăr într-o vestă cu sigla pieței se grăbește spre dumneavoastră. Vreo doisprezece cumpărători s-au oprit să privească."
+            },
+            "npcDialogue": [
+                {
+                    "character": "dispatcher",
+                    "text": "Unitate răspunde la un apel de deranj la piața în aer liber Náměstí Míru. Administratorul pieței raportează doi proprietari de tarabe într-o altercație verbală pe tema spațiului de tarabă. Nu s-a raportat violență fizică, dar cearta se intensifică și atrage o mulțime. Administratorul pieței e Filip Horák — vă va întâlni la intrare."
+                },
+                {
+                    "character": "filip",
+                    "text": "(mergând repede spre dumneavoastră, vizibil stresat) Domnule agent, mulțumesc că ați venit. Sunt ăia doi din nou — dl. Okonkwo, vinde țesături, și dna Petrová, e aici de când lumea cu legumele ei. Se ceartă de luni de zile pe chestiuni de spațiu, dar azi a explodat. El spune că ea și-a mutat lăzile pe zona lui. Ea spune că el își întinde expozitorul prea mult. Am încercat să-i calmez dar nu mă ascultă. Am nevoie să se rezolve — am patruzeci de vânzători aici și clienții pleacă."
+                }
+            ],
+            "prompt": "Filip vrea o rezolvare rapidă și v-a dat versiunea lui. Cum începeți?",
+            "options": [
+                {
+                    "text": "Îi mulțumiți lui Filip pentru apel cu o înclinare scurtă a capului, apoi pășiți hotărât spre cei doi vânzători care se ceartă fără a-i pune nicio altă întrebare. Vă poziționați ferm între cele două tarabe, ridicați o mână într-un gest clar de oprire și le spuneți amândurora că strigătele încetează imediat — sunteți aici să rezolvați problema, dar niciun cuvânt nu va mai fi rostit la acest volum. Încrucișați brațele și așteptați tăcerea înainte de a spune altceva.",
+                    "feedback": "De ce: A cere tăcere ambelor părți fără niciun context sau raport vă face o figură de autoritate care impune ordinea, nu un mediator care caută rezolvare. Nu știți cine a escaladat conflictul, care e problema de fond sau ce are nevoie fiecare parte. A începe cu un ordin semnalează că cea mai zgomotoasă problemă primește cel mai rapid răspuns polițienesc. | CONSECINȚE: Ambii vânzători tac — dar cu resentiment. Maxilarul dlui Okonkwo se încordează. Dna Petrová mormăie printre dinți. Trecătorii văd un polițist care reduce la tăcere doi oameni înainte de a înțelege ceva. Cearta e suprimată, nu rezolvată. | Reflecție: Care e diferența între a reduce un conflict la tăcere și a începe să-l rezolvi?",
+                    "type": "negative",
+                    "points": -8
+                },
+                {
+                    "text": "Îl asigurați pe Filip cu o mișcare rapidă din cap — 'Mă ocup eu, dați-mi câteva minute' — apoi mergeți direct spre cei doi vânzători care sunt încă în toiul certei. Vă apropiați suficient de mult încât amândoi să vă audă clar și vă prezentați ca agentul care răspunde la apel. Le cereți amândurora să explice ce s-a întâmplat, făcându-le semn pe rând cu mâna, sperând că aerisirea nemulțumirilor în mod deschis vă va permite să evaluați situația fără a separa pe nimeni.",
+                    "feedback": "De ce: A auzi ambele părți pare corect, dar a aborda ambele părți simultan — cât sunt încă aprinse — le invită să se certe în fața dumneavoastră, nu cu dumneavoastră. Fiecare va încerca să vorbească peste celălalt, iar dumneavoastră deveniți publicul conflictului lor, nu mediatorul. | CONSECINȚE: Dl. Okonkwo începe să explice și dna Petrová îl întrerupe imediat. Vocile se ridică. Stați între doi oameni care concurează pentru atenția dumneavoastră în timp ce mulțimea privește. Dinamica se escaladează în loc să se calmeze. | Reflecție: Când doi oameni sunt într-un conflict activ, de ce îi separați înainte de a-i asculta produce rezultate mai bune decât a-i auzi împreună?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Înainte de a vă apropia de vreun vânzător, rămâneți lângă Filip și îi puneți câteva întrebări concentrate: există o hartă oficială a tarabelor sau un sistem de alocare la care puteți să vă uitați? S-a mai întâmplat asta înainte, sau e un conflict nou? A dat vreuna din părți semne de agresivitate fizică? Ascultați atent răspunsurile, apoi faceți un pas înapoi și petreceți un minut liniștit observând scena de la distanță — dispunerea fizică a tarabelor, limbajul corporal al vânzătorilor și poziționarea mulțimii.",
+                    "feedback": "De ce: Filip este administratorul pieței — are cunoștințe instituționale de care aveți nevoie. Întrebarea despre harta tarabelor dezvăluie dacă există fapte obiective pe care să ancorați disputa. Întrebarea despre istoric vă spune dacă e un incident izolat sau un tipar. Întrebarea despre agresivitate vă ajută să evaluați siguranța. Observarea de la distanță vă permite să vedeți dispunerea fizică, limbajul corporal și dinamica mulțimii fără ca vreuna din părți să performeze pentru dumneavoastră. | CONSECINȚE: Filip vă spune că există o hartă a alocărilor în biroul lui, dar recunoaște că e 'puțin depășită'. Disputa mocnește de luni de zile. Niciuna dintre părți nu a fost fizic agresivă. Observați că lăzile dnei Petrová se extind vizibil dincolo de o linie de cretă estompată și că expoziția dlui Okonkwo e împinsă într-un unghi nefiresc. Vă apropiați cu context. | Reflecție: Cum schimbă șaizeci de secunde de strângere de informații de la o parte terță calitatea întregii intervenții?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă întoarceți spre Filip și îi explicați pe un ton moderat că aceasta pare cu adevărat o chestiune internă de administrare a pieței — alocările tarabelor, marcajele de delimitare și relațiile dintre vânzători intră toate sub autoritatea lui, nu a dumneavoastră. Îi sugerați să stea de vorbă cu ambii vânzători, să consulte documentele de alocare pe care le are și să rezolve el spațierea. Vă oferiți să rămâneți parcați în apropiere în caz că situația devine fizică sau dacă una din părți refuză să coopereze.",
+                    "feedback": "De ce: Deși e adevărat că alocarea tarabelor e în cele din urmă o problemă de management, ați fost dipecerizat pentru că situația a escaladat dincolo de capacitatea managementului de a o controla. A trimite problema înapoi la Filip — care deja v-a spus că nu o poate gestiona — e un refuz de a vă implica. Mulțimea vede poliția sosind și nefăcând nimic. | CONSECINȚE: Filip pare învins. Cearta continuă și devine mai puternică. Un trecător strigă ceva la dl. Okonkwo. Situația se deteriorează pentru că singura figură de autoritate care putea interveni a ales să nu o facă. | Reflecție: Când o situație a escaladat dincolo de managementul normal, care e costul refuzului poliției de a se implica?",
+                    "type": "neutral",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Ascultarea dlui Okonkwo",
+            "sceneUpdate": {
+                "emoji": "🧔",
+                "title": "Relatarea dlui Okonkwo",
+                "desc": "Vă apropiați de dl. Okonkwo separat. Este un bărbat înalt, demn, de vreo 50 de ani, purtând o cămașă nigeriană cu model bogat. Expoziția lui de țesături — imprimeuri ankara vibrante, accesorii cu mărgele, genți lucrate manual — e impresionantă dar vizibil comprimată. Raftul de expunere e împins într-un unghi, iar mai multe articole sunt stivuite unele peste altele în loc să fie desfăcute. Respiră greu, încercând să-și controleze frustrarea."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mr_okonkwo",
+                    "text": "(voce încordată de furie controlată) Domnule agent, sunt la această piață de trei ani. Îmi plătesc taxele, am autorizația, respect fiecare regulă. În fiecare sâmbătă, ajung la șase dimineața și mă instalez în spațiul alocat. Și în fiecare sâmbătă, lăzile ei sunt deja pe partea mea. Le mut politicos, ea le pune la loc. Îl întreb pe Filip, el spune 'rezolvați între voi'. Astăzi am găsit lăzile ei stivuite atât de mult pe spațiul meu încât nu puteam nici măcar să-mi deschid raftul de expunere cum trebuie. Când le-am mutat, a început să țipe la mine. M-a numit... a spus că ar trebui să 'mă duc înapoi de unde am venit' și că 'piața asta e pentru oamenii de-aici.' Am tăcut în legătură cu asta luni de zile, domnule agent. Dar despre asta nu voi tăcea."
+                }
+            ],
+            "prompt": "Dl. Okonkwo a descris un tipar de încălcare a spațiului și un comentariu cu tentă rasială. Cum răspundeți?",
+            "options": [
+                {
+                    "text": "Mențineți un contact vizual constant și vorbiți pe un ton calm dar ferm: 'Dle Okonkwo, vă mulțumesc că mi-ați explicat situația. Iau în serios tot ce ați descris — fiecare aspect. Problema spațiului și ce vi s-a spus. Voi verifica alocările efective ale tarabelor și voi vorbi cu dna Petrová separat. Nimeni nu ar trebui să i se spună că nu are ce căuta la o piață unde deține autorizație validă. Mă voi întoarce la dumneavoastră înainte de a lua vreo decizie.'",
+                    "feedback": "De ce: Acest răspuns face câteva lucruri esențiale. Îi mulțumește pentru că a împărtășit, ceea ce validează costul emoțional al raportării hărțuirii rasiale unui polițist. Recunoaște explicit ambele dimensiuni: problema de spațiu și comentariul rasial — fără a le confunda sau minimiza pe vreuna. A promite să verificați alocările efective semnalează mediere bazată pe fapte. 'Nimeni nu ar trebui să i se spună că nu are ce căuta' abordează dimensiunea rasială direct fără a o prejudeca pe dna Petrová. A promite că vă veți întoarce înainte de decizii demonstrează corectitudine procedurală. | CONSECINȚE: Umerii dlui Okonkwo coboară ușor. Dă din cap. Pentru prima dată, pare că cineva chiar ascultă. Spune liniștit: 'Vă mulțumesc, domnule agent. Asta e tot ce cer — doar corectitudine.' Mulțimea vede un dialog calm și respectuos. | Reflecție: De ce faptul de a numi explicit ambele dimensiuni ale unei plângeri — cea practică și cea discriminatorie — construiește mai multă încredere decât a aborda doar pe cea mai ușoară?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Dați din cap cu empatie și vă schimbați greutatea pe o postură mai relaxată, semnalând că luați în considerare preocupările lui. Apoi spuneți pe un ton calm și echilibrat: 'Înțeleg că e frustrant, dle Okonkwo, și văd cât de mult vă afectează afacerea. Hai să ne concentrăm pe problema spațiului întâi — e ceva concret pe care îl putem măsura și rezolva chiar astăzi. Mă duc să verific harta oficială de alocare cu Filip și apoi vorbesc cu dna Petrová pentru perspectiva ei, înainte de a mă întoarce la dumneavoastră.'",
+                    "feedback": "De ce: A vă concentra pe problema rezolvabilă pare practic, dar evită în mod vizibil comentariul 'du-te înapoi de unde ai venit'. Dl. Okonkwo tocmai v-a spus ceva care a necesitat curaj. A trece peste asta îi spune că dimensiunea rasială nu contează pentru dumneavoastră — sau mai rău, că sunteți de acord că nu e importantă. El a menționat ambele probleme; dumneavoastră ați ales-o pe cea confortabilă. | CONSECINȚE: Dl. Okonkwo observă ce nu ați spus. Expresia i se întunecă. Cooperează, dar încrederea care se construia se evaporă. Se gândește: 'Nici poliția nu-i pasă de ce a spus ea.' | Reflecție: Când cineva raportează atât o problemă practică, cât și o experiență discriminatorie, ce comunică faptul că abordați doar una?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Scoateți carnetul de notițe din buzunar, deschideți la o pagină albă și apăsați pe stilou cu un gest profesional. Apoi întrebați pe un ton oficial, de anchetă: 'Dle Okonkwo, trebuie să vă întreb — a mai auzit cineva ce v-a spus ea? Erau martori în apropiere care ar putea confirma comentariul? Dacă urmează să abordăm formal acea remarcă, am nevoie de mai mult decât o singură relatare. Puteți să-mi arătați pe cineva din mulțime care a fost destul de aproape să audă clar?'",
+                    "feedback": "De ce: A cere imediat martori când cineva raportează o declarație cu tentă rasială pare un interogatoriu. Semnalează că vă îndoiți de el și că cuvântul lui singur nu e suficient. Deși dovezile contează, primul răspuns la cineva care împărtășește o experiență dureroasă ar trebui să fie recunoaștere, nu o provocare probatorie. | CONSECINȚE: Dl. Okonkwo se uită la dumneavoastră neîncrezător. 'Vreți martori? Jumătate de piață a auzit-o!' Vocea i se ridică. Încrederea se prăbușește — el se simte cel investigat. Trecătorii aud schimbarea de ton și devin mai atenți. | Reflecție: Care e diferența între a lua o declarație în serios și a cere dovezi ca prim răspuns?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Ridicați o mână într-un gest calm de temperare și clătinați ușor din cap, de parcă ați pune deoparte subiectul. Apoi spuneți pe un ton echilibrat, faptic: 'Dle Okonkwo, vă aud, dar hai să nu facem din asta mai mult decât o dispută de spațiu. Oamenii spun tot felul de lucruri în focul momentului pe care nu le gândesc cu adevărat — se întâmplă la fiecare piață. Hai să ne concentrăm pe a vă recupera spațiul care vi se cuvine, să vă aranjați expoziția și să revenim la o sâmbătă normală de lucru.'",
+                    "feedback": "De ce: A respinge un 'du-te înapoi de unde ai venit' ca ceva 'spus din furie' normalizează ostilitatea rasială. Îi spune dlui Okonkwo că experiența lui de rasism e o reacție exagerată. Spune fiecărui trecător care a auzit comentariul că poliția nu-l consideră semnificativ. 'Să nu facem din asta mai mult' este o directivă de a-i minimiza experiența. | CONSECINȚE: Dl. Okonkwo se uită fix la dumneavoastră. Căldura dispare complet de pe fața lui. Spune liniștit: 'Înțeleg. Deci așa stau lucrurile.' Se retrage din cooperare. Un trecător care a auzit dă din cap dezaprobator. Ați pierdut încrederea acestui om — și posibil a mulțimii. | Reflecție: Când minimizați experiența cuiva de discriminare, ce mesaj transmite asta despre a cui demnitate o protejează poliția?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Ascultarea dnei Petrová",
+            "sceneUpdate": {
+                "emoji": "👩‍🌾",
+                "title": "Perspectiva dnei Petrová",
+                "desc": "Vă apropiați de dna Petrová la taraba ei de legume. Este o femeie robustă, de vreo 60 de ani, purtând un șorț cu flori, înconjurată de cutii aranjate cu grijă de legume de sezon. Fața îi e roșie de indignare. Lăzile ei se extind vizibil dincolo de un marcaj de pe sol. Vă privește venind cu brațele încrucișate și o expresie sfidătoare."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_petrova",
+                    "text": "(imediat, înainte să vorbiți) Sunt la piața asta de cincisprezece ani! Cincisprezece ani, domnule agent! Eram aici înainte să paveze piațeta asta. Și acum omul ăsta — noul-venit ăsta — vine acum trei ani și deodată eu sunt problema? Am avut mereu spațiul ăsta. Lăzile mele au fost mereu aici. El își pune raftul ăla mare și materialele alea zgomotoase și ocupă tot mai mult loc în fiecare săptămână. Și apoi are tupelul să-mi mute lăzile — proprietatea mea! — fără să întrebe! N-am făcut nimic greșit. Sunt o femeie cehă care vinde legume cehești într-o piață cehească și nu ar trebui să mă justific."
+                }
+            ],
+            "prompt": "Dna Petrová e defensivă, iar limbajul ei poartă subtonuri naționliste. Cum interacționați cu ea?",
+            "options": [
+                {
+                    "text": "Pășiți hotărât spre taraba ei, vă fixați picioarele în pământ și o confruntați direct înainte să-și poată termina tirada. Mențineți o expresie neutră dar fermă și vorbiți pe un ton oficial: 'Dna Petrová, înainte de a discuta orice altceva, trebuie să abordez ceva. Dl. Okonkwo mi-a spus că în timpul certei i-ați zis să se ducă înapoi de unde a venit. E o declarație foarte serioasă. Am nevoie să-mi spuneți direct — asta i-ați zis?'",
+                    "feedback": "De ce: Deși comentariul rasial trebuie abordat, a începe cu o acuzație directă înainte de a construi orice raport o pune pe dna Petrová la banca acuzaților imediat. Va nega sau va deveni defensivă, iar conversația se va concentra pe comentariu în loc de conflictul de bază. Confruntarea înainte de conectare produce rar recunoaștere sinceră. | CONSECINȚE: Fața dnei Petrová se face roșie. 'Îmi răsucește cuvintele! N-am — ei bine, poate am spus ceva, dar el m-a provocat! Mi-a mutat proprietatea!' Acum e complet în modul defensiv. Fiecare întrebare ulterioară va lovi un zid. | Reflecție: Când trebuie să abordați o declarație serioasă, de ce contează ordinea — raport înainte de confruntare versus confruntare directă?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "O lăsați să termine fără a o întrerupe, ascultând cu răbdare fiecare cuvânt. Apoi vorbiți pe un ton ferm dar respectuos: 'Dna Petrová, văd că vă pasă profund de locul dumneavoastră aici, iar cincisprezece ani e mult timp — respect asta. Vom examina împreună harta efectivă a tarabelor ca să clarificăm situația spațiului. Dar trebuie să vă întreb și altceva. Dl. Okonkwo a spus că în timpul certei s-au rostit lucruri care au depășit disputa de spațiu. Puteți să-mi spuneți ce s-a spus?'",
+                    "feedback": "De ce: Această abordare validează mai întâi vechimea și investiția emoțională a dnei Petrová — trebuie să se simtă ascultată înainte de a putea asculta. Menționarea hărții tarabelor semnalează obiectivitate. Apoi trecerea la 's-au spus lucruri' în loc de 'ați spus lucruri rasiste' îi dă spațiu să reflecteze în loc să se apere. A întreba 'ce s-a spus' în loc de 'ați spus X' invită versiunea ei în loc să ceară o confesiune. Dacă minimizează, aveți loc pentru întrebări suplimentare. | CONSECINȚE: Dna Petrová face o pauză. Se uită în jos. 'Am... poate am spus ceva ce nu ar fi trebuit. Eram furioasă. El mi-a apucat lăzile și eu pur și simplu — n-am vrut să zic asta. Nu sunt rasistă, domnule agent. Eram doar furioasă.' Aceasta e o deschidere — nu o scuză, dar o recunoaștere pe care puteți construi. | Reflecție: Cum poate crearea unui spațiu în care cineva să-și recunoască propriile cuvinte produce răspunsuri mai sincere decât a cere o confesiune?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Dați din cap cu răbdare pe măsură ce vorbește, lăsând limbajul corporal să-i arate că o luați în serios. Când termină, adoptați un ton cald și liniștitor: 'Înțeleg, dna Petrová — cincisprezece ani e într-adevăr mult timp, și e clar că această piață înseamnă enorm pentru dumneavoastră. Ce am de gând să fac chiar acum e să mă duc cu Filip la harta oficială a tarabelor ca să avem măsurătorile reale sub ochi. Apoi rezolvăm totul cum trebuie, pe baza documentelor.'",
+                    "feedback": "De ce: Ați validat-o complet fără a aborda limbajul discriminatoriu. Până când vă întoarceți cu harta, dimensiunea rasială a fost abandonată în tăcere. Dna Petrová conchide că comentariul ei a fost acceptabil. Dl. Okonkwo conchide că nici n-ați întrebat despre el. Ați ales calea ușoară în detrimentul conversației dificile dar necesare. | CONSECINȚE: Dna Petrová se simte îndreptățită. Dar când dl. Okonkwo află mai târziu că nici n-ați ridicat problema comentariului, încrederea lui în proces se prăbușește complet. Disputa de spațiu poate fi rezolvată, dar rana mai profundă mocnește. | Reflecție: Care e costul evitării unei conversații dificile pentru că cea ușoară e mai confortabilă?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "O opriți la jumătatea frazei cu o palmă ridicată și un ton tăios, fără menajamente: 'Dna Petrová, apreciez contextul, dar nu am nevoie de cincisprezece ani de istorie chiar acum. Întrebarea de aici e simplă și directă: lăzile dumneavoastră de legume sunt poziționate pe partea lui de delimitare, sau nu? Pentru că, din ce pot vedea de aici stând în picioare — și am o perspectivă destul de clară asupra acelei linii de cretă — sunt clar dincolo de ea.'",
+                    "feedback": "De ce: A tăia pe cineva la jumătatea explicației și a lua imediat partea dovezilor observabile e disprețuitor și prematur. Nu ați verificat încă alocarea. 'Nu am nevoie de istorie' îi spune că cincisprezece ani de context sunt irelevanți. Chiar dacă lăzile sunt peste linie, experiența ei legată de dispută contează pentru calitatea rezolvării. Oamenii respectă rezultatele când simt că procesul a fost corect — nu când se simt reduși la tăcere. | CONSECINȚE: Dna Petrová izbucnește: 'Sunteți deja de partea lui! Nici n-ați văzut harta! Exact asta vreau să spun — toată lumea ia partea nou-venitului acum!' Mulțimea aude izbucnirea ei. V-ați făcut un dușman din cea de-a doua parte în mai puțin de treizeci de secunde. | Reflecție: Ce se întâmplă cu medierea când una din părți simte că ați decis deja împotriva ei înainte de a-i auzi relatarea completă?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Evaluarea dovezilor",
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Verificarea hărții tarabelor",
+                "desc": "I-ați cerut lui Filip harta de alocare a tarabelor. El scoate o foaie laminată din biroul lui — e clar veche de câțiva ani, cu amendamente desenate de mână și notițe adezive. O comparați cu dispunerea reală. Harta arată taraba dlui Okonkwo ca un dreptunghi care ar trebui să se extindă pe 3 metri lățime. Taraba dnei Petrová are aceeași lățime alocată adiacent. Pe sol, liniile de cretă estompate sunt abia vizibile. Lăzile dnei Petrová se extind cu aproximativ 40 de centimetri dincolo de linie, în spațiul alocat dlui Okonkwo, comprimându-i expoziția."
+            },
+            "npcDialogue": [
+                {
+                    "character": "filip",
+                    "text": "(uitându-se la hartă, rușinat) Să fiu sincer, domnule agent — nu am retras aceste marcaje de peste un an. Și când dl. Okonkwo s-a alăturat, l-am... strecurat pur și simplu. N-am măsurat cum trebuie. Știu că liniile sunt estompate. Am tot vrut să repar asta, dar sâmbetele sunt atât de haotice..."
+                },
+                {
+                    "character": "bystander",
+                    "text": "(un client fidel al pieței, aplecându-se) Domnule agent, dacă vă ajută — fac cumpărăturile aici în fiecare sâmbătă. Dna Petrová s-a extins mereu puțin, chiar și înainte de taraba de țesături. Iar dl. Okonkwo a fost extrem de politicos în legătură cu asta ani de zile. E prima dată când îl văd cu adevărat supărat."
+                }
+            ],
+            "prompt": "Aveți acum dovezi obiective: harta, liniile estompate, recunoașterea lui Filip a managementului deficitar și observația unui trecător. Cum folosiți aceste informații?",
+            "options": [
+                {
+                    "text": "Vă întoarceți la ambii vânzători cu foaia laminată în mână și împărtășiți transparent ce ați descoperit: 'Am verificat harta și marcajele de pe sol. Iată ce văd — dna Petrová, lăzile dumneavoastră sunt cu aproximativ 40 de centimetri peste linia de delimitare, pe partea dlui Okonkwo. Dar marcajele sunt estompate și harta nu a fost actualizată de când dl. Okonkwo a venit. Sistemul v-a dezamăgit pe amândoi — nu e în întregime vina nimănui. Liniile ar fi trebuit să fie clare de la început.'",
+                    "feedback": "De ce: Împărtășirea transparentă a dovezilor cu ambele părți e standardul de aur al corectitudinii procedurale. Numirea încălcării specifice îi dă dnei Petrová un fapt pe care nu-l poate contesta. Dar contextualizarea imediată — liniile erau neclare, sistemul i-a dezamăgit — împiedică transformarea constatării într-un verdict împotriva ei. 'Sistemul v-a dezamăgit pe amândoi' reformulează conflictul de la vina personală la responsabilitatea instituțională, ceea ce deschide spațiul pentru o soluție colaborativă în loc de un rezultat câștigător-perdant. | CONSECINȚE: Dna Petrová se uită în pământ — poate vedea că lăzile sunt peste linie. Dl. Okonkwo dă din cap — a fost validat, dar fără a fi triumfalist. Amândoi se uită la Filip, care se foiește stânjenit. Dinamica s-a schimbat de la 'cine greșește' la 'ce a mers prost.' Aici medierea devine posibilă. | Reflecție: Cum previne prezentarea faptelor alături de contextul sistemic ca o constatare factuală să devină un atac personal?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Mergeți la taraba dnei Petrová cu harta desfăcută în mâini și arătați ferm cu degetul spre linia de delimitare de pe sol, apoi spre marcajul corespunzător de pe foaia de alocare. Le țineți ridicate ca ea să poată vedea clar comparația și spuneți pe un ton faptic: 'Dna Petrová, dovezile de aici sunt clare — lăzile dumneavoastră sunt cu aproximativ 40 de centimetri pe partea alocată dlui Okonkwo. Trebuie să le mutați înapoi în spațiul propriu imediat, ca să putem rezolva situația.'",
+                    "feedback": "De ce: Factual corect, dar livrat ca un verdict. Niciun context despre liniile estompate sau managementul deficitar. Dna Petrová aude: 'Ați greșit, mutați-le.' Nu aude: 'Sistemul a fost neclar.' Această abordare creează un câștigător și un perdant — iar perdanții nu cooperează cu rezolvarea. De asemenea, e acum umilită în fața mulțimii. | CONSECINȚE: Dna Petrová își mută lăzile, roșie la față și furioasă. Le trântește. Dl. Okonkwo privește liniștit dar fără satisfacție — comentariul rasial nu a fost abordat. Problema spațiului e tehnic rezolvată dar relația e distrusă. | Reflecție: Când aveți dovezi care susțin o parte, cum le prezentați fără a transforma medierea într-o judecată?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Îl trageți pe Filip deoparte, la distanță suficientă de ambii vânzători, și îi vorbiți direct dar în șoaptă: 'Filip, e dezordinea dumneavoastră. Liniile de delimitare sunt atât de estompate încât abia se văd, harta e veche de ani de zile și l-ați strecurat pe dl. Okonkwo fără să măsurați vreodată cum trebuie. Trebuie să rezolvați asta astăzi — retrasați liniile cu marcaje clare și permanente, actualizați harta oficială de alocare și începeți să administrați spațierea vânzătorilor. Le spun amândurora că se rezolvă.'",
+                    "feedback": "De ce: Filip are într-adevăr responsabilitate, iar a-l trage la răspundere e important. Dar a face asta în privat și apoi a livra rezultatul ambilor vânzători ca o decizie de sus în jos îi exclude din proces. Nu văd dovezile, nu participă la soluție și nu aud recunoașterea celuilalt. E eficient, dar nu corect. | CONSECINȚE: Filip se grăbește să retragă liniile. Vânzătorilor li se spune să 'aștepte' în timp ce se trasează noile marcaje. Niciunul nu se simte ascultat. Spațiul e tehnic corect, dar niciuna din părți nu înțelege ce s-a întâmplat sau de ce. Dna Petrová se simte pedepsită. Plângerea rasială a dlui Okonkwo rămâne neabordată. | Reflecție: Când o parte terță e responsabilă pentru problema de bază, cum o trageți la răspundere păstrând în același timp vocea părților afectate în proces?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Faceți un pas înapoi și vă adresați ambilor vânzători pe un ton formal, distant: 'Am examinat harta de alocare și marcajele de pe sol, iar discrepanța de delimitare e evidentă și trebuie corectată. Totuși, aceasta rămâne în cele din urmă o chestiune civilă între dumneavoastră doi și administrația pieței. V-aș recomanda insistent să stați amândoi de vorbă cu Filip în cursul zilei de azi și să lucrați împreună pentru a retrasa liniile. Dacă mai apar perturbări sau situația redevine tensionată, nu ezitați să ne sunați pe linia non-urgentă.'",
+                    "feedback": "De ce: A da problema înapoi managementului care a eșuat să o prevină e o non-rezolvare circulară. Filip deja v-a spus că nu poate gestiona asta — de aceea a chemat poliția. A le spune la doi oameni în conflict activ să 'lucreze cu' persoana care a lăsat conflictul să se dezvolte e o pregătire pentru o altă confruntare. Și plecați fără a aborda dimensiunea rasială deloc. | CONSECINȚE: Ambii vânzători se uită la dumneavoastră neîncrezători. Filip pare panicat. Mulțimea murmură. Ați petrecut cincisprezece minute strângând dovezi și apoi ați dat problema înapoi persoanei care a creat-o. Sâmbăta viitoare, poliția va fi chemată din nou — dar cu mai puțină încredere. | Reflecție: Când autoritatea responsabilă a eșuat deja, ce se întâmplă când îi dați problema înapoi fără a oferi structură pentru rezolvare?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Medierea",
+            "sceneUpdate": {
+                "emoji": "🤝",
+                "title": "Aducerea ambelor părți împreună",
+                "desc": "Faptele sunt pe masă. Ambele părți știu că lăzile erau peste linie și că sistemul de management era neclar. Acum vine partea mai grea — a face doi oameni furioși unul pe celălalt să cadă de acord asupra unui drum înainte. I-ați adus împreună într-un punct neutru între tarabele lor. Dna Petrová are brațele încrucișate. Dl. Okonkwo stă drept, urmărind-o atent. Filip stă în preajmă. Mulțimea s-a rărit ușor, dar câțiva clienți fideli încă privesc."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mrs_petrova",
+                    "text": "(liniștit, fără a se uita la dl. Okonkwo) Bine. Lăzile erau peste linie. Le mut."
+                },
+                {
+                    "character": "mr_okonkwo",
+                    "text": "(voce fermă) Lăzile sunt o problemă. Dar ce mi-a spus — că ar trebui să 'mă duc înapoi de unde am venit' — nu e despre lăzi. Am nevoie s-o aud recunoscând asta."
+                }
+            ],
+            "prompt": "Dna Petrová a cedat în privința spațiului. Dl. Okonkwo ridică acum comentariul rasial direct. Cum facilitați acest moment?",
+            "options": [
+                {
+                    "text": "Faceți un gest larg spre linia de delimitare curățată și vă adresați ambilor vânzători pe un ton optimist, de parcă totul s-ar încheia: 'Cred că am făcut progrese reale pe chestiunea spațiului și mă bucur că am ajuns aici. Dle Okonkwo, înțeleg că acel comentariu v-a rănit profund — dar dna Petrová a fost de acord să-și mute lăzile înapoi și să respecte delimitarea pe viitor. Cel mai bun lucru pentru amândoi acum e să vă concentrați pe soluția practică și să mergeți mai departe. A ne fixa pe cuvinte rostite din furie nu vă ajută.'",
+                    "feedback": "De ce: Asta pune semnul egal între rezolvarea problemei de spațiu și rezolvarea prejudiciului rasial. Nu sunt același lucru. Dl. Okonkwo a spus explicit că acel comentariu e o problemă separată. A-i spune să 'mergem mai departe' și să nu 'se fixeze pe cuvinte spuse din furie' îi minimizează experiența și prioritizează confortul dumneavoastră peste demnitatea lui. Îi cereți persoanei rănite să absoarbă costul de dragul unei rezolvări ordonate. | CONSECINȚE: Dl. Okonkwo se uită la dumneavoastră cu o dezamăgire liniștită. Dă din cap rigid și nu mai spune nimic. Problema spațiului e rezolvată, dar el pleacă de la piață în acea zi știind că un polițist a auzit despre un comentariu rasist și a ales să-l bage sub preș. Nu vă mai sună la poliție. | Reflecție: Când rezolvarea problemei practice e mai ușoară decât abordarea prejudiciului uman, ce se întâmplă când alegeți doar rezolvarea ușoară?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă întoarceți spre dna Petrová cu o expresie calmă dar serioasă, lăsând o scurtă pauză înainte de a vorbi: 'Dna Petrová, dl. Okonkwo ridică ceva important. Mai devreme, când am vorbit între noi, mi-ați menționat că în focul momentului s-au spus lucruri pe care ați fi dorit să nu le fi rostit. Dl. Okonkwo e vecinul dumneavoastră la această piață de trei ani. Are autorizație validă, își plătește taxele și are tot dreptul să fie aici — la fel ca dumneavoastră. Doriți să-i spuneți ceva direct, acum?'",
+                    "feedback": "De ce: Aceasta e facilitare magistrală. Nu-i puneți cuvinte în gură și nu cereți o scuză — creați spațiul pentru una. Referirea la recunoașterea ei anterioară în privat ('s-au spus lucruri pe care ați fi dorit să nu le fi spus') îi amintește propriile cuvinte fără a le expune aspru. Enunțarea faptelor despre legitimitatea dlui Okonkwo elimină orice ambiguitate privind dreptul lui de a fi acolo. 'Doriți să-i spuneți ceva' îi dă posibilitatea de a repara prin propria voință. | CONSECINȚE: Dna Petrová e tăcută pentru o clipă lungă. Apoi se uită la dl. Okonkwo — nu complet, dar suficient. 'N-ar fi trebuit să spun asta. Eram furioasă din cauza lăzilor și am spus ceva... urât. Aveți tot dreptul să fiți aici. Îmi pare rău.' Dl. Okonkwo dă din cap încet. Nu e perfect, dar e sincer. Câțiva trecători răsuflă ușurați. | Reflecție: Cum produce crearea spațiului pentru o recunoaștere voluntară o reconciliere mai autentică decât cererea unei scuze?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Vă întoarceți drept spre dna Petrová, vă fixați maxilarul și i vă adresați pe un ton ferm, oficial, care se aude clar atât de ambii vânzători cât și de trecătorii din apropiere: 'Dna Petrová, ce i-ați spus dlui Okonkwo în timpul acestei dispute a fost inacceptabil. A-i spune unei persoane să se ducă înapoi de unde a venit e discriminatoriu — punct. El e vânzător cu autorizație la această piață, exact ca dumneavoastră. Am nevoie să vă cereți scuze acum, aici, ca să putem trece peste asta și să începem repararea situației.'",
+                    "feedback": "De ce: Evaluarea e corectă — declarația a fost discriminatorie. Dar a cere o scuză 'chiar acum' în fața unei mulțimi produce o performanță forțată, nu o recunoaștere sinceră. Dna Petrová fie va refuza (escaladare), fie va livra o scuză goală, plină de resentiment, pe care dl. Okonkwo o va vedea imediat ca fiind nesinceră. Scuzele forțate generează mai mult resentiment decât rezolvă. | CONSECINȚE: Fața dnei Petrová se contorsionează. 'Bine. Îmi pare rău. Sunteți mulțumit acum?' Dl. Okonkwo dă din cap cu tristețe — aude lipsa de sinceritate. Mulțimea privește o femeie în vârstă umilită public. Nimeni nu se simte bine în legătură cu asta. | Reflecție: Care e diferența dintre o scuză cerută și una facilitată — și care chiar vindecă?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Faceți un gest scurt de liniștire în direcția dlui Okonkwo și redirecționați conversația pe un ton calm, profesional: 'Dle Okonkwo, vă înțeleg perfect sentimentele și vreau să știți că am vorbit deja cu dna Petrová în particular despre ce s-a spus în timpul certei. Lăsați-mă pe mine să mă ocup de aspectul interpersonal prin canalele potrivite, separat — chiar acum, cel mai productiv lucru pe care îl putem face e să fixăm acest acord de spațiu cu marcaje clare, astfel încât amândoi să vă puteți întoarce la afacerile de sâmbătă.'",
+                    "feedback": "De ce: Îi refuzați dlui Okonkwo recunoașterea pe care a cerut-o explicit. El nu a cerut să vă ocupați dumneavoastră — a spus 'am nevoie s-o aud PE EA recunoscând'. A-i direcționa nevoia prin dumneavoastră ca intermediar elimină momentul uman care ar fi putut începe repararea. 'Lăsați-mă pe mine să mă ocup separat' înseamnă că nu se va întâmpla niciodată. Ambele părți știu asta. | CONSECINȚE: Dl. Okonkwo cooperează mecanic la acordul de spațiu. Dna Petrová e ușurată — nu a trebuit niciodată să se confrunte cu ce a spus. Problema spațiului e rezolvată, dar relația rămâne ruptă. Sâmbăta viitoare, vor sta alături într-o tăcere rece și amară. | Reflecție: Când o persoană rănită cere recunoaștere directă, ce se întâmplă când substituiți gestionarea instituțională pentru conexiunea umană?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Forjarea acordului",
+            "sceneUpdate": {
+                "emoji": "📐",
+                "title": "Soluții practice",
+                "desc": "Vârful emoțional a trecut. Dna Petrová și-a recunoscut comentariul — imperfect, dar sincer. Problema spațiului rămâne: linii estompate, o hartă depășită și niciun sistem clar pentru a preveni recurența. Filip stă în preajmă, arătând de parcă ar vrea să dispară. Ambii vânzători sunt calmi dar obosiți. Trecătorii rămași urmăresc să vadă dacă rezolvarea va ține cu adevărat."
+            },
+            "npcDialogue": [
+                {
+                    "character": "filip",
+                    "text": "(liniștit) Ar fi trebuit să mă ocup de asta cu luni în urmă. Nu știam că a ajuns atât de rău. Ce sugerați, domnule agent?"
+                }
+            ],
+            "prompt": "Filip se uită la dumneavoastră pentru o soluție structurală. Cum stabiliți un acord care va rezista dincolo de ziua de azi?",
+            "options": [
+                {
+                    "text": "Vă întoarceți spre Filip și îi prezentați un plan clar, pas cu pas, în fața ambilor vânzători: 'Filip, iată ce trebuie să se întâmple. Întâi, retrasați liniile de delimitare ale tarabelor astăzi cu marcaje clare, vizibile, care să nu se estompeze într-o săptămână. Doi, dați-le atât dlui Okonkwo cât și dnei Petrová o copie scrisă a alocării lor cu măsurători exacte în centimetri. Trei, afișați o procedură clară de rezolvare a disputelor la intrarea pieței, ca vânzătorii să știe pe cine să contacteze înainte ca lucrurile să escaladeze din nou. Vă puteți angaja să faceți toate trei astăzi?'",
+                    "feedback": "De ce: Structural, specific și acționabil. Abordați cauza fundamentală — delimitări neclare și lipsa de proces — nu doar simptomul. A-i cere lui Filip să se angajeze 'azi' creează urgență și responsabilitate. Alocările scrise dau ambelor părți un document de referință, eliminând ambiguitatea viitoare. O procedură de dispute înseamnă că Filip nu mai poate spune 'rezolvați între voi' data viitoare. Dar îl direcționați pe Filip fără a consulta vânzătorii. | CONSECINȚE: Filip e de acord imediat — e nerăbdător să repare. Planul e bun, dar niciunul dintre vânzători nu a fost întrebat. Dna Petrová se întreabă dacă noile linii o vor strânge. Dl. Okonkwo se întreabă dacă alocarea scrisă va corespunde cu ce i s-a promis. Structura e corectă, dar acceptarea e incompletă. | Reflecție: Când creați soluții instituționale, care e riscul de a le proiecta fără contribuția celor afectați?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă adresați tuturor trei deodată, privind pe rând fiecare persoană: 'Filip, dna Petrová, dle Okonkwo — problema de bază nu e niciunul dintre dumneavoastră, ci faptul că sistemul a fost neclar. Hai să-l repărăm împreună. Filip, puteți retrasa liniile astăzi cu măsurători corecte, iar amândoi să fiți prezenți la remăsurare, ca fiecare să vadă și să fie de acord cu noile delimitări? Aș sugera și alocări scrise pentru fiecare vânzător, plus o procedură afișată pentru rezolvarea disputelor înainte de a ajunge la acest punct. Vi se pare corect tuturor?'",
+                    "feedback": "De ce: Aceasta e rezolvare colaborativă de probleme la cel mai înalt nivel. Includerea tuturor celor trei părți asigură acceptarea. 'Problema de bază nu e niciunul dintre dumneavoastră' depersonalizează vina. Prezența ambilor vânzători la remăsurare face ca noile linii să fie acordul lor, nu o impunere. A întreba 'vi se pare corect' dă fiecărei persoane demnitatea consimțământului. Alocările scrise și o procedură de dispute abordează eșecul sistemic. | CONSECINȚE: Dl. Okonkwo dă din cap: 'E corect. Vreau să văd măsurăturile.' Dna Petrová: 'Bine — atât timp cât spațiul meu e la fel ca al tuturor.' Filip: 'O fac în pauza de prânz — mulțimea va fi mai rară.' Toți trei au fost de acord. Rezolvarea are permanență structurală pentru că a fost co-creată. | Reflecție: De ce includerea tuturor părților afectate în proiectarea soluției o face mai probabil să reziste decât impunerea aceleiași soluții de sus?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Aruncați o privire între cei doi vânzători și Filip, apoi vorbiți pe un ton direct, de parcă ați vrea să terminați cât mai repede: 'Priviți, liniile erau neclare și asta e pe seama lui Filip — el ar fi trebuit să le întrețină. Dar de acum înainte, amândoi trebuie să rămâneți în spațiile alocate, fără excepții. Dle Okonkwo, dacă lăzile trec iar de linie, sunați-l pe Filip mai întâi, nu poliția — dați-i administrației o șansă să rezolve. Și, dna Petrová, țineți-vă tot ce aveți pe partea dumneavoastră de delimitare. E bun simț, și n-ar trebui să mă mai întorc pentru asta.'",
+                    "feedback": "De ce: 'Bun simț' e disprețuitor — dacă ar fi bun simț, nu ar fi aici. A-l învinovăți pe Filip public îi subminează autoritatea de administrator de piață, de care are nevoie pentru a aplica orice reguli viitoare. A-i spune dlui Okonkwo să 'sune mai întâi pe Filip' îl trimite înapoi la persoana care l-a dezamăgit luni de zile. Nicio reparație structurală nu înseamnă aceleași linii estompate și aceeași ambiguitate sâmbăta viitoare. | CONSECINȚE: Filip tresare la acuzația publică. Dna Petrová se supără de condescendență. Dl. Okonkwo știe că nu se va schimba nimic de fapt. Sâmbăta viitoare, liniile sunt încă estompate și nimeni nu știe exact unde sunt. Conflictul se reia în două săptămâni. | Reflecție: Care e diferența dintre a le spune oamenilor ce să facă și a le da o structură care face ușor să facă ceea ce trebuie?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Vă întoarceți spre Filip cu o expresie gânditoare și sugerați un aranjament alternativ: 'Filip, mă întreb — ar fi posibil să relocați una dintre aceste două tarabe într-o cu totul altă secțiune a pieței? Dacă nu ar mai fi una lângă alta, nu ar mai exista o delimitare comună pentru care să se certe și o dispută ca aceasta pur și simplu nu s-ar mai putea repeta. Aveți patruzeci de tarabe aici — cu siguranță se găsește un loc liber undeva care ar funcționa pentru una dintre părți și le-ar oferi amândurora puțin spațiu de respirație.'",
+                    "feedback": "De ce: Separarea ar părea logică, dar evită problema reală și ridică o întrebare critică: cine e mutat? Mutarea dlui Okonkwo — persoana care a suferit încălcarea spațiului și atacul rasial — transmite un mesaj devastator: victima e relocată. Mutarea dnei Petrová o pedepsește pentru dispută și o separă de cincisprezece ani de clienți fideli. Separarea e ce faceți când rezolvarea eșuează, nu un substitut pentru a o încerca. | CONSECINȚE: Ambii vânzători reacționează negativ. Dl. Okonkwo: 'Nu ar trebui să mă mut eu pentru că altcineva mi-a încălcat spațiul.' Dna Petrová: 'Sunt aici de cincisprezece ani — nu mă duc nicăieri!' Sugestia îi unește — împotriva dumneavoastră. | Reflecție: Când e separarea fizică o rezolvare și când e o evitare a problemei reale?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Încheierea și urmărirea",
+            "sceneUpdate": {
+                "emoji": "☀️",
+                "title": "Restabilirea dimineții la piață",
+                "desc": "Acordul e stabilit. Filip va retrasa liniile în pauza de prânz cu ambii vânzători prezenți. Vor urma alocări scrise. Problema imediată de spațiu a fost recunoscută și va fi corectată. Dna Petrová și-a mutat lăzile înapoi. Dl. Okonkwo își rearanjează expoziția cum trebuie. Mulțimea s-a întors în mare parte la cumpărături. Tensiunea s-a estompat, dar dimineața și-a pus amprenta pe ambii vânzători. Dna Petrová e tăcută, concentrată pe legumele ei. Dl. Okonkwo își îndreaptă țesăturile dar face o pauză când vă vede apropiindu-vă pentru un ultim cuvânt."
+            },
+            "npcDialogue": [
+                {
+                    "character": "mr_okonkwo",
+                    "text": "(liniștit, aranjând o bucată de țesătură ankara) Domnule agent... mulțumesc. Nu doar pentru spațiu. Pentru că ați ascultat. În trei ani, nu m-am simțit niciodată ca și cum cineva de-aici mi-ar fi luat partea — sau măcar... m-ar fi tratat ca egal. Am venit în țara asta să construiesc ceva bun. Nu vreau să mă cert. Vreau doar să muncesc."
+                },
+                {
+                    "character": "mrs_petrova",
+                    "text": "(de la taraba ei, fără a se uita încoace, dar audibil) ...Țesăturile lui sunt chiar frumoase. Nepoatei mele i-ar plăcea aia albastră."
+                }
+            ],
+            "prompt": "Criza e rezolvată, dar felul în care încheiați această întâlnire va determina dacă e o reparație de o zi sau o schimbare durabilă. Cum încheiați?",
+            "options": [
+                {
+                    "text": "Vă apropiați de fiecare persoană individual pentru o încheiere scurtă și privată. Îi zâmbiți dlui Okonkwo: 'Aveți dreptul să fiți aici — nu lăsați pe nimeni să vă facă să simțiți altfel. Ați gestionat ziua de azi cu demnitate.' Treceți pe la dna Petrová: 'A fost nevoie de curaj să spuneți ce ați spus mai devreme. Asta contează.' Îl luați pe Filip deoparte: 'Trasați acele linii azi. Dacă problema revine, următoarea conversație va fi cu superiorul dumneavoastră.' Vă închideți carnetul și faceți un tur scurt prin piață înainte de a pleca.",
+                    "feedback": "De ce: Această încheiere face totul corect. Îi afirmă dlui Okonkwo apartenența — nu ca un favor, ci ca un fapt. Recunoaște momentul dificil de onestitate al dnei Petrová fără a lăuda excesiv sau a rușina. Îl trage pe Filip la răspundere cu o consecință specifică și proporțională. Turul pieței înainte de plecare semnalează că faceți parte din această comunitate, nu sunteți doar în trecere. Fiecare persoană primește o încheiere privată, personalizată — nimeni nu e pus la spectacol. | CONSECINȚE: Dl. Okonkwo stă puțin mai drept. Dna Petrová dă din cap o dată — v-a auzit și se gândește. Filip scoate un metru înainte să fi plecat. Pe drum prin piață, un trecător dă din cap aprobator: 'Bună treabă, domnule agent.' Rezolvarea va rezista pentru că fiecare persoană implicată are un motiv să o facă să funcționeze. | Reflecție: De ce produce o încheiere personalizată și privată pentru fiecare parte rezultate pe termen lung mai bune decât un rămas-bun colectiv?",
+                    "type": "positive",
+                    "points": 10
+                },
+                {
+                    "text": "Îi adunați pe ambii vânzători la punctul de mijloc dintre tarabe și li vă adresați împreună, pe un ton cald și încurajator: 'Sunteți vecini la această piață — vă vedeți în fiecare sâmbătă, împărtășiți aceiași clienți, iar ce s-a întâmplat astăzi nu trebuie să vă definească relația pe viitor. V-aș încuraja pe amândoi să vă acordați reciproc puțin spațiu de toleranță în săptămânile care vin. S-ar putea să descoperiți că aveți mai multe în comun decât credeți.' Dați din cap spre Filip și vă îndreptați spre ieșirea pieței.",
+                    "feedback": "De ce: Un sentiment cald, dar generic. 'Acordați-vă reciproc spațiu de toleranță' e un sfat, nu o structură. Nu-l trage pe Filip la răspundere pentru punerea în aplicare. Nu afirmă experiența specifică a dlui Okonkwo și nu recunoaște creșterea specifică a dnei Petrová. Ambele părți primesc același mesaj — dar au avut experiențe foarte diferite azi. Și ați plecat fără a confirma că planul structural va fi executat. | CONSECINȚE: Ambii vânzători apreciază sentimentul, dar nu aterizează la fel cum ar face încheierile personalizate. Filip răsuflă ușurat — nicio responsabilitate, niciun termen. Liniile pot fi sau nu retrasate. Întâlnirea a fost bună, dar urmărirea e lăsată pe seama sorții. | Reflecție: Care e diferența între o încheiere plină de speranță și una responsabilă?",
+                    "type": "partially_positive",
+                    "points": 5
+                },
+                {
+                    "text": "Vă închideți carnetul de notițe cu un gest sec, îl strecurați în vestă și vă adresați ambilor vânzători și lui Filip pe un ton profesional dar grăbit, de parcă ați bifat ultimul punct de pe listă: 'Bine, sunt mulțumit că situația s-a rezolvat pentru astăzi. Dacă mai apar probleme cu delimitarea tarabelor sau orice altă neînțelegere între dumneavoastră, sunați pe linia non-urgentă și trimitem pe cineva. Filip, asigurați-vă că acele linii sunt retrasate înainte de sâmbăta viitoare — fără scuze. O zi bună tuturor.' Vă întoarceți pe călcâie și porniți spre mașină.",
+                    "feedback": "De ce: Tranzacțional și impersonal. După o întâlnire care a implicat prejudiciu rasial, vulnerabilitate emoțională și eșec sistemic, a vă lua la revedere cu 'o zi bună' pare că și cum închideți un tichet de serviciu clienți. Nicio recunoaștere a ceea ce a trecut fiecare vânzător. Niciun mecanism de responsabilizare pentru Filip dincolo de 'asigurați-vă'. Nicio căldură, nicio conectare. | CONSECINȚE: Ambii vânzători se simt ca un dosar care tocmai a fost închis. Recunoștința dlui Okonkwo rămâne neremarcată. Recunoașterea dificilă a dnei Petrová trece neobservată. 'Asigurați-vă' al lui Filip nu are forță. Întâlnirea a fost gestionată competent dar s-a încheiat fără umanitate. | Reflecție: Când oamenii au fost vulnerabili în timpul unei întâlniri cu poliția, ce costă o încheiere umană — și ce costă absența ei?",
+                    "type": "neutral",
+                    "points": 2
+                },
+                {
+                    "text": "Înainte de a pleca, vă întoarceți spre grupul de trecători care au urmărit toată scena și ridicați vocea suficient de tare cât să se audă în tot sectorul: 'Stimați clienți, totul s-a rezolvat aici — a fost doar o neînțelegere legată de spațiul tarabelor și marcajele de delimitare. Ambii vânzători rămân exact unde sunt, iar administratorul pieței va avea alocările corect rezolvate până săptămâna viitoare. Nimic de care să vă faceți griji. Susțineți-vă vânzătorii locali și bucurați-vă de restul dimineții de sâmbătă!' Faceți un semn prietenos cu mâna și plecați spre ieșire.",
+                    "feedback": "De ce: A performa rezolvarea pentru mulțime transformă un proces privat, semnificativ, într-o declarație publică. A o numi 'doar o neînțelegere' șterge dimensiunea rasială care a fost centrală în dispută. Dl. Okonkwo aude experiența sa de a fi trimis 'înapoi de unde a venit' descrisă ca 'o neînțelegere legată de spațiu.' Nu asta s-a întâmplat, iar minimizarea ei public anulează progresul făcut în privat. | CONSECINȚE: Mulțimea e liniștită, dar dl. Okonkwo privește în altă parte. Tocmai a auzit un polițist definind public experiența lui ca trivială. Dna Petrová se relaxează — narativul public face să pară că nu s-a întâmplat nimic grav, ceea ce o scutește de creșterea pe care începea s-o facă. | Reflecție: Când o rezolvare a implicat dimensiuni profund personale, ce se întâmplă când o prezentați public ca ceva mai simplu decât a fost?",
+                    "type": "negative",
+                    "points": -8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Debriefing",
+            "autoDialogue": true,
+            "finalScene": true,
+            "sceneUpdate": {
+                "emoji": "📋",
+                "title": "Debriefing de instruire",
+                "desc": "Înapoi la secție. Sergent Dvořáková vă evaluează performanța în scenariul de mediere a disputei de piață."
+            },
+            "npcDialogue": [
+                {
+                    "character": "instructor",
+                    "text": "Disputele de piață testează totul deodată: capacitatea dumneavoastră de a strânge fapte înainte de a vă forma opinii, disponibilitatea de a aborda tensiunile rasiale și culturale în loc de a le ocoli, abilitatea de a media între oameni care ambii cred că au dreptate și capacitatea de a construi soluții structurale care să reziste dincolo de prezența dumneavoastră. Calea ușoară în acest scenariu era să măsurați liniile, să-i spuneți cuiva să-și mute lăzile și să plecați. Calea mai grea — și corectă — era să recunoașteți că această dispută avea straturi: un conflict de spațiu la suprafață, un eșec de management dedesubt și o dimensiune rasială țesută prin toate. Cum ați gestionat fiecare strat și dacă le-ați abordat pe toate sau doar pe cele confortabile a determinat dacă aceasta a fost o reparație de o zi sau o rezolvare durabilă. Haideți să vedem ce ați făcut."
+                }
+            ],
+            "dialogueSequence": [
+                {
+                    "character": "instructor",
+                    "text": "Acest scenariu a testat dacă puteți ține trei probleme în minte simultan: o dispută spațială, un eșec de management și o rană rasială. Majoritatea ofițerilor ar fi abordat lăzile, poate ar fi vorbit cu administratorul pieței și ar fi plecat simțind că au făcut o treabă solidă. Întrebarea e dacă ați abordat și partea cea mai grea."
+                },
+                {
+                    "character": "officer",
+                    "text": "Comentariul rasial a fost partea cu care m-am chinuit cel mai mult. Am vrut să-l abordez, dar nu am vrut nici să transform o dispută de piață în ceva mai mare decât trebuia. Tot oscilam între cât de multă greutate să-i acord."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Acea ezitare e frecventă, și dezvăluie o concepție greșită care merită corectată. Ați spus că nu ați vrut ca acel comentariu rasial să devină o problemă mai mare decât trebuia. Dar iată adevărul: abordarea comentariului rasial nu e o problemă secundară — ESTE problema principală. Pentru că ignorarea lui garantează revenirea conflictului. Puteți retrasa fiecare linie de tarabă din piață, dar dacă dl. Okonkwo simte în continuare că vecina lui îl vede ca pe cineva care nu are ce căuta acolo, lăzile vor reveni pe spațiul lui, tensiunile vor mocni și veți fi chemați din nou în termen de o lună."
+                },
+                {
+                    "character": "instructor",
+                    "text": "Ce a făcut acest scenariu excepțional a fost momentul în care dna Petrová a recunoscut ce a spus — imperfect, ezitant, dar sincer. Asta nu s-a întâmplat pentru că ați cerut-o. S-a întâmplat pentru că ați creat condițiile pentru asta. I-ați validat vechimea, i-ați arătat dovezile fără a o umili și apoi i-ați deschis ușa să treacă singură. Trei săptămâni mai târziu, l-a întrebat pe dl. Okonkwo despre țesăturile lui pentru nepoata ei. Asta înseamnă a aborda problema completă. Acum permiteți-mi să vă spun ce s-a întâmplat după acea sâmbătă."
+                }
+            ]
+        }
+    ],
+    "characters": {
+        "dispatcher": {"name": "Dispecerat", "avatar": "📻"},
+        "mr_okonkwo": {"name": "Dl. Okonkwo (vânzător de țesături, 50 ani)", "avatar": "🧔"},
+        "mrs_petrova": {"name": "Dna Petrová (vânzătoare de legume, 60 ani)", "avatar": "👩‍🌾"},
+        "filip": {"name": "Filip Horák (administrator piață, 30 ani)", "avatar": "📋"},
+        "bystander": {"name": "Client fidel", "avatar": "🛒"},
+        "officer": {"name": "Dumneavoastră (agent)", "avatar": "👮"},
+        "instructor": {"name": "Sergent Dvořáková", "avatar": "👮‍♂️"}
+    },
+    "performanceReviews": {
+        "perfect": {
+            "title": "Mediere imparțială excepțională!",
+            "emoji": "🌟",
+            "feedback": "Ați demonstrat standardul de aur pentru rezolvarea disputelor multi-parte: stabilirea faptelor înainte de judecată, imparțialitate vizibilă, abordare directă dar respectuoasă a dimensiunii rasiale, proiectare colaborativă a soluției cu includerea tuturor părților și încheieri personalizate care au responsabilizat fiecare persoană onorându-i demnitatea. Fiecare trecător care a privit a văzut o activitate polițienească care construiește punți, nu ia părți."
+        },
+        "good": {
+            "title": "Performanță puternică de mediere",
+            "emoji": "✅",
+            "feedback": "Ați gestionat o dispută complexă, cu multiple straturi, cu abilitate, arătând corectitudine și un efort autentic de a înțelege ambele părți. Unele oportunități de a aborda mai direct dimensiunea culturală sau de a construi mai multă responsabilitate structurală au fost ratate, dar abordarea dumneavoastră a fost profesionistă, empatică și orientată spre soluții."
+        },
+        "average": {
+            "title": "Răspuns adecvat",
+            "emoji": "📊",
+            "feedback": "Ați rezolvat disputa imediată de spațiu dar ați lăsat dimensiuni importante neabordate. Fie că a fost vorba de evitarea comentariului rasial, eșecul de a construi urmărire structurală sau neincluderea ambelor părți în proiectarea soluției, întâlnirea a rezolvat problema de azi fără a aborda pe deplin straturile de sub ea. Revizuiți tehnicile de mediere, sensibilitatea culturală și rezolvarea structurală a problemelor."
+        },
+        "poor": {
+            "title": "Necesită îmbunătățiri semnificative",
+            "emoji": "⚠️",
+            "feedback": "Abordarea dumneavoastră fie a luat parte prematur, a respins dimensiunea rasială, nu a reușit să strângă dovezi înainte de a judeca, fie a produs o rezolvare care e puțin probabil să reziste dincolo de ziua de azi. Disputele de piață care implică tensiuni culturale necesită imparțialitate vizibilă, disponibilitate de a aborda adevăruri incomode și soluții care repară sisteme — nu doar simptome. Revizuiți protocoalele de conștientizare culturală, medierea bazată pe dovezi și principiile de corectitudine procedurală."
+        }
+    },
+    "metrics": {
+        "impartialMediation": {
+            "name": "Mediere imparțială",
+            "description": "Demonstrarea corectitudinii vizibile față de toate părțile — ascultare egală, prezentare neutră a dovezilor și proiectare colaborativă a soluțiilor în loc de impunere de verdicte",
+            "icon": "⚖️"
+        },
+        "culturalAwareness": {
+            "name": "Conștientizare culturală",
+            "description": "Recunoașterea și abordarea directă a dimensiunilor rasiale și culturale ale disputei în loc de a le evita sau minimiza",
+            "icon": "🌍"
+        },
+        "factFinding": {
+            "name": "Stabilirea faptelor",
+            "description": "Strângerea de dovezi obiective — hărți ale tarabelor, dispunere fizică, relatări ale martorilor — înainte de a forma concluzii sau de a lua măsuri",
+            "icon": "🔍"
+        },
+        "conflictResolution": {
+            "name": "Rezolvarea conflictelor",
+            "description": "Construirea de acorduri structurale, durabile, care abordează cauzele fundamentale în loc de reparații temporare care suprimă simptomele",
+            "icon": "🔧"
+        },
+        "communityTrust": {
+            "name": "Încrederea comunității",
+            "description": "Consolidarea încrederii comunității în poliție prin calitatea, corectitudinea și umanitatea acestei întâlniri",
+            "icon": "🤝"
+        }
+    }
+}

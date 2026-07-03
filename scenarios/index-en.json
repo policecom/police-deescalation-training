@@ -1,0 +1,630 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "title": "Traffic Stop De-escalation",
+      "description": "Learn to handle a tense traffic stop with an agitated driver",
+      "icon": "🚗",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "traffic-expert": {
+          "minScore": 80
+        },
+        "perfect-traffic": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 4,
+        "CHPS": 3,
+        "CDR": 4,
+        "NPT": 3,
+        "EIC": 5
+      }
+    },
+    {
+      "id": 2,
+      "title": "Hostel Noise Complaint Negotiation",
+      "description": "Learn to negotiate a peaceful resolution during a late-night noise complaint at a busy city hostel",
+      "icon": "🏨",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "negotiation-expert": {
+          "minScore": 75
+        },
+        "perfect-negotiation": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 3,
+        "CHPS": 2,
+        "CDR": 4,
+        "NPT": 5,
+        "EIC": 3
+      }
+    },
+    {
+      "id": 3,
+      "title": "Youth Interaction",
+      "description": "Build trust with teenagers in a community setting",
+      "icon": "👥",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "youth-advocate": {
+          "minScore": 70
+        },
+        "perfect-youth": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 5,
+        "CHPS": 1,
+        "CDR": 3,
+        "NPT": 3,
+        "EIC": 5
+      }
+    },
+    {
+      "id": 4,
+      "title": "Mental Health Crisis",
+      "description": "Assist someone experiencing a mental health crisis with compassion",
+      "icon": "🧠",
+      "difficulty": 5,
+      "duration": "25-30",
+      "badges": {
+        "crisis-specialist": {
+          "minScore": 85
+        },
+        "perfect-crisis": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 3,
+        "CHPS": 4,
+        "CDR": 3,
+        "NPT": 2,
+        "EIC": 5
+      }
+    },
+    {
+      "id": 5,
+      "title": "Noise Complaint",
+      "description": "Handle a neighborhood noise complaint diplomatically",
+      "icon": "🔊",
+      "difficulty": 3,
+      "duration": "12-18",
+      "badges": {
+        "peacekeeper": {
+          "minScore": 70
+        },
+        "perfect-noise": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 2,
+        "CHPS": 3,
+        "CDR": 5,
+        "NPT": 5,
+        "EIC": 3
+      }
+    },
+    {
+      "id": 6,
+      "title": "Market Dispute — Negotiating Calmly",
+      "description": "A disagreement over a parking space at a weekend market has drawn attention. Use clear communication and mild negotiation to resolve the dispute quickly",
+      "icon": "🛒",
+      "difficulty": 3,
+      "duration": "15-20",
+      "badges": {
+        "market-mediator": {
+          "minScore": 70
+        },
+        "perfect-market": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 5,
+        "CHPS": 2,
+        "CDR": 5,
+        "NPT": 4,
+        "EIC": 3
+      }
+    },
+    {
+      "id": 7,
+      "title": "Nightclub Street Fracas",
+      "description": "A heated altercation has spilled from a nightclub onto a busy street. Communicate clearly in a high-pressure environment and prevent escalation",
+      "icon": "🚨",
+      "difficulty": 4,
+      "duration": "18-22",
+      "badges": {
+        "street-specialist": {
+          "minScore": 80
+        },
+        "perfect-street": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 3,
+        "RNDC": 3,
+        "CHPS": 5,
+        "CDR": 4,
+        "NPT": 3,
+        "EIC": 4
+      }
+    },
+    {
+      "id": "domestic-crisis",
+      "title": "Domestic Dispute — Mental Health Crisis and Child Present",
+      "description": "Advanced scenario: a high-stress domestic dispute with a mental health crisis and a young child present. Master de-escalation and crisis intervention while ensuring child safety.",
+      "icon": "🏠",
+      "difficulty": 5,
+      "duration": "25-35",
+      "badges": {
+        "domestic-expert": {
+          "minScore": 90
+        },
+        "crisis-intervention": {
+          "minScore": 100
+        },
+        "perfect-domestic-crisis": {
+          "minScore": 120
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 3,
+        "CHPS": 5,
+        "CDR": 5,
+        "NPT": 2,
+        "EIC": 5
+      }
+    },
+    {
+      "id": "custody-exchange",
+      "title": "Custody Exchange — Between Two Fires",
+      "description": "Advanced scenario: de-escalation and neutral mediation during a high-conflict child custody exchange between hostile divorced parents. A distressed child is present.",
+      "icon": "⚖️",
+      "difficulty": 4,
+      "duration": "20-25",
+      "badges": {
+        "custody-mediator": {
+          "minScore": 75
+        },
+        "perfect-scenario-custody-exchange": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 3,
+        "CHPS": 3,
+        "CDR": 5,
+        "NPT": 5,
+        "EIC": 4
+      }
+    },
+    {
+      "id": "hospital-disturbance",
+      "title": "Hospital Disturbance — Pain, Fear, and Aggression",
+      "description": "Advanced scenario: de-escalate with an aggressive patient in a hospital emergency department. Collaborate with medical staff while protecting everyone's safety.",
+      "icon": "🏥",
+      "difficulty": 4,
+      "duration": "20-25",
+      "badges": {
+        "hospital-specialist": {
+          "minScore": 75
+        },
+        "perfect-scenario-hospital-disturbance": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 3,
+        "CHPS": 4,
+        "CDR": 4,
+        "NPT": 4,
+        "EIC": 5
+      }
+    },
+    {
+      "id": "road-rage",
+      "title": "Road Rage — Intersection Flashpoint",
+      "description": "Advanced scenario: two drivers in a heated confrontation after a traffic collision. Secure the scene, separate hostile parties, protect a child present, and manage competing demands.",
+      "icon": "🚗",
+      "difficulty": 4,
+      "duration": "20-25",
+      "badges": {
+        "road-rage-specialist": {
+          "minScore": 75
+        },
+        "perfect-scenario-road-rage": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 3,
+        "RNDC": 2,
+        "CHPS": 5,
+        "CDR": 4,
+        "NPT": 3,
+        "EIC": 3
+      }
+    },
+    {
+      "id": "street-vendor",
+      "title": "Street Vendor Dispute — Community Crossfire",
+      "description": "Advanced scenario: unauthorized street vendor, frustrated shop owner, and filming crowd. Balance enforcement, procedural justice, and community relations.",
+      "icon": "🍜",
+      "difficulty": 3,
+      "duration": "18-25",
+      "badges": {
+        "vendor-mediator": {
+          "minScore": 70
+        },
+        "perfect-scenario-street-vendor": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 5,
+        "CHPS": 2,
+        "CDR": 4,
+        "NPT": 5,
+        "EIC": 3
+      }
+    },
+    {
+      "id": "traffic-stop",
+      "title": "Traffic Stop — Escalation and Communication",
+      "description": "Advanced scenario: a driver stopped for speeding becomes defensive. Practice de-escalation and professional communication; how you conduct the stop shapes trust and complaint risk.",
+      "icon": "🚗",
+      "difficulty": 3,
+      "duration": "18-22",
+      "badges": {
+        "traffic-expert": {
+          "minScore": 80
+        },
+        "perfect-scenario-traffic-stop": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 4,
+        "RNDC": 2,
+        "CHPS": 4,
+        "CDR": 3,
+        "NPT": 3,
+        "EIC": 5
+      }
+    },
+    {
+      "id": "youth-park",
+      "title": "Youth in the Park — Music, Conflict, and De-escalation",
+      "description": "Advanced scenario: loud music and verbal conflict among teenagers in a city park. Practice de-escalation, transparency, and working with emotions.",
+      "icon": "👥",
+      "difficulty": 3,
+      "duration": "18-22",
+      "badges": {
+        "youth-advocate": {
+          "minScore": 70
+        },
+        "perfect-scenario-youth-park": {
+          "minScore": 100
+        }
+      },
+      "modules": {
+        "AL": 5,
+        "RNDC": 4,
+        "CHPS": 2,
+        "CDR": 5,
+        "NPT": 4,
+        "EIC": 5
+      }
+    }
+  ],
+  "badges": {
+    "scenario-1-complete": {
+      "name": "Traffic Stop Graduate",
+      "description": "Successfully completed the traffic stop scenario",
+      "icon": "🚦"
+    },
+    "scenario-2-complete": {
+      "name": "Negotiation Expert",
+      "description": "Successfully completed the hostel negotiation scenario",
+      "icon": "🤝"
+    },
+    "scenario-3-complete": {
+      "name": "Youth Connector",
+      "description": "Successfully completed the youth interaction scenario",
+      "icon": "🌟"
+    },
+    "scenario-4-complete": {
+      "name": "Crisis Responder",
+      "description": "Successfully completed the mental health crisis scenario",
+      "icon": "💚"
+    },
+    "scenario-5-complete": {
+      "name": "Community Officer",
+      "description": "Successfully completed the noise complaint scenario",
+      "icon": "🏘️"
+    },
+    "scenario-6-complete": {
+      "name": "Market Mediator",
+      "description": "Successfully completed the market dispute scenario",
+      "icon": "🛒"
+    },
+    "scenario-7-complete": {
+      "name": "Street De-escalator",
+      "description": "Successfully completed the nightclub street fracas scenario",
+      "icon": "🚨"
+    },
+    "scenario-domestic-crisis-complete": {
+      "name": "Domestic Crisis Expert",
+      "description": "Successfully managed a complex domestic dispute with mental health crisis",
+      "icon": "🏠"
+    },
+    "traffic-expert": {
+      "name": "Traffic Specialist",
+      "description": "Demonstrated expertise in traffic stop communication",
+      "icon": "🚔"
+    },
+    "negotiation-expert": {
+      "name": "Master Negotiator",
+      "description": "Showed exceptional negotiation skills under pressure",
+      "icon": "🎯"
+    },
+    "mediator": {
+      "name": "Conflict Mediator",
+      "description": "Showed strong mediation skills",
+      "icon": "⚖️"
+    },
+    "youth-advocate": {
+      "name": "Youth Advocate",
+      "description": "Connected well with young community members",
+      "icon": "🎯"
+    },
+    "crisis-specialist": {
+      "name": "Crisis Intervention Specialist",
+      "description": "Handled mental health crisis with expertise",
+      "icon": "🛡️"
+    },
+    "peacekeeper": {
+      "name": "Community Peacekeeper",
+      "description": "Resolved community disputes peacefully",
+      "icon": "🕊️"
+    },
+    "market-mediator": {
+      "name": "Market Peace Officer",
+      "description": "Expertly handled public space disputes",
+      "icon": "🏪"
+    },
+    "street-specialist": {
+      "name": "Night Shift Expert",
+      "description": "Managed high-pressure nightlife situations",
+      "icon": "🌃"
+    },
+    "domestic-expert": {
+      "name": "Domestic Response Specialist",
+      "description": "Expert handling of domestic situations with compassion",
+      "icon": "🏆"
+    },
+    "crisis-intervention": {
+      "name": "Crisis Intervention Master",
+      "description": "Perfectly managed mental health crisis with all metrics maximized",
+      "icon": "🌟"
+    },
+    "perfect-scenario-1": {
+      "name": "Traffic Stop Perfectionist",
+      "description": "Completed traffic stop scenario with perfect score",
+      "icon": "⭐"
+    },
+    "perfect-scenario-2": {
+      "name": "Negotiation Perfectionist",
+      "description": "Completed hostel scenario with perfect score",
+      "icon": "⭐"
+    },
+    "perfect-scenario-3": {
+      "name": "Youth Expert",
+      "description": "Completed youth scenario with perfect score",
+      "icon": "⭐"
+    },
+    "perfect-scenario-4": {
+      "name": "Crisis Expert",
+      "description": "Completed mental health scenario with perfect score",
+      "icon": "⭐"
+    },
+    "perfect-scenario-5": {
+      "name": "Noise Expert",
+      "description": "Completed noise complaint with perfect score",
+      "icon": "⭐"
+    },
+    "perfect-scenario-6": {
+      "name": "Market Expert",
+      "description": "Completed market dispute with perfect score",
+      "icon": "⭐"
+    },
+    "perfect-scenario-7": {
+      "name": "Street Expert",
+      "description": "Completed nightclub scenario with perfect score",
+      "icon": "⭐"
+    },
+    "perfect-scenario-domestic-crisis": {
+      "name": "Domestic Crisis Perfectionist",
+      "description": "Achieved perfect score in the most complex scenario",
+      "icon": "🏅"
+    },
+    "master-communicator": {
+      "name": "Master Communicator",
+      "description": "Completed all training scenarios successfully",
+      "icon": "🎖️"
+    },
+    "scenario-custody-exchange-complete": {
+      "name": "Custody Exchange Graduate",
+      "description": "Successfully completed the custody exchange scenario",
+      "icon": "⚖️"
+    },
+    "perfect-scenario-custody-exchange": {
+      "name": "Custody Mediation Expert",
+      "description": "Completed custody exchange with perfect score",
+      "icon": "⭐"
+    },
+    "scenario-hospital-disturbance-complete": {
+      "name": "Hospital Response Graduate",
+      "description": "Successfully completed the hospital disturbance scenario",
+      "icon": "🏥"
+    },
+    "perfect-scenario-hospital-disturbance": {
+      "name": "Hospital De-escalation Expert",
+      "description": "Completed hospital disturbance with perfect score",
+      "icon": "⭐"
+    },
+    "scenario-mental-health-balanced-complete": {
+      "name": "Mental Health Crisis Graduate",
+      "description": "Successfully completed the mental health crisis scenario",
+      "icon": "🧠"
+    },
+    "perfect-scenario-mental-health-balanced": {
+      "name": "Mental Health Crisis Expert",
+      "description": "Completed mental health scenario with perfect score",
+      "icon": "⭐"
+    },
+    "scenario-nightclub-fracas-complete": {
+      "name": "Nightclub Scene Graduate",
+      "description": "Successfully completed the nightclub fracas scenario",
+      "icon": "🚨"
+    },
+    "perfect-scenario-nightclub-fracas": {
+      "name": "Nightlife De-escalation Expert",
+      "description": "Completed nightclub scenario with perfect score",
+      "icon": "⭐"
+    },
+    "scenario-noise-complaint-complete": {
+      "name": "Noise Complaint Graduate",
+      "description": "Successfully completed the noise complaint scenario",
+      "icon": "🔊"
+    },
+    "perfect-scenario-noise-complaint": {
+      "name": "Noise Complaint Expert",
+      "description": "Completed noise complaint with perfect score",
+      "icon": "⭐"
+    },
+    "scenario-road-rage-complete": {
+      "name": "Road Rage Graduate",
+      "description": "Successfully completed the road rage scenario",
+      "icon": "🚗"
+    },
+    "perfect-scenario-road-rage": {
+      "name": "Road Rage Expert",
+      "description": "Completed road rage scenario with perfect score",
+      "icon": "⭐"
+    },
+    "scenario-street-vendor-complete": {
+      "name": "Street Vendor Graduate",
+      "description": "Successfully completed the street vendor scenario",
+      "icon": "🍜"
+    },
+    "perfect-scenario-street-vendor": {
+      "name": "Street Vendor Expert",
+      "description": "Completed street vendor scenario with perfect score",
+      "icon": "⭐"
+    },
+    "scenario-traffic-stop-complete": {
+      "name": "Traffic Stop Graduate (New)",
+      "description": "Successfully completed the traffic stop scenario",
+      "icon": "🚦"
+    },
+    "perfect-scenario-traffic-stop": {
+      "name": "Traffic Stop Perfectionist (New)",
+      "description": "Completed traffic stop scenario with perfect score",
+      "icon": "⭐"
+    },
+    "scenario-youth-park-complete": {
+      "name": "Youth Park Graduate",
+      "description": "Successfully completed the youth park scenario",
+      "icon": "👥"
+    },
+    "perfect-scenario-youth-park": {
+      "name": "Youth Park Expert",
+      "description": "Completed youth park scenario with perfect score",
+      "icon": "⭐"
+    },
+    "perfect-traffic": {
+      "name": "Perfect Traffic Stop",
+      "description": "Achieved a perfect score in the traffic stop scenario",
+      "icon": "🏆"
+    },
+    "perfect-negotiation": {
+      "name": "Perfect Negotiation",
+      "description": "Achieved a perfect score in the hostel noise complaint negotiation",
+      "icon": "🏆"
+    },
+    "perfect-youth": {
+      "name": "Perfect Youth Interaction",
+      "description": "Achieved a perfect score in the youth interaction scenario",
+      "icon": "🏆"
+    },
+    "perfect-crisis": {
+      "name": "Perfect Crisis Response",
+      "description": "Achieved a perfect score in the mental health crisis scenario",
+      "icon": "🏆"
+    },
+    "perfect-noise": {
+      "name": "Perfect Noise Complaint Response",
+      "description": "Achieved a perfect score in the noise complaint scenario",
+      "icon": "🏆"
+    },
+    "perfect-market": {
+      "name": "Perfect Market Mediation",
+      "description": "Achieved a perfect score in the market dispute scenario",
+      "icon": "🏆"
+    },
+    "perfect-street": {
+      "name": "Perfect Street Response",
+      "description": "Achieved a perfect score in the nightclub street fracas scenario",
+      "icon": "🏆"
+    },
+    "perfect-domestic-crisis": {
+      "name": "Perfect Domestic Crisis Response",
+      "description": "Achieved a perfect score in the domestic crisis scenario",
+      "icon": "🌟"
+    },
+    "custody-mediator": {
+      "name": "Custody Exchange Mediator",
+      "description": "Demonstrated mediation skills during a child custody exchange",
+      "icon": "⚖️"
+    },
+    "hospital-specialist": {
+      "name": "Hospital Intervention Specialist",
+      "description": "Demonstrated expertise during a hospital intervention",
+      "icon": "🏥"
+    },
+    "road-rage-specialist": {
+      "name": "Road Rage Specialist",
+      "description": "Expertly defused a road rage confrontation",
+      "icon": "🚗"
+    },
+    "vendor-mediator": {
+      "name": "Street Vendor Mediator",
+      "description": "Resolved a street vendor dispute fairly and peacefully",
+      "icon": "🤝"
+    }
+  }
+}
