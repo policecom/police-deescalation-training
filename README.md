@@ -37,7 +37,7 @@ can review it, correct it, translate it, and replace it with scenarios that matc
 your own legal reality. Use of this material is entirely at your own discretion
 and responsibility.
 
-*(Česká verze tohoto upozornění je [níže](#-česky).)*
+*This notice is also available in [Čeština](#-česky), [Lietuvių](#-lietuvių) and [Română](#-română).*
 
 ---
 
@@ -178,3 +178,128 @@ upravovat nemusíte. Podrobnosti a schéma viz [CONTRIBUTING.md](CONTRIBUTING.md
 Kód pod **MIT** ([`LICENSE`](LICENSE)), obsah (scénáře, texty, překlady) pod
 **CC BY 4.0** ([`CONTENT-LICENSE.md`](CONTENT-LICENSE.md)). Smíte používat,
 upravovat, překládat i šířit (i komerčně) při zachování autorství.
+
+---
+
+## 🇱🇹 Lietuvių
+
+**Policijos konfliktų deeskalavimo mokymai** — atviras, naršyklėje veikiantis
+mokomasis simuliatorius, skirtas deeskalavimo ir bendravimo įtemptose situacijose
+įgūdžiams lavinti; viskas vyksta tiesiogiai naršyklėje. Žaidėjai sprendžia šakotus
+scenarijus, gauna grįžtamąjį ryšį apie kiekvieną pasirinkimą ir galutinę mokymų
+ataskaitą, taip pat gali kurti, redaguoti, įkelti ir žaisti savo scenarijus — be
+serverio, be kompiliacijos, be paskyros.
+
+**▶ Žaisti:** https://policecom.github.io/police-deescalation-training/
+
+### ⚠️ Atsakomybės apribojimas — prašome perskaityti
+
+**Finansuojama Europos Sąjungos.** Išreikštos nuomonės ir požiūriai yra tik
+autorių ir nebūtinai atspindi Europos Sąjungos ar finansavimo institucijos
+nuomonę; nė viena iš jų negali būti laikoma už juos atsakinga. „Erasmus+" projektas
+POL-COM, projekto numeris 2023-1-CZ01-KA220-VET-000167148.
+
+**Negarantuojamas faktinis ar teisinis tikslumas.** Scenarijai ir jų atsiliepimai
+yra mokymo medžiaga, o ne teisinė konsultacija ir ne oficiali policijos procedūra.
+Pateikti scenarijai iliustruoja bendravimo techniką, remiantis pirmiausia Čekijos
+teisinio reguliavimo pavyzdžiu. Teisės aktai skirtingose šalyse skiriasi ir laikui
+bėgant keičiasi; nuorodos į teisės aktus gali tapti pasenusios. Nei „POL-COM"
+konsorciumas, nei Europos Sąjunga negarantuoja, kad bet kuris scenarijus yra
+faktiniu požiūriu teisingas, išsamus ar taikytinas jūsų jurisdikcijoje.
+
+**Jūs patys turite nuspręsti**, ar konkretus scenarijus tinka jūsų kontekstui —
+jūsų šalies teisės aktams, jūsų tarnybos procedūroms, jūsų mokymo tikslams. Jei
+netinka, būtent tam ir skirta ši saugykla: turinys yra atviras, todėl galite jį
+peržiūrėti, pataisyti, išversti ir pakeisti scenarijais, atitinkančiais jūsų
+teisinę realybę. Šios medžiagos naudojimas yra visiškai jūsų nuožiūra ir
+atsakomybe.
+
+### Savarankiškas talpinimas ir savi scenarijai
+
+Žaidimas turi būti teikiamas per **HTTP** (jis įkelia JSON naudodamas `fetch`,
+kuris neveikia naudojant `file://` protokolą):
+
+```bash
+git clone https://github.com/policecom/police-deescalation-training.git
+cd police-deescalation-training
+python3 -m http.server 8000
+# atidarykite http://127.0.0.1:8000/
+```
+
+Savo scenarijų galite pridėti arba pačioje programėlėje (kortelė „➕ Vlastní
+scénář / Custom scenario", tada redaktorius ir Export), arba kaip failus
+saugykloje: scenarijus į `scenarios/<kalba>/scenario-<id>-<kalba>.json`,
+pasirinktinai apžvalgą į `scenarios/reviews/` ir įrašą į
+`scenarios/index-<kalba>.json`. Jums nereikia redaguoti jokio JavaScript kodo.
+Schemą rasite faile [CONTRIBUTING.md](CONTRIBUTING.md).
+
+### Licencija
+
+Kodas pagal **MIT** ([`LICENSE`](LICENSE)), turinys (scenarijai, tekstai,
+vertimai) pagal **CC BY 4.0** ([`CONTENT-LICENSE.md`](CONTENT-LICENSE.md)). Galite
+jį naudoti, keisti, versti ir platinti, įskaitant komerciniais tikslais,
+išlaikydami autoriaus nuorodą.
+
+---
+
+## 🇷🇴 Română
+
+**Instruirea poliției în domeniul dezamorsării conflictelor** — o simulare de
+instruire deschisă, bazată pe browser, pentru exersarea dezamorsării conflictelor
+și a comunicării în situații tensionate, care rulează integral în browser.
+Jucătorii parcurg scenarii cu ramificații, primesc feedback pentru fiecare alegere
+și un raport final de instruire și pot crea, edita, încărca și juca propriile
+scenarii — fără server, fără compilare, fără cont.
+
+**▶ Jucați:** https://policecom.github.io/police-deescalation-training/
+
+### ⚠️ Declarație de exonerare de răspundere — vă rugăm să citiți
+
+**Finanțat de Uniunea Europeană.** Punctele de vedere și opiniile exprimate aparțin
+exclusiv autorilor și nu reflectă neapărat punctul de vedere al Uniunii Europene
+sau al autorității finanțatoare; niciuna dintre acestea nu poate fi trasă la
+răspundere pentru acestea. Proiectul Erasmus+ POL-COM, numărul de proiect
+2023-1-CZ01-KA220-VET-000167148.
+
+**Nu se garantează acuratețea factuală sau juridică.** Scenariile și feedback-ul
+aferent constituie materiale de instruire, nu reprezintă consultanță juridică și nu
+constituie o procedură oficială a poliției. Scenariile incluse ilustrează tehnici
+de comunicare pe baza unui cadru juridic preponderent ceh, cu titlu de exemplu.
+Legislația diferă de la o țară la alta și se modifică în timp; referirile la acte
+normative pot deveni depășite. Nici consorțiul POL-COM, nici Uniunea Europeană nu
+garantează că vreun scenariu este corect din punct de vedere factual, complet sau
+aplicabil în jurisdicția dumneavoastră.
+
+**Rămâne la latitudinea dumneavoastră să decideți** dacă un anumit scenariu se
+potrivește contextului dumneavoastră — legislația națională, procedurile forței
+dumneavoastră de poliție, obiectivele dumneavoastră de instruire. Dacă nu este
+cazul, tocmai acesta este scopul acestui depozit: conținutul este deschis, astfel
+încât îl puteți revizui, corecta, traduce și înlocui cu scenarii care corespund
+realității juridice proprii. Utilizarea acestui material se face în întregime la
+propria dumneavoastră discreție și pe propria răspundere.
+
+### Găzduire proprie și scenarii personalizate
+
+Jocul trebuie să fie găzduit prin **HTTP** (încarcă fișiere JSON prin `fetch`, care
+nu funcționează cu protocolul `file://`):
+
+```bash
+git clone https://github.com/policecom/police-deescalation-training.git
+cd police-deescalation-training
+python3 -m http.server 8000
+# deschideți http://127.0.0.1:8000/
+```
+
+Puteți adăuga propriul scenariu fie în aplicație (cardul „➕ Vlastní scénář /
+Custom scenario", apoi editorul și Export), fie ca fișiere în depozit: scenariul în
+`scenarios/<limba>/scenario-<id>-<limba>.json`, opțional o recenzie în
+`scenarios/reviews/` și o intrare în `scenarios/index-<limba>.json`. Nu este necesar
+să editați codul JavaScript. Consultați [CONTRIBUTING.md](CONTRIBUTING.md) pentru
+schemă.
+
+### Licență
+
+Codul este sub licența **MIT** ([`LICENSE`](LICENSE)), iar conținutul (scenarii,
+texte, traduceri) sub **CC BY 4.0** ([`CONTENT-LICENSE.md`](CONTENT-LICENSE.md)).
+Puteți să îl utilizați, să îl modificați, să îl traduceți și să îl redistribuiți,
+inclusiv în scop comercial, păstrând însă atribuirea.
