@@ -14,13 +14,14 @@
   ],
   "perfectBadge": "perfect-scenario-road-rage",
   "finalMessage": {
-    "revelation": "Pan Cooper projel stopku poté, co odešel z firemní akce, kde za dvě hodiny vypil tři sklenice vína. Jeho hladina alkoholu v krvi byla 0,06 % — pod zákonným limitem, ale dost na zhoršení reakční doby a úsudku. Spěchal vyzvednout klienta a byl rozptýlen telefonem, když vjel do křižovatky. Stopku neviděl. Paní Bennett měla přednost a nemohla srážce zabránit. Její dcera Ella byla řádně připoutána v dětské sedačce a fyzicky se jí nic nestalo, ale náraz a křik ji hluboce vyděsily. Svědek, pan Peterson, potvrdil, že Cooper projel stopku. Po vaší intervenci byl Cooper pokutován za nerespektování stopky a dostal varování ohledně řízení po požití alkoholu. Jeho pojišťovna přijala plnou odpovědnost. Paní Bennett později řekla kamarádce, že to, co si nejvíc pamatuje, nebyla nehoda — bylo to, že strážník zkontroloval její dceru dřív, než dělal cokoli jiného. Ella stále mluví o ‚hodném policistovi, který se ujistil, že je v pořádku.'",
+    "revelation": "Pan Cooper projel stopku poté, co odešel z firemní akce, kde za dvě hodiny vypil tři sklenice vína. Jeho hladina alkoholu v krvi byla 0,06 % (0,6 ‰). V Česku platí u řidičů nulová tolerance, takže i tato hladina je přestupek podle § 125c zákona č. 361/2000 Sb. — a dost na zhoršení reakční doby a úsudku. Spěchal vyzvednout klienta a byl rozptýlen telefonem, když vjel do křižovatky. Stopku neviděl. Paní Bennett měla přednost a nemohla srážce zabránit. Její dcera Ella byla řádně připoutána v dětské sedačce a fyzicky se jí nic nestalo, ale náraz a křik ji hluboce vyděsily. Svědek, pan Peterson, potvrdil, že Cooper projel stopku. Po vaší intervenci dostal Cooper pokutu za nerespektování stopky i za řízení pod vlivem alkoholu (přestupek podle § 125c) a byl mu na místě zadržen řidičský průkaz; hlídka mu zároveň zabránila pokračovat v jízdě. Jeho pojišťovna přijala plnou odpovědnost. Paní Bennett později řekla kamarádce, že to, co si nejvíc pamatuje, nebyla nehoda — bylo to, že strážník zkontroloval její dceru dřív, než dělal cokoli jiného. Ella stále mluví o ‚hodném policistovi, který se ujistil, že je v pořádku.'",
     "keyLessons": [
       "Bezpečnost místa má přednost před vyšetřováním — nebezpečí, zranění a plynulost provozu musí být řešeny okamžitě",
       "Fyzické oddělení nepřátelských stran brání eskalaci z verbálního do fyzického násilí",
       "Děti na místě nehody jsou často přehlíženy — měly by být mezi vašimi prvními prioritami",
       "Nestrannost před vyšetřováním znamená zacházet s oběma stranami neutrálně, dokud nejsou zjištěna fakta",
       "Nenápadné známky opojení vyžadují prověření — zarudlý obličej, zápach alkoholu a agitovanost vyžadují profesionální ověření",
+      "Deeskalace neznamená vzdát se vymáhání — v ČR platí u řidičů nulová tolerance, takže i 0,6 ‰ je přestupek (§ 125c); mění se způsob sdělení, ne to, zda se zákon uplatní",
       "Oddělené výslechy produkují přesnější informace než současné hádky",
       "Způsob, jakým řešíte dopravní nehodu, určuje, zda lidé důvěřují policii jako spravedlivé — může to být jejich jediný přímý kontakt s policií"
     ]
@@ -288,12 +289,12 @@
       "sceneUpdate": {
         "emoji": "📋",
         "title": "Závěrečné kroky",
-        "desc": "Pan Cooper projel stopku. Dechová zkouška: 0,06 % — pod zákonným limitem, ale důkaz nedávné konzumace. Svědek potvrdil přestupek. Paní Bennett s Ellou čekají na její sestru. Obě vozidla jsou pojízdná, ale poškozená."
+        "desc": "Pan Cooper projel stopku. Dechová zkouška: 0,06 % (0,6 ‰) — v ČR nad hranicí nulové tolerance, tedy přestupek podle § 125c (řízení pod vlivem alkoholu). Svědek potvrdil přestupek. Paní Bennett s Ellou čekají na její sestru. Obě vozidla jsou pojízdná, ale poškozená."
       },
       "npcDialogue": [
         {
           "character": "aggressiveDriver",
-          "text": "(zklidněný po dechové zkoušce) Nadýchal jsem pod limit. Nejsem opilý. Byla to nehoda. Můžu dostat papíry od pojišťovny a jet?"
+          "text": "(zklidněný po dechové zkoušce) No dobře, něco jsem nadýchal, ale nejsem přece opilý. Byla to nehoda. Můžu dostat papíry od pojišťovny a jet?"
         }
       ],
       "prompt": "Jak uzavřete místo nehody — pokuta Cooperovi, potřeby paní Bennett a další kroky?",
@@ -305,14 +306,14 @@
           "points": 2
         },
         {
-          "text": "Podáte Cooperovi pokutu a mírně se k němu nakloníte: ‚Nadýchal jste 0,06. Pod limitem, ale kdybyste vypil ještě jednu skleničku, vedli bychom úplně jiný rozhovor. Zamyslete se nad tím.' Udržíte oční kontakt o vteřinu déle, pak ho necháte jít. Přejdete k paní Bennett, řeknete, že doufáte, že se Ella brzy vzpamatuje, a popřejete jí hezký večer. Pak se vrátíte k hlídkovému vozu a uvolníte místo bez poskytnutí čísla hlášení či lékařského doporučení.",
-          "feedback": "Proč: Varování má dopad, ale ‚zamyslete se nad tím' je mentorování a může vyvolat defenzivní reakci. Důležitější je, že uzavření pro paní Bennett je minimální — žádné číslo hlášení, žádné doporučení lékařské kontroly pro Ellu, žádné praktické další kroky. Závěrečnou energii jste investovali do Coopera a podservisovali oběť. | DŮSLEDKY: Cooper je otřesený, ale rozhořčený. Paní Bennett odjíždí bez čísla hlášení, bez lékařského doporučení, bez pocitu, že jí bylo věnováno pozornost. Závěrečnou energii jste věnovali špatnému člověku. | Reflexe: Komu by měla směřovat většina vaší závěrečné pozornosti — pokutovanému, nebo poškozenému?",
+          "text": "Podáte Cooperovi pokutu a mírně se k němu nakloníte: ‚Nadýchal jste 0,06 promile — i to je přestupek, řeším to jako řízení pod vlivem. Kdybyste měl přes jedno promile, byl by z toho trestný čin. Zamyslete se nad tím.' Udržíte oční kontakt o vteřinu déle, pak ho necháte jít. Přejdete k paní Bennett, řeknete, že doufáte, že se Ella brzy vzpamatuje, a popřejete jí hezký večer. Pak se vrátíte k hlídkovému vozu a uvolníte místo bez poskytnutí čísla hlášení či lékařského doporučení.",
+          "feedback": "Proč: Sdělit dopad má smysl, ale ‚zamyslete se nad tím' je mentorování a může vyvolat defenzivní reakci. Důležitější je, že uzavření pro paní Bennett je minimální — žádné číslo hlášení, žádné doporučení lékařské kontroly pro Ellu, žádné praktické další kroky. Závěrečnou energii jste investovali do Coopera a podservisovali oběť. | DŮSLEDKY: Cooper je otřesený, ale rozhořčený. Paní Bennett odjíždí bez čísla hlášení, bez lékařského doporučení, bez pocitu, že jí bylo věnováno pozornost. Závěrečnou energii jste věnovali špatnému člověku. | Reflexe: Komu by měla směřovat většina vaší závěrečné pozornosti — pokutovanému, nebo poškozenému?",
           "type": "partially_positive",
           "points": 5
         },
         {
-          "text": "Obrátíte se na Coopera: ‚Dávám vám pokutu za nerespektování stopky. Váš test byl pod zákonným limitem, ale 0,06 % ukazuje nedávnou konzumaci, která mohla ovlivnit reakční čas. Důrazně doporučuji dnes dál neřídit — zavolejte si taxi nebo se nechte vyzvednout.' Pak přejdete k paní Bennett: ‚Tady je číslo hlášení pro pojišťovnu. Doporučuji nechat Ellu v příštích dnech prohlédnout pediatrem — děti mohou mít opožděné reakce na nárazy. Je vaše sestra blízko?'",
-          "feedback": "Proč: Komplexní uzavření sloužící oběma stranám. Pokuta je předána s kontextem alkoholu jako bezpečnostním doporučením. ‚Dál neřídit' je zodpovědná rada. Pro paní Bennett doporučení pediatrické kontroly ukazuje zdravotnické povědomí, které rodiče často přehlížejí. Proaktivní předání čísla hlášení jí ušetří cestu. Otázka na sestru ukazuje, že si pamatujete a záleží vám. Obě strany odjíždějí s jasnými dalšími kroky. | DŮSLEDKY: Cooper je otřesen celkovým dopadem — pokuta, dechová zkouška, profesionální strážník, který s ním jednal férově navzdory jeho chování. Zavolá si odvoz. Paní Bennett má jasnou cestu pro pojistné a lékařské kroky. Ella se uklidňuje. Oba zažili důkladnou, férovou a humánní policejní práci. | Reflexe: Jak komplexní uzavření promění rutinní hlášení v setkání, které buduje důvěru?",
+          "text": "Obrátíte se na Coopera: ‚Dávám vám pokutu za nerespektování stopky. A nadýchal jste 0,06 promile — v Česku platí nulová tolerance, takže i to je přestupek podle § 125c. Vyřeším ho s vámi tady: dostanete pokutu i za alkohol a zadržím vám řidičský průkaz, potvrzení vám vydám. Dnes už neřídíte — zavolejte si taxi nebo někoho, kdo vás vyzvedne.' Pak přejdete k paní Bennett: ‚Tady je číslo hlášení pro pojišťovnu. Doporučuji nechat Ellu v příštích dnech prohlédnout pediatrem — děti mohou mít opožděné reakce na nárazy. Je vaše sestra blízko?'",
+          "feedback": "Proč: Komplexní uzavření sloužící oběma stranám. Přestupek za alkohol se řeší věcně a zároveň lidsky — deeskalace nemění to, že se zákon uplatní, jen jak to sdělíte. ‚Dál neřídit' je zodpovědná rada. Pro paní Bennett doporučení pediatrické kontroly ukazuje zdravotnické povědomí, které rodiče často přehlížejí. Proaktivní předání čísla hlášení jí ušetří cestu. Otázka na sestru ukazuje, že si pamatujete a záleží vám. Obě strany odjíždějí s jasnými dalšími kroky. | DŮSLEDKY: Cooper je otřesen celkovým dopadem — pokuta, dechová zkouška, profesionální strážník, který s ním jednal férově navzdory jeho chování. Zavolá si odvoz. Paní Bennett má jasnou cestu pro pojistné a lékařské kroky. Ella se uklidňuje. Oba zažili důkladnou, férovou a humánní policejní práci. | Reflexe: Jak komplexní uzavření promění rutinní hlášení v setkání, které buduje důvěru?",
           "type": "positive",
           "points": 10
         },

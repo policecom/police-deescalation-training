@@ -9,7 +9,9 @@
         "introduction": "Controalele de trafic sunt cea mai frecventă interacțiune directă între poliție și public, și ele modelează modul în care milioane de oameni percep forțele de ordine. Cercetările arată în mod constant că dreptatea procedurală în timpul controalelor de trafic — explicarea motivului opririi, prezentarea dumneavoastră și tratarea șoferului cu demnitate — are un impact mai mare asupra încrederii publice decât rezultatul în sine. Șoferul pe care îl opriți poate avea cea mai proastă zi din viața sa: un copil bolnav, un loc de muncă în pericol, o relație care se destramă. Nimic din toate acestea nu scuză depășirea vitezei, dar toate modelează modul în care el experimentează autoritatea dumneavoastră. Provocarea dumneavoastră este să fiți atât ferm cât și uman — să aplicați legea tratând în același timp persoana de la volan ca pe cineva a cărui cooperare o câștigați prin profesionalism, nu ca pe cineva a cărui supunere o extrageți prin putere. Modul în care deschideți conversația, cum răspundeți la ostilitate, cum gestionați momentele de siguranță și cum încheiați interacțiunea vor determina dacă acest șofer le spune celor din jur că poliția este corectă sau că poliția este problema."
     },
     "timedChoices": true,
-    "completionBadges": ["scenario-traffic-stop-complete"],
+    "completionBadges": [
+        "scenario-traffic-stop-complete"
+    ],
     "perfectBadge": "perfect-scenario-traffic-stop",
     "finalMessage": {
         "revelation": "Domnul Novak are 38 de ani și este tată singur a doi copii. Fiica sa de șapte ani a fost diagnosticată cu leucemie acum trei luni, iar facturile medicale au fost devastatoare. Conducea cu viteză spre o întâlnire cu supervizorul său, care făcuse aluzie că urmează concedieri — pierderea acestui loc de muncă ar fi însemnat pierderea asigurării de sănătate care acoperea tratamentul fiicei sale. Pasagera, doamna Novak, este mama sa, care supraveghea copiii pentru ca el să poată participa la întâlnire. Era deja neliniștită pentru că știa cât de multă presiune este pe fiul ei și se temea că oprirea îl va costa slujba. După interacțiunea cu dumneavoastră, domnul Novak a ajuns cu cincisprezece minute întârziere, dar calm. Supervizorul său i-a observat comportamentul liniștit și i-a oferit un program flexibil pentru a gestiona programările fiicei sale. Ulterior, le-a spus colegilor că ofițerul care l-a oprit a fost prima figură de autoritate din ultimele luni care l-a tratat ca pe o persoană, nu ca pe o problemă. Modul în care ați gestionat oprirea nu a însemnat doar aplicarea unei legi de trafic — a modelat modul în care un om aflat în criză vede întreaga instituție a poliției.",
@@ -19,7 +21,7 @@
             "Insultele personale în timpul controalelor de trafic sunt aproape întotdeauna expresii ale stresului de fond, nu atacuri reale — reîncadrarea spre misiunea dumneavoastră de siguranță rutieră vă menține deasupra conflictului și modelează comportamentul pe care îl doriți",
             "Transparența sub presiune — furnizarea numărului de insignă și afirmarea dreptului de a depune plângere — dezarmează ostilitatea mai eficient decât orice demonstrație de autoritate",
             "Comenzile verbale clare și specifice în momentele de siguranță previn neînțelegerile care pot transforma controalele de rutină în situații periculoase — a-i spune șoferului exact unde să-și pună mâinile și când să se miște face diferența între control și haos",
-            "Discreția administrativă nu este slăbiciune — a ști când un avertisment servește mai bine siguranța rutieră și încrederea publică decât o amendă demonstrează maturitate și judecată profesională",
+            "De-escaladarea nu înseamnă a renunța la aplicarea legii — tratați încălcarea în conformitate cu legea, dar modul în care comunicați sancțiunea (cu respect, explicație și o abordare umană) determină încrederea publică mai mult decât sancțiunea în sine",
             "Modul în care încheiați un control de trafic determină amintirea durabilă a șoferului despre întreaga interacțiune și ce le spune altora despre poliție — ultimele treizeci de secunde au un impact disproporționat asupra încrederii publice"
         ]
     },
@@ -313,14 +315,14 @@
             "prompt": "Șoferul și-a cerut scuze și a dezvăluit suferința personală reală. Mama sa a confirmat. Cum încheiați această chestiune cu considerație și legalitate?",
             "options": [
                 {
-                    "text": "Faceți o pauză, lăsând cuvintele lui să se așeze, apoi vorbiți cu o voce liniștită și stabilă. 'Vă apreciez onestitatea, domnule, și îmi pare sincer rău pentru fiica dumneavoastră. Văd că sunteți sub o presiune enormă și respect faptul că mi-ați spus.' Închideți carnetul de citații și îl glisați înapoi în vestă. 'De data aceasta voi emite un avertisment — depășirea de viteză este notată în sistem dar fără amendă. Vă rog conduceți cu grijă de aici înainte. Familia dumneavoastră are nevoie de dumneavoastră în siguranță, nu în viteză. Mergeți la întâlnire.'",
-                    "feedback": "De ce: Discreție administrativă potrivită pentru o primă încălcare moderată cu circumstanțe atenuante reale. Recunoașteți scuzele, validați suferința, exercitați o judecată proporțională și încheiați cu o notă umană care reîncadrează condusul sigur ca ceva ce face pentru familia sa — nu pentru dumneavoastră. | CONSECINȚE: Ochii domnului Novak se umezesc. Mama sa mișcă buzele 'mulțumesc'. Șoferul va ajunge la întâlnire cu cincisprezece minute întârziere dar calm — și le va spune colegilor că ofițerul care l-a oprit a fost decent și corect. Încrederea în poliție crește cu o familie. | Reflecție: Cum recunoașteți când un avertisment servește mai bine siguranța rutieră și încrederea publică decât o amendă — și ce vă dă încrederea să folosiți această discreție?",
+                    "text": "Faceți o pauză, lăsând cuvintele lui să se așeze, apoi vorbiți cu o voce liniștită și stabilă. 'Vă apreciez onestitatea, domnule, și îmi pare sincer rău pentru fiica dumneavoastră. Văd că sunteți sub o presiune enormă și respect faptul că mi-ați spus.' Completați procesul-verbal pe loc. 'Depășirea de viteză trebuie să o tratez așa cum cere legea — vă aplic o amendă pe loc. O fac chiar acum ca să puteți pleca. Și vă rog — conduceți cu grijă. Familia dumneavoastră are nevoie de dumneavoastră în siguranță, nu în viteză. Mergeți la întâlnire.'",
+                    "feedback": "De ce: Aplicați legea în mod consecvent — tratați încălcarea cu amenda pe loc pe care o cere — dar o transmiteți cu respect și empatie. Aceasta este esența de-escaladării: nu renunțați la o sancțiune pe care sunteți obligat legal să o aplicați, doar o aplicați cu umanitate. Recunoașteți scuzele, validați suferința și încheiați cu o notă care reîncadrează condusul sigur ca ceva ce face pentru familia sa. | CONSECINȚE: Ochii domnului Novak se umezesc. Acceptă amenda fără amărăciune. Mama sa mișcă buzele 'mulțumesc'. Șoferul va ajunge la întâlnire cu cincisprezece minute întârziere dar calm — și le va spune colegilor că ofițerul care l-a oprit a fost ferm dar corect. Încrederea în poliție crește cu o familie. | Reflecție: De ce empatia și aplicarea consecventă a legii nu sunt în conflict — și de ce de-escaladarea nu înseamnă a lăsa o încălcare fără consecința ei legală?",
                     "type": "positive",
                     "points": 12
                 },
                 {
                     "text": "Priviți șoferul cu simpatie sinceră, dând încet din cap pe când termină de vorbit. 'Îmi pare rău să aud de situația dumneavoastră — cu adevărat. Este o povară grea de dus.' Scoateți citația de pe clipboard și începeți să completați suma. 'Voi emite amenda conform procedurii, dar vreau să știți că vă apreciez onestitatea și scuzele. A fost nevoie de curaj să spuneți asta.' Îi înmânați bonul și adăugați: 'Vă rog conduceți cu prudență — familia dumneavoastră are nevoie de dumneavoastră întreg.'",
-                    "feedback": "De ce: Recunoașteți situația cu sinceritate și adăugați o notă personală de grijă despre familia sa. Emiterea amenzii menține integritatea procedurală. Însă, pentru o primă încălcare de 25 km/h cu circumstanțe atenuante clare, acesta era un moment potrivit pentru discreție administrativă — un avertisment ar fi fost legal corect și mai proporțional. | CONSECINȚE: Șoferul apreciază nota umană dar pleacă cu o amendă pe care poate nu ar fi fost nevoie să o primească. Mama sa pare dezamăgită. Vă vede ca pe un om bun dar rigid. Încrederea se îmbunătățește oarecum dar nu la fel de mult cât ar fi realizat discreția. | Reflecție: Când legea vă dă loc pentru un avertisment, cum cântăriți impactul unei amenzi versus al unui avertisment asupra conformării viitoare și încrederii publice?",
+                    "feedback": "De ce: Recunoașteți situația cu sinceritate, adăugați o notă personală despre familia sa și tratați încălcarea cu amenda pe care o cere legea — corect procedural și legal. Comparativ cu cea mai bună variantă, doar conectați empatia puțin mai puțin cu actul aplicării în sine, așa că pare mai degrabă 'compasiune și amendă separat' decât un singur pas uman dar ferm. | CONSECINȚE: Șoferul apreciază nota umană și acceptă amenda. Mama sa este recunoscătoare. Vă vede ca pe un om bun și corect. Încrederea se îmbunătățește. | Reflecție: Cum conectați empatia direct cu actul aplicării legii, astfel încât șoferul să simtă că sancțiunea și respectul merg mână în mână?",
                     "type": "partially_positive",
                     "points": 5
                 },
@@ -366,17 +368,32 @@
                 },
                 {
                     "character": "trainer",
-                    "text": "Când domnul Novak s-a prăbușit în cele din urmă și v-a spus despre fiica sa, acea vulnerabilitate a fost posibilă doar pentru că ați petrecut întreaga oprire câștigând-o — prin transparență, prin calm, prin refuzul de a-i pedepsi frica cu autoritatea dumneavoastră. Avertismentul pe care l-ați emis nu a fost slăbiciune. A fost judecată. Și a modelat modul în care un om în criză va vedea fiecare ofițer pe care îl întâlnește pentru restul vieții. Permiteți-mi să vă spun ce s-a întâmplat când a ajuns la acea întâlnire."
+                    "text": "Când domnul Novak s-a prăbușit în cele din urmă și v-a spus despre fiica sa, acea vulnerabilitate a fost posibilă doar pentru că ați petrecut întreaga oprire câștigând-o — prin transparență, prin calm, prin refuzul de a-i pedepsi frica cu autoritatea dumneavoastră. Modul în care ați tratat încălcarea — ați aplicat amenda pe care o cere legea, dar ați transmis-o cu respect — nu a fost slăbiciune. A fost profesionalism. Și a modelat modul în care un om în criză va vedea fiecare ofițer pe care îl întâlnește pentru restul vieții. Permiteți-mi să vă spun ce s-a întâmplat când a ajuns la acea întâlnire."
                 }
             ]
         }
     ],
     "characters": {
-        "dispatcher": {"name": "Dispecerat", "avatar": "📻"},
-        "driver": {"name": "Dl. Novak (șofer, 38)", "avatar": "😤"},
-        "passenger": {"name": "Dna. Novak (mamă, 65)", "avatar": "👵"},
-        "officer": {"name": "Dumneavoastră (Ofițer)", "avatar": "👮"},
-        "trainer": {"name": "Sergent Miller", "avatar": "👮‍♂️"}
+        "dispatcher": {
+            "name": "Dispecerat",
+            "avatar": "📻"
+        },
+        "driver": {
+            "name": "Dl. Novak (șofer, 38)",
+            "avatar": "😤"
+        },
+        "passenger": {
+            "name": "Dna. Novak (mamă, 65)",
+            "avatar": "👵"
+        },
+        "officer": {
+            "name": "Dumneavoastră (Ofițer)",
+            "avatar": "👮"
+        },
+        "trainer": {
+            "name": "Sergent Miller",
+            "avatar": "👮‍♂️"
+        }
     },
     "performanceReviews": {
         "perfect": {

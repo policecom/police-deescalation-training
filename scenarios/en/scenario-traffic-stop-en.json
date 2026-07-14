@@ -9,7 +9,9 @@
         "introduction": "Traffic stops are the most common direct interaction between police and the public, and they shape how millions of people perceive law enforcement. Research consistently shows that procedural justice during traffic stops — explaining why someone was stopped, identifying yourself, and treating the driver with dignity — has a greater impact on public trust than the outcome itself. The driver you stop may be having the worst day of their life: a sick child, a job on the line, a relationship falling apart. None of that excuses speeding, but all of it shapes how they experience your authority. Your challenge is to be both firm and human — to enforce the law while treating the person behind the wheel as someone whose cooperation you earn through professionalism, not someone whose compliance you extract through power. How you open, how you respond to hostility, how you handle safety moments, and how you close the interaction will determine whether this driver tells ten people that police are fair or that police are the problem."
     },
     "timedChoices": true,
-    "completionBadges": ["scenario-traffic-stop-complete"],
+    "completionBadges": [
+        "scenario-traffic-stop-complete"
+    ],
     "perfectBadge": "perfect-scenario-traffic-stop",
     "finalMessage": {
         "revelation": "Mr. Novak is a 38-year-old single father of two. His seven-year-old daughter was diagnosed with leukemia three months ago, and the medical bills have been devastating. He was speeding to a meeting with his supervisor who had hinted that layoffs were coming — losing this job would mean losing the health insurance covering his daughter's treatment. His passenger, Mrs. Novak, is his mother, who had been watching the children so he could attend the meeting. She was already anxious because she knows how much pressure her son is under and feared the stop would cost him his job. After your interaction, Mr. Novak arrived fifteen minutes late but composed. His supervisor noticed his calm demeanor and offered him a flexible schedule to manage his daughter's appointments. He later told a colleague that the officer who stopped him was the first authority figure in months who treated him like a person rather than a problem. The way you handled the stop did not just enforce a traffic law — it shaped how a man in crisis views the entire institution of policing.",
@@ -19,7 +21,7 @@
             "Personal insults during traffic stops are almost always expressions of underlying stress, not genuine attacks — reframing toward your road safety mission keeps you above the conflict and models the behavior you want",
             "Transparency under scrutiny — providing your badge number and affirming the right to complain — disarms hostility more effectively than any display of authority",
             "Clear, specific verbal commands during safety moments prevent misunderstandings that can turn routine stops dangerous — telling the driver exactly where to place their hands and when to move is the difference between control and chaos",
-            "Administrative discretion is not weakness — knowing when a warning serves road safety and public trust better than a fine demonstrates professional maturity and judgment",
+            "De-escalation does not mean giving up enforcement — you handle the offense in line with the law, but the way you communicate the sanction (with respect, explanation and a human approach) drives public trust more than the sanction itself",
             "How you close a traffic stop determines the driver's lasting memory of the entire interaction and what they tell others about police — the final thirty seconds have disproportionate impact on public trust"
         ]
     },
@@ -313,14 +315,14 @@
             "prompt": "The driver has apologized and revealed genuine personal distress. His mother has confirmed it. How do you close this matter with consideration and lawfulness?",
             "options": [
                 {
-                    "text": "You pause for a moment, letting his words settle, then speak in a quiet, steady voice. 'I appreciate your honesty, sir, and I'm genuinely sorry about your daughter. I can see you're under enormous pressure and I respect that you told me.' You close the citation booklet and slide it back into your vest. 'This time I'm going to issue a warning — the speeding is noted in the system but there's no fine. Please drive carefully from here. Your family needs you safe, not fast. Now get to your meeting.'",
-                    "feedback": "Why: Appropriate administrative discretion for a first-time, moderate violation with genuine mitigating circumstances. You acknowledge the apology, validate the distress, exercise proportionate judgment, and close with a human note that reframes safe driving as something he is doing for his family — not for you. | CONSEQUENCES: Mr. Novak's eyes fill. His mother mouths 'thank you.' The driver will arrive at his meeting fifteen minutes late but composed — and he will tell his colleagues that the officer who stopped him was decent and fair. Trust in policing increases by one family. | Reflection: How do you recognize when a warning serves road safety and public trust better than a fine — and what gives you the confidence to use that discretion?",
+                    "text": "You pause for a moment, letting his words settle, then speak in a quiet, steady voice. 'I appreciate your honesty, sir, and I'm genuinely sorry about your daughter. I can see you're under enormous pressure and I respect that you told me.' You fill out the on-the-spot citation. 'The speeding I have to handle the way the law requires — I'm issuing you an on-the-spot fine. I'll do it right now so you can get going. And please — drive carefully. Your family needs you safe, not fast. Now get to your meeting.'",
+                    "feedback": "Why: You enforce the law consistently — you handle the offense with the on-the-spot fine it requires — but you deliver it with respect and empathy. That is the heart of de-escalation: you do not waive a penalty you are legally bound to apply, you simply apply it humanely. You acknowledge the apology, validate the distress, and close with a note that reframes safe driving as something he does for his family. | CONSEQUENCES: Mr. Novak's eyes fill. He accepts the fine without bitterness. His mother mouths 'thank you.' The driver will arrive at his meeting fifteen minutes late but composed — and he will tell his colleagues that the officer who stopped him was firm but fair. Trust in policing increases by one family. | Reflection: Why are empathy and consistent law enforcement not in conflict — and why does de-escalation not mean leaving an offense without its lawful consequence?",
                     "type": "positive",
                     "points": 12
                 },
                 {
                     "text": "You look at the driver with genuine sympathy, nodding slowly as he finishes. 'I'm sorry to hear about your situation — truly. That's a heavy load to carry.' You pull the citation from the clipboard and begin filling in the amount. 'I'll issue the fine as required by procedure, but I want you to know I appreciate your honesty and your apology. It took courage to say that.' You hand him the slip and add: 'Please drive safely — your family needs you in one piece.'",
-                    "feedback": "Why: You acknowledge his situation genuinely and add a caring personal note about his family. Issuing the fine maintains procedural integrity. However, for a first-time 25 km/h violation with clear mitigating circumstances, this was an appropriate moment for administrative discretion — a warning would have been legally sound and more proportionate. | CONSEQUENCES: The driver appreciates the human touch but leaves with a fine he might not have needed. His mother looks disappointed. He views you as kind but rigid. Trust improves somewhat but not as much as discretion would have achieved. | Reflection: When the law gives you room for a warning, how do you weigh the impact of a fine versus a warning on future compliance and public trust?",
+                    "feedback": "Why: You acknowledge his situation, add a human note about his family, and handle the offense with the fine the law requires — procedurally and legally correct. Compared with the best option, you just connect the empathy a little less to the act of enforcement itself, so it reads more as 'sympathy and fine separately' than as one human but firm step. | CONSEQUENCES: The driver appreciates the human touch and accepts the fine. His mother is grateful. He views you as kind and fair. Trust improves. | Reflection: How do you connect empathy directly to the act of enforcement so the driver feels the sanction and respect go hand in hand?",
                     "type": "partially_positive",
                     "points": 5
                 },
@@ -366,17 +368,32 @@
                 },
                 {
                     "character": "trainer",
-                    "text": "When Mr. Novak finally broke down and told you about his daughter, that vulnerability was possible only because you had spent the entire stop earning it — through transparency, through calm, through refusing to punish his fear with your authority. The warning you issued was not weakness. It was judgment. And it shaped how a man in crisis will view every officer he encounters for the rest of his life. Let me tell you what happened when he arrived at that meeting."
+                    "text": "When Mr. Novak finally broke down and told you about his daughter, that vulnerability was possible only because you had spent the entire stop earning it — through transparency, through calm, through refusing to punish his fear with your authority. The way you handled the offense — you issued the fine the law requires, but delivered it with respect — was not weakness. It was professionalism. And it shaped how a man in crisis will view every officer he encounters for the rest of his life. Let me tell you what happened when he arrived at that meeting."
                 }
             ]
         }
     ],
     "characters": {
-        "dispatcher": {"name": "Dispatcher", "avatar": "📻"},
-        "driver": {"name": "Mr. Novak (driver, 38)", "avatar": "😤"},
-        "passenger": {"name": "Mrs. Novak (mother, 65)", "avatar": "👵"},
-        "officer": {"name": "You (Officer)", "avatar": "👮"},
-        "trainer": {"name": "Sergeant Miller", "avatar": "👮‍♂️"}
+        "dispatcher": {
+            "name": "Dispatcher",
+            "avatar": "📻"
+        },
+        "driver": {
+            "name": "Mr. Novak (driver, 38)",
+            "avatar": "😤"
+        },
+        "passenger": {
+            "name": "Mrs. Novak (mother, 65)",
+            "avatar": "👵"
+        },
+        "officer": {
+            "name": "You (Officer)",
+            "avatar": "👮"
+        },
+        "trainer": {
+            "name": "Sergeant Miller",
+            "avatar": "👮‍♂️"
+        }
     },
     "performanceReviews": {
         "perfect": {
