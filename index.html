@@ -2747,6 +2747,61 @@
                 border-width: 2px;
             }
         }
+        /* EU visibility, disclaimers, contact */
+        .eu-footer {
+            max-width: 900px; margin: 3rem auto 1.5rem; padding: 1.5rem 1.25rem 1.25rem;
+            border-top: 1px solid #e2e8f0; text-align: center;
+        }
+        .eu-emblem { height: 46px; width: auto; margin-bottom: 1rem; }
+        .eu-text { color: #64748b; font-size: 0.78rem; line-height: 1.55; margin: 0 0 0.7rem; }
+        .eu-project { color: #94a3b8; font-size: 0.74rem; margin: 0 0 1rem; }
+        .eu-contact { color: #475569; font-size: 0.85rem; margin: 0; }
+        .eu-contact-btn {
+            display: inline-block; margin-left: 0.5rem; padding: 0.35rem 0.9rem;
+            background: #4f46e5; color: #fff; border: 1px solid #4f46e5;
+            border-radius: 8px; font-size: 0.85rem; font-family: inherit; cursor: pointer;
+        }
+        .eu-contact-btn:hover, .eu-contact-btn:focus-visible { background: #4338ca; }
+
+        .contact-overlay {
+            display: none; position: fixed; inset: 0;
+            background: rgba(15, 23, 42, 0.55); z-index: 4000;
+            align-items: center; justify-content: center; padding: 1rem;
+        }
+        .contact-overlay.show { display: flex; }
+        .contact-box {
+            position: relative; background: #fff; border-radius: 16px; padding: 1.5rem;
+            width: min(94vw, 520px); max-height: 90vh; overflow-y: auto; text-align: left;
+        }
+        .contact-box h2 { margin: 0 0 1rem; color: #1e293b; font-size: 1.25rem; }
+        .contact-close {
+            position: absolute; top: 0.75rem; right: 0.75rem;
+            background: none; border: none; font-size: 1.4rem; cursor: pointer; color: #64748b;
+        }
+        .contact-close:hover { background: #f1f5f9; }
+        .contact-label {
+            display: block; margin: 0.9rem 0 0.4rem;
+            color: #334155; font-size: 0.85rem; font-weight: 600;
+        }
+        .contact-types { display: flex; flex-direction: column; gap: 0.4rem; }
+        .contact-type {
+            display: flex; align-items: center; gap: 0.5rem;
+            color: #475569; font-size: 0.9rem; font-weight: 400; cursor: pointer;
+        }
+        .contact-box textarea, .contact-box input[type="email"] {
+            width: 100%; padding: 0.6rem; border: 1px solid #e2e8f0; border-radius: 8px;
+            font-family: inherit; font-size: 0.9rem; color: #1e293b; box-sizing: border-box;
+        }
+        .contact-box textarea:focus, .contact-box input[type="email"]:focus {
+            outline: 2px solid #c7d2fe; border-color: #4f46e5;
+        }
+        .contact-submit {
+            width: 100%; margin-top: 1.1rem; padding: 0.7rem 1rem;
+            background: #4f46e5; color: #fff; border: none; border-radius: 10px;
+            font-family: inherit; font-size: 0.95rem; cursor: pointer;
+        }
+        .contact-submit:hover { background: #4338ca; }
+        .contact-note { color: #64748b; font-size: 0.78rem; line-height: 1.45; margin: 0.9rem 0 0; }
     </style>
     <!-- Device & orientation detection - runs immediately, purely viewport-based -->
     <script>
@@ -3010,6 +3065,19 @@
                 <p class="scenario-subtitle" data-i18n="scenarios.subtitle">Complete scenarios, earn badges, and improve your skills</p>
             </div>
             <div class="scenario-grid" id="scenario-grid"></div>
+
+            <!-- EU visibility, disclaimers and contact -->
+            <footer class="eu-footer">
+                <img class="eu-emblem" src="assets/eu-cofunded.png"
+                     alt="Co-funded by the European Union" width="220" height="46">
+                <p class="eu-text" data-i18n="footer.disclaimer">Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the Czech National Agency (DZS). Neither the European Union nor the granting authority can be held responsible for them.</p>
+                <p class="eu-text" data-i18n="footer.liability">This game is training material, not legal advice. The POL-COM consortium gives no warranty as to the factual or legal accuracy of the scenarios and accepts no liability for how they are used. Verify the content against the law and procedures of your own jurisdiction before using it in training.</p>
+                <p class="eu-project" data-i18n="footer.project">Erasmus+ project POL-COM · Project No. 2023-1-CZ01-KA220-VET-000167148</p>
+                <p class="eu-contact">
+                    <span data-i18n="footer.contactCta">Found a bug, or something factually or legally wrong? Tell us.</span>
+                    <button type="button" class="eu-contact-btn" id="contact-open" data-i18n="contact.open">Report a bug or contact us</button>
+                </p>
+            </footer>
         </div>
 
         <!-- Review Button -->
@@ -3844,6 +3912,80 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     })();
     </script>
+
+    <script>
+    // Report a bug / contact us — composes a mailto; nothing leaves the page by itself.
+    (function () {
+        const CONTACT_ADDRESS = 'polcom@misehero.cz';
+        const overlay = document.getElementById('contact-overlay');
+        const openBtn = document.getElementById('contact-open');
+        const closeBtn = document.getElementById('contact-close');
+        if (!overlay || !openBtn) return;
+
+        const open = () => { overlay.classList.add('show'); document.getElementById('contact-message').focus(); };
+        const close = () => overlay.classList.remove('show');
+
+        openBtn.addEventListener('click', open);
+        closeBtn.addEventListener('click', close);
+        overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && overlay.classList.contains('show')) close(); });
+
+        document.getElementById('contact-submit').addEventListener('click', () => {
+            const type = (document.querySelector('input[name="contact-type"]:checked') || {}).value || 'other';
+            const message = document.getElementById('contact-message').value.trim();
+            const email = document.getElementById('contact-email').value.trim();
+
+            // Context the reporter should not have to write out by hand.
+            const lang = document.documentElement.lang || 'en';
+            let scenario = '-';
+            try { scenario = (window.gameController && gameController.currentScenario &&
+                              (gameController.currentScenario.id || gameController.currentScenario.title)) || '-'; } catch (e) {}
+
+            const subject = `POL-COM de-escalation game — ${type}`;
+            const body = [
+                message || '(no description given)',
+                '',
+                '---',
+                `Type: ${type}`,
+                `Interface language: ${lang}`,
+                `Scenario: ${scenario}`,
+                `Page: ${location.href}`,
+                `Browser: ${navigator.userAgent}`,
+                email ? `Reply to: ${email}` : ''
+            ].filter(Boolean).join('\n');
+
+            location.href = `mailto:${CONTACT_ADDRESS}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        });
+    })();
+    </script>
+
+    <!-- Report a bug / contact us -->
+    <div class="contact-overlay" id="contact-overlay" role="dialog" aria-modal="true" aria-labelledby="contact-title">
+        <div class="contact-box">
+            <button class="contact-close" id="contact-close" aria-label="Close">&times;</button>
+            <h2 id="contact-title" data-i18n="contact.title">Report a bug or contact us</h2>
+
+            <label class="contact-label" data-i18n="contact.typeLabel">What is it about?</label>
+            <div class="contact-types" id="contact-types">
+                <label class="contact-type"><input type="radio" name="contact-type" value="bug" checked>
+                    <span data-i18n="contact.typeBug">A bug or technical problem</span></label>
+                <label class="contact-type"><input type="radio" name="contact-type" value="accuracy">
+                    <span data-i18n="contact.typeFact">Something factually or legally wrong</span></label>
+                <label class="contact-type"><input type="radio" name="contact-type" value="other">
+                    <span data-i18n="contact.typeOther">A question or something else</span></label>
+            </div>
+
+            <label class="contact-label" for="contact-message" data-i18n="contact.messageLabel">Your message</label>
+            <textarea id="contact-message" rows="5" data-i18n="contact.messagePlaceholder"
+                      placeholder="Describe what happened, or what is wrong and where."></textarea>
+
+            <label class="contact-label" for="contact-email" data-i18n="contact.emailLabel">Your e-mail (optional, so we can reply)</label>
+            <input type="email" id="contact-email" autocomplete="email">
+
+            <button type="button" class="contact-submit" id="contact-submit" data-i18n="contact.submit">Open in e-mail</button>
+            <p class="contact-note" data-i18n="contact.note">This opens your e-mail app with the message prepared. Nothing is sent from this page and no data is stored here.</p>
+        </div>
+    </div>
 
 </body>
 </html>

@@ -16,10 +16,10 @@ Languages: **English · Čeština · Lietuvių · Română**.
 
 ## ⚠️ Disclaimer — please read
 
-**Funded by the European Union.** Views and opinions expressed are those of the
-authors only and do not necessarily reflect those of the European Union or the
-granting authority (Czech National Agency / EACEA). Neither the European Union
-nor the granting authority can be held responsible for them.
+**Co-funded by the European Union.** Views and opinions expressed are however
+those of the author(s) only and do not necessarily reflect those of the European
+Union or the Czech National Agency (DZS). Neither the European Union nor the
+granting authority can be held responsible for them.
 Erasmus+ project **POL-COM**, project number **2023-1-CZ01-KA220-VET-000167148**.
 
 **No guarantee of factual or legal accuracy.** The scenarios and their feedback
